@@ -1,0 +1,612 @@
+{
+  "slug": "brazil-runoff-2026",
+  "title": "Brazil's run-off: a Bolsonaro returns, narrowly ahead",
+  "deck": "Flávio Bolsonaro leads Lula by one to two points in the final polls, all within the margin of error, in a vote on 25 October that will shape Brazil's crime policy, its trade with China and the EU, and Latin America's political direction.",
+  "updated": "2026-10-19",
+  "status": "developing",
+  "region": "Brazil, Latin America",
+  "tags": [
+    "election",
+    "Brazil",
+    "Bolsonaro",
+    "Lula",
+    "commodities",
+    "EU deforestation rules",
+    "China trade",
+    "Latin America"
+  ],
+  "readingMinutes": {
+    "card": 1,
+    "brief": 5,
+    "deep": 15
+  },
+  "card": {
+    "headline": "Brazil votes on 25 October in a run-off too close to call, with the challenger slightly ahead",
+    "keyNumber": {
+      "value": "1-2 points",
+      "label": "Flávio Bolsonaro's lead over Lula in final-week polls, inside the margin of error",
+      "sourceIndex": 0
+    },
+    "impactMeter": 4,
+    "forYou": [
+      {
+        "role": "Commodity traders",
+        "line": "Brazil supplies soy and iron ore to China. A Washington-aligned president could change that relationship, but the direction is uncertain."
+      },
+      {
+        "role": "Importers into the EU",
+        "line": "EU deforestation checks on soy, beef and coffee start applying on 30 December 2026. The winner will set how Brazil handles them."
+      },
+      {
+        "role": "Investors",
+        "line": "Expect a volatile Monday 26 October either way. A margin under 2 points raises the odds of a dispute."
+      },
+      {
+        "role": "Everyone else",
+        "line": "The result is a signal on whether the anti-incumbent, cost-of-living and crime mood that is reshaping other countries reaches the largest economy in Latin America."
+      }
+    ],
+    "ripple": [
+      {
+        "label": "First-order",
+        "effects": [
+          {
+            "text": "Brazilians choose between Senator Flávio Bolsonaro, 42, and incumbent Lula, 80, on 25 October",
+            "sector": "Government"
+          },
+          {
+            "text": "A margin inside the polling error means the result could go either way and may take hours to settle",
+            "sector": "Politics"
+          },
+          {
+            "text": "Brazilian currency, stocks and bonds likely move sharply on 26 October, in either direction",
+            "sector": "Finance"
+          }
+        ]
+      },
+      {
+        "label": "Second-order",
+        "effects": [
+          {
+            "text": "A Bolsonaro win would bring a crime crackdown and a tax-cut push when the new term starts on 1 January 2027",
+            "sector": "Public policy"
+          },
+          {
+            "text": "Tax cuts would collide with fiscal limits and a fragmented Congress, so the actual policy path is uncertain",
+            "sector": "Public finance"
+          },
+          {
+            "text": "Jair Bolsonaro, serving a 27-year sentence under house arrest, becomes a live political issue, whether through pardon talk or the family's influence",
+            "sector": "Justice, politics"
+          }
+        ]
+      },
+      {
+        "label": "Third-order",
+        "effects": [
+          {
+            "text": "Brazil's trade with China in soy and iron ore could be strained if Brasília aligns with Washington",
+            "sector": "Trade, commodities"
+          },
+          {
+            "text": "Brazil's compliance and Mercosur stance on EU deforestation rules is set by the winner",
+            "sector": "Agriculture, EU trade"
+          },
+          {
+            "text": "A Bolsonaro win would extend a rightward realignment in Latin America that Washington is encouraging, alongside events in Venezuela",
+            "sector": "Geopolitics"
+          }
+        ]
+      }
+    ]
+  },
+  "brief": {
+    "whatHappened": [
+      "Brazil's first round took place on 4 October. Senator Flávio Bolsonaro, 42, took about 56.1 million votes, roughly 47%. President Lula, 80, took about 53.9 million, roughly 44.9%. Neither passed 50%, so the top two go to a run-off on 25 October.",
+      "Final-week polls give Bolsonaro a narrow lead: CNT/MDA 46.8% to 45.9%, Quaest 46% to 44%, Datafolha 47% to 45%. All three gaps are within each poll's margin of error.",
+      "Bolsonaro campaigns on a crime crackdown and tax cuts. His father, former president Jair Bolsonaro, is serving a 27-year sentence under house arrest, and that shadow runs through the campaign."
+    ],
+    "whyItMatters": [
+      "Brazil is Latin America's largest economy and a top supplier of soy and iron ore to China. A change of government in Brasília can shift commodity trade, climate policy and regional alliances.",
+      "The vote follows the same mood seen elsewhere: voter anger at incumbents, high living costs and fear of crime. Washington's team is expected to treat a Bolsonaro win as a regional prize, much as it treats events in Venezuela.",
+      "The EU's deforestation rules start to apply to large and medium operators on 30 December 2026. They cover Brazilian soy, beef and coffee. The next government decides whether to cooperate, resist or seek delay."
+    ],
+    "winners": [
+      {
+        "who": "Flávio Bolsonaro and the Bolsonaro family brand",
+        "why": "Led the first round and holds a slim lead in all three final polls. A win would restore the family to power."
+      },
+      {
+        "who": "Washington's regional strategy",
+        "why": "A right-leaning Brazil would reinforce a rightward shift that the US also backs in Venezuela."
+      },
+      {
+        "who": "Brazilian security and private-security firms",
+        "why": "A crime crackdown would likely raise public spending and demand for related services."
+      }
+    ],
+    "losers": [
+      {
+        "who": "Lula and the Workers' Party",
+        "why": "An 80-year-old incumbent trailing slightly would see the centre-left lose its anchor in the region."
+      },
+      {
+        "who": "Brazil's environmental and climate agenda",
+        "why": "Environmental groups would likely fear weaker enforcement under a Bolsonaro government, although concrete policy is not yet known."
+      },
+      {
+        "who": "Chinese commodity buyers, possibly",
+        "why": "A US-aligned Brasília could complicate soy and iron ore supply, though China's demand makes a rupture unlikely."
+      }
+    ],
+    "whatsNext": [
+      "25 October: run-off vote. Results are usually known the same evening, but a margin under 2 points could mean a long night and a challenge.",
+      "3 November: US midterms. The mood behind both votes is similar, and the outcome will shape how Washington engages with Brasília.",
+      "30 December: EU deforestation rules begin applying to large and medium operators.",
+      "1 January 2027: the new president takes office."
+    ],
+    "predict": {
+      "question": "Before you read on: what is the most likely outcome of the 25 October run-off?",
+      "options": [
+        "A narrow Bolsonaro win (under 4 points)",
+        "A comfortable Bolsonaro win (4 points or more)",
+        "A narrow Lula win (under 4 points)",
+        "A disputed result that is not accepted within a week"
+      ],
+      "answerIndex": 0,
+      "explanation": "Our base case is a narrow Bolsonaro win, at about 45%. He led the first round by about 2 points and leads all three final polls by 1 to 2 points, but each lead is inside the margin of error, so a narrow Lula win is nearly as likely at about 38%."
+    },
+    "recap": [
+      {
+        "question": "Who won the first round on 4 October?",
+        "options": [
+          "Lula",
+          "Flávio Bolsonaro",
+          "Jair Bolsonaro"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "question": "What is the size of Bolsonaro's lead in the final-week polls?",
+        "options": [
+          "1-2 points",
+          "8-10 points",
+          "Less than 0.1 point"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "question": "When do EU deforestation rules start to apply to large and medium operators?",
+        "options": [
+          "30 December 2026",
+          "1 February 2027",
+          "30 September 2027"
+        ],
+        "answerIndex": 0
+      }
+    ]
+  },
+  "deep": {
+    "timeline": [
+      {
+        "date": "2026-01-03",
+        "title": "US forces capture Nicolás Maduro",
+        "detail": "Washington's intervention in Venezuela begins a regional realignment that shapes how Brazil's vote is read abroad.",
+        "turning": false
+      },
+      {
+        "date": "2026-02-28",
+        "title": "Iran war begins",
+        "detail": "Fuel and food price rises follow worldwide. Cost of living becomes a leading issue in many elections, probably including Brazil's."
+      },
+      {
+        "date": "2026-10-04",
+        "title": "First round",
+        "detail": "Flávio Bolsonaro takes about 56.1 million votes (about 47%) to Lula's 53.9 million (about 44.9%). Neither passes 50%.",
+        "sourceIndex": 1,
+        "turning": true
+      },
+      {
+        "date": "2026-10-05",
+        "title": "First-round analysis",
+        "detail": "Commentary highlights the narrow gap and the run-off dynamics between the two camps.",
+        "sourceIndex": 1
+      },
+      {
+        "date": "2026-10-16",
+        "title": "Final-week polls favour Bolsonaro",
+        "detail": "CNT/MDA 46.8-45.9, Quaest 46-44, Datafolha 47-45. All within the margin of error.",
+        "sourceIndex": 0,
+        "turning": true
+      },
+      {
+        "date": "2026-10-25",
+        "title": "Run-off vote",
+        "detail": "Bolsonaro against Lula. The winner takes office on 1 January 2027.",
+        "turning": true
+      },
+      {
+        "date": "2026-11-03",
+        "title": "US midterm elections",
+        "detail": "All 435 House seats and 35 Senate seats are up. The result affects how Washington engages with Brazil and the region."
+      },
+      {
+        "date": "2026-12-30",
+        "title": "EU deforestation rules apply to large and medium operators",
+        "detail": "Brazilian soy, beef and coffee exporters face new checks."
+      },
+      {
+        "date": "2027-01-01",
+        "title": "Inauguration of the next president",
+        "detail": "The new government's first decisions on crime, tax and trade begin."
+      }
+    ],
+    "causes": [
+      {
+        "name": "Structural roots",
+        "when": "Years in the making",
+        "causes": [
+          {
+            "name": "Deep polarisation",
+            "detail": "Brazil has been split between the Bolsonaro and Lula camps for years. The first round was decided by about 2 points."
+          },
+          {
+            "name": "Fear of crime",
+            "detail": "Bolsonaro runs on a crime crackdown. Public safety is a durable issue in Brazilian politics."
+          },
+          {
+            "name": "Fragmented Congress",
+            "detail": "Brazil's legislature is split among many parties, so any president must bargain to pass tax or security laws."
+          }
+        ]
+      },
+      {
+        "name": "Trigger",
+        "when": "4 October 2026",
+        "causes": [
+          {
+            "name": "First round outcome",
+            "detail": "Bolsonaro finished ahead with about 47% to Lula's 44.9%, forcing a two-person run-off."
+          },
+          {
+            "name": "Age and succession",
+            "detail": "Lula is 80 and Bolsonaro is 42, so the contest also works as a generational choice."
+          }
+        ]
+      },
+      {
+        "name": "Accelerants",
+        "when": "October 2026",
+        "causes": [
+          {
+            "name": "Anti-incumbent mood",
+            "detail": "The cost-of-living and crime mood seen in the US midterms is likely at work here too. This is our judgement, not a sourced finding."
+          },
+          {
+            "name": "Jair Bolsonaro's sentence",
+            "detail": "His 27-year sentence under house arrest keeps the family in the news and drives both sympathy and opposition."
+          },
+          {
+            "name": "External signalling",
+            "detail": "Trump's team treats a Bolsonaro win as a regional prize, which could shape both campaigns' framing."
+          }
+        ]
+      }
+    ],
+    "stakeholders": [
+      {
+        "name": "Flávio Bolsonaro",
+        "role": "Challenger, senator",
+        "wants": "A win that restores the family to power",
+        "leverage": "A first-round lead and a slim lead in all three final polls",
+        "likelyMove": "Press crime and tax-cut themes, keep the focus on Lula's age and record, and stay noncommittal on his father's case"
+      },
+      {
+        "name": "Lula",
+        "role": "Incumbent president, 80",
+        "wants": "A fourth term and to protect the Workers' Party legacy",
+        "leverage": "The office, a strong base and his record on social programmes",
+        "likelyMove": "Mobilise first-round non-voters and warn of the risks of a Bolsonaro return"
+      },
+      {
+        "name": "Jair Bolsonaro",
+        "role": "Former president, serving 27 years under house arrest",
+        "wants": "Political vindication and possibly clemency",
+        "leverage": "Loyalty among supporters; the son's win would make a pardon debate real",
+        "likelyMove": "Stay in the background but keep his base energised"
+      },
+      {
+        "name": "Brazilian Congress",
+        "role": "Fragmented legislature",
+        "wants": "Influence over budgets and policy",
+        "leverage": "Any crackdown or tax-cut law must pass through it",
+        "likelyMove": "Bargain with the winner, not simply follow"
+      },
+      {
+        "name": "Trump administration",
+        "role": "External backer",
+        "wants": "A friendly government in Brasília and a wider rightward realignment in the region",
+        "leverage": "Trade, sanctions policy and political support",
+        "likelyMove": "Welcome a Bolsonaro win loudly; criticise a Lula win or question its legitimacy"
+      },
+      {
+        "name": "China",
+        "role": "Top buyer of Brazilian soy and iron ore",
+        "wants": "Stable commodity supply",
+        "leverage": "Huge demand; its export-led 4.5% growth keeps appetite for raw materials",
+        "likelyMove": "Stay pragmatic with either winner while watching for signs of US alignment"
+      },
+      {
+        "name": "European Union",
+        "role": "Regulator and trade partner",
+        "wants": "Brazilian cooperation on deforestation checks",
+        "leverage": "Market access for Brazilian soy, beef and coffee",
+        "likelyMove": "Press ahead with deforestation rules and talk to the new government about compliance"
+      }
+    ],
+    "sectors": [
+      {
+        "sector": "Brazilian financial markets",
+        "direction": "mixed",
+        "size": 3,
+        "why": "Tax cuts could be welcomed but raise fiscal worries; uncertainty and a possible dispute could cause volatility."
+      },
+      {
+        "sector": "Agribusiness (soy, beef, coffee)",
+        "direction": "mixed",
+        "size": 3,
+        "why": "A friendlier government may be popular with farmers, but EU rules and China relations create risk."
+      },
+      {
+        "sector": "Iron ore and mining",
+        "direction": "mixed",
+        "size": 2,
+        "why": "China's demand supports prices, but political alignment between Brazil and Washington could complicate flows."
+      },
+      {
+        "sector": "Private security",
+        "direction": "up",
+        "size": 1,
+        "why": "A crime crackdown would likely raise public and private security spending."
+      },
+      {
+        "sector": "EU importers",
+        "direction": "mixed",
+        "size": 2,
+        "why": "Deforestation compliance costs rise whichever side wins; a less cooperative Brasília could add friction."
+      },
+      {
+        "sector": "Environmental and climate finance",
+        "direction": "down",
+        "size": 2,
+        "why": "A Bolsonaro government might be less aligned with climate funds, although detailed policy is not yet known."
+      }
+    ],
+    "dailyLife": [
+      {
+        "item": "Personal safety and policing",
+        "effect": "A crime crackdown would change policing priorities if Bolsonaro wins. Results depend on Congress and state governments."
+      },
+      {
+        "item": "Taxes and paychecks",
+        "effect": "Tax cuts are promised but not designed in the sources we have. Impact on households is uncertain."
+      },
+      {
+        "item": "Exchange rate and imported goods",
+        "effect": "A sharp move in the real after the vote would change the price of imports and travel."
+      },
+      {
+        "item": "Coffee, beef and soy-based foods abroad",
+        "effect": "EU deforestation rules begin on 30 December 2026 and could add paperwork and cost to Brazilian supplies."
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Narrow Bolsonaro win",
+        "probability": 45,
+        "looksLike": "Bolsonaro wins by less than 4 points. Lula concedes or delays, but the result stands.",
+        "signposts": [
+          "Final polls keep a 1-2 point Bolsonaro edge",
+          "Third-candidate voters from round one split rightward"
+        ],
+        "effectOnWorld": "Washington cheers, markets wobble then steady, and attention turns to tax-cut details and his father's case."
+      },
+      {
+        "name": "Narrow Lula win",
+        "probability": 38,
+        "looksLike": "Lula wins by less than 4 points on a late turn in turnout or undecided voters.",
+        "signposts": [
+          "Polling gap closes below 1 point in the last days",
+          "High turnout in Lula's strongholds"
+        ],
+        "effectOnWorld": "The Workers' Party holds the region's largest economy; Washington is cool, and the EU and China see continuity."
+      },
+      {
+        "name": "Comfortable Bolsonaro win",
+        "probability": 10,
+        "looksLike": "Bolsonaro wins by 4 points or more.",
+        "signposts": [
+          "Polls widen beyond 3 points before the vote",
+          "Lula's camp shows signs of demobilisation"
+        ],
+        "effectOnWorld": "A strong mandate for a crime and tax agenda; rightward momentum in the region is reinforced."
+      },
+      {
+        "name": "Disputed result",
+        "probability": 7,
+        "looksLike": "A margin under 1 point with challenges, protests or delayed concession.",
+        "signposts": [
+          "Margin under 1 point",
+          "Either camp questions the count or calls for protests"
+        ],
+        "effectOnWorld": "Political instability, sharp market swings and international statements that deepen divisions."
+      }
+    ],
+    "predictions": [
+      {
+        "text": "Flávio Bolsonaro wins the 25 October run-off (probability 0.56).",
+        "horizon": "By 26 October 2026",
+        "resolves": "2026-10-26"
+      },
+      {
+        "text": "The winning margin is under 4 points (probability 0.80).",
+        "horizon": "By 26 October 2026",
+        "resolves": "2026-10-26"
+      },
+      {
+        "text": "The losing candidate publicly accepts the result within one week (probability 0.85).",
+        "horizon": "By 1 November 2026",
+        "resolves": "2026-11-01"
+      },
+      {
+        "text": "If Bolsonaro wins, his government sends a tax-cut proposal to Congress within 100 days of taking office (probability 0.50).",
+        "horizon": "By mid-April 2027",
+        "resolves": "2027-04-11"
+      }
+    ],
+    "countermeasures": [
+      {
+        "audience": "businesses",
+        "actions": [
+          "Plan for currency swings on 26 October if you have Brazilian costs or revenues.",
+          "Map Brazilian soy, beef and coffee supply against the 30 December EU deforestation start date.",
+          "Keep contingency plans for Brazil-China and Brazil-US trade friction after the new government takes office."
+        ]
+      },
+      {
+        "audience": "investors",
+        "actions": [
+          "Expect volatility on 26 October and do not assume the direction.",
+          "Treat a margin under 2 points as raising the odds of a contested outcome.",
+          "Watch the new government's first fiscal signals; tax cuts without offsets are the key risk."
+        ]
+      },
+      {
+        "audience": "households",
+        "actions": [
+          "Expect price effects through the exchange rate rather than through direct policy in the first months.",
+          "If you travel or buy imports, note currency moves after the vote.",
+          "Follow official results rather than early social-media claims."
+        ]
+      },
+      {
+        "audience": "policymakers",
+        "actions": [
+          "Prepare for an accepted but narrow result, and for the possibility of a dispute.",
+          "Open talks with the incoming government on EU deforestation compliance and Mercosur.",
+          "Coordinate messaging so that foreign reactions do not inflame a close count."
+        ]
+      }
+    ],
+    "analogues": [
+      {
+        "event": "Brazil's 2022 run-off",
+        "year": "2022",
+        "whatFollowed": "Lula beat Jair Bolsonaro by a very narrow margin (about 50.9% to 49.1%). Supporters of the loser rioted in Brasília on 8 January 2023."
+      },
+      {
+        "event": "Argentina's 2023 run-off",
+        "year": "2023",
+        "whatFollowed": "Outsider Javier Milei won a regional upset and moved quickly on austerity and a sharp currency devaluation, showing how fast a new government can change course."
+      },
+      {
+        "event": "Jair Bolsonaro's 2018 victory",
+        "year": "2018",
+        "whatFollowed": "A right-wing outsider took office and trade, China relations and environmental policy became sources of friction, a pattern that could repeat with a second Bolsonaro government."
+      }
+    ],
+    "watch": [
+      {
+        "date": "2026-10-25",
+        "title": "Run-off vote",
+        "why": "Decides the president and sets Brazil's direction on crime, tax, trade and climate."
+      },
+      {
+        "date": "2026-11-03",
+        "title": "US midterm elections",
+        "why": "Shapes how Washington engages with a new Brazilian government and the region."
+      },
+      {
+        "date": "2026-12-30",
+        "title": "EU deforestation rules start for large and medium operators",
+        "why": "The first test of how the new government handles EU compliance for soy, beef and coffee."
+      },
+      {
+        "date": "2027-01-01",
+        "title": "Inauguration",
+        "why": "First policy announcements and cabinet choices become clear."
+      },
+      {
+        "title": "Third-candidate endorsements and turnout",
+        "why": "Round-one voters outside the top two could decide a margin this tight."
+      },
+      {
+        "title": "Any move on Jair Bolsonaro's sentence",
+        "why": "A pardon or sentence review would signal how the new government handles the legacy of the family's prosecution."
+      }
+    ]
+  },
+  "evidence": {
+    "sources": [
+      {
+        "title": "Latest poll shows Bolsonaro maintaining edge over Lula in Brazil run-off",
+        "url": "https://www.aljazeera.com/news/2026/10/16/latest-poll-shows-bolsonaro-maintaining-edge-over-lula-in-brazil-run-off",
+        "publisher": "Al Jazeera",
+        "date": "2026-10-16"
+      },
+      {
+        "title": "Brazil's presidential race: Three key takeaways from the first round",
+        "url": "https://www.aljazeera.com/news/2026/10/5/brazils-presidential-race-three-key-takeaways-from-the-first-round",
+        "publisher": "Al Jazeera",
+        "date": "2026-10-05"
+      }
+    ],
+    "confidence": [
+      {
+        "claim": "First-round results (56.1m vs 53.9m votes; about 47% vs 44.9%)",
+        "level": "high",
+        "note": "From the event summary and the Al Jazeera first-round coverage."
+      },
+      {
+        "claim": "Final-week poll numbers (CNT/MDA, Quaest, Datafolha)",
+        "level": "medium",
+        "note": "Taken from the event summary and Al Jazeera poll coverage; only the leads of 1 to 2 points are certain, and polls can shift in the last days."
+      },
+      {
+        "claim": "Links to China demand, EU deforestation rules and the Venezuela realignment",
+        "level": "medium",
+        "note": "Drawn from the connected dossiers, not from sources listed here; the direction of effects is judgement."
+      },
+      {
+        "claim": "Scenario probabilities and predictions",
+        "level": "low",
+        "note": "Author judgement based on a narrow polling lead inside the margin of error. They are not sourced forecasts."
+      },
+      {
+        "claim": "Policy consequences of a Bolsonaro or Lula win",
+        "level": "low",
+        "note": "Sources describe campaign themes (crime crackdown, tax cuts) but not detailed programmes, so effects on trade, climate and fiscal policy are estimates."
+      },
+      {
+        "claim": "Historical analogues",
+        "level": "medium",
+        "note": "From general knowledge; widely reported but not cited to a listed source."
+      }
+    ],
+    "method": "This report was drafted on 19 October 2026 from two listed Al Jazeera articles, the event summary and the connected dossiers supplied. Election numbers come directly from that material. Everything about consequences, including trade effects, policy direction, market reaction, scenario probabilities and predictions, was estimated by the author and is hedged in the text. Historical analogues come from general knowledge. No chart is included because the material does not contain a real time series.",
+    "changeLog": [
+      {
+        "date": "2026-10-19",
+        "change": "First publication."
+      }
+    ]
+  },
+  "generated": {
+    "by": "Geoploitica draft script",
+    "at": "2026-10-19T20:17:59.245Z",
+    "model": "claude-sonnet-5-5",
+    "sources": 2,
+    "headlines": 2,
+    "reviewed": false
+  }
+}

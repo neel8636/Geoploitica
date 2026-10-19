@@ -1,0 +1,605 @@
+{
+  "slug": "eu-budget-2028-2034",
+  "title": "The EU's next seven-year budget",
+  "deck": "Leaders want a 2028-2034 budget deal by the end of 2026, before elections in France, Spain, Italy and Poland that could change who is at the table, and the money behind Ukraine, farming, competitiveness and aid hangs on it.",
+  "updated": "2026-10-19",
+  "status": "developing",
+  "region": "Brussels, European Union",
+  "tags": [
+    "EU budget",
+    "diplomacy",
+    "Ukraine funding",
+    "French election",
+    "cohesion and farm policy",
+    "Green Deal"
+  ],
+  "readingMinutes": {
+    "card": 1,
+    "brief": 5,
+    "deep": 15
+  },
+  "card": {
+    "headline": "EU leaders are racing to lock in a seven-year budget before the voters can change the room",
+    "keyNumber": {
+      "value": "EUR 8bn to EUR 5bn",
+      "label": "France's net EU contribution today versus the cap Marine Le Pen pledges",
+      "sourceIndex": 0
+    },
+    "impactMeter": 3,
+    "forYou": [
+      {
+        "role": "Policy and public affairs",
+        "line": "The 2028-2034 budget sets EU priorities for seven years. Leaders aim to settle it by end-2026, but deals like this usually slip."
+      },
+      {
+        "role": "Finance",
+        "line": "Not a market shock yet. The risk is political: a French president in May 2027 who wants a lower contribution and no Ukraine funding."
+      },
+      {
+        "role": "Importers and green-rule compliance",
+        "line": "The next budget helps fund enforcement of rules like EUDR and CBAM, which a Le Pen government has promised to stop."
+      },
+      {
+        "role": "Aid and NGOs",
+        "line": "The external-aid envelope is contested while Sudan's 2026 appeal is 57% unfunded."
+      },
+      {
+        "role": "Everyone",
+        "line": "Budget numbers decide how much Europe can spend on Ukraine, defence, farms and poorer regions after 2027."
+      }
+    ],
+    "ripple": [
+      {
+        "label": "First-order",
+        "effects": [
+          {
+            "text": "Leaders push for a political deal on the 2028-2034 budget by end-2026",
+            "sector": "EU institutions"
+          },
+          {
+            "text": "Macron backs a larger budget and tells EU leaders Paris wants a deal this year",
+            "sector": "Diplomacy"
+          },
+          {
+            "text": "Net payers and net recipients dig in over the size and split of the envelope",
+            "sector": "Public finance"
+          }
+        ]
+      },
+      {
+        "label": "Second-order",
+        "effects": [
+          {
+            "text": "Pressure to settle before French, Spanish, Italian and Polish elections raises the odds of rushed compromises or side-deals",
+            "sector": "Politics"
+          },
+          {
+            "text": "Ukraine funding after 2027 depends on what the budget reserves for it",
+            "sector": "Defence, Ukraine"
+          },
+          {
+            "text": "Aid, defence, competitiveness and farm lines compete for a limited pot, squeezing external aid",
+            "sector": "Aid, agriculture"
+          }
+        ]
+      },
+      {
+        "label": "Third-order",
+        "effects": [
+          {
+            "text": "A Le Pen presidency from May 2027 could veto or reopen a deal that needs every member state to agree",
+            "sector": "Geopolitics"
+          },
+          {
+            "text": "Weaker EU funding signals to Moscow that European support for Ukraine can be split",
+            "sector": "Security"
+          },
+          {
+            "text": "Green Deal rules lose enforcement money or political cover, leaving importers to guess which rules survive",
+            "sector": "Trade, regulation"
+          },
+          {
+            "text": "Famine response in places like Sudan gets less European money just as needs grow",
+            "sector": "Humanitarian"
+          }
+        ]
+      }
+    ]
+  },
+  "brief": {
+    "whatHappened": [
+      "EU leaders are trying to agree the bloc's next seven-year budget, covering 2028 to 2034, by the end of 2026. The current budget runs to the end of 2027.",
+      "The timing is deliberate. Elections are coming in France, Spain, Italy and Poland, and any of them could change a government's stance on EU money.",
+      "France under Macron backs a larger budget and has told EU leaders it wants a deal this year. The National Rally's Marine Le Pen wants France's net contribution cut from about EUR 8bn to EUR 5bn."
+    ],
+    "whyItMatters": [
+      "The budget is the EU's main tool for setting priorities. It decides how much goes to Ukraine, farms, poorer regions, defence, competitiveness and aid to the rest of the world.",
+      "Budget decisions need all member states to agree, so one government with a different view can block or reshape the deal. That is why a French election in April and May 2027 matters so much.",
+      "The Commission's July 2025 proposal was, as far as we recall, a package of about EUR 2 trillion. Leaders now have to turn that into numbers every capital will accept. We have not checked those figures against the listed source."
+    ],
+    "winners": [
+      {
+        "who": "Macron and pro-integration governments",
+        "why": "A deal this year locks in a bigger budget before a possible change of government in Paris."
+      },
+      {
+        "who": "Net recipients such as Poland",
+        "why": "An early deal protects regional and farm money before domestic politics shift."
+      },
+      {
+        "who": "Moscow",
+        "why": "Any delay or cut to EU funding for Ukraine suits its aim of weakening European support."
+      }
+    ],
+    "losers": [
+      {
+        "who": "Ukraine",
+        "why": "The budget sets the EU's capacity to fund Ukraine after 2027, and Le Pen has pledged to end French funding within six months of taking office."
+      },
+      {
+        "who": "Humanitarian crises like Sudan",
+        "why": "The external-aid envelope is contested while the 2026 Sudan appeal is 57% unfunded and famine risk is rising."
+      },
+      {
+        "who": "Importers facing new green rules",
+        "why": "The budget funds enforcement of rules like EUDR and CBAM. A French government that wants to stop them adds uncertainty."
+      }
+    ],
+    "whatsNext": [
+      "Through December 2026: leaders and the Commission try to close a deal. Slippage into 2027 is the historical norm.",
+      "30 December 2026: the EU Deforestation Regulation starts to apply to large and medium operators.",
+      "18 April and 2 May 2027: French presidential election rounds.",
+      "Spain's snap election: date not yet confirmed. A strike is planned for November.",
+      "31 December 2027: the current budget period ends, creating a hard backstop."
+    ],
+    "predict": {
+      "question": "Before you read the scenarios: what is the most likely outcome by the end of 2026?",
+      "options": [
+        "A full deal is signed by all leaders",
+        "Talks continue into 2027 with no final deal",
+        "The talks collapse and the EU extends the old budget",
+        "Le Pen wins early and the process is frozen"
+      ],
+      "answerIndex": 1,
+      "explanation": "Our base case is that a full deal does not land by 31 December. EU budget talks have usually run well past their first target. This is the author's judgement, not a sourced forecast. The pressure from elections makes a rushed partial agreement plausible, but unanimity is a hard test."
+    },
+    "recap": [
+      {
+        "question": "What period does the budget cover?",
+        "options": [
+          "2026-2030",
+          "2028-2034",
+          "2030-2036"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "question": "What net contribution cap does Le Pen pledge for France?",
+        "options": [
+          "EUR 5bn",
+          "EUR 8bn",
+          "EUR 12bn"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "question": "Why does the timing matter?",
+        "options": [
+          "Elections could change governments' positions",
+          "The euro is being replaced",
+          "The budget must be passed by referendum"
+        ],
+        "answerIndex": 0
+      }
+    ]
+  },
+  "deep": {
+    "timeline": [
+      {
+        "date": "2025-07-16",
+        "title": "Commission proposes the 2028-2034 budget",
+        "detail": "As far as we recall, a package of roughly EUR 2 trillion. Not covered in the listed source, so treat as medium confidence."
+      },
+      {
+        "date": "2026-10-12",
+        "title": "IPC famine alert for Darfur and Kordofan",
+        "detail": "War, displacement and El Niño drought raise famine risk; the Sudan appeal is 57% unfunded as of 8 October. This feeds the fight over aid in the budget."
+      },
+      {
+        "date": "2026-10-17",
+        "title": "Euronews examines what a Le Pen victory would mean for the EU",
+        "detail": "Cites her pledges to end Ukraine funding and cap France's contribution at EUR 5bn.",
+        "sourceIndex": 0,
+        "turning": true
+      },
+      {
+        "date": "2026-12-30",
+        "title": "EUDR starts to apply to large and medium operators",
+        "detail": "A Green Deal rule the next budget helps enforce."
+      },
+      {
+        "date": "2026-12-31",
+        "title": "Leaders' target date for a budget deal",
+        "detail": "The aim is to agree before elections in France, Spain, Italy and Poland."
+      },
+      {
+        "date": "2027-02-01",
+        "title": "CBAM certificate sales open",
+        "detail": "First declaration is due 30 September 2027."
+      },
+      {
+        "date": "2027-04-18",
+        "title": "French presidential election, round 1",
+        "detail": "The National Rally candidate leads at 35-36% in October polls.",
+        "turning": true
+      },
+      {
+        "date": "2027-05-02",
+        "title": "French run-off",
+        "detail": "A Le Pen win would put a budget sceptic at the table."
+      },
+      {
+        "date": "2027-12-31",
+        "title": "Current budget period ends",
+        "detail": "A backstop that forces a deal or a stopgap."
+      }
+    ],
+    "causes": [
+      {
+        "name": "Structural roots",
+        "when": "Years in the making",
+        "causes": [
+          {
+            "name": "Seven-year cycle",
+            "detail": "The budget is renegotiated once a decade-quarter, and every round pits net payers against net recipients."
+          },
+          {
+            "name": "Unanimity rule",
+            "detail": "Every member state must agree, so any one government can hold the budget hostage."
+          },
+          {
+            "name": "New demands",
+            "detail": "Defence, Ukraine, competitiveness and Green Deal enforcement all want money from a pot that cannot grow without national contributions growing."
+          }
+        ]
+      },
+      {
+        "name": "Trigger",
+        "when": "Autumn 2026",
+        "causes": [
+          {
+            "name": "Election calendar",
+            "detail": "Votes in France, Spain, Italy and Poland could reshape national positions."
+          },
+          {
+            "name": "French urgency",
+            "detail": "Macron told EU leaders Paris wants a deal this year, before the vote that could change France's stance."
+          }
+        ]
+      },
+      {
+        "name": "Accelerants",
+        "when": "October 2026",
+        "causes": [
+          {
+            "name": "Le Pen's pledges",
+            "detail": "End Ukraine funding within six months and cap France's net contribution at EUR 5bn."
+          },
+          {
+            "name": "Competing crises",
+            "detail": "Famine risk in Sudan and the Ukraine war raise demands on external funds."
+          },
+          {
+            "name": "Spanish political turmoil",
+            "detail": "A planned strike and a snap election make the Spanish government's position less certain."
+          }
+        ]
+      }
+    ],
+    "stakeholders": [
+      {
+        "name": "Emmanuel Macron",
+        "role": "French president, term-limited",
+        "wants": "A larger budget agreed this year, before the French vote",
+        "leverage": "France's weight in the Council; urgency",
+        "likelyMove": "Push for a quick deal, accept compromise on structure"
+      },
+      {
+        "name": "Marine Le Pen / National Rally",
+        "role": "Poll leader for the French presidency",
+        "wants": "Net contribution cut from about EUR 8bn to EUR 5bn; end of Ukraine funding; end of Green Deal rules",
+        "leverage": "A potential veto after May 2027",
+        "likelyMove": "Use the budget fight as campaign material"
+      },
+      {
+        "name": "European Commission",
+        "role": "Proposes and brokers the budget",
+        "wants": "A deal that funds its priorities",
+        "leverage": "Control of the draft and the agenda",
+        "likelyMove": "Press leaders to settle early"
+      },
+      {
+        "name": "Net-contributor governments",
+        "role": "Larger payers into the budget, including Germany",
+        "wants": "Limits on the size of the budget and guarantees on spending",
+        "leverage": "Their money and their veto",
+        "likelyMove": "Resist growth without reforms"
+      },
+      {
+        "name": "Poland and other net recipients",
+        "role": "Beneficiaries of regional and farm funds",
+        "wants": "Protection of cohesion and farm money",
+        "leverage": "Their votes and their own election calendar",
+        "likelyMove": "Defend existing lines"
+      },
+      {
+        "name": "Spain and Italy",
+        "role": "Large economies facing elections",
+        "wants": "A deal that does not become a campaign liability",
+        "leverage": "Votes and their weight in the Council",
+        "likelyMove": "Avoid concessions before elections"
+      },
+      {
+        "name": "Ukraine",
+        "role": "Beneficiary of EU financing",
+        "wants": "A secure post-2027 funding line",
+        "leverage": "Moral and strategic pressure; Zelensky has said lives are worth more than the price",
+        "likelyMove": "Lobby for a dedicated, protected line"
+      }
+    ],
+    "sectors": [
+      {
+        "sector": "Defence and security",
+        "direction": "up",
+        "size": 2,
+        "why": "Pressure to fund Ukraine and rearmament; amount depends on the final deal."
+      },
+      {
+        "sector": "Agriculture",
+        "direction": "mixed",
+        "size": 2,
+        "why": "Farm support competes with new priorities; outcome unclear."
+      },
+      {
+        "sector": "Regional and cohesion funds",
+        "direction": "mixed",
+        "size": 2,
+        "why": "Net recipients will defend existing lines; payers want conditions."
+      },
+      {
+        "sector": "Humanitarian and external aid",
+        "direction": "down",
+        "size": 2,
+        "why": "Contested envelope, while crises like Sudan grow."
+      },
+      {
+        "sector": "Importers facing green rules",
+        "direction": "mixed",
+        "size": 2,
+        "why": "EUDR and CBAM start in 2026-27; a French reversal would add uncertainty."
+      },
+      {
+        "sector": "EU institutions and consultancies",
+        "direction": "up",
+        "size": 1,
+        "why": "More lobbying and compliance work during a long negotiation."
+      }
+    ],
+    "dailyLife": [
+      {
+        "item": "French taxpayers",
+        "effect": "France's net contribution is about EUR 8bn a year today; Le Pen wants EUR 5bn.",
+        "sourceIndex": 0
+      },
+      {
+        "item": "Imports of coffee, wood, rubber, steel and aluminium",
+        "effect": "New EUDR and CBAM paperwork and costs from the end of 2026 and 2027."
+      },
+      {
+        "item": "Farm and regional projects",
+        "effect": "Funding decisions for 2028-2034 will shape which local projects continue. The details are not yet settled."
+      },
+      {
+        "item": "Humanitarian aid",
+        "effect": "Sudan's 2026 appeal is 57% unfunded as of 8 October; European money is one of the factors."
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Slip into 2027 and settle after the vote",
+        "probability": 50,
+        "looksLike": "No deal by 31 December. Talks continue through the French election; a revised proposal emerges in the second half of 2027.",
+        "signposts": [
+          "Leaders' summit ends with 'progress' language only",
+          "Net payers reject the Commission's size",
+          "Le Pen stays ahead in polls"
+        ],
+        "effectOnWorld": "Uncertainty over post-2027 Ukraine funding; the EU likely needs bridging arrangements."
+      },
+      {
+        "name": "Rushed political deal by early 2027",
+        "probability": 25,
+        "looksLike": "Leaders agree a compromise just before or after year-end, with vague terms and many side-deals.",
+        "signposts": [
+          "Macron-led push gains support",
+          "Big concessions to farm and cohesion lobbies"
+        ],
+        "effectOnWorld": "A deal that a future French government may try to reopen."
+      },
+      {
+        "name": "Le Pen win reopens everything",
+        "probability": 15,
+        "looksLike": "A National Rally victory in May 2027 leads to demands for a smaller French contribution, Ukraine cuts and a veto threat.",
+        "signposts": [
+          "Polls hold at 35-36% or higher",
+          "Run-off polling tightens"
+        ],
+        "effectOnWorld": "Budget talks turn into a confrontation; Ukraine's funding is in doubt; green rules are threatened."
+      },
+      {
+        "name": "Stopgap or extension",
+        "probability": 10,
+        "looksLike": "The EU rolls over current arrangements for 2028 while talks continue.",
+        "signposts": [
+          "Talk of annual budgets or transitional rules",
+          "Institutions begin contingency planning"
+        ],
+        "effectOnWorld": "Priorities freeze; new programmes start late."
+      }
+    ],
+    "predictions": [
+      {
+        "text": "There is about an 85% chance that EU leaders will not formally sign off on the full 2028-2034 budget by 31 December 2026.",
+        "horizon": "By 31 December 2026",
+        "resolves": "2027-01-15"
+      },
+      {
+        "text": "There is about a 25% chance that a complete budget deal is reached before the first round of the French election.",
+        "horizon": "By 18 April 2027",
+        "resolves": "2027-04-18"
+      },
+      {
+        "text": "There is about a 70% chance that the National Rally candidate is still first in the first-round polls just before the vote.",
+        "horizon": "April 2027",
+        "resolves": "2027-04-18"
+      },
+      {
+        "text": "There is about a 90% chance that the budget, when agreed, will provide a funding line for Ukraine after 2027, whether inside the budget or alongside it.",
+        "horizon": "By end-2027",
+        "resolves": "2027-12-31"
+      }
+    ],
+    "countermeasures": [
+      {
+        "audience": "businesses",
+        "actions": [
+          "Map exposure to EUDR (from 30 December 2026) and CBAM (from 1 February 2027) and budget compliance costs now.",
+          "Plan for scenarios where EU rules are softened or delayed, but do not assume it.",
+          "Track national election outcomes for supply-chain and subsidy changes."
+        ]
+      },
+      {
+        "audience": "investors",
+        "actions": [
+          "Treat the budget as political risk to EU cohesion and Ukraine financing rather than a market event.",
+          "Watch the French first-round polls and the run-off for signs of an EU-sceptic government.",
+          "Avoid assuming a deal by year-end."
+        ]
+      },
+      {
+        "audience": "households",
+        "actions": [
+          "No immediate action; effects on prices and services come through farm, regional and import rules over years.",
+          "Follow how the budget affects local projects and subsidies in your country."
+        ]
+      },
+      {
+        "audience": "policymakers",
+        "actions": [
+          "Separate must-fund items such as Ukraine and humanitarian needs from items that can slip.",
+          "Prepare a bridging mechanism in case no deal lands before the French vote.",
+          "Be explicit about what changes if a member state vetoes."
+        ]
+      }
+    ],
+    "analogues": [
+      {
+        "event": "2021-2027 budget and recovery fund",
+        "year": "2020",
+        "whatFollowed": "A long summit in July 2020 produced the budget plus a joint-borrowing recovery fund after months of dispute."
+      },
+      {
+        "event": "2014-2020 budget",
+        "year": "2013",
+        "whatFollowed": "Leaders settled in February 2013 after a failed first attempt, with the first real-terms cut to the EU budget."
+      },
+      {
+        "event": "Ukraine financing and Hungary's veto",
+        "year": "2023-24",
+        "whatFollowed": "A single government blocked an EU package for weeks; a deal came only after pressure and compromise in early 2024."
+      }
+    ],
+    "watch": [
+      {
+        "date": "2026-10-23",
+        "title": "Moody's review of France (see france-election-2027)",
+        "why": "French fiscal stress shapes Paris's appetite to pay more into the EU budget."
+      },
+      {
+        "date": "2026-12-30",
+        "title": "EUDR applies to large and medium operators",
+        "why": "A test of whether Green Deal enforcement holds before the budget is settled."
+      },
+      {
+        "date": "2026-12-31",
+        "title": "Leaders' target for a budget deal",
+        "why": "Missing it means talks run into the French election."
+      },
+      {
+        "date": "2027-04-18",
+        "title": "French presidential election, round 1",
+        "why": "Sets the odds of a French veto or reopening."
+      },
+      {
+        "title": "Spanish election date and November strike",
+        "why": "Spain's government position and domestic pressure on the budget talks."
+      },
+      {
+        "title": "Sudan funding appeal",
+        "why": "A sign of whether the external-aid envelope can grow."
+      }
+    ]
+  },
+  "evidence": {
+    "sources": [
+      {
+        "title": "No money for Ukraine and EU budget cuts: what could a Le Pen victory mean for the EU?",
+        "url": "https://www.euronews.com/2026/10/17/no-money-for-ukraine-and-eu-budget-cuts-what-could-a-le-pen-victory-mean-for-the-eu",
+        "publisher": "Euronews",
+        "date": "2026-10-17"
+      }
+    ],
+    "confidence": [
+      {
+        "claim": "Le Pen's pledge to cut France's net contribution from about EUR 8bn to EUR 5bn",
+        "level": "high",
+        "note": "Stated in the event summary and the cited Euronews piece."
+      },
+      {
+        "claim": "Leaders aim for a deal by end-2026 before four national elections",
+        "level": "medium",
+        "note": "From the event summary; the exact decision date and the state of talks are not in the listed source."
+      },
+      {
+        "claim": "Commission proposal of roughly EUR 2 trillion in July 2025",
+        "level": "medium",
+        "note": "General knowledge, not in the listed source; figures not checked here."
+      },
+      {
+        "claim": "Details of connected events (Sudan, Spain, EUDR and CBAM dates)",
+        "level": "medium",
+        "note": "Taken from the connection notes supplied with the event; not independently opened."
+      },
+      {
+        "claim": "Scenario probabilities and predictions",
+        "level": "low",
+        "note": "Author judgement, not a sourced forecast."
+      }
+    ],
+    "method": "Drafted from the one listed source (Euronews, 17 October 2026), the event summary and the connection notes supplied with it. No wire headlines matched. The Commission proposal figure, the unanimity rule and the historical analogues come from general knowledge and are marked as such. Scenario probabilities and prediction probabilities are estimates by the author, not sourced forecasts. No chart is included because no real series was available.",
+    "changeLog": [
+      {
+        "date": "2026-10-19",
+        "change": "First draft."
+      }
+    ]
+  },
+  "generated": {
+    "by": "Geoploitica draft script",
+    "at": "2026-10-19T20:20:45.049Z",
+    "model": "claude-sonnet-5-5",
+    "sources": 1,
+    "headlines": 0,
+    "reviewed": false
+  }
+}

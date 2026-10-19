@@ -1,0 +1,671 @@
+{
+  "slug": "us-midterms-2026",
+  "title": "US midterms 2026: House tilts Democratic, Senate a toss-up",
+  "deck": "On 3 November Americans vote in Trump's second-term midterm, with Democrats favoured to take the House on the back of war-driven fuel and grocery prices, while control of the Senate hangs on six toss-up states.",
+  "updated": "2026-10-19",
+  "status": "developing",
+  "region": "United States",
+  "tags": [
+    "US elections",
+    "midterms",
+    "Congress",
+    "cost of living",
+    "tariffs",
+    "redistricting",
+    "Iran war",
+    "Ukraine"
+  ],
+  "readingMinutes": {
+    "card": 1,
+    "brief": 5,
+    "deep": 15
+  },
+  "card": {
+    "headline": "Prices, not policy detail, are driving a midterm that points to a Democratic House and a coin-flip Senate",
+    "keyNumber": {
+      "value": "219",
+      "label": "House seats Democrats are favoured to win in Fox News Power Rankings (13 Oct), with 18 toss-ups; 218 is a majority",
+      "sourceIndex": 0
+    },
+    "impactMeter": 4,
+    "forYou": [
+      {
+        "role": "Investors",
+        "line": "Divided government is the most likely result. That usually means gridlock rather than new laws, but the Senate outcome is the swing factor and may not be clear on election night."
+      },
+      {
+        "role": "Importers and exporters",
+        "line": "Tariffs are set largely by the executive, so do not expect a quick change after 3 November. A Democratic House would mainly add scrutiny from January, starting around the 12 January USMCA comment deadline."
+      },
+      {
+        "role": "Energy and transport",
+        "line": "Fuel prices raised since the Iran war began are the main anger driver. Pump prices in the last two weeks matter more than any policy announcement."
+      },
+      {
+        "role": "Ukraine and allies",
+        "line": "A Democratic House seated in January would limit how far Trump can trade away Ukraine aid in any summit bargain with Putin and Xi."
+      },
+      {
+        "role": "Everyone",
+        "line": "Expect noisy counts, lawsuits and disputes over redrawn maps. A close House race may take days to call."
+      }
+    ],
+    "ripple": [
+      {
+        "label": "First-order",
+        "effects": [
+          {
+            "text": "All 435 House seats, 35 Senate seats and 39 governorships are on the ballot on 3 November",
+            "sector": "Elections"
+          },
+          {
+            "text": "Fox's 13 October rankings favour Democrats in at least 219 House seats, with 18 toss-ups",
+            "sector": "Congress"
+          },
+          {
+            "text": "The Senate stands 47-47 in Fox's rankings, with six toss-up states deciding control",
+            "sector": "Congress"
+          },
+          {
+            "text": "Campaign spending and attention concentrate on cost of living: gasoline, diesel and groceries",
+            "sector": "Politics"
+          }
+        ]
+      },
+      {
+        "label": "Second-order",
+        "effects": [
+          {
+            "text": "If Democrats win the House, they gain subpoena and committee powers and a veto over spending bills from January 2027",
+            "sector": "Governance"
+          },
+          {
+            "text": "Tariff and trade policy faces more scrutiny, including the USMCA annual review (comments due 12 January)",
+            "sector": "Trade"
+          },
+          {
+            "text": "Republicans in Rust Belt toss-ups are exposed to tariff pass-through on groceries and building materials",
+            "sector": "Consumer prices"
+          },
+          {
+            "text": "Trump leans on fuel-price relief messaging, such as the 28 August Venezuela oil deal, in the final two weeks",
+            "sector": "Energy"
+          }
+        ]
+      },
+      {
+        "label": "Third-order",
+        "effects": [
+          {
+            "text": "Trump's leverage over Ukraine aid in any summit bargain with Putin and Xi is reduced if the House flips",
+            "sector": "Geopolitics"
+          },
+          {
+            "text": "Canada and Mexico may read a Democratic House as a reason to hold out against US demands in trade talks",
+            "sector": "Trade diplomacy"
+          },
+          {
+            "text": "Mid-cycle redistricting fights and court cases shape the 2028 map and trust in the count",
+            "sector": "Democracy"
+          },
+          {
+            "text": "Early 2028 positioning starts on both sides, driven by what voters said about prices and the war",
+            "sector": "Politics"
+          }
+        ]
+      }
+    ]
+  },
+  "brief": {
+    "whatHappened": [
+      "Americans vote on 3 November 2026 for all 435 House seats, 35 Senate seats and 39 governorships. It is the midterm of Donald Trump's second term.",
+      "Polling averages give Democrats a lead of roughly 7 points on the generic ballot, the question that asks which party voters would back for Congress. Fox News Power Rankings of 13 October rate Democrats favoured in at least 219 House seats, with 18 toss-ups.",
+      "The Senate is closer. Fox's rankings stand at 47-47, with six toss-up states deciding control. We read that as 47 seats each rated at least leaning to one party. Republicans currently hold the chamber and the vice president breaks ties, so Democrats probably need four of the six toss-ups and Republicans three.",
+      "The dominant issue is cost of living. Gasoline, diesel and grocery prices have risen since the Iran war began on 27-28 February. Mid-cycle redistricting fights add to the uncertainty."
+    ],
+    "whyItMatters": [
+      "Congress is the main check on a president who has governed largely through executive action on tariffs, war and trade. A Democratic House would change that from January 2027, even if Republicans keep the Senate.",
+      "The result links to several other live stories. Fuel prices tie it to the Gulf energy shock. Tariff pass-through ties it to the US-Canada trade war and the USMCA annual review. A House that opposes Trump would also shape Ukraine diplomacy.",
+      "Midterms often punish the president's party, and a price shock makes that more likely. The Democrats' 7-point generic-ballot lead is large, but House control depends on district-level races and on the redrawn maps."
+    ],
+    "winners": [
+      {
+        "who": "House Democrats",
+        "why": "They are favoured for a majority, which would give them committee gavels, subpoena power and leverage over spending bills."
+      },
+      {
+        "who": "Ukraine and its European backers",
+        "why": "A Democratic House would constrain any White House plan to trade away aid in a summit deal. This is our judgement, not a sourced forecast."
+      },
+      {
+        "who": "Canadian and Mexican negotiators",
+        "why": "A divided Congress may weaken the US hand in tariff and USMCA talks, though tariff powers sit mostly with the president."
+      }
+    ],
+    "losers": [
+      {
+        "who": "House Republicans in Rust Belt toss-ups",
+        "why": "Grocery and building-material price rises from tariffs are a direct liability in these districts."
+      },
+      {
+        "who": "Trump's legislative agenda",
+        "why": "A House majority hostile to him would block new legislation and open investigations."
+      },
+      {
+        "who": "Households paying for fuel and food",
+        "why": "They are the reason for the political shift, and no outcome on 3 November lowers prices by itself."
+      }
+    ],
+    "whatsNext": [
+      "25 October: Brazil's presidential run-off, another incumbent referendum on crime and living costs.",
+      "3 November: election day. House control may take days to call if the toss-ups split evenly.",
+      "Possible run-offs or recounts in close Senate states in the weeks after.",
+      "3 January 2027: the new Congress convenes.",
+      "12 January 2027: written comments are due in the USMCA annual review, days after the new Congress sits."
+    ],
+    "predict": {
+      "question": "Before you read the scenarios: which outcome do polls and the Fox rankings make most likely?",
+      "options": [
+        "Democrats win both the House and the Senate",
+        "Democrats win the House, Republicans keep the Senate",
+        "Republicans keep both chambers",
+        "House control is not known for weeks"
+      ],
+      "answerIndex": 1,
+      "explanation": "Our base case, at about 47%, is a Democratic House and a Republican Senate. A Democratic sweep is second at about 30%. The Senate is a toss-up on paper, but the arithmetic of ties favours Republicans, because Democrats need to win more of the six toss-ups than Republicans do."
+    },
+    "recap": [
+      {
+        "question": "How many House seats do Fox's rankings say Democrats are favoured to win?",
+        "options": [
+          "At least 219",
+          "At least 250",
+          "At least 200"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "question": "How many toss-up Senate states decide control in Fox's rankings?",
+        "options": [
+          "Two",
+          "Six",
+          "Twelve"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "question": "Which issue do pollsters say is driving the Democratic lead?",
+        "options": [
+          "Cost of living, including fuel and groceries",
+          "Immigration court backlogs",
+          "Space policy"
+        ],
+        "answerIndex": 0
+      }
+    ]
+  },
+  "deep": {
+    "timeline": [
+      {
+        "date": "2026-01-03",
+        "title": "US forces capture Nicolás Maduro",
+        "detail": "Delcy Rodríguez becomes acting president of Venezuela, leading to the later oil deals that Trump cites as fuel-price relief.",
+        "turning": false
+      },
+      {
+        "date": "2026-02-27",
+        "title": "US-Israeli strikes on Iran begin",
+        "detail": "Sources date the start of the war as 27 or 28 February, probably a time-zone difference. Oil and freight costs stay elevated for eight months and become the dominant midterm issue."
+      },
+      {
+        "date": "2026-07-01",
+        "title": "First USMCA joint review",
+        "detail": "Washington declines to confirm a 16-year extension. The pact now runs to 1 July 2036 and must be reviewed every year."
+      },
+      {
+        "date": "2026-08-22",
+        "title": "US-Canada trade talks collapse",
+        "detail": "Washington imposes 50% Section 338 tariffs on about $20 billion of Canadian goods, covering wine, furniture, dairy, cement and clothing.",
+        "turning": true
+      },
+      {
+        "date": "2026-08-28",
+        "title": "Trump announces a US-Venezuela oil deal",
+        "detail": "The deal covers 17 fields. Trump presents it as a way to ease fuel prices before the election."
+      },
+      {
+        "date": "2026-09-08",
+        "title": "Canadian alcohol and dairy duties become import bans",
+        "detail": "Trump signs five proclamations. Bans take effect 29 September, and Canadian products come off GSA procurement schedules. Canada's counter-tariffs start the same day."
+      },
+      {
+        "date": "2026-10-02",
+        "title": "USTR opens the 2027 USMCA review",
+        "detail": "Written comments and hearing requests are due 12 January 2027."
+      },
+      {
+        "date": "2026-10-13",
+        "title": "Fox News Power Rankings: the House falls, the Senate stays in play",
+        "detail": "Democrats favoured in at least 219 House seats with 18 toss-ups. The Senate is rated 47-47 with six toss-ups.",
+        "sourceIndex": 0,
+        "turning": true
+      },
+      {
+        "date": "2026-10-25",
+        "title": "Brazil's presidential run-off",
+        "detail": "Flávio Bolsonaro against Lula, another incumbent referendum on crime and living costs, with Trump openly backing the Brazilian right."
+      },
+      {
+        "date": "2026-11-03",
+        "title": "US midterm election day",
+        "detail": "All House seats, 35 Senate seats and 39 governorships are decided.",
+        "sourceIndex": 1,
+        "turning": true
+      },
+      {
+        "date": "2027-01-03",
+        "title": "New Congress convenes",
+        "detail": "Control of committees and spending bills passes to whichever party has won each chamber."
+      }
+    ],
+    "causes": [
+      {
+        "name": "Structural roots",
+        "when": "Years in the making",
+        "causes": [
+          {
+            "name": "Midterm penalty",
+            "detail": "The president's party has historically lost seats at midterms. Treat this as a pattern, not a law."
+          },
+          {
+            "name": "Narrow majorities",
+            "detail": "The House is closely divided, so a small swing in a few dozen districts changes control."
+          },
+          {
+            "name": "Polarisation and redistricting",
+            "detail": "Mid-cycle redistricting fights mean the maps themselves are contested, which adds uncertainty to seat forecasts."
+          }
+        ]
+      },
+      {
+        "name": "Trigger",
+        "when": "From late February 2026",
+        "causes": [
+          {
+            "name": "Iran war price shock",
+            "detail": "Gasoline and diesel prices rose after the war began and have stayed high, feeding cost-of-living anger that pollsters link to the Democratic lead."
+          },
+          {
+            "name": "Grocery inflation",
+            "detail": "Voters feel food prices daily, and tariff pass-through is part of the story."
+          }
+        ]
+      },
+      {
+        "name": "Accelerants",
+        "when": "August to October 2026",
+        "causes": [
+          {
+            "name": "US-Canada trade war",
+            "detail": "50% tariffs, counter-tariffs and the bans on Canadian dairy and alcohol add to grocery and building-material costs, especially in Rust Belt districts."
+          },
+          {
+            "name": "USMCA uncertainty",
+            "detail": "Annual reviews keep the future of North American trade open and unsettle manufacturers."
+          },
+          {
+            "name": "Late fuel-price relief push",
+            "detail": "Trump's Venezuela oil deal is pitched as relief, but pump prices remain a Republican liability."
+          }
+        ]
+      }
+    ],
+    "stakeholders": [
+      {
+        "name": "Donald Trump",
+        "role": "President, not on the ballot",
+        "wants": "To hold both chambers and keep his freedom to act on tariffs, war and trade",
+        "leverage": "Executive action, rallies, endorsements, and the ability to announce relief measures such as the Venezuela oil deal",
+        "likelyMove": "Blame prices on the Iran war's aftermath and on foreign actors, promote fuel-price relief, and push turnout in the Senate states"
+      },
+      {
+        "name": "House Republican leadership and campaign arm",
+        "role": "Defending a narrow majority",
+        "wants": "To limit losses in Rust Belt and suburban toss-ups",
+        "leverage": "Incumbency, local ground games and redrawn maps in some states",
+        "likelyMove": "Localise races, distance candidates from tariffs on groceries, and stress border and crime"
+      },
+      {
+        "name": "Democratic leadership",
+        "role": "Challenger needing a small net gain in the House and a larger one in the Senate",
+        "wants": "A House majority at minimum; the Senate as a bonus",
+        "leverage": "A 7-point generic-ballot lead in polling averages and anger over prices",
+        "likelyMove": "Keep the campaign on cost of living and avoid distractions"
+      },
+      {
+        "name": "Independent and swing voters",
+        "role": "The decisive bloc in toss-ups",
+        "wants": "Lower prices, especially fuel and groceries",
+        "leverage": "They decide the 18 House toss-ups and the six Senate ones",
+        "likelyMove": "Punish the party in power if prices stay high"
+      },
+      {
+        "name": "State legislatures and courts",
+        "role": "Redistricting actors",
+        "wants": "Maps that favour their party and survive legal challenge",
+        "leverage": "Control of district lines and rulings on them",
+        "likelyMove": "More litigation over maps, with possible late disputes"
+      },
+      {
+        "name": "Canada, Mexico and Ukraine",
+        "role": "Foreign stakeholders reading the result",
+        "wants": "A Congress less willing to follow the White House on tariffs and Ukraine aid",
+        "leverage": "Canada's counter-tariffs; Mexico's pledge to buy more US goods; Ukraine's battlefield position",
+        "likelyMove": "Wait for the result before conceding anything in trade or summit talks"
+      }
+    ],
+    "sectors": [
+      {
+        "sector": "Energy and fuel retail",
+        "direction": "mixed",
+        "size": 3,
+        "why": "Prices are the campaign's central issue. Policy action is more likely after the election, and the outcome shapes sanctions and oil-deal decisions."
+      },
+      {
+        "sector": "Retail and grocery",
+        "direction": "down",
+        "size": 2,
+        "why": "Tariff pass-through and trade-war bans keep price pressure on shelves, and political pressure to act may rise."
+      },
+      {
+        "sector": "Dairy and alcohol (US-Canada trade)",
+        "direction": "mixed",
+        "size": 2,
+        "why": "Import bans and counter-tariffs hit exporters on both sides and could be reviewed if Congress becomes more hostile to the tariffs."
+      },
+      {
+        "sector": "Defence and Ukraine-related contractors",
+        "direction": "mixed",
+        "size": 2,
+        "why": "A Democratic House would likely protect Ukraine funding, but Senate control and any summit deal matter more."
+      },
+      {
+        "sector": "Autos and manufacturing",
+        "direction": "mixed",
+        "size": 3,
+        "why": "USMCA rules of origin and steel are at the centre of US demands, and an annual review adds uncertainty each year."
+      },
+      {
+        "sector": "Financial markets",
+        "direction": "mixed",
+        "size": 2,
+        "why": "Divided government usually reduces the chance of large new laws, which some investors like. The tail risk is a disputed count."
+      },
+      {
+        "sector": "Political media and advertising",
+        "direction": "up",
+        "size": 1,
+        "why": "Campaign spending peaks in the final two weeks."
+      }
+    ],
+    "dailyLife": [
+      {
+        "item": "Gasoline and diesel",
+        "effect": "Prices have stayed elevated since the Iran war began, and they are the main driver of voter anger."
+      },
+      {
+        "item": "Groceries",
+        "effect": "Tariffs and the trade war with Canada, including the ban on Canadian dairy, add to costs. Exact pass-through is hard to measure."
+      },
+      {
+        "item": "Building materials and furniture",
+        "effect": "Section 338 duties on cement and furniture raise costs for builders and renovators."
+      },
+      {
+        "item": "Election night",
+        "effect": "Expect delayed calls in close races, and possible recounts or runoffs in some states."
+      },
+      {
+        "item": "Taxes and spending",
+        "effect": "A Democratic House could block new tax or spending bills from January, so large changes are less likely."
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Divided Congress: Democratic House, Republican Senate",
+        "probability": 47,
+        "looksLike": "Democrats win at least 218 seats; Republicans win three or more of the six Senate toss-ups and keep control with the vice president's tie-break.",
+        "signposts": [
+          "Democrats win most of the 18 House toss-ups",
+          "Republicans hold the Senate toss-ups in the south and mountain states",
+          "The generic-ballot lead stays at 5 points or more"
+        ],
+        "effectOnWorld": "Gridlock on new laws. Oversight and investigations rise from January 2027, while Trump keeps control of nominations and most trade action."
+      },
+      {
+        "name": "Democratic sweep",
+        "probability": 30,
+        "looksLike": "Democrats take the House and win four or more of the six Senate toss-ups.",
+        "signposts": [
+          "Democrats lead in most Senate toss-up polls by late October",
+          "Fuel prices rise again in the final two weeks",
+          "Early turnout favours Democrats"
+        ],
+        "effectOnWorld": "Trump's second term faces strong congressional pushback on tariffs, nominations and Ukraine policy. Allies and trading partners may harden their stances."
+      },
+      {
+        "name": "Republican hold",
+        "probability": 15,
+        "looksLike": "Republicans keep the House with a reduced majority and the Senate.",
+        "signposts": [
+          "The generic-ballot lead shrinks well below 5 points",
+          "Redrawn maps help Republicans more than expected",
+          "Fuel prices drop noticeably before 3 November"
+        ],
+        "effectOnWorld": "The White House reads the result as endorsement, and tariff and foreign policy stay on the same course."
+      },
+      {
+        "name": "Knife-edge count",
+        "probability": 8,
+        "looksLike": "House control is unresolved for days or weeks, with recounts, lawsuits over redrawn maps and slow counts.",
+        "signposts": [
+          "More than 20 House races within 1 point",
+          "Court rulings on maps just before the vote",
+          "Disputes over counting rules"
+        ],
+        "effectOnWorld": "A period of uncertainty for markets and for allies reading US politics, with risk of angry rhetoric."
+      }
+    ],
+    "predictions": [
+      {
+        "text": "Democrats will win a House majority of at least 218 seats (probability about 0.78).",
+        "horizon": "By 20 November 2026",
+        "resolves": "2026-11-20"
+      },
+      {
+        "text": "Republicans will keep control of the Senate, counting the vice president's tie-break (probability about 0.62). Any Georgia-style runoff could push resolution into December.",
+        "horizon": "By mid-December 2026",
+        "resolves": "2026-12-15"
+      },
+      {
+        "text": "Democrats will win the national House popular vote by more than 4 points (probability about 0.65).",
+        "horizon": "By end-2026",
+        "resolves": "2026-12-31"
+      },
+      {
+        "text": "If Democrats win the House, they will open at least one formal investigation or issue a subpoena to the administration within three months of the new Congress convening (probability about 0.75).",
+        "horizon": "By April 2027",
+        "resolves": "2027-04-03"
+      },
+      {
+        "text": "The Section 338 tariffs and the Canadian dairy and alcohol bans will remain in force through the 12 January USMCA comment deadline (probability about 0.7).",
+        "horizon": "By 12 January 2027",
+        "resolves": "2027-01-12"
+      }
+    ],
+    "countermeasures": [
+      {
+        "audience": "businesses",
+        "actions": [
+          "Plan for no change in tariffs before 3 January 2027, and for a Democratic House adding scrutiny afterwards.",
+          "Prepare written comments for the 12 January 2027 USMCA review.",
+          "Stress-test supply chains for further tariff and counter-tariff moves with Canada.",
+          "Build fuel-price scenarios into logistics budgets."
+        ]
+      },
+      {
+        "audience": "investors",
+        "actions": [
+          "Treat divided government as the base case, but keep a plan for a Democratic sweep and a disputed count.",
+          "Expect volatility around election night, and avoid trading on early returns.",
+          "Watch energy prices and Senate toss-up polls more closely than national averages."
+        ]
+      },
+      {
+        "audience": "households",
+        "actions": [
+          "Expect fuel and grocery prices to stay high whatever the result.",
+          "Check your voter registration, polling place and early-voting options now.",
+          "Be patient with slow vote counts; delays do not signal fraud by themselves."
+        ]
+      },
+      {
+        "audience": "policymakers",
+        "actions": [
+          "Prepare for oversight demands from a Democratic House from January.",
+          "Brief allies on Ukraine and trade policy before the result rather than after.",
+          "Plan for legal challenges over redrawn district maps and for clear communication about counting timelines."
+        ]
+      }
+    ],
+    "analogues": [
+      {
+        "event": "2018 midterms",
+        "year": "2018",
+        "whatFollowed": "Democrats won the House with a gain of about 40 seats while Republicans added Senate seats, producing divided government and a wave of oversight."
+      },
+      {
+        "event": "2010 midterms",
+        "year": "2010",
+        "whatFollowed": "Republicans gained dozens of House seats in the first term of a president whose party was blamed for a weak economy, and legislative action stalled."
+      },
+      {
+        "event": "2006 midterms",
+        "year": "2006",
+        "whatFollowed": "Democrats took both chambers amid public anger over the Iraq war, which then dominated the final two years of the Bush presidency."
+      },
+      {
+        "event": "2022 midterms",
+        "year": "2022",
+        "whatFollowed": "A widely predicted Republican wave fell short: Republicans won a narrow House majority and Democrats held the Senate. Polls can overstate a swing."
+      }
+    ],
+    "watch": [
+      {
+        "date": "2026-10-25",
+        "title": "Brazil's presidential run-off",
+        "why": "Another incumbent referendum on crime and living costs, and an early read on whether anti-incumbent moods favour the right or left."
+      },
+      {
+        "date": "2026-11-03",
+        "title": "US election day",
+        "why": "Decides all 435 House seats, 35 Senate seats and 39 governorships."
+      },
+      {
+        "date": "2026-11-10",
+        "title": "Count and call check",
+        "why": "A week after the vote, House and Senate control should usually be clear; if not, expect recount and legal fights."
+      },
+      {
+        "date": "2027-01-03",
+        "title": "New Congress convenes",
+        "why": "Committee gavels, leadership votes and the first fights over spending and oversight."
+      },
+      {
+        "date": "2027-01-12",
+        "title": "USMCA annual review comment deadline",
+        "why": "The first test of how a new Congress handles trade policy."
+      },
+      {
+        "title": "Generic-ballot average",
+        "why": "A fall below about 5 points would raise the odds of a Republican hold."
+      },
+      {
+        "title": "US gasoline and diesel prices",
+        "why": "A new fuel spike before 3 November would reinforce the Democratic lead."
+      },
+      {
+        "title": "Redistricting rulings",
+        "why": "Late court decisions on maps can change how many seats each party can win."
+      }
+    ]
+  },
+  "evidence": {
+    "sources": [
+      {
+        "title": "Fox News Power Rankings: As the House falls, the Senate stays in play",
+        "url": "https://www.foxnews.com/politics/fox-news-power-rankings-house-falls-senate-stays-play",
+        "publisher": "Fox News",
+        "date": "2026-10-13"
+      },
+      {
+        "title": "2026 United States elections",
+        "url": "https://en.wikipedia.org/wiki/2026_United_States_elections",
+        "publisher": "Wikipedia",
+        "date": "2026-10-19"
+      }
+    ],
+    "confidence": [
+      {
+        "claim": "House ratings: Democrats favoured in at least 219 seats with 18 toss-ups",
+        "level": "medium",
+        "note": "One outlet's ratings dated 13 October. Other forecasters may differ, and ratings change weekly."
+      },
+      {
+        "claim": "Democrats lead the generic ballot by roughly 7 points",
+        "level": "medium",
+        "note": "Taken from the event brief's polling averages; not individually verified against the two listed sources."
+      },
+      {
+        "claim": "Senate stands 47-47 with six toss-ups, and Democrats need roughly four of the six",
+        "level": "low",
+        "note": "The 47-47 reading and the tie-break arithmetic are our interpretation; the Senate currently has a Republican majority and the vice president breaks ties."
+      },
+      {
+        "claim": "Redistricting fights are under way in several states",
+        "level": "medium",
+        "note": "Taken from the event summary. Specific states and map outcomes are not detailed in the listed sources."
+      },
+      {
+        "claim": "Iran war price shock is the main driver of the Democratic lead",
+        "level": "medium",
+        "note": "Pollsters are cited in the event connections; the causal link is plausible but not proven."
+      },
+      {
+        "claim": "Scenario probabilities and prediction probabilities",
+        "level": "low",
+        "note": "Author judgement, not a sourced forecast. They will be graded as events resolve."
+      },
+      {
+        "claim": "Trade, Venezuela, Brazil and Ukraine background",
+        "level": "medium",
+        "note": "Drawn from the connected event summaries supplied with this event, not from the two listed URLs."
+      }
+    ],
+    "method": "Drafted from the two listed sources (Fox News Power Rankings of 13 October and the Wikipedia overview of the 2026 US elections, 19 October), the event summary, and the connected-event briefs supplied with the event. No other URLs were opened. Seat counts and ratings come from the summary and Fox; the Senate arithmetic, scenario and prediction probabilities, the sector and stakeholder judgements, and the analogue details are estimates or general knowledge. Where the material was vague or inconsistent, such as the start date of the Iran war (27 or 28 February), both are noted. Facts about connected events were not independently checked.",
+    "changeLog": [
+      {
+        "date": "2026-10-19",
+        "change": "First publication."
+      }
+    ]
+  },
+  "generated": {
+    "by": "Geoploitica draft script",
+    "at": "2026-10-19T20:16:38.983Z",
+    "model": "claude-sonnet-5-5",
+    "sources": 2,
+    "headlines": 2,
+    "reviewed": false
+  }
+}

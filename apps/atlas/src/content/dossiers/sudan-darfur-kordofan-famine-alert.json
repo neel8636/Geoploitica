@@ -1,0 +1,665 @@
+{
+  "slug": "sudan-darfur-kordofan-famine-alert",
+  "title": "Famine warning across Darfur and Kordofan",
+  "deck": "A UN-backed famine alert says war, displacement and El Niño drought are pushing Sudan's west and south toward famine, just as the aid appeal is more than half unfunded and convoys are coming under fire.",
+  "updated": "2026-10-19",
+  "status": "developing",
+  "region": "Sudan (Greater Darfur and Greater Kordofan); Horn of Africa",
+  "tags": [
+    "famine",
+    "conflict",
+    "drought",
+    "displacement",
+    "humanitarian funding",
+    "Horn of Africa",
+    "EU budget"
+  ],
+  "readingMinutes": {
+    "card": 1,
+    "brief": 5,
+    "deep": 15
+  },
+  "card": {
+    "headline": "Sudan's war and drought are pushing Darfur and Kordofan toward famine, and the money to respond is not there",
+    "keyNumber": {
+      "value": "38%",
+      "label": "of children acutely malnourished in one South Darfur camp (30.8% in another); the famine-area threshold is 30%",
+      "sourceIndex": 0
+    },
+    "impactMeter": 4,
+    "forYou": [
+      {
+        "role": "Aid and NGO staff",
+        "line": "Expect tighter access and costlier logistics: WFP convoys were fired on 2 and 3 October, and the 2026 plan is 57% unfunded."
+      },
+      {
+        "role": "Policymakers and EU watchers",
+        "line": "Sudan's funding gap feeds the fight over the EU's external-aid envelope in the 2028-2034 budget."
+      },
+      {
+        "role": "Commodities and shipping",
+        "line": "Brent above $100 and Red Sea disruption raise the cost of moving food and fuel into Port Sudan."
+      },
+      {
+        "role": "Analysts of the Horn of Africa",
+        "line": "Sudan sits in the Cairo-Khartoum-Mogadishu bloc facing Addis Ababa, so the famine and the Ethiopia-Eritrea crisis may interact."
+      },
+      {
+        "role": "Everyone",
+        "line": "This is an early warning, not a declaration. The next steps are formal IPC classifications, and they depend on data that is hard to collect in a war."
+      }
+    ],
+    "ripple": [
+      {
+        "label": "First-order",
+        "effects": [
+          {
+            "text": "Acute malnutrition among children reaches 38% and 30.8% in two South Darfur camps, above the 30% famine threshold",
+            "sector": "Health, nutrition"
+          },
+          {
+            "text": "Drought covers more than half of Sudan's cropland, cutting the coming harvest",
+            "sector": "Agriculture"
+          },
+          {
+            "text": "WFP convoys came under fire on 2 and 3 October, limiting delivery",
+            "sector": "Humanitarian logistics"
+          },
+          {
+            "text": "8.58 million people are displaced nationwide; over 300,000 have fled Kordofan since October 2025",
+            "sector": "Displacement"
+          }
+        ]
+      },
+      {
+        "label": "Second-order",
+        "effects": [
+          {
+            "text": "With the 2026 plan 57% unfunded, agencies face ration cuts and narrower targeting (our estimate)",
+            "sector": "Aid funding"
+          },
+          {
+            "text": "Crowded camps with weak water and health services raise the risk of disease and child deaths (estimate)",
+            "sector": "Health"
+          },
+          {
+            "text": "Local food prices and fuel costs rise as harvests fail and transport is contested (estimate)",
+            "sector": "Markets"
+          },
+          {
+            "text": "More people move toward camps and possibly across borders in search of food",
+            "sector": "Migration"
+          }
+        ]
+      },
+      {
+        "label": "Third-order",
+        "effects": [
+          {
+            "text": "Sudan competes for scarce donor money with other crises, including roughly 4 million people in Tigray needing aid",
+            "sector": "Donor politics"
+          },
+          {
+            "text": "The funding gap becomes an argument in the EU's 2028-2034 budget talks over the external-aid envelope",
+            "sector": "EU budget"
+          },
+          {
+            "text": "Higher oil and freight costs from the Gulf war raise the price of every tonne of aid delivered",
+            "sector": "Energy, shipping"
+          },
+          {
+            "text": "Horn of Africa rivalries (Cairo-Khartoum-Mogadishu versus Addis Ababa) may harden as states and aid corridors are drawn into them",
+            "sector": "Geopolitics"
+          }
+        ]
+      }
+    ]
+  },
+  "brief": {
+    "whatHappened": [
+      "On 12 October 2026 an IPC Famine Review Committee issued an alert. It says war, displacement and El Niño drought are speeding up the risk of famine across Greater Darfur and Greater Kordofan.",
+      "Its headline numbers: acute malnutrition among children of 38% and 30.8% in two South Darfur camps, both above the 30% famine threshold. Drought covers more than half of Sudan's cropland. 8.58 million people are displaced nationwide, and over 300,000 have fled Kordofan since October 2025.",
+      "Aid is not keeping up. As of 8 October, the 2026 humanitarian plan was 57% unfunded. WFP convoys came under fire on 2 and 3 October. The sources we used do not say who fired."
+    ],
+    "whyItMatters": [
+      "Famine is the most severe food-insecurity classification. A warning at this scale in a country already at war means very high risks of child deaths if aid does not scale up. The IPC's formal famine label also needs mortality and food-access evidence, not malnutrition alone, so an alert is not the same as a declaration.",
+      "The causes reinforce each other. War displaces farmers and blocks roads. Drought shrinks harvests. Underfunding shrinks the response. Each makes the others worse.",
+      "The crisis reaches beyond Sudan. Brent above $100 and Red Sea disruption from the Gulf war make fuel and food aid dearer to ship to Port Sudan. The funding gap is also a live argument in the EU's 2028-2034 budget talks. Sudan is part of the Cairo-Khartoum-Mogadishu bloc facing Addis Ababa, so the Ethiopia-Eritrea crisis is not a separate story."
+    ],
+    "winners": [
+      {
+        "who": "No clear winners",
+        "why": "Famine is a loss for nearly everyone. Armed groups that control access may gain leverage over civilians and aid, but that is an analytical judgement, not a reported fact."
+      },
+      {
+        "who": "Advocates of larger aid and external-action budgets",
+        "why": "The alert strengthens the case for a bigger EU external-aid envelope in the 2028-2034 talks (our judgement)."
+      }
+    ],
+    "losers": [
+      {
+        "who": "Children and families in South Darfur camps",
+        "why": "Malnutrition rates above the famine threshold are the most direct measure of harm in the alert."
+      },
+      {
+        "who": "Displaced people in Darfur and Kordofan",
+        "why": "8.58 million are displaced nationally; over 300,000 have fled Kordofan since October 2025."
+      },
+      {
+        "who": "Farmers on drought-hit land",
+        "why": "Drought covers more than half of Sudan's cropland, which threatens both food and income."
+      },
+      {
+        "who": "Aid agencies and convoy crews",
+        "why": "They face a 57% funding gap and fire on WFP convoys on 2 and 3 October."
+      }
+    ],
+    "whatsNext": [
+      "Possible further IPC analysis and formal classification of specific areas, if data can be collected. The alert does not say when.",
+      "Pressure on donors to close the 57% gap. Watch for new pledges or ration-cut announcements by agencies.",
+      "The EU aims to agree its 2028-2034 budget by the end of 2026, with the external-aid envelope part of the argument.",
+      "Access incidents. Further attacks on convoys would show whether aid can reach Darfur and Kordofan at all."
+    ],
+    "predict": {
+      "question": "Before you read the scenarios: what is the most likely path over the next six months?",
+      "options": [
+        "A rapid aid scale-up closes the funding gap and averts famine",
+        "Alerts continue while aid remains underfunded and access stays contested",
+        "The war ends and aid flows freely",
+        "Famine is formally confirmed in many new areas at once"
+      ],
+      "answerIndex": 1,
+      "explanation": "Our base case, at about 40%, is that more areas are formally classified in famine or near it while funding stays well short and access stays contested. The slow-grind case is next at about 35%. Probabilities are our judgement, not a sourced forecast."
+    },
+    "recap": [
+      {
+        "question": "What share of the 2026 Sudan humanitarian plan was unfunded as of 8 October?",
+        "options": [
+          "27%",
+          "57%",
+          "87%"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "question": "What is the acute-malnutrition threshold for a famine area cited in the alert?",
+        "options": [
+          "10%",
+          "20%",
+          "30%"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "question": "How much of Sudan's cropland does drought cover, according to the alert?",
+        "options": [
+          "Less than a tenth",
+          "About a quarter",
+          "More than half"
+        ],
+        "answerIndex": 2
+      }
+    ]
+  },
+  "deep": {
+    "timeline": [
+      {
+        "date": "2023-04-15",
+        "title": "War begins between Sudan's army and the Rapid Support Forces",
+        "detail": "The conflict, drawn from general knowledge rather than the listed sources, has driven mass displacement and hunger since.",
+        "sourceIndex": 2
+      },
+      {
+        "date": "2024-08-01",
+        "title": "Famine confirmed in Zamzam camp, North Darfur",
+        "detail": "General knowledge, medium confidence: an IPC committee confirmed famine there in 2024, which shows the IPC has made such calls in this war before.",
+        "sourceIndex": 2
+      },
+      {
+        "date": "2025-10-01",
+        "title": "Large-scale flight from Kordofan begins",
+        "detail": "Over 300,000 people have fled Kordofan since October 2025 (start date approximate: the material gives only the month).",
+        "sourceIndex": 0
+      },
+      {
+        "date": "2026-02-27",
+        "title": "Strikes on Iran begin",
+        "detail": "Oil and freight costs have stayed high for eight months, raising the cost of moving fuel and food aid into Port Sudan."
+      },
+      {
+        "date": "2026-10-01",
+        "title": "Ethiopia and Eritrea sever diplomatic ties",
+        "detail": "A parallel Horn of Africa crisis in which Sudan is named in the bloc opposing Addis Ababa."
+      },
+      {
+        "date": "2026-10-02",
+        "title": "WFP convoy comes under fire",
+        "detail": "The first of two reported incidents. The sources used do not attribute responsibility.",
+        "sourceIndex": 0
+      },
+      {
+        "date": "2026-10-03",
+        "title": "Second WFP convoy comes under fire",
+        "detail": "Access constraints are now part of the famine alert itself.",
+        "sourceIndex": 0
+      },
+      {
+        "date": "2026-10-08",
+        "title": "Humanitarian plan is 57% unfunded",
+        "detail": "The funding gap stands at 57% for the 2026 plan.",
+        "sourceIndex": 0
+      },
+      {
+        "date": "2026-10-12",
+        "title": "IPC Famine Review Committee issues alert",
+        "detail": "Warns famine risk is accelerating across Greater Darfur and Greater Kordofan; child acute malnutrition at 38% and 30.8% in two South Darfur camps.",
+        "sourceIndex": 0,
+        "turning": true
+      },
+      {
+        "date": "2026-10-13",
+        "title": "Alert reaches regional press",
+        "detail": "Sudan Tribune reports that famine risk is surging across Darfur and Kordofan.",
+        "sourceIndex": 1
+      }
+    ],
+    "causes": [
+      {
+        "name": "Structural roots",
+        "when": "2023 onward",
+        "causes": [
+          {
+            "name": "Prolonged war",
+            "detail": "Fighting since April 2023 has displaced millions and disrupted farming, markets and roads."
+          },
+          {
+            "name": "Fragile food system",
+            "detail": "Sudan depends on rain-fed farming and on trade routes that fighting keeps cutting (general knowledge, not in the sources)."
+          },
+          {
+            "name": "Chronic aid dependence",
+            "detail": "With 8.58 million people displaced, much of the population relies on humanitarian deliveries that are now underfunded."
+          }
+        ]
+      },
+      {
+        "name": "Trigger",
+        "when": "Late 2025 to October 2026",
+        "causes": [
+          {
+            "name": "Kordofan displacement",
+            "detail": "Over 300,000 have fled Kordofan since October 2025."
+          },
+          {
+            "name": "El Niño drought",
+            "detail": "Drought now covers more than half of Sudan's cropland."
+          },
+          {
+            "name": "Camp malnutrition crossing the threshold",
+            "detail": "Child acute malnutrition reached 38% and 30.8% in two South Darfur camps."
+          }
+        ]
+      },
+      {
+        "name": "Accelerants",
+        "when": "October 2026",
+        "causes": [
+          {
+            "name": "Attacks on convoys",
+            "detail": "WFP convoys came under fire on 2 and 3 October."
+          },
+          {
+            "name": "Funding collapse",
+            "detail": "The 2026 plan was 57% unfunded on 8 October."
+          },
+          {
+            "name": "High fuel and freight costs",
+            "detail": "Brent above $100 and Red Sea disruption from the Gulf war make aid dearer to ship."
+          },
+          {
+            "name": "Regional distraction",
+            "detail": "The Ethiopia-Eritrea crisis, with about 4 million people in Tigray needing aid, competes for attention and money."
+          }
+        ]
+      }
+    ],
+    "stakeholders": [
+      {
+        "name": "IPC Famine Review Committee",
+        "role": "Independent technical body issuing the alert",
+        "wants": "Action before deaths rise, backed by credible data",
+        "leverage": "Its classifications shape donor and UN decisions",
+        "likelyMove": "Follow up with further analysis as data allows; the sources give no dates"
+      },
+      {
+        "name": "WFP and UN agencies",
+        "role": "Main food-aid deliverers",
+        "wants": "Safe access and funding for the 2026 plan",
+        "leverage": "Logistics networks and public appeals",
+        "likelyMove": "Press donors and parties for access; prioritise the most severe areas (estimate)"
+      },
+      {
+        "name": "Sudan's army and its civilian authorities",
+        "role": "Parties to the war; the army-aligned side is based in Port Sudan",
+        "wants": "Military and political advantage; control over aid access",
+        "leverage": "Permissions, ports and checkpoints",
+        "likelyMove": "Not stated in the sources; we judge that access disputes will continue"
+      },
+      {
+        "name": "Rapid Support Forces and other armed groups",
+        "role": "Parties to the war in Darfur and Kordofan",
+        "wants": "Territory and legitimacy",
+        "leverage": "Control of roads and areas where aid must pass",
+        "likelyMove": "Not stated in the sources; the alert notes that fighting and displacement continue"
+      },
+      {
+        "name": "Donors (EU, member states, others)",
+        "role": "Providers of the funding behind the plan",
+        "wants": "Value, access guarantees and burden-sharing",
+        "leverage": "Money, and in the EU's case the 2028-2034 budget envelope",
+        "likelyMove": "Mixed: appeals for more, but budgets under pressure from other crises (judgement)"
+      },
+      {
+        "name": "Cairo-Khartoum-Mogadishu bloc and Addis Ababa",
+        "role": "Regional rivals; Sudan is named in the bloc opposing Ethiopia",
+        "wants": "Influence in the Horn of Africa and Red Sea",
+        "leverage": "Borders, ports and diplomatic backing",
+        "likelyMove": "Continue positioning over the Ethiopia-Eritrea crisis; effects on Sudan's aid routes are uncertain"
+      },
+      {
+        "name": "Displaced families",
+        "role": "Those most affected",
+        "wants": "Food, safety, water and health care",
+        "leverage": "Very little",
+        "likelyMove": "Keep moving toward camps and safer areas as food runs short"
+      }
+    ],
+    "sectors": [
+      {
+        "sector": "Sudanese agriculture",
+        "direction": "down",
+        "size": 3,
+        "why": "Drought covers more than half of cropland and displacement removes farmers from the land."
+      },
+      {
+        "sector": "Humanitarian logistics",
+        "direction": "down",
+        "size": 3,
+        "why": "Convoys were fired on 2 and 3 October and freight and fuel costs remain high."
+      },
+      {
+        "sector": "Health and nutrition services",
+        "direction": "down",
+        "size": 3,
+        "why": "Child acute malnutrition above 30% in two camps signals services that are overstretched."
+      },
+      {
+        "sector": "Red Sea and Port Sudan shipping",
+        "direction": "down",
+        "size": 2,
+        "why": "Red Sea disruption and Brent above $100 raise the cost of reaching Port Sudan."
+      },
+      {
+        "sector": "EU external-aid budget debate",
+        "direction": "mixed",
+        "size": 2,
+        "why": "The 57% gap strengthens calls for more aid, but leaders face tight budgets and elections in France, Spain, Italy and Poland."
+      },
+      {
+        "sector": "Regional food and fuel markets",
+        "direction": "mixed",
+        "size": 1,
+        "why": "Scarcity in Sudan may lift prices at the borders; the size of the effect is not in the sources (estimate)."
+      }
+    ],
+    "dailyLife": [
+      {
+        "item": "Food",
+        "effect": "For families in the affected areas, drought and displacement reduce what can be grown and bought; child acute malnutrition is at 38% and 30.8% in two South Darfur camps.",
+        "sourceIndex": 0
+      },
+      {
+        "item": "Aid rations",
+        "effect": "With the plan 57% unfunded, agencies may have to cut or narrow rations. This is our estimate, not a reported decision.",
+        "sourceIndex": 0
+      },
+      {
+        "item": "Moving around",
+        "effect": "Fire on WFP convoys on 2 and 3 October shows how risky roads are for both aid workers and civilians.",
+        "sourceIndex": 0
+      },
+      {
+        "item": "Fuel at the pump abroad",
+        "effect": "The same Gulf war that raises aid-shipping costs also pushed French diesel to a record EUR 2.41 a litre in September."
+      },
+      {
+        "item": "Taxes and donations",
+        "effect": "For readers in the EU, the argument over how much to spend on external aid in 2028-2034 is a question of how much of the common budget goes to crises like this."
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "More famine classifications",
+        "probability": 40,
+        "looksLike": "Further IPC analysis confirms famine or famine-like conditions in more localities of Darfur and Kordofan as the lean period bites; the funding gap stays above 40%.",
+        "signposts": [
+          "New IPC or FRC analysis with famine classifications",
+          "Reports of rising child deaths from agencies",
+          "Further attacks on convoys"
+        ],
+        "effectOnWorld": "Louder donor appeals, more pressure on the EU external-aid budget, and more displacement toward camps and borders."
+      },
+      {
+        "name": "Slow grind",
+        "probability": 35,
+        "looksLike": "Alerts continue, aid is partial, access is contested, and agencies prioritise the worst areas without a breakthrough.",
+        "signposts": [
+          "Funding gap narrows only slightly",
+          "No agreed humanitarian pause",
+          "Agencies announce ration cuts"
+        ],
+        "effectOnWorld": "A chronic emergency that keeps displacing people and draws steady but insufficient attention."
+      },
+      {
+        "name": "Regional spillover",
+        "probability": 15,
+        "looksLike": "Escalation in the Ethiopia-Eritrea crisis and Red Sea tension disrupt aid corridors or draw in the Cairo-Khartoum-Mogadishu bloc more directly, and displacement crosses borders.",
+        "signposts": [
+          "Fighting spreads beyond Tigray",
+          "Red Sea shipping disruption deepens",
+          "Border crossings from Sudan surge"
+        ],
+        "effectOnWorld": "A wider Horn of Africa crisis that competes for aid and attention."
+      },
+      {
+        "name": "Access and funding breakthrough",
+        "probability": 10,
+        "looksLike": "A humanitarian pause or new corridors combine with a large donor top-up that cuts the funding gap sharply.",
+        "signposts": [
+          "Announced access agreements",
+          "Large new pledges",
+          "Convoys complete deliveries without incident"
+        ],
+        "effectOnWorld": "Famine risk eases in the most exposed areas, though the underlying war and drought remain."
+      }
+    ],
+    "predictions": [
+      {
+        "text": "About 65%: the IPC or its Famine Review Committee will classify at least one additional locality in Darfur or Kordofan as in famine or famine-like conditions.",
+        "horizon": "By 30 June 2027",
+        "resolves": "2027-06-30"
+      },
+      {
+        "text": "About 85%: Sudan's 2026 humanitarian plan will still be more than 40% unfunded at year-end.",
+        "horizon": "By 31 December 2026",
+        "resolves": "2026-12-31"
+      },
+      {
+        "text": "About 60%: at least one more attack on or serious obstruction of a WFP or UN aid convoy in Sudan will be publicly reported.",
+        "horizon": "By 31 January 2027",
+        "resolves": "2027-01-31"
+      },
+      {
+        "text": "About 45%: EU leaders will not agree the 2028-2034 budget by the end-2026 target.",
+        "horizon": "By 31 December 2026",
+        "resolves": "2026-12-31"
+      },
+      {
+        "text": "About 25%: a formal humanitarian pause or access agreement for Darfur or Kordofan will be announced.",
+        "horizon": "By 30 April 2027",
+        "resolves": "2027-04-30"
+      }
+    ],
+    "countermeasures": [
+      {
+        "audience": "businesses",
+        "actions": [
+          "Review exposure to Port Sudan, Red Sea routes and Sudan's neighbours; add buffers and force-majeure clauses.",
+          "Plan for higher fuel and freight costs while Brent stays above $100.",
+          "If you operate in the region, update staff safety plans given fire on convoys on 2 and 3 October."
+        ]
+      },
+      {
+        "audience": "investors",
+        "actions": [
+          "Treat Sudan and the wider Horn of Africa as a cluster of linked risks, including the Ethiopia-Eritrea crisis.",
+          "Watch Red Sea shipping and oil prices for contagion to freight costs.",
+          "Track the EU 2028-2034 budget outcome for aid-related spending."
+        ]
+      },
+      {
+        "audience": "households",
+        "actions": [
+          "If you donate, consider established humanitarian groups working in Sudan, and check how they handle access and security.",
+          "Expect fuel and food prices to stay elevated while the Gulf war continues."
+        ]
+      },
+      {
+        "audience": "policymakers",
+        "actions": [
+          "Close the 57% funding gap with front-loaded money rather than late pledges.",
+          "Press all parties for safe, predictable convoy access and investigate attacks on aid.",
+          "Ring-fence external aid in the 2028-2034 budget negotiations rather than trading it away.",
+          "Coordinate Sudan and Tigray appeals so that donors do not treat them as rivals."
+        ]
+      }
+    ],
+    "analogues": [
+      {
+        "event": "Famine in Somalia",
+        "year": "2011",
+        "whatFollowed": "General knowledge: early warnings preceded a famine in which many people died; the delay in response became a lesson for donors on acting early."
+      },
+      {
+        "event": "Zamzam camp famine confirmation, Darfur",
+        "year": "2024",
+        "whatFollowed": "General knowledge, medium confidence: famine was confirmed in a Darfur camp during this same war; response remained limited by access and funding."
+      },
+      {
+        "event": "Tigray crisis",
+        "year": "2020-22",
+        "whatFollowed": "General knowledge: war, access limits and hunger combined; this shows how conflict blocks aid even when need is well documented."
+      }
+    ],
+    "watch": [
+      {
+        "date": "2026-12-31",
+        "title": "EU target to agree the 2028-2034 budget",
+        "why": "The external-aid envelope is a source of money for crises like Sudan; a miss pushes the decision into an election-heavy 2027."
+      },
+      {
+        "title": "Next IPC or FRC analysis",
+        "why": "A formal classification would move the debate from warning to confirmed famine; no date is given in the sources."
+      },
+      {
+        "title": "WFP convoy access",
+        "why": "Further incidents like those on 2 and 3 October show whether aid can physically reach Darfur and Kordofan."
+      },
+      {
+        "title": "Funding gap",
+        "why": "The 2026 plan was 57% unfunded on 8 October; any big pledge or ration-cut announcement changes the outlook."
+      },
+      {
+        "title": "Ethiopia-Eritrea and the Red Sea",
+        "why": "Escalation could disrupt aid corridors and raise shipping costs."
+      },
+      {
+        "title": "Oil and freight prices",
+        "why": "Brent above $100 makes each aid delivery more expensive."
+      }
+    ]
+  },
+  "evidence": {
+    "sources": [
+      {
+        "title": "Sudan: Drought and war push Darfur and Kordofan towards famine",
+        "url": "https://news.un.org/en/story/2026/10/1168577",
+        "publisher": "UN News",
+        "date": "2026-10-12"
+      },
+      {
+        "title": "Famine risk surges across Sudan's Darfur and Kordofan regions, alert warns",
+        "url": "https://sudantribune.com/article/319889",
+        "publisher": "Sudan Tribune",
+        "date": "2026-10-13"
+      },
+      {
+        "title": "Integrated Food Security Phase Classification (IPC)",
+        "url": "https://www.ipcinfo.org/",
+        "publisher": "IPC"
+      }
+    ],
+    "confidence": [
+      {
+        "claim": "Child acute malnutrition of 38% and 30.8% in two South Darfur camps",
+        "level": "high",
+        "note": "Taken from the event record based on the IPC alert; I could not check the underlying IPC document."
+      },
+      {
+        "claim": "8.58 million displaced; over 300,000 fled Kordofan since October 2025; drought covers more than half of cropland",
+        "level": "high",
+        "note": "From the event summary and the two cited articles; the figures come from UN and IPC reporting."
+      },
+      {
+        "claim": "Plan 57% unfunded as of 8 October; WFP convoys fired on 2 and 3 October",
+        "level": "medium",
+        "note": "From the event summary; who fired on the convoys is not stated in the material and is left open."
+      },
+      {
+        "claim": "Famine thresholds and what the IPC requires for a formal famine classification",
+        "level": "medium",
+        "note": "General knowledge: a 30% acute-malnutrition level is one of several criteria, alongside food-consumption and mortality measures. Not drawn from the listed articles."
+      },
+      {
+        "claim": "War began April 2023; famine confirmed at Zamzam in 2024",
+        "level": "medium",
+        "note": "General knowledge, not in the listed sources; dates are approximate."
+      },
+      {
+        "claim": "Effects on ration cuts, disease, prices and migration",
+        "level": "low",
+        "note": "Our estimates of likely consequences; not reported facts."
+      },
+      {
+        "claim": "Scenario probabilities and predictions",
+        "level": "low",
+        "note": "Author judgement, not a sourced forecast."
+      }
+    ],
+    "method": "Drafted from the two listed sources (UN News and Sudan Tribune), the matched headlines and the event summary, plus three connected events (Ethiopia-Eritrea, the Gulf energy shock and the EU 2028-2034 budget) already judged elsewhere. I could not read the full IPC alert, so the figures are as summarised in the event record. Background on the war, the 2024 famine finding and IPC thresholds comes from general knowledge and is flagged as medium confidence. Effects on aid rations, disease, prices and displacement, along with scenario probabilities and predictions, are estimates by the author.",
+    "changeLog": [
+      {
+        "date": "2026-10-19",
+        "change": "First publication."
+      }
+    ]
+  },
+  "generated": {
+    "by": "Geoploitica draft script",
+    "at": "2026-10-19T20:23:09.002Z",
+    "model": "claude-sonnet-5-5",
+    "sources": 2,
+    "headlines": 2,
+    "reviewed": false
+  }
+}
