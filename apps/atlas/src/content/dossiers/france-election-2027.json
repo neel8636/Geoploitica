@@ -1,0 +1,673 @@
+{
+  "slug": "france-election-2027",
+  "title": "The French presidential election, April 2027",
+  "deck": "A far-right candidate leads the polls at 35-36% six months out, promising to end Ukraine funding and cut France's EU bill, in a country the autumn riots left angry and short of money.",
+  "updated": "2026-10-19",
+  "status": "developing",
+  "region": "France, European Union",
+  "tags": [
+    "election",
+    "far right",
+    "Ukraine",
+    "EU budget",
+    "sovereign debt",
+    "Green Deal"
+  ],
+  "readingMinutes": {
+    "card": 1,
+    "brief": 5,
+    "deep": 15
+  },
+  "card": {
+    "headline": "France votes on 18 April 2027, and the front-runner wants to defund Ukraine and shrink France's EU bill",
+    "keyNumber": {
+      "value": "35-36%",
+      "label": "first-round polling for the National Rally candidate in October 2026",
+      "sourceIndex": 0
+    },
+    "impactMeter": 4,
+    "forYou": [
+      {
+        "role": "Ukraine and defence",
+        "line": "France has committed about EUR 27bn and co-leads the Coalition of the Willing. Plan for a scenario in which Paris steps back from mid-2027."
+      },
+      {
+        "role": "Finance",
+        "line": "A record EUR 340bn must be raised in 2027 at about 140 basis points over Germany. Polls and budget votes now move French bonds, so treat election risk as part of the price."
+      },
+      {
+        "role": "Importers and EU trade",
+        "line": "A government hostile to the Green Deal could slow enforcement of the deforestation and carbon-border rules. Do not count on delays yet: the rules start 30 December 2026 and 1 February 2027."
+      },
+      {
+        "role": "Everyone",
+        "line": "The first round is 18 April and the run-off 2 May. Past run-offs have been won by the anti-National Rally side, but not by a safe margin this time."
+      }
+    ],
+    "ripple": [
+      {
+        "label": "First-order",
+        "effects": [
+          {
+            "text": "Campaign framed as order versus austerity after the October riots",
+            "sector": "Politics"
+          },
+          {
+            "text": "Le Pen pledges to end Ukraine funding within six months and cap France's EU contribution at about EUR 5bn",
+            "sector": "Foreign policy"
+          },
+          {
+            "text": "Election risk added to French bonds, already stressed by debt at 119% of GDP",
+            "sector": "Finance"
+          },
+          {
+            "text": "EU leaders race to agree the 2028-2034 budget before French, Spanish, Italian and Polish votes",
+            "sector": "EU institutions"
+          }
+        ]
+      },
+      {
+        "label": "Second-order",
+        "effects": [
+          {
+            "text": "Kyiv and European capitals plan for a gap in French military and financial support",
+            "sector": "Defence"
+          },
+          {
+            "text": "Budget talks harden: Le Pen calls a pre-election deal anti-democratic, Macron backs a larger budget",
+            "sector": "EU budget"
+          },
+          {
+            "text": "Any government must pass a fiscal fix with no stable majority, so cuts stay politically costly before the vote",
+            "sector": "Public finance"
+          },
+          {
+            "text": "Meloni and Le Pen split on Ukraine, testing whether Europe's right stays united on Russia",
+            "sector": "European politics"
+          }
+        ]
+      },
+      {
+        "label": "Third-order",
+        "effects": [
+          {
+            "text": "If the National Rally wins: France leaves the lead of the Coalition of the Willing, and Moscow gains leverage in any Ukraine deal",
+            "sector": "Geopolitics"
+          },
+          {
+            "text": "A hostile French government would slow enforcement of the deforestation and carbon-border rules and press for exemptions",
+            "sector": "Trade, climate"
+          },
+          {
+            "text": "Sustained French political risk could shift the euro-area core, with investors treating France as a periphery-style credit",
+            "sector": "Markets"
+          }
+        ]
+      }
+    ]
+  },
+  "brief": {
+    "whatHappened": [
+      "France elects its next president in two rounds. The first is on 18 April 2027, and the run-off between the top two is on 2 May. President Macron cannot run again.",
+      "In October 2026 polls, the National Rally candidate leads the first round with 35-36%. The material treats Marine Le Pen as that candidate. Her 2025 criminal conviction put her eligibility in legal doubt, and the sources used here do not settle it. This report calls the party's candidate 'the National Rally candidate' where the point matters.",
+      "Le Pen has pledged to end French funding for Ukraine within six months of taking office and to cap France's net EU contribution at about EUR 5bn, down from about EUR 8bn. She also calls the push to agree the EU's next seven-year budget before the French vote anti-democratic. Zelensky answered by saying lives are worth more than the price."
+    ],
+    "whyItMatters": [
+      "France is the EU's second-largest economy, a nuclear power and a permanent UN Security Council member. It has committed about EUR 27bn to Ukraine and co-leads the Coalition of the Willing. A change of line in Paris would shift what Europe can offer Kyiv.",
+      "The vote lands in a fiscal and social squeeze. Debt is 119% of GDP, France pays about 140 basis points over Germany to borrow, and it must raise a record EUR 340bn in 2027. Moody's reviews the Aa3 negative rating on 23 October. In October, about 550,000 people marched in one day and roughly 2,400 were arrested.",
+      "The result also feeds other 2027 decisions: the EU budget, the Green Deal rules (the deforestation law from 30 December 2026, carbon-border certificates from 1 February 2027) and Italy's election, where Meloni backs Ukraine."
+    ],
+    "winners": [
+      {
+        "who": "National Rally",
+        "why": "It leads the polls and benefits when the campaign is about order, living costs and distrust of the state."
+      },
+      {
+        "who": "Moscow",
+        "why": "A French pullback from Ukraine would weaken European unity and its bargaining position in any peace talks, including the summit Putin is seeking with Trump and Xi."
+      },
+      {
+        "who": "Safe-haven assets such as German Bunds",
+        "why": "Investors tend to buy them when French political risk rises."
+      }
+    ],
+    "losers": [
+      {
+        "who": "Macron and the centrist bloc",
+        "why": "The riots and the budget fight leave it with little political capital and no candidate known to lead."
+      },
+      {
+        "who": "Ukraine",
+        "why": "France is a leading supporter. A cut would hit hardest at the EU level and in the Coalition of the Willing."
+      },
+      {
+        "who": "Advocates of a larger EU budget",
+        "why": "A French government wanting a smaller contribution weakens the case for the 2028-2034 package."
+      },
+      {
+        "who": "Importers facing the deforestation and carbon-border rules",
+        "why": "Uncertainty over enforcement makes compliance planning harder, and delays could favour firms that did not prepare."
+      }
+    ],
+    "whatsNext": [
+      "23 October 2026: Moody's reviews France's Aa3 negative rating.",
+      "Before end-2026: EU leaders try to agree the 2028-2034 budget. Slippage past the French vote is possible.",
+      "30 December 2026 and 1 February 2027: the EU deforestation rules start for large and medium operators, and carbon-border certificate sales open.",
+      "18 April 2027: first round. 2 May 2027: run-off. The new president takes over in mid-May."
+    ],
+    "predict": {
+      "question": "Before you read the scenarios: what is the most likely first-round result on 18 April 2027?",
+      "options": [
+        "The National Rally candidate finishes first and reaches the run-off",
+        "A centrist candidate finishes first",
+        "A left-wing candidate finishes first",
+        "The National Rally candidate is eliminated in round one"
+      ],
+      "answerIndex": 0,
+      "explanation": "Our judgement, at roughly 70%, is that the National Rally candidate finishes first, since polls show 35-36% in October. A first-place finish does not guarantee a win: in 2017 and 2022 the National Rally lost the run-off, and in 2024 it led round one of the legislative vote yet finished third in seats. Our odds of a National Rally presidency are about 38%."
+    },
+    "recap": [
+      {
+        "question": "When is the first round of the election?",
+        "options": [
+          "18 April 2027",
+          "2 May 2027",
+          "23 October 2026"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "question": "What cap on France's EU contribution does Le Pen propose?",
+        "options": [
+          "About EUR 5bn",
+          "About EUR 8bn",
+          "About EUR 27bn"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "question": "What does Le Pen pledge on Ukraine funding?",
+        "options": [
+          "End it within six months",
+          "Double it",
+          "Move it to the EU budget"
+        ],
+        "answerIndex": 0
+      }
+    ]
+  },
+  "deep": {
+    "timeline": [
+      {
+        "date": "2024-06-09",
+        "title": "Macron dissolves the National Assembly",
+        "detail": "The vote that followed left France without a stable majority, a problem that persists in 2026.",
+        "turning": true
+      },
+      {
+        "date": "2025-03-31",
+        "title": "Le Pen convicted in an embezzlement case",
+        "detail": "The court barred her from running for office with immediate effect and the ruling went to appeal. The sources used for this report do not state the appeal outcome, so her eligibility is treated as unconfirmed."
+      },
+      {
+        "date": "2026-10-17",
+        "title": "550,000 march; about 2,400 arrested",
+        "detail": "The nationwide cost-of-living unrest set the terms of the campaign: order versus austerity."
+      },
+      {
+        "date": "2026-10-17",
+        "title": "Euronews sets out what a Le Pen victory could mean",
+        "detail": "Reporting covers her pledges to end Ukraine funding and cap France's EU contribution.",
+        "sourceIndex": 1
+      },
+      {
+        "date": "2026-10-19",
+        "title": "Polling shows the National Rally candidate at 35-36%",
+        "detail": "October polls give the party's candidate a clear first-round lead.",
+        "sourceIndex": 0,
+        "turning": true
+      },
+      {
+        "date": "2026-10-23",
+        "title": "Moody's reviews France's Aa3 negative rating",
+        "detail": "A downgrade would raise borrowing costs and strengthen the order-and-fiscal-fix message in the campaign."
+      },
+      {
+        "date": "2026-12-30",
+        "title": "EU deforestation rules start for large and medium operators",
+        "detail": "A hostile French government could slow enforcement, but the rules apply before the election."
+      },
+      {
+        "date": "2027-02-01",
+        "title": "Carbon-border certificate sales open",
+        "detail": "The first declaration is due 30 September 2027, after the new president takes office."
+      },
+      {
+        "date": "2027-04-18",
+        "title": "First round of the presidential election",
+        "detail": "The top two candidates go to a run-off.",
+        "turning": true
+      },
+      {
+        "date": "2027-05-02",
+        "title": "Run-off",
+        "detail": "The winner takes over from Macron in mid-May.",
+        "turning": true
+      }
+    ],
+    "causes": [
+      {
+        "name": "Structural roots",
+        "when": "Years in the making",
+        "causes": [
+          {
+            "name": "Fiscal squeeze",
+            "detail": "Debt at 119% of GDP and a record EUR 340bn to raise in 2027 leave little room to buy peace or promise relief."
+          },
+          {
+            "name": "Political fragmentation",
+            "detail": "No stable majority since 2024. Macron cannot run again, so no incumbent bloc has a clear successor."
+          },
+          {
+            "name": "Distrust of the state",
+            "detail": "Public services, living costs and policing fuel a vote that rewards parties outside the governing centre."
+          }
+        ]
+      },
+      {
+        "name": "Trigger",
+        "when": "October 2026",
+        "causes": [
+          {
+            "name": "The riots",
+            "detail": "School blockades became nationwide cost-of-living unrest, with about 550,000 marching on 17 October and roughly 2,400 arrests in one day."
+          },
+          {
+            "name": "Bond stress",
+            "detail": "A spread of about 140 basis points and the Moody's review make fiscal credibility a campaign issue."
+          }
+        ]
+      },
+      {
+        "name": "Accelerants",
+        "when": "Through spring 2027",
+        "causes": [
+          {
+            "name": "Foreign-policy pledges",
+            "detail": "Le Pen's promise to end Ukraine funding and cap the EU contribution turns a domestic vote into a European one."
+          },
+          {
+            "name": "EU deadlines",
+            "detail": "Leaders want the 2028-2034 budget agreed before votes in France, Spain, Italy and Poland, so the French campaign collides with EU decisions."
+          },
+          {
+            "name": "Candidate uncertainty",
+            "detail": "Legal doubt about the party's candidate leaves room for a late switch that would change the race."
+          }
+        ]
+      }
+    ],
+    "stakeholders": [
+      {
+        "name": "National Rally candidate (Marine Le Pen in the sources)",
+        "role": "Poll leader, 35-36%",
+        "wants": "A first-round win and a majority in the run-off on order, living costs and a smaller EU role",
+        "leverage": "A durable first-round lead; no need to defend the record",
+        "likelyMove": "Call the unrest legitimate anger, blame the government, keep the Ukraine and EU-budget pledges at the centre"
+      },
+      {
+        "name": "Emmanuel Macron",
+        "role": "Outgoing president",
+        "wants": "A successor from the centre and a passed budget; protect Ukraine support and the EU budget deal",
+        "leverage": "Powers of the presidency; little remaining political capital",
+        "likelyMove": "Hard line on violence, keep pushing the EU budget and Ukraine files, stay out of the first round"
+      },
+      {
+        "name": "Mainstream centre and centre-right candidates",
+        "role": "Competitors for a run-off place",
+        "wants": "Make the run-off and win the anti-National Rally vote",
+        "leverage": "Run-off arithmetic: the vote can still consolidate against the party",
+        "likelyMove": "Offer order plus a fiscal plan; avoid owning Macron's record"
+      },
+      {
+        "name": "The left",
+        "role": "Opposition, close to the protest movement",
+        "wants": "A candidate in the run-off; resist austerity",
+        "leverage": "Street credibility with students and unions",
+        "likelyMove": "Blame police tactics and budget cuts; risk being tied to the looting"
+      },
+      {
+        "name": "Zelensky and Kyiv",
+        "role": "Main foreign stake",
+        "wants": "Continued French money, weapons and diplomatic cover",
+        "leverage": "Moral argument ('lives are worth more than the price'); European security stakes",
+        "likelyMove": "Lobby the French public and other European capitals; seek EU-level replacements for French aid"
+      },
+      {
+        "name": "EU leaders and institutions",
+        "role": "Budget and Green Deal gatekeepers",
+        "wants": "The 2028-2034 budget agreed by end-2026",
+        "leverage": "Control of the timetable",
+        "likelyMove": "Push the deal before the votes, accepting that it may slip"
+      },
+      {
+        "name": "Bond investors",
+        "role": "Lenders to France",
+        "wants": "A credible fiscal path",
+        "leverage": "The spread, currently about 140 basis points over Germany",
+        "likelyMove": "Demand a premium until the budget and election outcome are clear"
+      },
+      {
+        "name": "Moscow",
+        "role": "Interested outside power",
+        "wants": "A weaker European line on Ukraine",
+        "leverage": "Narrative and summitry, including a proposed summit with Trump and Xi",
+        "likelyMove": "Welcome the National Rally's pledges and press for a deal while Europe is distracted"
+      }
+    ],
+    "sectors": [
+      {
+        "sector": "French government bonds",
+        "direction": "down",
+        "size": 3,
+        "why": "A record EUR 340bn must be raised in 2027 while election and budget risk raise the premium over Germany."
+      },
+      {
+        "sector": "French banks",
+        "direction": "down",
+        "size": 2,
+        "why": "Sovereign-linked balance sheets suffer when French debt is sold."
+      },
+      {
+        "sector": "European defence and Ukraine support",
+        "direction": "mixed",
+        "size": 3,
+        "why": "A French pullback would force other states to fill the gap; a mainstream win would keep the current line."
+      },
+      {
+        "sector": "EU institutions and budget",
+        "direction": "down",
+        "size": 2,
+        "why": "A smaller French contribution and a challenge to the timetable would complicate a larger 2028-2034 budget."
+      },
+      {
+        "sector": "Importers of rubber, wood, coffee, steel and aluminium",
+        "direction": "mixed",
+        "size": 2,
+        "why": "The rules start on schedule, but a hostile French government could press for exemptions and slower enforcement."
+      },
+      {
+        "sector": "German government bonds",
+        "direction": "up",
+        "size": 1,
+        "why": "Safe-haven flows tend to follow French political stress."
+      },
+      {
+        "sector": "Retail, hospitality and security in France",
+        "direction": "mixed",
+        "size": 1,
+        "why": "Unrest hurts shops, while private security and insurance demand rises."
+      }
+    ],
+    "dailyLife": [
+      {
+        "item": "Borrowing costs",
+        "effect": "France pays about 140 basis points over Germany. A weaker bond market can feed into mortgage and loan rates."
+      },
+      {
+        "item": "Protest days",
+        "effect": "About 550,000 marched on 17 October. Expect more transport and public-service disruption around strike and march days before the vote."
+      },
+      {
+        "item": "Politics at the checkout",
+        "effect": "Living costs are the campaign's main emotional issue, so price news can move votes."
+      },
+      {
+        "item": "Imported goods",
+        "effect": "Coffee, wood, rubber, steel and aluminium importers face new paperwork and costs under the EU rules from 30 December 2026 and 1 February 2027, whatever the French result."
+      },
+      {
+        "item": "News on Ukraine",
+        "effect": "Expect French aid to be a daily campaign argument. Voters may see arms and funding stories tied to it.",
+        "sourceIndex": 1
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Anti-National Rally consolidation",
+        "probability": 47,
+        "looksLike": "The National Rally candidate leads round one but loses the run-off as centre, centre-right and left voters back the other finalist. The margin is closer than 2017 or 2022.",
+        "signposts": [
+          "Run-off polls show the National Rally below 50%",
+          "A candidate from the centre or centre-right clearly takes second place",
+          "Low abstention among left voters"
+        ],
+        "effectOnWorld": "France stays in the Coalition of the Willing, but the next president inherits a weak fiscal position and a restive street."
+      },
+      {
+        "name": "National Rally wins",
+        "probability": 38,
+        "looksLike": "Order, living costs and anger at the government carry the run-off. The new president pursues the Ukraine and EU-budget pledges from mid-May 2027.",
+        "signposts": [
+          "Run-off polls above 50%",
+          "Mainstream parties refuse to endorse the rival",
+          "Further unrest or a Moody's downgrade before the vote"
+        ],
+        "effectOnWorld": "France steps back from Ukraine funding, presses for a smaller EU contribution and slows Green Deal enforcement. Bond spreads probably widen."
+      },
+      {
+        "name": "Campaign shock changes the field",
+        "probability": 10,
+        "looksLike": "A court ruling, a market crisis or a new wave of unrest reshuffles the candidates or the issues before April.",
+        "signposts": [
+          "A late candidate switch at the National Rally",
+          "Spread above 160 basis points",
+          "A censure vote or emergency budget"
+        ],
+        "effectOnWorld": "Outcome becomes harder to read; markets and allies price a wider range of results."
+      },
+      {
+        "name": "Left-led surprise",
+        "probability": 5,
+        "looksLike": "A left candidate overtakes the centre, reaches the run-off and benefits from the movement behind the protests.",
+        "signposts": [
+          "Left candidate above 20% in polls",
+          "Unions and students endorse a single candidate"
+        ],
+        "effectOnWorld": "A spending-heavy programme collides with the debt trap; the bond market reacts sharply."
+      }
+    ],
+    "predictions": [
+      {
+        "text": "About 70%: the National Rally candidate finishes first in the first round.",
+        "horizon": "18 April 2027",
+        "resolves": "2027-04-19"
+      },
+      {
+        "text": "About 85%: the National Rally candidate reaches the run-off.",
+        "horizon": "18 April 2027",
+        "resolves": "2027-04-19"
+      },
+      {
+        "text": "About 38%: the National Rally candidate wins the presidency on 2 May.",
+        "horizon": "2 May 2027",
+        "resolves": "2027-05-03"
+      },
+      {
+        "text": "About 70%: EU leaders fail to agree the 2028-2034 budget by 31 December 2026.",
+        "horizon": "End-2026",
+        "resolves": "2027-01-02"
+      },
+      {
+        "text": "About 55%, conditional on a National Rally win: the new government formally ends or suspends French funding for Ukraine within six months. Void if the condition is not met.",
+        "horizon": "By 2 November 2027",
+        "resolves": "2027-11-02"
+      }
+    ],
+    "countermeasures": [
+      {
+        "audience": "businesses",
+        "actions": [
+          "Build scenarios for a French government that cuts Ukraine support and seeks EU exemptions, and test supply and contract exposure.",
+          "Prepare for the deforestation and carbon-border rules as if there will be no delay; treat any exemption as upside.",
+          "Add buffers around French strike and protest days until the vote.",
+          "Review contracts with French public bodies for budget-cut and payment-delay risk."
+        ]
+      },
+      {
+        "audience": "investors",
+        "actions": [
+          "Treat the French election as a priced political-risk event, not a tail risk; watch the spread to Germany.",
+          "Track the 23 October Moody's review and the budget votes as markers of campaign momentum.",
+          "Do not assume the ECB will step in; officials say intervention is not warranted.",
+          "Watch run-off polling from February to April, since first-round leads alone mislead."
+        ]
+      },
+      {
+        "audience": "households",
+        "actions": [
+          "Plan travel and childcare around announced strike days.",
+          "Consider fixed-rate borrowing if yields stay high and the campaign looks volatile.",
+          "Expect living costs to stay at the centre of the debate and treat campaign promises on prices cautiously."
+        ]
+      },
+      {
+        "audience": "policymakers",
+        "actions": [
+          "Separate order from grievances: prosecute violence and publish a funded plan for schools and living costs.",
+          "Decide whether to seek the 2028-2034 EU budget deal before the vote or accept slippage, and weigh the legitimacy cost of rushing.",
+          "Prepare EU-level or coalition fallback funding for Ukraine in case French support ends.",
+          "Keep Italy and other 2027 election countries in the planning, since the right's split on Ukraine shapes coalitions."
+        ]
+      }
+    ],
+    "analogues": [
+      {
+        "event": "2002 presidential election",
+        "year": "2002",
+        "whatFollowed": "Jean-Marie Le Pen reached the run-off and Chirac won with a large majority; a broad front against the far right worked."
+      },
+      {
+        "event": "2017 and 2022 run-offs",
+        "year": "2017, 2022",
+        "whatFollowed": "Macron beat Marine Le Pen, by about 66% to 34% in 2017 and about 59% to 41% in 2022. The anti-National Rally margin narrowed."
+      },
+      {
+        "event": "2024 legislative elections",
+        "year": "2024",
+        "whatFollowed": "The National Rally led the first round but finished third in seats after tactical withdrawals; the result left a hung parliament."
+      },
+      {
+        "event": "Meloni's election in Italy",
+        "year": "2022",
+        "whatFollowed": "A right-wing government took office, kept Italy on the Ukraine and EU line, and showed that a populist right can govern within existing alliances."
+      }
+    ],
+    "watch": [
+      {
+        "date": "2026-10-23",
+        "title": "Moody's review of France",
+        "why": "A downgrade would raise borrowing costs and give the campaign a fiscal-crisis frame."
+      },
+      {
+        "date": "2026-12-31",
+        "title": "EU target for the 2028-2034 budget (approximate)",
+        "why": "Failure leaves the budget entangled with the French campaign."
+      },
+      {
+        "date": "2026-12-30",
+        "title": "EU deforestation rules start for large and medium operators",
+        "why": "Tests whether Brussels holds the date before a possible hostile French government."
+      },
+      {
+        "date": "2027-02-01",
+        "title": "Carbon-border certificate sales open",
+        "why": "First test of the carbon-border system under political pressure."
+      },
+      {
+        "date": "2027-04-18",
+        "title": "First round",
+        "why": "Sets the run-off pairing and tests whether the polls were right."
+      },
+      {
+        "date": "2027-05-02",
+        "title": "Run-off",
+        "why": "Decides France's line on Ukraine, the EU budget and the Green Deal."
+      },
+      {
+        "title": "Candidate lists and legal rulings",
+        "why": "A switch of the National Rally's candidate or a ruling on eligibility would reshuffle the race."
+      },
+      {
+        "title": "Run-off polls",
+        "why": "Whether the National Rally stays under 50% decides the main scenario."
+      },
+      {
+        "title": "Italian and other 2027 campaigns",
+        "why": "Shows whether Europe's right stays split on Ukraine."
+      }
+    ]
+  },
+  "evidence": {
+    "sources": [
+      {
+        "title": "Opinion polling for the 2027 French presidential election",
+        "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2027_French_presidential_election",
+        "publisher": "Wikipedia"
+      },
+      {
+        "title": "No money for Ukraine and EU budget cuts: what could a Le Pen victory mean for the EU?",
+        "url": "https://www.euronews.com/2026/10/17/no-money-for-ukraine-and-eu-budget-cuts-what-could-a-le-pen-victory-mean-for-the-eu",
+        "publisher": "Euronews",
+        "date": "2026-10-17"
+      }
+    ],
+    "confidence": [
+      {
+        "claim": "First-round polling of 35-36% for the National Rally candidate",
+        "level": "medium",
+        "note": "From a Wikipedia poll summary; individual polls differ and the vote is six months away."
+      },
+      {
+        "claim": "Le Pen's pledges to end Ukraine funding within six months and cap France's EU contribution at about EUR 5bn",
+        "level": "medium",
+        "note": "Reported in the Euronews piece and the event summary; campaign pledges can change."
+      },
+      {
+        "claim": "France's debt, spread and borrowing figures, and the riot and arrest counts",
+        "level": "medium",
+        "note": "Taken from linked dossiers on this app rather than the two sources cited here, so not independently checked in this draft."
+      },
+      {
+        "claim": "Who the National Rally's candidate will be",
+        "level": "low",
+        "note": "The sources treat Le Pen as the candidate, but her 2025 conviction raised legal doubt; the sources used here do not state the appeal outcome."
+      },
+      {
+        "claim": "Run-off margins in 2017 and 2022, the 2024 seat result and the 2002 outcome",
+        "level": "high",
+        "note": "General knowledge of well-documented elections; approximate percentages."
+      },
+      {
+        "claim": "Scenario probabilities and predictions",
+        "level": "low",
+        "note": "Author judgement, not a sourced forecast; graded as events resolve."
+      }
+    ],
+    "method": "Drafted from two listed sources (a Wikipedia poll summary and a Euronews analysis) plus the event summary and the linked dossiers on this app. Poll levels, pledges and EU timetable items come from those materials. Background on past French elections is general knowledge held with high confidence. Scenario probabilities and predictions are estimates and carry low confidence. No run-off polling was available, and candidate identity is uncertain.",
+    "changeLog": [
+      {
+        "date": "2026-10-19",
+        "change": "First publication."
+      }
+    ]
+  },
+  "generated": {
+    "by": "Geoploitica draft script",
+    "at": "2026-10-19T20:00:56.201Z",
+    "model": "claude-sonnet-5-5",
+    "sources": 2,
+    "headlines": 2,
+    "reviewed": false
+  }
+}

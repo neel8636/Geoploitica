@@ -1,0 +1,677 @@
+{
+  "slug": "gulf-war-energy-shock",
+  "title": "US-Israel war on Iran and the Gulf energy shock",
+  "deck": "Strikes on Iran that began in late February have kept oil, diesel and freight costs high for eight months, and that squeeze is now feeding protests, central-bank dilemmas and elections far from the Gulf.",
+  "updated": "2026-10-19",
+  "status": "developing",
+  "region": "Persian Gulf, Red Sea",
+  "tags": [
+    "conflict",
+    "oil",
+    "energy prices",
+    "Strait of Hormuz",
+    "Red Sea shipping",
+    "inflation",
+    "cost of living"
+  ],
+  "readingMinutes": {
+    "card": 1,
+    "brief": 5,
+    "deep": 18
+  },
+  "card": {
+    "headline": "An eight-month Gulf war has turned into a global household-budget shock",
+    "keyNumber": {
+      "value": "EUR 2.41",
+      "label": "a litre: record average French diesel price in September",
+      "sourceIndex": 0
+    },
+    "impactMeter": 5,
+    "forYou": [
+      {
+        "role": "Supply chain",
+        "line": "Plan for higher fuel surcharges and longer, costlier Red Sea and Gulf routings; Gulf exports through Hormuz are running at roughly 60-80% of normal."
+      },
+      {
+        "role": "Finance",
+        "line": "Brent is reported above $100 against $73 before the war. Euro-area inflation is 3.8%, which keeps the ECB from easing."
+      },
+      {
+        "role": "Sales into Europe",
+        "line": "Fuel is the most visible price behind cost-of-living unrest in France and Italy. Expect weaker consumer demand and disrupted trading days."
+      },
+      {
+        "role": "Everyone",
+        "line": "This is a political story as much as an energy one: it is feeding election campaigns in the US, Israel, France and Italy."
+      }
+    ],
+    "ripple": [
+      {
+        "label": "First-order",
+        "effects": [
+          {
+            "text": "Brent reported above $100 a barrel versus $73 before the war",
+            "sector": "Oil markets"
+          },
+          {
+            "text": "Gulf exports through Hormuz fluctuate at 60-80% of normal; OPEC+ output is about 5 mb/d below February levels",
+            "sector": "Oil supply"
+          },
+          {
+            "text": "Renewed fighting in Yemen and attacks on Saudi energy infrastructure intensified the spike",
+            "sector": "Security, energy"
+          },
+          {
+            "text": "Freight and tanker costs elevated; French diesel at a record EUR 2.41 a litre in September",
+            "sector": "Shipping, retail fuel"
+          }
+        ]
+      },
+      {
+        "label": "Second-order",
+        "effects": [
+          {
+            "text": "Euro-area inflation rose to 3.8% in September; ECB minutes show policymakers weighing another rate rise",
+            "sector": "Central banks"
+          },
+          {
+            "text": "Petrol, diesel and grocery price rises become the dominant US midterm issue",
+            "sector": "US politics"
+          },
+          {
+            "text": "Japan, which imports nearly all its crude, sees an inflation upside risk; USD/JPY near 158",
+            "sector": "Currencies"
+          },
+          {
+            "text": "OPEC+ freezes quotas because the war, not policy, caps Gulf output",
+            "sector": "OPEC+"
+          }
+        ]
+      },
+      {
+        "label": "Third-order",
+        "effects": [
+          {
+            "text": "Cost-of-living unrest in France and Italy, with elections ahead in both",
+            "sector": "European politics"
+          },
+          {
+            "text": "Washington fast-tracks Venezuelan heavy crude; India links Russian-oil waivers to a US trade deal",
+            "sector": "Energy diplomacy"
+          },
+          {
+            "text": "Higher fuel costs make famine-relief logistics into Port Sudan costlier; Red Sea and Bab al-Mandeb risks compound",
+            "sector": "Humanitarian, shipping"
+          },
+          {
+            "text": "High prices strengthen Alberta separatists' economic case and cushion sanctioned Russian sales, though Russia's energy revenue is still down 17%",
+            "sector": "Geopolitics"
+          }
+        ]
+      }
+    ]
+  },
+  "brief": {
+    "whatHappened": [
+      "US and Israeli strikes on Iran began on 27 February 2026. Some sources date the start to 28 February. Eight months later the war is still disrupting Gulf energy exports.",
+      "Gulf shipments through the Strait of Hormuz fluctuate at roughly 60-80% of normal. Brent trades above $100 a barrel against $73 before the war. OPEC+ output of about 25 mb/d in August was around 5 mb/d below February levels.",
+      "Renewed fighting in Yemen and attacks on Saudi energy infrastructure intensified the spike. Freight costs also stayed elevated. French authorities ran about 500 price checks on petrol stations in March over claims of excessive hikes. The average French diesel price hit a record EUR 2.41 a litre in September."
+    ],
+    "whyItMatters": [
+      "Energy is the transmission belt. It turns a war in the Gulf into higher bills for households and firms in Europe, Asia and North America. Euro-area inflation rose to 3.8% in September, which keeps the ECB from easing while France is under fiscal stress.",
+      "The shock is feeding politics. Fuel and food prices drive cost-of-living protests in France and Italy. They are also the dominant issue in the US midterms on 3 November, and they sharpen the Alberta independence vote.",
+      "The war also splits attention and reshuffles energy diplomacy. Washington's bandwidth for Ukraine is divided. The US is courting Venezuelan crude, and India's Russian-oil needs are tied to its trade talks."
+    ],
+    "winners": [
+      {
+        "who": "Oil producers with open export routes (including Venezuela and Alberta)",
+        "why": "Higher prices boost revenue. Venezuela reports 1.206 million barrels a day in September, up about 30% this year, and its US-backed interim government touts $76bn of oil investment agreements."
+      },
+      {
+        "who": "Russia, partly",
+        "why": "Higher Brent cushions sanctioned sales, but oil-and-gas revenue is still down 17.2% in January-September and the 2026 deficit forecast has nearly doubled."
+      },
+      {
+        "who": "Opposition parties in energy-importing democracies",
+        "why": "Cost-of-living anger favours challengers. Polling averages give US Democrats a roughly 7-point generic-ballot lead."
+      }
+    ],
+    "losers": [
+      {
+        "who": "Households in importing countries",
+        "why": "Diesel, petrol and groceries cost more; record French diesel is the clearest example."
+      },
+      {
+        "who": "Central banks and indebted governments",
+        "why": "The ECB cannot ease with inflation at 3.8%, and France needs help it cannot easily get. The BoJ flags crude as an upside inflation risk."
+      },
+      {
+        "who": "Aid operations in Sudan and the Horn",
+        "why": "Fuel and shipping costs rise just as famine alerts widen and the humanitarian plan is 57% unfunded."
+      },
+      {
+        "who": "Gulf exporters whose barrels are stuck",
+        "why": "Exports run at 60-80% of normal, so higher prices only partly offset lost volume."
+      }
+    ],
+    "whatsNext": [
+      "20-21 October: Rubio in Mumbai for US-India trade talks tied to Russian-energy sanctions waivers.",
+      "27 October: Israel votes in an election seen as a referendum on the Iran war.",
+      "29 October: ECB meeting; Russia's Duma holds the first reading of its budget.",
+      "30 October: Bank of Japan decision.",
+      "1 November: OPEC+ core group next meets.",
+      "3 November: US midterm elections."
+    ],
+    "predict": {
+      "question": "Before you read the scenarios: what is the most likely energy picture by spring 2027?",
+      "options": [
+        "Prices stay elevated but contained, with periodic spikes",
+        "A sharp fall as Gulf flows normalise",
+        "A new spike above recent highs after escalation",
+        "A demand-driven slide as economies weaken"
+      ],
+      "answerIndex": 0,
+      "explanation": "Our base case, at about 50%, is a prolonged squeeze: Gulf flows stay partly impaired, Brent stays well above its pre-war $73, and workarounds such as Venezuelan crude only ease the pain at the edges. The estimate is the author's judgement, not a sourced forecast."
+    },
+    "recap": [
+      {
+        "question": "Roughly what share of normal are Gulf exports running at through Hormuz?",
+        "options": [
+          "20-40%",
+          "60-80%",
+          "95-100%"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "question": "What record did French diesel set in September?",
+        "options": [
+          "EUR 1.85 a litre",
+          "EUR 2.41 a litre",
+          "EUR 3.10 a litre"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "question": "Why has OPEC+ frozen quotas?",
+        "options": [
+          "The war, not policy, caps Gulf output",
+          "Members cannot agree on cuts",
+          "Demand collapsed"
+        ],
+        "answerIndex": 0
+      }
+    ]
+  },
+  "deep": {
+    "timeline": [
+      {
+        "date": "2026-01-03",
+        "title": "US forces capture Nicolás Maduro",
+        "detail": "Delcy Rodríguez becomes acting president of Venezuela, setting up the later US push to reopen Venezuelan oil."
+      },
+      {
+        "date": "2026-02-27",
+        "title": "US and Israeli strikes on Iran begin",
+        "detail": "Some sources date the start to 28 February. Oil and freight costs rise and stay elevated for the following eight months.",
+        "turning": true
+      },
+      {
+        "date": "2026-03-09",
+        "title": "French authorities run 500 petrol-station price checks",
+        "detail": "Checks follow claims of excessive price hikes at the pump.",
+        "sourceIndex": 1
+      },
+      {
+        "date": "2026-08-28",
+        "title": "Trump announces a US-Venezuela oil deal",
+        "detail": "Covers 17 fields; a US licence authorises BP, Chevron, Eni, Maurel & Prom, Repsol and Shell and excludes China, Russia and Iran."
+      },
+      {
+        "date": "2026-09-20",
+        "title": "French diesel hits a record EUR 2.41 a litre",
+        "detail": "The average price sets a record, and the French cost-of-living anger that follows draws on it.",
+        "sourceIndex": 0,
+        "turning": true
+      },
+      {
+        "date": "2026-10-01",
+        "title": "Russia submits a budget with a doubled 2026 deficit forecast",
+        "detail": "The deficit is projected at 7.345 trillion rubles as oil-and-gas revenue falls 17.2%."
+      },
+      {
+        "date": "2026-10-04",
+        "title": "OPEC+ core producers hold November targets",
+        "detail": "Output is about 5 mb/d below pre-war levels because Gulf exports run at 60-80% of normal."
+      },
+      {
+        "date": "2026-10-17",
+        "title": "About 550,000 march in France; riots hit Milan",
+        "detail": "Cost-of-living unrest spreads across Europe, with fuel the most visible price."
+      },
+      {
+        "date": "2026-10-19",
+        "title": "Euro-area inflation at 3.8%, Brent above $100",
+        "detail": "The ECB is weighing another rate rise ahead of its 29 October meeting."
+      }
+    ],
+    "causes": [
+      {
+        "name": "Structural roots",
+        "when": "Years in the making",
+        "causes": [
+          {
+            "name": "Chokepoint dependence",
+            "detail": "A large share of world oil and shipping runs through Hormuz and the Red Sea; neither has easy substitutes."
+          },
+          {
+            "name": "Tight spare capacity",
+            "detail": "With the Gulf as the main source of swing supply, a Gulf disruption cannot be offset elsewhere. The capacity review OPEC+ needs for 2027 quotas is delayed."
+          },
+          {
+            "name": "Importer exposure",
+            "detail": "Japan imports nearly all its crude, and Europe is exposed through diesel and inflation."
+          }
+        ]
+      },
+      {
+        "name": "Trigger",
+        "when": "27-28 February 2026",
+        "causes": [
+          {
+            "name": "Strikes on Iran",
+            "detail": "US and Israeli strikes began the conflict and disrupted Gulf supply and shipping."
+          }
+        ]
+      },
+      {
+        "name": "Accelerants",
+        "when": "Spring to autumn 2026",
+        "causes": [
+          {
+            "name": "Renewed Yemen fighting",
+            "detail": "Fighting in Yemen adds to Red Sea risk and freight costs."
+          },
+          {
+            "name": "Attacks on Saudi energy infrastructure",
+            "detail": "These intensified the price spike and eroded the reliability of Gulf supply."
+          },
+          {
+            "name": "Slow policy response",
+            "detail": "OPEC+ has frozen quotas, and workarounds such as Venezuelan crude are still ramping up."
+          },
+          {
+            "name": "Second chokepoint risks",
+            "detail": "Ethiopia-Eritrea fighting near the Bab al-Mandeb approach and South China Sea harassment add to shipping stress."
+          }
+        ]
+      }
+    ],
+    "stakeholders": [
+      {
+        "name": "US administration (Trump)",
+        "role": "Co-belligerent, largest outside energy producer",
+        "wants": "Lower pump prices before 3 November while sustaining pressure on Tehran",
+        "leverage": "Military power, sanctions waivers, licences for Venezuelan oil",
+        "likelyMove": "Accelerate Venezuelan crude to Gulf Coast refiners and use waivers as bargaining chips, as with India"
+      },
+      {
+        "name": "Israel (Netanyahu)",
+        "role": "Co-belligerent, in an election campaign",
+        "wants": "A mandate to continue the war and topple Tehran's regime",
+        "leverage": "Trump's endorsement and security control",
+        "likelyMove": "Keep the Iran war central to the 27 October vote"
+      },
+      {
+        "name": "Iran",
+        "role": "Target and holder of Gulf leverage",
+        "wants": "Survive and raise the cost of the war for opponents",
+        "leverage": "Proximity to Hormuz and regional proxies",
+        "likelyMove": "Sustain pressure on shipping and energy infrastructure"
+      },
+      {
+        "name": "Saudi Arabia and Gulf producers",
+        "role": "Swing suppliers, partly cut off",
+        "wants": "Protect infrastructure and restore export volumes",
+        "leverage": "OPEC+ quotas, spare capacity",
+        "likelyMove": "Hold quotas and focus on security"
+      },
+      {
+        "name": "OPEC+ core seven",
+        "role": "Quota setters",
+        "wants": "Stability while physical supply is constrained",
+        "leverage": "Targets, though actual output is below them",
+        "likelyMove": "Hold on 1 November and delay the 2027 capacity review"
+      },
+      {
+        "name": "Importing governments and central banks",
+        "role": "Price takers (ECB, BoJ, France, Italy, India)",
+        "wants": "Contain inflation and unrest",
+        "leverage": "Rates, subsidies, trade deals",
+        "likelyMove": "ECB holds or tightens; governments weigh fuel relief; India seeks sanctions waivers"
+      },
+      {
+        "name": "Venezuela's interim government",
+        "role": "New supplier under US backing",
+        "wants": "Investment and legitimacy",
+        "leverage": "Heavy crude, 17 US-linked agreements",
+        "likelyMove": "Keep ramping output, which was 1.206 million barrels a day in September"
+      }
+    ],
+    "sectors": [
+      {
+        "sector": "Oil producers outside the Gulf",
+        "direction": "up",
+        "size": 3,
+        "why": "Brent above $100 lifts revenue for Venezuela, Alberta, the US and others."
+      },
+      {
+        "sector": "Gulf producers",
+        "direction": "mixed",
+        "size": 3,
+        "why": "Higher prices but exports are running at only 60-80% of normal, and infrastructure is under attack."
+      },
+      {
+        "sector": "Airlines and transport",
+        "direction": "down",
+        "size": 3,
+        "why": "Fuel is a major cost and diesel is at record highs in France."
+      },
+      {
+        "sector": "Shipping and freight",
+        "direction": "mixed",
+        "size": 2,
+        "why": "Higher rates for carriers, but longer routings and war risk raise costs for shippers."
+      },
+      {
+        "sector": "Energy-intensive manufacturing",
+        "direction": "down",
+        "size": 2,
+        "why": "Input costs rise, and higher euro-area rates add to the squeeze."
+      },
+      {
+        "sector": "Retail and consumer goods",
+        "direction": "down",
+        "size": 2,
+        "why": "Fuel and grocery inflation squeezes household budgets, and unrest disrupts trading."
+      },
+      {
+        "sector": "Banks and sovereign debt in indebted importers",
+        "direction": "down",
+        "size": 2,
+        "why": "Sticky inflation keeps rates high while fiscal stress mounts, as in France."
+      },
+      {
+        "sector": "Defence",
+        "direction": "up",
+        "size": 2,
+        "why": "Israel is funding defence with cuts elsewhere, and Russia plans a record defence budget."
+      }
+    ],
+    "dailyLife": [
+      {
+        "item": "Diesel",
+        "effect": "The French average hit a record EUR 2.41 a litre in September. The price moves haulage, delivery and commuting costs.",
+        "sourceIndex": 0
+      },
+      {
+        "item": "Petrol-station pricing",
+        "effect": "French authorities ran about 500 price checks in March over claims of excessive hikes, a sign of how fast pump prices reacted.",
+        "sourceIndex": 1
+      },
+      {
+        "item": "Groceries",
+        "effect": "Grocery prices have risen since the war began, and fuel feeds into food transport costs."
+      },
+      {
+        "item": "Loans and mortgages",
+        "effect": "With euro-area inflation at 3.8% and the ECB weighing a rise, borrowing costs are unlikely to fall soon."
+      },
+      {
+        "item": "Travel and parcels",
+        "effect": "Expect fuel surcharges and longer routings on goods moving through the Red Sea or Gulf."
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Prolonged squeeze",
+        "probability": 50,
+        "looksLike": "Gulf flows stay at 60-80% of normal, Brent stays well above $73, and OPEC+ keeps holding. Inflation stays sticky and central banks cannot ease.",
+        "signposts": [
+          "Hormuz volumes stay in the current range",
+          "OPEC+ holds again on 1 November",
+          "Euro-area inflation stays near or above 3.8%"
+        ],
+        "effectOnWorld": "Cost-of-living politics keeps shaping elections and protests in importing democracies through 2027."
+      },
+      {
+        "name": "Escalation spike",
+        "probability": 20,
+        "looksLike": "New attacks on Saudi infrastructure or shipping push Brent well above recent highs and cut Gulf exports below 60% of normal.",
+        "signposts": [
+          "Fresh strikes on Gulf energy sites",
+          "Red Sea or Bab al-Mandeb closures",
+          "Emergency oil-stock releases announced"
+        ],
+        "effectOnWorld": "Recession risk in Europe and Asia, deeper fiscal stress and more unrest."
+      },
+      {
+        "name": "Managed de-escalation",
+        "probability": 20,
+        "looksLike": "A ceasefire or understanding restores most Gulf flows, and Brent falls toward the $80s over several months.",
+        "signposts": [
+          "Talks or a pause in strikes",
+          "Insurers cut war-risk premiums",
+          "Gulf exports back above 90% of normal"
+        ],
+        "effectOnWorld": "Inflation eases and central banks regain room, but political damage from the squeeze lingers."
+      },
+      {
+        "name": "Demand-destruction slide",
+        "probability": 10,
+        "looksLike": "High prices and rates tip importers into weakness, and demand falls enough to pull prices down despite constrained supply.",
+        "signposts": [
+          "Falling euro-area and Japanese output",
+          "Weakening freight volumes",
+          "Brent falling without a Gulf breakthrough"
+        ],
+        "effectOnWorld": "Lower oil prices but weaker growth and more strain on public finances."
+      }
+    ],
+    "predictions": [
+      {
+        "text": "Brent will still trade above $90 on 1 January 2027 (probability about 0.65; the author's estimate).",
+        "horizon": "By 1 January 2027",
+        "resolves": "2027-01-01"
+      },
+      {
+        "text": "OPEC+ core producers will again leave their targets unchanged at the 1 November meeting (probability about 0.8).",
+        "horizon": "1 November 2026",
+        "resolves": "2026-11-02"
+      },
+      {
+        "text": "Euro-area inflation will print at or above 3% for October (probability about 0.8).",
+        "horizon": "November 2026",
+        "resolves": "2026-11-30"
+      },
+      {
+        "text": "Average French diesel will not set a new record above EUR 2.41 before year-end (probability about 0.7).",
+        "horizon": "By 31 December 2026",
+        "resolves": "2026-12-31"
+      },
+      {
+        "text": "Gulf exports through Hormuz will still run below 90% of normal in spring 2027 (probability about 0.55).",
+        "horizon": "By 30 April 2027",
+        "resolves": "2027-04-30"
+      }
+    ],
+    "countermeasures": [
+      {
+        "audience": "businesses",
+        "actions": [
+          "Add fuel-surcharge clauses and review pass-through pricing.",
+          "Add buffer time to Red Sea and Gulf lanes; qualify alternative routings.",
+          "Hedge a share of fuel exposure where it is affordable.",
+          "Plan for demand softness in markets with cost-of-living unrest, such as France and Italy."
+        ]
+      },
+      {
+        "Group": "x",
+        "audience": "investors",
+        "actions": [
+          "Treat oil as headline-driven; avoid assuming a quick return to $73.",
+          "Watch the ECB (29 October), BoJ (30 October) and OPEC+ (1 November) for policy signals.",
+          "Distinguish producers with open export routes from those with stuck barrels.",
+          "Monitor sovereign spreads in fiscally stressed importers, notably France."
+        ]
+      },
+      {
+        "audience": "households",
+        "actions": [
+          "Budget for fuel and grocery prices to stay high into 2027.",
+          "Consider fixed-rate borrowing while central banks cannot ease.",
+          "Cut fuel use where possible: combine trips, check price comparisons."
+        ]
+      },
+      {
+        "audience": "policymakers",
+        "actions": [
+          "Target fuel relief at low-income households instead of broad subsidies that add to deficits.",
+          "Coordinate stock releases and shipping security with allies.",
+          "Speed up supply alternatives, including Venezuelan crude, while managing sanctions trade-offs.",
+          "Fund humanitarian logistics where fuel costs are choking aid, as in Sudan."
+        ]
+      }
+    ],
+    "analogues": [
+      {
+        "event": "1973 Arab oil embargo",
+        "year": "1973",
+        "whatFollowed": "Oil prices rose several-fold, inflation surged in importing economies, and governments imposed energy-saving measures and later built strategic reserves."
+      },
+      {
+        "event": "Iraq's invasion of Kuwait",
+        "year": "1990",
+        "whatFollowed": "Oil prices spiked sharply and then fell once supply was secured and the war ended; the shock coincided with a global slowdown."
+      },
+      {
+        "event": "Abqaiq attack on Saudi oil facilities",
+        "year": "2019",
+        "whatFollowed": "A brief price jump as part of Saudi output went offline, followed by a quick fade once production was restored; the current shock differs because it is prolonged."
+      },
+      {
+        "event": "Russia-Ukraine energy shock",
+        "year": "2022",
+        "whatFollowed": "European energy and food inflation, central-bank tightening, and cost-of-living protests and electoral swings in several countries."
+      }
+    ],
+    "watch": [
+      {
+        "date": "2026-10-20",
+        "title": "Rubio meets Jaishankar in Mumbai",
+        "why": "India's Russian-oil needs are tied to a US trade deal and sanctions waivers."
+      },
+      {
+        "date": "2026-10-27",
+        "title": "Israel's election",
+        "why": "A referendum on the Iran war; the result shapes whether the fighting continues."
+      },
+      {
+        "date": "2026-10-29",
+        "title": "ECB policy meeting",
+        "why": "Shows whether energy-driven inflation pushes the ECB to raise rates."
+      },
+      {
+        "date": "2026-10-29",
+        "title": "Russia's Duma first reading of the budget",
+        "why": "Tests how higher Brent interacts with a $50 baseline and record defence spending."
+      },
+      {
+        "date": "2026-10-30",
+        "title": "Bank of Japan decision",
+        "why": "Crude is flagged as an inflation upside risk; USD/JPY is near 158."
+      },
+      {
+        "date": "2026-11-01",
+        "title": "OPEC+ meeting",
+        "why": "A hold is expected; any change would signal confidence in Gulf supply."
+      },
+      {
+        "date": "2026-11-03",
+        "title": "US midterm elections",
+        "why": "Gasoline and diesel prices are the dominant issue."
+      },
+      {
+        "title": "Hormuz and Red Sea shipping data",
+        "why": "The clearest real-time sign of whether the squeeze is easing or worsening."
+      },
+      {
+        "title": "French diesel price",
+        "why": "A move back toward EUR 2.41 would feed fresh unrest."
+      }
+    ]
+  },
+  "evidence": {
+    "sources": [
+      {
+        "title": "Average French diesel prices hit record 2.41",
+        "url": "https://kuwaittimes.com/article/50113/business/average-french-diesel-prices-hit-record-241/",
+        "publisher": "Kuwait Times / AFP",
+        "date": "2026-09-20"
+      },
+      {
+        "title": "500 price checks at French petrol stations over claims of excessive hikes",
+        "url": "https://www.thelocal.fr/20260309/500-price-checks-at-french-petrol-stations-over-claims-of-excessive-hikes",
+        "publisher": "The Local",
+        "date": "2026-03-09"
+      }
+    ],
+    "confidence": [
+      {
+        "claim": "French diesel hit a record EUR 2.41 a litre in September",
+        "level": "high",
+        "note": "Reported by AFP via Kuwait Times; the headline is the only part of the article used here."
+      },
+      {
+        "claim": "French authorities ran about 500 petrol-station price checks in March",
+        "level": "medium",
+        "note": "Taken from the headline of The Local's report; details of the checks were not available."
+      },
+      {
+        "claim": "Brent above $100 versus $73 before the war; Gulf exports at 60-80% of normal; OPEC+ output about 5 mb/d below February",
+        "level": "medium",
+        "note": "From the linked OPEC+ dossier, not from the two listed sources; numbers fluctuate and were not independently checked."
+      },
+      {
+        "claim": "War start date of 27 February",
+        "level": "medium",
+        "note": "The event record says 27 February; a linked dossier says 28 February. Time zones may explain the difference."
+      },
+      {
+        "claim": "Downstream effects on ECB, BoJ, US midterms, Alberta, Sudan and other connected events",
+        "level": "medium",
+        "note": "Taken from summaries of linked dossiers and not re-verified against primary sources; causal links are partial, since other drivers also act."
+      },
+      {
+        "claim": "Scenario probabilities and predictions",
+        "level": "low",
+        "note": "Author judgement, not a sourced forecast; to be graded as events resolve."
+      }
+    ],
+    "method": "Drafted on 19 October 2026 from two listed sources (an AFP report on record French diesel prices and a report on petrol-station price checks, both used mainly through their headlines), two matched wire headlines, and the event summary and linked-dossier summaries supplied with the brief. Prices, export shares and other figures for the wider energy shock come from the linked-dossier summaries and are cited without independent URLs. The scenario probabilities, predictions and sector sizes are the author's estimates. No chart is shown because no verified time series was available.",
+    "changeLog": [
+      {
+        "date": "2026-10-19",
+        "change": "First publication."
+      }
+    ]
+  },
+  "generated": {
+    "by": "Geoploitica draft script",
+    "at": "2026-10-19T19:59:23.332Z",
+    "model": "claude-sonnet-5-5",
+    "sources": 2,
+    "headlines": 2,
+    "reviewed": false
+  }
+}

@@ -1,0 +1,652 @@
+{
+  "slug": "apec-shenzhen-2026",
+  "title": "Trump goes to Xi's home summit in Shenzhen",
+  "deck": "China hosts APEC leaders on 18-19 November with Trump expected to attend, and Beijing will use its home advantage to push for tariff relief while Washington, Pyongyang, Moscow and Manila all try to turn the trip to their own ends.",
+  "updated": "2026-10-19",
+  "status": "developing",
+  "region": "China, Asia-Pacific",
+  "tags": [
+    "diplomacy",
+    "US-China",
+    "tariffs",
+    "APEC",
+    "North Korea",
+    "South China Sea",
+    "Ukraine"
+  ],
+  "readingMinutes": {
+    "card": 1,
+    "brief": 5,
+    "deep": 15
+  },
+  "card": {
+    "headline": "Trump plans to meet a stronger Xi on Xi's turf, with tariffs on the table and few deliverables so far",
+    "keyNumber": {
+      "value": "18-19 Nov",
+      "label": "APEC Economic Leaders' Meeting in Shenzhen, China's first time as host since 2014",
+      "sourceIndex": 1
+    },
+    "impactMeter": 4,
+    "forYou": [
+      {
+        "role": "Exporters and importers",
+        "line": "Tariff relief is Beijing's top ask. Any announcement could land with little warning, so do not budget for it before it is signed."
+      },
+      {
+        "role": "Investors",
+        "line": "Expect headline risk around 18-19 November. Treat a 'strategic stability' statement as different from a tariff cut."
+      },
+      {
+        "role": "Supply chain",
+        "line": "A summit-friendly Beijing may soften pressure on its neighbours, but the calm may not last past the summit."
+      },
+      {
+        "role": "Security watchers",
+        "line": "Trump says he 'may' meet Kim Jong Un on the trip. That is an option, not a plan."
+      },
+      {
+        "role": "Everyone",
+        "line": "This summit follows Xi's late-September Washington visit, which produced warm words and few concrete trade results."
+      }
+    ],
+    "ripple": [
+      {
+        "label": "First-order",
+        "effects": [
+          {
+            "text": "Beijing sets the agenda and the staging as host; tariff relief is its main goal",
+            "sector": "Diplomacy"
+          },
+          {
+            "text": "A Trump-Xi meeting on the margins is likely, building on Xi's September state visit to Washington",
+            "sector": "US-China"
+          },
+          {
+            "text": "Shenzhen security and travel restrictions are likely around the dates (our estimate)",
+            "sector": "Travel, logistics"
+          },
+          {
+            "text": "Other APEC economies (Japan, South Korea, Australia, Indonesia, Vietnam, the Philippines) use the summit to seek bilateral time",
+            "sector": "Asia-Pacific"
+          }
+        ]
+      },
+      {
+        "label": "Second-order",
+        "effects": [
+          {
+            "text": "Beijing has a reason to look like a stable host, which may restrain or redirect coast-guard pressure on Manila before 18 November",
+            "sector": "South China Sea"
+          },
+          {
+            "text": "Washington races to lock in other bilateral tariff deals, such as India's, before Shenzhen to strengthen its hand",
+            "sector": "Trade"
+          },
+          {
+            "text": "Export-led Chinese growth (4.5% in Q3) with weak domestic demand raises the stakes of any tariff decision",
+            "sector": "China economy"
+          },
+          {
+            "text": "Pyongyang's October launches gain bargaining value if a Trump-Kim meeting is possible",
+            "sector": "Korean peninsula"
+          }
+        ]
+      },
+      {
+        "label": "Third-order",
+        "effects": [
+          {
+            "text": "A Trump-Xi meeting becomes the nearest venue for the Trump-Xi-Putin summit on Ukraine that Moscow wants",
+            "sector": "Ukraine"
+          },
+          {
+            "text": "Allies in Tokyo, Seoul, Taipei and Manila hedge if they fear a US-China deal made over their heads",
+            "sector": "Alliances"
+          },
+          {
+            "text": "A thin outcome would leave US-China tariff tension unresolved into 2027",
+            "sector": "Markets"
+          }
+        ]
+      }
+    ]
+  },
+  "brief": {
+    "whatHappened": [
+      "China hosts the APEC Economic Leaders' Meeting in Shenzhen on 18-19 November 2026. It is Beijing's first time as host since 2014. Trump plans to attend.",
+      "The summit follows Xi's three-day state visit to Washington, which ended on 25 September. The two sides declared a 'constructive relationship of strategic stability'. They announced few concrete trade deliverables.",
+      "On 12 October Trump said he 'may' meet Kim Jong Un during his November Asia trip, according to Yonhap. North Korea fired a series of missiles in October, including submarine-launched cruise missiles on 14 October.",
+      "The South China Sea has been tense. At least six dangerous Philippine-Chinese encounters were reported between 1 and 9 October."
+    ],
+    "whyItMatters": [
+      "As host, Beijing controls the agenda, the venue and the choreography. The South China Morning Post framed it as Trump facing a 'stronger Xi'. We have not read the article's detailed reasoning, so treat this as the paper's view rather than ours.",
+      "China's economy grew 4.5% in the third quarter on exports while domestic demand stayed weak. Tariff relief matters more to Beijing when exports are carrying the economy.",
+      "The trip bundles several crises. A Trump-Xi meeting touches the tariff war. A possible Kim meeting touches nuclear diplomacy. Putin wants a three-way summit on Ukraine. Manila is watching for any easing at sea.",
+      "The US midterm elections come on 3 November, two weeks before the summit. Trump wants tariff deals he can point to, and Xi knows it."
+    ],
+    "winners": [
+      {
+        "who": "Xi Jinping and Beijing",
+        "why": "Hosting gives control of the stage and the narrative, and an export-led economy gives a reason to push for tariff relief."
+      },
+      {
+        "who": "Kim Jong Un",
+        "why": "The mere possibility of a Trump meeting raises the value of his October launches as bargaining chips."
+      },
+      {
+        "who": "Vladimir Putin",
+        "why": "A Trump-Xi meeting is the nearest venue for the summit he has proposed, while he still refuses to meet Zelensky."
+      }
+    ],
+    "losers": [
+      {
+        "who": "Manila and other South China Sea claimants",
+        "why": "If Washington and Beijing prioritise a summit-friendly deal, claimants fear their disputes get sidelined."
+      },
+      {
+        "who": "Ukraine and Zelensky",
+        "why": "A summit on Ukraine without Kyiv in the room would sideline Ukrainian priorities."
+      },
+      {
+        "who": "Taipei",
+        "why": "Taiwan takes part in APEC under the name Chinese Taipei, and a Chinese host makes its position awkward. A US-China warming adds to its worries about being traded away."
+      },
+      {
+        "who": "Importers hoping for quick relief",
+        "why": "The September summit produced few trade deliverables, so a repeat is a real possibility."
+      }
+    ],
+    "whatsNext": [
+      "20-21 October: Rubio meets India's foreign minister in Mumbai and visits the Jamnagar refinery. This is a stop in the push for tariff deals before Shenzhen.",
+      "3 November: US midterm elections.",
+      "Early to mid November: expect Beijing and Washington to leak or float possible deliverables.",
+      "18-19 November: APEC leaders meet in Shenzhen. Watch for a Trump-Xi bilateral and any Kim meeting."
+    ],
+    "predict": {
+      "question": "Before you read the scenarios: what is the most likely outcome of Trump's Shenzhen trip?",
+      "options": [
+        "A broad tariff-relief package announced with Xi",
+        "Warm words and a modest, partial deal",
+        "A summit with no tangible trade outcome",
+        "Trump skips or cuts short the trip"
+      ],
+      "answerIndex": 1,
+      "explanation": "Our base case, at about 45%, is a modest, partial outcome: a Trump-Xi meeting, some limited trade steps and fresh 'strategic stability' language. September's visit gave few deliverables, which argues against a big package. A thin outcome with almost nothing concrete is our second path, at about 30%."
+    },
+    "recap": [
+      {
+        "question": "When is the APEC leaders' meeting in Shenzhen?",
+        "options": [
+          "18-19 November 2026",
+          "25-26 September 2026",
+          "3 November 2026"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "question": "What did Trump say about North Korea on 12 October?",
+        "options": [
+          "He ruled out any meeting with Kim",
+          "He 'may' meet Kim during his Asia trip",
+          "He will meet Kim in Pyongyang"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "question": "What came out of Xi's September visit to Washington?",
+        "options": [
+          "A comprehensive tariff-removal agreement",
+          "Nothing at all, with the visit cancelled",
+          "A declared 'constructive relationship of strategic stability' but few concrete trade deliverables"
+        ],
+        "answerIndex": 2
+      }
+    ]
+  },
+  "deep": {
+    "timeline": [
+      {
+        "date": "2014-11-10",
+        "title": "China last hosts APEC, in Beijing",
+        "detail": "Shenzhen 2026 is China's first turn as host since then.",
+        "sourceIndex": 1
+      },
+      {
+        "date": "2026-02-15",
+        "title": "US-India framework cuts tariffs",
+        "detail": "The February 2026 framework cut the US reciprocal tariff on Indian goods from 25% to 18% and removed a separate 25% penalty tied to Russian oil. The first tranche is still in legal drafting. The day in February is approximate."
+      },
+      {
+        "date": "2026-09-25",
+        "title": "Xi's three-day state visit to Washington ends",
+        "detail": "The two sides declare a 'constructive relationship of strategic stability'. Few concrete trade deliverables are announced.",
+        "turning": true
+      },
+      {
+        "date": "2026-09-26",
+        "title": "SCMP argues Trump will face a stronger Xi in Shenzhen",
+        "detail": "The analysis sets expectations that Beijing arrives as host with the upper hand.",
+        "sourceIndex": 1
+      },
+      {
+        "date": "2026-10-01",
+        "title": "South China Sea incidents begin to spike",
+        "detail": "At least six dangerous Philippine-Chinese encounters are reported between 1 and 9 October, including a PLA J-16 closing on a Philippine Cessna on 3 October."
+      },
+      {
+        "date": "2026-10-03",
+        "title": "North Korea launches a hypersonic intermediate-range missile",
+        "detail": "The first in a month of launches that includes two ballistic missiles on 12 October."
+      },
+      {
+        "date": "2026-10-12",
+        "title": "Trump says he 'may' meet Kim Jong Un on the Asia trip",
+        "detail": "He made the remark as North Korea's launches continued. Yonhap reported it the next day.",
+        "sourceIndex": 0,
+        "turning": true
+      },
+      {
+        "date": "2026-10-14",
+        "title": "North Korea tests submarine-launched cruise missiles",
+        "detail": "Two types, including a Pulhwasal-3-31, its first reported sub-launched cruise test since January 2024."
+      },
+      {
+        "date": "2026-10-20",
+        "title": "Rubio in Mumbai for India trade talks",
+        "detail": "Scheduled meeting with India's external affairs minister, followed by a Jamnagar refinery visit on 21 October."
+      },
+      {
+        "date": "2026-11-03",
+        "title": "US midterm elections",
+        "detail": "Two weeks before Shenzhen. Domestic politics shape what Trump wants to announce."
+      },
+      {
+        "date": "2026-11-18",
+        "title": "APEC Economic Leaders' Meeting opens in Shenzhen",
+        "detail": "Two-day summit hosted by Beijing; Trump plans to attend.",
+        "sourceIndex": 1,
+        "turning": true
+      }
+    ],
+    "causes": [
+      {
+        "name": "Structural roots",
+        "when": "Years in the making",
+        "causes": [
+          {
+            "name": "US-China tariff contest",
+            "detail": "Both governments want to manage trade tension without appearing to concede, which produces warm statements with thin deliverables."
+          },
+          {
+            "name": "Export dependence in China",
+            "detail": "Q3 growth of 4.5% came from an export surge while domestic demand stayed weak, so US tariffs matter more to Beijing."
+          },
+          {
+            "name": "APEC rotation",
+            "detail": "China's turn to host came round again after 2014, giving Beijing the venue and agenda control."
+          }
+        ]
+      },
+      {
+        "name": "Trigger",
+        "when": "September 2026",
+        "causes": [
+          {
+            "name": "Xi's state visit to Washington",
+            "detail": "Ended 25 September with a 'strategic stability' label but few concrete trade results, leaving the work for Shenzhen."
+          },
+          {
+            "name": "Trump's plan to attend",
+            "detail": "His attendance makes the summit a Trump-Xi event as much as an APEC meeting."
+          }
+        ]
+      },
+      {
+        "name": "Accelerants",
+        "when": "October 2026",
+        "causes": [
+          {
+            "name": "North Korean launches",
+            "detail": "October launches, and Trump's 'may' meet Kim remark, add a nuclear-diplomacy track to the trip."
+          },
+          {
+            "name": "South China Sea clashes",
+            "detail": "Beijing blocked a Sierra Madre resupply in September and clashes escalated in October, adding pressure on a stable-host image."
+          },
+          {
+            "name": "Putin's summit proposal",
+            "detail": "Moscow wants a Trump-Xi-Putin meeting on Ukraine, and Shenzhen is the nearest place for the first two to meet."
+          },
+          {
+            "name": "Pre-midterm tariff push",
+            "detail": "The US is trying to close bilateral tariff deals, such as India's, before the summit."
+          }
+        ]
+      }
+    ],
+    "stakeholders": [
+      {
+        "name": "Xi Jinping",
+        "role": "Host, China's president",
+        "wants": "Tariff relief and a stable-relationship headline without conceding on core issues",
+        "leverage": "Control of the agenda and venue; export-led growth that makes China's market and supply chains hard to ignore",
+        "likelyMove": "Stage a warm summit, offer limited trade steps, and press for tariff relief"
+      },
+      {
+        "name": "Donald Trump",
+        "role": "US president, summit guest",
+        "wants": "Visible trade wins and a diplomatic show ahead of and after the midterms",
+        "leverage": "US tariffs and the US market; the option of a Kim meeting",
+        "likelyMove": "Seek a Xi meeting and announce purchases or tariff steps; leave the Kim meeting open"
+      },
+      {
+        "name": "Kim Jong Un",
+        "role": "North Korean leader",
+        "wants": "Sanctions relief and recognition from a US president on favourable terms",
+        "leverage": "Missile launches and the unpredictability of his next test",
+        "likelyMove": "Keep testing and keep the door ajar to talks"
+      },
+      {
+        "name": "Vladimir Putin",
+        "role": "Russian president",
+        "wants": "A Trump-Xi-Putin summit on Ukraine without Zelensky",
+        "leverage": "His relationship with Xi and the Ukraine war itself",
+        "likelyMove": "Keep pressing the summit idea and court both leaders"
+      },
+      {
+        "name": "Philippine government",
+        "role": "South China Sea claimant, US ally",
+        "wants": "Uninterrupted resupply of Second Thomas Shoal and no deal over its head",
+        "leverage": "Its alliance with Washington and international attention",
+        "likelyMove": "Publicise any incidents and lobby Washington before Shenzhen"
+      },
+      {
+        "name": "Japan, South Korea, Taiwan and other APEC members",
+        "role": "Allies and economies caught in the middle",
+        "wants": "Bilateral time with both leaders and no surprise US-China bargain",
+        "leverage": "Trade and security ties with both powers",
+        "likelyMove": "Seek meetings on the margins and hedge"
+      }
+    ],
+    "sectors": [
+      {
+        "sector": "Chinese exporters",
+        "direction": "mixed",
+        "size": 3,
+        "why": "Tariff relief would help most, but its absence would leave export-led growth exposed."
+      },
+      {
+        "sector": "US importers and retailers",
+        "direction": "mixed",
+        "size": 2,
+        "why": "They gain if tariff relief is real and lose from renewed tariff threats."
+      },
+      {
+        "sector": "Shipping and logistics in the South China Sea",
+        "direction": "mixed",
+        "size": 2,
+        "why": "Restraint before the summit helps routes, but incidents could return afterwards."
+      },
+      {
+        "sector": "Defence and security",
+        "direction": "up",
+        "size": 2,
+        "why": "North Korean launches and South China Sea clashes sustain demand for regional defence spending."
+      },
+      {
+        "sector": "Hospitality and aviation around Shenzhen",
+        "direction": "mixed",
+        "size": 1,
+        "why": "Summit traffic helps but security restrictions may reduce normal business (our estimate)."
+      },
+      {
+        "sector": "Financial markets",
+        "direction": "mixed",
+        "size": 2,
+        "why": "Headline risk around 18-19 November cuts both ways depending on the deliverables."
+      }
+    ],
+    "dailyLife": [
+      {
+        "item": "Prices of imported goods",
+        "effect": "A tariff-relief announcement would ease costs for US importers over months, not days. A failed summit leaves current tariffs in place."
+      },
+      {
+        "item": "Travel to Shenzhen",
+        "effect": "Expect road closures and tighter security around the summit dates; we estimate this rather than cite it."
+      },
+      {
+        "item": "Energy bills",
+        "effect": "The India talks tie US waivers on Russian-energy sanctions to trade, so oil-market sentiment may move with the news."
+      },
+      {
+        "item": "Security headlines",
+        "effect": "More missile tests or sea incidents are plausible in the weeks before the summit."
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Modest partial deal",
+        "probability": 45,
+        "looksLike": "Trump and Xi meet, repeat 'strategic stability', and announce limited steps such as some purchases or targeted tariff adjustments.",
+        "signposts": [
+          "Leaks of a draft joint statement in early November",
+          "Chinese purchase announcements",
+          "Trump praising Xi publicly"
+        ],
+        "effectOnWorld": "Markets get a brief relief rally; allies see a transactional approach and keep hedging."
+      },
+      {
+        "name": "Thin outcome",
+        "probability": 30,
+        "looksLike": "A cordial meeting with few concrete trade outcomes, as after the September visit, and tariff relief deferred.",
+        "signposts": [
+          "Officials downplaying expectations",
+          "No working-level trade talks before the summit"
+        ],
+        "effectOnWorld": "Trade friction continues into 2027; Beijing keeps using export growth to cushion weak demand."
+      },
+      {
+        "name": "Broad breakthrough",
+        "probability": 10,
+        "looksLike": "A package that includes significant tariff relief, large purchases and a joint line on some regional issues.",
+        "signposts": [
+          "Senior trade officials meeting in early November",
+          "Public hints from both leaders of a big announcement"
+        ],
+        "effectOnWorld": "Sharp market reaction; allies worry about US-China bargains made over their heads."
+      },
+      {
+        "name": "Derailed trip",
+        "probability": 15,
+        "looksLike": "Trump cancels, shortens or downgrades his attendance, or a crisis in the South China Sea or on the Korean peninsula overshadows the summit.",
+        "signposts": [
+          "A serious incident with casualties at sea",
+          "A nuclear or long-range missile test",
+          "Trump publicly attacking Beijing"
+        ],
+        "effectOnWorld": "Heightened regional tension and a loss of face for the Chinese host."
+      }
+    ],
+    "predictions": [
+      {
+        "text": "Trump attends the Shenzhen summit in person and holds a bilateral meeting with Xi (probability 0.8).",
+        "horizon": "By 19 November 2026",
+        "resolves": "2026-11-20"
+      },
+      {
+        "text": "The meeting produces a announced tariff reduction by either side that is concrete rather than just a pledge to talk (probability 0.35).",
+        "horizon": "By 30 November 2026",
+        "resolves": "2026-11-30"
+      },
+      {
+        "text": "Trump meets Kim Jong Un face to face during the Asia trip (probability 0.12).",
+        "horizon": "By 25 November 2026",
+        "resolves": "2026-11-25"
+      },
+      {
+        "text": "Trump, Xi and Putin do not hold a three-way meeting in Shenzhen (probability 0.93).",
+        "horizon": "By 19 November 2026",
+        "resolves": "2026-11-20"
+      },
+      {
+        "text": "At least one further dangerous Philippine-Chinese encounter is publicly reported between 1 and 17 November (probability 0.75).",
+        "horizon": "By 17 November 2026",
+        "resolves": "2026-11-18"
+      }
+    ],
+    "countermeasures": [
+      {
+        "audience": "businesses",
+        "actions": [
+          "Do not plan around tariff relief until it is written into an official notice.",
+          "Build scenarios for both a relief announcement and a deferral, and decide your trigger points in advance.",
+          "Check travel plans and site security if you have staff or events in Shenzhen on 18-19 November."
+        ]
+      },
+      {
+        "audience": "investors",
+        "actions": [
+          "Expect headline-driven moves around 18-19 November and size positions accordingly.",
+          "Separate 'strategic stability' language from signed trade measures.",
+          "Watch North Korean and South China Sea news as event risk for the same dates."
+        ]
+      },
+      {
+        "audience": "households",
+        "actions": [
+          "Do not expect shop prices to drop quickly even if a deal is announced.",
+          "Check travel advisories if you plan to visit Shenzhen or nearby routes in mid-November."
+        ]
+      },
+      {
+        "audience": "policymakers",
+        "actions": [
+          "Allies should seek bilateral time on the margins and pre-clear red lines with Washington.",
+          "Keep communication lines with Beijing open on South China Sea incidents before the summit.",
+          "Prepare contingency language in case a Kim meeting becomes real at short notice."
+        ]
+      }
+    ],
+    "analogues": [
+      {
+        "event": "Trump-Xi meeting in Busan on the sidelines of APEC",
+        "year": "2025",
+        "whatFollowed": "From general knowledge: a one-year tariff and rare-earth truce was reported. We have not checked its detailed terms, so treat this as context rather than fact for planning."
+      },
+      {
+        "event": "APEC in Beijing",
+        "year": "2014",
+        "whatFollowed": "China as host used the summit for a showpiece US-China announcement on climate; a precedent for Beijing staging a deliverable."
+      },
+      {
+        "event": "Trump-Kim summit in Hanoi",
+        "year": "2019",
+        "whatFollowed": "The meeting ended without a deal, a warning that a headline meeting can fail."
+      },
+      {
+        "event": "Trump-Kim summit in Singapore",
+        "year": "2018",
+        "whatFollowed": "A first meeting produced warm words and few concrete steps, a template for symbolism over substance."
+      }
+    ],
+    "watch": [
+      {
+        "date": "2026-10-20",
+        "title": "Rubio in Mumbai for India trade talks",
+        "why": "Shows whether Washington can close bilateral deals before Shenzhen; India's first tranche is still in legal drafting."
+      },
+      {
+        "date": "2026-11-03",
+        "title": "US midterm elections",
+        "why": "The result shapes Trump's domestic appetite for a trade announcement two weeks later."
+      },
+      {
+        "date": "2026-11-10",
+        "title": "Possible expiry of the Busan truce (approximate, our recollection)",
+        "why": "If the one-year arrangement from October 2025 lapses around this time, it will pressure both sides to deliver in Shenzhen. Verify before relying on it."
+      },
+      {
+        "date": "2026-11-18",
+        "title": "APEC leaders' meeting opens in Shenzhen",
+        "why": "First day of the summit and the likely window for a Trump-Xi meeting."
+      },
+      {
+        "date": "2026-11-19",
+        "title": "APEC summit closes",
+        "why": "Any leaders' declaration, joint statement or deal announcement is likely by now."
+      },
+      {
+        "title": "North Korean launches",
+        "why": "A longer-range or nuclear test would make a Kim meeting politically harder for Trump."
+      },
+      {
+        "title": "South China Sea incidents",
+        "why": "A sharp drop before the summit would suggest Beijing is restraining its coast guard; a spike would suggest it is not."
+      }
+    ]
+  },
+  "evidence": {
+    "sources": [
+      {
+        "title": "Trump says he 'may' meet N. Korean leader Kim during upcoming Asia trip",
+        "url": "https://www.koreatimes.co.kr/foreignaffairs/northkorea/20261013/trump-says-he-may-meet-n-korean-leader-kim-during-upcoming-asia-trip",
+        "publisher": "The Korea Times / Yonhap",
+        "date": "2026-10-13"
+      },
+      {
+        "title": "3 top reasons Trump will face a stronger Xi Jinping at November Apec forum in China",
+        "url": "https://www.scmp.com/news/china/diplomacy/article/3368914/3-top-reasons-trump-will-face-stronger-xi-jinping-november-apec-forum-china",
+        "publisher": "South China Morning Post",
+        "date": "2026-09-26"
+      }
+    ],
+    "confidence": [
+      {
+        "claim": "Summit dates (18-19 November), Shenzhen venue and China as host",
+        "level": "high",
+        "note": "Given in the event record and consistent with the SCMP headline."
+      },
+      {
+        "claim": "Trump will attend",
+        "level": "medium",
+        "note": "The event record says he plans to; plans can change and we have not seen a White House confirmation."
+      },
+      {
+        "claim": "Trump may meet Kim Jong Un",
+        "level": "low",
+        "note": "Trump said he 'may'; this is an option, not a scheduled meeting."
+      },
+      {
+        "claim": "Tariff relief is Beijing's top summit goal",
+        "level": "medium",
+        "note": "Stated in the event record and linked to the China Q3 growth event; we did not read the SCMP article's full reasoning."
+      },
+      {
+        "claim": "The Busan truce of October 2025 and its timing",
+        "level": "low",
+        "note": "From general knowledge, no source cited; included only as context and flagged as unverified."
+      },
+      {
+        "claim": "Scenario probabilities and predictions",
+        "level": "low",
+        "note": "Author judgement, not a sourced forecast; graded as events resolve."
+      }
+    ],
+    "method": "Drafted from the two listed sources, their headlines, the event summary, and the briefs of connected events. We did not read the full text of either article, so the SCMP piece is used only for its headline framing. Background such as the Busan truce, Taiwan's APEC name, the 3 November US midterms and the 2014 APEC precedent comes from general knowledge and is marked as such where it appears. Scenario probabilities and prediction odds are estimates.",
+    "changeLog": [
+      {
+        "date": "2026-10-19",
+        "change": "First publication."
+      }
+    ]
+  },
+  "generated": {
+    "by": "Geoploitica draft script",
+    "at": "2026-10-19T20:02:57.068Z",
+    "model": "claude-sonnet-5-5",
+    "sources": 2,
+    "headlines": 2,
+    "reviewed": false
+  }
+}

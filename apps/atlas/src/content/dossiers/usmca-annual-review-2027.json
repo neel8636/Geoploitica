@@ -1,0 +1,627 @@
+{
+  "slug": "usmca-annual-review-2027",
+  "title": "USMCA not renewed: North America's trade pact moves to yearly reviews",
+  "deck": "The United States declined to extend the continental trade deal for 16 years, so it now runs on a yearly review clock, and Washington is using that uncertainty to press Mexico and Canada on cars, China, steel and dairy.",
+  "updated": "2026-10-19",
+  "status": "developing",
+  "region": "Mexico, United States, Canada",
+  "tags": [
+    "trade",
+    "USMCA",
+    "Mexico",
+    "auto supply chains",
+    "tariffs",
+    "China content",
+    "North America"
+  ],
+  "readingMinutes": {
+    "card": 1,
+    "brief": 5,
+    "deep": 15
+  },
+  "card": {
+    "headline": "The USMCA still works, but it is now on a short leash with annual reviews until 2036",
+    "keyNumber": {
+      "value": "$280bn+",
+      "label": "Mexico's trade surplus with the US in the year to August, up 51% (figure from the event summary)",
+      "sourceIndex": 0
+    },
+    "impactMeter": 3,
+    "forYou": [
+      {
+        "role": "Supply chain",
+        "line": "The pact is in force, but car rules of origin and Chinese-content tests may tighten. Map which parts cross the border and where they originate."
+      },
+      {
+        "role": "Finance",
+        "line": "Annual reviews turn every cycle into a headline risk for the peso, Canadian dollar and cross-border manufacturers."
+      },
+      {
+        "role": "Exporters to the US",
+        "line": "Section 338 and Section 232 tariffs apply whatever the USMCA says, so origin status alone no longer protects you."
+      },
+      {
+        "role": "Everyone",
+        "line": "Cars, dairy and groceries are the most exposed goods. Price effects, if any, would build slowly."
+      }
+    ],
+    "ripple": [
+      {
+        "label": "First-order",
+        "effects": [
+          {
+            "text": "The US declined to confirm a 16-year extension at the 1 July 2026 joint review; the pact now expires on 1 July 2036 unless extended, with annual reviews until then",
+            "sector": "Trade law"
+          },
+          {
+            "text": "USTR opened the 2027 review on 2 October; written comments and hearing requests are due 12 January 2027",
+            "sector": "Trade policy"
+          },
+          {
+            "text": "Mexico pledged on 13 October to buy more American goods to seek a bilateral deal",
+            "sector": "Diplomacy"
+          },
+          {
+            "text": "US demands focus on auto rules of origin, Chinese content, steel, dairy and trade deficits",
+            "sector": "Autos, agriculture, metals"
+          }
+        ]
+      },
+      {
+        "label": "Second-order",
+        "effects": [
+          {
+            "text": "Firms delay long-lived plant investment in Mexico and Canada until the rules are clearer",
+            "sector": "Manufacturing"
+          },
+          {
+            "text": "Mexico and Canada may split, with Mexico pursuing a bilateral track and Canada locked in a tariff fight",
+            "sector": "Diplomacy"
+          },
+          {
+            "text": "Suppliers redesign bills of materials to cut Chinese content and prove North American origin",
+            "sector": "Autos, electronics"
+          },
+          {
+            "text": "Currency and equity markets react to each review headline",
+            "sector": "Markets"
+          }
+        ]
+      },
+      {
+        "label": "Third-order",
+        "effects": [
+          {
+            "text": "China tries to reach the US through other routes, and transshipment crackdowns raise costs for third countries",
+            "sector": "Geopolitics"
+          },
+          {
+            "text": "A Democratic House after the 3 November midterms could scrutinise any renegotiated text, slowing or reshaping a deal",
+            "sector": "US politics"
+          },
+          {
+            "text": "North America's weaker trade certainty pushes some investment toward Asia and Europe, which face their own 2027 rules",
+            "sector": "Global supply chains"
+          }
+        ]
+      }
+    ]
+  },
+  "brief": {
+    "whatHappened": [
+      "At the first USMCA joint review on 1 July 2026, the United States declined to confirm a 16-year extension. Under Article 34.7, the pact therefore stays in force only to 1 July 2036 and must be reviewed every year.",
+      "USTR opened the 2027 review on 2 October. Written comments and hearing requests are due 12 January 2027. US demands centre on auto rules of origin, Chinese content, steel, dairy and trade deficits.",
+      "Mexico's trade surplus with the US rose 51% to over $280 billion in the year to August. On 13 October Mexico pledged to buy more American goods to secure a bilateral deal."
+    ],
+    "whyItMatters": [
+      "The USMCA covers the most integrated supply chains in the world, especially cars. The pact is still in force, so nothing changes overnight. What changes is certainty: each year becomes a bargaining round.",
+      "Washington is using non-renewal alongside Section 338 tariffs as twin levers. Talks with Canada collapsed on 22 August after 50% Section 338 tariffs hit about $20 billion of Canadian goods. Alcohol and dairy imports from Canada were then banned from 29 September. Section 338 duties apply regardless of USMCA origin and stack on Section 232 tariffs on steel, aluminium, autos and lumber.",
+      "Mexico is the most exposed. Its large surplus makes it the obvious target. It also has the most to lose if it fails to reach a deal."
+    ],
+    "winners": [
+      {
+        "who": "US negotiators",
+        "why": "Annual reviews keep leverage permanently in play, and each cycle can win new concessions."
+      },
+      {
+        "who": "US dairy, grain and other farm exporters",
+        "why": "Mexico's pledge to buy more American goods and US dairy demands point to wider market access."
+      },
+      {
+        "who": "Producers with verifiably North American supply chains",
+        "why": "Tighter origin and anti-China rules favour firms that can document regional content."
+      }
+    ],
+    "losers": [
+      {
+        "who": "Mexican exporters and assemblers",
+        "why": "They face the largest US scrutiny, since the surplus is the political target, and a long period of investment uncertainty."
+      },
+      {
+        "who": "Canadian dairy, alcohol and wine producers",
+        "why": "The US has banned or put 50% tariffs on these goods, and Canada has retaliated."
+      },
+      {
+        "who": "Cross-border auto suppliers",
+        "why": "They face stricter rules of origin and Chinese-content tests while also paying steel and aluminium tariffs."
+      },
+      {
+        "who": "Chinese exporters using Mexico as a route to the US",
+        "why": "US demands on Chinese content and transshipment target this channel."
+      }
+    ],
+    "whatsNext": [
+      "3 November 2026: US midterm elections. A Democratic House would change how Congress treats any renegotiated text.",
+      "12 January 2027: deadline for written comments and hearing requests in the USTR review.",
+      "Early 2027: hearings and USTR's assessment, then bilateral bargaining. Exact dates are not confirmed in our sources.",
+      "Annual reviews follow until 2036 unless all three countries confirm an extension."
+    ],
+    "predict": {
+      "question": "Before you read the scenarios: what is the most likely state of the USMCA a year from now?",
+      "options": [
+        "All three countries agree to extend the pact to 2042",
+        "Still in force with annual reviews and a partial US-Mexico deal",
+        "The US gives notice to withdraw",
+        "The pact is replaced by two bilateral deals"
+      ],
+      "answerIndex": 1,
+      "explanation": "Our base case, at about 45%, is that the pact stays in force under annual review while Mexico trades concessions for relief. A clean extension is the least likely path, at about 10%, because US demands are broad and the Canada dispute is unresolved."
+    },
+    "recap": [
+      {
+        "question": "What happened at the 1 July 2026 joint review?",
+        "options": [
+          "The pact was extended for 16 years",
+          "The US declined to confirm an extension",
+          "Canada left the pact"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "question": "What is due on 12 January 2027?",
+        "options": [
+          "Written comments and hearing requests in the USTR review",
+          "The final renegotiated text",
+          "Mexico's tariff payment"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "question": "Which country has pledged to buy more American goods to seek a bilateral deal?",
+        "options": [
+          "Canada",
+          "Mexico",
+          "China"
+        ],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "deep": {
+    "timeline": [
+      {
+        "date": "2026-02-28",
+        "title": "Iran war begins",
+        "detail": "The fuel and grocery price rises that followed now dominate US politics and sharpen trade-deficit rhetoric.",
+        "sourceIndex": null
+      },
+      {
+        "date": "2026-07-01",
+        "title": "First USMCA joint review",
+        "detail": "The US declines to confirm a 16-year extension. Under Article 34.7 the pact now runs only to 1 July 2036, with annual reviews.",
+        "sourceIndex": 1,
+        "turning": true
+      },
+      {
+        "date": "2026-08-22",
+        "title": "US-Canada talks collapse",
+        "detail": "Washington imposes 50% Section 338 tariffs on about $20bn of Canadian goods: wine, furniture, dairy, cement, clothing."
+      },
+      {
+        "date": "2026-09-08",
+        "title": "Canadian alcohol and dairy duties become bans",
+        "detail": "Trump signs five proclamations. Canada's Carney answers with dollar-for-dollar counter-tariffs on US steel, dairy, appliances and farm equipment."
+      },
+      {
+        "date": "2026-09-29",
+        "title": "Canadian alcohol and dairy bans take effect",
+        "detail": "Canadian products are also ordered off GSA procurement schedules."
+      },
+      {
+        "date": "2026-10-02",
+        "title": "USTR opens the 2027 review",
+        "detail": "Written comments and hearing requests are due 12 January 2027.",
+        "sourceIndex": 0,
+        "turning": true
+      },
+      {
+        "date": "2026-10-07",
+        "title": "Law-firm analysis: not renewed, still in force",
+        "detail": "Mayo Law sets out what annual reviews mean in practice.",
+        "sourceIndex": 0
+      },
+      {
+        "date": "2026-10-13",
+        "title": "Mexico pledges to buy more American goods",
+        "detail": "The aim is a bilateral deal. Mexico's surplus with the US rose 51% to over $280bn in the year to August."
+      },
+      {
+        "date": "2026-11-03",
+        "title": "US midterm elections",
+        "detail": "All 435 House seats and 35 Senate seats are up. Democrats are favoured to take the House."
+      },
+      {
+        "date": "2027-01-12",
+        "title": "Comment and hearing-request deadline",
+        "detail": "The formal record of the 2027 review closes, days after a new Congress convenes.",
+        "turning": true
+      }
+    ],
+    "causes": [
+      {
+        "name": "Structural roots",
+        "when": "Years in the making",
+        "causes": [
+          {
+            "name": "Persistent US deficit with Mexico",
+            "detail": "A surplus above $280bn gives Washington a simple political target."
+          },
+          {
+            "name": "China's presence in North American supply chains",
+            "detail": "The US wants to stop Chinese inputs and goods entering via Mexico or Canada."
+          },
+          {
+            "name": "Built-in review clause",
+            "detail": "Article 34.7 turns non-confirmation into a lever without withdrawing from the pact."
+          }
+        ]
+      },
+      {
+        "name": "Trigger",
+        "when": "1 July 2026",
+        "causes": [
+          {
+            "name": "US declines to confirm extension",
+            "detail": "This switches the pact from a 16-year term to annual reviews ending in 2036."
+          }
+        ]
+      },
+      {
+        "name": "Accelerants",
+        "when": "August to October 2026",
+        "causes": [
+          {
+            "name": "US-Canada tariff war",
+            "detail": "Section 338 tariffs, counter-tariffs and import bans show Washington will use tariffs outside the USMCA's rules."
+          },
+          {
+            "name": "Rising Mexican surplus",
+            "detail": "A 51% rise in a year raised pressure on Mexico."
+          },
+          {
+            "name": "US midterm politics",
+            "detail": "Gasoline and grocery prices push trade toughness and deficit messaging before 3 November."
+          }
+        ]
+      }
+    ],
+    "stakeholders": [
+      {
+        "name": "Trump administration and USTR",
+        "role": "Review leader",
+        "wants": "Lower deficits, tighter origin rules, less Chinese content, steel and dairy access",
+        "leverage": "Annual non-renewal, Section 338 and Section 232 tariffs",
+        "likelyMove": "Keep both countries under pressure; trade relief for concessions, mostly bilaterally"
+      },
+      {
+        "name": "Mexican government (President Sheinbaum)",
+        "role": "Defending the pact",
+        "wants": "Stable access to the US market and a bilateral deal",
+        "leverage": "Purchases of American goods, control over Chinese investment and imports",
+        "likelyMove": "Offer purchases and anti-China measures, avoid retaliation"
+      },
+      {
+        "name": "Canadian government (Prime Minister Carney)",
+        "role": "Retaliating partner",
+        "wants": "An end to Section 338 tariffs and bans, and continued USMCA access",
+        "leverage": "Counter-tariffs on US steel, dairy, appliances, farm equipment",
+        "likelyMove": "Hold the counter-tariffs while keeping the USMCA track open"
+      },
+      {
+        "name": "US Congress",
+        "role": "Oversight",
+        "wants": "Varies; Democrats favoured to win the House want scrutiny of any deal",
+        "leverage": "Hearings and legislative review of changes",
+        "likelyMove": "More hearings from January if the House changes hands"
+      },
+      {
+        "name": "Automakers and parts suppliers",
+        "role": "Most exposed industry",
+        "wants": "Predictable origin rules and relief from stacked metal tariffs",
+        "leverage": "Lobbying; investment decisions",
+        "likelyMove": "File comments by 12 January, delay long-lived investment, redesign supply chains"
+      },
+      {
+        "name": "China",
+        "role": "Target of US content rules",
+        "wants": "Keep export access via third countries",
+        "leverage": "Component supply and prices",
+        "likelyMove": "Shift routing and sourcing; avoid open confrontation"
+      }
+    ],
+    "sectors": [
+      {
+        "sector": "Autos and parts",
+        "direction": "down",
+        "size": 3,
+        "why": "Rules of origin, Chinese content and steel and aluminium tariffs all hit the most integrated cross-border industry."
+      },
+      {
+        "sector": "Steel and aluminium",
+        "direction": "mixed",
+        "size": 2,
+        "why": "US demands on steel could lift some US producers, but tariffs raise costs for users."
+      },
+      {
+        "sector": "Dairy",
+        "direction": "mixed",
+        "size": 2,
+        "why": "US producers may gain access, while Canadian producers face a US import ban."
+      },
+      {
+        "sector": "Mexican industrial real estate and nearshoring",
+        "direction": "down",
+        "size": 2,
+        "why": "Uncertainty can delay new investment, though the pact remains in force."
+      },
+      {
+        "sector": "Agriculture exports from the US",
+        "direction": "up",
+        "size": 1,
+        "why": "Mexico's purchase pledge points to larger sales."
+      },
+      {
+        "sector": "Customs, compliance and trade law",
+        "direction": "up",
+        "size": 1,
+        "why": "Annual reviews and origin audits raise demand for advisers."
+      },
+      {
+        "sector": "Chinese component exporters",
+        "direction": "down",
+        "size": 2,
+        "why": "Content and transshipment rules narrow indirect access to the US."
+      }
+    ],
+    "dailyLife": [
+      {
+        "item": "Cars",
+        "effect": "Stacked tariffs and origin changes could raise costs for North American-built vehicles. The effect would build gradually.",
+        "sourceIndex": null
+      },
+      {
+        "item": "Dairy and alcohol",
+        "effect": "Canadian alcohol and dairy imports to the US are banned from 29 September, so Canadian products disappear from US shelves. Canada's counter-tariffs raise prices on US dairy and goods there."
+      },
+      {
+        "item": "Groceries",
+        "effect": "Prices are already high after the Iran war began on 28 February. Further tariffs or Mexican purchase deals may shift food costs, though the direction is uncertain."
+      },
+      {
+        "item": "Jobs in border manufacturing",
+        "effect": "Delayed investment and shifting origin rules weigh on hiring in Mexico and in US plants dependent on Mexican parts."
+      },
+      {
+        "item": "Currency",
+        "effect": "The peso and Canadian dollar may swing on review headlines, affecting travel and remittance costs."
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Annual-review limbo",
+        "probability": 45,
+        "looksLike": "The pact stays in force. USTR holds hearings, issues demands, and Mexico makes purchase and anti-China concessions in stages. Canada remains in dispute.",
+        "signposts": [
+          "No extension announced after the January comments",
+          "Piecemeal bilateral announcements with Mexico",
+          "Continued Section 338 tariffs on Canada"
+        ],
+        "effectOnWorld": "Steady uncertainty premium on North American investment; supply chains slowly re-document origin."
+      },
+      {
+        "name": "US-Mexico bilateral deal",
+        "probability": 25,
+        "looksLike": "Mexico agrees purchases, tighter Chinese-content rules and steel measures in exchange for tariff relief and signals of a bilateral track.",
+        "signposts": [
+          "Formal US-Mexico announcement",
+          "Tariff relief on Mexican autos or steel",
+          "Canada left outside the deal"
+        ],
+        "effectOnWorld": "Mexico stabilises, Canada isolated; the pact becomes less trilateral in practice."
+      },
+      {
+        "name": "Escalation toward withdrawal",
+        "probability": 20,
+        "looksLike": "Talks fail, new tariffs hit Mexico, and Washington threatens notice of withdrawal.",
+        "signposts": [
+          "Section 338 or similar tariffs on Mexican goods",
+          "Withdrawal rhetoric from the White House",
+          "Sharp peso fall"
+        ],
+        "effectOnWorld": "Severe disruption to the auto supply chain; recession risk across the three economies."
+      },
+      {
+        "name": "Clean extension",
+        "probability": 10,
+        "looksLike": "A package resolves US demands and all three countries confirm a new 16-year term.",
+        "signposts": [
+          "Canada tariff fight settled",
+          "Joint statement on extension"
+        ],
+        "effectOnWorld": "Investment certainty returns; unlikely given the breadth of demands."
+      }
+    ],
+    "predictions": [
+      {
+        "text": "The USMCA will still be in force, with no withdrawal notice from any party (probability 0.9).",
+        "horizon": "By 31 December 2027",
+        "resolves": "2027-12-31"
+      },
+      {
+        "text": "No three-country extension of the pact beyond 2036 will be confirmed (probability 0.9).",
+        "horizon": "By 1 July 2027",
+        "resolves": "2027-07-01"
+      },
+      {
+        "text": "The US and Mexico will announce at least a partial bilateral trade arrangement tied to purchases or Chinese-content rules (probability 0.4).",
+        "horizon": "By 30 June 2027",
+        "resolves": "2027-06-30"
+      },
+      {
+        "text": "US Section 338 tariffs on Canadian goods will remain in place on 12 January 2027 (probability 0.7).",
+        "horizon": "January 2027",
+        "resolves": "2027-01-12"
+      },
+      {
+        "text": "Democrats will win control of the House in the 3 November midterms (probability 0.75, based on polling cited in the connected midterms dossier).",
+        "horizon": "November 2026",
+        "resolves": "2026-11-04"
+      }
+    ],
+    "countermeasures": [
+      {
+        "audience": "businesses",
+        "actions": [
+          "File comments before 12 January if your supply chain crosses the border.",
+          "Map every part by country of origin and Chinese content share.",
+          "Model costs under tighter origin rules and stacked steel and aluminium tariffs.",
+          "Check contracts for tariff-pass-through and force-majeure terms.",
+          "Avoid sole reliance on one border crossing or Mexican plant for critical parts."
+        ]
+      },
+      {
+        "audience": "investors",
+        "actions": [
+          "Treat the USMCA as a recurring annual risk event rather than a settled framework.",
+          "Watch peso and Canadian dollar reactions to review milestones and tariff announcements.",
+          "Check autos, parts and cross-border logistics holdings for dependence on Mexico and Chinese content."
+        ]
+      },
+      {
+        "audience": "households",
+        "actions": [
+          "Expect gradual price pressure on cars and some groceries, not a sudden shock.",
+          "If you plan a large vehicle purchase, compare North American-built and imported options.",
+          "Cross-border workers and remitters should watch exchange-rate swings."
+        ]
+      },
+      {
+        "audience": "policymakers",
+        "actions": [
+          "Separate USMCA review issues from unrelated tariff measures to keep the pact predictable.",
+          "Coordinate Mexico-Canada positions where interests overlap, particularly on China.",
+          "Give firms early notice of origin-rule changes and transition periods."
+        ]
+      }
+    ],
+    "analogues": [
+      {
+        "event": "NAFTA renegotiation leading to USMCA",
+        "year": "2017-2020",
+        "whatFollowed": "The US used tariff threats on steel and autos to win changes; the new pact was signed in 2018 and entered into force on 1 July 2020."
+      },
+      {
+        "event": "US tariff threat against Mexico over migration",
+        "year": "2019",
+        "whatFollowed": "A threatened tariff was suspended after a June deal, showing how trade leverage can be used on unrelated goals."
+      },
+      {
+        "event": "Section 232 steel and aluminium tariffs on Canada and Mexico",
+        "year": "2018-2019",
+        "whatFollowed": "The tariffs were lifted in May 2019 as ratification of the new pact moved ahead, showing that relief is tradeable."
+      }
+    ],
+    "watch": [
+      {
+        "date": "2026-11-03",
+        "title": "US midterm elections",
+        "why": "A Democratic House would scrutinise any renegotiated text; the result sets the political backdrop for the review."
+      },
+      {
+        "date": "2027-01-12",
+        "title": "Comments and hearing requests due",
+        "why": "The record of industry demands and objections closes; watch which sectors file and what they ask for."
+      },
+      {
+        "title": "Section 338 tariffs on Canada",
+        "why": "Any extension of these tariffs to Mexico would signal escalation."
+      },
+      {
+        "title": "Mexican purchase announcements",
+        "why": "Concrete purchase deals show whether the 13 October pledge is turning into a bilateral arrangement."
+      },
+      {
+        "title": "EU CBAM and EUDR start dates",
+        "why": "Compliance resets in 2027 overlap with North American origin rules and may pull supply chains in different directions."
+      }
+    ]
+  },
+  "evidence": {
+    "sources": [
+      {
+        "title": "USMCA Review 2026: Not Renewed, Still in Force",
+        "url": "https://mayo.law/articles/updates/usmca-joint-review/",
+        "publisher": "Mayo Law",
+        "date": "2026-10-07"
+      },
+      {
+        "title": "Mexico Enters New Phase: USMCA Continuity and Annual Review with the U.S. and Canada",
+        "url": "https://www.hklaw.com/en/insights/publications/2026/07/mexico-ante-una-nueva-etapa-continuidad-del-tmec",
+        "publisher": "Holland & Knight",
+        "date": "2026-07-02"
+      }
+    ],
+    "confidence": [
+      {
+        "claim": "The US declined to confirm a 16-year extension on 1 July 2026, triggering annual reviews and a 1 July 2036 expiry",
+        "level": "high",
+        "note": "Consistent across the event summary and both law-firm sources."
+      },
+      {
+        "claim": "USTR opened the review on 2 October with comments due 12 January 2027",
+        "level": "medium",
+        "note": "Taken from the event summary; the listed sources were not checked for the exact dates."
+      },
+      {
+        "claim": "Mexico's surplus rose 51% to over $280bn and Mexico pledged on 13 October to buy more American goods",
+        "level": "medium",
+        "note": "Taken from the event summary; not confirmed in the two cited law-firm articles."
+      },
+      {
+        "claim": "Canada tariff, ban and Section 338 details",
+        "level": "medium",
+        "note": "Drawn from the linked us-canada-trade-war dossier, not independently verified here."
+      },
+      {
+        "claim": "Scenario probabilities and predictions",
+        "level": "low",
+        "note": "Author judgement, not a sourced forecast; to be graded as events resolve."
+      }
+    ],
+    "method": "Drafted from the two listed law-firm sources, the event summary and the connected dossiers provided as context. Only two sources were available, so many details come from the event summary, and the sector effects, daily-life effects, scenario probabilities and predictions are estimates. No numeric series was available, so the dossier has no chart.",
+    "changeLog": [
+      {
+        "date": "2026-10-19",
+        "change": "First publication."
+      }
+    ]
+  },
+  "generated": {
+    "by": "Geoploitica draft script",
+    "at": "2026-10-19T20:00:27.727Z",
+    "model": "claude-sonnet-5-5",
+    "sources": 2,
+    "headlines": 2,
+    "reviewed": false
+  }
+}

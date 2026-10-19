@@ -1,0 +1,601 @@
+{
+  "slug": "italy-cost-of-living-riots",
+  "title": "Cost-of-living riots in Milan, Turin and Bologna",
+  "deck": "Two days of rioting around Milan's Duomo, with clashes in Turin and Bologna, put Italy on the same price-and-wages fault line as France, with Meloni's government answering on security ahead of a 2027 election.",
+  "updated": "2026-10-19",
+  "status": "developing",
+  "region": "Italy",
+  "tags": [
+    "unrest",
+    "cost of living",
+    "Italy",
+    "EU politics",
+    "sovereign debt",
+    "energy prices"
+  ],
+  "readingMinutes": {
+    "card": 1,
+    "brief": 5,
+    "deep": 15
+  },
+  "card": {
+    "headline": "Italy's riots are the French cost-of-living anger spreading south, and the government is answering with security",
+    "keyNumber": {
+      "value": "200+",
+      "label": "arrested in Milan over 17-18 October, with clashes also in Turin and Bologna",
+      "sourceIndex": 0
+    },
+    "impactMeter": 3,
+    "forYou": [
+      {
+        "role": "Supply chain",
+        "line": "No transport disruption is reported so far. Watch Milan, Turin and Bologna for protest-day closures, and add buffer if you also route through France."
+      },
+      {
+        "role": "Finance",
+        "line": "Italian and Spanish spreads widened in step with France's in early October. Moody's reviews France on 23 October, which could move Italy too."
+      },
+      {
+        "role": "Sales into Italy",
+        "line": "Milan's central shopping district was a riot site. Expect cautious retail trading and tighter security around the Duomo."
+      },
+      {
+        "role": "Travel",
+        "line": "Expect police cordons and short-notice closures around central squares in Milan, Turin and Bologna on protest days."
+      },
+      {
+        "role": "Everyone",
+        "line": "The bigger story is political: disorder before a 2027 vote tends to help whoever promises order, and Meloni is positioning on that."
+      }
+    ],
+    "ripple": [
+      {
+        "label": "First-order",
+        "effects": [
+          {
+            "text": "Rioting and looting around Milan's Duomo on two successive days",
+            "sector": "Retail, tourism"
+          },
+          {
+            "text": "More than 200 arrests over 17-18 October in Milan",
+            "sector": "Justice, policing"
+          },
+          {
+            "text": "Clashes spread to Turin and Bologna",
+            "sector": "Public order"
+          },
+          {
+            "text": "Meloni calls a security meeting",
+            "sector": "Government"
+          }
+        ]
+      },
+      {
+        "label": "Second-order",
+        "effects": [
+          {
+            "text": "Tougher public-order measures likely debated, such as protest-zone limits and more policing in city centres (our estimate)",
+            "sector": "Policy"
+          },
+          {
+            "text": "Shops and hospitality in the centre of Milan face lost trade and higher security and insurance costs (estimate; no damage figure yet)",
+            "sector": "Retail, hospitality"
+          },
+          {
+            "text": "Italian borrowing costs sensitive to French stress; spreads widened in step with France's in early October",
+            "sector": "Finance"
+          }
+        ]
+      },
+      {
+        "label": "Third-order",
+        "effects": [
+          {
+            "text": "Order versus living costs becomes a central theme of the 2027 election campaign",
+            "sector": "Domestic politics"
+          },
+          {
+            "text": "Italy and France vote in 2027 on opposite lines on Ukraine, so the right's unity on Russia gets tested",
+            "sector": "Geopolitics"
+          },
+          {
+            "text": "Copycat cost-of-living unrest becomes more likely elsewhere in Europe",
+            "sector": "Europe"
+          },
+          {
+            "text": "Investors treat political risk in southern Europe as a rising factor in sovereign debt",
+            "sector": "Markets"
+          }
+        ]
+      }
+    ]
+  },
+  "brief": {
+    "whatHappened": [
+      "Rioting and looting broke out around Milan's Duomo and continued for a second day. Euronews reports more than 200 arrests across 17-18 October.",
+      "Clashes also took place in Turin and Bologna. The protests were framed as a response to the cost of living.",
+      "Prime Minister Giorgia Meloni called a security meeting. Italy holds a parliamentary election in 2027.",
+      "The unrest came the same weekend as large, violent protests in France, where about 550,000 marched on 17 October."
+    ],
+    "whyItMatters": [
+      "Italy is the eurozone's third-largest economy and carries a heavy public debt. When French debt came under strain in early October, Italian and Spanish spreads widened in step, so unrest in one country can quickly become a market story in another.",
+      "The grievances are shared: prices, wages and housing. An energy shock linked to the war on Iran, which began on 27 February 2026, has kept fuel and freight costs high. These are Europe-wide pressures, not one country's quirk.",
+      "Disorder before a vote tends to favour whoever promises order. Meloni is positioning on exactly that, which helps her but ties her to a security response that may not fix the underlying price squeeze."
+    ],
+    "winners": [
+      {
+        "who": "Meloni's governing camp, possibly",
+        "why": "It can present itself as the party of order. This is a political judgement, not yet visible in polls, and it depends on the unrest staying contained."
+      },
+      {
+        "who": "Private security and riot-cover insurers",
+        "why": "Demand for protection around city-centre retail rises after looting (our estimate)."
+      },
+      {
+        "who": "Moscow",
+        "why": "Unrest in several EU states at once distracts governments and may strain the political consensus behind Ukraine aid."
+      }
+    ],
+    "losers": [
+      {
+        "who": "Milan city-centre shops and hospitality",
+        "why": "Looting and cordons cost trade and raise security and insurance bills. We have no damage figure yet."
+      },
+      {
+        "who": "Households squeezed by prices",
+        "why": "The underlying pressures on prices, wages and housing are unchanged by arrests."
+      },
+      {
+        "who": "Italian government borrowing costs",
+        "why": "Italy is exposed to any further French bond stress; its spreads moved with France's in early October."
+      }
+    ],
+    "whatsNext": [
+      "23 October: Moody's reviews France's Aa3 negative rating. A move could spill over to Italian spreads.",
+      "29 October: ECB policy meeting. Any hint on its crisis tool or on French conditions moves southern European spreads.",
+      "5 November: a French national strike. Watch whether Italian protesters coordinate or copy.",
+      "2027: Italian parliamentary election, with order and living costs both likely to feature."
+    ],
+    "predict": {
+      "question": "Before you read the scenarios: what is the most likely path for Italy's unrest over the next two months?",
+      "options": [
+        "It fades quickly after the arrests",
+        "Simmering, with periodic flare-ups in big cities",
+        "A wider escalation across Italy",
+        "A market crisis that forces a policy shift"
+      ],
+      "answerIndex": 1,
+      "explanation": "Our base case is about 45% for a fading of the unrest, but the cost-of-living pressures behind it are persistent. Taken together, 'simmering with flare-ups' and 'fading' are close. We rate fading slightly ahead as the single likeliest path, and simmering as a close second at 30%. Treat these as judgement calls, not forecasts built from data."
+    },
+    "recap": [
+      {
+        "question": "Where did the main rioting take place?",
+        "options": [
+          "Around Milan's Duomo",
+          "Rome's Colosseum",
+          "Naples port"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "question": "Which two other Italian cities saw clashes?",
+        "options": [
+          "Turin and Bologna",
+          "Florence and Genoa",
+          "Venice and Palermo"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "question": "What did Meloni do in response?",
+        "options": [
+          "Resigned",
+          "Called a security meeting",
+          "Called a snap election"
+        ],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "deep": {
+    "timeline": [
+      {
+        "date": "2026-02-27",
+        "title": "US and Israeli strikes on Iran begin",
+        "detail": "Oil and freight costs stay elevated for eight months, feeding fuel and consumer prices across Europe.",
+        "turning": false
+      },
+      {
+        "date": "2026-10-02",
+        "title": "French borrowing premium hits euro-crisis levels (approximate date)",
+        "detail": "Italian and Spanish spreads widened in step in early October. The exact Italian date is not confirmed in our material."
+      },
+      {
+        "date": "2026-10-17",
+        "title": "Rioting and arrests begin in Milan; 550,000 march in France",
+        "detail": "Arrests in Milan are counted from 17 October. French protests the same day became the largest of that country's unrest.",
+        "sourceIndex": 0,
+        "turning": true
+      },
+      {
+        "date": "2026-10-18",
+        "title": "Second day of clashes in Milan; unrest in Turin and Bologna",
+        "detail": "Looting and rioting continue around the Duomo. Clashes are also reported in Turin and Bologna.",
+        "sourceIndex": 0,
+        "turning": true
+      },
+      {
+        "date": "2026-10-19",
+        "title": "More than 200 arrests reported; Meloni calls a security meeting",
+        "detail": "Euronews reports the arrest total across two days. The government's response is framed around security.",
+        "sourceIndex": 0
+      }
+    ],
+    "causes": [
+      {
+        "name": "Structural roots",
+        "when": "Years in the making",
+        "causes": [
+          {
+            "name": "Prices outrunning pay",
+            "detail": "Italy's wages have long been described as weak against living costs. We have no new wage data in our material, so treat this as background, not a measured finding."
+          },
+          {
+            "name": "Housing costs",
+            "detail": "Housing is named as one of the shared grievances behind the weekend's protests in Italy and France."
+          },
+          {
+            "name": "Heavy public debt",
+            "detail": "Limited fiscal room means the state cannot easily buy calm with spending. This is our reading of Italy's position, not a figure from the sources."
+          }
+        ]
+      },
+      {
+        "name": "Trigger",
+        "when": "17-18 October 2026, Milan",
+        "causes": [
+          {
+            "name": "Cost-of-living protest turning violent",
+            "detail": "The protests were framed around prices. What turned a demonstration into looting and rioting is not established in our material."
+          },
+          {
+            "name": "French example",
+            "detail": "Large, violent protests in France the same weekend plausibly encouraged copying, though a direct link is not shown."
+          }
+        ]
+      },
+      {
+        "name": "Accelerants",
+        "when": "2026",
+        "causes": [
+          {
+            "name": "Energy shock",
+            "detail": "The Gulf war has kept fuel and freight costs high for eight months; fuel is the most visible price."
+          },
+          {
+            "name": "Market contagion",
+            "detail": "French bond stress widened Italian spreads, adding to the sense of fragile public finances."
+          },
+          {
+            "name": "Pre-election politics",
+            "detail": "Italy votes in 2027, so every party has reasons to frame the unrest as proof of its own argument."
+          }
+        ]
+      }
+    ],
+    "stakeholders": [
+      {
+        "name": "Giorgia Meloni",
+        "role": "Prime minister",
+        "wants": "Restore order without being blamed for prices; protect her position before the 2027 election",
+        "leverage": "Control of police and security policy; a clear order message",
+        "likelyMove": "A visible security response, possibly tighter public-order rules, plus limited relief measures if the unrest persists"
+      },
+      {
+        "name": "Interior ministry and police",
+        "role": "Public-order authorities",
+        "wants": "Stop looting and contain city-centre clashes",
+        "leverage": "Policing, cordons, arrests",
+        "likelyMove": "More deployments in big cities on protest days; continued prosecutions"
+      },
+      {
+        "name": "Opposition parties",
+        "role": "Centre-left and left",
+        "wants": "Tie the unrest to the government's record on prices and wages while avoiding association with violence",
+        "leverage": "Parliamentary and media attention",
+        "likelyMove": "Condemn the violence but blame cost-of-living policy"
+      },
+      {
+        "name": "Protesters and organisers",
+        "role": "Movement",
+        "wants": "Action on prices, wages and housing",
+        "leverage": "Street presence; coordination with French protests is possible but unconfirmed",
+        "likelyMove": "Further demonstrations; whether organisers distance themselves from violence is unknown"
+      },
+      {
+        "name": "Milan businesses",
+        "role": "Retail and hospitality",
+        "wants": "Protection, compensation, predictable trading",
+        "leverage": "Lobbying, local politics",
+        "likelyMove": "Press for more policing and insurance support"
+      },
+      {
+        "name": "Bond investors and the ECB",
+        "role": "Lenders",
+        "wants": "Fiscal credibility; calm in southern Europe",
+        "leverage": "Spreads; the ECB's crisis tools",
+        "likelyMove": "Watch France first. The ECB has said intervention is not warranted in France's case."
+      }
+    ],
+    "sectors": [
+      {
+        "sector": "Retail in city centres",
+        "direction": "down",
+        "size": 2,
+        "why": "Looting and cordons cost trade around the Duomo and potentially other city centres."
+      },
+      {
+        "sector": "Tourism and hospitality",
+        "direction": "down",
+        "size": 2,
+        "why": "Visible violence in Milan can deter short-term visits. This is an estimate with no booking data."
+      },
+      {
+        "sector": "Private security and insurance",
+        "direction": "up",
+        "size": 1,
+        "why": "Demand for protection and riot cover rises after looting."
+      },
+      {
+        "sector": "Italian government bonds",
+        "direction": "mixed",
+        "size": 2,
+        "why": "Spreads moved with France's in early October; the direction now depends on Moody's on 23 October."
+      },
+      {
+        "sector": "Banks with Italian sovereign exposure",
+        "direction": "down",
+        "size": 1,
+        "why": "Sensitive to any widening in Italian spreads."
+      },
+      {
+        "sector": "Defence and Ukraine support",
+        "direction": "mixed",
+        "size": 1,
+        "why": "Meloni backs continued support for Ukraine. A French retreat in 2027 could raise the stakes on Italy's stance."
+      }
+    ],
+    "dailyLife": [
+      {
+        "item": "Fuel",
+        "effect": "Our Italian pump-price data is missing. The Gulf war has kept energy costs high, and French diesel hit a record EUR 2.41 a litre in September, which shows the direction."
+      },
+      {
+        "item": "Groceries and housing",
+        "effect": "These are the named grievances. We have no new Italian price figures in our material, so we do not quantify them."
+      },
+      {
+        "item": "City-centre movement",
+        "effect": "Expect cordons and short-notice closures around the Duomo and central squares in Milan, Turin and Bologna on protest days."
+      },
+      {
+        "item": "Shopping and events",
+        "effect": "Retailers in central Milan may shorten opening hours or add security after the looting."
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Fading",
+        "probability": 45,
+        "looksLike": "Arrests and a visible police presence end the rioting within days; protests shrink to peaceful marches.",
+        "signposts": [
+          "No new large-scale clashes at the next weekend's gatherings",
+          "Government points to arrest numbers and falling turnout"
+        ],
+        "effectOnWorld": "Italy stays a stable partner; the political debate shifts to prices and security before the 2027 election."
+      },
+      {
+        "name": "Simmering",
+        "probability": 30,
+        "looksLike": "Periodic flare-ups in Milan, Turin, Bologna and other cities, often tied to French strike days or price news.",
+        "signposts": [
+          "Further clashes around 5 November",
+          "New protests in Rome or Naples"
+        ],
+        "effectOnWorld": "Security stays high on the agenda; some drag on retail and tourism; a steady source of political pressure."
+      },
+      {
+        "name": "Escalation",
+        "probability": 15,
+        "looksLike": "Unrest spreads across many Italian cities with a serious injury or death, prompting emergency security measures.",
+        "signposts": [
+          "A death or very serious injury",
+          "Emergency decrees on public order",
+          "Coordinated protests with France and Spain"
+        ],
+        "effectOnWorld": "Sharper polarisation; markets price Italy's political risk; pressure builds on Meloni to offer relief."
+      },
+      {
+        "name": "Market-driven crisis",
+        "probability": 10,
+        "looksLike": "A French downgrade or failed bond auction pushes Italian and Spanish spreads sharply higher, and public finances dominate the agenda.",
+        "signposts": [
+          "Moody's downgrades France on 23 October",
+          "Italian spreads move well beyond France's",
+          "ECB debate over crisis tools"
+        ],
+        "effectOnWorld": "A eurozone-wide stress test; spending is constrained just when voters want relief."
+      }
+    ],
+    "predictions": [
+      {
+        "text": "Probability about 65%: Italy sees further street clashes in at least one major city, but nothing larger than the 17-18 October peak.",
+        "horizon": "By 30 November 2026",
+        "resolves": "2026-11-30"
+      },
+      {
+        "text": "Probability about 60%: The Meloni government announces or passes at least one new public-order measure aimed at protests or city-centre disorder.",
+        "horizon": "By 31 December 2026",
+        "resolves": "2026-12-31"
+      },
+      {
+        "text": "Probability about 55%: Italian 10-year spreads over Germany end 2026 within about 30 basis points of where they are now, unless France is downgraded.",
+        "horizon": "By 31 December 2026",
+        "resolves": "2026-12-31"
+      },
+      {
+        "text": "Probability about 35%: A cost-of-living relief package, such as fuel or energy support, is announced in response to the unrest.",
+        "horizon": "By 31 January 2027",
+        "resolves": "2027-01-31"
+      },
+      {
+        "text": "Probability about 70%: Cost of living and public order are both prominent themes in the 2027 election campaign.",
+        "horizon": "At the 2027 election",
+        "resolves": "2027-12-31"
+      }
+    ],
+    "countermeasures": [
+      {
+        "audience": "businesses",
+        "actions": [
+          "Check insurance for riot and looting cover on Milan, Turin and Bologna sites.",
+          "Add short buffers for deliveries to city-centre stores on protest days.",
+          "Prepare staff safety guidance and flexible opening hours.",
+          "If you ship through France, add buffer for the 5 November strike as well."
+        ]
+      },
+      {
+        "audience": "investors",
+        "actions": [
+          "Treat Italian spreads as sensitive to French news; watch 23 October (Moody's) and 29 October (ECB).",
+          "Separate street disorder, which is usually short-lived for markets, from fiscal credibility, which is not.",
+          "Do not assume an ECB backstop; officials say conditions are not met in France's case."
+        ]
+      },
+      {
+        "audience": "households",
+        "actions": [
+          "Check local news before travelling into central Milan, Turin or Bologna on weekends.",
+          "Fixed-rate energy and loan contracts reduce exposure to further price swings.",
+          "Keep emergency numbers and local guidance handy if you live near central squares."
+        ]
+      },
+      {
+        "audience": "policymakers",
+        "actions": [
+          "Separate prosecution of violence from a hearing for price, wage and housing grievances.",
+          "Publish who gains and loses from any relief package.",
+          "Coordinate with France and Spain on the shared energy-price drivers."
+        ]
+      }
+    ],
+    "analogues": [
+      {
+        "event": "England riots",
+        "year": "2011",
+        "whatFollowed": "Several days of looting led to thousands of arrests and fast court processing; policy debate focused on policing and order rather than the underlying grievances."
+      },
+      {
+        "event": "French banlieue riots after Nahel's death",
+        "year": "2023",
+        "whatFollowed": "About six nights of violence and thousands of arrests, with little policy change; the far right gained in the 2024 European elections."
+      },
+      {
+        "event": "Italian protests over Covid restrictions",
+        "year": "2020",
+        "whatFollowed": "Violent protests in Milan, Naples and other cities were contained within days, but fed a continuing debate over order and economic hardship (recalled from general knowledge; details not checked here)."
+      }
+    ],
+    "watch": [
+      {
+        "date": "2026-10-23",
+        "title": "Moody's review of France",
+        "why": "A downgrade could widen Italian spreads and raise pressure on Rome."
+      },
+      {
+        "date": "2026-10-29",
+        "title": "ECB policy meeting",
+        "why": "Any hint on its crisis tool or French conditions moves southern European spreads."
+      },
+      {
+        "date": "2026-11-05",
+        "title": "French national strike",
+        "why": "A test of whether protest energy persists or spreads across borders."
+      },
+      {
+        "title": "Outcome of Meloni's security meeting",
+        "why": "Shows whether the response is policing only or includes cost-of-living relief."
+      },
+      {
+        "title": "Next weekend's gatherings in Milan, Turin and Bologna",
+        "why": "The clearest signal of whether the unrest is fading or simmering."
+      },
+      {
+        "title": "Fuel prices",
+        "why": "A new energy spike linked to the Gulf war would reignite the central grievance."
+      }
+    ]
+  },
+  "evidence": {
+    "sources": [
+      {
+        "title": "More than 200 arrested in second day of street clashes against cost of living in Milan",
+        "url": "https://www.euronews.com/2026/10/19/more-than-200-arrested-in-second-day-of-street-clashes-against-cost-of-living-in-milan",
+        "publisher": "Euronews",
+        "date": "2026-10-19"
+      }
+    ],
+    "confidence": [
+      {
+        "claim": "More than 200 arrests over 17-18 October in Milan",
+        "level": "medium",
+        "note": "Single source (Euronews headline and event summary); official breakdowns were not available to us."
+      },
+      {
+        "claim": "Clashes in Turin and Bologna",
+        "level": "medium",
+        "note": "From the event summary; scale and duration not known."
+      },
+      {
+        "claim": "Meloni called a security meeting",
+        "level": "medium",
+        "note": "From the event summary; outcomes not yet known."
+      },
+      {
+        "claim": "French figures (550,000 marched; about 2,400 arrests; 23 October Moody's review)",
+        "level": "medium",
+        "note": "Taken from the linked France dossiers; not independently re-checked here."
+      },
+      {
+        "claim": "Italian spreads widened in step with France's in early October",
+        "level": "medium",
+        "note": "From the linked France debt dossier; size and dates not confirmed for Italy."
+      },
+      {
+        "claim": "Causes of the Milan violence",
+        "level": "low",
+        "note": "The sources frame it as cost-of-living protest; organisers and triggers are not established."
+      },
+      {
+        "claim": "Scenario probabilities, predictions and sector effects",
+        "level": "low",
+        "note": "Author judgement and estimates, not sourced forecasts."
+      }
+    ],
+    "method": "Drafted on 19 October 2026 from one listed Euronews source and its headline, the event summary, and facts supplied in linked dossiers on France, the Gulf energy shock and Italy's 2027 election. We had no damage, injury, polling or price data for Italy, so effects on retail, tourism, policy and spreads are estimates and are marked as such. Scenario probabilities and prediction probabilities are the author's judgement and should be scored as events resolve.",
+    "changeLog": [
+      {
+        "date": "2026-10-19",
+        "change": "First publication."
+      }
+    ]
+  },
+  "generated": {
+    "by": "Geoploitica draft script",
+    "at": "2026-10-19T20:02:03.468Z",
+    "model": "claude-sonnet-5-5",
+    "sources": 1,
+    "headlines": 1,
+    "reviewed": false
+  }
+}

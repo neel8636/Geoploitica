@@ -1,0 +1,617 @@
+{
+  "slug": "boj-october-decision-2026",
+  "title": "BoJ meets with rates at a 31-year high and the yen near 158",
+  "deck": "The Bank of Japan is expected to hold at 1.25% on 30 October, but any hint of a move to 1.5% in December would test a weak yen, Japanese bond yields and foreign debt markets such as France's.",
+  "updated": "2026-10-19",
+  "status": "developing",
+  "region": "Japan, global rates",
+  "tags": [
+    "Bank of Japan",
+    "interest rates",
+    "yen",
+    "energy shock",
+    "JGB yields",
+    "carry trade"
+  ],
+  "readingMinutes": {
+    "card": 1,
+    "brief": 5,
+    "deep": 15
+  },
+  "card": {
+    "headline": "The BoJ is expected to hold on 30 October; the signal about December is what matters",
+    "keyNumber": {
+      "value": "1.25%",
+      "label": "BoJ policy rate, the highest since April 1995, with USD/JPY near 158",
+      "sourceIndex": 0
+    },
+    "impactMeter": 3,
+    "forYou": [
+      {
+        "role": "Finance",
+        "line": "A hold is the base case. Watch for guidance toward 1.5% as early as December, and for the new inflation forecasts published the same day."
+      },
+      {
+        "role": "Importers and exporters in Japan",
+        "line": "A yen near 158 raises the cost of imported oil and food. It also flatters exporters' overseas earnings."
+      },
+      {
+        "role": "Anyone holding French or other foreign bonds",
+        "line": "Higher Japanese yields can pull Japanese investors home. They are large holders of French OATs, so French borrowing costs are exposed."
+      },
+      {
+        "role": "Travellers and households",
+        "line": "A weak yen keeps Japan cheap for visitors. It keeps energy and food costs high for people living there."
+      }
+    ],
+    "ripple": [
+      {
+        "label": "First-order",
+        "effects": [
+          {
+            "text": "BoJ decision on 30 October: a hold at 1.25% is expected, with the guidance on further hikes the real news",
+            "sector": "Central banking"
+          },
+          {
+            "text": "The Quarterly Outlook Report lands the same day with updated growth and inflation forecasts",
+            "sector": "Macro"
+          },
+          {
+            "text": "USD/JPY near 158 moves on tone: hawkish guidance can lift the yen, cautious guidance can push it weaker",
+            "sector": "FX"
+          },
+          {
+            "text": "Japanese government bond yields reprice to the guidance on the pace of tightening",
+            "sector": "Rates"
+          }
+        ]
+      },
+      {
+        "label": "Second-order",
+        "effects": [
+          {
+            "text": "A firmer yen can force carry-trade positions funded in yen to unwind, as happened in August 2024",
+            "sector": "Markets"
+          },
+          {
+            "text": "Japanese importers face higher energy bills while the yen is weak and oil is elevated",
+            "sector": "Energy, manufacturing"
+          },
+          {
+            "text": "Higher domestic yields give Japanese institutions a reason to hold more JGBs and fewer foreign bonds",
+            "sector": "Asset management"
+          },
+          {
+            "text": "A weak yen near 158 raises the chance of Ministry of Finance action",
+            "sector": "Policy"
+          }
+        ]
+      },
+      {
+        "label": "Third-order",
+        "effects": [
+          {
+            "text": "French and other euro-area bond buyers lose some of their Japanese demand just as France needs to raise record funds in 2027",
+            "sector": "Sovereign debt"
+          },
+          {
+            "text": "The ECB (29 October) and the BoJ (30 October) face the same energy-driven inflation, so global yields can drift up together",
+            "sector": "Global rates"
+          },
+          {
+            "text": "Japan's interest bill on its large public debt rises as rates climb, narrowing fiscal room",
+            "sector": "Public finance"
+          }
+        ]
+      }
+    ]
+  },
+  "brief": {
+    "whatHappened": [
+      "The Bank of Japan holds its two-day policy meeting, ending on 30 October. The policy rate stands at 1.25%, the highest since April 1995.",
+      "The board raised rates on 18 September by a 7-2 vote. The gap between that hike and the one before it is the shortest since 1990, according to the event summary.",
+      "On 19 October, Governor Kazuo Ueda said underlying inflation is 'quite close' to the 2% target. He also flagged elevated crude oil as an upside risk to prices. The yen held steady near 158 per dollar after those remarks.",
+      "Markets expect a hold in October. They are watching for any guidance that points to 1.5% as early as December. The Quarterly Outlook Report, with the bank's updated forecasts, is published on the same day as the decision."
+    ],
+    "whyItMatters": [
+      "Japan imports nearly all of its crude oil. The US-Israel war on Iran, which began on 27 February 2026, has kept oil and freight costs high. That feeds the same inflation risk the board flagged in September.",
+      "The yen sits near 158. A weak currency raises import costs and adds to inflation. That pushes the BoJ toward further hikes, and the central bank must balance that against growth.",
+      "Japan has been the world's cheap funding source for years. When Japanese rates rise, money borrowed in yen to buy higher-yielding assets abroad becomes less attractive, and some of it can flow home.",
+      "Japanese investors are among the largest foreign holders of French government bonds. Higher JGB yields can reduce that demand just as France's borrowing premium is near its widest since the euro-debt crisis."
+    ],
+    "winners": [
+      {
+        "who": "Japanese savers and holders of yen",
+        "why": "Higher rates and a firmer yen would raise returns and restore some purchasing power. This is a conditional gain, since the yen remains weak."
+      },
+      {
+        "who": "Japanese exporters",
+        "why": "A yen near 158 flatters overseas earnings when converted back, so a hold with soft guidance helps them."
+      },
+      {
+        "who": "Japanese government bond buyers",
+        "why": "Yields at multi-decade highs mean better returns, and domestic institutions may buy more JGBs and fewer foreign bonds."
+      }
+    ],
+    "losers": [
+      {
+        "who": "Japanese importers and households",
+        "why": "A weak yen plus elevated crude raises fuel, food and input costs."
+      },
+      {
+        "who": "Carry-trade investors funded in yen",
+        "why": "A hawkish surprise could lift the yen sharply and force a rush to close positions."
+      },
+      {
+        "who": "Governments reliant on Japanese bond demand, notably France",
+        "why": "If Japanese investors repatriate funds, borrowing costs for OATs can rise further."
+      },
+      {
+        "who": "The Japanese government's budget",
+        "why": "Higher rates raise the cost of servicing a very large public debt over time."
+      }
+    ],
+    "whatsNext": [
+      "23 October: Moody's reviews France's Aa3 negative rating; Japanese demand for French debt is one of the risks around it.",
+      "29 October: the ECB decides on rates, with euro-area inflation at 3.8% and policymakers weighing another rise.",
+      "30 October: the BoJ announces its decision and publishes the Quarterly Outlook Report.",
+      "December: the next BoJ meeting, the earliest point at which markets see a move to 1.5%."
+    ],
+    "predict": {
+      "question": "Before you read the scenarios: what is the most likely outcome of the 30 October meeting?",
+      "options": [
+        "A hold at 1.25% with a clear signal that December is live",
+        "A hold at 1.25% with no new signal",
+        "A hike to 1.5%",
+        "A hold followed by a sharp yen move past 160"
+      ],
+      "answerIndex": 0,
+      "explanation": "Our base case, at about 50%, is a hold with hawkish-leaning guidance. A hold with no new signal is next at about 30%. A surprise hike and a disorderly yen move are each around 10%. These are author judgements, not sourced forecasts."
+    },
+    "recap": [
+      {
+        "question": "What is the BoJ policy rate going into the 30 October meeting?",
+        "options": [
+          "0.5%",
+          "1.25%",
+          "2.0%"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "question": "What does Governor Ueda flag as an upside risk to inflation?",
+        "options": [
+          "Elevated crude oil",
+          "Falling wages",
+          "A stronger yen"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "question": "Why does the BoJ matter to French bond markets?",
+        "options": [
+          "Japan sets France's budget",
+          "Japanese investors hold many French bonds and may bring money home as yields rise",
+          "The BoJ buys French bonds directly"
+        ],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "deep": {
+    "timeline": [
+      {
+        "date": "2026-02-27",
+        "title": "Strikes on Iran begin",
+        "detail": "The US-Israel war on Iran starts the Gulf energy shock. Oil and freight costs stay elevated for the following eight months.",
+        "turning": true
+      },
+      {
+        "date": "2026-09-18",
+        "title": "BoJ raises rates by a 7-2 vote",
+        "detail": "The policy rate reaches 1.25%, the highest since April 1995. The gap since the previous hike is the shortest since 1990, per the event summary.",
+        "sourceIndex": 0,
+        "turning": true
+      },
+      {
+        "date": "2026-10-19",
+        "title": "Ueda says underlying inflation is 'quite close' to 2%",
+        "detail": "He flags elevated crude oil as an upside risk. USD/JPY holds near 158.",
+        "sourceIndex": 1
+      },
+      {
+        "date": "2026-10-23",
+        "title": "Moody's reviews France",
+        "detail": "The Aa3 negative rating is in focus. Japanese demand for French bonds is a background risk."
+      },
+      {
+        "date": "2026-10-29",
+        "title": "ECB decision",
+        "detail": "Euro-area inflation is 3.8% and policymakers are weighing another rise."
+      },
+      {
+        "date": "2026-10-30",
+        "title": "BoJ decision and Quarterly Outlook Report",
+        "detail": "A hold is expected. Guidance on December is the main uncertainty.",
+        "sourceIndex": 0,
+        "turning": true
+      }
+    ],
+    "causes": [
+      {
+        "name": "Structural roots",
+        "when": "Years in the making",
+        "causes": [
+          {
+            "name": "Exit from ultra-low rates",
+            "detail": "The BoJ has been moving away from its long-running easy policy, taking the rate to 1.25%, the highest since 1995."
+          },
+          {
+            "name": "Import dependence",
+            "detail": "Japan buys nearly all of its crude oil abroad, so energy shocks pass quickly into prices."
+          },
+          {
+            "name": "Large public debt",
+            "detail": "Higher rates raise the cost of servicing Japan's government debt over time."
+          }
+        ]
+      },
+      {
+        "name": "Trigger",
+        "when": "September 2026",
+        "causes": [
+          {
+            "name": "The 18 September hike",
+            "detail": "A 7-2 vote raised the rate to 1.25%. The pace of tightening is now the live question."
+          },
+          {
+            "name": "Inflation near target",
+            "detail": "Ueda says underlying inflation is 'quite close' to 2%, which supports further hikes."
+          }
+        ]
+      },
+      {
+        "name": "Accelerants",
+        "when": "Since February 2026",
+        "causes": [
+          {
+            "name": "Gulf energy shock",
+            "detail": "War with Iran and attacks on Gulf energy infrastructure kept oil elevated and added to the inflation risk the board flagged."
+          },
+          {
+            "name": "Weak yen near 158",
+            "detail": "A weak currency raises import costs and adds to the case for tightening."
+          },
+          {
+            "name": "Global rate pressure",
+            "detail": "The ECB is also weighing another rate rise as euro-area inflation reaches 3.8%."
+          }
+        ]
+      }
+    ],
+    "stakeholders": [
+      {
+        "name": "Kazuo Ueda",
+        "role": "Governor, Bank of Japan",
+        "wants": "Reach the 2% target sustainably without disrupting markets or growth",
+        "leverage": "Guidance at the press conference and the Quarterly Outlook Report",
+        "likelyMove": "Hold, keep the door open to more hikes, and stress data dependence on oil and wages"
+      },
+      {
+        "name": "BoJ board members who voted against the September hike",
+        "role": "Two dissenters in the 7-2 vote",
+        "wants": "Presumably a slower pace of tightening, though the material does not give their reasons",
+        "leverage": "Their votes signal how much consensus there is for a December move",
+        "likelyMove": "A repeat of caution is possible; a change in dissent would be a signal"
+      },
+      {
+        "name": "Japan's Ministry of Finance",
+        "role": "Government, responsible for currency policy",
+        "wants": "Avoid disorderly yen weakness without undermining the BoJ",
+        "leverage": "Currency intervention, as in past episodes of sharp yen weakness",
+        "likelyMove": "Verbal warnings first; action if the yen weakens quickly"
+      },
+      {
+        "name": "Japanese institutional investors",
+        "role": "Large holders of foreign bonds, including French OATs",
+        "wants": "Better returns at home as JGB yields rise",
+        "leverage": "Repatriation of savings can lift foreign yields",
+        "likelyMove": "Gradual shift toward domestic bonds"
+      },
+      {
+        "name": "Carry-trade investors",
+        "role": "Borrow in yen to buy higher-yielding assets",
+        "wants": "Stable, low yen funding costs",
+        "leverage": "Rapid unwinding can move equity and bond markets",
+        "likelyMove": "Reduce exposure if the yen rises quickly on hawkish guidance"
+      },
+      {
+        "name": "US Federal Reserve",
+        "role": "Counterpart whose policy sets the rate gap that drives USD/JPY",
+        "wants": "Not covered in the source material",
+        "leverage": "The US-Japan rate gap influences the yen",
+        "likelyMove": "Not estimated here; check the Fed's own guidance"
+      }
+    ],
+    "sectors": [
+      {
+        "sector": "Japanese banks",
+        "direction": "up",
+        "size": 2,
+        "why": "Higher policy rates typically widen lending margins. This is a general pattern, not a sourced estimate."
+      },
+      {
+        "sector": "Japanese exporters",
+        "direction": "up",
+        "size": 2,
+        "why": "A weak yen lifts overseas earnings when converted back."
+      },
+      {
+        "sector": "Japanese importers and energy-intensive industry",
+        "direction": "down",
+        "size": 3,
+        "why": "Elevated crude and a yen near 158 raise input costs."
+      },
+      {
+        "sector": "Japanese government bonds",
+        "direction": "mixed",
+        "size": 3,
+        "why": "Higher yields hurt existing holders but attract new buyers."
+      },
+      {
+        "sector": "French and European government bonds",
+        "direction": "down",
+        "size": 2,
+        "why": "Japanese investors are large holders of OATs, and repatriation can raise funding costs."
+      },
+      {
+        "sector": "Carry-trade funded assets",
+        "direction": "down",
+        "size": 2,
+        "why": "A sharp yen rise can force liquidations."
+      },
+      {
+        "sector": "Inbound tourism to Japan",
+        "direction": "up",
+        "size": 1,
+        "why": "A weak yen makes the country cheaper for foreign visitors."
+      }
+    ],
+    "dailyLife": [
+      {
+        "item": "Imported fuel and food",
+        "effect": "With the yen near 158 and crude elevated, prices of imported energy and food stay high for Japanese households.",
+        "sourceIndex": 1
+      },
+      {
+        "item": "Mortgages and loans in Japan",
+        "effect": "Variable-rate borrowers feel higher policy rates over time. Exact pass-through depends on the lender."
+      },
+      {
+        "item": "Savings",
+        "effect": "Deposit rates tend to follow policy rates upward, but slowly."
+      },
+      {
+        "item": "Overseas travel and imports for Japanese consumers",
+        "effect": "A weak yen makes holidays abroad and imported goods more expensive."
+      },
+      {
+        "item": "Visiting Japan",
+        "effect": "A weak yen makes hotels, food and goods cheaper for visitors paying in other currencies."
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Hawkish hold",
+        "probability": 50,
+        "looksLike": "The BoJ holds at 1.25%. Ueda signals that inflation is near target and that oil is an upside risk, leaving December open. The yen firms modestly.",
+        "signposts": [
+          "Outlook Report raises the inflation forecast",
+          "Press conference stresses upside risks and a gradual path"
+        ],
+        "effectOnWorld": "A December hike becomes the market's base case; JGB yields edge up and some Japanese money returns home."
+      },
+      {
+        "name": "Neutral or cautious hold",
+        "probability": 30,
+        "looksLike": "The BoJ holds and gives little guidance, citing uncertainty from the energy shock and growth.",
+        "signposts": [
+          "Outlook Report trims growth or leaves inflation unchanged",
+          "Ueda says it is too early to judge the effect of the last hike"
+        ],
+        "effectOnWorld": "USD/JPY drifts weaker; the yen near or above 158 keeps import costs elevated."
+      },
+      {
+        "name": "Surprise hike to 1.5%",
+        "probability": 10,
+        "looksLike": "The board raises rates again, against market expectations, citing oil and a weak yen.",
+        "signposts": [
+          "Strong data before the meeting",
+          "Government comments supporting action on the yen"
+        ],
+        "effectOnWorld": "The yen jumps; carry trades unwind; global equities wobble and foreign bond yields rise."
+      },
+      {
+        "name": "Disorderly yen move",
+        "probability": 10,
+        "looksLike": "USD/JPY pushes through 160 after a cautious hold, or whipsaws sharply, prompting verbal or actual intervention from the Ministry of Finance.",
+        "signposts": [
+          "Ministry of Finance warnings intensify",
+          "Sharp one-day moves in the yen"
+        ],
+        "effectOnWorld": "Volatility spreads to bond and equity markets; the BoJ is pressed toward a faster hike."
+      }
+    ],
+    "predictions": [
+      {
+        "text": "The BoJ holds its policy rate at 1.25% on 30 October (probability 0.85).",
+        "horizon": "30 October 2026",
+        "resolves": "2026-10-30"
+      },
+      {
+        "text": "At least one BoJ board member dissents in the 30 October decision (probability 0.3).",
+        "horizon": "30 October 2026",
+        "resolves": "2026-10-30"
+      },
+      {
+        "text": "The BoJ raises its policy rate to 1.5% at or before its December meeting (probability 0.45).",
+        "horizon": "By 31 December 2026",
+        "resolves": "2026-12-31"
+      },
+      {
+        "text": "USD/JPY trades above 160 at some point before year-end (probability 0.3).",
+        "horizon": "By 31 December 2026",
+        "resolves": "2026-12-31"
+      },
+      {
+        "text": "Japan's Ministry of Finance intervenes in the currency market before year-end (probability 0.15).",
+        "horizon": "By 31 December 2026",
+        "resolves": "2026-12-31"
+      }
+    ],
+    "countermeasures": [
+      {
+        "audience": "businesses",
+        "actions": [
+          "Importers: review hedging for yen exposure and energy costs around the 30 October decision.",
+          "Exporters: avoid assuming a weak yen persists; test budgets at a stronger rate.",
+          "Treat the Quarterly Outlook Report as a check on the BoJ's own inflation forecast."
+        ]
+      },
+      {
+        "audience": "investors",
+        "actions": [
+          "Watch whether guidance points to December; a clear signal tends to firm the yen and lift JGB yields.",
+          "Check the size of yen-funded positions, since a sharp yen rise can force liquidation.",
+          "If you hold French bonds, add Japanese repatriation to the list of risks beside the Moody's review on 23 October."
+        ]
+      },
+      {
+        "audience": "households",
+        "actions": [
+          "In Japan: expect imported energy and food to stay costly while the yen is weak and crude is elevated.",
+          "Variable-rate borrowers: budget for gradual rises as the BoJ continues to tighten.",
+          "Travellers: plan foreign currency purchases around yen volatility."
+        ]
+      },
+      {
+        "audience": "policymakers",
+        "actions": [
+          "Coordinate messaging so the BoJ and the Ministry of Finance do not send conflicting yen signals.",
+          "Assess the cost of debt service in a world of higher JGB yields.",
+          "Treat the energy shock as the shared driver of inflation across Japan and the euro area."
+        ]
+      }
+    ],
+    "analogues": [
+      {
+        "event": "BoJ hike and global market sell-off",
+        "year": "2024",
+        "whatFollowed": "A rate hike and hawkish tone in July 2024 helped drive a sharp yen rise and a steep equity sell-off in early August as carry trades unwound."
+      },
+      {
+        "event": "Yen intervention at weak levels",
+        "year": "2022 and 2024",
+        "whatFollowed": "Japan's Ministry of Finance bought yen after sharp weakness, including around 160 per dollar in 2024; the effect on the currency was often temporary."
+      },
+      {
+        "event": "End of negative interest rates",
+        "year": "2024",
+        "whatFollowed": "The BoJ ended its negative rate policy and began a slow path of hikes, with the yen staying weak for long stretches."
+      }
+    ],
+    "watch": [
+      {
+        "date": "2026-10-23",
+        "title": "Moody's review of France",
+        "why": "Japanese holders of French bonds are part of the funding picture, and a downgrade would raise borrowing costs."
+      },
+      {
+        "date": "2026-10-29",
+        "title": "ECB policy meeting",
+        "why": "A rate rise in the euro area would add to global rate pressure ahead of the BoJ."
+      },
+      {
+        "date": "2026-10-30",
+        "title": "BoJ decision and Quarterly Outlook Report",
+        "why": "The decision, the vote split and the new forecasts all set expectations for December."
+      },
+      {
+        "title": "USD/JPY near 160",
+        "why": "A move toward that level raises the odds of Ministry of Finance action and pressure on the BoJ."
+      },
+      {
+        "title": "Oil prices",
+        "why": "Ueda named elevated crude as an upside inflation risk, so oil moves shape the pace of hikes."
+      }
+    ]
+  },
+  "evidence": {
+    "sources": [
+      {
+        "title": "Japan Interest Rate",
+        "url": "https://tradingeconomics.com/japan/interest-rate",
+        "publisher": "Trading Economics",
+        "date": "2026-10-19"
+      },
+      {
+        "title": "Japanese Yen holds steady near 158.00 as BoJ's Ueda says underlying inflation close to target",
+        "url": "https://www.fxstreet.com/news/japanese-yen-holds-steady-near-15800-as-bojs-ueda-says-underlying-inflation-close-to-target-202610190652",
+        "publisher": "FXStreet",
+        "date": "2026-10-19"
+      }
+    ],
+    "confidence": [
+      {
+        "claim": "Policy rate of 1.25%, highest since April 1995, after a 7-2 hike vote on 18 September",
+        "level": "medium",
+        "note": "Drawn from the event summary and a Trading Economics page; no official BoJ statement was opened."
+      },
+      {
+        "claim": "Ueda said underlying inflation is 'quite close' to 2% and flagged crude oil as an upside risk",
+        "level": "medium",
+        "note": "Based on the FXStreet headline and the event summary; the full remarks were not read."
+      },
+      {
+        "claim": "USD/JPY near 158",
+        "level": "medium",
+        "note": "A single market-commentary headline; exchange rates move daily."
+      },
+      {
+        "claim": "Market expectation of a hold on 30 October",
+        "level": "medium",
+        "note": "Stated in the event summary; no survey or market-pricing data was opened."
+      },
+      {
+        "claim": "Links to the Gulf war, ECB and France stories",
+        "level": "medium",
+        "note": "Taken from the connection notes supplied with the event; not independently verified here."
+      },
+      {
+        "claim": "Historical analogues, including the 2024 market sell-off and intervention levels",
+        "level": "medium",
+        "note": "Drawn from general knowledge without a cited source; details are stated loosely."
+      },
+      {
+        "claim": "Scenario probabilities and predictions",
+        "level": "low",
+        "note": "Author judgement, not a sourced forecast; to be graded as each date passes."
+      }
+    ],
+    "method": "Drafted from the two listed sources, two matched headlines, the event summary and the connection notes supplied with it. The sources give the policy rate, the yen level and Ueda's remarks. No official BoJ documents or market-pricing data were opened. Analogues come from general knowledge and are stated loosely. Scenario probabilities, prediction probabilities and sector effects are the author's estimates.",
+    "changeLog": [
+      {
+        "date": "2026-10-19",
+        "change": "First publication."
+      }
+    ]
+  },
+  "generated": {
+    "by": "Geoploitica draft script",
+    "at": "2026-10-19T20:04:05.584Z",
+    "model": "claude-sonnet-5-5",
+    "sources": 2,
+    "headlines": 2,
+    "reviewed": false
+  }
+}
