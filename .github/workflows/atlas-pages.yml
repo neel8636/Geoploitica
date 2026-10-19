@@ -2,7 +2,7 @@
 # (when the ANTHROPIC_API_KEY secret is set), commit any new content to main, and publish
 # the static site to GitHub Pages. Runs on every push that touches apps/atlas, once a day,
 # and on demand.
-name: Atlas: wire, reports, publish
+name: "Atlas: wire, reports, publish"
 
 on:
   push:
@@ -29,6 +29,8 @@ concurrency:
 jobs:
   atlas:
     runs-on: ubuntu-latest
+    env:
+      HAS_KEY: ${{ secrets.ANTHROPIC_API_KEY != '' }}
     defaults:
       run:
         working-directory: apps/atlas
@@ -47,7 +49,7 @@ jobs:
         run: npm run wire || echo "wire fetch failed; building with the committed wire.json"
 
       - name: Draft reports
-        if: ${{ secrets.ANTHROPIC_API_KEY != '' }}
+        if: env.HAS_KEY == 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           STALE: ${{ github.event.inputs.stale_days || '7' }}
