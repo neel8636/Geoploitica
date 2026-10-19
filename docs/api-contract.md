@@ -182,3 +182,11 @@ Exposures below score 15 are dropped.
 ## Brief generation (v0)
 
 Rule-based templates per change type and department, filled from the footprint. No LLM in the request path. Every BriefItem carries the change's sources. `leadership_top5` = top 5 BriefItems across departments by score, de-duplicated by change.
+
+## Implementation notes (v0.1)
+
+- **Product-scoped changes.** When a change carries `hs_prefixes`, only part matches (rule b) and chokepoint lane matches apply. Country-only rules (supplier country, lane ends, sites, markets) are suppressed, otherwise every EU supplier would read as "exposed" to EUDR or CBAM. Changes without `hs_prefixes` use all rules. Flag: `product_scoped` in `matcher.py`.
+- `next_action` dates use a lead time before `effective_date` by type: regulation and tariff 45 days; sanction, export control and election 30; chokepoint, energy price and conflict 14; strike, unrest, sovereign stress, fx and weather 7. Developing changes say "this week".
+- `leadership_top5` builds a leadership view for every matched change and takes the top 5 by score, one per change. The `leadership` department brief itself only lists changes that name leadership.
+- `by_country` includes every country touched by an exposure; spend and supplier counts come from suppliers only, so a sales market can appear with spend 0.
+- CSV parsing is lenient: delimiter sniffing, BOM stripped, case-insensitive headers, dots stripped from HS codes, `|` or `;` list separators. Bad rows return 422 with `[{file, row, msg}]`.
