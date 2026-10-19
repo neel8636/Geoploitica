@@ -1,0 +1,593 @@
+{
+  "slug": "spain-strike-and-snap-election",
+  "title": "Spain's November strike and snap election",
+  "deck": "Spanish unions and housing campaigners plan a November strike over rent and pay just before a snap general election in which pensions have become the central argument, with France's unrest as a backdrop.",
+  "updated": "2026-10-19",
+  "status": "developing",
+  "region": "Spain, European Union",
+  "tags": [
+    "election",
+    "strike",
+    "housing",
+    "pensions",
+    "wages",
+    "EU politics",
+    "cost of living"
+  ],
+  "readingMinutes": {
+    "card": 1,
+    "brief": 5,
+    "deep": 15
+  },
+  "card": {
+    "headline": "Spain faces a strike over housing and wages about two weeks before an election dominated by pensions",
+    "keyNumber": {
+      "value": "2 weeks",
+      "label": "planned gap between the November strike and the snap general election; exact dates not yet confirmed",
+      "sourceIndex": 1
+    },
+    "impactMeter": 3,
+    "forYou": [
+      {
+        "role": "Supply chain",
+        "line": "Plan for possible disruption to Spanish transport and public services on the strike day once it is confirmed. Do not assume a date yet."
+      },
+      {
+        "role": "Finance",
+        "line": "Pension funding is now an election issue. Watch for costed promises and for how Spanish bonds react to them."
+      },
+      {
+        "role": "Sales into Europe",
+        "line": "Cost-of-living anger is showing up in several countries at once. Treat southern Europe as exposed to the same mood as France."
+      },
+      {
+        "role": "Everyone",
+        "line": "The wider stake is political. Spain is one of several elections that could reshape the next EU budget."
+      }
+    ],
+    "ripple": [
+      {
+        "label": "First-order",
+        "effects": [
+          {
+            "text": "A strike over housing and wages is planned for November. Dates are not confirmed.",
+            "sector": "Labour, transport"
+          },
+          {
+            "text": "A snap general election follows about two weeks later, with pensions at the centre of the campaign.",
+            "sector": "Politics"
+          },
+          {
+            "text": "Parties are pushed to make costed promises on pensions, rents and pay.",
+            "sector": "Public finance"
+          }
+        ]
+      },
+      {
+        "label": "Second-order",
+        "effects": [
+          {
+            "text": "The pension-funding debate raises questions about long-run budget credibility.",
+            "sector": "Public finance, markets"
+          },
+          {
+            "text": "Housing and wage demands may push the next government toward rent rules, wage deals or public spending.",
+            "sector": "Housing, labour"
+          },
+          {
+            "text": "A strike this close to the vote could affect turnout, especially among younger voters. The direction is uncertain.",
+            "sector": "Politics"
+          }
+        ]
+      },
+      {
+        "label": "Third-order",
+        "effects": [
+          {
+            "text": "Spain's result feeds into EU budget talks. Leaders want a 2028-2034 deal before elections in France, Spain, Italy and Poland.",
+            "sector": "EU budget"
+          },
+          {
+            "text": "Unrest in France may shape Spanish turnout and mood, and a violent French November would raise the stakes.",
+            "sector": "Europe"
+          },
+          {
+            "text": "A fragmented Spanish result could slow decisions in Madrid and Brussels in early 2027.",
+            "sector": "Governance"
+          }
+        ]
+      }
+    ]
+  },
+  "brief": {
+    "whatHappened": [
+      "Demonstrators in Spain plan to strike in November over housing costs and wages. The exact dates are not yet confirmed.",
+      "The strike is expected about two weeks before a snap general election. Pensions have become a central issue, and Euronews on 19 October was asking whether the system can be funded.",
+      "The same day, Bloomberg reported that French unrest was raising alarm across Europe. That raises the question of whether cost-of-living anger will spread.",
+      "This dossier is drafted from headlines and the event summary, not full article texts. Treat details as provisional."
+    ],
+    "whyItMatters": [
+      "Housing and pay are the kind of cost-of-living grievances behind the French unrest. A Spanish strike this close to a vote could shape turnout and the campaign agenda.",
+      "Pensions touch a very large share of voters. A campaign built on them forces parties to say how they would pay for them, which markets and Brussels will read closely.",
+      "Spain is one of several elections that leaders want to get ahead of when they try to agree the next seven-year EU budget by the end of 2026. A different Spanish government could change its stance in those talks."
+    ],
+    "winners": [
+      {
+        "who": "Parties with a credible pension and housing offer",
+        "why": "If voters see pensions and rents as the main question, parties that look trustworthy on both gain. Which parties that favours is not yet clear."
+      },
+      {
+        "who": "Unions and housing campaigners",
+        "why": "A strike timed just before an election gives them a platform and some leverage over party platforms."
+      }
+    ],
+    "losers": [
+      {
+        "who": "The incumbent government",
+        "why": "Governments tend to be blamed when rents and pay lag prices, and a strike on its watch adds to that. This is a general pattern, not a poll finding."
+      },
+      {
+        "who": "Renters and younger workers",
+        "why": "They carry the housing and wage pressure, and quick fixes are unlikely whatever the result."
+      },
+      {
+        "who": "Commuters and firms on strike day",
+        "why": "Delays are likely if the strike goes ahead at scale. The scale is unknown."
+      }
+    ],
+    "whatsNext": [
+      "Confirmation of the strike date and which unions or groups are calling it.",
+      "Confirmation of the election date and the formal campaign period.",
+      "Pension pledges and costings from the main parties.",
+      "Any sign of French unrest spreading to Spain."
+    ],
+    "predict": {
+      "question": "Before you read the scenarios: what do you think is the most likely course of the next few weeks?",
+      "options": [
+        "The strike goes ahead peacefully and the campaign stays centred on pensions",
+        "The strike grows into larger, more disruptive protests",
+        "The strike is small and has little effect on the campaign",
+        "Violent clashes like those in France break out in Spanish cities"
+      ],
+      "answerIndex": 0,
+      "explanation": "Our base case, at about 50%, is a mostly peaceful strike and a pension-led campaign. This is a judgement, not a forecast from the sources. Spain's protest tradition is largely peaceful, and the sources we have do not point to violence. Escalation and a fizzle are each about 20%, and French-style violence about 10%."
+    },
+    "recap": [
+      {
+        "question": "What are the November strikers mainly protesting?",
+        "options": [
+          "Housing and wages",
+          "Fuel taxes",
+          "School funding"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "question": "Which issue has become central to the election campaign?",
+        "options": [
+          "Pensions",
+          "Immigration",
+          "Defence spending"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "question": "Why does the Spanish election matter beyond Spain?",
+        "options": [
+          "It could affect talks on the next EU budget",
+          "It decides the next ECB president",
+          "It sets the next NATO summit date"
+        ],
+        "answerIndex": 0
+      }
+    ]
+  },
+  "deep": {
+    "timeline": [
+      {
+        "date": "2026-10-17",
+        "title": "About 550,000 march in France",
+        "detail": "Cost-of-living unrest in France, with roughly 2,400 arrests in one day, becomes the reference point for fears of spread across Europe. This figure comes from the linked France dossier.",
+        "sourceIndex": 0
+      },
+      {
+        "date": "2026-10-19",
+        "title": "Bloomberg reports alarm across Europe at French unrest",
+        "detail": "The headline frames the French protests as a regional worry, not only a French one.",
+        "sourceIndex": 0
+      },
+      {
+        "date": "2026-10-19",
+        "title": "Euronews reports pensions as a key issue in Spain's campaign",
+        "detail": "The article asks whether Spain can afford its pensions and sets out the funding debate ahead of the election.",
+        "sourceIndex": 1,
+        "turning": true
+      },
+      {
+        "date": "2026-11-15",
+        "title": "Placeholder date for the Spanish strike and election window",
+        "detail": "This is the date on our calendar. The strike and the election are expected about two weeks apart, but neither exact date is confirmed.",
+        "turning": true
+      },
+      {
+        "date": "2026-12-31",
+        "title": "Target for an EU 2028-2034 budget deal",
+        "detail": "Leaders are trying to agree the seven-year budget by the end of 2026, before elections in France, Spain, Italy and Poland. This comes from the linked EU budget dossier."
+      }
+    ],
+    "causes": [
+      {
+        "name": "Structural roots",
+        "when": "Years in the making",
+        "causes": [
+          {
+            "name": "Housing costs against pay",
+            "detail": "The strike is called over housing and wages. Rents and house prices rising faster than pay is a long-running complaint in Spain, though we have no figures in our sources."
+          },
+          {
+            "name": "Pension funding pressure",
+            "detail": "Spain's pensions are largely paid from current contributions, and the funding debate has moved to the centre of the campaign."
+          },
+          {
+            "name": "Fragmented politics",
+            "detail": "Spain has not had a single-party majority for years, so coalitions and fragile deals are the norm. We have no specifics on the current parliament."
+          }
+        ]
+      },
+      {
+        "name": "Trigger",
+        "when": "Autumn 2026",
+        "causes": [
+          {
+            "name": "Snap election",
+            "detail": "A general election has been called ahead of schedule. Our material does not say why."
+          },
+          {
+            "name": "Strike call",
+            "detail": "Demonstrators plan to strike in November, timed close to the vote. Organisers and exact dates are not confirmed in our sources."
+          }
+        ]
+      },
+      {
+        "name": "Accelerants",
+        "when": "October 2026",
+        "causes": [
+          {
+            "name": "French unrest",
+            "detail": "Large cost-of-living protests and violence in France are raising fears of copycat unrest across Europe."
+          },
+          {
+            "name": "Pension debate",
+            "detail": "Euronews reports pensions have become a key campaign issue, which gives wage and housing anger a political target."
+          }
+        ]
+      }
+    ],
+    "stakeholders": [
+      {
+        "name": "Spanish government (incumbent)",
+        "role": "Governing coalition running for re-election",
+        "wants": "To avoid blame for rents and wages and to reassure voters on pensions",
+        "leverage": "Control of public spending, decrees and the timing of announcements",
+        "likelyMove": "Promise pension protection and housing measures, and condemn any violence at the strike"
+      },
+      {
+        "name": "Main opposition parties (including PP and Vox)",
+        "role": "Challengers",
+        "wants": "To turn cost-of-living anger into votes",
+        "leverage": "The incumbent's record; an electorate focused on pensions and prices",
+        "likelyMove": "Attack the incumbent on prices and pension sustainability while avoiding commitments that look unaffordable"
+      },
+      {
+        "name": "Unions and housing campaigners",
+        "role": "Strike organisers (not confirmed in our sources)",
+        "wants": "Action on rents and wages before voters go to the polls",
+        "leverage": "Strike turnout and media attention just before the vote",
+        "likelyMove": "Hold a large, visible strike and press parties for written commitments"
+      },
+      {
+        "name": "Voters, especially younger renters and pensioners",
+        "role": "Electorate",
+        "wants": "Secure pensions and affordable housing",
+        "leverage": "Turnout",
+        "likelyMove": "Unknown. The strike may energise some groups, and French violence could push others toward order-first parties."
+      },
+      {
+        "name": "European Commission and EU leaders",
+        "role": "Budget negotiators",
+        "wants": "A 2028-2034 EU budget deal before more elections reshape national positions",
+        "leverage": "Control of the negotiating timetable and of EU funds",
+        "likelyMove": "Push for a deal by end-2026 and watch the Spanish result closely"
+      },
+      {
+        "name": "Bond investors",
+        "role": "Lenders",
+        "wants": "A credible path for pension and budget costs",
+        "leverage": "Spanish borrowing costs",
+        "likelyMove": "Stay calm unless pledges look unfunded. This is an estimate, not a sourced view."
+      }
+    ],
+    "sectors": [
+      {
+        "sector": "Transport and logistics in Spain",
+        "direction": "down",
+        "size": 2,
+        "why": "Strike days usually mean delays and cancellations. Scale depends on turnout and on which workers join, which is unknown."
+      },
+      {
+        "sector": "Retail and hospitality",
+        "direction": "mixed",
+        "size": 1,
+        "why": "Protest days can cut footfall in city centres. Unrest that turns violent would add damage, and nothing in our sources suggests that so far."
+      },
+      {
+        "sector": "Housing and rental market",
+        "direction": "mixed",
+        "size": 2,
+        "why": "Rent-control or housing-supply promises could change landlord and developer expectations, depending on who wins."
+      },
+      {
+        "sector": "Spanish government bonds",
+        "direction": "mixed",
+        "size": 2,
+        "why": "Costed pension promises could move yields either way. A fragmented result could add political risk."
+      },
+      {
+        "sector": "Pensions, insurance and asset management",
+        "direction": "mixed",
+        "size": 1,
+        "why": "A pension-focused campaign may raise demand for private savings products, but policy changes could cut either way."
+      },
+      {
+        "sector": "EU institutions and budget-dependent sectors",
+        "direction": "mixed",
+        "size": 2,
+        "why": "Spain's stance in the EU budget talks could shift with the result. We have no detail on what that shift would be."
+      }
+    ],
+    "dailyLife": [
+      {
+        "item": "Getting around on strike day",
+        "effect": "Expect possible disruption to trains, buses and public services once a date is confirmed. Check operators' notices closer to the day."
+      },
+      {
+        "item": "Rents and housing costs",
+        "effect": "The strike is partly about these costs. Nothing in the campaign is likely to change them quickly."
+      },
+      {
+        "item": "Pensions",
+        "effect": "Pensions are a central campaign issue, so retirees and near-retirees are likely to hear a lot of promises. Euronews frames the question as whether the system can be funded.",
+        "sourceIndex": 1
+      },
+      {
+        "item": "Wages",
+        "effect": "Wage demands are the other half of the strike. Outcomes depend on bargaining and on the next government's policies."
+      },
+      {
+        "item": "Travel to or from Spain",
+        "effect": "Keep dates flexible around the strike window until it is confirmed."
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Peaceful strike, pension-led campaign",
+        "probability": 50,
+        "looksLike": "A large but orderly strike. Parties spend the last two weeks arguing over pensions, rents and pay. Markets stay calm.",
+        "signposts": [
+          "Union and organiser statements stress peaceful action",
+          "Parties publish costed pension plans",
+          "Spanish bond spreads stay stable"
+        ],
+        "effectOnWorld": "Spain stays a steady voice in EU budget talks, and the result is read mainly as a verdict on pensions and prices."
+      },
+      {
+        "name": "Escalation and contagion of mood",
+        "probability": 20,
+        "looksLike": "Strike turnout is bigger than expected, protests spread to other days and cities, and French unrest feeds a sense of a European wave.",
+        "signposts": [
+          "Additional strike or protest dates are announced",
+          "Serious clashes in a major Spanish city",
+          "Further French or Italian riots in the same week"
+        ],
+        "effectOnWorld": "Investors and EU leaders worry about a wider southern-Europe backlash, and the EU budget talks look harder."
+      },
+      {
+        "name": "Fizzle",
+        "probability": 20,
+        "looksLike": "The strike is small or poorly coordinated, and the campaign barely mentions it. Pensions dominate.",
+        "signposts": [
+          "Low union support or a late postponement",
+          "Little media coverage",
+          "Polls show no shift on housing or wages"
+        ],
+        "effectOnWorld": "Little effect beyond Spain. Housing and wage grievances stay unresolved into 2027."
+      },
+      {
+        "name": "French-style violence",
+        "probability": 10,
+        "looksLike": "Looting, arson or large numbers of arrests in Spanish cities around the strike, and an emergency security response.",
+        "signposts": [
+          "Violence on the first night of protests",
+          "Calls for protest bans or curfews",
+          "Government shifts its campaign to order and security"
+        ],
+        "effectOnWorld": "Order-first parties may benefit, and the risk of Europe-wide political stress rises."
+      }
+    ],
+    "predictions": [
+      {
+        "text": "About 85%: the strike takes place in November as planned and is not cancelled outright.",
+        "horizon": "By 30 November 2026",
+        "resolves": "2026-11-30"
+      },
+      {
+        "text": "About 85%: the strike and its protests stay largely peaceful, with no French-scale looting or arson in Spanish cities.",
+        "horizon": "By 30 November 2026",
+        "resolves": "2026-11-30"
+      },
+      {
+        "text": "About 85%: none of the main national parties campaigns on cutting nominal pensions, and all promise to protect them.",
+        "horizon": "By the election",
+        "resolves": "2026-12-15"
+      },
+      {
+        "text": "About 70%: turnout lands between 65% and 75%. The July 2023 election was around 70%, from memory.",
+        "horizon": "By the election",
+        "resolves": "2026-12-15"
+      },
+      {
+        "text": "About 25%: EU leaders agree the 2028-2034 budget by the end of 2026.",
+        "horizon": "By 31 December 2026",
+        "resolves": "2027-01-15"
+      }
+    ],
+    "countermeasures": [
+      {
+        "audience": "businesses",
+        "actions": [
+          "Check Spanish carrier and union notices once the strike date is confirmed.",
+          "Add buffer days to Spanish road and rail lanes during the strike and election window.",
+          "Brief staff in Spain on strike-day travel and on avoiding protest areas.",
+          "Do not assume a Spanish result will land on a fixed date for contract or pricing decisions."
+        ]
+      },
+      {
+        "audience": "investors",
+        "actions": [
+          "Watch pension costings and any change in Spain's borrowing premium over Germany.",
+          "Treat the election as a political-risk event, not a systemic one, unless disorder spreads.",
+          "Follow French November events, since they could shift sentiment toward all southern European assets."
+        ]
+      },
+      {
+        "audience": "households",
+        "actions": [
+          "Plan travel and childcare around the strike date once confirmed.",
+          "If you rent, check how party platforms treat rent rules before the vote.",
+          "Keep an eye on official pension announcements. Campaign promises are not law."
+        ]
+      },
+      {
+        "audience": "policymakers",
+        "actions": [
+          "Publish costings for pension and housing pledges to cut the room for scare stories.",
+          "Keep strike and protest policing proportionate. France shows how force can escalate unrest.",
+          "Coordinate with other governments facing the same cost-of-living drivers."
+        ]
+      }
+    ],
+    "analogues": [
+      {
+        "event": "15-M (Indignados) movement and the November 2011 election",
+        "year": "2011",
+        "whatFollowed": "Mass protests over unemployment and austerity preceded the vote, and the centre-right PP won an absolute majority. Protest anger did not simply flow to the left."
+      },
+      {
+        "event": "Repeat election after deadlock",
+        "year": "2019",
+        "whatFollowed": "Spain voted twice in 2019. The November vote left the parliament fragmented and Vox gained seats, showing that repeated votes can harden divisions."
+      },
+      {
+        "event": "Snap general election",
+        "year": "2023",
+        "whatFollowed": "The July 2023 vote produced no majority for either bloc, and a government was formed only after months of negotiation."
+      }
+    ],
+    "watch": [
+      {
+        "date": "2026-11-15",
+        "title": "Strike and election window (placeholder)",
+        "why": "The exact dates are unconfirmed. Check for official confirmation of the strike date and the election date."
+      },
+      {
+        "title": "Strike organisers and demands",
+        "why": "Which unions and housing groups are calling it, and how many, will show whether it is a fringe action or a mass one."
+      },
+      {
+        "title": "Party pension pledges",
+        "why": "Costed promises set the tone for markets and Brussels."
+      },
+      {
+        "title": "French November unrest",
+        "why": "A violent month in France would raise the odds of contagion and could shape Spanish turnout."
+      },
+      {
+        "date": "2026-12-31",
+        "title": "EU 2028-2034 budget target",
+        "why": "Leaders want a deal before several national elections, and Spain's result bears on their positions."
+      },
+      {
+        "title": "Polls on housing, wages and pensions",
+        "why": "Shows whether the strike moves votes or only headlines."
+      }
+    ]
+  },
+  "evidence": {
+    "sources": [
+      {
+        "title": "French unrest raises alarm across Europe as protests turn violent",
+        "url": "https://www.business-standard.com/amp/world-news/french-unrest-raises-alarm-across-europe-as-protests-turn-violent-126101900223_1.html",
+        "publisher": "Bloomberg via Business Standard",
+        "date": "2026-10-19"
+      },
+      {
+        "title": "Can Spain afford its pensions? What to know about the funding debate ahead of the election",
+        "url": "https://www.euronews.com/2026/10/19/pensions-become-key-issue-in-spains-election-campaign-are-they-going-bust",
+        "publisher": "Euronews",
+        "date": "2026-10-19"
+      }
+    ],
+    "confidence": [
+      {
+        "claim": "A November strike over housing and wages is planned",
+        "level": "medium",
+        "note": "Taken from the event summary. Dates, organisers and scale are not confirmed in the sources we have."
+      },
+      {
+        "claim": "A snap general election follows about two weeks after the strike",
+        "level": "low",
+        "note": "The two-week gap comes from the event summary. The election date is not confirmed, and the calendar date of 15 November is a placeholder."
+      },
+      {
+        "claim": "Pensions have become a central campaign issue",
+        "level": "medium",
+        "note": "Based on the Euronews headline and summary. We have not read the full article."
+      },
+      {
+        "claim": "French unrest is raising alarm across Europe",
+        "level": "medium",
+        "note": "Based on the Bloomberg headline. We have not read the full article, and it does not necessarily mention Spain."
+      },
+      {
+        "claim": "EU budget links and French figures (550,000 marchers, 2,400 arrests, Le Pen's EUR 5bn contribution proposal)",
+        "level": "medium",
+        "note": "Taken from the linked France and EU budget dossiers, not from the two sources listed here."
+      },
+      {
+        "claim": "Spanish background (coalition politics, 2011, 2019 and 2023 elections, 2023 turnout near 70%)",
+        "level": "medium",
+        "note": "General knowledge, not from the listed sources. Figures are from memory and should be checked."
+      },
+      {
+        "claim": "Scenario probabilities and predictions",
+        "level": "low",
+        "note": "Author judgement, not a sourced forecast. They will be graded as events resolve."
+      }
+    ],
+    "method": "Drafted from the event summary, two listed sources (headlines and summaries only, not full article texts) and the linked France and EU budget dossiers. Nothing here comes from official Spanish sources, polls or market data. Sector effects, stakeholder moves, scenario probabilities and predictions are the author's estimates. The election and strike dates are unconfirmed, and the calendar date of 15 November is a placeholder. No chart is included because we have no real data series.",
+    "changeLog": [
+      {
+        "date": "2026-10-19",
+        "change": "First publication."
+      }
+    ]
+  },
+  "generated": {
+    "by": "Geoploitica draft script",
+    "at": "2026-10-19T20:06:48.443Z",
+    "model": "claude-sonnet-5-5",
+    "sources": 2,
+    "headlines": 2,
+    "reviewed": false
+  }
+}

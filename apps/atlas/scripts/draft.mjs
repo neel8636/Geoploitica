@@ -176,14 +176,35 @@ async function callApi(text) {
   }
 }
 
+// The first complete JSON object in a reply, found by brace depth (string-aware), so a
+// trailing remark or a second object after the report does not break the parse.
+function extractJson(text) {
+  const start = text.indexOf("{");
+  if (start < 0) throw new Error("no JSON object in the reply");
+  let depth = 0;
+  let inString = false;
+  for (let i = start; i < text.length; i++) {
+    const ch = text[i];
+    if (inString) {
+      if (ch === "\\") i++;
+      else if (ch === '"') inString = false;
+      continue;
+    }
+    if (ch === '"') inString = true;
+    else if (ch === "{") depth++;
+    else if (ch === "}") {
+      depth--;
+      if (depth === 0) return text.slice(start, i + 1);
+    }
+  }
+  throw new Error("JSON object in the reply is not closed");
+}
+
 async function draftOne(event) {
   const { text, items } = materialFor(event);
   const body = await callApi(text);
   const out = body.content.filter((c) => c.type === "text").map((c) => c.text).join("");
-  const start = out.indexOf("{");
-  const end = out.lastIndexOf("}");
-  if (start < 0 || end < 0) throw new Error("no JSON object in the reply");
-  const draft = JSON.parse(out.slice(start, end + 1));
+  const draft = JSON.parse(extractJson(out));
 
   const problems = [];
   const need = (obj, keys, where) => {
