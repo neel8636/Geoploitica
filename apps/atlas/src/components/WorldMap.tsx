@@ -7,7 +7,8 @@ import { feature } from "topojson-client";
 import type { Topology, GeometryCollection } from "topojson-specification";
 import type { MultiPoint } from "geojson";
 import land110 from "world-atlas/land-110m.json";
-import { allEdges, EVENTS, LINK_WORDS, TYPE_LABELS, type EventType, type WorldEvent } from "@/content/events";
+import { allEdges, EVENTS, TYPE_LABELS, type EventType, type WorldEvent } from "@/content/events";
+import MapLegend from "@/components/atlas/MapLegend";
 
 const W = 960;
 const H = 500;
@@ -240,8 +241,8 @@ export default function WorldMap({
         })}
       </svg>
       {!compact ? (
-        <figcaption className="mt-2 flex min-h-[3.25rem] flex-wrap items-start justify-between gap-3 text-[15px]">
-          <div className="max-w-prose">
+        <figcaption className="mt-2">
+          <p className="min-h-[1.5rem] text-[15px]">
             {hovered ? (
               <>
                 <span className="font-medium">{hovered.title}</span>
@@ -249,15 +250,19 @@ export default function WorldMap({
               </>
             ) : (
               <span className="text-ink-2">
-                {visible.length} events, {edges.length} connections. Dot size is severity; amber is severe; hollow dots are scheduled. Hover to light up a neighbourhood, click to open the report.
+                {visible.length} events, {edges.length} connections. Hover a dot to light up its connections; click to open the report.
               </span>
             )}
-          </div>
-          <div className="text-sm text-ink-2">
-            Solid line: one {LINK_WORDS.causes} or {LINK_WORDS.affects} the other · dashed: {LINK_WORDS.shares_driver}
+          </p>
+          <div className="mt-3 border-t border-line-2 pt-3">
+            <MapLegend />
           </div>
         </figcaption>
-      ) : null}
+      ) : (
+        <figcaption className="mt-2 border-t border-line-2 pt-2">
+          <MapLegend compact />
+        </figcaption>
+      )}
     </figure>
   );
 }
