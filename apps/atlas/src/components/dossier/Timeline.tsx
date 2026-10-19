@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import type { Source, TimelineEvent } from "@/content/types";
-import { formatDate } from "@/content/dossiers";
+import { formatDate } from "@/content/format";
 import { SourceRef } from "./Primitives";
 
 /*

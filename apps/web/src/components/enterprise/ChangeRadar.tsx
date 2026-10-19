@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { CHANGE_TYPE_LABELS, fetchChanges, type Change } from "@/lib/engine";
-import { formatDate } from "@/content/dossiers";
+import { formatDate } from "@/content/format";
 
 /* Public change calendar: every dated or developing change the engine knows, sorted by when it bites. */
 export default function ChangeRadar() {

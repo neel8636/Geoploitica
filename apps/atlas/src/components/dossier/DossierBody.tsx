@@ -65,6 +65,13 @@ export function DossierBody({ d, backHref = "/events", backLabel = "All events" 
           <p className="text-sm text-ink-2">{d.region}</p>
           <h1 className="mt-1 text-4xl sm:text-5xl">{d.title}</h1>
           <p className="prose-dossier mt-3 text-ink-2">{d.deck}</p>
+          {d.generated && !d.generated.reviewed ? (
+            <p className="mt-4 rounded-sm border border-amber bg-amber-2 px-3 py-2 text-sm text-ink">
+              <span className="font-medium">Auto-drafted report.</span> Written by {d.generated.by} ({d.generated.model}) on{" "}
+              {formatDate(d.generated.at.slice(0, 10))} from {d.generated.sources} sources and {d.generated.headlines} headlines, and not yet
+              checked by a person. Treat numbers as leads, not facts; every claim links to where it came from.
+            </p>
+          ) : null}
 
           <div className="mt-8 grid gap-8 lg:grid-cols-[1fr_1fr]">
             <div>

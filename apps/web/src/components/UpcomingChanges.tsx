@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { CHANGE_TYPE_LABELS, fetchChanges, type Change } from "@/lib/engine";
-import { formatDate } from "@/content/dossiers";
+import { formatDate } from "@/content/format";
 
 /*
   The next few dated changes on the radar, pulled live from the engine so the front page

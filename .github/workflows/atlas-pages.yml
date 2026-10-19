@@ -1,45 +1,82 @@
-# Publishes the personal edition (apps/atlas) to GitHub Pages as a static site.
-# Runs on every push that touches apps/atlas, once a day to refresh the wire, and on demand.
-name: Atlas to GitHub Pages
+# The Atlas pipeline: pull headlines, draft missing or stale reports with the Claude API
+# (when the ANTHROPIC_API_KEY secret is set), commit any new content to main, and publish
+# the static site to GitHub Pages. Runs on every push that touches apps/atlas, once a day,
+# and on demand.
+name: Atlas: wire, reports, publish
 
 on:
   push:
     branches: [main]
     paths: ["apps/atlas/**", ".github/workflows/atlas-pages.yml"]
   schedule:
-    - cron: "17 6 * * *" # daily, 06:17 UTC: pull fresh headlines and rebuild
+    - cron: "17 6 * * *" # daily, 06:17 UTC
   workflow_dispatch:
+    inputs:
+      stale_days:
+        description: "Re-draft auto-drafted reports of developing events older than this many days (0 = only missing ones)"
+        default: "7"
+      max_reports:
+        description: "Cap on reports drafted in this run (0 = no cap)"
+        default: "0"
 
 permissions:
   contents: write
 
 concurrency:
-  group: pages
-  cancel-in-progress: true
+  group: atlas
+  cancel-in-progress: false
 
 jobs:
-  build-and-publish:
+  atlas:
     runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: apps/atlas
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
           cache-dependency-path: apps/atlas/package-lock.json
       - run: npm ci --no-audit --no-fund
+
       - name: Pull the wire
         run: npm run wire || echo "wire fetch failed; building with the committed wire.json"
+
+      - name: Draft reports
+        if: ${{ secrets.ANTHROPIC_API_KEY != '' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          STALE: ${{ github.event.inputs.stale_days || '7' }}
+          MAX: ${{ github.event.inputs.max_reports || '0' }}
+        run: |
+          EXTRA=""
+          if [ "$MAX" != "0" ]; then EXTRA="--max $MAX"; fi
+          npm run draft -- --all --stale "$STALE" $EXTRA || echo "drafting had failures; publishing what succeeded"
+
+      - name: Commit new content to main
+        run: |
+          git config user.name "geoploitica-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add src/content/wire.json src/content/dossiers
+          if git diff --cached --quiet; then
+            echo "no content changes"
+          else
+            git commit -m "Atlas: wire and reports refresh $(date -u +%Y-%m-%d)"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
       - name: Build static site
         env:
           STATIC_EXPORT: "1"
           BASE_PATH: /${{ github.event.repository.name }}
         run: npm run build
-      # Pushing the build to a gh-pages branch turns Pages on for the repo by itself,
-      # so no settings click is needed. The site serves from that branch's root.
+
+      # Pushing the build to a gh-pages branch is what Pages serves (Settings → Pages → gh-pages, root).
       - uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

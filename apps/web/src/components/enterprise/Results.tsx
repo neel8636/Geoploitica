@@ -10,7 +10,7 @@ import {
   type BriefItem,
   type Department,
 } from "@/lib/engine";
-import { formatDate } from "@/content/dossiers";
+import { formatDate } from "@/content/format";
 
 const fmtDay = (iso: string) => {
   const [, m, d] = iso.split("-").map(Number);

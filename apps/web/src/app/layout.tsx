@@ -52,6 +52,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               they resolve. Nothing here is investment or legal advice.
             </p>
             <span className="flex gap-4">
+              {process.env.NEXT_PUBLIC_BUILD && process.env.NEXT_PUBLIC_BUILD !== "unknown" ? (
+                <span className="text-ink-3" title="Deployed commit">build {process.env.NEXT_PUBLIC_BUILD.slice(0, 7)}</span>
+              ) : null}
               <Link href="/method" className="hover:underline">
                 How we work
               </Link>

@@ -120,6 +120,8 @@ export interface Dossier {
   region: string;
   tags: string[];
   readingMinutes: { card: number; brief: number; deep: number };
+  // Present when the report was drafted by the draft script rather than written by hand.
+  generated?: { by: string; at: string; model: string; sources: number; headlines: number; reviewed: boolean };
 
   // Layer 1: 30-second card
   card: {

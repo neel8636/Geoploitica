@@ -5,6 +5,8 @@ services:
     name: geoploitica
     runtime: docker
     plan: free
+    autoDeploy: true
+    branch: main
     dockerfilePath: ./Dockerfile
     dockerContext: .
     healthCheckPath: /api/engine/health

@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { EVENTS, TYPE_LABELS, type EventType } from "@/content/events";
-import { formatDate } from "@/content/dossiers";
+import { formatDate } from "@/content/format";
 import WorldMap from "@/components/WorldMap";
 
 const TYPES = Object.keys(TYPE_LABELS) as EventType[];

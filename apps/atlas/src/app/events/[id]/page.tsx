@@ -24,7 +24,8 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
   const { id } = await props.params;
   const e = getEvent(id);
   if (!e) notFound();
-  const dossier = e.dossierSlug ? getDossier(e.dossierSlug) : undefined;
+  // a report named after the event wins; otherwise the parent report the event points at
+  const dossier = getDossier(e.id) ?? (e.dossierSlug ? getDossier(e.dossierSlug) : undefined);
   const wire = loadWire();
   const cited = new Set(e.sources.map((s) => s.url));
   const headlines = wire.items.filter((i) => i.eventIds.includes(e.id) && !cited.has(i.url)).slice(0, 12);
@@ -111,9 +112,8 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
         <section className="mt-14 rounded-lg border border-line bg-paper-2 p-5 text-[15px]">
           <p className="font-medium">No full report yet.</p>
           <p className="mt-1 text-ink-2">
-            Draft one from this event and its wire headlines with{" "}
-            <code className="rounded-sm bg-paper px-1">npm run draft -- {e.id}</code>, review the JSON it writes, then set{" "}
-            <code className="rounded-sm bg-paper px-1">dossierSlug</code> on the event.
+            The daily run drafts one automatically when an API key is set in the repository; by hand,{" "}
+            <code className="rounded-sm bg-paper px-1">npm run draft -- {e.id}</code> writes it and it is live on the next build.
           </p>
         </section>
       )}

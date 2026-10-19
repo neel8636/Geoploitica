@@ -34,20 +34,31 @@ npm run dev       # http://localhost:3000
 | File | What it is |
 | --- | --- |
 | `src/content/events.ts` | The event graph: one entry per event with coordinates, severity, keywords for the wire matcher, links to other events (each with a `why` sentence) and sources. The single source of truth. |
-| `src/content/dossiers/*.json` | Full layered reports, one per event that has one. Registered in `src/content/dossiers.ts`; an event points at its report with `dossierSlug`. |
+| `src/content/dossiers/*.json` | Full layered reports, one per event. A file named after an event id is that event's report; `dossierSlug` on an event can point at a parent report instead. Every file in the folder is live. |
 | `src/content/wire.json` | Output of `npm run wire`. Safe to commit or ignore. |
 
 ## Keeping it current
 
-1. **Add an event**: append to `EVENTS` in `events.ts` with coordinates, keywords and links.
-   Links are directional; `allEdges()` and `neighbours()` handle the rest.
-2. **Refresh headlines**: `npm run wire` (optionally `-- --days 3`). Feeds that fail are
-   skipped and listed. The sources already cited on events join the wire, so it is never empty.
-3. **Draft a full report**: `ANTHROPIC_API_KEY=… npm run draft -- <event-id>` writes
-   `src/content/dossiers/<event-id>.json` from the event, its connections and its matched
-   headlines. Read it, fix it, then import it in `dossiers.ts` and set `dossierSlug` on the
-   event. Nothing is published without that step; the script lists any source URL that was
-   not in the material so you can verify it.
+The published site runs a pipeline (`.github/workflows/atlas-pages.yml`) on every push to
+`apps/atlas`, once a day at 06:17 UTC, and on demand from the Actions tab:
+
+1. **Wire** — `npm run wire` pulls the feeds and matches headlines to events.
+2. **Reports** — if the repository has an `ANTHROPIC_API_KEY` secret (Settings → Secrets and
+   variables → Actions), `npm run draft -- --all --stale 7` writes a full layered report for
+   every event that has none, and re-drafts auto-drafted reports of developing events older
+   than seven days. Each draft carries a `generated` marker and the site labels it
+   "Auto-drafted" until someone sets `generated.reviewed` to `true` in the JSON.
+3. **Commit** — new wire and reports are committed back to `main`.
+4. **Publish** — the static site is built and pushed to `gh-pages`.
+
+Without the secret, steps 1, 3 and 4 still run; reports are then only the hand-written ones.
+A full first run over ~30 events costs a few dollars of API usage with the default model
+(`claude-sonnet-5-5`); the daily refresh only touches missing or stale reports.
+
+By hand: `ANTHROPIC_API_KEY=… npm run draft -- <event-id>` (or `--all`, `--dry-run`,
+`--model <id>`, `--force`, `--max <n>`). Any JSON file in `src/content/dossiers/` is a
+published report; nothing needs registering. Add events by appending to the region files
+under `src/content/events/`.
 
 ## Stack
 
