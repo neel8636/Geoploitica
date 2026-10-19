@@ -151,20 +151,34 @@ ${items.map((i) => `- [${i.published.slice(0, 10)}] ${i.title} — ${i.publisher
 
 // --- one draft -----------------------------------------------------------------
 
+async function callApi(text) {
+  // rate limits and overloads are retried with a growing pause; other errors surface at once
+  for (let attempt = 1; ; attempt++) {
+    const res = await fetch("https://api.anthropic.com/v1/messages", {
+      method: "POST",
+      headers: { "content-type": "application/json", "x-api-key": key, "anthropic-version": "2023-06-01" },
+      body: JSON.stringify({
+        model: MODEL,
+        max_tokens: 16000,
+        system,
+        messages: [{ role: "user", content: `Draft the dossier for this event. Return only the JSON object.\n\n${text}` }],
+      }),
+    });
+    if (res.ok) return res.json();
+    const detail = (await res.text()).slice(0, 300);
+    if ((res.status === 429 || res.status === 529 || res.status >= 500) && attempt < 5) {
+      const wait = Math.min(120, 15 * attempt);
+      process.stdout.write(`(${res.status}, retrying in ${wait}s) `);
+      await new Promise((r) => setTimeout(r, wait * 1000));
+      continue;
+    }
+    throw new Error(`API ${res.status}: ${detail}`);
+  }
+}
+
 async function draftOne(event) {
   const { text, items } = materialFor(event);
-  const res = await fetch("https://api.anthropic.com/v1/messages", {
-    method: "POST",
-    headers: { "content-type": "application/json", "x-api-key": key, "anthropic-version": "2023-06-01" },
-    body: JSON.stringify({
-      model: MODEL,
-      max_tokens: 16000,
-      system,
-      messages: [{ role: "user", content: `Draft the dossier for this event. Return only the JSON object.\n\n${text}` }],
-    }),
-  });
-  if (!res.ok) throw new Error(`API ${res.status}: ${(await res.text()).slice(0, 300)}`);
-  const body = await res.json();
+  const body = await callApi(text);
   const out = body.content.filter((c) => c.type === "text").map((c) => c.text).join("");
   const start = out.indexOf("{");
   const end = out.lastIndexOf("}");
