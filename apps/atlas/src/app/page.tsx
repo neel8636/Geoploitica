@@ -1,32 +1,65 @@
 import Link from "next/link";
-import { EVENTS, TYPE_LABELS, allEdges } from "@/content/events";
+import { EVENTS, TYPE_LABELS, allEdges, type EventType } from "@/content/events";
 import { formatDate } from "@/content/dossiers";
-import WorldMap from "@/components/WorldMap";
 import { loadWire } from "@/content/wire";
+import HomeExplorer from "@/components/atlas/HomeExplorer";
+
+const STEPS = [
+  { n: "1", title: "Pick a place", body: "Choose a region above the map, or hover any dot: the lines light up to show what that event is tied to." },
+  { n: "2", title: "Open an event", body: "Click a dot or a title below. You get the summary, how it ripples outward, and every connection with the reason for it." },
+  { n: "3", title: "Follow the thread", body: "Each connection is a link to the next event. Where a full report exists, it sits at the bottom of the page in layers." },
+];
 
 export default function Home() {
   const wire = loadWire();
-  const developing = [...EVENTS].filter((e) => e.status !== "scheduled").sort((a, b) => b.severity - a.severity || (a.date < b.date ? 1 : -1));
-  const scheduled = [...EVENTS].filter((e) => e.status === "scheduled").sort((a, b) => (a.date < b.date ? -1 : 1));
   const edges = allEdges();
   const degree = (id: string) => edges.filter((ed) => ed.a === id || ed.b === id).length;
   const headlineCount = (id: string) => wire.items.filter((i) => i.eventIds.includes(id)).length;
 
+  const developing = [...EVENTS].filter((e) => e.status !== "scheduled").sort((a, b) => b.severity - a.severity || (a.date < b.date ? 1 : -1)).slice(0, 8);
+  const scheduled = [...EVENTS].filter((e) => e.status === "scheduled").sort((a, b) => (a.date < b.date ? -1 : 1)).slice(0, 8);
+  const kinds = (Object.keys(TYPE_LABELS) as EventType[])
+    .map((t) => ({ t, n: EVENTS.filter((e) => e.type === t).length }))
+    .filter((k) => k.n > 0)
+    .sort((a, b) => b.n - a.n);
+  const regions = Array.from(new Set(EVENTS.map((e) => e.region))).length;
+
   return (
-    <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6">
-      <div className="flex flex-wrap items-baseline justify-between gap-2">
-        <h1 className="text-3xl">The world, connected</h1>
-        <p className="text-sm text-ink-2">
-          {EVENTS.length} events · {edges.length} connections · wire {wire.fetchedAt ? `updated ${formatDate(wire.fetchedAt.slice(0, 10))}` : "not fetched yet"}
+    <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
+      <section className="grid gap-6 lg:grid-cols-[1fr_22rem] lg:items-end">
+        <div>
+          <h1 className="text-[2.25rem] leading-[1.1] sm:text-[2.75rem]">The world, connected.</h1>
+          <p className="prose-dossier mt-3 max-w-2xl text-ink-2">
+            {EVENTS.length} events across {regions} places, joined by {edges.length} connections. Start anywhere: every event
+            opens a report on what happened and how it reaches the rest of the world.
+          </p>
+        </div>
+        <p className="text-sm text-ink-2 lg:text-right">
+          Wire {wire.fetchedAt ? `updated ${formatDate(wire.fetchedAt.slice(0, 10))}` : "not fetched yet"} ·{" "}
+          <Link href="/guide" className="hover:underline">How to use this</Link>
         </p>
-      </div>
-      <div className="mt-4">
-        <WorldMap />
+      </section>
+
+      <ol className="mt-6 grid gap-3 sm:grid-cols-3">
+        {STEPS.map((s) => (
+          <li key={s.n} className="flex gap-3 rounded-lg border border-line bg-paper-2 p-4">
+            <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-teal font-sans text-sm text-paper">{s.n}</span>
+            <div>
+              <p className="font-medium">{s.title}</p>
+              <p className="mt-0.5 text-sm text-ink-2">{s.body}</p>
+            </div>
+          </li>
+        ))}
+      </ol>
+
+      <div className="mt-8">
+        <HomeExplorer />
       </div>
 
-      <div className="mt-10 grid gap-10 lg:grid-cols-2">
+      <div className="mt-10 grid gap-10 lg:grid-cols-[1fr_1fr_16rem]">
         <section>
           <h2 className="text-xl">Developing now</h2>
+          <p className="mt-1 text-sm text-ink-2">Most severe first.</p>
           <ol className="mt-3 divide-y divide-line-2 border-t border-line">
             {developing.map((e) => (
               <li key={e.id} className="py-3">
@@ -43,6 +76,7 @@ export default function Home() {
         </section>
         <section>
           <h2 className="text-xl">Coming up</h2>
+          <p className="mt-1 text-sm text-ink-2">Dated decisions, soonest first.</p>
           <ol className="mt-3 divide-y divide-line-2 border-t border-line">
             {scheduled.map((e) => (
               <li key={e.id} className="py-3">
@@ -55,6 +89,24 @@ export default function Home() {
               </li>
             ))}
           </ol>
+        </section>
+        <section>
+          <h2 className="text-xl">Start another way</h2>
+          <p className="mt-1 text-sm text-ink-2">By kind of event</p>
+          <ul className="mt-2 flex flex-wrap gap-1.5">
+            {kinds.map((k) => (
+              <li key={k.t}>
+                <Link href={`/events?type=${k.t}`} className="rounded-full border border-line px-2.5 py-0.5 text-sm no-underline hover:border-ink">
+                  {TYPE_LABELS[k.t]} <span className="text-ink-3">{k.n}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <ul className="mt-5 space-y-2 text-[15px]">
+            <li><Link href="/events" className="hover:underline">All {EVENTS.length} events</Link></li>
+            <li><Link href="/wire" className="hover:underline">Today&apos;s headlines, by event</Link></li>
+            <li><Link href="/guide" className="hover:underline">How to read and update the atlas</Link></li>
+          </ul>
         </section>
       </div>
     </div>

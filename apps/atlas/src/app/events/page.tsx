@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { EVENTS, allEdges } from "@/content/events";
 import { loadWire } from "@/content/wire";
 import EventsBrowser from "@/components/atlas/EventsBrowser";
@@ -22,7 +23,9 @@ export default function EventsPage() {
     <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6">
       <h1 className="text-3xl">All events</h1>
       <p className="mt-1 text-ink-2">Everything the atlas tracks. Filter by kind; the map follows.</p>
-      <EventsBrowser stats={stats} />
+      <Suspense fallback={null}>
+        <EventsBrowser stats={stats} />
+      </Suspense>
     </div>
   );
 }

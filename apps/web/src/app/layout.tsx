@@ -5,6 +5,7 @@ import "@fontsource/ibm-plex-sans/400.css";
 import "@fontsource/ibm-plex-sans/500.css";
 import "@fontsource/ibm-plex-sans/600.css";
 import Link from "next/link";
+import ThemeToggle, { THEME_SCRIPT } from "@/components/ThemeToggle";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -15,10 +16,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html
-      lang="en"
-      className="h-full antialiased"
-    >
+    <html lang="en" className="h-full antialiased" suppressHydrationWarning>
+      <head>
+        {/* applies the saved theme before first paint */}
+        <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
+      </head>
       <body className="min-h-full flex flex-col">
         <header className="border-b border-line">
           <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
@@ -38,6 +40,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               >
                 For your company
               </Link>
+              <ThemeToggle />
             </div>
           </nav>
         </header>
@@ -48,9 +51,14 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               Every number links to its source. Forecasts are judgements and are graded as
               they resolve. Nothing here is investment or legal advice.
             </p>
-            <Link href="/method" className="hover:underline">
-              How we work
-            </Link>
+            <span className="flex gap-4">
+              <Link href="/method" className="hover:underline">
+                How we work
+              </Link>
+              <a href="https://neel8636.github.io/Geoploitica/" className="hover:underline">
+                Atlas, the personal edition
+              </a>
+            </span>
           </div>
         </footer>
       </body>

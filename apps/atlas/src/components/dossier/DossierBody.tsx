@@ -227,7 +227,7 @@ export function DossierBody({ d, backHref = "/events", backLabel = "All events" 
                 </summary>
                 <p className="mt-2">{s.looksLike}</p>
                 <p className="mt-2 text-ink-2"><span className="font-medium text-ink">Signposts: </span>{s.signposts.join("; ")}.</p>
-                <p className="mt-1 text-ink-2"><span className="font-medium text-ink">Effect beyond France: </span>{s.effectOnWorld}</p>
+                <p className="mt-1 text-ink-2"><span className="font-medium text-ink">Effect on the world: </span>{s.effectOnWorld}</p>
               </details>
             ))}
           </div>

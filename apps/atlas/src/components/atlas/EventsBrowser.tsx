@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { EVENTS, TYPE_LABELS, type EventType } from "@/content/events";
 import { formatDate } from "@/content/dossiers";
 import WorldMap from "@/components/WorldMap";
@@ -13,7 +14,11 @@ const TYPES = Object.keys(TYPE_LABELS) as EventType[];
   Everything is in memory, so the filter is instant and the page stays static.
 */
 export default function EventsBrowser({ stats }: { stats: Record<string, { degree: number; headlines: number }> }) {
-  const [filter, setFilter] = useState<EventType | "all">("all");
+  const params = useSearchParams();
+  const fromUrl = params.get("type");
+  const [filter, setFilter] = useState<EventType | "all">(
+    fromUrl && TYPES.includes(fromUrl as EventType) ? (fromUrl as EventType) : "all",
+  );
 
   const list = EVENTS.filter((e) => filter === "all" || e.type === filter).sort((a, b) =>
     a.status === b.status ? (a.date < b.date ? 1 : -1) : a.status === "scheduled" ? 1 : -1,

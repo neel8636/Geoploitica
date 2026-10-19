@@ -5,25 +5,45 @@ import { useRouter } from "next/navigation";
 import { geoNaturalEarth1, geoPath, geoInterpolate } from "d3-geo";
 import { feature } from "topojson-client";
 import type { Topology, GeometryCollection } from "topojson-specification";
-import type { Polygon } from "geojson";
+import type { MultiPoint } from "geojson";
 import land110 from "world-atlas/land-110m.json";
 import { allEdges, EVENTS, LINK_WORDS, TYPE_LABELS, type EventType, type WorldEvent } from "@/content/events";
 
 const W = 960;
 const H = 500;
 
-type View = "world" | "europe";
+export type View = "world" | "europe" | "americas" | "asia" | "mea";
 
-// Europe holds most of the tracked events, so it gets its own framing.
-const EUROPE: Polygon = {
-  type: "Polygon",
-  // clockwise, as d3-geo requires for a polygon that means "this area" and not "everything but"
-  coordinates: [[[-14, 34], [-14, 64], [44, 64], [44, 34], [-14, 34]]],
+// Framings the reader can jump between. Every event is always drawn; a frame only decides
+// what is in view. bbox is [west, south, east, north].
+export const VIEWS: Record<View, { label: string; bbox?: [number, number, number, number] }> = {
+  world: { label: "World" },
+  europe: { label: "Europe", bbox: [-14, 34, 44, 64] },
+  americas: { label: "Americas", bbox: [-128, -36, -32, 60] },
+  asia: { label: "Asia-Pacific", bbox: [60, -12, 150, 52] },
+  mea: { label: "Middle East & Africa", bbox: [-20, -36, 64, 42] },
 };
 
-function viewFor(e: WorldEvent | undefined): View {
+// The frame is fitted to points, not a polygon, so its edges do not bulge along great circles.
+function pointsFor(bbox: [number, number, number, number]): MultiPoint {
+  const [w, s, e, n] = bbox;
+  const cx = (w + e) / 2;
+  const cy = (s + n) / 2;
+  return { type: "MultiPoint", coordinates: [[w, s], [w, n], [e, n], [e, s], [cx, s], [cx, n], [w, cy], [e, cy], [w, 0], [e, 0]] };
+}
+
+function inBox(e: WorldEvent, bbox?: [number, number, number, number]) {
+  if (!bbox) return true;
+  const [w, s, ee, n] = bbox;
+  return e.lon >= w && e.lon <= ee && e.lat >= s && e.lat <= n;
+}
+
+export function viewFor(e: WorldEvent | undefined): View {
   if (!e) return "world";
-  return e.lon >= -14 && e.lon <= 44 && e.lat >= 34 && e.lat <= 64 ? "europe" : "world";
+  for (const v of ["europe", "americas", "asia", "mea"] as View[]) {
+    if (inBox(e, VIEWS[v].bbox)) return v;
+  }
+  return "world";
 }
 
 // Push apart dots that would sit on top of each other (three Paris events, two Brussels ones).
@@ -59,23 +79,48 @@ export default function WorldMap({
   focusId,
   filter,
   compact = false,
+  initialView,
+  view: controlledView,
+  onView,
+  hideFrames = false,
 }: {
   focusId?: string;
   filter?: EventType | "all";
   compact?: boolean;
+  initialView?: View;
+  view?: View; // controlled, when a parent owns the frame
+  onView?: (v: View) => void;
+  hideFrames?: boolean; // when the parent draws its own frame chips
 }) {
   const router = useRouter();
   const [hover, setHover] = useState<string | null>(null);
-  const [view, setView] = useState<View>(() => viewFor(EVENTS.find((e) => e.id === focusId)));
+  const [ownView, setOwnView] = useState<View>(() => initialView ?? viewFor(EVENTS.find((e) => e.id === focusId)));
+  const view = controlledView ?? ownView;
+  const setView = (v: View) => {
+    setOwnView(v);
+    onView?.(v);
+  };
 
-  const { landPath, projection } = useMemo(() => {
+  const { landPath, projection, frame } = useMemo(() => {
     const projection = geoNaturalEarth1();
-    if (view === "europe") projection.fitExtent([[8, 8], [W - 8, H - 8]], EUROPE);
+    const bbox = VIEWS[view].bbox;
+    if (bbox) projection.fitExtent([[8, 8], [W - 8, H - 8]], pointsFor(bbox));
     else projection.fitExtent([[8, 8], [W - 8, H - 8]], { type: "Sphere" });
     const topo = land110 as unknown as Topology<{ land: GeometryCollection }>;
     const land = feature(topo, topo.objects.land);
     const landPath = geoPath(projection)(land) ?? "";
-    return { landPath, projection };
+    // the frame's own rectangle on the canvas, so what lies outside it can be dimmed
+    let frame: { x: number; y: number; w: number; h: number } | null = null;
+    if (bbox) {
+      const [w, s, e, n] = bbox;
+      const latForWidth = s <= 0 && n >= 0 ? 0 : Math.abs(s) < Math.abs(n) ? s : n;
+      const left = projection([w, latForWidth])?.[0] ?? 0;
+      const right = projection([e, latForWidth])?.[0] ?? W;
+      const top = projection([(w + e) / 2, n])?.[1] ?? 0;
+      const bottom = projection([(w + e) / 2, s])?.[1] ?? H;
+      frame = { x: left, y: top, w: right - left, h: bottom - top };
+    }
+    return { landPath, projection, frame };
   }, [view]);
 
   const visible = EVENTS.filter((e) => !filter || filter === "all" || e.type === filter);
@@ -86,7 +131,7 @@ export default function WorldMap({
     edges.filter((ed) => ed.a === active || ed.b === active).flatMap((ed) => [ed.a, ed.b]),
   );
 
-  const radius = (e: WorldEvent) => (view === "europe" ? 5 + e.severity * 2 : 3 + e.severity * 1.4);
+  const radius = (e: WorldEvent) => (view !== "world" ? 5 + e.severity * 2 : 3 + e.severity * 1.4);
   const placed = new Map(
     spread(
       visible.map((e) => {
@@ -99,8 +144,7 @@ export default function WorldMap({
     const p = placed.get(e.id);
     return p ? [p.x, p.y] : [0, 0];
   };
-  const inFrame = (e: WorldEvent) => view === "world" || (e.lon >= -14 && e.lon <= 44 && e.lat >= 34 && e.lat <= 64);
-  const offFrame = visible.filter((e) => !inFrame(e));
+  const offFrame = visible.filter((e) => !inBox(e, VIEWS[view].bbox));
 
   const arc = (a: WorldEvent, b: WorldEvent) => {
     // a great-circle arc sampled through the projection, so it curves with the map;
@@ -118,22 +162,38 @@ export default function WorldMap({
   };
 
   const hovered = hover ? EVENTS.find((e) => e.id === hover) : null;
+  // a compact map (inside a report) offers only the world and the event's own region
+  const frames: View[] = compact
+    ? Array.from(new Set<View>(["world", viewFor(EVENTS.find((e) => e.id === focusId))]))
+    : (Object.keys(VIEWS) as View[]);
   const toggle = (v: View) =>
     `rounded-full border px-2.5 py-0.5 text-xs ${view === v ? "border-ink bg-ink text-paper" : "border-line hover:border-ink"}`;
 
   return (
     <figure className="relative w-full">
-      <div className="absolute left-2 top-2 z-10 flex gap-1" role="group" aria-label="Map view">
-        <button type="button" className={toggle("world")} onClick={() => setView("world")}>World</button>
-        <button type="button" className={toggle("europe")} onClick={() => setView("europe")}>Europe</button>
-      </div>
-      {view === "europe" && offFrame.length ? (
-        <p className="absolute right-2 top-2 z-10 max-w-[18rem] text-right text-xs text-ink-2">
-          Off the frame: {offFrame.map((e) => e.title.split(" ").slice(0, 3).join(" ")).join(" · ")}
+      {!hideFrames ? (
+        <div className="absolute left-2 top-2 z-10 flex flex-wrap gap-1" role="group" aria-label="Map frame">
+          {frames.map((v) => (
+            <button key={v} type="button" className={toggle(v)} onClick={() => setView(v)}>{VIEWS[v].label}</button>
+          ))}
+        </div>
+      ) : null}
+      {view !== "world" && !compact && offFrame.length ? (
+        <p className="absolute right-2 top-2 z-10 text-right text-xs text-ink-2">
+          {offFrame.length} more outside this frame · <button type="button" className="underline" onClick={() => setView("world")}>show the world</button>
         </p>
       ) : null}
       <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label="World map of tracked events and their connections" className="w-full" fontFamily="var(--font-sans)">
         <path d={landPath} fill="var(--paper-2)" stroke="var(--line)" strokeWidth={0.5} />
+        {frame ? (
+          <g aria-hidden fill="var(--paper)" fillOpacity={0.55}>
+            <rect x={0} y={0} width={W} height={Math.max(0, frame.y)} />
+            <rect x={0} y={frame.y + frame.h} width={W} height={Math.max(0, H - frame.y - frame.h)} />
+            <rect x={0} y={frame.y} width={Math.max(0, frame.x)} height={frame.h} />
+            <rect x={frame.x + frame.w} y={frame.y} width={Math.max(0, W - frame.x - frame.w)} height={frame.h} />
+            <rect x={frame.x} y={frame.y} width={frame.w} height={frame.h} fill="none" stroke="var(--ink-3)" strokeDasharray="4 3" strokeWidth={0.8} />
+          </g>
+        ) : null}
         <g aria-hidden>
           {edges.map((ed) => {
             const a = EVENTS.find((e) => e.id === ed.a)!;

@@ -2,48 +2,72 @@
 
 /*
   Geoploitica design tokens.
-  Paper and slate ink with one maritime-chart teal. Amber marks risk, red marks critical.
+  Warm beige paper and umber ink, one muted sea-green accent. Amber marks risk, red marks critical.
   Serif (Newsreader) for dossier reading; sans (IBM Plex Sans) for chrome, briefs and tables.
+  Theme: light by default; dark when the reader picks it (data-theme="dark") or when their
+  system prefers dark and they have not picked light. The toggle lives in the header.
 */
 :root {
-  --paper: #f6f7f4;
-  --paper-2: #eceeea;
-  --ink: #1b2430;
-  --ink-2: #5b6672;
-  --ink-3: #8a949e;
-  --line: #d6dbd9;
-  --line-2: #e6e9e6;
-  --teal: #0f6f74;
-  --teal-2: #d8ecec;
-  --amber: #b8641a;
-  --amber-2: #f5e6d3;
-  --red: #9e2b25;
-  --red-2: #f3dcda;
-  --green: #2f6b3a;
-  --green-2: #dbeadd;
-  --focus: #0f6f74;
+  --paper: #f4eee3;
+  --paper-2: #ebe3d3;
+  --ink: #2b2521;
+  --ink-2: #6a5f55;
+  --ink-3: #9a8f83;
+  --line: #d8cdb9;
+  --line-2: #e5dccb;
+  --teal: #2f6b66;
+  --teal-2: #d9e6df;
+  --amber: #b5651d;
+  --amber-2: #f1dfc6;
+  --red: #a3332c;
+  --red-2: #f0d7d2;
+  --green: #4a6b3a;
+  --green-2: #dde6d2;
+  --focus: #2f6b66;
   --radius: 6px;
   --radius-lg: 12px;
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  --paper: #1b1813;
+  --paper-2: #24201a;
+  --ink: #ece4d6;
+  --ink-2: #b3a898;
+  --ink-3: #857b6e;
+  --line: #3a342b;
+  --line-2: #2d2822;
+  --teal: #7fc0b7;
+  --teal-2: #1f3a37;
+  --amber: #e2a05a;
+  --amber-2: #3d2b17;
+  --red: #e07a70;
+  --red-2: #3f201d;
+  --green: #9cc48a;
+  --green-2: #243321;
+  --focus: #7fc0b7;
+  color-scheme: dark;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --paper: #10161c;
-    --paper-2: #171f27;
-    --ink: #e6eae8;
-    --ink-2: #a9b2b9;
-    --ink-3: #7b858e;
-    --line: #2b343c;
-    --line-2: #222a32;
-    --teal: #4fb3b7;
-    --teal-2: #163639;
-    --amber: #e0953f;
-    --amber-2: #3a2a16;
-    --red: #e06a62;
-    --red-2: #3d1f1d;
-    --green: #7fc08a;
-    --green-2: #1d3322;
-    --focus: #4fb3b7;
+  :root:not([data-theme="light"]) {
+  --paper: #1b1813;
+  --paper-2: #24201a;
+  --ink: #ece4d6;
+  --ink-2: #b3a898;
+  --ink-3: #857b6e;
+  --line: #3a342b;
+  --line-2: #2d2822;
+  --teal: #7fc0b7;
+  --teal-2: #1f3a37;
+  --amber: #e2a05a;
+  --amber-2: #3d2b17;
+  --red: #e07a70;
+  --red-2: #3f201d;
+  --green: #9cc48a;
+  --green-2: #243321;
+  --focus: #7fc0b7;
+  color-scheme: dark;
   }
 }
 
@@ -67,10 +91,6 @@
   --font-sans: "IBM Plex Sans", system-ui, sans-serif;
   --radius-sm: var(--radius);
   --radius-lg: var(--radius-lg);
-}
-
-html {
-  color-scheme: light dark;
 }
 
 body {
