@@ -8,11 +8,14 @@ Two products share one research pipeline:
 - **Company impact reports** (`/enterprise`): a company shares its supply-chain footprint (suppliers, parts with HS codes, lanes, sites) and the impact engine matches it against a calendar of dated changes (regulations, tariffs, strikes, unrest, chokepoints, energy shocks). Each department gets a brief: what changes, when, your exposure, cost if unprepared, next action, owner.
 - **Change radar** (`/changes`): the public calendar both products run on.
 
+Alongside them, **Atlas** (`apps/atlas`) is a personal edition for one reader: a world map of events with the connections drawn between them; click an event for an interactive report on what it is and how it ripples to the rest of the world, plus a wire of matched headlines. No engine, no accounts. See `apps/atlas/README.md`.
+
 ## Layout
 
 ```
 apps/web      Next.js 16 + TypeScript + Tailwind. Dossier content lives in src/content/dossiers/*.json.
 apps/engine   Python 3.11+ FastAPI impact engine: models, change calendar, exposure matching, brief generation.
+apps/atlas    Next.js personal edition: event graph, world map, per-event reports, RSS wire, draft-a-report script.
 docs/         api-contract.md is the contract between the two. Keep it and both sides in sync.
 ```
 
@@ -26,6 +29,8 @@ npm run setup            # installs web deps and the engine venv
 cp .env.example .env     # defaults work for local
 npm run dev              # web on http://localhost:3000, engine on http://localhost:8000
 ```
+
+Atlas on its own: `npm run dev:atlas` (then `cd apps/atlas && npm run wire` to pull headlines).
 
 Or with Docker: `docker compose up --build`.
 

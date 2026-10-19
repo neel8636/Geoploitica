@@ -1,0 +1,138 @@
+@import "tailwindcss";
+
+/*
+  Geoploitica design tokens.
+  Paper and slate ink with one maritime-chart teal. Amber marks risk, red marks critical.
+  Serif (Newsreader) for dossier reading; sans (IBM Plex Sans) for chrome, briefs and tables.
+*/
+:root {
+  --paper: #f6f7f4;
+  --paper-2: #eceeea;
+  --ink: #1b2430;
+  --ink-2: #5b6672;
+  --ink-3: #8a949e;
+  --line: #d6dbd9;
+  --line-2: #e6e9e6;
+  --teal: #0f6f74;
+  --teal-2: #d8ecec;
+  --amber: #b8641a;
+  --amber-2: #f5e6d3;
+  --red: #9e2b25;
+  --red-2: #f3dcda;
+  --green: #2f6b3a;
+  --green-2: #dbeadd;
+  --focus: #0f6f74;
+  --radius: 6px;
+  --radius-lg: 12px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #10161c;
+    --paper-2: #171f27;
+    --ink: #e6eae8;
+    --ink-2: #a9b2b9;
+    --ink-3: #7b858e;
+    --line: #2b343c;
+    --line-2: #222a32;
+    --teal: #4fb3b7;
+    --teal-2: #163639;
+    --amber: #e0953f;
+    --amber-2: #3a2a16;
+    --red: #e06a62;
+    --red-2: #3d1f1d;
+    --green: #7fc08a;
+    --green-2: #1d3322;
+    --focus: #4fb3b7;
+  }
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-line: var(--line);
+  --color-line-2: var(--line-2);
+  --color-teal: var(--teal);
+  --color-teal-2: var(--teal-2);
+  --color-amber: var(--amber);
+  --color-amber-2: var(--amber-2);
+  --color-red: var(--red);
+  --color-red-2: var(--red-2);
+  --color-green: var(--green);
+  --color-green-2: var(--green-2);
+  --font-serif: "Newsreader Variable", Georgia, serif;
+  --font-sans: "IBM Plex Sans", system-ui, sans-serif;
+  --radius-sm: var(--radius);
+  --radius-lg: var(--radius-lg);
+}
+
+html {
+  color-scheme: light dark;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 17px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Reading column for dossiers */
+.prose-dossier {
+  font-family: var(--font-serif);
+  font-size: 1.125rem;
+  line-height: 1.6;
+  max-width: 42rem;
+}
+.prose-dossier p + p {
+  margin-top: 1rem;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+}
+
+a {
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Fixed signpost labels used throughout briefs */
+.signpost {
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--teal);
+  letter-spacing: 0.01em;
+}
+
+/* Scroll-driven reveal for the dossier timeline; respects reduced motion */
+@media (prefers-reduced-motion: no-preference) {
+  .reveal {
+    opacity: 0;
+    transform: translateY(8px);
+    transition: opacity 400ms ease, transform 400ms ease;
+  }
+  .reveal.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}

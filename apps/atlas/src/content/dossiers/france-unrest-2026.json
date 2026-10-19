@@ -1,0 +1,251 @@
+{
+  "slug": "france-unrest-2026",
+  "title": "France's autumn of unrest",
+  "deck": "A school protest became the worst urban violence in years, hit a state that cannot afford to buy peace, and now shapes a presidential election that Europe and Ukraine depend on.",
+  "updated": "2026-10-19",
+  "status": "developing",
+  "region": "France, European Union",
+  "tags": ["unrest", "sovereign debt", "EU politics", "cost of living", "supply chains"],
+  "readingMinutes": { "card": 1, "brief": 5, "deep": 15 },
+
+  "card": {
+    "headline": "France's protests are a cost-of-living and governance crisis that started in a school corridor",
+    "keyNumber": { "value": "550,000", "label": "marched on 17 October; about 2,400 were arrested that day", "sourceIndex": 0 },
+    "impactMeter": 4,
+    "forYou": [
+      { "role": "Supply chain", "line": "Expect lane delays through French ports and hubs on strike days; the next is 5 November." },
+      { "role": "Finance", "line": "France pays about 1.4 points over Germany to borrow; a Moody's review lands 23 October." },
+      { "role": "Sales into Europe", "line": "Copycat cost-of-living unrest reached Italy, Belgium and Portugal the same weekend." },
+      { "role": "Everyone", "line": "The bigger risk is political: a far-right presidency in May 2027 that would cut Ukraine aid and EU contributions." }
+    ],
+    "ripple": [
+      {
+        "label": "First-order",
+        "effects": [
+          { "text": "Town halls, shops and transport damaged in Paris, Lyon, Marseille, Lille, Bordeaux, Limoges", "sector": "Retail, logistics" },
+          { "text": "About 1,500 shops hit; damage in the hundreds of millions of euros", "sector": "Retail" },
+          { "text": "Interior minister offers resignation; Macron admits intelligence failures", "sector": "Government" }
+        ]
+      },
+      {
+        "label": "Second-order",
+        "effects": [
+          { "text": "French borrowing premium back near euro-crisis highs; CAC 40 and euro slip", "sector": "Finance" },
+          { "text": "Budget cuts of EUR 54bn now politically harder; deficit likely to overshoot", "sector": "Public finance" },
+          { "text": "National strike called for 5 November; more flare-ups likely", "sector": "Logistics, HR" }
+        ]
+      },
+      {
+        "label": "Third-order",
+        "effects": [
+          { "text": "Far right strengthened ahead of April 2027 vote; Ukraine aid and EU budget at stake", "sector": "Geopolitics" },
+          { "text": "Unrest spreads to Milan, Brussels, Liege, Lisbon; elections in Italy and Spain exposed", "sector": "Europe" },
+          { "text": "Investors price political risk into core European debt; ECB rescue unlikely", "sector": "Markets" }
+        ]
+      }
+    ]
+  },
+
+  "brief": {
+    "whatHappened": [
+      "In late September 2026, students at a high school in Creteil, outside Paris, blockaded their school over teacher shortages and decaying buildings. Within two weeks, more than 1,200 lycees had been disrupted and 6,000 people arrested, 87% of them minors.",
+      "On 5 October a 15-year-old lost his hand to a police stun grenade in Lens. The next day 250,000 marched. On 17 October, students, unions and former yellow-vest supporters marched together: about 550,000 people, with looting and arson in a dozen cities and roughly 2,400 arrests.",
+      "Macron promised a hard line and possible local protest bans, refused his interior minister's resignation, and admitted failures of anticipation and intelligence."
+    ],
+    "whyItMatters": [
+      "France is the eurozone's second-largest economy and already its most fiscally stressed large member: debt at 119% of GDP, a deficit of 5.4%, and a 10-year borrowing premium over Germany of about 140 basis points, the widest since the euro-debt crisis.",
+      "The government cannot buy peace. Its 2027 budget needs EUR 54bn of savings to hold the deficit at 5%, and the streets are rejecting exactly those cuts. A hung parliament leaves no majority to pass anything.",
+      "The crisis lands six months before a presidential election led by a National Rally candidate polling near 35%, who pledges to end funding for Ukraine within six months and cap France's EU contribution."
+    ],
+    "winners": [
+      { "who": "National Rally (Le Pen, Bardella)", "why": "Best placed to sell order; experts expect anger to be channelled toward immigration rather than austerity." },
+      { "who": "Moscow", "why": "A distracted, cash-strapped France and a rising party that wants sanctions lifted serve the aim of splitting European support for Ukraine." },
+      { "who": "German Bunds and Swiss francs", "why": "Safe-haven flows as investors leave French debt." }
+    ],
+    "losers": [
+      { "who": "Macron and the centrist bloc", "why": "His promise of a reformed, dynamic France looks spent; the state is seen as failing on schools and order." },
+      { "who": "Ukraine", "why": "France committed about EUR 27bn since 2022 and co-leads the Coalition of the Willing; a French retreat weakens EU-level funding most." },
+      { "who": "French retailers and shopkeepers", "why": "About 1,500 shops damaged on 17 October; Carrefour alone had around 20 supermarkets looted." },
+      { "who": "Anyone shipping through France in November", "why": "Strike on 5 November; customs and rail capacity reduced." }
+    ],
+    "whatsNext": [
+      "23 October: Moody's reviews France's Aa3 negative rating.",
+      "5 November: five unions strike; students and pensioners invited to join.",
+      "November to December: budget votes in a parliament with no majority; censure motions possible.",
+      "18 April and 2 May 2027: presidential election rounds."
+    ],
+    "predict": {
+      "question": "Before you read the scenarios: what do you think is the most likely path to the April 2027 election?",
+      "options": ["Rolling escalation into a social winter", "Grinding stalemate with periodic flare-ups", "Government concessions calm the streets", "A bond-market crisis forces an emergency budget"],
+      "answerIndex": 1,
+      "explanation": "Our base case, at about 45%, is a grinding stalemate: flare-ups fade after the 5 November strike, a diluted budget passes late, and the borrowing premium stays stuck between 120 and 160 basis points. Escalation is the second most likely path at 30%."
+    },
+    "recap": [
+      { "question": "Where did the protests begin?", "options": ["A fuel-tax protest in Lyon", "A high school in the Paris suburbs", "A port strike in Marseille"], "answerIndex": 1 },
+      { "question": "How large is the 2027 budget savings effort?", "options": ["EUR 54bn", "EUR 12bn", "EUR 120bn"], "answerIndex": 0 },
+      { "question": "Which actor do most experts see benefiting politically?", "options": ["The centrist bloc", "France Unbowed", "National Rally"], "answerIndex": 2 }
+    ]
+  },
+
+  "deep": {
+    "timeline": [
+      { "date": "2026-02-27", "title": "US and Israeli strikes on Iran begin", "detail": "Oil shock follows; French diesel crosses EUR 2 a litre within days.", "sourceIndex": 10 },
+      { "date": "2026-08-20", "title": "Hottest summer on record", "detail": "Roughly 8,000 heat-related deaths in France; classrooms at 35 degrees become a student grievance.", "sourceIndex": 1 },
+      { "date": "2026-09-17", "title": "Lecornu announces a EUR 54bn budget effort", "detail": "Without it, the 2027 deficit would near 6.5% of GDP.", "sourceIndex": 7 },
+      { "date": "2026-09-25", "title": "Blockade at Lycee Saint-Exupery, Creteil", "detail": "Students protest teacher shortages and poor facilities; blockades spread across Ile-de-France.", "sourceIndex": 1, "turning": true },
+      { "date": "2026-10-01", "title": "Budget presented amid a public-sector strike", "detail": "University students block about 30 campuses; fires at schools in Marseille and Nantes.", "sourceIndex": 11 },
+      { "date": "2026-10-02", "title": "French-German spread widest since the euro crisis", "detail": "Education minister counts 1,207 lycees disrupted.", "sourceIndex": 12 },
+      { "date": "2026-10-05", "title": "A 15-year-old loses his hand to a stun grenade", "detail": "In Lens; France later suspends stun-grenade use.", "sourceIndex": 1, "turning": true },
+      { "date": "2026-10-06", "title": "250,000 march nationwide", "detail": "Justice Ministry counts 6,000+ arrests since the start, 87% minors.", "sourceIndex": 1 },
+      { "date": "2026-10-17", "title": "550,000 march; looting and arson", "detail": "Limoges town hall burns; Lyon tourist office torched; town halls in Marseille, Lille and Angers broken into.", "sourceIndex": 4, "turning": true },
+      { "date": "2026-10-18", "title": "Macron's televised address", "detail": "Hard line promised; Milan sees a second day of rioting.", "sourceIndex": 3 },
+      { "date": "2026-10-19", "title": "Macron admits intelligence failures", "detail": "Refuses interior minister's resignation; clashes resume at Place de la Republique; 10-year yield rises to 4.86%.", "sourceIndex": 2 }
+    ],
+    "causes": [
+      {
+        "name": "Structural roots",
+        "when": "Years in the making",
+        "causes": [
+          { "name": "Debt trap", "detail": "Debt at 119% of GDP, deficit 5.4%; the interest bill rises EUR 12bn in 2027." },
+          { "name": "Political paralysis", "detail": "Hung parliament since 2024; Macron cannot run again; no bloc can channel discontent." },
+          { "name": "Fraying public services", "detail": "Four straight civil-service pay freezes; the state seen as failing on basics." }
+        ]
+      },
+      {
+        "name": "Trigger",
+        "when": "Late September 2026, Paris suburbs",
+        "causes": [
+          { "name": "Teacher shortages", "detail": "About 10% of secondary teaching hours went untaught in 2024-25." },
+          { "name": "Crumbling classrooms", "detail": "35 to a class, too few chairs, leaks, summer heat." },
+          { "name": "Parcoursup pressure", "detail": "The university-entry platform seen as opaque and stressful." }
+        ]
+      },
+      {
+        "name": "Accelerants",
+        "when": "October 2026",
+        "causes": [
+          { "name": "Force against minors", "detail": "A 15-year-old lost a hand; 87% of those held were minors." },
+          { "name": "Austerity budget", "detail": "EUR 54bn plan and a public-sector strike on 1 October." },
+          { "name": "Fuel-price shock", "detail": "Diesel above EUR 2 a litre since the Iran war began." },
+          { "name": "Coalition widens", "detail": "Unions and former yellow vests join the students." }
+        ]
+      }
+    ],
+    "chart": {
+      "kind": "line",
+      "title": "France pays about 1.4 points over Germany to borrow, near euro-crisis highs",
+      "subtitle": "10-year French yield minus 10-year German yield, October 2026. Whiskers show where sources disagree.",
+      "unit": "basis points",
+      "series": [
+        { "date": "2026-10-02", "value": 152, "low": 147, "high": 158 },
+        { "date": "2026-10-06", "value": 128 },
+        { "date": "2026-10-07", "value": 138.9 },
+        { "date": "2026-10-08", "value": 142 },
+        { "date": "2026-10-09", "value": 136.5 },
+        { "date": "2026-10-16", "value": 137.4 },
+        { "date": "2026-10-19", "value": 143.5, "low": 142, "high": 145 }
+      ],
+      "references": [
+        { "label": "ING forecast, coming months", "value": 112.5, "low": 100, "high": 125 },
+        { "label": "Capital Economics risk case, end-2027", "value": 200 }
+      ],
+      "annotations": [
+        { "date": "2026-10-02", "text": "Widest since the euro-debt crisis" }
+      ],
+      "sourceIndexes": [12, 13, 14, 15]
+    },
+    "stakeholders": [
+      { "name": "Emmanuel Macron", "role": "President, term-limited", "wants": "Order restored and a budget passed without owning the cuts", "leverage": "Police, protest bans, appointments; little political capital left", "likelyMove": "Hard line on violence, small concessions on schools, distance from the budget fight" },
+      { "name": "Sebastien Lecornu", "role": "Prime minister, minority government", "wants": "A 2027 budget that satisfies markets without a censure vote", "leverage": "Can offer the left a no-49.3 deal; can be toppled", "likelyMove": "Dilute the EUR 54bn package and pass it late" },
+      { "name": "Marine Le Pen and Jordan Bardella", "role": "National Rally, poll leaders", "wants": "Win in May 2027 on order and living costs", "leverage": "About 35% first-round support; no need to govern now", "likelyMove": "Call grievances legitimate, blame the far left, promise order" },
+      { "name": "Jean-Luc Melenchon", "role": "France Unbowed", "wants": "Lead the left into the run-off on the back of the movement", "leverage": "Street credibility with students and unions", "likelyMove": "Blame police provocation; risks being tied to the looting" },
+      { "name": "Unions and student organisations", "role": "Movement organisers", "wants": "School funding, an end to pay freezes, lower living costs", "leverage": "Strike calls; 5 November is the next test", "likelyMove": "Keep marching through the budget votes" },
+      { "name": "Bond investors and the ECB", "role": "Lenders of last resort", "wants": "A credible fiscal path before buying French debt", "leverage": "The spread; the ECB's never-used TPI tool", "likelyMove": "Demand a budget first; no rescue without one" },
+      { "name": "Moscow and Washington", "role": "Outside powers", "wants": "Russia: a weaker EU on Ukraine. US: a culture-war talking point on migration", "leverage": "Narrative and summitry", "likelyMove": "Russia courts the far right; US figures amplify the riots" }
+    ],
+    "sectors": [
+      { "sector": "French banks", "direction": "down", "size": 2, "why": "Sovereign-linked; though bank default-swap spreads sit below the sovereign's, a sign of better capital than 2011." },
+      { "sector": "Retail and hospitality in France", "direction": "down", "size": 3, "why": "About 1,500 shops damaged on one day; more protest days ahead." },
+      { "sector": "Logistics through France", "direction": "down", "size": 2, "why": "Strike days close customs and cut rail capacity; Louvre and transport blockades." },
+      { "sector": "Security and insurance", "direction": "up", "size": 1, "why": "Demand for private security and riot cover rises; premiums follow." },
+      { "sector": "German government bonds", "direction": "up", "size": 1, "why": "Safe-haven flows as French debt is sold." },
+      { "sector": "European defence budgets", "direction": "mixed", "size": 2, "why": "A far-right win would cut French Ukraine aid; other states may need to fill the gap." },
+      { "sector": "Energy-intensive manufacturers", "direction": "down", "size": 2, "why": "The same fuel shock that fed the protests raises their input costs." }
+    ],
+    "dailyLife": [
+      { "item": "Diesel", "effect": "Above EUR 2 a litre since March; record EUR 2.41 in September. A 60-litre tank costs about EUR 30 more than in January.", "sourceIndex": 10 },
+      { "item": "Groceries", "effect": "EU food prices rose 34% from August 2021 to August 2026; a French minimum wage buys about 4% less food than it did.", "sourceIndex": 5 },
+      { "item": "Schools", "effect": "About 10% of secondary teaching hours went untaught in 2024-25; classes of 35 in summer heat." },
+      { "item": "Getting to work", "effect": "Strike on 5 November will hit trains and public services; expect closures around protest squares." },
+      { "item": "Mortgages and loans", "effect": "French 10-year yields near 4.9%, the highest since the early 2000s, feed into borrowing costs." }
+    ],
+    "scenarios": [
+      { "name": "Grinding stalemate", "probability": 45, "looksLike": "Weekly flare-ups that fade after the 5 November strike; a diluted budget passes late or by decree; spread stays 120-160 basis points.", "signposts": ["Turnout falls below 6 October levels", "Moody's cuts the outlook but not the rating"], "effectOnWorld": "France stays a weak, inward-looking partner; EU budget and Ukraine deals slip to after the election." },
+      { "name": "Rolling escalation", "probability": 30, "looksLike": "A social winter: students, unions and ex-yellow vests keep marching; government censured or reshuffled; protest bans or curfews.", "signposts": ["Fresh serious injury or death", "Budget defeated", "Spread above 160 basis points"], "effectOnWorld": "Copycat unrest in Italy, Belgium, Spain; far-right gains across 2027 European elections." },
+      { "name": "Concession reset", "probability": 15, "looksLike": "Government buys peace with school staffing money, a softened pay freeze and fuel relief; the movement splinters.", "signposts": ["A funded school plan before end-October", "Unions accept talks"], "effectOnWorld": "Calm streets but a wider deficit; markets punish France modestly." },
+      { "name": "Market crisis", "probability": 10, "looksLike": "Spread spikes toward 200 basis points; Moody's downgrade; emergency budget; ECB debate over its TPI tool.", "signposts": ["Disorderly selling or failed auctions", "Italian and Spanish spreads widen in step"], "effectOnWorld": "Eurozone-wide stress test; north-south fight over ECB support; Ukraine funding frozen." }
+    ],
+    "predictions": [
+      { "text": "The 5 November strike will be large but smaller than 17 October; violence will concentrate in big-city centres at night.", "horizon": "November 2026", "resolves": "2026-11-06" },
+      { "text": "The budget will pass only in watered-down form, below the EUR 54bn effort, and the 2027 deficit will overshoot 5%.", "horizon": "By end-2027", "resolves": "2028-03-31" },
+      { "text": "At least one rating agency will cut France's rating or outlook before year-end.", "horizon": "By 31 December 2026", "resolves": "2026-12-31" },
+      { "text": "The National Rally candidate will stay first in polls; law-and-order, not austerity, will dominate the campaign.", "horizon": "April 2027", "resolves": "2027-04-18" },
+      { "text": "Any new oil-price spike from the Gulf war will reignite protests faster than any budget measure.", "horizon": "Ongoing", "resolves": "2027-05-02" }
+    ],
+    "countermeasures": [
+      { "audience": "businesses", "actions": ["Add 2-5 days of buffer to lanes through French ports and hubs on announced protest days.", "Review French supplier continuity plans; identify single-source parts from France.", "Add fuel-surcharge and force-majeure clauses to contracts touching France.", "Issue travel and site-safety guidance for French sites."] },
+      { "audience": "investors", "actions": ["Watch the French-German spread: above 160 basis points signals escalation; under 125 signals calm.", "Treat French sovereign exposure as political risk, not core-Europe risk, until a budget passes.", "Do not assume an ECB backstop; officials say conditions for intervention are not met."] },
+      { "audience": "households", "actions": ["Plan around the 5 November strike for travel and childcare.", "Expect fuel and food prices to stay high while the Gulf war continues.", "Lock in fixed-rate borrowing where possible; yields are at 20-year highs."] },
+      { "audience": "policymakers", "actions": ["Separate order from grievances: prosecute violence, fund the school plan.", "Publish the budget's distributional impact to counter the austerity narrative.", "Coordinate with Italy, Belgium and Spain on the shared cost-of-living drivers."] }
+    ],
+    "analogues": [
+      { "event": "May 1968 student-worker revolt", "year": "1968", "whatFollowed": "De Gaulle's party won a landslide in June; fear of disorder helped the right." },
+      { "event": "Yellow vests", "year": "2018-19", "whatFollowed": "Fuel-tax rise scrapped, EUR 10bn in concessions, 2.5% deficit breach; the movement faded but the grievances did not." },
+      { "event": "Banlieue riots after Nahel's death", "year": "2023", "whatFollowed": "Six nights of violence, 3,000+ arrests, no policy change; far right gained in 2024 European elections." },
+      { "event": "Pension-reform protests", "year": "2023", "whatFollowed": "Reform passed by decree; Macron's approval collapsed; hung parliament followed in 2024." }
+    ],
+    "watch": [
+      { "date": "2026-10-23", "title": "Moody's review of France", "why": "A downgrade from Aa3 would raise borrowing costs and spread stress." },
+      { "date": "2026-10-29", "title": "ECB policy meeting", "why": "Any hint on the TPI tool or on French conditions moves spreads." },
+      { "date": "2026-11-05", "title": "Five-union national strike", "why": "The next turnout test; the first since the 17 October violence." },
+      { "date": "2026-12-15", "title": "2027 budget deadline (approximate)", "why": "Constitutional 70-day limit; a defeat or decree reshapes the campaign." },
+      { "date": "2027-04-18", "title": "Presidential election, round 1", "why": "Sets France's direction on Ukraine, the EU budget and climate policy." },
+      { "title": "Diesel price", "why": "A move back toward the EUR 2.41 record would feed new anger." },
+      { "title": "Neighbours", "why": "Further rioting in Milan, Brussels or Liege, and Spain's November strike." }
+    ]
+  },
+
+  "evidence": {
+    "sources": [
+      { "title": "Why have France's school protests become a wider political crisis?", "url": "https://www.aljazeera.com/news/2026/10/18/why-have-frances-school-protests-become-a-wider-political-crisis", "publisher": "Al Jazeera", "date": "2026-10-18" },
+      { "title": "Why are students protesting across France?", "url": "https://time.com/article/2026/10/02/france-student-protests-arrests-injuries-school-closures/", "publisher": "TIME", "date": "2026-10-06" },
+      { "title": "Place de la Republique flares again as Macron admits intelligence failures", "url": "https://www.euronews.com/2026/10/19/place-de-la-republique-flares-again-as-macron-admits-intelligence-failures", "publisher": "Euronews", "date": "2026-10-19" },
+      { "title": "French unrest raises alarm across Europe as protests turn violent", "url": "https://www.business-standard.com/amp/world-news/french-unrest-raises-alarm-across-europe-as-protests-turn-violent-126101900223_1.html", "publisher": "Bloomberg via Business Standard", "date": "2026-10-19" },
+      { "title": "Protests spread across Europe: cost-of-living pressures behind the demonstrations", "url": "https://www.euronews.com/2026/10/19/wages-vs-prices-the-economic-pressures-behind-europes-protests", "publisher": "Euronews", "date": "2026-10-19" },
+      { "title": "Food prices vs minimum wages: where in Europe has pay kept up?", "url": "https://www.euronews.com/2026/09/27/food-prices-vs-minimum-wages-where-in-europe-has-pay-kept-up", "publisher": "Euronews", "date": "2026-09-27" },
+      { "title": "More than 200 arrested in second day of street clashes in Milan", "url": "https://www.euronews.com/2026/10/19/more-than-200-arrested-in-second-day-of-street-clashes-against-cost-of-living-in-milan", "publisher": "Euronews", "date": "2026-10-19" },
+      { "title": "French government to lay out budget amid record-breaking public debt", "url": "https://www.euronews.com/2026/10/01/french-government-to-lay-out-budget-amid-record-breaking-public-debt", "publisher": "Euronews", "date": "2026-10-01" },
+      { "title": "No money for Ukraine and EU budget cuts: what could a Le Pen victory mean for the EU?", "url": "https://www.euronews.com/2026/10/17/no-money-for-ukraine-and-eu-budget-cuts-what-could-a-le-pen-victory-mean-for-the-eu", "publisher": "Euronews", "date": "2026-10-17" },
+      { "title": "Opinion polling for the 2027 French presidential election", "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2027_French_presidential_election", "publisher": "Wikipedia" },
+      { "title": "Average French diesel prices hit record 2.41", "url": "https://kuwaittimes.com/article/50113/business/average-french-diesel-prices-hit-record-241/", "publisher": "Kuwait Times / AFP", "date": "2026-09-20" },
+      { "title": "School protests spread as fires, blockades deepen unrest in France", "url": "https://aljazeera.com/news/2026/10/1/school-protests-spread-as-fires-blockades-deepen-unrest-in-france", "publisher": "Al Jazeera", "date": "2026-10-01" },
+      { "title": "French bond rout approaches euro debt crisis levels", "url": "https://www.roic.ai/news/french-bond-rout-approaches-euro-debt-crisis-levels-10-02-2026", "publisher": "ROIC", "date": "2026-10-02" },
+      { "title": "OAT-Bund spread: why French debt concerns markets", "url": "https://optimumcapital.fr/en/financial-insights/oat-bund-spread-french-debt-risk-october-2026/", "publisher": "Optimum Capital", "date": "2026-10-11" },
+      { "title": "OAT / Bund spread today", "url": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html", "publisher": "Ideal Investisseur", "date": "2026-10-16" },
+      { "title": "French bond yields rise as nationwide protests and riots impact markets", "url": "https://time.news/french-bond-yields-rise-as-nationwide-protests-and-riots-impact-markets/", "publisher": "Time News", "date": "2026-10-19" },
+      { "title": "France faces debt-crisis reckoning as riots erupt ahead of pivotal budget vote", "url": "https://finance.biggo.com/news/76a326ff-5c5a-42dd-b9af-a620ea4179c8", "publisher": "BigGo Finance", "date": "2026-10-18" },
+      { "title": "ECB reluctant to intervene as French bond risks mount", "url": "https://www.roic.ai/news/ecb-reluctant-to-intervene-as-french-bond-risks-mount-10-08-2026", "publisher": "ROIC", "date": "2026-10-08" },
+      { "title": "French officials explore curfews after weekend of chaos", "url": "https://www.cnn.com/2026/10/19/europe/france-protests-violence-wwk-intl-hnk", "publisher": "CNN", "date": "2026-10-19" }
+    ],
+    "confidence": [
+      { "claim": "Protest and arrest figures", "level": "high", "note": "Interior and Justice Ministry counts via several outlets." },
+      { "claim": "Bond spread levels", "level": "medium", "note": "Sources differ by up to 11 basis points on the same day; chart shows the range." },
+      { "claim": "Scenario probabilities", "level": "low", "note": "Author judgement, not a sourced forecast; graded on the scorecard as events resolve." },
+      { "claim": "Election polling", "level": "medium", "note": "Mid-October polls from three firms; six months before the vote." }
+    ],
+    "method": "Built from 19 sources opened on 19 October 2026, ranked by tier: official statistics and ministry counts first, wire and established outlets second, market commentary third. Headline figures use tiers one and two only. Scenario probabilities and predictions are the author's judgement and will be graded on the public scorecard as each resolves.",
+    "changeLog": [
+      { "date": "2026-10-19", "change": "First publication." }
+    ]
+  }
+}

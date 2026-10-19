@@ -1,0 +1,420 @@
+// The event graph. One node per world event worth tracking; edges say how events connect.
+// Keep this file the single source of truth; the wire and the draft-report script read it.
+
+export type EventType =
+  | "unrest" | "conflict" | "election" | "economy" | "markets" | "energy" | "regulation"
+  | "diplomacy" | "trade" | "disaster" | "security";
+
+export type LinkKind = "causes" | "amplifies" | "responds_to" | "shares_driver" | "affects" | "competes_with";
+
+export const LINK_WORDS: Record<LinkKind, string> = {
+  causes: "feeds into",
+  amplifies: "amplifies",
+  responds_to: "is a response to",
+  shares_driver: "shares a driver with",
+  affects: "affects",
+  competes_with: "competes with",
+};
+
+export interface Source { title: string; url: string; publisher: string; date?: string }
+
+export interface Link {
+  to: string; // event id
+  kind: LinkKind;
+  why: string; // one sentence
+}
+
+export interface WorldEvent {
+  id: string;
+  title: string;
+  type: EventType;
+  date: string; // ISO; the date of the latest development
+  status: "developing" | "scheduled" | "stable";
+  region: string;
+  lat: number;
+  lon: number;
+  countries: string[]; // ISO-2
+  summary: string; // two sentences, plain
+  severity: 1 | 2 | 3 | 4 | 5;
+  keywords: string[]; // lower-case; the wire matcher uses these
+  links: Link[];
+  dossierSlug?: string; // a full layered report exists
+  sources: Source[];
+}
+
+export const TYPE_LABELS: Record<EventType, string> = {
+  unrest: "Unrest", conflict: "Conflict", election: "Election", economy: "Economy", markets: "Markets",
+  energy: "Energy", regulation: "Regulation", diplomacy: "Diplomacy", trade: "Trade", disaster: "Disaster", security: "Security",
+};
+
+export const EVENTS: WorldEvent[] = [
+  {
+    id: "france-unrest-2026",
+    title: "France's autumn of unrest",
+    type: "unrest",
+    date: "2026-10-19",
+    status: "developing",
+    region: "France",
+    lat: 48.86, lon: 2.35,
+    countries: ["FR"],
+    summary: "School blockades over teacher shortages became nationwide cost-of-living unrest: about 550,000 marched on 17 October and roughly 2,400 were arrested in one day. The state cannot afford to buy peace and a presidential election is six months away.",
+    severity: 4,
+    keywords: ["france", "paris", "macron", "lecornu", "lycée", "lycee", "protest", "riot", "limoges", "yellow vest", "gilets jaunes", "strike"],
+    links: [
+      { to: "gulf-war-energy-shock", kind: "responds_to", why: "Diesel above EUR 2 a litre since the Iran strikes fed the cost-of-living anger that widened a school protest into a national one." },
+      { to: "france-debt-stress", kind: "causes", why: "Every protest weekend widens the French-German bond spread and makes the EUR 54bn budget harder to pass." },
+      { to: "france-election-2027", kind: "causes", why: "Experts expect the far right to gain from fear of disorder; the National Rally leads polls near 35%." },
+      { to: "italy-cost-of-living-riots", kind: "amplifies", why: "Milan's rioting began on the same weekend, with the same grievances; Italy votes in 2027." },
+      { to: "belgium-cost-of-living-clashes", kind: "amplifies", why: "Belgian high-school students mirrored French demands weeks before the Brussels and Liege clashes." },
+      { to: "spain-strike-and-snap-election", kind: "amplifies", why: "Spanish unions plan a November strike over housing and wages two weeks before a snap election." },
+    ],
+    dossierSlug: "france-unrest-2026",
+    sources: [
+      { title: "Why have France's school protests become a wider political crisis?", url: "https://www.aljazeera.com/news/2026/10/18/why-have-frances-school-protests-become-a-wider-political-crisis", publisher: "Al Jazeera", date: "2026-10-18" },
+      { title: "Place de la Republique flares again as Macron admits intelligence failures", url: "https://www.euronews.com/2026/10/19/place-de-la-republique-flares-again-as-macron-admits-intelligence-failures", publisher: "Euronews", date: "2026-10-19" },
+    ],
+  },
+  {
+    id: "gulf-war-energy-shock",
+    title: "US-Israel war on Iran and the Gulf energy shock",
+    type: "conflict",
+    date: "2026-10-19",
+    status: "developing",
+    region: "Persian Gulf, Red Sea",
+    lat: 26.5, lon: 54.0,
+    countries: ["IR", "SA", "YE", "IL", "US"],
+    summary: "Strikes on Iran that began on 27 February 2026 have kept oil and freight costs elevated for eight months; renewed fighting in Yemen and attacks on Saudi energy infrastructure intensified the spike. French diesel hit a record EUR 2.41 a litre in September.",
+    severity: 5,
+    keywords: ["iran", "hormuz", "red sea", "yemen", "houthi", "saudi", "oil", "diesel", "fuel", "opec", "tanker", "gulf"],
+    links: [
+      { to: "france-unrest-2026", kind: "causes", why: "The fuel-price shock is the household-budget driver behind Europe's cost-of-living protests." },
+      { to: "italy-cost-of-living-riots", kind: "causes", why: "Italian demonstrations cite rising prices; fuel is the most visible." },
+      { to: "ecb-inflation-and-rates", kind: "causes", why: "Euro-area inflation rose to 3.8% in September, keeping the ECB from easing while France needs help." },
+      { to: "ukraine-summit-diplomacy", kind: "shares_driver", why: "Both wars shape US attention and energy prices; Washington's bandwidth for Ukraine is split." },
+    ],
+    sources: [
+      { title: "Average French diesel prices hit record 2.41", url: "https://kuwaittimes.com/article/50113/business/average-french-diesel-prices-hit-record-241/", publisher: "Kuwait Times / AFP", date: "2026-09-20" },
+      { title: "500 price checks at French petrol stations over claims of excessive hikes", url: "https://www.thelocal.fr/20260309/500-price-checks-at-french-petrol-stations-over-claims-of-excessive-hikes", publisher: "The Local", date: "2026-03-09" },
+    ],
+  },
+  {
+    id: "france-debt-stress",
+    title: "French bond stress and the Moody's review",
+    type: "markets",
+    date: "2026-10-19",
+    status: "developing",
+    region: "France, eurozone",
+    lat: 48.87, lon: 2.33,
+    countries: ["FR", "DE", "IT", "ES"],
+    summary: "France pays about 140 basis points over Germany to borrow, the widest since the euro-debt crisis, with debt at 119% of GDP and a record EUR 340bn to raise in 2027. Moody's reviews the Aa3 negative rating on 23 October; the ECB says intervention is not warranted.",
+    severity: 4,
+    keywords: ["oat", "bund", "spread", "moody", "rating", "deficit", "budget", "lecornu", "bond", "yield", "ecb", "tpi"],
+    links: [
+      { to: "france-unrest-2026", kind: "responds_to", why: "Investors demand a political-risk premium after each weekend of violence." },
+      { to: "ecb-inflation-and-rates", kind: "affects", why: "A French crisis would force the ECB to choose between fighting inflation and using its never-used bond-buying tool." },
+      { to: "france-election-2027", kind: "affects", why: "A downgrade or budget defeat would hand the election campaign to whoever promises order and a fiscal fix." },
+      { to: "italy-cost-of-living-riots", kind: "affects", why: "Italian and Spanish spreads widened in step with France's in early October." },
+    ],
+    dossierSlug: "france-unrest-2026",
+    sources: [
+      { title: "French bond yields rise as nationwide protests and riots impact markets", url: "https://time.news/french-bond-yields-rise-as-nationwide-protests-and-riots-impact-markets/", publisher: "Time News", date: "2026-10-19" },
+      { title: "ECB reluctant to intervene as French bond risks mount", url: "https://www.roic.ai/news/ecb-reluctant-to-intervene-as-french-bond-risks-mount-10-08-2026", publisher: "ROIC", date: "2026-10-08" },
+    ],
+  },
+  {
+    id: "france-election-2027",
+    title: "French presidential election, April 2027",
+    type: "election",
+    date: "2027-04-18",
+    status: "scheduled",
+    region: "France",
+    lat: 46.6, lon: 2.2,
+    countries: ["FR"],
+    summary: "First round on 18 April 2027, run-off 2 May. The National Rally candidate leads at 35-36% in October polls; Marine Le Pen pledges to end Ukraine funding within six months and cap France's EU budget contribution at EUR 5bn.",
+    severity: 4,
+    keywords: ["le pen", "bardella", "national rally", "rassemblement", "melenchon", "philippe", "glucksmann", "presidential", "poll"],
+    links: [
+      { to: "ukraine-summit-diplomacy", kind: "affects", why: "France committed about EUR 27bn to Ukraine and co-leads the Coalition of the Willing; a far-right win would pull it out." },
+      { to: "eu-budget-2028-2034", kind: "affects", why: "Le Pen calls the push to agree the EU budget before the French vote anti-democratic and wants France's contribution cut." },
+      { to: "france-unrest-2026", kind: "responds_to", why: "The campaign is now about order versus austerity; the riots set its terms." },
+    ],
+    dossierSlug: "france-unrest-2026",
+    sources: [
+      { title: "Opinion polling for the 2027 French presidential election", url: "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2027_French_presidential_election", publisher: "Wikipedia" },
+      { title: "No money for Ukraine and EU budget cuts: what could a Le Pen victory mean for the EU?", url: "https://www.euronews.com/2026/10/17/no-money-for-ukraine-and-eu-budget-cuts-what-could-a-le-pen-victory-mean-for-the-eu", publisher: "Euronews", date: "2026-10-17" },
+    ],
+  },
+  {
+    id: "italy-cost-of-living-riots",
+    title: "Cost-of-living riots in Milan, Turin and Bologna",
+    type: "unrest",
+    date: "2026-10-19",
+    status: "developing",
+    region: "Italy",
+    lat: 45.46, lon: 9.19,
+    countries: ["IT"],
+    summary: "Two days of rioting and looting around Milan's Duomo brought more than 200 arrests over 17-18 October, with clashes in Turin and Bologna. Prime Minister Meloni called a security meeting; Italy holds a parliamentary election in 2027.",
+    severity: 3,
+    keywords: ["milan", "milano", "turin", "bologna", "meloni", "italia in piazza", "italy", "duomo"],
+    links: [
+      { to: "france-unrest-2026", kind: "shares_driver", why: "Same weekend, same grievances: prices, wages, housing." },
+      { to: "italy-election-2027", kind: "affects", why: "Disorder before a vote tends to favour whoever promises order; Meloni is positioning on exactly that." },
+    ],
+    sources: [
+      { title: "More than 200 arrested in second day of street clashes against cost of living in Milan", url: "https://www.euronews.com/2026/10/19/more-than-200-arrested-in-second-day-of-street-clashes-against-cost-of-living-in-milan", publisher: "Euronews", date: "2026-10-19" },
+    ],
+  },
+  {
+    id: "italy-election-2027",
+    title: "Italian parliamentary election, 2027",
+    type: "election",
+    date: "2027-06-30",
+    status: "scheduled",
+    region: "Italy",
+    lat: 41.9, lon: 12.5,
+    countries: ["IT"],
+    summary: "Italy votes in 2027. Meloni backs continued support for Ukraine, the opposite of Le Pen's line, which makes the two 2027 elections a test of whether Europe's right stays united on Russia.",
+    severity: 3,
+    keywords: ["meloni", "italy election", "fratelli", "italian parliament"],
+    links: [
+      { to: "france-election-2027", kind: "competes_with", why: "Meloni and Le Pen are often compared but split on Ukraine; the two campaigns pull Europe's right in opposite directions." },
+      { to: "ukraine-summit-diplomacy", kind: "affects", why: "Meloni told the Senate that supporting Ukraine is what makes peace possible." },
+    ],
+    sources: [
+      { title: "No money for Ukraine and EU budget cuts: what could a Le Pen victory mean for the EU?", url: "https://www.euronews.com/2026/10/17/no-money-for-ukraine-and-eu-budget-cuts-what-could-a-le-pen-victory-mean-for-the-eu", publisher: "Euronews", date: "2026-10-17" },
+    ],
+  },
+  {
+    id: "belgium-cost-of-living-clashes",
+    title: "Cost-of-living clashes in Brussels and Liege",
+    type: "unrest",
+    date: "2026-10-17",
+    status: "developing",
+    region: "Belgium",
+    lat: 50.85, lon: 4.35,
+    countries: ["BE"],
+    summary: "Police clashed with demonstrators in Brussels and Liege on 17 October after weeks of high-school protests that echoed France's. Belgium's interior minister called it violence, not protest.",
+    severity: 2,
+    keywords: ["brussels", "liege", "liège", "belgium", "quintin"],
+    links: [
+      { to: "france-unrest-2026", kind: "responds_to", why: "Belgian students copied the French school blockades before the cost-of-living marches." },
+    ],
+    sources: [
+      { title: "Protests spread across Europe: cost-of-living pressures behind the demonstrations", url: "https://www.euronews.com/2026/10/19/wages-vs-prices-the-economic-pressures-behind-europes-protests", publisher: "Euronews", date: "2026-10-19" },
+    ],
+  },
+  {
+    id: "portugal-housing-protests",
+    title: "Portugal's housing and wages marches",
+    type: "unrest",
+    date: "2026-10-17",
+    status: "developing",
+    region: "Portugal",
+    lat: 38.72, lon: -9.14,
+    countries: ["PT"],
+    summary: "Unions and housing-rights groups marched on 17 October for higher wages, better pensions and action on rents and mortgage costs. Peaceful, but the same household-budget pressure as elsewhere.",
+    severity: 2,
+    keywords: ["portugal", "lisbon", "lisboa", "housing", "rent"],
+    links: [
+      { to: "france-unrest-2026", kind: "shares_driver", why: "Rents and real wages, not politics, are the common thread across the weekend's protests." },
+    ],
+    sources: [
+      { title: "Portugal sees protests over cost of living and housing crisis", url: "https://www.euronews.com/2026/10/17/portugal-sees-protests-over-cost-of-living-and-housing-crisis-as-demonstrations-sweep-euro", publisher: "Euronews", date: "2026-10-17" },
+    ],
+  },
+  {
+    id: "spain-strike-and-snap-election",
+    title: "Spain's November strike and snap election",
+    type: "election",
+    date: "2026-11-15",
+    status: "scheduled",
+    region: "Spain",
+    lat: 40.42, lon: -3.70,
+    countries: ["ES"],
+    summary: "Spanish demonstrators plan to strike in November over housing and wages, two weeks before a snap general election in which pensions have become a central issue. Exact dates are not yet confirmed.",
+    severity: 3,
+    keywords: ["spain", "madrid", "sánchez", "sanchez", "spanish election", "pensions"],
+    links: [
+      { to: "france-unrest-2026", kind: "shares_driver", why: "Housing and wage pressure drive both; a violent French November would shape Spanish turnout." },
+      { to: "eu-budget-2028-2034", kind: "affects", why: "Le Pen named Spain among the elections the Commission is trying to get ahead of." },
+    ],
+    sources: [
+      { title: "French unrest raises alarm across Europe as protests turn violent", url: "https://www.business-standard.com/amp/world-news/french-unrest-raises-alarm-across-europe-as-protests-turn-violent-126101900223_1.html", publisher: "Bloomberg via Business Standard", date: "2026-10-19" },
+      { title: "Can Spain afford its pensions? What to know about the funding debate ahead of the election", url: "https://www.euronews.com/2026/10/19/pensions-become-key-issue-in-spains-election-campaign-are-they-going-bust", publisher: "Euronews", date: "2026-10-19" },
+    ],
+  },
+  {
+    id: "ukraine-summit-diplomacy",
+    title: "Putin seeks a Ukraine summit with Trump and Xi",
+    type: "diplomacy",
+    date: "2026-10-19",
+    status: "developing",
+    region: "Russia, Ukraine, United States",
+    lat: 50.45, lon: 30.52,
+    countries: ["UA", "RU", "US", "CN"],
+    summary: "Putin proposed a summit with Trump and Xi on a Ukraine deal while refusing to meet Zelensky; Rubio denied any pause in US intelligence sharing. Zelensky answered Le Pen's pledge to cut French aid by saying lives are worth more than the price.",
+    severity: 5,
+    keywords: ["putin", "zelensky", "zelenskyy", "ukraine", "kyiv", "kremlin", "rubio", "starshield", "ceasefire", "summit"],
+    links: [
+      { to: "france-election-2027", kind: "affects", why: "A French exit from Ukraine funding would weaken the EUR 90bn EU support loan that depends on big-state backing." },
+      { to: "gulf-war-energy-shock", kind: "shares_driver", why: "Two wars compete for US attention and money; a Gulf escalation pushes Ukraine down the list." },
+      { to: "eu-budget-2028-2034", kind: "affects", why: "Ukraine aid runs through EU channels more than bilateral ones; the next EU budget decides its size." },
+    ],
+    sources: [
+      { title: "Putin seeks Ukraine talks with Trump and Xi, refuses to meet Zelenskyy", url: "https://www.euronews.com/2026/10/19/putin-seeks-ukraine-summit-with-trump-and-xi-but-refuses-talks-with-zelenskyy", publisher: "Euronews", date: "2026-10-19" },
+      { title: "Rubio denies there was any pause in US intel sharing with Ukraine", url: "https://www.euronews.com/2026/10/19/marco-rubio-denies-there-was-any-pause-in-us-intelligence-sharing-with-ukraine", publisher: "Euronews", date: "2026-10-19" },
+    ],
+  },
+  {
+    id: "eu-budget-2028-2034",
+    title: "EU budget 2028-2034 negotiations",
+    type: "diplomacy",
+    date: "2026-12-31",
+    status: "developing",
+    region: "Brussels",
+    lat: 50.84, lon: 4.38,
+    countries: ["BE", "FR", "DE", "PL", "ES", "IT"],
+    summary: "Leaders are trying to agree the next seven-year EU budget by the end of 2026, before elections in France, Spain, Italy and Poland. France under Macron backs a larger budget; Le Pen wants France's net contribution cut from about EUR 8bn to EUR 5bn.",
+    severity: 3,
+    keywords: ["eu budget", "mff", "commission", "von der leyen", "brussels summit", "european council"],
+    links: [
+      { to: "france-election-2027", kind: "responds_to", why: "Macron told EU leaders Paris wants a deal this year, before the vote that could change France's position." },
+      { to: "ukraine-summit-diplomacy", kind: "affects", why: "The budget sets the EU's capacity to fund Ukraine after 2027." },
+    ],
+    sources: [
+      { title: "No money for Ukraine and EU budget cuts: what could a Le Pen victory mean for the EU?", url: "https://www.euronews.com/2026/10/17/no-money-for-ukraine-and-eu-budget-cuts-what-could-a-le-pen-victory-mean-for-the-eu", publisher: "Euronews", date: "2026-10-17" },
+    ],
+  },
+  {
+    id: "ecb-inflation-and-rates",
+    title: "ECB caught between 3.8% inflation and French stress",
+    type: "economy",
+    date: "2026-10-29",
+    status: "scheduled",
+    region: "Eurozone",
+    lat: 50.11, lon: 8.68,
+    countries: ["DE", "FR", "IT", "ES"],
+    summary: "Euro-area inflation rose to 3.8% in September and ECB minutes show policymakers weighing another rate rise. The next meeting is 29 October; the Bank of France governor says France's bond problem must be solved at home.",
+    severity: 3,
+    keywords: ["ecb", "lagarde", "inflation", "rate hike", "frankfurt", "moulin", "eurozone"],
+    links: [
+      { to: "france-debt-stress", kind: "affects", why: "Higher rates raise France's EUR 91bn 2027 interest bill and make a bailout politically harder." },
+      { to: "gulf-war-energy-shock", kind: "responds_to", why: "Energy prices are the main reason inflation is back near 4%." },
+    ],
+    sources: [
+      { title: "ECB reluctant to intervene as French bond risks mount", url: "https://www.roic.ai/news/ecb-reluctant-to-intervene-as-french-bond-risks-mount-10-08-2026", publisher: "ROIC", date: "2026-10-08" },
+      { title: "European Central Bank: conditional support and French risks", url: "https://www.fxstreet.com/news/european-central-bank-conditional-support-and-french-risks-rabobank-202610091317", publisher: "Rabobank via FXStreet", date: "2026-10-09" },
+    ],
+  },
+  {
+    id: "eu-supply-chain-rules-2027",
+    title: "EUDR and CBAM deadlines reshape EU imports",
+    type: "regulation",
+    date: "2026-12-30",
+    status: "scheduled",
+    region: "European Union",
+    lat: 52.52, lon: 13.40,
+    countries: ["DE", "FR", "NL", "IT", "ES", "PL"],
+    summary: "The EU Deforestation Regulation applies to large and medium operators from 30 December 2026 and to small firms from 30 June 2027; CBAM certificate sales open on 1 February 2027 with the first declaration due 30 September 2027. Rubber, wood, coffee, steel and aluminium importers all face new paperwork and costs.",
+    severity: 3,
+    keywords: ["eudr", "cbam", "deforestation", "carbon border", "certificate", "due diligence"],
+    links: [
+      { to: "eu-budget-2028-2034", kind: "shares_driver", why: "Both are Green Deal commitments that Le Pen has promised to stop; the next budget funds enforcement." },
+      { to: "france-election-2027", kind: "affects", why: "A French government hostile to the Green Deal would slow enforcement and seek exemptions." },
+    ],
+    sources: [
+      { title: "EUDR delayed again: what changed, what is now fixed", url: "https://vinciworks.com/blog/eudr-delayed-again-what-changed-what-is-now-fixed-and-what-businesses-should-do-in-2026/", publisher: "VinciWorks", date: "2026-01-20" },
+      { title: "Which EU regulations affect your supply chain? EUDR, CSRD, PPWR, CBAM and more", url: "https://www.coolset.com/academy/eu-supply-chain-regulations-eudr-csrd-csddd-cbam-ppwr", publisher: "Coolset" },
+    ],
+  },
+  {
+    id: "alberta-independence-vote",
+    title: "Alberta votes on a path to secession",
+    type: "election",
+    date: "2026-10-19",
+    status: "developing",
+    region: "Alberta, Canada",
+    lat: 53.53, lon: -113.49,
+    countries: ["CA"],
+    summary: "Albertans vote on a path to independence while Prime Minister Carney campaigns to keep Canada united. The vote lands as the province's oil economy benefits from the Gulf-driven price spike.",
+    severity: 3,
+    keywords: ["alberta", "edmonton", "calgary", "carney", "secession", "independence", "canada"],
+    links: [
+      { to: "gulf-war-energy-shock", kind: "responds_to", why: "High oil prices strengthen the economic case Alberta's separatists make." },
+    ],
+    sources: [
+      { title: "Albertans vote on path to independence as Carney fights to keep Canada united", url: "https://www.euronews.com/2026/10/19/albertans-vote-on-path-to-independence-as-carney-fights-to-keep-canada-united", publisher: "Euronews", date: "2026-10-19" },
+    ],
+  },
+  {
+    id: "china-q3-growth",
+    title: "China's growth accelerates to 4.5% on exports",
+    type: "economy",
+    date: "2026-10-19",
+    status: "stable",
+    region: "China",
+    lat: 39.90, lon: 116.40,
+    countries: ["CN"],
+    summary: "China's economy grew 4.5% in the third quarter, beating expectations on an export surge while domestic demand stayed weak. Strong exports into Europe land as EU importers face new carbon and deforestation rules.",
+    severity: 2,
+    keywords: ["china", "beijing", "gdp", "exports", "xi jinping", "byd"],
+    links: [
+      { to: "eu-supply-chain-rules-2027", kind: "affects", why: "Chinese steel and aluminium are the largest CBAM-exposed imports into the EU." },
+      { to: "ukraine-summit-diplomacy", kind: "affects", why: "Putin wants Xi at the table; China's economic weight gives it leverage over any deal." },
+    ],
+    sources: [
+      { title: "China's growth accelerates to 4.5% in third quarter, beats expectations", url: "https://www.business-standard.com/amp/world-news/china-s-economic-growth-picks-up-in-third-quarter-beating-expectations-126101900065_1.html", publisher: "Business Standard", date: "2026-10-19" },
+    ],
+  },
+  {
+    id: "istanbul-floods",
+    title: "Istanbul floods kill eight",
+    type: "disaster",
+    date: "2026-10-19",
+    status: "developing",
+    region: "Turkey",
+    lat: 41.01, lon: 28.98,
+    countries: ["TR"],
+    summary: "Heavy rain flooded Istanbul on 15 October; the death toll rose to eight as rescuers recovered more bodies. Turkey is a major supplier of castings and components to European manufacturers.",
+    severity: 2,
+    keywords: ["istanbul", "turkey", "türkiye", "flood"],
+    links: [
+      { to: "eu-supply-chain-rules-2027", kind: "affects", why: "Turkish steel and casting exporters are CBAM-exposed; disruption at Istanbul's ports adds delay to paperwork risk." },
+    ],
+    sources: [
+      { title: "Istanbul flood toll rises to eight as rescuers find more bodies", url: "https://www.euronews.com/2026/10/19/istanbul-flood-death-toll-rises-to-eight-as-rescuers-find-more-bodies-governor-says", publisher: "Euronews", date: "2026-10-19" },
+    ],
+  },
+];
+
+export function getEvent(id: string): WorldEvent | undefined {
+  return EVENTS.find((e) => e.id === id);
+}
+
+/* Edges in both directions, de-duplicated, so the map can draw each connection once. */
+export function allEdges(): { a: string; b: string; kind: LinkKind; why: string }[] {
+  const seen = new Set<string>();
+  const out: { a: string; b: string; kind: LinkKind; why: string }[] = [];
+  for (const e of EVENTS) {
+    for (const l of e.links) {
+      const key = [e.id, l.to].sort().join("|");
+      if (seen.has(key)) continue;
+      seen.add(key);
+      out.push({ a: e.id, b: l.to, kind: l.kind, why: l.why });
+    }
+  }
+  return out;
+}
+
+/* Everything connected to one event: outgoing links plus events that link to it. */
+export function neighbours(id: string): { event: WorldEvent; kind: LinkKind; why: string; direction: "out" | "in" }[] {
+  const me = getEvent(id);
+  if (!me) return [];
+  const out = me.links
+    .map((l) => ({ event: getEvent(l.to), kind: l.kind, why: l.why, direction: "out" as const }))
+    .filter((x): x is { event: WorldEvent; kind: LinkKind; why: string; direction: "out" } => Boolean(x.event));
+  const ins = EVENTS.flatMap((e) =>
+    e.links.filter((l) => l.to === id).map((l) => ({ event: e, kind: l.kind, why: l.why, direction: "in" as const })),
+  ).filter((x) => !out.some((o) => o.event.id === x.event.id));
+  return [...out, ...ins];
+}
