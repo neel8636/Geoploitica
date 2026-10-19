@@ -1,0 +1,10 @@
+**/node_modules
+**/.next
+**/out
+**/.venv
+**/__pycache__
+**/.pytest_cache
+**/*.egg-info
+.git
+docs
+apps/atlas

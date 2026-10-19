@@ -13,4 +13,4 @@ COPY --from=build /app/public ./public
 COPY --from=build /app/package*.json ./
 COPY --from=build /app/node_modules ./node_modules
 EXPOSE 3000
-CMD ["npm", "run", "start", "--", "-p", "3000"]
+CMD ["sh", "-c", "npm run start -- -p ${PORT:-3000}"]

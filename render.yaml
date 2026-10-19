@@ -1,0 +1,13 @@
+# Render blueprint: one web service running the enterprise edition (web + engine in one container).
+# In Render: New + → Blueprint → pick this repo. The service comes up at https://<name>.onrender.com.
+services:
+  - type: web
+    name: geoploitica
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/engine/health
+    envVars:
+      - key: ENGINE_URL
+        value: http://127.0.0.1:8000

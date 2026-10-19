@@ -1,0 +1,58 @@
+# Publishes the personal edition (apps/atlas) to GitHub Pages as a static site.
+# Runs on every push that touches apps/atlas, once a day to refresh the wire, and on demand.
+name: Atlas to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths: ["apps/atlas/**", ".github/workflows/atlas-pages.yml"]
+  schedule:
+    - cron: "17 6 * * *" # daily, 06:17 UTC: pull fresh headlines and rebuild
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/atlas
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: apps/atlas/package-lock.json
+      - run: npm ci --no-audit --no-fund
+      - name: Pull the wire
+        run: npm run wire || echo "wire fetch failed; building with the committed wire.json"
+      - name: Build static site
+        env:
+          STATIC_EXPORT: "1"
+          BASE_PATH: /${{ github.event.repository.name }}
+        run: npm run build
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: apps/atlas/out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

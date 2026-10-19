@@ -36,10 +36,16 @@ Or with Docker: `docker compose up --build`.
 
 Tests: `npm test` runs the engine's pytest suite. `npm run build` type-checks and builds the web app.
 
-## Deploy
+## Where to open it
 
-- Web: any Node host. On Vercel set `ENGINE_URL` to the engine's public URL. The engine is only ever called server-side through `/api/engine/*`.
-- Engine: `apps/engine/Dockerfile` runs on Render, Fly, Railway or any container host. Set `CORS_ORIGINS` to the web origin.
+| Edition | Link | How it gets there |
+| --- | --- | --- |
+| Personal (Atlas) | https://neel8636.github.io/Geoploitica/ | GitHub Pages. `.github/workflows/atlas-pages.yml` builds the static site on every push to `apps/atlas` and once a day (pulling fresh headlines first). |
+| Enterprise (web + engine) | https://geoploitica.onrender.com (or whatever name Render assigns) | Render, from `render.yaml`: one container built from the root `Dockerfile` running the web app and the engine together. |
+
+Enterprise setup, once: in Render choose **New + → Blueprint**, pick this repo, accept the defaults. Later pushes to `main` redeploy. The free plan sleeps after 15 minutes idle, so the first open after a pause takes about a minute.
+
+Any other host works too: the root `Dockerfile` is a single container (web on `$PORT`, engine on 8000 inside it), or run the two apps separately with `apps/web/Dockerfile` and `apps/engine/Dockerfile` and point the web at the engine with `ENGINE_URL`. The engine is only ever called server-side through `/api/engine/*`.
 
 ## Add a dossier
 

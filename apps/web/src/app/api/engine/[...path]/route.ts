@@ -2,7 +2,9 @@ import { NextRequest } from "next/server";
 
 // Proxies /api/engine/* to the impact engine so the browser never needs the engine URL
 // and the engine can stay private to the deployment.
-const ENGINE_URL = process.env.ENGINE_URL ?? "http://localhost:8000";
+// ENGINE_URL may be a bare host (Render's blueprint hands the engine over that way); assume https then.
+const rawEngine = process.env.ENGINE_URL ?? "http://localhost:8000";
+const ENGINE_URL = (/^https?:\/\//.test(rawEngine) ? rawEngine : `https://${rawEngine}`).replace(/\/$/, "");
 const ALLOWED = ["health", "changes", "footprint", "analyze"];
 
 async function forward(req: NextRequest, path: string[]) {
