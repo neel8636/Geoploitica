@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geoploitica-engine"
+version = "0.1.0"
+description = "Geoploitica impact engine: matches a company footprint against dated geopolitical changes and writes department briefs."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Proprietary" }
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "pydantic>=2",
+    "python-multipart",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "httpx",
+]
+
+[project.scripts]
+geoploitica-engine = "geoploitica_engine.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["geoploitica_engine*"]
+
+[tool.setuptools.package-data]
+geoploitica_engine = [
+    "data/*.json",
+    "data/templates/*.csv",
+    "data/examples/*.json",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

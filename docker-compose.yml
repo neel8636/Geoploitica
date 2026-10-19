@@ -1,0 +1,16 @@
+services:
+  engine:
+    build: ./apps/engine
+    environment:
+      PORT: "8000"
+      CORS_ORIGINS: "http://localhost:3000"
+    ports:
+      - "8000:8000"
+  web:
+    build: ./apps/web
+    environment:
+      ENGINE_URL: "http://engine:8000"
+    ports:
+      - "3000:3000"
+    depends_on:
+      - engine

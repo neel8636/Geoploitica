@@ -1,0 +1,4 @@
+id,origin_country,destination_country,mode,via,annual_shipments,lead_time_days
+L-01,CN,DE,sea,SUEZ|RED_SEA,48,42
+L-02,TR,DE,road,,120,6
+L-03,FR,DE,road,,260,2

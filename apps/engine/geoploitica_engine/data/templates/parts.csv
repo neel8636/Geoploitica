@@ -1,0 +1,4 @@
+id,name,hs_code,supplier_ids,origin_country,annual_volume_value,critical
+P-1001,Hydraulic rubber seal kit,401693,SUP-001,MY,380000,true
+P-1002,Steel gearbox housing casting,732599,SUP-002|SUP-003,CN,2100000,true
+P-1003,Steel pump body casting,732510,SUP-003,TR,950000,false

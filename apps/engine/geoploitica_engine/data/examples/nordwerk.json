@@ -1,0 +1,44 @@
+{
+  "company_name": "Nordwerk Industrial GmbH",
+  "currency": "EUR",
+  "home_country": "DE",
+  "sales_markets": ["DE", "FR", "IT", "US"],
+  "suppliers": [
+    {"id": "SUP-001", "name": "Fonderie Lorraine SA", "country": "FR", "region": "Grand Est", "tier": 1, "category": "castings and sealing kits", "annual_spend": 1850000, "single_source": false},
+    {"id": "SUP-002", "name": "Jiangsu Hengli Casting Co.", "country": "CN", "region": "Jiangsu", "tier": 1, "category": "castings", "annual_spend": 2400000, "single_source": true},
+    {"id": "SUP-003", "name": "Bursa Celik Dokum A.S.", "country": "TR", "region": "Bursa", "tier": 1, "category": "castings", "annual_spend": 1300000, "single_source": false},
+    {"id": "SUP-004", "name": "Officine Meccaniche Brescia S.r.l.", "country": "IT", "region": "Lombardia", "tier": 1, "category": "machined components", "annual_spend": 980000, "single_source": false},
+    {"id": "SUP-005", "name": "Zaklady Metalowe Wroclaw Sp. z o.o.", "country": "PL", "region": "Dolnoslaskie", "tier": 1, "category": "sheet metal", "annual_spend": 760000, "single_source": false},
+    {"id": "SUP-006", "name": "Selangor Rubber Components Sdn Bhd", "country": "MY", "region": "Selangor", "tier": 2, "category": "rubber seals", "annual_spend": 420000, "single_source": true},
+    {"id": "SUP-007", "name": "Lyon Hydraulique SAS", "country": "FR", "region": "Auvergne-Rhone-Alpes", "tier": 1, "category": "hydraulic valves", "annual_spend": 1120000, "single_source": true},
+    {"id": "SUP-008", "name": "Stahlwerk Siegen GmbH", "country": "DE", "region": "Nordrhein-Westfalen", "tier": 1, "category": "steel bar", "annual_spend": 2050000, "single_source": false},
+    {"id": "SUP-009", "name": "Ningbo Precision Fasteners Ltd.", "country": "CN", "region": "Zhejiang", "tier": 2, "category": "fasteners", "annual_spend": 310000, "single_source": false},
+    {"id": "SUP-010", "name": "Elettronica Torino S.p.A.", "country": "IT", "region": "Piemonte", "tier": 1, "category": "control electronics", "annual_spend": 1450000, "single_source": true},
+    {"id": "SUP-011", "name": "Izmir Aluminium Profiles A.S.", "country": "TR", "region": "Izmir", "tier": 2, "category": "aluminium extrusions", "annual_spend": 540000, "single_source": false},
+    {"id": "SUP-012", "name": "Antwerp Packaging BV", "country": "BE", "region": "Antwerpen", "tier": 2, "category": "wooden crates and pallets", "annual_spend": 190000, "single_source": false}
+  ],
+  "parts": [
+    {"id": "P-1001", "name": "Hydraulic rubber seal kit", "hs_code": "401693", "supplier_ids": ["SUP-006", "SUP-001"], "origin_country": "MY", "annual_volume_value": 380000, "critical": true},
+    {"id": "P-1002", "name": "Steel gearbox housing casting", "hs_code": "732599", "supplier_ids": ["SUP-002", "SUP-003"], "origin_country": "CN", "annual_volume_value": 2100000, "critical": true},
+    {"id": "P-1003", "name": "Steel pump body casting", "hs_code": "732510", "supplier_ids": ["SUP-003"], "origin_country": "TR", "annual_volume_value": 950000, "critical": false},
+    {"id": "P-1004", "name": "Ductile iron bracket casting", "hs_code": "732510", "supplier_ids": ["SUP-001"], "origin_country": "FR", "annual_volume_value": 1600000, "critical": false},
+    {"id": "P-1005", "name": "Aluminium frame extrusion", "hs_code": "760410", "supplier_ids": ["SUP-011"], "origin_country": "TR", "annual_volume_value": 520000, "critical": false},
+    {"id": "P-1006", "name": "Proportional hydraulic valve", "hs_code": "848120", "supplier_ids": ["SUP-007"], "origin_country": "FR", "annual_volume_value": 1100000, "critical": true},
+    {"id": "P-1007", "name": "Machine control unit", "hs_code": "853710", "supplier_ids": ["SUP-010"], "origin_country": "IT", "annual_volume_value": 1400000, "critical": true},
+    {"id": "P-1008", "name": "Hex bolt set M12", "hs_code": "731815", "supplier_ids": ["SUP-009"], "origin_country": "CN", "annual_volume_value": 290000, "critical": false},
+    {"id": "P-1009", "name": "Wooden export crate", "hs_code": "441510", "supplier_ids": ["SUP-012"], "origin_country": "BE", "annual_volume_value": 180000, "critical": false},
+    {"id": "P-1010", "name": "Hot-rolled steel bar", "hs_code": "721491", "supplier_ids": ["SUP-008"], "origin_country": "DE", "annual_volume_value": 2000000, "critical": false}
+  ],
+  "lanes": [
+    {"id": "L-01", "origin_country": "CN", "destination_country": "DE", "mode": "sea", "via": ["SUEZ", "RED_SEA"], "annual_shipments": 48, "lead_time_days": 42},
+    {"id": "L-02", "origin_country": "TR", "destination_country": "DE", "mode": "road", "via": [], "annual_shipments": 120, "lead_time_days": 6},
+    {"id": "L-03", "origin_country": "FR", "destination_country": "DE", "mode": "road", "via": [], "annual_shipments": 260, "lead_time_days": 2},
+    {"id": "L-04", "origin_country": "MY", "destination_country": "DE", "mode": "sea", "via": ["MALACCA", "SUEZ", "RED_SEA"], "annual_shipments": 12, "lead_time_days": 38},
+    {"id": "L-05", "origin_country": "DE", "destination_country": "US", "mode": "sea", "via": [], "annual_shipments": 36, "lead_time_days": 21}
+  ],
+  "sites": [
+    {"id": "S-01", "name": "Nordwerk Bremen assembly plant", "country": "DE", "type": "plant", "headcount": 640},
+    {"id": "S-02", "name": "Nordwerk Kassel central warehouse", "country": "DE", "type": "warehouse", "headcount": 85},
+    {"id": "S-03", "name": "Nordwerk Lyon machining plant", "country": "FR", "type": "plant", "headcount": 210}
+  ]
+}

@@ -1,0 +1,266 @@
+[
+  {
+    "id": "eu-eudr-operators-2026-12-30",
+    "type": "regulation",
+    "title": "EU Deforestation Regulation applies to large and medium operators",
+    "summary": "From 30 December 2026, companies placing cattle, cocoa, coffee, oil palm, rubber, soya or wood products on the EU market must file a due-diligence statement proving the goods are deforestation-free and traceable to the plot of land.",
+    "status": "scheduled",
+    "effective_date": "2026-12-30",
+    "countries": ["AT","BE","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IE","IT","LV","LT","LU","MT","NL","PL","PT","RO","SK","SI","ES","SE"],
+    "hs_prefixes": ["0102","0201","0202","1801","1803","1804","1805","1806","0901","1511","1513","4001","4005","4006","4007","4008","4011","4012","4013","4016","1201","1507","1208","2304","44","47","48","9401","9403"],
+    "sectors": ["tyres", "rubber", "packaging", "furniture", "paper", "food", "automotive"],
+    "severity": 4,
+    "confidence": "high",
+    "departments": ["compliance", "procurement", "sustainability", "logistics"],
+    "what_to_do": [
+      "List every imported product under the seven EUDR commodities and map it to its supplier.",
+      "Request plot-level geolocation and origin evidence from each supplier; set an internal cut-off six weeks before the deadline.",
+      "Decide who files the due-diligence statement in your chain and record the reference numbers.",
+      "Plan for border holds on shipments that lack a statement."
+    ],
+    "sources": [
+      {"title": "EUDR delayed again: what changed, what is now fixed", "url": "https://vinciworks.com/blog/eudr-delayed-again-what-changed-what-is-now-fixed-and-what-businesses-should-do-in-2026/", "publisher": "VinciWorks", "accessed": "2026-10-19"},
+      {"title": "EUDR compliance: requirements and the 2026 deadline", "url": "https://www.complir.io/resources/guides/eudr-compliance-guide", "publisher": "Complir", "accessed": "2026-10-19"}
+    ]
+  },
+  {
+    "id": "eu-eudr-small-operators-2027-06-30",
+    "type": "regulation",
+    "title": "EU Deforestation Regulation applies to micro and small operators",
+    "summary": "Micro and small enterprises get an extended start date of 30 June 2027 for EUDR obligations, subject to conditions in the regulation.",
+    "status": "scheduled",
+    "effective_date": "2027-06-30",
+    "countries": ["AT","BE","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IE","IT","LV","LT","LU","MT","NL","PL","PT","RO","SK","SI","ES","SE"],
+    "hs_prefixes": ["0102","0201","0202","1801","1803","1804","1805","1806","0901","1511","1513","4001","4005","4006","4007","4008","4011","4012","4013","4016","1201","1507","1208","2304","44","47","48","9401","9403"],
+    "sectors": ["tyres", "rubber", "packaging", "furniture", "paper", "food"],
+    "severity": 3,
+    "confidence": "high",
+    "departments": ["compliance", "procurement"],
+    "what_to_do": [
+      "Confirm whether your company qualifies as micro or small under the EU definition.",
+      "Check whether your larger customers will require EUDR evidence from you earlier than the legal date."
+    ],
+    "sources": [
+      {"title": "EUDR delayed again: what changed, what is now fixed", "url": "https://vinciworks.com/blog/eudr-delayed-again-what-changed-what-is-now-fixed-and-what-businesses-should-do-in-2026/", "publisher": "VinciWorks", "accessed": "2026-10-19"}
+    ]
+  },
+  {
+    "id": "eu-cbam-certificates-2027-02-01",
+    "type": "regulation",
+    "title": "CBAM certificate sales open",
+    "summary": "From 1 February 2027 importers of CBAM goods (iron and steel, aluminium, cement, fertilisers, electricity, hydrogen) into the EU can buy the carbon certificates they must surrender for 2026 imports.",
+    "status": "scheduled",
+    "effective_date": "2027-02-01",
+    "countries": ["AT","BE","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IE","IT","LV","LT","LU","MT","NL","PL","PT","RO","SK","SI","ES","SE"],
+    "hs_prefixes": ["72", "73", "76", "2523", "3102", "3105", "2814", "2716", "2804"],
+    "sectors": ["steel", "aluminium", "cement", "fertiliser", "automotive", "construction"],
+    "severity": 3,
+    "confidence": "high",
+    "departments": ["finance", "compliance", "procurement", "sustainability"],
+    "what_to_do": [
+      "Estimate the embedded emissions and certificate cost for each CBAM product you import.",
+      "Budget the certificate purchase in the 2027 plan and decide whether to pass the cost through.",
+      "Ask non-EU suppliers for verified emissions data now; default values cost more."
+    ],
+    "sources": [
+      {"title": "Which EU regulations affect your supply chain? EUDR, CSRD, PPWR, CBAM and more", "url": "https://www.coolset.com/academy/eu-supply-chain-regulations-eudr-csrd-csddd-cbam-ppwr", "publisher": "Coolset", "accessed": "2026-10-19"}
+    ]
+  },
+  {
+    "id": "eu-cbam-declaration-2027-09-30",
+    "type": "regulation",
+    "title": "First annual CBAM declaration and certificate surrender due",
+    "summary": "The first annual CBAM declaration, covering 2026 imports, and the surrender of certificates are due by 30 September 2027. Quarterly reports are replaced by the annual declaration.",
+    "status": "scheduled",
+    "effective_date": "2027-09-30",
+    "countries": ["AT","BE","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IE","IT","LV","LT","LU","MT","NL","PL","PT","RO","SK","SI","ES","SE"],
+    "hs_prefixes": ["72", "73", "76", "2523", "3102", "3105", "2814", "2716", "2804"],
+    "sectors": ["steel", "aluminium", "cement", "fertiliser"],
+    "severity": 3,
+    "confidence": "high",
+    "departments": ["compliance", "finance", "sustainability"],
+    "what_to_do": [
+      "Keep the 2026 import ledger for CBAM goods reconciled by HS code and supplier.",
+      "Hold certificates covering at least 80% of imported CBAM goods at all times from 2027."
+    ],
+    "sources": [
+      {"title": "Which EU regulations affect your supply chain? EUDR, CSRD, PPWR, CBAM and more", "url": "https://www.coolset.com/academy/eu-supply-chain-regulations-eudr-csrd-csddd-cbam-ppwr", "publisher": "Coolset", "accessed": "2026-10-19"},
+      {"title": "CBAM reporting and certificates: deadlines and to-dos", "url": "https://verso.de/en/blog/tag/lksg-en/", "publisher": "VERSO", "accessed": "2026-10-19"}
+    ]
+  },
+  {
+    "id": "fr-unrest-2026-10",
+    "type": "unrest",
+    "title": "Nationwide unrest in France over schools, austerity and living costs",
+    "summary": "Student protests that began in late September 2026 became nationwide cost-of-living unrest; on 17 October about 550,000 marched and roughly 2,400 people were arrested in one day, with town halls, shops and transport hit in Paris, Lyon, Marseille, Lille, Bordeaux and Limoges.",
+    "status": "developing",
+    "window_start": "2026-09-25",
+    "window_end": "2027-05-02",
+    "countries": ["FR"],
+    "chokepoints": [],
+    "sectors": ["retail", "logistics", "automotive", "all"],
+    "severity": 3,
+    "confidence": "high",
+    "departments": ["logistics", "hr", "production", "sales", "leadership"],
+    "what_to_do": [
+      "Add 2-5 days of buffer to inbound and outbound lanes through French ports and hubs on announced protest days.",
+      "Issue travel and site-safety guidance for French sites; confirm remote-work options.",
+      "Check French suppliers' continuity plans and watch for public-sector strike days that close customs."
+    ],
+    "sources": [
+      {"title": "Why have France's school protests become a wider political crisis?", "url": "https://www.aljazeera.com/news/2026/10/18/why-have-frances-school-protests-become-a-wider-political-crisis", "publisher": "Al Jazeera", "accessed": "2026-10-19"},
+      {"title": "Place de la Republique flares again as Macron admits intelligence failures", "url": "https://www.euronews.com/2026/10/19/place-de-la-republique-flares-again-as-macron-admits-intelligence-failures", "publisher": "Euronews", "accessed": "2026-10-19"}
+    ],
+    "dossier_slug": "france-unrest-2026"
+  },
+  {
+    "id": "fr-national-strike-2026-11-05",
+    "type": "strike",
+    "title": "Five French unions call a national strike",
+    "summary": "Five labour unions in France have called a national strike for 5 November 2026 demanding higher wages and more funding for public services, and invited pensioners and students to join.",
+    "status": "scheduled",
+    "effective_date": "2026-11-05",
+    "countries": ["FR"],
+    "sectors": ["logistics", "public services", "transport", "all"],
+    "severity": 2,
+    "confidence": "high",
+    "departments": ["logistics", "hr", "production"],
+    "what_to_do": [
+      "Move time-critical French shipments off 5 November; expect reduced customs and rail capacity.",
+      "Warn French sites and staff; plan shift cover."
+    ],
+    "sources": [
+      {"title": "French unrest raises alarm across Europe as protests turn violent", "url": "https://www.business-standard.com/amp/world-news/french-unrest-raises-alarm-across-europe-as-protests-turn-violent-126101900223_1.html", "publisher": "Bloomberg via Business Standard", "accessed": "2026-10-19"}
+    ],
+    "dossier_slug": "france-unrest-2026"
+  },
+  {
+    "id": "fr-moodys-review-2026-10-23",
+    "type": "sovereign_stress",
+    "title": "Moody's scheduled review of France's sovereign rating",
+    "summary": "Moody's reviews France on 23 October 2026 while the country's rating sits at Aa3 with a negative outlook and its 10-year borrowing premium over Germany is near euro-crisis highs. A downgrade would raise French borrowing and financing costs.",
+    "status": "scheduled",
+    "effective_date": "2026-10-23",
+    "countries": ["FR"],
+    "sectors": ["finance", "banking", "all"],
+    "severity": 2,
+    "confidence": "high",
+    "departments": ["finance", "leadership"],
+    "what_to_do": [
+      "Review euro-denominated financing and hedges tied to French counterparties.",
+      "Watch the French-German bond spread; above 160 basis points signals escalation."
+    ],
+    "sources": [
+      {"title": "France riots and the stock market: CAC 40, banks, OATs", "url": "https://admiralmarkets.com/analytics/traders-blog/france-riots-stock-market", "publisher": "Admiral Markets", "accessed": "2026-10-19"},
+      {"title": "France faces debt-crisis reckoning as riots erupt ahead of pivotal budget vote", "url": "https://finance.biggo.com/news/76a326ff-5c5a-42dd-b9af-a620ea4179c8", "publisher": "BigGo Finance", "accessed": "2026-10-19"}
+    ],
+    "dossier_slug": "france-unrest-2026"
+  },
+  {
+    "id": "fr-presidential-election-2027-04-18",
+    "type": "election",
+    "title": "French presidential election, first round",
+    "summary": "France votes on 18 April 2027, with a run-off on 2 May. The National Rally candidate leads polls near 35% and pledges to cut Ukraine aid and France's EU budget contribution, which would change EU trade, budget and climate policy.",
+    "status": "scheduled",
+    "effective_date": "2027-04-18",
+    "countries": ["FR"],
+    "affected_countries": ["DE","IT","ES","BE","NL","PL","UA"],
+    "sectors": ["all"],
+    "severity": 3,
+    "confidence": "high",
+    "departments": ["leadership", "finance", "sales"],
+    "what_to_do": [
+      "Scenario-plan for a change in French and EU policy direction after May 2027.",
+      "Avoid locking long-dated French contracts without policy-change clauses."
+    ],
+    "sources": [
+      {"title": "2027 French presidential election", "url": "https://en.wikipedia.org/wiki/2027_French_presidential_election", "publisher": "Wikipedia", "accessed": "2026-10-19"},
+      {"title": "No money for Ukraine and EU budget cuts: what could a Le Pen victory mean for the EU?", "url": "https://www.euronews.com/2026/10/17/no-money-for-ukraine-and-eu-budget-cuts-what-could-a-le-pen-victory-mean-for-the-eu", "publisher": "Euronews", "accessed": "2026-10-19"}
+    ],
+    "dossier_slug": "france-unrest-2026"
+  },
+  {
+    "id": "gulf-war-energy-shock-2026",
+    "type": "energy_price",
+    "title": "US-Israel war on Iran keeps fuel and freight costs elevated",
+    "summary": "Since strikes on Iran began on 27 February 2026, diesel in France has stayed above 2 euros a litre and reached a record 2.41; renewed fighting in Yemen and attacks on Saudi energy infrastructure have intensified the spike. Shipping through the Strait of Hormuz and the Red Sea carries war risk.",
+    "status": "developing",
+    "window_start": "2026-02-27",
+    "countries": ["IR","SA","YE","IL","AE","QA","KW","IQ"],
+    "affected_countries": ["FR","DE","IT","ES","NL","GB","IN","CN","JP","KR"],
+    "chokepoints": ["HORMUZ", "RED_SEA", "SUEZ", "BAB_EL_MANDEB"],
+    "sectors": ["logistics", "chemicals", "plastics", "automotive", "food", "all"],
+    "severity": 4,
+    "confidence": "high",
+    "departments": ["logistics", "finance", "procurement", "production"],
+    "what_to_do": [
+      "Re-price lanes through Hormuz, the Red Sea and Suez with war-risk surcharges and longer transit.",
+      "Add fuel-surcharge clauses to carrier and customer contracts.",
+      "Identify parts with petrochemical inputs and hold extra cover stock."
+    ],
+    "sources": [
+      {"title": "Average French diesel prices hit record 2.41", "url": "https://kuwaittimes.com/article/50113/business/average-french-diesel-prices-hit-record-241/", "publisher": "Kuwait Times / AFP", "accessed": "2026-10-19"},
+      {"title": "500 price checks at French petrol stations over claims of excessive hikes", "url": "https://www.thelocal.fr/20260309/500-price-checks-at-french-petrol-stations-over-claims-of-excessive-hikes", "publisher": "The Local", "accessed": "2026-10-19"}
+    ]
+  },
+  {
+    "id": "it-cost-of-living-unrest-2026-10",
+    "type": "unrest",
+    "title": "Cost-of-living riots in Milan, Turin and Bologna",
+    "summary": "Two days of rioting and looting around Milan's Duomo on 17-18 October 2026 brought more than 200 arrests; clashes also hit Turin and Bologna. Prime Minister Meloni called a security meeting. Italy holds a parliamentary election in 2027.",
+    "status": "developing",
+    "window_start": "2026-10-17",
+    "countries": ["IT"],
+    "sectors": ["retail", "logistics", "all"],
+    "severity": 2,
+    "confidence": "high",
+    "departments": ["logistics", "hr", "sales"],
+    "what_to_do": [
+      "Avoid routing through central Milan on protest days; brief staff at Italian sites.",
+      "Watch for strike calls by Italian unions in the coming weeks."
+    ],
+    "sources": [
+      {"title": "More than 200 arrested in second day of street clashes against cost of living in Milan", "url": "https://www.euronews.com/2026/10/19/more-than-200-arrested-in-second-day-of-street-clashes-against-cost-of-living-in-milan", "publisher": "Euronews", "accessed": "2026-10-19"}
+    ]
+  },
+  {
+    "id": "be-cost-of-living-unrest-2026-10",
+    "type": "unrest",
+    "title": "Cost-of-living clashes in Brussels and Liege",
+    "summary": "Police clashed with demonstrators in Brussels and Liege during cost-of-living protests on 17 October 2026; Liege had earlier banned gatherings of more than three people for a period after school protests.",
+    "status": "developing",
+    "window_start": "2026-10-01",
+    "countries": ["BE"],
+    "sectors": ["logistics", "all"],
+    "severity": 2,
+    "confidence": "medium",
+    "departments": ["logistics", "hr"],
+    "what_to_do": [
+      "Expect intermittent disruption around Brussels and Liege; keep Antwerp port moves flexible."
+    ],
+    "sources": [
+      {"title": "Protests spread across Europe: cost-of-living pressures behind the demonstrations", "url": "https://www.euronews.com/2026/10/19/wages-vs-prices-the-economic-pressures-behind-europes-protests", "publisher": "Euronews", "accessed": "2026-10-19"},
+      {"title": "French police clash with student protesters", "url": "https://www.lbc.co.uk/world-news/french-police-clash-student-protesters/", "publisher": "LBC", "accessed": "2026-10-19"}
+    ]
+  },
+  {
+    "id": "es-strike-2026-11",
+    "type": "strike",
+    "title": "Spanish strike over housing and wages ahead of snap election",
+    "summary": "Demonstrators in Spain are expected to strike in November 2026 over housing and wages, two weeks before a snap general election. Exact date not yet confirmed.",
+    "status": "proposed",
+    "window_start": "2026-11-01",
+    "window_end": "2026-11-30",
+    "countries": ["ES"],
+    "sectors": ["logistics", "all"],
+    "severity": 2,
+    "confidence": "medium",
+    "departments": ["logistics", "hr"],
+    "what_to_do": [
+      "Confirm the strike date with Spanish carriers and sites once announced."
+    ],
+    "sources": [
+      {"title": "French unrest raises alarm across Europe as protests turn violent", "url": "https://www.business-standard.com/amp/world-news/french-unrest-raises-alarm-across-europe-as-protests-turn-violent-126101900223_1.html", "publisher": "Bloomberg via Business Standard", "accessed": "2026-10-19"}
+    ]
+  }
+]

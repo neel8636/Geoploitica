@@ -1,0 +1,22 @@
+# Node
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+dist/
+build/
+
+# Env and local
+.env
+.env.local
+.env.*.local
+.DS_Store
+*.log

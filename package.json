@@ -1,0 +1,15 @@
+{
+  "name": "geoploitica",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n web,engine -c teal,yellow \"npm --prefix apps/web run dev\" \"cd apps/engine && .venv/bin/python -m geoploitica_engine\"",
+    "dev:web": "npm --prefix apps/web run dev",
+    "dev:engine": "cd apps/engine && .venv/bin/python -m geoploitica_engine",
+    "build": "npm --prefix apps/web run build",
+    "test": "cd apps/engine && .venv/bin/python -m pytest -q",
+    "setup": "npm --prefix apps/web install && cd apps/engine && python3 -m venv .venv && .venv/bin/pip install -e \".[dev]\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
