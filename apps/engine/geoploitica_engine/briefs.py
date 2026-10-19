@@ -147,9 +147,35 @@ def cost_if_unprepared(change: Change, exposures: list[Exposure], currency: str)
     return f"Disruption to the exposed items{var_txt}."
 
 
-def next_action(change: Change, as_of: dt.date, days: int | None) -> str:
-    base = change.what_to_do[0] if change.what_to_do else "Review exposure with the owning team."
-    base = base.rstrip(".")
+# Words that mark an action as belonging to a department. The best-matching line of what_to_do
+# becomes that department's next action; the first line is the fallback.
+_ACTION_WORDS: dict[str, tuple[str, ...]] = {
+    "procurement": ("supplier", "source", "sourcing", "alternative", "negotiat", "category", "contract"),
+    "logistics": ("lane", "shipment", "ship", "route", "rerout", "buffer", "carrier", "port", "customs", "transit", "lead time", "rail", "border hold"),
+    "production": ("stock", "cover", "lead time", "parts", "line", "build", "capacity", "shift"),
+    "finance": ("budget", "cost", "hedge", "financ", "pass the cost", "certificate", "bond", "spread", "borrow", "surcharge clause", "clauses"),
+    "compliance": ("file", "statement", "obligation", "evidence", "due-diligence", "due diligence", "clause", "qualif", "reference number", "ledger", "paperwork"),
+    "sustainability": ("emission", "data", "origin", "geolocation", "deforestation", "declaration"),
+    "sales": ("customer", "price", "pricing", "market", "export", "demand"),
+    "hr": ("staff", "travel", "site", "safety", "shift", "remote", "warn"),
+    "leadership": ("scenario", "plan", "review", "policy"),
+}
+
+
+def pick_action(change: Change, department: str) -> str:
+    lines = change.what_to_do or ["Review exposure with the owning team."]
+    words = _ACTION_WORDS.get(department, ())
+    best, best_hits = lines[0], 0
+    for line in lines:
+        low = line.lower()
+        hits = sum(1 for w in words if w in low)
+        if hits > best_hits:
+            best, best_hits = line, hits
+    return best
+
+
+def next_action(change: Change, as_of: dt.date, days: int | None, department: str = "leadership") -> str:
+    base = pick_action(change, department).rstrip(".")
     if change.effective_date:
         eff = parse_date(change.effective_date)
         assert eff is not None
@@ -176,7 +202,7 @@ def build_item(change: Change, department: Department, exposures: list[Exposure]
         what_changes=change.summary,
         your_exposure=your_exposure(exposures, footprint.currency),
         cost_if_unprepared=cost_if_unprepared(change, exposures, footprint.currency),
-        next_action=next_action(change, as_of, days),
+        next_action=next_action(change, as_of, days, department),
         owner_role=OWNER_ROLE[department],
         also_notify=also,
         days_until=days,

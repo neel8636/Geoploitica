@@ -144,7 +144,7 @@ export default async function DossierPage(props: PageProps<"/dossiers/[slug]">) 
               </div>
             </div>
             <div id="whats-next" className="scroll-mt-24">
-              <Signpost>What's next</Signpost>
+              <Signpost>What&apos;s next</Signpost>
               <ul className="mt-2 list-disc space-y-1 pl-5">
                 {d.brief.whatsNext.map((p) => <li key={p}>{p}</li>)}
               </ul>

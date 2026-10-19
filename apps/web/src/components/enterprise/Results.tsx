@@ -97,10 +97,10 @@ function Radar({ rows, asOf }: { rows: AnalysisResult["by_change"]; asOf: string
   );
 }
 
-function BriefCard({ item, currency }: { item: BriefItem; currency: string }) {
+function BriefCard({ item, currency, first }: { item: BriefItem; currency: string; first?: boolean }) {
   void currency;
   return (
-    <article className="rounded-lg border border-line p-4 text-[15px]">
+    <article className="rounded-lg border border-line p-4 text-[15px]" data-tour={first ? "brief" : undefined}>
       <div className="flex flex-wrap items-baseline justify-between gap-2">
         <h3 className="font-sans text-base font-semibold">{item.headline}</h3>
         <span className="text-sm text-ink-2">
@@ -136,9 +136,11 @@ function BriefCard({ item, currency }: { item: BriefItem; currency: string }) {
   );
 }
 
-export default function Results({ result, currency, companyName }: { result: AnalysisResult; currency: string; companyName: string }) {
+export default function Results({ result, currency, companyName, dept: deptProp, onDept }: { result: AnalysisResult; currency: string; companyName: string; dept?: Department | "leadership"; onDept?: (d: Department | "leadership") => void }) {
   const depts = result.briefs.map((b) => b.department);
-  const [dept, setDept] = useState<Department | "leadership">("leadership");
+  const [deptLocal, setDeptLocal] = useState<Department | "leadership">("leadership");
+  const dept = deptProp ?? deptLocal;
+  const setDept = (d: Department | "leadership") => { setDeptLocal(d); onDept?.(d); };
   const current = dept === "leadership" ? result.leadership_top5 : result.briefs.find((b) => b.department === dept)?.items ?? [];
   const exposedSuppliers = new Set(result.exposures.filter((e) => e.item_type === "supplier").map((e) => e.item_id)).size;
   // Count each footprint item once, at its own value, however many changes touch it.
@@ -150,7 +152,7 @@ export default function Results({ result, currency, companyName }: { result: Ana
 
   return (
     <div className="space-y-10">
-      <section>
+      <section data-tour="summary">
         <p className="text-sm text-ink-2">Impact report · {companyName} · as of {formatDate(result.as_of)}</p>
         <h2 className="mt-1 text-3xl">
           {result.by_change.length} coming changes touch your footprint
@@ -164,18 +166,18 @@ export default function Results({ result, currency, companyName }: { result: Ana
       </section>
 
       <section className="grid gap-8 lg:grid-cols-2">
-        <div>
+        <div data-tour="countries">
           <p className="signpost">Where your spend sits, coloured by worst change</p>
           <div className="mt-3"><CountryBars rows={result.by_country} currency={currency} /></div>
         </div>
-        <div>
+        <div data-tour="radar">
           <p className="signpost">When each change lands</p>
           <div className="mt-3"><Radar rows={result.by_change} asOf={result.as_of} /></div>
         </div>
       </section>
 
       <section>
-        <div className="flex flex-wrap gap-2" role="tablist" aria-label="Department">
+        <div className="flex flex-wrap gap-2" role="tablist" aria-label="Department" data-tour="departments">
           <button type="button" role="tab" aria-selected={dept === "leadership"} onClick={() => setDept("leadership")}
             className={`rounded-sm border px-3 py-1.5 text-sm ${dept === "leadership" ? "border-teal bg-teal text-paper" : "border-line hover:border-teal"}`}>
             Leadership: top 5
@@ -188,13 +190,13 @@ export default function Results({ result, currency, companyName }: { result: Ana
           ))}
         </div>
         <div className="mt-4 grid gap-4" role="tabpanel">
-          {current.length ? current.map((item) => <BriefCard key={`${dept}-${item.change_id}`} item={item} currency={currency} />) : (
+          {current.length ? current.map((item, i) => <BriefCard key={`${dept}-${item.change_id}`} item={item} currency={currency} first={i === 0} />) : (
             <p className="text-ink-2">No changes touch this department yet.</p>
           )}
         </div>
       </section>
 
-      <section>
+      <section data-tour="exposures">
         <p className="signpost">All exposures</p>
         <div className="mt-2 overflow-x-auto">
           <table className="w-full text-[15px]">

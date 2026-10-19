@@ -51,7 +51,7 @@ def test_item_fields(result):
             assert i.confidence == change.confidence
             assert i.sources == change.sources
             assert i.score == max(e.score for e in exposures if e.change_id == i.change_id)
-            assert i.next_action.startswith(change.what_to_do[0].rstrip("."))
+            assert any(i.next_action.startswith(line.rstrip(".")) for line in change.what_to_do)
             assert i.cost_if_unprepared
 
 
