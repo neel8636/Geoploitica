@@ -11,16 +11,14 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: pages
   cancel-in-progress: true
 
 jobs:
-  build:
+  build-and-publish:
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -40,19 +38,12 @@ jobs:
           STATIC_EXPORT: "1"
           BASE_PATH: /${{ github.event.repository.name }}
         run: npm run build
-      - uses: actions/configure-pages@v5
+      # Pushing the build to a gh-pages branch turns Pages on for the repo by itself,
+      # so no settings click is needed. The site serves from that branch's root.
+      - uses: peaceiris/actions-gh-pages@v4
         with:
-          enablement: true
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: apps/atlas/out
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: apps/atlas/out
+          publish_branch: gh-pages
+          force_orphan: true
+          commit_message: "Publish atlas from ${{ github.sha }}"
