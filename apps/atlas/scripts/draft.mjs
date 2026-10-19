@@ -12,6 +12,8 @@
 //
 // Review is a human edit of the JSON: set generated.reviewed to true (or delete the
 // `generated` block) and the notice disappears. The script never edits events.ts.
+//
+// Credentials: ANTHROPIC_API_KEY, or workload identity federation (see the auth section).
 
 import { readFile, writeFile, access, stat } from "node:fs/promises";
 import path from "node:path";
@@ -42,10 +44,63 @@ if (!ALL && ids.length === 0) {
   process.exit(1);
 }
 
+// --- authentication ------------------------------------------------------------
+// Either an API key (ANTHROPIC_API_KEY) or Workload Identity Federation: in GitHub Actions
+// the script mints a fresh OIDC token itself and exchanges it for a short-lived access
+// token, so no long-lived key is stored anywhere. Federation needs ANTHROPIC_ORGANIZATION_ID,
+// ANTHROPIC_FEDERATION_RULE_ID, ANTHROPIC_SERVICE_ACCOUNT_ID (and ANTHROPIC_WORKSPACE_ID when
+// the rule spans workspaces), plus either the Actions OIDC endpoint, ANTHROPIC_IDENTITY_TOKEN
+// or ANTHROPIC_IDENTITY_TOKEN_FILE.
+
 const key = process.env.ANTHROPIC_API_KEY;
-if (!key && !DRY) {
-  console.error("ANTHROPIC_API_KEY is not set");
+const fed = {
+  rule: process.env.ANTHROPIC_FEDERATION_RULE_ID,
+  org: process.env.ANTHROPIC_ORGANIZATION_ID,
+  svc: process.env.ANTHROPIC_SERVICE_ACCOUNT_ID,
+  ws: process.env.ANTHROPIC_WORKSPACE_ID,
+};
+const hasFed = Boolean(fed.rule && fed.org && fed.svc);
+if (!key && !hasFed && !DRY) {
+  console.error("no credentials: set ANTHROPIC_API_KEY, or the ANTHROPIC_FEDERATION_RULE_ID / ANTHROPIC_ORGANIZATION_ID / ANTHROPIC_SERVICE_ACCOUNT_ID trio for workload identity federation");
   process.exit(1);
+}
+
+async function identityToken() {
+  if (process.env.ACTIONS_ID_TOKEN_REQUEST_URL && process.env.ACTIONS_ID_TOKEN_REQUEST_TOKEN) {
+    const res = await fetch(`${process.env.ACTIONS_ID_TOKEN_REQUEST_URL}&audience=${encodeURIComponent("https://api.anthropic.com")}`, {
+      headers: { authorization: `Bearer ${process.env.ACTIONS_ID_TOKEN_REQUEST_TOKEN}` },
+    });
+    if (!res.ok) throw new Error(`GitHub OIDC token request failed: ${res.status}`);
+    return (await res.json()).value;
+  }
+  if (process.env.ANTHROPIC_IDENTITY_TOKEN) return process.env.ANTHROPIC_IDENTITY_TOKEN;
+  if (process.env.ANTHROPIC_IDENTITY_TOKEN_FILE) return (await readFile(process.env.ANTHROPIC_IDENTITY_TOKEN_FILE, "utf8")).trim();
+  throw new Error("federation is configured but no identity token source is available (not in GitHub Actions, and no ANTHROPIC_IDENTITY_TOKEN[_FILE])");
+}
+
+let minted = null; // { token, expiresAt }
+async function authHeaders() {
+  if (key) return { "x-api-key": key };
+  if (!minted || minted.expiresAt - Date.now() < 120_000) {
+    const jwt = await identityToken();
+    const body = {
+      grant_type: "urn:ietf:params:oauth:grant-type:jwt-bearer",
+      assertion: jwt,
+      federation_rule_id: fed.rule,
+      organization_id: fed.org,
+      service_account_id: fed.svc,
+      ...(fed.ws ? { workspace_id: fed.ws } : {}),
+    };
+    const res = await fetch("https://api.anthropic.com/v1/oauth/token", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify(body),
+    });
+    if (!res.ok) throw new Error(`token exchange failed: ${res.status} ${(await res.text()).slice(0, 200)}`);
+    const tok = await res.json();
+    minted = { token: tok.access_token, expiresAt: Date.now() + (tok.expires_in ?? 600) * 1000 };
+  }
+  return { authorization: `Bearer ${minted.token}` };
 }
 
 // --- which events ------------------------------------------------------------
@@ -156,7 +211,7 @@ async function callApi(text) {
   for (let attempt = 1; ; attempt++) {
     const res = await fetch("https://api.anthropic.com/v1/messages", {
       method: "POST",
-      headers: { "content-type": "application/json", "x-api-key": key, "anthropic-version": "2023-06-01" },
+      headers: { "content-type": "application/json", "anthropic-version": "2023-06-01", ...(await authHeaders()) },
       body: JSON.stringify({
         model: MODEL,
         max_tokens: 16000,

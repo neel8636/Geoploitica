@@ -43,10 +43,17 @@ The published site runs a pipeline (`.github/workflows/atlas-pages.yml`) on ever
 `apps/atlas`, once a day at 06:17 UTC, and on demand from the Actions tab:
 
 1. **Wire** — `npm run wire` pulls the feeds and matches headlines to events.
-2. **Reports** — if the repository has an `ANTHROPIC_API_KEY` secret (Settings → Secrets and
-   variables → Actions), `npm run draft -- --all --stale 7` writes a full layered report for
-   every event that has none, and re-drafts auto-drafted reports of developing events older
-   than seven days. Each draft carries a `generated` marker and the site labels it
+2. **Reports** — when the run can reach the Claude API, `npm run draft -- --all --stale 7`
+   writes a full layered report for every event that has none, and re-drafts auto-drafted
+   reports of developing events older than seven days. Two ways to give it access:
+   - **Keyless (preferred):** workload identity federation. In the Claude Console, Organization
+     settings → Workload identity → Connect workload → GitHub Actions, with subject
+     `repo:neel8636/Geoploitica:ref:refs/heads/main` and audience `https://api.anthropic.com`.
+     Put the IDs it gives you in the repository's Actions **variables**:
+     `ANTHROPIC_ORGANIZATION_ID`, `ANTHROPIC_FEDERATION_RULE_ID`, `ANTHROPIC_SERVICE_ACCOUNT_ID`
+     (and `ANTHROPIC_WORKSPACE_ID` if the rule spans workspaces). Each run mints a short-lived
+     token; nothing long-lived is stored.
+   - **API key:** a repository secret `ANTHROPIC_API_KEY`. It takes precedence if both exist. Each draft carries a `generated` marker and the site labels it
    "Auto-drafted" until someone sets `generated.reviewed` to `true` in the JSON.
 3. **Commit** — new wire and reports are committed back to `main`.
 4. **Publish** — the static site is built and pushed to `gh-pages`.

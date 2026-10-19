@@ -21,6 +21,7 @@ on:
 
 permissions:
   contents: write
+  id-token: write # lets the job mint a GitHub OIDC token for keyless access to the Claude API
 
 concurrency:
   group: atlas
@@ -30,7 +31,13 @@ jobs:
   atlas:
     runs-on: ubuntu-latest
     env:
-      HAS_KEY: ${{ secrets.ANTHROPIC_API_KEY != '' }}
+      # Credentials for drafting, either of:
+      #  - a repository secret ANTHROPIC_API_KEY, or
+      #  - workload identity federation: repository *variables* ANTHROPIC_ORGANIZATION_ID,
+      #    ANTHROPIC_FEDERATION_RULE_ID, ANTHROPIC_SERVICE_ACCOUNT_ID (+ ANTHROPIC_WORKSPACE_ID),
+      #    set up in the Claude Console (Organization settings → Workload identity → Connect workload →
+      #    GitHub Actions, subject repo:neel8636/Geoploitica:ref:refs/heads/main). No key is stored.
+      HAS_AUTH: ${{ secrets.ANTHROPIC_API_KEY != '' || vars.ANTHROPIC_FEDERATION_RULE_ID != '' }}
     defaults:
       run:
         working-directory: apps/atlas
@@ -49,9 +56,13 @@ jobs:
         run: npm run wire || echo "wire fetch failed; building with the committed wire.json"
 
       - name: Draft reports
-        if: env.HAS_KEY == 'true'
+        if: env.HAS_AUTH == 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_ORGANIZATION_ID: ${{ vars.ANTHROPIC_ORGANIZATION_ID }}
+          ANTHROPIC_FEDERATION_RULE_ID: ${{ vars.ANTHROPIC_FEDERATION_RULE_ID }}
+          ANTHROPIC_SERVICE_ACCOUNT_ID: ${{ vars.ANTHROPIC_SERVICE_ACCOUNT_ID }}
+          ANTHROPIC_WORKSPACE_ID: ${{ vars.ANTHROPIC_WORKSPACE_ID }}
           STALE: ${{ github.event.inputs.stale_days || '7' }}
           MAX: ${{ github.event.inputs.max_reports || '0' }}
         run: |
