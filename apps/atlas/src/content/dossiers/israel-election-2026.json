@@ -1,0 +1,608 @@
+{
+  "slug": "israel-election-2026",
+  "title": "Israel's deadlocked election",
+  "deck": "Israel votes on 27 October in a referendum on Netanyahu's handling of Gaza and the Iran war, and the latest poll leaves both camps short of a majority.",
+  "updated": "2026-10-19",
+  "status": "developing",
+  "region": "Israel",
+  "tags": [
+    "election",
+    "Israel",
+    "Netanyahu",
+    "Iran war",
+    "coalition politics",
+    "defence budget"
+  ],
+  "readingMinutes": {
+    "card": 1,
+    "brief": 5,
+    "deep": 15
+  },
+  "card": {
+    "headline": "Israel votes on 27 October with neither camp near a majority, and the result will shape the Iran war",
+    "keyNumber": {
+      "value": "51 vs 52",
+      "label": "seats for Netanyahu's bloc vs the anti-Netanyahu bloc in a Kan poll on 18 October; 61 of 120 are needed",
+      "sourceIndex": 1
+    },
+    "impactMeter": 4,
+    "forYou": [
+      {
+        "role": "Energy and commodities",
+        "line": "The result may decide whether the Iran war escalates. Brent is above $100 against $73 before the war, so a hawkish outcome keeps risk premiums high."
+      },
+      {
+        "role": "Finance",
+        "line": "Expect a drawn-out coalition process rather than a clean result. Caretaker governments tend to avoid big decisions."
+      },
+      {
+        "role": "Defence and security",
+        "line": "The cabinet has approved NIS 2.6 billion in cuts to fund defence. The next government inherits that choice."
+      },
+      {
+        "role": "Everyone",
+        "line": "Trump has endorsed Netanyahu. A narrow result could test how far that endorsement carries."
+      }
+    ],
+    "ripple": [
+      {
+        "label": "First-order",
+        "effects": [
+          {
+            "text": "A 120-seat Knesset is elected on 27 October, the first vote on the legally scheduled date since 1988",
+            "sector": "Politics"
+          },
+          {
+            "text": "Kan poll of 18 October: Eisenkot's Yashar 23 seats, Likud 21; Netanyahu's bloc 51, anti-Netanyahu bloc 52",
+            "sector": "Politics"
+          },
+          {
+            "text": "Trump's endorsement of Netanyahu and the NIS 2.6 billion defence-funding cuts become campaign issues",
+            "sector": "Government"
+          },
+          {
+            "text": "A new far-right party polls under the threshold while Smotrich gains, per Haaretz's 18 October poll report",
+            "sector": "Politics"
+          }
+        ]
+      },
+      {
+        "label": "Second-order",
+        "effects": [
+          {
+            "text": "With neither bloc at 61, coalition talks could run for weeks, and the Arab parties may become kingmakers",
+            "sector": "Politics"
+          },
+          {
+            "text": "A caretaker government limits major budget and policy moves during talks",
+            "sector": "Public finance"
+          },
+          {
+            "text": "Votes for parties below the threshold are wasted, which can shift the final seat count by a few seats",
+            "sector": "Politics"
+          },
+          {
+            "text": "The Iran war posture stays unresolved until a government forms",
+            "sector": "Security"
+          }
+        ]
+      },
+      {
+        "label": "Third-order",
+        "effects": [
+          {
+            "text": "The war's direction sets how much Gulf export capacity can return, which feeds into the next OPEC+ decisions (next meeting 1 November)",
+            "sector": "Oil markets"
+          },
+          {
+            "text": "Continued high oil and freight costs keep pressure on consumers in Europe and elsewhere",
+            "sector": "Consumer prices"
+          },
+          {
+            "text": "Gulf powers and Washington stay focused on Iran, leaving Red Sea disputes such as Ethiopia-Eritrea with less attention",
+            "sector": "Geopolitics"
+          }
+        ]
+      }
+    ]
+  },
+  "brief": {
+    "whatHappened": [
+      "Israel elects its 120-seat Knesset on 27 October 2026. It is the first election held on its legally scheduled date since 1988.",
+      "A Kan poll on 18 October put Gadi Eisenkot's Yashar first with 23 seats, ahead of Likud with 21. It gave Netanyahu's bloc 51 seats and the anti-Netanyahu bloc 52, counting the Arab parties separately. Neither camp reaches the 61 seats needed to govern.",
+      "Haaretz reported the same day that a new far-right party is polling below the electoral threshold while Smotrich is gaining. Trump has endorsed Netanyahu, and the cabinet has approved NIS 2.6 billion in cuts to pay for defence."
+    ],
+    "whyItMatters": [
+      "The campaign is a referendum on Netanyahu's handling of Gaza and the US-Israel war on Iran. Netanyahu vows to topple Tehran's regime. The strikes began on 27 February 2026 and have kept oil and freight costs high for eight months.",
+      "Whether the war escalates or cools affects Gulf export capacity. Gulf exports through Hormuz are running at roughly 60 to 80% of normal, and Brent is above $100. OPEC+ meets again on 1 November.",
+      "A deadlock could leave Israel with weeks of coalition bargaining. Nobody would then have a clear mandate on war aims, defence spending or the US relationship."
+    ],
+    "winners": [
+      {
+        "who": "Gadi Eisenkot and Yashar",
+        "why": "They lead the 18 October Kan poll by two seats, which is within normal polling error."
+      },
+      {
+        "who": "Bezalel Smotrich",
+        "why": "Haaretz's poll report says he is gaining, partly as a new far-right rival falls below the threshold."
+      },
+      {
+        "who": "Kingmaker parties",
+        "why": "If both blocs stay short of 61, small parties and possibly the Arab parties gain bargaining power."
+      }
+    ],
+    "losers": [
+      {
+        "who": "Benjamin Netanyahu",
+        "why": "His bloc is at 51 in the poll, ten short of a majority, and Likud trails Yashar by two seats."
+      },
+      {
+        "who": "The new far-right party",
+        "why": "Polling under the threshold would leave it with no seats, and its voters' ballots would be wasted."
+      },
+      {
+        "who": "Public services and budget lines outside defence",
+        "why": "The NIS 2.6 billion cuts fund defence. Our material does not say which areas are cut."
+      }
+    ],
+    "whatsNext": [
+      "27 October: voting day.",
+      "Within roughly a week: certified results, after which Israel's president consults the parties and picks someone to try to form a government. The legal timetable is about four weeks plus a possible extension, from general knowledge.",
+      "1 November: OPEC+ core producers meet, with the Gulf war's direction still unresolved.",
+      "Late 2026: either a coalition forms, or talks drag on or fail, which could mean another election."
+    ],
+    "predict": {
+      "question": "Before you read the scenarios: what is the most likely result on 27 October?",
+      "options": [
+        "Netanyahu's bloc wins 61 seats outright",
+        "The anti-Netanyahu bloc wins 61 seats without the Arab parties",
+        "Neither bloc reaches 61 and coalition talks run long",
+        "A national unity government forms within days"
+      ],
+      "answerIndex": 2,
+      "explanation": "Our base case, at about 40%, is deadlock. The Kan poll leaves both blocs far from 61, and the gap would take a large swing to close. This is author judgement from one poll."
+    },
+    "recap": [
+      {
+        "question": "How many seats are needed to form a majority in the Knesset?",
+        "options": [
+          "51",
+          "61",
+          "71"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "question": "Who leads the 18 October Kan poll?",
+        "options": [
+          "Likud",
+          "Yashar",
+          "Religious Zionism"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "question": "What does the cabinet's NIS 2.6 billion in cuts fund?",
+        "options": [
+          "Defence",
+          "Housing",
+          "Education"
+        ],
+        "answerIndex": 0
+      }
+    ]
+  },
+  "deep": {
+    "timeline": [
+      {
+        "date": "1988-11-01",
+        "title": "Last election held on its scheduled date",
+        "detail": "Israel's 1988 vote was the last one held on schedule until now. A Likud-Labor national unity government followed (general knowledge).",
+        "sourceIndex": 0
+      },
+      {
+        "date": "2026-02-27",
+        "title": "US and Israeli strikes on Iran begin",
+        "detail": "Oil and freight costs stay elevated for months afterwards. The war becomes the central issue in the campaign.",
+        "turning": true
+      },
+      {
+        "date": "2026-10-04",
+        "title": "OPEC+ holds November output targets",
+        "detail": "Gulf exports through Hormuz are running at roughly 60 to 80% of normal, and Brent is above $100."
+      },
+      {
+        "date": "2026-10-09",
+        "title": "Library of Congress publishes an explainer on the vote",
+        "detail": "The FALQs piece sets out how the 27 October election works.",
+        "sourceIndex": 0
+      },
+      {
+        "date": "2026-10-18",
+        "title": "Kan poll puts Yashar first",
+        "detail": "Yashar 23, Likud 21; Netanyahu's bloc 51, anti-Netanyahu bloc 52. Haaretz reports a new far-right party below the threshold and Smotrich gaining.",
+        "sourceIndex": 1,
+        "turning": true
+      },
+      {
+        "date": "2026-10-27",
+        "title": "Election day",
+        "detail": "The 120-seat Knesset is elected.",
+        "turning": true
+      },
+      {
+        "date": "2026-11-01",
+        "title": "OPEC+ core producers meet again",
+        "detail": "The meeting follows the Israeli vote, with the Iran war's direction unresolved."
+      }
+    ],
+    "causes": [
+      {
+        "name": "Structural roots",
+        "when": "Years in the making",
+        "causes": [
+          {
+            "name": "Proportional system with a low threshold",
+            "detail": "Many parties compete, and a bloc needs 61 of 120 seats. The threshold is 3.25% from general knowledge, so some parties can win just a few seats and others can fall short."
+          },
+          {
+            "name": "Two evenly matched blocs",
+            "detail": "The poll shows 51 against 52, so a few seats or a few wasted votes can decide who governs."
+          },
+          {
+            "name": "Netanyahu as the dividing line",
+            "detail": "Politics is organised around being for or against him, which makes cross-bloc deals harder."
+          }
+        ]
+      },
+      {
+        "name": "Trigger",
+        "when": "October 2026",
+        "causes": [
+          {
+            "name": "End of the legal term",
+            "detail": "The election is held on its legally scheduled date, not after an early collapse, for the first time since 1988."
+          }
+        ]
+      },
+      {
+        "name": "Accelerants",
+        "when": "2026",
+        "causes": [
+          {
+            "name": "Iran war",
+            "detail": "Strikes began on 27 February. Netanyahu vows to topple Tehran's regime, and the vote is framed as a referendum on this."
+          },
+          {
+            "name": "Gaza",
+            "detail": "The campaign is also a judgement on how the Gaza war was handled."
+          },
+          {
+            "name": "Defence-funding cuts",
+            "detail": "The cabinet approved NIS 2.6 billion in cuts to fund defence, which makes budget priorities a campaign issue."
+          },
+          {
+            "name": "Trump's endorsement",
+            "detail": "It strengthens Netanyahu with some voters and may harden opposition among others."
+          },
+          {
+            "name": "Far-right vote split",
+            "detail": "A new far-right party sinks under the threshold while Smotrich gains, so the right's votes may be partly wasted."
+          }
+        ]
+      }
+    ],
+    "stakeholders": [
+      {
+        "name": "Benjamin Netanyahu",
+        "role": "Prime minister, Likud leader",
+        "wants": "A bloc majority and a mandate to continue the Iran war and defence build-up",
+        "leverage": "Incumbency, the Trump endorsement, and a Likud that polls close to the leader",
+        "likelyMove": "Frame the vote as a choice on Iran and security, and court small right-wing parties"
+      },
+      {
+        "name": "Gadi Eisenkot",
+        "role": "Leader of Yashar, poll leader",
+        "wants": "To become prime minister and move the country away from the current leadership",
+        "leverage": "A two-seat poll lead over Likud, and a bloc just ahead of Netanyahu's",
+        "likelyMove": "Stress security credentials and seek a broad coalition, possibly including Arab parties or defectors"
+      },
+      {
+        "name": "Bezalel Smotrich",
+        "role": "Religious Zionism leader",
+        "wants": "To survive and keep influence over the next coalition and its budget",
+        "leverage": "Seats that could tip a right-wing majority, and gains reported by Haaretz",
+        "likelyMove": "Absorb voters from the failing new far-right party and press for a hard line on security"
+      },
+      {
+        "name": "Arab parties",
+        "role": "Outside both blocs in the Kan count",
+        "wants": "Policy influence and a role in a post-Netanyahu majority",
+        "leverage": "If the anti-Netanyahu bloc stays at about 52, their seats could decide who reaches 61",
+        "likelyMove": "Stay out of formal coalitions but signal conditional support, though this is our judgement"
+      },
+      {
+        "name": "Israel's president",
+        "role": "Chooses who tries to form a government",
+        "wants": "A functioning government within the legal deadlines",
+        "leverage": "The power to pick which party leader gets the first attempt",
+        "likelyMove": "Hold consultations after certified results and pick whoever shows the strongest backing"
+      },
+      {
+        "name": "Donald Trump",
+        "role": "US president, endorser of Netanyahu",
+        "wants": "A partner for the Iran campaign and a sympathetic government in Jerusalem",
+        "leverage": "Public endorsement and US military and diplomatic backing",
+        "likelyMove": "Keep backing Netanyahu publicly, and deal with whoever wins if the result is close"
+      }
+    ],
+    "sectors": [
+      {
+        "sector": "Oil and freight",
+        "direction": "mixed",
+        "size": 3,
+        "why": "The result may decide how far the Iran war escalates. Brent is above $100 against $73 before the war."
+      },
+      {
+        "sector": "Defence",
+        "direction": "up",
+        "size": 2,
+        "why": "The NIS 2.6 billion in cuts to fund defence signals priority, whichever bloc governs."
+      },
+      {
+        "sector": "Israeli public services outside defence",
+        "direction": "down",
+        "size": 1,
+        "why": "The cuts fund defence. Which services bear them is not specified in our material."
+      },
+      {
+        "sector": "Israeli financial markets",
+        "direction": "mixed",
+        "size": 2,
+        "why": "Deadlock and caretaker rule can delay budgets and decisions. This is an estimate, not a sourced finding."
+      },
+      {
+        "sector": "Red Sea and Gulf shipping",
+        "direction": "mixed",
+        "size": 2,
+        "why": "Gulf powers compete for Red Sea positions while Washington's attention is on Iran."
+      }
+    ],
+    "dailyLife": [
+      {
+        "item": "Fuel",
+        "effect": "Brent is above $100 against $73 before the war. French diesel hit a record EUR 2.41 a litre in September."
+      },
+      {
+        "item": "Freight and shipping costs",
+        "effect": "Elevated for eight months because of the Iran war and attacks on Gulf infrastructure."
+      },
+      {
+        "item": "Israeli household budgets",
+        "effect": "The NIS 2.6 billion in cuts will fall somewhere in public spending, though the details are not in our sources."
+      },
+      {
+        "item": "Election day",
+        "effect": "Expect heavy news flow, and then days or weeks of coalition headlines rather than an instant outcome."
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Deadlock and long coalition talks",
+        "probability": 40,
+        "looksLike": "Neither bloc reaches 61. The president tasks someone, talks run to the legal limit, and a caretaker government stays in place.",
+        "signposts": [
+          "Final results near the 18 October poll",
+          "Arab parties holding the balance",
+          "Both leaders ruling out deals with the other side"
+        ],
+        "effectOnWorld": "Iran war policy stays unchanged by default, and Gulf and OPEC+ planning stays uncertain."
+      },
+      {
+        "name": "Anti-Netanyahu government forms",
+        "probability": 25,
+        "looksLike": "Eisenkot assembles 61 seats with outside support or defectors from the Netanyahu bloc.",
+        "signposts": [
+          "Yashar finishing first",
+          "Arab parties' conditional support",
+          "Defections from the right"
+        ],
+        "effectOnWorld": "Possible change in Iran war tactics. Washington would have to deal with a new prime minister after endorsing Netanyahu."
+      },
+      {
+        "name": "Netanyahu keeps power",
+        "probability": 20,
+        "looksLike": "Wasted votes below the threshold and a polling miss lift the bloc to 61, or enough rivals defect to him.",
+        "signposts": [
+          "Far-right parties clearing the threshold",
+          "Likud finishing first",
+          "Defections from the centre"
+        ],
+        "effectOnWorld": "Iran regime-change rhetoric continues, with continued high oil risk premiums."
+      },
+      {
+        "name": "Cross-bloc unity government",
+        "probability": 15,
+        "looksLike": "Both big parties agree to share power to avoid another election.",
+        "signposts": [
+          "Netanyahu stepping back from the leadership of Likud",
+          "Public talk of unity from Yashar and Likud"
+        ],
+        "effectOnWorld": "A more stable but cautious government, with less certainty on Iran policy."
+      }
+    ],
+    "predictions": [
+      {
+        "text": "Neither bloc will hold 61 seats on certified results (probability 0.8).",
+        "horizon": "By 10 November 2026",
+        "resolves": "2026-11-10"
+      },
+      {
+        "text": "Yashar will win more seats than Likud (probability 0.5, since a two-seat lead is within polling error).",
+        "horizon": "By 3 November 2026",
+        "resolves": "2026-11-03"
+      },
+      {
+        "text": "No new government will be sworn in by the end of 2026 (probability 0.55).",
+        "horizon": "By 31 December 2026",
+        "resolves": "2027-01-01"
+      },
+      {
+        "text": "Netanyahu will still be prime minister, including as caretaker, on 31 December 2026 (probability 0.75).",
+        "horizon": "31 December 2026",
+        "resolves": "2026-12-31"
+      },
+      {
+        "text": "The vote will not produce an Iran ceasefire by the end of November (probability 0.8).",
+        "horizon": "By 30 November 2026",
+        "resolves": "2026-11-30"
+      }
+    ],
+    "countermeasures": [
+      {
+        "audience": "businesses",
+        "actions": [
+          "Plan for weeks of political uncertainty rather than a clean result.",
+          "Keep fuel and freight surcharges in contracts while Brent is above $100.",
+          "Avoid committing to Israeli government contracts that depend on a new budget until a government forms."
+        ]
+      },
+      {
+        "audience": "investors",
+        "actions": [
+          "Do not assume the election resolves Iran war risk; treat the result as one input.",
+          "Watch the 1 November OPEC+ meeting alongside Israeli coalition headlines.",
+          "Treat polls as uncertain: a two-seat lead is within normal error."
+        ]
+      },
+      {
+        "audience": "households",
+        "actions": [
+          "Expect fuel and food prices to stay high while the Gulf war continues.",
+          "Do not expect an immediate change in policy after election day."
+        ]
+      },
+      {
+        "audience": "policymakers",
+        "actions": [
+          "Prepare for several possible coalitions, including a drawn-out caretaker period.",
+          "Clarify to partners what US backing means whichever bloc wins.",
+          "Coordinate Gulf and Red Sea contingency planning, since attention is concentrated on Iran."
+        ]
+      }
+    ],
+    "analogues": [
+      {
+        "event": "Israel's five elections in under four years",
+        "year": "2019-2022",
+        "whatFollowed": "Repeated deadlock ended in the Bennett-Lapid coalition, which included an Arab party and collapsed within a year. Netanyahu returned to power after the November 2022 vote."
+      },
+      {
+        "event": "Israel's 2009 election",
+        "year": "2009",
+        "whatFollowed": "Kadima won the most seats, but Netanyahu formed the government, showing the largest party does not always govern."
+      },
+      {
+        "event": "Israel's 1988 election",
+        "year": "1988",
+        "whatFollowed": "A Likud-Labor national unity government formed, an example of cross-bloc power sharing after a close vote."
+      }
+    ],
+    "watch": [
+      {
+        "date": "2026-10-27",
+        "title": "Election day",
+        "why": "The first scheduled vote since 1988, with the blocs at 51 and 52 in the last poll."
+      },
+      {
+        "date": "2026-11-01",
+        "title": "OPEC+ core producers' meeting",
+        "why": "It is the next signal on whether Gulf export capacity is returning, and the Iran war's direction feeds into it."
+      },
+      {
+        "title": "Final-week polls",
+        "why": "Israel restricts poll publication in the final days before the vote (general knowledge), so late shifts may be hard to see."
+      },
+      {
+        "title": "Far-right parties and the threshold",
+        "why": "Whether the new far-right party falls below it or Smotrich gains changes which bloc has the better path to 61."
+      },
+      {
+        "title": "Presidential consultations",
+        "why": "Who is asked to form a government will show which coalition path looks most credible."
+      },
+      {
+        "title": "Ethiopia-Eritrea at the UN Security Council",
+        "why": "A parallel Red Sea dispute in which Gulf powers are involved while Washington is distracted by Iran."
+      }
+    ]
+  },
+  "evidence": {
+    "sources": [
+      {
+        "title": "FALQs: Israel's Upcoming Election on October 27, 2026",
+        "url": "https://blogs.loc.gov/law/2026/10/falqs-israels-upcoming-election-on-october-27-2026/",
+        "publisher": "Library of Congress",
+        "date": "2026-10-09"
+      },
+      {
+        "title": "Israeli Election Poll: New Far-Right Party Sinks Under Threshold, Smotrich Gains",
+        "url": "https://www.haaretz.com/israel-news/elections/2026-10-18/ty-article/israeli-election-poll-new-far-right-party-sinks-under-threshold-smotrich-gains/000001a1-505c-da7f-a7a5-dcffffe30000",
+        "publisher": "Haaretz",
+        "date": "2026-10-18"
+      }
+    ],
+    "confidence": [
+      {
+        "claim": "Election on 27 October 2026 for a 120-seat Knesset, the first on its scheduled date since 1988",
+        "level": "high",
+        "note": "Stated in the event summary and consistent with the Library of Congress explainer's title and date."
+      },
+      {
+        "claim": "Kan poll of 18 October: Yashar 23, Likud 21, Netanyahu bloc 51, anti-Netanyahu bloc 52",
+        "level": "medium",
+        "note": "Taken from the event summary. We did not read the article text, so the link between the Kan figures and the Haaretz piece is not verified."
+      },
+      {
+        "claim": "A new far-right party is below the threshold and Smotrich is gaining",
+        "level": "medium",
+        "note": "Based only on the Haaretz headline. The party is not named here because we could not confirm which one it is."
+      },
+      {
+        "claim": "Trump has endorsed Netanyahu and the cabinet approved NIS 2.6 billion in cuts to fund defence",
+        "level": "medium",
+        "note": "From the event summary; no linked source for these two items."
+      },
+      {
+        "claim": "Electoral threshold, coalition-formation deadlines and poll-publication limits",
+        "level": "medium",
+        "note": "From general knowledge, not from the listed sources. Check the Library of Congress explainer for exact rules."
+      },
+      {
+        "claim": "Links to the Iran war, OPEC+ and Ethiopia-Eritrea",
+        "level": "medium",
+        "note": "Taken from connection notes supplied with the event, not independently sourced here."
+      },
+      {
+        "claim": "Scenario and prediction probabilities",
+        "level": "low",
+        "note": "Author judgement from a single poll, not a sourced forecast."
+      }
+    ],
+    "method": "Drafted from the two listed sources, which were available as headlines and metadata only, the event summary, and the supplied notes on connected events. No article text was read. The seat figures come from the summary. The probabilities, the interpretation of the blocs and Arab parties, and the general-knowledge details on thresholds and coalition timing are estimates and are flagged as such in the text and in the confidence entries.",
+    "changeLog": [
+      {
+        "date": "2026-10-19",
+        "change": "First publication."
+      }
+    ]
+  },
+  "generated": {
+    "by": "Geoploitica draft script",
+    "at": "2026-10-19T20:11:19.535Z",
+    "model": "claude-sonnet-5-5",
+    "sources": 2,
+    "headlines": 2,
+    "reviewed": false
+  }
+}

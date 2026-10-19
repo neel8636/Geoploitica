@@ -1,0 +1,605 @@
+{
+  "slug": "opec-plus-november-output-hold",
+  "title": "OPEC+ freezes quotas while the Gulf war caps supply",
+  "deck": "Seven OPEC+ producers left November targets unchanged on 4 October because the Iran war, not policy, is holding Gulf exports at 60-80% of normal and Brent above $100.",
+  "updated": "2026-10-19",
+  "status": "developing",
+  "region": "Gulf, Russia, global oil markets",
+  "tags": [
+    "oil",
+    "OPEC+",
+    "Strait of Hormuz",
+    "Iran war",
+    "inflation",
+    "Russia budget"
+  ],
+  "readingMinutes": {
+    "card": 1,
+    "brief": 5,
+    "deep": 15
+  },
+  "card": {
+    "headline": "OPEC+ is not choosing to hold supply back; the war is doing it for them",
+    "keyNumber": {
+      "value": "~5 mb/d",
+      "label": "below pre-war February output; August actual was about 25 mb/d as Gulf exports run at 60-80% of normal",
+      "sourceIndex": 1
+    },
+    "impactMeter": 4,
+    "forYou": [
+      {
+        "role": "Energy and fuel buyers",
+        "line": "Do not expect quota relief. Brent is above $100 against $73 before the war, and the group meets again on 1 November."
+      },
+      {
+        "role": "Finance",
+        "line": "Oil is the main driver of euro-area inflation (3.8% in September). The ECB meets on 29 October and is weighing another rate rise."
+      },
+      {
+        "role": "Supply chain",
+        "line": "Freight and fuel costs have stayed high for eight months. A hold means no near-term easing from the producers' side."
+      },
+      {
+        "role": "Everyone",
+        "line": "The decisive events are military and political: Hormuz traffic and Israel's 27 October vote, not OPEC+ paperwork."
+      }
+    ],
+    "ripple": [
+      {
+        "label": "First-order",
+        "effects": [
+          {
+            "text": "The seven core producers keep November 2026 targets unchanged at a 4 October online meeting",
+            "sector": "Oil producers"
+          },
+          {
+            "text": "Actual output of about 25 mb/d in August stays roughly 5 mb/d below February levels, because Hormuz exports run at 60-80% of normal",
+            "sector": "Gulf energy"
+          },
+          {
+            "text": "Brent holds above $100, versus $73 before the war",
+            "sector": "Oil markets"
+          },
+          {
+            "text": "The capacity review needed to set 2027 quotas is delayed",
+            "sector": "Oil producers"
+          }
+        ]
+      },
+      {
+        "label": "Second-order",
+        "effects": [
+          {
+            "text": "Euro-area inflation stays near 3.8% into the 29 October ECB meeting, with another rate rise under discussion",
+            "sector": "Central banks"
+          },
+          {
+            "text": "Russia's budget, built on $50 oil, is already running a far wider deficit; the 2026 forecast has roughly doubled to 7.3 trillion rubles",
+            "sector": "Public finance"
+          },
+          {
+            "text": "China, the largest buyer of Gulf and Russian crude, faces higher import costs while domestic demand stays weak",
+            "sector": "Trade"
+          }
+        ]
+      },
+      {
+        "label": "Third-order",
+        "effects": [
+          {
+            "text": "With no capacity review, 2027 quota rules are uncertain, so producers cannot plan beyond the war",
+            "sector": "Oil producers"
+          },
+          {
+            "text": "Israel's 27 October election may shift how the Iran war evolves, and with it Gulf export capacity",
+            "sector": "Geopolitics"
+          },
+          {
+            "text": "Prolonged high prices strain import-dependent economies and could eventually dent oil demand (our estimate, not sourced)",
+            "sector": "Macro"
+          }
+        ]
+      }
+    ]
+  },
+  "brief": {
+    "whatHappened": [
+      "On 4 October 2026, seven core OPEC+ producers met online and kept their November output targets unchanged. They are Saudi Arabia (10.5 million barrels a day), Russia (9.9), Iraq (4.4), Kuwait (2.7), Kazakhstan (1.6), Algeria (1.0) and Oman (0.8).",
+      "The targets are largely a formality. Actual output was about 25 mb/d in August, roughly 5 mb/d below February, before the war. The reason is physical: Gulf exports through the Strait of Hormuz fluctuate at 60-80% of normal.",
+      "Brent trades above $100 a barrel, against $73 before the war began on 27 February. The capacity review needed to set 2027 quotas has been delayed. The group meets again on 1 November."
+    ],
+    "whyItMatters": [
+      "Normally OPEC+ quotas are the main lever on oil supply. Right now a war is the binding limit, so the group cannot add barrels even if it wants to. That removes the usual relief valve.",
+      "Oil feeds directly into prices. French diesel hit a record EUR 2.41 a litre in September, and euro-area inflation reached 3.8%, which keeps the ECB weighing another rate rise.",
+      "It also moves budgets and politics. Russia's 2027 spending plan assumes $50 oil and is already running a deficit nearly double plan. Gulf exporters are earning high prices on reduced volumes."
+    ],
+    "winners": [
+      {
+        "who": "Oil producers with export routes unaffected by Hormuz",
+        "why": "They sell into a market starved of Gulf barrels at prices above $100. (Our inference; the material does not name them.)"
+      },
+      {
+        "who": "Russia, on price alone",
+        "why": "Higher Brent should help, but oil-and-gas revenue still fell 17.2% in January-September, so the benefit is not showing up in the budget so far."
+      }
+    ],
+    "losers": [
+      {
+        "who": "Euro-area households and the ECB",
+        "why": "Fuel costs keep inflation near 3.8% and may force another rate rise."
+      },
+      {
+        "who": "Gulf exporters",
+        "why": "They carry the high price but lose 20-40% of normal export volume."
+      },
+      {
+        "who": "Import-dependent economies, including China",
+        "why": "Tight crude supply raises import costs for the largest buyer of Gulf and Russian oil."
+      },
+      {
+        "who": "Freight, airlines and fuel-intensive industry",
+        "why": "Oil and freight costs have stayed elevated for eight months."
+      }
+    ],
+    "whatsNext": [
+      "27 October: Israel votes. The result may affect how the Iran war evolves.",
+      "29 October: the ECB meets; Russia's Duma holds the first reading of its three-year budget.",
+      "1 November: the core OPEC+ group meets again. Another hold is the most likely outcome.",
+      "Later: the capacity review for 2027 quotas, which has no new date in our material."
+    ],
+    "predict": {
+      "question": "Before you read on: what will the seven OPEC+ producers most likely do at their 1 November meeting?",
+      "options": [
+        "Raise targets sharply to cool prices",
+        "Keep targets unchanged again",
+        "Cut targets to defend prices",
+        "Announce the 2027 quota framework"
+      ],
+      "answerIndex": 1,
+      "explanation": "Our base case is another hold. Targets are not the binding constraint, since Hormuz exports are. Raising them would change nothing physically, and the capacity review that 2027 quotas depend on is delayed. A hold is the lowest-effort outcome."
+    },
+    "recap": [
+      {
+        "question": "Why are OPEC+ quotas frozen?",
+        "options": [
+          "A price war between members",
+          "The Iran war caps Gulf exports regardless of policy",
+          "Russia vetoed an increase"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "question": "Where is Brent trading compared with before the war?",
+        "options": [
+          "About $73, unchanged",
+          "Above $100, versus $73",
+          "Below $60"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "question": "What is the next OPEC+ meeting date?",
+        "options": [
+          "29 October",
+          "4 October",
+          "1 November"
+        ],
+        "answerIndex": 2
+      }
+    ]
+  },
+  "deep": {
+    "timeline": [
+      {
+        "date": "2026-02-27",
+        "title": "Strikes on Iran begin",
+        "detail": "Pre-war Brent was $73 and output was about 5 mb/d higher than in August. The war has kept oil and freight costs elevated for eight months."
+      },
+      {
+        "date": "2026-09-30",
+        "title": "French diesel hits a record",
+        "detail": "Diesel reached EUR 2.41 a litre during September, a visible consumer effect of the shock. The exact day is not specified in our material."
+      },
+      {
+        "date": "2026-10-01",
+        "title": "Russia submits a three-year budget",
+        "detail": "It projects a 2026 deficit of 7.345 trillion rubles on a $50 oil baseline; the first reading is set for 29 October."
+      },
+      {
+        "date": "2026-10-04",
+        "title": "OPEC+ core seven keep November targets unchanged",
+        "detail": "The online meeting reflects that Gulf exports through Hormuz run at 60-80% of normal and the capacity review is delayed.",
+        "sourceIndex": 0,
+        "turning": true
+      },
+      {
+        "date": "2026-10-06",
+        "title": "Enerdata reports the decision amid supply disruptions",
+        "detail": "Output of about 25 mb/d in August is about 5 mb/d below pre-war levels.",
+        "sourceIndex": 1
+      },
+      {
+        "date": "2026-10-27",
+        "title": "Israel votes",
+        "detail": "A Kan poll on 18 October has neither bloc reaching 61 seats. The result may shape how the Iran war evolves."
+      },
+      {
+        "date": "2026-10-29",
+        "title": "ECB meeting; Russian budget first reading",
+        "detail": "Euro-area inflation was 3.8% in September and ECB minutes show another rate rise under discussion."
+      },
+      {
+        "date": "2026-11-01",
+        "title": "Next OPEC+ meeting",
+        "detail": "The group will decide whether to extend the freeze; presumably this sets the next month's targets (our inference).",
+        "turning": true
+      }
+    ],
+    "causes": [
+      {
+        "name": "Structural roots",
+        "when": "Years in the making",
+        "causes": [
+          {
+            "name": "Concentrated supply",
+            "detail": "A large share of spare oil capacity and export volume sits in Gulf states that ship through one strait."
+          },
+          {
+            "name": "Quota system built for managed markets",
+            "detail": "OPEC+ targets are designed for peacetime cuts and increases, not for physical blockage."
+          }
+        ]
+      },
+      {
+        "name": "Trigger",
+        "when": "27 February 2026",
+        "causes": [
+          {
+            "name": "US-Israeli strikes on Iran",
+            "detail": "The war began and Gulf exports through Hormuz became unreliable, fluctuating at 60-80% of normal."
+          }
+        ]
+      },
+      {
+        "name": "Accelerants",
+        "when": "Spring to autumn 2026",
+        "causes": [
+          {
+            "name": "Renewed fighting in Yemen",
+            "detail": "It added to risk around Gulf shipping and infrastructure."
+          },
+          {
+            "name": "Attacks on Saudi energy infrastructure",
+            "detail": "They intensified the price spike."
+          },
+          {
+            "name": "Delayed capacity review",
+            "detail": "Without a baseline of what each member can produce, 2027 quotas cannot be set."
+          }
+        ]
+      }
+    ],
+    "stakeholders": [
+      {
+        "name": "Saudi Arabia",
+        "role": "Largest OPEC+ producer (10.5 mb/d target)",
+        "wants": "High prices and a settled framework for 2027",
+        "leverage": "The biggest quota and spare-capacity credibility",
+        "likelyMove": "Hold targets and wait for Hormuz conditions to improve"
+      },
+      {
+        "name": "Russia",
+        "role": "Second-largest quota (9.9 mb/d)",
+        "wants": "Revenue to cover a budget deficit that has nearly doubled",
+        "leverage": "Co-leads OPEC+ and sells to China and others",
+        "likelyMove": "Back the hold; push for a pricing environment that supports a $50-based budget"
+      },
+      {
+        "name": "Iraq and Kuwait",
+        "role": "Gulf producers (4.4 and 2.7 mb/d)",
+        "wants": "Safe exports and stable revenue",
+        "leverage": "Limited; they depend on Hormuz",
+        "likelyMove": "Follow the Saudi lead"
+      },
+      {
+        "name": "Kazakhstan, Algeria, Oman",
+        "role": "Smaller core producers (1.6, 1.0, 0.8 mb/d)",
+        "wants": "Predictable quotas",
+        "leverage": "Small",
+        "likelyMove": "Go along with the hold"
+      },
+      {
+        "name": "The ECB",
+        "role": "Central bank facing 3.8% inflation",
+        "wants": "Inflation under control without worsening French bond stress",
+        "leverage": "Interest rates, 29 October meeting",
+        "likelyMove": "Weighing another rate rise"
+      },
+      {
+        "name": "China",
+        "role": "Largest buyer of Gulf and Russian oil",
+        "wants": "Cheap, secure crude to support an export-led economy",
+        "leverage": "Purchasing volume",
+        "likelyMove": "Keep buying; absorb higher costs"
+      },
+      {
+        "name": "Israel, the US and Iran",
+        "role": "War parties",
+        "wants": "Outcomes that decide Hormuz traffic",
+        "leverage": "Military action and diplomacy",
+        "likelyMove": "Depends heavily on Israel's 27 October result"
+      }
+    ],
+    "sectors": [
+      {
+        "sector": "Oil exporters outside Hormuz",
+        "direction": "up",
+        "size": 2,
+        "why": "Higher prices on volumes not constrained by the Gulf. Inferred; the material does not name them."
+      },
+      {
+        "sector": "Gulf exporters",
+        "direction": "mixed",
+        "size": 3,
+        "why": "High price, but exports run at 60-80% of normal."
+      },
+      {
+        "sector": "Airlines and shipping",
+        "direction": "down",
+        "size": 2,
+        "why": "Fuel and freight costs have been elevated for eight months."
+      },
+      {
+        "sector": "Euro-area households and consumers",
+        "direction": "down",
+        "size": 3,
+        "why": "Fuel costs help keep inflation near 3.8%."
+      },
+      {
+        "sector": "Russian public finances",
+        "direction": "mixed",
+        "size": 3,
+        "why": "High Brent helps in principle, but oil-and-gas revenue fell 17.2% and the deficit is nearly double plan; our sources do not fully explain the gap."
+      },
+      {
+        "sector": "Chinese import-dependent industry",
+        "direction": "down",
+        "size": 2,
+        "why": "Tight crude supply raises costs for the largest buyer of Gulf and Russian oil."
+      },
+      {
+        "sector": "Renewables and efficiency",
+        "direction": "up",
+        "size": 1,
+        "why": "Sustained high oil prices improve the case for alternatives. Our estimate, not a sourced claim."
+      }
+    ],
+    "dailyLife": [
+      {
+        "item": "Diesel and petrol",
+        "effect": "French diesel hit a record EUR 2.41 a litre in September; with Brent above $100 and no quota relief, prices are unlikely to fall quickly."
+      },
+      {
+        "item": "Prices in the shops",
+        "effect": "Euro-area inflation reached 3.8% in September; fuel and freight feed into goods and food."
+      },
+      {
+        "item": "Loans and mortgages",
+        "effect": "The ECB is weighing another rate rise, which would raise borrowing costs."
+      },
+      {
+        "item": "Travel",
+        "effect": "Air and freight costs, elevated for eight months, are likely to stay high while Gulf exports are restricted."
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Frozen stalemate",
+        "probability": 50,
+        "looksLike": "The core seven keep extending the hold; Hormuz exports stay at 60-80% of normal; Brent stays above $100.",
+        "signposts": [
+          "Another unchanged-target statement on 1 November",
+          "No new date for the capacity review"
+        ],
+        "effectOnWorld": "Inflation stays sticky and central banks stay hawkish; budgets built on low oil prices keep deteriorating."
+      },
+      {
+        "name": "Gradual reopening",
+        "probability": 25,
+        "looksLike": "A ceasefire or de-escalation lifts Gulf export flows toward normal; OPEC+ moves to restore quota discipline and reschedules the review.",
+        "signposts": [
+          "Israeli election outcome favouring de-escalation",
+          "Hormuz flows rising above 80%",
+          "A new date for the capacity review"
+        ],
+        "effectOnWorld": "Brent falls toward the pre-war $73 area over months; inflation pressure eases."
+      },
+      {
+        "name": "Escalation",
+        "probability": 20,
+        "looksLike": "More attacks on Gulf infrastructure or Hormuz shipping cut exports below 60% of normal.",
+        "signposts": [
+          "Fresh strikes on Saudi energy sites",
+          "Renewed fighting in Yemen",
+          "Brent well above $100"
+        ],
+        "effectOnWorld": "A deeper energy shock: more consumer unrest over living costs, tighter central banks, wider Russian and import-country strains."
+      },
+      {
+        "name": "Quota reset",
+        "probability": 5,
+        "looksLike": "OPEC+ changes targets or publishes the 2027 quota framework despite the war.",
+        "signposts": [
+          "A capacity review date announced",
+          "Public disputes between members"
+        ],
+        "effectOnWorld": "Mostly a signalling move, with limited physical effect while Hormuz constrains flows."
+      }
+    ],
+    "predictions": [
+      {
+        "text": "At the 1 November meeting the core seven will again leave targets unchanged. Probability 0.75.",
+        "horizon": "1 November 2026",
+        "resolves": "2026-11-02"
+      },
+      {
+        "text": "Brent will still be above $90 on 31 December 2026. Probability 0.65.",
+        "horizon": "By 31 December 2026",
+        "resolves": "2026-12-31"
+      },
+      {
+        "text": "The capacity review needed for 2027 quotas will not be completed and published before year-end. Probability 0.70.",
+        "horizon": "By 31 December 2026",
+        "resolves": "2026-12-31"
+      },
+      {
+        "text": "Euro-area inflation for October, reported in early November, will be at or above 3.5%. Probability 0.70.",
+        "horizon": "November 2026",
+        "resolves": "2026-11-30"
+      },
+      {
+        "text": "Gulf exports will still be below 90% of pre-war normal at the end of the year. Probability 0.60.",
+        "horizon": "By 31 December 2026",
+        "resolves": "2027-01-15"
+      }
+    ],
+    "countermeasures": [
+      {
+        "audience": "businesses",
+        "actions": [
+          "Add fuel-surcharge clauses and review freight contracts.",
+          "Hedge fuel exposure for the next two quarters where possible.",
+          "Plan for sustained, not temporary, cost increases."
+        ]
+      },
+      {
+        "audience": "investors",
+        "actions": [
+          "Treat quota decisions as secondary; track Hormuz flow data and war news.",
+          "Watch the 29 October ECB meeting and 1 November OPEC+ meeting for the next signals.",
+          "Check any exposure to Russian budget stress and to import-dependent economies."
+        ]
+      },
+      {
+        "audience": "households",
+        "actions": [
+          "Expect elevated fuel prices to persist and budget for them.",
+          "Be cautious about variable-rate borrowing if the ECB raises rates."
+        ]
+      },
+      {
+        "audience": "policymakers",
+        "actions": [
+          "Target support at lower-income households rather than broad fuel subsidies.",
+          "Coordinate stock and shipping policy with partners.",
+          "Prepare for a prolonged shock, not a short spike."
+        ]
+      }
+    ],
+    "analogues": [
+      {
+        "event": "1973 Arab oil embargo",
+        "year": "1973",
+        "whatFollowed": "Prices roughly quadrupled, inflation rose in importing economies and governments launched efficiency and supply-diversification drives."
+      },
+      {
+        "event": "Iraq's invasion of Kuwait",
+        "year": "1990",
+        "whatFollowed": "Oil prices spiked sharply, then fell after the military outcome became clear; the supply shock was driven by war, not quotas."
+      },
+      {
+        "event": "Russia's invasion of Ukraine",
+        "year": "2022",
+        "whatFollowed": "Brent spiked above $120 in the spring; inflation surged and central banks tightened."
+      }
+    ],
+    "watch": [
+      {
+        "date": "2026-10-27",
+        "title": "Israel votes",
+        "why": "The result may shift the trajectory of the Iran war and with it Hormuz export capacity."
+      },
+      {
+        "date": "2026-10-29",
+        "title": "ECB meeting",
+        "why": "Another rate rise is under discussion with euro-area inflation at 3.8%."
+      },
+      {
+        "date": "2026-10-29",
+        "title": "Russian Duma first reading of the budget",
+        "why": "Tests the $50 oil baseline against a deficit that has nearly doubled."
+      },
+      {
+        "date": "2026-11-01",
+        "title": "OPEC+ core seven meet",
+        "why": "Whether the hold is extended and whether a date for the capacity review appears."
+      },
+      {
+        "title": "Hormuz export flows",
+        "why": "A move above or below the 60-80% range is the real driver of supply."
+      },
+      {
+        "title": "Brent versus $100",
+        "why": "A fall below $100 would signal easing; a sustained rise would signal escalation."
+      }
+    ]
+  },
+  "evidence": {
+    "sources": [
+      {
+        "title": "OPEC+ Agrees to Keep November Oil Output Targets Steady",
+        "url": "https://www.themoscowtimes.com/2026/10/04/opec-agrees-to-keep-november-oil-output-targets-steady-a93865",
+        "publisher": "The Moscow Times / Reuters",
+        "date": "2026-10-04"
+      },
+      {
+        "title": "OPEC+ Keeps November 2026 oil output targets unchanged",
+        "url": "https://www.enerdata.net/publications/daily-energy-news/opec-keeps-november-2026-production-targets-unchanged-amid-supply-disruptions.html",
+        "publisher": "Enerdata",
+        "date": "2026-10-06"
+      }
+    ],
+    "confidence": [
+      {
+        "claim": "OPEC+ kept November 2026 targets unchanged and meets again on 1 November",
+        "level": "high",
+        "note": "Reported by two sources, Reuters via The Moscow Times and Enerdata."
+      },
+      {
+        "claim": "Output of about 25 mb/d in August, about 5 mb/d below February, with Hormuz exports at 60-80% of normal",
+        "level": "medium",
+        "note": "Taken from the event summary and Enerdata's supply-disruption framing; we did not independently check the underlying data, and which countries the 25 mb/d covers is unclear."
+      },
+      {
+        "claim": "Brent above $100 versus $73 before the war",
+        "level": "medium",
+        "note": "From the event summary; the exact price on any given day will differ."
+      },
+      {
+        "claim": "Links to Russia's budget, ECB policy and China's costs",
+        "level": "medium",
+        "note": "Drawn from related dossiers in this set; those carry their own sources. The mechanism, particularly why Russian oil revenue fell despite high Brent, is not explained in our material."
+      },
+      {
+        "claim": "Scenario probabilities and predictions",
+        "level": "low",
+        "note": "Author judgement, not sourced forecasts; to be graded as events resolve."
+      }
+    ],
+    "method": "Drafted from two listed sources (Reuters via The Moscow Times, 4 October 2026, and Enerdata, 6 October 2026), two matched wire headlines and summaries of related dossiers on the Iran war, Russia's budget, the ECB, China's growth and Israel's election. Figures come from those summaries. The scenario probabilities, the predictions' probabilities and statements marked as inferences or estimates are the author's judgement. We did not add outside sources or data.",
+    "changeLog": [
+      {
+        "date": "2026-10-19",
+        "change": "First publication."
+      }
+    ]
+  },
+  "generated": {
+    "by": "Geoploitica draft script",
+    "at": "2026-10-19T20:12:24.746Z",
+    "model": "claude-sonnet-5-5",
+    "sources": 2,
+    "headlines": 2,
+    "reviewed": false
+  }
+}
