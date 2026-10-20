@@ -40,7 +40,7 @@ npm run dev       # http://localhost:3000
 ## Keeping it current
 
 The published site runs a pipeline (`.github/workflows/atlas-pages.yml`) on every push to
-`apps/atlas`, once a day at 06:17 UTC, and on demand from the Actions tab:
+`apps/atlas`, once a day at 7:00 AM Eastern, and on demand from the Actions tab:
 
 1. **Wire** — `npm run wire` pulls the feeds and matches headlines to events.
 2. **Reports** — when the run can reach the Claude API, `npm run draft -- --all --stale 7`
