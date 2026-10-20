@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-20T20:28:08.943Z",
+  "fetchedAt": "2026-10-20T21:43:19.689Z",
   "items": [
     {
       "id": "ae67a79084b5",
       "title": "Which EU regulations affect your supply chain? EUDR, CSRD, PPWR, CBAM and more",
       "url": "https://www.coolset.com/academy/eu-supply-chain-regulations-eudr-csrd-csddd-cbam-ppwr",
       "publisher": "Coolset",
-      "published": "2026-10-20T20:28:08.942Z",
+      "published": "2026-10-20T21:43:19.688Z",
       "eventIds": [
         "eu-supply-chain-rules-2027"
       ]
@@ -16,18 +16,221 @@
       "title": "Opinion polling for the 2027 French presidential election",
       "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2027_French_presidential_election",
       "publisher": "Wikipedia",
-      "published": "2026-10-20T20:28:08.942Z",
+      "published": "2026-10-20T21:43:19.688Z",
       "eventIds": [
         "france-election-2027"
       ]
     },
     {
       "id": "672bfaff10a4",
-      "title": "Netflix posts third-quarter earnings beat, says viewer engagement remains 'healthy'",
+      "title": "Netflix posts third-quarter earnings beat, but shares fall on advertising and revenue guidance",
       "url": "https://www.cnbc.com/2026/10/20/netflix-nflx-earnings-q3-2026.html",
       "publisher": "CNBC World",
-      "published": "2026-10-20T20:23:21.000Z",
+      "published": "2026-10-20T21:30:06.000Z",
       "summary": "Wall Street and investors will be looking for Netflix to provide additional details about the company's strategy following recent organizational changes",
+      "eventIds": []
+    },
+    {
+      "id": "8d3d5afb1550",
+      "title": "Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo",
+      "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "published": "2026-10-20T21:27:39.000Z",
+      "summary": "Ukraine had accused the US of withholding key intelligence - a claim rejected as \"scandalous\" by Washington.",
+      "eventIds": [
+        "ukraine-summit-diplomacy"
+      ]
+    },
+    {
+      "id": "45712d89e448",
+      "title": "Italy to deploy 500 troops to Milan after days of protests and looting",
+      "url": "https://www.theguardian.com/world/2026/oct/20/milan-luxury-shops-close-italy-to-deploy-troops-youth-protests-europe",
+      "publisher": "The Guardian World",
+      "published": "2026-10-20T21:24:01.000Z",
+      "summary": "<p>Government planning tougher security measures as France also says military forces will be deployed</p><ul><li><p><a href=\"https://www.theguardian.com/world/2026/oct/18/europe-protests-france-spain-portugal-2026-explainer\">Why are people protesting across Europe?</a></p></li></",
+      "eventIds": [
+        "italy-cost-of-living-riots",
+        "france-unrest-2026"
+      ]
+    },
+    {
+      "id": "673d9162497a",
+      "title": "Egypt involvement in Yemen 'may actually weaken Cairo's regional role', expert says",
+      "url": "https://www.france24.com/en/tv-shows/a-propos/20261020-egypt-involvement-in-yemen-may-actually-weaken-egypt-s-regional-role-expert-says",
+      "publisher": "France 24",
+      "published": "2026-10-20T21:18:48.000Z",
+      "summary": "Egypt's parliament on Monday delayed a debate on President Abdel Fattah al-Sisi's request to authorise military support for Saudi Arabia until next week, state media reported, after an emergency session ended without a decision a day earlier. FRANCE 24's Sharon Gaffney speaks wit",
+      "eventIds": [
+        "gulf-war-energy-shock"
+      ]
+    },
+    {
+      "id": "7b90f4212813",
+      "title": "PSG end Barcelona's winning run as Liverpool fight back against Villarreal",
+      "url": "https://www.france24.com/en/sport/20261020-psg-end-barcelona-winning-run-as-liverpool-fight-back-against-villarreal",
+      "publisher": "France 24",
+      "published": "2026-10-20T21:17:50.000Z",
+      "summary": "Paris Saint-Germain came from behind to beat Barcelona 4-2 in a Champions League thriller on Tuesday, handing the Catalans their first defeat of the season. Liverpool staged a dramatic comeback to edge Villarreal 4-3 at Anfield, while Manchester City cruised to a 5-1 victory over",
+      "eventIds": []
+    },
+    {
+      "id": "3b710576d130",
+      "title": "You Can See Everything mania lifts viewership for The Dropout by 186%",
+      "url": "https://www.theguardian.com/film/2026/oct/20/you-can-see-everything-dropout-viewership",
+      "publisher": "The Guardian World",
+      "published": "2026-10-20T21:16:23.000Z",
+      "summary": "<p>The hit Elizabeth Holmes documentary led to increased interest in both the award-winning narrative series on Hulu as well as Bad Blood, the 2018 book on the scandal</p><ul><li><p><a href=\"https://www.theguardian.com/film/2026/oct/19/you-can-see-everything-movie-spoilers-succes",
+      "eventIds": []
+    },
+    {
+      "id": "2e829d8824e8",
+      "title": "Trump says he will have spent $400m to support Republicans in midterms – US politics live",
+      "url": "https://www.theguardian.com/us-news/live/2026/oct/20/donald-trump-midterms-republicans-democrats-north-carolina-latest-updates",
+      "publisher": "The Guardian World",
+      "published": "2026-10-20T21:15:41.000Z",
+      "summary": "<p>President also announces incentive program for people to report fraud, as administration continues attack on Minnesota</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_m",
+      "eventIds": [
+        "us-midterms-2026"
+      ]
+    },
+    {
+      "id": "4c9c5ce492cc",
+      "title": "Helen Haines live updates: Sister of slain UK MP Jo Cox urges Australians to find ‘common ground’; alleged Haines attacker to face court",
+      "url": "https://www.theguardian.com/australia-news/live/2026/oct/21/helen-haines-independent-mp-alleged-attack-wangaratta-vigils-court-ntwnfb",
+      "publisher": "The Guardian World",
+      "published": "2026-10-20T21:12:23.000Z",
+      "summary": "<p>Follow the day’s news live.</p><ul><li><p><a href=\"https://www.theguardian.com/australia-news/2026/oct/19/mp-helen-haines-injured-incident-wangaratta-ntwnfb\">‘Deeply appalled’: politicians condemn alleged attack after Helen Haines critically injured</a></p></li><li><p><a href=",
+      "eventIds": []
+    },
+    {
+      "id": "7f669f6f9945",
+      "title": "Suspect arrested after historic town hall set alight - French media",
+      "url": "https://www.bbc.co.uk/news/articles/cw5yn5e8mezvo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "published": "2026-10-20T21:05:50.000Z",
+      "summary": "The spire of the clock tower at Limoges city hall dramatically collapsed as it was engulfed in flames on Saturday.",
+      "eventIds": []
+    },
+    {
+      "id": "d37d4183c4bc",
+      "title": "Why do the US midterms matter for Trump and Congress?",
+      "url": "https://www.aljazeera.com/news/2026/10/20/why-do-the-us-midterms-matter-for-trump-and-congress?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "published": "2026-10-20T21:00:42.000Z",
+      "summary": "Republicans and Democrats jockey for control of Congress, which will set course for Trump's final two years in office.",
+      "eventIds": [
+        "us-midterms-2026"
+      ]
+    },
+    {
+      "id": "612516d1a6ec",
+      "title": "Lula's campaign seeks to disqualify Bolsonoro from Brazil presidential vote over Meta 'interference'",
+      "url": "https://www.france24.com/en/americas/20261020-lula-campaign-seeks-disqualify-bolsonoro-from-brazil-presidential-vote-over-meta-interference",
+      "publisher": "France 24",
+      "published": "2026-10-20T20:59:51.000Z",
+      "summary": "President Luiz Inácio Lula da Silva’s campaign is preparing to request the annulment of right-wing rival Flavio Bolsonaro's candidacy over alleged social media interference from US tech giant Meta as Brazil’s presidential race intensifies ahead of Sunday’s runoff. The petition th",
+      "eventIds": [
+        "brazil-runoff-2026"
+      ]
+    },
+    {
+      "id": "7951c7a0501d",
+      "title": "Egypt involvement in Yemen 'may actually weaken Cairo's regional role', expert says",
+      "url": "https://www.france24.com/en/egypt-involvement-in-yemen-may-actually-weaken-egypt-s-regional-role-expert-says",
+      "publisher": "France 24",
+      "published": "2026-10-20T20:57:29.000Z",
+      "summary": "Egypt's parliament on Monday delayed a debate on President Abdel Fattah al-Sisi's request to authorise military support for Saudi Arabia until next week, state media reported, after an emergency session ended without a decision a day earlier. FRANCE 24's Sharon Gaffney speaks wit",
+      "eventIds": [
+        "gulf-war-energy-shock"
+      ]
+    },
+    {
+      "id": "a7db14ab1450",
+      "title": "Audit regulator looking into Manchester City accounting",
+      "url": "https://www.bbc.co.uk/news/articles/cm93z1xlgqxqo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC Business",
+      "published": "2026-10-20T20:56:53.000Z",
+      "summary": "No formal investigation has started, but the regulator is making inquiries into the case.",
+      "eventIds": []
+    },
+    {
+      "id": "d0289c87fd58",
+      "title": "Kyle Kennedy, granddaughter of Robert F Kennedy, dies aged 42",
+      "url": "https://www.theguardian.com/us-news/2026/oct/20/kyle-kennedy-dead-rfk",
+      "publisher": "The Guardian World",
+      "published": "2026-10-20T20:55:01.000Z",
+      "summary": "<p>Kennedy taught in New York public schools and advocated for disability rights after suffering severe spinal cord injury</p><p>Kyle Kennedy, the granddaughter of Robert F Kennedy and Ethel Kennedy, has died at the age of 42.</p><p>Kyle, the daughter of Michael Kennedy, who died",
+      "eventIds": []
+    },
+    {
+      "id": "6bac70756439",
+      "title": "PSG and Barcelona fans divided over politics in football amid Paris riots",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/psg-and-barcelona-fans-divided-over-politics-in-football-amid-paris-riots?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "published": "2026-10-20T20:49:00.000Z",
+      "summary": "As PSG face Barcelona in a Champions League clash, fans weigh in on whether football should be a political platform.",
+      "eventIds": [
+        "france-unrest-2026"
+      ]
+    },
+    {
+      "id": "b090686489d5",
+      "title": "US regulators certify Boeing 737 Max 10 after years of delay",
+      "url": "https://www.france24.com/en/tv-shows/business/20261020-us-regulators-certify-boeing-737-max-10-after-years-of-delay",
+      "publisher": "France 24",
+      "published": "2026-10-20T20:46:03.000Z",
+      "summary": "The US Federal Aviation Administration has given final approval for the 737-10, the largest model in Boeing's best-selling Max family. The certification comes more than five years after the narrowbody jet's maiden flight, and marks an important step for the planemaker that's been",
+      "eventIds": []
+    },
+    {
+      "id": "8e17b57b6a7e",
+      "title": "‘I’m alive’: Paris street medic isn’t dead, despite viral claims he was killed by police",
+      "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20261020-i-m-alive-paris-street-medic-isn-t-dead-despite-viral-claims-he-was-killed-by-police",
+      "publisher": "France 24",
+      "published": "2026-10-20T20:43:22.000Z",
+      "summary": "A video showing French riot police violently beating a 26-year-old street medic in Paris has gone viral, with social media users falsely claiming he died from his injuries. But the street medic is alive, and spoke to FRANCE 24. The rumour was fuelled by confusion with a separate ",
+      "eventIds": [
+        "france-unrest-2026"
+      ]
+    },
+    {
+      "id": "a5d60017f104",
+      "title": "Trump suggests he could be ‘arbitrator’ in DoJ anti-fraud whistleblower scheme",
+      "url": "https://www.theguardian.com/us-news/2026/oct/20/trump-doj-anti-fraud-tip",
+      "publisher": "The Guardian World",
+      "published": "2026-10-20T20:36:20.000Z",
+      "summary": "<p>President makes suggestion while announcing new program to reward tipsters who submit fraud allegations</p><p>Donald Trump suggested on Tuesday that <a href=\"https://www.theguardian.com/us-news/ng-interactive/2026/oct/18/trump-justice-department-us-midterms\">he would serve as ",
+      "eventIds": [
+        "us-midterms-2026"
+      ]
+    },
+    {
+      "id": "7aae765fc9f8",
+      "title": "Trump: Ilhan Omar could be deported, slams Somalia as a ‘s—house’",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/trump-ilhan-omar-could-be-deported-slams-somalia-as-a-s?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "published": "2026-10-20T20:32:29.000Z",
+      "summary": "Donald Trump called Congresswoman Ilhan Omar “sick” and “dishonest” a week after federal agents raided her home.",
+      "eventIds": [
+        "us-midterms-2026"
+      ]
+    },
+    {
+      "id": "338e5d98ecb5",
+      "title": "Current U.S. support for Ukraine looks very different than it did",
+      "url": "https://www.npr.org/2026/10/20/nx-s1-6009227/current-u-s-support-for-ukraine-looks-very-different-than-it-did",
+      "publisher": "NPR World",
+      "published": "2026-10-20T20:27:23.000Z",
+      "summary": "NPR's Scott Detrow talks with William Taylor, former U.S. Ambassador to Ukraine, about President Trump's recent moves to support Russia and how that compares to past administrations.",
+      "eventIds": []
+    },
+    {
+      "id": "cc84628880e5",
+      "title": "Why the war on Iran could backfire on US regime-change goals",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/aje-onl-nf_war-on-iran-could-strengthen-nationalism-201026?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "published": "2026-10-20T20:23:52.000Z",
+      "summary": "Mortazavi: The war on Iran could strengthen Iranian nationalism rather than trigger regime change.",
       "eventIds": []
     },
     {
@@ -37,6 +240,35 @@
       "publisher": "NPR World",
       "published": "2026-10-20T20:19:16.000Z",
       "summary": "Nigeria is the latest country to report an Ebola case as the outbreak spreads across the region. Kenya confirmed its first case earlier this month and has since recorded nine infections.",
+      "eventIds": []
+    },
+    {
+      "id": "c3382a0242b8",
+      "title": "UK police re-arrest two men on suspicion of assisting Iran’s intelligence",
+      "url": "https://www.aljazeera.com/news/2026/10/20/uk-police-re-arrest-two-men-on-suspicion-of-assisting-iranian-intelligence?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "published": "2026-10-20T20:17:53.000Z",
+      "summary": "Duo was first arrested for suspected link to incident at US-run airbase used for striking Iran during this year's war.",
+      "eventIds": []
+    },
+    {
+      "id": "7470942fa3f8",
+      "title": "France riots leave thousands of businesses damaged",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/france-riots-leave-thousands-of-businesses-damaged?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "published": "2026-10-20T20:16:01.000Z",
+      "summary": "Weekend riots in France left more than 3,000 businesses damaged with owners facing devastating losses",
+      "eventIds": [
+        "france-unrest-2026"
+      ]
+    },
+    {
+      "id": "6722bad6612e",
+      "title": "Trump campaigning in Republican strongholds amid slide in polls",
+      "url": "https://www.france24.com/en/trump-campaigning-in-republican-strongholds-amid-slide-in-polls",
+      "publisher": "France 24",
+      "published": "2026-10-20T20:13:03.000Z",
+      "summary": "With the midterm elections fast approaching, US President Donald Trump is stumping for candidates in states that he won by double digits in 2024. Despite what he says, it’s a sign of what Trump and the Republican party are fearing: with polls showing GOP support slip drastically ",
       "eventIds": []
     },
     {
@@ -60,14 +292,15 @@
       ]
     },
     {
-      "id": "2e829d8824e8",
-      "title": "Trump says he will have spent $400m to support Republicans in midterms – US politics live",
-      "url": "https://www.theguardian.com/us-news/live/2026/oct/20/donald-trump-midterms-republicans-democrats-north-carolina-latest-updates",
-      "publisher": "The Guardian World",
-      "published": "2026-10-20T20:10:09.000Z",
-      "summary": "<p>President also announces incentive program for people to report fraud, as administration continues attack on Minnesota</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_m",
+      "id": "29f1535a445d",
+      "title": "Italy sends troops, toughens security laws after Milan clashes",
+      "url": "https://www.france24.com/en/italy-sends-troops-toughens-security-laws-after-milan-clashes",
+      "publisher": "France 24",
+      "published": "2026-10-20T20:09:52.000Z",
+      "summary": "Italy on Tuesday approved the deployment of 500 troops to Milan after violent clashes as fuel price protests hit pasta production and food deliveries in southern Italy. A cabinet meeting on Tuesday also approved a series of security measures, including making the detention of min",
       "eventIds": [
-        "us-midterms-2026"
+        "france-unrest-2026",
+        "italy-cost-of-living-riots"
       ]
     },
     {
@@ -89,6 +322,17 @@
       "eventIds": []
     },
     {
+      "id": "ca5102cd0fa0",
+      "title": "French PM vows 'massive' police deployment for new demonstrations",
+      "url": "https://www.france24.com/en/french-pm-vows-massive-police-deployment-for-new-demonstrations",
+      "publisher": "France 24",
+      "published": "2026-10-20T20:05:44.000Z",
+      "summary": "French Prime Minister Sebastien Lecornu on Tuesday vowed a \"massive\" police presence at fresh protests called for the coming weekend, as he faced criticism over the handling of recent street violence. The eurozone's second-largest economy was rocked on Saturday by some of its wor",
+      "eventIds": [
+        "france-unrest-2026"
+      ]
+    },
+    {
       "id": "3c5d4aaa7a1f",
       "title": "EU revises Arctic strategy as pressure from Russia, US grows",
       "url": "https://www.aljazeera.com/news/2026/10/20/eu-revises-arctic-strategy-as-pressure-from-russia-us-grows?traffic_source=rss",
@@ -98,6 +342,17 @@
       "eventIds": []
     },
     {
+      "id": "3fd4cc7855ef",
+      "title": "'Netanyahu is fighting for his political career', expert says a week ahead of crucial vote",
+      "url": "https://www.france24.com/en/netanyahu-is-fighting-for-his-political-career-expert-says-a-week-ahead-of-crucial-vote",
+      "publisher": "France 24",
+      "published": "2026-10-20T20:03:50.000Z",
+      "summary": "Israeli Prime Minister Benjamin Netanyahu basked in Donald Trump's endorsement on Monday ahead of close-fought elections, airing a phone call in which the US president predicted he would win and suggested they may again attack Iran together. FRANCE 24's Noga Tarnopolsky reports f",
+      "eventIds": [
+        "israel-election-2026"
+      ]
+    },
+    {
       "id": "143c5ebd451d",
       "title": "10-year Treasury yield moves lower after weak housing data",
       "url": "https://www.cnbc.com/2026/10/20/us-treasury-yields-investors-economy.html",
@@ -105,17 +360,6 @@
       "published": "2026-10-20T20:03:14.000Z",
       "summary": "Investors digested more economic data and continued to assess the inflationary backdrop ahead of the Federal Reserve's interest rate decision next week.",
       "eventIds": []
-    },
-    {
-      "id": "8d3d5afb1550",
-      "title": "Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo",
-      "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "published": "2026-10-20T20:01:04.000Z",
-      "summary": "Ukraine had accused the US of withholding key intelligence - a claim rejected as \"scandalous\" by Washington.",
-      "eventIds": [
-        "ukraine-summit-diplomacy"
-      ]
     },
     {
       "id": "524d17dbf476",
@@ -147,15 +391,6 @@
       ]
     },
     {
-      "id": "4c9c5ce492cc",
-      "title": "Helen Haines live updates: Alleged attacker Brendan Nugent to face court in Wangaratta this morning",
-      "url": "https://www.theguardian.com/australia-news/live/2026/oct/21/helen-haines-independent-mp-alleged-attack-wangaratta-vigils-court-ntwnfb",
-      "publisher": "The Guardian World",
-      "published": "2026-10-20T19:51:33.000Z",
-      "summary": "<p>Follow the day’s news live.</p><ul><li><p><a href=\"https://www.theguardian.com/australia-news/2026/oct/19/mp-helen-haines-injured-incident-wangaratta-ntwnfb\">Deeply appalled’: politicians condemn alleged attack after Helen Haines critically injured</a></p></li><li><p><a href=\"",
-      "eventIds": []
-    },
-    {
       "id": "8f24114e8f55",
       "title": "Netanyahu says he discussed ‘eliminating’ Iran’s regime with Trump",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/netanyahu-says-he-discussed-eliminating-irans-regime-with-trump?traffic_source=rss",
@@ -173,15 +408,6 @@
       "publisher": "Euronews",
       "published": "2026-10-20T19:51:05.000Z",
       "summary": "Spanish Guardia Civil officers have rescued a family and their dogs from a flooded home in Oliva, in eastern Spain. Dramatic footage shows officers carrying residents to safety as floodwaters engulf the town, while aerial images reveal the extent of the flooding across the Valenc",
-      "eventIds": []
-    },
-    {
-      "id": "62d81bdb8514",
-      "title": "DoJ’s suspected non-citizens list includes ‘high percentage’ of those born in US, LA officials say",
-      "url": "https://www.theguardian.com/us-news/2026/oct/20/doj-non-citizens-la",
-      "publisher": "The Guardian World",
-      "published": "2026-10-20T19:46:38.000Z",
-      "summary": "<p>The statement revealed in court papers raises questions about the reliability of the list of 20,000 people in California</p><p>The justice department’s list of suspected non-citizens in <a href=\"https://www.theguardian.com/us-news/california\">California</a> includes a “high pe",
       "eventIds": []
     },
     {
@@ -364,15 +590,6 @@
       "eventIds": []
     },
     {
-      "id": "9465f6161955",
-      "title": "Ohio Democrat’s family criticizes Vivek Ramaswamy for bringing up estranged mother in gubernatorial ad",
-      "url": "https://www.theguardian.com/us-news/2026/oct/20/ohio-democrat-vivek-ramaswamy-ad",
-      "publisher": "The Guardian World",
-      "published": "2026-10-20T18:38:07.000Z",
-      "summary": "<p>Amy Acton’s brother calls campaigning on his sister’s sexual abuse from their mother’s husband ‘a despicable low’</p><p>The family of Amy Acton, the Democratic candidate for governor of Ohio, is criticizing her Republican opponent <a href=\"https://www.theguardian.com/us-news/v",
-      "eventIds": []
-    },
-    {
       "id": "fb033c71acad",
       "title": "Mike Bloomberg spent $80M to boost Democrats in midterms: NYT",
       "url": "https://www.cnbc.com/2026/10/20/mike-bloomberg-democrats-house-trump.html",
@@ -397,11 +614,11 @@
     },
     {
       "id": "922f60df726b",
-      "title": "Jackdaw North Sea gasfield to get go-ahead in blow to climate campaigners",
+      "title": "Andy Burnham faces climate revolt after approval of North Sea gas drilling",
       "url": "https://www.theguardian.com/environment/2026/oct/20/jackdaw-north-sea-gas-field-to-get-go-ahead-in-blow-to-climate-campaigners",
       "publisher": "The Guardian World",
       "published": "2026-10-20T18:24:46.000Z",
-      "summary": "<p>Move signals Andy Burnham’s commitment to North Sea industry but threatens to undermine Labour’s green credentials</p><p>• <a href=\"https://www.theguardian.com/business/2026/oct/20/what-does-the-approval-of-the-jackdaw-gasfield-mean\">What does the approval of the Jackdaw gasfi",
+      "summary": "<p>Jackdaw gasfield announcement signals UK’s commitment to North Sea industry but undermines green credentials</p><ul><li><p><a href=\"https://www.theguardian.com/business/2026/oct/20/what-does-the-approval-of-the-jackdaw-gasfield-mean\">What does the approval of the Jackdaw gasfi",
       "eventIds": []
     },
     {
@@ -546,17 +763,6 @@
       ]
     },
     {
-      "id": "8ba595491818",
-      "title": "Ex-student alleging sexual assault felt ‘unsupported’ by Cornell president",
-      "url": "https://www.theguardian.com/us-news/2026/oct/20/cornell-student-alleging-sexual-assault-letter",
-      "publisher": "The Guardian World",
-      "published": "2026-10-20T17:29:44.000Z",
-      "summary": "<p>The ex-student writes she wants to share information that ‘may be relevant’ to vote of no confidence</p><p>The former Cornell University student who <a href=\"https://www.theguardian.com/us-news/2026/sep/28/cornell-fraternity-investigation-alleged-gang-rape\">accused seven men o",
-      "eventIds": [
-        "us-midterms-2026"
-      ]
-    },
-    {
       "id": "319cac76d45a",
       "title": "As Macron visits Gulf, can France forge its own energy-for-security future?",
       "url": "https://www.aljazeera.com/news/2026/10/20/as-macron-visits-gulf-can-france-forge-its-own-energy-for-security-future?traffic_source=rss",
@@ -640,17 +846,6 @@
       "eventIds": []
     },
     {
-      "id": "f32f4618c0bc",
-      "title": "Why are French police so violent? Their job is to protect the state, not the people",
-      "url": "https://www.theguardian.com/world/2026/oct/20/france-culture-violent-policing-protests-riots",
-      "publisher": "The Guardian World",
-      "published": "2026-10-20T16:49:44.000Z",
-      "summary": "<p>Officers are instruments of state whose job is to repress, rather than manage, public dissent</p><p>Familiar images of teargas clouds drifting across Paris squares, police baton charges against masked protesters and terrified teenagers floored – and worse – by stun grenades ha",
-      "eventIds": [
-        "france-unrest-2026"
-      ]
-    },
-    {
       "id": "877b01b5ab02",
       "title": "What options traders expect from SpaceX earnings after the bell",
       "url": "https://www.cnbc.com/2026/10/20/spacex-reports-after-the-bell-heres-what-options-traders-expect-.html",
@@ -722,35 +917,6 @@
       "eventIds": []
     },
     {
-      "id": "effa92e3be27",
-      "title": "Qatar says only negotiations can resolve regional tensions",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/qatar-says-only-negotiations-can-resolve-regional-tensions?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "published": "2026-10-20T16:21:01.000Z",
-      "summary": "Qatar says diplomatic efforts are ongoing to de-escalate regional tensions and reopen the Strait of Hormuz.",
-      "eventIds": []
-    },
-    {
-      "id": "5daceb995105",
-      "title": "Ferry catches fire near Indonesian port, all passengers rescued",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/ferry-catches-fire-near-indonesian-port-all-passengers-rescued?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "published": "2026-10-20T16:13:16.000Z",
-      "summary": "A fire broke out aboard the KMP Batumandi as the ferry approached Merak Port in western Indonesia on Tuesday",
-      "eventIds": []
-    },
-    {
-      "id": "b27251a7b571",
-      "title": "Zelensky and US envoys holding Oslo talks as Rubio denies withholding intelligence",
-      "url": "https://www.bbc.co.uk/news/articles/ck9qzn193lrlo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC Europe",
-      "published": "2026-10-20T16:11:56.000Z",
-      "summary": "The US secretary of state earlier rejected accusations Ukrainians were dying because the US was withholding critical intelligence.",
-      "eventIds": [
-        "ukraine-summit-diplomacy"
-      ]
-    },
-    {
       "id": "d18155f137a2",
       "title": "‘Bad decisions’: Man convicted for taking Peachy the flamingo from Las Vegas hotel",
       "url": "https://www.theguardian.com/us-news/2026/oct/20/man-convicted-peachy-the-flamingo-las-vegas-hotel",
@@ -780,50 +946,12 @@
       ]
     },
     {
-      "id": "7f669f6f9945",
-      "title": "Suspect arrested after historic town hall set alight - French media",
-      "url": "https://www.bbc.co.uk/news/articles/cw5yn5e8mezvo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "published": "2026-10-20T16:06:39.000Z",
-      "summary": "The spire of the clock tower at Limoges city hall dramatically collapsed as it was engulfed in flames on Saturday.",
-      "eventIds": []
-    },
-    {
-      "id": "788cd47b551c",
-      "title": "Trump official claims record-breaking 300,000 visas were revoked",
-      "url": "https://www.aljazeera.com/news/2026/10/20/trump-official-claims-record-breaking-300000-visas-were-revoked?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "published": "2026-10-20T16:02:47.000Z",
-      "summary": "The revocations targeted US visa holders who had allegedly broken the law, a spokesperson said.",
-      "eventIds": []
-    },
-    {
-      "id": "fd1ee3605616",
-      "title": "Lavrov backs Tehran, but does Russia also gain from the US-Iran crisis?",
-      "url": "https://www.aljazeera.com/news/2026/10/20/lavrov-backs-tehran-but-does-russia-also-gain-from-the-us-iran-crisis?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "published": "2026-10-20T16:01:01.000Z",
-      "summary": "Moscow pledges support to its sanctioned ally, but analysts say the war Iran wants to end has filled Russia’s coffers.",
-      "eventIds": [
-        "russia-record-budget-deficit-2026"
-      ]
-    },
-    {
       "id": "1d652d63792f",
       "title": "Latest news bulletin | October 20th, 2026 – Evening",
       "url": "https://www.euronews.com/video/2026/10/20/latest-news-bulletin-october-20th-2026-evening",
       "publisher": "Euronews",
       "published": "2026-10-20T16:00:26.000Z",
       "summary": "Catch up with the most important stories from around Europe and beyond this October 20th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "eventIds": []
-    },
-    {
-      "id": "68d2913e0674",
-      "title": "PSG vs Barcelona LIVE: Champions League",
-      "url": "https://www.aljazeera.com/sports/liveblog/2026/10/20/psg-vs-barcelona-live-champions-league?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "published": "2026-10-20T16:00:00.000Z",
-      "summary": "Follow updates from the league-stage clash, including the build-up, analysis and live text commentary of the game.",
       "eventIds": []
     },
     {
@@ -834,17 +962,6 @@
       "published": "2026-10-20T15:58:57.000Z",
       "summary": "Janine Lochrenberg, 65, was out on her daily morning swim with her club when she was attacked, her family tell the BBC.",
       "eventIds": []
-    },
-    {
-      "id": "3651ab80eeae",
-      "title": "‘You have to sacrifice’: Trump voters stay loyal as US midterms approach",
-      "url": "https://www.aljazeera.com/news/2026/10/20/you-have-to-sacrifice-trump-voters-stay-loyal-as-us-midterms-approach?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "published": "2026-10-20T15:57:47.000Z",
-      "summary": "Rising economic pain confronting US voters has not translated into a loss of faith among Trump’s most loyal supporters.",
-      "eventIds": [
-        "us-midterms-2026"
-      ]
     },
     {
       "id": "bfba6319bd21",
@@ -1056,60 +1173,6 @@
       ]
     },
     {
-      "id": "bf216219c2bd",
-      "title": "Midterms: Trump seizes on unrest in France for political gain",
-      "url": "https://www.france24.com/en/video/20261020-midterms-trump-seizes-on-unrest-in-france-for-political-gain",
-      "publisher": "France 24",
-      "published": "2026-10-20T13:54:13.000Z",
-      "summary": "Donald #Trump seizes on unrest in #France to attack immigration and the #Democrats, using the issue as a campaign message ahead of the November 3 US #midterms.",
-      "eventIds": [
-        "us-midterms-2026"
-      ]
-    },
-    {
-      "id": "4c2c5ec222d4",
-      "title": "Alberta rejects move toward independence from Canada",
-      "url": "https://www.france24.com/en/video/20261020-alberta-rejects-move-toward-independence-from-canada",
-      "publisher": "France 24",
-      "published": "2026-10-20T13:51:33.000Z",
-      "summary": "Canada's province of Alberta rejected a plan to hold a binding independence referendum, results showed Tuesday, a win for unity as the country faces worsening ties with the United States. With more than 1.5 million votes counted, 76% supported remaining in Canada, while close to ",
-      "eventIds": [
-        "alberta-independence-vote"
-      ]
-    },
-    {
-      "id": "585c57f6e76b",
-      "title": "Macron secures 200,000 tonnes of extra diesel per month from UAE, Bahrain",
-      "url": "https://www.france24.com/en/video/20261020-macron-secures-200-000-tonnes-of-extra-diesel-per-month-from-uae-bahrain",
-      "publisher": "France 24",
-      "published": "2026-10-20T13:49:14.000Z",
-      "summary": "French President Emmanuel Macron has secured the delivery of an additional 200,000 tonnes of diesel per month from the United Arab Emirates and Bahrain, the French presidency said on Tuesday. Macron is undertaking a tour of key energy suppliers in the Gulf in an effort to secure ",
-      "eventIds": [
-        "france-unrest-2026",
-        "gulf-war-energy-shock"
-      ]
-    },
-    {
-      "id": "52b11d5ff878",
-      "title": "France unrest: Public reacts to PM’s announcement of new targeted curfews",
-      "url": "https://www.france24.com/en/video/20261020-france-unrest-public-reacts-to-pm-s-announcement-of-new-targeted-curfews",
-      "publisher": "France 24",
-      "published": "2026-10-20T13:47:20.000Z",
-      "summary": "French Prime Minister Sébastien Lecornu has announced that new targeted curfews would be put in place this Tuesday in France. This comes after measures introduced overnight helped maintain calm following unrest over the weekend.",
-      "eventIds": [
-        "france-unrest-2026"
-      ]
-    },
-    {
-      "id": "d5f46c8e833b",
-      "title": "Norwegian explorer Erling Kagge: 'The Arctic is heating up in every way'",
-      "url": "https://www.france24.com/en/tv-shows/perspective/20261020-norwegian-explorer-erling-kagge-the-arctic-is-heating-up-in-every-way",
-      "publisher": "France 24",
-      "published": "2026-10-20T13:45:36.000Z",
-      "summary": "In Perspective, we spoke to the Norwegian explorer Erling Kagge, the first man to reach the North Pole unassisted by animals or vehicles. He is also the first person ever to reach the North and South Poles and the summit of Mount Everest on foot. His book \"The North Pole: The His",
-      "eventIds": []
-    },
-    {
       "id": "307ff503f5be",
       "title": "Australian model and swimwear designer Sahara Ray dies aged 34",
       "url": "https://www.euronews.com/2026/10/20/australian-model-and-swimwear-designer-sahara-ray-dies-aged-34",
@@ -1141,60 +1204,12 @@
       ]
     },
     {
-      "id": "e244f6f0a32e",
-      "title": "🔴 French PM vows 'massive' police operation for new protests on Saturday",
-      "url": "https://www.france24.com/en/europe/20261020-live-curfews-come-into-effect-around-france-to-combat-looting",
-      "publisher": "France 24",
-      "published": "2026-10-20T13:38:02.000Z",
-      "eventIds": []
-    },
-    {
-      "id": "db4f5b98b19c",
-      "title": "France's sociopolitical & economic crises: 'Large portion of population sympathizes' with protestors",
-      "url": "https://www.france24.com/en/video/20261020-france-s-sociopolitical-economic-crises-large-portion-of-population-sympathizes-with-protestors",
-      "publisher": "France 24",
-      "published": "2026-10-20T13:32:09.000Z",
-      "summary": "Genie Godula is pleased to welcome Damien Lecomte, Political Scientist and Researcher at Paris Panthéon Sorbonne University. France’s escalating unrest has exposed a profound contradiction in the state’s response: disproportionate force against peaceful demonstrators and an inabi",
-      "eventIds": [
-        "france-unrest-2026"
-      ]
-    },
-    {
-      "id": "75e5224f7204",
-      "title": "Six years on, France remembers slain teacher Samuel Paty",
-      "url": "https://www.france24.com/en/tv-shows/focus/20261020-six-years-on-france-remembers-slain-teacher-samuel-paty",
-      "publisher": "France 24",
-      "published": "2026-10-20T13:28:07.000Z",
-      "summary": "French schoolteacher Samuel Paty was killed on October 16, 2020 after false rumours circulated about racism following one of his lessons in which cartoons from the satirical publication Charlie Hebdo were shown. For the first time since his murder, journalists from France Télévis",
-      "eventIds": [
-        "france-unrest-2026"
-      ]
-    },
-    {
       "id": "61eeb8bbcb96",
       "title": "Kenya cult leader's children still being starved weeks before trial, son says",
       "url": "https://www.bbc.co.uk/news/articles/c6d7q2rxqxgxo?at_medium=RSS&at_campaign=rss",
       "publisher": "BBC World",
       "published": "2026-10-20T13:23:32.000Z",
       "summary": "Dan Mackenzie initially defended his father but now says he felt he had to report his own grandmother.",
-      "eventIds": []
-    },
-    {
-      "id": "4222a14c4aa4",
-      "title": "Ivorian DJ digs forgotten tracks, on the hunt for great classics",
-      "url": "https://www.france24.com/en/video/20261020-ivorian-dj-digs-forgotten-tracks-on-the-hunt-for-great-classics",
-      "publisher": "France 24",
-      "published": "2026-10-20T13:09:36.000Z",
-      "summary": "Cédric Kouamé travels across Ivory Coast to collect old vinyl records before restoring them. The Ivorian DJ hopes to bring national attention to his passion through an official centre dedicated to the country's historical archives, as FRANCE 24's team on the ground reports.",
-      "eventIds": []
-    },
-    {
-      "id": "fbea2904d6c4",
-      "title": "Midterms 2026: The farmers calling for more migrant workers",
-      "url": "https://www.france24.com/en/video/20261020-midterms-2026-the-farmers-calling-for-more-migrant-workers",
-      "publisher": "France 24",
-      "published": "2026-10-20T13:09:22.000Z",
-      "summary": "As the US midterms approach, immigration is once again dominating the country’s political discourse and Arizona’s largely agricultural Yuma County, just miles from the Mexican border, is no exception. But here, farmers like John Boelts are calling for more legal migrants, warning",
       "eventIds": []
     },
     {
@@ -1331,7 +1346,7 @@
     },
     {
       "id": "534570bc23a9",
-      "title": "Man charged with attack on Australian MP as suspect's father says she is family friend",
+      "title": "Man charged with attack on Australia MP to face court",
       "url": "https://www.bbc.co.uk/news/articles/c678pnn9mpgno?at_medium=RSS&at_campaign=rss",
       "publisher": "BBC World",
       "published": "2026-10-20T11:25:35.000Z",
@@ -2488,15 +2503,6 @@
       "eventIds": []
     },
     {
-      "id": "ce0aea428398",
-      "title": "Solar power is changing agriculture in Pakistan, but some fear it could cause issues",
-      "url": "https://www.npr.org/2026/10/19/nx-s1-5993523/solar-power-is-changing-agriculture-in-pakistan-but-some-fear-it-could-cause-issues",
-      "publisher": "NPR World",
-      "published": "2026-10-19T08:45:58.000Z",
-      "summary": "Solar power is transforming agriculture in Pakistan. But in a country already facing water scarcity and extreme weather, some fear their widespread use could cause problems.",
-      "eventIds": []
-    },
-    {
       "id": "f696f9c3376e",
       "title": "US is coming to Central Asia with deals to stay, Rubio tells Euronews",
       "url": "https://www.euronews.com/2026/10/19/us-is-coming-to-central-asia-with-deals-to-stay-rubio-tells-euronews",
@@ -2923,15 +2929,6 @@
       "eventIds": []
     },
     {
-      "id": "4189e56ec9c4",
-      "title": "Faisal Islam: Why China and AI are worrying global finance bosses",
-      "url": "https://www.bbc.co.uk/news/articles/cm4g189jvnxjo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC Business",
-      "published": "2026-10-17T01:59:48.000Z",
-      "summary": "At the IMF meeting in Bangkok this week finance and business leaders grappled with uncertainty.",
-      "eventIds": []
-    },
-    {
       "id": "3be459c00c45",
       "title": "Portugal sees protests over cost of living and housing crisis",
       "url": "https://www.euronews.com/2026/10/17/portugal-sees-protests-over-cost-of-living-and-housing-crisis-as-demonstrations-sweep-euro",
@@ -3221,15 +3218,6 @@
       "publisher": "BBC Business",
       "published": "2026-10-14T23:01:28.000Z",
       "summary": "With the festive season on the horizon, we trace toys from factories in China to US shelves.",
-      "eventIds": []
-    },
-    {
-      "id": "edb5a0ef1093",
-      "title": "Pope's cancer diagnosis leaves Catholics questioning what comes next",
-      "url": "https://www.bbc.co.uk/news/articles/c678p0ld7z8lo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC Europe",
-      "published": "2026-10-14T12:22:17.000Z",
-      "summary": "With few details so far, it is unclear what might need to change for a Pope who has been focused on stability.",
       "eventIds": []
     },
     {
