@@ -2,7 +2,7 @@
   "slug": "eu-supply-chain-rules-2027",
   "title": "EUDR and CBAM deadlines reshape EU imports",
   "deck": "Two EU rules, one on deforestation and one on carbon, start to bite between 30 December 2026 and September 2027, and importers of coffee, rubber, wood, steel and aluminium face new paperwork and new costs while politics in Paris, Brasilia and Washington pull the other way.",
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "status": "developing",
   "region": "European Union",
   "tags": [
@@ -23,15 +23,15 @@
   "card": {
     "headline": "The EU is about to make importers prove where their goods came from and what carbon they carry",
     "keyNumber": {
-      "value": "72 days",
-      "label": "from 19 October until the EU Deforestation Regulation applies to large and medium operators (30 December 2026)",
-      "sourceIndex": 0
+      "value": "30 Dec 2026",
+      "label": "when the EU Deforestation Regulation starts to apply to large and medium operators; CBAM certificate sales follow on 1 Feb 2027",
+      "sourceIndex": 2
     },
     "impactMeter": 3,
     "forYou": [
       {
         "role": "Importers of coffee, rubber, wood, soy, cattle products",
-        "line": "From 30 December 2026 large and medium firms need geolocation and due-diligence records for each shipment. Small firms follow on 30 June 2027."
+        "line": "From 30 December 2026 large and medium firms need geolocation and due-diligence records for each shipment. Most micro and small firms follow on 30 June 2027, but those already covered by the EU Timber Regulation start on 30 December 2026."
       },
       {
         "role": "Importers of steel and aluminium",
@@ -80,7 +80,7 @@
             "sector": "Procurement"
           },
           {
-            "text": "Chinese and Turkish steel and aluminium exporters reroute, absorb the cost or lose EU share",
+            "text": "Turkish, Chinese and Indian steel and aluminium exporters reroute, absorb the cost or lose EU share",
             "sector": "Metals trade"
           },
           {
@@ -118,14 +118,15 @@
   },
   "brief": {
     "whatHappened": [
-      "The EU Deforestation Regulation (EUDR) is set to apply to large and medium operators from 30 December 2026 and to small firms from 30 June 2027. It has already been postponed more than once, and a January 2026 commentary describes it as delayed again, with some points now fixed.",
-      "The Carbon Border Adjustment Mechanism (CBAM) is moving to its payment stage. Certificate sales open on 1 February 2027, and the first declaration is due on 30 September 2027.",
+      "The EU Deforestation Regulation (EUDR) applies to large and medium operators from 30 December 2026 and to most micro and small operators from 30 June 2027. Micro and small operators already covered by the EU Timber Regulation start on 30 December 2026. The dates were set by Regulation (EU) 2025/2650, published on 23 December 2025 after the rule had been postponed twice.",
+      "On 4 May 2026 the Commission published a simplification review that left these dates in place. A draft delegated act in the package would remove cattle hides and retreaded tyres from scope and add soluble coffee and some palm-oil derivatives from 30 December 2027. It still needs scrutiny by Parliament and Council, so check the Official Journal before relying on the new product list.",
+      "The Carbon Border Adjustment Mechanism (CBAM) is moving to its payment stage. Its definitive regime began on 1 January 2026, certificate sales open on 1 February 2027, and the first annual declaration is due on 30 September 2027.",
       "Rubber, wood, coffee, steel and aluminium importers all face new paperwork and costs. EUDR concerns land-use and traceability. CBAM concerns the carbon content of imported industrial goods."
     ],
     "whyItMatters": [
       "These are the first big tests of whether the EU's Green Deal rules reach beyond its borders. Importers, not just EU producers, must carry the burden of proof.",
-      "The rules overlap with other pressures. Chinese steel and aluminium are the largest CBAM-exposed imports, and China's export surge has just lifted its Q3 growth to 4.5%. Turkish casting and steel suppliers face Istanbul port disruption after the October floods. War in northern Ethiopia threatens coffee flows just as EUDR raises costs.",
-      "Politics may decide enforcement. Marine Le Pen has promised to stop Green Deal commitments, and the French election runs on 18 April and 2 May 2027. The next seven-year EU budget, which funds enforcement, is meant to be agreed by end-2026."
+      "The rules overlap with other pressures. Türkiye, China and India are among the largest suppliers of CBAM-covered steel and aluminium, and Türkiye was the largest source of EU finished-steel imports in 2025 at 16.5%. China's 4.5% Q3 growth leaned on exports. Record floods in and around Istanbul from 15 October killed eight people and damaged about 900 businesses. Fighting in Ethiopia's north is far from the southern coffee belt, and analysts expect little disruption to coffee exports unless it nears Addis Ababa or the Djibouti corridor.",
+      "Politics may decide enforcement. Marine Le Pen has vowed to stop the European Green Deal, and the French election runs on 18 April and 2 May 2027. The next seven-year EU budget, which funds enforcement, is meant to be agreed by end-2026."
     ],
     "winners": [
       {
@@ -152,7 +153,7 @@
       },
       {
         "who": "High-carbon steel and aluminium exporters to the EU",
-        "why": "CBAM adds a cost per tonne. Chinese and Turkish suppliers are the most exposed."
+        "why": "CBAM adds a cost per tonne. Türkiye is the largest supplier of finished steel to the EU, and China and India are also major exporters of covered goods."
       },
       {
         "who": "Manufacturers with North American and EU supply chains",
@@ -165,7 +166,7 @@
       "12 January 2027: written comments due in the USMCA annual review, which overlaps with EU compliance work.",
       "1 February 2027: CBAM certificate sales open.",
       "18 April and 2 May 2027: French presidential election rounds.",
-      "30 June 2027: EUDR applies to small firms.",
+      "30 June 2027: EUDR applies to most micro and small firms.",
       "30 September 2027: first CBAM declaration due."
     ],
     "predict": {
@@ -199,11 +200,11 @@
         "answerIndex": 0
       },
       {
-        "question": "Which imports are the largest CBAM-exposed flow into the EU, per our linked analysis?",
+        "question": "Which country was the largest source of EU finished-steel imports in 2025?",
         "options": [
-          "Chinese steel and aluminium",
-          "Brazilian coffee",
-          "Canadian dairy"
+          "Türkiye",
+          "China",
+          "South Korea"
         ],
         "answerIndex": 0
       }
@@ -220,47 +221,58 @@
       {
         "date": "2023-10-01",
         "title": "CBAM transitional phase begins",
-        "detail": "Importers of covered goods start reporting embedded emissions without paying a charge. Date from general knowledge."
+        "detail": "Importers of covered goods start reporting embedded emissions without paying a charge. The Commission confirms a transitional phase from 2023 to 2025; the 1 October start date is from general knowledge.",
+        "sourceIndex": 4
       },
       {
         "date": "2024-12-30",
         "title": "Original EUDR application date",
-        "detail": "Application was meant to start here for large operators but was postponed. The later delays moved it to the current date."
+        "detail": "Application was meant to start at the end of 2024 but was postponed to the end of 2025 and then again to the current dates.",
+        "sourceIndex": 0
       },
       {
-        "date": "2026-01-01",
-        "title": "CBAM definitive period starts",
-        "detail": "The reporting phase ends and the financial obligation takes shape, with certificate sales postponed to 2027. Date from general knowledge; certificate sales date from the event summary."
-      },
-      {
-        "date": "2026-01-20",
-        "title": "EUDR delayed again, commentary on what is now fixed",
-        "detail": "A compliance commentary sets out what changed in the latest delay and what businesses should do in 2026.",
+        "date": "2025-12-23",
+        "title": "EUDR delayed again by Regulation (EU) 2025/2650",
+        "detail": "The amendment, published in the Official Journal on 23 December 2025 and in force from 26 December, set 30 December 2026 for most operators and 30 June 2027 for most micro and small operators, and ordered a simplification review by 30 April 2026.",
         "sourceIndex": 0,
         "turning": true
       },
       {
-        "date": "2026-10-19",
+        "date": "2026-01-01",
+        "title": "CBAM definitive period starts",
+        "detail": "The reporting phase ends and CBAM applies under its definitive regime, with certificate sales starting in 2027.",
+        "sourceIndex": 1
+      },
+      {
+        "date": "2026-03-24",
         "title": "Compliance guides stress how many EU rules overlap",
         "detail": "A guide lists EUDR, CSRD, PPWR, CBAM and others as simultaneous obligations for supply chains.",
         "sourceIndex": 1
       },
       {
+        "date": "2026-05-04",
+        "title": "Commission publishes EUDR simplification review",
+        "detail": "The review keeps the application dates. A draft delegated act would remove cattle hides and retreaded tyres from scope and add soluble coffee and some palm-oil derivatives from 30 December 2027, subject to scrutiny by Parliament and Council.",
+        "sourceIndex": 3
+      },
+      {
         "date": "2026-10-25",
         "title": "Brazil presidential run-off",
-        "detail": "Flavio Bolsonaro and Lula head to a close vote. EUDR checks on Brazilian soy, beef and coffee bite in 2027."
+        "detail": "Flávio Bolsonaro and Lula head to a close vote, with final polls within the margin of error. EUDR checks on Brazilian soy, beef and coffee start on 30 December 2026.",
+        "sourceIndex": 11
       },
       {
         "date": "2026-12-30",
         "title": "EUDR applies to large and medium operators",
-        "detail": "Due-diligence statements become mandatory for in-scope products placed on or exported from the EU market.",
-        "sourceIndex": 0,
+        "detail": "Due-diligence statements become mandatory for in-scope products placed on or exported from the EU market. Micro and small operators already covered by the EU Timber Regulation must also comply from this date.",
+        "sourceIndex": 2,
         "turning": true
       },
       {
         "date": "2027-01-12",
         "title": "USMCA review comments due",
-        "detail": "Written comments and hearing requests are due in the first annual USMCA review, an overlapping compliance reset for manufacturers."
+        "detail": "Written comments and hearing requests are due in the first annual USMCA review, an overlapping compliance reset for manufacturers.",
+        "sourceIndex": 12
       },
       {
         "date": "2027-02-01",
@@ -272,13 +284,14 @@
       {
         "date": "2027-04-18",
         "title": "French presidential election, round 1",
-        "detail": "The National Rally candidate leads polls at 35-36% in October and wants the Green Deal stopped."
+        "detail": "Early-October polls put Marine Le Pen at about 35 to 38% in the first round. She has vowed to stop the European Green Deal.",
+        "sourceIndex": 13
       },
       {
         "date": "2027-06-30",
-        "title": "EUDR applies to small firms",
-        "detail": "The second EUDR phase ends the grace period for small operators.",
-        "sourceIndex": 0
+        "title": "EUDR applies to most micro and small firms",
+        "detail": "The second EUDR phase ends the grace period for micro and small operators not already covered by the EU Timber Regulation.",
+        "sourceIndex": 2
       },
       {
         "date": "2027-09-30",
@@ -313,7 +326,7 @@
         "causes": [
           {
             "name": "Fixed dates after repeated delay",
-            "detail": "EUDR has been postponed more than once, and the new dates of 30 December 2026 and 30 June 2027 are now the reference."
+            "detail": "EUDR has been postponed twice. Regulation (EU) 2025/2650 set 30 December 2026 and 30 June 2027 as the reference dates, and the Commission's 4 May 2026 simplification review left them in place."
           },
           {
             "name": "CBAM moves from reporting to payment",
@@ -327,11 +340,11 @@
         "causes": [
           {
             "name": "Strong Chinese exports",
-            "detail": "China's 4.5% Q3 growth leaned on exports, raising the volume of CBAM-exposed steel and aluminium heading for Europe."
+            "detail": "China's 4.5% Q3 growth leaned on exports. China is one of several large suppliers of CBAM-covered steel to Europe, alongside Türkiye, South Korea, Indonesia and India."
           },
           {
             "name": "Supplier-side disruption",
-            "detail": "Floods in Istanbul and war in northern Ethiopia hit ports and coffee supply just as paperwork tightens."
+            "detail": "Record floods in Istanbul and war in Ethiopia's north add to supplier stress. No port disruption has been reported in Istanbul, and analysts expect little effect on Ethiopian coffee, which is grown in the south."
           },
           {
             "name": "Political risk",
@@ -339,7 +352,7 @@
           },
           {
             "name": "Trade-war diversification",
-            "detail": "The US-Canada tariff war pushes Canada toward EU markets, making compliance a live export issue."
+            "detail": "The US-Canada tariff war may push Canada to sell more to the EU, which would make compliance a live export issue."
           }
         ]
       }
@@ -374,8 +387,8 @@
         "likelyMove": "Seek another delay before 30 June 2027"
       },
       {
-        "name": "Chinese and Turkish metal exporters",
-        "role": "Largest CBAM-exposed suppliers",
+        "name": "Turkish, Chinese and Indian metal exporters",
+        "role": "Among the largest CBAM-exposed suppliers",
         "wants": "Keep EU market share at minimal extra cost",
         "leverage": "Low prices, volume, trade-policy retaliation",
         "likelyMove": "Supply emissions data selectively, reroute low-carbon output to the EU"
@@ -389,15 +402,15 @@
       },
       {
         "name": "Ethiopian coffee exporters",
-        "role": "Origin suppliers under war stress",
+        "role": "Origin suppliers in a country at war",
         "wants": "Keep access to EU buyers",
         "leverage": "Specialty-coffee demand",
-        "likelyMove": "Struggle to meet traceability while conflict disrupts logistics"
+        "likelyMove": "Keep shipping through the Djibouti corridor while meeting traceability demands; the risk rises only if fighting nears Addis Ababa"
       },
       {
         "name": "National Rally (Le Pen)",
         "role": "French poll leader",
-        "wants": "Stop Green Deal commitments and cut France's EU contribution",
+        "wants": "Stop the European Green Deal and cut France's net EU contribution",
         "leverage": "Electoral momentum ahead of April 2027",
         "likelyMove": "Promise to slow enforcement and seek exemptions if elected"
       },
@@ -414,7 +427,7 @@
         "sector": "Steel and aluminium importers",
         "direction": "down",
         "size": 3,
-        "why": "CBAM adds a cost per tonne for embedded carbon, with Chinese and Turkish supply most exposed."
+        "why": "CBAM adds a cost per tonne for embedded carbon. Turkish, Chinese and Indian supply is among the most exposed."
       },
       {
         "sector": "EU steel and aluminium producers",
@@ -426,7 +439,7 @@
         "sector": "Coffee importers and roasters",
         "direction": "down",
         "size": 2,
-        "why": "Traceability and plot data raise costs, and Ethiopian supply risk adds to the strain."
+        "why": "Traceability and plot data raise costs. Analysts expect the conflict in Ethiopia's north to cause little disruption to coffee supply."
       },
       {
         "sector": "Rubber and tyre supply chains",
@@ -562,7 +575,7 @@
           "Map every in-scope product and supplier now, and record plot coordinates and production dates for EUDR goods.",
           "Ask steel and aluminium suppliers for verified embedded-emissions data before the 30 September 2027 declaration.",
           "Add compliance, data-sharing and cost-sharing clauses to supplier contracts.",
-          "Diversify away from single-source or opaque suppliers, especially in Ethiopia, Turkey and other disrupted origins.",
+          "Diversify away from single-source or opaque suppliers, especially in origins hit by conflict or disasters.",
           "Align EU and North American origin-rule work so one data set serves both."
         ]
       },
@@ -648,7 +661,7 @@
       },
       {
         "date": "2027-06-30",
-        "title": "EUDR applies to small firms",
+        "title": "EUDR applies to most micro and small firms",
         "why": "Small importers face the rules and may ask for more time."
       },
       {
@@ -657,12 +670,12 @@
         "why": "Importers declare embedded emissions and surrender certificates."
       },
       {
-        "title": "Chinese and Turkish steel flows",
+        "title": "Turkish, Chinese and Indian steel flows",
         "why": "Rerouting, price cuts or retaliation would show how exporters react to CBAM."
       },
       {
         "title": "Ethiopian coffee exports",
-        "why": "War in the north and disrupted logistics test traceability on a vulnerable supply chain."
+        "why": "Analysts expect little disruption, but fighting near Addis Ababa or the Djibouti corridor would test a smallholder supply chain that also faces new traceability demands."
       }
     ]
   },
@@ -672,39 +685,120 @@
         "title": "EUDR delayed again: what changed, what is now fixed",
         "url": "https://vinciworks.com/blog/eudr-delayed-again-what-changed-what-is-now-fixed-and-what-businesses-should-do-in-2026/",
         "publisher": "VinciWorks",
-        "date": "2026-01-20"
+        "date": "2026-01-07"
       },
       {
         "title": "Which EU regulations affect your supply chain? EUDR, CSRD, PPWR, CBAM and more",
         "url": "https://www.coolset.com/academy/eu-supply-chain-regulations-eudr-csrd-csddd-cbam-ppwr",
-        "publisher": "Coolset"
+        "publisher": "Coolset",
+        "date": "2026-03-24"
+      },
+      {
+        "title": "Regulation on deforestation-free products",
+        "url": "https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en",
+        "publisher": "European Commission"
+      },
+      {
+        "title": "EUDR simplification review published: what the 2026 package means for in-scope companies",
+        "url": "https://www.arendt.com/news-insights/news/eudr-simplification-review-published-what-the-2026-package-means-for-in-scope-companies/",
+        "publisher": "Arendt",
+        "date": "2026-05-18"
+      },
+      {
+        "title": "Carbon Border Adjustment Mechanism",
+        "url": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en",
+        "publisher": "European Commission"
+      },
+      {
+        "title": "Steel imports into the EU rose by 14% y/y in 2025: EUROFER",
+        "url": "https://gmk.center/en/news/steel-imports-into-the-eu-rose-by-14-y-y-in-2025-eurofer/",
+        "publisher": "GMK Center",
+        "date": "2026-03-17"
+      },
+      {
+        "title": "The New Carbon Order: China's Response to Europe's CBAM",
+        "url": "https://www.csis.org/analysis/new-carbon-order-chinas-response-europes-cbam",
+        "publisher": "CSIS",
+        "date": "2026-06-15"
+      },
+      {
+        "title": "France sets presidential election dates",
+        "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/07/01/france-sets-presidential-election-dates",
+        "publisher": "Reuters via Internazionale",
+        "date": "2026-07-01"
+      },
+      {
+        "title": "No money for Ukraine and EU budget cuts: what could a Le Pen victory mean for the EU?",
+        "url": "https://www.euronews.com/2026/10/17/no-money-for-ukraine-and-eu-budget-cuts-what-could-a-le-pen-victory-mean-for-the-eu",
+        "publisher": "Euronews",
+        "date": "2026-10-17"
+      },
+      {
+        "title": "Could conflict in Ethiopia threaten coffee?",
+        "url": "https://www.foodnavigator.com/Article/2026/10/12/ethiopias-coffee-sector-could-conflict-threaten-production/",
+        "publisher": "FoodNavigator",
+        "date": "2026-10-12"
+      },
+      {
+        "title": "China's growth accelerates to 4.5% in third quarter, beats expectations",
+        "url": "https://www.business-standard.com/amp/world-news/china-s-economic-growth-picks-up-in-third-quarter-beating-expectations-126101900065_1.html",
+        "publisher": "Business Standard",
+        "date": "2026-10-19"
+      },
+      {
+        "title": "Latest poll shows Bolsonaro maintaining edge over Lula in Brazil run-off",
+        "url": "https://www.aljazeera.com/news/2026/10/16/latest-poll-shows-bolsonaro-maintaining-edge-over-lula-in-brazil-run-off",
+        "publisher": "Al Jazeera",
+        "date": "2026-10-16"
+      },
+      {
+        "title": "USMCA Review 2026: Not Renewed, Still in Force",
+        "url": "https://mayo.law/articles/updates/usmca-joint-review/",
+        "publisher": "Mayo Law",
+        "date": "2026-10-07"
+      },
+      {
+        "title": "Le Pen à 67% face à Mélenchon selon trois sondages d'octobre 2026",
+        "url": "https://www.economiematin.fr/?p=233995",
+        "publisher": "Economie Matin"
+      },
+      {
+        "title": "Istanbul flood toll rises to eight as rescuers find more bodies",
+        "url": "https://www.euronews.com/2026/10/19/istanbul-flood-death-toll-rises-to-eight-as-rescuers-find-more-bodies-governor-says",
+        "publisher": "Euronews",
+        "date": "2026-10-19"
       }
     ],
     "confidence": [
       {
-        "claim": "EUDR application dates of 30 December 2026 (large and medium) and 30 June 2027 (small)",
-        "level": "medium",
-        "note": "Taken from the event summary and the headline of the VinciWorks piece. The full text of the sources was not reviewed, so check the Official Journal before acting."
+        "claim": "EUDR application dates of 30 December 2026 (large and medium) and 30 June 2027 (most micro and small)",
+        "level": "high",
+        "note": "Confirmed by the full text of the VinciWorks and Coolset pieces and by the Commission's EUDR page. Micro and small operators already covered by the EU Timber Regulation apply from 30 December 2026. The 4 May 2026 simplification review kept these dates."
       },
       {
         "claim": "CBAM certificate sales open 1 February 2027; first declaration due 30 September 2027",
-        "level": "medium",
-        "note": "From the event summary. Consistent with general knowledge of the CBAM timeline, but not independently checked against the full source text."
+        "level": "high",
+        "note": "Confirmed by the full text of the Coolset guide. The Commission's CBAM page confirms the definitive regime from 1 January 2026."
       },
       {
         "claim": "Covered products (EUDR: cattle, cocoa, coffee, oil palm, rubber, soy, wood; CBAM: steel, aluminium and others)",
         "level": "high",
-        "note": "General knowledge of the regulations. The event summary names only rubber, wood, coffee, steel and aluminium."
+        "note": "Confirmed by VinciWorks and the Commission's EUDR page for EUDR, and by Coolset for CBAM (iron, steel, aluminium, cement, fertilisers, hydrogen, electricity). A draft delegated act would remove cattle hides and retreaded tyres and add soluble coffee from 30 December 2027; check the Official Journal for its final status."
       },
       {
-        "claim": "Chinese steel and aluminium are the largest CBAM-exposed imports",
+        "claim": "Türkiye, China and India are among the largest suppliers of CBAM-covered steel and aluminium",
         "level": "medium",
-        "note": "Taken from the linked China growth event analysis, not from an independent trade dataset."
+        "note": "EUROFER data reported by GMK Center put Türkiye first in 2025 EU finished-steel imports (16.5%) and China fourth (8.7%). An earlier draft wrongly said Chinese metals were the largest CBAM-exposed imports."
       },
       {
         "claim": "Political links (Le Pen, EU budget, Brazil run-off, USMCA review)",
+        "level": "high",
+        "note": "Checked against Al Jazeera (Brazil), Mayo Law (USMCA), Reuters (French election dates), Euronews (Le Pen and the EU budget) and October polls reported by Economie Matin."
+      },
+      {
+        "claim": "Supplier disruption in Türkiye and Ethiopia",
         "level": "medium",
-        "note": "Taken from the linked events' summaries, which were judged separately. Not verified against the two listed sources."
+        "note": "Euronews reports eight deaths and about 900 damaged businesses from the Istanbul floods but no port disruption. FoodNavigator reports that analysts expect little effect on Ethiopian coffee exports."
       },
       {
         "claim": "Cost and price effects on consumers",
@@ -717,11 +811,15 @@
         "note": "Author judgement, not a sourced forecast; to be graded as events resolve."
       }
     ],
-    "method": "Drafted from the event summary, two listed sources (a VinciWorks commentary and a Coolset guide), two wire headlines, and the judged summaries of seven connected events. Only the titles and dates of the sources were available, not their full text, so dates come from the event summary and general knowledge. No cost, price or volume figures were available, so effects on consumers and sectors are qualitative estimates, and the scenario probabilities and predictions are the author's judgement.",
+    "method": "Drafted from the event summary, two compliance sources (a VinciWorks commentary and a Coolset guide), two wire headlines and the judged summaries of seven connected events. On 20 October 2026 every factual claim was checked against the full text of the cited sources, and official Commission pages and news reports were added where the first two sources did not cover a claim. No cost, price or volume figures for consumers were available, so effects on consumers and sectors are qualitative estimates, and the scenario probabilities and predictions are the author's judgement.",
     "changeLog": [
       {
         "date": "2026-10-19",
         "change": "First publication."
+      },
+      {
+        "date": "2026-10-20",
+        "change": "Checked claim by claim against sources. Fixed: VinciWorks and Coolset source dates, the claim that Chinese metals are the largest CBAM-exposed imports (with recap question 3), the Ethiopian coffee disruption claim, the unsupported Istanbul port disruption, the October poll range, and the Canada diversification claim. Added the Timber Regulation exception for small firms and the 4 May 2026 EUDR simplification review. Added 13 sources."
       }
     ]
   },
@@ -731,6 +829,12 @@
     "model": "claude-sonnet-5-5",
     "sources": 2,
     "headlines": 2,
-    "reviewed": false
+    "reviewed": false,
+    "sourceChecked": {
+      "at": "2026-10-20",
+      "by": "an AI fact-checker (Claude)",
+      "claims": 40,
+      "fixed": 7
+    }
   }
 }

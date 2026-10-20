@@ -1,8 +1,8 @@
 {
   "slug": "us-canada-trade-war",
-  "title": "US bans Canadian dairy and alcohol as the tariff war escalates",
-  "deck": "Washington turned 50% tariffs on Canadian dairy and alcohol into outright import bans, Canada hit back dollar for dollar, and the fight now sits inside the US midterms, the USMCA review and Alberta's independence vote.",
-  "updated": "2026-10-19",
+  "title": "US bans some Canadian dairy and alcohol as the tariff war escalates",
+  "deck": "Washington turned 50% tariffs on certain Canadian dairy and alcohol products into import bans, Canada hit back dollar for dollar, and the fight now sits inside the US midterms, the USMCA review and the aftermath of Alberta's 19 October vote to stay in Canada.",
+  "updated": "2026-10-20",
   "status": "developing",
   "region": "Canada, United States",
   "tags": [
@@ -20,17 +20,17 @@
     "deep": 15
   },
   "card": {
-    "headline": "The US has moved from tariffs to outright bans on Canadian dairy and alcohol, and Canada is retaliating in kind",
+    "headline": "The US has moved from tariffs to bans on certain Canadian dairy and alcohol products, and Canada is retaliating in kind",
     "keyNumber": {
       "value": "50%",
-      "label": "US Section 338 tariff on about $20bn of Canadian goods since 22 August; alcohol and dairy now banned outright",
-      "sourceIndex": 1
+      "label": "US Section 338 tariff on about $20bn of Canadian goods, in force since 22 August; certain alcohol and dairy products now banned",
+      "sourceIndex": 3
     },
     "impactMeter": 3,
     "forYou": [
       {
         "role": "Importers and retailers",
-        "line": "Canadian wine, spirits, dairy, furniture, cement and clothing now face 50% duties or bans. The duties apply whatever the USMCA origin and stack on steel, aluminium, auto and lumber tariffs."
+        "line": "Certain Canadian alcohol and dairy products are banned, and furniture, clothing, ATVs and other listed goods face 50% duties whatever their USMCA origin. Check each tariff line, because goods under Section 232 are treated separately."
       },
       {
         "role": "Exporters to Canada",
@@ -38,7 +38,7 @@
       },
       {
         "role": "Government contractors",
-        "line": "Canadian products are ordered off GSA procurement schedules. Check whether any Canadian-made items sit in your federal catalogue."
+        "line": "Canadian-origin products are being removed from GSA Multiple Award Schedules. Check whether any Canadian-made items sit in your federal catalogue."
       },
       {
         "role": "Investors",
@@ -46,7 +46,7 @@
       },
       {
         "role": "Everyone",
-        "line": "US shoppers may see higher prices for cheese, lumber and appliances. Canadians may see fewer US goods on shelves and higher prices for them."
+        "line": "US shoppers may see higher prices for cheese, furniture and other covered Canadian goods. Canadians may see fewer US goods on shelves and higher prices for them."
       }
     ],
     "ripple": [
@@ -54,11 +54,11 @@
         "label": "First-order",
         "effects": [
           {
-            "text": "Canadian wine, spirits and dairy are barred from the US market from 29 September",
+            "text": "Certain Canadian alcohol and dairy products are barred from the US market from 29 September",
             "sector": "Food and beverage"
           },
           {
-            "text": "50% Section 338 duties hit furniture, cement and clothing, and apply regardless of USMCA origin",
+            "text": "50% Section 338 duties hit furniture, clothing and ATVs, and apply regardless of USMCA origin",
             "sector": "Manufacturing"
           },
           {
@@ -66,7 +66,7 @@
             "sector": "Industrial goods"
           },
           {
-            "text": "Canadian products ordered off GSA federal procurement schedules",
+            "text": "Canadian-origin products removed from GSA federal procurement schedules",
             "sector": "Public procurement"
           }
         ]
@@ -75,7 +75,7 @@
         "label": "Second-order",
         "effects": [
           {
-            "text": "Higher US shelf prices for cheese, lumber and appliances, weeks before the 3 November vote",
+            "text": "Higher US shelf prices for cheese, furniture and other covered Canadian goods, weeks before the 3 November vote",
             "sector": "Consumer prices"
           },
           {
@@ -87,7 +87,7 @@
             "sector": "Industrial goods"
           },
           {
-            "text": "Importers rewrite contracts and reroute sourcing as duties stack on top of Section 232 tariffs",
+            "text": "Importers rewrite contracts and reroute sourcing as Section 338 duties sit alongside Section 232 and other tariffs",
             "sector": "Logistics"
           }
         ]
@@ -100,7 +100,7 @@
             "sector": "Trade policy"
           },
           {
-            "text": "Alberta grievances about Ottawa and market access sharpen ahead of its independence vote",
+            "text": "Alberta voted on 19 October, by about 77%, to stay in Canada, but grievances about Ottawa and market access remain",
             "sector": "Politics"
           },
           {
@@ -117,21 +117,21 @@
   },
   "brief": {
     "whatHappened": [
-      "US-Canada trade talks collapsed on 22 August. Washington imposed 50% tariffs under Section 338 on about $20 billion of Canadian goods, including wine, furniture, dairy, cement and clothing.",
-      "Prime Minister Mark Carney answered with dollar-for-dollar counter-tariffs on US steel, dairy, appliances and farm equipment, in force from 8 September.",
-      "On 8 September President Trump signed five proclamations. They convert the 50% duties on Canadian alcohol and dairy into import bans effective 29 September, and order Canadian products off GSA procurement schedules.",
-      "Section 338 duties apply regardless of USMCA origin and stack on the existing Section 232 tariffs on steel, aluminium, autos and lumber."
+      "President Trump proclaimed 50% tariffs under Section 338 on 20 July. Talks collapsed on 21 August and the tariffs took effect on 22 August, covering about $20 billion of Canadian goods, including wine, furniture, dairy, cement and clothing.",
+      "Prime Minister Mark Carney vowed on 22 August to match the US tariffs dollar for dollar. His counter-tariffs, in force from 8 September, cover US steel, dairy, appliances and farm equipment among other goods. The White House puts them at about $20 billion of US exports. Covington, a law firm, reports more than 600 product categories and $27.6 billion of US goods, with a C$7.5 billion support package for Canadian firms.",
+      "On 8 September President Trump signed five proclamations. They turn the 50% duties on certain Canadian alcohol and dairy products into import bans from 29 September, remove rock salt and cement from the tariff list and add ATVs and more dairy products from 15 September, and order Canadian-origin products off GSA Multiple Award Schedules.",
+      "Section 338 duties apply regardless of USMCA origin. The White House says they apply in addition to Section 232 tariffs, while legal summaries of the July proclamations say goods already under Section 232, such as steel, aluminium, vehicles and certain wood products, are excluded from them."
     ],
     "whyItMatters": [
-      "The US is by far Canada's largest export market, roughly three-quarters of its exports by our general knowledge. Bans and 50% duties are a heavier tool than the earlier tariffs.",
-      "Section 338 of the Tariff Act of 1930 lets a president impose duties of up to 50% on countries judged to discriminate against US commerce. To our knowledge it has not been used at this scale before, so the legal ground is untested and courts could take a role.",
-      "The dispute is one confrontation with the USMCA review. The US declined on 1 July to extend the pact for 16 years, so it must now be reviewed every year, and US demands include dairy.",
-      "It lands six weeks before US midterms dominated by living costs, and during Alberta's vote on a path to independence."
+      "The US takes nearly 70% of Canada's exports, and the goods first hit were about 5.5% of Canadian exports to the US. Bans and 50% duties are a heavier tool than the earlier tariffs.",
+      "Section 338 of the Tariff Act of 1930 lets a president impose duties of up to 50% on countries that discriminate against US commerce, and to ban imports if the discrimination continues. This is the first time it has ever been used to impose tariffs, and a lawsuit challenging the duties was reported on 20 October.",
+      "The dispute is one confrontation with the USMCA review. The US declined on 1 July to extend the pact for 16 years, so it must now be reviewed every year, and US demands include wider access for US dairy.",
+      "It lands weeks before US midterms dominated by living costs, and just after Alberta voted on 19 October, by about 77%, to stay in Canada."
     ],
     "winners": [
       {
         "who": "US dairy and alcohol producers",
-        "why": "Competing Canadian goods are barred, and Canadian retaliation on US dairy is only one front in their business."
+        "why": "Some competing Canadian products are barred, and Canadian retaliation on US dairy is only one front in their business."
       },
       {
         "who": "Mexico",
@@ -145,15 +145,15 @@
     "losers": [
       {
         "who": "Canadian dairy farmers, wineries and distillers",
-        "why": "They lose access to the US market outright, and not only through higher duties."
+        "why": "They lose access to the US market for banned products, and not only through higher duties."
       },
       {
-        "who": "Canadian furniture, cement and clothing exporters",
+        "who": "Canadian furniture, clothing and other listed exporters",
         "why": "They face a 50% tariff that applies even to USMCA-origin goods."
       },
       {
         "who": "US consumers and importers",
-        "why": "Prices for cheese, lumber and appliances are likely to rise, and sourcing is disrupted."
+        "why": "Prices for cheese, furniture and other covered goods are likely to rise, and sourcing is disrupted."
       },
       {
         "who": "US steel, appliance and farm-equipment makers",
@@ -162,6 +162,7 @@
     ],
     "whatsNext": [
       "3 November: US midterm elections. Cost of living is the dominant issue.",
+      "Pending: a lawsuit challenging the Section 338 duties, reported on 20 October.",
       "30 December: the EU Deforestation Regulation starts to apply to large and medium operators, relevant to Canadian exporters diversifying to Europe.",
       "12 January 2027: written comments and hearing requests due in the USTR's 2027 USMCA review.",
       "1 February 2027: EU CBAM certificate sales open."
@@ -188,7 +189,7 @@
         "answerIndex": 1
       },
       {
-        "question": "When did the bans on Canadian alcohol and dairy take effect?",
+        "question": "When were the bans on certain Canadian alcohol and dairy products set to take effect?",
         "options": [
           "22 August",
           "8 September",
@@ -197,7 +198,7 @@
         "answerIndex": 2
       },
       {
-        "question": "Which Canadian goods face Canada's counter-tariffs from 8 September?",
+        "question": "Which US goods face Canada's counter-tariffs from 8 September?",
         "options": [
           "US steel, dairy, appliances and farm equipment",
           "US oil and gas",
@@ -213,47 +214,81 @@
         "date": "2026-02-28",
         "title": "Iran war begins",
         "detail": "Fuel and grocery price rises since then are the dominant US midterm issue and shape the political cost of tariffs.",
-        "sourceIndex": 0
+        "sourceIndex": 9
       },
       {
         "date": "2026-07-01",
         "title": "US declines to extend USMCA by 16 years",
-        "detail": "Under Article 34.7 the pact now runs only to 1 July 2036 and must be reviewed every year."
+        "detail": "Under Article 34.7 the pact now runs only to 1 July 2036 and must be reviewed every year.",
+        "sourceIndex": 7
+      },
+      {
+        "date": "2026-07-20",
+        "title": "Trump proclaims 50% Section 338 tariffs",
+        "detail": "Three proclamations target Canadian measures on alcohol, dairy and motor vehicles. The start date was later set for 22 August.",
+        "sourceIndex": 2
       },
       {
         "date": "2026-08-22",
-        "title": "Trade talks collapse; 50% Section 338 tariffs imposed",
-        "detail": "They cover about $20bn of Canadian goods: wine, furniture, dairy, cement and clothing.",
+        "title": "Talks collapse; 50% Section 338 tariffs take effect",
+        "detail": "Talks broke down late on 21 August. The duties cover about $20bn of Canadian goods, including wine, furniture, dairy, cement and clothing.",
         "sourceIndex": 1,
         "turning": true
       },
       {
-        "date": "2026-08-23",
-        "title": "Canada signals retaliation",
-        "detail": "Reports say Canada will hit the US with counter-tariffs as the trade war escalates.",
+        "date": "2026-08-22",
+        "title": "Canada vows retaliation",
+        "detail": "Carney says Canada will match the new US tariffs dollar for dollar from 8 September.",
         "sourceIndex": 1
+      },
+      {
+        "date": "2026-08-25",
+        "title": "Canada sets out its counter-tariffs",
+        "detail": "More than 600 product categories at 15%, 25% or 50%, which Covington puts at $27.6bn of US goods, plus a C$7.5bn support package.",
+        "sourceIndex": 2
       },
       {
         "date": "2026-09-08",
         "title": "Canadian counter-tariffs take effect; Trump signs five proclamations",
-        "detail": "Canada's duties on US steel, dairy, appliances and farm equipment apply. Trump converts the 50% duties on Canadian alcohol and dairy into bans from 29 September and orders Canadian products off GSA schedules.",
+        "detail": "Canada's duties, which the White House puts at about $20bn of US exports including steel, dairy and farm equipment, apply. Trump turns the 50% duties on certain Canadian alcohol and dairy products into bans from 29 September and orders Canadian-origin products off GSA schedules.",
         "sourceIndex": 0,
         "turning": true
       },
       {
+        "date": "2026-09-15",
+        "title": "Section 338 product list changes",
+        "detail": "Rock salt and cement come off the tariff list; ATVs and more dairy products are added.",
+        "sourceIndex": 0
+      },
+      {
         "date": "2026-09-29",
         "title": "Alcohol and dairy bans take effect",
-        "detail": "Canadian dairy and alcohol are barred from the US market."
+        "detail": "Certain Canadian alcohol and dairy products are barred from the US market.",
+        "sourceIndex": 0
       },
       {
         "date": "2026-10-02",
         "title": "USTR opens the 2027 USMCA review",
-        "detail": "Comments and hearing requests are due 12 January 2027. US demands centre on auto rules of origin, Chinese content, steel, dairy and trade deficits."
+        "detail": "Written comments and hearing requests are due 12 January 2027.",
+        "sourceIndex": 7
       },
       {
         "date": "2026-10-13",
         "title": "Mexico pledges to buy more American goods",
-        "detail": "It aims to secure a bilateral deal with Washington; its surplus with the US rose 51% to over $280bn in the year to August."
+        "detail": "It aims to secure a bilateral deal with Washington. Its goods surplus with the US from January to August rose 51% on a year earlier, to over $280bn.",
+        "sourceIndex": 8
+      },
+      {
+        "date": "2026-10-19",
+        "title": "Alberta votes to stay in Canada",
+        "detail": "About 77% of voters rejected starting a path to independence, according to unofficial results.",
+        "sourceIndex": 5
+      },
+      {
+        "date": "2026-10-20",
+        "title": "Lawsuit against Section 338 duties reported",
+        "detail": "A new lawsuit challenging the Section 338 tariffs on Canadian goods was reported on 20 October.",
+        "sourceIndex": 4
       }
     ],
     "causes": [
@@ -263,11 +298,11 @@
         "causes": [
           {
             "name": "Dairy and supply management",
-            "detail": "Canada's protected dairy sector has long been a US grievance, and dairy is again among US demands in the USMCA review."
+            "detail": "Canada's supply-managed dairy sector has long been a US grievance. The US cited dairy quota rules as a Section 338 ground and wants wider dairy access in the USMCA review."
           },
           {
-            "name": "Rules-of-origin and China content disputes",
-            "detail": "The US wants tighter auto rules and less Chinese content in North American supply chains."
+            "name": "Canada's 2025 countermeasures",
+            "detail": "The US cited Canada's 25% surtax on US-made vehicles and provincial bans on US alcohol sales since March 2025 as grounds for Section 338."
           },
           {
             "name": "Trade-deficit politics",
@@ -277,11 +312,11 @@
       },
       {
         "name": "Trigger",
-        "when": "22 August 2026",
+        "when": "21 to 22 August 2026",
         "causes": [
           {
             "name": "Collapse of trade talks",
-            "detail": "The US responded with 50% Section 338 duties on about $20bn of Canadian goods."
+            "detail": "Talks broke down on 21 August, and the 50% Section 338 duties proclaimed on 20 July took effect the next day on about $20bn of Canadian goods."
           },
           {
             "name": "Non-extension of USMCA",
@@ -299,11 +334,11 @@
           },
           {
             "name": "Escalation from duties to bans",
-            "detail": "Five proclamations on 8 September turned the alcohol and dairy duties into bans and cut Canadian products from GSA schedules."
+            "detail": "Five proclamations on 8 September turned the duties on certain alcohol and dairy products into bans and ordered Canadian-origin products off GSA schedules."
           },
           {
-            "name": "Legal stacking",
-            "detail": "Section 338 duties apply regardless of USMCA origin and add to Section 232 tariffs."
+            "name": "Broad legal reach",
+            "detail": "Section 338 duties apply regardless of USMCA origin, and the White House says they apply in addition to Section 232 tariffs."
           }
         ]
       }
@@ -325,7 +360,7 @@
       },
       {
         "name": "Canadian provinces and producers",
-        "role": "Dairy, wine, spirits, furniture and cement sectors",
+        "role": "Dairy, wine, spirits, furniture and clothing sectors",
         "wants": "Compensation and new markets",
         "leverage": "Political pull on Ottawa; provincial liquor boards",
         "likelyMove": "Lobby for support funds and redirect exports where possible"
@@ -357,16 +392,16 @@
         "sector": "Canadian dairy",
         "direction": "down",
         "size": 3,
-        "why": "Outright US ban plus Canadian counter-tariffs on US dairy."
+        "why": "US ban on certain dairy products plus Canadian counter-tariffs on US dairy."
       },
       {
         "sector": "Canadian wine and spirits",
         "direction": "down",
         "size": 2,
-        "why": "The US ban removes a major export outlet."
+        "why": "The US ban on certain alcohol products removes a major export outlet."
       },
       {
-        "sector": "Canadian furniture, cement and clothing",
+        "sector": "Canadian furniture and clothing",
         "direction": "down",
         "size": 2,
         "why": "A 50% tariff applies regardless of USMCA origin."
@@ -390,22 +425,20 @@
         "why": "More paperwork and rerouting, but lower volumes on some lanes."
       },
       {
-        "sector": "US retail and construction",
+        "sector": "US retail and home furnishing",
         "direction": "down",
         "size": 2,
-        "why": "Higher costs for lumber, appliances and cheese."
+        "why": "Higher costs for Canadian furniture, cheese and other covered goods."
       }
     ],
     "dailyLife": [
       {
         "item": "Cheese and dairy in the US",
-        "effect": "Prices may rise as Canadian supply is banned and domestic suppliers face less competition.",
-        "sourceIndex": 0
+        "effect": "Prices may rise as some Canadian supply is banned and domestic suppliers face less competition."
       },
       {
         "item": "Canadian wine and spirits in US shops",
-        "effect": "These products are expected to disappear from shelves while the ban lasts.",
-        "sourceIndex": 0
+        "effect": "Banned products are expected to disappear from shelves while the ban lasts."
       },
       {
         "item": "Appliances in Canada",
@@ -413,8 +446,8 @@
         "sourceIndex": 1
       },
       {
-        "item": "Furniture and building materials",
-        "effect": "The 50% duties on furniture and cement, and the stacking on lumber tariffs, are likely to feed into US housing and renovation costs."
+        "item": "Furniture and home goods",
+        "effect": "The 50% duties on Canadian furniture are likely to feed into US home furnishing and renovation costs."
       },
       {
         "item": "Farm equipment in Canada",
@@ -515,7 +548,7 @@
       {
         "audience": "households",
         "actions": [
-          "Expect higher prices for cheese, appliances and lumber-related goods in the US.",
+          "Expect higher prices for cheese, furniture and other covered Canadian goods in the US.",
           "In Canada, expect US goods covered by counter-tariffs to cost more.",
           "Avoid stockpiling beyond normal needs; the bans are not a supply emergency."
         ]
@@ -565,7 +598,7 @@
       {
         "date": "2027-01-12",
         "title": "USMCA 2027 review comments due",
-        "why": "Shows how far the US keeps dairy and rules-of-origin demands in play."
+        "why": "Shows how far the US keeps its dairy demands in play."
       },
       {
         "date": "2027-02-01",
@@ -577,8 +610,8 @@
         "why": "Any extension of bans to other sectors is the clearest sign of escalation."
       },
       {
-        "title": "Alberta independence vote",
-        "why": "US trade pressure may feed grievances about Ottawa."
+        "title": "Court challenge to Section 338 duties",
+        "why": "A lawsuit was reported on 20 October; any ruling or injunction would change the legal footing of the duties."
       },
       {
         "title": "Mexico-US bilateral talks",
@@ -599,50 +632,139 @@
         "url": "https://www.aljazeera.com/news/2026/8/23/canada-to-hit-us-with-retaliatory-tariffs-as-trade-war-escalates",
         "publisher": "Al Jazeera",
         "date": "2026-08-23"
+      },
+      {
+        "title": "Section 338 Tariffs on Canada Take Effect as Canada Announces Retaliatory Response",
+        "url": "https://www.cov.com/news-and-insights/insights/2026/08/section-338-tariffs-on-canada-take-effect-as-canada-announces-retaliatory-response",
+        "publisher": "Covington & Burling",
+        "date": "2026-08-31"
+      },
+      {
+        "title": "50 Percent Opening Bid: Canadian Imports Subject to Section 338 Tariffs Amid USMCA Talks",
+        "url": "https://www.hklaw.com/en/insights/publications/2026/07/50-percent-opening-bid-canadian-imports-subject-to-section-338-tariffs",
+        "publisher": "Holland & Knight",
+        "date": "2026-07-29"
+      },
+      {
+        "title": "Trump sued over 50% tariffs on Canada in latest trade challenge",
+        "url": "https://www.cnbc.com/2026/10/20/trump-tariffs-canada-section-338-lawsuit.html",
+        "publisher": "CNBC",
+        "date": "2026-10-20"
+      },
+      {
+        "title": "'Albertans chose Canada': Carney hails vote to reject referendum",
+        "url": "https://www.euronews.com/2026/10/20/albertans-chose-canada-carney-hails-vote-to-reject-referendum",
+        "publisher": "Euronews",
+        "date": "2026-10-20"
+      },
+      {
+        "title": "U.S. will not renew USMCA in its current form",
+        "url": "https://www.feedstuffs.com/policy/u-s-will-not-renew-usmca-in-its-current-form",
+        "publisher": "Feedstuffs",
+        "date": "2026-07-01"
+      },
+      {
+        "title": "USMCA Review 2026: Not Renewed, Still in Force",
+        "url": "https://mayo.law/articles/updates/usmca-joint-review/",
+        "publisher": "Mayo Law",
+        "date": "2026-10-07"
+      },
+      {
+        "title": "Sheinbaum busca reducir superávit comercial de México con EE.UU.",
+        "url": "https://www.bloomberglinea.com/latinoamerica/mexico/sheinbaum-busca-reducir-superavit-comercial-de-mexico-con-eeuu/",
+        "publisher": "Bloomberg Línea",
+        "date": "2026-10-13"
+      },
+      {
+        "title": "Timeline of the 2026 Iran war",
+        "url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war",
+        "publisher": "Wikipedia"
+      },
+      {
+        "title": "Trump trade rep targets Canada's beer and dairy rules in new CUSMA review conditions",
+        "url": "https://bilaterals.org/trump-trade-rep-targets-canada-s?lang=fr",
+        "publisher": "CBC News (via bilaterals.org)",
+        "date": "2025-12-18"
+      },
+      {
+        "title": "EUDR compliance roadmap: phased implementation plan for 2026",
+        "url": "https://www.coolset.com/academy/eudr-compliance-roadmap-a-phased-plan-from-july-to-december-2026",
+        "publisher": "Coolset",
+        "date": "2026-07-07"
+      },
+      {
+        "title": "CBAM in 2027: importers need a precise plan for certificate purchases",
+        "url": "https://www.ajot.com/news/cbam-in-2027-importers-need-a-precise-plan-for-certificate-purchases",
+        "publisher": "AJOT",
+        "date": "2026-09-01"
       }
     ],
     "confidence": [
       {
-        "claim": "Timeline of the 22 August talks collapse, 8 September measures and 29 September bans",
-        "level": "medium",
-        "note": "Taken from the event brief and the two listed sources; we did not open them in full."
+        "claim": "Dates: 20 July proclamations, 21 August talks collapse, 22 August start, 8 September proclamations and counter-tariffs, 15 September list changes, 29 September bans",
+        "level": "high",
+        "note": "Checked against the White House fact sheet, Al Jazeera and Covington."
       },
       {
         "claim": "The tariffs cover about $20bn of Canadian goods at 50%",
-        "level": "medium",
-        "note": "The figure comes from the event summary; no independent trade-flow data was reviewed."
+        "level": "high",
+        "note": "Al Jazeera and Holland & Knight, which cites a USTR estimate of nearly $20bn."
       },
       {
         "claim": "The bans took effect on 29 September as scheduled",
         "level": "medium",
-        "note": "The event date matches this, but we have no report confirming implementation or any later amendment."
+        "note": "The White House set the date. We found no report confirming implementation or any later amendment."
       },
       {
-        "claim": "Section 338 has not been used at this scale before",
-        "level": "low",
-        "note": "Based on general knowledge; not confirmed in the listed sources."
+        "claim": "This is the first time Section 338 has been used to impose tariffs",
+        "level": "high",
+        "note": "Stated by Holland & Knight and Covington."
       },
       {
-        "claim": "The US takes about three-quarters of Canada's exports",
+        "claim": "The US takes nearly 70% of Canada's exports",
         "level": "medium",
-        "note": "General knowledge, not cited to a listed source."
+        "note": "From Al Jazeera; not checked against Statistics Canada data."
+      },
+      {
+        "claim": "How Section 338 duties interact with Section 232 tariffs",
+        "level": "low",
+        "note": "The White House says they apply in addition to Section 232; law-firm summaries of the July proclamations say Section 232 goods are excluded. Check each tariff line."
+      },
+      {
+        "claim": "Size of Canada's counter-tariffs",
+        "level": "medium",
+        "note": "The White House says about $20bn of US exports; Covington reports $27.6bn of US goods without stating the currency."
+      },
+      {
+        "claim": "USMCA review dates, Mexico's pledge, Alberta result and EU deadlines",
+        "level": "medium",
+        "note": "Checked against Mayo Law, Feedstuffs, CBC, Bloomberg Línea, Euronews, Coolset and AJOT. The Alberta figures are unofficial results."
+      },
+      {
+        "claim": "A lawsuit challenges the Section 338 duties",
+        "level": "low",
+        "note": "Only the CNBC headline and summary of 20 October were available; we could not read the article."
+      },
+      {
+        "claim": "Historical analogues",
+        "level": "low",
+        "note": "General knowledge, not checked against sources."
       },
       {
         "claim": "Scenario probabilities and predictions",
         "level": "low",
         "note": "Author judgement, not sourced forecasts."
-      },
-      {
-        "claim": "Links to the USMCA review, midterms, Alberta vote and EU rules",
-        "level": "medium",
-        "note": "Drawn from connected events judged earlier; no separate source URLs were supplied."
       }
     ],
-    "method": "This dossier was drafted from two listed sources (a White House fact sheet and an Al Jazeera report), their headlines, and a short event summary with connected-event notes. Dates, tariff rates and policy mechanics come from those materials. Background on Section 338, Canada's export dependence, dairy supply management and historical analogues is general knowledge and is hedged. All probabilities, scenarios and predictions are estimates, and no price or trade-volume series was available, so no chart is included.",
+    "method": "This dossier was drafted from two sources (a White House fact sheet and an Al Jazeera report), their headlines and a short event summary. On 20 October an AI fact-checker checked each factual claim against those sources and against law-firm analyses of the Section 338 proclamations, trade press and news reports, which are added to the source list. Claims that could not be confirmed were removed or reworded, and price effects are presented as judgement. The historical analogues are general knowledge. All probabilities, scenarios and predictions are estimates, and no price or trade-volume series was available, so no chart is included.",
     "changeLog": [
       {
         "date": "2026-10-19",
         "change": "First publication."
+      },
+      {
+        "date": "2026-10-20",
+        "change": "Checked claim by claim against sources. Fixed: talks-collapse and retaliation dates, Canada's export share, cement removal from the tariff list, Alberta vote result, scope of the bans, Section 232 interaction, unsupported USMCA demands, two miscited sources, first use of Section 338, the reported court challenge, midterm timing, size of Canada's retaliation, recap wording. Added 11 sources."
       }
     ]
   },
@@ -652,6 +774,12 @@
     "model": "claude-sonnet-5-5",
     "sources": 2,
     "headlines": 2,
-    "reviewed": false
+    "reviewed": false,
+    "sourceChecked": {
+      "at": "2026-10-20",
+      "by": "an AI fact-checker (Claude)",
+      "claims": 35,
+      "fixed": 15
+    }
   }
 }

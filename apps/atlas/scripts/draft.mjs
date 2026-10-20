@@ -128,7 +128,8 @@ for (const e of ALL ? EVENTS : ids.map((id) => getEvent(id)).filter(Boolean)) {
   let reason = null;
   if (!have) reason = "no report yet";
   else if (FORCE) reason = "forced";
-  else if (have.generated && !have.generated.reviewed && STALE_DAYS > 0 && e.status === "developing") {
+  else if (have.generated && !have.generated.reviewed && have.generated.outdated) reason = `outdated: ${have.generated.outdated}`;
+  else if (have.generated && !have.generated.reviewed && !have.generated.sourceChecked && STALE_DAYS > 0 && e.status === "developing") {
     const age = (today - Date.parse(have.generated.at)) / 86_400_000;
     if (age > STALE_DAYS) reason = `auto-draft is ${Math.round(age)} days old`;
   }

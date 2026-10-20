@@ -121,7 +121,18 @@ export interface Dossier {
   tags: string[];
   readingMinutes: { card: number; brief: number; deep: number };
   // Present when the report was drafted by the draft script rather than written by hand.
-  generated?: { by: string; at: string; model: string; sources: number; headlines: number; reviewed: boolean };
+  generated?: {
+    by: string;
+    at: string;
+    model: string;
+    sources: number;
+    headlines: number;
+    reviewed: boolean; // checked by a person
+    // checked claim by claim against sources by an AI fact-checker; fixes are in the change log
+    sourceChecked?: { at: string; by: string; claims: number; fixed: number };
+    // set when events have overtaken the report; the next pipeline run redrafts it
+    outdated?: string;
+  };
 
   // Layer 1: 30-second card
   card: {

@@ -2,7 +2,7 @@
   "slug": "gulf-war-energy-shock",
   "title": "US-Israel war on Iran and the Gulf energy shock",
   "deck": "Strikes on Iran that began in late February have kept oil, diesel and freight costs high for eight months, and that squeeze is now feeding protests, central-bank dilemmas and elections far from the Gulf.",
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "status": "developing",
   "region": "Persian Gulf, Red Sea",
   "tags": [
@@ -30,7 +30,7 @@
     "forYou": [
       {
         "role": "Supply chain",
-        "line": "Plan for higher fuel surcharges and longer, costlier Red Sea and Gulf routings; Gulf exports through Hormuz are running at roughly 60-80% of normal."
+        "line": "Plan for higher fuel surcharges and longer, costlier Red Sea and Gulf routings; Gulf OPEC+ exports are running at roughly 60-80% of normal."
       },
       {
         "role": "Finance",
@@ -54,7 +54,7 @@
             "sector": "Oil markets"
           },
           {
-            "text": "Gulf exports through Hormuz fluctuate at 60-80% of normal; OPEC+ output is about 5 mb/d below February levels",
+            "text": "Gulf OPEC+ exports fluctuate at 60-80% of normal; OPEC+ output is about 5 mb/d below February levels",
             "sector": "Oil supply"
           },
           {
@@ -113,8 +113,8 @@
   },
   "brief": {
     "whatHappened": [
-      "US and Israeli strikes on Iran began on 27 February 2026. Some sources date the start to 28 February. Eight months later the war is still disrupting Gulf energy exports.",
-      "Gulf shipments through the Strait of Hormuz fluctuate at roughly 60-80% of normal. Brent trades above $100 a barrel against $73 before the war. OPEC+ output of about 25 mb/d in August was around 5 mb/d below February levels.",
+      "US and Israeli strikes on Iran began on 28 February 2026; some early reports said 27 February. Eight months later the war is still disrupting Gulf energy exports.",
+      "Gulf OPEC+ exports, disrupted at the Strait of Hormuz, fluctuate at roughly 60-80% of normal. Brent trades above $100 a barrel against $73 before the war. OPEC+ output of about 25 mb/d in August was around 5 mb/d below February levels.",
       "Renewed fighting in Yemen and attacks on Saudi energy infrastructure intensified the spike. Freight costs also stayed elevated. French authorities ran about 500 price checks on petrol stations in March over claims of excessive hikes. The average French diesel price hit a record EUR 2.41 a litre in September."
     ],
     "whyItMatters": [
@@ -125,7 +125,7 @@
     "winners": [
       {
         "who": "Oil producers with open export routes (including Venezuela and Alberta)",
-        "why": "Higher prices boost revenue. Venezuela reports 1.206 million barrels a day in September, up about 30% this year, and its US-backed interim government touts $76bn of oil investment agreements."
+        "why": "Higher prices boost revenue. Venezuela reports 1.206 million barrels a day in September, up about 30% this year, and acting president Delcy Rodríguez touts nearly $76bn of oil investment over five years."
       },
       {
         "who": "Russia, partly",
@@ -133,7 +133,7 @@
       },
       {
         "who": "Opposition parties in energy-importing democracies",
-        "why": "Cost-of-living anger favours challengers. Polling averages give US Democrats a roughly 7-point generic-ballot lead."
+        "why": "Cost-of-living anger favours challengers. Polling averages in mid-September gave US Democrats a roughly 7-point generic-ballot lead."
       }
     ],
     "losers": [
@@ -151,11 +151,11 @@
       },
       {
         "who": "Gulf exporters whose barrels are stuck",
-        "why": "Exports run at 60-80% of normal, so higher prices only partly offset lost volume."
+        "why": "Gulf OPEC+ exports run at 60-80% of normal, so higher prices only partly offset lost volume."
       }
     ],
     "whatsNext": [
-      "20-21 October: Rubio in Mumbai for US-India trade talks tied to Russian-energy sanctions waivers.",
+      "20 October: Rubio meets Jaishankar in Mumbai for US-India trade talks tied to Russian-energy sanctions waivers, then visits the Jamnagar refinery on 21 October.",
       "27 October: Israel votes in an election seen as a referendum on the Iran war.",
       "29 October: ECB meeting; Russia's Duma holds the first reading of its budget.",
       "30 October: Bank of Japan decision.",
@@ -175,7 +175,7 @@
     },
     "recap": [
       {
-        "question": "Roughly what share of normal are Gulf exports running at through Hormuz?",
+        "question": "Roughly what share of normal are Gulf OPEC+ exports running at?",
         "options": [
           "20-40%",
           "60-80%",
@@ -211,10 +211,11 @@
         "detail": "Delcy Rodríguez becomes acting president of Venezuela, setting up the later US push to reopen Venezuelan oil."
       },
       {
-        "date": "2026-02-27",
+        "date": "2026-02-28",
         "title": "US and Israeli strikes on Iran begin",
-        "detail": "Some sources date the start to 28 February. Oil and freight costs rise and stay elevated for the following eight months.",
-        "turning": true
+        "detail": "Some early reports, including The Local, dated the start to 27 February. Oil and freight costs rise and stay elevated for the following eight months.",
+        "turning": true,
+        "sourceIndex": 13
       },
       {
         "date": "2026-03-09",
@@ -223,9 +224,16 @@
         "sourceIndex": 1
       },
       {
+        "date": "2026-08-27",
+        "title": "OFAC issues General License 50C for Venezuelan oil",
+        "detail": "The licence authorises BP, Chevron, Eni, Maurel & Prom, Repsol and Shell and excludes transactions involving Russia, Iran and China.",
+        "sourceIndex": 7
+      },
+      {
         "date": "2026-08-28",
         "title": "Trump announces a US-Venezuela oil deal",
-        "detail": "Covers 17 fields; a US licence authorises BP, Chevron, Eni, Maurel & Prom, Repsol and Shell and excludes China, Russia and Iran."
+        "detail": "The deal covers 17 fields.",
+        "sourceIndex": 8
       },
       {
         "date": "2026-09-20",
@@ -236,23 +244,33 @@
       },
       {
         "date": "2026-10-01",
-        "title": "Russia submits a budget with a doubled 2026 deficit forecast",
-        "detail": "The deficit is projected at 7.345 trillion rubles as oil-and-gas revenue falls 17.2%."
+        "title": "Russia submits a budget with a nearly doubled 2026 deficit forecast",
+        "detail": "The deficit is projected at 7.345 trillion rubles, nearly double the 3.785 trillion originally planned.",
+        "sourceIndex": 6
       },
       {
         "date": "2026-10-04",
         "title": "OPEC+ core producers hold November targets",
-        "detail": "Output is about 5 mb/d below pre-war levels because Gulf exports run at 60-80% of normal."
+        "detail": "Output of about 25 mb/d in August was roughly 5 mb/d below pre-war February levels, with Gulf OPEC+ exports at 60-80% of normal.",
+        "sourceIndex": 2
+      },
+      {
+        "date": "2026-10-12",
+        "title": "Brent settles at $105.48 a barrel",
+        "detail": "Tanker attacks around Hormuz keep Brent above $100, against about $73 before the war.",
+        "sourceIndex": 12
+      },
+      {
+        "date": "2026-10-16",
+        "title": "Eurostat confirms euro-area inflation at 3.8%",
+        "detail": "Inflation rose from 3.2% in August, with energy the largest contributor. ECB minutes show policymakers weighing another rate rise ahead of the 29 October meeting.",
+        "sourceIndex": 3
       },
       {
         "date": "2026-10-17",
         "title": "About 550,000 march in France; riots hit Milan",
-        "detail": "Cost-of-living unrest spreads across Europe, with fuel the most visible price."
-      },
-      {
-        "date": "2026-10-19",
-        "title": "Euro-area inflation at 3.8%, Brent above $100",
-        "detail": "The ECB is weighing another rate rise ahead of its 29 October meeting."
+        "detail": "Cost-of-living unrest spreads across Europe, with fuel the most visible price.",
+        "sourceIndex": 11
       }
     ],
     "causes": [
@@ -276,7 +294,7 @@
       },
       {
         "name": "Trigger",
-        "when": "27-28 February 2026",
+        "when": "28 February 2026",
         "causes": [
           {
             "name": "Strikes on Iran",
@@ -302,7 +320,7 @@
           },
           {
             "name": "Second chokepoint risks",
-            "detail": "Ethiopia-Eritrea fighting near the Bab al-Mandeb approach and South China Sea harassment add to shipping stress."
+            "detail": "Ethiopia-Eritrea war fears, with Eritrea accusing Addis Ababa of eyeing the Red Sea port of Assab, add risk near the Bab al-Mandeb; South China Sea harassment adds to shipping stress."
           }
         ]
       }
@@ -351,7 +369,7 @@
         "likelyMove": "ECB holds or tightens; governments weigh fuel relief; India seeks sanctions waivers"
       },
       {
-        "name": "Venezuela's interim government",
+        "name": "Venezuela's acting government (Delcy Rodríguez)",
         "role": "New supplier under US backing",
         "wants": "Investment and legitimacy",
         "leverage": "Heavy crude, 17 US-linked agreements",
@@ -425,7 +443,8 @@
       },
       {
         "item": "Loans and mortgages",
-        "effect": "With euro-area inflation at 3.8% and the ECB weighing a rise, borrowing costs are unlikely to fall soon."
+        "effect": "With euro-area inflation at 3.8% and the ECB weighing a rise, borrowing costs are unlikely to fall soon.",
+        "sourceIndex": 3
       },
       {
         "item": "Travel and parcels",
@@ -500,7 +519,7 @@
         "resolves": "2026-12-31"
       },
       {
-        "text": "Gulf exports through Hormuz will still run below 90% of normal in spring 2027 (probability about 0.55).",
+        "text": "Gulf OPEC+ exports will still run below 90% of normal in spring 2027 (probability about 0.55).",
         "horizon": "By 30 April 2027",
         "resolves": "2027-04-30"
       }
@@ -516,7 +535,6 @@
         ]
       },
       {
-        "Group": "x",
         "audience": "investors",
         "actions": [
           "Treat oil as headline-driven; avoid assuming a quick return to $73.",
@@ -624,33 +642,115 @@
         "url": "https://www.thelocal.fr/20260309/500-price-checks-at-french-petrol-stations-over-claims-of-excessive-hikes",
         "publisher": "The Local",
         "date": "2026-03-09"
+      },
+      {
+        "title": "OPEC+ Agrees to Keep November Oil Output Targets Steady",
+        "url": "https://www.themoscowtimes.com/2026/10/04/opec-agrees-to-keep-november-oil-output-targets-steady-a93865",
+        "publisher": "The Moscow Times / Reuters",
+        "date": "2026-10-04"
+      },
+      {
+        "title": "Euro area and EU September inflation confirmed up at 3.8 per cent",
+        "url": "https://www.eunews.it/en/2026/10/16/euro-area-and-eu-september-inflation-confirmed-up-at-3-8-per-cent/",
+        "publisher": "Eunews (Eurostat data)",
+        "date": "2026-10-16"
+      },
+      {
+        "title": "European Central Bank: conditional support and French risks",
+        "url": "https://www.fxstreet.com/news/european-central-bank-conditional-support-and-french-risks-rabobank-202610091317",
+        "publisher": "Rabobank via FXStreet",
+        "date": "2026-10-09"
+      },
+      {
+        "title": "Russia's oil, gas revenues fall 17.2 pct in Jan-Sept",
+        "url": "https://www.thestar.com.my/news/world/2026/10/10/russia039s-oil-gas-revenues-fall-172-pct-in-jan-sept",
+        "publisher": "The Star / Xinhua",
+        "date": "2026-10-10"
+      },
+      {
+        "title": "Government Submits 3-Year Budget to State Duma as 2026 Deficit Set to Reach $88Bln",
+        "url": "https://www.themoscowtimes.com/2026/10/01/government-submits-3-year-budget-to-state-duma-with-record-88bln-2026-deficit-a93836",
+        "publisher": "The Moscow Times",
+        "date": "2026-10-01"
+      },
+      {
+        "title": "General License No. 50C: Authorizing Transactions Related to Oil or Gas Sector Operations in Venezuela of Certain Entities",
+        "url": "https://ofac.treasury.gov/media/936821/download",
+        "publisher": "US Treasury (OFAC)",
+        "date": "2026-08-27"
+      },
+      {
+        "title": "Venezuela Sees US$76 Billion Oil Investment",
+        "url": "https://www.riotimesonline.com/venezuela-oil-investment-76-billion-five-years-2026/",
+        "publisher": "The Rio Times",
+        "date": "2026-10-18"
+      },
+      {
+        "title": "Japanese Yen holds steady near 158.00 as BoJ's Ueda says underlying inflation close to target",
+        "url": "https://www.fxstreet.com/news/japanese-yen-holds-steady-near-15800-as-bojs-ueda-says-underlying-inflation-close-to-target-202610190652",
+        "publisher": "FXStreet",
+        "date": "2026-10-19"
+      },
+      {
+        "title": "Famine risk surges across Sudan's Darfur and Kordofan regions, alert warns",
+        "url": "https://sudantribune.com/article/319889",
+        "publisher": "Sudan Tribune",
+        "date": "2026-10-13"
+      },
+      {
+        "title": "Why have France's school protests become a wider political crisis?",
+        "url": "https://www.aljazeera.com/news/2026/10/18/why-have-frances-school-protests-become-a-wider-political-crisis",
+        "publisher": "Al Jazeera",
+        "date": "2026-10-18"
+      },
+      {
+        "title": "Oil gains as Middle East conflict and tanker attacks lift Brent to US$105.48 a barrel on October 12",
+        "url": "https://www.nationthailand.com/news/world/40072133",
+        "publisher": "Nation Thailand",
+        "date": "2026-10-12"
+      },
+      {
+        "title": "United States and Israel strike Iran, commencing major operations",
+        "url": "https://egyptianstreets.com/2026/02/28/united-states-and-israel-strike-iran-commencing-major-operations/",
+        "publisher": "Egyptian Streets",
+        "date": "2026-02-28"
       }
     ],
     "confidence": [
       {
         "claim": "French diesel hit a record EUR 2.41 a litre in September",
         "level": "high",
-        "note": "Reported by AFP via Kuwait Times; the headline is the only part of the article used here."
+        "note": "Confirmed in the body of the AFP report: an average across more than 8,700 stations on 20 September, beating the record set the day before."
       },
       {
         "claim": "French authorities ran about 500 petrol-station price checks in March",
-        "level": "medium",
-        "note": "Taken from the headline of The Local's report; details of the checks were not available."
+        "level": "high",
+        "note": "Confirmed in The Local's report: Prime Minister Lecornu announced 500 fraud-squad checks on 8 March, run from 9 to 11 March."
       },
       {
-        "claim": "Brent above $100 versus $73 before the war; Gulf exports at 60-80% of normal; OPEC+ output about 5 mb/d below February",
-        "level": "medium",
-        "note": "From the linked OPEC+ dossier, not from the two listed sources; numbers fluctuate and were not independently checked."
+        "claim": "Brent above $100 versus $73 before the war; Gulf OPEC+ exports at 60-80% of normal; OPEC+ output about 5 mb/d below February",
+        "level": "high",
+        "note": "Confirmed by Reuters via The Moscow Times (4 October) and by AFP (20 September); Brent settled at $105.48 on 12 October. Prices move daily."
       },
       {
-        "claim": "War start date of 27 February",
+        "claim": "War start date of 28 February",
+        "level": "high",
+        "note": "Contemporaneous reports dated 28 February give that date; The Local gave 27 February, so the report notes both."
+      },
+      {
+        "claim": "Euro-area inflation, ECB minutes, BoJ and yen, Russian budget and revenue, Venezuelan output and licences, Sudan funding gap and French protest figures",
+        "level": "high",
+        "note": "Each checked on 20 October against one of the sources added that day."
+      },
+      {
+        "claim": "Maduro capture on 3 January, Israel's 27 October election, Milan riots, the generic-ballot average and Rubio's itinerary",
         "level": "medium",
-        "note": "The event record says 27 February; a linked dossier says 28 February. Time zones may explain the difference."
+        "note": "Checked against other reporting on 20 October but not cited in this source list."
       },
       {
         "claim": "Downstream effects on ECB, BoJ, US midterms, Alberta, Sudan and other connected events",
         "level": "medium",
-        "note": "Taken from summaries of linked dossiers and not re-verified against primary sources; causal links are partial, since other drivers also act."
+        "note": "The figures were checked; the causal links remain the author's judgement, since other drivers also act."
       },
       {
         "claim": "Scenario probabilities and predictions",
@@ -658,11 +758,15 @@
         "note": "Author judgement, not a sourced forecast; to be graded as events resolve."
       }
     ],
-    "method": "Drafted on 19 October 2026 from two listed sources (an AFP report on record French diesel prices and a report on petrol-station price checks, both used mainly through their headlines), two matched wire headlines, and the event summary and linked-dossier summaries supplied with the brief. Prices, export shares and other figures for the wider energy shock come from the linked-dossier summaries and are cited without independent URLs. The scenario probabilities, predictions and sector sizes are the author's estimates. No chart is shown because no verified time series was available.",
+    "method": "Drafted on 19 October 2026 from two listed sources, two matched wire headlines and summaries of the event and linked dossiers. On 20 October an AI fact-checker (Claude) checked each factual claim against the cited sources, the linked events' sources and web searches, added 12 sources that back the figures, corrected two errors (the war start date and Rubio's itinerary) and tightened four imprecise statements. The scenario probabilities, predictions and sector sizes are the author's estimates. No chart is shown because no verified time series was available.",
     "changeLog": [
       {
         "date": "2026-10-19",
         "change": "First publication."
+      },
+      {
+        "date": "2026-10-20",
+        "change": "Checked claim by claim against sources. Fixed: war start date (28 February), Rubio's itinerary (Mumbai 20 October, Jamnagar 21 October), Gulf export share attributed to Gulf OPEC+ exports, Venezuela's acting president, dated generic-ballot figure, Ethiopia-Eritrea location; removed a stray key. Added 12 sources."
       }
     ]
   },
@@ -672,6 +776,12 @@
     "model": "claude-sonnet-5-5",
     "sources": 2,
     "headlines": 2,
-    "reviewed": false
+    "reviewed": false,
+    "sourceChecked": {
+      "at": "2026-10-20",
+      "by": "an AI fact-checker (Claude)",
+      "claims": 54,
+      "fixed": 6
+    }
   }
 }

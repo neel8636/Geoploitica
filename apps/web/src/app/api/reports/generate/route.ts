@@ -109,8 +109,8 @@ export async function POST(req: NextRequest) {
   if (!event) return Response.json({ ok: false, error: `Unknown event "${eventId}".` }, { status: 404, headers: cors });
   if (reader) {
     const current = getDossier(event.id);
-    if (current && current.slug === event.id && (!current.generated || current.generated.reviewed)) {
-      return Response.json({ ok: false, error: "This report has been checked by a person, so it can't be regenerated from here." }, { status: 403, headers: cors });
+    if (current && current.slug === event.id && (!current.generated || current.generated.reviewed || current.generated.sourceChecked)) {
+      return Response.json({ ok: false, error: "This report has been checked, so it can't be regenerated from here." }, { status: 403, headers: cors });
     }
     if (remaining(reader.uid) <= 0) {
       return Response.json({ ok: false, error: `You've used today's ${perDay()} reports. More tomorrow.` }, { status: 429, headers: cors });

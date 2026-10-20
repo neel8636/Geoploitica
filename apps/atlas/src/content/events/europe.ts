@@ -37,7 +37,7 @@ export const EUROPE: WorldEvent[] = [
     region: "Persian Gulf, Red Sea",
     lat: 26.5, lon: 54.0,
     countries: ["IR", "SA", "YE", "IL", "US"],
-    summary: "Strikes on Iran that began on 27 February 2026 have kept oil and freight costs elevated for eight months; renewed fighting in Yemen and attacks on Saudi energy infrastructure intensified the spike. French diesel hit a record EUR 2.41 a litre in September.",
+    summary: "Strikes on Iran that began on 28 February 2026 have kept oil and freight costs elevated for eight months; renewed fighting in Yemen and attacks on Saudi energy infrastructure intensified the spike. French diesel hit a record EUR 2.41 a litre in September.",
     severity: 5,
     keywords: ["iran", "hormuz", "red sea", "yemen", "houthi", "saudi", "oil", "diesel", "fuel", "opec", "tanker", "gulf"],
     links: [
@@ -283,14 +283,14 @@ export const EUROPE: WorldEvent[] = [
   },
   {
     id: "alberta-independence-vote",
-    title: "Alberta votes on a path to secession",
+    title: "Alberta votes to stay in Canada",
     type: "election",
     date: "2026-10-19",
     status: "developing",
     region: "Alberta, Canada",
     lat: 53.53, lon: -113.49,
     countries: ["CA"],
-    summary: "Albertans vote on a path to independence while Prime Minister Carney campaigns to keep Canada united. The vote lands as the province's oil economy benefits from the Gulf-driven price spike.",
+    summary: "On 19 October Albertans rejected a path to independence, with about 77% voting to stay in Canada on unofficial results; Prime Minister Carney hailed the outcome. The vote came as the province's oil economy benefits from the Gulf-driven price spike and US tariffs sharpen grievances with Ottawa.",
     severity: 3,
     keywords: ["alberta", "edmonton", "calgary", "carney", "secession", "independence", "canada"],
     links: [
@@ -298,6 +298,7 @@ export const EUROPE: WorldEvent[] = [
     ],
     sources: [
       { title: "Albertans vote on path to independence as Carney fights to keep Canada united", url: "https://www.euronews.com/2026/10/19/albertans-vote-on-path-to-independence-as-carney-fights-to-keep-canada-united", publisher: "Euronews", date: "2026-10-19" },
+      { title: "'Albertans chose Canada': Carney hails vote to reject referendum", url: "https://www.euronews.com/2026/10/20/albertans-chose-canada-carney-hails-vote-to-reject-referendum", publisher: "Euronews", date: "2026-10-20" },
     ],
   },
   {

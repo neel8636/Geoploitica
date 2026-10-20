@@ -2,7 +2,7 @@
   "slug": "sudan-darfur-kordofan-famine-alert",
   "title": "Famine warning across Darfur and Kordofan",
   "deck": "A UN-backed famine alert says war, displacement and El Niño drought are pushing Sudan's west and south toward famine, just as the aid appeal is more than half unfunded and convoys are coming under fire.",
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "status": "developing",
   "region": "Sudan (Greater Darfur and Greater Kordofan); Horn of Africa",
   "tags": [
@@ -30,11 +30,11 @@
     "forYou": [
       {
         "role": "Aid and NGO staff",
-        "line": "Expect tighter access and costlier logistics: WFP convoys were fired on 2 and 3 October, and the 2026 plan is 57% unfunded."
+        "line": "Expect tighter access and costlier logistics: WFP-contracted convoys were fired on 2 and 3 October, and the 2026 plan is 57% unfunded."
       },
       {
         "role": "Policymakers and EU watchers",
-        "line": "Sudan's funding gap feeds the fight over the EU's external-aid envelope in the 2028-2034 budget."
+        "line": "Our judgement: funding gaps like Sudan's are likely to feature in the fight over the EU's external-aid envelope in the 2028-2034 budget."
       },
       {
         "role": "Commodities and shipping",
@@ -58,11 +58,11 @@
             "sector": "Health, nutrition"
           },
           {
-            "text": "Drought covers more than half of Sudan's cropland, cutting the coming harvest",
+            "text": "Drought affects more than half of Sudan; about half its cropland shows poor plant growth",
             "sector": "Agriculture"
           },
           {
-            "text": "WFP convoys came under fire on 2 and 3 October, limiting delivery",
+            "text": "WFP-contracted convoys came under fire on 2 and 3 October, limiting delivery",
             "sector": "Humanitarian logistics"
           },
           {
@@ -117,14 +117,14 @@
   },
   "brief": {
     "whatHappened": [
-      "On 12 October 2026 an IPC Famine Review Committee issued an alert. It says war, displacement and El Niño drought are speeding up the risk of famine across Greater Darfur and Greater Kordofan.",
-      "Its headline numbers: acute malnutrition among children of 38% and 30.8% in two South Darfur camps, both above the 30% famine threshold. Drought covers more than half of Sudan's cropland. 8.58 million people are displaced nationwide, and over 300,000 have fled Kordofan since October 2025.",
-      "Aid is not keeping up. As of 8 October, the 2026 humanitarian plan was 57% unfunded. WFP convoys came under fire on 2 and 3 October. The sources we used do not say who fired."
+      "On 12 October 2026 the IPC issued an alert: war, displacement and El Niño drought are speeding up the risk of famine across Greater Darfur and Greater Kordofan. Its Famine Review Committee said there was not enough survey data for a full analysis, but the evidence points to a rapidly worsening situation.",
+      "Its headline numbers: acute malnutrition among children of 38% and 30.8% in two South Darfur camps, both above the 30% famine threshold. Drought affects more than half of the country, and about half of its cropland shows poor plant growth (64% in North Darfur). 8.58 million internally people are displaced nationwide, and over 300,000 have fled Kordofan since October 2025.",
+      "Aid is not keeping up. As of 8 October, the 2026 humanitarian plan was 57% unfunded. WFP-contracted convoys came under fire on 2 and 3 October. The sources we used do not say who fired."
     ],
     "whyItMatters": [
       "Famine is the most severe food-insecurity classification. A warning at this scale in a country already at war means very high risks of child deaths if aid does not scale up. The IPC's formal famine label also needs mortality and food-access evidence, not malnutrition alone, so an alert is not the same as a declaration.",
       "The causes reinforce each other. War displaces farmers and blocks roads. Drought shrinks harvests. Underfunding shrinks the response. Each makes the others worse.",
-      "The crisis reaches beyond Sudan. Brent above $100 and Red Sea disruption from the Gulf war make fuel and food aid dearer to ship to Port Sudan. The funding gap is also a live argument in the EU's 2028-2034 budget talks. Sudan is part of the Cairo-Khartoum-Mogadishu bloc facing Addis Ababa, so the Ethiopia-Eritrea crisis is not a separate story."
+      "The crisis reaches beyond Sudan. Brent above $100 and Red Sea disruption from the Gulf war make fuel and food aid dearer to ship to Port Sudan. In our judgement, funding gaps like Sudan's are likely to feature in arguments over the EU's 2028-2034 external-aid envelope. Sudan is part of the Cairo-Khartoum-Mogadishu bloc facing Addis Ababa, so the Ethiopia-Eritrea crisis is not a separate story."
     ],
     "winners": [
       {
@@ -147,11 +147,11 @@
       },
       {
         "who": "Farmers on drought-hit land",
-        "why": "Drought covers more than half of Sudan's cropland, which threatens both food and income."
+        "why": "About half of Sudan's cropland shows poor plant growth in the drought, which threatens both food and income."
       },
       {
         "who": "Aid agencies and convoy crews",
-        "why": "They face a 57% funding gap and fire on WFP convoys on 2 and 3 October."
+        "why": "They face a 57% funding gap and fire on WFP-contracted convoys on 2 and 3 October."
       }
     ],
     "whatsNext": [
@@ -191,11 +191,11 @@
         "answerIndex": 2
       },
       {
-        "question": "How much of Sudan's cropland does drought cover, according to the alert?",
+        "question": "How much of Sudan's cropland shows poor plant growth, according to the alert?",
         "options": [
           "Less than a tenth",
           "About a quarter",
-          "More than half"
+          "About half"
         ],
         "answerIndex": 2
       }
@@ -206,13 +206,13 @@
       {
         "date": "2023-04-15",
         "title": "War begins between Sudan's army and the Rapid Support Forces",
-        "detail": "The conflict, drawn from general knowledge rather than the listed sources, has driven mass displacement and hunger since.",
-        "sourceIndex": 2
+        "detail": "The war between the army and the Rapid Support Forces has driven mass displacement and hunger since.",
+        "sourceIndex": 7
       },
       {
         "date": "2024-08-01",
         "title": "Famine confirmed in Zamzam camp, North Darfur",
-        "detail": "General knowledge, medium confidence: an IPC committee confirmed famine there in 2024, which shows the IPC has made such calls in this war before.",
+        "detail": "Famine was confirmed in Zamzam camp, which shows the IPC system has made such calls in this war before.",
         "sourceIndex": 2
       },
       {
@@ -222,14 +222,15 @@
         "sourceIndex": 0
       },
       {
-        "date": "2026-02-27",
+        "date": "2026-02-28",
         "title": "Strikes on Iran begin",
         "detail": "Oil and freight costs have stayed high for eight months, raising the cost of moving fuel and food aid into Port Sudan."
       },
       {
         "date": "2026-10-01",
         "title": "Ethiopia and Eritrea sever diplomatic ties",
-        "detail": "A parallel Horn of Africa crisis in which Sudan is named in the bloc opposing Addis Ababa."
+        "detail": "A parallel Horn of Africa crisis in which Sudan is named in the bloc opposing Addis Ababa.",
+        "sourceIndex": 6
       },
       {
         "date": "2026-10-02",
@@ -251,7 +252,7 @@
       },
       {
         "date": "2026-10-12",
-        "title": "IPC Famine Review Committee issues alert",
+        "title": "IPC issues a famine alert",
         "detail": "Warns famine risk is accelerating across Greater Darfur and Greater Kordofan; child acute malnutrition at 38% and 30.8% in two South Darfur camps.",
         "sourceIndex": 0,
         "turning": true
@@ -292,7 +293,7 @@
           },
           {
             "name": "El Niño drought",
-            "detail": "Drought now covers more than half of Sudan's cropland."
+            "detail": "Drought affects more than half of Sudan; about half of its cropland shows poor plant growth, 64% in North Darfur."
           },
           {
             "name": "Camp malnutrition crossing the threshold",
@@ -306,7 +307,7 @@
         "causes": [
           {
             "name": "Attacks on convoys",
-            "detail": "WFP convoys came under fire on 2 and 3 October."
+            "detail": "WFP-contracted convoys came under fire on 2 and 3 October."
           },
           {
             "name": "Funding collapse",
@@ -325,8 +326,8 @@
     ],
     "stakeholders": [
       {
-        "name": "IPC Famine Review Committee",
-        "role": "Independent technical body issuing the alert",
+        "name": "The IPC and its Famine Review Committee",
+        "role": "The IPC issued the alert; its independent review committee assessed the evidence",
         "wants": "Action before deaths rise, backed by credible data",
         "leverage": "Its classifications shape donor and UN decisions",
         "likelyMove": "Follow up with further analysis as data allows; the sources give no dates"
@@ -340,7 +341,7 @@
       },
       {
         "name": "Sudan's army and its civilian authorities",
-        "role": "Parties to the war; the army-aligned side is based in Port Sudan",
+        "role": "Parties to the war; the army-aligned government announced its return from Port Sudan to Khartoum in January 2026",
         "wants": "Military and political advantage; control over aid access",
         "leverage": "Permissions, ports and checkpoints",
         "likelyMove": "Not stated in the sources; we judge that access disputes will continue"
@@ -379,7 +380,7 @@
         "sector": "Sudanese agriculture",
         "direction": "down",
         "size": 3,
-        "why": "Drought covers more than half of cropland and displacement removes farmers from the land."
+        "why": "About half of cropland shows poor plant growth in the drought, and displacement removes farmers from the land."
       },
       {
         "sector": "Humanitarian logistics",
@@ -425,7 +426,7 @@
       },
       {
         "item": "Moving around",
-        "effect": "Fire on WFP convoys on 2 and 3 October shows how risky roads are for both aid workers and civilians.",
+        "effect": "Fire on WFP-contracted convoys on 2 and 3 October shows how risky roads are for both aid workers and civilians.",
         "sourceIndex": 0
       },
       {
@@ -604,9 +605,40 @@
         "date": "2026-10-13"
       },
       {
-        "title": "Integrated Food Security Phase Classification (IPC)",
-        "url": "https://www.ipcinfo.org/",
-        "publisher": "IPC"
+        "title": "Famine confirmed in Sudan's North Darfur, confirming UN agencies' worst fears",
+        "url": "https://www.wfp.org/news/famine-confirmed-sudans-north-darfur-confirming-un-agencies-worst-fears",
+        "publisher": "WFP",
+        "date": "2024-08-01"
+      },
+      {
+        "title": "IPC Sudan Food Insecurity and Malnutrition Alert",
+        "url": "https://allafrica.com/stories/202610130125.html",
+        "publisher": "WHO via AllAfrica",
+        "date": "2026-10-13"
+      },
+      {
+        "title": "War and El Niño-driven drought deplete food stocks, pushing Sudan further towards famine",
+        "url": "https://www.rescue.org/press-release/war-and-el-nino-driven-drought-deplete-food-stocks-pushing-sudan-further-towards",
+        "publisher": "International Rescue Committee",
+        "date": "2026-10-13"
+      },
+      {
+        "title": "Sudan announces government's return to Khartoum from wartime capital",
+        "url": "https://www.aljazeera.com/news/2026/1/11/sudan-announces-governments-return-to-khartoum-from-wartime-capital",
+        "publisher": "Al Jazeera",
+        "date": "2026-01-11"
+      },
+      {
+        "title": "Eritrea severs diplomatic ties with Ethiopia in tit-for-tat move",
+        "url": "https://www.aljazeera.com/amp/news/2026/10/1/eritrea-severs-diplomatic-ties-with-ethiopia-in-tit-for-tat-move",
+        "publisher": "Al Jazeera",
+        "date": "2026-10-01"
+      },
+      {
+        "title": "Sudan's famine risk worsened by conflict, drought and funding shortages, report says",
+        "url": "https://www.ajc.com/news/2026/10/sudans-famine-risk-worsened-by-conflict-draught-and-funding-shortages-report-says/",
+        "publisher": "AP",
+        "date": "2026-10-19"
       }
     ],
     "confidence": [
@@ -621,7 +653,7 @@
         "note": "From the event summary and the two cited articles; the figures come from UN and IPC reporting."
       },
       {
-        "claim": "Plan 57% unfunded as of 8 October; WFP convoys fired on 2 and 3 October",
+        "claim": "Plan 57% unfunded as of 8 October; WFP-contracted convoys fired on 2 and 3 October",
         "level": "medium",
         "note": "From the event summary; who fired on the convoys is not stated in the material and is left open."
       },
@@ -651,6 +683,10 @@
       {
         "date": "2026-10-19",
         "change": "First publication."
+      },
+      {
+        "date": "2026-10-20",
+        "change": "Checked claim by claim against sources. Fixed: who issued the alert (the IPC, not its review committee); drought extent (more than half of the country, about half of cropland); date strikes on Iran began (28 Feb); the government's seat (back in Khartoum since January); EU budget link now labelled as judgement. Replaced a generic source with five specific ones."
       }
     ]
   },
@@ -660,6 +696,12 @@
     "model": "claude-sonnet-5-5",
     "sources": 2,
     "headlines": 2,
-    "reviewed": false
+    "reviewed": false,
+    "sourceChecked": {
+      "at": "2026-10-20",
+      "by": "an AI fact-checker (Claude)",
+      "claims": 28,
+      "fixed": 5
+    }
   }
 }
