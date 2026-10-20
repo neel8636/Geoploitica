@@ -15,7 +15,8 @@ import {
   type User,
 } from "firebase/auth";
 import { doc, getDoc, serverTimestamp, setDoc, updateDoc } from "firebase/firestore";
-import { auth, db, firebaseEnabled } from "@/lib/firebase";
+import { usePathname } from "next/navigation";
+import { auth, db, firebaseEnabled, track } from "@/lib/firebase";
 
 /*
   Reader accounts. One context for the whole Atlas: who is signed in, whether their profile
@@ -31,6 +32,49 @@ export interface Profile {
   country: string;
   interest: Interest | "";
   provider: "password" | "google";
+  source?: Source;
+}
+
+// Where a reader first arrived from (first visit in this browser), saved with their profile so
+// sign-ups can be counted by channel: ?utm_source=reddit, ?ref=linkedin, or the referring site.
+export interface Source {
+  from: string;
+  medium: string;
+  campaign: string;
+  landing: string;
+}
+
+const SOURCE_KEY = "geopolitica.firstTouch";
+
+function clip(v: string | null | undefined, n = 100): string {
+  return (v ?? "").slice(0, n);
+}
+
+function rememberFirstTouch(): void {
+  try {
+    if (localStorage.getItem(SOURCE_KEY)) return;
+    const q = new URLSearchParams(location.search);
+    let ref = "";
+    try {
+      ref = document.referrer ? new URL(document.referrer).hostname : "";
+    } catch {}
+    if (ref === location.hostname) ref = "";
+    const s: Source = {
+      from: clip(q.get("utm_source") || q.get("ref") || ref || "direct", 60),
+      medium: clip(q.get("utm_medium"), 60),
+      campaign: clip(q.get("utm_campaign"), 60),
+      landing: clip(location.pathname, 100),
+    };
+    localStorage.setItem(SOURCE_KEY, JSON.stringify(s));
+  } catch {}
+}
+
+function firstTouch(): Source {
+  try {
+    const s = JSON.parse(localStorage.getItem(SOURCE_KEY) || "null") as Source | null;
+    if (s && typeof s.from === "string") return { from: clip(s.from, 60), medium: clip(s.medium, 60), campaign: clip(s.campaign, 60), landing: clip(s.landing) };
+  } catch {}
+  return { from: "unknown", medium: "", campaign: "", landing: "" };
 }
 
 interface AuthState {
@@ -61,6 +105,16 @@ export default function AuthProvider({ children }: { children: ReactNode }) {
   const [loading, setLoading] = useState(firebaseEnabled);
   const [user, setUser] = useState<User | null>(null);
   const [profile, setProfile] = useState<Profile | null>(null);
+  const pathname = usePathname();
+
+  useEffect(() => {
+    rememberFirstTouch();
+  }, []);
+
+  // one page view per route, including client-side navigation
+  useEffect(() => {
+    track("page_view", { page_path: pathname, page_location: location.href, page_title: document.title });
+  }, [pathname]);
 
   useEffect(() => {
     if (!firebaseEnabled) return;
@@ -98,9 +152,23 @@ export default function AuthProvider({ children }: { children: ReactNode }) {
     });
   }, []);
 
-  async function writeProfile(u: User, p: Profile, isNew: boolean) {
+  async function writeProfile(u: User, profileIn: Profile, isNew: boolean) {
+    let p = profileIn;
     const ref = doc(db(), "users", u.uid);
-    if (isNew) await setDoc(ref, { ...p, createdAt: serverTimestamp(), lastSeen: serverTimestamp() });
+    if (isNew) {
+      p = { ...p, source: firstTouch() };
+      try {
+        await setDoc(ref, { ...p, createdAt: serverTimestamp(), lastSeen: serverTimestamp() });
+      } catch (err) {
+        // older published rules do not know the source field yet: save the profile without it
+        if ((err as { code?: string }).code !== "permission-denied") throw err;
+        const { source: _drop, ...rest } = p;
+        void _drop;
+        p = rest;
+        await setDoc(ref, { ...p, createdAt: serverTimestamp(), lastSeen: serverTimestamp() });
+      }
+      track("sign_up", { method: p.provider, source: p.source?.from ?? "" });
+    }
     else await setDoc(ref, { ...p, lastSeen: serverTimestamp() }, { merge: true });
     setProfile(p);
   }
@@ -119,6 +187,7 @@ export default function AuthProvider({ children }: { children: ReactNode }) {
     },
     async signIn(email, password) {
       await signInWithEmailAndPassword(auth(), email.trim(), password);
+      track("login", { method: "password" });
     },
     async signInWithGoogle() {
       const provider = new GoogleAuthProvider();

@@ -3,6 +3,7 @@
 import { getApp, getApps, initializeApp, type FirebaseApp } from "firebase/app";
 import { getAuth, type Auth } from "firebase/auth";
 import { getFirestore, type Firestore } from "firebase/firestore";
+import { getAnalytics, isSupported, logEvent, type Analytics } from "firebase/analytics";
 
 /*
   Firebase for reader accounts: Auth for sign-up and sign-in, Firestore for a small profile
@@ -18,6 +19,7 @@ const config = {
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
   storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
   messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+  measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
 };
 
 export const firebaseEnabled = Boolean(config.apiKey && config.authDomain && config.projectId && config.appId);
@@ -36,4 +38,20 @@ export function auth(): Auth {
 
 export function db(): Firestore {
   return getFirestore(firebaseApp());
+}
+
+// Google Analytics through Firebase: page views and sign-ups, so a campaign can be measured.
+// Off when no measurement ID was built in, or where the browser does not support it.
+let analyticsP: Promise<Analytics | null> | null = null;
+
+function analytics(): Promise<Analytics | null> {
+  if (!firebaseEnabled || !config.measurementId || typeof window === "undefined") return Promise.resolve(null);
+  if (!analyticsP) analyticsP = isSupported().then((ok) => (ok ? getAnalytics(firebaseApp()) : null)).catch(() => null);
+  return analyticsP;
+}
+
+export function track(name: string, params: Record<string, string | number> = {}): void {
+  analytics().then((a) => {
+    if (a) logEvent(a, name, params);
+  }).catch(() => {});
 }

@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { EVENTS, TYPE_LABELS, allEdges, type EventType } from "@/content/events";
-import { formatDate } from "@/content/dossiers";
+import { formatDate, getDossier } from "@/content/dossiers";
+import RippleMap from "@/components/RippleMap";
+import { ImpactMeter } from "@/components/dossier/Primitives";
 import { loadWire } from "@/content/wire";
 import HomeExplorer from "@/components/atlas/HomeExplorer";
 
@@ -24,21 +26,55 @@ export default function Home() {
     .sort((a, b) => b.n - a.n);
   const regions = Array.from(new Set(EVENTS.map((e) => e.region))).length;
 
+  // Ripple of the day: rotates daily through the most severe developing events that have their own report.
+  const withReport = EVENTS
+    .filter((e) => e.status !== "scheduled" && getDossier(e.id)?.slug === e.id)
+    .sort((a, b) => b.severity - a.severity || a.id.localeCompare(b.id))
+    .slice(0, 7);
+  // keyed to the day the headlines were fetched, so it turns over with each morning's build
+  const dayIndex = Math.floor((Date.parse(wire.fetchedAt || "") || 0) / 86_400_000);
+  const featured = withReport.length ? withReport[dayIndex % withReport.length] : undefined;
+  const fd = featured ? getDossier(featured.id) : undefined;
+
   return (
     <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
       <section className="grid gap-6 lg:grid-cols-[1fr_22rem] lg:items-end">
         <div>
-          <h1 className="text-[2.25rem] leading-[1.1] sm:text-[2.75rem]">The world, connected.</h1>
+          <h1 className="text-[2.25rem] leading-[1.1] sm:text-[2.75rem]">Follow one event to everything it touches.</h1>
           <p className="prose-dossier mt-3 max-w-2xl text-ink-2">
-            {EVENTS.length} events across {regions} places, joined by {edges.length} connections. Start anywhere: every event
-            opens a report on what happened and how it reaches the rest of the world.
+            A strike in one country, a closed shipping lane, a vote in a capital: each one ripples into prices, jobs and other
+            countries. {EVENTS.length} events across {regions} places, joined by {edges.length} connections, each with the
+            sentence and the source that justify it. Start anywhere.
           </p>
         </div>
         <p className="text-sm text-ink-2 lg:text-right">
-          Wire {wire.fetchedAt ? `updated ${formatDate(wire.fetchedAt.slice(0, 10))}` : "not fetched yet"} ·{" "}
+          Headlines {wire.fetchedAt ? `updated ${formatDate(wire.fetchedAt.slice(0, 10))}` : "not fetched yet"} ·{" "}
           <Link href="/guide" className="hover:underline">How to use this</Link>
         </p>
       </section>
+
+      {featured && fd ? (
+        <section className="mt-8 grid gap-6 rounded-lg border border-line bg-paper-2 p-5 lg:grid-cols-[1fr_1.1fr] lg:items-center" aria-label="Ripple of the day">
+          <div>
+            <p className="signpost">Ripple of the day</p>
+            <h2 className="mt-1 text-3xl">
+              <Link href={`/events/${featured.id}`} className="no-underline hover:underline">{fd.title}</Link>
+            </h2>
+            <p className="mt-3 font-serif text-xl leading-snug">{fd.card.headline}</p>
+            <p className="mt-4 font-serif">
+              <span className="tabular text-4xl font-medium">{fd.card.keyNumber.value}</span>
+              <span className="mt-1 block text-[15px] text-ink-2">{fd.card.keyNumber.label}</span>
+            </p>
+            <div className="mt-4"><ImpactMeter level={fd.card.impactMeter} /></div>
+            <Link href={`/events/${featured.id}`} className="mt-5 inline-block rounded-sm bg-teal px-4 py-2 text-paper no-underline hover:opacity-90">
+              Trace the full ripple
+            </Link>
+          </div>
+          <div>
+            <RippleMap centre={fd.title} rings={fd.card.ripple} compact />
+          </div>
+        </section>
+      ) : null}
 
       <ol className="mt-6 grid gap-3 sm:grid-cols-3">
         {STEPS.map((s) => (

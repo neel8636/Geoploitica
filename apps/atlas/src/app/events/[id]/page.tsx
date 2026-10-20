@@ -10,6 +10,8 @@ import Connections from "@/components/atlas/Connections";
 import { DossierBody } from "@/components/dossier/DossierBody";
 import GenerateReport from "@/components/reports/GenerateReport";
 import { ImpactMeter, Signpost } from "@/components/dossier/Primitives";
+import MembersOnly from "@/components/auth/MembersOnly";
+import { SITE_URL, reportErrorUrl } from "@/lib/site";
 
 // The enterprise server that generates reports on demand (set at build time; empty = not offered).
 const REPORT_API = process.env.NEXT_PUBLIC_REPORT_API ?? "";
@@ -21,7 +23,15 @@ export function generateStaticParams() {
 export async function generateMetadata(props: PageProps<"/events/[id]">): Promise<Metadata> {
   const { id } = await props.params;
   const e = getEvent(id);
-  return e ? { title: e.title, description: e.summary } : {};
+  if (!e) return {};
+  const url = `${SITE_URL}/events/${e.id}/`;
+  return {
+    title: e.title,
+    description: e.summary,
+    alternates: { canonical: url },
+    openGraph: { type: "article", siteName: "Geopolitica Atlas", title: e.title, description: e.summary, url, images: [{ url: `${SITE_URL}/share/${e.id}.png`, width: 1200, height: 630 }] },
+    twitter: { card: "summary_large_image", title: e.title, description: e.summary, images: [`${SITE_URL}/share/${e.id}.png`] },
+  };
 }
 
 export default async function EventPage(props: PageProps<"/events/[id]">) {
@@ -100,6 +110,10 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
             </li>
           ))}
         </ol>
+        <p className="mt-3 text-sm text-ink-2">
+          Something here wrong or missing a source?{" "}
+          <a href={reportErrorUrl(e.title, `/events/${e.id}/`)} target="_blank" rel="noreferrer" className="underline">Report an error</a>.
+        </p>
       </section>
 
       <section className="mt-14 border-t-2 border-teal pt-8">
@@ -111,7 +125,9 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
         ) : null}
         {REPORT_API ? (
           <div className="mt-3">
-            <GenerateReport eventId={e.id} existing={Boolean(dossier && own)} api={REPORT_API} />
+            <MembersOnly compact title={dossier && own ? "regenerate this report" : "generate a report for this event now"}>
+              <GenerateReport eventId={e.id} existing={Boolean(dossier && own)} api={REPORT_API} />
+            </MembersOnly>
           </div>
         ) : !dossier ? (
           <p className="mt-2 text-[15px] text-ink-2">
@@ -120,7 +136,7 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
         ) : null}
         {dossier ? (
           <div className="mt-8">
-            <DossierBody d={dossier} backHref="/" backLabel="Map" />
+            <DossierBody d={dossier} backHref="/" backLabel="Map" path={`/events/${e.id}/`} />
           </div>
         ) : null}
       </section>

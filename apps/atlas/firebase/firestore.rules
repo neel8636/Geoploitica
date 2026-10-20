@@ -2,7 +2,8 @@ rules_version = '2';
 
 // Geopolitica Atlas reader accounts. Each signed-in reader can create, read and update only
 // their own profile at users/{uid}, and only with the fields the sign-up form writes.
-// Nothing else in the database is reachable from the browser.
+// `source` records where a reader first arrived from (utm_source, ref or the referring site),
+// so sign-ups can be counted by channel. Nothing else in the database is reachable from the browser.
 service cloud.firestore {
   match /databases/{database}/documents {
     match /users/{uid} {
@@ -11,12 +12,16 @@ service cloud.firestore {
       }
       function validProfile() {
         let d = request.resource.data;
-        return d.keys().hasOnly(['name', 'email', 'country', 'interest', 'provider', 'createdAt', 'lastSeen'])
+        return d.keys().hasOnly(['name', 'email', 'country', 'interest', 'provider', 'source', 'createdAt', 'lastSeen'])
           && (!('name' in d) || (d.name is string && d.name.size() <= 120))
           && (!('email' in d) || (d.email is string && d.email.size() <= 254))
           && (!('country' in d) || (d.country is string && d.country.size() <= 80))
           && (!('interest' in d) || d.interest in ['', 'student', 'professional', 'educator', 'journalist', 'curious'])
-          && (!('provider' in d) || d.provider in ['password', 'google']);
+          && (!('provider' in d) || d.provider in ['password', 'google'])
+          && (!('source' in d) || (d.source is map
+                && d.source.keys().hasOnly(['from', 'medium', 'campaign', 'landing'])
+                && d.source.from is string && d.source.from.size() <= 60
+                && d.source.landing is string && d.source.landing.size() <= 100));
       }
       allow read: if isOwner();
       allow create: if isOwner() && validProfile();

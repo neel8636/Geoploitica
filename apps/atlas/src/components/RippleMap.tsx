@@ -47,15 +47,14 @@ export default function RippleMap({ centre, rings, compact = false }: Props) {
   return (
     <figure className="w-full">
       <svg
-        viewBox={`0 0 ${size} ${size}`}
+        viewBox={`-80 0 ${size + 160} ${size}`} // side margin so long labels on the outer ring are not clipped
         role="img"
         aria-labelledby={`${id}-title`}
-        className="mx-auto block w-full max-w-[600px]"
+        className="mx-auto block w-full max-w-[680px]"
         fontFamily="var(--font-sans)"
       >
-        <title id={`${id}-title`}>
-          Ripple map: {centre}, with {rings.length} rings of effects
-        </title>
+        {/* one string: React renders a <title> with several children as empty on the server */}
+        <title id={`${id}-title`}>{`Ripple map: ${centre}, with ${rings.length} rings of effects`}</title>
         {rings.map((ring, ri) => {
           const r = innerR + step * (ri + 1);
           // ring labels sit at the top of each ring; dots start at -54 degrees so none lands there

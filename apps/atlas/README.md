@@ -67,27 +67,39 @@ By hand: `ANTHROPIC_API_KEY=… npm run draft -- <event-id>` (or `--all`, `--dry
 published report; nothing needs registering. Add events by appending to the region files
 under `src/content/events/`.
 
-## Reader accounts (sign-up wall)
+## Reader accounts and the sign-up line
 
-Readers create a free account before they see the atlas: email and password, or Google.
-Accounts live in Firebase Authentication, and each reader gets a small profile in Firestore at
-`users/{uid}` (name, email, country, what brings them here, first and last visit). The rules in
+Open to everyone: the map, every event page, its 30-second card, ripple, connections, headlines
+and sources, and each report's evidence section. Behind a free account: the 5-minute brief and
+the deep dive (`<MembersOnly>` in `src/components/auth/MembersOnly.tsx`), and on-demand report
+generation. Readers sign up in place, or at `/join`, with email and password or Google.
+
+Accounts live in Firebase Authentication (project `geopolitica-941b0`), with a profile per reader
+in Firestore at `users/{uid}`: name, email, country, what brings them here, first and last visit,
+and `source`, where they first arrived from. The rules in
 [`firebase/firestore.rules`](firebase/firestore.rules) let each reader touch only their own profile.
 
-The wall switches on when the build has a Firebase web config. The Pages workflow builds with the
-config of the Firebase project `geopolitica-941b0` (public by design: it names the project, and Auth
-plus the Firestore rules do the protecting); repository variables `FIREBASE_API_KEY`,
-`FIREBASE_AUTH_DOMAIN`, `FIREBASE_PROJECT_ID`, `FIREBASE_APP_ID`, `FIREBASE_STORAGE_BUCKET` and
-`FIREBASE_MESSAGING_SENDER_ID` override it. Local builds have no config and run open.
+The Pages workflow builds with that project's web config (public by design: it names the project,
+and Auth plus the rules do the protecting); repository variables `FIREBASE_API_KEY`,
+`FIREBASE_AUTH_DOMAIN`, `FIREBASE_PROJECT_ID`, `FIREBASE_APP_ID`, `FIREBASE_STORAGE_BUCKET`,
+`FIREBASE_MESSAGING_SENDER_ID` and `FIREBASE_MEASUREMENT_ID` override it. Local builds have no
+config, so every layer is open.
 
-In the Firebase console: enable the Email/Password and Google sign-in providers, add
-`neel8636.github.io` under Authentication → Settings → Authorized domains, create a Firestore
-database, and publish the rules file. Reader sign-ups show under Authentication → Users and
-Firestore → `users`.
+This is a reading wall, not access control: the site is static and the repository is public.
 
-This is a sign-up wall, not encryption: the site is static and the repository is public, so it
-decides who gets the reading experience and gives you a list of readers, not who can ever see a
-sentence of the content.
+## Sharing and measuring
+
+- **Share cards.** Every event has a 1200×630 card at `/share/<event-id>.png` (and the site one at
+  `/share/atlas.png`), built at export time and set as its `og:image`, so a link posted on
+  LinkedIn, Reddit, X or WhatsApp shows the event and the first ring of its ripple.
+- **Tracking links.** Add `?utm_source=reddit&utm_campaign=launch` (or `?ref=linkedin`) to a shared
+  link. The first visit's source is kept in the browser and saved with the reader's profile at
+  sign-up, so Firestore → `users` shows sign-ups by channel. Without a tag, the referring site is used.
+- **Analytics.** Page views, `sign_up` and `login` go to Google Analytics through Firebase
+  (measurement ID in the build).
+- **Sitemap.** `/sitemap.xml` lists every page; submit it in Google Search Console.
+- **Corrections.** Every event page and report links to a prefilled GitHub issue
+  (`label: correction`); the guide's "How reports are made" section explains the method.
 
 ## Stack
 

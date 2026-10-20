@@ -7,6 +7,8 @@ import Timeline from "@/components/dossier/Timeline";
 import { CausesDiagram, ScenarioBars, SpreadChart, WatchTimeline } from "@/components/dossier/Charts";
 import { ForYou, PredictReveal, Recap } from "@/components/dossier/Interactive";
 import { ImpactMeter, Pill, Section, Signpost, SourceRef } from "@/components/dossier/Primitives";
+import MembersOnly from "@/components/auth/MembersOnly";
+import { reportErrorUrl } from "@/lib/site";
 
 export const dossierLayers = [
   { id: "card", label: "30-second card", minutes: 1 },
@@ -41,8 +43,18 @@ export const dossierLayers = [
   { id: "evidence", label: "Evidence", minutes: 2 },
 ];
 
-export function DossierBody({ d, backHref = "/events", backLabel = "All events" }: { d: Dossier; backHref?: string; backLabel?: string }) {
+const LOCKED = ["brief", "what-happened", "why-it-matters", "winners-losers", "whats-next", "deep", "timeline", "causes", "markets", "stakeholders", "industries", "daily-life", "scenarios", "countermeasures", "analogues", "watch"];
+
+export function DossierBody({ d, backHref = "/events", backLabel = "All events", path }: { d: Dossier; backHref?: string; backLabel?: string; path?: string }) {
   const S = d.evidence.sources;
+  const errorUrl = reportErrorUrl(d.title, path ?? `/dossiers/${d.slug}/`);
+  const points = [
+    `The 5-minute brief: what happened, why it matters, and who wins and loses (${d.brief.winners.length + d.brief.losers.length} players)`,
+    `Root causes, from long-running strains to the trigger`,
+    `${d.deep.scenarios.length} scenarios with odds and ${d.deep.predictions.length} predictions on the record`,
+    `What it means for ${d.deep.sectors.length} industries and for daily life`,
+    `What to watch next, with dates`,
+  ];
   return (
     <article className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:grid lg:grid-cols-[13rem_1fr] lg:gap-12">
       <aside className="mb-8 lg:mb-0">
@@ -69,7 +81,8 @@ export function DossierBody({ d, backHref = "/events", backLabel = "All events" 
             <p className="mt-4 rounded-sm border border-amber bg-amber-2 px-3 py-2 text-sm text-ink">
               <span className="font-medium">Auto-drafted report.</span> Written by {d.generated.by} ({d.generated.model}) on{" "}
               {formatDate(d.generated.at.slice(0, 10))} from {d.generated.sources} sources and {d.generated.headlines} headlines, and not yet
-              checked by a person. Treat numbers as leads, not facts; every claim links to where it came from.
+              checked by a person. Treat numbers as leads, not facts; every claim links to where it came from.{" "}
+              <a href={errorUrl} target="_blank" rel="noreferrer" className="underline">Report an error</a>.
             </p>
           ) : null}
 
@@ -100,6 +113,8 @@ export function DossierBody({ d, backHref = "/events", backLabel = "All events" 
           </div>
         </section>
 
+        {/* Layers 2 and 3 need a free account; the card above and the evidence below are open. */}
+        <MembersOnly title="Read the full report, free" points={points} anchors={LOCKED}>
         {/* Layer 2: the brief */}
         <Section id="brief" title="The five-minute brief">
           <div className="prose-dossier space-y-8">
@@ -285,6 +300,7 @@ export function DossierBody({ d, backHref = "/events", backLabel = "All events" 
             ))}
           </ul>
         </Section>
+        </MembersOnly>
 
         {/* Layer 4: evidence */}
         <Section id="evidence" title="Evidence" lead={d.evidence.method}>
@@ -309,6 +325,10 @@ export function DossierBody({ d, backHref = "/events", backLabel = "All events" 
               ))}
             </ol>
           </div>
+          <p className="mt-6 text-[15px]">
+            Spotted a mistake? <a href={errorUrl} target="_blank" rel="noreferrer" className="underline">Report an error</a>; fixes are
+            logged below.
+          </p>
           <div className="mt-6">
             <Signpost>Change log</Signpost>
             <ul className="mt-2 text-[15px] text-ink-2">

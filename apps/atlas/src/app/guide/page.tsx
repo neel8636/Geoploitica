@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { EVENTS, LINK_WORDS, allEdges } from "@/content/events";
+import { reportErrorUrl } from "@/lib/site";
 
-export const metadata: Metadata = { title: "How to use the atlas" };
+export const metadata: Metadata = {
+  title: "How to use the atlas",
+  description: "How to read the map, an event and its report, and how the reports are made and corrected.",
+};
 
 export default function GuidePage() {
   const edges = allEdges();
@@ -34,12 +38,35 @@ export default function GuidePage() {
         <li><span className="text-ink">How it connects to the rest of the world.</span> Every linked event with the one sentence that justifies the link. If a link looks wrong, that sentence is what to argue with. Each is a link to the next event.</li>
         <li><span className="text-ink">On the wire.</span> Recent headlines matched to the event.</li>
         <li><span className="text-ink">Sources.</span> Where the summary comes from.</li>
-        <li><span className="text-ink">Full report</span>, where one exists: a 30-second card, a 5-minute brief, deep-dive modules and the evidence layer. Read as far as you need.</li>
+        <li><span className="text-ink">Full report</span>, where one exists: a 30-second card, a 5-minute brief, deep-dive modules and the evidence layer. Read as far as you need. The card and the evidence are open to everyone; the brief and the deep dive need a free account.</li>
       </ol>
+
+      <h2 id="method" className="mt-10 scroll-mt-24 text-2xl">How reports are made</h2>
+      <div className="prose-dossier mt-3 space-y-3 text-ink-2">
+        <p>
+          <span className="text-ink">Events and connections are chosen by a person.</span> Each event cites the reporting it rests
+          on, and each connection carries the sentence that justifies it.
+        </p>
+        <p>
+          <span className="text-ink">Reports are drafted by an AI model</span> (Claude, by Anthropic) from that event&apos;s cited
+          sources, its connections and the headlines matched to it, and nothing else. Every number in a report links to the
+          source it came from. Until a person has checked a report, it carries an amber &ldquo;Auto-drafted&rdquo; notice at the
+          top saying so, with the date and the number of sources used.
+        </p>
+        <p>
+          <span className="text-ink">Scenario odds and predictions are judgement, not data.</span> They are labelled that way,
+          kept on the record, and graded as events resolve.
+        </p>
+        <p>
+          <span className="text-ink">Corrections are public.</span> Every event page has a &ldquo;Report an error&rdquo; link. Fixes
+          are listed in the report&apos;s change log, in its evidence section.{" "}
+          <a href={reportErrorUrl("general", "/guide/")} target="_blank" rel="noreferrer" className="hover:underline">Flag something now</a>.
+        </p>
+      </div>
 
       <h2 className="mt-10 text-2xl">Keeping it current</h2>
       <p className="prose-dossier mt-3 text-ink-2">
-        The published site rebuilds itself once a day and pulls fresh headlines first. The event graph itself is a file you
+        The published site rebuilds itself every hour and pulls fresh headlines first. The event graph itself is a file you
         edit: <code className="rounded-sm bg-paper-2 px-1">src/content/events.ts</code>, one entry per event with its
         coordinates, keywords, links and sources. Two scripts help:
       </p>
