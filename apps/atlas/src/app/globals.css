@@ -156,3 +156,12 @@ a {
 .tabular {
   font-variant-numeric: tabular-nums;
 }
+
+/* Today's ripples: a soft fade as the carousel turns */
+@keyframes fadein {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .animate-\[fadein_\.4s_ease\] { animation: none; }
+}

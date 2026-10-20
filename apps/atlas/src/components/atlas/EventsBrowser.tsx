@@ -1,11 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { EVENTS, TYPE_LABELS, type EventType } from "@/content/events";
 import { formatDate } from "@/content/format";
 import WorldMap from "@/components/WorldMap";
+import EventLink from "@/components/ripple/EventLink";
 
 const TYPES = Object.keys(TYPE_LABELS) as EventType[];
 
@@ -59,7 +59,7 @@ export default function EventsBrowser({ stats }: { stats: Record<string, { degre
                 <p>{TYPE_LABELS[e.type]} · {e.region}</p>
               </div>
               <div>
-                <Link href={`/events/${e.id}`} className="font-serif text-2xl hover:underline">{e.title}</Link>
+                <EventLink id={e.id} className="font-serif text-2xl hover:underline">{e.title}</EventLink>
                 <p className="mt-1 text-[15px] text-ink-2">{e.summary}</p>
                 <p className="mt-1 text-sm text-ink-3">
                   Severity {e.severity}/5 · {s.degree} connections{s.headlines ? ` · ${s.headlines} headlines on the wire` : ""}{e.dossierSlug ? " · full report" : ""}

@@ -7,6 +7,8 @@ const nextConfig: NextConfig = {
     ? { output: "export", trailingSlash: true }
     : { cacheComponents: true, partialPrefetching: true }),
   basePath: process.env.BASE_PATH || "",
+  // the base path for client code that fetches /ripples.json and /live.json
+  env: { NEXT_PUBLIC_BASE_PATH: process.env.BASE_PATH || "" },
   turbopack: {
     rules: {
       "*.css": {

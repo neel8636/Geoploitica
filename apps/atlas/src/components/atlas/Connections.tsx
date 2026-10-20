@@ -1,4 +1,4 @@
-import Link from "next/link";
+import EventLink from "@/components/ripple/EventLink";
 import { LINK_WORDS, TYPE_LABELS, neighbours, type WorldEvent } from "@/content/events";
 import { formatDate } from "@/content/format";
 
@@ -22,9 +22,9 @@ export default function Connections({ event }: { event: WorldEvent }) {
             <p>{formatDate(l.event.date)}</p>
           </div>
           <div>
-            <Link href={`/events/${l.event.id}`} className="font-serif text-xl hover:underline">
+            <EventLink id={l.event.id} className="font-serif text-xl hover:underline">
               {l.event.title}
-            </Link>
+            </EventLink>
             <p className="mt-1 text-[15px] text-ink-2">{l.why}</p>
           </div>
         </li>

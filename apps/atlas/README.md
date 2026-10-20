@@ -87,6 +87,19 @@ config, so every layer is open.
 
 This is a reading wall, not access control: the site is static and the repository is public.
 
+## Ripples: postcards, Today's ripples, live updates
+
+- **Postcards.** Clicking any event (a map dot, a title in a list, a connection) opens its ripple
+  as a postcard over the page (`src/components/ripple/`): headline, key number, impact, the
+  ripple rings, how far the report has been checked, fresh headlines, and "Ripples on to" chips
+  that open the next event's card in place. Ctrl/Cmd-click still goes to the event page.
+  Cards come from `/ripples.json`, built from `src/content/ripples.ts` on every export.
+- **Today's ripples.** The home page shows the five events the news is moving on, ranked by
+  headlines in the last 48 hours (only headlines whose title names the event), then severity,
+  then how far the report has been checked. Rebuilt every hour, so the set changes with the news.
+- **Live updates.** Open pages check `/live.json` every five minutes and when the tab comes back
+  into view; when a newer hourly build is out they offer a one-click refresh.
+
 ## Sharing and measuring
 
 - **Share cards.** Every event has a 1200×630 card at `/share/<event-id>.png` (and the site one at

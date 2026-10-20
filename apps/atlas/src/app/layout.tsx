@@ -9,6 +9,10 @@ import ThemeToggle, { THEME_SCRIPT } from "@/components/ThemeToggle";
 import AuthProvider from "@/components/auth/AuthProvider";
 import AccountMenu from "@/components/auth/AccountMenu";
 import ConsentBanner from "@/components/auth/ConsentBanner";
+import RippleProvider from "@/components/ripple/RippleProvider";
+import LiveUpdates from "@/components/ripple/LiveUpdates";
+import { loadWire } from "@/content/wire";
+import { todaysRipples } from "@/content/ripples";
 import { SITE_NAME, SITE_ORIGIN, SITE_URL, TAGLINE } from "@/lib/site";
 import "./globals.css";
 
@@ -22,6 +26,8 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
+  const wire = loadWire();
+  const today = todaysRipples().map((r) => r.id);
   return (
     <html lang="en" className="h-full antialiased" suppressHydrationWarning>
       <head>
@@ -30,6 +36,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       </head>
       <body className="min-h-full flex flex-col">
         <AuthProvider>
+        <RippleProvider>
         <header className="border-b border-line">
           <nav className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-5 gap-y-2 px-4 py-3 sm:px-6">
             <Link href="/" className="font-serif text-xl font-medium no-underline">
@@ -59,6 +66,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           </div>
         </footer>
         <ConsentBanner />
+        <LiveUpdates version={wire.fetchedAt} today={today} />
+        </RippleProvider>
         </AuthProvider>
       </body>
     </html>

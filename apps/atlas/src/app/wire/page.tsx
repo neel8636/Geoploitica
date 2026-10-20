@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import EventLink from "@/components/ripple/EventLink";
 import { EVENTS, getEvent } from "@/content/events";
 import { formatDate } from "@/content/dossiers";
 import { loadWire, type WireItem } from "@/content/wire";
@@ -39,7 +39,7 @@ export default function WirePage() {
       {matched.map(({ event, items }) => (
         <section key={event.id} className="mt-8">
           <h2 className="text-xl">
-            <Link href={`/events/${event.id}`} className="hover:underline">{event.title}</Link>
+            <EventLink id={event.id} className="hover:underline">{event.title}</EventLink>
             <span className="ml-2 text-sm text-ink-2">{items.length}</span>
           </h2>
           <ul className="mt-2 divide-y divide-line-2 border-t border-line text-[15px]">

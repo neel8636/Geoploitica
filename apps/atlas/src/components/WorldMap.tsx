@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
+import { useRipple } from "@/components/ripple/RippleProvider";
 import { geoNaturalEarth1, geoPath, geoInterpolate } from "d3-geo";
 import { feature } from "topojson-client";
 import type { Topology, GeometryCollection } from "topojson-specification";
@@ -98,6 +99,7 @@ export default function WorldMap({
   hideFrames?: boolean; // when the parent draws its own frame chips
 }) {
   const router = useRouter();
+  const ripple = useRipple();
   const [hover, setHover] = useState<string | null>(null); // pointer on a dot
   const [peek, setPeek] = useState<string | null>(null); // pointer on a row in the side panel
   const [selected, setSelected] = useState<string | null>(null); // clicked dot, kept until cleared
@@ -175,9 +177,17 @@ export default function WorldMap({
   const inFrame = visible
     .filter((e) => inBox(e, VIEWS[view].bbox))
     .sort((a, b) => b.severity - a.severity || (a.date < b.date ? 1 : -1));
+  // clicking an event opens its ripple postcard; on the full map the dot also stays selected
+  // so its connections stay lit behind the card
   const choose = (id: string) => {
-    if (compact) router.push(`/events/${id}`);
-    else setSelected((cur) => (cur === id ? null : id));
+    if (compact) {
+      if (ripple) ripple.open(id);
+      else router.push(`/events/${id}`);
+      return;
+    }
+    const next = selected === id ? null : id;
+    setSelected(next);
+    if (next) ripple?.open(next);
   };
   // a compact map (inside a report) offers only the world and the event's own region
   const frames: View[] = compact
@@ -268,7 +278,7 @@ export default function WorldMap({
               selected={selected}
               visibleIds={visibleIds}
               onPeek={setPeek}
-              onSelect={(id) => { setSelected(id); setPeek(null); }}
+              onSelect={(id) => { setSelected(id); setPeek(null); if (id) ripple?.open(id); }}
               onShowWorld={() => setView("world")}
             />
           </div>

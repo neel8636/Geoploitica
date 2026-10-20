@@ -28,7 +28,7 @@ export default function GuidePage() {
         <dt className="font-medium">Frames</dt>
         <dd className="text-ink-2">World, Europe, Americas, Asia-Pacific, Middle East &amp; Africa. A frame changes what is in view, never what exists; a note at the top right counts the events outside it.</dd>
         <dt className="font-medium">Opening an event</dt>
-        <dd className="text-ink-2">Click a dot, or a title in any list. Keyboard: Tab to a dot, Enter to open.</dd>
+        <dd className="text-ink-2">Click a dot, or a title in any list, and its ripple opens as a postcard: what it touches first, second and third, the latest headline, and the events it ripples on to (click one to follow the chain). &ldquo;Open the full event&rdquo; goes to the full page; Ctrl or Cmd-click a title to go there directly. Keyboard: Tab to a dot, Enter to open, Esc to close.</dd>
       </dl>
 
       <h2 className="mt-10 text-2xl">Reading an event</h2>

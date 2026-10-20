@@ -70,7 +70,7 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
           <div className="mt-2 rounded-lg border border-line p-2">
             <WorldMap focusId={e.id} compact />
           </div>
-          <p className="mt-2 text-sm text-ink-2">Lit arcs are this event&apos;s connections. Click any dot to jump.</p>
+          <p className="mt-2 text-sm text-ink-2">Lit arcs are this event&apos;s connections. Click any dot to see its ripple.</p>
         </div>
         <div>
           <Signpost>How it ripples outward</Signpost>
