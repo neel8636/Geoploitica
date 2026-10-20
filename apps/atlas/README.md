@@ -74,11 +74,11 @@ Accounts live in Firebase Authentication, and each reader gets a small profile i
 `users/{uid}` (name, email, country, what brings them here, first and last visit). The rules in
 [`firebase/firestore.rules`](firebase/firestore.rules) let each reader touch only their own profile.
 
-The wall switches on when the build has a Firebase web config, which the Pages workflow reads from
-repository **variables** (not secrets; the web config is public by design):
-`FIREBASE_API_KEY`, `FIREBASE_AUTH_DOMAIN`, `FIREBASE_PROJECT_ID`, `FIREBASE_APP_ID`, and optionally
-`FIREBASE_STORAGE_BUCKET` and `FIREBASE_MESSAGING_SENDER_ID`. Without them the site builds open,
-which is also how local development runs.
+The wall switches on when the build has a Firebase web config. The Pages workflow builds with the
+config of the Firebase project `geopolitica-941b0` (public by design: it names the project, and Auth
+plus the Firestore rules do the protecting); repository variables `FIREBASE_API_KEY`,
+`FIREBASE_AUTH_DOMAIN`, `FIREBASE_PROJECT_ID`, `FIREBASE_APP_ID`, `FIREBASE_STORAGE_BUCKET` and
+`FIREBASE_MESSAGING_SENDER_ID` override it. Local builds have no config and run open.
 
 In the Firebase console: enable the Email/Password and Google sign-in providers, add
 `neel8636.github.io` under Authentication → Settings → Authorized domains, create a Firestore

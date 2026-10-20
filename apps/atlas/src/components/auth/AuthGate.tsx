@@ -27,6 +27,8 @@ const MESSAGES: Record<string, string> = {
   "auth/too-many-requests": "Too many attempts. Wait a minute and try again.",
   "auth/popup-closed-by-user": "The Google window was closed before signing in.",
   "auth/network-request-failed": "No connection. Check your internet and try again.",
+  "auth/operation-not-allowed": "Sign-up is being switched on. Please try again in a few minutes.",
+  "auth/configuration-not-found": "Sign-up is being switched on. Please try again in a few minutes.",
   "auth/unauthorized-domain": "This site is not yet allowed to use Google sign-in. Use email for now.",
 };
 

@@ -128,15 +128,15 @@ jobs:
           BASE_PATH: /${{ github.event.repository.name }}
           # the enterprise server that generates reports on demand from an event page
           NEXT_PUBLIC_REPORT_API: ${{ vars.REPORT_API || 'https://geopolitica-1rja.onrender.com' }}
-          # Reader sign-up (Firebase). The web config is public by design; it lives in repository
-          # variables (Settings → Secrets and variables → Actions → Variables). Without them the
-          # site builds open, with no sign-up wall.
-          NEXT_PUBLIC_FIREBASE_API_KEY: ${{ vars.FIREBASE_API_KEY }}
-          NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN: ${{ vars.FIREBASE_AUTH_DOMAIN }}
-          NEXT_PUBLIC_FIREBASE_PROJECT_ID: ${{ vars.FIREBASE_PROJECT_ID }}
-          NEXT_PUBLIC_FIREBASE_APP_ID: ${{ vars.FIREBASE_APP_ID }}
-          NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET: ${{ vars.FIREBASE_STORAGE_BUCKET }}
-          NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID: ${{ vars.FIREBASE_MESSAGING_SENDER_ID }}
+          # Reader sign-up (Firebase project geopolitica-941b0). The web config is public by design
+          # (it names the project; Auth and the Firestore rules do the protecting). Repository
+          # variables of the same names override these defaults.
+          NEXT_PUBLIC_FIREBASE_API_KEY: ${{ vars.FIREBASE_API_KEY || 'AIzaSyA_bnPFuNY131FtUrpsEgkonFPyKwMnuzs' }}
+          NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN: ${{ vars.FIREBASE_AUTH_DOMAIN || 'geopolitica-941b0.firebaseapp.com' }}
+          NEXT_PUBLIC_FIREBASE_PROJECT_ID: ${{ vars.FIREBASE_PROJECT_ID || 'geopolitica-941b0' }}
+          NEXT_PUBLIC_FIREBASE_APP_ID: ${{ vars.FIREBASE_APP_ID || '1:600266158045:web:1a40696fc81a511add1034' }}
+          NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET: ${{ vars.FIREBASE_STORAGE_BUCKET || 'geopolitica-941b0.firebasestorage.app' }}
+          NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID: ${{ vars.FIREBASE_MESSAGING_SENDER_ID || '600266158045' }}
         run: npm run build
 
       # Pushing the build to a gh-pages branch is what Pages serves (Settings → Pages → gh-pages, root).
