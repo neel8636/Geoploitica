@@ -22,7 +22,7 @@ export default function HomeExplorer() {
           </button>
         ))}
       </div>
-      <div className="mt-3 rounded-lg border border-line bg-paper p-2">
+      <div className="mt-3">
         <WorldMap view={view} onView={setView} hideFrames />
       </div>
     </div>

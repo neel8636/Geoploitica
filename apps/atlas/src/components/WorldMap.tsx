@@ -9,6 +9,7 @@ import type { MultiPoint } from "geojson";
 import land110 from "world-atlas/land-110m.json";
 import { allEdges, EVENTS, TYPE_LABELS, type EventType, type WorldEvent } from "@/content/events";
 import MapLegend from "@/components/atlas/MapLegend";
+import MapPanel, { dotFill } from "@/components/atlas/MapPanel";
 
 const W = 960;
 const H = 500;
@@ -30,7 +31,10 @@ function pointsFor(bbox: [number, number, number, number]): MultiPoint {
   const [w, s, e, n] = bbox;
   const cx = (w + e) / 2;
   const cy = (s + n) / 2;
-  return { type: "MultiPoint", coordinates: [[w, s], [w, n], [e, n], [e, s], [cx, s], [cx, n], [w, cy], [e, cy], [w, 0], [e, 0]] };
+  const pts: [number, number][] = [[w, s], [w, n], [e, n], [e, s], [cx, s], [cx, n], [w, cy], [e, cy]];
+  // where the frame straddles the equator, its widest row is there, so include it
+  if (s <= 0 && n >= 0) pts.push([w, 0], [e, 0]);
+  return { type: "MultiPoint", coordinates: pts };
 }
 
 function inBox(e: WorldEvent, bbox?: [number, number, number, number]) {
@@ -94,7 +98,9 @@ export default function WorldMap({
   hideFrames?: boolean; // when the parent draws its own frame chips
 }) {
   const router = useRouter();
-  const [hover, setHover] = useState<string | null>(null);
+  const [hover, setHover] = useState<string | null>(null); // pointer on a dot
+  const [peek, setPeek] = useState<string | null>(null); // pointer on a row in the side panel
+  const [selected, setSelected] = useState<string | null>(null); // clicked dot, kept until cleared
   const [ownView, setOwnView] = useState<View>(() => initialView ?? viewFor(EVENTS.find((e) => e.id === focusId)));
   const view = controlledView ?? ownView;
   const setView = (v: View) => {
@@ -127,7 +133,9 @@ export default function WorldMap({
   const visible = EVENTS.filter((e) => !filter || filter === "all" || e.type === filter);
   const visibleIds = new Set(visible.map((e) => e.id));
   const edges = allEdges().filter((ed) => visibleIds.has(ed.a) && visibleIds.has(ed.b));
-  const active = hover ?? focusId ?? null;
+  // what the map lights up, and what the side panel describes
+  const active = peek ?? hover ?? selected ?? focusId ?? null;
+  const detailId = hover ?? selected;
   const activeNeighbours = new Set(
     edges.filter((ed) => ed.a === active || ed.b === active).flatMap((ed) => [ed.a, ed.b]),
   );
@@ -163,6 +171,14 @@ export default function WorldMap({
   };
 
   const hovered = hover ? EVENTS.find((e) => e.id === hover) : null;
+  const detail = detailId ? EVENTS.find((e) => e.id === detailId) ?? null : null;
+  const inFrame = visible
+    .filter((e) => inBox(e, VIEWS[view].bbox))
+    .sort((a, b) => b.severity - a.severity || (a.date < b.date ? 1 : -1));
+  const choose = (id: string) => {
+    if (compact) router.push(`/events/${id}`);
+    else setSelected((cur) => (cur === id ? null : id));
+  };
   // a compact map (inside a report) offers only the world and the event's own region
   const frames: View[] = compact
     ? Array.from(new Set<View>(["world", viewFor(EVENTS.find((e) => e.id === focusId))]))
@@ -171,7 +187,9 @@ export default function WorldMap({
     `rounded-full border px-2.5 py-0.5 text-xs ${view === v ? "border-ink bg-ink text-paper" : "border-line hover:border-ink"}`;
 
   return (
-    <figure className="relative w-full">
+    <figure className="w-full" onKeyDown={(k) => { if (k.key === "Escape") setSelected(null); }}>
+      <div className={compact ? "" : "grid gap-3 lg:grid-cols-[minmax(0,1fr)_19rem]"}>
+      <div className={compact ? "relative" : "relative self-start rounded-lg border border-line bg-paper p-1"}>
       {!hideFrames ? (
         <div className="absolute left-2 top-2 z-10 flex flex-wrap gap-1" role="group" aria-label="Map frame">
           {frames.map((v) => (
@@ -179,13 +197,9 @@ export default function WorldMap({
           ))}
         </div>
       ) : null}
-      {view !== "world" && !compact && offFrame.length ? (
-        <p className="absolute right-2 top-2 z-10 text-right text-xs text-ink-2">
-          {offFrame.length} more outside this frame · <button type="button" className="underline" onClick={() => setView("world")}>show the world</button>
-        </p>
-      ) : null}
       <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label="World map of tracked events and their connections" className="w-full" fontFamily="var(--font-sans)">
-        <path d={landPath} fill="var(--paper-2)" stroke="var(--line)" strokeWidth={0.5} />
+        <rect x={0} y={0} width={W} height={H} fill="transparent" onClick={() => setSelected(null)} />
+        <path d={landPath} fill="var(--paper-2)" stroke="var(--line)" strokeWidth={0.5} onClick={() => setSelected(null)} />
         {frame ? (
           <g aria-hidden fill="var(--paper)" fillOpacity={0.55}>
             <rect x={0} y={0} width={W} height={Math.max(0, frame.y)} />
@@ -220,19 +234,22 @@ export default function WorldMap({
           const isActive = active === e.id;
           const related = activeNeighbours.has(e.id);
           const dim = active ? !isActive && !related : false;
-          const fill = e.status === "scheduled" ? "var(--paper)" : isActive ? "var(--teal)" : e.severity >= 4 ? "var(--amber)" : "var(--teal)";
+          const df = dotFill(e);
+          const fill = df.hollow ? "var(--paper)" : df.fill;
+          const isSelected = selected === e.id;
           return (
             <g key={e.id} opacity={dim ? 0.35 : 1} style={{ cursor: "pointer" }}
               onMouseEnter={() => setHover(e.id)} onMouseLeave={() => setHover(null)}
-              onClick={() => router.push(`/events/${e.id}`)}>
-              {isActive ? <circle cx={x} cy={y} r={r + 7} fill="none" stroke="var(--teal)" strokeWidth={1} strokeOpacity={0.6} /> : null}
-              <circle cx={x} cy={y} r={r} fill={fill} stroke={isActive || related ? "var(--teal)" : "var(--ink)"} strokeWidth={isActive ? 2 : 1} tabIndex={0} role="link" aria-label={e.title}
+              onClick={(ev) => { ev.stopPropagation(); choose(e.id); }}>
+              {isActive || isSelected ? <circle cx={x} cy={y} r={r + 6} fill="none" stroke="var(--teal)" strokeWidth={isSelected ? 2 : 1} strokeOpacity={isSelected ? 0.9 : 0.6} /> : null}
+              <circle cx={x} cy={y} r={r} fill={fill} stroke={isActive || related ? "var(--teal)" : "var(--ink)"} strokeWidth={isActive ? 2 : 1} tabIndex={0} role="button" aria-label={e.title} aria-pressed={compact ? undefined : isSelected} style={{ outline: "none" }}
                 onFocus={() => setHover(e.id)} onBlur={() => setHover(null)}
-                onKeyDown={(k) => { if (k.key === "Enter") router.push(`/events/${e.id}`); }}>
+                onKeyDown={(k) => { if (k.key === "Enter") choose(e.id); }}>
                 <title>{e.title}</title>
               </circle>
-              {isActive || related ? (
-                <text x={x + r + 4} y={y + 4} fontSize={11} fill="var(--ink)" stroke="var(--paper)" strokeWidth={3} paintOrder="stroke">
+              {/* the full map keeps names in the side panel; a small map labels only the event in focus */}
+              {compact && isActive ? (
+                <text x={x + r + 4} y={y + 4} fontSize={13} fill="var(--ink)" stroke="var(--paper)" strokeWidth={3} paintOrder="stroke">
                   {e.title.length > 34 ? e.title.slice(0, 32) + "…" : e.title}
                 </text>
               ) : null}
@@ -240,27 +257,38 @@ export default function WorldMap({
           );
         })}
       </svg>
+      </div>
       {!compact ? (
-        <figcaption className="mt-2">
-          <p className="min-h-[1.5rem] text-[15px]">
-            {hovered ? (
-              <>
-                <span className="font-medium">{hovered.title}</span>
-                <span className="text-ink-2"> · {TYPE_LABELS[hovered.type]} · {edges.filter((ed) => ed.a === hovered.id || ed.b === hovered.id).length} connections. Click to open.</span>
-              </>
-            ) : (
-              <span className="text-ink-2">
-                {visible.length} events, {edges.length} connections. Hover a dot to light up its connections; click to open the report.
-              </span>
-            )}
-          </p>
-          <div className="mt-3 border-t border-line-2 pt-3">
-            <MapLegend />
+        <div className="relative h-80 lg:h-auto">
+          <div className="absolute inset-0">
+            <MapPanel
+              inFrame={inFrame}
+              offFrameCount={view !== "world" ? offFrame.length : 0}
+              detail={detail}
+              selected={selected}
+              visibleIds={visibleIds}
+              onPeek={setPeek}
+              onSelect={(id) => { setSelected(id); setPeek(null); }}
+              onShowWorld={() => setView("world")}
+            />
           </div>
+        </div>
+      ) : null}
+      </div>
+      {!compact ? (
+        <figcaption className="mt-2 text-sm text-ink-2">
+          {hovered ? (
+            <>
+              <span className="font-medium text-ink">{hovered.title}</span> · {TYPE_LABELS[hovered.type]} ·{" "}
+              {edges.filter((ed) => ed.a === hovered.id || ed.b === hovered.id).length} connections. Click to keep it in the panel.
+            </>
+          ) : (
+            <>{visible.length} events, {edges.length} connections. Point at a dot to preview it; click to keep it open; Esc clears. The Key tab explains the marks.</>
+          )}
         </figcaption>
       ) : (
         <figcaption className="mt-2 border-t border-line-2 pt-2">
-          <MapLegend compact />
+          <MapLegend layout="compact" />
         </figcaption>
       )}
     </figure>
