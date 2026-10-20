@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-20T13:12:47.222Z",
+  "fetchedAt": "2026-10-20T13:25:04.325Z",
   "items": [
     {
       "id": "ae67a79084b5",
       "title": "Which EU regulations affect your supply chain? EUDR, CSRD, PPWR, CBAM and more",
       "url": "https://www.coolset.com/academy/eu-supply-chain-regulations-eudr-csrd-csddd-cbam-ppwr",
       "publisher": "Coolset",
-      "published": "2026-10-20T13:12:47.220Z",
+      "published": "2026-10-20T13:25:04.323Z",
       "eventIds": [
         "eu-supply-chain-rules-2027"
       ]
@@ -16,9 +16,48 @@
       "title": "Opinion polling for the 2027 French presidential election",
       "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2027_French_presidential_election",
       "publisher": "Wikipedia",
-      "published": "2026-10-20T13:12:47.220Z",
+      "published": "2026-10-20T13:25:04.323Z",
       "eventIds": [
         "france-election-2027"
+      ]
+    },
+    {
+      "id": "61eeb8bbcb96",
+      "title": "Kenya cult leader's children still being starved weeks before trial, son says",
+      "url": "https://www.bbc.co.uk/news/articles/c6d7q2rxqxgxo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "published": "2026-10-20T13:23:32.000Z",
+      "summary": "Dan Mackenzie initially defended his father but now says he felt he had to report his own grandmother.",
+      "eventIds": []
+    },
+    {
+      "id": "83412812302c",
+      "title": "General Motors beats Wall Street's Q3 earnings expectations, narrows full-year guidance",
+      "url": "https://www.cnbc.com/2026/10/20/general-motors-gm-earnings-q3-2026.html",
+      "publisher": "CNBC World",
+      "published": "2026-10-20T13:23:15.000Z",
+      "summary": "GM narrowed its 2026 earnings guidance and raised its adjusted automotive free cash flow outlook after beating Wall Street’s third-quarter estimates.",
+      "eventIds": []
+    },
+    {
+      "id": "143c5ebd451d",
+      "title": "U.S. Treasury yields move lower after weak housing data",
+      "url": "https://www.cnbc.com/2026/10/20/us-treasury-yields-investors-economy.html",
+      "publisher": "CNBC World",
+      "published": "2026-10-20T13:13:45.000Z",
+      "summary": "Investors digested more economic data and continued to weigh the inflationary backdrop ahead of the Federal Reserve's interest rate decision next week.",
+      "eventIds": []
+    },
+    {
+      "id": "2e829d8824e8",
+      "title": "Trump continues midterm campaign blitz in North Carolina – US politics live",
+      "url": "https://www.theguardian.com/us-news/live/2026/oct/20/donald-trump-midterms-republicans-democrats-north-carolina-latest-updates",
+      "publisher": "The Guardian World",
+      "published": "2026-10-20T13:12:52.000Z",
+      "summary": "<p>President to stump for Michael Whatley, who is facing an uphill battle against Democrat Roy Cooper for the Senate, as elections are just two weeks away</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-",
+      "eventIds": [
+        "us-midterms-2026",
+        "france-unrest-2026"
       ]
     },
     {
@@ -37,15 +76,6 @@
       "publisher": "France 24",
       "published": "2026-10-20T13:09:22.000Z",
       "summary": "As the US midterms approach, immigration is once again dominating the country’s political discourse and Arizona’s largely agricultural Yuma County, just miles from the Mexican border, is no exception. But here, farmers like John Boelts are calling for more legal migrants, warning",
-      "eventIds": []
-    },
-    {
-      "id": "143c5ebd451d",
-      "title": "U.S. Treasury yields move lower after weak housing data",
-      "url": "https://www.cnbc.com/2026/10/20/us-treasury-yields-investors-economy.html",
-      "publisher": "CNBC World",
-      "published": "2026-10-20T13:07:56.000Z",
-      "summary": "Investors digested more economic data and continued to weigh the inflationary backdrop ahead of the Federal Reserve's interest rate decision next week.",
       "eventIds": []
     },
     {
@@ -78,6 +108,35 @@
       "eventIds": []
     },
     {
+      "id": "bc61bde38154",
+      "title": "More than 250,000 displaced in Yemen since fighting escalated: UNHCR",
+      "url": "https://www.aljazeera.com/news/2026/10/20/more-than-250000-displaced-in-yemen-since-fighting-escalated-unhcr?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "published": "2026-10-20T13:00:21.000Z",
+      "summary": "UNICEF says escalating fighting in Taiz is threatening its water systems, serving an estimated three million people.",
+      "eventIds": []
+    },
+    {
+      "id": "211a1ba435e3",
+      "title": "Israeli attacks kill at least four Palestinians in Gaza",
+      "url": "https://www.aljazeera.com/news/2026/10/20/israeli-forces-kill-at-least-four-palestinians-in-gaza-strikes?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "published": "2026-10-20T12:59:58.000Z",
+      "summary": "A couple and a 17-year-old are among those killed by Israeli air attacks and gunfire in the Gaza Strip.",
+      "eventIds": [
+        "israel-election-2026"
+      ]
+    },
+    {
+      "id": "7d2c4d38f19d",
+      "title": "‘Every day could cost lives’: UK government blocks Gaza families’ reunion",
+      "url": "https://www.aljazeera.com/news/2026/10/20/every-day-could-cost-lives-uk-government-blocks-gaza-families-reunion?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "published": "2026-10-20T12:58:49.000Z",
+      "summary": "Britain’s reopened refugee resettlement scheme offers no escape for Palestinians in Gaza.",
+      "eventIds": []
+    },
+    {
       "id": "07e0e0a0cf9d",
       "title": "UK to deploy fighter jets to defend Saudi cities from Houthi attacks",
       "url": "https://www.cnbc.com/2026/10/20/uk-fighter-jets-saudi-houthi-attacks-iran.html",
@@ -99,6 +158,15 @@
         "france-unrest-2026",
         "ukraine-summit-diplomacy"
       ]
+    },
+    {
+      "id": "78a3078c1a91",
+      "title": "‘Horizontal revolt’: Why Albania’s young protesters want PM Rama to go",
+      "url": "https://www.aljazeera.com/news/2026/10/20/horizontal-revolt-why-albanias-young-protesters-want-pm-rama-to-go?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "published": "2026-10-20T12:54:56.000Z",
+      "summary": "From the ‘Flamingo Revolution’ to current protests, an inside look at a leaderless youth uprising challenging Edi Rama.",
+      "eventIds": []
     },
     {
       "id": "52ffce052d61",
@@ -125,26 +193,6 @@
       "publisher": "BBC World",
       "published": "2026-10-20T12:45:43.000Z",
       "summary": "The spire of the clock tower at Limoges city hall dramatically collapsed as it was engulfed in flames on Saturday.",
-      "eventIds": []
-    },
-    {
-      "id": "2e829d8824e8",
-      "title": "Trump continues midterm campaign blitz in North Carolina – US politics live",
-      "url": "https://www.theguardian.com/us-news/live/2026/oct/20/donald-trump-midterms-republicans-democrats-north-carolina-latest-updates",
-      "publisher": "The Guardian World",
-      "published": "2026-10-20T12:45:38.000Z",
-      "summary": "<p>President to stump for Michael Whatley, who is facing an uphill battle against Democrat Roy Cooper for the Senate, as elections are just two weeks away</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-",
-      "eventIds": [
-        "us-midterms-2026"
-      ]
-    },
-    {
-      "id": "83412812302c",
-      "title": "General Motors beats Wall Street's Q3 earnings expectations, narrows full-year guidance",
-      "url": "https://www.cnbc.com/2026/10/20/general-motors-gm-earnings-q3-2026.html",
-      "publisher": "CNBC World",
-      "published": "2026-10-20T12:44:27.000Z",
-      "summary": "GM narrowed its 2026 earnings guidance and raised its adjusted automotive free cash flow outlook after beating Wall Street’s third-quarter estimates.",
       "eventIds": []
     },
     {
@@ -433,6 +481,17 @@
       "published": "2026-10-20T11:19:22.000Z",
       "summary": "More money is made available through a resilience fund for hard-pressed households in Sheffield.",
       "eventIds": []
+    },
+    {
+      "id": "d5c4e8d47e97",
+      "title": "Fireworks, petrol bombs and water cannon as unrest escalates in Albania",
+      "url": "https://www.euronews.com/video/2026/10/20/fireworks-petrol-bombs-and-water-cannon-as-unrest-escalates-in-albania",
+      "publisher": "Euronews",
+      "published": "2026-10-20T11:12:38.000Z",
+      "summary": "Protesters threw petrol bombs and fireworks at police in Tirana on Monday, as anti-government demonstrations escalated and riot police responded with water cannon, tear gas and rubber bullets.",
+      "eventIds": [
+        "france-unrest-2026"
+      ]
     },
     {
       "id": "008e69ec8888",
@@ -1074,17 +1133,6 @@
       ]
     },
     {
-      "id": "151b0bda2ba9",
-      "title": "Alberta voters reject separation from Canada, early results show",
-      "url": "https://www.aljazeera.com/news/2026/10/20/alberta-voters-reject-separation-from-canada-early-results-show?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "published": "2026-10-20T06:37:32.000Z",
-      "summary": "With around 1.8 million votes counted, about 76 percent supported remaining in Canada.",
-      "eventIds": [
-        "alberta-independence-vote"
-      ]
-    },
-    {
       "id": "68456230dac1",
       "title": "‘Albertans chose Canada’: Carney hails vote to reject referendum",
       "url": "https://www.euronews.com/2026/10/20/albertans-chose-canada-carney-hails-vote-to-reject-referendum",
@@ -1124,43 +1172,12 @@
       "eventIds": []
     },
     {
-      "id": "4b0d898f9678",
-      "title": "US-Ukraine relations sour as Trump, Zelenskyy clash over talks, arms",
-      "url": "https://www.aljazeera.com/news/2026/10/20/us-ukraine-relations-sour-as-trump-zelenskyy-clash-over-talks-arms?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "published": "2026-10-20T06:23:44.000Z",
-      "summary": "Trump calls for Zelenskyy to be replaced as negotiator, while Ukraine's president says arms shipments delayed.",
-      "eventIds": [
-        "ukraine-summit-diplomacy"
-      ]
-    },
-    {
-      "id": "2f66a38b6b75",
-      "title": "Palestine weekly: Israeli settlers attack journalist and diplomats",
-      "url": "https://www.aljazeera.com/news/2026/10/20/palestine-weekly-israeli-settlers-attack-journalist-and-diplomats?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "published": "2026-10-20T06:22:33.000Z",
-      "summary": "Settler olive harvest attacks top 2025 total, journalist and diplomats attacked as Israel halts Gaza commercial imports.",
-      "eventIds": [
-        "israel-election-2026"
-      ]
-    },
-    {
       "id": "1b4627dea2b5",
       "title": "Residents clean up as deadly floods devastate eastern Spain",
       "url": "https://www.euronews.com/video/2026/10/20/residents-clean-up-as-deadly-floods-devastate-eastern-spain",
       "publisher": "Euronews",
       "published": "2026-10-20T06:22:27.000Z",
       "summary": "Residents of Els Poblets, near Alicante, cleared mud and wrecked furniture on Monday after floods in eastern Spain left at least two people dead.",
-      "eventIds": []
-    },
-    {
-      "id": "45a6ca8f6ecb",
-      "title": "Egypt’s Hassan and Zico suspended over FIFA World Cup refereeing criticism",
-      "url": "https://www.aljazeera.com/sports/2026/10/20/egypts-hassan-and-zico-suspended-over-fifa-world-cup-refereeing-criticism?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "published": "2026-10-20T06:21:56.000Z",
-      "summary": "FIFA punishes Egypt's head coach, forward and team manager for their comments after their World Cup loss to Argentina.",
       "eventIds": []
     },
     {
@@ -1619,15 +1636,6 @@
       "publisher": "The Guardian World",
       "published": "2026-10-19T18:05:14.000Z",
       "summary": "<p>Move comes after US photojournalist and group of European diplomats and Palestinians were assaulted in separate attacks</p><p>Israeli police have detained 10 people in a rare raid against settlers, after a weekend of extreme violence in the occupied West Bank including an atta",
-      "eventIds": []
-    },
-    {
-      "id": "2874b0c23ded",
-      "title": "Kenya cult leader who told parents to starve children guilty of 191 murders",
-      "url": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "published": "2026-10-19T17:18:04.000Z",
-      "summary": "Self-proclaimed pastor Paul Mackenzie was found guilty of 191 murder charges - all but one of them children.",
       "eventIds": []
     },
     {
@@ -2789,17 +2797,6 @@
       "publisher": "Euronews",
       "published": "2026-10-17T20:55:12.000Z",
       "summary": "Limoges town hall, a 143-year-old building in central France, was set on fire amid unrest following nationwide protests over the cost of living.",
-      "eventIds": [
-        "france-unrest-2026"
-      ]
-    },
-    {
-      "id": "a268c7efe00d",
-      "title": "Protesters storm town hall and clash with police in France’s Marseille",
-      "url": "https://www.euronews.com/2026/10/17/protesters-storm-town-hall-and-clash-with-police-in-frances-marseille",
-      "publisher": "Euronews",
-      "published": "2026-10-17T16:29:29.000Z",
-      "summary": "Protesters broke into Marseille town hall and clashed with police during nationwide demonstrations over rising prices in France.",
       "eventIds": [
         "france-unrest-2026"
       ]
