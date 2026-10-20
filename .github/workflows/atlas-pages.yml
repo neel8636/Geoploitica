@@ -9,11 +9,15 @@ on:
     branches: [main]
     paths: ["apps/atlas/**", ".github/workflows/atlas-pages.yml"]
   schedule:
-    # Every morning at 7:00 Eastern. Cron is UTC and cannot follow daylight saving, so the job
-    # fires at both candidate hours and the first step lets only the one that is 7 AM in
-    # America/New_York continue (11:00 UTC in summer, 12:00 UTC in winter).
-    - cron: "0 11 * * *"
-    - cron: "0 12 * * *"
+    # Every morning around 7:00 Eastern. GitHub delays and sometimes drops scheduled runs set on
+    # the hour, so these sit off it (:53 and :23), and each morning has two slots: 6:53 and
+    # 7:23 Eastern. A second run on the same morning is harmless (reports already drafted are
+    # not redrafted). Cron is UTC and has no daylight saving, so both the summer (EDT) and
+    # winter (EST) slots are listed and the first step keeps only the two that match today.
+    - cron: "53 10 * * *" # 6:53 EDT
+    - cron: "23 11 * * *" # 7:23 EDT
+    - cron: "53 11 * * *" # 6:53 EST
+    - cron: "23 12 * * *" # 7:23 EST
   workflow_dispatch:
     inputs:
       stale_days:
@@ -47,14 +51,21 @@ jobs:
       run:
         working-directory: apps/atlas
     steps:
-      - name: Is it 7 AM in New York?
+      - name: Is this today's 7 AM Eastern slot?
         id: gate
         working-directory: ${{ github.workspace }} # runs before checkout, so apps/atlas does not exist yet
+        env:
+          SLOT: ${{ github.event.schedule }}
         run: |
           if [ "${{ github.event_name }}" != "schedule" ]; then echo "go=true" >> "$GITHUB_OUTPUT"; exit 0; fi
-          hour=$(TZ=America/New_York date +%H)
-          echo "New York hour: $hour"
-          if [ "$hour" = "07" ]; then echo "go=true" >> "$GITHUB_OUTPUT"; else echo "go=false" >> "$GITHUB_OUTPUT"; echo "not 7 AM Eastern; the other scheduled run handles today"; fi
+          # decide by the slot that fired, not the clock, so a late start still counts
+          offset=$(TZ=America/New_York date +%z)
+          case "$offset:$SLOT" in
+            "-0400:53 10 * * *"|"-0400:23 11 * * *"|"-0500:53 11 * * *"|"-0500:23 12 * * *") go=true ;;
+            *) go=false ;;
+          esac
+          echo "slot '$SLOT', New York offset $offset, run: $go"
+          echo "go=$go" >> "$GITHUB_OUTPUT"
       - uses: actions/checkout@v4
         if: steps.gate.outputs.go == 'true'
         with:
