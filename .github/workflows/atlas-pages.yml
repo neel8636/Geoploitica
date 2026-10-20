@@ -92,11 +92,13 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      # A push made with the workflow token does not trigger other workflows, so the
-      # enterprise edition is redeployed from here, only when reports changed: headlines change
-      # every hour, and an hourly rebuild would use up Render's free build minutes.
+      # The enterprise edition reads the same events and reports, so it is redeployed from here:
+      # on every push that touches apps/atlas (the Render workflow stands aside for those, so
+      # there is exactly one deploy, with any newly drafted reports in it), and on scheduled
+      # runs only when reports changed, since headlines change every hour and an hourly rebuild
+      # would use up Render's free build minutes.
       - name: Redeploy the enterprise edition
-        if: steps.commit.outputs.reports == 'true' && env.HAS_HOOK == 'true'
+        if: (github.event_name == 'push' || steps.commit.outputs.reports == 'true') && env.HAS_HOOK == 'true'
         run: curl -sS -o /dev/null -w "Render answered %{http_code}\n" -X POST "${{ secrets.RENDER_DEPLOY_HOOK }}"
 
       - name: Build static site

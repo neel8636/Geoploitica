@@ -4,6 +4,10 @@
 #
 # Setup: Render → the service → Settings → Deploy Hook → copy the URL, then GitHub →
 # Settings → Secrets and variables → Actions → New repository secret: RENDER_DEPLOY_HOOK.
+#
+# One deploy per push: when a push touches apps/atlas, the Atlas pipeline deploys instead,
+# after it has drafted any reports and committed them. Two hooks a minute apart made Render
+# stop the first deploy's server mid health check, and that deploy then timed out as failed.
 name: "Enterprise: deploy on Render"
 
 on:
@@ -17,8 +21,23 @@ jobs:
     env:
       HAS_HOOK: ${{ secrets.RENDER_DEPLOY_HOOK != '' }}
     steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Does the Atlas pipeline own this deploy?
+        id: owner
+        env:
+          BEFORE: ${{ github.event.before }}
+        run: |
+          if [ "${{ github.event_name }}" = "push" ] && git cat-file -e "$BEFORE" 2>/dev/null \
+             && git diff --name-only "$BEFORE" "${{ github.sha }}" | grep -qE '^(apps/atlas/|\.github/workflows/atlas-pages\.yml)'; then
+            echo "This push touches apps/atlas; the Atlas pipeline deploys once its reports are in."
+            echo "atlas=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "atlas=false" >> "$GITHUB_OUTPUT"
+          fi
       - name: Trigger the Render deploy hook
-        if: env.HAS_HOOK == 'true'
+        if: env.HAS_HOOK == 'true' && steps.owner.outputs.atlas != 'true'
         run: |
           code=$(curl -sS -o /dev/null -w "%{http_code}" -X POST "${{ secrets.RENDER_DEPLOY_HOOK }}")
           echo "Render answered $code"
