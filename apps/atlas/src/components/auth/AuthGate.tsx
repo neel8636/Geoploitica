@@ -113,7 +113,7 @@ function Welcome() {
           Every claim links to its source.
         </p>
         <ul className="mt-6 space-y-3 text-[15px]">
-          <li className="flex gap-3"><span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-teal" /> A live map of the events that matter, refreshed every morning.</li>
+          <li className="flex gap-3"><span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-teal" /> A live map of the events that matter, with headlines refreshed every hour.</li>
           <li className="flex gap-3"><span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-amber" /> Why each event happened and where it leads, written to be read in minutes.</li>
           <li className="flex gap-3"><span className="mt-2 h-2 w-2 shrink-0 rounded-full border border-ink" /> The connections: how a riot in one country moves prices, votes and policy in another.</li>
         </ul>

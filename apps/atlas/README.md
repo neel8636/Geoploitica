@@ -40,7 +40,7 @@ npm run dev       # http://localhost:3000
 ## Keeping it current
 
 The published site runs a pipeline (`.github/workflows/atlas-pages.yml`) on every push to
-`apps/atlas`, once a day at 7:00 AM Eastern, and on demand from the Actions tab:
+`apps/atlas`, every hour (at :17), and on demand from the Actions tab:
 
 1. **Wire** — `npm run wire` pulls the feeds and matches headlines to events.
 2. **Reports** — when the run can reach the Claude API, `npm run draft -- --all --stale 7`
@@ -60,7 +60,7 @@ The published site runs a pipeline (`.github/workflows/atlas-pages.yml`) on ever
 
 Without the secret, steps 1, 3 and 4 still run; reports are then only the hand-written ones.
 A full first run over ~30 events costs a few dollars of API usage with the default model
-(`claude-sonnet-5-5`); the daily refresh only touches missing or stale reports.
+(`claude-sonnet-5-5`); the hourly refresh only touches missing or stale reports.
 
 By hand: `ANTHROPIC_API_KEY=… npm run draft -- <event-id>` (or `--all`, `--dry-run`,
 `--model <id>`, `--force`, `--max <n>`). Any JSON file in `src/content/dossiers/` is a

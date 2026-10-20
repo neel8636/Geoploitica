@@ -97,7 +97,7 @@ export default function GenerateReport({
   if (phase === "unavailable") {
     return (
       <p className="text-sm text-ink-3">
-        Report generation is not switched on for this server. The daily pipeline still drafts reports for new events.
+        Report generation is not switched on for this server. The hourly pipeline still drafts reports for new events.
       </p>
     );
   }

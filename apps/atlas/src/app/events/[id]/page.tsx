@@ -115,7 +115,7 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
           </div>
         ) : !dossier ? (
           <p className="mt-2 text-[15px] text-ink-2">
-            The daily run drafts one automatically; by hand, <code className="rounded-sm bg-paper-2 px-1">npm run draft -- {e.id}</code>.
+            The hourly run drafts one automatically; by hand, <code className="rounded-sm bg-paper-2 px-1">npm run draft -- {e.id}</code>.
           </p>
         ) : null}
         {dossier ? (

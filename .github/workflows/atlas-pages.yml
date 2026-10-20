@@ -1,7 +1,7 @@
 # The Atlas pipeline: pull headlines, draft missing or stale reports with the Claude API
 # (when the ANTHROPIC_API_KEY secret is set), commit any new content to main, publish the
-# static site to GitHub Pages and redeploy the enterprise edition. Runs on every push that
-# touches apps/atlas, every morning at 7:00 Eastern, and on demand.
+# static site to GitHub Pages and redeploy the enterprise edition when reports changed. Runs on
+# every push that touches apps/atlas, every hour, and on demand.
 name: "Atlas: wire, reports, publish"
 
 on:
@@ -9,15 +9,11 @@ on:
     branches: [main]
     paths: ["apps/atlas/**", ".github/workflows/atlas-pages.yml"]
   schedule:
-    # Every morning around 7:00 Eastern. GitHub delays and sometimes drops scheduled runs set on
-    # the hour, so these sit off it (:53 and :23), and each morning has two slots: 6:53 and
-    # 7:23 Eastern. A second run on the same morning is harmless (reports already drafted are
-    # not redrafted). Cron is UTC and has no daylight saving, so both the summer (EDT) and
-    # winter (EST) slots are listed and the first step keeps only the two that match today.
-    - cron: "53 10 * * *" # 6:53 EDT
-    - cron: "23 11 * * *" # 7:23 EDT
-    - cron: "53 11 * * *" # 6:53 EST
-    - cron: "23 12 * * *" # 7:23 EST
+    # Every hour at :17. GitHub delays and sometimes drops scheduled runs set on the hour, so
+    # this sits off it; a run can still start a few minutes late when GitHub is busy. Each run
+    # pulls fresh headlines; reports are drafted only when missing or stale, so most hourly runs
+    # cost no Claude API calls.
+    - cron: "17 * * * *"
   workflow_dispatch:
     inputs:
       stale_days:
@@ -51,40 +47,21 @@ jobs:
       run:
         working-directory: apps/atlas
     steps:
-      - name: Is this today's 7 AM Eastern slot?
-        id: gate
-        working-directory: ${{ github.workspace }} # runs before checkout, so apps/atlas does not exist yet
-        env:
-          SLOT: ${{ github.event.schedule }}
-        run: |
-          if [ "${{ github.event_name }}" != "schedule" ]; then echo "go=true" >> "$GITHUB_OUTPUT"; exit 0; fi
-          # decide by the slot that fired, not the clock, so a late start still counts
-          offset=$(TZ=America/New_York date +%z)
-          case "$offset:$SLOT" in
-            "-0400:53 10 * * *"|"-0400:23 11 * * *"|"-0500:53 11 * * *"|"-0500:23 12 * * *") go=true ;;
-            *) go=false ;;
-          esac
-          echo "slot '$SLOT', New York offset $offset, run: $go"
-          echo "go=$go" >> "$GITHUB_OUTPUT"
       - uses: actions/checkout@v4
-        if: steps.gate.outputs.go == 'true'
         with:
           fetch-depth: 0
       - uses: actions/setup-node@v4
-        if: steps.gate.outputs.go == 'true'
         with:
           node-version: 22
           cache: npm
           cache-dependency-path: apps/atlas/package-lock.json
       - run: npm ci --no-audit --no-fund
-        if: steps.gate.outputs.go == 'true'
 
       - name: Pull the wire
-        if: steps.gate.outputs.go == 'true'
         run: npm run wire || echo "wire fetch failed; building with the committed wire.json"
 
       - name: Draft reports
-        if: steps.gate.outputs.go == 'true' && env.HAS_AUTH == 'true'
+        if: env.HAS_AUTH == 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ANTHROPIC_ORGANIZATION_ID: ${{ vars.ANTHROPIC_ORGANIZATION_ID }}
@@ -100,29 +77,29 @@ jobs:
 
       - name: Commit new content to main
         id: commit
-        if: steps.gate.outputs.go == 'true'
         run: |
           git config user.name "geopolitica-bot"
           git config user.email "actions@users.noreply.github.com"
           git add src/content/wire.json src/content/dossiers
+          if git diff --cached --quiet -- src/content/dossiers; then echo "reports=false" >> "$GITHUB_OUTPUT"; else echo "reports=true" >> "$GITHUB_OUTPUT"; fi
           if git diff --cached --quiet; then
             echo "no content changes"
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            git commit -m "Atlas: wire and reports refresh $(date -u +%Y-%m-%d)"
+            git commit -m "Atlas: wire and reports refresh $(date -u +%Y-%m-%dT%H:%MZ)"
             git pull --rebase origin main
             git push origin HEAD:main
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
       # A push made with the workflow token does not trigger other workflows, so the
-      # enterprise edition is redeployed from here when content changed.
+      # enterprise edition is redeployed from here, only when reports changed: headlines change
+      # every hour, and an hourly rebuild would use up Render's free build minutes.
       - name: Redeploy the enterprise edition
-        if: steps.gate.outputs.go == 'true' && steps.commit.outputs.changed == 'true' && env.HAS_HOOK == 'true'
+        if: steps.commit.outputs.reports == 'true' && env.HAS_HOOK == 'true'
         run: curl -sS -o /dev/null -w "Render answered %{http_code}\n" -X POST "${{ secrets.RENDER_DEPLOY_HOOK }}"
 
       - name: Build static site
-        if: steps.gate.outputs.go == 'true'
         env:
           STATIC_EXPORT: "1"
           BASE_PATH: /${{ github.event.repository.name }}
@@ -141,7 +118,6 @@ jobs:
 
       # Pushing the build to a gh-pages branch is what Pages serves (Settings → Pages → gh-pages, root).
       - uses: peaceiris/actions-gh-pages@v4
-        if: steps.gate.outputs.go == 'true'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: apps/atlas/out
