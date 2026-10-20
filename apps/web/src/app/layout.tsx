@@ -6,10 +6,11 @@ import "@fontsource/ibm-plex-sans/500.css";
 import "@fontsource/ibm-plex-sans/600.css";
 import Link from "next/link";
 import ThemeToggle, { THEME_SCRIPT } from "@/components/ThemeToggle";
+import JourneyChip from "@/components/journey/JourneyChip";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: { default: "Geoploitica", template: "%s | Geoploitica" },
+  title: { default: "Geopolitica", template: "%s | Geopolitica" },
   description:
     "The ripple effects of world events, explained in layers: what happened, who wins and loses, what it costs you, and what to do before it lands.",
 };
@@ -23,11 +24,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       </head>
       <body className="min-h-full flex flex-col">
         <header className="border-b border-line">
-          <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
+          <nav className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-3 sm:px-6">
             <Link href="/" className="font-serif text-xl font-medium no-underline">
-              Geoploitica
+              Geopolitica <span className="hidden text-sm font-normal text-ink-2 sm:inline">· enterprise edition</span>
             </Link>
-            <div className="flex items-center gap-5 text-[15px]">
+            <div className="flex flex-wrap items-center gap-5 text-[15px]">
+              <JourneyChip />
               <Link href="/dossiers" className="no-underline hover:underline">
                 Dossiers
               </Link>

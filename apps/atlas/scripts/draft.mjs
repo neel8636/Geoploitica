@@ -277,7 +277,7 @@ async function draftOne(event) {
   const known = new Set([...event.sources.map((s) => s.url), ...items.map((i) => i.url)]);
   const unknown = (draft.evidence.sources ?? []).filter((s) => !known.has(s.url)).map((s) => s.url);
   draft.generated = {
-    by: "Geoploitica draft script",
+    by: "Geopolitica draft script",
     at: new Date().toISOString(),
     model: MODEL,
     sources: event.sources.length,

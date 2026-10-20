@@ -1,8 +1,8 @@
-# Geoploitica
+# Geopolitica
 
 One site to see the ripple effects of events across the globe and what you should be ready for.
 
-Two products share one research pipeline:
+Two products share one research pipeline. New to it? The enterprise edition opens with a **Get started** journey (`/get-started`): six steps from what the product does, through one report and the change radar, to a sample company and your own supplier list, with progress remembered in the browser.
 
 - **Dossiers** (`/dossiers`): each major event as a layered, interactive page. A 30-second card with a ripple map, a 5-minute brief with the same signposts every time (what happened, why it matters, who wins and loses, what's next), deep-dive modules (timeline, root causes, markets, stakeholders, industries, daily life, scenarios, countermeasures, analogues, what to watch) and an evidence layer with every source, a confidence label per claim and a change log. Readers predict before they read and recap after.
 - **Company impact reports** (`/enterprise`): a company shares its supply-chain footprint (suppliers, parts with HS codes, lanes, sites) and the impact engine matches it against a calendar of dated changes (regulations, tariffs, strikes, unrest, chokepoints, energy shocks). Each department gets a brief: what changes, when, your exposure, cost if unprepared, next action, owner.

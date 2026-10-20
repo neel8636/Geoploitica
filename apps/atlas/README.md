@@ -1,6 +1,6 @@
-# Geoploitica Atlas — personal edition
+# Geopolitica Atlas — personal edition
 
-A private version of Geoploitica for one reader: the world's events on a map, the lines
+A private version of Geopolitica for one reader: the world's events on a map, the lines
 between them, and a click on any event opens an interactive report on what it is and how it
 connects to the rest of the world. No accounts, no enterprise layer, no engine to run.
 

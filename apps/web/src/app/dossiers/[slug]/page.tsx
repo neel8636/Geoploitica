@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import JourneyMark from "@/components/journey/JourneyMark";
 import Link from "next/link";
 import { getDossier, listDossiers, formatDate } from "@/content/dossiers";
 import RippleMap from "@/components/RippleMap";
@@ -60,6 +61,7 @@ export default async function DossierPage(props: PageProps<"/dossiers/[slug]">) 
 
   return (
     <article className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:grid lg:grid-cols-[13rem_1fr] lg:gap-12">
+      <JourneyMark step="read-event" />
       <aside className="mb-8 lg:mb-0">
         <div className="lg:sticky lg:top-6">
           <p className="mb-3 text-sm text-ink-2">

@@ -4,6 +4,7 @@ import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import { analyzeCsv, analyzeFootprint, type AnalysisResult, type Department, type Footprint } from "@/lib/engine";
 import Results from "./Results";
 import Tour, { type TourStep } from "./Tour";
+import { markStep } from "@/lib/journey";
 
 type Status = "idle" | "running" | "done" | "error";
 const TOUR_SEEN_KEY = "geoploitica.tour.enterprise.v1";
@@ -45,12 +46,22 @@ export default function Analyzer() {
       setResult(r);
       setDept("leadership");
       setStatus("done");
+      markStep("sample");
     } catch (e) {
       setError((e as Error).message);
       setStatus("error");
       throw e;
     }
   }
+
+  // Arriving on /enterprise#sample (from the journey) runs the sample at once.
+  useEffect(() => {
+    if (window.location.hash !== "#sample") return;
+    const t = setTimeout(() => {
+      runSample().catch(() => {});
+    }, 0);
+    return () => clearTimeout(t);
+  }, []);
 
   async function onSubmit(ev: React.FormEvent<HTMLFormElement>) {
     ev.preventDefault();
@@ -73,6 +84,7 @@ export default function Analyzer() {
       setResult(r);
       setDept("leadership");
       setStatus("done");
+      markStep("own-data");
     } catch (e) {
       setError((e as Error).message);
       setStatus("error");

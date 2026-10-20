@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /*
-  Geoploitica design tokens.
+  Geopolitica design tokens.
   Warm beige paper and umber ink, one muted sea-green accent. Amber marks risk, red marks critical.
   Serif (Newsreader) for dossier reading; sans (IBM Plex Sans) for chrome, briefs and tables.
   Theme: light by default; dark when the reader picks it (data-theme="dark") or when their

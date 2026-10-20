@@ -10,6 +10,14 @@ import UpcomingChanges from "@/components/UpcomingChanges";
 */
 const DOORS = [
   {
+    href: "/get-started",
+    kicker: "New here",
+    title: "Get started",
+    body: "Six steps, about half an hour: what Geopolitica does, one event report, the change radar, a sample company, then your own supplier list.",
+    cta: "Begin the journey",
+    primary: true,
+  },
+  {
     href: "/dossiers",
     kicker: "Read an event",
     title: "Dossiers",
@@ -37,18 +45,19 @@ export default function Home() {
   return (
     <div className="mx-auto max-w-6xl px-4 sm:px-6">
       <section className="py-12 lg:py-16">
-        <h1 className="max-w-3xl text-[2.5rem] leading-[1.08] sm:text-[3.25rem]">
-          Every ripple of every event. Start wherever you need to.
+        <p className="signpost">Geopolitica</p>
+        <h1 className="mt-2 max-w-3xl text-[2.5rem] leading-[1.08] sm:text-[3.25rem]">
+          Every ripple of every event, down to your supply chain.
         </h1>
         <p className="prose-dossier mt-5 text-ink-2">
-          Geoploitica follows world events to their consequences: who wins and loses, what it
+          Geopolitica follows world events to their consequences: who wins and loses, what it
           costs, what to do before it lands. Read one event, watch the calendar, or run the
           engine on your own supply chain.
         </p>
 
-        <div className="mt-10 grid gap-5 md:grid-cols-3">
+        <div className="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
           {DOORS.map((d) => (
-            <Link key={d.href} href={d.href} className="group flex flex-col rounded-lg border border-line bg-paper-2 p-5 no-underline hover:border-teal">
+            <Link key={d.href} href={d.href} className={`group flex flex-col rounded-lg border p-5 no-underline hover:border-teal ${"primary" in d && d.primary ? "border-teal bg-teal-2" : "border-line bg-paper-2"}`}>
               <p className="signpost">{d.kicker}</p>
               <p className="mt-2 font-serif text-2xl">{d.title}</p>
               <p className="mt-2 flex-1 text-[15px] text-ink-2">{d.body}</p>
