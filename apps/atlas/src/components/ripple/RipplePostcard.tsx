@@ -3,7 +3,8 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import type { RippleCard } from "@/content/ripples";
-import { neighbours } from "@/content/events";
+import { DASHED_KINDS, neighbours } from "@/content/events";
+import LinkRow from "@/components/ripple/LinkRow";
 import RippleMap from "@/components/RippleMap";
 import { ImpactMeter } from "@/components/dossier/Primitives";
 import { track } from "@/lib/firebase";
@@ -57,7 +58,9 @@ export default function RipplePostcard({
     track("ripple_open", { event_id: id });
   }, [id]);
 
-  const onward = neighbours(id).slice(0, 5);
+  // solid links first: they are the ripple itself; dotted ones are relatives
+  const all = neighbours(id);
+  const onward = [...all.filter((l) => !DASHED_KINDS.includes(l.kind)), ...all.filter((l) => DASHED_KINDS.includes(l.kind))].slice(0, 6);
 
   async function share() {
     if (!card) return;
@@ -144,20 +147,36 @@ export default function RipplePostcard({
             </div>
           )}
 
+          {card && card.rings.length ? (
+            <div className="mt-6 border-t border-line pt-4">
+              <p className="signpost">How it ripples, step by step</p>
+              <ol className="mt-2 grid gap-4 sm:grid-cols-3">
+                {card.rings.slice(0, 3).map((r, n) => (
+                  <li key={r.label} className="text-sm">
+                    <p className="font-medium">
+                      <span className="tabular mr-1 text-teal">{n + 1}.</span> {r.label}
+                    </p>
+                    <ul className="mt-1 space-y-1 text-ink-2">
+                      {r.effects.slice(0, 3).map((x) => (
+                        <li key={x.text}>{x.sector ? <span className="text-ink">{x.sector}: </span> : null}{x.text}</li>
+                      ))}
+                    </ul>
+                  </li>
+                ))}
+              </ol>
+            </div>
+          ) : null}
+
           {onward.length ? (
             <div className="mt-6 border-t border-line pt-4">
-              <p className="signpost">Ripples on to</p>
-              <ul className="mt-2 flex flex-wrap gap-2">
+              <p className="signpost">Where it ripples next</p>
+              <p className="mt-0.5 text-xs text-ink-3">
+                Solid line: this event acts on the next one, through the channel named. Dotted line: related through a shared driver. Click one to follow the chain.
+              </p>
+              <ul className="mt-3 grid gap-4 sm:grid-cols-2">
                 {onward.map((l) => (
                   <li key={l.event.id}>
-                    <button
-                      type="button"
-                      onClick={() => onOpen(l.event.id)}
-                      title={l.why}
-                      className="rounded-full border border-line px-3 py-1 text-left text-sm hover:border-ink"
-                    >
-                      {l.event.title}
-                    </button>
+                    <LinkRow n={l} size="md" onOpen={onOpen} />
                   </li>
                 ))}
               </ul>

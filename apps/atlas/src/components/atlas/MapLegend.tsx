@@ -1,4 +1,6 @@
 import type { ReactNode } from "react";
+import Link from "next/link";
+import { KIND_HELP, LINK_WORDS, DASHED_KINDS, type LinkKind } from "@/content/events";
 
 /*
   The map's key, drawn with the same marks the map uses so the reader matches by eye:
@@ -30,8 +32,8 @@ export function DotSwatch({ fill, hollow, r = 6, size = 18 }: { fill?: string; h
 }
 
 const ITEMS: { swatch: ReactNode; label: string; detail: string }[] = [
-  { swatch: <LineSwatch />, label: "Solid line", detail: "cause and effect: one event feeds into, affects or is a response to the other" },
-  { swatch: <LineSwatch dashed />, label: "Dotted line", detail: "related, not cause and effect: the two share a driver or compete for the same thing" },
+  { swatch: <LineSwatch />, label: "Solid line", detail: "one event acts on the other" },
+  { swatch: <LineSwatch dashed />, label: "Dotted line", detail: "related, not cause and effect: a shared driver pushes both" },
   { swatch: <LineSwatch lit />, label: "Highlighted line", detail: "a connection of the event you are pointing at; the rest fade" },
   {
     swatch: (
@@ -51,17 +53,20 @@ export default function MapLegend({ layout = "rows" }: { layout?: "rows" | "comp
   if (layout === "column") {
     // the side panel's Key tab: one entry per line, label above its explanation
     return (
-      <dl className="space-y-3 text-sm" aria-label="Map key">
-        {ITEMS.map((it) => (
-          <div key={it.label} className="flex items-start gap-3">
-            <span className="mt-0.5">{it.swatch}</span>
-            <div>
-              <dt className="font-medium">{it.label}</dt>
-              <dd className="text-ink-2">{it.detail}</dd>
+      <div>
+        <dl className="space-y-3 text-sm" aria-label="Map key">
+          {ITEMS.map((it) => (
+            <div key={it.label} className="flex items-start gap-3">
+              <span className="mt-0.5">{it.swatch}</span>
+              <div>
+                <dt className="font-medium">{it.label}</dt>
+                <dd className="text-ink-2">{it.detail}</dd>
+              </div>
             </div>
-          </div>
-        ))}
-      </dl>
+          ))}
+        </dl>
+        <LineKinds />
+      </div>
     );
   }
   return (
@@ -74,5 +79,32 @@ export default function MapLegend({ layout = "rows" }: { layout?: "rows" | "comp
         </div>
       ))}
     </dl>
+  );
+}
+
+const KINDS: LinkKind[] = ["causes", "affects", "responds_to", "amplifies", "shares_driver", "competes_with"];
+
+/* What each kind of line says, in the words the connections use. */
+export function LineKinds({ wide = false }: { wide?: boolean }) {
+  return (
+    <div className={wide ? "" : "mt-5 border-t border-line pt-4"}>
+      <p className="text-xs font-medium uppercase tracking-wide text-ink-2">What a line tells you</p>
+      <dl className={`mt-2 text-sm ${wide ? "grid gap-x-8 gap-y-3 sm:grid-cols-2" : "space-y-2.5"}`}>
+        {KINDS.map((k) => (
+          <div key={k} className="flex items-start gap-2.5">
+            <span className="mt-1.5"><LineSwatch dashed={DASHED_KINDS.includes(k)} width={26} /></span>
+            <div>
+              <dt className="font-medium">&ldquo;{LINK_WORDS[k]}&rdquo;</dt>
+              <dd className="text-ink-2">{KIND_HELP[k]}</dd>
+            </div>
+          </div>
+        ))}
+      </dl>
+      <p className={`mt-3 text-sm text-ink-2 ${wide ? "max-w-3xl" : ""}`}>
+        Every line also names <span className="text-ink">how</span> the ripple travels, the channel: fuel prices, bond spreads,
+        voters&apos; mood. A dotted line names the <span className="text-ink">driver</span> behind both events.{" "}
+        <Link href="/drivers" className="underline">See all drivers</Link>.
+      </p>
+    </div>
   );
 }

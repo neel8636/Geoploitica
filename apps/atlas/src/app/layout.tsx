@@ -45,6 +45,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <div className="order-3 flex w-full items-center gap-4 overflow-x-auto whitespace-nowrap text-[15px] sm:order-2 sm:ml-auto sm:w-auto sm:gap-5">
               <Link href="/" className="no-underline hover:underline">Map</Link>
               <Link href="/events" className="no-underline hover:underline">Events</Link>
+              <Link href="/drivers" className="no-underline hover:underline">Drivers</Link>
               <Link href="/wire" className="no-underline hover:underline">Wire</Link>
               <Link href="/guide" className="no-underline hover:underline">How to use</Link>
               <span className="ml-auto sm:ml-0"><ThemeToggle /></span>

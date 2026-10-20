@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { EVENTS, LINK_WORDS, allEdges } from "@/content/events";
+import { EVENTS, allEdges } from "@/content/events";
+import { LineKinds } from "@/components/atlas/MapLegend";
 import { reportErrorUrl } from "@/lib/site";
 import { ConsentChoice } from "@/components/auth/ConsentBanner";
 
@@ -24,7 +25,7 @@ export default function GuidePage() {
         <dt className="font-medium">Dots</dt>
         <dd className="text-ink-2">One per event, where it is happening. Bigger means more severe. Amber dots are severe (4 or 5 of 5). Hollow dots are scheduled: an election, a deadline, a decision with a date.</dd>
         <dt className="font-medium">Lines</dt>
-        <dd className="text-ink-2">A connection between two events. Solid means one {LINK_WORDS.causes}, {LINK_WORDS.affects} or {LINK_WORDS.responds_to} the other; dashed means they {LINK_WORDS.shares_driver}. Hover a dot and only its lines stay bright.</dd>
+        <dd className="text-ink-2">A connection between two events. A solid line means one acts on the other; a dotted line means they are related through a driver, without either causing the other. Hover a dot and only its lines stay bright. <a href="#ripples" className="underline">How to read a line</a>.</dd>
         <dt className="font-medium">Frames</dt>
         <dd className="text-ink-2">World, Europe, Americas, Asia-Pacific, Middle East &amp; Africa. A frame changes what is in view, never what exists; a note at the top right counts the events outside it.</dd>
         <dt className="font-medium">Opening an event</dt>
@@ -41,6 +42,28 @@ export default function GuidePage() {
         <li><span className="text-ink">Sources.</span> Where the summary comes from.</li>
         <li><span className="text-ink">Full report</span>, where one exists: a 30-second card, a 5-minute brief, deep-dive modules and the evidence layer. Read as far as you need. The card and the evidence are open to everyone; the brief and the deep dive need a free account.</li>
       </ol>
+
+      <h2 id="ripples" className="mt-10 scroll-mt-24 text-2xl">How events ripple</h2>
+      <div className="prose-dossier mt-3 space-y-3 text-ink-2">
+        <p>
+          Every line on the map is a claim about how one event reaches another, and every line says three things: what kind of
+          connection it is, the <span className="text-ink">channel</span> the ripple travels through, and the sentence that justifies it.
+        </p>
+        <p>
+          <span className="text-ink">Solid lines are the ripple itself.</span> One event acts on the other. Example: the Gulf energy
+          shock <em>feeds into</em> France&apos;s unrest, via fuel prices; the unrest <em>affects</em> French bonds, via the risk premium
+          investors demand after each violent weekend. Follow solid lines to trace consequences: if one worsens, expect the next to move.
+        </p>
+        <p>
+          <span className="text-ink">Dotted lines are relatives.</span> Neither event caused the other; a third force, the{" "}
+          <Link href="/drivers" className="underline">driver</Link>, pushes both. Portugal&apos;s housing marches did not cause France&apos;s
+          protests; rents rising faster than wages drive both. A quick test: remove one event, and the other would still happen, but ease
+          the driver and both fade. Follow a dotted line to spot a pattern, then watch the driver rather than each event.
+        </p>
+      </div>
+      <div className="mt-4 rounded-lg border border-line bg-paper-2 p-4">
+        <LineKinds wide />
+      </div>
 
       <h2 id="method" className="mt-10 scroll-mt-24 text-2xl">How reports are made</h2>
       <div className="prose-dossier mt-3 space-y-3 text-ink-2">

@@ -22,7 +22,20 @@ export interface Link {
   to: string; // event id
   kind: LinkKind;
   why: string; // one sentence
+  via?: string; // the channel the ripple travels through, read after "via": "fuel and freight prices"
+  driver?: string; // a DRIVERS id: the force behind a dotted link (or behind a solid one, when obvious)
 }
+
+// How each kind of line reads, in plain words: what the reader should take from it.
+export const DASHED_KINDS: LinkKind[] = ["shares_driver", "competes_with"];
+export const KIND_HELP: Record<LinkKind, string> = {
+  causes: "One is part of the reason the other is happening.",
+  affects: "One changes the other's course or odds, without having started it.",
+  responds_to: "One is happening because of the other.",
+  amplifies: "The other was already happening; this one makes it bigger or spreads it.",
+  shares_driver: "Neither caused the other: the same underlying force is pushing both.",
+  competes_with: "Both pull on the same limited thing, so a gain for one is a loss for the other.",
+};
 
 export interface WorldEvent {
   id: string;
@@ -60,29 +73,47 @@ export function getEvent(id: string): WorldEvent | undefined {
 }
 
 /* Edges in both directions, de-duplicated, so the map can draw each connection once. */
-export function allEdges(): { a: string; b: string; kind: LinkKind; why: string }[] {
+export function allEdges(): { a: string; b: string; kind: LinkKind; why: string; via?: string; driver?: string }[] {
   const seen = new Set<string>();
-  const out: { a: string; b: string; kind: LinkKind; why: string }[] = [];
+  const out: { a: string; b: string; kind: LinkKind; why: string; via?: string; driver?: string }[] = [];
   for (const e of EVENTS) {
     for (const l of e.links) {
       const key = [e.id, l.to].sort().join("|");
       if (seen.has(key)) continue;
       seen.add(key);
-      out.push({ a: e.id, b: l.to, kind: l.kind, why: l.why });
+      out.push({ a: e.id, b: l.to, kind: l.kind, why: l.why, via: l.via, driver: l.driver });
     }
   }
   return out;
 }
 
 /* Everything connected to one event: outgoing links plus events that link to it. */
-export function neighbours(id: string): { event: WorldEvent; kind: LinkKind; why: string; direction: "out" | "in" }[] {
+export interface Neighbour {
+  event: WorldEvent;
+  kind: LinkKind;
+  why: string;
+  via?: string;
+  driver?: string;
+  direction: "out" | "in";
+}
+
+export function neighbours(id: string): Neighbour[] {
   const me = getEvent(id);
   if (!me) return [];
-  const out = me.links
-    .map((l) => ({ event: getEvent(l.to), kind: l.kind, why: l.why, direction: "out" as const }))
-    .filter((x): x is { event: WorldEvent; kind: LinkKind; why: string; direction: "out" } => Boolean(x.event));
-  const ins = EVENTS.flatMap((e) =>
-    e.links.filter((l) => l.to === id).map((l) => ({ event: e, kind: l.kind, why: l.why, direction: "in" as const })),
+  const out: Neighbour[] = [];
+  for (const l of me.links) {
+    const event = getEvent(l.to);
+    if (event) out.push({ event, kind: l.kind, why: l.why, via: l.via, driver: l.driver, direction: "out" });
+  }
+  const ins: Neighbour[] = EVENTS.flatMap((e) =>
+    e.links.filter((l) => l.to === id).map((l) => ({ event: e, kind: l.kind, why: l.why, via: l.via, driver: l.driver, direction: "in" as const })),
   ).filter((x) => !out.some((o) => o.event.id === x.event.id));
   return [...out, ...ins];
+}
+
+/* The sentence a connection reads as, from the point of view of the event being looked at. */
+export function linkPhrase(n: Pick<Neighbour, "kind" | "direction">): string {
+  const w = LINK_WORDS[n.kind];
+  if (DASHED_KINDS.includes(n.kind) || n.direction === "out") return `This ${w}`;
+  return `${w[0].toUpperCase()}${w.slice(1)} this`;
 }

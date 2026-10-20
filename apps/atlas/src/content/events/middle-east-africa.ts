@@ -16,9 +16,8 @@ export const MEA: WorldEvent[] = [
     severity: 4,
     keywords: ["sudan", "famine", "ipc", "darfur", "kordofan", "el obeid", "nyala", "rsf", "drought", "malnutrition", "wfp", "khartoum"],
     links: [
-      { to: "ethiopia-eritrea-war-fears", kind: "shares_driver", why: "Both crises sit on the same Horn-of-Africa fault line; Sudan is named in the Cairo-Khartoum-Mogadishu bloc opposing Addis Ababa." },
-      { to: "gulf-war-energy-shock", kind: "amplifies", why: "Brent above $100 and Red Sea disruption raise the cost of moving fuel and food aid into Port Sudan." },
-      { to: "eu-budget-2028-2034", kind: "affects", why: "A 57% funding gap for Sudan feeds the fight over the EU's external-aid envelope in the 2028-2034 budget." },
+      { to: "ethiopia-eritrea-war-fears", kind: "shares_driver", why: "Both crises sit on the same Horn-of-Africa fault line; Sudan is named in the Cairo-Khartoum-Mogadishu bloc opposing Addis Ababa.", via: "rival Horn of Africa blocs", driver: "red-sea-rivalry" },
+      { to: "gulf-war-energy-shock", kind: "responds_to", why: "Famine relief is falling further behind because Brent above $100 and Red Sea disruption raise the cost of moving fuel and food aid into Port Sudan.", via: "aid fuel and shipping costs", driver: "gulf-energy-prices" },
     ],
     sources: [
       { title: "Sudan: Drought and war push Darfur and Kordofan towards famine", url: "https://news.un.org/en/story/2026/10/1168577", publisher: "UN News", date: "2026-10-12" },
@@ -39,9 +38,8 @@ export const MEA: WorldEvent[] = [
     severity: 4,
     keywords: ["ethiopia", "eritrea", "tigray", "tplf", "assab", "red sea", "abiy", "mekelle", "adigrat", "security council", "horn of africa", "asmara"],
     links: [
-      { to: "sudan-darfur-kordofan-famine-alert", kind: "amplifies", why: "A Tigray-Eritrea war would push refugees and arms into eastern Sudan and divert aid logistics from Darfur." },
-      { to: "gulf-war-energy-shock", kind: "amplifies", why: "Fighting over Assab adds a second chokepoint risk on the Bab al-Mandeb approach already strained by the Iran war." },
-      { to: "eu-supply-chain-rules-2027", kind: "affects", why: "War in Ethiopia's north disrupts coffee exports just as EUDR compliance raises costs for EU coffee importers." },
+      { to: "sudan-darfur-kordofan-famine-alert", kind: "amplifies", why: "A Tigray-Eritrea war would push refugees and arms into eastern Sudan and divert aid logistics from Darfur.", via: "refugees, arms and aid diversion", driver: "red-sea-rivalry" },
+      { to: "gulf-war-energy-shock", kind: "amplifies", why: "Fighting over Assab adds a second chokepoint risk on the Bab al-Mandeb approach already strained by the Iran war.", via: "Bab al-Mandeb shipping risk", driver: "gulf-energy-prices" },
     ],
     sources: [
       { title: "Ethiopia and Eritrea accuse one another of launching war", url: "https://www.aljazeera.com/news/2026/10/9/ethiopia-and-eritrea-accuse-one-another-of-launching-war", publisher: "Al Jazeera", date: "2026-10-09" },
@@ -62,9 +60,8 @@ export const MEA: WorldEvent[] = [
     severity: 4,
     keywords: ["israel", "election", "knesset", "netanyahu", "eisenkot", "yashar", "likud", "coalition", "ben-gvir", "smotrich", "gaza", "jerusalem"],
     links: [
-      { to: "gulf-war-energy-shock", kind: "responds_to", why: "The vote is a referendum on the Iran war; Netanyahu vows to topple Tehran's regime while Trump endorses him." },
-      { to: "opec-plus-november-output-hold", kind: "affects", why: "The result sets whether the Iran war escalates, which determines how much Gulf export capacity OPEC+ can restore." },
-      { to: "ethiopia-eritrea-war-fears", kind: "shares_driver", why: "Both draw in Gulf patrons (UAE, Saudi) competing for Red Sea positions while Washington's attention is on Iran." },
+      { to: "gulf-war-energy-shock", kind: "responds_to", why: "The vote is a referendum on the Iran war; Netanyahu vows to topple Tehran's regime while Trump endorses him.", via: "a referendum on the Iran war" },
+      { to: "opec-plus-november-output-hold", kind: "affects", why: "The result sets whether the Iran war escalates, which determines how much Gulf export capacity OPEC+ can restore.", via: "risk of wider Iran war", driver: "gulf-energy-prices" },
     ],
     sources: [
       { title: "FALQs: Israel's Upcoming Election on October 27, 2026", url: "https://blogs.loc.gov/law/2026/10/falqs-israels-upcoming-election-on-october-27-2026/", publisher: "Library of Congress", date: "2026-10-09" },
@@ -85,10 +82,10 @@ export const MEA: WorldEvent[] = [
     severity: 4,
     keywords: ["opec", "opec+", "oil", "brent", "saudi arabia", "hormuz", "output", "quotas", "crude", "riyadh", "iraq", "kazakhstan"],
     links: [
-      { to: "gulf-war-energy-shock", kind: "responds_to", why: "Quotas are frozen because the Iran war, not policy, caps Gulf exports at 60-80% of normal." },
-      { to: "russia-record-budget-deficit-2026", kind: "affects", why: "Russia's 9.9 mb/d quota and Urals pricing set the oil-and-gas revenue line in a budget assuming $50 oil." },
-      { to: "ecb-inflation-and-rates", kind: "affects", why: "Brent above $100 with no quota relief keeps euro-area inflation near 3.8% into the 29 October ECB meeting." },
-      { to: "china-q3-growth", kind: "affects", why: "Tight crude supply raises import costs for China, the largest buyer of Gulf and Russian oil." },
+      { to: "gulf-war-energy-shock", kind: "responds_to", why: "Quotas are frozen because the Iran war, not policy, caps Gulf exports at 60-80% of normal.", via: "Hormuz export limits", driver: "gulf-energy-prices" },
+      { to: "russia-record-budget-deficit-2026", kind: "affects", why: "Russia's 9.9 mb/d quota and Urals pricing set the oil-and-gas revenue line in a budget assuming $50 oil.", via: "Russian quota and Urals prices" },
+      { to: "ecb-inflation-and-rates", kind: "affects", why: "Brent above $100 with no quota relief keeps euro-area inflation near 3.8% into the 29 October ECB meeting.", via: "crude prices into inflation", driver: "gulf-energy-prices" },
+      { to: "china-q3-growth", kind: "affects", why: "Tight crude supply raises import costs for China, the largest buyer of Gulf and Russian oil.", via: "crude import costs", driver: "gulf-energy-prices" },
     ],
     sources: [
       { title: "OPEC+ Agrees to Keep November Oil Output Targets Steady", url: "https://www.themoscowtimes.com/2026/10/04/opec-agrees-to-keep-november-oil-output-targets-steady-a93865", publisher: "The Moscow Times / Reuters", date: "2026-10-04" },
@@ -109,9 +106,9 @@ export const MEA: WorldEvent[] = [
     severity: 3,
     keywords: ["russia", "budget", "deficit", "duma", "oil and gas revenue", "sanctions", "defence spending", "ruble", "siluanov", "national wealth fund", "urals", "moscow"],
     links: [
-      { to: "ukraine-summit-diplomacy", kind: "amplifies", why: "A deficit double the plan and a third of spending on defence raise the Kremlin's incentive to seek a Trump-Xi summit." },
-      { to: "opec-plus-november-output-hold", kind: "affects", why: "Moscow needs higher quotas and prices; it pushes within OPEC+ to protect its 9.9 mb/d share." },
-      { to: "gulf-war-energy-shock", kind: "responds_to", why: "Brent above $100 cushions sanctioned Urals sales, yet constrained Russian flows still leave energy revenue down 17%." },
+      { to: "ukraine-summit-diplomacy", kind: "amplifies", why: "A deficit double the plan and a third of spending on defence raise the Kremlin's incentive to seek a Trump-Xi summit.", via: "Kremlin's money squeeze" },
+      { to: "opec-plus-november-output-hold", kind: "affects", why: "Moscow needs higher quotas and prices; it pushes within OPEC+ to protect its 9.9 mb/d share.", via: "Moscow's lobbying inside OPEC+" },
+      { to: "gulf-war-energy-shock", kind: "responds_to", why: "Brent above $100 cushions sanctioned Urals sales, yet constrained Russian flows still leave energy revenue down 17%.", via: "oil prices and sanctions discounts", driver: "gulf-energy-prices" },
     ],
     sources: [
       { title: "Government Submits 3-Year Budget to State Duma as 2026 Deficit Set to Reach $88Bln", url: "https://www.themoscowtimes.com/2026/10/01/government-submits-3-year-budget-to-state-duma-with-record-88bln-2026-deficit-a93836", publisher: "The Moscow Times", date: "2026-10-01" },

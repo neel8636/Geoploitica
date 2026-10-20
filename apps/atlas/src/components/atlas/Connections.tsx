@@ -1,34 +1,39 @@
-import EventLink from "@/components/ripple/EventLink";
-import { LINK_WORDS, TYPE_LABELS, neighbours, type WorldEvent } from "@/content/events";
-import { formatDate } from "@/content/format";
+import { DASHED_KINDS, neighbours, type WorldEvent } from "@/content/events";
+import { LineSwatch } from "@/components/atlas/MapLegend";
+import LinkRow from "@/components/ripple/LinkRow";
 
 /*
-  How one event connects to the rest of the world: each linked event, the kind of link,
-  and the one sentence that justifies it. Outgoing links read "this event feeds into X";
-  incoming ones read "X feeds into this event".
+  How one event connects to the rest of the world, split the way the map draws it:
+  solid lines (one event acts on the other, and through what channel) and dotted lines
+  (related through a shared driver, or competing for the same thing).
 */
 export default function Connections({ event }: { event: WorldEvent }) {
   const links = neighbours(event.id);
   if (links.length === 0) {
     return <p className="text-ink-2">No connections recorded yet.</p>;
   }
+  const solid = links.filter((l) => !DASHED_KINDS.includes(l.kind));
+  const dotted = links.filter((l) => DASHED_KINDS.includes(l.kind));
+  const group = (title: string, help: string, dashed: boolean, items: typeof links) =>
+    items.length ? (
+      <section className="mt-6 first:mt-0">
+        <h3 className="flex items-center gap-2 text-lg">
+          <LineSwatch dashed={dashed} width={34} /> {title}
+        </h3>
+        <p className="mt-0.5 text-sm text-ink-2">{help}</p>
+        <ol className="mt-3 divide-y divide-line-2 border-t border-line">
+          {items.map((l) => (
+            <li key={l.event.id} className="py-4">
+              <LinkRow n={l} size="lg" />
+            </li>
+          ))}
+        </ol>
+      </section>
+    ) : null;
   return (
-    <ol className="divide-y divide-line-2 border-t border-line">
-      {links.map((l) => (
-        <li key={l.event.id} className="grid gap-2 py-4 sm:grid-cols-[11rem_1fr]">
-          <div className="text-sm text-ink-2">
-            <p>{l.direction === "out" ? `This ${LINK_WORDS[l.kind]}` : `${LINK_WORDS[l.kind][0].toUpperCase()}${LINK_WORDS[l.kind].slice(1)} this`}</p>
-            <p>{TYPE_LABELS[l.event.type]} · {l.event.region}</p>
-            <p>{formatDate(l.event.date)}</p>
-          </div>
-          <div>
-            <EventLink id={l.event.id} className="font-serif text-xl hover:underline">
-              {l.event.title}
-            </EventLink>
-            <p className="mt-1 text-[15px] text-ink-2">{l.why}</p>
-          </div>
-        </li>
-      ))}
-    </ol>
+    <div>
+      {group("How it ripples", "Solid lines. One event acts on the other; each says through what channel the effect travels.", false, solid)}
+      {group("Related through a driver", "Dotted lines. Neither caused the other: the same underlying force pushes both, or they compete for the same thing.", true, dotted)}
+    </div>
   );
 }

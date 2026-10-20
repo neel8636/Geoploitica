@@ -16,10 +16,9 @@ export const AMERICAS: WorldEvent[] = [
     severity: 4,
     keywords: ["midterms", "house", "senate", "trump", "generic ballot", "democrats", "republicans", "toss-up", "redistricting", "gas prices", "november 3"],
     links: [
-      { to: "gulf-war-energy-shock", kind: "responds_to", why: "Iran-war gasoline and diesel spikes feed the cost-of-living anger that pollsters say is driving the Democratic generic-ballot lead." },
-      { to: "us-canada-trade-war", kind: "shares_driver", why: "Tariff pass-through on groceries and building materials is a cost-of-living liability for House Republicans in Rust Belt toss-ups." },
-      { to: "brazil-runoff-2026", kind: "shares_driver", why: "Both votes are incumbent referendums on crime and living costs, with Trump openly backing the Brazilian right." },
-      { to: "ukraine-summit-diplomacy", kind: "affects", why: "A Democratic House seated in January would constrain Trump's leverage over Ukraine aid in any Putin-Trump-Xi summit bargain." },
+      { to: "gulf-war-energy-shock", kind: "responds_to", why: "Iran-war gasoline and diesel spikes feed the cost-of-living anger that pollsters say is driving the Democratic generic-ballot lead.", via: "gasoline and diesel prices", driver: "gulf-energy-prices" },
+      { to: "us-canada-trade-war", kind: "responds_to", why: "Tariff pass-through on groceries and building materials is a cost-of-living liability for House Republicans in Rust Belt toss-ups.", via: "tariff pass-through on prices", driver: "us-trade-policy" },
+      { to: "ukraine-summit-diplomacy", kind: "affects", why: "A Democratic House seated in January would constrain Trump's leverage over Ukraine aid in any Putin-Trump-Xi summit bargain.", via: "House control of Ukraine aid", driver: "us-attention-backing" },
     ],
     sources: [
       { title: "Fox News Power Rankings: As the House falls, the Senate stays in play", url: "https://www.foxnews.com/politics/fox-news-power-rankings-house-falls-senate-stays-play", publisher: "Fox News", date: "2026-10-13" },
@@ -40,10 +39,8 @@ export const AMERICAS: WorldEvent[] = [
     severity: 4,
     keywords: ["brazil", "run-off", "lula", "flávio bolsonaro", "bolsonaro", "datafolha", "quaest", "second round", "brasília", "crime", "october 25"],
     links: [
-      { to: "us-midterms-2026", kind: "shares_driver", why: "Same anti-incumbent, cost-of-living and crime mood; Trump's team treats a Bolsonaro win as a regional prize." },
-      { to: "china-q3-growth", kind: "affects", why: "China's export-led 4.5% growth underpins demand for Brazilian soy and iron ore; a Washington-aligned president could strain that trade." },
-      { to: "eu-supply-chain-rules-2027", kind: "affects", why: "EUDR deforestation checks on Brazilian soy, beef and coffee bite in 2027; the winner sets Brazil's compliance and Mercosur stance." },
-      { to: "venezuela-oil-reopening", kind: "shares_driver", why: "US intervention in Caracas and support for Bolsonaro are the same push to realign Latin America rightward." },
+      { to: "eu-supply-chain-rules-2027", kind: "affects", why: "EUDR deforestation checks on Brazilian soy, beef and coffee bite in 2027; the winner sets Brazil's compliance and Mercosur stance.", via: "Brazil's EUDR compliance stance", driver: "eu-green-deal-rules" },
+      { to: "venezuela-oil-reopening", kind: "shares_driver", why: "US intervention in Caracas and support for Bolsonaro are the same push to realign Latin America rightward.", via: "US backing for Latin America's right", driver: "us-attention-backing" },
     ],
     sources: [
       { title: "Latest poll shows Bolsonaro maintaining edge over Lula in Brazil run-off", url: "https://www.aljazeera.com/news/2026/10/16/latest-poll-shows-bolsonaro-maintaining-edge-over-lula-in-brazil-run-off", publisher: "Al Jazeera", date: "2026-10-16" },
@@ -64,10 +61,9 @@ export const AMERICAS: WorldEvent[] = [
     severity: 3,
     keywords: ["canada", "tariffs", "carney", "trump", "section 338", "import ban", "dairy", "retaliation", "counter-tariffs", "steel", "trade war", "ottawa"],
     links: [
-      { to: "usmca-annual-review-2027", kind: "causes", why: "The US refusal to renew USMCA on 1 July and the August talks collapse are one confrontation now channelled into yearly reviews." },
-      { to: "us-midterms-2026", kind: "affects", why: "Tariffs and bans raise US prices for cheese, lumber and appliances, a cost-of-living issue weeks before the 3 November vote." },
-      { to: "alberta-independence-vote", kind: "amplifies", why: "US tariffs and bans on Canadian goods sharpen Alberta grievances about Ottawa's handling of trade and energy market access." },
-      { to: "eu-supply-chain-rules-2027", kind: "shares_driver", why: "Canada is courting EU and other partners to diversify from the US, making 2027 EU CBAM and EUDR compliance a live export issue." },
+      { to: "usmca-annual-review-2027", kind: "shares_driver", why: "The US refusal to renew USMCA on 1 July and the August talks collapse are one confrontation now channelled into yearly reviews.", via: "Washington's trade confrontation", driver: "us-trade-policy" },
+      { to: "us-midterms-2026", kind: "affects", why: "Tariffs and bans raise US prices for cheese, lumber and appliances, a cost-of-living issue weeks before the 3 November vote.", via: "tariff-driven consumer prices", driver: "us-trade-policy" },
+      { to: "alberta-independence-vote", kind: "amplifies", why: "US tariffs and bans on Canadian goods sharpen Alberta grievances about Ottawa's handling of trade and energy market access.", via: "Alberta grievances with Ottawa", driver: "us-trade-policy" },
     ],
     sources: [
       { title: "Fact Sheet: President Donald J. Trump Responds to Canada's Retaliation", url: "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-responds-to-canadas-retaliation/", publisher: "The White House", date: "2026-09-08" },
@@ -88,10 +84,8 @@ export const AMERICAS: WorldEvent[] = [
     severity: 3,
     keywords: ["usmca", "t-mec", "cusma", "joint review", "ustr", "rules of origin", "sheinbaum", "greer", "trade deficit", "federal register", "autos", "mexico"],
     links: [
-      { to: "us-canada-trade-war", kind: "shares_driver", why: "Washington uses non-renewal and Section 338 tariffs as twin levers to force Canadian and Mexican concessions." },
-      { to: "us-midterms-2026", kind: "affects", why: "The 12 January comment deadline lands days after a new Congress convenes; a Democratic House would scrutinise any renegotiated text." },
-      { to: "china-q3-growth", kind: "shares_driver", why: "US demands on Chinese content and transshipment target the export surge behind China's 4.5% Q3 growth." },
-      { to: "eu-supply-chain-rules-2027", kind: "competes_with", why: "Manufacturers face overlapping 2027 compliance resets: North American origin rules and EU CBAM/EUDR, pulling supply chains in different directions." },
+      { to: "us-canada-trade-war", kind: "shares_driver", why: "Washington uses non-renewal and Section 338 tariffs as twin levers to force Canadian and Mexican concessions.", via: "Washington's twin trade levers", driver: "us-trade-policy" },
+      { to: "china-q3-growth", kind: "affects", why: "US demands on Chinese content and transshipment target the export surge behind China's 4.5% Q3 growth.", via: "rules on Chinese content", driver: "us-trade-policy" },
     ],
     sources: [
       { title: "USMCA Review 2026: Not Renewed, Still in Force", url: "https://mayo.law/articles/updates/usmca-joint-review/", publisher: "Mayo Law", date: "2026-10-07" },
@@ -112,10 +106,9 @@ export const AMERICAS: WorldEvent[] = [
     severity: 3,
     keywords: ["venezuela", "delcy rodríguez", "maduro", "pdvsa", "chevron", "oil investment", "hydrocarbons", "general license", "maracaibo", "heavy crude", "sanctions", "caracas"],
     links: [
-      { to: "gulf-war-energy-shock", kind: "responds_to", why: "Washington is fast-tracking Venezuelan heavy crude to Gulf Coast refineries to offset Hormuz disruption and lower US diesel prices." },
-      { to: "us-midterms-2026", kind: "affects", why: "Trump bills the 28 August Venezuela oil deal as fuel-price relief before 3 November; high pump prices are hurting Republicans." },
-      { to: "brazil-runoff-2026", kind: "shares_driver", why: "The Caracas intervention and Trump's backing of Bolsonaro are the same US push to realign Latin American governments." },
-      { to: "china-q3-growth", kind: "affects", why: "Excluding Chinese firms from licensed Venezuelan oil cuts a crude supplier China had financed for two decades." },
+      { to: "gulf-war-energy-shock", kind: "responds_to", why: "Washington is fast-tracking Venezuelan heavy crude to Gulf Coast refineries to offset Hormuz disruption and lower US diesel prices.", via: "Venezuelan heavy crude supply", driver: "gulf-energy-prices" },
+      { to: "us-midterms-2026", kind: "affects", why: "Trump bills the 28 August Venezuela oil deal as fuel-price relief before 3 November; high pump prices are hurting Republicans.", via: "promised pump-price relief", driver: "gulf-energy-prices" },
+      { to: "brazil-runoff-2026", kind: "shares_driver", why: "The Caracas intervention and Trump's backing of Bolsonaro are the same US push to realign Latin American governments.", via: "US backing for Latin America's right", driver: "us-attention-backing" },
     ],
     sources: [
       { title: "Venezuela Sees US$76 Billion Oil Investment", url: "https://www.riotimesonline.com/venezuela-oil-investment-76-billion-five-years-2026/", publisher: "The Rio Times", date: "2026-10-18" },

@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { LINK_WORDS, TYPE_LABELS, neighbours, type LinkKind, type WorldEvent } from "@/content/events";
+import { DASHED_KINDS, TYPE_LABELS, neighbours, type WorldEvent } from "@/content/events";
+import LinkRow from "@/components/ripple/LinkRow";
 import { formatDate } from "@/content/format";
 import MapLegend, { DotSwatch, LineSwatch } from "@/components/atlas/MapLegend";
 
@@ -21,7 +22,6 @@ export function dotFill(e: WorldEvent): { fill?: string; hollow?: boolean } {
   return { fill: e.severity >= 4 ? "var(--amber)" : "var(--teal)" };
 }
 
-const DASHED: LinkKind[] = ["shares_driver", "competes_with"];
 
 export default function MapPanel({
   inFrame,
@@ -115,34 +115,21 @@ function Detail({
   onSelect: (id: string | null) => void;
 }) {
   const links = neighbours(e.id).filter((l) => visibleIds.has(l.event.id));
-  const causal = links.filter((l) => !DASHED.includes(l.kind));
-  const related = links.filter((l) => DASHED.includes(l.kind));
+  const causal = links.filter((l) => !DASHED_KINDS.includes(l.kind));
+  const related = links.filter((l) => DASHED_KINDS.includes(l.kind));
   const summary = e.summary.length > 220 ? e.summary.slice(0, 218).replace(/\s+\S*$/, "") + "…" : e.summary;
 
-  const group = (title: string, dashed: boolean, items: typeof links) =>
+  const group = (title: string, help: string, dashed: boolean, items: typeof links) =>
     items.length ? (
       <div className="mt-4">
         <p className="flex items-center gap-2 text-xs font-medium uppercase tracking-wide text-ink-2">
           <LineSwatch dashed={dashed} width={28} /> {title} · {items.length}
         </p>
-        <ul className="mt-1">
+        <p className="mt-0.5 text-xs text-ink-3">{help}</p>
+        <ul className="mt-2 space-y-3">
           {items.map((l) => (
             <li key={l.event.id}>
-              <button
-                type="button"
-                className="w-full rounded-sm px-1.5 py-1.5 text-left hover:bg-paper-2 focus-visible:bg-paper-2"
-                onMouseEnter={() => onPeek(l.event.id)}
-                onFocus={() => onPeek(l.event.id)}
-                onBlur={() => onPeek(null)}
-                onClick={() => onSelect(l.event.id)}
-                title="Select this event"
-              >
-                <span className="block text-xs text-ink-3">
-                  {l.direction === "out" ? `This ${LINK_WORDS[l.kind]}` : `${cap(LINK_WORDS[l.kind])} this`}
-                </span>
-                <span className="block text-[14px] leading-snug">{l.event.title}</span>
-                <span className="block text-xs text-ink-2">{l.why}</span>
-              </button>
+              <LinkRow n={l} size="sm" onOpen={(id) => onSelect(id)} onPeek={onPeek} />
             </li>
           ))}
         </ul>
@@ -168,13 +155,10 @@ function Detail({
         Open the full report →
       </Link>
       {!pinned ? <p className="mt-2 text-xs text-ink-3">Click the dot to keep this open.</p> : null}
-      {group("Cause and effect", false, causal)}
-      {group("Related", true, related)}
+      {group("How it ripples", "Solid lines: one event acts on the other.", false, causal)}
+      {group("Related through a driver", "Dotted lines: not cause and effect; the same force pushes both, or they compete.", true, related)}
       {!links.length ? <p className="mt-4 text-sm text-ink-2">No connections recorded yet.</p> : null}
     </div>
   );
 }
 
-function cap(s: string) {
-  return s[0].toUpperCase() + s.slice(1);
-}

@@ -16,10 +16,10 @@ export const ASIA_PACIFIC: WorldEvent[] = [
     severity: 4,
     keywords: ["apec", "shenzhen", "xi jinping", "trump", "summit", "tariffs", "trade truce", "rare earths", "guangdong", "us-china", "leaders meeting"],
     links: [
-      { to: "china-q3-growth", kind: "shares_driver", why: "Beijing arrives as host with export-led 4.5% growth and weak domestic demand, so tariff relief from Trump is its top summit goal." },
-      { to: "north-korea-missile-tests-2026", kind: "affects", why: "Trump says he may meet Kim during the Shenzhen trip, giving Pyongyang's October launches direct bargaining value." },
-      { to: "ukraine-summit-diplomacy", kind: "affects", why: "A Trump-Xi face-to-face in Shenzhen is the nearest venue for the Trump-Xi-Putin summit Moscow is seeking." },
-      { to: "south-china-sea-incidents-2026", kind: "affects", why: "Beijing's incentive to look like a stable host before 18 November may restrain or redirect coast-guard pressure on Manila." },
+      { to: "china-q3-growth", kind: "affects", why: "Beijing arrives as host with export-led 4.5% growth and weak domestic demand, so any tariff relief it wins from Trump in Shenzhen would shape its export outlook.", via: "hoped-for US tariff relief", driver: "us-trade-policy" },
+      { to: "north-korea-missile-tests-2026", kind: "affects", why: "Trump says he may meet Kim during the Shenzhen trip, giving Pyongyang's October launches direct bargaining value.", via: "prospect of a Trump-Kim meeting", driver: "trump-summitry" },
+      { to: "ukraine-summit-diplomacy", kind: "affects", why: "A Trump-Xi face-to-face in Shenzhen is the nearest venue for the Trump-Xi-Putin summit Moscow is seeking.", via: "Trump-Xi meeting as venue", driver: "trump-summitry" },
+      { to: "south-china-sea-incidents-2026", kind: "affects", why: "Beijing's incentive to look like a stable host before 18 November may restrain or redirect coast-guard pressure on Manila.", via: "Beijing's wish to look stable", driver: "trump-summitry" },
     ],
     sources: [
       { title: "Trump says he 'may' meet N. Korean leader Kim during upcoming Asia trip", url: "https://www.koreatimes.co.kr/foreignaffairs/northkorea/20261013/trump-says-he-may-meet-n-korean-leader-kim-during-upcoming-asia-trip", publisher: "The Korea Times / Yonhap", date: "2026-10-13" },
@@ -40,9 +40,9 @@ export const ASIA_PACIFIC: WorldEvent[] = [
     severity: 3,
     keywords: ["bank of japan", "boj", "ueda", "rate hike", "yen", "jgb", "inflation", "quarterly outlook", "usd/jpy", "tokyo", "japan"],
     links: [
-      { to: "gulf-war-energy-shock", kind: "responds_to", why: "Japan imports nearly all its crude, so Hormuz-driven oil prices feed the inflation upside risk the BoJ board flagged in September." },
-      { to: "ecb-inflation-and-rates", kind: "shares_driver", why: "ECB decides 29 October and BoJ 30 October, both weighing energy-driven inflation above target against slowing growth." },
-      { to: "france-debt-stress", kind: "affects", why: "Rising JGB yields pull Japanese investors, among the largest foreign holders of French OATs, back home and lift France's funding costs." },
+      { to: "gulf-war-energy-shock", kind: "responds_to", why: "Japan imports nearly all its crude, so Hormuz-driven oil prices feed the inflation upside risk the BoJ board flagged in September.", via: "imported crude costs", driver: "gulf-energy-prices" },
+      { to: "ecb-inflation-and-rates", kind: "shares_driver", why: "ECB decides 29 October and BoJ 30 October, both weighing energy-driven inflation above target against slowing growth.", via: "energy-driven inflation", driver: "gulf-energy-prices" },
+      { to: "france-debt-stress", kind: "affects", why: "Rising JGB yields pull Japanese investors, among the largest foreign holders of French OATs, back home and lift France's funding costs.", via: "Japanese money flowing home", driver: "sovereign-debt-markets" },
     ],
     sources: [
       { title: "Japan Interest Rate", url: "https://tradingeconomics.com/japan/interest-rate", publisher: "Trading Economics", date: "2026-10-19" },
@@ -63,9 +63,9 @@ export const ASIA_PACIFIC: WorldEvent[] = [
     severity: 3,
     keywords: ["india", "trade deal", "rubio", "jaishankar", "tariffs", "russian oil", "sanctions waiver", "jamnagar", "goyal", "greer", "new delhi", "mumbai"],
     links: [
-      { to: "gulf-war-energy-shock", kind: "responds_to", why: "With Hormuz flows disrupted, India cannot easily replace Russian crude, so Rubio links sanctions waivers to closing the trade deal." },
-      { to: "china-q3-growth", kind: "competes_with", why: "An 18% US tariff on Indian goods competes directly with China's export-led 4.5% growth for US import share." },
-      { to: "apec-shenzhen-2026", kind: "shares_driver", why: "Both are stops in Trump's pre-midterm push to lock in bilateral tariff deals before the Shenzhen summit." },
+      { to: "gulf-war-energy-shock", kind: "responds_to", why: "With Hormuz flows disrupted, India cannot easily replace Russian crude, so Rubio links sanctions waivers to closing the trade deal.", via: "India's need for Russian crude", driver: "gulf-energy-prices" },
+      { to: "china-q3-growth", kind: "competes_with", why: "An 18% US tariff on Indian goods competes directly with China's export-led 4.5% growth for US import share.", via: "share of US imports", driver: "us-trade-policy" },
+      { to: "apec-shenzhen-2026", kind: "shares_driver", why: "Both are stops in Trump's pre-midterm push to lock in bilateral tariff deals before the Shenzhen summit.", via: "Trump's bilateral tariff deals", driver: "us-trade-policy" },
     ],
     sources: [
       { title: "US Close To Finalising Trade Deal With India: Marco Rubio Day Before Mumbai Visit", url: "https://www.etvbharat.com/en/business/close-to-finalising-trade-deal-with-india-marco-rubio-day-before-mumbai-visit-enn26101901587", publisher: "ETV Bharat", date: "2026-10-19" },
@@ -86,9 +86,9 @@ export const ASIA_PACIFIC: WorldEvent[] = [
     severity: 3,
     keywords: ["north korea", "kim jong un", "missile", "submarine-launched", "cruise missile", "hypersonic", "pulhwasal", "kcna", "dmz", "pyongyang", "lee jae myung"],
     links: [
-      { to: "apec-shenzhen-2026", kind: "responds_to", why: "The launches came two days after Trump said he may meet Kim on the Shenzhen trip, raising Pyongyang's price for talks." },
-      { to: "ukraine-summit-diplomacy", kind: "shares_driver", why: "Pyongyang's troops-for-technology alliance with Moscow means any Trump-Putin-Xi summit reshapes Kim's leverage." },
-      { to: "south-china-sea-incidents-2026", kind: "shares_driver", why: "Both test US alliance resolve in Northeast and Southeast Asia while Trump pursues summitry with Xi and Kim." },
+      { to: "apec-shenzhen-2026", kind: "responds_to", why: "The launches came two days after Trump said he may meet Kim on the Shenzhen trip, raising Pyongyang's price for talks.", via: "raising the price for talks", driver: "trump-summitry" },
+      { to: "ukraine-summit-diplomacy", kind: "shares_driver", why: "Kim and Putin are both angling for a Trump summit, and Pyongyang's troops-for-technology alliance with Moscow ties their bargaining together.", via: "bids for a Trump summit", driver: "trump-summitry" },
+      { to: "south-china-sea-incidents-2026", kind: "shares_driver", why: "Both test US alliance resolve in Northeast and Southeast Asia while Trump pursues summitry with Xi and Kim.", via: "testing US alliance resolve", driver: "trump-summitry" },
     ],
     sources: [
       { title: "North Korea tests two submarine-launched missiles, state media reports", url: "https://www.aljazeera.com/news/2026/10/15/north-korea-tests-two-submarine-launched-missiles-state-media-reports", publisher: "Al Jazeera", date: "2026-10-15" },
@@ -109,9 +109,8 @@ export const ASIA_PACIFIC: WorldEvent[] = [
     severity: 3,
     keywords: ["south china sea", "philippines", "china coast guard", "scarborough shoal", "second thomas shoal", "sierra madre", "spratlys", "batanes", "luzon strait", "maritime militia", "manila", "taiwan"],
     links: [
-      { to: "apec-shenzhen-2026", kind: "affects", why: "Continued coast-guard coercion while Beijing prepares to host Trump tests whether summitry restrains Chinese behaviour at sea." },
-      { to: "gulf-war-energy-shock", kind: "amplifies", why: "Harassment along the Luzon Strait-Spratlys shipping lanes adds a second chokepoint risk for tankers already rerouting around Hormuz." },
-      { to: "north-korea-missile-tests-2026", kind: "shares_driver", why: "Both are US-allied frontline states facing escalation as Trump seeks deals with Xi and Kim in November." },
+      { to: "apec-shenzhen-2026", kind: "affects", why: "Continued coast-guard coercion while Beijing prepares to host Trump tests whether summitry restrains Chinese behaviour at sea.", via: "coast-guard pressure before the summit", driver: "trump-summitry" },
+      { to: "north-korea-missile-tests-2026", kind: "shares_driver", why: "Both are US-allied frontline states facing escalation as Trump seeks deals with Xi and Kim in November.", via: "frontline pressure on US allies", driver: "trump-summitry" },
     ],
     sources: [
       { title: "Philippine and Chinese Incidents Spike in South China Sea, Luzon Strait", url: "https://news.usni.org/2026/10/09/philippine-and-chinese-incidents-spike-in-south-china-sea-luzon-strait", publisher: "USNI News", date: "2026-10-09" },
