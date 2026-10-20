@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-20T17:35:34.096Z",
+  "fetchedAt": "2026-10-20T18:11:14.596Z",
   "items": [
     {
       "id": "ae67a79084b5",
       "title": "Which EU regulations affect your supply chain? EUDR, CSRD, PPWR, CBAM and more",
       "url": "https://www.coolset.com/academy/eu-supply-chain-regulations-eudr-csrd-csddd-cbam-ppwr",
       "publisher": "Coolset",
-      "published": "2026-10-20T17:35:34.094Z",
+      "published": "2026-10-20T18:11:14.595Z",
       "eventIds": [
         "eu-supply-chain-rules-2027"
       ]
@@ -16,10 +16,103 @@
       "title": "Opinion polling for the 2027 French presidential election",
       "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2027_French_presidential_election",
       "publisher": "Wikipedia",
-      "published": "2026-10-20T17:35:34.094Z",
+      "published": "2026-10-20T18:11:14.595Z",
       "eventIds": [
         "france-election-2027"
       ]
+    },
+    {
+      "id": "bc6142775d65",
+      "title": "Trump sued over 50% tariffs on Canada in latest trade challenge",
+      "url": "https://www.cnbc.com/2026/10/20/trump-tariffs-canada-section-338-lawsuit.html",
+      "publisher": "CNBC World",
+      "published": "2026-10-20T18:06:13.000Z",
+      "summary": "A new lawsuit challenges President Donald Trump's tariffs on a range of Canadian goods using Section 338 of the Tariff Act of 1930.",
+      "eventIds": [
+        "us-canada-trade-war",
+        "apec-shenzhen-2026"
+      ]
+    },
+    {
+      "id": "21f314981c98",
+      "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
+      "url": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html",
+      "publisher": "CNBC World",
+      "published": "2026-10-20T18:03:57.000Z",
+      "summary": "Housing data deteriorated further in September, according to separate reports Tuesday.",
+      "eventIds": []
+    },
+    {
+      "id": "fe3c4bd5e6db",
+      "title": "Google resolves cloud outage affecting UK banks and websites",
+      "url": "https://www.bbc.co.uk/news/articles/cxdd8mm6qy4mo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC Business",
+      "published": "2026-10-20T18:03:19.000Z",
+      "summary": "Revolut was one of the hardest hit, with banking services going down for many customers.",
+      "eventIds": []
+    },
+    {
+      "id": "2e829d8824e8",
+      "title": "House Democrat accuses Rubio and Trump of ‘lying’ about Ukraine intelligence as president continues campaigning – US politics live",
+      "url": "https://www.theguardian.com/us-news/live/2026/oct/20/donald-trump-midterms-republicans-democrats-north-carolina-latest-updates",
+      "publisher": "The Guardian World",
+      "published": "2026-10-20T18:02:16.000Z",
+      "summary": "<p>Eugene Vindman, armed services committee member, says president and secretary of state are ‘gaslighting’ over intelligence sharing as Trump heads to North Carolina</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get",
+      "eventIds": [
+        "us-midterms-2026",
+        "ukraine-summit-diplomacy"
+      ]
+    },
+    {
+      "id": "4095e687817a",
+      "title": "Nato increases Black Sea deployment amid escalating deadly Russian attacks",
+      "url": "https://www.theguardian.com/world/2026/oct/20/nato-black-sea-deployment-escalating-russian-attacks-ships",
+      "publisher": "The Guardian World",
+      "published": "2026-10-20T17:43:40.000Z",
+      "summary": "<p>Mounting anxiety as Russia’s war on Ukraine reaches Nato’s borders with targeting of vessels transporting agricultural cargo</p><p>Nato is deploying additional military assets to the Black Sea amid the recent deadly escalation of Russian attacks on merchant shipping, as five m",
+      "eventIds": []
+    },
+    {
+      "id": "0c8bc98fb895",
+      "title": "Ukraine thankful that intelligence on missile strikes ‘works now’, says Zelenskyy – as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/oct/20/france-protests-paris-curfews-italy-europe-ukraine-latest-news-updates",
+      "publisher": "The Guardian World",
+      "published": "2026-10-20T17:41:17.000Z",
+      "summary": "<p>The Ukrainian leader<strong> </strong>says talks with US envoys covered security guarantees and he hopes to hear Russia’s response tomorrow</p><p><em>Nordic correspondent</em></p><p>As well as <strong>Steve Witkoff,</strong> Ukrainian president <strong>Volodymyr Zelenskyy</str",
+      "eventIds": [
+        "france-unrest-2026",
+        "ukraine-summit-diplomacy"
+      ]
+    },
+    {
+      "id": "71493df8c537",
+      "title": "Baby who died from meningitis may have been saved if tested sooner, inquest finds",
+      "url": "https://www.theguardian.com/society/2026/oct/20/baby-who-died-from-meningitis-may-have-been-saved-if-tested-sooner-inquest-finds",
+      "publisher": "The Guardian World",
+      "published": "2026-10-20T17:37:46.000Z",
+      "summary": "<p>Five-month-old Esta High died at Leeds General Infirmary in November 2023 after doctors put her symptoms down to Covid-19</p><p>A baby girl who died from meningitis may have been saved if doctors had tested her for the infection sooner, rather than putting her symptoms down to",
+      "eventIds": []
+    },
+    {
+      "id": "d16827953546",
+      "title": "France's Macron begins state visit to Qatar as part of wider Gulf tour",
+      "url": "https://www.euronews.com/2026/10/20/frances-macron-begins-state-visit-to-qatar-as-part-of-wider-gulf-tour",
+      "publisher": "Euronews",
+      "published": "2026-10-20T17:35:53.000Z",
+      "summary": "Facing protests at home over the cost of living, Macron is seeking energy deals with Gulf partners to help ease fuel prices in France. His talks in Qatar focus on energy security and regional stability, but also on strenghtening France and EU's strategic ties with the region.",
+      "eventIds": [
+        "france-unrest-2026",
+        "gulf-war-energy-shock"
+      ]
+    },
+    {
+      "id": "13bef4e11e30",
+      "title": "UK government to make Jackdaw gas field announcement",
+      "url": "https://www.bbc.co.uk/news/articles/cvze4wx3elj1o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC Business",
+      "published": "2026-10-20T17:33:42.000Z",
+      "summary": "The long-awaited decision about the controversial North Sea field is expected on Wednesday morning.",
+      "eventIds": []
     },
     {
       "id": "25be8de3f2c6",
@@ -35,6 +128,15 @@
       ]
     },
     {
+      "id": "5e30f47f89d9",
+      "title": "Kenya confirms ninth Ebola case amid concerns about regional spread",
+      "url": "https://www.aljazeera.com/news/2026/10/20/kenya-confirms-ninth-ebola-case?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "published": "2026-10-20T17:31:26.000Z",
+      "summary": "A 24-year-old man, who was already being held in quarantine, is the latest to test positive.",
+      "eventIds": []
+    },
+    {
       "id": "42ca292904fe",
       "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
       "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
@@ -47,7 +149,7 @@
     },
     {
       "id": "8ba595491818",
-      "title": "Former Cornell student alleging sexual assault says she felt ‘unsupported’ by university’s president",
+      "title": "Ex-student alleging sexual assault felt ‘unsupported’ by Cornell president",
       "url": "https://www.theguardian.com/us-news/2026/oct/20/cornell-student-alleging-sexual-assault-letter",
       "publisher": "The Guardian World",
       "published": "2026-10-20T17:29:44.000Z",
@@ -66,18 +168,6 @@
       "eventIds": []
     },
     {
-      "id": "0c8bc98fb895",
-      "title": "Ukraine thankful that intelligence on missile strikes ‘works now’, says Zelenskyy – Europe live",
-      "url": "https://www.theguardian.com/world/live/2026/oct/20/france-protests-paris-curfews-italy-europe-ukraine-latest-news-updates",
-      "publisher": "The Guardian World",
-      "published": "2026-10-20T17:28:57.000Z",
-      "summary": "<p>The Ukrainian leader<strong> </strong>says talks with US envoys covered security guarantees and he hopes to hear Russia’s response tomorrow</p><p><em>Nordic correspondent</em></p><p>As well as <strong>Steve Witkoff,</strong> Ukrainian president <strong>Volodymyr Zelenskyy</str",
-      "eventIds": [
-        "france-unrest-2026",
-        "ukraine-summit-diplomacy"
-      ]
-    },
-    {
       "id": "319cac76d45a",
       "title": "As Macron visits Gulf, can France forge its own energy-for-security future?",
       "url": "https://www.aljazeera.com/news/2026/10/20/as-macron-visits-gulf-can-france-forge-its-own-energy-for-security-future?traffic_source=rss",
@@ -86,18 +176,6 @@
       "summary": "President Macron's Gulf visit aims to address rising energy prices and strengthen ties amid regional security concerns.",
       "eventIds": [
         "france-unrest-2026"
-      ]
-    },
-    {
-      "id": "2e829d8824e8",
-      "title": "House Democrat accuses Rubio and Trump of ‘lying’ about Ukraine intelligence as president continues campaigning – US politics live",
-      "url": "https://www.theguardian.com/us-news/live/2026/oct/20/donald-trump-midterms-republicans-democrats-north-carolina-latest-updates",
-      "publisher": "The Guardian World",
-      "published": "2026-10-20T17:19:22.000Z",
-      "summary": "<p>Eugene Vindman, armed services committee member, says president and secretary of state are ‘gaslighting’ over intelligence sharing as Trump heads to North Carolina</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get",
-      "eventIds": [
-        "us-midterms-2026",
-        "ukraine-summit-diplomacy"
       ]
     },
     {
@@ -183,20 +261,20 @@
     },
     {
       "id": "bfc988ffabb7",
-      "title": "Power outage at Google datacentre in London causes widespread disruption",
+      "title": "‘Too big to not fail’: Google outage exposes UK reliance on a handful of cloud providers",
       "url": "https://www.theguardian.com/uk-news/2026/oct/20/power-outage-google-datacentre-london-widespread-disruption",
       "publisher": "The Guardian World",
       "published": "2026-10-20T16:50:31.000Z",
-      "summary": "<p>Outage shows danger of growing reliance on small number of big companies for our digital infrastructure, say experts</p><p>It happened again. A power outage hit a datacentre in London, and things cascaded from there: multiple banking services faltered, court hearings were put ",
+      "summary": "<p>Our dependence on internet services of a few key tech companies leaves us vulnerable to cloud failures, bugs and more, experts say</p><p>It happened again. A <a href=\"https://www.theguardian.com/business/2026/oct/20/revolut-down-app-cards-service-disruption\">power outage hit a",
       "eventIds": []
     },
     {
       "id": "f32f4618c0bc",
-      "title": "France’s culture of violent policing means the battle for its streets is far from over",
+      "title": "Why are French police so violent? Their job is to protect the state, not the people",
       "url": "https://www.theguardian.com/world/2026/oct/20/france-culture-violent-policing-protests-riots",
       "publisher": "The Guardian World",
       "published": "2026-10-20T16:49:44.000Z",
-      "summary": "<p>French state places officers as agents of authority tasked with repressing, rather than managing, public dissent</p><p>Familiar images of teargas clouds drifting across Paris squares, police baton charges against masked protesters and terrified teenagers floored – and worse – ",
+      "summary": "<p>Officers are instruments of state whose job is to repress, rather than manage, public dissent</p><p>Familiar images of teargas clouds drifting across Paris squares, police baton charges against masked protesters and terrified teenagers floored – and worse – by stun grenades ha",
       "eventIds": [
         "france-unrest-2026"
       ]
@@ -216,28 +294,7 @@
       "url": "https://www.theguardian.com/business/2026/oct/20/natwest-staff-back-two-days-a-week-policy",
       "publisher": "The Guardian World",
       "published": "2026-10-20T16:45:24.000Z",
-      "summary": "<p>Union furious as bank scraps remote-first policy from February 2027, requiring its nearly 40,000 UK employees to come in at least twice a week</p><p></p><p></p><p>NatWest has ordered 13,000 staff to increase their in-office days from two days per month to two days per week, an",
-      "eventIds": []
-    },
-    {
-      "id": "bc6142775d65",
-      "title": "Trump sued over 50% tariffs on Canada in latest trade challenge",
-      "url": "https://www.cnbc.com/2026/10/20/trump-tariffs-canada-section-338-lawsuit.html",
-      "publisher": "CNBC World",
-      "published": "2026-10-20T16:43:42.000Z",
-      "summary": "A new lawsuit challenges President Donald Trump's tariffs on a range of Canadian goods using Section 338 of the Tariff Act of 1930.",
-      "eventIds": [
-        "us-canada-trade-war",
-        "apec-shenzhen-2026"
-      ]
-    },
-    {
-      "id": "c949915ebbb0",
-      "title": "Covid inquiry report shows why culture of care workers being undervalued must end, says Andy Burnham – as it happened",
-      "url": "https://www.theguardian.com/politics/live/2026/oct/20/kemi-badenoch-john-healey-capital-gains-tax-budget-covid-inquiry-care-homes-uk-politics-latest-news",
-      "publisher": "The Guardian World",
-      "published": "2026-10-20T16:40:46.000Z",
-      "summary": "<p>The prime minister endorses report that says the adult social care sector has been under-recognised</p><p><strong>Badenoch</strong> says Britain needs tax cuts.</p><p>We need to get out of the way of job creators who make our country richer. We need to encourage risk taking, w",
+      "summary": "<p>Union furious as bank scraps remote-first policy from February 2027, forcing all UK employees to come in at least twice a week</p><p>NatWest has ordered 13,000 staff to increase their in-office days from two days a month to two days a week, angering its staff union.</p><p>The ",
       "eventIds": []
     },
     {
@@ -345,7 +402,7 @@
       "id": "b27251a7b571",
       "title": "Zelensky and US envoys holding Oslo talks as Rubio denies withholding intelligence",
       "url": "https://www.bbc.co.uk/news/articles/ck9qzn193lrlo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
+      "publisher": "BBC Europe",
       "published": "2026-10-20T16:11:56.000Z",
       "summary": "The US secretary of state earlier rejected accusations Ukrainians were dying because the US was withholding critical intelligence.",
       "eventIds": [
@@ -692,15 +749,6 @@
       ]
     },
     {
-      "id": "19d6df588d40",
-      "title": "European air fares could rise by as much as 20% in 2027, Ryanair boss predicts",
-      "url": "https://www.theguardian.com/business/2026/oct/20/european-air-fares-rise-2027-ryanair-fuel-costs",
-      "publisher": "The Guardian World",
-      "published": "2026-10-20T14:28:56.000Z",
-      "summary": "<p>Conflict in Middle East is pushing jet fuel costs higher and many carriers are not hedged against such increases, Michael O’Leary says</p><p>Ryanair’s chief executive has predicted a record increase in European air fares next year, as airlines grapple with fuel bills pushed hi",
-      "eventIds": []
-    },
-    {
       "id": "0428992f9bdb",
       "title": "Satirical AI video of Paris protests mirrors real-life tourist experiences",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/satirical-ai-video-of-paris-protests-mirrors-real-life-tourist-experiences?traffic_source=rss",
@@ -712,9 +760,9 @@
       ]
     },
     {
-      "id": "ad388f9ee63e",
-      "title": "‘Tinubu Must Go’: Nigeria's northern protests test the limits of political dissent",
-      "url": "https://www.dw.com/en/tinubu-must-go-nigeria-s-northern-protests-test-the-limits-of-political-dissent/a-79713785?maca=en-rss-en-world-4025-rdf",
+      "id": "4a8535d6f37c",
+      "title": "'Tinubu Must Go!': Nigeria's northern protests test limits of political dissent",
+      "url": "https://www.dw.com/en/tinubu-must-go-nigeria-s-northern-protests-test-limits-of-political-dissent/a-79713785?maca=en-rss-en-world-4025-rdf",
       "publisher": "Deutsche Welle",
       "published": "2026-10-20T14:20:00.000Z",
       "summary": "The arrest of several men wearing anti-government T-shirts and the disruption of a political meeting have renewed debate over free expression and protest rights in Nigeria.",
@@ -760,14 +808,13 @@
     },
     {
       "id": "e6ca380e0175",
-      "title": "Zelensky, US envoys hold talks in Oslo as Ukraine claims missile holdup",
+      "title": "Ukraine ‘losing people and time’, Zelensky says after Oslo talks",
       "url": "https://www.france24.com/en/europe/20261020-zelensky-oslo-for-talks-with-us-envoys-ukraine-claims-missile-holdup",
       "publisher": "France 24",
       "published": "2026-10-20T14:11:29.000Z",
-      "summary": "Ukrainian President Volodymyr Zelensky arrived in Norway Tuesday to meet with US envoys in order to put diplomacy back on a \"more constructive path”, Oslo officials said. Relations between Kyiv and Washington have deteriorated since US President Donald Trump reached an agreement ",
+      "summary": "Ukrainian President Volodymyr Zelensky has wrapped up talks with US envoys in Norway Tuesday where he was determined to put diplomacy back on a \"more constructive path”, Oslo officials said. Zelensky told a post-meeting press briefing that Ukraine was not losing the war but was “",
       "eventIds": [
-        "ukraine-summit-diplomacy",
-        "russia-record-budget-deficit-2026"
+        "ukraine-summit-diplomacy"
       ]
     },
     {
@@ -996,17 +1043,6 @@
       "published": "2026-10-20T13:00:21.000Z",
       "summary": "UNICEF says escalating fighting in Taiz is threatening its water systems, serving an estimated three million people.",
       "eventIds": []
-    },
-    {
-      "id": "211a1ba435e3",
-      "title": "Israeli attacks kill at least four Palestinians in Gaza",
-      "url": "https://www.aljazeera.com/news/2026/10/20/israeli-forces-kill-at-least-four-palestinians-in-gaza-strikes?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "published": "2026-10-20T12:59:58.000Z",
-      "summary": "A couple and a 17-year-old are among those killed by Israeli air attacks and gunfire in the Gaza Strip.",
-      "eventIds": [
-        "israel-election-2026"
-      ]
     },
     {
       "id": "07e0e0a0cf9d",
@@ -1499,15 +1535,6 @@
       "publisher": "CNBC World",
       "published": "2026-10-20T05:57:34.000Z",
       "summary": "Copper is up 15.8% in 2026 as investors point to AI, grid and national security demand, tight supply and tariff-driven U.S. stockpiles.",
-      "eventIds": []
-    },
-    {
-      "id": "139b539fbece",
-      "title": "The world’s finance chiefs see new risks — and less China angst",
-      "url": "https://www.cnbc.com/2026/10/20/imf-debt-yields-russia-china-takeaway-.html",
-      "publisher": "CNBC World",
-      "published": "2026-10-20T05:27:53.000Z",
-      "summary": "Debt, AI and Ukraine dominated the conversation at the IMF-World Bank meetings in Bangkok, while China, the focus in 2018, slipped into the background.",
       "eventIds": []
     },
     {
@@ -2193,6 +2220,15 @@
       ]
     },
     {
+      "id": "000650e46a67",
+      "title": "From delivery driver to global fame: A Korean writer's journey",
+      "url": "https://www.dw.com/en/from-delivery-driver-to-global-fame-a-korean-writer-s-journey/a-79672757?maca=en-rss-en-world-4025-rdf",
+      "publisher": "Deutsche Welle",
+      "published": "2026-10-19T10:55:00.000Z",
+      "summary": "You Yeong-Gwang's The Rainfall Market tells the story of a mysterious, hidden shop that only opens when it rains. For a debut novel by an unknown author, it was a massive success.",
+      "eventIds": []
+    },
+    {
       "id": "6a8e3664e15c",
       "title": "Lula supporters spell out his name in Rio waters before Brazil runoff",
       "url": "https://www.euronews.com/video/2026/10/19/lula-supporters-spell-out-his-name-in-rio-waters-before-brazil-runoff",
@@ -2728,15 +2764,6 @@
       ]
     },
     {
-      "id": "0d9257dd07d4",
-      "title": "Russia: Huge flames and smoke rise over St Petersburg after drone strikes",
-      "url": "https://www.euronews.com/video/2026/10/18/russia-huge-flames-and-smoke-rise-over-st-petersburg-after-drone-strikes",
-      "publisher": "Euronews",
-      "published": "2026-10-18T14:45:31.000Z",
-      "summary": "Huge plumes of black smoke billowed over St Petersburg, Russia’s second-largest city, on Sunday, 18 October, as a large-scale Ukrainian drone attack sparked fires at industrial and logistics facilities. Russian officials said 126 drones had been intercepted in the surrounding reg",
-      "eventIds": []
-    },
-    {
       "id": "486aff691910",
       "title": "Inside the New York ‘time machine’ racing to save a century of sound and film",
       "url": "https://news.un.org/feed/view/en/story/2026/10/1168608",
@@ -3009,15 +3036,6 @@
       "publisher": "UN News",
       "published": "2026-10-16T12:00:00.000Z",
       "summary": "Less than a month before the UN climate conference COP31 opens in Antalya, Türkiye, representatives of three successive summit presidencies gathered to address a pressing question: How can the world restore trust in climate action when the consequences of a warming planet are alr",
-      "eventIds": []
-    },
-    {
-      "id": "3048fe93579b",
-      "title": "Banks expect to be hit with higher taxes in Budget",
-      "url": "https://www.bbc.co.uk/news/articles/c32l4k2xdvrzo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC Business",
-      "published": "2026-10-16T10:16:27.000Z",
-      "summary": "Senior banking executives have told the BBC they expect to be \"on the menu\" in the chancellor's Budget tax later this month.",
       "eventIds": []
     },
     {
