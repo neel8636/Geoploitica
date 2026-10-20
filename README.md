@@ -41,9 +41,9 @@ Tests: `npm test` runs the engine's pytest suite. `npm run build` type-checks an
 | Edition | Link | How it gets there |
 | --- | --- | --- |
 | Personal (Atlas) | https://neel8636.github.io/Geopolitica/ | GitHub Pages. `.github/workflows/atlas-pages.yml` builds the static site on every push to `apps/atlas` and once a day (pulling fresh headlines first). |
-| Enterprise (web + engine) | https://geopolitica.onrender.com (or whatever name Render assigns) | Render, from `render.yaml`: one container built from the root `Dockerfile` running the web app and the engine together. |
+| Enterprise (web + engine) | https://geopolitica-1rja.onrender.com | Render web service `geopolitica`, built from the root `Dockerfile` (web app and engine in one container). Deploys on every push to `main` through the deploy-hook workflow. |
 
-Enterprise setup, once: in Render choose **New + → Blueprint**, pick this repo, accept the defaults. Later pushes to `main` redeploy. The free plan sleeps after 15 minutes idle, so the first open after a pause takes about a minute.
+Enterprise deploys: the service is a Render web service on the public repo URL, so Render receives no GitHub webhooks; `.github/workflows/render-deploy.yml` calls the service's deploy hook on every push to `main` instead (store the hook URL as the `RENDER_DEPLOY_HOOK` repository secret). `render.yaml` remains as a blueprint for recreating the service elsewhere. The free plan sleeps after 15 minutes idle, so the first open after a pause takes about a minute.
 
 Any other host works too: the root `Dockerfile` is a single container (web on `$PORT`, engine on 8000 inside it), or run the two apps separately with `apps/web/Dockerfile` and `apps/engine/Dockerfile` and point the web at the engine with `ENGINE_URL`. The engine is only ever called server-side through `/api/engine/*`.
 

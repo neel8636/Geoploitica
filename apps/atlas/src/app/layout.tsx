@@ -39,7 +39,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <footer className="border-t border-line">
           <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-5 text-sm text-ink-2 sm:px-6">
             <p>Personal edition. Every event links to its sources; connections carry the sentence that justifies them.</p>
-            <a href="https://geopolitica.onrender.com" className="hover:underline">Enterprise edition</a>
+            <a href="https://geopolitica-1rja.onrender.com" className="hover:underline">Enterprise edition</a>
           </div>
         </footer>
       </body>
