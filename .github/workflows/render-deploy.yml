@@ -1,0 +1,28 @@
+# Deploys the enterprise edition on Render after every push to main by calling the service's
+# deploy hook. Render's own GitHub auto-deploy should do this already; this is the fallback
+# that does not depend on Render receiving GitHub's webhook.
+#
+# Setup: Render → the service → Settings → Deploy Hook → copy the URL, then GitHub →
+# Settings → Secrets and variables → Actions → New repository secret: RENDER_DEPLOY_HOOK.
+name: "Enterprise: deploy on Render"
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      HAS_HOOK: ${{ secrets.RENDER_DEPLOY_HOOK != '' }}
+    steps:
+      - name: Trigger the Render deploy hook
+        if: env.HAS_HOOK == 'true'
+        run: |
+          code=$(curl -sS -o /dev/null -w "%{http_code}" -X POST "${{ secrets.RENDER_DEPLOY_HOOK }}")
+          echo "Render answered $code"
+          test "$code" -ge 200 -a "$code" -lt 300
+      - name: No hook configured
+        if: env.HAS_HOOK != 'true'
+        run: echo "RENDER_DEPLOY_HOOK secret is not set; relying on Render's own auto-deploy."
