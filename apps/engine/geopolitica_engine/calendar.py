@@ -14,7 +14,7 @@ _CHANGES_ADAPTER = TypeAdapter(list[Change])
 
 
 def _load_changes() -> list[Change]:
-    raw = resources.files("geoploitica_engine").joinpath("data/changes.json").read_text(encoding="utf-8")
+    raw = resources.files("geopolitica_engine").joinpath("data/changes.json").read_text(encoding="utf-8")
     changes = _CHANGES_ADAPTER.validate_python(json.loads(raw))
     ids = [c.id for c in changes]
     if len(ids) != len(set(ids)):

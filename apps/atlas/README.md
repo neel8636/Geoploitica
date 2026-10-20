@@ -48,7 +48,7 @@ The published site runs a pipeline (`.github/workflows/atlas-pages.yml`) on ever
    reports of developing events older than seven days. Two ways to give it access:
    - **Keyless (preferred):** workload identity federation. In the Claude Console, Organization
      settings → Workload identity → Connect workload → GitHub Actions, with subject
-     `repo:neel8636/Geoploitica:ref:refs/heads/main` and audience `https://api.anthropic.com`.
+     `repo:neel8636/Geopolitica:ref:refs/heads/main` and audience `https://api.anthropic.com`.
      Put the IDs it gives you in the repository's Actions **variables**:
      `ANTHROPIC_ORGANIZATION_ID`, `ANTHROPIC_FEDERATION_RULE_ID`, `ANTHROPIC_SERVICE_ACCOUNT_ID`
      (and `ANTHROPIC_WORKSPACE_ID` if the rule spans workspaces). Each run mints a short-lived

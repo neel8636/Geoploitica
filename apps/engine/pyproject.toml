@@ -3,9 +3,9 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "geoploitica-engine"
+name = "geopolitica-engine"
 version = "0.1.0"
-description = "Geoploitica impact engine: matches a company footprint against dated geopolitical changes and writes department briefs."
+description = "Geopolitica impact engine: matches a company footprint against dated geopolitical changes and writes department briefs."
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "Proprietary" }
@@ -23,14 +23,14 @@ dev = [
 ]
 
 [project.scripts]
-geoploitica-engine = "geoploitica_engine.__main__:main"
+geopolitica-engine = "geopolitica_engine.__main__:main"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["geoploitica_engine*"]
+include = ["geopolitica_engine*"]
 
 [tool.setuptools.package-data]
-geoploitica_engine = [
+geopolitica_engine = [
     "data/*.json",
     "data/templates/*.csv",
     "data/examples/*.json",

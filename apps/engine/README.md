@@ -1,6 +1,6 @@
-# geoploitica-engine
+# geopolitica-engine
 
-The impact engine behind Geoploitica: a FastAPI service that matches a company's
+The impact engine behind Geopolitica: a FastAPI service that matches a company's
 footprint (suppliers, parts, lanes, sites, sales markets) against a sourced
 calendar of dated geopolitical changes, scores each exposure deterministically
 and writes rule-based department briefs. No LLM in the request path.
@@ -13,7 +13,7 @@ The contract is `../../docs/api-contract.md`. This package implements it exactly
 cd apps/engine
 python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"
-python -m geoploitica_engine          # serves on $PORT, default 8000
+python -m geopolitica_engine          # serves on $PORT, default 8000
 python -m pytest -q                   # tests
 ```
 
@@ -29,8 +29,8 @@ Environment:
 Docker:
 
 ```bash
-docker build -t geoploitica-engine .
-docker run -p 8000:8000 -e PORT=8000 geoploitica-engine
+docker build -t geopolitica-engine .
+docker run -p 8000:8000 -e PORT=8000 geopolitica-engine
 ```
 
 ## Endpoints
@@ -53,12 +53,12 @@ Example:
 ```bash
 curl -s -X POST localhost:8000/analyze \
   -H 'content-type: application/json' \
-  -d "{\"footprint\": $(cat geoploitica_engine/data/examples/nordwerk.json), \"as_of\": \"2026-10-19\"}" | jq '.leadership_top5[0]'
+  -d "{\"footprint\": $(cat geopolitica_engine/data/examples/nordwerk.json), \"as_of\": \"2026-10-19\"}" | jq '.leadership_top5[0]'
 ```
 
 ## CSV formats
 
-Templates with example rows live in `geoploitica_engine/data/templates/`.
+Templates with example rows live in `geopolitica_engine/data/templates/`.
 Headers are case-insensitive, blank optional cells are fine, and `,` `;` or
 tab delimiters are detected. Multi-value cells use `|` as the separator.
 Booleans accept `true/false`, `yes/no`, `1/0`.
@@ -133,7 +133,7 @@ chokepoint lanes, not through every supplier located in the EU.
 ## Layout
 
 ```
-geoploitica_engine/
+geopolitica_engine/
   models.py     Pydantic models for every contract type
   calendar.py   loads data/changes.json; filters; days_until
   matcher.py    match() and scoring

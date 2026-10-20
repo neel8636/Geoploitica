@@ -1,10 +1,10 @@
 {
-  "name": "geoploitica",
+  "name": "geopolitica",
   "private": true,
   "scripts": {
-    "dev": "concurrently -n web,engine -c teal,yellow \"npm --prefix apps/web run dev\" \"cd apps/engine && .venv/bin/python -m geoploitica_engine\"",
+    "dev": "concurrently -n web,engine -c teal,yellow \"npm --prefix apps/web run dev\" \"cd apps/engine && .venv/bin/python -m geopolitica_engine\"",
     "dev:web": "npm --prefix apps/web run dev",
-    "dev:engine": "cd apps/engine && .venv/bin/python -m geoploitica_engine",
+    "dev:engine": "cd apps/engine && .venv/bin/python -m geopolitica_engine",
     "build": "npm --prefix apps/web run build && npm --prefix apps/atlas run build",
     "test": "cd apps/engine && .venv/bin/python -m pytest -q",
     "setup": "npm --prefix apps/web install && npm --prefix apps/atlas install && cd apps/engine && python3 -m venv .venv && .venv/bin/pip install -e \".[dev]\"",

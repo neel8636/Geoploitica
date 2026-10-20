@@ -2,7 +2,7 @@
 # In Render: New + → Blueprint → pick this repo. The service comes up at https://<name>.onrender.com.
 services:
   - type: web
-    name: geoploitica
+    name: geopolitica
     runtime: docker
     plan: free
     autoDeploy: true

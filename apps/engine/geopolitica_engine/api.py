@@ -33,7 +33,7 @@ def _cors_origins() -> list[str]:
     return origins or ["*"]
 
 
-app = FastAPI(title="Geoploitica impact engine", version=__version__)
+app = FastAPI(title="Geopolitica impact engine", version=__version__)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=_cors_origins(),

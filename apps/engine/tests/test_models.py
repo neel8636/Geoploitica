@@ -1,7 +1,7 @@
 import pytest
 from pydantic import ValidationError
 
-from geoploitica_engine.models import Change, Footprint, Lane, Part, Site, Supplier, summarize_footprint
+from geopolitica_engine.models import Change, Footprint, Lane, Part, Site, Supplier, summarize_footprint
 
 
 def _supplier(**over):

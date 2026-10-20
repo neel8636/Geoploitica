@@ -2,9 +2,9 @@ from collections import defaultdict
 
 import pytest
 
-from geoploitica_engine import calendar
-from geoploitica_engine.briefs import OWNER_ROLE, build_briefs, fmt_money, your_exposure
-from geoploitica_engine.matcher import match
+from geopolitica_engine import calendar
+from geopolitica_engine.briefs import OWNER_ROLE, build_briefs, fmt_money, your_exposure
+from geopolitica_engine.matcher import match
 
 AS_OF = "2026-10-19"
 

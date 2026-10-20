@@ -1,7 +1,7 @@
 import datetime as dt
 
-from geoploitica_engine import calendar
-from geoploitica_engine.calendar import days_until, get_change, get_changes
+from geopolitica_engine import calendar
+from geopolitica_engine.calendar import days_until, get_change, get_changes
 
 
 def test_loaded_and_unique():

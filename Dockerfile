@@ -30,7 +30,7 @@ RUN apt-get update \
 # engine
 WORKDIR /app/engine
 COPY apps/engine/pyproject.toml apps/engine/README.md ./
-COPY apps/engine/geoploitica_engine ./geoploitica_engine
+COPY apps/engine/geopolitica_engine ./geopolitica_engine
 RUN python3 -m venv .venv && .venv/bin/pip install --no-cache-dir --upgrade pip && .venv/bin/pip install --no-cache-dir .
 
 # web

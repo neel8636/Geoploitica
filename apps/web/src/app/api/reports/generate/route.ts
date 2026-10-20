@@ -18,7 +18,7 @@ import { DEFAULT_MODEL, extractJson, finishDraft, materialFor, systemPrompt, use
     GITHUB_TOKEN        a token with contents:write on the repo below; when set, the report
                         is committed to apps/atlas/src/content/dossiers so it becomes
                         permanent in both editions on the next deploy
-    GITHUB_REPO         owner/repo, default neel8636/Geoploitica
+    GITHUB_REPO         owner/repo, default neel8636/Geopolitica
     REPORT_CORS_ORIGIN  origin allowed to call this from the browser (the Atlas), default
                         https://neel8636.github.io
     REPORT_MODEL        model id, default claude-sonnet-5-5
@@ -60,7 +60,7 @@ function atlasContentDir() {
 async function commitToRepo(id: string, json: string): Promise<boolean> {
   const token = process.env.GITHUB_TOKEN;
   if (!token) return false;
-  const repo = process.env.GITHUB_REPO ?? "neel8636/Geoploitica";
+  const repo = process.env.GITHUB_REPO ?? "neel8636/Geopolitica";
   const filePath = `apps/atlas/src/content/dossiers/${id}.json`;
   const api = `https://api.github.com/repos/${repo}/contents/${filePath}`;
   const headers = { authorization: `Bearer ${token}`, accept: "application/vnd.github+json", "content-type": "application/json", "user-agent": "geopolitica" };

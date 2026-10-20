@@ -7,7 +7,7 @@ import Tour, { type TourStep } from "./Tour";
 import { markStep } from "@/lib/journey";
 
 type Status = "idle" | "running" | "done" | "error";
-const TOUR_SEEN_KEY = "geoploitica.tour.enterprise.v1";
+const TOUR_SEEN_KEY = "geopolitica.tour.enterprise.v1";
 
 /*
   Level-1 and level-2 onboarding: a supplier list is enough to start; parts, lanes and sites deepen it.

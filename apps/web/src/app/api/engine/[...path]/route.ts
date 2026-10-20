@@ -32,7 +32,7 @@ async function forward(req: NextRequest, path: string[]) {
     });
   } catch {
     return Response.json(
-      { error: "The impact engine is not reachable. Start it with `python -m geoploitica_engine` or set ENGINE_URL." },
+      { error: "The impact engine is not reachable. Start it with `python -m geopolitica_engine` or set ENGINE_URL." },
       { status: 503 },
     );
   }

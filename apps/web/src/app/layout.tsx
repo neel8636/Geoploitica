@@ -63,7 +63,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               <Link href="/method" className="hover:underline">
                 How we work
               </Link>
-              <a href="https://neel8636.github.io/Geoploitica/" className="hover:underline">
+              <a href="https://neel8636.github.io/Geopolitica/" className="hover:underline">
                 Atlas, the personal edition
               </a>
             </span>

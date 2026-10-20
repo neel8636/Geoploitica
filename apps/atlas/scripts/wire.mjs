@@ -103,7 +103,7 @@ let ok = 0;
 
 for (const feed of FEEDS) {
   try {
-    const res = await fetch(feed.url, { headers: { "user-agent": "geoploitica-atlas/0.1 (personal wire)" }, signal: AbortSignal.timeout(15_000) });
+    const res = await fetch(feed.url, { headers: { "user-agent": "geopolitica-atlas/0.1 (personal wire)" }, signal: AbortSignal.timeout(15_000) });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const parsed = parseFeed(await res.text());
     let kept = 0;

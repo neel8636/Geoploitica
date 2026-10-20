@@ -36,7 +36,7 @@ jobs:
       #  - workload identity federation: repository *variables* ANTHROPIC_ORGANIZATION_ID,
       #    ANTHROPIC_FEDERATION_RULE_ID, ANTHROPIC_SERVICE_ACCOUNT_ID (+ ANTHROPIC_WORKSPACE_ID),
       #    set up in the Claude Console (Organization settings → Workload identity → Connect workload →
-      #    GitHub Actions, subject repo:neel8636/Geoploitica:ref:refs/heads/main). No key is stored.
+      #    GitHub Actions, subject repo:neel8636/Geopolitica:ref:refs/heads/main). No key is stored.
       HAS_AUTH: ${{ secrets.ANTHROPIC_API_KEY != '' || vars.ANTHROPIC_FEDERATION_RULE_ID != '' }}
     defaults:
       run:
@@ -72,7 +72,7 @@ jobs:
 
       - name: Commit new content to main
         run: |
-          git config user.name "geoploitica-bot"
+          git config user.name "geopolitica-bot"
           git config user.email "actions@users.noreply.github.com"
           git add src/content/wire.json src/content/dossiers
           if git diff --cached --quiet; then
@@ -88,7 +88,7 @@ jobs:
           STATIC_EXPORT: "1"
           BASE_PATH: /${{ github.event.repository.name }}
           # the enterprise server that generates reports on demand from an event page
-          NEXT_PUBLIC_REPORT_API: ${{ vars.REPORT_API || 'https://geoploitica.onrender.com' }}
+          NEXT_PUBLIC_REPORT_API: ${{ vars.REPORT_API || 'https://geopolitica.onrender.com' }}
         run: npm run build
 
       # Pushing the build to a gh-pages branch is what Pages serves (Settings → Pages → gh-pages, root).

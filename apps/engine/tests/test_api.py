@@ -1,8 +1,8 @@
 import pytest
 from fastapi.testclient import TestClient
 
-from geoploitica_engine import calendar
-from geoploitica_engine.api import app
+from geopolitica_engine import calendar
+from geopolitica_engine.api import app
 
 
 @pytest.fixture(scope="module")

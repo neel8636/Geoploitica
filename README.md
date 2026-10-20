@@ -40,8 +40,8 @@ Tests: `npm test` runs the engine's pytest suite. `npm run build` type-checks an
 
 | Edition | Link | How it gets there |
 | --- | --- | --- |
-| Personal (Atlas) | https://neel8636.github.io/Geoploitica/ | GitHub Pages. `.github/workflows/atlas-pages.yml` builds the static site on every push to `apps/atlas` and once a day (pulling fresh headlines first). |
-| Enterprise (web + engine) | https://geoploitica.onrender.com (or whatever name Render assigns) | Render, from `render.yaml`: one container built from the root `Dockerfile` running the web app and the engine together. |
+| Personal (Atlas) | https://neel8636.github.io/Geopolitica/ | GitHub Pages. `.github/workflows/atlas-pages.yml` builds the static site on every push to `apps/atlas` and once a day (pulling fresh headlines first). |
+| Enterprise (web + engine) | https://geopolitica.onrender.com (or whatever name Render assigns) | Render, from `render.yaml`: one container built from the root `Dockerfile` running the web app and the engine together. |
 
 Enterprise setup, once: in Render choose **New + → Blueprint**, pick this repo, accept the defaults. Later pushes to `main` redeploy. The free plan sleeps after 15 minutes idle, so the first open after a pause takes about a minute.
 
@@ -65,11 +65,11 @@ Server environment (Render → the service → Environment):
 
 1. Copy `apps/web/src/content/dossiers/france-unrest-2026.json`, change the slug and fill every layer. The TypeScript types in `src/content/types.ts` are the template.
 2. Register it in `src/content/dossiers.ts`.
-3. Add the event to `apps/engine/geoploitica_engine/data/changes.json` with `dossier_slug` set, so company reports link to it.
+3. Add the event to `apps/engine/geopolitica_engine/data/changes.json` with `dossier_slug` set, so company reports link to it.
 
 ## Add a change to the calendar
 
-Edit `apps/engine/geoploitica_engine/data/changes.json`. Every change needs a type, dates or a window, countries, HS prefixes or chokepoints where relevant, severity 1-5, confidence, the departments that act, 1-4 actions, and at least one source with the date it was accessed. The engine validates the file on start.
+Edit `apps/engine/geopolitica_engine/data/changes.json`. Every change needs a type, dates or a window, countries, HS prefixes or chokepoints where relevant, severity 1-5, confidence, the departments that act, 1-4 actions, and at least one source with the date it was accessed. The engine validates the file on start.
 
 ## Principles
 

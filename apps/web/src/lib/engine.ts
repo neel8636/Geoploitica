@@ -1,4 +1,4 @@
-// TypeScript mirror of docs/api-contract.md. Keep in sync with apps/engine/geoploitica_engine/models.py.
+// TypeScript mirror of docs/api-contract.md. Keep in sync with apps/engine/geopolitica_engine/models.py.
 
 export type Department =
   | "procurement" | "logistics" | "production" | "finance" | "compliance"

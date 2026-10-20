@@ -1,8 +1,8 @@
 import pytest
 
-from geoploitica_engine import calendar
-from geoploitica_engine.matcher import MIN_SCORE, match, proximity_weight, score
-from geoploitica_engine.models import Footprint, Lane, Part, Site, Supplier
+from geopolitica_engine import calendar
+from geopolitica_engine.matcher import MIN_SCORE, match, proximity_weight, score
+from geopolitica_engine.models import Footprint, Lane, Part, Site, Supplier
 
 AS_OF = "2026-10-19"
 
