@@ -67,6 +67,28 @@ By hand: `ANTHROPIC_API_KEY=… npm run draft -- <event-id>` (or `--all`, `--dry
 published report; nothing needs registering. Add events by appending to the region files
 under `src/content/events/`.
 
+## Reader accounts (sign-up wall)
+
+Readers create a free account before they see the atlas: email and password, or Google.
+Accounts live in Firebase Authentication, and each reader gets a small profile in Firestore at
+`users/{uid}` (name, email, country, what brings them here, first and last visit). The rules in
+[`firebase/firestore.rules`](firebase/firestore.rules) let each reader touch only their own profile.
+
+The wall switches on when the build has a Firebase web config, which the Pages workflow reads from
+repository **variables** (not secrets; the web config is public by design):
+`FIREBASE_API_KEY`, `FIREBASE_AUTH_DOMAIN`, `FIREBASE_PROJECT_ID`, `FIREBASE_APP_ID`, and optionally
+`FIREBASE_STORAGE_BUCKET` and `FIREBASE_MESSAGING_SENDER_ID`. Without them the site builds open,
+which is also how local development runs.
+
+In the Firebase console: enable the Email/Password and Google sign-in providers, add
+`neel8636.github.io` under Authentication → Settings → Authorized domains, create a Firestore
+database, and publish the rules file. Reader sign-ups show under Authentication → Users and
+Firestore → `users`.
+
+This is a sign-up wall, not encryption: the site is static and the repository is public, so it
+decides who gets the reading experience and gives you a list of readers, not who can ever see a
+sentence of the content.
+
 ## Stack
 
 Next.js 16 (App Router, cache components), React 19, Tailwind 4, d3-geo + world-atlas for the
