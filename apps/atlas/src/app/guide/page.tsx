@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { EVENTS, LINK_WORDS, allEdges } from "@/content/events";
 import { reportErrorUrl } from "@/lib/site";
+import { ConsentChoice } from "@/components/auth/ConsentBanner";
 
 export const metadata: Metadata = {
   title: "How to use the atlas",
@@ -61,6 +62,22 @@ export default function GuidePage() {
           <span className="text-ink">Corrections are public.</span> Every event page has a &ldquo;Report an error&rdquo; link. Fixes
           are listed in the report&apos;s change log, in its evidence section.{" "}
           <a href={reportErrorUrl("general", "/guide/")} target="_blank" rel="noreferrer" className="hover:underline">Flag something now</a>.
+        </p>
+      </div>
+
+      <h2 id="privacy" className="mt-10 scroll-mt-24 text-2xl">Privacy</h2>
+      <div className="prose-dossier mt-3 space-y-3 text-ink-2">
+        <p>
+          <span className="text-ink">An account</span> stores your name, email, country, what brings you here (if you say), when you
+          joined and last visited, and where you first arrived from (for example a link shared on LinkedIn). It is kept in Google
+          Firebase, used only to understand who the atlas serves, and never sold or shared.
+        </p>
+        <p>
+          <span className="text-ink">Analytics</span> (Google Analytics) count visits only if you accept in the banner. <ConsentChoice />
+        </p>
+        <p>
+          <span className="text-ink">Deleting your account</span> removes the account and its profile:{" "}
+          <Link href="/join#delete" className="hover:underline">sign in, then use &ldquo;Delete my account&rdquo;</Link>.
         </p>
       </div>
 

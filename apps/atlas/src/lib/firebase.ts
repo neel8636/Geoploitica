@@ -41,11 +41,32 @@ export function db(): Firestore {
 }
 
 // Google Analytics through Firebase: page views and sign-ups, so a campaign can be measured.
-// Off when no measurement ID was built in, or where the browser does not support it.
+// Loads only after the reader accepts in the consent banner (choice kept in this browser), and
+// only when a measurement ID was built in and the browser supports it.
+export const analyticsConfigured = firebaseEnabled && Boolean(config.measurementId);
+export const CONSENT_KEY = "geopolitica.analyticsConsent"; // "granted" | "denied"
+export const CONSENT_EVENT = "geopolitica:consent";
+
+export function consent(): "granted" | "denied" | null {
+  try {
+    const v = localStorage.getItem(CONSENT_KEY);
+    return v === "granted" || v === "denied" ? v : null;
+  } catch {
+    return null;
+  }
+}
+
+export function setConsentChoice(v: "granted" | "denied"): void {
+  try {
+    localStorage.setItem(CONSENT_KEY, v);
+  } catch {}
+  window.dispatchEvent(new Event(CONSENT_EVENT));
+}
+
 let analyticsP: Promise<Analytics | null> | null = null;
 
 function analytics(): Promise<Analytics | null> {
-  if (!firebaseEnabled || !config.measurementId || typeof window === "undefined") return Promise.resolve(null);
+  if (!analyticsConfigured || typeof window === "undefined" || consent() !== "granted") return Promise.resolve(null);
   if (!analyticsP) analyticsP = isSupported().then((ok) => (ok ? getAnalytics(firebaseApp()) : null)).catch(() => null);
   return analyticsP;
 }

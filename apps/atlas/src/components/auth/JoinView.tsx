@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { useAuth } from "@/components/auth/AuthProvider";
 import { ProfileStep, SignUpCard } from "@/components/auth/AccountForms";
@@ -16,6 +17,7 @@ export default function JoinView() {
         <h1 className="text-3xl">You&apos;re in.</h1>
         <p className="mt-2 text-ink-2">Every report is open to you now, in full.</p>
         <Link href="/" className="mt-6 inline-block rounded-sm bg-teal px-4 py-2 text-paper no-underline hover:opacity-90">Go to the map</Link>
+        <DeleteAccount />
       </div>
     );
   }
@@ -40,6 +42,39 @@ export default function JoinView() {
         </p>
       </section>
       {a.enabled ? <SignUpCard start={start} /> : null}
+    </div>
+  );
+}
+
+function DeleteAccount() {
+  const a = useAuth();
+  const [step, setStep] = useState<"idle" | "confirm" | "busy" | "error">("idle");
+  const [msg, setMsg] = useState("");
+  async function go() {
+    setStep("busy");
+    try {
+      await a.deleteAccount();
+    } catch (err) {
+      const code = (err as { code?: string }).code ?? "";
+      setMsg(code === "auth/requires-recent-login" ? "For safety, sign out, sign back in, and try again." : "Could not delete the account. Please try again.");
+      setStep("error");
+    }
+  }
+  return (
+    <div id="delete" className="mt-12 border-t border-line pt-6 text-sm text-ink-2">
+      {step === "idle" ? (
+        <button type="button" className="underline" onClick={() => setStep("confirm")}>Delete my account</button>
+      ) : step === "confirm" ? (
+        <p>
+          This removes your account and profile for good.{" "}
+          <button type="button" className="font-medium text-red underline" onClick={go}>Yes, delete it</button>{" "}
+          <button type="button" className="underline" onClick={() => setStep("idle")}>Cancel</button>
+        </p>
+      ) : step === "busy" ? (
+        <p>Deleting…</p>
+      ) : (
+        <p className="text-red">{msg}</p>
+      )}
     </div>
   );
 }

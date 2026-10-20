@@ -8,6 +8,7 @@ import Link from "next/link";
 import ThemeToggle, { THEME_SCRIPT } from "@/components/ThemeToggle";
 import AuthProvider from "@/components/auth/AuthProvider";
 import AccountMenu from "@/components/auth/AccountMenu";
+import ConsentBanner from "@/components/auth/ConsentBanner";
 import { SITE_NAME, SITE_ORIGIN, SITE_URL, TAGLINE } from "@/lib/site";
 import "./globals.css";
 
@@ -52,10 +53,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <p>Free for anyone learning geopolitics. Every event links to its sources; connections carry the sentence that justifies them.</p>
             <span className="flex gap-4">
               <Link href="/guide#method" className="hover:underline">How reports are made</Link>
+              <Link href="/guide#privacy" className="hover:underline">Privacy</Link>
               <a href="https://geopolitica-1rja.onrender.com" className="hover:underline">Enterprise edition</a>
             </span>
           </div>
         </footer>
+        <ConsentBanner />
         </AuthProvider>
       </body>
     </html>

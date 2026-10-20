@@ -4,6 +4,7 @@ import { NextRequest } from "next/server";
 import { getEvent } from "@/content/events";
 import { getDossier, resetDossierCache } from "@/content/dossiers";
 import { DEFAULT_MODEL, extractJson, finishDraft, materialFor, systemPrompt, userPrompt, type WireHeadline } from "@/content/drafting";
+import { perDay, remaining, spend, verifyReader } from "@/lib/readerAuth";
 
 /*
   Generate (or regenerate) the layered report for one event, on demand.
@@ -13,8 +14,14 @@ import { DEFAULT_MODEL, extractJson, finishDraft, materialFor, systemPrompt, use
     { ok: true, dossier, saved: { local: boolean, repo: boolean }, unknownSources }
     { ok: false, error }
 
-  Needs ANTHROPIC_API_KEY on the server. Optional:
-    REPORT_PASSCODE     if set, callers must send it as the x-passcode header
+  Needs ANTHROPIC_API_KEY on the server. Who may call it:
+    - the owner, with the REPORT_PASSCODE as the x-passcode header (no limit), or
+    - a signed-in Atlas reader, with their Firebase ID token as `Authorization: Bearer …`
+      (see src/lib/readerAuth.ts): READER_REPORTS_PER_DAY each, default 3, and only for
+      events with no report yet or with an auto-drafted one; reviewed and hand-written
+      reports are never overwritten by a reader.
+    With no REPORT_PASSCODE set, anyone may call it (local development).
+  Optional:
     GITHUB_TOKEN        a token with contents:write on the repo below; when set, the report
                         is committed to apps/atlas/src/content/dossiers so it becomes
                         permanent in both editions on the next deploy
@@ -32,7 +39,7 @@ function corsHeaders(req: NextRequest) {
   return {
     "access-control-allow-origin": allow,
     "access-control-allow-methods": "POST, OPTIONS",
-    "access-control-allow-headers": "content-type, x-passcode",
+    "access-control-allow-headers": "content-type, x-passcode, authorization",
     vary: "origin",
   };
 }
@@ -46,6 +53,8 @@ export async function GET(req: NextRequest) {
   const body = {
     available: Boolean(process.env.ANTHROPIC_API_KEY),
     passcode: Boolean(process.env.REPORT_PASSCODE),
+    readers: true, // signed-in Atlas readers may generate, within a daily allowance
+    perDay: perDay(),
     persists: Boolean(process.env.GITHUB_TOKEN),
     model: process.env.REPORT_MODEL ?? DEFAULT_MODEL,
   };
@@ -87,8 +96,10 @@ export async function POST(req: NextRequest) {
   if (!key) {
     return Response.json({ ok: false, error: "Report generation is not configured on this server (ANTHROPIC_API_KEY)." }, { status: 503, headers: cors });
   }
-  if (process.env.REPORT_PASSCODE && req.headers.get("x-passcode") !== process.env.REPORT_PASSCODE) {
-    return Response.json({ ok: false, error: "Passcode required." }, { status: 401, headers: cors });
+  const owner = !process.env.REPORT_PASSCODE || req.headers.get("x-passcode") === process.env.REPORT_PASSCODE;
+  const reader = owner ? null : await verifyReader(req.headers.get("authorization"));
+  if (!owner && !reader) {
+    return Response.json({ ok: false, error: "Sign in to generate reports." }, { status: 401, headers: cors });
   }
   let eventId = "";
   try {
@@ -96,6 +107,16 @@ export async function POST(req: NextRequest) {
   } catch {}
   const event = getEvent(eventId);
   if (!event) return Response.json({ ok: false, error: `Unknown event "${eventId}".` }, { status: 404, headers: cors });
+  if (reader) {
+    const current = getDossier(event.id);
+    if (current && current.slug === event.id && (!current.generated || current.generated.reviewed)) {
+      return Response.json({ ok: false, error: "This report has been checked by a person, so it can't be regenerated from here." }, { status: 403, headers: cors });
+    }
+    if (remaining(reader.uid) <= 0) {
+      return Response.json({ ok: false, error: `You've used today's ${perDay()} reports. More tomorrow.` }, { status: 429, headers: cors });
+    }
+    spend(reader.uid);
+  }
 
   const model = process.env.REPORT_MODEL ?? DEFAULT_MODEL;
   const today = new Date().toISOString().slice(0, 10);

@@ -3,12 +3,14 @@
 import { useEffect, useState } from "react";
 import type { Dossier } from "@/content/types";
 import { DossierBody } from "@/components/dossier/DossierBody";
+import { useAuth } from "@/components/auth/AuthProvider";
 
 /*
   Generate (or regenerate) the layered report for an event from the page itself.
-  Talks to the enterprise server's /api/reports/generate; `api` points elsewhere when this
-  component runs inside the static Atlas. The result renders in place; whether it is also
-  saved for good depends on the server (shown in the status line).
+  Talks to the enterprise server's /api/reports/generate. Signed-in readers send their
+  Firebase ID token, which the server verifies and allows a few reports a day; the owner's
+  passcode still works for anyone not signed in. The result renders in place; whether it is
+  also saved for good depends on the server (shown in the status line).
 */
 type Phase = "idle" | "checking" | "unavailable" | "working" | "done" | "error";
 
@@ -22,7 +24,10 @@ export default function GenerateReport({
   api?: string; // base URL of the enterprise server; empty = same origin
 }) {
   const [phase, setPhase] = useState<Phase>("checking");
-  const [needsPasscode, setNeedsPasscode] = useState(false);
+  const { user } = useAuth();
+  const [serverNeedsPasscode, setNeedsPasscode] = useState(false);
+  const [readersAllowed, setReadersAllowed] = useState(false);
+  const [perDay, setPerDay] = useState(0);
   const [persists, setPersists] = useState(false);
   const [passcode, setPasscode] = useState("");
   const [log, setLog] = useState<string[]>([]);
@@ -35,9 +40,11 @@ export default function GenerateReport({
     let alive = true;
     fetch(endpoint)
       .then((r) => r.json())
-      .then((j: { available: boolean; passcode: boolean; persists: boolean }) => {
+      .then((j: { available: boolean; passcode: boolean; persists: boolean; readers?: boolean; perDay?: number }) => {
         if (!alive) return;
         setNeedsPasscode(j.passcode);
+        setReadersAllowed(Boolean(j.readers));
+        setPerDay(j.perDay ?? 0);
         setPersists(j.persists);
         setPhase(j.available ? "idle" : "unavailable");
       })
@@ -47,14 +54,23 @@ export default function GenerateReport({
     };
   }, [endpoint]);
 
+  // a signed-in reader is let through by their sign-in; the passcode is for everyone else
+  const useToken = Boolean(user && readersAllowed);
+  const needsPasscode = serverNeedsPasscode && !useToken;
+
   async function run() {
     setPhase("working");
     setLog([]);
     setError("");
     try {
+      const token = useToken && user ? await user.getIdToken() : "";
       const res = await fetch(endpoint, {
         method: "POST",
-        headers: { "content-type": "application/json", ...(passcode ? { "x-passcode": passcode } : {}) },
+        headers: {
+          "content-type": "application/json",
+          ...(token ? { authorization: `Bearer ${token}` } : {}),
+          ...(passcode && !token ? { "x-passcode": passcode } : {}),
+        },
         body: JSON.stringify({ eventId }),
       });
       if (!res.ok || !res.body) {
@@ -112,6 +128,7 @@ export default function GenerateReport({
               ? "Drafts a fresh 30-second card, 5-minute brief, deep dive and evidence layer from the event's sources and the latest matched headlines. About two minutes."
               : "Draft the full layered report now: a 30-second card, a 5-minute brief, deep-dive modules and an evidence layer, from the event's sources and matched headlines. About two minutes."}
             {persists ? " The result is saved to the atlas for both editions." : " The result shows here and stays on this server until its next deploy."}
+            {useToken && perDay ? ` Each reader can generate ${perDay} reports a day.` : ""}
           </p>
           <div className="mt-3 flex flex-wrap items-center gap-3">
             {needsPasscode ? (

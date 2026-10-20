@@ -11,10 +11,11 @@ import {
   signInWithPopup,
   signInWithRedirect,
   signOut as fbSignOut,
+  deleteUser,
   updateProfile,
   type User,
 } from "firebase/auth";
-import { doc, getDoc, serverTimestamp, setDoc, updateDoc } from "firebase/firestore";
+import { deleteDoc, doc, getDoc, serverTimestamp, setDoc, updateDoc } from "firebase/firestore";
 import { usePathname } from "next/navigation";
 import { auth, db, firebaseEnabled, track } from "@/lib/firebase";
 
@@ -89,6 +90,7 @@ interface AuthState {
   completeProfile: (p: { country: string; interest: Interest | "" }) => Promise<void>;
   resetPassword: (email: string) => Promise<void>;
   signOut: () => Promise<void>;
+  deleteAccount: () => Promise<void>;
 }
 
 const Ctx = createContext<AuthState | null>(null);
@@ -212,6 +214,18 @@ export default function AuthProvider({ children }: { children: ReactNode }) {
     },
     async resetPassword(email) {
       await sendPasswordResetEmail(auth(), email.trim());
+    },
+    async deleteAccount() {
+      if (!user) return;
+      // the profile first (needs the sign-in), then the account itself; Firebase asks for a
+      // fresh sign-in if the last one is old (auth/requires-recent-login)
+      await deleteDoc(doc(db(), "users", user.uid)).catch(() => {});
+      await deleteUser(user);
+      setProfile(null);
+      try {
+        localStorage.removeItem(SOURCE_KEY);
+        sessionStorage.removeItem(SESSION_KEY);
+      } catch {}
     },
     async signOut() {
       await fbSignOut(auth());
