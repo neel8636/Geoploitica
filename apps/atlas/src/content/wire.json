@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-20T02:06:57.298Z",
+  "fetchedAt": "2026-10-20T02:20:48.303Z",
   "items": [
     {
       "id": "ae67a79084b5",
       "title": "Which EU regulations affect your supply chain? EUDR, CSRD, PPWR, CBAM and more",
       "url": "https://www.coolset.com/academy/eu-supply-chain-regulations-eudr-csrd-csddd-cbam-ppwr",
       "publisher": "Coolset",
-      "published": "2026-10-20T02:06:57.296Z",
+      "published": "2026-10-20T02:20:48.302Z",
       "eventIds": [
         "eu-supply-chain-rules-2027"
       ]
@@ -16,10 +16,49 @@
       "title": "Opinion polling for the 2027 French presidential election",
       "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2027_French_presidential_election",
       "publisher": "Wikipedia",
-      "published": "2026-10-20T02:06:57.296Z",
+      "published": "2026-10-20T02:20:48.302Z",
       "eventIds": [
         "france-election-2027"
       ]
+    },
+    {
+      "id": "f6665aaf2b2a",
+      "title": "‘Open your doors for AI’: German chancellor urges businesses to embrace AI as Nvidia announces new investments",
+      "url": "https://www.cnbc.com/2026/10/20/german-chancellor-urges-businesses-to-embrace-ai.html",
+      "publisher": "CNBC World",
+      "published": "2026-10-20T02:16:25.000Z",
+      "summary": "Nvidia announced planned investments in four German startups as Chancellor Friedrich Merz urged businesses to embrace AI at an industry summit in Berlin.",
+      "eventIds": []
+    },
+    {
+      "id": "dc95bd901582",
+      "title": "Helen Haines live updates: MP critical but stable as AFP look into charges carrying up to 10 years’ imprisonment",
+      "url": "https://www.theguardian.com/australia-news/live/2026/oct/20/helen-haines-independent-mp-alleged-car-attack-wangaratta-melbourne-hospital-ntwnfb",
+      "publisher": "The Guardian World",
+      "published": "2026-10-20T02:02:00.000Z",
+      "summary": "<p>A joint counter-terrorism taskforce is investigating the incident, which Anthony Albanese alleged ‘wasn’t an accident’</p><ul><li><p><a href=\"https://www.theguardian.com/australia-news/2026/oct/19/mp-helen-haines-injured-incident-wangaratta-ntwnfb\">‘Deeply appalled’: politicia",
+      "eventIds": []
+    },
+    {
+      "id": "fe8618e7ca14",
+      "title": "Trump attacks ‘migrants and communists’ as he tries to exploit France unrest",
+      "url": "https://www.theguardian.com/us-news/2026/oct/19/trump-france-protests",
+      "publisher": "The Guardian World",
+      "published": "2026-10-20T02:01:22.000Z",
+      "summary": "<p>President at Kansas rally tries to turn protests into cautionary tale for US as Republicans face midterm losses</p><ul><li><p><a href=\"https://www.theguardian.com/world/2026/oct/18/europe-protests-france-spain-portugal-2026-explainer\">Explainer: why are people protesting acros",
+      "eventIds": [
+        "france-unrest-2026",
+        "us-midterms-2026"
+      ]
+    },
+    {
+      "id": "ad06de2ed621",
+      "title": "Why terrorism laws stopped Sally Rooney selling books in the UK – podcast",
+      "url": "https://www.theguardian.com/news/audio/2026/oct/20/why-terrorism-laws-stopped-sally-rooney-selling-books-in-the-uk-podcast",
+      "publisher": "The Guardian World",
+      "published": "2026-10-20T02:00:12.000Z",
+      "summary": "<p>The bestselling author says her books will no longer be supplied to UK bookshops over fears of prosecution. Zoe Williams and Haroon Siddique report</p><p>For now there might be a copy or two of Intermezzo left kicking around in your local bookshop – snap it up if you haven’t a",
+      "eventIds": []
     },
     {
       "id": "588cd184f2db",
@@ -31,15 +70,6 @@
       "eventIds": [
         "us-midterms-2026"
       ]
-    },
-    {
-      "id": "dc95bd901582",
-      "title": "Helen Haines live updates: MP critical but stable as AFP look into charges carrying up to 10 years’ imprisonment",
-      "url": "https://www.theguardian.com/australia-news/live/2026/oct/20/helen-haines-independent-mp-alleged-car-attack-wangaratta-melbourne-hospital-ntwnfb",
-      "publisher": "The Guardian World",
-      "published": "2026-10-20T01:57:15.000Z",
-      "summary": "<p>A joint counter-terrorism taskforce is investigating the incident, which Anthony Albanese alleged ‘wasn’t an accident’</p><ul><li><p><a href=\"https://www.theguardian.com/australia-news/2026/oct/19/mp-helen-haines-injured-incident-wangaratta-ntwnfb\">‘Deeply appalled’: politicia",
-      "eventIds": []
     },
     {
       "id": "0c2ac64cc854",
@@ -71,6 +101,15 @@
       "eventIds": []
     },
     {
+      "id": "2d749020d1f1",
+      "title": "The human cost of surging US air strikes in Somalia",
+      "url": "https://www.aljazeera.com/news/2026/10/20/us-air-strikes-surge-in-somalia-as-families-seek-answers?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "published": "2026-10-20T01:52:32.000Z",
+      "summary": "Families recount deaths, injuries and displacement as Trump accelerates US strikes against armed groups in Somalia.",
+      "eventIds": []
+    },
+    {
       "id": "0e4bcb3bf3e1",
       "title": "Top venture capitalist Jenny Lee says Asian startups are speeding toward IPOs",
       "url": "https://www.cnbc.com/2026/10/20/venture-capital-jenny-lee-granite-asia-startups.html",
@@ -98,12 +137,32 @@
       "eventIds": []
     },
     {
+      "id": "856b2ff7b1eb",
+      "title": "Zelenskyy seeks answers to why SpaceX Starshield defence is failing",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/zelenskyy-seeks-answers-to-why-spacex-starshield-defence-is-failing?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "published": "2026-10-20T01:50:15.000Z",
+      "summary": "Zelenskyy seeks answers to why SpaceX Starshield defence is failing",
+      "eventIds": [
+        "ukraine-summit-diplomacy"
+      ]
+    },
+    {
       "id": "af3af0f932d8",
       "title": "‘I don’t want to be known as a hero’: barber who rushed to help Helen Haines praised by PM",
       "url": "https://www.theguardian.com/australia-news/2026/oct/20/i-dont-want-to-be-known-as-a-hero-barber-who-rushed-to-help-helen-haines-praised-by-pm-ntwnfb",
       "publisher": "The Guardian World",
       "published": "2026-10-20T01:49:55.000Z",
       "summary": "<p>Ricky Jefferies says he had just finished cutting hair when he grabbed and held the driver who allegedly deliberately struck the Indi MP</p><ul><li><p>Follow our <a href=\"https://www.theguardian.com/australia-news/live/2026/oct/20/helen-haines-independent-mp-alleged-car-attack",
+      "eventIds": []
+    },
+    {
+      "id": "6a5c853c6295",
+      "title": "Beyond money: Why young Tunisians are considering emigration",
+      "url": "https://www.aljazeera.com/news/2026/10/20/beyond-money-why-young-tunisians-are-considering-emigration?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "published": "2026-10-20T01:47:42.000Z",
+      "summary": "For many young Tunisians, the question is no longer simply how to make a living, but where they can build a future.",
       "eventIds": []
     },
     {
@@ -320,17 +379,6 @@
       "published": "2026-10-19T23:00:02.000Z",
       "summary": "While economists and former central bankers discuss tech and monetary policy at the Bund Summit, companies are moving faster to capture new revenue.",
       "eventIds": []
-    },
-    {
-      "id": "fe8618e7ca14",
-      "title": "Trump borrows from far right to blame unrest in France on immigration",
-      "url": "https://www.theguardian.com/us-news/2026/oct/19/trump-france-protests",
-      "publisher": "The Guardian World",
-      "published": "2026-10-19T22:48:35.000Z",
-      "summary": "<p>President ignores school conditions and cost of living and says he warned Macron ‘the whole world was coming in’</p><ul><li><p><a href=\"https://www.theguardian.com/world/2026/oct/18/europe-protests-france-spain-portugal-2026-explainer\">Explainer: why are people protesting acro",
-      "eventIds": [
-        "france-unrest-2026"
-      ]
     },
     {
       "id": "2a20c18d51a2",
@@ -735,15 +783,6 @@
       ]
     },
     {
-      "id": "838ba00c77d2",
-      "title": "Residents hoisted from rooftops amid Spain’s deadly flooding",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/residents-hoisted-from-rooftops-amid-spains-deadly-flooding?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "published": "2026-10-19T19:38:40.000Z",
-      "summary": "Spain’s military is hoisting residents from the rooftops of their flooded homes.",
-      "eventIds": []
-    },
-    {
       "id": "1b564fcc6958",
       "title": "Saudi Arabia postpones big investor conference to 2027 as Iran-backed Houthis escalate attacks on kingdom",
       "url": "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html",
@@ -767,15 +806,6 @@
         "china-q3-growth",
         "russia-record-budget-deficit-2026"
       ]
-    },
-    {
-      "id": "e61cd3a9a0ff",
-      "title": "Indian court extends detention of ‘Cockroach’ leaders",
-      "url": "https://www.aljazeera.com/news/2026/10/19/indian-court-extends-detention-of-cockroach-leaders?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "published": "2026-10-19T19:09:22.000Z",
-      "summary": "The extension of the custody of the CJP activists comes amid a crackdown on near daily protests against the government.",
-      "eventIds": []
     },
     {
       "id": "c84b521b3f01",
@@ -816,15 +846,6 @@
       "publisher": "Deutsche Welle",
       "published": "2026-10-19T18:45:00.000Z",
       "summary": "A Bulgarian court has issued arrest warrants for two young German nationals suspected of setting fire to Starlink antennas. The case is reminiscent of another in Poland, which Warsaw says was orchestrated by Russia.",
-      "eventIds": []
-    },
-    {
-      "id": "0d88aaecc834",
-      "title": "Protesters block Louvre in support of French student movement",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/protesters-block-louvre-in-support-of-french-student-movement?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "published": "2026-10-19T18:39:27.000Z",
-      "summary": "French students are now blockading the world’s busiest museum.",
       "eventIds": []
     },
     {
@@ -893,15 +914,6 @@
       "eventIds": [
         "gulf-war-energy-shock"
       ]
-    },
-    {
-      "id": "e36fa11fc3d4",
-      "title": "Minister says Mahmood’s migration policy will ‘prolong integration’",
-      "url": "https://www.theguardian.com/politics/2026/oct/19/migration-energy-secretary-mahmood-fahnbulleh",
-      "publisher": "The Guardian World",
-      "published": "2026-10-19T17:35:17.000Z",
-      "summary": "<p>In now-removed post, Miatta Fahnbulleh criticised home secretary’s proposal to extend qualifying period for settlement in UK</p><p>The energy secretary, Miatta Fahnbulleh, appears to have criticised Shabana Mahmood’s migration policy in a post on her constituency website, in w",
-      "eventIds": []
     },
     {
       "id": "2874b0c23ded",
@@ -1315,15 +1327,6 @@
       "eventIds": [
         "north-korea-missile-tests-2026"
       ]
-    },
-    {
-      "id": "1ca82a3cde4e",
-      "title": "Anthropic commits 5% of shares to new public benefit fund that could address AI job disruption",
-      "url": "https://www.cnbc.com/2026/10/18/anthropic-ai-public-benefit-fund.html",
-      "publisher": "CNBC World",
-      "published": "2026-10-19T12:33:07.000Z",
-      "summary": "The Claude maker said that establishing the fund as an LLC will provide greater flexibility in how the money is used.",
-      "eventIds": []
     },
     {
       "id": "5abcff831159",
