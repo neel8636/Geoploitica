@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-20T18:11:14.596Z",
+  "fetchedAt": "2026-10-20T18:28:25.833Z",
   "items": [
     {
       "id": "ae67a79084b5",
       "title": "Which EU regulations affect your supply chain? EUDR, CSRD, PPWR, CBAM and more",
       "url": "https://www.coolset.com/academy/eu-supply-chain-regulations-eudr-csrd-csddd-cbam-ppwr",
       "publisher": "Coolset",
-      "published": "2026-10-20T18:11:14.595Z",
+      "published": "2026-10-20T18:28:25.832Z",
       "eventIds": [
         "eu-supply-chain-rules-2027"
       ]
@@ -16,9 +16,31 @@
       "title": "Opinion polling for the 2027 French presidential election",
       "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2027_French_presidential_election",
       "publisher": "Wikipedia",
-      "published": "2026-10-20T18:11:14.595Z",
+      "published": "2026-10-20T18:28:25.832Z",
       "eventIds": [
         "france-election-2027"
+      ]
+    },
+    {
+      "id": "fb033c71acad",
+      "title": "Mike Bloomberg spent $80M to boost Democrats in midterms: NYT",
+      "url": "https://www.cnbc.com/2026/10/20/mike-bloomberg-democrats-house-trump.html",
+      "publisher": "CNBC World",
+      "published": "2026-10-20T18:23:54.000Z",
+      "summary": "Democrats are hopeful that they will regain majority control of the House of Representatives and the Senate in November's elections.",
+      "eventIds": [
+        "us-midterms-2026"
+      ]
+    },
+    {
+      "id": "2e829d8824e8",
+      "title": "Trump says he will have spent $400m to support Republicans in midterms – US politics live",
+      "url": "https://www.theguardian.com/us-news/live/2026/oct/20/donald-trump-midterms-republicans-democrats-north-carolina-latest-updates",
+      "publisher": "The Guardian World",
+      "published": "2026-10-20T18:16:10.000Z",
+      "summary": "<p>President is also expected to make an announcement with JD Vance at the White House</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&amp;u",
+      "eventIds": [
+        "us-midterms-2026"
       ]
     },
     {
@@ -52,16 +74,13 @@
       "eventIds": []
     },
     {
-      "id": "2e829d8824e8",
-      "title": "House Democrat accuses Rubio and Trump of ‘lying’ about Ukraine intelligence as president continues campaigning – US politics live",
-      "url": "https://www.theguardian.com/us-news/live/2026/oct/20/donald-trump-midterms-republicans-democrats-north-carolina-latest-updates",
-      "publisher": "The Guardian World",
-      "published": "2026-10-20T18:02:16.000Z",
-      "summary": "<p>Eugene Vindman, armed services committee member, says president and secretary of state are ‘gaslighting’ over intelligence sharing as Trump heads to North Carolina</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get",
-      "eventIds": [
-        "us-midterms-2026",
-        "ukraine-summit-diplomacy"
-      ]
+      "id": "d1ea9e2df472",
+      "title": "CDC reports third measles death in the United States this year",
+      "url": "https://www.aljazeera.com/news/2026/10/20/cdc-reports-third-measles-death-in-the-united-states-this-year?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "published": "2026-10-20T17:58:09.000Z",
+      "summary": "The death was added to the federal tally, as the US records more than 4,400 measles cases nationwide.",
+      "eventIds": []
     },
     {
       "id": "4095e687817a",
@@ -1036,15 +1055,6 @@
       "eventIds": []
     },
     {
-      "id": "bc61bde38154",
-      "title": "More than 250,000 displaced in Yemen since fighting escalated: UNHCR",
-      "url": "https://www.aljazeera.com/news/2026/10/20/more-than-250000-displaced-in-yemen-since-fighting-escalated-unhcr?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "published": "2026-10-20T13:00:21.000Z",
-      "summary": "UNICEF says escalating fighting in Taiz is threatening its water systems, serving an estimated three million people.",
-      "eventIds": []
-    },
-    {
       "id": "07e0e0a0cf9d",
       "title": "UK to deploy fighter jets to defend Saudi cities from Houthi attacks",
       "url": "https://www.cnbc.com/2026/10/20/uk-fighter-jets-saudi-houthi-attacks-iran.html",
@@ -1602,15 +1612,6 @@
       "publisher": "Euronews",
       "published": "2026-10-20T04:38:03.000Z",
       "summary": "Haines was hit by a Toyota Land Cruiser outside her office in the town of Wangaratta, just over 200 kilometres northeast of Melbourne, at around 0635 CET on Monday.",
-      "eventIds": []
-    },
-    {
-      "id": "25bbe8b519e3",
-      "title": "Bank Indonesia faces mounting pressure to hike after MSCI threat fuels market rout",
-      "url": "https://www.cnbc.com/2026/10/20/indonesia-msci-inflation-interest-rate-.html",
-      "publisher": "CNBC World",
-      "published": "2026-10-20T03:59:35.000Z",
-      "summary": "Bank Indonesia faces growing pressure to raise rates after MSCI’s threat to cut its market to standalone status triggered a rout in stocks, weakened the rupiah.",
       "eventIds": []
     },
     {
