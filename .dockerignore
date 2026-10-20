@@ -11,5 +11,3 @@ apps/atlas/*
 !apps/atlas/src
 apps/atlas/src/*
 !apps/atlas/src/content
-apps/atlas/src/content/*
-!apps/atlas/src/content/dossiers

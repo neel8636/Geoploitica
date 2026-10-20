@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Dossier } from "@/content/types";
-import { formatDate } from "@/content/dossiers";
+import { formatDate } from "@/content/format";
 import RippleMap from "@/components/RippleMap";
 import LayerNav from "@/components/dossier/LayerNav";
 import Timeline from "@/components/dossier/Timeline";

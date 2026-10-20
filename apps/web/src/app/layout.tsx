@@ -30,6 +30,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </Link>
             <div className="flex flex-wrap items-center gap-5 text-[15px]">
               <JourneyChip />
+              <Link href="/events" className="no-underline hover:underline">
+                Events
+              </Link>
               <Link href="/dossiers" className="no-underline hover:underline">
                 Dossiers
               </Link>

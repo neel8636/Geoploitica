@@ -1,3 +1,4 @@
+import path from "node:path";
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
@@ -5,6 +6,8 @@ const nextConfig: NextConfig = {
   cacheComponents: true,
   partialPrefetching: true,
   turbopack: {
+    // the repo root, so the Atlas content two folders up can be imported
+    root: path.resolve(__dirname, "../.."),
     rules: {
       "*.css": {
         loaders: ["@tailwindcss/turbopack"],

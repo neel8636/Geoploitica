@@ -3,5 +3,5 @@
 set -e
 cd /app/engine
 PORT=8000 .venv/bin/python -m geoploitica_engine &
-cd /app/web
+cd /repo/apps/web
 exec npm run start -- -p "${PORT:-3000}"

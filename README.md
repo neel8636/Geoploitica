@@ -47,6 +47,20 @@ Enterprise setup, once: in Render choose **New + → Blueprint**, pick this repo
 
 Any other host works too: the root `Dockerfile` is a single container (web on `$PORT`, engine on 8000 inside it), or run the two apps separately with `apps/web/Dockerfile` and `apps/engine/Dockerfile` and point the web at the engine with `ENGINE_URL`. The engine is only ever called server-side through `/api/engine/*`.
 
+## Generate a report from the app
+
+Open any event (`/events/<id>`) in the enterprise edition and press **Generate report** (or **Regenerate** when one exists). The server drafts the layered report from the event's sources and the latest matched headlines and shows it in place. The Atlas offers the same button and calls the enterprise server.
+
+Server environment (Render → the service → Environment):
+
+| Variable | Required | What it does |
+| --- | --- | --- |
+| `ANTHROPIC_API_KEY` | yes, for generation | The Claude API key the server drafts with. |
+| `GITHUB_TOKEN` | no | A fine-grained token with *Contents: read and write* on this repo. When set, each generated report is committed to `apps/atlas/src/content/dossiers`, so it becomes permanent in both editions on the next deploy. Without it, a report lives on the server until its next deploy. |
+| `REPORT_PASSCODE` | no | If set, the button asks for this passcode. Use it because every generation costs API usage and the enterprise site is public. |
+| `REPORT_CORS_ORIGIN` | no | Origin allowed to call the endpoint from the browser; default `https://neel8636.github.io` (the Atlas). |
+| `REPORT_MODEL` | no | Model id, default `claude-sonnet-5-5`. |
+
 ## Add a dossier
 
 1. Copy `apps/web/src/content/dossiers/france-unrest-2026.json`, change the slug and fill every layer. The TypeScript types in `src/content/types.ts` are the template.

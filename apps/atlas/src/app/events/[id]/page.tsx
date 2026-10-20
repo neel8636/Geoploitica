@@ -8,7 +8,11 @@ import WorldMap from "@/components/WorldMap";
 import RippleMap from "@/components/RippleMap";
 import Connections from "@/components/atlas/Connections";
 import { DossierBody } from "@/components/dossier/DossierBody";
+import GenerateReport from "@/components/reports/GenerateReport";
 import { ImpactMeter, Signpost } from "@/components/dossier/Primitives";
+
+// The enterprise server that generates reports on demand (set at build time; empty = not offered).
+const REPORT_API = process.env.NEXT_PUBLIC_REPORT_API ?? "";
 
 export function generateStaticParams() {
   return EVENTS.map((e) => ({ id: e.id }));
@@ -98,25 +102,28 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
         </ol>
       </section>
 
-      {dossier ? (
-        <section className="mt-14 border-t-2 border-teal pt-8">
-          <p className="signpost">{own ? "Full report" : "Full report on the parent event"}</p>
-          {!own ? (
-            <p className="prose-dossier mt-1 text-ink-2">
-              This event is one thread of <em>{dossier.title}</em>; the layered report below covers it in context.
-            </p>
-          ) : null}
-          <DossierBody d={dossier} backHref="/" backLabel="Map" />
-        </section>
-      ) : (
-        <section className="mt-14 rounded-lg border border-line bg-paper-2 p-5 text-[15px]">
-          <p className="font-medium">No full report yet.</p>
-          <p className="mt-1 text-ink-2">
-            The daily run drafts one automatically when an API key is set in the repository; by hand,{" "}
-            <code className="rounded-sm bg-paper px-1">npm run draft -- {e.id}</code> writes it and it is live on the next build.
+      <section className="mt-14 border-t-2 border-teal pt-8">
+        <p className="signpost">{dossier ? (own ? "Full report" : "Full report on the parent event") : "Report"}</p>
+        {dossier && !own ? (
+          <p className="prose-dossier mt-1 text-ink-2">
+            This event is one thread of <em>{dossier.title}</em>; the layered report below covers it in context.
           </p>
-        </section>
-      )}
+        ) : null}
+        {REPORT_API ? (
+          <div className="mt-3">
+            <GenerateReport eventId={e.id} existing={Boolean(dossier && own)} api={REPORT_API} />
+          </div>
+        ) : !dossier ? (
+          <p className="mt-2 text-[15px] text-ink-2">
+            The daily run drafts one automatically; by hand, <code className="rounded-sm bg-paper-2 px-1">npm run draft -- {e.id}</code>.
+          </p>
+        ) : null}
+        {dossier ? (
+          <div className="mt-8">
+            <DossierBody d={dossier} backHref="/" backLabel="Map" />
+          </div>
+        ) : null}
+      </section>
     </article>
   );
 }

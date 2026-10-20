@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { LINK_WORDS, TYPE_LABELS, neighbours, type WorldEvent } from "@/content/events";
-import { formatDate } from "@/content/dossiers";
+import { formatDate } from "@/content/format";
 
 /*
   How one event connects to the rest of the world: each linked event, the kind of link,

@@ -18,7 +18,8 @@
 import { readFile, writeFile, access, stat } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { EVENTS, LINK_WORDS, getEvent, neighbours } from "../src/content/events.ts";
+import { EVENTS, getEvent } from "../src/content/events.ts";
+import { DEFAULT_MODEL, extractJson, finishDraft, materialFor, systemPrompt, userPrompt } from "../src/content/drafting.ts";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(here, "..");
@@ -30,7 +31,7 @@ const opt = (name, fallback) => {
   const i = args.indexOf(name);
   return i >= 0 && args[i + 1] !== undefined ? args[i + 1] : fallback;
 };
-const MODEL = opt("--model", "claude-sonnet-5-5");
+const MODEL = opt("--model", DEFAULT_MODEL);
 const FORCE = flag("--force");
 const DRY = flag("--dry-run");
 const ALL = flag("--all");
@@ -148,61 +149,14 @@ if (DRY) process.exit(0);
 
 // --- material shared by every draft --------------------------------------------
 
-const types = await readFile(path.join(root, "src", "content", "types.ts"), "utf8");
+const typesSource = await readFile(path.join(root, "src", "content", "types.ts"), "utf8");
 const example = JSON.parse(await readFile(path.join(DOSSIERS, "france-unrest-2026.json"), "utf8"));
-delete example.generated;
-
-let wireItems = [];
+let wire = [];
 try {
-  wireItems = JSON.parse(await readFile(path.join(root, "src", "content", "wire.json"), "utf8")).items ?? [];
+  wire = JSON.parse(await readFile(path.join(root, "src", "content", "wire.json"), "utf8")).items ?? [];
 } catch {}
-
 const todayIso = new Date().toISOString().slice(0, 10);
-
-const system = `You draft layered geopolitical reports for a personal reading app. Output must be a single JSON object that satisfies the TypeScript \`Dossier\` interface below exactly: every required field present, correct types, ISO dates, no extra top-level keys, no markdown fences, no commentary. Do not include a "generated" field; the script adds it.
-
-Rules of the house:
-- Write for a smart generalist. Short sentences. Every claim that could be wrong is hedged or has a confidence entry.
-- Use only facts that appear in the material or that you are highly confident of; where you must estimate, say so in the text and in evidence.confidence.
-- Sources: list the real URLs given in the material. Never invent a URL. If you draw on general knowledge, cite it only with a well-known URL you are certain exists; otherwise leave it out and lower the confidence.
-- The ripple rings are the heart of the report: first-order effects that follow directly, then second-order, then third-order. Each effect gets a short sector label. Three rings, 3-5 effects each.
-- Predictions carry a probability (0-1), a horizon and a dated check so they can be scored later. Scenarios sum to roughly 1.
-- slug must equal the event id. updated must be ${todayIso}. status "developing" unless the event is clearly over ("stable") or is a scheduled date ("developing" still, since the run-up moves).
-- readingMinutes: card 1, brief 5, deep 15-25. Keep deep.chart only if you have real numbers for a series; otherwise omit it.
-- evidence.method: one paragraph saying this was drafted from the listed sources and headlines and what was estimated.
-
-TypeScript interfaces:
-${types}
-
-A finished example of the shape (content is for a different event; do not copy its facts):
-${JSON.stringify(example)}`;
-
-function materialFor(event) {
-  const items = wireItems.filter((i) => i.eventIds.includes(event.id));
-  const links = neighbours(event.id).map((l) =>
-    l.direction === "out"
-      ? `- This event ${LINK_WORDS[l.kind]} "${l.event.title}" (${l.event.id}): ${l.why}\n  ${l.event.summary}`
-      : `- "${l.event.title}" (${l.event.id}) ${LINK_WORDS[l.kind]} this event: ${l.why}\n  ${l.event.summary}`,
-  );
-  const text = `
-EVENT
-id: ${event.id}
-title: ${event.title}
-type: ${event.type}; status: ${event.status}; date: ${event.date}; region: ${event.region}; countries: ${event.countries.join(", ")}
-severity: ${event.severity}/5
-summary: ${event.summary}
-
-CONNECTIONS (already judged; keep them consistent)
-${links.join("\n") || "- none recorded"}
-
-SOURCES CITED ON THE EVENT
-${event.sources.map((s) => `- ${s.title} — ${s.publisher}${s.date ? `, ${s.date}` : ""} — ${s.url}`).join("\n")}
-
-WIRE HEADLINES MATCHED TO THIS EVENT (${items.length})
-${items.map((i) => `- [${i.published.slice(0, 10)}] ${i.title} — ${i.publisher} — ${i.url}${i.summary ? `\n  ${i.summary}` : ""}`).join("\n") || "- none"}
-`.trim();
-  return { text, items };
-}
+const system = systemPrompt({ typesSource, example, wire, today: todayIso });
 
 // --- one draft -----------------------------------------------------------------
 
@@ -216,7 +170,7 @@ async function callApi(text) {
         model: MODEL,
         max_tokens: 16000,
         system,
-        messages: [{ role: "user", content: `Draft the dossier for this event. Return only the JSON object.\n\n${text}` }],
+        messages: [{ role: "user", content: userPrompt(text) }],
       }),
     });
     if (res.ok) return res.json();
@@ -231,61 +185,17 @@ async function callApi(text) {
   }
 }
 
-// The first complete JSON object in a reply, found by brace depth (string-aware), so a
-// trailing remark or a second object after the report does not break the parse.
-function extractJson(text) {
-  const start = text.indexOf("{");
-  if (start < 0) throw new Error("no JSON object in the reply");
-  let depth = 0;
-  let inString = false;
-  for (let i = start; i < text.length; i++) {
-    const ch = text[i];
-    if (inString) {
-      if (ch === "\\") i++;
-      else if (ch === '"') inString = false;
-      continue;
-    }
-    if (ch === '"') inString = true;
-    else if (ch === "{") depth++;
-    else if (ch === "}") {
-      depth--;
-      if (depth === 0) return text.slice(start, i + 1);
-    }
-  }
-  throw new Error("JSON object in the reply is not closed");
-}
-
 async function draftOne(event) {
-  const { text, items } = materialFor(event);
+  const { text, items } = materialFor(event, wire);
   const body = await callApi(text);
   const out = body.content.filter((c) => c.type === "text").map((c) => c.text).join("");
-  const draft = JSON.parse(extractJson(out));
-
-  const problems = [];
-  const need = (obj, keys, where) => {
-    for (const k of keys) if (obj?.[k] === undefined) problems.push(`${where}.${k} missing`);
-  };
-  need(draft, ["slug", "title", "deck", "updated", "status", "region", "tags", "readingMinutes", "card", "brief", "deep", "evidence"], "dossier");
-  need(draft.card, ["headline", "keyNumber", "impactMeter", "forYou", "ripple"], "card");
-  need(draft.brief, ["whatHappened", "whyItMatters", "winners", "losers", "whatsNext", "predict", "recap"], "brief");
-  need(draft.deep, ["timeline", "causes", "stakeholders", "sectors", "dailyLife", "scenarios", "predictions", "countermeasures", "analogues", "watch"], "deep");
-  need(draft.evidence, ["sources", "confidence", "method", "changeLog"], "evidence");
-  if (problems.length) throw new Error("incomplete draft: " + problems.join("; "));
-
-  draft.slug = event.id;
-  draft.updated = todayIso;
-  const known = new Set([...event.sources.map((s) => s.url), ...items.map((i) => i.url)]);
-  const unknown = (draft.evidence.sources ?? []).filter((s) => !known.has(s.url)).map((s) => s.url);
-  draft.generated = {
-    by: "Geopolitica draft script",
-    at: new Date().toISOString(),
+  const { draft, unknownSources } = finishDraft(JSON.parse(extractJson(out)), event, items, {
     model: MODEL,
-    sources: event.sources.length,
-    headlines: items.length,
-    reviewed: false,
-  };
+    by: "Geopolitica draft script",
+    today: todayIso,
+  });
   await writeFile(path.join(DOSSIERS, `${event.id}.json`), JSON.stringify(draft, null, 2) + "\n");
-  return { tokens: body.usage?.output_tokens ?? 0, unknown };
+  return { tokens: body.usage?.output_tokens ?? 0, unknown: unknownSources };
 }
 
 // --- run ------------------------------------------------------------------------

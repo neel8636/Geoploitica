@@ -6,11 +6,13 @@
 FROM node:22-bookworm-slim AS web-build
 ARG RENDER_GIT_COMMIT=unknown
 ENV NEXT_PUBLIC_BUILD=$RENDER_GIT_COMMIT
-WORKDIR /app
+# The monorepo layout is kept (apps/web beside apps/atlas) because the enterprise edition
+# imports the Atlas event graph and reports by relative path.
+WORKDIR /repo/apps/web
 COPY apps/web/package*.json ./
 RUN npm ci --no-audit --no-fund
 COPY apps/web ./
-# the Atlas is where reports are drafted; the enterprise edition publishes the same ones
+COPY apps/atlas/src/content /repo/apps/atlas/src/content
 COPY apps/atlas/src/content/dossiers ./src/content/dossiers/
 RUN npm run build
 
@@ -32,12 +34,13 @@ COPY apps/engine/geoploitica_engine ./geoploitica_engine
 RUN python3 -m venv .venv && .venv/bin/pip install --no-cache-dir --upgrade pip && .venv/bin/pip install --no-cache-dir .
 
 # web
-WORKDIR /app/web
-COPY --from=web-build /app/.next ./.next
-COPY --from=web-build /app/public ./public
-COPY --from=web-build /app/src/content ./src/content
-COPY --from=web-build /app/package*.json ./
-COPY --from=web-build /app/node_modules ./node_modules
+WORKDIR /repo/apps/web
+COPY --from=web-build /repo/apps/web/.next ./.next
+COPY --from=web-build /repo/apps/web/public ./public
+COPY --from=web-build /repo/apps/web/src/content ./src/content
+COPY --from=web-build /repo/apps/web/package*.json ./
+COPY --from=web-build /repo/apps/web/node_modules ./node_modules
+COPY --from=web-build /repo/apps/atlas/src/content /repo/apps/atlas/src/content
 
 COPY deploy/start.sh /app/start.sh
 RUN chmod +x /app/start.sh

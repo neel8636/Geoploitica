@@ -1,5 +1,5 @@
 import type { CauseLayer, LineChart, Scenario, Source, WatchItem } from "@/content/types";
-import { formatDate } from "@/content/dossiers";
+import { formatDate } from "@/content/format";
 
 const fmtDay = (iso: string) => {
   const [, m, d] = iso.split("-").map(Number);

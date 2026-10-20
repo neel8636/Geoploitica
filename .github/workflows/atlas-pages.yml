@@ -87,6 +87,8 @@ jobs:
         env:
           STATIC_EXPORT: "1"
           BASE_PATH: /${{ github.event.repository.name }}
+          # the enterprise server that generates reports on demand from an event page
+          NEXT_PUBLIC_REPORT_API: ${{ vars.REPORT_API || 'https://geoploitica.onrender.com' }}
         run: npm run build
 
       # Pushing the build to a gh-pages branch is what Pages serves (Settings → Pages → gh-pages, root).
