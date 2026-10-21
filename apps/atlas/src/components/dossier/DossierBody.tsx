@@ -23,7 +23,8 @@ import MembersOnly from "@/components/auth/MembersOnly";
   The whole report sits behind a free account. SHARED FILE (npm run sync:shared in apps/atlas).
 */
 
-const CHAPTERS = [
+export type ChapterId = "card" | "how-it-connects" | "brief" | "deep" | "evidence";
+const CHAPTERS: { id: ChapterId; label: string }[] = [
   { id: "card", label: "In 30 seconds" },
   { id: "how-it-connects", label: "How it connects" },
   { id: "brief", label: "The brief" },
@@ -40,6 +41,8 @@ export function DossierBody({
   errorUrl,
   after,
   connections,
+  parts,
+  embedded = false,
 }: {
   d: Dossier;
   backHref?: string;
@@ -47,10 +50,14 @@ export function DossierBody({
   errorUrl?: string; // where readers report a mistake
   after?: ReactNode; // anything the page adds at the end
   connections?: ConnRow[];
+  parts?: ChapterId[]; // only these chapters (the reader picked a shorter report); default all
+  embedded?: boolean; // inside an event page's report chooser, which already shows the title
 }) {
   const S = d.evidence.sources;
   const conns = connections ?? [];
-  const chapters = CHAPTERS.filter((c) => c.id !== "how-it-connects" || conns.length);
+  const want = (id: ChapterId) => !parts || parts.includes(id);
+  const chapters = CHAPTERS.filter((c) => want(c.id) && (c.id !== "how-it-connects" || conns.length));
+  const has = (id: ChapterId) => chapters.some((c) => c.id === id);
   const n = (id: string) => chapters.findIndex((c) => c.id === id) + 1;
   const likely = [...d.deep.scenarios].sort((a, b) => b.probability - a.probability)[0];
   const nextWatch = [...d.deep.watch].filter((w) => w.date).sort((a, b) => ((a.date ?? "") < (b.date ?? "") ? -1 : 1))[0];
@@ -66,18 +73,24 @@ export function DossierBody({
       points={["The 30-second card: the headline, the key number and what it means for you", "How it connects, step by step", "The 5-minute brief: what happened, why it matters, who wins and who loses", "The deep dive: causes, scenarios with odds, predictions on the record", "Every source, with a confidence label on each claim"]}
       anchors={["card", "how-it-connects", "brief", "deep", "evidence"]}
     >
-      <article className="mx-auto max-w-3xl px-4 pb-12 pt-6 sm:px-6">
-        <p className="text-sm text-ink-2">
-          <Link href={backHref} className="hover:underline">{backLabel}</Link> · Report · {d.region} · updated {formatDate(d.updated)}
-        </p>
-        <h1 className="mt-2 text-[2.1rem] leading-[1.12] sm:text-[2.6rem]">{d.title}</h1>
-        <p className="mt-3 font-serif text-lg leading-relaxed text-ink-2">{d.deck}</p>
+      <article className={embedded ? "mx-auto max-w-3xl pb-12 pt-2" : "mx-auto max-w-3xl px-4 pb-12 pt-6 sm:px-6"}>
+        {embedded ? (
+          <p className="text-sm text-ink-2">Report · {d.region} · updated {formatDate(d.updated)}</p>
+        ) : (
+          <>
+            <p className="text-sm text-ink-2">
+              <Link href={backHref} className="hover:underline">{backLabel}</Link> · Report · {d.region} · updated {formatDate(d.updated)}
+            </p>
+            <h1 className="mt-2 text-[2.1rem] leading-[1.12] sm:text-[2.6rem]">{d.title}</h1>
+            <p className="mt-3 font-serif text-lg leading-relaxed text-ink-2">{d.deck}</p>
+          </>
+        )}
         <Trust d={d} errorUrl={errorUrl} />
 
-        <ChapterBar chapters={chapters} />
+        {chapters.length > 2 ? <ChapterBar chapters={chapters} /> : null}
 
         {/* the whole report in three points */}
-        <div className="mt-6 rounded-2xl border border-gold/60 bg-paper-2 p-5">
+        {has("card") ? <div className="mt-6 rounded-2xl border border-gold/60 bg-paper-2 p-5">
           <p className="text-[12px] font-semibold uppercase tracking-[0.12em] text-gold">In three points</p>
           <ol className="mt-3 space-y-3">
             {three.map((t, i) => (
@@ -87,10 +100,10 @@ export function DossierBody({
               </li>
             ))}
           </ol>
-        </div>
+        </div> : null}
 
         {/* 1. the card */}
-        <Chapter n={n("card")} id="card" title="In 30 seconds" minutes={d.readingMinutes.card} lead="The number that matters, what it means for you, and how far it spreads">
+        {has("card") ? <Chapter n={n("card")} id="card" title="In 30 seconds" minutes={d.readingMinutes.card} lead="The number that matters, what it means for you, and how far it spreads">
           <div className="grid gap-6 sm:grid-cols-[1fr_1fr]">
             <div className="rounded-xl border border-line p-4">
               <p className="text-[12px] font-semibold uppercase tracking-[0.1em] text-ink-2">The key number</p>
@@ -112,17 +125,17 @@ export function DossierBody({
               <RippleMap centre={d.title} rings={d.card.ripple} compact />
             </Fold>
           </div>
-        </Chapter>
+        </Chapter> : null}
 
         {/* 2. how it connects */}
-        {conns.length ? (
+        {has("how-it-connects") ? (
           <Chapter n={n("how-it-connects")} id="how-it-connects" title="How it connects" lead={`${plural(conns.length, "connection")}, each from cause to effect; open one to read it`}>
             <HowItConnects rows={conns} />
           </Chapter>
         ) : null}
 
         {/* 3. the brief */}
-        <Chapter n={n("brief")} id="brief" title="The brief" minutes={d.readingMinutes.brief} lead="What happened, why it matters, who wins and loses, what comes next">
+        {has("brief") ? <Chapter n={n("brief")} id="brief" title="The brief" minutes={d.readingMinutes.brief} lead="What happened, why it matters, who wins and loses, what comes next">
           <div className="space-y-10 text-[16.5px]">
             <div>
               <Sub id="what-happened">What happened</Sub>
@@ -163,10 +176,10 @@ export function DossierBody({
               </div>
             </Fold>
           </div>
-        </Chapter>
+        </Chapter> : null}
 
         {/* 4. the deep dive: one module at a time */}
-        <Chapter n={n("deep")} id="deep" title="Deep dive" minutes={d.readingMinutes.deep} lead="Open the part you need; each says what is inside">
+        {has("deep") ? <Chapter n={n("deep")} id="deep" title="Deep dive" minutes={d.readingMinutes.deep} lead="Open the part you need; each says what is inside">
           <div className="space-y-3">
             <Fold id="timeline" title="How it unfolded" teaser={`${plural(d.deep.timeline.length, "moment")}${d.deep.timeline[0] ? `, from ${formatDate(d.deep.timeline[0].date)}` : ""}`}>
               <Timeline events={d.deep.timeline} sources={S} />
@@ -272,10 +285,10 @@ export function DossierBody({
               </ul>
             </Fold>
           </div>
-        </Chapter>
+        </Chapter> : null}
 
         {/* 5. evidence */}
-        <Chapter n={n("evidence")} id="evidence" title="Evidence" minutes={2} lead={`${plural(S.length, "source")}, a confidence label on each claim, every fix logged`}>
+        {has("evidence") ? <Chapter n={n("evidence")} id="evidence" title="Evidence" minutes={2} lead={`${plural(S.length, "source")}, a confidence label on each claim, every fix logged`}>
           <div className="space-y-3">
             <Fold id="confidence" title="How sure we are" teaser={`${plural(d.evidence.confidence.length, "claim")} rated high, medium or low`}>
               <ul className="space-y-2 text-[15px]">
@@ -312,7 +325,7 @@ export function DossierBody({
               ) : null}
             </Fold>
           </div>
-        </Chapter>
+        </Chapter> : null}
         {after}
       </article>
     </MembersOnly>

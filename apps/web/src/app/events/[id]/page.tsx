@@ -12,6 +12,9 @@ import { connectionsFor } from "@/content/connections";
 import { ImpactMeter } from "@/components/dossier/Primitives";
 import BuildCard from "@/components/reports/BuildCard";
 import RippleStrip from "@/components/dossier/RippleStrip";
+import HowItConnects from "@/components/dossier/HowItConnects";
+import MembersOnly from "@/components/auth/MembersOnly";
+import ReportChooser, { type ReadOption } from "@/components/reports/ReportChooser";
 import { plainHeadline } from "@/content/plain";
 
 export function generateStaticParams() {
@@ -31,60 +34,105 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
   const report = getDossier(e.id);
   const links = neighbours(e.id);
 
+  const chains = connectionsFor(e.id);
+  const options: ReadOption[] = [
+    {
+      id: "quick",
+      label: "Quick take",
+      time: "2 min",
+      blurb: "What happened and what it touches, in plain words.",
+      icon: "quick",
+      view: (
+        <div className="space-y-4">
+          <div className="rounded-xl border border-line px-4 py-3 text-[16px]">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.1em] text-ink-2">The facts</p>
+            <p className="mt-1 leading-relaxed">{e.summary}</p>
+          </div>
+          <Suspense fallback={null}>
+            <LiveTop id={e.id} />
+          </Suspense>
+          <RippleStrip eventId={e.id} />
+        </div>
+      ),
+    },
+    {
+      id: "connect",
+      label: "How it connects",
+      time: "4 min",
+      blurb: "Each link from cause to effect, step by step.",
+      icon: "connect",
+      members: true,
+      view: (
+        <MembersOnly title="Sign in to read every connection step by step" points={["Each link from cause to effect", "What to watch on each one"]} compact>
+          {chains.length ? <HowItConnects rows={chains} /> : <p className="text-ink-2">No connections drafted yet; the hourly run adds them.</p>}
+        </MembersOnly>
+      ),
+    },
+    ...(report
+      ? [
+          {
+            id: "brief",
+            label: "The brief",
+            time: `${report.readingMinutes.card + report.readingMinutes.brief} min`,
+            blurb: "The key number, who wins and loses, what comes next.",
+            icon: "brief" as const,
+            members: true,
+            view: <DossierBody d={report} embedded parts={["card", "brief"]} />,
+          },
+          {
+            id: "full",
+            label: "Full report",
+            time: `about ${report.readingMinutes.card + report.readingMinutes.brief + report.readingMinutes.deep} min`,
+            blurb: "Everything: scenarios with odds, players, evidence.",
+            icon: "full" as const,
+            members: true,
+            view: <DossierBody d={report} embedded connections={connectionsFor(report.slug)} />,
+          },
+        ]
+      : []),
+    {
+      id: "news",
+      label: "Latest news",
+      time: "3 min",
+      blurb: "What is feeding it today, the headlines and the sources.",
+      icon: "news",
+      view: (
+        <div className="space-y-10">
+          <Suspense fallback={null}>
+            <LiveFuel id={e.id} />
+          </Suspense>
+          <div>
+            <h2 className="text-2xl">Sources</h2>
+            <ol className="mt-3 list-decimal space-y-1 pl-5 text-[15px]">
+              {e.sources.map((s) => (
+                <li key={s.url}>
+                  <a href={s.url} target="_blank" rel="noreferrer" className="hover:underline">{s.title}</a>
+                  <span className="text-ink-2"> — {s.publisher}{s.date ? `, ${formatDate(s.date)}` : ""}</span>
+                </li>
+              ))}
+            </ol>
+          </div>
+        </div>
+      ),
+    },
+    {
+      id: "build",
+      label: report ? "Build my own" : "Build the report",
+      time: "you pick",
+      blurb: "Snapshot, standard or deep dive, drafted fresh by Claude.",
+      icon: "build",
+      members: true,
+      view: <BuildCard eventId={e.id} title={e.title} aspects={links.filter((l) => l.flow === "in" || l.flow === "both").map((l) => l.aspect)} existing={Boolean(report)} hasReport={Boolean(report)} bare />,
+    },
+  ];
+
   return (
     <article className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
-      <p className="text-sm text-ink-2">
+      <p className="mb-4 text-sm text-ink-2">
         <Link href="/events" className="hover:underline">Events</Link> · {TYPE_LABELS[e.type]} · {e.region} ·{" "}
         {e.status === "scheduled" ? `scheduled ${formatDate(e.date)}` : `${e.status}, updated ${formatDate(e.date)}`}
       </p>
-
-      {/* first: build your report */}
-      <div className="mt-4">
-        <BuildCard eventId={e.id} title={e.title} aspects={links.filter((l) => l.flow === "in" || l.flow === "both").map((l) => l.aspect)} existing={Boolean(report)} hasReport={Boolean(report)} />
-      </div>
-
-      {/* then the ripple, in plain words */}
-      <h1 className="mt-8 max-w-4xl text-[2rem] leading-[1.15] sm:text-[2.6rem]">{plainHeadline(e.id)}</h1>
-      <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2">
-        <p className="text-[15px] font-medium">{e.title}</p>
-        <ImpactMeter level={e.severity} />
-      </div>
-      <RippleStrip eventId={e.id} />
-      <div className="mt-8 grid gap-4 lg:grid-cols-2">
-        <Suspense fallback={null}>
-          <LiveTop id={e.id} />
-        </Suspense>
-        <div className="rounded-xl border border-line px-4 py-3 text-[15px]">
-          <p className="text-[11px] font-semibold uppercase tracking-[0.1em] text-ink-2">The facts</p>
-          <p className="mt-1 text-ink-2">{e.summary}</p>
-        </div>
-      </div>
-
-      <Suspense fallback={null}>
-        <LiveFuel id={e.id} />
-      </Suspense>
-
-      <section className="mt-10">
-        <h2 className="text-2xl">Sources</h2>
-        <ol className="mt-3 list-decimal space-y-1 pl-5 text-[15px]">
-          {e.sources.map((s) => (
-            <li key={s.url}>
-              <a href={s.url} target="_blank" rel="noreferrer" className="hover:underline">{s.title}</a>
-              <span className="text-ink-2"> — {s.publisher}{s.date ? `, ${formatDate(s.date)}` : ""}</span>
-            </li>
-          ))}
-        </ol>
-      </section>
-
-      <section id="report" className="mt-12 scroll-mt-6 border-t-2 border-teal pt-8">
-        <p className="signpost">{report ? "Full report" : "Report"}</p>
-        {!report ? <p className="mt-2 text-[15px] text-ink-2">No report yet. <a href="#build" className="underline">Build one at the top of the page</a>.</p> : null}
-        {report ? (
-          <div className="mt-8">
-            <DossierBody d={report} backHref="/events" backLabel="All events" connections={connectionsFor(report.slug)} />
-          </div>
-        ) : null}
-      </section>
+      <ReportChooser title={e.title} hook={plainHeadline(e.id)} meta={<ImpactMeter level={e.severity} />} options={options} />
     </article>
   );
 }

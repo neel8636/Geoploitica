@@ -23,6 +23,7 @@ export const SHARED = [
   "components/dossier/ReportParts.tsx",
   "components/dossier/ChapterBar.tsx",
   "components/reports/BuildCard.tsx",
+  "components/reports/ReportChooser.tsx",
   "components/mapfirst/FamIcon.tsx",
   "components/auth/AuthProvider.tsx",
   "components/auth/AccountForms.tsx",
