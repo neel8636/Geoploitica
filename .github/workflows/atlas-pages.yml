@@ -1,7 +1,7 @@
 # The Atlas pipeline: pull headlines, draft missing or stale reports with the Claude API
 # (when the ANTHROPIC_API_KEY secret is set), commit any new content to main, publish the
 # static site to GitHub Pages and redeploy the enterprise edition when reports changed. Runs on
-# every push that touches apps/atlas, every hour, and on demand.
+# every push that touches apps/atlas, every 20 minutes, and on demand.
 name: "Atlas: wire, reports, publish"
 
 on:
@@ -9,11 +9,10 @@ on:
     branches: [main]
     paths: ["apps/atlas/**", ".github/workflows/atlas-pages.yml"]
   schedule:
-    # Every hour at :17. GitHub delays and sometimes drops scheduled runs set on the hour, so
-    # this sits off it; a run can still start a few minutes late when GitHub is busy. Each run
-    # pulls fresh headlines; reports are drafted only when missing or stale, so most hourly runs
-    # cost no Claude API calls.
-    - cron: "17 * * * *"
+    # Every 20 minutes. GitHub runs scheduled workflows on a best-effort basis and drops many
+    # of them on busy hours (hourly ran only 4 times in 15 hours), so three chances an hour
+    # keep the site within the hour in practice. Runs never overlap (see concurrency).
+    - cron: "7,27,47 * * * *"
   workflow_dispatch:
     inputs:
       stale_days:
@@ -60,6 +59,12 @@ jobs:
       - name: Pull the wire
         run: npm run wire || echo "wire fetch failed; building with the committed wire.json"
 
+      - name: What changed (a short AI line for events whose news is moving)
+        if: env.HAS_AUTH == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: npm run updates || echo "updates had failures; publishing what succeeded"
+
       - name: Draft reports
         if: env.HAS_AUTH == 'true'
         env:
@@ -80,7 +85,7 @@ jobs:
         run: |
           git config user.name "geopolitica-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add src/content/wire.json src/content/dossiers
+          git add src/content/wire.json src/content/updates.json src/content/dossiers
           if git diff --cached --quiet -- src/content/dossiers; then echo "reports=false" >> "$GITHUB_OUTPUT"; else echo "reports=true" >> "$GITHUB_OUTPUT"; fi
           if git diff --cached --quiet; then
             echo "no content changes"

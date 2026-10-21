@@ -47,6 +47,7 @@ export default function TodaysRipples({ cards, wireFetchedAt }: { cards: RippleC
     <section
       className="mt-8 rounded-lg border border-line bg-paper-2 p-5"
       aria-label="Today's ripples"
+      data-spotlight="today"
       aria-roledescription="carousel"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}

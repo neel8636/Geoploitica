@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import { EVENTS, allEdges } from "@/content/events";
 import { loadWire } from "@/content/wire";
 import EventsBrowser from "@/components/atlas/EventsBrowser";
+import { pulseMap } from "@/content/ripples";
 
 export const metadata: Metadata = { title: "Events" };
 
@@ -24,7 +25,7 @@ export default function EventsPage() {
       <h1 className="text-3xl">All events</h1>
       <p className="mt-1 text-ink-2">Everything the atlas tracks. Filter by kind; the map follows.</p>
       <Suspense fallback={null}>
-        <EventsBrowser stats={stats} />
+        <EventsBrowser stats={stats} pulse={pulseMap()} />
       </Suspense>
     </div>
   );

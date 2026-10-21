@@ -1,3 +1,5 @@
+import fs from "node:fs";
+import path from "node:path";
 import { EVENTS, TYPE_LABELS, neighbours, type WorldEvent } from "@/content/events";
 import { getDossier } from "@/content/dossiers";
 import { loadWire, type Wire } from "@/content/wire";
@@ -19,10 +21,37 @@ export interface RippleCard {
   trust: "reviewed" | "checked" | "auto" | "outdated" | "none"; // how far the report has been checked
   fresh: number; // matched headlines published in the 48 hours before the latest wire pull
   latest?: { title: string; publisher: string; url: string }; // the newest of them
+  pulse: Pulse; // how fast the news on this event is moving
+  recent: { title: string; publisher: string; url: string; published: string }[]; // newest first, up to 12
+  update?: EventUpdate; // the latest AI line on what changed, when there is one
+  incoming?: { id: string; title: string; day: number; via?: string }[]; // rising events that drive this one
   updated: string; // ISO date the card's content last changed
 }
 
 const DAY = 86_400_000;
+
+export interface Pulse {
+  day: number; // headlines in the last 24 hours
+  perDay: number; // average per day over the three days before that
+  trend: "rising" | "steady" | "cooling" | "quiet";
+}
+
+export interface EventUpdate {
+  at: string; // ISO
+  text: string; // one or two sentences: what changed
+  sources: { title: string; url: string; publisher: string }[];
+}
+
+let updatesCache: Record<string, EventUpdate[]> | null = null;
+export function loadUpdates(): Record<string, EventUpdate[]> {
+  if (updatesCache) return updatesCache;
+  try {
+    updatesCache = JSON.parse(fs.readFileSync(path.join(process.cwd(), "src", "content", "updates.json"), "utf8")) as Record<string, EventUpdate[]>;
+  } catch {
+    updatesCache = {};
+  }
+  return updatesCache;
+}
 
 function firstSentence(s: string): string {
   const m = /^(.+?[.!?])(\s|$)/.exec(s);
@@ -36,18 +65,34 @@ function namesEvent(title: string, e: WorldEvent): number {
   return e.keywords.filter((k) => new RegExp(`(^|[^\\p{L}])${k.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}($|[^\\p{L}])`, "u").test(t)).length;
 }
 
-function freshFor(e: WorldEvent, wire: Wire) {
-  const id = e.id;
+// Headlines that belong to an event: found by its own local-news search, or matched by the
+// world feeds with the event named in the title.
+function headlinesFor(e: WorldEvent, wire: Wire) {
   const now = Date.parse(wire.fetchedAt ?? "") || 0;
-  const items = wire.items
-    .map((i) => ({ ...i, hits: i.eventIds.includes(id) ? namesEvent(i.title, e) : 0 }))
+  return wire.items
+    .map((i) => ({ ...i, hits: i.found === e.id ? 3 : i.eventIds.includes(e.id) ? namesEvent(i.title, e) : 0 }))
     .filter((i) => i.hits > 0)
     // items without a real date carry the fetch time; they say nothing about freshness
-    .filter((i) => i.published !== wire.fetchedAt && now - Date.parse(i.published) < 2 * DAY && Date.parse(i.published) <= now + 3_600_000)
+    .filter((i) => i.published !== wire.fetchedAt && Date.parse(i.published) <= now + 3_600_000)
     .sort((a, b) => (a.published < b.published ? 1 : -1));
+}
+
+function freshFor(e: WorldEvent, wire: Wire) {
+  const now = Date.parse(wire.fetchedAt ?? "") || 0;
+  const all = headlinesFor(e, wire);
+  const age = (i: { published: string }) => now - Date.parse(i.published);
+  const items = all.filter((i) => age(i) < 2 * DAY);
+  const day = all.filter((i) => age(i) < DAY).length;
+  const before = all.filter((i) => age(i) >= DAY && age(i) < 4 * DAY).length / 3;
+  const trend: Pulse["trend"] = day === 0 && before < 0.5 ? "quiet" : day >= Math.max(4, before * 1.8) ? "rising" : day <= before * 0.5 ? "cooling" : "steady";
   // the card's "latest" is the newest headline that names the event most clearly
   const best = Math.max(0, ...items.map((i) => i.hits));
-  return { n: items.length, latest: items.find((i) => i.hits === best) };
+  return {
+    n: items.length,
+    latest: items.find((i) => i.hits === best),
+    pulse: { day, perDay: Math.round(before * 10) / 10, trend },
+    recent: all.slice(0, 12).map((i) => ({ title: i.title, publisher: i.publisher, url: i.url, published: i.published })),
+  };
 }
 
 export function rippleFor(e: WorldEvent, wire: Wire = loadWire()): RippleCard {
@@ -75,13 +120,32 @@ export function rippleFor(e: WorldEvent, wire: Wire = loadWire()): RippleCard {
     trust,
     fresh: f.n,
     latest: f.latest ? { title: f.latest.title, publisher: f.latest.publisher, url: f.latest.url } : undefined,
+    pulse: f.pulse,
+    recent: f.recent,
+    update: loadUpdates()[e.id]?.[0],
     updated: own?.updated ?? e.date,
   };
 }
 
+let cache: { at: string | null; cards: RippleCard[] } | null = null;
 export function allRipples(): RippleCard[] {
   const wire = loadWire();
-  return EVENTS.map((e) => rippleFor(e, wire));
+  if (cache && cache.at === wire.fetchedAt) return cache.cards;
+  const first = EVENTS.map((e) => rippleFor(e, wire));
+  // a ripple incoming: a connected event that drives this one and whose news is rising
+  const byId = new Map(first.map((c) => [c.id, c]));
+  const cards = first.map((c) => ({
+    ...c,
+    incoming: neighbours(c.id)
+      .filter((n) => (n.flow === "in" || n.flow === "both") && byId.get(n.event.id)?.pulse.trend === "rising")
+      .map((n) => ({ id: n.event.id, title: n.event.title, day: byId.get(n.event.id)!.pulse.day, via: n.via })),
+  }));
+  cache = { at: wire.fetchedAt, cards };
+  return cards;
+}
+
+export function pulseMap(): Record<string, Pulse["trend"]> {
+  return Object.fromEntries(allRipples().map((r) => [r.id, r.pulse.trend]));
 }
 
 /*

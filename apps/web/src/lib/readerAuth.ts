@@ -8,6 +8,7 @@ import { createRemoteJWKSet, jwtVerify } from "jose";
 
     FIREBASE_PROJECT_ID   default geopolitica-941b0
     READER_REPORTS_PER_DAY  default 3
+    READER_QUESTIONS_PER_DAY  default 20
 */
 const PROJECT = process.env.FIREBASE_PROJECT_ID ?? "geopolitica-941b0";
 const JWKS = createRemoteJWKSet(new URL("https://www.googleapis.com/service_accounts/v1/jwk/securetoken@system.gserviceaccount.com"));
@@ -34,22 +35,30 @@ export async function verifyReader(authorization: string | null): Promise<Reader
 }
 
 // In memory: resets when the server restarts, which on this plan is roughly daily. Good enough
-// to stop one account from running up the bill; not an accounting system.
+// to stop one account from running up the bill; not an accounting system. Separate allowances
+// per feature ("reports", "ask").
 const used = new Map<string, { day: string; n: number }>();
 
-export function perDay(): number {
-  const n = Number(process.env.READER_REPORTS_PER_DAY ?? "3");
-  return Number.isFinite(n) && n >= 0 ? n : 3;
+const LIMITS: Record<string, [string, number]> = {
+  reports: ["READER_REPORTS_PER_DAY", 3],
+  ask: ["READER_QUESTIONS_PER_DAY", 20],
+};
+
+export function perDay(kind = "reports"): number {
+  const [env, fallback] = LIMITS[kind] ?? ["", 3];
+  const n = Number(process.env[env] ?? fallback);
+  return Number.isFinite(n) && n >= 0 ? n : fallback;
 }
 
-export function remaining(uid: string): number {
+export function remaining(uid: string, kind = "reports"): number {
   const day = new Date().toISOString().slice(0, 10);
-  const u = used.get(uid);
-  return perDay() - (u && u.day === day ? u.n : 0);
+  const u = used.get(`${kind}:${uid}`);
+  return perDay(kind) - (u && u.day === day ? u.n : 0);
 }
 
-export function spend(uid: string): void {
+export function spend(uid: string, kind = "reports"): void {
   const day = new Date().toISOString().slice(0, 10);
-  const u = used.get(uid);
-  used.set(uid, { day, n: u && u.day === day ? u.n + 1 : 1 });
+  const k = `${kind}:${uid}`;
+  const u = used.get(k);
+  used.set(k, { day, n: u && u.day === day ? u.n + 1 : 1 });
 }

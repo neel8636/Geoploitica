@@ -50,7 +50,8 @@ export default function GuidePage() {
           connection it is, the <span className="text-ink">channel</span> the ripple travels through, and the sentence that justifies it.
         </p>
         <p>
-          <span className="text-ink">Solid lines are the ripple itself.</span> One event acts on the other. Example: the Gulf energy
+          <span className="text-ink">Solid lines are the ripple itself.</span> One event acts on the other, and the arrow shows
+          which way: one arrow when one event drives the other, two when each drives the other. Example: the Gulf energy
           shock <em>feeds into</em> France&apos;s unrest, via fuel prices; the unrest <em>affects</em> French bonds, via the risk premium
           investors demand after each violent weekend. Follow solid lines to trace consequences: if one worsens, expect the next to move.
         </p>

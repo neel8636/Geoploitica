@@ -12,6 +12,7 @@ export interface WireItem {
   published: string; // ISO
   summary?: string;
   eventIds: string[]; // matched events, may be empty
+  found?: string; // the event whose own local-news search found it
 }
 
 export interface Wire {

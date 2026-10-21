@@ -87,6 +87,33 @@ config, so every layer is open.
 
 This is a reading wall, not access control: the site is static and the repository is public.
 
+## Live news, direction, tracker, Ask
+
+- **Local news per event.** Besides the world feeds, `npm run wire` runs one Google News search per
+  event (`src/content/news.ts`) in the English edition nearest to where it happens (UK edition for
+  Europe, Canada, India, Philippines, Kenya, Israel, Australia, else US). Items found this way carry
+  `found: <event id>`.
+- **Pulse.** Each event's headlines in the last 24 hours against the three days before give a trend:
+  rising, steady, cooling or quiet. Rising events pulse on the map; a small dot travels along their
+  outgoing one-way lines; connected events they drive show "Ripple incoming".
+- **What changed.** `npm run updates` asks Claude for one or two sentences on what is new for events
+  with 3+ new headlines since their last line (up to 6 per run), written only from those headlines,
+  with the headlines cited. History (8 per event) is kept in `src/content/updates.json`.
+- **Direction.** `flowBetween()` in `events.ts` reads what each link means: causes, affects and
+  amplifies run from the record's event; "is a response to" runs the other way; links recorded both
+  ways make a two-way ripple; dotted links have no direction. Arrows on the map and icons in every
+  connection row show it.
+- **Tracker.** Follow any event or driver (bookmark icon). `/tracker` shows new headlines since you
+  last looked, the latest "what changed" line, and connected events that are moving, with the
+  direction of their ripple. Kept in the browser and, when signed in, in `users/{uid}.tracker`.
+- **Ask.** The Ask panel sends a question about one event to the enterprise server's `/api/ask`
+  (signed-in readers, `READER_QUESTIONS_PER_DAY`, default 20), which answers with Claude from the
+  event's report, connections and the headlines on the page, streaming the answer.
+- **Spotlight.** A four-step tour on the first visit to the home page; "Take the tour" in the footer
+  replays it.
+- **Schedule.** The pipeline runs every 20 minutes (GitHub drops many scheduled runs; three chances an
+  hour keep the site within the hour).
+
 ## Ripples: postcards, Today's ripples, live updates
 
 - **Postcards.** Clicking any event (a map dot, a title in a list, a connection) opens its ripple

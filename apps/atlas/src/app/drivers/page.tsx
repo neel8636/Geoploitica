@@ -3,6 +3,7 @@ import Link from "next/link";
 import { EVENTS, allEdges, getEvent } from "@/content/events";
 import { DRIVERS } from "@/content/drivers";
 import EventLink from "@/components/ripple/EventLink";
+import FollowButton from "@/components/tracker/FollowButton";
 import { LineKinds } from "@/components/atlas/MapLegend";
 import { SITE_URL } from "@/lib/site";
 
@@ -45,7 +46,10 @@ export default function DriversPage() {
             const links = linksFor(d.id);
             return (
               <li key={d.id} id={d.id} className="scroll-mt-24 border-t border-line pt-6">
-                <h2 className="text-2xl">{d.name}</h2>
+                <div className="flex flex-wrap items-center justify-between gap-3">
+                  <h2 className="text-2xl">{d.name}</h2>
+                  <FollowButton id={`driver:${d.id}`} label="Follow this driver" compact />
+                </div>
                 <div className="mt-2 grid gap-6 lg:grid-cols-[1fr_1fr]">
                   <div className="prose-dossier space-y-2 text-ink-2">
                     <p><span className="text-ink">What it is.</span> {d.what}</p>

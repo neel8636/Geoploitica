@@ -8,6 +8,10 @@ import LinkRow from "@/components/ripple/LinkRow";
 import RippleMap from "@/components/RippleMap";
 import { ImpactMeter } from "@/components/dossier/Primitives";
 import { track } from "@/lib/firebase";
+import { Share2, Sparkles, Radio, ArrowRight } from "lucide-react";
+import FollowButton from "@/components/tracker/FollowButton";
+import { AskButton } from "@/components/ask/AskProvider";
+import { PulseBadge, timeAgo } from "@/components/ripple/Pulse";
 
 export const TRUST_LABEL: Record<RippleCard["trust"], string> = {
   reviewed: "Reviewed report",
@@ -94,7 +98,10 @@ export default function RipplePostcard({
         <div className="pointer-events-none absolute inset-2 rounded-lg border border-line-2" aria-hidden />
         <div className="relative p-5 sm:p-8">
           <div className="flex items-start justify-between gap-4">
-            <p className="text-sm text-ink-2">{card?.kicker ?? "Ripple"}</p>
+            <div className="flex flex-wrap items-center gap-2">
+              <p className="text-sm text-ink-2">{card?.kicker ?? "Ripple"}</p>
+              {card ? <PulseBadge pulse={card.pulse} /> : null}
+            </div>
             <div className="flex shrink-0 items-center gap-2">
               <span className="hidden rotate-3 rounded-sm border-2 border-dashed border-teal px-2 py-0.5 font-sans text-[11px] font-semibold uppercase tracking-[0.15em] text-teal sm:inline-block" aria-hidden>
                 Ripple
@@ -123,21 +130,39 @@ export default function RipplePostcard({
                 <div className="mt-4"><ImpactMeter level={Math.min(5, Math.max(1, card.impact)) as 1 | 2 | 3 | 4 | 5} /></div>
                 <p className="mt-4 text-sm text-ink-2">
                   <span className={card.trust === "auto" || card.trust === "outdated" ? "text-amber" : "text-teal"}>{TRUST_LABEL[card.trust]}</span>
-                  {card.fresh ? <> · {card.fresh} new headline{card.fresh === 1 ? "" : "s"} in 48 hours</> : null}
                 </p>
-                {card.latest ? (
-                  <p className="mt-1 text-sm">
-                    Latest related headline:{" "}
-                    <a href={card.latest.url} target="_blank" rel="noreferrer" className="underline">{card.latest.title}</a>
-                    <span className="text-ink-3"> ({card.latest.publisher})</span>
+                {card.update ? (
+                  <p className="mt-3 flex gap-2 rounded-sm bg-paper-2 px-3 py-2 text-[15px]">
+                    <Sparkles size={16} className="mt-1 shrink-0 text-amber" aria-hidden />
+                    <span>
+                      <span className="font-medium">What changed · {timeAgo(card.update.at)}.</span> {card.update.text}
+                    </span>
                   </p>
                 ) : null}
+                {card.incoming?.length ? (
+                  <div className="mt-3 rounded-sm border border-amber/50 px-3 py-2 text-sm">
+                    <p className="flex items-center gap-1.5 font-medium"><Radio size={15} className="text-amber" aria-hidden /> Ripple incoming</p>
+                    <ul className="mt-1 space-y-1">
+                      {card.incoming.slice(0, 3).map((x) => (
+                        <li key={x.id} className="flex items-start gap-1.5 text-ink-2">
+                          <ArrowRight size={14} className="mt-0.5 shrink-0 text-teal" aria-hidden />
+                          <span>
+                            <button type="button" className="font-medium text-ink hover:underline" onClick={() => onOpen(x.id)}>{x.title}</button> is rising
+                            ({x.day} headlines today){x.via ? <> and reaches this via {x.via}</> : null}.
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : null}
                 <div className="mt-5 flex flex-wrap gap-2">
-                  <Link href={`/events/${card.id}`} onClick={onLeave} className="rounded-sm bg-teal px-4 py-2 text-paper no-underline hover:opacity-90">
+                  <Link href={`/events/${card.id}`} onClick={onLeave} className="inline-flex items-center rounded-sm bg-teal px-4 py-2 text-paper no-underline hover:opacity-90">
                     Open the full event
                   </Link>
-                  <button type="button" onClick={share} className="rounded-sm border border-line px-4 py-2 hover:border-ink">
-                    {shared || "Share this ripple"}
+                  <FollowButton id={card.id} />
+                  <AskButton eventId={card.id} />
+                  <button type="button" onClick={share} className="inline-flex items-center gap-1.5 rounded-sm border border-line px-3 py-2 hover:border-ink" aria-label="Share this ripple">
+                    <Share2 size={16} aria-hidden /> {shared || "Share"}
                   </button>
                 </div>
               </div>
@@ -167,11 +192,25 @@ export default function RipplePostcard({
             </div>
           ) : null}
 
+          {card && card.recent.length ? (
+            <div className="mt-6 border-t border-line pt-4">
+              <p className="signpost">Latest headlines{card.fresh ? ` · ${card.fresh} in 48 hours` : ""}</p>
+              <ul className="mt-2 grid gap-x-6 gap-y-1.5 text-sm sm:grid-cols-2">
+                {card.recent.slice(0, 6).map((h) => (
+                  <li key={h.url}>
+                    <a href={h.url} target="_blank" rel="noreferrer" className="hover:underline">{h.title}</a>
+                    <span className="text-ink-3"> · {h.publisher} · {timeAgo(h.published)}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
+
           {onward.length ? (
             <div className="mt-6 border-t border-line pt-4">
               <p className="signpost">Where it ripples next</p>
               <p className="mt-0.5 text-xs text-ink-3">
-                Solid line: this event acts on the next one, through the channel named. Dotted line: related through a shared driver. Click one to follow the chain.
+                The arrow shows which way each ripple travels; the shared-driver icon means a common force pushes both. Click one to follow the chain.
               </p>
               <ul className="mt-3 grid gap-4 sm:grid-cols-2">
                 {onward.map((l) => (

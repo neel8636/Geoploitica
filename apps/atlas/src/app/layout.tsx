@@ -10,6 +10,10 @@ import AuthProvider from "@/components/auth/AuthProvider";
 import AccountMenu from "@/components/auth/AccountMenu";
 import ConsentBanner from "@/components/auth/ConsentBanner";
 import RippleProvider from "@/components/ripple/RippleProvider";
+import FollowProvider from "@/components/tracker/FollowProvider";
+import AskProvider from "@/components/ask/AskProvider";
+import Spotlight, { ReplayTour } from "@/components/tour/Spotlight";
+import TrackerLink from "@/components/tracker/TrackerLink";
 import LiveUpdates from "@/components/ripple/LiveUpdates";
 import { loadWire } from "@/content/wire";
 import { todaysRipples } from "@/content/ripples";
@@ -36,6 +40,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       </head>
       <body className="min-h-full flex flex-col">
         <AuthProvider>
+        <AskProvider>
+        <FollowProvider>
         <RippleProvider>
         <header className="border-b border-line">
           <nav className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-5 gap-y-2 px-4 py-3 sm:px-6">
@@ -45,8 +51,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <div className="order-3 flex w-full items-center gap-4 overflow-x-auto whitespace-nowrap text-[15px] sm:order-2 sm:ml-auto sm:w-auto sm:gap-5">
               <Link href="/" className="no-underline hover:underline">Map</Link>
               <Link href="/events" className="no-underline hover:underline">Events</Link>
-              <Link href="/drivers" className="no-underline hover:underline">Drivers</Link>
-              <Link href="/wire" className="no-underline hover:underline">Wire</Link>
+              <Link href="/drivers" data-spotlight="drivers" className="no-underline hover:underline">Drivers</Link>
+              <TrackerLink />
               <Link href="/guide" className="no-underline hover:underline">How to use</Link>
               <span className="ml-auto sm:ml-0"><ThemeToggle /></span>
             </div>
@@ -62,13 +68,17 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <span className="flex gap-4">
               <Link href="/guide#method" className="hover:underline">How reports are made</Link>
               <Link href="/guide#privacy" className="hover:underline">Privacy</Link>
+              <ReplayTour />
               <a href="https://geopolitica-1rja.onrender.com" className="hover:underline">Enterprise edition</a>
             </span>
           </div>
         </footer>
         <ConsentBanner />
         <LiveUpdates version={wire.fetchedAt} today={today} />
+        <Spotlight />
         </RippleProvider>
+        </FollowProvider>
+        </AskProvider>
         </AuthProvider>
       </body>
     </html>

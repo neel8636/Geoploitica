@@ -73,15 +73,17 @@ export function getEvent(id: string): WorldEvent | undefined {
 }
 
 /* Edges in both directions, de-duplicated, so the map can draw each connection once. */
-export function allEdges(): { a: string; b: string; kind: LinkKind; why: string; via?: string; driver?: string }[] {
+export interface Edge { a: string; b: string; kind: LinkKind; why: string; via?: string; driver?: string; flow: Flow } // flow seen from a
+
+export function allEdges(): Edge[] {
   const seen = new Set<string>();
-  const out: { a: string; b: string; kind: LinkKind; why: string; via?: string; driver?: string }[] = [];
+  const out: Edge[] = [];
   for (const e of EVENTS) {
     for (const l of e.links) {
       const key = [e.id, l.to].sort().join("|");
       if (seen.has(key)) continue;
       seen.add(key);
-      out.push({ a: e.id, b: l.to, kind: l.kind, why: l.why, via: l.via, driver: l.driver });
+      out.push({ a: e.id, b: l.to, kind: l.kind, why: l.why, via: l.via, driver: l.driver, flow: flowBetween(e.id, l.to) });
     }
   }
   return out;
@@ -94,7 +96,43 @@ export interface Neighbour {
   why: string;
   via?: string;
   driver?: string;
-  direction: "out" | "in";
+  direction: "out" | "in"; // which event's record holds the link
+  flow: Flow; // which way the effect travels, seen from the event being looked at
+}
+
+/*
+  Which way a ripple travels. "out": this event drives the other; "in": the other drives this
+  one; "both": each drives the other (links recorded both ways); "shared": a dotted line, no
+  direction, a common driver pushes both. Read from what each link means, not from which
+  event's record it sits in: "A is a response to B" is an effect running from B to A.
+*/
+export type Flow = "out" | "in" | "both" | "shared";
+
+function effectsBetween(a: string, b: string): { ab: boolean; ba: boolean; shared: boolean } {
+  const r = { ab: false, ba: false, shared: false };
+  const mark = (from: string, l: Link) => {
+    const other = l.to;
+    if (DASHED_KINDS.includes(l.kind)) {
+      r.shared = true;
+      return;
+    }
+    // causes, affects, amplifies run from the record's event to the other; responds_to the reverse
+    const forward = l.kind !== "responds_to";
+    const src = forward ? from : other;
+    if (src === a) r.ab = true;
+    else r.ba = true;
+  };
+  for (const l of getEvent(a)?.links ?? []) if (l.to === b) mark(a, l);
+  for (const l of getEvent(b)?.links ?? []) if (l.to === a) mark(b, l);
+  return r;
+}
+
+export function flowBetween(me: string, other: string): Flow {
+  const r = effectsBetween(me, other);
+  if (r.ab && r.ba) return "both";
+  if (r.ab) return "out";
+  if (r.ba) return "in";
+  return "shared";
 }
 
 export function neighbours(id: string): Neighbour[] {
@@ -103,10 +141,10 @@ export function neighbours(id: string): Neighbour[] {
   const out: Neighbour[] = [];
   for (const l of me.links) {
     const event = getEvent(l.to);
-    if (event) out.push({ event, kind: l.kind, why: l.why, via: l.via, driver: l.driver, direction: "out" });
+    if (event) out.push({ event, kind: l.kind, why: l.why, via: l.via, driver: l.driver, direction: "out", flow: flowBetween(id, event.id) });
   }
   const ins: Neighbour[] = EVENTS.flatMap((e) =>
-    e.links.filter((l) => l.to === id).map((l) => ({ event: e, kind: l.kind, why: l.why, via: l.via, driver: l.driver, direction: "in" as const })),
+    e.links.filter((l) => l.to === id).map((l) => ({ event: e, kind: l.kind, why: l.why, via: l.via, driver: l.driver, direction: "in" as const, flow: flowBetween(id, e.id) })),
   ).filter((x) => !out.some((o) => o.event.id === x.event.id));
   return [...out, ...ins];
 }

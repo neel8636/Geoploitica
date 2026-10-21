@@ -5,6 +5,10 @@ import { EVENTS, TYPE_LABELS, getEvent, neighbours } from "@/content/events";
 import { formatDate, getDossier } from "@/content/dossiers";
 import { loadWire } from "@/content/wire";
 import WorldMap from "@/components/WorldMap";
+import { pulseMap, allRipples } from "@/content/ripples";
+import FollowButton from "@/components/tracker/FollowButton";
+import { AskButton } from "@/components/ask/AskProvider";
+import { PulseBadge } from "@/components/ripple/Pulse";
 import RippleMap from "@/components/RippleMap";
 import Connections from "@/components/atlas/Connections";
 import { DossierBody } from "@/components/dossier/DossierBody";
@@ -44,6 +48,7 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
   const cited = new Set(e.sources.map((s) => s.url));
   const headlines = wire.items.filter((i) => i.eventIds.includes(e.id) && !cited.has(i.url)).slice(0, 12);
   const links = neighbours(e.id);
+  const card = allRipples().find((r) => r.id === e.id);
 
   // The ripple map is drawn from the dossier when it is this event's own; otherwise from the event's connections.
   const own = dossier?.slug === e.id;
@@ -62,13 +67,37 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
       </p>
       <h1 className="mt-1 text-4xl sm:text-5xl">{e.title}</h1>
       <p className="prose-dossier mt-3 text-ink-2">{e.summary}</p>
-      <div className="mt-4"><ImpactMeter level={e.severity} /></div>
+      <div className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-3">
+        <ImpactMeter level={e.severity} />
+        {card ? <PulseBadge pulse={card.pulse} /> : null}
+      </div>
+      <div className="mt-4 flex flex-wrap gap-2">
+        <FollowButton id={e.id} />
+        <AskButton eventId={e.id} />
+      </div>
+      {card?.update ? (
+        <div className="mt-5 max-w-3xl rounded-sm bg-paper-2 px-4 py-3 text-[15px]">
+          <p>
+            <span className="font-medium">What changed · {card.update.at.slice(0, 16).replace("T", " ")} UTC.</span> {card.update.text}
+          </p>
+          <p className="mt-1 text-xs text-ink-3">
+            AI summary of{" "}
+            {card.update.sources.map((x, i) => (
+              <span key={x.url}>
+                {i ? ", " : ""}
+                <a href={x.url} target="_blank" rel="noreferrer" className="underline">{x.publisher}</a>
+              </span>
+            ))}
+            . Can be wrong; follow the links.
+          </p>
+        </div>
+      ) : null}
 
       <section className="mt-10 grid gap-10 lg:grid-cols-2">
         <div>
           <Signpost>Where it sits and what it touches</Signpost>
           <div className="mt-2 rounded-lg border border-line p-2">
-            <WorldMap focusId={e.id} compact />
+            <WorldMap focusId={e.id} compact pulse={pulseMap()} />
           </div>
           <p className="mt-2 text-sm text-ink-2">Lit arcs are this event&apos;s connections. Click any dot to see its ripple.</p>
         </div>

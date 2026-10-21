@@ -7,7 +7,7 @@ import WorldMap, { VIEWS, type View } from "@/components/WorldMap";
   The front-page map with the "start from a region" chips above it. The chips own the frame
   so the invitation and the map agree; every event stays drawn whichever frame is chosen.
 */
-export default function HomeExplorer() {
+export default function HomeExplorer({ pulse }: { pulse?: Record<string, "rising" | "steady" | "cooling" | "quiet"> }) {
   const [view, setView] = useState<View>("world");
   const chip = (v: View) =>
     `rounded-full border px-3 py-1 text-sm ${view === v ? "border-ink bg-ink text-paper" : "border-line hover:border-ink"}`;
@@ -22,8 +22,8 @@ export default function HomeExplorer() {
           </button>
         ))}
       </div>
-      <div className="mt-3">
-        <WorldMap view={view} onView={setView} hideFrames />
+      <div className="mt-3" data-spotlight="map">
+        <WorldMap view={view} onView={setView} hideFrames pulse={pulse} />
       </div>
     </div>
   );

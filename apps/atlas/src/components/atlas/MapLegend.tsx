@@ -34,6 +34,26 @@ export function DotSwatch({ fill, hollow, r = 6, size = 18 }: { fill?: string; h
 const ITEMS: { swatch: ReactNode; label: string; detail: string }[] = [
   { swatch: <LineSwatch />, label: "Solid line", detail: "one event acts on the other" },
   { swatch: <LineSwatch dashed />, label: "Dotted line", detail: "related, not cause and effect: a shared driver pushes both" },
+  {
+    swatch: (
+      <svg width={SW} height={14} viewBox={`0 0 ${SW} 14`} aria-hidden className="shrink-0">
+        <path d={`M2 7 L${SW - 2} 7`} stroke="var(--ink-2)" strokeWidth={1.2} />
+        <path d="M-3.5 -3 L3 0 L-3.5 3 Z" transform={`translate(${SW / 2} 7)`} fill="var(--ink-2)" />
+      </svg>
+    ),
+    label: "Arrow",
+    detail: "which way the ripple travels; two arrows mean both ways",
+  },
+  {
+    swatch: (
+      <svg width={SW} height={22} viewBox={`0 0 ${SW} 22`} aria-hidden className="shrink-0">
+        <circle cx={SW / 2} cy={11} r={5} fill="var(--teal)" stroke="var(--ink)" strokeWidth={1} />
+        <circle cx={SW / 2} cy={11} r={9} fill="none" stroke="var(--amber)" strokeWidth={1.5} />
+      </svg>
+    ),
+    label: "Pulsing dot",
+    detail: "its news is rising today; a moving dot on a line is that ripple travelling",
+  },
   { swatch: <LineSwatch lit />, label: "Highlighted line", detail: "a connection of the event you are pointing at; the rest fade" },
   {
     swatch: (
@@ -101,6 +121,10 @@ export function LineKinds({ wide = false }: { wide?: boolean }) {
         ))}
       </dl>
       <p className={`mt-3 text-sm text-ink-2 ${wide ? "max-w-3xl" : ""}`}>
+        Solid lines carry an arrow for <span className="text-ink">direction</span>: one way when one event drives the other,
+        both ways when each drives the other. Dotted lines have none, because a shared driver pushes both.
+      </p>
+      <p className={`mt-2 text-sm text-ink-2 ${wide ? "max-w-3xl" : ""}`}>
         Every line also names <span className="text-ink">how</span> the ripple travels, the channel: fuel prices, bond spreads,
         voters&apos; mood. A dotted line names the <span className="text-ink">driver</span> behind both events.{" "}
         <Link href="/drivers" className="underline">See all drivers</Link>.

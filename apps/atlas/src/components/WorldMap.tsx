@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useState, useSyncExternalStore } from "react";
 import { useRouter } from "next/navigation";
 import { useRipple } from "@/components/ripple/RippleProvider";
 import { geoNaturalEarth1, geoPath, geoInterpolate } from "d3-geo";
@@ -89,6 +89,7 @@ export default function WorldMap({
   view: controlledView,
   onView,
   hideFrames = false,
+  pulse,
 }: {
   focusId?: string;
   filter?: EventType | "all";
@@ -97,6 +98,7 @@ export default function WorldMap({
   view?: View; // controlled, when a parent owns the frame
   onView?: (v: View) => void;
   hideFrames?: boolean; // when the parent draws its own frame chips
+  pulse?: Record<string, "rising" | "steady" | "cooling" | "quiet">; // how fast each event's news is moving
 }) {
   const router = useRouter();
   const ripple = useRipple();
@@ -157,20 +159,30 @@ export default function WorldMap({
   };
   const offFrame = visible.filter((e) => !inBox(e, VIEWS[view].bbox));
 
-  const arc = (a: WorldEvent, b: WorldEvent) => {
+  const arcPoints = (a: WorldEvent, b: WorldEvent): [number, number][] => {
     // a great-circle arc sampled through the projection, so it curves with the map;
     // the ends snap to the spread dot positions so lines meet their dots
     const interp = geoInterpolate([a.lon, a.lat], [b.lon, b.lat]);
-    const [ax, ay] = pos(a);
-    const [bx, by] = pos(b);
-    const pts: string[] = [`M${ax.toFixed(1)} ${ay.toFixed(1)}`];
+    const pts: [number, number][] = [pos(a)];
     for (let i = 1; i < 24; i++) {
       const p = projection(interp(i / 24));
-      if (p) pts.push(`L${p[0].toFixed(1)} ${p[1].toFixed(1)}`);
+      if (p) pts.push([p[0], p[1]]);
     }
-    pts.push(`L${bx.toFixed(1)} ${by.toFixed(1)}`);
-    return pts.join("");
+    pts.push(pos(b));
+    return pts;
   };
+  const toPath = (pts: [number, number][]) => pts.map(([x, y], i) => `${i ? "L" : "M"}${x.toFixed(1)} ${y.toFixed(1)}`).join("");
+  // a small arrowhead at fraction t along the line, pointing from the first point to the last
+  const arrowAt = (pts: [number, number][], t: number, reverse: boolean) => {
+    const i = Math.max(1, Math.min(pts.length - 2, Math.round((pts.length - 1) * t)));
+    const [x0, y0] = pts[i - 1];
+    const [x1, y1] = pts[i + 1];
+    let ang = (Math.atan2(y1 - y0, x1 - x0) * 180) / Math.PI;
+    if (reverse) ang += 180;
+    const [x, y] = pts[i];
+    return `translate(${x.toFixed(1)} ${y.toFixed(1)}) rotate(${ang.toFixed(0)})`;
+  };
+  const calm = useReducedMotion(); // no travelling dots for readers who ask for less motion
 
   const hovered = hover ? EVENTS.find((e) => e.id === hover) : null;
   const detail = detailId ? EVENTS.find((e) => e.id === detailId) ?? null : null;
@@ -225,16 +237,29 @@ export default function WorldMap({
             const b = EVENTS.find((e) => e.id === ed.b)!;
             const lit = active ? ed.a === active || ed.b === active : false;
             const dim = active ? !lit : false;
+            const pts = arcPoints(a, b);
+            const d = toPath(pts);
+            const dashed = ed.kind === "shares_driver" || ed.kind === "competes_with";
+            const color = lit ? "var(--teal)" : "var(--ink-3)";
+            const op = dim ? 0.15 : lit ? 0.9 : 0.45;
+            // where the effect travels from: a ripple is "live" when its source's news is rising
+            const source = ed.flow === "out" ? ed.a : ed.flow === "in" ? ed.b : null;
+            const live = !dashed && !calm && source && pulse?.[source] === "rising" && !dim;
+            const head = (t: number, reverse: boolean) => (
+              <path d="M-3.5 -3 L3 0 L-3.5 3 Z" transform={arrowAt(pts, t, reverse)} fill={color} fillOpacity={op} />
+            );
             return (
-              <path
-                key={`${ed.a}|${ed.b}`}
-                d={arc(a, b)}
-                fill="none"
-                stroke={lit ? "var(--teal)" : "var(--ink-3)"}
-                strokeOpacity={dim ? 0.15 : lit ? 0.9 : 0.45}
-                strokeWidth={lit ? 1.6 : 0.9}
-                strokeDasharray={ed.kind === "shares_driver" || ed.kind === "competes_with" ? "3 3" : undefined}
-              />
+              <g key={`${ed.a}|${ed.b}`}>
+                <path d={d} fill="none" stroke={color} strokeOpacity={op} strokeWidth={lit ? 1.6 : 0.9} strokeDasharray={dashed ? "3 3" : undefined} />
+                {ed.flow === "out" ? head(0.55, false) : null}
+                {ed.flow === "in" ? head(0.45, true) : null}
+                {ed.flow === "both" ? <>{head(0.4, true)}{head(0.6, false)}</> : null}
+                {live ? (
+                  <circle r={2.6} fill="var(--amber)">
+                    <animateMotion dur="3.2s" repeatCount="indefinite" path={source === ed.a ? d : toPath([...pts].reverse())} />
+                  </circle>
+                ) : null}
+              </g>
             );
           })}
         </g>
@@ -251,6 +276,9 @@ export default function WorldMap({
             <g key={e.id} opacity={dim ? 0.35 : 1} style={{ cursor: "pointer" }}
               onMouseEnter={() => setHover(e.id)} onMouseLeave={() => setHover(null)}
               onClick={(ev) => { ev.stopPropagation(); choose(e.id); }}>
+              {pulse?.[e.id] === "rising" && !dim ? (
+                <circle cx={x} cy={y} r={r + 3} fill="none" stroke="var(--amber)" strokeWidth={1.5} className={calm ? "" : "map-pulse"} style={{ transformOrigin: `${x}px ${y}px` }} />
+              ) : null}
               {isActive || isSelected ? <circle cx={x} cy={y} r={r + 6} fill="none" stroke="var(--teal)" strokeWidth={isSelected ? 2 : 1} strokeOpacity={isSelected ? 0.9 : 0.6} /> : null}
               <circle cx={x} cy={y} r={r} fill={fill} stroke={isActive || related ? "var(--teal)" : "var(--ink)"} strokeWidth={isActive ? 2 : 1} tabIndex={0} role="button" aria-label={e.title} aria-pressed={compact ? undefined : isSelected} style={{ outline: "none" }}
                 onFocus={() => setHover(e.id)} onBlur={() => setHover(null)}
@@ -293,7 +321,7 @@ export default function WorldMap({
               {edges.filter((ed) => ed.a === hovered.id || ed.b === hovered.id).length} connections. Click to keep it in the panel.
             </>
           ) : (
-            <>{visible.length} events, {edges.length} connections. Point at a dot to preview it; click to keep it open; Esc clears. The Key tab explains the marks.</>
+            <>{visible.length} events, {edges.length} connections. Arrows show which way a ripple travels; a pulsing dot means its news is rising today. Click a dot to see its ripple.</>
           )}
         </figcaption>
       ) : (
@@ -302,5 +330,18 @@ export default function WorldMap({
         </figcaption>
       )}
     </figure>
+  );
+}
+
+const RM = "(prefers-reduced-motion: reduce)";
+function useReducedMotion(): boolean {
+  return useSyncExternalStore(
+    (cb) => {
+      const m = window.matchMedia?.(RM);
+      m?.addEventListener("change", cb);
+      return () => m?.removeEventListener("change", cb);
+    },
+    () => window.matchMedia?.(RM).matches ?? false,
+    () => false,
   );
 }

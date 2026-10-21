@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Pull world-news headlines from public RSS feeds, match them to the events in
-// src/content/events.ts by keyword, and write src/content/wire.json.
+// src/content/events.ts by keyword, add each event's own local-news search (Google News,
+// src/content/news.ts), and write src/content/wire.json.
 //
 //   npm run wire              fetch all feeds
 //   npm run wire -- --days 3  only keep items from the last 3 days (default 7)
@@ -13,6 +14,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { createHash } from "node:crypto";
 import { EVENTS } from "../src/content/events.ts";
+import { NEWS, newsUrl } from "../src/content/news.ts";
 
 const FEEDS = [
   { publisher: "BBC World", url: "https://feeds.bbci.co.uk/news/world/rss.xml" },
@@ -64,6 +66,7 @@ function parseFeed(xml) {
   const rss = xml.match(/<item[\s>][\s\S]*?<\/item>/gi) ?? [];
   for (const b of rss) {
     items.push({
+      source: tag(b, "source"),
       title: tag(b, "title"),
       url: tag(b, "link") || (b.match(/<guid[^>]*>(https?:[^<]+)<\/guid>/i)?.[1] ?? ""),
       published: tag(b, "pubDate") || tag(b, "dc:date"),
@@ -132,6 +135,60 @@ for (const feed of FEEDS) {
   }
 }
 
+// --- local news: one search per event ---------------------------------------------
+// Google News titles end in " - Publisher"; the publisher comes from <source>. A story the
+// world feeds already carried is kept once (by normalised title).
+const norm = (t) => t.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim();
+const titles = new Set(items.map((i) => norm(i.title)));
+let searched = 0;
+const PER_EVENT = 20;
+for (const e of EVENTS) {
+  const s = NEWS[e.id];
+  if (!s) continue;
+  try {
+    const res = await fetch(newsUrl(s), { headers: { "user-agent": "Mozilla/5.0 (geopolitica-atlas wire)" }, signal: AbortSignal.timeout(15_000) });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const parsed = parseFeed(await res.text())
+      .map((it) => ({ ...it, when: Date.parse(it.published) }))
+      .filter((it) => it.title && it.url && Number.isFinite(it.when) && it.when >= cutoff)
+      .sort((a, b) => b.when - a.when)
+      .slice(0, PER_EVENT);
+    let kept = 0;
+    for (const it of parsed) {
+      const publisher = it.source || it.title.split(" - ").pop() || "Google News";
+      const title = it.source && it.title.endsWith(` - ${it.source}`) ? it.title.slice(0, -(` - ${it.source}`).length) : it.title;
+      const n = norm(title);
+      const twin = items.find((x) => norm(x.title) === n);
+      if (twin) {
+        if (!twin.eventIds.includes(e.id)) twin.eventIds.push(e.id);
+        twin.found = twin.found ?? e.id;
+        continue;
+      }
+      if (titles.has(n)) continue;
+      titles.add(n);
+      const key = it.url.replace(/[?#].*$/, "");
+      if (seen.has(key)) continue;
+      seen.add(key);
+      const others = matchEvents(title).filter((x) => x !== e.id);
+      items.push({
+        id: createHash("sha1").update(key).digest("hex").slice(0, 12),
+        title,
+        url: it.url,
+        publisher,
+        published: new Date(it.when).toISOString(),
+        eventIds: [e.id, ...others],
+        found: e.id, // came from this event's own search
+      });
+      kept++;
+    }
+    searched++;
+    console.log(`local: ${e.id.padEnd(36)} ${String(kept).padStart(3)} new`);
+  } catch (err) {
+    console.log(`local: ${e.id.padEnd(36)} skipped: ${err.message}`);
+  }
+}
+console.log(`local news: ${searched}/${Object.keys(NEWS).length} searches answered`);
+
 // The sources already cited on each event join the wire too, so the page has a
 // backbone of vetted reporting even on a day when every feed is down.
 for (const e of EVENTS) {
@@ -162,4 +219,4 @@ for (const e of EVENTS) {
   if (n) console.log(`  ${String(n).padStart(3)}  ${e.title}`);
 }
 console.log(`\nwrote ${path.relative(process.cwd(), OUT)}`);
-if (ok === 0) process.exitCode = 1;
+if (ok === 0 && searched === 0) process.exitCode = 1;

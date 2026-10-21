@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { EVENTS, TYPE_LABELS, allEdges, type EventType } from "@/content/events";
 import { formatDate } from "@/content/dossiers";
-import { todaysRipples } from "@/content/ripples";
+import { pulseMap, todaysRipples } from "@/content/ripples";
 import TodaysRipples from "@/components/ripple/TodaysRipples";
 import EventLink from "@/components/ripple/EventLink";
 import { loadWire } from "@/content/wire";
@@ -62,7 +62,7 @@ export default function Home() {
       </ol>
 
       <div className="mt-8">
-        <HomeExplorer />
+        <HomeExplorer pulse={pulseMap()} />
       </div>
 
       <div className="mt-10 grid gap-10 lg:grid-cols-[1fr_1fr_16rem]">

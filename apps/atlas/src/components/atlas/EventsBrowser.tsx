@@ -13,7 +13,7 @@ const TYPES = Object.keys(TYPE_LABELS) as EventType[];
   The events index: a type filter, the map narrowed to that type, and the list.
   Everything is in memory, so the filter is instant and the page stays static.
 */
-export default function EventsBrowser({ stats }: { stats: Record<string, { degree: number; headlines: number }> }) {
+export default function EventsBrowser({ stats, pulse }: { stats: Record<string, { degree: number; headlines: number }>; pulse?: Record<string, "rising" | "steady" | "cooling" | "quiet"> }) {
   const params = useSearchParams();
   const fromUrl = params.get("type");
   const [filter, setFilter] = useState<EventType | "all">(
@@ -45,7 +45,7 @@ export default function EventsBrowser({ stats }: { stats: Record<string, { degre
       </div>
 
       <div className="mt-4">
-        <WorldMap filter={filter} compact />
+        <WorldMap filter={filter} compact pulse={pulse} />
       </div>
 
       <ol className="mt-8 divide-y divide-line-2 border-t border-line">
