@@ -260,7 +260,7 @@ const COMMON: { cta: string; body: ReactNode }[] = [
         <h1 className="mt-5 font-serif text-3xl sm:text-4xl" style={{ color: C.ivory }}>What does Geopolitica mean?</h1>
         <p className="mx-auto mt-4 max-w-2xl font-serif text-[17px] leading-relaxed sm:text-lg" style={{ color: C.ivory2 }}>
           {gold("Geo")} is the Earth: its places, borders, sea lanes and resources. {gold("Politica")} is the affairs of states and the
-          people in them. Together they ask one question: <span style={{ color: C.ivory }}>how does where things are shape who has power, and what they do with it?</span>
+          people in them. Together they ask one question: <span style={{ color: C.ivory }}>how does geography shape who holds power, and how they use it?</span>
         </p>
         <p className="mx-auto mt-4 max-w-2xl text-[15px] leading-relaxed" style={{ color: C.ivory2 }}>
           Geopolitica follows that one event at a time. A strike in one country, a war at sea or a vote in a capital ripples into prices,
