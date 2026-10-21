@@ -185,7 +185,7 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
         ) : null}
         {dossier ? (
           <div className="mt-8">
-            <DossierBody d={dossier} backHref="/" backLabel="Map" path={`/events/${e.id}/`} connections={connectionsFor(dossier.slug)} />
+            <DossierBody d={dossier} backHref="/" backLabel="Map" errorUrl={reportErrorUrl(e.title, `/events/${e.id}/`)} connections={connectionsFor(dossier.slug)} />
           </div>
         ) : null}
       </section>

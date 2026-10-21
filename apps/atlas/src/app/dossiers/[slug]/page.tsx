@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getDossier, listDossiers } from "@/content/dossiers";
 import { connectionsFor } from "@/content/connections";
+import { reportErrorUrl } from "@/lib/site";
 import { DossierBody } from "@/components/dossier/DossierBody";
 
 export function generateStaticParams() {
@@ -18,5 +19,5 @@ export default async function DossierPage(props: PageProps<"/dossiers/[slug]">) 
   const { slug } = await props.params;
   const d = getDossier(slug);
   if (!d) notFound();
-  return <DossierBody d={d} backHref="/dossiers" backLabel="All dossiers" connections={connectionsFor(d.slug)} />;
+  return <DossierBody d={d} backHref="/dossiers" backLabel="All dossiers" errorUrl={reportErrorUrl(d.title, `/dossiers/${d.slug}/`)} connections={connectionsFor(d.slug)} />;
 }
