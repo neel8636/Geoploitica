@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-21T20:55:56.106Z",
+  "fetchedAt": "2026-10-21T21:40:04.835Z",
   "items": [
     {
       "id": "ae67a79084b5",
       "title": "Which EU regulations affect your supply chain? EUDR, CSRD, PPWR, CBAM and more",
       "url": "https://www.coolset.com/academy/eu-supply-chain-regulations-eudr-csrd-csddd-cbam-ppwr",
       "publisher": "Coolset",
-      "published": "2026-10-21T20:55:56.104Z",
+      "published": "2026-10-21T21:40:04.833Z",
       "eventIds": [
         "eu-supply-chain-rules-2027"
       ]
@@ -16,10 +16,490 @@
       "title": "Opinion polling for the 2027 French presidential election",
       "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2027_French_presidential_election",
       "publisher": "Wikipedia",
-      "published": "2026-10-21T20:55:56.104Z",
+      "published": "2026-10-21T21:40:04.833Z",
       "eventIds": [
         "france-election-2027"
       ]
+    },
+    {
+      "id": "2532b7fb9bb1",
+      "title": "Official referendum results expected before 10:59 p.m. MT: Elections Alberta",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaUNPbjJCTnpfdlM0VGg1MEktR1ZfRVExVmltdjZPX2diTWM4Y2c2Y2tNOEdUOW1ydlJUR2o3UE1rVDZTMWcxN1lHWXZGRkpKV3NHRWZpX09nNnJHM3ZSMV9NV3Q5eU04VXM2REp0VkFZUWhsbkJ0bzdOeXJGOTg0SjgxTjZoaFhvaE83UFZnSXVZYzBNdkYyUHAycnBsTEgyUFRQSjEyNUJMN0xmYmsxWmF4aw?oc=5",
+      "publisher": "CTV News",
+      "published": "2026-10-21T21:36:43.000Z",
+      "eventIds": [
+        "alberta-independence-vote"
+      ],
+      "found": "alberta-independence-vote"
+    },
+    {
+      "id": "efbdad56759c",
+      "title": "Yemen: Tanks fire as fighting erupts on the outskirts of Taiz",
+      "url": "https://www.euronews.com/video/2026/10/21/yemen-tanks-fire-as-fighting-erupts-on-the-outskirts-of-taiz",
+      "publisher": "Euronews",
+      "published": "2026-10-21T21:33:02.000Z",
+      "summary": "Tanks and gunfire mark renewed clashes on the outskirts of Taiz. Inside the Yemeni city, mounting rubbish and blocked roads are raising concerns about public health.",
+      "eventIds": []
+    },
+    {
+      "id": "62732d8e111f",
+      "title": "EU agency says 31,000 Sudanese sought asylum as conflict deepens",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9lVkxGdnJfUU5qMnlEZkpuXzFremFTMmJQTHlId3B6RFZwX2M0ZFl2NUxFdndoaUxWRUlOV1JQVkM3NFVDdFVuVzdCZ05PdFo0?oc=5",
+      "publisher": "Sudan Tribune",
+      "published": "2026-10-21T21:32:09.000Z",
+      "eventIds": [
+        "sudan-darfur-kordofan-famine-alert"
+      ],
+      "found": "sudan-darfur-kordofan-famine-alert"
+    },
+    {
+      "id": "7bb0f852f06e",
+      "title": "Trump denies ordering Starlink slowdown in Ukraine, says he doesn't know who did",
+      "url": "https://www.cnbc.com/2026/10/21/trump-starlink-ukraine-elon-musk.html",
+      "publisher": "CNBC World",
+      "published": "2026-10-21T21:29:14.000Z",
+      "summary": "Asked if Elon Musk ordered the slowdown, Trump said, \"I don't know who did it, but I was not involved.\"",
+      "eventIds": []
+    },
+    {
+      "id": "8ada2bb40a6c",
+      "title": "Fact File: Claims about fraudulent results in Alberta referendum false, expert says",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQT1VtekpiN0YzeE0waUMyUFZOVnA1RGxGeklPTHdMSUZCRHIySW05MHhUNzA2LThjdmhadlF1MnRqRnh5cWpjMGZWTmRyMTVJNHcyNmExTU9TMkJFUm1yS3NFRkVRbHMzOHBPWFBBZWE4WVpmcFhaazlTbEhCZHZsV3FB?oc=5",
+      "publisher": "Yahoo News Canada",
+      "published": "2026-10-21T21:29:12.000Z",
+      "eventIds": [
+        "alberta-independence-vote"
+      ],
+      "found": "alberta-independence-vote"
+    },
+    {
+      "id": "008d7322ad26",
+      "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+      "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "published": "2026-10-21T21:27:41.000Z",
+      "summary": "Russia says it is \"ready in principle\" to resume peace talks and US President Donald Trump says the world is \"the closest we've been\" to ending the war.",
+      "eventIds": [
+        "ukraine-summit-diplomacy"
+      ]
+    },
+    {
+      "id": "7335149d9609",
+      "title": "A propos - In run-up to mass protests and riots, pro-Russian accounts amplified French anger, NGO finds",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSGFEMHdlei1UNGVGQUNJb1ZpRU1aaXVkRVJKOW9keEEzVHVDRmR4bFZnY1doc19nQktXbWVCU2NHU1pYeXI2OTB1aW83d0hwVElRdFEzWlJUZngwSnBjYXJDbWdBOXF2NkN6cGJUcG8zODV6NlJfT0F0Mk1ENElvWjFSZDRZY1hqMW1USHljSldoZlpSZ3RKeUhPV3ItUV82NEluSFV2M0lRZUd0UHRxVk1mZEFQSUVESUtZd2poMkhxTE8yMHNYQi1LWHVpbEI2dUpVVG5vdHNmai1CeGc?oc=5",
+      "publisher": "France 24",
+      "published": "2026-10-21T21:25:55.000Z",
+      "eventIds": [
+        "france-unrest-2026"
+      ],
+      "found": "france-unrest-2026"
+    },
+    {
+      "id": "132621c47449",
+      "title": "In run-up to mass protests and riots, pro-Russian accounts amplified French anger, NGO finds",
+      "url": "https://www.france24.com/en/tv-shows/a-propos/20261021-in-run-up-to-mass-protests-and-riots-pro-russian-accounts-amplified-french-anger-ngo-finds",
+      "publisher": "France 24",
+      "published": "2026-10-21T21:25:55.000Z",
+      "summary": "Research carried out by the Alliance4Europe NGO suggests that pro-Russian networks manipulated information online in an effort to exacerbate anger in France ahead of last weekend's massive protests and subsequent unrest. After analysing more than half a million posts across vario",
+      "eventIds": [
+        "france-unrest-2026"
+      ],
+      "found": "france-unrest-2026"
+    },
+    {
+      "id": "fd9dbdf6f539",
+      "title": "Mexico charges prosecutor with treason over US involvement in drug raid",
+      "url": "https://www.aljazeera.com/news/2026/10/21/mexico-charges-prosecutor-with-treason-over-us-involvement-in-drug-raid?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "published": "2026-10-21T21:25:21.000Z",
+      "summary": "The participation of US agents in an April drug operation has raised questions about whether Mexico's laws were upheld.",
+      "eventIds": []
+    },
+    {
+      "id": "1026c03a4fc8",
+      "title": "Persian Gulf oil exports surpass pre-war high as market adapts to Iran’s attacks",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRG40ekRPcUFxc05EOEhfaUFxMjJIN0lFQm9XcGVSZFBzbUZOU19mN3BLQThNOFJOUkNjczByeVI0ZUZPU1RVTUY4dG1kcGEtcjBtdVNPSndCbzRaeDdsQ2RwSzRJVURBaVRPLVEzeFVRQUJMODR2Qkt1SGRjUkFCQlBTQVM4ZHlxX1kxUWNRYW9sWTl5Ry1sNklicGJhM3U0dGxJRHUzcExzM1FXeFVYb0ZReEc3YXZnMjNDand3?oc=5",
+      "publisher": "New York Post",
+      "published": "2026-10-21T21:25:00.000Z",
+      "eventIds": [
+        "gulf-war-energy-shock"
+      ],
+      "found": "gulf-war-energy-shock"
+    },
+    {
+      "id": "06fc2912f30c",
+      "title": "Persian Gulf oil exports near pre-war levels bu...",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbElyOElhN3B6Z2JZb1FHd0I1cC1DbFlmWWpUR1ZuajlBcmJpT2xJdXppR2NOQTF5a25EVnZpYlZfYUg3NFM5VHVOdmpFZE0tNldsVDd1Rk5hT1J0Mms4Sy1lRVl3V0hNb3hRdnBZM1pvVHpEX0YtdzZZQVJnVDJ0MWhyeTZFUE1SUkpiZHp5NHFicFd4VHc?oc=5",
+      "publisher": "Pluang",
+      "published": "2026-10-21T21:24:14.000Z",
+      "eventIds": [
+        "gulf-war-energy-shock"
+      ],
+      "found": "gulf-war-energy-shock"
+    },
+    {
+      "id": "58fea97a0d5e",
+      "title": "Putin orders release of jailed American as he meets Trump envoy for Ukraine talks",
+      "url": "https://www.theguardian.com/world/2026/oct/21/putin-witkoff-russia-ukraine-trump-stephen-hubbard-release",
+      "publisher": "The Guardian World",
+      "published": "2026-10-21T21:23:37.000Z",
+      "summary": "<p>Russia frees Stephen Hubbard after US request while Steve Witkoff praises Putin, wanted by ICC as war criminal, as a ‘humanitarian’</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/live/2026/oct/21/donald-trump-south-carolina-data-centers-midterms-ukraine-witkoff-rus",
+      "eventIds": [
+        "ukraine-summit-diplomacy",
+        "us-midterms-2026",
+        "russia-record-budget-deficit-2026"
+      ]
+    },
+    {
+      "id": "568d1ac248fd",
+      "title": "In run-up to mass protests and riots, pro-Russian accounts amplified French anger, NGO finds",
+      "url": "https://www.france24.com/en/in-run-up-to-mass-protests-and-riots-pro-russian-accounts-amplified-french-anger-ngo-finds",
+      "publisher": "France 24",
+      "published": "2026-10-21T21:21:46.000Z",
+      "summary": "Research carried out by the Alliance4Europe NGO suggests that pro-Russian networks manipulated information online in an effort to exacerbate anger in France ahead of last weekend's massive protests and subsequent unrest. After analysing more than half a million posts across vario",
+      "eventIds": [
+        "france-unrest-2026"
+      ]
+    },
+    {
+      "id": "f67870a53240",
+      "title": "Meta fined $25 billion in New Mexico over Cambridge Analytica scandal",
+      "url": "https://www.france24.com/en/technology/20261021-meta-fined-25-billion-new-mexico-cambridge-analytica-scandal",
+      "publisher": "France 24",
+      "published": "2026-10-21T21:21:41.000Z",
+      "summary": "A New Mexico judge ordered Meta to pay $25 billion after a jury found the company deceived users in a case linked to the Cambridge Analytica scandal, media reported Wednesday. The ruling follows an $18 billion settlement with 48 other states over similar claims. Meta called the p",
+      "eventIds": []
+    },
+    {
+      "id": "a4507583b4ba",
+      "title": "Danielle Smith says Alberta will take inspiration from Quebec on immigration mandates",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQLTA3OTA4OTYzTlJocGRYcV9icUlUM1lCNmFKdVhNeW9paDRKdUluU3NHSlFTOG03NFExejVCY1o4RldzMTdQNDBnTmlfS3l4aTREelNKMnhvX25qWEltQzk2bmx3YWdqYi1jMVZ1dkVHNWh2d2dZbElXMjV4UXZhQnBGXzllVzdtR2J0R2Y5ZDdEdw?oc=5",
+      "publisher": "Calgary Herald",
+      "published": "2026-10-21T21:21:04.000Z",
+      "eventIds": [
+        "alberta-independence-vote"
+      ],
+      "found": "alberta-independence-vote"
+    },
+    {
+      "id": "2683b1bb776f",
+      "title": "The 2026 midterms are less than 2 weeks away. Which party has a better chance of winning? Here's what the latest polls say.",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNdHhTNlV5cVdhM1dsVkxJcGpWSE5DMERzYWYwYnpPV1YzM0hBS3lEVWpoeVc1Y3R4aUdKOHlBdDZ2Zkw2eTN3dlBST3ZKdHZvTmsxQ2V3bjlaNUtOMFVlLWdGbDAtMmNRQV91bUxnWDZXQWFLbldLd05HUXo0UUFKdXVaYU9TaUt4Z1hJQmozTGxjcndHSVpTR0Fqc05yZFVrTXIwWXNYc3ZxOEktNWFCQ1laTDVkRXJHeEs0cEV4b2JPUG5wMjhkUHhaZWlLc2ZaOHZlZEQ1TGZ4UXJsY2tHa3IzdlZ3dnNSMlVBd3J0MjhjVU9VWTR0aDhpQWQ5azR3SHBKM3RyVGJfUQ?oc=5",
+      "publisher": "Yahoo",
+      "published": "2026-10-21T21:17:36.000Z",
+      "eventIds": [
+        "us-midterms-2026"
+      ],
+      "found": "us-midterms-2026"
+    },
+    {
+      "id": "441e00918c21",
+      "title": "Tesla beats on earnings and sales even as auto revenue declines",
+      "url": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html",
+      "publisher": "CNBC World",
+      "published": "2026-10-21T21:15:57.000Z",
+      "summary": "Tesla reported better-than-expected third-quarter results.",
+      "eventIds": []
+    },
+    {
+      "id": "3b1e7d304aa3",
+      "title": "Oil is now flowing out of the Persian Gulf like before the Iran war. Why prices may still not come down anytime soon.",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPdUhINkV6d09DTmpHOG5sM1BaV0EzZGd0S1ZwS2pKTEZSY3JHc1h5OFRjU3NOZmNjY1dXLU5LY1V2R29IUzBCS1ZOb1p4UlVHLWl6SC1MeXh3YTgxcnFWbC1ZRDJ4WlIyTjVWLVhUQWg3TklGSEdKTUpZMkZ3VEM1WWc4QzN5WVBKRUU2TzU4WmxvNER2Y0tJQl8ta0FoRnA2ZzNCeHFCXzk4eVR5bFdnYWtONmx0WkF6ZlhrYzNhbkE1NTdXeEo5SU5aV2F5aFlWZHNDVnpsTktmS0lHZUstWUZubTdnV0hHcFp1T1hkNA?oc=5",
+      "publisher": "MarketWatch",
+      "published": "2026-10-21T21:14:00.000Z",
+      "eventIds": [
+        "gulf-war-energy-shock"
+      ],
+      "found": "gulf-war-energy-shock"
+    },
+    {
+      "id": "52fc054bdf85",
+      "title": "CoreWeave’s market confidence erodes as bond yields spike and stock sinks",
+      "url": "https://www.cnbc.com/2026/10/21/coreweaves-market-confidence-erodes-as-bond-yields-spike-stock-sinks.html",
+      "publisher": "CNBC World",
+      "published": "2026-10-21T21:12:29.000Z",
+      "summary": "CoreWeave shares are down 29% in October, and the spreads in its credit default swaps are widening.",
+      "eventIds": [
+        "france-debt-stress"
+      ]
+    },
+    {
+      "id": "6d6107aa6d72",
+      "title": "Opinion | A change is gonna come: The anti-Netanyahu bloc is building an unstoppable wave",
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOWDBtRDhrLTF0RzgzWE1FcGFEY1R3YWpucko4ajdxcGNTWU1TNTNBbk90X1czYW8tTXBWSWJRVUJ6djVqYzRDZXBnQThJVE4zamR1eXpSTzlBam1WNVhyYW1EN3hWOG1LY1l2QmFfS0ZUaU9rVGhnd3Q2VXRTUFV5TDBnUnlfY3M4SmRYbUdZOVpYMDc4dU4yU1JNaWE4c24xd0ZPT3FDLWlxVEpEdGI3dk82QjBadVRodTVWVGxaY2dyZkN3YlZtQXBqTjlvZnhHenlqUXRpNUMzSmJiUl9Bdk1CaTV6QWQwMUc0UE9tYTJTVmN2S0pPeVJmRHMyV0xvR05OLUVIUEI1UnprTUJ6SGFyS3g?oc=5",
+      "publisher": "Haaretz",
+      "published": "2026-10-21T21:12:00.000Z",
+      "eventIds": [
+        "israel-election-2026"
+      ],
+      "found": "israel-election-2026"
+    },
+    {
+      "id": "3f7f36ff231d",
+      "title": "The Paradox at the Heart of China’s Export Boom",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZEhUTjVuRjI5UzdGU1dfRWMwZy1LYXlwcnU3V2JTNWQ2Vl9seXpiOW5YVVNWQlJTeV9KY1YtOXR2aXVwV1plc05Gc01WX2pqdHAyQ3VxTjJYMERxekllV2dIZnBRRm9qd3AwWloxQ0xLb0NMdk1HOEdmQnZBcU5vd3R3R2VCT0x6RXcxN0t4NDE4MEQ0T0JEeGhR?oc=5",
+      "publisher": "Foreign Policy",
+      "published": "2026-10-21T21:11:15.000Z",
+      "eventIds": [
+        "china-q3-growth"
+      ],
+      "found": "china-q3-growth"
+    },
+    {
+      "id": "49abd97237b1",
+      "title": "Putin and Chinese Premier Li Qiang reaffirm strategic ties ahead of APEC summit",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOazhOam1weVFuWHU0bkk1VzNQMWVUdTVWeFBFRWdNTHFUY3FFU213akJnSGM4Y241TUpyV2tOYzRmS2NCQWRBNjlMSkhVMExOcFVRVGJFNGtWMDBOQngyQ0J1d2xFcEkxUm9LeGFnb01HLUtQLVpqczlGYlV5V1hLTFFVV2pydWtUMElCWkNpei1XQ1N3eDZlbUdDNTY3XzB6Q1FEZ0hSVTdNXzhUNjVZbDc2NVVGMGdvS0tIeml6c2p2V0NXTXlYVmZxSQ?oc=5",
+      "publisher": "The Standard (HK)",
+      "published": "2026-10-21T21:10:41.000Z",
+      "eventIds": [
+        "apec-shenzhen-2026",
+        "ukraine-summit-diplomacy"
+      ],
+      "found": "apec-shenzhen-2026"
+    },
+    {
+      "id": "c3ae8842a326",
+      "title": "Salazar Says Trump Will Back Her ‘Dignity Act,’ But Doesn't Show Any Evidence",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSWsxeTkxcGoxaVFaSTZ2MkY1MmlOT0lDVDFZbXJwbzE4TlBhYzNpczNwMURmOS0wRnM2ZGZDYzFXZnZjTkgtUTVkbmFjSWk5d0dTOWoxQUhqb2RySVdickFEZFZORTRQMkk0QjlTMTRfR1JzRGFaVlQtZlRCMmxHVEotdTZydTJJV2hVNQ?oc=5",
+      "publisher": "Digital Democracy Institute of the Americas (DDIA)",
+      "published": "2026-10-21T21:08:27.000Z",
+      "eventIds": [
+        "us-midterms-2026"
+      ],
+      "found": "us-midterms-2026"
+    },
+    {
+      "id": "601f202ba98f",
+      "title": "Trump heads to South Carolina to boost Senator Darline Graham in race",
+      "url": "https://www.aljazeera.com/news/2026/10/21/trump-heads-to-south-carolina-to-boost-senator-darline-graham-in-race?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "published": "2026-10-21T21:07:43.000Z",
+      "summary": "The race between the sister of late Senator Lindsey Graham and Democrat Annie Andrews has tightened in deep-red state.",
+      "eventIds": []
+    },
+    {
+      "id": "16f702eb6051",
+      "title": "Putin agrees to resume 3-way peace talks with Ukraine and US",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQXZaYTY5blYzZWJWYkJaQnI2M2RSSGJUcnpzSF9OMldoZjZxckRDRzhyb2JReEVNbEE5bjdZcUZlNzJ2b0YzQkRIZjltamVxVHVSaElldGhNUmlFZzdmZHpPOFBOSDNhbFV0NEdpYXBBN0w3VjlHV0JkSVQ3NG1hMHJMay14MWNuNDdQTldXaVE2Z205bjFkN05lVUh4TkloZWFvSm5FcGp0aS1nQ2JKcmNGTHB1NDhqdWJCaEM2NnoyRUE?oc=5",
+      "publisher": "Reuters",
+      "published": "2026-10-21T21:06:57.000Z",
+      "eventIds": [
+        "ukraine-summit-diplomacy"
+      ],
+      "found": "ukraine-summit-diplomacy"
+    },
+    {
+      "id": "90673b3e5786",
+      "title": "The Alberta Referendum, Winners and Losers",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RR29seXZKbm1tRkdSblZBSUlBckNGbXNrZXZDLVFmSmstenQtbEtoYUFKNkh0LUVkMkVDMG9MMTRiS1l2Sm1TU1JKNU9vajhDY2pLeURGaDlNOHhkekR0TE1BaFhWMF94TEFwdTN2MDdKSlBpQlZfRW91OHA?oc=5",
+      "publisher": "Policy Magazine",
+      "published": "2026-10-21T21:04:53.000Z",
+      "eventIds": [
+        "alberta-independence-vote"
+      ],
+      "found": "alberta-independence-vote"
+    },
+    {
+      "id": "66d643c8ba93",
+      "title": "US food importer files lawsuit over Trump’s Canada tariffs",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR2taT2xQZUFlZTh6MzBZV3A4U0JhWkQ2cWhPdlh2eEF0ZThwaFkyUXhFY090bnAtY3I5bFFfNU4ydFFSSmRacXgxcHRvNnRxMUF1TUxmQVgxemVrSjNrbG1JY2lVdFJhaTgtcTFjOUo4eUQyVkg1TXEyUHNSZXV2OHpmcURHbWNwZ21OaWZXdmRadw?oc=5",
+      "publisher": "Borneo Bulletin",
+      "published": "2026-10-21T21:03:43.000Z",
+      "eventIds": [
+        "us-canada-trade-war",
+        "apec-shenzhen-2026"
+      ],
+      "found": "us-canada-trade-war"
+    },
+    {
+      "id": "a022313e22e1",
+      "title": "U.S. Embassy says Carney government brushing off 'potential interference' in midterms",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcG9uLVdhbXZoVS1fY1dPUk0zVXkyQ3MyWXhzeGRGM3pmMzNqOVkwRVlZVlNKaGZwUmZHX2xTQXozamFtTDhxVFR4NEVSVlBLZ2h1cTFXbWxtVm1zWGJ1UlFtbU5HX0NNT1EwQzFXdWk1cGtPQ0NzZ1dfeVNBdFBEYnM1amVLQzV1cl82TlBnYWVHdVU4?oc=5",
+      "publisher": "CBC",
+      "published": "2026-10-21T21:03:27.000Z",
+      "eventIds": [
+        "us-canada-trade-war"
+      ],
+      "found": "us-canada-trade-war"
+    },
+    {
+      "id": "6048fa88462b",
+      "title": "New Mexico AG lawsuit accuses Epstein's attorney and accountant of facilitating sex trafficking",
+      "url": "https://www.cnbc.com/2026/10/21/epstein-new-mexico-lawsuit-sex-trafficking.html",
+      "publisher": "CNBC World",
+      "published": "2026-10-21T21:02:24.000Z",
+      "summary": "Darren Indyke and Richard Kahn allegedly helped finance and conceal Epstein's sex trafficking, which included abuse at his Zorro Ranch, a lawsuit says.",
+      "eventIds": []
+    },
+    {
+      "id": "efd2038b95cd",
+      "title": "Bruce MacKinnon: Alberta separatist movement all hat and no cattle",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRkFFZk5nWWZrb2ZYc1dMcHllRTdGdUtmN0Fjc0dpNHU0RlZmYzRWTXB4ZFE3ZUliLXliazZGOXNpR2dqZU1PUHlVVl9vQ0Etc203S1RYeVdTbHFHcVhOWTJwQUV0X1pLU3VIRlJaSUFkT2o5MUhBNzc3ckVQLU9oOTQtbjluSEhfYThZVVBfb3RnTEtLbi02VjdOcUc4MnV6b3BvR3JEMUNXUVljRUFCbkxZajBIMnNBSlhyT2hDVjE1U2hw?oc=5",
+      "publisher": "PNI Atlantic News",
+      "published": "2026-10-21T21:02:08.000Z",
+      "eventIds": [
+        "alberta-independence-vote"
+      ],
+      "found": "alberta-independence-vote"
+    },
+    {
+      "id": "ca5c023fb92c",
+      "title": "Greece: Thousands flood Athens streets in education protest",
+      "url": "https://www.euronews.com/video/2026/10/21/greece-thousands-flood-athens-streets-in-education-protest",
+      "publisher": "Euronews",
+      "published": "2026-10-21T21:02:01.000Z",
+      "summary": "Thousands of protesters marched through Athens on Wednesday 21 October, demanding greater investment in education. Crowds filled the streets of the capital, waving banners, chanting slogans and beating drums as they made their way past the Greek parliament.",
+      "eventIds": []
+    },
+    {
+      "id": "c7d16c318ed1",
+      "title": "Judge orders Meta to pay $25bn in fines for Facebook privacy violations",
+      "url": "https://www.aljazeera.com/news/2026/10/21/judge-orders-meta-to-pay-25bn-in-fines-for-facebook-privacy-violations?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "published": "2026-10-21T21:01:32.000Z",
+      "summary": "A jury found Meta guilty of lying to Facebook users in ⁠⁠⁠⁠⁠⁠⁠⁠New Mexico about access to their data.",
+      "eventIds": []
+    },
+    {
+      "id": "bfc923a3e963",
+      "title": "Mark Carney and Doug Ford just announced an $8.7-billion investment in response to US tariffs",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaDdRUDRMSnBDaXFmS3FkVVpuMWJJeXR5ZDlRZk1NRWM0UGhSVTFCc1Bic0RudXdBd3lGVXpGWThOdFJ3U1NDVkhTNWd6azdZX3NSNFRCM3lDYVYzdXpKNVkzblhNLV83bG85RnNYaGhBLURPMDk3dVBsUkotcnU5bjBQcFNuOGRzYmxHOUJmdTZ6NjZUOXJaTGZwMjJxeW9sdDhzRHMxdnZ0eng3aF8xSHJ4Nm5TYUxwRkpocU5XWQ?oc=5",
+      "publisher": "Toronto Life",
+      "published": "2026-10-21T21:00:17.000Z",
+      "eventIds": [
+        "us-canada-trade-war"
+      ],
+      "found": "us-canada-trade-war"
+    },
+    {
+      "id": "9ddeb1e2a8da",
+      "title": "Orangutans prefer food associated with sounds of laughter, study suggests",
+      "url": "https://www.theguardian.com/science/2026/oct/21/orangutans-prefer-food-laughter-sounds-study",
+      "publisher": "The Guardian World",
+      "published": "2026-10-21T21:00:01.000Z",
+      "summary": "<p>Apes in study more likely to choose treats linked to sound of peers having fun, suggesting emotions influence learning</p><p>Orangutans base their food choices on whether others appear to be having a good time, research suggests.</p><p>Scientists studying captive orangutans ha",
+      "eventIds": []
+    },
+    {
+      "id": "6c5562b45878",
+      "title": "Most BOJ Watchers Expect Next Interest Rate Hike in December",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdERXS3ZRVEVVU1Z4bGJEeHVWVzhzdm1LMlBQRGJWNmJlSWcwWFQ5eWNvVWNfSTVXZjgtWncyQVFZTzJNTnUxQTRVQXRiMVoyTTlFamRiOWhLSmY1dFB6YTFOYWJrX3RpVFFfMWw5S2FERkw0RUJGWUNwQWhuQzhWbFlIY2MtZjJkTzRzM0MwcFMtOVR2c2dCWVd5QmxWYTNBTkVYTjAxZDBtUnN5S2s5Uw?oc=5",
+      "publisher": "Bloomberg.com",
+      "published": "2026-10-21T21:00:00.000Z",
+      "eventIds": [
+        "boj-october-decision-2026"
+      ],
+      "found": "boj-october-decision-2026"
+    },
+    {
+      "id": "f40847838e8b",
+      "title": "Polling guru shifts midterm forecast in favor of GOP after fake polls are revealed",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbGU3VGFKV18xSVp6NENEYWVfOWJDenNVS1hQdHZxR0hGaGpFZHU2VmxndWtJbW5fVlBRU2tIRVo1S0pPNEY5a2lCaDVONF9vSWd5UmVwRGs0MDdmNnBvUXI3ZXh5em5LcWt3SXVHYW9kUnl1SjQ3dnc0WFNzTlFncXdiaW4tY3lhTFViaEo3bnlzNlFJU3pPOGVNc193dHdaOU5NanlUUUNqNWZrRnRkbFF4NE1jZHE1a01KNklEanNtMGpyM2c?oc=5",
+      "publisher": "SILive.com",
+      "published": "2026-10-21T21:00:00.000Z",
+      "eventIds": [
+        "us-midterms-2026"
+      ],
+      "found": "us-midterms-2026"
+    },
+    {
+      "id": "0b67200b82e0",
+      "title": "Power & Politics: Danielle Smith on the Alberta Referendum",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8wUTZCbHMxYnd0S3NpbXY0ekZFemFVbF9DUWlYUWxlV24xbzd2V3ppTWU2Y1hIa0NuV0cwbWdsckJ6UWlTRFJuZ2Z5UTRoRUdFUzVWOGV3Vm04QQ?oc=5",
+      "publisher": "CBC",
+      "published": "2026-10-21T21:00:00.000Z",
+      "eventIds": [
+        "alberta-independence-vote"
+      ],
+      "found": "alberta-independence-vote"
+    },
+    {
+      "id": "3a5bcaa20d56",
+      "title": "ECB Says Artificial Intelligence and Reduced Dependence on Fossil Fuels Are Shielding Europe's Economy",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GLWZBdlZqVnFUY21OTm0zYk14cHlDdDFqQTc5TVFpMm5NU0xpdGNFVTZpWm40LUI2eGNfel9QY2JLcThiVmxibEhmYkpEOWx1SkllTF9EM3o0dEhIaHZiSWV1MlRvRmpSdUlVRU9fa1lsY2NaTFFvNg?oc=5",
+      "publisher": "EU Today",
+      "published": "2026-10-21T20:59:56.000Z",
+      "eventIds": [
+        "ecb-inflation-and-rates"
+      ],
+      "found": "ecb-inflation-and-rates"
+    },
+    {
+      "id": "7b4acb4f837c",
+      "title": "Making Sense of Israel’s Election",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSlNzUk1VZXIxQVlTbkhvWGYwaUszbGVsMnJ2akY4cU5FSGdRVklWc3VvRG4tVVhyM2FwLUhDaGRHUXp5a3M5N3pvc192Tl9QVTNiektrQ2l2ekh6VFY2YkR3T3IyMlItSk16bFA1MzdBTHdmUFZldGdnWTlteFBRa2RmOA?oc=5",
+      "publisher": "Carnegie Endowment for International Peace",
+      "published": "2026-10-21T20:58:54.000Z",
+      "eventIds": [
+        "israel-election-2026"
+      ],
+      "found": "israel-election-2026"
+    },
+    {
+      "id": "854693b91207",
+      "title": "Opinion | This polling issue made 2016 a surprise. It’s back for the Senate races.",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWFl4NFdVYkJLYmdueDFPRExCWjYxWjg4WTdKbk5GalZYMWN0ZVRsM1RaMUlpVG8xbmIydUg5a1NGbHBNY1QzQnZmbUdaTUk4dFJGbUctZDEzSHN6SHUtc2RPamxMeng0ZU5jX1dseEY2T1ZWWWFmUktVSnVWSFNEQzVJWklHaVZEZ0dkU2syMHhEN1UzYXZVT0ItNEhfckRpRDlZ?oc=5",
+      "publisher": "The Washington Post",
+      "published": "2026-10-21T20:58:37.000Z",
+      "eventIds": [
+        "us-midterms-2026"
+      ],
+      "found": "us-midterms-2026"
+    },
+    {
+      "id": "bc142ee5fd38",
+      "title": "China says it allowed Philippines to resupply warship amid diplomatic tensions",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNy10dkxORkpKTk1uWXFLVk1WTU4ybGNzTGdDSDJLanFCYzh4SF9UNHRHMzRKbGd5ZnBobHlMRmlnUERnMXBGZHA2Y1BBcUNlamFyQW1tRWEzekx4MXY4ZlFsekNDem52aTdyb2xiakVJYTY4dW1ES0tUMXlUN0ZGbE9ycDZGOEVzTXhfWXpvSUVYVlBQeHpLaVc3QnZfamRFclU5T0QxT1dBY0xud3dRZGdqWThXdksyeVo3UW96LTcyWG1sSk8tc0MzMWZ1QdIBzgFBVV95cUxNb3pHOXR3MXlmZVl2djdmZHh2bERhWW0yd3F4UTZfc1dHTTlhaWZ5WjZNRGJUcWJPM3MtQ25jQzBpZXZvMzlBQ20xaTZGNlQzVmw3cGctNEY5dm9jQzVCSHFfenB3LVc2SnpBa0xBY0VnZmphcW5KaDlEeWNSYWs0TVl3bVhLaGx0VTA3eUFlYXAxWGhNN0tiSm9DTUNVMkFjNFVPM1p4Y2xaeEJvU2lDVndYQzNzd05kTFJYbVJRREpTc2FvOGZxdXdFaENKZw?oc=5",
+      "publisher": "South China Morning Post",
+      "published": "2026-10-21T20:57:34.000Z",
+      "eventIds": [
+        "south-china-sea-incidents-2026"
+      ],
+      "found": "south-china-sea-incidents-2026"
+    },
+    {
+      "id": "0ae74849b12d",
+      "title": "JD Vance says he is ‘a little bit disgusted’ by Republicans who criticized Ramaswamy campaign ad – live",
+      "url": "https://www.theguardian.com/us-news/live/2026/oct/21/donald-trump-south-carolina-data-centers-midterms-ukraine-witkoff-russia-latest-news-updates",
+      "publisher": "The Guardian World",
+      "published": "2026-10-21T20:56:43.000Z",
+      "summary": "<p>Vice-president says GOP representatives should ‘stop whining’ about advertisement featuring estranged mother of Ramaswamy’s Democrat opponent</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-dir",
+      "eventIds": [
+        "us-midterms-2026",
+        "israel-election-2026"
+      ]
+    },
+    {
+      "id": "98d2a77fefbf",
+      "title": "Will Russia’s diesel shipment to the US lower prices before midterms?",
+      "url": "https://www.aljazeera.com/economy/2026/10/21/will-russias-diesel-shipment-to-the-us-lower-prices-before-midterms?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "published": "2026-10-21T20:54:27.000Z",
+      "summary": "Moscow dispatches its inaugural diesel shipment to the US, aiming to ease fuel shortages as midterm elections loom.",
+      "eventIds": [
+        "gulf-war-energy-shock",
+        "russia-record-budget-deficit-2026"
+      ]
+    },
+    {
+      "id": "a896fe447d46",
+      "title": "U.S. embassy accuses Canadian politicians of interfering in American elections",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdWxGNEM2WmRfcTFTTzNmR3JORjMxVEVjWUNEMDl1S1JVYldIcURxai1IZ2xsUTlBRkVudHg1MW5tUDRRUnBWcVUxMlN0ZnJuU3czYXZCVTZ2cGVfNGRaUHVJbWt1dlZRb2hMcEtwWUVjUG9MSHNjdExqcHRfb21nN0dFUHJDVnJFdWpGWlBuSGNPX0kyaXJvNDZYRWVxdDhzQ1F3cG9FVVFkVV9jOXlWT3lOMFA4YTRTR3dxbm00eEVFalg2ZXlOTQ?oc=5",
+      "publisher": "CTV News",
+      "published": "2026-10-21T20:53:25.000Z",
+      "eventIds": [
+        "us-canada-trade-war"
+      ],
+      "found": "us-canada-trade-war"
+    },
+    {
+      "id": "65e678a33c15",
+      "title": "Colombia seizes 7.6 tonnes of cocaine in biggest haul in a decade",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/colombia-seizes-7-6-tonnes-of-cocaine-in-biggest-haul-in-a-decade?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "published": "2026-10-21T20:51:23.000Z",
+      "summary": "Colombian authorities have seized 7.6 tonnes of cocaine at the Caribbean port of Cartagena",
+      "eventIds": []
     },
     {
       "id": "bdcfdee2250d",
@@ -33,13 +513,26 @@
       "found": "israel-election-2026"
     },
     {
-      "id": "7bb0f852f06e",
-      "title": "Trump denies ordering Starlink slowdown in Ukraine, says he doesn't know who did",
-      "url": "https://www.cnbc.com/2026/10/21/trump-starlink-ukraine-elon-musk.html",
-      "publisher": "CNBC World",
-      "published": "2026-10-21T20:45:16.000Z",
-      "summary": "Asked if Elon Musk ordered the slowdown, Trump said, \"I don't know who did it, but I was not involved.\"",
-      "eventIds": []
+      "id": "7d4ae293d837",
+      "title": "Carney won’t rule out giving Alberta a Quebec-style immigration deal",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdFBJS2x3NC1pSXRqZHVfS01adFdVaVdYU2U4aTBtUXhFYUZmNF9hNkhJdmJKMER2X0s5QktvVEtYNndaWmVMQ2pNeGQwWVlra3FnMmJfV0J0aERnUE1vSlFBQV9TSnJwdzExYXhWbTY4dVEtR3p1ZUZKRTBoYXBuNjhCTHRWTTg?oc=5",
+      "publisher": "Global News",
+      "published": "2026-10-21T20:46:46.000Z",
+      "eventIds": [
+        "alberta-independence-vote"
+      ],
+      "found": "alberta-independence-vote"
+    },
+    {
+      "id": "9884f780813a",
+      "title": "Huge Riots and Antigovernment Protests in France: What to Know",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5GYnoxd1dncFRldUlCNW5vMDEydGR3U1VpY1RtQVNQdGJGTlItUVpoR1U2dUwyNVNoQU1uQzBDNU5LWUl2UTc2REswb3QzQjVpcFlEVGZhOWxJd3J0RTlIbU4xeUN2RmtIU1IyLWxaaGctZw?oc=5",
+      "publisher": "The New York Times",
+      "published": "2026-10-21T20:46:07.000Z",
+      "eventIds": [
+        "france-unrest-2026"
+      ],
+      "found": "france-unrest-2026"
     },
     {
       "id": "08ae7275d3df",
@@ -89,13 +582,27 @@
       "found": "france-unrest-2026"
     },
     {
-      "id": "441e00918c21",
-      "title": "Tesla beats on earnings and sales even as auto revenue declines",
-      "url": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html",
-      "publisher": "CNBC World",
-      "published": "2026-10-21T20:43:00.000Z",
-      "summary": "Tesla reported better-than-expected third-quarter results.",
-      "eventIds": []
+      "id": "86ab8f785380",
+      "title": "French bond yields hit 24-year high after unrest",
+      "url": "https://www.france24.com/en/french-bond-yields-hit-24-year-high-after-unrest",
+      "publisher": "France 24",
+      "published": "2026-10-21T20:43:53.000Z",
+      "summary": "French bond yields have topped 5%, their highest level since 2002, after widespread protests and violence over the weekend. It's a sign that investors are losing confidence in France's finances, as the government grapples with budget and debt problems. Also in the show - chipmake",
+      "eventIds": [
+        "france-debt-stress",
+        "france-unrest-2026"
+      ]
+    },
+    {
+      "id": "376a8b65e58d",
+      "title": "US orders diplomats to leave Saudi Arabia amid Houthi strikes",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQX2hfejdjOVFxeWk1TE9zcExkd3RINmNvSnFqRUh0NGdFYkQwNTBSOWsySkd6ZUpBZUZUa0Qtd3BtUnN1OUd4T016UXZ2b1I4dUN6TEMxNVZzTW5qMlRSN2taRzRVd3ppNHhkSXlwQnlKOHMta0RCSXBfcmY2bWRPNdIBhgFBVV95cUxOMkpUZEtNWHdldHE2Y2VZVDJGc2Q3eXVoMlpETVdjWE5KX0RsOXBodDB1RDJUUkJtTWpodHFJenJOX1Y1Q29SQWxoM3JCTXVTT2ozOU5NNl9FeGdNQTNtcktqUTE0Z01vZjY3Z2o5WjJNNDctRG9XNUlmR2VOUm11RUxJUGl5dw?oc=5",
+      "publisher": "NewsNation",
+      "published": "2026-10-21T20:42:55.000Z",
+      "eventIds": [
+        "gulf-war-energy-shock"
+      ],
+      "found": "gulf-war-energy-shock"
     },
     {
       "id": "cca5fe90b712",
@@ -104,15 +611,6 @@
       "publisher": "BBC Europe",
       "published": "2026-10-21T20:42:43.000Z",
       "summary": "The 74-year-old former teacher, who was captured in 2022, has been released without any \"swap\" required, Trump says.",
-      "eventIds": []
-    },
-    {
-      "id": "1a154333da33",
-      "title": "Israeli military arrests U.S. Congressional nominee, dozens of rabbis",
-      "url": "https://www.npr.org/2026/10/21/nx-s1-6010532/israeli-military-arrests-u-s-congressional-nominee-dozens-of-rabbis",
-      "publisher": "NPR World",
-      "published": "2026-10-21T20:42:39.000Z",
-      "summary": "Brad Lander and dozens of rabbis were detained by the Israeli security forces as they helped Palestinians with their olive harvest",
       "eventIds": []
     },
     {
@@ -127,27 +625,15 @@
       "found": "alberta-independence-vote"
     },
     {
-      "id": "0b67200b82e0",
-      "title": "Power & Politics: Danielle Smith on the Alberta Referendum",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8wUTZCbHMxYnd0S3NpbXY0ekZFemFVbF9DUWlYUWxlV24xbzd2V3ppTWU2Y1hIa0NuV0cwbWdsckJ6UWlTRFJuZ2Z5UTRoRUdFUzVWOGV3Vm04QQ?oc=5",
-      "publisher": "CBC",
-      "published": "2026-10-21T20:41:23.000Z",
+      "id": "f8545d6f46d6",
+      "title": "Trump’s approval rating hits new lows in polls two weeks before midterms",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQN1QyYnFkUDk1Y0d4TXRtZHl1eXlEbnllbTJHMkhZTUZ0ZW16ZW1fN1pnLTBnQlZPNkhYeU9ZU3NkVGJuaUlOeXJGM2RNT1JLVHlSanlmZVJWY0dmbHdZLTY0S0FreTZpR29IV2wzV1JJdk10aHBDNUVsbnNLWDNaV2tvYWlKbkRPWDdaRFlaZF9ZLU9Pd3FLeHRpN3BpQlNaNDBMSDlETVkxcTd4UDNmZFlnQmdUcnpUSGVDMw?oc=5",
+      "publisher": "The Washington Post",
+      "published": "2026-10-21T20:39:35.000Z",
       "eventIds": [
-        "alberta-independence-vote"
+        "us-midterms-2026"
       ],
-      "found": "alberta-independence-vote"
-    },
-    {
-      "id": "0ae74849b12d",
-      "title": "Democrats have 11-point lead among likely voters as Trump’s approval rating craters – live",
-      "url": "https://www.theguardian.com/us-news/live/2026/oct/21/donald-trump-south-carolina-data-centers-midterms-ukraine-witkoff-russia-latest-news-updates",
-      "publisher": "The Guardian World",
-      "published": "2026-10-21T20:38:37.000Z",
-      "summary": "<p>New poll finds likely voters prefer Democratic candidates over Republicans running for office by 11 percentage points; Trump campaigns in South Carolina</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter",
-      "eventIds": [
-        "us-midterms-2026",
-        "israel-election-2026"
-      ]
+      "found": "us-midterms-2026"
     },
     {
       "id": "acfda641c859",
@@ -157,6 +643,28 @@
       "published": "2026-10-21T20:34:57.000Z",
       "summary": "An Israeli settler was filmed shouting at and assaulting a Palestinian child during an attack on a family east of Yatta.",
       "eventIds": []
+    },
+    {
+      "id": "29b668889447",
+      "title": "Alberta premier says UCP must be pro-Canada, separatists can 'join a different party'",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObDFWa1V6MDY0VERaUnczT3o4Y0xrNzk2RDNTMTVPcFBabmZvRnY2anhFY1c5a3VORDBCRUFacl9nOXBLRlRKM1d3V2pUbTVvYzFJekltYXlDY1pHY3B3V2RtcjdLNDRTbkxuaEN6TGh6amNvR0ZXSm0xRGdpbll1UUROc2xsZGl4Y1JIRldaM3NmN2VYbWc?oc=5",
+      "publisher": "CBC",
+      "published": "2026-10-21T20:33:58.000Z",
+      "eventIds": [
+        "alberta-independence-vote"
+      ],
+      "found": "alberta-independence-vote"
+    },
+    {
+      "id": "48025a962ac0",
+      "title": "Alberta referendum results show Canada does not work, St-Pierre Plamondon says",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTVZINUxPLVdXazNLTGZGdGtGLXkzMXhtSFc4dGhFWmZmZlNCbkcyUkZubUdHLTJWZk5leXpsSGNKS3dlYm50S041MGlmWF9jLXlTOGQ3SEM4NmZoNFk1aTJxRUE3M21vODlTaHlNSUNBRmQzdnQ4dVYxc1JzSHduWnNoZHRtZHRlOXJObWlDay13TXNuTDQ3amFHVUptNWZ2S1lxNFNIdktvQV80aUQwdg?oc=5",
+      "publisher": "Montreal Gazette",
+      "published": "2026-10-21T20:31:50.000Z",
+      "eventIds": [
+        "alberta-independence-vote"
+      ],
+      "found": "alberta-independence-vote"
     },
     {
       "id": "5d61cfc7e79b",
@@ -179,17 +687,6 @@
       "found": "sudan-darfur-kordofan-famine-alert"
     },
     {
-      "id": "b2cb9904d228",
-      "title": "Russia agrees to resume three-way talks on Ukraine war with Kyiv and Washington, Kremlin says",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdTVxdU4waUhKdkdBUWl3ZnhWR1NfYmNBU0ZXRTN1elc5QktrN0tMY2g4dUMzU0lCdFlRb2VUQUIxeUlUT2lKLXBKbXRjZ2VsMEprbWIwWTY5V2trQ0FZcEN6bGxHQzMwZl9lcmVJZFZhNlFFanVUMURJX3Y4VkYtTGJyenNQeVk?oc=5",
-      "publisher": "Yahoo! Finance Canada",
-      "published": "2026-10-21T20:31:03.000Z",
-      "eventIds": [
-        "ukraine-summit-diplomacy"
-      ],
-      "found": "ukraine-summit-diplomacy"
-    },
-    {
       "id": "85c7aca5605f",
       "title": "Zelenskyy backs Ukraine peace talks and presses for direct discussion with Putin",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdmF4ajRFOFlkbUVoMjJDRElLeUo5bl9BOGx3YV81LVE5VGF1Qk8taHJaanY5RTA1TGttaEdLNkNpUTBCRU9PemtVUjFkaHUteE1xWmw4QjJiUWZMZVpMb0FTS3d0VjZjNEp0ZG4zXzhpcnotMWRyd3l4WWpPU19jOTVoV3dER1ZoWmQ2ekxOYTA0cU9CYmxZUERXMlA4cGRqWkdN?oc=5",
@@ -201,22 +698,33 @@
       "found": "ukraine-summit-diplomacy"
     },
     {
-      "id": "580c46fe5b75",
-      "title": "Condemning Violent Protestors, Alicja Kwade to Remove Art Basel Paris Public Sculpture Early",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYmliMUpqNm5RQndKX1BxTkZZYy1ydVBsLXEtUDdJT2FfdVpKZWxhRno3dFF0SVJESkhNVDlZZWMzdXE3ZXlVZ3FXc1Y4YU5qdEZ0TEhfUG5OZjRhODZaUFJQYzFHZEpNNV9SNmR1Qkk2Z29tUTZsVGpDVXJxOVJZUzVRaDJEN1hTQ21DMlM5RGJ2djJxTnBqREt1NG5OVmNzd285czhYdEVHZw?oc=5",
-      "publisher": "ARTnews.com",
-      "published": "2026-10-21T20:28:00.000Z",
-      "eventIds": [
-        "france-unrest-2026"
-      ],
-      "found": "france-unrest-2026"
-    },
-    {
       "id": "887c76c8755d",
       "title": "New growth drivers account for over 40 pct of China’s economic growth: NDRC",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaXFRczU2aFVfUkZhOG44cjRGVEFFUWRZMVd0VWVoZUpqbmx3VjcyZy1yendYYzZRczNOWnhzeVo5QndzMnl0eWlqR1lkal9MaW5zeHB3T0RNYkQtUlF6V0JWVEx0amE3dHZ2bDVySkJfVXdPNEZIUTlBR2N1bTRsNHIyblZYMmt5R3NRNlFxN0hIcEhKakJIdFhjR1FpY3gwdEZmdUNUUmUtMzFmS3RBbWxvN1h5S2hadEhYNVJaS3lhVHc?oc=5",
       "publisher": "巴士的報",
       "published": "2026-10-21T20:27:17.000Z",
+      "eventIds": [
+        "china-q3-growth"
+      ],
+      "found": "china-q3-growth"
+    },
+    {
+      "id": "dc87ed737fab",
+      "title": "Hottest 2026 Midterm Races—Democrats Lead In Texas, Ohio, Michigan, Iowa",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZ3BnSVRqYkxhTjFtMGEtWkQzR3d4bHZXaUFRQ2FlMWhRS3ZEM3hUWnhiLXRpaTRJcDdjNmJMaDhSb0VNZ0FiN1lzWlRHNWtjbWNjMi0wYlRrdFhwSndMbTZOT2t3czBLYmt5d2VHay0zWXA5LThTa0o3eUw5NkFMZkRJQThkTmU3NGhXYU1VOXRsMzFiVGYycVFSMlZfdXY3clNYWmhGTnRpRGE3R3VyVE9ZWElLMk9RRElB?oc=5",
+      "publisher": "Forbes",
+      "published": "2026-10-21T20:26:00.000Z",
+      "eventIds": [
+        "us-midterms-2026"
+      ],
+      "found": "us-midterms-2026"
+    },
+    {
+      "id": "93c83ccf3b41",
+      "title": "Surging Export Similarity is Fueling Advanced Economy Trade Tensions with China",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTkhPWDM1ZGcyYmExei05VjN3LVlFTmtuSE1ONFdsOExvcHVCSWZGZ0s3TFQ3NUd5amsyUE5sOURVeDlSTk16WWtHbWQ3QklkeXVjekVyTTh1ZWtyZU1zUWpfLVMyaXZXbThxQUtXR0laLWVTY25JQUhVbDdqTjJpNGRpdTlhUWxEVXM2Q2J3V2Y4dE5OZ09mYWw3ZW42OUdXMW8wOVhVRkpFRzJs?oc=5",
+      "publisher": "Council on Foreign Relations",
+      "published": "2026-10-21T20:25:42.000Z",
       "eventIds": [
         "china-q3-growth"
       ],
@@ -256,26 +764,27 @@
       "found": "us-midterms-2026"
     },
     {
-      "id": "e9866296a368",
-      "title": "Alberta voted to stay: What it means for your wallet",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZ1dKSjBOQU4xd2xrRlIwcUFqUzRyUlMxNG42YzZSQlgtVkJfT1FLazV6THl6Vi1xbkg1N2xRWjRudnpocGJCRy05WVlSY1NRUGlIa2NhXzB0akxlbHFqQTY4THN2MWdra2pDRVI3Wl9tS2diYXZ5S0xaTzMzclRjdjFMMmRRM1pMTWVJUDVLYlpWVmZZN2U1N2hQNVc?oc=5",
-      "publisher": "Financial Post",
-      "published": "2026-10-21T20:21:20.000Z",
+      "id": "f69275f3db5e",
+      "title": "Alberta Premier Smith insists UCP 'is not an independence party'",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZldGSW5hUmNfdWc3bS1NVkpSTVJ3aTh3Q0ptTnczcmFMTDR4c1Z6QWNGVlFGOWlURDN1N1M4Qm5PNUMyWXZ4ZW45YjZQTE1PRy0zcnFIZHlncGtGc0Y5Z2N5cHRMOG96ZDUxUjF1a0JVa3p1UktjTFZpSGh4ZHVfTGpnbw?oc=5",
+      "publisher": "Edmonton Journal",
+      "published": "2026-10-21T20:21:34.000Z",
       "eventIds": [
         "alberta-independence-vote"
       ],
       "found": "alberta-independence-vote"
     },
     {
-      "id": "9da476c1c3c6",
-      "title": "Nate Silver midterms polls house predictions 2026: Can voter rolls correction prove to be the game changer",
-      "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxOQXdDV3dSYkdIakhFS0J1MW5sby1nR1h2MUZ6eDZxUkl6WmxNbFJGMk43MmpiTkxNWHp1N1ZobXctRTR4aGlXOXFhY1lFSGFaaExYUV9jR1RVS1RYaEVwOXpsZm5rZllUZ0ZUT2dWTHdkTTVMNnJmc0ZSWUp6OFRiRWszSEp6NkZDU3RFZjNKTW1jNGZ4RWN1d3Vkck1KZVpRcXotbUZVRzhsOTFvSkNzblA1WWEwS1I1VnZuNGdQNXhWNldqMnI1dGlKaGcwaWgzY3JRLTFKdzVWT2VtelhDOG16R1Rqb1dmVkRSS1VkcDdEenF2TFR6WDRwMWV4dVRrY21maDBoYXk1SFFhNXRJOGh1RzhrR2RTcWhpc2xLa1pia1FkcktmaXV2QjU3by12dThWeWUtUDZmZU4yVGVROFEwT3J4aGhKekFkb9IB0gJBVV95cUxPdmxLLTQ5d085YS0tcXNIbF90QmU3QVFGdEVQTGVCSzFkMkxEcUU4STNCWFZwU0d0ZTRtV0RGbzhTd00tekh3SHVoMVR3amt3N3lWNkZtaE1UVXpRQTBSTFc0Ym9WMmZRNlB0WUpyUTJOUFV3Qkp3bi1aZFgtTVhvenJsZmptUGxvRm9JZ3poN0ZSbFF0eDlxdlhiN1hCekI3amlPeTBrZXA1QzJxUkwtcGhNNW0yQ01jd1RXV0RLQkhXUXhzOTZ6WS0zTnhLUFdUb1BmRl9MMW5lbDZXaXVGdUgyeXFfWHc1X01xNHdCZ2NHekw3LU9DcjduZ1JjU2c1V1UwUUFpQm96MDYyUG40UGVMZHNCNGx1TC1YWTI0X2lWTE9wTjhDWG93WEpMOFU5M1ZuVWhiX3F1eGFqTFFvMDJ5UzR1ZS15X2loekV1QXo0QQ?oc=5",
-      "publisher": "The Economic Times",
-      "published": "2026-10-21T20:20:20.000Z",
+      "id": "14c452f1d48c",
+      "title": "EU prosecutors search European Parliament offices of far-right group",
+      "url": "https://www.france24.com/en/eu-prosecutors-search-european-parliament-offices-of-far-right-group",
+      "publisher": "France 24",
+      "published": "2026-10-21T20:21:16.000Z",
+      "summary": "The far-right European Parliament group of French presidential frontrunner Marine Le Pen's party said Wednesday EU prosecutors were searching its offices as part of a graft probe into its now-defunct predecessor. The Patriots for Europe group said the European Public Prosecutor's",
       "eventIds": [
-        "us-midterms-2026"
-      ],
-      "found": "us-midterms-2026"
+        "france-unrest-2026",
+        "france-election-2027"
+      ]
     },
     {
       "id": "26e120d19b38",
@@ -316,17 +825,6 @@
         "eu-budget-2028-2034"
       ],
       "found": "eu-budget-2028-2034"
-    },
-    {
-      "id": "d4fd8da2e071",
-      "title": "After Witkoff Meeting, Putin ‘Ready To Resume’ US-Led Peace Talks With Ukraine",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOR2MzM0c3Q0N5OGxoeVZLWTY0dWZIaWUxRC04UXFRc2kyRFl4M2tVTy1ZaWdMekJ1d3ZyNmNwVnBvY3hWaTJ5bXp6OGlnQXlVNUxZQ0txOXRrVEY5ekZCTWVsX2twMkZNaGhuaVdJYksyakRmc1JkcFpJcjFfaHg1bWRvSF91OU9nR0xrVkNqbTRMeGs4aTVVMGoyVU9WYVJjWWlhWFBZZmtEVVI5REZOQnU2Q203dw?oc=5",
-      "publisher": "Eurasia Review",
-      "published": "2026-10-21T20:14:49.000Z",
-      "eventIds": [
-        "ukraine-summit-diplomacy"
-      ],
-      "found": "ukraine-summit-diplomacy"
     },
     {
       "id": "5763700430d2",
@@ -402,20 +900,9 @@
       "found": "us-canada-trade-war"
     },
     {
-      "id": "adced45be7ca",
-      "title": "Explosions heard near Strait of Hormuz: Iran state media",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMnpRRDUtQUdEb2plSGt6SEdCTktQQ3VIMi1PTHB3NWpVMXlvTGlnWHk5bFNFOHZ5czM5NlVoTlVHZDRxOHFIcWFURjVDWlh1a0tOUkp2TDJpMl9tZV8zakZUZ0VKZzdDQ0JmbE5KNURpUHNobW1JYXRqZkNvNFU5RjU1d2xkY0hYV21SWEk3VjB3VzktYXRkVXp0T1F5TFVw?oc=5",
-      "publisher": "Gulf News",
-      "published": "2026-10-21T20:05:25.000Z",
-      "eventIds": [
-        "gulf-war-energy-shock"
-      ],
-      "found": "gulf-war-energy-shock"
-    },
-    {
-      "id": "d8d7ee18d890",
+      "id": "f45e228d1959",
       "title": "Danielle Smith ‘walking a political tightrope’ after Alberta referendum: expert",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQblZHTmN6VlE4SjlyODVHVXNwZEdvMzYtdGVlbVlGXzFrMXhGYlBON0F3aXZtamczMEpxdURpVDZRem9aWS04V0RZZDdGcVJhaG96b3c5akxxT3ZYWmI0SmFqdHN3eU15WGhiZGh3Vld4YUxDSFVHR19NZDRlS1dFUnRzcXJ5QUNWZXB3UGUyaGl4aTJCd3JGd05uMkxoVFNmZ3dSak43VjRoY3F4MzdLRVFaelZuMlk?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPejJrUjhOdF9yUG8zckZQNGN5cHhseVpuUFQ0WHdXbWNnbFljUXlaMVJyWGRwcnQ5NmhnOGdKQ2lLZWp0VlBVeUFUTUtxUFA0WDlNM3JuQ1dSTHNyUk5CTzBUUHdXb2JoendwTTE4VjF0bHBJekVwQWdleFpaSFdQelVGQlhiS2szOXphRUJMWXJtMkdudGJ1eXREUm1XVl9pUkpDZ05jRl9zOHU3M3NDc1NVYVhkX0NST0xSbA?oc=5",
       "publisher": "CTV News",
       "published": "2026-10-21T20:05:05.000Z",
       "eventIds": [
@@ -430,10 +917,10 @@
       "publisher": "Business Today",
       "published": "2026-10-21T20:05:03.000Z",
       "eventIds": [
-        "gulf-war-energy-shock",
-        "opec-plus-november-output-hold"
+        "opec-plus-november-output-hold",
+        "gulf-war-energy-shock"
       ],
-      "found": "gulf-war-energy-shock"
+      "found": "opec-plus-november-output-hold"
     },
     {
       "id": "e5ac45ec6804",
@@ -478,6 +965,17 @@
       "found": "us-midterms-2026"
     },
     {
+      "id": "91fc9262abe2",
+      "title": "France Riots Expose the Rage Aimed at Dior, Hermès and Other Luxury Brands",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONlBnbWRDUHBUWDFhZHJmeHdmXzFfQ1FxdENWWml4UF85MGRZQllYbkIwWDF1THVFbWotNDh6SG5XRjhvTFlmUjljRkpyUlZQTjl0cmVReVZiYmNjMUtnU0V3dnF4MEFlV0JTYWNtTmI1bDBsNmxpVzlTa1V5M2M5Y09zTQ?oc=5",
+      "publisher": "The New York Times",
+      "published": "2026-10-21T20:03:25.000Z",
+      "eventIds": [
+        "france-unrest-2026"
+      ],
+      "found": "france-unrest-2026"
+    },
+    {
       "id": "f54ac2c48230",
       "title": "‘Huge moment’: long-awaited extension to Sydney’s metro line to open next week",
       "url": "https://www.theguardian.com/australia-news/2026/oct/22/sydney-southwest-metro-extension-opening-friday-chris-minns",
@@ -487,26 +985,16 @@
       "eventIds": []
     },
     {
-      "id": "a896fe447d46",
-      "title": "U.S. embassy accuses Canadian politicians of interfering in American elections",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdWxGNEM2WmRfcTFTTzNmR3JORjMxVEVjWUNEMDl1S1JVYldIcURxai1IZ2xsUTlBRkVudHg1MW5tUDRRUnBWcVUxMlN0ZnJuU3czYXZCVTZ2cGVfNGRaUHVJbWt1dlZRb2hMcEtwWUVjUG9MSHNjdExqcHRfb21nN0dFUHJDVnJFdWpGWlBuSGNPX0kyaXJvNDZYRWVxdDhzQ1F3cG9FVVFkVV9jOXlWT3lOMFA4YTRTR3dxbm00eEVFalg2ZXlOTQ?oc=5",
-      "publisher": "CTV News",
-      "published": "2026-10-21T20:01:39.000Z",
+      "id": "6f67c9d027bb",
+      "title": "Putin, Xi and Trump could hold 'historic summit' - Kremlin",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQm9GSEM1Z3otekh0eVQ1TGg3MmdkT3lQRnFkLXktY1lWdVJZRER1R1B2QXZ6NUdMUHRITFROQ0JxV0lpTE42SUdlYUtlRkxlb0JjN1ZZOTQ0M3ZyZjFVUTUyOWs1OUxBemMyUVUtemlWR3padXI5dWQ2SS02MWRNOHlaOG5iV25CTHJKWmtDcHNkVHNYQUNyb1BBVklnaHo5?oc=5",
+      "publisher": "Big News Network.com",
+      "published": "2026-10-21T20:01:00.000Z",
       "eventIds": [
-        "us-canada-trade-war"
+        "apec-shenzhen-2026",
+        "ukraine-summit-diplomacy"
       ],
-      "found": "us-canada-trade-war"
-    },
-    {
-      "id": "08cdc5047e6b",
-      "title": "Macron blasts Trump's 'stupid and unacceptable' comments about French riots",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVmVlZ2gydmRtMXU5aFRCLVR0dDVpbmdIc0FKZlF4SHlQdy00R0x2SFAtNVhpSjJMbWFHQ1NWc3YtTVA3QlZTc29HV0NfT2dzNGFDS3BqR3lXYUFQVFdITElFQXU0VWMyeHlyUE1TZi1ial9seHliMTJHN3Y2S3NTNXllbEF2eHFG?oc=5",
-      "publisher": "LBC",
-      "published": "2026-10-21T20:00:34.000Z",
-      "eventIds": [
-        "france-unrest-2026"
-      ],
-      "found": "france-unrest-2026"
+      "found": "apec-shenzhen-2026"
     },
     {
       "id": "9649836feb67",
@@ -527,17 +1015,6 @@
       "published": "2026-10-21T20:00:00.000Z",
       "summary": "As climate change fuels hotter summers, some Britons are moving north in search of cooler weather. Could a similar shift be on the horizon in the United States?",
       "eventIds": []
-    },
-    {
-      "id": "854693b91207",
-      "title": "Opinion | This polling issue made 2016 a surprise. It’s back for the Senate races.",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWFl4NFdVYkJLYmdueDFPRExCWjYxWjg4WTdKbk5GalZYMWN0ZVRsM1RaMUlpVG8xbmIydUg5a1NGbHBNY1QzQnZmbUdaTUk4dFJGbUctZDEzSHN6SHUtc2RPamxMeng0ZU5jX1dseEY2T1ZWWWFmUktVSnVWSFNEQzVJWklHaVZEZ0dkU2syMHhEN1UzYXZVT0ItNEhfckRpRDlZ?oc=5",
-      "publisher": "The Washington Post",
-      "published": "2026-10-21T19:59:51.000Z",
-      "eventIds": [
-        "us-midterms-2026"
-      ],
-      "found": "us-midterms-2026"
     },
     {
       "id": "13e03ecafde2",
@@ -604,17 +1081,6 @@
       "eventIds": []
     },
     {
-      "id": "1482b5f18dc8",
-      "title": "Putin agrees to resume peace talks involving Russia, Ukraine and the US",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQXpiUjVlSzcwMjFldjRGRTZjRXJaVXVtWmdYOVBINENLRG1aTzg3MU5JQWV6SWhtdGZUdVlBeFdvR1E4aTJQUmx4aFNWN2NDVE55d3ZEcFhXWnZndHQxRE5nTFBJRWRtandhQ0x6TFVJMC1xVkdCSzJqeF82U1drT3JpVFVoOGNfWWt5WjBpakt5cUw1clE?oc=5",
-      "publisher": "Latest news from Azerbaijan",
-      "published": "2026-10-21T19:54:55.000Z",
-      "eventIds": [
-        "ukraine-summit-diplomacy"
-      ],
-      "found": "ukraine-summit-diplomacy"
-    },
-    {
       "id": "3277c6dc0522",
       "title": "Meta fined $25bn for 'lies' over user data privacy",
       "url": "https://www.bbc.co.uk/news/articles/cqdr8zxrr3dxo?at_medium=RSS&at_campaign=rss",
@@ -676,26 +1142,37 @@
       "eventIds": []
     },
     {
-      "id": "a4507583b4ba",
-      "title": "Danielle Smith says Alberta will take inspiration from Quebec on immigration mandates",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQLTA3OTA4OTYzTlJocGRYcV9icUlUM1lCNmFKdVhNeW9paDRKdUluU3NHSlFTOG03NFExejVCY1o4RldzMTdQNDBnTmlfS3l4aTREelNKMnhvX25qWEltQzk2bmx3YWdqYi1jMVZ1dkVHNWh2d2dZbElXMjV4UXZhQnBGXzllVzdtR2J0R2Y5ZDdEdw?oc=5",
-      "publisher": "Calgary Herald",
-      "published": "2026-10-21T19:47:11.000Z",
+      "id": "51fd0cd354d4",
+      "title": "UN condemns drone strikes killing civilians and damaging critical infrastructure in Sudan",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQUg2OEstRFBrUF9rTlNKVE5sNlNxaDE2RDNmQWJERDNyTnh4d25NT2N0ZGtJejdVUmRNM0ZBZGFiSmlFRUdaRndfQ0FHWHRvRl9mMUtHT0MxQzBYeDl4bkJ6RTV5c1pOLXlzRjdzMlRlUW8tZ0dodndMZkNHM1N4M3pfdV9tT0Vzdi1namw0aEpza3hwcnJUZHVoalB5dnBXUkNpTEFseEdwa3lxZHRPb3hPVl9TYzNBelgtbmtGTVpkSzN2cmRqNi1nWkZHelhyempJ?oc=5",
+      "publisher": "The Eastleigh Voice",
+      "published": "2026-10-21T19:51:28.000Z",
       "eventIds": [
-        "alberta-independence-vote"
+        "sudan-darfur-kordofan-famine-alert"
       ],
-      "found": "alberta-independence-vote"
+      "found": "sudan-darfur-kordofan-famine-alert"
     },
     {
-      "id": "28b27001cdf6",
-      "title": "Zelensky hopes for new peace talks with Russia, U.S. by early November",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOR3J0VnVfbGRsdm0wUWtPV3FZRFptdGQyVm1BbXRzU1ZXMUhqY2czVHlaMGdWMlRwb09BLTdwNjVmMGwzdkNsanF1YkhaUWR5MmNNV3BpRFNoSnVmLXoxRlFGRHp6MUNNSEU1dDhOU0NTR3J6MFBxczNKb2otYVpiMW43cVU3M2pheE84Z1NOOA?oc=5",
-      "publisher": "The Globe and Mail",
-      "published": "2026-10-21T19:43:15.000Z",
+      "id": "11fc721449af",
+      "title": "U.S. Embassy Evacuations Raise Iran War Fears: Could Gulf Airports and Global Airlines Face Another Shutdown?",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZVRaSGlVblBvb1BlaEJRNVRoZUlrUWxjQ1FLcDVPSG1wZVhZWXZ2SU5GbVlXUzNiaWNnVjFVb3FweGE4dndzRjRQRE1sSW1uMmp3eHpLbTV1XzAycmZ6M2xRQ25PWmlOOVhOY1ZxdGZGM3locnBHNFNFMVJXZENZeg?oc=5",
+      "publisher": "eTurboNews",
+      "published": "2026-10-21T19:47:30.000Z",
       "eventIds": [
-        "ukraine-summit-diplomacy"
+        "gulf-war-energy-shock"
       ],
-      "found": "ukraine-summit-diplomacy"
+      "found": "gulf-war-energy-shock"
+    },
+    {
+      "id": "4f1e7bf70277",
+      "title": "Five Things To Know As French Bond Yield Tops 5%",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbFluTGVacjlDZHNwV3V3ekFkcWFlY2lPZXZUamMxVzdvWWItMnpYZDB5VDJXQUlJSV9qd1VKOEM0Wm5SSk9tV2JyTHEyT0k0U2kydDJFZm9LN2VsYnlHaWdlSTU4dTM2bHo2TV91a2xxTUQ4djdWQ0JocmkyTFZzSG9Dd2VVU0NIUWFxVmlHSQ?oc=5",
+      "publisher": "Channels Television",
+      "published": "2026-10-21T19:41:15.000Z",
+      "eventIds": [
+        "france-debt-stress"
+      ],
+      "found": "france-debt-stress"
     },
     {
       "id": "6a52df6d4aa6",
@@ -742,6 +1219,17 @@
       "found": "us-midterms-2026"
     },
     {
+      "id": "bf757a90d662",
+      "title": "US vice president sidesteps question on endorsing Netanyahu in Israeli election",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcWRxNTUycGg4cDNwOFVzX3dsY3VaUGViRWNnZkdKM0o1Ti0zcWMySV93N1pWVHhfNDIxeTY2SnVnQW52djFTWXpZUDhpWWxxRE9MaDJmTTdtdzFpMnRUTDFWVGtObldRSzd2eE5NSFN6VW9aWllWRlJHMUtwcmRkOEtaR0Q4YVIta01iaW5qN0R5OGNyZzUzOF9yd3hIZ2FpR21oTzVEaktJU2hSeGxJZVBqclg3Q2hLemFJeVRTbkJQd9IBxwFBVV95cUxNX0RDSXpKOFBiMnh6ZXh5VVlYVjlBM0RfSHZTazA3ZUJBQzR6eXp2WTFxY3N1M0tDWXJxNW45NUNWMk5vdXRZcll6azVNcy1xY2MzWTlpVnFrWmtuVE4xcWhTVUo4Y01lNnZqRXZuOGlMekhZbm9TblVIVWR6U3JPVUdXdmFya0lEU0o0Q3VGZjhacnpQWUhXdzVmWnlMTTJqeXpLZC16NDlpRHIxTXRZZ3Rub0VfX3BjcHIzM0cxX0VkdE9Zb2Rz?oc=5",
+      "publisher": "A News",
+      "published": "2026-10-21T19:39:35.000Z",
+      "eventIds": [
+        "israel-election-2026"
+      ],
+      "found": "israel-election-2026"
+    },
+    {
       "id": "18116c64dc18",
       "title": "What happened to Australian politician Helen Haines?",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/what-happened-to-australian-politician-helen-haines?traffic_source=rss",
@@ -783,7 +1271,7 @@
     },
     {
       "id": "6fbecd8890eb",
-      "title": "Conservative Party suspends ex-candidate filmed in Al Jazeera investigation",
+      "title": "UK Conservative Party suspends ex-candidate after Al Jazeera investigation",
       "url": "https://www.aljazeera.com/news/2026/10/21/conservative-party-suspends-ex-candidate-filmed-in-al-jazeera-investigation?traffic_source=rss",
       "publisher": "Al Jazeera",
       "published": "2026-10-21T19:36:54.000Z",
@@ -795,7 +1283,7 @@
       "title": "Democrats narrowly favored to sweep House and Senate: DDHQ",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUTA1WENQZDlOMmRuTkJNWWdXcU1KSHBQMFUtNDl4QldrYi1lbkkwQ28ybHFHTl9VNlE3eXR2TUZhRVhWME5yUWZrd0ExYnQ1R0ljS2hFcWN5QlN4YjZLOU5JN3VhbFFFRXFGTlFMNVVZbkRyZGRGVGVVX2lhNllrVjNteFpKRnAyaE4yWGdpdDhlZ0VqMVhjanlrM3UtbjNS0gGmAUFVX3lxTE1NTVcyRk83eWJENzNxZ2tNNndlN0dhYmFkTE5SOURHMHFXU3JFaElmMktqN0M0d3M4dTAwaUFlVngxZGhYUGJiOC1rcXhSNlZhbTJoSFItdXhkekkwR2xFSHBfb0hBbzFncVhXX3psdUphYVRLLXRTbXd0eW9PUHNtaGhMYWdqSi1pZ1F3aEozaGRSN29nd3RZS18xU0dNNHk1RG1LWUE?oc=5",
       "publisher": "NewsNation",
-      "published": "2026-10-21T19:36:06.000Z",
+      "published": "2026-10-21T19:36:51.000Z",
       "eventIds": [
         "us-midterms-2026"
       ],
@@ -811,17 +1299,6 @@
         "belgium-cost-of-living-clashes"
       ],
       "found": "belgium-cost-of-living-clashes"
-    },
-    {
-      "id": "f8545d6f46d6",
-      "title": "Trump’s approval rating hits new lows in polls two weeks before midterms",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQN1QyYnFkUDk1Y0d4TXRtZHl1eXlEbnllbTJHMkhZTUZ0ZW16ZW1fN1pnLTBnQlZPNkhYeU9ZU3NkVGJuaUlOeXJGM2RNT1JLVHlSanlmZVJWY0dmbHdZLTY0S0FreTZpR29IV2wzV1JJdk10aHBDNUVsbnNLWDNaV2tvYWlKbkRPWDdaRFlaZF9ZLU9Pd3FLeHRpN3BpQlNaNDBMSDlETVkxcTd4UDNmZFlnQmdUcnpUSGVDMw?oc=5",
-      "publisher": "The Washington Post",
-      "published": "2026-10-21T19:34:18.000Z",
-      "eventIds": [
-        "us-midterms-2026"
-      ],
-      "found": "us-midterms-2026"
     },
     {
       "id": "5e74db4c7fa6",
@@ -903,6 +1380,17 @@
         "apec-shenzhen-2026",
         "russia-record-budget-deficit-2026"
       ]
+    },
+    {
+      "id": "e21c5cd50490",
+      "title": "Explosions heard near Strait of Hormuz: Iran state media",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQUJpd2huX1BGajRCdEVSTms5UmJ1WGtBU1luRUUyZml4OUJQLUo3TUFUZHlEZFAwWGdpNWZyOFBYLTJQRTExa1ZNenU3ZmdjV3hpenZGQlp2YmpmNHRyOHg1RmJRMGl3MGhyNkF0QlJldGlGZDJXYWNMbDhjZU5oVXlfRVNEZVJJZVpROVFvTU9lWXlSUVlvZV95VXRvTUk1emc?oc=5",
+      "publisher": "Arab News",
+      "published": "2026-10-21T19:30:35.000Z",
+      "eventIds": [
+        "gulf-war-energy-shock"
+      ],
+      "found": "gulf-war-energy-shock"
     },
     {
       "id": "2843906f4829",
@@ -1006,39 +1494,6 @@
       "found": "india-us-trade-deal-2026"
     },
     {
-      "id": "16f702eb6051",
-      "title": "Putin agrees to resume 3-way peace talks with Ukraine and US",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQXZaYTY5blYzZWJWYkJaQnI2M2RSSGJUcnpzSF9OMldoZjZxckRDRzhyb2JReEVNbEE5bjdZcUZlNzJ2b0YzQkRIZjltamVxVHVSaElldGhNUmlFZzdmZHpPOFBOSDNhbFV0NEdpYXBBN0w3VjlHV0JkSVQ3NG1hMHJMay14MWNuNDdQTldXaVE2Z205bjFkN05lVUh4TkloZWFvSm5FcGp0aS1nQ2JKcmNGTHB1NDhqdWJCaEM2NnoyRUE?oc=5",
-      "publisher": "Reuters",
-      "published": "2026-10-21T19:27:02.000Z",
-      "eventIds": [
-        "ukraine-summit-diplomacy"
-      ],
-      "found": "ukraine-summit-diplomacy"
-    },
-    {
-      "id": "a61b1d51db95",
-      "title": "Alberta referendum vote total tallies 10 separate ballots, not individual voters",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUk5haFhVNVluRUZySHJmc0h6RDMtWVIxR0NTeTd3UXZVTVc5NGtEY2lCbkZ6ODlxYkk2YnNKYTlBaXBHY2FJZWxhdElidkdRbGdYbjM1a24yNDVlejJXR3ZtQl9IQW80Z0hMMVk0SWNPX2NIclBBWndKenJfRFgxZnRRenZVclh3bnB1bg?oc=5",
-      "publisher": "Yahoo",
-      "published": "2026-10-21T19:25:29.000Z",
-      "eventIds": [
-        "alberta-independence-vote"
-      ],
-      "found": "alberta-independence-vote"
-    },
-    {
-      "id": "e45eb1b2bcad",
-      "title": "Protests banned in parts of Paris as Macron swipes at Trump",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONGZpT3JkdWxwb3B2bHdyLTRYa2xUTjJNVEl6TmxmZDB4RF84V2htWDdZQ0tFaFhobVY0QndHb2R5b19BZGFDbjFBNy1WV1VUMTMxVnNTRGg3REJOd0h5ZTkxUlgtQUZITlZFZU8ta0xqb3ZRSGRKeFlxQ1pYdk0tUG9kYUhYUDFubXZUTmxkSlpCQTh6QUNIaWFTakl0bHc?oc=5",
-      "publisher": "Arab News",
-      "published": "2026-10-21T19:25:11.000Z",
-      "eventIds": [
-        "france-unrest-2026"
-      ],
-      "found": "france-unrest-2026"
-    },
-    {
       "id": "f479a719c4b3",
       "title": "Five killed, including two aid workers, in drone strike on Sudanese refugees in Chad",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1iTk1sSmVPQWhFTVJyTEJuU05IQmNBcEVqQU5jcld2M3MwV3lvSHQxX1diMHZoUFdWM2tIZGk2VVo3cnlMZzVScnQyWDNPdXJ0?oc=5",
@@ -1073,17 +1528,6 @@
       "found": "us-canada-trade-war"
     },
     {
-      "id": "dbc08fc9c42d",
-      "title": "Smith tells UCP separatists to accept referendum result or leave the party",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcUpmX0w0OF96NkNvVDltQXRVb0xHWldtcG1yVllDREIwX2kzN25hXzV4N3hWR1IzcU9IVzVBT2tPZUVGX0lwZElhS2pmUVAwT0VMRFFkYzBPaTZrdU5wcjVGdm8xUGgwWFlpMXUxcTd5WVBkSEdES3NiRHdsNUhIX1NTTVVxUW9jOGswWGdNY0dNVDRtZnlWdjVsX3lta3Z2ZnljZjZ3bkk?oc=5",
-      "publisher": "The Globe and Mail",
-      "published": "2026-10-21T19:22:13.000Z",
-      "eventIds": [
-        "alberta-independence-vote"
-      ],
-      "found": "alberta-independence-vote"
-    },
-    {
       "id": "27e93d026543",
       "title": "Greens urge people ‘inspired’ by French protests to join London march",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONnE3MXNnamNKQmFWQVNVWWRUZVd4YlJMNHVCTG9XOHMzbm5oNkNyakNySFhxWHpfT3U0c2xuc040SVlHZHphSzItTzgtRkYxZ19SN0RKOTlIb3FVRjVMcUk1U190QXhDdmFDZ2pkWFROdi1vdWFHNmdFbUJtOE5FczhEVnJXT2NVdmdOT0dfS1RKMmd4?oc=5",
@@ -1093,17 +1537,6 @@
         "france-unrest-2026"
       ],
       "found": "france-unrest-2026"
-    },
-    {
-      "id": "ee0e121a9fe9",
-      "title": "Carney, Ford unveil $9B plan to support industries hit by tariff war",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNc3BINEMyZC1oendJRHY2X3JGMjJqTXRLcTRDYmtuTE9UeE4wMTd5UWhFUXN1dE94S3VTMDdNemdmMDFLYi1WNjJrMmxBcEdsUjQwWHJKcWs5Nl9ZdWU5Z1ZsRnFrZ3BJNy1hYko0aEhpcmFOdFh6X2pkV2N1T0VTbnZxM1BqRE4wemF3?oc=5",
-      "publisher": "Yahoo! Finance Canada",
-      "published": "2026-10-21T19:21:33.000Z",
-      "eventIds": [
-        "us-canada-trade-war"
-      ],
-      "found": "us-canada-trade-war"
     },
     {
       "id": "da696f33c7f2",
@@ -1146,17 +1579,6 @@
       "found": "us-midterms-2026"
     },
     {
-      "id": "1938d5c8f41c",
-      "title": "Alberta Referendum Results, New PQ Govt in Quebec",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVEQ2c3poM3hQQzZHN3hqWDMyMG8zZWNKMmhOUWN1MVQ2Q2RqVTV5elgtd3pMQVlONWdFbXVmODRVMjhrcEtmYTNVVXZueVdvaVI1OHZVaEgzbWtnRzlBS3NsX0Fta3dqLTF5Y2trQm5udUhDQUp2cEJDWnBfSWtZT2d0VU1USHEzWFh2UjNKUVBpWk5nX2YxTFRNRnBGcklucWM5cF9vM3lGZktxeU9icHoxQWtJTERzMUVkZFBBUEs?oc=5",
-      "publisher": "CPAC",
-      "published": "2026-10-21T19:15:48.000Z",
-      "eventIds": [
-        "alberta-independence-vote"
-      ],
-      "found": "alberta-independence-vote"
-    },
-    {
       "id": "89e61de098a9",
       "title": "Video: Macron Says Foreign Leaders Shared Misinformation on France Protests",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTzNjbE1ORERPSm9RMk10MUF2UUpnQTV1eGpPUUtYaDREektYelduTGJIbDhBWDBEWk9oUmRUZkZXMHdTWm5QRDAydTNXTmVyZEVzcTcwU3BsaTU4WkhMWmJGYWpLTVRTNGhGQ29GdDZ2TWFyS0poZFVpSEFhcE1aMlRxTmFZZ0ZCRk1EMnItOU84aG9LN1B0ajcya0dYcng1TDVN?oc=5",
@@ -1177,6 +1599,17 @@
       "eventIds": []
     },
     {
+      "id": "ee0e121a9fe9",
+      "title": "Carney, Ford unveil $9B plan to support industries hit by tariff war",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNc3BINEMyZC1oendJRHY2X3JGMjJqTXRLcTRDYmtuTE9UeE4wMTd5UWhFUXN1dE94S3VTMDdNemdmMDFLYi1WNjJrMmxBcEdsUjQwWHJKcWs5Nl9ZdWU5Z1ZsRnFrZ3BJNy1hYko0aEhpcmFOdFh6X2pkV2N1T0VTbnZxM1BqRE4wemF3?oc=5",
+      "publisher": "Yahoo! Finance Canada",
+      "published": "2026-10-21T19:14:26.000Z",
+      "eventIds": [
+        "us-canada-trade-war"
+      ],
+      "found": "us-canada-trade-war"
+    },
+    {
       "id": "5474274f2293",
       "title": "Argentina's Milei calls Spain PM Sánchez a 'dictator' in Madrid visit",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZnItMmpzZXFJSDItTHJRRGhnTDVTN3YzcFhVTTg3M3phNXowTG1mcTZUb3BqLWI3Vm1HWThNVURtQTRrQk81alBneWI1RUM4OXlMYXpVVHFTMTNYQy1DWjlybXhUVnNaYjZ3QjVnX1pvS2dCNk9kSVBPdGQ3NnJhNmdyeDBCakdndTRnMEhMUVZyRVllOHVXQVZBRTU5ZVU?oc=5",
@@ -1186,17 +1619,6 @@
         "spain-strike-and-snap-election"
       ],
       "found": "spain-strike-and-snap-election"
-    },
-    {
-      "id": "29b668889447",
-      "title": "Alberta premier says UCP must be pro-Canada, separatists can 'join a different party'",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObDFWa1V6MDY0VERaUnczT3o4Y0xrNzk2RDNTMTVPcFBabmZvRnY2anhFY1c5a3VORDBCRUFacl9nOXBLRlRKM1d3V2pUbTVvYzFJekltYXlDY1pHY3B3V2RtcjdLNDRTbkxuaEN6TGh6amNvR0ZXSm0xRGdpbll1UUROc2xsZGl4Y1JIRldaM3NmN2VYbWc?oc=5",
-      "publisher": "CBC",
-      "published": "2026-10-21T19:12:44.000Z",
-      "eventIds": [
-        "alberta-independence-vote"
-      ],
-      "found": "alberta-independence-vote"
     },
     {
       "id": "48091eba5369",
@@ -1221,17 +1643,6 @@
       "found": "brazil-runoff-2026"
     },
     {
-      "id": "d8c85ab2f00b",
-      "title": "IDF did not plan to strike Iran before election despite earlier reports",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB2MnlIWVdLV2tBemh3cC1BeWNFbDd3RmxhM2VGZlNCVFhURDVfSkRYYUppYXVrbndySmtiWUxheG0zYVNCcGZ2Z2ozSkZnbzF6emRXcGlwOW1CdnRmLTRfREYtajZGR2tFRTZzZUZn?oc=5",
-      "publisher": "The Jerusalem Post",
-      "published": "2026-10-21T19:08:46.000Z",
-      "eventIds": [
-        "israel-election-2026"
-      ],
-      "found": "israel-election-2026"
-    },
-    {
       "id": "0ec7c5dfd254",
       "title": "Van Orden backs Canada tariffs as Wisconsin dairy braces for fallout",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNc2FUNHRIZ18tSHFBb21LcUFvM2lLbDlGX2ZDMFhmWVNOTl82RFlnM0p4NFJrLWhwdm9keERySUxLY3RMY2NSNVgyS2lvNUpFS09UTTJQc2JkdDMtVWZQa1p5cDA4OXlLbGxFVVQ4MmFMQ0daOFJsQnVCenlEZEtCLWVteDR6T090WEU0?oc=5",
@@ -1241,17 +1652,6 @@
         "us-canada-trade-war"
       ],
       "found": "us-canada-trade-war"
-    },
-    {
-      "id": "d53acf7e80d7",
-      "title": "Conservatives on CFB Wainwright Fire, Alberta Referendum Results",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaG5KY01EUFVTQlBLbGVxbzNISENRUTdPY3JPYVhGN2MxdVh6U1lPSUxOb0h5RTQ0RkdTWW5NOERiWE0xSzNnTnFRdkVKMDVJcjYyakt5bHBaYWZoMWF4TjZLMWJwVXVIeWZSRU1Ua21LSEs3d2tGdDE5SFc1Q2N2RnZEUTY4Ym0zSDMtNUhjaGJGMzRtcFFpWkd2OUNMek9lVFZka0J5S25UbnRYbnlzdlkxM0pHaGs5dmduZUlMLVFCcU1ZRDctOVZ6RFM2ZzJUQ1FwUg?oc=5",
-      "publisher": "CPAC",
-      "published": "2026-10-21T19:07:21.000Z",
-      "eventIds": [
-        "alberta-independence-vote"
-      ],
-      "found": "alberta-independence-vote"
     },
     {
       "id": "f6845bec2b5a",
@@ -1265,17 +1665,6 @@
       "found": "france-unrest-2026"
     },
     {
-      "id": "bbaf1aae6552",
-      "title": "Milei, Sánchez trade barbs as Spanish PM says he's ‘leftie and proud\"",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRU5kMWlsQzA0bmQ0eURNYTlHRFRQckNhZDFiQlpySmE4eV9rNjNRbmtjTjRKM1R4NTZRbTVkMUt6ellrT3VsaFNVYzJ0NFJ6YXRqZ3RfYW9TWFdXN2FQM3c4eHhDbUFaLTMza1ZCcEVxUXZ1TmlqQWpHTVZWYmE3Q1MxX0VLX0Z0YnF4Q2VuYUtBemk5YnJVX3VCLVk3Q2Z5YTRUR3pwTmY4Zw?oc=5",
-      "publisher": "Euronews.com",
-      "published": "2026-10-21T19:06:32.000Z",
-      "eventIds": [
-        "spain-strike-and-snap-election"
-      ],
-      "found": "spain-strike-and-snap-election"
-    },
-    {
       "id": "fc69ae0c69e4",
       "title": "A.I. Election Videos Are Flooding Brazil. Could They Sway the Vote?",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSGlZd3RlaXVuVjhMelBmck4zd3JEWDZPV1ZONERYWjdBNUhGSGZUV3dqSm5mVXZVdFRxS240UGppMGRxSGVzZ0lidTNxbVAxVmU2a0VPVWJUeTFLUXRFaVNLY3g0c0Qyc1ZJMUVmQloxX09yRWV6UkRPR045U1ZyWGwzeVUyd1k?oc=5",
@@ -1285,6 +1674,17 @@
         "brazil-runoff-2026"
       ],
       "found": "brazil-runoff-2026"
+    },
+    {
+      "id": "764781b2fd28",
+      "title": "US, Russia, Ukraine to continue peace talks at technical level: Witkoff",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObHFEWHJOX2FOSTU0aVNmbDd5eTFfVk53Y0RlaHdZaEh3OEN5aGkxeGdLa0VCd2drTV9aVmpfSTNTYVJWanAzOUltZVljU1JQUmU1TXV4MWVtWmhwMWxjVEVUNWstcEdsMW1IdkVDRmNDelllRWZwMnlFQTZ1SFVTQm9MZ2JOal8wWUNHX3k4NEhFNWJxY0k5ZTZvdzNGam9WMlpmcGh2bkFmUC1iM2xyUE9tb01SaXNJQUZrMg?oc=5",
+      "publisher": "Anadolu Ajansı",
+      "published": "2026-10-21T19:02:13.000Z",
+      "eventIds": [
+        "ukraine-summit-diplomacy"
+      ],
+      "found": "ukraine-summit-diplomacy"
     },
     {
       "id": "2349501e3221",
@@ -1389,6 +1789,17 @@
       ]
     },
     {
+      "id": "9d3f24dabaf6",
+      "title": "Trump Touts Good Relations with Venezuela, Says Oil Magnate Sargeant Does Not Represent US",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbFBjamdXQlNiMnpETTY3UXV2VTk5Z3VCV3g1TEQ4ZnpQd3c0OEJKak5nWko2R01oWVRIWlFrTGF5TnE3Tm5tMXQyejJKODhHUkJpN3l3X2tfRHRVejFsNVItaFFKTkRrOTE2WVJNQTZ5RDdadjVGV0N0NDBGLW1Ed3NlVXk1dlUyREdCNEc1QnFjdDQ3THhnZF8yZXFTdXpvTS02MXBhcW5zdXNwLVVaWU9lUUVoblRNYmd3VA?oc=5",
+      "publisher": "EnergyNow.com",
+      "published": "2026-10-21T18:52:16.000Z",
+      "eventIds": [
+        "venezuela-oil-reopening"
+      ],
+      "found": "venezuela-oil-reopening"
+    },
+    {
       "id": "7f7bee6222cd",
       "title": "Farmers blocked from olive harvest in occ. West Bank, volunteers detained",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/farmers-blocked-from-olive-harvest-in-occ-west-bank-volunteers-detained?traffic_source=rss",
@@ -1431,21 +1842,23 @@
       "found": "ukraine-summit-diplomacy"
     },
     {
+      "id": "fd7d5553da12",
+      "title": "Russia willing to resume trilateral peace talks in November, Kremlin says after Witkoff meeting",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNbFJaU2VYX1JISVpXa1FabkcwZlhDQlFqMTk3WTFvU1JvUDFoVFVQY28zVG54M3VEcEN3N2I4QzZvb3dsRGFKcThnRmZDTUxlREU4d2VVazV3WVlVM2VSTmYtaW8zdmxUdEhlVTZnT3JCbERxVUJ3ZlJ1T1AzQVhJSkEzeTFkSUNuaHgtZUlVV1dqZ3hjWFZRcDk1RUwzYjhDSEtiSlM1SUpkSlEzMGV1VS03akZwNE90UWRkTlpMZ0RlaGFaQW9mSzh0VmVwTE5tbzB3UEVnU0dDSktqMEE?oc=5",
+      "publisher": "News Channel 3-12",
+      "published": "2026-10-21T18:46:24.000Z",
+      "eventIds": [
+        "ukraine-summit-diplomacy"
+      ],
+      "found": "ukraine-summit-diplomacy"
+    },
+    {
       "id": "a329836d670f",
       "title": "Thousands march for school funding in Greece",
       "url": "https://www.aljazeera.com/news/2026/10/21/thousands-march-for-school-funding-in-greece?traffic_source=rss",
       "publisher": "Al Jazeera",
       "published": "2026-10-21T18:45:46.000Z",
       "summary": "Teachers joined nationwide student protests amid growing youth-led demonstrations in Europe.",
-      "eventIds": []
-    },
-    {
-      "id": "6048fa88462b",
-      "title": "New Mexico AG lawsuit accuses Epstein's attorney and accountant of facilitating sex trafficking",
-      "url": "https://www.cnbc.com/2026/10/21/epstein-new-mexico-lawsuit-sex-trafficking.html",
-      "publisher": "CNBC World",
-      "published": "2026-10-21T18:43:56.000Z",
-      "summary": "Darren Indyke and Richard Kahn allegedly helped finance and conceal Epstein's sex trafficking, which included abuse at his Zorro Ranch, a lawsuit says.",
       "eventIds": []
     },
     {
@@ -1502,17 +1915,6 @@
       "eventIds": []
     },
     {
-      "id": "c8bf7837e1ce",
-      "title": "Alberta Premier Danielle Smith Discusses Results of October 19 Referendum - Headline Politics",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQT2pLNEE1Z200Y255X0Q4VzRIOTdGMkhsN09DSzRKZXI4a1cxbFl2azNUbE9VWndzd1JUNzNWcFlWM3ZBSHBfMk5MdGhtY0hOa21vSWpnam02VTRqMjRzeDBDSGQ3YUF6NkNDTm9PWW9MNFktaVo0bFBmMVZGcWMxUTZLcXNkX0l6aFFKYUpaMFNvbnhraUx5NlpBZVhjT3V6aE8zNjlKNWRsSjJjWDFhUF9mdVhTalpnOVVDVDU1VzdBRERuODI3Q0JteWFwc1F0YUdGbVVKOG9yUzlaSlVCaWVQdEVnT3ZNWWhoMER6ZkM?oc=5",
-      "publisher": "CPAC",
-      "published": "2026-10-21T18:39:54.000Z",
-      "eventIds": [
-        "alberta-independence-vote"
-      ],
-      "found": "alberta-independence-vote"
-    },
-    {
       "id": "230c933f52d3",
       "title": "More Oil is Flowing Through the Persian Gulf Than Before the War. Prices are Still High.",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaWZVZ3gzSEhrREdQZGd1bERjRGVXSVZKX0diMzBGd0w1bjNBZGk0NEhMbWFGRnc5R1dhVng5clBKd3NrRFQ3UU9OSHpEQkhEQmFyU2VoMzUwZEo0NUJFZElqejRaRjFMM3BGamVMOEhlTUlTbjl5TUtrYUxzWW0xQlZuOEE3RXVUUDdZMXFsTQ?oc=5",
@@ -1556,17 +1958,6 @@
       "found": "italy-cost-of-living-riots"
     },
     {
-      "id": "e1a19deec920",
-      "title": "Colombia’s Richest Man Takes Over Oil Producer in Venezuela Rush",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQV2tDTVJmSnNoajZQYzM0YVM1QmcwUkx0NkE2YnhFam9CRWc0Zk5oRlNXSVdKYUo3a192bnRoc2IwWEllb1NxZTBjaERTM3U2dU1CeDJxWEtwQWR6WDZ5VlpyVXFRYXFLeXpadFJUbENuSDVCRkFuTlNRQ1poc2dlNWg2d0drajc0QTFsTnluNGhiWGh3VDlhbEFB?oc=5",
-      "publisher": "EnergyNow.com",
-      "published": "2026-10-21T18:36:07.000Z",
-      "eventIds": [
-        "venezuela-oil-reopening"
-      ],
-      "found": "venezuela-oil-reopening"
-    },
-    {
       "id": "679a88067525",
       "title": "Qatar, Turkiye, Pakistan and Indonesia sign ‘Badr’ defence pact",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/qatar-turkiye-pakistan-and-indonesia-sign-badr-defence-pact?traffic_source=rss",
@@ -1605,15 +1996,16 @@
       "eventIds": []
     },
     {
-      "id": "cea0d655a61e",
-      "title": "PERSPECTIVE: UAE Exit Strips OPEC of Clout, Risks Bitter Price War: Bousso",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPalNZYXViclVTRHFSaEk5dnpYTTVMMk85dHUzVU9QS1QtcWJuNklGb2FTSmtuZk1nRHdnS3RNTFZQZ1dxQmt6MWRRWnVqMjZ1VUpEWVBHTlk4WVlYVnUwd1hYQ0VuWHBHYkN0dXRvQjVUNVdpZDRPYXB2dC1rNjhGMTlIamN3Zk9nclZSUFpkN2J2Zk1K?oc=5",
+      "id": "1e9452018df8",
+      "title": "Trump Demands Lower Gas Prices From Oil Companies, Chides Chevron CEO",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTFJ6YmgybVVRNmhHYmszYmhFVkw0T1JFQVFNUWk0SlRVMk12T3dZQzl5UmcxX1U0TGVqajI2WUJfRnhJOVhzdWt1XzBoQ3BXQXNuREhoZTg0eExLQjNLenYzd3pJeXZiZkExbG92UGFEbEU3Z2FmbWRTdGRYVURfVVl2NC1EYkIwaDl4V3JaQmRtb3ZHX05yYmRYZklwUEpy?oc=5",
       "publisher": "EnergyNow.com",
-      "published": "2026-10-21T18:31:35.000Z",
+      "published": "2026-10-21T18:31:39.000Z",
       "eventIds": [
-        "opec-plus-november-output-hold"
+        "venezuela-oil-reopening",
+        "us-midterms-2026"
       ],
-      "found": "opec-plus-november-output-hold"
+      "found": "venezuela-oil-reopening"
     },
     {
       "id": "7d41dd3a0a76",
@@ -1650,10 +2042,10 @@
       "found": "us-midterms-2026"
     },
     {
-      "id": "9f197eb36518",
+      "id": "c9963413835d",
       "title": "Saudi capital's airport reopens to limited traffic, and other Mideast news",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSE8xQ2xrSEdodUNfdzJ6TktwUkdJRC1DaGpfTDFlcnNzQ0NsVXNoZHJINURTVjFOeUViNXlQQmlWbkJGSGx1dkxVQURWSmpPNnljelN2eFMxZjV2dEo2a3VCWEluTFNfVTRocmEwd25jRTc2NTVjR2hJRXlsTFlzcjJUcm9Ibnk1U0tfWWRidzU5NjZVVGtJRVJvbUJ2NTExQ0g3RjJwMDFESXFLbWdSZEhOS0xQNm8?oc=5",
-      "publisher": "CP24",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUFNCbWZZdEdvUHdNQ3RWLTNvTlVMQmJ1aHJ5WHRzTF9DQUpzYi1fMmF2YXhTc3RpeVNwd3FrNnZISlotY1BEUTRaQ1dRekx5dWhqdXBIZ2RTUURxUzRkVGhMLTNlckhpRC1VYTdzSGtqUElxYmFEcUhsanYzTGpEQlBTUmpPMFc2Vnc4bUp2bkVWLXlRUEl0aGVjMzJ4YTljejY4YXdyUGNIZnJkNWlSRjBXdzRQZm9xVVZvLVg2NVczQ1Ryb3c?oc=5",
+      "publisher": "CTV News",
       "published": "2026-10-21T18:29:43.000Z",
       "eventIds": [
         "gulf-war-energy-shock"
@@ -1792,6 +2184,17 @@
       "found": "israel-election-2026"
     },
     {
+      "id": "2d9ba41a1b33",
+      "title": "Were Half of Venezuela’s Oil Revenues Really Stolen? — Part I",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeDFpNTBZVldnY25Cd3h3UnFmSzZnVC1QZHJzY3o5VnVGeDhDdmNQUVh1N2ZLS1N1VXZiMEpOZ1VjRmQzdldzTTNJQ3dPVnNDUExrQTBBS1djZmZ5OUlkel81MW5oNm9xOS1IN3F4WE5kUXBiemM0QUcxZWpma1dqQWZhT2NDdjhfVHlNZDVscjlhS0ts?oc=5",
+      "publisher": "Inter Press Service",
+      "published": "2026-10-21T18:18:44.000Z",
+      "eventIds": [
+        "venezuela-oil-reopening"
+      ],
+      "found": "venezuela-oil-reopening"
+    },
+    {
       "id": "d276c3b9765a",
       "title": "‘France’s expense’: Macron blasts Trump as Paris braces for new riots",
       "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNY1l4LXNWZ29mWThJR2hWejlVS0s4U3RCVmp1UWVheC1nNUdha2lJZTI4clN3Y0dNSUdTNnJlZVRTVDdnTXVsRXR5UjB1Vm5lU19BVzRJV2JHT1R1SXZyLVp4QTYyS0pSM2piUGxtWjRNbWNsQ0ZDZWtwc2I2RXBNOV80MExvODVtZnJPenliYTNEOTAxeE9VUHVqbi12b3ZHd19MSFgyeWdBbmxQdFlObWU4dnV4VmljUDJ4ZXlicm5iU3JrMV82djFJR3NNZHdDMEctd21uQmNXWWtkQ05sd19McUhrQk96NFBMcGRDclU?oc=5",
@@ -1881,15 +2284,15 @@
       "eventIds": []
     },
     {
-      "id": "aa5e47fd6ee6",
-      "title": "Nova Scotians weigh in on Alberta referendum vote",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE10MVhqbTdSeURsQWROMHktWW5hY2YtQ0dSTTlYR1VlUTY4LVp2Y3NkWGNqendCeHlSSmFraXd1bGNGX3g4VTFOd1ctNXZjTFBvVjJaWmhoNDk0dw?oc=5",
-      "publisher": "CBC",
-      "published": "2026-10-21T18:12:55.000Z",
+      "id": "2667cb2f8f0a",
+      "title": "Bank of Japan Expected to Assess 2% Inflation Goal Next Week",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1RdEZDVWtTTXpNNDJ0NGJVdkNUV050b1lqMkxaZmRmM2lyU184aUFiaGg1T01kTm9vcjgwVk80VG9uV1drN0p0LVhqT1lQSk92NkZRYmQ2WkJsdk0?oc=5",
+      "publisher": "TOKENPOST",
+      "published": "2026-10-21T18:11:28.000Z",
       "eventIds": [
-        "alberta-independence-vote"
+        "boj-october-decision-2026"
       ],
-      "found": "alberta-independence-vote"
+      "found": "boj-october-decision-2026"
     },
     {
       "id": "c2a168ea4dcc",
@@ -1954,17 +2357,6 @@
       "found": "israel-election-2026"
     },
     {
-      "id": "5c8f1d16b0ef",
-      "title": "Option 1 on Question 10 in Alberta referendum sees majority support to Remain",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdmtsTU9WckFfS2VwYkd1T3JvdWNKcUJZQ3I5aXFDN0taUWJxT19mUVJwcVlLajFOQ3JfSXU2SjBaTTFubS1vNTEzVlpfUThCd09zVnlvRll6TjZ5VTlwMmhVQWhTcEM0RzdOdEdBWmtNZ1czMTR1dk1tTHVEZ01feHRtZHhZcVFQX2U1ZTg2LWhiZFlEeHU3UU5lSEpUa2xZeXZnNFUxTkwyXy1KcUNweHBrb0o?oc=5",
-      "publisher": "Windspeaker.com",
-      "published": "2026-10-21T18:03:08.000Z",
-      "eventIds": [
-        "alberta-independence-vote"
-      ],
-      "found": "alberta-independence-vote"
-    },
-    {
       "id": "da44decf1a2c",
       "title": "Riots in France: tourism sector fears drop in foreign visitors",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMnp6WmZhRUpsd3RRVUgxUnlnc0NNekU1YVRHcUxqVEhhNk0zdVhISThVSVl6MEFCT05NVHZNZHpScnhyUmt0ZkxlWjVnenpzdzRpa0xXTXQxU2hKLW1WeUtKMmUyNHJaY3pfY25qd212ZzBNMmhESEF5aWFrRm5RSXB1RDJfS29IRnVEdF9Obmk3a29SaDVxdTFIUldTUQ?oc=5",
@@ -1974,17 +2366,6 @@
         "france-unrest-2026"
       ],
       "found": "france-unrest-2026"
-    },
-    {
-      "id": "f3e9962d4c63",
-      "title": "US, Russia, Ukraine to continue peace talks at technical level: Witkoff",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbmk4b3RQZTRJQ2I1ZnZLOFNGSThkaHU3TWI4OXFaaFpPSUkzeEhuZEk4clAxcGgtSzk0bmxvVWNyUkM0MXhYOU5NNDAxbFozZnk1RVlHOVdtaWJwU1YtZXRxX0hfSjM4YU1aVmY5S2xZekl2MS1SM25VQU4yT1dCb1BxYW8zc2RFYWJtYVNaOURwQ18tanJOZWt5enI3OTBYT2hOZlpFdVVWUDd0RXU40gG0AUFVX3lxTE95T2k2eC1GR3E4ckZ2MWp0WERNS0VMZGRrMTVDdFF2eFZBX1dweVZkaFBYMjE0Y1ZaQ1NJN2RmWlUtX0xGYjE3NnN6MEFqOHEyN3I0b1BhcVNRVDZhM2dfNWQwYWJta21JNFV3Vk0tZkdyLXNsblRXTlB4dEUyZ3BWYzJyMThRWUt0SEN3NHJTdnhnSWVZV2QtOGhOVnVaZ0IzU0c0bHd6R3E3SVFYVTV4VDg5aA?oc=5",
-      "publisher": "A News",
-      "published": "2026-10-21T18:01:12.000Z",
-      "eventIds": [
-        "ukraine-summit-diplomacy"
-      ],
-      "found": "ukraine-summit-diplomacy"
     },
     {
       "id": "925f85db43af",
@@ -1999,7 +2380,7 @@
     },
     {
       "id": "b84de44b66e7",
-      "title": "Food Importer Sues Over Trump's Canada Tariffs",
+      "title": "Food Importer Challenges Trump's Canada Tariffs",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOR1FhZXFueFA0NWFNMjFLZkxYLXBqLVNkNTFWVmhjb1ZLOEd5QmR3ZXdWa3pBUHJFZk9DSGRrM2tzWDhHT1JfcnhBOXd1NUxveGJ5RDhKSGtyZ0hvQWs3ai1WQ1JaNkxaVEtEWTN4M19lZEgteFR0TURIa3pLMmlGcWk2NTBNN0JkV0dhSkNURQ?oc=5",
       "publisher": "Newser",
       "published": "2026-10-21T18:00:00.000Z",
@@ -2046,7 +2427,7 @@
     },
     {
       "id": "0b776832db9b",
-      "title": "Ukraine war latest: Russia 'ready' to resume trilateral peace talks with US, Ukraine",
+      "title": "Ukraine war latest: Zelensky supports resuming trilateral peace talks with US, Russia after Putin claims Kremlin readiness",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeGZzMk9fbjVIbUQ0b2libTRYUFFwWGVqa3ltaERZdVZpWElwOFNWMVVvOHRvRlhVQzBjenpYYk1qcHdEZ0ZHRVl0alBhcmREbEp5bjlJaWlKOU05NHJsM0RPTkdaclJTOXpXTWluc2liWU00TzNsTU4zMXZPS1N4RHdHLTROQU5tRkFvTDI3bjJuZ0NPVkw2c3NVY2NmaU45akQtWXVQOURPN2JTU0E?oc=5",
       "publisher": "The Kyiv Independent",
       "published": "2026-10-21T17:53:54.000Z",
@@ -2054,17 +2435,6 @@
         "ukraine-summit-diplomacy"
       ],
       "found": "ukraine-summit-diplomacy"
-    },
-    {
-      "id": "d7b7ece5426a",
-      "title": "For Israel’s sake, Netanyahu has to go",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9yeUduNlJLaUxTM0g0cmNPdDF3UzFQMUg1Rm9ueHZvYWZhREpDcVU5UUVVNENwaFVCTjlZZ2NmUjdVMk10eHhJZ0J3NG1ER2g3dWhiSXVUMVl3SHNpUGFsNHZSZDFTQVN1Nl84b25jT0t0SlZFNHfSAXtBVV95cUxQaU5uYVdzYm5seUhvUkcyRXBaSVZlZDhQa0otUzdWTVBuaXNXdkh0NVkzNUItUjhCb09JMzVfaHhFUFp0XzdSMmU0c3JtLS1ZOGxvUU5aV1dMUG9RRkRPeVczZGxEZTk0NXhybVdXMDVLZ3lrUDI5eHhqUDQ?oc=5",
-      "publisher": "The Times of Israel",
-      "published": "2026-10-21T17:53:34.000Z",
-      "eventIds": [
-        "israel-election-2026"
-      ],
-      "found": "israel-election-2026"
     },
     {
       "id": "3c2f8b40c997",
@@ -2079,7 +2449,7 @@
     },
     {
       "id": "21a80f2b2166",
-      "title": "Sudan Founding Alliance ‘Tasees’ claims 21 civilians killed in West Kordofan airstrikes",
+      "title": "Sudan Founding Alliance ‘Tasees’ claims 21 civilians killed in West Kordofan airstrikes - Dabanga Radio TV Online",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcW9fSWEzdWtINDFtQ0ZUNGlSRC1PVnRRbEkxRHBYakdUTUNFa1NPWHFNZVZjQ2FfVVFQQWRHREx1RzJfWWJscW9yMm9lNWI3dHRVakhid1RfS1g0NGs2UVA5dDJkX1ZydC01c2VEOFZ3RncxckZ0em84bGVqVVNFeFZESUVBRndpMTB0aGNSRkhsSi04SG9EaVNpS3pFZmVPM1hST09HaGpScjEwQ0ZWcFlQclBKOFdhbTNWVzItOEVuc3IyajJidEZYbUpoeE0?oc=5",
       "publisher": "Radio Dabanga",
       "published": "2026-10-21T17:52:58.000Z",
@@ -2118,18 +2488,6 @@
         "ukraine-summit-diplomacy"
       ],
       "found": "ukraine-summit-diplomacy"
-    },
-    {
-      "id": "67e9438223f6",
-      "title": "OPEC Cuts Demand Growth Forecast Again as Gulf Supply Risks Mount",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUEt1NmxaOWtwZ2RBbVh1Q01nZjU2TlZCR1gtRm5sOElDQXFOaVJuTWRQVkhKcGxwNG5KYkhITnJsamhoV1JxVDlxc3p6RlJNR0FCUEtoWm1NQlpNcHN5TXh0RFZJYkhqUFlVdnBXQm5IUFMzdzBqNHRNSk9BelFWbEkwOEJ3bVJLLTZLUjU3Slo3UXVUZjk2YkpySnN5Sl83LWN6Mzdka0MyZzBfTUEtVldmU0Q?oc=5",
-      "publisher": "WSJ",
-      "published": "2026-10-21T17:49:44.000Z",
-      "eventIds": [
-        "opec-plus-november-output-hold",
-        "gulf-war-energy-shock"
-      ],
-      "found": "opec-plus-november-output-hold"
     },
     {
       "id": "1f93d0d6487d",
@@ -2198,18 +2556,6 @@
       "found": "us-canada-trade-war"
     },
     {
-      "id": "008d7322ad26",
-      "title": "Russia says it is ready to resume talks with Ukraine and US to end war",
-      "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "published": "2026-10-21T17:42:34.000Z",
-      "summary": "The announcement came after Russian President Vladimir Putin met US President Donald Trump's special envoy Steve Witkoff in St Petersburg.",
-      "eventIds": [
-        "ukraine-summit-diplomacy"
-      ],
-      "found": "ukraine-summit-diplomacy"
-    },
-    {
       "id": "5be1fa489a8a",
       "title": "North Korean traders turn to Chinese mixer trucks and pump trucks",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQ0l1SVlRRGgwbnliU0FJYjVFN19yNUQyVmlMOUs1MktzUHVKNWlTeWJoc1ZJbHM5SVpUcXVHdlJSX1FzSldET1RYMVJNNmpUNFluekliWXE4OHI3UGZJVUxFUTVpS0xPR2V4VXAwQjFQcUJHUzc2ekQwRDlaZkpWc2lleWRabVlyUzQ0bVFIYWtVNXRILVE?oc=5",
@@ -2241,17 +2587,6 @@
         "israel-election-2026"
       ],
       "found": "israel-election-2026"
-    },
-    {
-      "id": "00ee5530f15b",
-      "title": "Minnesota rapper defends 'solidarity' with France radical activists, push for protests to come to US",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdlJWQlRLRlUwa280YWc4amtCU2tXRmdPYVJtMHpXaFpUcUFFSWRoODM1THhMNEJ5UXk2YVlfNHRBY19QNVBaeEFnYWo2em9VdzJjVHptNkVxeElzRmo2VFFFTmxvUl9HWVFGUFZtak1qRlNxMF9WeG1Xb2RQWV80ZC10Ymd5NkhFaGZuT3M5c1BUbUM2ZFhUNC1MT3ZRYU9XbENPUjRuNkVwbWdlMUdMYW5kdGh5UdIBuwFBVV95cUxQUFo0T0JoU3ZHdFNHaER6RG9EekhTZXFyNHVwX3dLTENWR01PYnFmQmVRRUhlSEpLVFhaWXlVamRqZE5ySDdTdGRNRG5iZVZDd1BWVVNQdmxYbXJ1cGxpTGxoRDNaN1JjN2hONlk0OVBHTFVMSnhDZVRXYWR4Qnk3VjQwMnhRd2Z1YkpleDM4REhFVDBhTTRhZUluZlQwNEVTZVJFWTdDNngwYWRJc3N2TUU3MEtLZEdTeDhR?oc=5",
-      "publisher": "Fox News",
-      "published": "2026-10-21T17:38:20.000Z",
-      "eventIds": [
-        "france-unrest-2026"
-      ],
-      "found": "france-unrest-2026"
     },
     {
       "id": "451c475d48a8",
@@ -2315,28 +2650,6 @@
         "eu-budget-2028-2034"
       ],
       "found": "eu-budget-2028-2034"
-    },
-    {
-      "id": "735f6d38f127",
-      "title": "US vice president sidesteps question on endorsing Netanyahu in Israeli election",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMGIzOEtWUm41VGl0a1dHdWVCOGtlVkJOZzBicEdPS3BQSkNobFhuNzBub2ZBdF93TFVpUC1oWUM5NElyMzFsWV9tYWhUWC00NEtadGJZTVl1bldvMVBhQXN6SjRrdmg5RVBJcDhTTDd3aDRDMnJUYjhYMDAzdmtyMGxVS25nTzdjZHY3QnFyWTh4Zndfc05VamZCS2VodzJaVUU4Nmx6aGJUOHctS2h3dmJvWXl6X0ZpTFdlYjdsNzFzYUM0eGfSAcYBQVVfeXFMUDBiMzhLVlJuNVRpdGtXR3VlQjhrZVZCTmcwYnBHT0twUEpDaGxYbjcwbm9mQXRfd0xVaVAtaFlDOTRJcjMxbFlfbWFoVFgtNDRLWnRiWU1ZdW5XbzFQYUFzeko0a3ZoOUVQSXA4U0w3d2g0QzJyVGI4WDAwM3ZrcjBsVUtuZ083Y2R2N0Jxclk4eGZ3X3NOVWpmQktlaHcyWlVFODZsemhiVDh3LUtod3Zib1l5el9GaUxXZWI3bDcxc2FDNHhn?oc=5",
-      "publisher": "Middle East Monitor",
-      "published": "2026-10-21T17:31:00.000Z",
-      "eventIds": [
-        "israel-election-2026"
-      ],
-      "found": "israel-election-2026"
-    },
-    {
-      "id": "807426f3dbaa",
-      "title": "Houthi militia attacks Al-Rayyan airport, claims Aden strike: Yemeni media",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA2R1ZQLUNoQWprWFJBVTVZbUY4TDNZbzlHeDdDbTZIcFpKVTNvUDFTVnhDRVROTG4zbWV1eDVVWHpmVklnVWNXWmt5SllLMk4xajJtRkxRVWg?oc=5",
-      "publisher": "TRT World",
-      "published": "2026-10-21T17:30:43.000Z",
-      "eventIds": [
-        "gulf-war-energy-shock"
-      ],
-      "found": "gulf-war-energy-shock"
     },
     {
       "id": "cbae1663c9d6",
@@ -2452,6 +2765,17 @@
       ]
     },
     {
+      "id": "0f68bac3e6c6",
+      "title": "France has failed to learn the lessons of Britain’s riots",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRUtDWkRVcVlfc0tITk9NRTZWWG04RTdtZllCYU1YeE9kbS00WnBuVEpWcHUwN1RUcW1VUmdFckEtWVFEcmVacFdQU1dTSzU2cGszaFRCQUMyRTJ6SUFYWkRlNFlqaUt5ei1FOUQ4TmpWXzF1UWN4NFNmSkZLQjlVZXJIMTB4WnNUXy1tT3Rn?oc=5",
+      "publisher": "UnHerd",
+      "published": "2026-10-21T17:19:08.000Z",
+      "eventIds": [
+        "france-unrest-2026"
+      ],
+      "found": "france-unrest-2026"
+    },
+    {
       "id": "37df3a7841b8",
       "title": "Controversial US-backed vaccine trial in African newborns halted",
       "url": "https://www.theguardian.com/world/2026/oct/21/us-vaccine-trial-african-newborns-hepatitis-b",
@@ -2513,7 +2837,7 @@
     },
     {
       "id": "9518575f0c6f",
-      "title": "Eisenkot Rules Out Government With Netanyahu, Vows He'll Resign if He Joins One",
+      "title": "Eisenkot Rules Out Joining Netanyahu Government, Even Under Rotation Deal",
       "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPN3RWdkEzeVRnNS1KTzUyd0hkMWduY1JWZ2hLT1Y3Wm5fYldMSE5pWExsRFZOYXpnWms0SHZUUlljRXV4YkNfTlZBM0NXQ21GU2Z6Z1UxbTk2TGhuUlBWeW5UVmJxOWpCTVVuNFlERkxJcm5ma2Z0R1BHUkRfcVBEemkyeGFfVEJYenJRRTk2NUZFSTZyQndQNkpLNjBYTl9iUHV1RGpFMTl0aGR3N0tIMVRFN2xyajRzZEdRMzdScC1jN1Q0a3RQZWpEM204Z2h3OGkzREI3ZW5JYjNHS3FSOHk5aGp6UGFuTXdodXNSX3JLZHlmUkZCRkVlV29XOWVMWGFjSzEwXzZBdjNPZVJFT1JZdE9LWDl1d2NZ?oc=5",
       "publisher": "Haaretz",
       "published": "2026-10-21T17:13:00.000Z",
@@ -2521,28 +2845,6 @@
         "israel-election-2026"
       ],
       "found": "israel-election-2026"
-    },
-    {
-      "id": "18f4954ad2fd",
-      "title": "Jackdaw approval is a step towards a grownup North Sea policy",
-      "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/oct/21/jackdaw-approval-step-towards-grownup-north-sea-policy",
-      "publisher": "The Guardian World",
-      "published": "2026-10-21T17:12:32.000Z",
-      "summary": "<p>Government decision is about how much oil and gas is sensible for UK to produce on the way to net zero</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/oct/21/uk-inflation-jump-rising-motor-fuels-cost-jackdaw-gas-field-latest-news-updates\">Business live – ",
-      "eventIds": [
-        "gulf-war-energy-shock"
-      ]
-    },
-    {
-      "id": "a3122181a0bd",
-      "title": "Housing protests sweep across Spain as pressure mounts after defeat of government decrees",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPR0F5LWtyaXRCNXB3eUJiaWJ5X2NZbWdmd1FfOHZIUVFXYUVaVVBMaGY0a0lEb2dxUjgtd3dib2NyX2ozRXg1LWNlc29FMnVhYjR6b3VEeWJFOWJkU2xSNDVnNGo3WWY5MU1qeTRkQ2l6SU05bUNIMlFtNzVLUHpDWTRJcHNDS1FCaE1abFFXMkNrRXBDZWdCWHc1Z21BZ3cxYkFCVllmNEpaRFpqNFZPNTRwUXp5V0tZLUNlR3FsdS0?oc=5",
-      "publisher": "Spanien Press",
-      "published": "2026-10-21T17:11:24.000Z",
-      "eventIds": [
-        "spain-strike-and-snap-election"
-      ],
-      "found": "spain-strike-and-snap-election"
     },
     {
       "id": "af9b43e38977",
@@ -2639,18 +2941,6 @@
         "france-unrest-2026"
       ],
       "found": "france-unrest-2026"
-    },
-    {
-      "id": "88793b2516cd",
-      "title": "Importers sue to stop Trump’s 50% tariffs on Canadian goods",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZVZ6UnE3VzBBSDRoc2kyd2lmNmJrTnR1Wnc0cjM4c0lHTkRIckZ5NFlKOWtobGJnb1JXQjlOdlJJX3RyYUwxVE1DU09hWTRpYXBHeVV0dTNtSXJUOGlQZWxacDQtYktkNXlCMUxyQ3BmVWV2dkF2U0RNTHZhbXBWaEFVOW50M1NWNGoyeDA1a2c0R0RvUmdSQ1pzRW5CdTV4dEpCUEZ3bHdTWFBL0gGsAUFVX3lxTFBlVnpScTdXMEFINGhzaTJ3aWY2YmtOdHVadzRyMzhzSUdOREhyRnk0WUo5a2hsYmdvUldCOU52UklfdHJhTDFUTUNTT2FZNGlhcEd5VXR1M21JclQ4aVBlbFpwNC1iS2Q1eUIxTHJDcGZVZXZ2QXZTRE1MdmFtcFZoQVU5bnQzU1Y0ajJ4MDVrZzRHRG9SZ1JDWnNFbkJ1NXh0SkJQRndsd1NYUEs?oc=5",
-      "publisher": "Vinetur",
-      "published": "2026-10-21T17:03:19.000Z",
-      "eventIds": [
-        "us-canada-trade-war",
-        "apec-shenzhen-2026"
-      ],
-      "found": "us-canada-trade-war"
     },
     {
       "id": "09926493d7f6",
@@ -2820,29 +3110,6 @@
       "found": "boj-october-decision-2026"
     },
     {
-      "id": "21bd469d1055",
-      "title": "Lawsuit challenges Trump’s tariffs on Canadian goods, seeks refunds",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUXdXeFUzR19HZDFVRmQ3ekFQTHRoSUY1amhoQVZGQmZxejZBUGU0UEhGeFBKQ1hvMTc5Y0w5ZTJMbmVNY19UYl9iUk9YRW93M3lQc2VHbGhmT3RIeGVFM3B3T2U0Zm9UdExCSFo0NDRHR21Fdmp6TXlkQUdsaGtjY19lNWxoZU1BQTlvVzg4TzJZWEF1OXAzVUlwLTh3RGxPRExXS210QjUxZUN1MEdDdWhfSQ?oc=5",
-      "publisher": "RED FM Canada",
-      "published": "2026-10-21T16:44:56.000Z",
-      "eventIds": [
-        "us-canada-trade-war",
-        "apec-shenzhen-2026"
-      ],
-      "found": "us-canada-trade-war"
-    },
-    {
-      "id": "a7a68d991e0e",
-      "title": "Putin tells Witkoff he is ready to resume direct peace talks, Russia releases U.S. detainee",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE85WmRyTzZETUhtLWthdGtkamFBM3VmaE4ya0lJZDdoU1BVZTVpc29oaUZWbHdMMXR5ZWg5THBWR0x3emM5WVdWODNJaS1RMWs4UktVREVCZmZ0MWNuMkYtU1o0c3pZSF82TEJxLVZwZlJCVFMzMmc?oc=5",
-      "publisher": "Axios",
-      "published": "2026-10-21T16:44:36.000Z",
-      "eventIds": [
-        "ukraine-summit-diplomacy"
-      ],
-      "found": "ukraine-summit-diplomacy"
-    },
-    {
       "id": "c39fbc0462d0",
       "title": "Zelenskyy backs freezing front line as first step towards Ukraine ceasefire",
       "url": "https://www.euronews.com/2026/10/21/zelenskyy-backs-freezing-front-line-as-first-step-towards-ukraine-ceasefire",
@@ -2918,29 +3185,6 @@
       "found": "belgium-cost-of-living-clashes"
     },
     {
-      "id": "6ae5f41f782f",
-      "title": "Macron’s surprise ‘solidarity’ visit to Saudi Arabia",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/macrons-surprise-solidarity-visit-to-saudi-arabia?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "published": "2026-10-21T16:34:27.000Z",
-      "summary": "French President Emmanuel Macron made a surprise stop in Riyadh to meet Saudi Crown Prince during his ongoing Gulf tour.",
-      "eventIds": [
-        "gulf-war-energy-shock",
-        "opec-plus-november-output-hold"
-      ]
-    },
-    {
-      "id": "29b9d12f7359",
-      "title": "Louis Vuitton's Paris Store Windows Have Become An Internet Sensation Amid The France Riots",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeGR3bUJfRlJsckVJZG05MjVKN01CaFBEYW1qSGxxODdNT0lRdlV5bkJ3QXE3TElQTk9RdjZOU2RPdE1WajFrTmduR2pyaElOVlB0OFhkVDdtTHJieThxVGp4cDB5V3lVMlJsU2hmYVBYU3lhSGRWMlhfc2tzZ2JDVG5NZXJKSFU?oc=5",
-      "publisher": "AOL.co.uk",
-      "published": "2026-10-21T16:34:02.000Z",
-      "eventIds": [
-        "france-unrest-2026"
-      ],
-      "found": "france-unrest-2026"
-    },
-    {
       "id": "e1c1e7635623",
       "title": "Midterms 2026: Congress Polls and More",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9qM2xEd3lHR1dpU2xwT1JLcDEyUXlVS0xaeGptQzlscXNJSHc1VVVXQnZpY2FfN0NYdlFLMGZfWW9SSDFLT3NQVEF5cDlKZUlaVGNmZW5VUlR6LXI1MGtGeHJZWU1icGs?oc=5",
@@ -2985,6 +3229,18 @@
       "found": "france-unrest-2026"
     },
     {
+      "id": "d21fdbe8f7f6",
+      "title": "Lawsuit challenges Trump’s tariffs on Canadian G\\goods, seeks refunds",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVTFuajZRWWdkX0kxWlR6VFZtWG1OMVI0Z1RoeWtwY1VUcHhSV2gyYnlaWElBVWdyV0xSYlNLTUFwOEtiNWFSZHVrVldEUEZ5dWdIbWVxdzRBcjUzczQxZ3lEc1pycklWQ3p1dWdwYWFacmVNRzVEZndXcmdjM29Zang4VXpKSERTMFB1bEhYbjMzcXlqMGRKYno4X3dpZURwcDY1NGhNUDlNUVdVUFM0Yw?oc=5",
+      "publisher": "RED FM Canada",
+      "published": "2026-10-21T16:29:13.000Z",
+      "eventIds": [
+        "us-canada-trade-war",
+        "apec-shenzhen-2026"
+      ],
+      "found": "us-canada-trade-war"
+    },
+    {
       "id": "d6b8d861d35c",
       "title": "‘Son of a B***h!’ Fed-up Spaniards Jeer Socialist Pedro Sánchez During Visit to Flood-hit Town",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNDN0WExLMzFVWExVUGkzS3dPLS1Zd2IzZTZ4OXF2YVZfYjQ0NXlHbVRoSmUxOHczMHA4NjJCSXZfZXVnNlAycUIxQlhVQUNzYVR2Qk9kMC15bkhhWS1nbGJOS0VVN0tmNEwwcmExVGxrQlFneFR3cjdlVkN2OTJFMlhGd3p3UzMzVGp3OFJaV0g5aDZrS2UzQ01mZ1lNS3ZyMzJWWnpGMnBsajRkUHREWi15dTZNRU9EZ0FMd1VGd1YtZ9IBxwFBVV95cUxQQjM4ZU1jbmdDTDZBUF9IZTVOMGFfcjgyYkFZTTJBMWV5Q1EwRzBfODlYd2hsSTR6Y1JPQ3VrWVZmRHR0SEEycUlrVVRYdVRTeXo5bVZxSjA1Q3BsbXhyckR6ek9ld04xblZTeXpSRGlhSkQ5TThMLXhEajNsX0ZodUFfdmJ2WVQxS2tJVjlDTVQ4eURDYXhhWndodkRVNzZhNWNmWFl4ZU9RSm1yS2picENNaGg3aWtVcUZseGVYNEhCb29qaklR?oc=5",
@@ -3005,6 +3261,17 @@
         "brazil-runoff-2026"
       ],
       "found": "brazil-runoff-2026"
+    },
+    {
+      "id": "81aa9cad37e4",
+      "title": "Putin ready to resume three-way Ukraine peace talks",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYzY1d2JNd1BjSXluNDBwdmNIeDVNa0VUTVNxSmxUY2VCM1lmakdmZGZWSmtrRHg5RklyeUFnSzBuckwxcm5kMzl6WEJ3b2s3eVdpR1hLQ0lMelQ3RUJRdjAxY3drdG4zVXRyYkIwQjNnY2hjV1RteS1ZdG9CamprckEwVDhCeG5GdzlMLUhxT1BIaTFlQVpFTnFTWmhCT2tBcXN5aXo3OURSRDRHRG1YT3JDRdIBuAFBVV95cUxPeGdfc1N1T0ZOWE9RNDdXcWx5czRzY1U2SEpEV2NzbzhOV0Ywa21EbWxRZHZUQ3ZNYjh1T3ZIS1dwR3lQUVlyQVJZdDFrUkZEbmNWWnVFS1NTYlAwc0tjRnA4M09BVUZ1SE9KRG5qS3VfZXRzeUZpQnhSVEpjRUdlbUlaZXhmeHJSbVVqOUtIdUl1bXdvY3dpdFJjbkpNZER2QTBKX1lhNHhRYnNWZE55SmtjUDhGOUU5?oc=5",
+      "publisher": "Al Jazeera",
+      "published": "2026-10-21T16:26:08.000Z",
+      "eventIds": [
+        "ukraine-summit-diplomacy"
+      ],
+      "found": "ukraine-summit-diplomacy"
     },
     {
       "id": "5eb9939973ec",
@@ -3028,6 +3295,17 @@
         "ukraine-summit-diplomacy"
       ],
       "found": "eu-budget-2028-2034"
+    },
+    {
+      "id": "1937297f0e5a",
+      "title": "Steve Witkoff calls Putin a 'humanitarian' at Russia peace talks without Ukraine",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbWZHVVl3VzNENnk2SE9ZaXBBVE1nRzJORHhOWVZwc005dEw2a0hMVWNNZVJ2YWhzdm84NHl0d0JqWWZTOWhmTW5mUUZTTVJqcUFYV1htNm9QNUpMMS1vZHRFSDMwQjZEdFV0aWxFdkRxQXV3X0hMczVDY3p1ZXNxS2RIcUhRZVY5MmNxS2hRT1pBdU93WVhDMEdLQ1M0UUhDdjVtQ3FxVkRneVh0dFFuU29OMVNNZ3o4WlhqUjd3?oc=5",
+      "publisher": "CNBC",
+      "published": "2026-10-21T16:22:20.000Z",
+      "eventIds": [
+        "ukraine-summit-diplomacy"
+      ],
+      "found": "ukraine-summit-diplomacy"
     },
     {
       "id": "ae115c2b5d5e",
@@ -3103,17 +3381,6 @@
       "found": "spain-strike-and-snap-election"
     },
     {
-      "id": "d148183e87b0",
-      "title": "Rep. Ilhan Omar says Trump is trying to intimidate her before midterms: \"We're not gonna be silenced\"",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNams0Rkl3VGhwVW5US29ORk1tdFY3M3pTU1lWMWpTMTJ4dWtJWnJoUWhfcm1MOEFnNkduWDZvRDVoNUlKRnVCb0Z3V0ZueC1XdXFTbUF5cExhODJjWWpwaVR3TFlUOVdJdmZwV3dLMkIzS1NRSzkzbzVkWXpFR1NtRFpFRG1nWS15UEZNbjJNTmJfRUJHNVpleHJn?oc=5",
-      "publisher": "CBS News",
-      "published": "2026-10-21T16:09:00.000Z",
-      "eventIds": [
-        "us-midterms-2026"
-      ],
-      "found": "us-midterms-2026"
-    },
-    {
       "id": "5b365e6efd07",
       "title": "SpaceX stock jumps 10% after earnings beat and Musk hints at Tesla tie-up",
       "url": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html",
@@ -3146,17 +3413,6 @@
       "found": "spain-strike-and-snap-election"
     },
     {
-      "id": "92de42b2c7a2",
-      "title": "Middle East latest: Pezeshkian says US must recognise Iran's rights before talks can resume",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNb1Rrak9DUVcxWUFNREEyZTgtVGRyT1ladW9xeldkR0tadEQxWGFDaS0zR0RrN3U1T3VTNmV2QnVrNHNramJTY0FRZ21IX0FMUWt5N0JGSk5qc2pyQXZBbFFDRkliU3NYanFLbC0tQnNzV0FoaXJuUWoyQ0Z4aDZ0eVY4WmFzbFlwd0JPLTBVNktWYmxQMjlSbzJYY0VtZ28?oc=5",
-      "publisher": "The National",
-      "published": "2026-10-21T16:06:09.000Z",
-      "eventIds": [
-        "gulf-war-energy-shock"
-      ],
-      "found": "gulf-war-energy-shock"
-    },
-    {
       "id": "3498b7dc71a4",
       "title": "U.S. Importer of Canadian Products Challenges Section 338 Tariffs",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPenI3R29oM3RXOFFldXVfajlLZkVvcDA1ZVpKcnc4cUFtOEd2NmlHSG4xN1lHMW9oX2lYTnlnV293NVQwanl2NXp1ZWx1bmloTHlTR2F6MFNZeDJjdi1MMXp2RmVNcnBwRnpTeU9lMG0tOURrVXg3RXJsYVUzbk0tZHRzUFhuQ1hFZHY4dWlldk9MSU83VFZkanhGWERzZjA3QWplcWlSb3poVktlZGd3dA?oc=5",
@@ -3177,15 +3433,6 @@
         "italy-cost-of-living-riots"
       ],
       "found": "italy-cost-of-living-riots"
-    },
-    {
-      "id": "0ae3a43b6d49",
-      "title": "Real Madrid vs RB Leipzig LIVE: Champions League",
-      "url": "https://www.aljazeera.com/sports/liveblog/2026/10/21/real-madrid-vs-rb-leipzig-live-champions-league?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "published": "2026-10-21T16:01:56.000Z",
-      "summary": "Follow updates, with team news, from our live text commentary stream coverage as Mbappe and Bellingham headline.",
-      "eventIds": []
     },
     {
       "id": "531e4a10cdc4",
@@ -3220,13 +3467,15 @@
       "found": "gulf-war-energy-shock"
     },
     {
-      "id": "8a9f0edb41a1",
-      "title": "Bayern Munich vs Arsenal LIVE: Champions League",
-      "url": "https://www.aljazeera.com/sports/liveblog/2026/10/21/bayern-munich-vs-arsenal-live-champions-league?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "published": "2026-10-21T16:00:00.000Z",
-      "summary": "Follow updates on the league-phase clash, including the build-up, analysis and live text commentary of the game.",
-      "eventIds": []
+      "id": "5e05d41d6da2",
+      "title": "Consistency in Ethiopia’s Approach and the Evolution of Mediation Channels from IGAD",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaUV6UEoxX3VCVzMydEJqRGIydkZObndGNDhWVW5BLWFQV0ExRUYxSzJSR1d4bTBqN3Z5MlE2T1Z4VTU1aHJTcGgxaEJVeDJBSFdudkRMTWp1VndITXd3Z2pIMzFnbXhCaUVJd05WTnNSekpodUNZWkZieDAwZmw1MFVzUnJpUjNGM1lfUkpMdGtaNFNtSEVZTnJ1ZjQxT2I2Y3lnOVAwV3dGSnlCRmZyZFp5eVRKRDU2REE?oc=5",
+      "publisher": "horn review",
+      "published": "2026-10-21T15:58:26.000Z",
+      "eventIds": [
+        "ethiopia-eritrea-war-fears"
+      ],
+      "found": "ethiopia-eritrea-war-fears"
     },
     {
       "id": "598fdccac7d2",
@@ -3247,17 +3496,6 @@
       "eventIds": []
     },
     {
-      "id": "fe39aee0021f",
-      "title": "Ohio voters head to the polls for midterm elections",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1XYnpHWWpuM0hlZlo5QTd5TFRNd0paRDdQNWNKNkpMSlJ1Ty1qNTRQd2w5TE5JZzB5MWlrVlgwWnBvZm10SmYzeVNWWGVuZ09JbWZDbjJFbXRoZWI4QzFvZnBnRdIBaEFVX3lxTE1FeHV2dU1tdE5Dak95UzQ0RHBZVG5sS0JRLUdYVTFiY3lESDk3RUxicndYOE1WclZVUE5CUm8wUExveUpiOUhTUWRqMkFDOXlidlZXQTIwZ1pGZFZKb3hrLXZ3eW5Ecksy?oc=5",
-      "publisher": "LiveNOW from FOX",
-      "published": "2026-10-21T15:56:02.000Z",
-      "eventIds": [
-        "us-midterms-2026"
-      ],
-      "found": "us-midterms-2026"
-    },
-    {
       "id": "fc2f1ecf460a",
       "title": "Drone strike kills more than 150 at market in Sudanese war",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZHdPdHJvbUlsMVFnY29MWXpHZHZJQjN6dXRoVW5vVmp0Qng5ZjItd25wZ014Y29EMGFOWDY1b1JWdV9lRTcyS21leHVzNUQ3aTRDMU5wLTlqUXhoYXRuTkNjZUVVTjF1dFYyMzNLM0tieU9VNWhVUzJILTdWT3MzQ3VUc3Y5cGkxVjhpN3hXcGZielpTU0xITVo4eVpnRUU?oc=5",
@@ -3267,17 +3505,6 @@
         "sudan-darfur-kordofan-famine-alert"
       ],
       "found": "sudan-darfur-kordofan-famine-alert"
-    },
-    {
-      "id": "9880aa086dd2",
-      "title": "FRN Variable Rate Fix",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1pWE9rNEFxcl94T3ItZWpSN0tWSUNZc0hQODdEWm1vVkNGeHRaM283dmFraG5PVkQ5TU9TT3dhd0JOOE1xTGJOU0g4N1c4RlRyazJPLUdrTEg0cWEteUVNZk5hczdaeEs4TFhGN2M2WlF1Q1M5QmJFSGRR?oc=5",
-      "publisher": "Yahoo Finance Australia",
-      "published": "2026-10-21T15:55:00.000Z",
-      "eventIds": [
-        "ecb-inflation-and-rates"
-      ],
-      "found": "ecb-inflation-and-rates"
     },
     {
       "id": "5c9e025597f9",
@@ -3315,15 +3542,6 @@
       "found": "india-us-trade-deal-2026"
     },
     {
-      "id": "887659b105b7",
-      "title": "Canada wants to expand its LNG business. Critics raise red flags",
-      "url": "https://www.aljazeera.com/economy/longform/2026/10/21/canada-wants-to-expand-its-lng-business-critics-raise-red-flags-2?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "published": "2026-10-21T15:52:46.000Z",
-      "summary": "As Canada’s LNG exports grow, critics raise concerns over human rights abuses linked to major corporate investors.",
-      "eventIds": []
-    },
-    {
       "id": "cc177be2b820",
       "title": "Kremlin says 'ready' to resume 3-way talks with US and Ukraine mid-November",
       "url": "https://www.france24.com/en/kremlin-says-ready-to-resume-3-way-talks-with-us-and-ukraine-mid-november",
@@ -3336,26 +3554,48 @@
       ]
     },
     {
-      "id": "a878ee1d31ca",
-      "title": "Trump drops Bombardier U.S. sales ban threat: report",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTjlBYnliWGdtMXlwZTF6eEJJXzNWWElSSDhMcVdhNDNFYlFVa2p4d3VfUTZfc1RVYnhlNkJfZlBncEZleDg5a3A1SmRBbF82WGpJRGFzbE9Rd3hVSWp0MF82a01wVkNDdkxjM0FySGhkalQxbzdsMVhvQU85M2hocmxPYVp4VWNEd2JGZkxyNzlTVkpPSGRMQjlhWG5NVGtVbHJvU0xJWXJIM0Ez?oc=5",
-      "publisher": "Human Resources Director",
-      "published": "2026-10-21T15:47:27.000Z",
+      "id": "b6cfb4f75c53",
+      "title": "Russia agrees to resume three-way talks on Ukraine war with Kyiv and Washington, Kremlin says",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPd0lKWEFvRl81aEFkWG04Xy1QTS12QzhiMnRJRmx2OG54b2VfcXhfVkNTdEhkNTlYeUxjcXAxeFRvYWJjQkNCUXJmYjU3U2ZvMGxCZ3hCVmtJblpfTG5jYUp0X1BsQXhLNXI4WFRJVlZmSXBHTk1RN1pac0NlUEl5V3RYSnNFUXJVa09BckZSbWlWdFRkSExxWnl4THbSAbABQVVfeXFMT2xsaWZQemF0LW1hcGIySmVQa0lMSnNHVFpDSmw4LWNTRktQanFZeDB6WmR4Z01zOWc0aHNsR2ktUFNjbXdPVVp4S09hVDRiTUp5Z3NPUDZDQi03MUs2cDZVYXhBWEczMlpwTUZMclNsQ1dpRTd6dVc4OWtTTVBxS3A2dmNtcXZiLUpRTmEzemxSVHd4WDNLVXU5QXB0SEhvSkZYcmVvV2w4YUdqOFkxbFE?oc=5",
+      "publisher": "WDTV 5",
+      "published": "2026-10-21T15:50:00.000Z",
       "eventIds": [
-        "us-canada-trade-war"
+        "ukraine-summit-diplomacy"
       ],
-      "found": "us-canada-trade-war"
+      "found": "ukraine-summit-diplomacy"
     },
     {
-      "id": "61c5d5387c27",
-      "title": "China’s Export Boom May Ease in 2027 as Front-Loading Fades, Economists Say",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWVFSMElSYnNJM1IxT18weUgzeTFXNG9sV0Fvd3E2cmNhQVQxenluUXlHdERfVWV2QVNqTVJ1Y25DNHI0dkRnVkpkaWV4ckpSR1VGdmY2U2JhdTdUNG1xekh0TW5kWGtjWl8xTWNGZ002OExIMHdXeFNDUlBwVDNiV2pFXzR4Y2hScFU3TjQwWUV4R2VZcGtLQzVZM3N3X3NXRnFxUHMyTjhJaGZDcDNtbGlMbV8teUowTG1tek1LMDZ5RWRISUVv?oc=5",
-      "publisher": "Caixin Global",
-      "published": "2026-10-21T15:47:00.000Z",
+      "id": "f251ee2b34b6",
+      "title": "Trump envoy Witkoff meets Putin in St. Petersburg for Ukraine war talks",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcl9XUzVfSmc1Y2RFUG5IYnNBajMyR1RVeGpDVmE1Zjk4UXpUdElRMnhkR1pXZ3ktVnQ4N1JCVzQ1YmJQMDFaQTdkenRYbkRaSm5yYVZOOUpBQlE0SzkwOEk0U05PUnZRMGhsby1hSWVmbW43SUx1V0dHUzRsV1NqSm40VjVya19TUkg5VzhxaG1yRXdPWE1aaEF3MNIBrwFBVV95cUxNdVJPbzhaQWpzcUxBUnBEUUdJRmU2c3J5aWl2OTVXd3N2ajBzcTJFY0NlNE1VVWtaYTYza21YVVFWb19aZHBORTdOOV9TQUdNekxZWjJkME1IUjI5ZDU2a2NMNzVKR0Z1NnFVLWpzaW5NdTdiSTZjNDZTTFVLallIcnhwdFpmeTRmTGV5VjBHbUhTZW1ESGk5Mkh2ZGlQYXdNSE1LMURqLWIzRmpmTUhv?oc=5",
+      "publisher": "KGNS",
+      "published": "2026-10-21T15:50:00.000Z",
       "eventIds": [
-        "china-q3-growth"
+        "ukraine-summit-diplomacy"
       ],
-      "found": "china-q3-growth"
+      "found": "ukraine-summit-diplomacy"
+    },
+    {
+      "id": "80314c26a690",
+      "title": "Trump envoy Witkoff arrives in St. Petersburg for Ukraine talks with Putin",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbUFOMUUyNUkxNzlwT2JhelMyMVh1Q1FHaE9Jdks2NkZYXzZZYkk0eHhMQmZvTDJYMS1TTF9TMXNrakY1SHhseG1fOVdWVGZ2c1ZmZWFiRGc4b0lFWGNJM05lV0ZIQzhKdDc5S2RJOWV4ZXlUdVFGbkt0WnNMZEYxYjZXZmdLUzA3Wkl2Ql84elJ3STFpSm00RC1VbUxHVmhEeTRuV1NjdWVwQkpa?oc=5",
+      "publisher": "fox10tv.com",
+      "published": "2026-10-21T15:48:00.000Z",
+      "eventIds": [
+        "ukraine-summit-diplomacy"
+      ],
+      "found": "ukraine-summit-diplomacy"
+    },
+    {
+      "id": "47a15fd0aa97",
+      "title": "Oil Prices Drop 4% after Qatar, Bessent Raise Hopes of a US-Iran Deal",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdVZScXRaMUVtSFJ0ZW9mWUN6TGRWS2F6TkNvS1ZKMGVhY2dRbWc4ZEhZN05GWFE5SW5HN2t6MUJpLUh2dkx4ckY1ai10dHNLcjBhTnEwQ0RfbldOOVRRTWNDbE1EMlVFLUFWWWpieHVGZVh5bURRb0lzNUVmUURiTnpsX0JaTHRlTVRhdjF0bHFzZmpJS0E?oc=5",
+      "publisher": "EnergyNow",
+      "published": "2026-10-21T15:47:55.000Z",
+      "eventIds": [
+        "gulf-war-energy-shock"
+      ],
+      "found": "gulf-war-energy-shock"
     },
     {
       "id": "809b8b38d610",
@@ -3402,28 +3642,6 @@
       "found": "india-us-trade-deal-2026"
     },
     {
-      "id": "53513e24bc35",
-      "title": "Global Player",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQ3RsTF9IQjlXUjhqcGNjel9kaEJTdWllSVJqV0hWRWNFWEVFTFgzWldLbFhudFc2WlJTMUNzdVliaU5aOU90Qk9JVjJsVFZ3SEIyOW4td0xnNUdrLWk0WHhfclNSNnA0NVJzLXo2NGVFblRVRVNkLUd4dURwMllHVlMyRW1DRXd5cFNYSllUVUF4Tm12MHlwMXN2cDc3ZTBLejkybm1Wd2p3aW8yUEVWNjVsQnlvWXk4d1drVUpvV1ktZw?oc=5",
-      "publisher": "Global News",
-      "published": "2026-10-21T15:45:26.000Z",
-      "eventIds": [
-        "us-canada-trade-war"
-      ],
-      "found": "us-canada-trade-war"
-    },
-    {
-      "id": "8afe5c40576b",
-      "title": "Trump faces troubling trend in 5 new polls: ‘Extraordinarily low and still dropping’",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNM285eTg0QXlKUkZwaUZRWldqQjVGZ2g3WXVjVGoxVVByc2Iwa21vd244T3VNY09EUmh1U3ZEM042LXYwRUM3bWJuQ3hSQ1dIbGtOcW5pdmhDNFo2NGxoc3o5WDV5ZDNKVDBaeWR2Uno3Mllhbnh6aE14S0ZBMElNSThMNy1JZDRHNVZaUlhKTWVDWjUzelRralhXWWJfX3ZHT3RrdFZYX2RUdW5JalJpM3c5QlRnQm9zRmowZDlwTVVBUQ?oc=5",
-      "publisher": "MassLive.com",
-      "published": "2026-10-21T15:44:00.000Z",
-      "eventIds": [
-        "us-midterms-2026"
-      ],
-      "found": "us-midterms-2026"
-    },
-    {
       "id": "9e928a2f9199",
       "title": "It has happened again: the flag patriots of PP and Vox cheer on a Javier Milei who came to insult Sánchez and, therefore, Spain",
       "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNckV2d2ZhQ1pSVUtocDc1T1dORW1hZ2h6UW03LWNtRGVTeVBTUGFkUnBjV3BHWnNRYXMzVG82U0hETFNLLXpWcE9rSk1oT2ExdHNab0ZiVGpzcDF5ZVRHN0I5V0dkdUduNnpzOS1MVmp6RmxoMnNnSWpJdUdCTWJxdWJuRFJKVjVsSHgxNUtmNEwyOTlGVHRWS2NKZjVlQzhSREVDeVJGWmZrdjF5dmVua2JvaWYwMWJDUWJoZWlZR3FUeURFQ1BxWG1TRmNzQlI4RXJaOXZZQVd6YXhTZmpHdFRRN2J1MFFCVWxqWl9ReDRWUVU2cmhtdnNsdnJxaDQ5WlFqUHVCX1JBZ0k?oc=5",
@@ -3444,6 +3662,17 @@
         "ethiopia-eritrea-war-fears"
       ],
       "found": "ethiopia-eritrea-war-fears"
+    },
+    {
+      "id": "664909efa5d1",
+      "title": "Catalonia’s new far right: How anti-Muslim sentiment is reshaping politics",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUVhSaVNobVlZbTZ2bVNkT1BGWHhVLS1mRFpoT2FkYU94b2pSSDNqZy0tZkM0a2FmLW1FX0NQZWZrM0xPdGRFMHZaSnA5TzBjVDBpeGU4bi11MHNLS3NpUmt4MXYzOWZEWTJLdmFoNmNFejlheXE4TnFMbVNNbjRyMnkxQjZ4TGtTU0dwOFdRWXRNNEQ2RjFpZFR6YVB1cWJfVVItcmhpeXA4RnZoYUZGZU95TXTSAboBQVVfeXFMT3lCeDhNRjg1NVcwRnRla1lCRmd1bFRUUzhDZGJodW02WUNuQ0tvaGZBOVAxTVd4WTFWYy1KZlhRdmZKSVlTXzBxVjRNamMtbVprOHpVYVhjNldpRzduUVNNU2xDMEhyZmtzekRmZGl2aUdXckFsN3g3anBLNU1YdnI4T2lLVXBaU1YzT3R1ekZaSG14VnY3QUFKTFJndnhRUEtUMkFTM1R5aENyYXBJNWh2bDQ2dHNGUzBB?oc=5",
+      "publisher": "Al Jazeera",
+      "published": "2026-10-21T15:42:56.000Z",
+      "eventIds": [
+        "spain-strike-and-snap-election"
+      ],
+      "found": "spain-strike-and-snap-election"
     },
     {
       "id": "b75f40a95e3e",
@@ -3491,17 +3720,6 @@
       "found": "venezuela-oil-reopening"
     },
     {
-      "id": "819954814a52",
-      "title": "Strategic Oil Reserve Buying Set to Support Crude Demand Through 2028",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQc2NrcWFuNXRIbm9FbUZHSUllMHMzQ1oySzVxdmxUeDRrUDRway1WNTZrdnRHYTA1Q1Fjd1dCMjlyOC1xUVM1NHBIRmFfa0JrUXV4Mmtqb1J4c2hraklGM2EtdVJYd3J4MmVvVXRDNmM3YXluNHExYWpRUXlqLWJuRlkzb1lNUjE4VVNHdHQwdmo2enZLT1poMVhFZ2JVRHBkWGc?oc=5",
-      "publisher": "EnergyNow.com",
-      "published": "2026-10-21T15:39:12.000Z",
-      "eventIds": [
-        "opec-plus-november-output-hold"
-      ],
-      "found": "opec-plus-november-output-hold"
-    },
-    {
       "id": "1407d265679c",
       "title": "What are Italy’s new measures against violent protests?",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcmkwV1hxVXdaLWU5NGItaUF2NktKeG1vLXYwTVF3VEs2SG05SkxNT1JVLWVGZUVCd3BZeHF2X21FNzV4aVF2dE1yOVJRSmhLb19sMFRTLU5SSVJBQTJoSEZnLWVRdXg3WXZZN3Z4bmdUSnlMOWZmb2MwZmxHSGhVRy1aRXBXNExBZDZjaEJpbnBNSDZkVmZmSjJ3MNIBoAFBVV95cUxPdFRvM2RuSDdiTlhfbVpCdDhzNGxJeFdrZmoxdkliU2lSTGQ0VVk5bXAwUllMWmpYbWtlaTVmVnpUcE93NWtXSlJWWEFLMkFNRV8wM0xHN0RqSGJNLXU0VkIwWV90UVppcU5LemNXTUsxM0FyV2NPblpwbzhndUlkcUtqN1FEZVBUc2lyUVJyRnVremF1WUpHd0VYWlhvSmRs?oc=5",
@@ -3512,30 +3730,6 @@
         "italy-election-2027"
       ],
       "found": "italy-cost-of-living-riots"
-    },
-    {
-      "id": "34055ba2846d",
-      "title": "Hormuz Reopening Could be OPEC’s Undoing: Bousso",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNU1BTkRDTWgwMEJBYkYwNzZ2c2NyZHEtaldfdlZzNjdUbS0zZEFmWW9zYzZma1pFc1FtclZTUnZSYnhRd1FwZTRIYXgtcUpEQzBwM1MxY1pyek9ZOXBSbzF1dmYzNGdRMmphWlNqc2RqLTBSTWgyV0dZWTFhOGJJaE13aw?oc=5",
-      "publisher": "EnergyNow.com",
-      "published": "2026-10-21T15:37:47.000Z",
-      "eventIds": [
-        "opec-plus-november-output-hold",
-        "gulf-war-energy-shock"
-      ],
-      "found": "opec-plus-november-output-hold"
-    },
-    {
-      "id": "8e29b33dcc44",
-      "title": "Catalonia’s new far right: How anti-Muslim sentiment is reshaping politics",
-      "url": "https://www.aljazeera.com/news/2026/10/21/catalonias-new-far-right-how-anti-muslim-sentiment-is-reshaping-politics?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "published": "2026-10-21T15:36:42.000Z",
-      "summary": "The rise of Catalan Alliance is causing alarm among Muslims ahead of Spain's snap election in November.",
-      "eventIds": [
-        "spain-strike-and-snap-election"
-      ],
-      "found": "spain-strike-and-snap-election"
     },
     {
       "id": "65cf8b1f48bb",
@@ -3561,17 +3755,6 @@
       "found": "brazil-runoff-2026"
     },
     {
-      "id": "a30e7799d7ad",
-      "title": "Oil prices steady as investors weigh progress on Russia-Ukraine talks against falling US oil stocks",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE44Vk4yUkd6OUFoLWI5b3k1ZmtWR1lhSWpubXZNZWM2WlluSl84UXVLS1lUaUdWclc5c2E3bkpyOVAtbk5LWGZmY3YtbmtoWHB5TnpLWFVEUGtkVmV0dG51SUItSmZyS3piQy1WS3JBRXVxdjcyVHo1M2l6UDBud0E?oc=5",
-      "publisher": "Yahoo Finance",
-      "published": "2026-10-21T15:31:23.000Z",
-      "eventIds": [
-        "gulf-war-energy-shock"
-      ],
-      "found": "gulf-war-energy-shock"
-    },
-    {
       "id": "6429a75e948a",
       "title": "Video. Milei, Sánchez trade barbs as Spanish PM says he's ‘leftie and proud\"",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOT3hKSGlwTUtjcWhFcjYtN0RUMzJ1UkF1SlhYUzYyMVB4UWxhWG9mYU93bWNKb2ZLaHlmRDFYZ3BBR19mLXFUalM4cHhSWWtZVTZ6dlg4MnlsTDVDa1dVSV90MVpseVBJZl81bFlCc2k3THE2YzFqeDhYZS1FaHRkQThyNVhjeHBIRVlrVGdqUENENkFVTHRobzYxazhlMjBfaENMUjFlVmlWN18wU3NwUlFR?oc=5",
@@ -3583,15 +3766,37 @@
       "found": "spain-strike-and-snap-election"
     },
     {
-      "id": "7526c2bd171f",
+      "id": "af52e6a7429b",
       "title": "'Lefty and proud': Spain's Sánchez hits back at Argentina's Milei in Madrid",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8taHlxOW1ZeVpZcEg2MEZnVzhsYWRUNUF3UlV2UC1pQlI3VXRhWlBSTlZzZFBhTlh6U2RkZFBGRXpzX0ZQN2lzcVJBUHp3cE1JMldkSHA1bFVSOEUxdzdWbEduWHBNWXdHUmF1RXVid1VSSlJkUGRPbTRR?oc=5",
-      "publisher": "Yahoo News Canada",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE81SDNvSVZTUGNfam1qTWtFSzFoUERWa0liM1VTcS1wa3gtUkZ6MTdZRWZwYnlVR1dCV0RKQXhWOXpEb2U1YjdIWG9EUmNwcUFOb0dsSThqMzVnQ3FvNWc5UjBMbGNoMVBwTzFHd1M2M0d5eW1tRTh4OUlSZ2U3UQ?oc=5",
+      "publisher": "AOL.com",
       "published": "2026-10-21T15:30:33.000Z",
       "eventIds": [
         "spain-strike-and-snap-election"
       ],
       "found": "spain-strike-and-snap-election"
+    },
+    {
+      "id": "bbaf1aae6552",
+      "title": "Milei, Sánchez trade barbs as Spanish PM says he's ‘leftie and proud\"",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRU5kMWlsQzA0bmQ0eURNYTlHRFRQckNhZDFiQlpySmE4eV9rNjNRbmtjTjRKM1R4NTZRbTVkMUt6ellrT3VsaFNVYzJ0NFJ6YXRqZ3RfYW9TWFdXN2FQM3c4eHhDbUFaLTMza1ZCcEVxUXZ1TmlqQWpHTVZWYmE3Q1MxX0VLX0Z0YnF4Q2VuYUtBemk5YnJVX3VCLVk3Q2Z5YTRUR3pwTmY4Zw?oc=5",
+      "publisher": "Euronews.com",
+      "published": "2026-10-21T15:30:33.000Z",
+      "eventIds": [
+        "spain-strike-and-snap-election"
+      ],
+      "found": "spain-strike-and-snap-election"
+    },
+    {
+      "id": "69bd2be0f6ff",
+      "title": "Iran War Day 236: Netanyahu Pushing for New Iran Strikes, Per Report",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQnh6UzB4UE4wRUdlby1BdUVGQjg4RWpXSHVaaVNZS1dZRWNEQnFJUjJvWWFmczBhd2c2cnhTdzc4WWIwZHh5RnNKNng4MUo4ZE5kWFdQbFhxZ2VLR2J5cG5kQTAxSUN1Rnh1aXUwRzhaR1hSUDRkMEgtZjZxaXNxU21tR0s0Z1AxcWh4TU5ZOHdGUnFtRDJseEFxekk4aHFwalJFWHpPcGlYamc?oc=5",
+      "publisher": "The American Conservative",
+      "published": "2026-10-21T15:30:00.000Z",
+      "eventIds": [
+        "gulf-war-energy-shock"
+      ],
+      "found": "gulf-war-energy-shock"
     },
     {
       "id": "e63612d498c4",
@@ -3639,6 +3844,17 @@
       ]
     },
     {
+      "id": "a4a6046b2163",
+      "title": "Where Would Eritrea’s Future Lie in a War with Ethiopia?",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUDhOdXBCM0VrUG9QaHdibTB2a1Bvc19mV2pWaGZMT05Hc3VrSS1VMngtSU14b1dubHgwU3ZHazNvdF85M2VVLXhsdVVaZWlzcnJZV2VBUnJBNW9FUk1KM2V3SFU0Tmg4ZHhDX3pUMzJXNzAtbUhMSTRMbU5yOXpLV1JmSjdDVUpwWDlWQjJoVm9wNnM?oc=5",
+      "publisher": "horn review",
+      "published": "2026-10-21T15:26:55.000Z",
+      "eventIds": [
+        "ethiopia-eritrea-war-fears"
+      ],
+      "found": "ethiopia-eritrea-war-fears"
+    },
+    {
       "id": "2af30fb95237",
       "title": "Euro zone bond yields rise as French borrowing costs hit 24-year high",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMk5MTWU0OHd6RWtKSTFHNTZ4Q0Q0dFhaNnQzeHBHeTE4Q3BmY2FpaGdCbERYWVItcWE1ejJ2RUtMQ044Q1hGemNOY05vcDl1bHp0Z1pmbF81UW1nQnBCLThwYkh6LXhEOUQ4NGJGYmZ3WGRzTmxqWTV1NThkS3IzWGp4WXlUdjVUWFBlTnJQaw?oc=5",
@@ -3670,18 +3886,6 @@
       ]
     },
     {
-      "id": "3ce6374b5d4a",
-      "title": "Fresh Legal Challenge to Trump’s Canada Tariffs",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUW1lWVNMOHAxOUNwZUNzYnFqOGItWkg0STc2TlQwVjIyV2F1Y3NzZ3JHNUlHb2tnWkNvVEJJbmM0VGZOa3dYbDhJVkNvb294ZW5ESlJMUkpVeGtQN0ZXaTFjOVpwOGUzNzV3U3VMV28wVUZoMFRWSTZqdGNORWVGOXRZaDVMOG94bjZ0WjZ0UDlWeU9NVTlFWFRR?oc=5",
-      "publisher": "Supply Chain Brain",
-      "published": "2026-10-21T15:25:55.000Z",
-      "eventIds": [
-        "us-canada-trade-war",
-        "apec-shenzhen-2026"
-      ],
-      "found": "us-canada-trade-war"
-    },
-    {
       "id": "03f6eb90159f",
       "title": "NPP Belgium Branch Condemns Alleged Sexual Abuse Of Students At Obuasi SHTS And Demands Swift Justice",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNazdBc09fLVRxUTB1X0M0ZElGQjhZNXRFdWh6cnRwZ1VhY2htbDM5YkhzRVV1SWFhRi1nZ29YVEpvX3dxcmpfZTNKcTNJX1dqUzVHN3A4UVJYN0ZxOUtiZWhDVzVKbmZTZENNNTNLWEw0aGMxRG5Sc2hMek4xd0pDOG9mN2RaeVU3RG5RaE40SW5FX2k5UjNVZmdyZWJJS25FdFltNUNjN0pfTFhaekl3em5NcTg1eXdFU05SbDZycVBmTFlfc2c?oc=5",
@@ -3702,19 +3906,6 @@
         "brazil-runoff-2026"
       ],
       "found": "brazil-runoff-2026"
-    },
-    {
-      "id": "58fea97a0d5e",
-      "title": "Putin orders release of jailed American as he meets Trump envoy for Ukraine talks",
-      "url": "https://www.theguardian.com/world/2026/oct/21/putin-witkoff-russia-ukraine-trump-stephen-hubbard-release",
-      "publisher": "The Guardian World",
-      "published": "2026-10-21T15:24:58.000Z",
-      "summary": "<p>Russia frees Stephen Hubbard after US request while Steve Witkoff praises Putin, wanted by ICC as war criminal, as a ‘humanitarian’</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/live/2026/oct/21/donald-trump-south-carolina-data-centers-midterms-ukraine-witkoff-rus",
-      "eventIds": [
-        "ukraine-summit-diplomacy",
-        "us-midterms-2026",
-        "russia-record-budget-deficit-2026"
-      ]
     },
     {
       "id": "bc37b1ad961f",
@@ -3763,17 +3954,6 @@
       ]
     },
     {
-      "id": "5e05d41d6da2",
-      "title": "Consistency in Ethiopia’s Approach and the Evolution of Mediation Channels from IGAD",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaUV6UEoxX3VCVzMydEJqRGIydkZObndGNDhWVW5BLWFQV0ExRUYxSzJSR1d4bTBqN3Z5MlE2T1Z4VTU1aHJTcGgxaEJVeDJBSFdudkRMTWp1VndITXd3Z2pIMzFnbXhCaUVJd05WTnNSekpodUNZWkZieDAwZmw1MFVzUnJpUjNGM1lfUkpMdGtaNFNtSEVZTnJ1ZjQxT2I2Y3lnOVAwV3dGSnlCRmZyZFp5eVRKRDU2REE?oc=5",
-      "publisher": "horn review",
-      "published": "2026-10-21T15:21:47.000Z",
-      "eventIds": [
-        "ethiopia-eritrea-war-fears"
-      ],
-      "found": "ethiopia-eritrea-war-fears"
-    },
-    {
       "id": "74026fe4616a",
       "title": "Italy: Giorgia Meloni approves tougher anti-riot laws after Milan violence 🇮🇹",
       "url": "https://www.france24.com/en/video/20261021-italy-giorgia-meloni-approves-tougher-anti-riot-laws-after-milan-violence-%F0%9F%87%AE%F0%9F%87%B9",
@@ -3792,17 +3972,6 @@
       "published": "2026-10-21T15:17:03.000Z",
       "summary": "EBay will lay off 9% of its workforce, or about 1,000 employees, as it works to focus on its \"top strategic priorities.\"",
       "eventIds": []
-    },
-    {
-      "id": "a4a6046b2163",
-      "title": "Where Would Eritrea’s Future Lie in a War with Ethiopia?",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUDhOdXBCM0VrUG9QaHdibTB2a1Bvc19mV2pWaGZMT05Hc3VrSS1VMngtSU14b1dubHgwU3ZHazNvdF85M2VVLXhsdVVaZWlzcnJZV2VBUnJBNW9FUk1KM2V3SFU0Tmg4ZHhDX3pUMzJXNzAtbUhMSTRMbU5yOXpLV1JmSjdDVUpwWDlWQjJoVm9wNnM?oc=5",
-      "publisher": "horn review",
-      "published": "2026-10-21T15:16:28.000Z",
-      "eventIds": [
-        "ethiopia-eritrea-war-fears"
-      ],
-      "found": "ethiopia-eritrea-war-fears"
     },
     {
       "id": "d037fdc6a00d",
@@ -3827,6 +3996,18 @@
       "found": "opec-plus-november-output-hold"
     },
     {
+      "id": "6c33cc2b0733",
+      "title": "FRANCE RIOTS: BOND MARKET AND EURO OUTLOOK, 21st October 2026",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQTZpRlRLenNCMjNKS252UFpyWGZmQmhXTnpWeDl1RjVJczNpVkZOLWo5QVM5TlFZV2h3c2ZVSS1aSVl2dTZXMElzSHJMaU9kYko2ZnlrSjkxWUdCQzFJRnBfT0dqVnh4RGFpOWZKT2k1OFNmY0J5SVdVbUxoaE4xT1JmTHpwQnZ2QWw1aUROYVdUVGlYMFJr?oc=5",
+      "publisher": "Forextraders.com",
+      "published": "2026-10-21T15:14:00.000Z",
+      "eventIds": [
+        "france-debt-stress",
+        "france-unrest-2026"
+      ],
+      "found": "france-debt-stress"
+    },
+    {
       "id": "0cf30e8e49be",
       "title": "Milei rallies for Spain’s far right in bid to oust Sánchez",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTlFDWTB4UkVPby1nYUVUb2xBWEdJMGQ4a3RiOWFQdGl6ZEhSTW5IVUZuRHBORW1meGlIQ003WVBSdE9zcE10NzR3M2hhX1RneG1nMEdGTnJMZXdPenpRRE5xOUtEMHZQanJKVGd3aTQ2d3V0MXV3anAxRVZHVzRtWXgxQTVQSFRhRFpQYVM0TFBRaFdLaXJxUlFET0RCZTlmRzRv0gGoAUFVX3lxTE9ITHE5U2hrbzFCZ0Nud1dueEFKQURyaUZOSGJmd1hjaExNa0xuWVE3QlR3Umt0SURrZ3Exbm14UXpfM2V2Yk9MRTZJOWRJOWFPN3lfcE94dXFtLUlza3ItdXBaM2VDVEtKdXdidERyMF83UHVCQnpyT1I2SEVkM0I2RFdhTG1qTFdrM0FRaFNYbG9Ma2ZudXd0OVVVT2xuc2M3OENheVpIaA?oc=5",
@@ -3847,6 +4028,18 @@
         "italy-cost-of-living-riots"
       ],
       "found": "italy-cost-of-living-riots"
+    },
+    {
+      "id": "85c692f0474d",
+      "title": "Khartoum's Conditional Peace Offer and the Egyptian Shadow over Ethiopia-Sudan Relations",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNmxjb3hyMjRQVE1fQjZydVk3QmRrd0Qxb3luTTlmNFV0RVRGaDlGNzdqYTcxOXViZ203QjEwVy02VDBySzg3WnJwM1REWjVTMVZOeXVmZlRua1lnaXUyV0xOXzFqYjEySmhQYVQ4Ulp4QUhnSndvY2Z3N3dkVWE0QW1yVlBNVXFMMDBHc1Mydm5yamg0Rkg4c3BEWEdnb2NZY1RRZG1WWDdtTGFZWk1XTV81cDdORXFtWWdOemFhbw?oc=5",
+      "publisher": "horn review",
+      "published": "2026-10-21T15:11:09.000Z",
+      "eventIds": [
+        "ethiopia-eritrea-war-fears",
+        "sudan-darfur-kordofan-famine-alert"
+      ],
+      "found": "ethiopia-eritrea-war-fears"
     },
     {
       "id": "96e611eeaf9c",
@@ -3916,9 +4109,9 @@
       "found": "france-election-2027"
     },
     {
-      "id": "6b05c06b243e",
+      "id": "be1537eb5fb4",
       "title": "Exteriores brands as unworthy that Milei travels to Spain to insult Sánchez and incite polarization",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZU9XNGtrQzhDYXdzWmtleGgzMWRxNTlYX25oUXRQbEFQdTVZUDhiNzV0NTl3M19mcVRyWjhYUlQ1UUNzTnhSaTZYTmNCaENEV1ljZXp2UDVlRVlpUGV2ZmEwXzRZMXhtN3dBNDBkdXFFbzdCRE9XY2gwbExNVzBPVldhVk9UN0tYWExwWDE5ZmRVeExVcGd5el82TV9ycmJFWlpXUmxPUk9ZdmEzVWdSQnpfTXM0MTN4Y2pLdS03SmdRcEt3OUc2dnk4YnB1YXVZZS1Kb3BKQk7SAdgBQVVfeXFMT2VPVzRra0M4Q2F3c1prZXhoMzFkcTU5WF9uaFF0UGxBUHU1WVA4Yjc1dDU5dzNfZnFUclo4WFJUNVFDc054Umk2WE5jQmhDRFdZY2V6dlA1ZUVZaVBldmZhMF80WTF4bTd3QTQwZHVxRW83QkRPV2NoMGxMTVcwT1ZXYVZPVDdLWFhMcFgxOWZkVXhMVXBneXpfNk1fcnJiRVpaV1JsT1JPWXZhM1VnUkJ6X01zNDEzeGNqS3UtN0pnUXBLdzlHNnZ5OGJwdWF1WWUtSm9wSkJO?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZ0F5QmpESFo4elVYZmFHYW1IZXZuVzJJcjNPSHNDTndkRGZSaHRsTlRfS1pNY0JDalJKb1pZRjRfWGpxZzJFTEFfZkFEN3BNN1FkcmlUeHJZTDNnOFp6WndtMUhzU2R4UEMyX3dKNTFUdlYwQV9kRHVYd2pHT3FFVmFXaC0xQzg4Y0hYZFVra3lmeDl0X091YWNlVU5MSmNiTzU5UVBhcU4zQ25nSDFUV1JnWUhlcWFKVEl4OFhNU3prVTJmQk1HNzRKakxYaTNrQXpj0gHYAUFVX3lxTE9lT1c0a2tDOENhd3Naa2V4aDMxZHE1OVhfbmhRdFBsQVB1NVlQOGI3NXQ1OXczX2ZxVHJaOFhSVDVRQ3NOeFJpNlhOY0JoQ0RXWWNlenZQNWVFWWlQZXZmYTBfNFkxeG03d0E0MGR1cUVvN0JET1djaDBsTE1XME9WV2FWT1Q3S1hYTHBYMTlmZFV4TFVwZ3l6XzZNX3JyYkVaWldSbE9ST1l2YTNVZ1JCel9NczQxM3hjakt1LTdKZ1FwS3c5RzZ2eThicHVhdVllLUpvcEpCTg?oc=5",
       "publisher": "Demócrata",
       "published": "2026-10-21T15:06:55.000Z",
       "eventIds": [
@@ -3962,7 +4155,7 @@
       "title": "Except War, What Option is Ethiopia Left With to Defend Persistent Incursions from Eritrea?",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNUR1aFJpdGhtalA0TC1HazdldFRlNTJTcktCWFpFdFZEYlgyY19YMGhrNm9aRXdxWkkxcnVkZWJfb3ZKN1lDYW9lcVJCbjBoTG1PNTBQTm9meFhuU1VraXNQSFVLMmdLc0tXczZBX0VDdnhBZ1ZNZE5VeHVrVWZvS254ZlpMUEFRR2JMSnVlNGI0UW9oNnFNN2lyRnZfMkl1MDZxb2psVXB0eHZ3cUJBMFVURUUxajV2WE5ReWo3ZFNkZw?oc=5",
       "publisher": "horn review",
-      "published": "2026-10-21T14:55:55.000Z",
+      "published": "2026-10-21T14:55:58.000Z",
       "eventIds": [
         "ethiopia-eritrea-war-fears"
       ],
@@ -4032,11 +4225,11 @@
     },
     {
       "id": "7fb08565766d",
-      "title": "Ukraine and Russia both ready to resume trilateral talks with US",
+      "title": "Ukraine and Russia both say ready to resume trilateral talks with US",
       "url": "https://www.france24.com/en/europe/20261021-zelensky-proposes-freezing-front-with-russia-first-step-peace-talks",
       "publisher": "France 24",
       "published": "2026-10-21T14:46:44.000Z",
-      "summary": "Ukraine and Russia on Wednesday said they are both ready to resume trilateral talks with the United States. The news comes after US envoy Steve Witkoff separately met with Volodymyr Zelensky and Vladimir Putin on two consecutive days.",
+      "summary": "Ukraine and Russia on Wednesday said they are both ready to resume trilateral talks with the United States. The news comes after US envoy Steve Witkoff separately met with Ukraine President Volodymyr Zelensky and his Russian counterpart Vladimir Putin on two consecutive days.",
       "eventIds": [
         "ukraine-summit-diplomacy"
       ]
@@ -4051,17 +4244,6 @@
         "south-china-sea-incidents-2026"
       ],
       "found": "south-china-sea-incidents-2026"
-    },
-    {
-      "id": "40da36abc811",
-      "title": "Peter Zalmayev: 'Ukraine was showing all sorts of cards that Trump took away and gave to Putin'",
-      "url": "https://www.france24.com/en/video/20261021-ukraine-was-showing-all-sorts-of-cards-that-trump-took-away-from-ukraine-and-gave-to-putin-1",
-      "publisher": "France 24",
-      "published": "2026-10-21T14:44:11.000Z",
-      "summary": "Angela Diffley is pleased to welcome Peter Zalmayev, Founder and Director of the Eurasia Democracy Initiative, LIVE from Kyiv. And he warns, \"I'm seeing, I'm smelling a Yalta II. I'm smelling another Munich (1938), where we're seeing appeasement of the aggressor.\" Ukraine faces t",
-      "eventIds": [
-        "ukraine-summit-diplomacy"
-      ]
     },
     {
       "id": "5c0faa6e2b2e",
@@ -4144,49 +4326,6 @@
       "found": "brazil-runoff-2026"
     },
     {
-      "id": "80eefda75753",
-      "title": "Trump Blames Ukraine — But Diesel Prices Soared Immediately After the Iran War Began — CMB News",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYlNpYjI1WEp3N1ljeXZ3eU5WV3hXeXdjSkNyLXZ3bE1ad1l4cElIUVpWeHlvbXpXdDlHdHZFT3NCTngxa2ZTaVg0T0xhdkdwUHBmTGNlanpmV25kX1pWVVJTTWVpNGVfSDVXVl92NFBESEtxZHdjWlZSZnRjZExLQ29LOXJsdnpLcmtHN0FseEU5d0JUOEJsemlxWjhaMWRJY0RmZXA3Z25vZE1mMjdPSUY0OGtPSUIwcURYSGo3LWx4ejFLeVE?oc=5",
-      "publisher": "CMB News",
-      "published": "2026-10-21T14:34:31.000Z",
-      "eventIds": [
-        "gulf-war-energy-shock"
-      ],
-      "found": "gulf-war-energy-shock"
-    },
-    {
-      "id": "ec13135ebc6f",
-      "title": "The Houthi war machine is evolving. Can Saudi Arabia keep pace?",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNM19rLUYtQ3dVcHFpY1pncDJQSFpCUWg5VllsVy1ZbFRCd1hzN3JuSEVXMDJwRV9wV1hkcmJlNFdtdWJ4M0kyWjRkWW9ZdFlXRGZRRkFWb3FFbUE5d2sxQlpFaVk3ZlpDVllaajl3NjdVdEpzZzgzdEM5dU1tSURsRnFSZWhRb05oTnFIdWxsdHQ?oc=5",
-      "publisher": "The New Arab",
-      "published": "2026-10-21T14:34:18.000Z",
-      "eventIds": [
-        "gulf-war-energy-shock"
-      ],
-      "found": "gulf-war-energy-shock"
-    },
-    {
-      "id": "1900f97f3a18",
-      "title": "Nigeria Sustains OPEC Quota Compliance as Crude Oil Production Holds Above Target",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPQXZZZWtKenEyTlBuRVFHSTA3aEJ5Qm00YTV6WVJ2TlRCVFdXWkFSR1Zoam5FSFdRWDNtSVEyZVBFazFjb1Q1cy1rR0pBX2ZSMGxfbmF6QWlYOEJWWWI4M2EzdGF4a0ZJRENlLTRhQXdwVXdkdk9TWUNjbGNPelpwNEh4aElNVWFyU0hpQlhrMm1KUjJXS2hkTmJZdk1uRGxSQXZyU1FwTHJHdWpZZGdaVU56UFZYYVROWlZoTXU1azVBTV9BRDlEZjhUNzhnVUplVW5iQ05sRDNOUXJQZndhcnd2TnR3ei1CcC0yd3g2Mm85T1g0Y0hCX000NV8?oc=5",
-      "publisher": "Proshare",
-      "published": "2026-10-21T14:33:55.000Z",
-      "eventIds": [
-        "opec-plus-november-output-hold",
-        "gulf-war-energy-shock"
-      ],
-      "found": "opec-plus-november-output-hold"
-    },
-    {
-      "id": "a2ee2574d33b",
-      "title": "Pain au Chocolat: The sweet story behind a French breakfast icon",
-      "url": "https://www.france24.com/en/pain-au-chocolat-the-sweet-story-behind-a-french-breakfast-icon",
-      "publisher": "France 24",
-      "published": "2026-10-21T14:32:22.000Z",
-      "summary": "Did you know French people eat 1.4 billion pain au chocolats a year. The sweet treat is a national treasure, but a debate rages on over what to call it.",
-      "eventIds": []
-    },
-    {
       "id": "559a3cbec21d",
       "title": "Macron calls for extreme caution in Gulf, secures critical gas deal in Qatar state visit",
       "url": "https://www.euronews.com/2026/10/21/macron-calls-for-extreme-caution-in-gulf-secures-critical-gas-deal-for-france",
@@ -4196,6 +4335,17 @@
       "eventIds": [
         "france-unrest-2026"
       ]
+    },
+    {
+      "id": "d0c95203e711",
+      "title": "Milei calls Sánchez an “unpresentable dictator” in Madrid in the middle of Spain’s election campaign",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRDAwQkdzbjNSZ3U5RElTTEtPMF9OemR5Q0lmOVVKVzRUT1BRRU1OLWwwOTZNUGZNd3QtSzMwY2o0QnNGQWV2M2tJRVI1OS1GWkhMQXNJc1h6WGJQQUc5YUloNi1lbnhieUNXZnBDM2tJZzlTclFqUEp5R3NvQXdKa3ZrZDhVbE9NdGFVRnliWnNEVGhVdUtCazBwZlZaMTFWVGFGVHRyU3RvRV80S3piYzBwNXlRY0VWZDhpaVZEeUx3MVpfLWw0NHJvdVU5VGpz?oc=5",
+      "publisher": "MercoPress",
+      "published": "2026-10-21T14:31:00.000Z",
+      "eventIds": [
+        "spain-strike-and-snap-election"
+      ],
+      "found": "spain-strike-and-snap-election"
     },
     {
       "id": "e0c6c44498cb",
@@ -4220,17 +4370,6 @@
       "found": "italy-election-2027"
     },
     {
-      "id": "7ed54989bdf9",
-      "title": "France braces for another weekend of protests amid nationwide riots",
-      "url": "https://www.france24.com/en/france-braces-for-another-weekend-of-protests-amid-nationwide-riots",
-      "publisher": "France 24",
-      "published": "2026-10-21T14:27:21.000Z",
-      "summary": "France is bracing for yet another weekend of protests by high school students and the \"Yellow Vest\" movement. The government says they're increasing security and personnel to trying to mitigate any violence or chaos. Story by Ophelie Jacobson and France 2.",
-      "eventIds": [
-        "france-unrest-2026"
-      ]
-    },
-    {
       "id": "bc0a683ed8b5",
       "title": "#Daily_Brief: #Somalia says it remains neutral as #Ethiopia-#Eritrea tensions escalate",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5jUldCR2djSUpOSlN2OTBUcXZPZk5hLW1qMC1uQkFZZVBDN01mX1N1c1MzZl9NWWp0S05zVzZWWlNDTDliZUZEQ0NCOThQQ0dVN2c?oc=5",
@@ -4240,17 +4379,6 @@
         "ethiopia-eritrea-war-fears"
       ],
       "found": "ethiopia-eritrea-war-fears"
-    },
-    {
-      "id": "cba69d9ac2ba",
-      "title": "Greece: Protesters demand increased funding for public education",
-      "url": "https://www.france24.com/en/greece-protesters-demand-increased-funding-for-public-education",
-      "publisher": "France 24",
-      "published": "2026-10-21T14:25:12.000Z",
-      "summary": "Students, teachers and civil servants are demonstrating in Greece today, protesting over staff shortages, poor infrastructure and the cost of living. Dozens of students have set up tents in the Square facing Parliament, in Athens, and on a pedestrian street in Thessaloniki on Tue",
-      "eventIds": [
-        "france-unrest-2026"
-      ]
     },
     {
       "id": "fb1b0ba1107e",
@@ -4317,15 +4445,6 @@
         "apec-shenzhen-2026"
       ],
       "found": "india-us-trade-deal-2026"
-    },
-    {
-      "id": "822e2f827820",
-      "title": "'I didn’t know it was theft': Trials begin in Paris following October 17 violence",
-      "url": "https://www.france24.com/en/france/20261021-i-didn-t-know-it-was-theft-trials-begin-paris-following-october-17-violence",
-      "publisher": "France 24",
-      "published": "2026-10-21T14:15:24.000Z",
-      "summary": "Those arrested during the October 17 rallies filed into the dock at Paris’s Judicial Court on Tuesday, accused of a broad range of offences – from assault against police officers to resisting arrest and handling stolen goods. The courtroom’s charged atmosphere was palpable amid t",
-      "eventIds": []
     },
     {
       "id": "e7e7e5208e05",
@@ -4509,9 +4628,9 @@
       "eventIds": []
     },
     {
-      "id": "ea24fcf575ee",
+      "id": "145dbd586528",
       "title": "China Restarts Acid Exports to Top US Refined Copper Source",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWDRaR3h5SFdNdFo0Z0FCdEsxalRtSENheWhrUG1Od3VENzM5UkZDNzN2RWdfSGVUUTIwZVhlcEQyaVM5ZGloMHZkclQ2R2tjR2E3N2dxWDVYVFpRc05yZnNPbEFOekxVeVlIeTlJMFBkSnJxYXF5TG1zdGIxZGNEYlFrZUMtWi1mcEhJS2ZmMkM4akZHLW1wYUhLYld3clU1QXFrMUFFTUc2WE90VGJUXzZaR2U?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQc1cxeE1Hdl9PUl9VZzVDcG9XdVV0VkZEemxKalJKeFVtZ1ZJS0c3emtfVHV3NGxZaWpRTkh0QnRLSnpqMGJNbkZka2VnbV9XMUQzLWlZdW1MMDhrbEZzaFUzRXRwY1cwVTE3bXZLLWNad0tsaXV2UjlRY2JJbzBaVlVEdXl5MkFZOU9MeUsyUV9SMWhnZzg4OEJVTHd0WTByVC02ZmsyWEpPS1l3N09r?oc=5",
       "publisher": "Environment+Energy Leader",
       "published": "2026-10-21T14:00:00.000Z",
       "eventIds": [
@@ -4596,17 +4715,6 @@
         "china-q3-growth"
       ],
       "found": "china-q3-growth"
-    },
-    {
-      "id": "4f1e7bf70277",
-      "title": "Five Things To Know As French Bond Yield Tops 5%",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbFluTGVacjlDZHNwV3V3ekFkcWFlY2lPZXZUamMxVzdvWWItMnpYZDB5VDJXQUlJSV9qd1VKOEM0Wm5SSk9tV2JyTHEyT0k0U2kydDJFZm9LN2VsYnlHaWdlSTU4dTM2bHo2TV91a2xxTUQ4djdWQ0JocmkyTFZzSG9Dd2VVU0NIUWFxVmlHSQ?oc=5",
-      "publisher": "Channels Television",
-      "published": "2026-10-21T13:49:47.000Z",
-      "eventIds": [
-        "france-debt-stress"
-      ],
-      "found": "france-debt-stress"
     },
     {
       "id": "523541d3ec0a",
@@ -4850,17 +4958,6 @@
       "found": "belgium-cost-of-living-clashes"
     },
     {
-      "id": "9f2e64ea6655",
-      "title": "US may consider lower tariffs for India over Asian peers as trade talks near finish",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQUWI2WHU4djFPME1sVHBVQWRaZERKTEExUUZVNmc2MEk0T1VJNThoTEhsTERoXzNGM1ZaZkRieVJEZnBIWk1iWUV4QkNzTFpRZjY4QmRsWVd6NEdlNkhmLVdkbDBDM1RaZnhmcGQ2bXM5VVAyZHBienJWajlwdV9iVUZGT1d6dXBaU21leExNSTB2ZmVIcEc2RUJCQ3B5dk9oNVRxemZaOS1ROWZLdFpPVjFTbHNTbVZVUW5iRU5ndlptclhiRnA3Z3lLLUxzMjNXRW82QVhiUi1Xa3U0SG9DU3JEQy3SAeQBQVVfeXFMUFFiNlh1OHYxTzBNbFRwVUFkWmRESkxBMVFGVTZnNjBJNE9VSTU4aExIbExEaF8zRjNWWmZEYnlSRGZwSFpNYllFeEJDc0xaUWY2OEJkbFlXejRHZTZIZi1XZGwwQzNUWmZ4ZnBkNm1zOVVQMmRwYnpyVmo5cHVfYlVGRk9XenVwWlNtZXhMTUkwdmZlSHBHNkVCQkNweXZPaDVUcXpmWjktUTlmS3RaT1YxU2xzU21WVVFuYkVOZ3ZabXJYYkZwN2d5Sy1MczIzV0VvNkFYYlItV2t1NEhvQ1NyREMt?oc=5",
-      "publisher": "Moneycontrol.com",
-      "published": "2026-10-21T13:17:43.000Z",
-      "eventIds": [
-        "india-us-trade-deal-2026"
-      ],
-      "found": "india-us-trade-deal-2026"
-    },
-    {
       "id": "7d8ab5364501",
       "title": "Sudan’s Drone War Reaches Abyei and Puts South Sudan’s Election on Notice",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUmFOZktQRXpPWVhkRjZjSDlYUDBLMTdwTkVFRVBMSnZyMlR5SHlCQTIwR0FRSEpHM2pMNkRTMW1HVWZuTnJGa0kxQVd3amtnR3hfWUh4TlFTbWY4eWZ4MW14emhJaExfZE4wM0szWVRuelFPRTA2ZHp1dmpaMF9FQkswN0Z4SjRBVlBSX0RMRm5PYUJLOWRxdGhKODluVC1ZU0RvSHF5LTJ5QQ?oc=5",
@@ -4938,9 +5035,9 @@
       "found": "sudan-darfur-kordofan-famine-alert"
     },
     {
-      "id": "3cda67ca5855",
+      "id": "298918939a1b",
       "title": "Tesla’s ‘flying car’ draws public concern in China – and an official response",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOS3VHVm1MWkZNVjE4MUh0R0hNNml3LVNqYndKenAtb3NFenREZUtudTNzbGpsZGhFODJENHotd1VuOUpGc0NFQUptUDh1ZS1nTF9rTlBldG5kaFJscVFadC1WZG1VSXV1Y3h2S1ZYcVc0Y0hfY3lDOGo5RjA3YXYxOWhvRWdQOE1IaVNWWm5kTmtodUJIcUtUb25zaEdDbTRRVHhmNzNLQU1nQVVHSWxQaEtqa29VbkhwalFXOHRYaGp1N3VWS25rZzBvd2gyZXpLSERSSV9OdjYwejlTSkhpM19FRUxyUjNlYWQ5YnR3WQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZlhUSGpsQVkwWWxjMVpNc1FDY0gzYlFMaVFkRHJ1aHZBcmdMZklEZnhkZDVDclRUUkZBcHFueEYwTFRjVEczNVdZS3NGaXBFXzNtWEliTTROYS1faks5eW5hQWRwaTQ4bEJkQWwyUmxuWVFGX2F0cHYxeEx2MnpWQ3BVbWZxRlg4andwaF9QLXFycWw1eGkyTm5JWVU2VnNMZnV0TURlVWZrb2JIWkE3ZGJPaWR4a0ZWekpKVEZrU3pKMWPSAcMBQVVfeXFMT1VDNm1KN3E5OTV6NXZ5UVl0THN2SWg1M1NjMjZBNUpnVnVKSF9RdXJMaldOeXNlSXJzT1djOGlmYnBDUW9tUWZIOFRXdWpFVGFuc1RQazBpWUdZQXJlSkxNU2M2eHRoeVc4TmhicHFjbnAwQzRKRTJyWXFZdEpkZWs3YVlneDdyN08zQ09FbEN1a2FCSElNbUdVbGE0Q0Nsa1EtU0otVXVhVXgxbjFVam9DWjJLWThhZUE5SlY3MmVmMG9N?oc=5",
       "publisher": "South China Morning Post",
       "published": "2026-10-21T13:00:10.000Z",
       "eventIds": [
@@ -5004,6 +5101,17 @@
         "venezuela-oil-reopening"
       ],
       "found": "venezuela-oil-reopening"
+    },
+    {
+      "id": "779dfca3fb0b",
+      "title": "Global Alert as North Korean Media Suffers Outage Following Rumors of Kim Jong-un's Death",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA0LTd3dFkyRXg5UWp5RG1qczBOdkxNTVk1c201TWR6cDJROWp2TGJ3WnhSeEpra0p5ZjZFM3hwa0xiMEZhdnBkdGh4X1p0VGpfbzVlMXJVWUZLaTZUelIyT1liRjQ2TWdlVDl5UUxn0gFmQVVfeXFMTXdiT1ZIM2RibnRja3hmRE5iS2lSaVpoSzhlS09NRjllNXJjNlRrcTA0QWJDQ0c3ckNBUW9hd255SWRRVmFmTUdTYTZHUmpaXy12cFhVWHowOU1KSDhBUzhtSDRKdkN3?oc=5",
+      "publisher": "SBS 뉴스",
+      "published": "2026-10-21T12:49:00.000Z",
+      "eventIds": [
+        "north-korea-missile-tests-2026"
+      ],
+      "found": "north-korea-missile-tests-2026"
     },
     {
       "id": "56380087bc90",
@@ -5093,17 +5201,6 @@
         "ethiopia-eritrea-war-fears"
       ],
       "found": "ethiopia-eritrea-war-fears"
-    },
-    {
-      "id": "4973b3052a6e",
-      "title": "Interview: China to remain key global growth engine, says Standard Chartered group chair",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBfT1pkSDZYRW05dllrSWxTck5KZjBmMHNOSmg2SUx4S2VuWnQ0N3d3cWgwNHJaQkxjWmRPbUxQOUdUNU5QVkhDbktidGV2T0o5ZG1DOWJlNjNOTDlnQzVMbTM1ZWo3U2J4UTZTa3ZEVEhQaGozdUtmZHZReHk?oc=5",
-      "publisher": "Xinhua",
-      "published": "2026-10-21T12:43:15.000Z",
-      "eventIds": [
-        "china-q3-growth"
-      ],
-      "found": "china-q3-growth"
     },
     {
       "id": "e460c0d65cac",
@@ -5217,29 +5314,6 @@
       "found": "usmca-annual-review-2027"
     },
     {
-      "id": "a5df7d1034b6",
-      "title": "UAE’s Post‑OPEC Expansion Push to Lift Oil Output Above 5 million Bpd Next year, IEA Says",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYVhWV0dBMjNucnZ6RkhPZWhhZnNBZWVpZXN4WGdoUkFGYkEwODRnYUNqRlZ5LUxqcGp3VnBlelBFLXVhMTY4YlNBZVRvY1JPMERKeTEyazZqTkpnLXhxbVRfOHgtWnptakdkcmpaN2FYd2I5WGhxMnhBclp1VzVGTWxjOU1oSVdiU3hnWGQ5RjZEMHdMZy1qaUVRamN6bEVralBYLU9NUGFnVlBhZk4zaDB6TXA3dmtRTXc?oc=5",
-      "publisher": "EnergyNow.com",
-      "published": "2026-10-21T12:23:02.000Z",
-      "eventIds": [
-        "opec-plus-november-output-hold",
-        "gulf-war-energy-shock"
-      ],
-      "found": "opec-plus-november-output-hold"
-    },
-    {
-      "id": "c718bdbef4a8",
-      "title": "RED FLAGS: Trump’s Oil Deal With Venezuela Raises Red Flags for Some Major Producers",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMExhNUU1M0VoZ0hsdTRtZ3BTanFHWTNXSTZSWHdGMW9kNEFCbENSYkR1aDU3dDNOdXNnZVR3WER3cWMzU1MxTGJVTmlRSEVkX01UeVVOSWtOTG01UXl1bHU1a2s4Y1RvUXJoRTlMUE12SEQ1TjFTc1VIblJ6N29kQmpqU0FHV3p3QzhnNUtuRGpyQTB4c1RIcDJzRzVSVW5vbjJoZkdYOVczRWhYMXE1anF3?oc=5",
-      "publisher": "EnergyNow",
-      "published": "2026-10-21T12:22:17.000Z",
-      "eventIds": [
-        "venezuela-oil-reopening"
-      ],
-      "found": "venezuela-oil-reopening"
-    },
-    {
       "id": "d8b07c8367fd",
       "title": "Safeguarding Dignity, Restoring Hope: Protection Programming for Displaced Women, Girls and Children in Ad- Daein East Darfur",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSDBfVFNiX1J3Uk5zMTNzQjdMUkgxT0ZEc2NlRXN2VGk0WHphTU9qYXNCczd0TkJLSTRROHVfRkF1UVJ6X0ZJUXNMNkRPZzRLNmFWbTlwbVJXRC1MR2ZrSEFzYlB2Wi1Nam1HTUVobGluNkNLX3hrRFp5RFgydURmWTV1ZENURHNCakRRRDJLNnRpMmlRQW1iNFJibElTUF9qQ0lheTJJQk1vX1F4dzZuVFRyWS1kdkZOX2tlcUVYUF9ONmh4ZWs5UXRTTGh0dUtYTHZLRVdDSjFxTmN6VDBDX1Z1SQ?oc=5",
@@ -5272,17 +5346,6 @@
         "gulf-war-energy-shock"
       ],
       "found": "opec-plus-november-output-hold"
-    },
-    {
-      "id": "5532dfba45fb",
-      "title": "US Wants India To Expand Venezuela Oil Ties; GTRI Advises Seeking Clear Commercial Terms",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWjFtVHBHazhPY3hLTXVLWkdNeU5vZFBoOXRMRndJS2FUallPaDNWbTNxelFsR1pxQVZ2eEVTckw3d2g0LVZaLWZGOUc0NnozbzRsU01NTEFaWUtUWldMa1dXQ05ZNkt4bV8wMG5jSHRvcy14ellqaUJVbm11TlFhS3hqOGpsXy1OQ283SnR6cWpmUEhGU191dG5XMnl0YVlxcm8tc2pWZFRNVV9zZGVMNEZ6SFJacUN0aDBERU5SbkZnMERKU3pXV1FB0gHPAUFVX3lxTE90dkdLMDg0UGFteXcyd0lWU0VsY1o3TjR4OEtzZ0tfY3BjUDZtb1BuOHFla1hCNjVhX2pXdTdNYTByZ09Vb1k3OW5rT3lxbmk1eUFzSDBVd29zVS1MZWVPZ2hQOFJRLUJtRFcxQVJXcEprbWNlZGgxMTRyMUxfQXBkVXF1Z0F3LUdQT2s0TEZRWDN2bWdXUEprWkp0ZF9IeGZPMGZwbkdzbVlsVmV6N1pKOU1GTmtHLS1qN2E0TVc5cTRfX3dkeldKOWd3NVpFcw?oc=5",
-      "publisher": "ETV Bharat",
-      "published": "2026-10-21T12:10:09.000Z",
-      "eventIds": [
-        "venezuela-oil-reopening"
-      ],
-      "found": "venezuela-oil-reopening"
     },
     {
       "id": "47e37304bad0",
@@ -5318,15 +5381,15 @@
       "found": "india-us-trade-deal-2026"
     },
     {
-      "id": "b09e002b0232",
-      "title": "N. Korea to resume propaganda loudspeaker broadcasts toward S. Korea: Kim Yo-jong",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPU2lEd055bVY3MWd2R2VlWDJ6NWdpN1FfSTlpVy1nY0MzclhlUEJNekdIdlJUbWU4R1N3QTJLSnBiX3VBWlJKOFVlVVNVZEJQX3FTU2hxU2dsdVJDcW1WQ045UXUtZklONXB3UnprT3dGaUZTS1Y3OHp4LVpvRlAwTG9WbElHbFY5NFVkbk1WRFJmSWNrT3VXcnA1RjhXQXF0QmlraTFjbzE3WlRVUFE0dncwTWt1SDhxc2NRZGRNRnZXVVAyUldnbXZ3T2xBdEV5MHhKQUxyQmd0Z9IB3wFBVV95cUxOOXV4TXhWOF90cWJBNlpYbTlUU05qREhFMF8xcHJzMFBOampGYmlVS3o3dWhLdy11cVFBMm5LeG11V1dGbmo0U3pmUmJyeTVOZ0RQczZVYjdRR25hLTg4eEVwS1NlSUxsbGVwZTFEMHZuSklpWHNkT0MwS3gwTHlwQmZ4MndjdVhIM3R4Mkd5WjRXM3BBNnJaY0dJYWQtTDNSTGJZc0J0aXJMUlMtSjNDZ1JLZkhkVk5Eckp4eWtIcVJVVm1zSWFoVG00WVhORE10eWhSQ3JqX3liejIxVmJJ?oc=5",
-      "publisher": "The Korea Times",
-      "published": "2026-10-21T12:03:03.000Z",
+      "id": "e62117b2a5d0",
+      "title": "China is preparing controls on AI exports: what this means for businesses",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUEMtVDk0aXR3V0NpUXNJcjBlR2ZHNFdkWnN3NkE4ODU2M2lrVVRjR0d6czE4N1g0bFEtWkIzSUlqV3VJdWQ0TGhPTTZnVEtzOHFJWVNvbmY4NXZiNTItMUZMakVPOW1YZlN3MFhJR3gwNUFhdUFFZm1zOWtHeFJwc1NjdXdQR0lrTUxfS0Y3TjZWVEQwTTlWcmdQRGJzWndWUEJscHY2RWRUUE1TbmdwU2JQWQ?oc=5",
+      "publisher": "Il Sole 24 ORE",
+      "published": "2026-10-21T12:02:36.000Z",
       "eventIds": [
-        "north-korea-missile-tests-2026"
+        "china-q3-growth"
       ],
-      "found": "north-korea-missile-tests-2026"
+      "found": "china-q3-growth"
     },
     {
       "id": "12808904dba8",
@@ -5334,17 +5397,6 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOU01X3Y1UWNYT0s0UWJPR0dUNU1GTHRRVUJpZ3BEejNhd3E3WTRuakRJNUFOVlUtS0dWY3NOeEdSaktYb0plRUJDX0dGSlVMaTY3V0UwcjZYNkFQektzbzZCX0ZWMkVEZTVsRDlSSEdkVVN0NC1EcmRBWWM4OUhmdlNYRWhFS20wYkxzSndhaUFPZG8wem9ySFZJX0YxbXlITkhCb28yMkNHdEFOdC10VkJROWswTEU?oc=5",
       "publisher": "IndexBox",
       "published": "2026-10-21T12:01:27.000Z",
-      "eventIds": [
-        "china-q3-growth"
-      ],
-      "found": "china-q3-growth"
-    },
-    {
-      "id": "ae2e2815b93e",
-      "title": "Ignore the rhetoric: why the EU will continue to ‘pull its punches’ on China",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaExmY1diNGNKVHprc0pkSnNqSDBVNUduN1F4MFZ1bzB3NkpVbGFQWFVjRmhnS1M4ODVINGg2dGpLUE5MSk1aQWt0RmF2ckVzN3FXc3dQYzQ5N2xrdmpGSGJ1eUhQWDFCLU5kVUcyandTZ3dkRHdPV1NzcnMzUnpkM2RRSGRpUUd2QmRRMmZnSXgtWnNTbXFTQUdBWUsxVk1IUFVYd1BNcDdZeFpEdzhqZTBVcEFDZGhua3VfRVJfTzlrQWhTNFdWMdIByAFBVV95cUxNQTBKdzRwNi1MWnQzNlJSa1d2VFpLWHhGaUN5MGlxWDFXZndYOEdsemNmUkIxR01iVlE1VnRSUHhzWWo1cjFMQkV0bGxQRUhyY2xmcW5tU0l3Ql9LMEtCZjBVel9qUUZVZTEyQTU0bllMbjNyRkNOUFdDa043amVKOGl4T0hmR2EtXzZZMlFsT2hfRVA2UU1kSkQ5LTgwallUNnJCbnkwbk9ScjZ3bmxSVUZnc012YW1YQUJ4em91QTExblJJVng0dQ?oc=5",
-      "publisher": "South China Morning Post",
-      "published": "2026-10-21T12:00:10.000Z",
       "eventIds": [
         "china-q3-growth"
       ],
@@ -5375,7 +5427,10 @@
       "publisher": "UN News",
       "published": "2026-10-21T12:00:00.000Z",
       "summary": "Talks to halt the fighting in Sudan and alleviate the humanitarian crisis there continued in Geneva on Wednesday, where nearly two dozen countries convened to discuss a pathway to a ceasefire and transition to peaceful governance that represents all Sudanese people.&nbsp;",
-      "eventIds": []
+      "eventIds": [
+        "sudan-darfur-kordofan-famine-alert"
+      ],
+      "found": "sudan-darfur-kordofan-famine-alert"
     },
     {
       "id": "ba5612a37186",
@@ -5723,17 +5778,6 @@
       ]
     },
     {
-      "id": "69a56efaae4f",
-      "title": "News: #PM_Abiy warns #Eritrea of ‘extremely severe’ consequences if it rejects #Ethiopia’s peace call amid rising tensions Addis Abeba — Prime Minister Abiy Ahmed has warned Eritrea of “extremely severe” consequences if its government continues to rejec",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPekZTRVQ2UnFyR3JjZF90RkM2WVpBUkt1LVZpMUF0dGEzWmJHXzZ3Q2FlVWZLcXo2RENNM1oyZk1xX183OWpibzdGbWJRY1pNZWxuV0VhdjdOWjk3VGlmUzlwLVNXdkZhYzJQMnlJYkQzTGFJZWtHUUhtNnhKN1ZvcjNtdFM5Sl9XXzRRNVUzSklXVXA0T3RIV2NjS1NSQldYdjdaSmJUN0xmSk9NdG1TbTdQdlBPWDUwLTZKWTVRWG54V3M5TnpMYkJGY241aEUyREVndXNSY2NXMVlFVC1J?oc=5",
-      "publisher": "Facebook",
-      "published": "2026-10-21T10:55:10.000Z",
-      "eventIds": [
-        "ethiopia-eritrea-war-fears"
-      ],
-      "found": "ethiopia-eritrea-war-fears"
-    },
-    {
       "id": "5fc1df917bc0",
       "title": "Dollar-Yen Stuck in Upper 157 Range as FOMC, BOJ Meeting Keep Trading Rangebound",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0YzFtSWhUMW54VkNGUkFHelZkeXFHaDVjQ0ZScUFUbWFhR1g2Vm1uSW1fR2F3eDdDUlREQVBGTDlSZEdZV3M3aUJhMG1SMVpGTGQxcGRKQW9VRjB3Tjk2bE9VZkYyV01fSVlYS3RPZ0dMNGotMUE?oc=5",
@@ -5754,17 +5798,6 @@
         "portugal-housing-protests"
       ],
       "found": "portugal-housing-protests"
-    },
-    {
-      "id": "bc58d8939e4b",
-      "title": "Parliament backs storm recovery aid for Portugal, Spain, Italy and Malta",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWHpKbWVrWlgyS1dIX2RPS3RnT1NWcXRqbTlDeVhoenljeW1kMkFuSGJhVkppdURlZW84UHRwZTI5NkNMbHh4ZHhwOTV4dHhDQ1lOLURodkhMR0hIR1NBVk1fNVhpOGlOdUY4QUVhRFZOcWxlY0kzQ0l5ZWZTT24xVW5DakJGQmlBSWV2TzhsUGNrU21EbTNNMmlNeHVIeDdlMDQ5MQ?oc=5",
-      "publisher": "Zprávy Kurzy.cz",
-      "published": "2026-10-21T10:53:00.000Z",
-      "eventIds": [
-        "eu-budget-2028-2034"
-      ],
-      "found": "eu-budget-2028-2034"
     },
     {
       "id": "b4119cf26e07",
@@ -5973,6 +6006,17 @@
       "found": "italy-cost-of-living-riots"
     },
     {
+      "id": "787ff5f24a10",
+      "title": "Trump confirms US-India trade deal finalisation soon",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5DcEZ1RzN3aGVNRmtjQXVtcFgzRXpCdDIwN2ZVTEcwYnFyVmlLVkFJZ04xXzM1RzZHOTV6UEFnRTNucTkwdmVaSFNFdFY2NjNqNHg1LVU5RWtXcDZnUjNv0gFsQVVfeXFMTjlwR2dTdXR1UnRaNFFsUkJmc0FWdTBINnBxVEstbDNsa0RES2hQeUdCTGt0aVVKcng1ZmVBd09ZTzhPWWd2SWJYSmhjODRVTnZabEVOZE84NUo2aVBKUjl4RndtTDgxc01paXk4?oc=5",
+      "publisher": "Prothom Alo English",
+      "published": "2026-10-21T10:13:52.000Z",
+      "eventIds": [
+        "india-us-trade-deal-2026"
+      ],
+      "found": "india-us-trade-deal-2026"
+    },
+    {
       "id": "42cbaf7aa6ee",
       "title": "Goldman Sachs sees three ways to rein in French bond spread as oil and politics weigh",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOX2xfSmhxU2pWWmlPY3BEOEVtbFV1amRodk9LRjVySkttTnJPdEE4cWs4eWZPTWhrN0EzZFNfZjNqMzVMaXY1N2RmZ1gzMnVCbnhsaE9nNF9KeU5aeEprQ0pjOWVEU0FhVHRkckpfbGJZWndSUHhlMDZ2X3NnS245clNiRHJhcjB2WHBhcFhrQy1TLV9yb2taQktyd0Jva1Y1WWQ4V090Q2VWR3NDc3FWUVJUUUl6d0ZEbmF0Wk9FOTFqdkV1aFEyVjJFZ3M?oc=5",
@@ -5982,18 +6026,6 @@
         "france-debt-stress"
       ],
       "found": "france-debt-stress"
-    },
-    {
-      "id": "40207cc6c46f",
-      "title": "ECB's Kazaks says that some more policy tightening might be necessary if inflation continues to reside above target; recent rise in yields has already tightened financing conditions, Econostream reports",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNOE5VNnRuWnEwRHNoeF9SeWE3TXppaGtWLURxd0ItdWNoTi1wMnB3ekxSNjByVERVd3Z6S0F1TFFycXFOQW1aX2lyZDFfaTd6VlJkVGluOEtlTkpwNlY1TnV5MXEyY1dteFdzblRFZG5KcHVGWm9YamF3cE1SU2YzS1hTdnMwRnRVZ2VDSUdKQkZKMGpyQVh2NGdoMnFyNG5zRXFsN210Zjd6ZHJiMHFBeXVPM0hVN1dTNVFHeld2RjZHV1h1dXNtaXlreGQ0M0hOQllOMklnd1Y0OUVxZWRaLVBoSnQ?oc=5",
-      "publisher": "Newsquawk",
-      "published": "2026-10-21T10:06:03.000Z",
-      "eventIds": [
-        "ecb-inflation-and-rates",
-        "france-debt-stress"
-      ],
-      "found": "ecb-inflation-and-rates"
     },
     {
       "id": "18ddc7357c3b",
@@ -6102,28 +6134,6 @@
         "italy-election-2027"
       ],
       "found": "italy-election-2027"
-    },
-    {
-      "id": "63cee3ebed0e",
-      "title": "Sing’Oei explains why Sudan’s RSF has used Nairobi more than military rivals",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaE1xZ09RVk5DX0VsYXNQdGNPRVJwTHczMEt0UkNEN0N5UXdua3gweGxfQUxIR2V4NEI1dDFRWEJLUUktM0Exa3NYS044bHlhUUI3R1FoaGRXTFdJRDdJcnNNRWhLamZ0X1BxV0MybGhBVDJreTFPam83aldHSEJ4NU9VaGtKalRYb21yOTNSaXRRbzh1cExwLTNRNExOVEtJZTh1SjZ0cEFfNFU5QWRHUGdkaWRLR1ZiUlF0eUMzR3VlTjNHVFRzR18tWXVqWmN2?oc=5",
-      "publisher": "The Kenyan Diaspora Media",
-      "published": "2026-10-21T09:30:50.000Z",
-      "eventIds": [
-        "sudan-darfur-kordofan-famine-alert"
-      ],
-      "found": "sudan-darfur-kordofan-famine-alert"
-    },
-    {
-      "id": "85948e4bf685",
-      "title": "Sudan Attacks Reportedly Kill at Least 12 Children in Camp and Khartoum Neighbourhood",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQU1QwdVFZOHZNaF82ZUg2STFrRjNmc2tudDUyRDNadUcwbEhZMUZ4Z05CMloyUjExeXNXY0tsOWxBbWdvX1pCMms4ekx1dDZqUjN3bXZTWF9FU0hDRHJ1b0hRMWNNMzV6SmRpRXB2Nk5PcWZzYTFJT09fQmg3MF81M0hWUTlyX2xmZ1lBaHZtLUx5SF9PS2pxQXBuNi1WMFpPOEotMTl5MUp0S3c5MzBpLVpuTHdfRFQxUnFFYjdvc1pJU3ZOQnRiN0RkZGFQdm5BZDg0emdHONIB1wFBVV95cUxQU1QwdVFZOHZNaF82ZUg2STFrRjNmc2tudDUyRDNadUcwbEhZMUZ4Z05CMloyUjExeXNXY0tsOWxBbWdvX1pCMms4ekx1dDZqUjN3bXZTWF9FU0hDRHJ1b0hRMWNNMzV6SmRpRXB2Nk5PcWZzYTFJT09fQmg3MF81M0hWUTlyX2xmZ1lBaHZtLUx5SF9PS2pxQXBuNi1WMFpPOEotMTl5MUp0S3c5MzBpLVpuTHdfRFQxUnFFYjdvc1pJU3ZOQnRiN0RkZGFQdm5BZDg0emdHOA?oc=5",
-      "publisher": "Devdiscourse",
-      "published": "2026-10-21T09:30:23.000Z",
-      "eventIds": [
-        "sudan-darfur-kordofan-famine-alert"
-      ],
-      "found": "sudan-darfur-kordofan-famine-alert"
     },
     {
       "id": "341172865819",
@@ -6536,17 +6546,6 @@
       "eventIds": []
     },
     {
-      "id": "593330a370d5",
-      "title": "Ethiopia’s coffee sector faces $453m risk under EU deforestation rules",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNThHOGwtU2FSeUNGN2tSbU5BN3dPNXY3NzFmaWhsS0hyQl9MdDY3dkNHUFd5Q2NkT3JlbURsVEhoSVBGZVFzbEI5Tm5ZSG1jdkxSREFpU0lPRGxURGlBVUZrakVEc0h0QVZPSTB0Z2M3ZlhXblFyZTd2VVJTRWRnRkI5WUJYZmJZdmlMamdrZm1lNVMtejM4VDJxUjQ5SVNKdFB5S2JXYVdFSEZW?oc=5",
-      "publisher": "Capital Newspaper",
-      "published": "2026-10-21T07:17:33.000Z",
-      "eventIds": [
-        "eu-supply-chain-rules-2027"
-      ],
-      "found": "eu-supply-chain-rules-2027"
-    },
-    {
       "id": "4ee48a41b75a",
       "title": "European steel and downstream industries call for comprehensive EU CBAM expansion",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcFJOSEtCWnJQU21nVnIwRTA2UVRpcFNvNVlmekRTSmRsTjBzYlp5R0tYZDFELWowbmhaU2MtbFV0T0M4aVQxZi0zakQ2djh4cmRLVXk3MVM3bTdma29mSEtHYjV6ZDBBS1IwSkZqMGRoc2IwNkpDT3gzbGw4NmE2N3ZxS2RvVnFHWnpKZ2VZLUNrWDVEVkcxeWw1SFVXSVpmNVN2TDFtdw?oc=5",
@@ -6712,17 +6711,6 @@
       ]
     },
     {
-      "id": "1e2d7312d5eb",
-      "title": "Former Bank of Japan official forecasts next rate hike in December, with potential for subsequent quarterly increases",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOendHdmhpaDlwRjZTWV85R1FoVkEzdng1eXNYa1lDTkdNNDFCWFFfc0x6ZWgzT2hTQm44RjlLaUl0X0M3NkZRTHgtOVpfZUd4bUFPRzZ3bG1Vbk9RcHJ5V2lfOV9NVGN6bnJzWjJUenctRzFlNHI0UGNEcEVmaWNEOWN1blZkd1NpRTF6T0hfVEZyQVZER0hNRFVUMUxvNDRiQnc?oc=5",
-      "publisher": "富途牛牛",
-      "published": "2026-10-21T06:18:43.000Z",
-      "eventIds": [
-        "boj-october-decision-2026"
-      ],
-      "found": "boj-october-decision-2026"
-    },
-    {
       "id": "1d69efc47d78",
       "title": "China Says It Shadowed USS Charleston Near Sabina Shoal, Challenging US Naval Access",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNEFHWWpLcGFHZEdiVER2UDlHQy1zbHZRVW5vUDE0RGhiSTdJd1JUajI2MF9NQVlUMlZTMDlvMG90WVUtN0hlZmtZcVZ3dTkyZWhpVS1HSE0yb3RjbFluNEZETHlfRnZQbWltOFBYdkJZa3c1N1dJQnJRS0RLVG0zSEFoTXpJcWpuX3c?oc=5",
@@ -6807,17 +6795,6 @@
       ]
     },
     {
-      "id": "f70d6f798fea",
-      "title": "Ex-official expects Japan's central bank to hike rates every quarter",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9SWFloUXJSQXlpa21lcVFjb3VKYVJDV0FGTnFHekdjWnp0SFJoalNVbm9fQS1DTmw4OGk1UGp1blUyQ0xId1dIMHhVdFRpQjROb01B?oc=5",
-      "publisher": "The Edge Malaysia",
-      "published": "2026-10-21T05:41:32.000Z",
-      "eventIds": [
-        "boj-october-decision-2026"
-      ],
-      "found": "boj-october-decision-2026"
-    },
-    {
       "id": "173310b12b9f",
       "title": "France announces nightly curfews 'for as long as necessary' in Paris and other cities",
       "url": "https://www.npr.org/2026/10/21/nx-s1-6010344/france-nightly-curfews",
@@ -6878,8 +6855,7 @@
       "summary": "<p>Despite US-Israeli airstrikes and Tehran’s attacks on shipping, the waterway still has to provide a lifeline for those that live and work there</p><p>Capt Farouq turns the wheel as he watches the ferry terminal of Bandar Abbas grow smaller, its bright lights flickering in the ",
       "eventIds": [
         "gulf-war-energy-shock"
-      ],
-      "found": "gulf-war-energy-shock"
+      ]
     },
     {
       "id": "14831970cfa2",
@@ -6937,10 +6913,10 @@
       ]
     },
     {
-      "id": "32f92160ab6d",
+      "id": "c626ceb94578",
       "title": "In China, ECB makes case for euro liquidity lines",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBFRW1jTV9obmRLYm1VOXRvOHVOdmM1RGJidHZhbUVzOE13R2FKNXhHYk5Wb3dnbVhpWUQ1bE1jVzU3b0VqWlBCY285RU1FaU1xVC1wa3AyN1htT0FMNHVHTF9xMjBvNERZX2pEdy1rT3RsWVAtYS1OSWtiUQ?oc=5",
-      "publisher": "AOL.co.uk",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9CbVkyZno0dndjZDdfZ3p1bHdLSUZIZjZIa1BfUGhwZTBFYmF3V2UwYXlJR0Q2WmZGVnVPbmJISFZ0c2h0RDg5YWJnTUZmdEJCUFd5d3R3cVg0azFTOFhOU2tpUTFvLVU4V04xbm5BWWZSb0xyMVdFOQ?oc=5",
+      "publisher": "AOL.com",
       "published": "2026-10-21T04:20:00.000Z",
       "eventIds": [
         "ecb-inflation-and-rates"
@@ -7093,18 +7069,6 @@
       "found": "france-election-2027"
     },
     {
-      "id": "4a2ce231f8d5",
-      "title": "IEA warns diesel squeeze may persist into 2027 as oil markets remain fragile",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMzVqR3FCaUtSSWE4MUdaSE1WaFl2SURFUEU3cnA1NUpRdW5qTTJGMWh4QkE4eEduZXFtYWFlbVd6aTVNRE4wYkFsRExvYW1ES1R4QWsxZnZfU3BReERjRlJFLXdVNEN4WFFZT0FzalZIUHh4ZDJhVWl3QUNIaFhpR2xNb1hrZVBucmhQQldWT3RMNkFDeXhjYVE4RFM3WlRpSVRVdHd1UGFrdXp1c003ajkwdm5XZw?oc=5",
-      "publisher": "Green Building Africa",
-      "published": "2026-10-21T01:58:39.000Z",
-      "eventIds": [
-        "opec-plus-november-output-hold",
-        "gulf-war-energy-shock"
-      ],
-      "found": "opec-plus-november-output-hold"
-    },
-    {
       "id": "08141dd72377",
       "title": "Canada Touts US Oil Trade Before Minister’s Talks With Greer",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRFluU3dwbl94TTAwOVRrb3dkNXh2VTNTSUt4dHhOUUVpdGs0RDRQZjVJLTRFNkRna2pGYThRQWtOT2J0YVZtX1JuY1p2bmpVZXhVeXg3M1R5Q3d6N1NnTm91M2I2SU9EYkNZellQWUI5d2NlVGNMdlhnRlc3enZPckZrbnFoYmtEM1dmcGFSUGwxMkU?oc=5",
@@ -7134,6 +7098,17 @@
         "usmca-annual-review-2027"
       ],
       "found": "usmca-annual-review-2027"
+    },
+    {
+      "id": "fc4af25b72ac",
+      "title": "Flood deaths reach eight in Istanbul and Kocaeli",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOakFsaF9iRTFzTHVXblc2cGVRd0t5ZWlUMmpJSmRIcjFGbGZOVmVIMEY3LUh0WXNCeDdkVWlaNHlyNkVFYVZkN2VZZ0tUZlNzdG5BdG4xRzVROTY5SmNNQUhMeVN0aHhpazhjbURfTHI4b1hkYmJobkZGZGZFei02RUxETkU3cnJKa1RrSnlJbXRHMk1GUzlkdlV5Zw?oc=5",
+      "publisher": "PressReader",
+      "published": "2026-10-21T01:41:03.000Z",
+      "eventIds": [
+        "istanbul-floods"
+      ],
+      "found": "istanbul-floods"
     },
     {
       "id": "908813b94072",
@@ -7292,15 +7267,6 @@
       "found": "usmca-annual-review-2027"
     },
     {
-      "id": "672bfaff10a4",
-      "title": "Netflix posts third-quarter earnings beat, but shares fall on advertising and revenue guidance",
-      "url": "https://www.cnbc.com/2026/10/20/netflix-nflx-earnings-q3-2026.html",
-      "publisher": "CNBC World",
-      "published": "2026-10-20T22:29:45.000Z",
-      "summary": "Wall Street and investors will be looking for Netflix to provide additional details about the company's strategy following recent organizational changes",
-      "eventIds": []
-    },
-    {
       "id": "2b422fb1ba21",
       "title": "Alberta's decisive decision to stay in Canada gives Carney backing to take on Trump",
       "url": "https://www.bbc.co.uk/news/articles/cr62ylj832vxo?at_medium=RSS&at_campaign=rss",
@@ -7324,18 +7290,6 @@
       "found": "opec-plus-november-output-hold"
     },
     {
-      "id": "0b5c5432a182",
-      "title": "Oil Prices Fall After US and Iran Receive Framework Ceasefire Proposal",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQU2EzT2V0SWZFdVQ5QlZsMWtnNjhxMjF5RTFJNmNmZkZ5d2VFcFBjX21mQ1lDRG5XYk5XUHVTZWo1RlhYcThmOWZjU2k4WXZNVXBNTFoxeGdWRVQ2YndtS2tqdHNJcGlzdjIwMjctdG0tMGFBQkpVQkxXQ3pJUWVOV29qaUdMLXNGZGctOU0zNDB6bkliTGI3dHNoUGJwaEFvRGxV?oc=5",
-      "publisher": "EnergyNow.com",
-      "published": "2026-10-20T22:09:30.000Z",
-      "eventIds": [
-        "opec-plus-november-output-hold",
-        "gulf-war-energy-shock"
-      ],
-      "found": "opec-plus-november-output-hold"
-    },
-    {
       "id": "5704a67cdfbc",
       "title": "The Portuguese Continue to Fight for the Right to Housing",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeWwzQ0Jic0ZadkRqY1hwNkMtcHNzRFRVLUw5RUNRT01qMk9BVWhmalVZR1VTenRCVEF5V2QtbVNzT3FZakduQkxfSVN6REJvWWk0VWVuRE1qc0wyZW1rcjNFeTlYNGpZSUV1by10cF9PdVd3VlJKM1BMSGdSTUVjWVNKTkJ2UXAtY2cxbE5Jd0E3UWM?oc=5",
@@ -7345,6 +7299,17 @@
         "portugal-housing-protests"
       ],
       "found": "portugal-housing-protests"
+    },
+    {
+      "id": "aa70851e512b",
+      "title": "OPEC+ Likely to Stick With Plan for Quotas, Delegates Say",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQR0NrTDVfN2U2SFNYc2E0OUp1Sm53UHV1S2ZpWTVaMnVJbmF1ZWVGWlJSNHZwNEpjT2QwMGh4ZWplYURDZUVZUmlOU0JQUTY1b2kwRXpkZWs3M2tYMG5GVVJxanJTZ1FWTUp0LVNDTjZMVXEzMU5KQ2ozeDhZNlkyQ0xHS2ZCcmRkcFV6OHFKbw?oc=5",
+      "publisher": "EnergyNow.com",
+      "published": "2026-10-20T22:04:01.000Z",
+      "eventIds": [
+        "opec-plus-november-output-hold"
+      ],
+      "found": "opec-plus-november-output-hold"
     },
     {
       "id": "457acc9e19de",
@@ -7357,6 +7322,17 @@
         "france-debt-stress"
       ],
       "found": "russia-record-budget-deficit-2026"
+    },
+    {
+      "id": "9d5a2bdf6eba",
+      "title": "Global Oil Demand to Rise More Slowly as Prices Rally, IEA Says",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSVZ5cG5YcGd5S2x6bmozSEtSNWFVV21TSGlJZlBodTVHQmE5dHZaTEhWem9zZ2V4ZnpfQU00dFVnTm4zbG03SlFfYjd0NW9LYUoyUEFHRnVkd254LWNnYjFUM09KR0t0a1R6UzBGTHlncnlYTFJ1OWJyd0dEZHVUUWg3ZUhPQjRjZjNVeFFRWkdUYl9uVHN3Wg?oc=5",
+      "publisher": "EnergyNow.com",
+      "published": "2026-10-20T21:43:00.000Z",
+      "eventIds": [
+        "opec-plus-november-output-hold"
+      ],
+      "found": "opec-plus-november-output-hold"
     },
     {
       "id": "ad4e4175cbd5",
@@ -7393,6 +7369,17 @@
       "found": "ecb-inflation-and-rates"
     },
     {
+      "id": "9dede13aaf80",
+      "title": "Analysts Hike Oil Forecasts Again as Energy Flows Face Slow Recovery",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTk1YUGdyTFdkYlBVNTM4VlhCOF9lT3FUUDhzSDlMZXU5cURLd2d2V3BINWxBcEk2cWs4SjlySzRNZDk0QWU1SGF0Q2dtdU9wRHNzUUlQS2ZkZ3hNZHJhRFRpSTdCblVsbFhGOG9KV1lRWlZpS1RtU2wyT0NSaTRaWG9xRU5ZQmtRRE0yZVg1U2RKOVllSDdsS0lGd25rZGMy?oc=5",
+      "publisher": "EnergyNow.com",
+      "published": "2026-10-20T21:32:17.000Z",
+      "eventIds": [
+        "opec-plus-november-output-hold"
+      ],
+      "found": "opec-plus-november-output-hold"
+    },
+    {
       "id": "7e3011ad6ff1",
       "title": "Russia Sells 62 Tonnes of Gold in Biggest Reserve Drawdown Since 1998",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsUFlRMlJOejkyVEpwNHhmU0dQLTlpS3ZpdlRWMXNyZjNXWkwxdkxhWUMycXhxM1RSMkZaaUo4Q2xvOUYtUkd4bHZmNDlEQ3pkYmdFaDRHckUwY3JfQUFqMmxYejFwOHpKNFZRbnJwM3MxQmg3V2c?oc=5",
@@ -7413,6 +7400,18 @@
         "portugal-housing-protests"
       ],
       "found": "portugal-housing-protests"
+    },
+    {
+      "id": "779cd1c77224",
+      "title": "Iraq’s Push for Bigger OPEC Quota Driven by Revenue Pressures, New Oil Investment",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPY1RWT0NzcXJieEZJODl0UmtDY05jM2Z6VUNybTc3MzFMTWgtbWlWUk1WQzhjeTlkZy1rOHFrOW56YnN1STJXSWZObW1zNmM4dUlSajdoYm9ZWXNfUkcxbW9xcjhoV3lxQV92NEJpLTlaZmN5eVZtTVhmOE13c1lhenlIWmxFNUlFR0VySG1wUFpXRDd4SXRpUEo5eTJDdm5pcXota1VYVlkzQVYzNUxr?oc=5",
+      "publisher": "EnergyNow.com",
+      "published": "2026-10-20T21:21:32.000Z",
+      "eventIds": [
+        "opec-plus-november-output-hold",
+        "gulf-war-energy-shock"
+      ],
+      "found": "opec-plus-november-output-hold"
     },
     {
       "id": "7f669f6f9945",
@@ -7476,6 +7475,15 @@
         "russia-record-budget-deficit-2026"
       ],
       "found": "russia-record-budget-deficit-2026"
+    },
+    {
+      "id": "338e5d98ecb5",
+      "title": "Current U.S. support for Ukraine looks very different than it did",
+      "url": "https://www.npr.org/2026/10/20/nx-s1-6009227/current-u-s-support-for-ukraine-looks-very-different-than-it-did",
+      "publisher": "NPR World",
+      "published": "2026-10-20T20:27:23.000Z",
+      "summary": "NPR's Scott Detrow talks with William Taylor, former U.S. Ambassador to Ukraine, about President Trump's recent moves to support Russia and how that compares to past administrations.",
+      "eventIds": []
     },
     {
       "id": "abe1cbd27848",
@@ -7655,15 +7663,15 @@
       "eventIds": []
     },
     {
-      "id": "4e2ab04d23a1",
-      "title": "Convert 1 USDT (Tether USDT) to RUB (Russian Ruble)",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5rbWhGRjZHNW9qLUg1QV8yeVl3NVREMU0wTkFaaUI1VDdEbktnMVB3b2FQenFQUnJUVTR3dmZGcW5SM3d5eGtXTmw1Qk5oY1hlWHBzRzBfbWY?oc=5",
-      "publisher": "Bybit",
-      "published": "2026-10-20T18:37:14.000Z",
+      "id": "a2ae213fdf46",
+      "title": "EUR/USD Steadies as French Budget Vote Looms and Moody’s Review Tests France’s Rating",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZ2kyU3FtUWNyejRqaDRvbFZYYmxwVjc4Q01oNWZHT3JtZmRHZHhhNzVRMGpRVVNGS1Q1ZW42a2pRZFdvOUdNSUFqRC1pZWdwRGhKLVVBSG9aOGprVVRjUkpIeDBoZnYtSWFXR0ZaOHpEZXNWazFtYWdQY3doYmRPUVM1ZkVBN1lDc1VwYW8wNVlSWDVmQ3Y3T0U2M2RaRS10cXdaOTBGZmwwM29Xc1NxVURycWtTTVpGVk5icUh6Ul85cWNfd0h2Ug?oc=5",
+      "publisher": "VT Markets",
+      "published": "2026-10-20T18:19:09.000Z",
       "eventIds": [
-        "russia-record-budget-deficit-2026"
+        "france-debt-stress"
       ],
-      "found": "russia-record-budget-deficit-2026"
+      "found": "france-debt-stress"
     },
     {
       "id": "39a6b120ba07",
@@ -7715,6 +7723,17 @@
       "eventIds": []
     },
     {
+      "id": "a897edb09ad2",
+      "title": "CWN International(@Square-Creator-2667a4bdc8927)'s insights",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ja2czWmxHYy1aZms2cXJhUDMzUjFTRUZSblRMQTdzSldDN0pxS2hQMFY5b1N1M0hzU2tnSzJiZlJIajZGdnljeVRJODNFckM1eGUxc2FBRExCWkd5ZTlXcllpVEU?oc=5",
+      "publisher": "Binance",
+      "published": "2026-10-20T17:53:46.000Z",
+      "eventIds": [
+        "russia-record-budget-deficit-2026"
+      ],
+      "found": "russia-record-budget-deficit-2026"
+    },
+    {
       "id": "e8062c5208f3",
       "title": "Mexico-US trade deal ‘very close,’ confirms Sheinbaum: Tuesday’s mañanera recapped",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeTNNeS1vMnpaY0ctVGloTVhDTk9GdHNaWG9zT0RjLVZxcUUzZEdKSmdyVTZHd1B5WnU3Yi1wbWRIOVJkbUxZX0xUckFpam1JSE94dDVTZktodDZ6ZXVJTllkZ3kxbHIzVFZ6c05SMkVRYTA4WlBnYldxUVJza3VqUFkzRGlSWnpNWWJVTUV2LVpEN0ZkRHc?oc=5",
@@ -7760,6 +7779,17 @@
       "found": "france-debt-stress"
     },
     {
+      "id": "396cc54c0b1d",
+      "title": "Oil Price Forecast: Brent Hits $111.75 Then Falls to $106.85, WTI $96.17 — $102 Target",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNS2c0YjRoc2VYS3lsZnF0bE5BSkVrYjBHNThfQjNtbFdZdkFnei0xTXgtVUFwdkRPSEp1dHowSTR4RTdFdGhnajlVNFczdlBSRUlKNVgwRG1tZU1BNHAxZVZPS1N4eDRTY01rOGNRdTJuTk5oT3JYNG10aUVMMDF5RVVrVWZVTWJaYlc3dkxGU1FlOE9WazVTR2JFMTgzbTdINlhsUEl6dGx4MVQ4Q1YyQXJiMXNXSFNOSEhzTDVSVQ?oc=5",
+      "publisher": "TradingNEWS",
+      "published": "2026-10-20T17:15:40.000Z",
+      "eventIds": [
+        "opec-plus-november-output-hold"
+      ],
+      "found": "opec-plus-november-output-hold"
+    },
+    {
       "id": "a790da087844",
       "title": "North Korean workers treated as 'slaves' at Russian drone factory",
       "url": "https://www.dw.com/en/north-korean-workers-treated-as-slaves-at-russian-drone-factory/a-79710877?maca=en-rss-en-world-4025-rdf",
@@ -7769,6 +7799,18 @@
       "eventIds": [
         "north-korea-missile-tests-2026"
       ]
+    },
+    {
+      "id": "1c8fd9a5f34a",
+      "title": "Opec-Plus: Crude Output Grows on Saudi Shift Back to Mideast Gulf",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5YY0Y4OXJzNE9nRFdBZWlkOHpzbDJuMDd2bTZmSkxvX2xHNWZRcEp2cXZMYlk5cm9GbnlRM0NaSGFOUmdjdEJ4NUNQcU1BWnZZSUZrTDdqT29wNjBCeGhLMFIxTndaWnpMdjc3RTBvbG83Zw?oc=5",
+      "publisher": "Energy Intelligence",
+      "published": "2026-10-20T16:43:45.000Z",
+      "eventIds": [
+        "opec-plus-november-output-hold",
+        "gulf-war-energy-shock"
+      ],
+      "found": "opec-plus-november-output-hold"
     },
     {
       "id": "73e6fd850ca3",
@@ -7816,17 +7858,6 @@
       ]
     },
     {
-      "id": "0d518647d947",
-      "title": "France, AI debt risks push investors toward ultralong JGBs",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOV82TjBOcy1iVFV1TGJWWkRCanF5aV8tdll2VlV1WDdMNGJGQ2tOaGc4cV9pMjJZS3FqYzlnRGVvTzVmZGx5d0VldHVxRUxONlQxdVVmanl3MWJrMG90ZkNvVHE3WmtUdzByTEVOM0dvU1h4WWZJcUt6VV9aRzJuVVNlOWh1QkJyS21jbTQ5ZkZzQ0R2bVZvMXN2TDFDMFlwMlVHeFBPbw?oc=5",
-      "publisher": "Nikkei Asia",
-      "published": "2026-10-20T16:15:00.000Z",
-      "eventIds": [
-        "france-debt-stress"
-      ],
-      "found": "france-debt-stress"
-    },
-    {
       "id": "d18155f137a2",
       "title": "‘Bad decisions’: Man convicted for taking Peachy the flamingo from Las Vegas hotel",
       "url": "https://www.theguardian.com/us-news/2026/oct/20/man-convicted-peachy-the-flamingo-las-vegas-hotel",
@@ -7854,17 +7885,6 @@
       "eventIds": []
     },
     {
-      "id": "462b54d1ff5e",
-      "title": "4 charts show how unrest in France has ripped through financial markets",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWUlQRmMzSnFabnlTWi13ODNuN3V5S2RXYmk2S2dFdEF6QWU2WVNWTHNmMmg3d3RlNG40UjljTnU2RE45eVc5Rjcwc0tCcmNpNThqRl95bFVKZENtcUNTS21NbUZxQm5lYTB3M0syczBidVhjT2FPenNUR2xBVUwzLTN0Rko4TC1mLTU4V0pSTncwa3VLandELQ?oc=5",
-      "publisher": "Business Insider",
-      "published": "2026-10-20T15:55:00.000Z",
-      "eventIds": [
-        "france-debt-stress"
-      ],
-      "found": "france-debt-stress"
-    },
-    {
       "id": "bfba6319bd21",
       "title": "Paddy Power cuts 1,400 jobs and blames betting tax rises",
       "url": "https://www.bbc.co.uk/news/articles/cqzrdpkm3g84o?at_medium=RSS&at_campaign=rss",
@@ -7872,6 +7892,18 @@
       "published": "2026-10-20T15:53:13.000Z",
       "summary": "The government increased taxes on online casino and sports betting in last year's Budget.",
       "eventIds": []
+    },
+    {
+      "id": "d96a627239d7",
+      "title": "UAE Oil Head Says OPEC Exit Gives Ability to Speed Up Investment",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaXQ1dGNTQVlqczc4M0dfV2VGM1pPQ3BiSUlaWnF3eGZZNkhXWHBDc1k5NlNMT1JRMmpoYzktT1hFbU9HOHg4aUswdU5QNnJremlSc2dzSkthZjhtMjJ4MlZRblZkZktkNjR6V0FKM2I1amQ2Tks0TkFZREJFSVZSZUJjOUdkZjBiNjlia2VsRzJoRFZvQ2xuZEdTUQ?oc=5",
+      "publisher": "EnergyNow.com",
+      "published": "2026-10-20T15:41:47.000Z",
+      "eventIds": [
+        "opec-plus-november-output-hold",
+        "gulf-war-energy-shock"
+      ],
+      "found": "opec-plus-november-output-hold"
     },
     {
       "id": "0420ef42aece",
@@ -7883,6 +7915,17 @@
       "eventIds": [
         "brazil-runoff-2026"
       ]
+    },
+    {
+      "id": "012865b74846",
+      "title": "A Look at Iran’s Kharg Island and Energy Sector",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQb1dFSm8zOVlodlZRWEVlQVhtTG0wYmVfUGI3WFlTek8zMFltZUVkVnpfN2Yxb19HclM4ekNzMlFHanEyc19FUmpkZnlCMVdVMzVNUUhpckRlc083cUZNTXk3LUc0c2RHVGZMd3FPUW9ieFlDMThZRldlZlVybzZmR0dMMlY?oc=5",
+      "publisher": "EnergyNow",
+      "published": "2026-10-20T15:40:51.000Z",
+      "eventIds": [
+        "opec-plus-november-output-hold"
+      ],
+      "found": "opec-plus-november-output-hold"
     },
     {
       "id": "bfafdaa81b34",
@@ -8057,6 +8100,17 @@
         "belgium-cost-of-living-clashes"
       ],
       "found": "belgium-cost-of-living-clashes"
+    },
+    {
+      "id": "2424e1eba8f6",
+      "title": "Op-Ed: ‘El Embudo’ of the 2026 USMCA Renewal: The Economic Crisis for Border Communities",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUHg2a211bHFJSW9KZFRHbGRDR0RLdzlMSEo2YnRzbmlKeVZySlJOVmF2RDMzZk4xNjc1cmplUU85X1dUR0lQVjRiczFZa1FiSGxfWmRxVnpoR2dNek1NblV6dkZIY2Z1SjBHenhITWp4WFgwc2IzM2o2MWEzbG9ZT2M4SEExN1NEWWc1TEtIRFlick1SYTJObGlmR3RlOGVxX2tRWS1wbVl3MHJwQmdCQ1VpRXBRcGRn?oc=5",
+      "publisher": "Texas Border Business",
+      "published": "2026-10-20T13:49:22.000Z",
+      "eventIds": [
+        "usmca-annual-review-2027"
+      ],
+      "found": "usmca-annual-review-2027"
     },
     {
       "id": "307ff503f5be",
@@ -8403,17 +8457,6 @@
       "eventIds": []
     },
     {
-      "id": "019f8e0df845",
-      "title": "Prices of bread, milk and meat to rise on back of heatwaves and war, ECB warns",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbGNpdVd2TXRXSkxoRk1vMlZGX2NnMlNSdFhNc2t2ZTRWalYtbWFLbWpLSEdyQVhiVTkza1M4V0V1S3lhVHNYSlQxWVRFVElKVm1sWDJYSFQ5eFNnS3hQNWdQSVdLdC1tdjU5TFJwalZSaFBBZm9haWlBaTVRN3ozNDJkMHlfMllFS2xJQlVWd3l3U0huSWdYbS1yOXNxQy1zUlhpOTRyLXRYUmZDZ3RndlN0ejJhSHNRM2M4QUpBc2NOUGFOSktxdEJrcmxGV3Nz?oc=5",
-      "publisher": "Irish Independent",
-      "published": "2026-10-20T11:16:00.000Z",
-      "eventIds": [
-        "ecb-inflation-and-rates"
-      ],
-      "found": "ecb-inflation-and-rates"
-    },
-    {
       "id": "d5c4e8d47e97",
       "title": "Fireworks, petrol bombs and water cannon as unrest escalates in Albania",
       "url": "https://www.euronews.com/video/2026/10/20/fireworks-petrol-bombs-and-water-cannon-as-unrest-escalates-in-albania",
@@ -8594,17 +8637,6 @@
       "found": "france-election-2027"
     },
     {
-      "id": "6124d5021ffd",
-      "title": "The death toll due to flooding in Istanbul has risen to 7.",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSDFOQjBEMmh0b0U5YVRQZVlTVmg1dXlEaGJTTGY4N05GLVlQSHBHX21WOVVLMldTWTdCRXlMMlRqT2g1cy1UOFNTLUxucDc4T2JtMUY2b0cwYTdnR1BmVm4wYUM0c3A0R05GaE4zOFFaRnEzYURaUmx3QW9LUlZLTFlUdU8?oc=5",
-      "publisher": "Haberler.com",
-      "published": "2026-10-20T09:34:25.000Z",
-      "eventIds": [
-        "istanbul-floods"
-      ],
-      "found": "istanbul-floods"
-    },
-    {
       "id": "01fdf3e0a50c",
       "title": "Japan launches mission to bring back samples from Mars’s moon Phobos",
       "url": "https://www.euronews.com/video/2026/10/20/japan-launches-mission-to-bring-back-samples-from-marss-moon-phobos",
@@ -8634,28 +8666,6 @@
         "eu-budget-2028-2034"
       ],
       "found": "eu-budget-2028-2034"
-    },
-    {
-      "id": "3bfab36f5566",
-      "title": "President Trump signals a summit with Russia and China.",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOFo2RWdoZ2o4LU5TZ19uSWdtWWUtTC1WTHpmb0FZdFljZEgteWpIdS1PQm00eXNRV0h0bFdLOEh5ZUxZa0w4RlhHdVZNOUtFZ0QzUFcwaFc3d044T1RxdlZTMlZtTngtOC1fbmppdXBhMEFXakpPa0dmMlZtdWNEaHBRY3lBb0kzRXc1X1Jrb0J2T2tL?oc=5",
-      "publisher": "Vietnam.vn",
-      "published": "2026-10-20T09:12:21.000Z",
-      "eventIds": [
-        "apec-shenzhen-2026"
-      ],
-      "found": "apec-shenzhen-2026"
-    },
-    {
-      "id": "92dd95693dd6",
-      "title": "German mortgage rates climb to highest since 2009 as Iran war stokes inflation fears",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOX1hSQ3Y0S0o0VVVfN1ZRendIMUxaalVSdVJtaWJHb2tGWEFoTFcxbFlfSnA3dDBTVzhyd3kwNGV2UTFWa0JCUHpRQVhSZWNRdlp5alFEMXNodlVfMW1mT2t0QXRTbi1ndDB1VkdJSi1PZFVjbHdhOHZtczY4c0JkVFpTWFFpaHRmX0Uwaw?oc=5",
-      "publisher": "Yahoo Finance Singapore",
-      "published": "2026-10-20T09:04:04.000Z",
-      "eventIds": [
-        "ecb-inflation-and-rates"
-      ],
-      "found": "ecb-inflation-and-rates"
     },
     {
       "id": "5973802404fc",
@@ -8730,17 +8740,6 @@
       "eventIds": []
     },
     {
-      "id": "6ff8ef5ce53d",
-      "title": "Shenzhen offers discount fares, other perks to keep residents off roads during Apec summit",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSWlpcjdSSk1hTVlXcGpWS1RlWXlYUkdpNS1UTHZzcnVRb2hEbHJEXzNYQk9yYk1xNnVKck1ucVBuT08zSkpSLVBaNjBUeFpua3FCcms0WXNNcC1memt3d0hKb2dzdlNMX3dEeWZfQzh5elRlaDQ1ZVhXdjJEYVN3OXhCbE9mNF8xSlBwX0FZUHhqN1RlQmFiOU9JSUZZRFlWNUpkOXpKLWhCNXZBQU9PMGF2czV4Q3Zlbk1tNjhHUVBMMlRtTWRuMkxBY2t2Y2tBQW1tOFVsNDU0UQ?oc=5",
-      "publisher": "Bangkok Post",
-      "published": "2026-10-20T08:05:00.000Z",
-      "eventIds": [
-        "apec-shenzhen-2026"
-      ],
-      "found": "apec-shenzhen-2026"
-    },
-    {
       "id": "bb4a41613240",
       "title": "Italy's top court set to rule on future of troubled Taranto steelworks",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaTF3UW0tZGlFUnphN0o0dWtnVXpZWklVV2VFWmJ2SFFBODFvN1I0Y3FUS2hYTW5aRndXSms3eTVNN2VmTHlRRzFzREtyUlB3TV9ZMlk2M0hjQ2g2eDdxLTZheGo2OFI1ZE0xR1lZT0xralBtdTFMX2dnVjVCV3JyckZKdlFOZFljT0RaRnI5Y2dRbG1DWWZYc2FpSEtyVHNzLXNwcUxWUHRRMHJiay1IOHlnRzQ0a29pb2prU3p3NDBNaTE1Q1JkZGowTWXSAcwBQVVfeXFMTmkxd1FtLWRpRVJ6YTdKNHVrZ1V6WVpJVVdlRVpidkhRQTgxbzdSNGNxVEtoWE1uWkZ3V0prN3k1TTdlZkx5UUcxc0RLclJQd01fWTJZNjNIY0NoNng3cS02YXhqNjhSNWRNMUdZWU9Ma2pQbXUxTF9nZ1Y1QldycnJGSnZRTmRZY09EWkZyOWNnUWxtQ1lmWHNhaUhLclRzcy1zcHFMVlB0UTByYmstSDh5Z0c0NGtvaW9qa1N6dzQwTWkxNUNSZGRqME1l?oc=5",
@@ -8752,15 +8751,15 @@
       "found": "italy-election-2027"
     },
     {
-      "id": "f67e27895b0e",
-      "title": "Christine Lagarde Helped Block Binance’s Foothold in Europe",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZ0RQRTB3RkR0MW5SNFBmMUYxWUdJWWE0cUJxLWJnd2hIcFdQbzhUZ0xRRFN2ai1Vanpob2lNYkkyM3JqcFZkMUJzTWVGVDd5ZVBjN2VsX1ptQ0U1M2NEdHo4Y284aE4ycmJDSGxBbGdUWFp2Vm5sWF9zRUpjaWFDY3JYMlNPdkJ4aFc4LXowZ9IBlAFBVV95cUxPNE12NnczUUdzWGhjRUd5QkpBMlUtZjR3QXJFd05XeFBiQS1ULVBXZDY4dGNZS1lLZnczSVh1VkdEXzR3MlM5eGF5WUo5emlUU2FxZVFQYlBHaV9IWkVYU21JeDk5UFh5OWljNFRFd3NuRWxSWXVzbjM1aUhkV1c4S1Z5dUtDazNwQ2NhWUhkbktiOTZl?oc=5",
-      "publisher": "tovima.com",
-      "published": "2026-10-20T08:02:54.000Z",
+      "id": "95428812f5d6",
+      "title": "The case of EUDR in Ethiopia: how to secure climate, trade and development goals, and overcome risks of market exclusion",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNcjhBZVcwUWpsVkQzRjUwMXY5QzBjQVQ1dVpBUlRDSGh0SE5Iam44SWdnRHZNM0hhNld0QW56MWdHWEhGQUg3WFR0ZE9XNDRZMFEwQUszejFUbks3cHE3NUZ0Y19sTUtBcXpWQVJjWXpUOWlQNkpnTGRmQlB5bVpmMEkwMEV6TVp1UWVHWUVVUmphMEV3RXl6OEZad1d6YUdnbEJNS1owMjJQSGRIZi1SUTdycHZhaFh6WWI1Mk80eXVuWHZzY2JSZU5fam1BaHBxcnpQbElNRl9sSUI3TUs3MXJPQmJxMnRnNkQxd2F6SGNOcjF0?oc=5",
+      "publisher": "Polity.org.za",
+      "published": "2026-10-20T08:00:00.000Z",
       "eventIds": [
-        "ecb-inflation-and-rates"
+        "eu-supply-chain-rules-2027"
       ],
-      "found": "ecb-inflation-and-rates"
+      "found": "eu-supply-chain-rules-2027"
     },
     {
       "id": "0eadf818b45e",
@@ -8971,6 +8970,17 @@
       "eventIds": []
     },
     {
+      "id": "eb38fa098bff",
+      "title": "Milan luxury shops close for fear of new unrest as government prepares to deploy troops",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMUtOYkhMN1V2QW5CYjVnMjg2Vk1STGNlUm5KMWtsNW9nVmVCRjVJblplekZTYjdVNk9ZVUVGMkRtdTBwTG5HelNWZWRJd2tWY1gwUDZYQzhKcFYwYmlXdHlBTlFqTTNwcjd6TTNjaHhPQWE0SVc5VmRaSEV2ME5FSHNINUJVYVF2R25z?oc=5",
+      "publisher": "The Japan Times",
+      "published": "2026-10-20T02:06:00.000Z",
+      "eventIds": [
+        "italy-election-2027"
+      ],
+      "found": "italy-election-2027"
+    },
+    {
       "id": "c710f54ebad9",
       "title": "US church on front line of battle against drug known as 'tranq'",
       "url": "https://www.bbc.co.uk/news/videos/cqd097z3epvno?at_medium=RSS&at_campaign=rss",
@@ -8978,17 +8988,6 @@
       "published": "2026-10-20T00:02:32.000Z",
       "summary": "Synthetic opioids like fentanyl are more powerful and in plentiful supply, and they have transformed the drugs landscape.",
       "eventIds": []
-    },
-    {
-      "id": "3cc6561589d6",
-      "title": "USMCA review aims to strengthen U.S. farm exports",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNX2x6X1RMQ2NHZXBGb3U2WWdfMThudjM3RC1pX0tvdkZmY2JnNjVKMmQzSUNtY0FxUi10M2ZmZjAyWldvMXB3VTF6TXppcTVBcDZqRndmbWZTVU9XdEdpeFhpLWJrcTFtb1RpQUYyMlRWSHN5emJWUEVSbEptZTkwVE1UU3J3ajVSc000?oc=5",
-      "publisher": "Brownfield Ag News",
-      "published": "2026-10-19T23:52:17.000Z",
-      "eventIds": [
-        "usmca-annual-review-2027"
-      ],
-      "found": "usmca-annual-review-2027"
     },
     {
       "id": "4d79565d5caf",
@@ -9065,18 +9064,6 @@
       "eventIds": []
     },
     {
-      "id": "94288c83de2e",
-      "title": "Italy deploys 500 troops to protect Milan amid unrest",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55bFNuYXBNcFlEUUhoUEEtV1dfS1JlMEZNQl94djBraDVia3VfVUFrY21IUnFUYUs3bzJ6N3htUnNsZEhacUc2ZWp4Mmp2REZVN191ZkR3c1pHZ1k0bGN1VDZEX01mSHRkbUowTkMyRXdDM3VfSVUwSGZJZUxfTHM?oc=5",
-      "publisher": "Latest news from Azerbaijan",
-      "published": "2026-10-19T20:35:24.000Z",
-      "eventIds": [
-        "italy-election-2027",
-        "italy-cost-of-living-riots"
-      ],
-      "found": "italy-election-2027"
-    },
-    {
       "id": "c9b0d2145974",
       "title": "Video: Priest dies after cross falls on him during Mass in Ecuador",
       "url": "https://www.euronews.com/2026/10/19/video-priest-dies-after-cross-falls-on-him-during-mass-in-ecuador",
@@ -9131,17 +9118,6 @@
       "eventIds": []
     },
     {
-      "id": "6b329167b5be",
-      "title": "Merz Says Quick Decision Can Be Reached on ECB Jobs If Needed",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPT0otQ0E1LTQwalJGUThHS1BNcGg2cGRybHN5VDhoRWRNT3VfV1lwWk42TkwyT21BTXN2N3FwbEtuQi15am1FSUx4bDJHMER6cTN4MVlPelMwU0VZbmg2eUt5aDg4Q1RMTjNoeDlxMFl0YUV2UmtmeldkallDZjBkUU1OWWZUYm9kcVlybnR5WDktN05BT1g1ZjNGeHZ5ZFdfYTF1aGNaMC1WU0g3dXhyR2VR?oc=5",
-      "publisher": "Bloomberg.com",
-      "published": "2026-10-19T17:44:05.000Z",
-      "eventIds": [
-        "ecb-inflation-and-rates"
-      ],
-      "found": "ecb-inflation-and-rates"
-    },
-    {
       "id": "41a1ae37a2b1",
       "title": "Vinted blocks French looters listing stolen goods for sale",
       "url": "https://www.bbc.co.uk/news/articles/cm8xzrljv72ro?at_medium=RSS&at_campaign=rss",
@@ -9162,30 +9138,12 @@
       ]
     },
     {
-      "id": "2479d4861ff9",
-      "title": "Latest news bulletin | October 19th, 2026 – Evening",
-      "url": "https://www.euronews.com/video/2026/10/19/latest-news-bulletin-october-19th-2026-evening",
-      "publisher": "Euronews",
-      "published": "2026-10-19T16:00:26.000Z",
-      "summary": "Catch up with the most important stories from around Europe and beyond this October 19th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-      "eventIds": []
-    },
-    {
       "id": "ab37e1e8571d",
       "title": "Bikes 'not for jousting,' says Lime after duel video",
       "url": "https://www.bbc.co.uk/news/articles/c9zrdpg7256yo?at_medium=RSS&at_campaign=rss",
       "publisher": "BBC Business",
       "published": "2026-10-19T15:44:53.000Z",
       "summary": "Footage emerged on social media of hundreds of people gathered in east London to watch a bike joust.",
-      "eventIds": []
-    },
-    {
-      "id": "63a40e24179f",
-      "title": "Qatar plans new defence partnership and warns of energy crisis 'peak'",
-      "url": "https://www.euronews.com/2026/10/19/qatar-plans-new-defence-partnership-and-warns-of-energy-crisis-peak",
-      "publisher": "Euronews",
-      "published": "2026-10-19T15:40:14.000Z",
-      "summary": "Qatar is preparing a new regional defence partnership while keeping channels open with Tehran, arguing that dialogue and economic ties offer a route to lasting peace. Doha also warned of an energy disruption “peak” with more difficulties on the horizon “in the coming days and mon",
       "eventIds": []
     },
     {
@@ -9296,6 +9254,28 @@
       "eventIds": []
     },
     {
+      "id": "ab4b52bb40f2",
+      "title": "Tensions flare over the EU’s next long-term budget ahead of unpredictable elections in 2027",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNVDFMZnRBRVhBZGtmcXVTN0lZZ2hoVmtlRTlWZTFjUGQ2RFhZcjhOOHBPRGVIa2dKX09OSG9VT2JIQzJzeHR0Z2lGVk1EY3NJWVJiYXc4MXNITmpkXy1nMXFHUHd0enNZdF8xNWtrX1lMN2dTQjZXcC1qUjExWmtXSGdGYlVlUHItcFVJcUhQVjRnVlVlY1JaY24wUVZFbFlaZ21NaVU0RGUtcC1XdjRiZUJPMllRZTBqeWwxZTNIZmw2ajRCdHRtVzlRbm1temNuLXJBQnlJSWYycm9JdzlWYlhCRm5Eb0dxdi0xTV8wYUlnQ2FURTBrSzdicVBncEI5S1VYRG5wMTNnVXc?oc=5",
+      "publisher": "CoastTV",
+      "published": "2026-10-19T10:32:31.000Z",
+      "eventIds": [
+        "eu-budget-2028-2034"
+      ],
+      "found": "eu-budget-2028-2034"
+    },
+    {
+      "id": "caac42f74d91",
+      "title": "UBS adds March rate hike to ECB forecast. Here is why.",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZXFRVUtaU0VXLVZnSU16TUJRUFJ4d3hZblFvTVRIR0I2d3NVQzZfUDQ5bTViblJqN1g3M3A3bzVjTW9PYW9lcm1YUm03RW9qYXZicEkwQUtuNzlsUlBkNFQ4VWRCei0zSlRGNUdWUzBhSVZEcmtjUVpaUmRLaHJNNDMyVHFwa0Znc0ZrcjRvMFRUblU?oc=5",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T10:17:19.000Z",
+      "eventIds": [
+        "ecb-inflation-and-rates"
+      ],
+      "found": "ecb-inflation-and-rates"
+    },
+    {
       "id": "6a043ccf6354",
       "title": "National Network for Children at the European Parliament: Investment in Children Must Be a Protected Priority in the Next EU Budget (2028–2034)",
       "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOaV9OVENZR1J2YnYzTWYtUjRpTEZNYVVaYmpONUllN3MxUjFkLXBRaU5hdENCbFhWbGdtSEhVRnBkWVdQVWdFVFdzNklqa3hPM2thUnl1R3ZMYmctemxIUEY2SUdGODUxUzRzQ0FCUTJmNkRrT2htM0FfdHlBOG9KWF94Xy1CMmtHM0x4cFlTRUNaaTQteWlEZUlfSlllS0RPeVZRbDhJallpbkpYSTRhc3V3akxrcXJRZ295dFdVdUo4LVZMZnFfVW85OHVHR1J4S1R4VEFOYURqLURkWXZBOHpXU2NHLW9OZDdKZmNLWGk?oc=5",
@@ -9345,6 +9325,28 @@
       "eventIds": []
     },
     {
+      "id": "563949639b7a",
+      "title": "High prices and interest rates: Expert advice on managing your money",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdGVuZFdYMUVFa09ZNE95VHY5YnZoRmotNTZ4bTJLMk9ZT0RXbzVNRDN4d0h6RE5VTlRPdXo1clV6UVk1bnUxTVhlVWFfQXRLQTN5cVBGdmRkbEJuSUpyTHViMXJkbk9hNXlaNVBSSU9kQ09HejNTZXB6MnkzSVhScUNGOVR1ODZETGc?oc=5",
+      "publisher": "Yahoo! Finance Canada",
+      "published": "2026-10-19T08:59:03.000Z",
+      "eventIds": [
+        "ecb-inflation-and-rates"
+      ],
+      "found": "ecb-inflation-and-rates"
+    },
+    {
+      "id": "2957e8d31590",
+      "title": "UBS sees ECB's hiking cycle extending to March 2027 on inflation risks",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQm5OQVJQcFBQVW9MRzRNUHd2TlpCLXRpNnptSGtpVUM5SWRpSGw1UVZvVHdMaC1Na2dNOTRRZWcxVGs3RTl5UWQ3aEJFMUFIMG1PbkhEMFVLamJ6dXdwemhPS0c4YkNKMkZTME5zUjdibFBYQVR4QW94UFdyZmlubnJyaldXcjQ0YWM4dEtyRzQtUVpJa1ZFRFBPNmJZYXVDYl96Vm1nTzVGVlBRY25tQVcwNkt2M1ZZUW51eEJiR2J0VFh6Q0Nv0gHMAUFVX3lxTE9fcFFkSUJjLTJjOTBTOWtUZzg3Vi02N2lCTkNpQ05SeTlETmxHVGswZWF3NTlPZlhMYU1FV2RaQ3dMc1p0aHZFNHNyRUg0VVRaS1dqenFqaTBTZGoyYjJfbXBHLURWQWdibTROZ3VoRnBCN2l4cDcteVZmaWlXdTlWUGVLMUZXTmlQVTdYZEFGaEZYbGpobHlHSkFxVjZZbmo0SGhGTF84RjQ4TnktOE1yOG9TZWh4a2t5d2lRcW5DR01XSTNWNmVtRjZRUw?oc=5",
+      "publisher": "Devdiscourse",
+      "published": "2026-10-19T08:17:32.000Z",
+      "eventIds": [
+        "ecb-inflation-and-rates"
+      ],
+      "found": "ecb-inflation-and-rates"
+    },
+    {
       "id": "5a35075386aa",
       "title": "In pictures: More than 500,000 took to the streets as France protests erupted into violence",
       "url": "https://www.cnbc.com/2026/10/19/france-protests-paris-violence-pictures.html",
@@ -9354,6 +9356,17 @@
       "eventIds": [
         "france-unrest-2026"
       ]
+    },
+    {
+      "id": "93edc6186e46",
+      "title": "How much does inflation cost you? Ask the Euronews AI chatbot",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16RzFiNGF6Ml9ibDdISFp4dm9rWGVwaGNHX3hMbUdtaFZ4NlBabGpaV2ZJMXF3U3ZjNHY5T1lhdEZBbXFTT0RULTQ3Z0c3M24xTTc3d2ttX2Y2T3N3ZzJIdENLa05mOVFuaXNuZjA2b09sZjd3am1kamlEdVpSM1E?oc=5",
+      "publisher": "AOL.co.uk",
+      "published": "2026-10-19T07:36:14.000Z",
+      "eventIds": [
+        "ecb-inflation-and-rates"
+      ],
+      "found": "ecb-inflation-and-rates"
     },
     {
       "id": "9c3d99adf488",
@@ -9533,6 +9546,17 @@
       "eventIds": [
         "france-unrest-2026"
       ]
+    },
+    {
+      "id": "6d14b0d210e8",
+      "title": "Lagarde Advances Digital Euro to Defend EU Financial Autonomy",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUmtFbVZYWFd4U1c4emlQWkc0MmY5SVhZR0hEOTNmQk1Gek1wYUJyRGNZRnR1QWtjcDBla3NsaGpEVmZ4U21DZWZHWFZuSlFDbFdvME5xRDBHNy1LcnphSFRESXZ3TzQwMWNWc0JEWTFZdkxSTFlER0h5a1hvdFBjOFZtUS1lcFgtYlNnR3FoT0hhZkx3TVc0dlN6VllIeDh2?oc=5",
+      "publisher": "Bitcoin News",
+      "published": "2026-10-18T23:30:00.000Z",
+      "eventIds": [
+        "ecb-inflation-and-rates"
+      ],
+      "found": "ecb-inflation-and-rates"
     },
     {
       "id": "1177334ce8c4",
