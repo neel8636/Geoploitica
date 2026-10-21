@@ -546,5 +546,576 @@
         ]
       }
     ]
+  },
+  "gulf-war-energy-shock": {
+    "at": "2026-10-21T14:49:24.885Z",
+    "by": "pipeline",
+    "items": [
+      {
+        "id": "peace-push-stalls-on-uranium-dispute",
+        "title": "Peace push stalls on uranium dispute",
+        "when": "2026-10-21",
+        "place": "Tehran, Iran",
+        "lat": 35.69,
+        "lon": 51.39,
+        "what": "Iran dismissed hopes of diplomatic progress and demanded the US prove it wants peace by lifting its blockade, while a peace push hit a uranium roadblock.",
+        "via": "stalled talks, prolonged conflict",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Iran tells US to prove it wants peace by lifting blockade",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZEo5bXZwWVEtanBydl9jUThndXR0cmxaVEFBeTBvbDdueHZISkVSOFpGSk9VMEpKb0hrV2g2V1lvUXlxR3pPaFRNcUNDUjVPbktMZEt2T3dDYnc4bkpCVHdYR0cyTGJWTHJJVDRFbFc1UXZ4eklIS1BUNVdXbjhFR092cUU2MmpKam1FaUp4VkxtQWh5UTduVXM4c1lOb0ZvaWNkeEpjaw?oc=5",
+            "publisher": "The Straits Times"
+          },
+          {
+            "title": "Middle East latest: Pezeshkian says US must recognise Iran's rights before talks can resume",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNb1Rrak9DUVcxWUFNREEyZTgtVGRyT1ladW9xeldkR0tadEQxWGFDaS0zR0RrN3U1T3VTNmV2QnVrNHNramJTY0FRZ21IX0FMUWt5N0JGSk5qc2pyQXZBbFFDRkliU3NYanFLbC0tQnNzV0FoaXJuUWoyQ0Z4aDZ0eVY4WmFzbFlwd0JPLTBVNktWYmxQMjlSbzJYY0VtZ28?oc=5",
+            "publisher": "The National"
+          },
+          {
+            "title": "Oil prices jump $2 as Iran knocks hopes of diplomatic progress",
+            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBBYldRWG9YWm5kaWZIR1NFSWNNdmw5U2JzM1JzQkxhOVNGVHhtYkVwZm84bENwb1lfNU9CcjJaSEhuN09YaDdDY1hSdk52Q2N3Y29ZYUlkU2hrS0dFUHpoRkF4UVF5NkNPZms0WHVIU1VEQWJYcVlOaHdMQQ?oc=5",
+            "publisher": "Yahoo! Finance Canada"
+          },
+          {
+            "title": "US sends more warships as latest Iran peace push hits uranium roadblock — is war next?",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQUh0Zl92NkRtcnFjcmJzcFRIWU8xTm5KNkxRUTlaNWltdTltaVFlNzdyak1fYU5fVmJOQ2JCV251ZGQyOEkyN3ZnaEFoZnU0ZTB0NEtMSnVSaGNCVkxyVkhxUV80NFl4bFkwMGxtc0YtSzVSN2lFUllfUGhyM3BXT1E2YjZjaFNTMEtYaTNPVXZ4aW1sZVJSYWthWjJVeVU4cGVXVzRrLTlIaHBSUEJHajdSSDlRLU5VZHhrZg?oc=5",
+            "publisher": "Gulf News"
+          }
+        ]
+      },
+      {
+        "id": "us-sends-more-warships-toward-iran",
+        "title": "US sends more warships toward Iran",
+        "when": "2026-10-21",
+        "place": "Persian Gulf",
+        "lat": 26.5,
+        "lon": 52,
+        "what": "The US dispatched additional warships to the region as diplomacy faltered, raising the prospect of renewed fighting.",
+        "via": "military escalation risk",
+        "aspect": "security",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "US sends more warships as latest Iran peace push hits uranium roadblock — is war next?",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQUh0Zl92NkRtcnFjcmJzcFRIWU8xTm5KNkxRUTlaNWltdTltaVFlNzdyak1fYU5fVmJOQ2JCV251ZGQyOEkyN3ZnaEFoZnU0ZTB0NEtMSnVSaGNCVkxyVkhxUV80NFl4bFkwMGxtc0YtSzVSN2lFUllfUGhyM3BXT1E2YjZjaFNTMEtYaTNPVXZ4aW1sZVJSYWthWjJVeVU4cGVXVzRrLTlIaHBSUEJHajdSSDlRLU5VZHhrZg?oc=5",
+            "publisher": "Gulf News"
+          }
+        ]
+      },
+      {
+        "id": "ship-attacked-near-strait-of-hormuz",
+        "title": "Ship attacked near Strait of Hormuz",
+        "when": "2026-10-21",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "what": "A maritime agency reported a ship attacked near the Strait of Hormuz, adding risk to a key shipping lane.",
+        "via": "shipping risk, freight costs",
+        "aspect": "trade",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "US Iran war: Ship attacked near Strait of Hormuz, as per maritime agency",
+            "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQT0JMclFucWRSU3BlOE1UNHEwMDF2Ym0zemJydWNMMG9BSzdGWkdaSlZVQTBXd0RlaTdTcV9EOUtmemt6cEhCNmJHQmkwZlhUZzBWY2FfQVF0eXhaVERvakd5N1FqWkg1NkxHS0x5c2d0T1llN3BnWlBvN1ljb1RYQ0hMVENmVS1SM0RsU2xLb1M1c0ZUWFJkUXBKb2pUUUZCdmpzZW01TnFodTk0S0NzQ1pkSjExMzk1S0gzSWdONEZXc0lFeXBUWEg4RUJKWGhkZ05OZWw5eG84RFJieGVYTG45UV9penNrSFHSAe8BQVVfeXFMTzFVbGRXM2xBUGFDZmxJQXFSSTlFUTZwMXFaeG8tdzFyXzBka0F6OF9KS3laekljbjNmZFV5TVFPVXhpcXFRcHN5Y0VVRXJyb1Y0eWlxVEJxRHg1TS1xbFZ5ZzdTZGh1cnplOElJMXNzUnVWYUhCMEwxbjRNbHk3SUMzYkZEckJET25EYWZNR2pwUVprOWVqWklNRWI4Vl9RY0czbExWQzAyNnVIUnVQcXVxemltWG15eXZEMFhVY1hYby02Yk1QU1BqRkJpLUNxWkxRSkRYeEZpUmpNWEFNVHFJcHY3Zm91YmMxWW1neUE?oc=5",
+            "publisher": "The Economic Times"
+          }
+        ]
+      },
+      {
+        "id": "irgc-threatens-undersea-cables-in-hormuz",
+        "title": "IRGC threatens undersea cables in Hormuz",
+        "when": "2026-10-21",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "what": "An IRGC official threatened undersea internet cables in Hormuz if Iranian infrastructure is attacked.",
+        "via": "threat to Gulf infrastructure",
+        "aspect": "security",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "IRGC Official Threatens Undersea Internet Cables in Hormuz if Iranian Infrastructure Is Attacked",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdk5iYW55bXVuUDV6dGNwN00zNENnNkI0TDJ0SlJHb3I1QkVRQlhPekpfZWF1UkZmeHJZRnRIaE9oZHlFQzNVNGw1emo1TGtrZFgtMUEtZXhvRjI2UGtkam50SGhjUXpWRDdXQ3FzM3pHWjdrZFBYV2ZCLWtZWjZPSGJmRHRqN3c1eGhhWm54R2lsUFJuN2FpclVmOFZaaF9yTWhSV0JpVmllclJDOUZucG9GRWRVV0k?oc=5",
+            "publisher": "WANA News Agency"
+          }
+        ]
+      },
+      {
+        "id": "saudi-houthi-conflict-draws-in-egypt-and-uk",
+        "title": "Saudi-Houthi conflict draws in Egypt and UK",
+        "when": "2026-10-21",
+        "place": "Yemen and Saudi Arabia",
+        "lat": 15.35,
+        "lon": 44.2,
+        "what": "Egypt weighs joining Saudi Arabia against the Houthis and vowed to protect it, while British jets support Riyadh, widening the Red Sea front.",
+        "via": "wider regional war",
+        "aspect": "security",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Are the UK, France being pulled into the Saudi-Houthi conflict?",
+            "url": "https://www.aljazeera.com/news/2026/10/21/are-the-uk-france-being-pulled-into-the-saudi-houthi-conflict?traffic_source=rss",
+            "publisher": "Al Jazeera"
+          },
+          {
+            "title": "Egypt mulls joining Saudi Arabia in war against Houthis",
+            "url": "https://www.france24.com/en/egypt-mulls-joining-saudi-arabia-in-war-against-houthis",
+            "publisher": "France 24"
+          },
+          {
+            "title": "Egypt Vows to Protect Saudi Arabia From Iran-Backed Houthis",
+            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBZdjlBbEU4OGthR0I0bFF6RUpCX2V5NW9uQnFxUUNISzJmSFMzeFljWWUxU0tkRldJSnFaS29rSlNPRmhHX19kM3lPdktwQ0pGZ2kxMnY5RHNJdVpaUmVsZ3FsaktjeDRDLTVEWk9tVmdLUXkyY1FxbDRR0gF_QVVfeXFMTk1MaU50WFEwYjhUUXhuZWJUZFl1TzljSG5yZmRPQXZHSTROWUJWUllxQThqMnlqdU45bHF4Rlg3T1oxOUI0LWxOQTd6ODRXVmM5OWpLNURBNW91VDhkbF9kcE9ka0ZjLUpuWVVLaVlKYXRYRlk1QVVsVGRERWZrdw?oc=5",
+            "publisher": "The Defense Post"
+          },
+          {
+            "title": "WW1 to Houthis: British jets for Saudi Arabia build on long military bond",
+            "url": "https://www.aljazeera.com/news/2026/10/21/ww1-to-houthis-british-jets-for-saudi-arabia-build-on-long-military-bond?traffic_source=rss",
+            "publisher": "Al Jazeera"
+          }
+        ]
+      },
+      {
+        "id": "opec-holds-november-output-targets",
+        "title": "OPEC+ holds November output targets",
+        "when": "2026-10-21",
+        "place": "Vienna, Austria",
+        "lat": 48.21,
+        "lon": 16.37,
+        "what": "OPEC+ agreed to keep November oil output targets steady, leaving supply policy unchanged during the Gulf disruption.",
+        "via": "unchanged oil supply",
+        "aspect": "energy",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "OPEC+ Agrees to Keep November Oil Output Targets Steady",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaWIzaV9QMGF4MDZQT0pHT3FRbTRDN0pzNkVBTVI0eDhPQ00yRjNCTUxBS3B6MWFTU3BHcjdqUlpQYzBpbWN2QTJWUFB5VlFCUDU0Ulg2bEdMTkxzTzFjN1pyX3FnX0dUWHpJaWFyNEtxS1ZheTVTU2pzTVROX2tZeGROTU5qRmozYV8xVk5n?oc=5",
+            "publisher": "EnergyNow.com"
+          }
+        ]
+      }
+    ]
+  },
+  "us-canada-trade-war": {
+    "at": "2026-10-21T14:49:24.885Z",
+    "by": "pipeline",
+    "items": [
+      {
+        "id": "cheese-importer-sues-over-canada-tariffs",
+        "title": "Cheese importer sues over Canada tariffs",
+        "when": "2026-10-20",
+        "place": "New Jersey",
+        "lat": 40.06,
+        "lon": -74.41,
+        "what": "A New Jersey cheese importer took Trump's 50% tariffs on Canadian goods to trade court, accusing him of unlawfully invoking a 1930s law.",
+        "via": "legal challenge to duties",
+        "aspect": "trade",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "US Cheese Importer Sues Trump Over Canadian Dairy Tariffs",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNT3Y1aTh3Zkl5NVkwUFdIOUVSQ0s5aUkyd0VDbkdNY1pWTy1FZEltdWtnRldkaGthZXo4Q2lsdUxQUVNVZXoySXJjM3U5a3pmX2V4LWZTS2w0VzFodllVQTNZVGRwcFFHLTdhTHhweW5odTluTW81d0ZIRG8yMGdJbXRBdWNVSURPenVtZw?oc=5",
+            "publisher": "https://en.edairynews.com/"
+          },
+          {
+            "title": "New Jersey Cheese Importer Takes Trump's Canada Tariffs to Trade Court",
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVTZPQlNTa3RnTWM2OEI2dExtM1JzTU9hUWllQ1gwTWlralc5UC1Ld3Q4T3NDNWFsV3habjlCaERGTXktRFFYRE1LdGlSSzZuazZHSXdMRDI1Wkd6QmhYTnpOS0xLc2JNWWF1ZVlSdGhmU0lnRUtaRFFGOXl2Z1dPa09qZGgyRHB2Zl85SmxrMm1LTHpuUkUxYnA4NGFCWWluUEU5NXdBaGQ?oc=5",
+            "publisher": "Around Prague"
+          },
+          {
+            "title": "U.S. Lawsuit Takes Aim at Trump’s Tariffs on Canadian Goods",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSGl5TEJoaE1TSl9LWmJzdnFwXzdpVkJkdkNFOWJYaWxlZFhwQnpiWkhoaFU2UElsZnNrV2M2TlB5QTU4NXlmMGtnZmpISTJSNGRFTnF2TWdsUWRGYkMyWm02YjJaeEpRdDhqbjNsbmR1dUlja1VLR1JRcnZFZk1TNFMycWNweHk4SUJsa2hOa1FQUmc0QWRwa2ZXVVVrSXVN?oc=5",
+            "publisher": "NetNewsLedger"
+          },
+          {
+            "title": "Trump Accused of Unlawfully Invoking 1930s Law for Canada Tariffs",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNLTdLRGt3RXBfZmNCVW13Z2wyNTlQQ0dabVVIanpkZDM2eW5pX21wdVRZa2dBTjdLdENXVEl5OUs1QS15OURyeDJNWW1PcGZnNi1JemNKdnNJQ0NvTEZhWWxFT0RCT2NYZENyQlhJRWlMMkRtTEd4VnlzdHZlWmFDZFVVeXJDMDV3UFJCRlhiRWJFNUdOdFdR?oc=5",
+            "publisher": "Newsweek"
+          },
+          {
+            "title": "US food importer sues Trump administration over 50% tariffs on Canadian goods",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZjJNY1RkbHZ5NFhYYXIxdFBSdDF2cEVMMjMzWjMwQTBkVWpRSkFReERtRTZCcUR5VElrODduaWNtXy04dzZGaHYyT2lwTzV2MFJVV0FUZWhRSUxsS2Z5VHlBdlJ2SGNITl9JbDFrYXFUVGxycFZ0Y2g4cmNnNEpydU1PVkhJUkYwWWRYc3RfMVpkOFBRZGh5bFctR0gxNW4yOWEzZzQ5Z1dKcmw0RXZz?oc=5",
+            "publisher": "Fox Business"
+          },
+          {
+            "title": "U.S. group challenges Trump’s tariffs on Canada in new lawsuit",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORzZsQ2NaUnVpaHpZVDUxcHMydGNaTTd3Qlg2djRzbzBrVUtna21CbG5MSXczZUVMM1VUWjdDREVJaG9Jd1RxZWtWUWgyY2hzaEVFS0IzcThzcnBrWHhjZkY1YXd3YnlMckZvTjJJNUhXaHlCbHRFRHN4Q2VzcUNTLXNodm9xNnc4MjN1X1BzZHQyay1mcmJuNkRYa0lsUGJJR3c?oc=5",
+            "publisher": "CTV News"
+          },
+          {
+            "title": "U.S. Importer Sues Trump Over 50% Tariffs on Canadian Goods",
+            "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5fRTI5TDdDUE9xbjZ5Z1FsMjJvdURvLTNTUy1wcXRmaUFPRU5QekRGYzA3dEN1WHRGbVlOMk1IVVJYaEpTdlVyVzZRVGVNRUl4d01SRWxyWXIxU2M?oc=5",
+            "publisher": "TOKENPOST"
+          },
+          {
+            "title": "Food importer sues Trump admin over 50% tariffs on Canadian goods",
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQXZKbzlCMTFzN3hLX1NPZ1Jlemw4S1dqUUd1bDkzZXdPajV3NmxxZXNqQVp5UzdWT1QyTkpGTkp5Wm1ZejU0REp0QjlIcTdVaUNXRzRUYjdOT2pxVGhESEh2b09KRmtPLVNEempUZEJMM0JmQktiRkVRNXlQa1I1cHJvNC0zM2ZVSDRKVmNfbk5oZGQ2R2k2YXNWSnJ3NDY3VzI5alBuRW9Hdk9rMzAzckxlVHMwamY0dVc1aHhpV1VhZzVHQzd4WHlmdnN4UdIBzgFBVV95cUxOQXZKbzlCMTFzN3hLX1NPZ1Jlemw4S1dqUUd1bDkzZXdPajV3NmxxZXNqQVp5UzdWT1QyTkpGTkp5Wm1ZejU0REp0QjlIcTdVaUNXRzRUYjdOT2pxVGhESEh2b09KRmtPLVNEempUZEJMM0JmQktiRkVRNXlQa1I1cHJvNC0zM2ZVSDRKVmNfbk5oZGQ2R2k2YXNWSnJ3NDY3VzI5alBuRW9Hdk9rMzAzckxlVHMwamY0dVc1aHhpV1VhZzVHQzd4WHlmdnN4UQ?oc=5",
+            "publisher": "Business Standard"
+          },
+          {
+            "title": "Trump sued over Canadian tariffs in latest legal challenge",
+            "url": "https://www.bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss",
+            "publisher": "BBC World"
+          },
+          {
+            "title": "Trump sued over 50% tariffs on Canada in latest trade challenge",
+            "url": "https://www.cnbc.com/2026/10/20/trump-tariffs-canada-section-338-lawsuit.html",
+            "publisher": "CNBC World"
+          }
+        ]
+      },
+      {
+        "id": "alberta-votes-to-stay-in-canada",
+        "title": "Alberta votes to stay in Canada",
+        "when": "2026-10-20",
+        "place": "Alberta",
+        "lat": 53.55,
+        "lon": -113.49,
+        "what": "Alberta voters rejected leaving Canada in a referendum, a result reported as giving Carney stronger backing to take on Trump.",
+        "via": "stronger Carney mandate",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Alberta remaining in Canada, but other 9 referendum questions send message to Ottawa: Ipsos",
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1ZYjE5a2xfTGlKRDVkZThqZWpBd2VkcGNTdzhCQ2JnN3B4dmxvN1lSQjlyRXl4bGhWa1ZfTWhraGxBeXRNcTRIRC1fcGs3MURpTDJ4U3g5MFNoZU5vbldoNVR4U2ZNbTljUFVGdUJ2TmdsaGpGYjNkR1lMZW5Sdw?oc=5",
+            "publisher": "Yahoo News Canada"
+          },
+          {
+            "title": "Alberta rejects move toward independence from Canada",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdjdRZWJKUXhkLTMtVWJ3aVlwM1ZPTW9QM21fSy1tUjVLcWtLa1ZHZDBfbzhnWGhWVDJJSldoeFVuNGYtcTNZVUVhZUNzLVZ1UkFSdGs5M3lFZjVJcUpHcVdrSzdIUnFUbjJEcnJmek9DWDdxT1IxUGZERFlrM2syT09UbmoydEZVTkI1QTlZc0NIZw?oc=5",
+            "publisher": "1News"
+          },
+          {
+            "title": "Alberta’s “no” to separation gives Carney a boost as Trump pressure unites Canadians",
+            "url": "https://www.euronews.com/2026/10/21/albertas-no-to-separation-hands-carney-a-win-as-trump-pressure-unites-canadians",
+            "publisher": "Euronews"
+          },
+          {
+            "title": "Alberta rejects a move toward independence from Canada in a victory for Carney",
+            "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQc0JsbW10WGVtNmVlLVhJb0Q2a0x6cUFPNXBCNldqSTlTay1UQ3dRelVhMlhOcTNTYlNwMUxISkV1aXFNb3B4NUpPOUZzVGtSNmdwaFlVaVphWEd5MXgzeGhTVnk2NWZ0czRBUHBSZkJjbUVDYTc1UlNER1dPdW5sWG9WaXhpQ3J6TjcwYVJDQ2k4SWJBMkFWbktmdDA0Zng4REpHNUVDT0lJRjNmYU1ELUdzQnNZQ1NVWEtIM2Vidjd5eXFCOVFabHBKczB4Y29ET3BHMw?oc=5",
+            "publisher": "The Washington Post"
+          },
+          {
+            "title": "Alberta's decisive decision to stay in Canada gives Carney backing to take on Trump",
+            "url": "https://www.bbc.co.uk/news/articles/cr62ylj832vxo?at_medium=RSS&at_campaign=rss",
+            "publisher": "BBC World"
+          },
+          {
+            "title": "Alberta voters overwhelmingly reject plan to leave Canada in referendum",
+            "url": "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum",
+            "publisher": "The Guardian World"
+          }
+        ]
+      },
+      {
+        "id": "trump-says-he-does-not-care-about-usmca",
+        "title": "Trump says he does not care about USMCA",
+        "when": "2026-10-21",
+        "place": "Washington, D.C.",
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "what": "Trump said he does not care about the USMCA while the US and Canada plan new trade talks.",
+        "via": "hardened US stance",
+        "aspect": "trade",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Trump Says He Does Not Care About USMCA as US, Canada Plan Trade Talks",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUW9JV3ZqZXctbEZTeGh4NUZoX24wbC1XSWJLaVpqVDRpMEsyc2VsM0xQaUFGeEZnaXFNU21ZWUN5WkNqR1VfX0k4WEMzckpfSXNoYTdCVmQyTWl5MWlZVWQ3WWxuYWdveWwwVU84eElDQ2JQZWdwdno4UUFOV2dYZWthSHZmbU5LUm5rOWFPam85SHVFY3V1bjBKOUY0eURv?oc=5",
+            "publisher": "EnergyNow"
+          }
+        ]
+      }
+    ]
+  },
+  "apec-shenzhen-2026": {
+    "at": "2026-10-21T14:49:24.885Z",
+    "by": "pipeline",
+    "items": [
+      {
+        "id": "putin-proposes-three-way-summit-at-apec",
+        "title": "Putin proposes three-way summit at APEC",
+        "when": "2026-10-21",
+        "place": "Shenzhen, China",
+        "lat": 22.54,
+        "lon": 114.06,
+        "what": "Putin said he could meet Xi at the APEC summit in China and proposed a summit with Trump and Xi on the sidelines in November.",
+        "via": "added leader-level meeting prospects",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Putin: Opportunity to meet with Chinese President during APEC summit in China",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbnlVVU05UzZEbnVSUHhaRm5yUmpfWFQxQnhRZEc0QVctcnpubFVkdmlIbTNZRTI3SFlJU3k4RDg3TXJuNl9uamt0VnlSb1NqeHRlVUxiUFJHQ1ZYLVUwYWtuNWNNVm81eEpobUZSM3RNRnV0MHB6ZVA4OUhqZ2tYTEwzaWs2X2dNQklQREczNjhxVi1pVFd5TzhXNU1Bdnp6S1ItSkU4Uy03STFNb05EYkJ0ZlFMak9WVFNFNHQ5a2p3NC1zRXM4?oc=5",
+            "publisher": "صوت الإمارات"
+          },
+          {
+            "title": "Vladimir Putin proposed a summit with Donald Trump and Xi Jinping in November, on the sidelines of the APEC meeting in China",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQa0d2bU5aSzR6UFNwOG0teDZEdDdLc2NpR2s2dzBqOUFoNTJRZWRuWkx6NEV4dFJ6eHhNVm5PbVN2MHdOWGNVdmV3M25tQ1NQTzJramx1WXlFMWktOTRtUnM1Ml8wTkdvUERMa01Uci1Jc2VpRzJzTHlOLWpuZmd5OEFPZEd6REFlSkprVjQtckdweFA2ZWVSVjFmdnc4ZE5GUGE4VzMwVjB0dw?oc=5",
+            "publisher": "Informat.ro"
+          },
+          {
+            "title": "Trump, Putin and Xi Jinping… All eyes will be on China!",
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaG1PeWNUUDVOSkJFYXN6MmFmVnl0VndGSkJWS0Q5SThCbm1RcVBSMi03NEJuMDdCMEtfOFhqaXptTGRleThZbXdEVl9YU3dIY0ozSklBNmlIb0RJX19wLVd1ZHNjTHpQY2lVV2NxeXZFNm01LXVQaUZXcFl6YTdlWkpJNU42U3IwRkhV?oc=5",
+            "publisher": "TodayPress.tv"
+          }
+        ]
+      },
+      {
+        "id": "trump-willing-to-discuss-ukraine-with-putin-and-xi",
+        "title": "Trump willing to discuss Ukraine with Putin and Xi",
+        "when": "2026-10-20",
+        "place": "Washington, United States",
+        "lat": 38.9,
+        "lon": -77.04,
+        "what": "Trump said he is willing to discuss Ukraine with Putin and Xi, adding a peace-talks motive for attending the China summit.",
+        "via": "Ukraine diplomacy incentive",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Trump Says He’s Willing to Discuss Ukraine With Putin, Xi",
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZW1tZVdUajlSNVRob2Yxel8wQllEUFNYN1JveFNlVHNIYXZHWU1tbHZCZTdtakprZzVOOU42Nk9CS3V5SEVGdkdzYzZBVGhrekZUa280OFU4Q1lyY0FRYzZjOEtGRmRxQ2s1amFEeGZyZ1JuRFB2c2RnMS01amotNV96SnF3S29R?oc=5",
+            "publisher": "https://dominotheory.com/"
+          }
+        ]
+      },
+      {
+        "id": "signs-kim-jong-un-prepares-for-trump-summit",
+        "title": "Signs Kim Jong Un prepares for Trump summit",
+        "when": "2026-10-21",
+        "place": "Pyongyang, North Korea",
+        "lat": 39.04,
+        "lon": 125.76,
+        "what": "Reports point to Kim Jong Un preparing for a possible summit with Trump, while Trump says he is uncertain about meeting Kim at APEC.",
+        "via": "possible Trump-Kim meeting",
+        "aspect": "security",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Signs point to Kim Jong Un preparing for a Trump-Kim summit",
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0yOVFQR2ZYOGdLS3g5bm1wWERfbTRfdGxtYU9HdXMzTFk4S2dETFVQeHItLVdrOWV4aklZc3diZGU5aEowOVlzYzMxSjJaa0VhNzlxODRnSWRMMzhIWWQ2UjY5SENmT2p6MnU3RWd2VTJaRHhYODZZTmVTWWtMQQ?oc=5",
+            "publisher": "데일리NK"
+          },
+          {
+            "title": "Trump uncertain about meeting Kim at APEC summit",
+            "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA4QTNnWGVUVTNzdzQzOWlsRVZ5QjIyaHV4bFhEcWx4LXhCMmcwY19UdlN1bGgxWGZuZzdCNk8wVGJsXzd5Y3ZDbmc5V0ZpTFdVYmFPb3F2Z1JMb2UxTUhHUUJaeHRkQQ?oc=5",
+            "publisher": "동아일보"
+          }
+        ]
+      },
+      {
+        "id": "us-and-china-negotiators-race-to-finalize-deals",
+        "title": "US and China negotiators race to finalize deals",
+        "when": "2026-10-21",
+        "place": "China",
+        "lat": 22.54,
+        "lon": 114.06,
+        "what": "US and Chinese negotiators are racing to nail down deals ahead of the APEC summit.",
+        "via": "pre-summit trade bargaining",
+        "aspect": "trade",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "US, China negotiator­s race to nail down deals as Apec summit nears",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOa1JsRUx1eXFGZnJSY2lnTEE3UFlNUGY5RjY1WFliNGFOTVNDazZwM0ozNDBtUi1jajJxYnJFZ3o3cEptOFlUSm1hVFNsakNEbHFhUTlDS1VveWk3RGpJN1BpdmpaQzJyOEtVSVFhYkNLT0FlSHV2RW9yZWxQVGdOXzlUellBbUlDcUM4M3JWNzY4ei1BS05F?oc=5",
+            "publisher": "PressReader"
+          }
+        ]
+      },
+      {
+        "id": "importer-sues-over-50-tariffs-on-canada",
+        "title": "Importer sues over 50% tariffs on Canada",
+        "when": "2026-10-20",
+        "place": "New Jersey, United States",
+        "lat": 40.06,
+        "lon": -74.41,
+        "what": "A New Jersey cheese importer sued Trump in trade court, arguing he unlawfully invoked a 1930s law to impose 50% tariffs on Canadian goods.",
+        "via": "legal pressure on tariff policy",
+        "aspect": "trade",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "US Cheese Importer Sues Trump Over Canadian Dairy Tariffs",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNT3Y1aTh3Zkl5NVkwUFdIOUVSQ0s5aUkyd0VDbkdNY1pWTy1FZEltdWtnRldkaGthZXo4Q2lsdUxQUVNVZXoySXJjM3U5a3pmX2V4LWZTS2w0VzFodllVQTNZVGRwcFFHLTdhTHhweW5odTluTW81d0ZIRG8yMGdJbXRBdWNVSURPenVtZw?oc=5",
+            "publisher": "https://en.edairynews.com/"
+          },
+          {
+            "title": "New Jersey Cheese Importer Takes Trump's Canada Tariffs to Trade Court",
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVTZPQlNTa3RnTWM2OEI2dExtM1JzTU9hUWllQ1gwTWlralc5UC1Ld3Q4T3NDNWFsV3habjlCaERGTXktRFFYRE1LdGlSSzZuazZHSXdMRDI1Wkd6QmhYTnpOS0xLc2JNWWF1ZVlSdGhmU0lnRUtaRFFGOXl2Z1dPa09qZGgyRHB2Zl85SmxrMm1LTHpuUkUxYnA4NGFCWWluUEU5NXdBaGQ?oc=5",
+            "publisher": "Around Prague"
+          },
+          {
+            "title": "U.S. Lawsuit Takes Aim at Trump’s Tariffs on Canadian Goods",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSGl5TEJoaE1TSl9LWmJzdnFwXzdpVkJkdkNFOWJYaWxlZFhwQnpiWkhoaFU2UElsZnNrV2M2TlB5QTU4NXlmMGtnZmpISTJSNGRFTnF2TWdsUWRGYkMyWm02YjJaeEpRdDhqbjNsbmR1dUlja1VLR1JRcnZFZk1TNFMycWNweHk4SUJsa2hOa1FQUmc0QWRwa2ZXVVVrSXVN?oc=5",
+            "publisher": "NetNewsLedger"
+          },
+          {
+            "title": "Trump Accused of Unlawfully Invoking 1930s Law for Canada Tariffs",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNLTdLRGt3RXBfZmNCVW13Z2wyNTlQQ0dabVVIanpkZDM2eW5pX21wdVRZa2dBTjdLdENXVEl5OUs1QS15OURyeDJNWW1PcGZnNi1JemNKdnNJQ0NvTEZhWWxFT0RCT2NYZENyQlhJRWlMMkRtTEd4VnlzdHZlWmFDZFVVeXJDMDV3UFJCRlhiRWJFNUdOdFdR?oc=5",
+            "publisher": "Newsweek"
+          },
+          {
+            "title": "US food importer sues Trump administration over 50% tariffs on Canadian goods",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZjJNY1RkbHZ5NFhYYXIxdFBSdDF2cEVMMjMzWjMwQTBkVWpRSkFReERtRTZCcUR5VElrODduaWNtXy04dzZGaHYyT2lwTzV2MFJVV0FUZWhRSUxsS2Z5VHlBdlJ2SGNITl9JbDFrYXFUVGxycFZ0Y2g4cmNnNEpydU1PVkhJUkYwWWRYc3RfMVpkOFBRZGh5bFctR0gxNW4yOWEzZzQ5Z1dKcmw0RXZz?oc=5",
+            "publisher": "Fox Business"
+          },
+          {
+            "title": "U.S. group challenges Trump’s tariffs on Canada in new lawsuit",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORzZsQ2NaUnVpaHpZVDUxcHMydGNaTTd3Qlg2djRzbzBrVUtna21CbG5MSXczZUVMM1VUWjdDREVJaG9Jd1RxZWtWUWgyY2hzaEVFS0IzcThzcnBrWHhjZkY1YXd3YnlMckZvTjJJNUhXaHlCbHRFRHN4Q2VzcUNTLXNodm9xNnc4MjN1X1BzZHQyay1mcmJuNkRYa0lsUGJJR3c?oc=5",
+            "publisher": "CTV News"
+          },
+          {
+            "title": "U.S. Importer Sues Trump Over 50% Tariffs on Canadian Goods",
+            "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5fRTI5TDdDUE9xbjZ5Z1FsMjJvdURvLTNTUy1wcXRmaUFPRU5QekRGYzA3dEN1WHRGbVlOMk1IVVJYaEpTdlVyVzZRVGVNRUl4d01SRWxyWXIxU2M?oc=5",
+            "publisher": "TOKENPOST"
+          },
+          {
+            "title": "Food importer sues Trump admin over 50% tariffs on Canadian goods",
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQXZKbzlCMTFzN3hLX1NPZ1Jlemw4S1dqUUd1bDkzZXdPajV3NmxxZXNqQVp5UzdWT1QyTkpGTkp5Wm1ZejU0REp0QjlIcTdVaUNXRzRUYjdOT2pxVGhESEh2b09KRmtPLVNEempUZEJMM0JmQktiRkVRNXlQa1I1cHJvNC0zM2ZVSDRKVmNfbk5oZGQ2R2k2YXNWSnJ3NDY3VzI5alBuRW9Hdk9rMzAzckxlVHMwamY0dVc1aHhpV1VhZzVHQzd4WHlmdnN4UdIBzgFBVV95cUxOQXZKbzlCMTFzN3hLX1NPZ1Jlemw4S1dqUUd1bDkzZXdPajV3NmxxZXNqQVp5UzdWT1QyTkpGTkp5Wm1ZejU0REp0QjlIcTdVaUNXRzRUYjdOT2pxVGhESEh2b09KRmtPLVNEempUZEJMM0JmQktiRkVRNXlQa1I1cHJvNC0zM2ZVSDRKVmNfbk5oZGQ2R2k2YXNWSnJ3NDY3VzI5alBuRW9Hdk9rMzAzckxlVHMwamY0dVc1aHhpV1VhZzVHQzd4WHlmdnN4UQ?oc=5",
+            "publisher": "Business Standard"
+          },
+          {
+            "title": "Trump sued over Canadian tariffs in latest legal challenge",
+            "url": "https://www.bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss",
+            "publisher": "BBC World"
+          },
+          {
+            "title": "Trump sued over 50% tariffs on Canada in latest trade challenge",
+            "url": "https://www.cnbc.com/2026/10/20/trump-tariffs-canada-section-338-lawsuit.html",
+            "publisher": "CNBC World"
+          },
+          {
+            "title": "Global Markets: Trump tariffs on Canada challenged in court",
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZl95Vk10RFV1ZS1wYk9TeWJmY3ZFVG96SGJabVRsb1RXM2NKUUx4aGRQRjNZZHhxaHdGSDlTZmV3SWRtWDhmMHg3ekVsbjBSZnNNSjh0M2Jrbi1Rc1dCWHBQcXNzZWlXODhuTmJWand0U0x4OVQyMVl5S1FuaHQ0WjBfb3QzajBqbnlOTEQ4RVprQVcwMHBjOXJmSGxrZw?oc=5",
+            "publisher": "Grainews"
+          }
+        ]
+      },
+      {
+        "id": "apec-finance-ministers-warn-of-global-imbalances",
+        "title": "APEC finance ministers warn of global imbalances",
+        "when": "2026-10-21",
+        "place": "APEC region",
+        "lat": 22.54,
+        "lon": 114.06,
+        "what": "APEC finance ministers warned that persistent global imbalances risk growth and stability and vowed cooperation ahead of the leaders' meeting.",
+        "via": "pre-summit economic agenda",
+        "aspect": "markets",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "APEC Finance Leaders Flag Global Imbalance Risks, Vow Cooperation - News and Statistics",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSERSWGhjWUprVUh4NWc5SlBqTlJXWE5vd2ljX29sRGxzUHc2UjBNdGxfRzRQcWxWMmtHY3MtVWVxWExNX1JiN05aUEh0Q2FEVnJOLVlMWHJoSVNvbmNzWjNuTlA0T0NGb3JJRktKXzhMOEFxU3F6R3ZoWVRyNnYzLXZiNUEyOHk2QXBmVEdfX3B1OGd0czA1c0pNZm9vclM5c25JcDM0RUpuMkRmUHpwUzE2UzNOTGZIV2E3bTNvRQ?oc=5",
+            "publisher": "IndexBox"
+          },
+          {
+            "title": "APEC finance ministers warn persistent global imbalances risk growth and stability",
+            "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVXJoOFlMa2NVMUVaNkNSbkVLX3ctRm0zTkpNUE56Z1pYRzVLS1lCdmpkQjRRb3JwQzg1Z3N6R0tOV0Yzc25GcVBscmRfdjdPWnFzUWliM1M5TlA4MHdpdVRsdi1RRTZXWm93V2JabVZtY1FudmRlRENZMHFNWFZpLXZMZlMxYWtjRWhycE1yTzgwcnM1QUIyeklDNlFZMmdfWlVNQVVYN0QwUWpKZEZteWVSTFdZOV82ZVphU083ZzFTYjI4LTFhX1RacWFFYmpIRE90bFBWZUhlckhrc0E?oc=5",
+            "publisher": "BNN Bloomberg"
+          }
+        ]
+      }
+    ]
+  },
+  "india-us-trade-deal-2026": {
+    "at": "2026-10-21T14:49:24.885Z",
+    "by": "pipeline",
+    "items": [
+      {
+        "id": "rubio-visits-reliance-s-jamnagar-refinery",
+        "title": "Rubio visits Reliance's Jamnagar refinery",
+        "when": "2026-10-21",
+        "place": "Jamnagar, Gujarat",
+        "lat": 22.47,
+        "lon": 70.07,
+        "what": "Rubio toured Reliance's refinery, with talks reportedly touching on its Venezuelan crude imports, putting energy and Russian-oil questions alongside the trade negotiations.",
+        "via": "energy diplomacy and sanctions linkage",
+        "aspect": "energy",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Why US Secretary of State Rubio is skipping New Delhi for an Indian oil refinery",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNHpVTUJhQml3cWVyUkxHUFlTLVVabUxoMWY2ZUFXYXJlNC1fQlhKREsySHFJTm1FNHBxb09reEk4N3JXRFhZQThwb3ctc0YxdUhMeWY3MWpiRWNUbW9YbUd6eTB1VVJpU3ktMDNxYWVrbWxrOFJ3T3Y2QmlZVWRrSnQ4NHlYOXdxcFY2ekg4ZmJsSl9wdnp2UWVJbVgxVVRDTXN4SmxjSGtKSl9aa0xoeE1yN2NXSEpINFBv0gG7AUFVX3lxTE9CclY3R2hfZllGdGUyYy1rcmhtYUgtdFVQMkRJU19JTklPVk9MWnpQTGJpMFJRNlhTV3RvRDdnblY3V1BuR2RXR0tYUUktU2I4TWxYY0lxLVo1QXBZN1JEa3FpWGpDQ1RqTmo1TDNMNENWS3hOR1JqQjBDblRiUGJYNy1TWktPa0o5YnkxRmVMUXpNZjdrMWJFRDVkOTNuNVdpaDJYdnZ6a252d25NRXB0c1ZuVkkzNVlWVlU?oc=5",
+            "publisher": "South China Morning Post"
+          },
+          {
+            "title": "Marco Rubio Lands in Jamnagar: Why Is Mukesh Ambani’s Oil Refinery in Focus?",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYk1Fb3M2NEFTY00ySGZiV2VOdXFWcXI0XzQ2bHpJSGV4VDFyeTJDNTBwNWQzbkJZZ003SmhHbl9xNi1BOC14aV95REFZZVFlSGo5NV8wNWsyM2lyX0VwQzR6VUhVME9ONy1oQUZSYmhsdUJacG96T0I5bDJUMmt2MndtTUtOZkpyQklnT0FZbktoOEZrdHJPM09uaU96Yzltb1dZLVJjc3prOXhQZWJtMNIBtgFBVV95cUxPdnlvMTRzS2NPZ01TQlZBUVRDTm1MalEtaEpoNTZ4cVpTTXd6MlMta1dZSWRmTUd3aVBQZzhnSnJ3ZTZhd2lfR0dxelRrd19FNjFjUjdESElVSlE1aGNqMmlGNkVFekNwWmdGbWtCM0puX1I2OWRUaUh0elVac0RmZjJZR2pzbkItTEZwVEZKMlRyWGItZDlDS0RjLWNuMGRFcUpZVm1BUy11eGhXZkxpemJlc0F5QQ?oc=5",
+            "publisher": "Dynamite News"
+          },
+          {
+            "title": "Marco Rubio arrives in Jamnagar to visit Reliance refinery",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcTlBVlh5b19pWXd6RlNhMjNfdUwyenBkVFd2ajA5djhLRlJuZ01mMlVObl9oRExIV3lHNzhzZm5ueGZRWGhqcWxYdFk0V21reGZtb19uZk9scjYyajZxMklRd1V3THlzdENvcXBBblVfVmRMd0ZuTHU1NnlsZ0N4TzZ3WDZNYTB1cDlYQW1DTEk2ZWhNU1duWnZTa1dxMVdtRkJvOV8tQVR6dUZzek41QUFVeFNCXzjSAb4BQVVfeXFMUHVTUndkR3h4Z0Y0Ri1saE1Ua3V1ZGdwNnVib2dPUzVSWHVPMGRrV1VsQjF5TXlKWWRveWFPTFRzTGcza3FHZXNrbHZVa3d3WkxVRGhtdGszYlBhWk1ud1QwalYzOGpFaEtWUk03VGx5U2l3OWJaalI2VVJ1dXM2VGJ3UzBmU2dMWlNsRmN1bVlhc25SWjBZam9Ub3RCZzQzOUR5bnJqTmxGdWNfQWZrOFU4RVJxSVl1dU00UTU3QQ?oc=5",
+            "publisher": "The Hindu"
+          },
+          {
+            "title": "India–US trade deal nears finish line as Venezuelan oil emerges as new focus of energy diplomacy",
+            "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQWDJFekFBVnZ3cHJ1aTF0YlVUQU5QMzBhaGJPczZDOHVibTZ1cGNTaDhfWW9OcXlzOTJnX0cwMHZzQ3Y0ZDZpM2Z1cmdRRmFucWt2YjFNdWFEVTFlVHpaQy1tR215bENSVGw0THZLNkZGTVpoa3JSVUVNd3VDazJFRkQ2cFpiUVZmVUI3LXlkMXNRQjRHMURPY0N6cGoyc3JrY2tXeDl3TWtZajFxNWp1VDRuX0p4MmNsejhVemZDaFlSdmV4YmZ0WllhNGJMWjduaVZqSXFXcTV3cFJsQXBvcUpxRTFtRThXRnU4dENaaGNZb3JKaUI3a1FSeGV6UdIBggJBVV95cUxQcmltNHgtZzFzVlVZV1hPRUtrUlJQalBGSjczNVNrMmJGeC11U3diVVZzMDdjWThIQ0pOeVhSSjMwSzV6ZV8xT3otSTdqMTJVd0QtTXotWktpZ2w4b0pZakpOTzFDeUFBSTAySzF4YThMMFc5c2FCN2ZWN2ItUUt5amV0NTVhNGxlVWhUTVVCTW91RmlJTXprcXB0WW41Wm5tUnpmZ3NEakk4NncwQVlONy0yWEptcXpMTVlaWDlfVDlhOXVlTDBXSFAtS0pHWTVPWHM2TVBpajhVLXU1Rzd5WFlCTUlxTXR4TlNFSmlHdE9tSFd6d2h4YkdZakdaR2gxUkE?oc=5",
+            "publisher": "ET Government"
+          },
+          {
+            "title": "Rubio Lands in Jamnagar to Visit Reliance Refinery, Hints at Discussions Around Company's Venezuelan Crude Imports",
+            "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQekdjLWdRMmtzb2gzcEZveWwwTlFRYnVtaDE3UlFrVjlIOWdYOXprSzdEaUpWR3ZyVXQxTUVyOWJJMVZOWmxGNjRtUGxYTGpyZXBzZGtRc0ExdUFwU21halZsWjdVOEFPbDRxTENNNGc3aUxNNlB3cGw3WGdZYjA2OXRGdTJNWWtSVDI2MG1lMXotdVhTaHZCRWotRk04SzU1QWhqajk0UHpfeG0zNmdOTDRzeDcxcW4taC1udzQ0TzNIeDl3aXAwRTlscDhjaXl1VWtoLVNMY0pJT0ZZZHQxVWhNTWV3bDhHOTBTdkY2alN5TG8za2FTcWFoWdIBgAJBVV95cUxPWnRoV2hkVE83dWZ5RVVBXzh0MWFzdXdPa3QtUFBRN2x4ckQtNm5UUUV5aWlNTTBOTlRNM2JBb3FoUHhqRXFqVmVqTWYyenU2NnpCVHpvOUw5aDJud01UQjU5bHp0SmRlY3liTGpsWFZnbUJyZU5VckJ0N0hwZ2U1amQ0cmxjUjQ0SGVWQXpyZ1gtSEJZM1FJc2VURk44ZWJBVElwaEZnSklESmkxUUF6WWR4ekphSmlKbGhmbmFtcWt0RFR1REN0TEJyM1V2YzFwd3Z3cmtOYUhLU2pta25hb003RXV5UGpvemJTTmhEQU1xRTc2a21qLTNZX1hraUFG?oc=5",
+            "publisher": "Republic World"
+          },
+          {
+            "title": "US Energy Diplomacy: Marco Rubio To Visit Gujarat's Jamnagar Today For Key Meeting With Mukesh Ambani",
+            "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdWpSZTZvMDJDdElZcFc2OVgzZm9BTXJvd21XdlRYa2hXM2hHN25pNnd5RHBjeHV6NkF0YWtBOWF1bm5QNHp3UmkxYXk5V3ZZQ1hqalc2RW1EUThSaE9xZWVMaXNmQlJHaWg4VU1TZ29LdWFGTTNMVVBXTFd3ZGFEWHRBVzdnUjZQYkRWaTJXNHZrRHdLNXAxSUtHY2dyRXBxZFdTQjRObjRCN2RnaG9KTi1hYU1jUzNvY2twb0FHNnJ1MVprWUJQZmY5dENwSlpwOS10aFEzOHg1NUNSbjMwNmFCQUZzYXhSZW5J0gHwAUFVX3lxTFB3V3dYb2djRGMzRHVnNHN6dnRtQzQwZWRzeGh1bHg4NjJKbFNKN2QxZ1VSblNfbHp4cnpVc0pGNGhPV2xRMDRKUTVlZXBUZHkyWFp3THVGZzJKcDlheHRaOWFtQVhZODdWVDlJY3NxMVhwNFpoNEwwRU9xa3VxQ3UzOGpvTFFWcHFiRUpyZ2ZYRVZLX2c0dXdESlRnMF9Fa2Y5aDk1Q1VMck0wa0k1ZmpLVll1N0ZsQTRYLXJHbzZ5Q0dycHNxM0JTS1ZCZHBubWc2d0lBS1VSX3JnRFhEWl9MWXllWE56OU5mb25Sdm9XZg?oc=5",
+            "publisher": "ETV Bharat"
+          },
+          {
+            "title": "U.S. eyes refining muscle of Indian billionaire Ambani's Reliance as Rubio visits Jamnagar plant",
+            "url": "https://www.cnbc.com/2026/10/21/rubio-reliance-venezuela-oil-diesel.html",
+            "publisher": "CNBC World"
+          }
+        ]
+      },
+      {
+        "id": "farmers-union-threatens-militant-resistance-over-deal",
+        "title": "Farmers' union threatens 'militant resistance' over deal",
+        "when": "2026-10-21",
+        "place": "India",
+        "lat": 28.61,
+        "lon": 77.21,
+        "what": "The All India Kisan Sabha warned the government of militant resistance if it goes ahead with the US trade deal, raising domestic political pressure on the signing.",
+        "via": "farmer opposition pressure",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "All India Kisan Sabha threatens govt of 'militant resistance' if it goes ahead with US trade deal",
+            "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQTEI1ZjFLOXNVcEJKMFZRUEhUdkU1ZzJvODRqdDhmZ2diSHJCYnJrOGdaSTdRd0xna3YyeHlBaFpzeWpnRGU1aFh3TjFLMWNxMDJBOVYxNjR6UTZtNDNvQXFhVHNMZ1hfZVJDMld0R3NIaTJWQXVDNk9MVGtYcXRxREJRR2RQSV9MSEV6NnZ0RTl2aTY3RW9zRHVYcVZsVWprYmxYUnJLQWFmaG1UaVdUbGxXTFB3SjBhZ3d6Q3gyX1Y2QnoteTQyaVFIQms3bHl5SzBFZDZuajhYWmdpeFJhUVh0Vmgtc1pKU3FZWktqeVlQWGdDRnfSAfsBQVVfeXFMUGJXbExVR29uWFBvTGhxUG1WUTBRZ2VsM0ZWQlVHWVNqNU5BekNrUm9mZXVRaHFpWUNZX1N4aW9tVlVVcXE3OE9FaTliOVlqYTBuTmJ1c3BzdDBKaXdIdi1iZ3d5M1praFlEcVFqS3M4bFZJOFpFTUpIWXByYXFqekJVZDZlY253eWpucnFmY1Q1eGZOZDdNVUh5cHlaTWhwaElPV3p6bFBqcEh5WndaYm5FZEJYODZBQXN1eTlxbzRsZjVGRHp3SURWaGdTUE5nSU1OV0lCUmdtR1RqZ2pfSWl2UV94TGQ4ZHdQcXV6UjlJdElvSGVXbm90SkU?oc=5",
+            "publisher": "The Times of India"
+          },
+          {
+            "title": "AIKS threatens 'militant resistance' as Rubio pushes to finalise India-US trade deal",
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOR3JlX0pTZDRkelhaWGR1Ny16bm9oZTFhMndibVR5NWh5R1FpS3pqS3pfTTV1TmFubWJuaUt4RFNCN1A1dElUTWo5LWtfQkExTkVQaFIxclhFZy1FdzNXLTMzTUoxYTRiQmV4bTJRclREbV9aV0VZVndjeTh2T3NWempPelZUT19GeHBrWW56N1RONWtFeVlCc3NKVDdHVTc4Z3Q2aHZYSWZkeFAyRlU1aTdWeV83OEtxODFFZUo3VE9HUy16Q1diQlR6RWpRd9IB2wFBVV95cUxOUWFPdURUV1AteEs3Y0tySVBpaEp2MlBRNjJCd1ZZa284ckZYNXNfM2p2XzhNR3lxUFAwN3BCcXhaWFBrOVQ0WUNfNjNFMDQwMGkzbzdHNzZwQ0kza1N4dXNpTDQxRnZQbnlqOHBoUkQzQVBCQmY3SVdhakxJSkxDYXJRWWlWS2RYOEhaQmYyLUpVTlBSdlI1UDRsWXZCTGY3VFFVWGZ4OG1jZU9McGJpUTMtMjJPUTByZ09NaEJ1UXBZakh4cXUya0JPV01JSG1UNVpucHQyRTMwQlE?oc=5",
+            "publisher": "The New Indian Express"
+          }
+        ]
+      },
+      {
+        "id": "us-weighs-lower-tariffs-for-india-than-peers",
+        "title": "US weighs lower tariffs for India than peers",
+        "when": "2026-10-21",
+        "place": "Washington, D.C.",
+        "lat": 38.91,
+        "lon": -77.04,
+        "what": "The US may consider setting tariffs on India below those on other Asian economies, a possible concession as trade talks near their end.",
+        "via": "possible tariff concession",
+        "aspect": "trade",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "US may consider lower tariffs for India over Asian peers as trade talks near finish",
+            "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQUWI2WHU4djFPME1sVHBVQWRaZERKTEExUUZVNmc2MEk0T1VJNThoTEhsTERoXzNGM1ZaZkRieVJEZnBIWk1iWUV4QkNzTFpRZjY4QmRsWVd6NEdlNkhmLVdkbDBDM1RaZnhmcGQ2bXM5VVAyZHBienJWajlwdV9iVUZGT1d6dXBaU21leExNSTB2ZmVIcEc2RUJCQ3B5dk9oNVRxemZaOS1ROWZLdFpPVjFTbHNTbVZVUW5iRU5ndlptclhiRnA3Z3lLLUxzMjNXRW82QVhiUi1Xa3U0SG9DU3JEQy3SAeQBQVVfeXFMUFFiNlh1OHYxTzBNbFRwVUFkWmRESkxBMVFGVTZnNjBJNE9VSTU4aExIbExEaF8zRjNWWmZEYnlSRGZwSFpNYllFeEJDc0xaUWY2OEJkbFlXejRHZTZIZi1XZGwwQzNUWmZ4ZnBkNm1zOVVQMmRwYnpyVmo5cHVfYlVGRk9XenVwWlNtZXhMTUkwdmZlSHBHNkVCQkNweXZPaDVUcXpmWjktUTlmS3RaT1YxU2xzU21WVVFuYkVOZ3ZabXJYYkZwN2d5Sy1MczIzV0VvNkFYYlItV2t1NEhvQ1NyREMt?oc=5",
+            "publisher": "Moneycontrol.com"
+          }
+        ]
+      }
+    ]
   }
 }
