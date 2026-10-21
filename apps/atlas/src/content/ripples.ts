@@ -25,7 +25,7 @@ export interface RippleCard {
   pulse: Pulse; // how fast the news on this event is moving
   recent: { title: string; publisher: string; url: string; published: string }[]; // newest first, up to 12
   update?: EventUpdate; // the latest AI line on what changed, when there is one
-  incoming?: { id: string; title: string; day: number; via?: string }[]; // rising events that drive this one
+  incoming?: { id: string; title: string; day: number; via?: string; aspect?: Aspect }[]; // rising events that drive this one
   fuel?: FuelSet; // the small events feeding this one, from the pipeline, each with its share of the local news
   otherNews?: FuelNews[]; // local headlines that belong to none of the fueling items
   drivers: string[]; // the drivers named on its connections
@@ -173,7 +173,7 @@ export function allRipples(): RippleCard[] {
     ...c,
     incoming: neighbours(c.id)
       .filter((n) => (n.flow === "in" || n.flow === "both") && byId.get(n.event.id)?.pulse.trend === "rising")
-      .map((n) => ({ id: n.event.id, title: n.event.title, day: byId.get(n.event.id)!.pulse.day, via: n.via })),
+      .map((n) => ({ id: n.event.id, title: n.event.title, day: byId.get(n.event.id)!.pulse.day, via: n.via, aspect: n.aspect })),
   }));
   cache = { at: wire.fetchedAt, cards };
   return cards;

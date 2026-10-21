@@ -4,6 +4,7 @@ import { ArrowLeft, ArrowLeftRight, ArrowRight, Waypoints } from "lucide-react";
 import { KIND_HELP, LINK_WORDS, type Flow, type Neighbour } from "@/content/events";
 import { getDriver } from "@/content/drivers";
 import EventLink from "@/components/ripple/EventLink";
+import { AspectBadge } from "@/components/ripple/Aspect";
 
 /*
   One connection, read as a sentence. An icon says which way the ripple travels (into the
@@ -69,7 +70,8 @@ export default function LinkRow({
         <p className={`${size === "sm" ? "text-[11px]" : "text-xs"} uppercase tracking-wide text-ink-2`}>{label}</p>
         {title}
         {n.via ? (
-          <p className={`${size === "sm" ? "text-xs" : "text-sm"} mt-0.5`}>
+          <p className={`${size === "sm" ? "text-xs" : "text-sm"} mt-0.5 flex flex-wrap items-center gap-x-1.5`}>
+            {n.flow !== "shared" ? <AspectBadge aspect={n.aspect} withLabel={false} size={size === "sm" ? 9 : 11} /> : null}
             <span className="text-ink-3">{channel} </span>
             <span className="font-medium text-teal">{n.via}</span>
           </p>

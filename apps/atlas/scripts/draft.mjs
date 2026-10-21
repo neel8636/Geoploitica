@@ -156,8 +156,13 @@ let wire = [];
 try {
   wire = JSON.parse(await readFile(path.join(root, "src", "content", "wire.json"), "utf8")).items ?? [];
 } catch {}
+let fuel = {};
+try {
+  fuel = JSON.parse(await readFile(path.join(root, "src", "content", "fuel.json"), "utf8"));
+} catch {}
 const todayIso = new Date().toISOString().slice(0, 10);
-const system = systemPrompt({ typesSource, example, wire, today: todayIso });
+// the pipeline drafts the full report; readers can ask for smaller ones from the app
+const system = systemPrompt({ typesSource, example, wire, today: todayIso }, "deep");
 
 // --- one draft -----------------------------------------------------------------
 
@@ -187,14 +192,17 @@ async function callApi(text) {
 }
 
 async function draftOne(event) {
-  const { text, items } = materialFor(event, wire);
+  const fueling = fuel[event.id]?.items ?? [];
+  const { text, items } = materialFor(event, wire, fueling);
   const body = await callApi(text);
   const out = body.content.filter((c) => c.type === "text").map((c) => c.text).join("");
-  const { draft, unknownSources } = finishDraft(JSON.parse(extractJson(out)), event, items, {
-    model: MODEL,
-    by: "Geopolitica draft script",
-    today: todayIso,
-  });
+  const { draft, unknownSources } = finishDraft(
+    JSON.parse(extractJson(out)),
+    event,
+    items,
+    { model: MODEL, by: "Geopolitica draft script", today: todayIso, size: "deep" },
+    fueling.flatMap((f) => f.sources.map((s) => s.url)),
+  );
   await writeFile(path.join(DOSSIERS, `${event.id}.json`), JSON.stringify(draft, null, 2) + "\n");
   return { tokens: body.usage?.output_tokens ?? 0, unknown: unknownSources };
 }

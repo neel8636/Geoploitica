@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import type { Dossier } from "@/content/types";
 import { DossierBody } from "@/components/dossier/DossierBody";
+import { REPORT_SIZES, type ReportSize } from "@/content/drafting";
 
 /*
   Generate (or regenerate) the layered report for an event from the page itself.
@@ -25,6 +26,7 @@ export default function GenerateReport({
   const [needsPasscode, setNeedsPasscode] = useState(false);
   const [persists, setPersists] = useState(false);
   const [passcode, setPasscode] = useState("");
+  const [size, setSize] = useState<ReportSize>("brief");
   const [log, setLog] = useState<string[]>([]);
   const [error, setError] = useState("");
   const [result, setResult] = useState<{ dossier: Dossier; saved: { local: boolean; repo: boolean }; unknownSources: string[] } | null>(null);
@@ -55,7 +57,7 @@ export default function GenerateReport({
       const res = await fetch(endpoint, {
         method: "POST",
         headers: { "content-type": "application/json", ...(passcode ? { "x-passcode": passcode } : {}) },
-        body: JSON.stringify({ eventId }),
+        body: JSON.stringify({ eventId, size }),
       });
       if (!res.ok || !res.body) {
         let msg = `${res.status}`;
@@ -106,13 +108,34 @@ export default function GenerateReport({
     <div>
       {phase !== "done" ? (
         <div className="rounded-lg border border-line bg-paper-2 p-4 text-[15px]">
-          <p className="font-medium">{existing ? "Regenerate this report with today's headlines" : "No full report yet"}</p>
+          <p className="font-medium">{existing ? "Build a fresh report with today's headlines" : "Build the report for this event"}</p>
           <p className="mt-1 text-ink-2">
-            {existing
-              ? "Drafts a fresh 30-second card, 5-minute brief, deep dive and evidence layer from the event's sources and the latest matched headlines. About two minutes."
-              : "Draft the full layered report now: a 30-second card, a 5-minute brief, deep-dive modules and an evidence layer, from the event's sources and matched headlines. About two minutes."}
+            Same layers every time (card, brief, deep dive, evidence), built around what is fueling the event; choose how deep it goes.
             {persists ? " The result is saved to the atlas for both editions." : " The result shows here and stays on this server until its next deploy."}
           </p>
+          <div className="mt-3 grid gap-2 sm:grid-cols-3" role="radiogroup" aria-label="Report size">
+            {(Object.keys(REPORT_SIZES) as ReportSize[]).map((k) => {
+              const z = REPORT_SIZES[k];
+              const on = size === k;
+              return (
+                <button
+                  key={k}
+                  type="button"
+                  role="radio"
+                  aria-checked={on}
+                  onClick={() => setSize(k)}
+                  disabled={phase === "working"}
+                  className={`rounded-md border p-3 text-left ${on ? "border-teal bg-paper ring-1 ring-teal" : "border-line bg-paper hover:border-ink-3"}`}
+                >
+                  <span className="flex items-baseline justify-between gap-2">
+                    <span className="font-medium">{z.label}</span>
+                    <span className="text-xs text-ink-2">about {z.minutes} min</span>
+                  </span>
+                  <span className="mt-1 block text-[13px] leading-snug text-ink-2">{z.blurb}</span>
+                </button>
+              );
+            })}
+          </div>
           <div className="mt-3 flex flex-wrap items-center gap-3">
             {needsPasscode ? (
               <input
@@ -130,7 +153,7 @@ export default function GenerateReport({
               disabled={phase === "working" || (needsPasscode && !passcode)}
               className="rounded-sm bg-teal px-4 py-2 text-paper hover:opacity-90 disabled:opacity-60"
             >
-              {phase === "working" ? "Drafting…" : existing ? "Regenerate report" : "Generate report"}
+              {phase === "working" ? "Drafting…" : `Build ${REPORT_SIZES[size].label.toLowerCase()} report`}
             </button>
             {phase === "working" ? <span className="text-sm text-ink-2">{log[log.length - 1] ?? "Starting"}</span> : null}
             {phase === "error" ? <span className="text-sm text-red">{error}</span> : null}

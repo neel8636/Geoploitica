@@ -1,4 +1,5 @@
 import Link from "next/link";
+import FuelSpine from "@/components/dossier/FuelSpine";
 import type { ReactNode } from "react";
 import type { Dossier } from "@/content/types";
 import { formatDate } from "@/content/format";
@@ -73,6 +74,8 @@ export function DossierBody({ d, backHref = "/dossiers", backLabel = "All dossie
               checked by a person. Treat numbers as leads, not facts; every claim links to where it came from.
             </p>
           ) : null}
+
+          <FuelSpine fuel={d.fuel} />
 
           <div className="mt-8 grid gap-8 lg:grid-cols-[1fr_1fr]">
             <div>

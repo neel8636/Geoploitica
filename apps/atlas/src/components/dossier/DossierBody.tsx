@@ -1,4 +1,5 @@
 import Link from "next/link";
+import FuelSpine from "@/components/dossier/FuelSpine";
 import type { Dossier } from "@/content/types";
 import { formatDate } from "@/content/format";
 import RippleMap from "@/components/RippleMap";
@@ -100,6 +101,8 @@ export function DossierBody({ d, backHref = "/events", backLabel = "All events",
               </p>
             )
           ) : null}
+
+          <FuelSpine fuel={d.fuel} />
 
           <div className="mt-8 grid gap-8 lg:grid-cols-[1fr_1fr]">
             <div>

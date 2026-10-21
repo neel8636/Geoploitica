@@ -16,7 +16,7 @@ export interface LiveCard {
   pulse: { day: number; perDay: number; trend: "rising" | "steady" | "cooling" | "quiet" };
   recent: { title: string; publisher: string; url: string; published: string }[];
   update?: { at: string; text: string; sources: { title: string; url: string; publisher: string }[] };
-  incoming?: { id: string; title: string; day: number; via?: string }[];
+  incoming?: { id: string; title: string; day: number; via?: string; aspect?: Aspect }[];
   fuel?: FuelSet;
 }
 export type { Aspect };
