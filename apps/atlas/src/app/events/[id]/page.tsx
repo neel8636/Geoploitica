@@ -148,13 +148,13 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
           {
             id: "brief",
             label: "The brief",
-            time: `${dossier.readingMinutes.card + dossier.readingMinutes.brief} min`,
+            time: `${dossier.readingMinutes.brief} min`,
             blurb: "Who wins, who loses, what comes next.",
             icon: "brief" as const,
             view: (
               <div className="space-y-2">
-                {reportPlain ? <PlainBox title={reportPlain.title} paras={reportPlain.paras} kicker={ready} /> : null}
-                <DossierBody d={dossier} embedded noSummary={Boolean(reportPlain)} parts={["card", "brief"]} errorUrl={errorUrl} />
+                {reportPlain ? <div className="mx-auto max-w-3xl"><PlainBox title={reportPlain.title} paras={reportPlain.paras} kicker={ready} /></div> : null}
+                <DossierBody d={dossier} embedded noSummary={Boolean(reportPlain)} parts={["brief"]} errorUrl={errorUrl} />
               </div>
             ),
           },
@@ -166,7 +166,7 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
             icon: "full" as const,
             view: (
               <div className="space-y-2">
-                {reportPlain ? <PlainBox title={reportPlain.title} paras={reportPlain.paras} kicker={ready} /> : null}
+                {reportPlain ? <div className="mx-auto max-w-3xl"><PlainBox title={reportPlain.title} paras={reportPlain.paras} kicker={ready} /></div> : null}
                 <DossierBody d={dossier} embedded noSummary={Boolean(reportPlain)} errorUrl={errorUrl} connections={connectionsFor(dossier.slug)} />
               </div>
             ),
