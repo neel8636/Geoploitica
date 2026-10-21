@@ -92,7 +92,7 @@
         "flow": "both",
         "sources": [
           {
-            "title": "France\u2019s Macron says protesters won\u2019t be allowed to \u2018cause chaos\u2019",
+            "title": "France’s Macron says protesters won’t be allowed to ‘cause chaos’",
             "url": "https://www.aljazeera.com/news/2026/10/21/frances-macron-says-protesters-wont-be-allowed-to-cause-chaos?traffic_source=rss",
             "publisher": "Al Jazeera"
           }
@@ -136,7 +136,7 @@
         "flow": "into",
         "sources": [
           {
-            "title": "Alberta\u2019s \u201cno\u201d to separation gives Carney a boost as Trump pressure unites Canadians",
+            "title": "Alberta’s “no” to separation gives Carney a boost as Trump pressure unites Canadians",
             "url": "https://www.euronews.com/2026/10/21/albertas-no-to-separation-hands-carney-a-win-as-trump-pressure-unites-canadians",
             "publisher": "Euronews"
           },
@@ -190,7 +190,7 @@
         "flow": "into",
         "sources": [
           {
-            "title": "Desire for change, anti-Trump feelings fuel Democrats\u2019 midterms advantage: CNN poll",
+            "title": "Desire for change, anti-Trump feelings fuel Democrats’ midterms advantage: CNN poll",
             "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdUJrZmNWQ0x2SHpjOWdjcThfSEVzaUVPMXhEbFpENjFXVjZGZTFSVDhyeGhtNkZJQjF5WTJwMjlMeW91a1FKRm9SYlJlUG1JZGQ2WTQzMGo2em44eEJ2dlhkWDVSYm9oLTVZTjYyNVMxU3dVbXpiUF80VENKdldtSHlvX21ENzU5ZDk4OGNR?oc=5",
             "publisher": "CNN"
           }
@@ -247,7 +247,7 @@
         "flow": "into",
         "sources": [
           {
-            "title": "New Hampshire\u2019s Senate race tightens as two Granite State veterans clash in US midterms",
+            "title": "New Hampshire’s Senate race tightens as two Granite State veterans clash in US midterms",
             "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcDlWNEhwUm9SNUUtZ0ZheFp4WEdKWE52NUNRX3lUa3Y5WThfMW1qdFJLTFBLLWdnb0tWNjExbWF4UEJVUDhJeFdsSFVZaXU2TDhFUjBEVFFpdFk5TUc5QnhTeURTWnZpZVpEcURCQ1BOQTNoalhmY3llRmp2RGdvdm1MdGxqRkZ1Y2JBTGRxUUNVYWIxY1pDejBBckNLSGlUTFpaR1ZNV0ZDRlBwZEdPN0NmbHNqbWNyaGtOb1hWMDJSc08tZTZfZmNhTm5pUWVBcVNBeExuRzRnMm9PRlZz0gHkAUFVX3lxTE0yMFhSQlhZN0JFcGFRNDVEdGsxalRQaVZtVHE2clN2TmJzbzRXY19wdFgwOW1RYjlEcGpNLVY2Wmk2Q2tLNUtLWnBPcDBBVnFBeTkxTTFaNXpYeUVyZzRjWWtBdjE0TWdPXzVVb1QtMFM2VGxwWGtEOUxEV1dKTVNVYkZzdmMwUDhUaVd4ZXEzWktDUW9BOV85R0JJcmx4amZHa3JkXzlmT1pNS1pLYnF1SG95MEdMZHZQVm0zVS1WdnVEdFZTQ2ZzM25CeUtfS2w2T0kzQ3Z5MUZ1Q0Y3bWdiRC1vVQ?oc=5",
             "publisher": "Firstpost"
           }
@@ -269,6 +269,279 @@
             "title": "New fake polling scandal riles Democrats ahead of midterm elections",
             "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRm1tOXFjZklfcVJoOGVzY2RXa3paemZvd1pqemlscU53Q1ZrT2Z3ekRqRXk2ZnBCeU80OHhSV1B0WldhejRMRzdtY1huSXFrS240S3g2eHhDNnIyd2ZPWUVrZFUzNHVIbHljRFZ5QjBZSDJTMk9jNnNrM0w0NVRTanhjd202SjE3WldxZV92UXFtVHo3MEk1bGlPQWdOMG8zTEdYNlY3bUg3WVFVOVlGcEN4YUV4QVl1UXdmTFJFS0t4a2VfbHRoYklzdw?oc=5",
             "publisher": "Washington Examiner"
+          }
+        ]
+      }
+    ]
+  },
+  "france-debt-stress": {
+    "at": "2026-10-21T14:41:33.533Z",
+    "by": "pipeline",
+    "items": [
+      {
+        "id": "curfews-enforced-as-french-unrest-spreads",
+        "title": "Curfews enforced as French unrest spreads",
+        "when": "2026-10-20",
+        "place": "Paris, France",
+        "lat": 48.87,
+        "lon": 2.33,
+        "what": "France enforced curfews as civil unrest and protests continued, and investors read the turmoil as a threat to fiscal discipline, pushing French yields and risk gauges higher.",
+        "via": "investor fear over unrest",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "French borrowing costs hit 24-year high as civil unrest and budget fears spook markets",
+            "url": "https://www.theguardian.com/business/2026/oct/21/french-borrowing-costs-failure-to-pass-budget-govenment-bonds-violent-street-protests",
+            "publisher": "The Guardian World"
+          },
+          {
+            "title": "4 charts show how unrest in France has ripped through financial markets",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWUlQRmMzSnFabnlTWi13ODNuN3V5S2RXYmk2S2dFdEF6QWU2WVNWTHNmMmg3d3RlNG40UjljTnU2RE45eVc5Rjcwc0tCcmNpNThqRl95bFVKZENtcUNTS21NbUZxQm5lYTB3M0syczBidVhjT2FPenNUR2xBVUwzLTN0Rko4TC1mLTU4V0pSTncwa3VLandELQ?oc=5",
+            "publisher": "Business Insider"
+          },
+          {
+            "title": "World in Brief: Zelensky to meet Steve Witkoff; France enforces curfews",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdzJhSC1MekZEem1HbURCeE15dGQ0TDJGRGxNZjZReGpNcExEeDY2emRCdmhsZE9sNHJDNkVEX1oxa1lPM3AwamRodDhVRlBqWHo5cGR0TTJaX290ZTkxYjRHUmppT3VQTWpucjFRSXd1R3M1WTItZkFDZ0R2OXhOaUJ5QUtqdkVDeFVQckJHU0ptQzRIM2lN?oc=5",
+            "publisher": "The Economist"
+          },
+          {
+            "title": "French Bond-Risk Gauge Breaches Key Level After Protests",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdmhpRjVRaVVodE9Cd2d2eG85UmNpalpXaXk5dUdUYWVUYzFqbUtUMGFEcFpOaDV1LVFrSHB4OXRiQkNMMUJaOUZPdlBnenpTVTFtZGF2eHZ5cjFvc0xlTmNCNmFNSFBPMVB5YW02NWI3TUJzajlqMjEyNVk4VnF1azZJcTNzci16Szd1dFlnQUFMNmtjWC1GT3VhSUJlcG1CdUZuUGJnRXltVmtLcFZz?oc=5",
+            "publisher": "Bloomberg.com"
+          }
+        ]
+      },
+      {
+        "id": "looming-french-budget-vote-unsettles-investors",
+        "title": "Looming French budget vote unsettles investors",
+        "when": "2026-10-20",
+        "place": "Paris, France",
+        "lat": 48.87,
+        "lon": 2.33,
+        "what": "An upcoming French budget vote, with unrest limiting the government's room to manoeuvre, fuels doubts about deficit control and adds to the premium investors demand on French debt.",
+        "via": "budget deadlock fears",
+        "aspect": "budget",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Social unrest is putting France in a difficult budgetary position.",
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5fUFRLcnV1UmJoSE9tdy1lc05pbm43dHdka2dZWVU2bzBZZGUzbnhuRV9GRFVZN1NsQXgzTUZ2ZWxqaDJKNVJuMUJUbVFFS0ZFM1lBSDlqRExKaE5iamZwVmVndkFJZ2ZuODZxT3JBVHVuSDFhdnNLdF9IWV85QQ?oc=5",
+            "publisher": "Vietnam.vn"
+          },
+          {
+            "title": "EUR/USD Steadies as French Budget Vote Looms and Moody’s Review Tests France’s Rating",
+            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZ2kyU3FtUWNyejRqaDRvbFZYYmxwVjc4Q01oNWZHT3JtZmRHZHhhNzVRMGpRVVNGS1Q1ZW42a2pRZFdvOUdNSUFqRC1pZWdwRGhKLVVBSG9aOGprVVRjUkpIeDBoZnYtSWFXR0ZaOHpEZXNWazFtYWdQY3doYmRPUVM1ZkVBN1lDc1VwYW8wNVlSWDVmQ3Y3T0U2M2RaRS10cXdaOTBGZmwwM29Xc1NxVURycWtTTVpGVk5icUh6Ul85cWNfd0h2Ug?oc=5",
+            "publisher": "VT Markets"
+          }
+        ]
+      },
+      {
+        "id": "ecb-s-kazaks-flags-possible-further-tightening",
+        "title": "ECB's Kazaks flags possible further tightening",
+        "when": "2026-10-21",
+        "place": "Frankfurt, Germany",
+        "lat": 50.11,
+        "lon": 8.68,
+        "what": "ECB policymaker Kazaks said more tightening might be needed if inflation stays above target, adding to upward pressure on euro-area government bond yields.",
+        "via": "higher rate expectations",
+        "aspect": "markets",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "ECB's Kazaks says that some more policy tightening might be necessary if inflation continues to reside above target; recent rise in yields has already tightened financing conditions, Econostream reports",
+            "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNOE5VNnRuWnEwRHNoeF9SeWE3TXppaGtWLURxd0ItdWNoTi1wMnB3ekxSNjByVERVd3Z6S0F1TFFycXFOQW1aX2lyZDFfaTd6VlJkVGluOEtlTkpwNlY1TnV5MXEyY1dteFdzblRFZG5KcHVGWm9YamF3cE1SU2YzS1hTdnMwRnRVZ2VDSUdKQkZKMGpyQVh2NGdoMnFyNG5zRXFsN210Zjd6ZHJiMHFBeXVPM0hVN1dTNVFHeld2RjZHV1h1dXNtaXlreGQ0M0hOQllOMklnd1Y0OUVxZWRaLVBoSnQ?oc=5",
+            "publisher": "Newsquawk"
+          }
+        ]
+      }
+    ]
+  },
+  "ukraine-summit-diplomacy": {
+    "at": "2026-10-21T14:41:33.533Z",
+    "by": "pipeline",
+    "items": [
+      {
+        "id": "witkoff-meets-putin-in-russia",
+        "title": "Witkoff meets Putin in Russia",
+        "when": "2026-10-21",
+        "place": "Russia",
+        "lat": 55.75,
+        "lon": 37.62,
+        "what": "Trump envoy Steve Witkoff held peace talks with Putin, who told him Russia is ready to resume trilateral talks with the US and Ukraine in November.",
+        "via": "Kremlin openness to talks",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Russia willing to resume trilateral peace talks in November, Kremlin says after Witkoff meeting",
+            "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNN0UzZjNsLVFaUHE4LXdPVG1WVVBUTm1FOFRjcTFwYlFZS3Z1b2V1cTVsVU5rb0tJUDFueWRpcnoyRnI5dmVYZDVmX2pQV29kakZ2V1F5amZZTFRvZEltOEUwdXJ0VU53dGRBOWUwMjZrdWtCWkpqUzhWWVhVSVZ1YXlkT3A2WGozT2VDTTJPSVBVWE9naWxybngtZUdvX3VtTzgyNkU1RU0wVUpmMTdFZW5wVnhkMVpLZllXTXJTUkFTQlNBM0lQcVJjb0x4U0toSHdPeU5rTkFqOG44NWNZUE53dGVQRVlkRlRuc3VnbEkzWURIVTNfQWRJT0tlMkNXVzdaR2hZSzZGWXFFY3RabzF2UHBaMV9NVE5WMw?oc=5",
+            "publisher": "crossroadstoday.com"
+          },
+          {
+            "title": "Witkoff calls Putin a 'humanitarian' at Russia peace talks without Ukraine",
+            "url": "https://www.cnbc.com/2026/10/21/witkoff-russia-putin-ukraine-zelenskyy.html",
+            "publisher": "CNBC World"
+          },
+          {
+            "title": "Putin agrees to resume Ukraine peace talks after meeting with Trump envoy",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPLVN5R3VXM2ZvT0NWSU5uR2dBakM4M1VkRHNvTGs5NWVqWHZjeTZVSUFzYTJ3aWhNQmZXSTJjNGVISTBiZ29NakliWDQzT0VpaENrOUNKcHJ2czI3NlFuN1luUV9Vam9KUDdFb2FRRjZKQ2ZFWGhiZXlZbEFib3hxMmV3cks0ZTdFUUVEZXJLT2J4cG9uWENES21UNnc4azFLb2FYeHNCT1hMMUk?oc=5",
+            "publisher": "KPAX News"
+          },
+          {
+            "title": "Watch: Putin hosts Trump envoy for new Ukraine peace talks",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVUpZVmtsSXdNTVFKOFlBTHBocmYwV3RVWWVOemVLUndkdUhWNHhtUFM0bE02TW95Ukt3OG9nVlhkcGxwRm9Ec2kxLUx4ZE43ZzUyOXBRc0l2WDRLazloNWtYN0w4Mjh6TS1PSVY1NTc0Y0U5ZU5QcGtjdEJSMHBmR1pPR3RselRZaEE?oc=5",
+            "publisher": "Metro.co.uk"
+          },
+          {
+            "title": "Russia is willing in principle to join new Ukraine peace talks in November, Kremlin says",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNX2lXUVRRUFYxUk52Z1V0bVdLaWdydE8zV0ZfQnFxSEVjakhMNUZHNlVIaXBsZzdWUXkzRkhYX3gzTm9RbWFCQlRoWl80YUlyQWJrMVBQRUNxc0lCWWZQY2lmeGVyZDJMdEJQakFEVWMzd1BPNDRzdUtuMjh5Rkh2S3VfSzY0MFROT2dWRS1pU1RBaVY5UGlFMVMtTk10SXl6V0c0RThHd3czZ1JnLURhX1VwRHJPS0I5QmItbA?oc=5",
+            "publisher": "Reuters"
+          },
+          {
+            "title": "Putin agrees to trilateral talks with Ukraine, US to end war",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUWU4R21DdG0zODU1X2ZHMURjbDl1dkxGVVZ2ZDVHc1FrOGxqcHB6bW1QNUVORE15QnBOWE5jdHEtdVNqS1lzOTd3UEp4UEtVRTQyMHp5TU94RWZCN1lYVkRIMTU5MlZuRE9UUGJDWHdnNk9rSGRsMlpnM3lQajNJVWlpZS1taDlEdXVhUnU2S20wZ2drbTkzbGZNRjNXcTA?oc=5",
+            "publisher": "New York Post"
+          },
+          {
+            "title": "Putin Proposes Restarting Russia-Ukraine-US Peace Talks in November, Russian Officials Say",
+            "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPME04Sy0tNU5pOWlfbVNTOGtDeFNTZTdpME4waU9PRnZtakNGeWlPZFptbHBReXpiWU9GTU1xTXlLdk5kZ085NTIycTE3Z2hPanRYaFVXTHNSRkpEYUNVNVN2ZFR0MXRURTJYOUhFLW53SjNCekoxUlUwa2RxNzh2R1RDZGlPeXNXQlAydS1GMDB0cGpGblhuYnk5OFpnRDN0cERFLVB5b1NzTXUwS2hNTWo4M2VWMkNkekZ6ekF0Y0g0czA4c1plUkVnMmQ0NGhLbmc?oc=5",
+            "publisher": "UNITED24 Media"
+          },
+          {
+            "title": "Kremlin 'ready' to resume trilateral peace talks with US, Ukraine, Putin claims",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZFJzak5iNXMzOWw4YU9hbEtKY1NJUWFMbUZBM1c3bTFKaU52S3FXd1VFcDZDbHhaY29TeXZlQ2c1cFhqRDE5TUotREhCN19abWRqQkViU2FUWVNRbnI4LVhmdTlGT3ZIekdSOUQ5UUJfYlpNN3J3ME9rME9CTnNiNVk3eW04akdNTEV2Wm5HRjhvZnRxTDY5a3ItekZaVEZNVlRnZ0k5QQ?oc=5",
+            "publisher": "The Kyiv Independent"
+          },
+          {
+            "title": "Putin tells Trump's envoy Witkoff Russia is ready to resume trilateral talks in November",
+            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE16ZTNDXzVnYmxUSHpHdDByV3NobWg0SHNKQVNXaFU4VnhqeU9rai1MVng4QXkxYklkUlotSS1MdGxPT19KN0FmMk1YQlBoU0I4M28tMkNGajdsTHdQS0ozcUVWekbSAXBBVV95cUxOeS1INk5ZajRUVkJQaW10eGo5THI4b09uQzlQcFM5bWNSbGFNdmhJam9EX3NRZ2ppRTktcWFlcjFZRFQycy1aQUQwcndqbVV3cWMwZXM0NHBzeUhUZ0s0ZC03WllkX2VGd1VvVGlvZHhy?oc=5",
+            "publisher": "Українська правда"
+          },
+          {
+            "title": "Trump envoy Steve Witkoff praises Putin as 'humanitarian' as Ukraine peace talks hang in the balance",
+            "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSUJ6ckdiakJQSDB5aXloQ0FWbl9ZUEo2c050NkNOSUYyc1dEVXhBeEdISUtST3FzRVByQXl6M3BHYkpVY2hGSW9pSlBYZUtZTWlUWEV6X21IQnhlQWNvcnJKNWZ5NnByREEtbUZxOGh2RGNPcWE5YkVBSXZXeUxyTExWZjZuQVh2OGhzemlWNVR1bExnSUpfMEdDM2NNX2c3YWZfSVJ1bjJzTnRYYXhhemwxOGdPdDZvUkVycVFQZExGdnh1dl90NFNoZTcyTkozQkZF?oc=5",
+            "publisher": "New York Post"
+          }
+        ]
+      },
+      {
+        "id": "russia-frees-a-us-citizen",
+        "title": "Russia frees a US citizen",
+        "when": "2026-10-21",
+        "place": "Russia",
+        "lat": 55.75,
+        "lon": 37.62,
+        "what": "Russia released a US citizen as Witkoff arrived for talks, a goodwill gesture that eased the way for the meeting with Putin.",
+        "via": "goodwill gesture to Washington",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Witkoff Urges Putin to Revive Ukraine Peace Talks, Secures Release of US Citizen",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQb1ZrUUQ1NTdPMTZHU1lVX3FMZC1WSmk1bVZwVVdMcDJ4X1NXV0pYOE80d3dtazgxTFh3TVZLZldEb0RCMjgzZmRSNEV1dTVvdXF1OTBScm5Ba21TVlFwSjFXUHYwUkJUYzUzZDBjb1VqdHZBZmJWSGJpNFN0ZUk0RGRoV1F3RFhHclRYTVVEWG5DUE1TZkhKcmp0RlA3MXpETFVxWTloTlMwUkkyZ0FCbHpmdVpRN3JvRVE?oc=5",
+            "publisher": "Modern Diplomacy"
+          },
+          {
+            "title": "Russia Frees US Citizen as Trump Envoy Arrives for Ukraine Peace Talks | Dawn News English",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNX01nN1M1R3RYMWhmNkxxY0VDZ2J3S0NKVTlxZ25zcHV2MmhaZ29xWkkzREhvUWNXaC1mYTN6VVA2R1hiLTQ5T2l2Q3ZvWGtlLVlEV2VjR1dJZ3A2NUFQZmowVHFkVHVVNGY3dm5xUHdvN2t1OFFSRjRoNFFsT1JZa19DUjZrZW9ONW02d0hsRy1OOFMySTRQVi1aZ2t1cDY0cmpjVzFaWTFGSmQ0RGlxZFdDanZ0MC01NmlfeEJ3VQ?oc=5",
+            "publisher": "Dawn"
+          }
+        ]
+      },
+      {
+        "id": "zelensky-offers-to-freeze-front-lines",
+        "title": "Zelensky offers to freeze front lines",
+        "when": "2026-10-21",
+        "place": "Kyiv",
+        "lat": 50.45,
+        "lon": 30.52,
+        "what": "Zelensky said Ukraine would accept a deal freezing the war along the current front line as a first step toward peace negotiations.",
+        "via": "Ukrainian willingness to freeze",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Ukraine ready to accept peace deal that would freeze war along current front line – Zelenskyy",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMlV1dXlXNksyMTJ5c21tNzlJazdXYU9nUzJPdzB2Wi1HcVRWaEwwRnM4OXFuV0gzMWR5OEY3VmtYZnB3LTZaWGM5dU5JQnVRMHNVX0JLWkE4UVh3SUU5UjlSTEpfQmxZbEdfX3p3MEVkS1Raa3haUEpyTlRJYWZsVTZqSHNaRU1jcGptc2VGcHZ1aWFHaVZUSTBuZVBXMmNUb3dPMGxUYkVKWTg5eVJ5VExqOWptY3BXdHfSAbYBQVVfeXFMUDdjcF80WjdvQ2hCYlJ2akhiem52ZXM5R0JPZ091S2ZHTWxYTWt6V3FoUlJkWmJEOU41bnVjNmdjbXpRNngwR0dxdUlvZ0ZsckdkZG4waF9yQl9teEFBVzByUktMaW41Q2VHMHhrU2JvbWxUSEJLMVd3dE8zaUVUWXVRTFllZmdQNDNqZk9pTTRVTmlkUUt4bW5pWWtoSFUzSmlTRGxsMk9OT1pYVXZwOFlFbENpYUE?oc=5",
+            "publisher": "The New Voice of Ukraine"
+          },
+          {
+            "title": "Ukraine’s Zelensky: freeze the war front as a first step toward peace negotiations",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSmFiUEh4V2JadE9oNmNjNks0U1Rwa0dWVDdPdXRkeFFDRFBTcVFzWGZPWG9UZEV5c3BZZ3hJYWdIVXhldXV0dzRNbkNpWkJDTnJLa3ctYUFXMW1ZX2NmWUhpT0dHU25sNGdWQUd2WnhkMmVtMWRwZDRMb2dZbDhYcEtjU2N2SUhRTlF0NzFzenpYMUNyWTV1X0JVcEJxNXlHQ2NtcHBWMlpVMllfeXA4cDVQbEJQMnZWdWhVWGZPV18?oc=5",
+            "publisher": "News24"
+          },
+          {
+            "title": "Zelensky says he’d accept Russian peace deal that ‘freezes’ front lines: ‘Real way to end war’",
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeG9kWFRfQU93cVFqaXhNUWgyd0pHcEpwT1JYYXYzaXYyYlVveU1MWWgtREdiV05BQ05jNGVYazNrSjlUS09PWE9RQzdCLW5PMzRXU0t3SmJKbTFEeFJDME5MX0ZJVTR2T1doZVdHUWRPNzM2OE1JSkZYN0h1RGplREc2UEtJTlpiR0c1M1lyMURPSWpqczJ2bXV3d2FGRkpYX19kNnhyQ2VvMDFoZVRkTjgzY2k2anhyTXp2bzBGa1dHRUJl?oc=5",
+            "publisher": "New York Post"
+          },
+          {
+            "title": "Zelensky calls for freezing of front with Russia as first step to talks",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUzVxZ1Y5M0x4QjVDTG1BZWtKeUFpcnVIUjA2c3I2dFFrbGEtYnVxZWRVbjRybDFILWNOZnpKc2NPVGY4aDZEMVRXcDV5cFlzYXBwN2h3X3Frc2JqRV8wR3MxNS1LUGpYZlpUQlB6RW80eW5TeExLSVhsRmlaUm9rZEg2aDgyU29kT2hNMzdFWEpCNERSRGhwcDFlaEtRbmFVSF9QQ3BzVFZZcndPY2U5aWx4WWLSAboBQVVfeXFMTmN4U1drcVJtakdDYm4wbzdFRllTNHZnTXZfbXQyNzEtSmxndXh5YkU3WHNKd0dhZHdkTUJxbnhlTTdnSkx0ZW0zZDdva0Q1YUxzUUpiYWxHSDZJOEVEZFBWUnR6RE9lUUk2YURHR3NwNlRDSXdFa2tZaVNiZ085bjVWRnhJSVJvWUZ4cTcyMDF1bnhvMWdJZXB0N3FnQ090VGNjdHJGSG9KM0Y0ZmlhY0VCTDF2VFJfelB3?oc=5",
+            "publisher": "A News"
+          }
+        ]
+      },
+      {
+        "id": "trump-targets-december-g20-peace-deal",
+        "title": "Trump targets December G20 peace deal",
+        "when": "2026-10-21",
+        "place": "United States",
+        "lat": 38.9,
+        "lon": -77.04,
+        "what": "Trump wants to reach a peace agreement on Ukraine in December at the G20 summit, according to The Atlantic.",
+        "via": "US push for a deal",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Trump Wants to Reach a Peace Agreement on Ukraine in December at the G20 Summit — The Atlantic",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZ1EwTzBCU2kxT25zWi1XNVh5eXBOaGJidlB3cXhiSXdyTDBWUm1rZGxzSnM3YThpYjlhanBOQ1hRTHY2Q1RTdHkxZkxlbHhCUzlDVXdpSFZxaURIRWtNeHVtQnhqMnFyX2p2MDRGSjhIOEFZTjlLWE9YQ1V2QWZ2aVhNU0xLYWFoMVJJS3pSV3h2MWo5WWtnVnN3bnN4VDBobnRLMV95RER0X0dSbG1HY2dzZjE?oc=5",
+            "publisher": "UA.NEWS"
+          }
+        ]
+      },
+      {
+        "id": "putin-eyes-meeting-xi-at-apec",
+        "title": "Putin eyes meeting Xi at APEC",
+        "when": "2026-10-21",
+        "place": "China",
+        "lat": 39.9,
+        "lon": 116.4,
+        "what": "Putin said he could meet the Chinese president during the APEC summit in China, the setting for the proposed summit with Trump and Xi.",
+        "via": "APEC summit venue",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Putin: Opportunity to meet with Chinese President during APEC summit in China",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbnlVVU05UzZEbnVSUHhaRm5yUmpfWFQxQnhRZEc0QVctcnpubFVkdmlIbTNZRTI3SFlJU3k4RDg3TXJuNl9uamt0VnlSb1NqeHRlVUxiUFJHQ1ZYLVUwYWtuNWNNVm81eEpobUZSM3RNRnV0MHB6ZVA4OUhqZ2tYTEwzaWs2X2dNQklQREczNjhxVi1pVFd5TzhXNU1Bdnp6S1ItSkU4Uy03STFNb05EYkJ0ZlFMak9WVFNFNHQ5a2p3NC1zRXM4?oc=5",
+            "publisher": "صوت الإمارات"
+          },
+          {
+            "title": "Vladimir Putin proposed a summit with Donald Trump and Xi Jinping in November, on the sidelines of the APEC meeting in China",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQa0d2bU5aSzR6UFNwOG0teDZEdDdLc2NpR2s2dzBqOUFoNTJRZWRuWkx6NEV4dFJ6eHhNVm5PbVN2MHdOWGNVdmV3M25tQ1NQTzJramx1WXlFMWktOTRtUnM1Ml8wTkdvUERMa01Uci1Jc2VpRzJzTHlOLWpuZmd5OEFPZEd6REFlSkprVjQtckdweFA2ZWVSVjFmdnc4ZE5GUGE4VzMwVjB0dw?oc=5",
+            "publisher": "Informat.ro"
+          }
+        ]
+      },
+      {
+        "id": "stubb-urges-ukraine-russia-us-talks",
+        "title": "Stubb urges Ukraine-Russia-US talks",
+        "when": "2026-10-21",
+        "place": "Helsinki",
+        "lat": 60.17,
+        "lon": 24.94,
+        "what": "Finnish president Stubb called for peace talks among Ukraine, Russia and the US as Trump's envoy met Putin.",
+        "via": "European diplomatic pressure",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Stubb calls for Ukraine-Russia-US peace talks as Trump envoy meets Putin",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUmpZTDR2X0pId1kyNkoyNE1tQTlaYjgwaURrc0tvLWlfeTFhMXA5NXJiS0M0MmRFT1V3eUxDUDhSOUFxU0dkeGpjR3YyVHlJUmg3d2R6WHFXemx1RzhvdWowellnUU43WkhENmxyY0JCR01SWHN5M3F1T25BZW9BQ0hLNjlTOW5fblVNR2k1am9uZEJySjF0UjA1UWF4Rm01SnRCbzQxWklwbXVFaE4zcVBpc011elc1QUxVS0ZSdw?oc=5",
+            "publisher": "Helsinki Times"
           }
         ]
       }
