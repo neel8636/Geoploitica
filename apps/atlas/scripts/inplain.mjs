@@ -108,7 +108,7 @@ async function draft({ e, m }) {
   const res = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
     headers: { "content-type": "application/json", "anthropic-version": "2023-06-01", "x-api-key": key },
-    body: JSON.stringify({ model: MODEL, max_tokens: 1500, system: SYSTEM, messages: [{ role: "user", content: m.text }] }),
+    body: JSON.stringify({ model: MODEL, max_tokens: 3000, system: SYSTEM, messages: [{ role: "user", content: m.text }] }),
   });
   if (!res.ok) throw new Error(`Claude API ${res.status}: ${(await res.text()).slice(0, 160)}`);
   const body = await res.json();
@@ -123,19 +123,30 @@ async function draft({ e, m }) {
   };
 }
 
+// two at a time, each tried twice, failures kept in inplain-errors.json so they can be read
+const ERRORS = path.join(here, "..", "src", "content", "inplain-errors.json");
+const errors = {};
+const wait = (ms) => new Promise((r) => setTimeout(r, ms));
 let ok = 0;
 const queue = [...batch];
 await Promise.all(
-  Array.from({ length: 4 }, async () => {
+  Array.from({ length: 2 }, async () => {
     for (let t = queue.shift(); t; t = queue.shift()) {
-      try {
-        await draft(t);
-        ok++;
-      } catch (err) {
-        console.log(`  ${t.e.id}: ${err.message}`);
+      for (let attempt = 1; attempt <= 2; attempt++) {
+        try {
+          await draft(t);
+          ok++;
+          delete errors[t.e.id];
+          break;
+        } catch (err) {
+          errors[t.e.id] = { at: new Date().toISOString(), error: String(err.message).slice(0, 300) };
+          console.log(`  ${t.e.id} (try ${attempt}): ${err.message}`);
+          if (attempt === 1) await wait(/ 429| 529| 5\d\d/.test(err.message) ? 20000 : 3000);
+        }
       }
     }
   }),
 );
 await writeFile(FILE, JSON.stringify(data, null, 2) + "\n");
+await writeFile(ERRORS, JSON.stringify(errors, null, 2) + "\n");
 console.log(`${ok}/${batch.length} drafted`);

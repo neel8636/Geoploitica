@@ -107,14 +107,14 @@ jobs:
         run: |
           git config user.name "geopolitica-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add src/content/wire.json src/content/updates.json src/content/fuel.json src/content/fuel-errors.json src/content/explain.json src/content/explain-public.json src/content/plain.json src/content/inplain.json src/content/dossiers
+          git add src/content/wire.json src/content/updates.json src/content/fuel.json src/content/fuel-errors.json src/content/explain.json src/content/explain-public.json src/content/plain.json src/content/inplain.json src/content/inplain-errors.json src/content/dossiers
           if git diff --cached --quiet -- src/content/dossiers; then echo "reports=false" >> "$GITHUB_OUTPUT"; else echo "reports=true" >> "$GITHUB_OUTPUT"; fi
           if git diff --cached --quiet; then
             echo "no content changes"
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "Atlas: wire and reports refresh $(date -u +%Y-%m-%dT%H:%MZ)"
-            git pull --rebase origin main
+            git pull --rebase --autostash origin main
             git push origin HEAD:main
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
