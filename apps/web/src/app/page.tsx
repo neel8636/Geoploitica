@@ -1,128 +1,50 @@
 import Link from "next/link";
-import { listDossiers, formatDate } from "@/content/dossiers";
-import { ImpactMeter } from "@/components/dossier/Primitives";
-import UpcomingChanges from "@/components/UpcomingChanges";
+import { EVENTS } from "@/content/events";
+import type { FuelLite } from "@/components/mapfirst/MapFirst";
+import WebMapHome from "@/components/mapfirst/WebMapHome";
+import { liveCards, liveToday } from "@/lib/live";
 
 /*
-  The front page is a set of doors, not a lead story. Readers pick where to start:
-  an event report, the calendar of what is coming, or their own supply chain.
-  Nothing here is pinned to one event; the lists below move as content does.
+  Map first, as in the Atlas: the front page is the map, fed by the Atlas's live layer
+  (what is fueling each event, how fast its news moves, today's picks). The enterprise doors
+  sit in the panel's Tools tab; /start lays them out in full. Supply-chain views come later.
 */
-const DOORS = [
-  {
-    href: "/get-started",
-    kicker: "New here",
-    title: "Get started",
-    body: "Six steps, about half an hour: what Geopolitica does, one event report, the change radar, a sample company, then your own supplier list.",
-    cta: "Begin the journey",
-    primary: true,
-  },
-  {
-    href: "/dossiers",
-    kicker: "Read an event",
-    title: "Dossiers",
-    body: "Each event as a layered report: a 30-second card, a 5-minute brief, deep-dive modules, and every source. Pick the one you care about.",
-    cta: "Browse the dossiers",
-  },
-  {
-    href: "/changes",
-    kicker: "See what is coming",
-    title: "Change radar",
-    body: "Dated regulations, tariffs, strikes and developing situations, sorted by when they bite. Updated as the calendar moves.",
-    cta: "Open the radar",
-  },
-  {
-    href: "/enterprise",
-    kicker: "Run it on your company",
-    title: "Company impact report",
-    body: "Share your suppliers, parts, lanes and sites. Every department gets its own brief: what changes, when, your exposure, next action.",
-    cta: "Start a report",
-  },
+const TOOLS = [
+  { href: "/start", title: "Start here", body: "What the enterprise edition does, in one page." },
+  { href: "/get-started", title: "Get started", body: "Six steps, about half an hour, ending with your own supplier list." },
+  { href: "/dossiers", title: "Dossiers", body: "Each event as a layered report you can read at your depth." },
+  { href: "/changes", title: "Change radar", body: "Dated regulations, tariffs and strikes, sorted by when they bite." },
+  { href: "/enterprise", title: "Company impact report", body: "Your suppliers, parts, lanes and sites: a brief for every department." },
 ];
 
-export default function Home() {
-  const dossiers = listDossiers();
-  return (
-    <div className="mx-auto max-w-6xl px-4 sm:px-6">
-      <section className="py-12 lg:py-16">
-        <p className="signpost">Geopolitica</p>
-        <h1 className="mt-2 max-w-3xl text-[2.5rem] leading-[1.08] sm:text-[3.25rem]">
-          Every ripple of every event, down to your supply chain.
-        </h1>
-        <p className="prose-dossier mt-5 text-ink-2">
-          Geopolitica follows world events to their consequences: who wins and loses, what it
-          costs, what to do before it lands. Read one event, watch the calendar, or run the
-          engine on your own supply chain.
-        </p>
-
-        <div className="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
-          {DOORS.map((d) => (
-            <Link key={d.href} href={d.href} className={`group flex flex-col rounded-lg border p-5 no-underline hover:border-teal ${"primary" in d && d.primary ? "border-teal bg-teal-2" : "border-line bg-paper-2"}`}>
-              <p className="signpost">{d.kicker}</p>
-              <p className="mt-2 font-serif text-2xl">{d.title}</p>
-              <p className="mt-2 flex-1 text-[15px] text-ink-2">{d.body}</p>
-              <p className="mt-4 text-[15px] text-teal group-hover:underline">{d.cta} →</p>
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      <section className="grid gap-10 border-t border-line py-10 lg:grid-cols-2">
-        <div>
-          <div className="flex items-baseline justify-between">
-            <h2 className="text-2xl">On the radar next</h2>
-            <Link href="/changes" className="text-sm hover:underline">Full calendar</Link>
-          </div>
-          <div className="mt-4"><UpcomingChanges /></div>
-        </div>
-        <div>
-          <div className="flex items-baseline justify-between">
-            <h2 className="text-2xl">Dossiers</h2>
-            <Link href="/dossiers" className="text-sm hover:underline">All dossiers</Link>
-          </div>
-          <ul className="mt-4 divide-y divide-line-2 border-t border-line">
-            {dossiers.map((d) => (
-              <li key={d.slug} className="py-4">
-                <Link href={`/dossiers/${d.slug}`} className="no-underline">
-                  <p className="text-sm text-ink-2">
-                    {d.region} · {d.status === "developing" ? "Developing" : "Stable"} · updated {formatDate(d.updated)}
-                  </p>
-                  <p className="mt-1 font-serif text-xl hover:underline">{d.title}</p>
-                  <p className="mt-1 max-w-prose text-[15px] text-ink-2">{d.deck}</p>
-                </Link>
-                <div className="mt-2"><ImpactMeter level={d.card.impactMeter} /></div>
-              </li>
-            ))}
-          </ul>
-          <p className="mt-4 text-sm text-ink-2">
-            New dossiers are added as events develop; the change radar carries everything dated before a dossier exists.
-          </p>
-        </div>
-      </section>
-
-      <section className="border-t border-line py-10">
-        <div className="grid gap-8 lg:grid-cols-[14rem_1fr]">
-          <h2 className="text-2xl">How a dossier works</h2>
-          <div className="grid gap-6 text-[15px] sm:grid-cols-2">
-            <div>
-              <p className="font-medium">Four layers, your choice of depth</p>
-              <p className="mt-1 text-ink-2">A 30-second card, a 5-minute brief with the same signposts every time, deep-dive modules you open only if you need them, and an evidence layer with every source and a confidence label on each claim.</p>
-            </div>
-            <div>
-              <p className="font-medium">Predict, then read</p>
-              <p className="mt-1 text-ink-2">Before the scenarios, you make a call. Then you see ours. Committing to a guess sharpens attention and memory.</p>
-            </div>
-            <div>
-              <p className="font-medium">Forecasts on the record</p>
-              <p className="mt-1 text-ink-2">Every probability and prediction is dated and graded publicly once the event resolves. Misses stay visible.</p>
-            </div>
-            <div>
-              <p className="font-medium">Built for your company</p>
-              <p className="mt-1 text-ink-2">Share your supplier list and the same engine tells each department which coming changes hit it, when, and what to do first.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+export default async function Home() {
+  const [cards, todayIds] = await Promise.all([liveCards(), liveToday()]);
+  const fuel: Record<string, FuelLite[]> = {};
+  const pulse: Record<string, { trend: string; day: number }> = {};
+  for (const e of EVENTS) {
+    const c = cards[e.id];
+    fuel[e.id] = (c?.fuel?.items ?? []).map((f) => ({ title: f.title, aspect: f.aspect, via: f.via, place: f.place }));
+    if (c) pulse[e.id] = { trend: c.pulse.trend, day: c.pulse.day };
+  }
+  const ids = todayIds.length
+    ? todayIds
+    : [...EVENTS].sort((a, b) => (cards[b.id]?.pulse.day ?? 0) - (cards[a.id]?.pulse.day ?? 0)).slice(0, 5).map((e) => e.id);
+  const today = ids.filter((id) => EVENTS.some((e) => e.id === id)).map((id) => ({ id, headline: cards[id]?.headline ?? EVENTS.find((e) => e.id === id)!.summary }));
+  const tools = (
+    <div>
+      <p className="mb-2 text-[13px] text-ink-2">The enterprise edition: the same map, and tools for running it on your company.</p>
+      {TOOLS.map((t) => (
+        <Link key={t.href} href={t.href} className="mb-1.5 block rounded-lg border border-line px-3 py-2.5 no-underline hover:border-gold">
+          <span className="block text-[14px] font-medium">{t.title} →</span>
+          <span className="block text-xs text-ink-3">{t.body}</span>
+        </Link>
+      ))}
     </div>
+  );
+  return (
+    <>
+      <h1 className="sr-only">Geopolitica: every ripple of every event, down to your supply chain</h1>
+      <WebMapHome fuel={fuel} pulse={pulse} today={today} tools={tools} />
+    </>
   );
 }

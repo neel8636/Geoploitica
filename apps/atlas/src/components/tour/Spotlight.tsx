@@ -5,7 +5,7 @@ import { useCallback, useEffect, useState } from "react";
 import { Bookmark, MessageCircleQuestion, MousePointerClick, Sparkles, Waypoints } from "lucide-react";
 
 /*
-  A four-step spotlight on the home page, shown once: it dims the page, lights up one feature
+  A four-step spotlight on the map-first home page, shown once: it dims the page, lights up one feature
   at a time and says what it does in a line. "Skip" ends it; the footer link replays it.
 */
 const KEY = "geopolitica.tour.v1";
@@ -16,26 +16,26 @@ const STEPS = [
     target: "map",
     Icon: MousePointerClick,
     title: "Click any dot",
-    body: "Its ripple opens as a postcard: what it touches first, second and third, which way each ripple travels, and the latest headlines. Arrows on the lines show direction; a pulsing dot means its news is rising.",
+    body: "The map flies to it. The small coloured dots around it are what is fueling it; the coloured lines are other events feeding in. Gold lines show where it ripples next.",
+  },
+  {
+    target: "key",
+    Icon: Sparkles,
+    title: "Money, goods, people",
+    body: "Every colour is one part of the economy. The key stays on screen; point at a row to light that colour up on the map. After a few looks, the words step back.",
   },
   {
     target: "today",
-    Icon: Sparkles,
-    title: "Today's ripples",
-    body: "The events the news is moving on right now, re-picked through the day as headlines come in.",
+    Icon: Waypoints,
+    title: "Today's ripples, and your report",
+    body: "The panel lists what the news is moving on now. Open any event to build a report around what is fueling it, at the size you need.",
   },
   {
     target: "tracker",
     Icon: Bookmark,
     title: "Follow and track",
-    body: "Press Follow on any event or driver. Your tracker shows what changed since you last looked, and which connected events are heading its way.",
+    body: "Press Follow on any event. Your tracker shows what changed since you last looked, and which connected events are heading its way.",
     extra: { Icon: MessageCircleQuestion, text: "On any event, press Ask to ask a question while you read." },
-  },
-  {
-    target: "drivers",
-    Icon: Waypoints,
-    title: "The forces behind the news",
-    body: "Drivers like energy prices or the cost-of-living squeeze push many events at once. Learn one and a dozen headlines make sense.",
   },
 ];
 

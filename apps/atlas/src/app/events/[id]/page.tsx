@@ -156,7 +156,7 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
         </p>
       </section>
 
-      <section className="mt-14 border-t-2 border-teal pt-8">
+      <section id="report" className="mt-14 scroll-mt-6 border-t-2 border-teal pt-8">
         <p className="signpost">{dossier ? (own ? "Full report" : "Full report on the parent event") : "Report"}</p>
         {dossier && !own ? (
           <p className="prose-dossier mt-1 text-ink-2">

@@ -3,9 +3,10 @@
 import { useSyncExternalStore } from "react";
 
 /*
-  Light / Dark / Auto. The choice is stored in localStorage and applied as data-theme on <html>;
-  layout.tsx runs a tiny inline script before paint so there is no flash on load.
-  "Auto" removes the attribute and lets the system preference decide.
+  Night / Ivory / Auto. Night (navy and gold, like the logo) is the default; Ivory is the
+  lighter version; Auto follows the system. The choice is stored in localStorage and applied as
+  data-theme on <html> ("light" for Ivory); layout.tsx runs a tiny inline script before paint
+  so there is no flash on load.
 */
 type Theme = "light" | "dark" | "auto";
 const KEY = "theme";
@@ -14,18 +15,19 @@ const listeners = new Set<() => void>();
 function read(): Theme {
   try {
     const t = localStorage.getItem(KEY);
-    return t === "light" || t === "dark" ? t : "auto";
+    return t === "light" || t === "auto" ? t : "dark";
   } catch {
-    return "auto";
+    return "dark";
   }
 }
 
 function apply(t: Theme) {
   const root = document.documentElement;
-  if (t === "auto") root.removeAttribute("data-theme");
-  else root.setAttribute("data-theme", t);
+  const light = t === "light" || (t === "auto" && window.matchMedia("(prefers-color-scheme: light)").matches);
+  if (light) root.setAttribute("data-theme", "light");
+  else root.removeAttribute("data-theme");
   try {
-    if (t === "auto") localStorage.removeItem(KEY);
+    if (t === "dark") localStorage.removeItem(KEY);
     else localStorage.setItem(KEY, t);
   } catch {}
   listeners.forEach((l) => l());
@@ -40,13 +42,13 @@ function subscribe(l: () => void) {
   };
 }
 
-export const THEME_SCRIPT = `(function(){try{var t=localStorage.getItem("${KEY}");if(t==="light"||t==="dark"){document.documentElement.setAttribute("data-theme",t)}}catch(e){}})();`;
+export const THEME_SCRIPT = `(function(){try{var t=localStorage.getItem("${KEY}");if(t==="light"||(t==="auto"&&matchMedia("(prefers-color-scheme: light)").matches)){document.documentElement.setAttribute("data-theme","light")}}catch(e){}})();`;
 
 export default function ThemeToggle() {
-  const theme = useSyncExternalStore(subscribe, read, () => "auto" as Theme);
+  const theme = useSyncExternalStore(subscribe, read, () => "dark" as Theme);
   const options: { value: Theme; label: string; title: string }[] = [
-    { value: "light", label: "Light", title: "Light theme" },
-    { value: "dark", label: "Dark", title: "Dark theme" },
+    { value: "dark", label: "Night", title: "Night: navy and gold" },
+    { value: "light", label: "Ivory", title: "Ivory: the lighter version" },
     { value: "auto", label: "Auto", title: "Follow the system setting" },
   ];
   return (

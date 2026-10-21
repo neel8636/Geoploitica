@@ -23,13 +23,15 @@ export default function GuidePage() {
       <h2 className="mt-10 text-2xl">Reading the map</h2>
       <dl className="mt-3 grid gap-x-6 gap-y-3 text-[15px] sm:grid-cols-[11rem_1fr]">
         <dt className="font-medium">Dots</dt>
-        <dd className="text-ink-2">One per event, where it is happening. Bigger means more severe. Amber dots are severe (4 or 5 of 5). Hollow dots are scheduled: an election, a deadline, a decision with a date.</dd>
+        <dd className="text-ink-2">One per event, where it is happening. Bigger means more severe. Glowing gold dots are severe (4 or 5 of 5); pale dots are developing; gold rings are scheduled: an election, a deadline, a decision with a date. The coloured ring around a dot is what is fueling it: blue for money, magenta for goods, green for people.</dd>
         <dt className="font-medium">Lines</dt>
         <dd className="text-ink-2">A connection between two events. A solid line means one acts on the other; a dotted line means they are related through a driver, without either causing the other. Hover a dot and only its lines stay bright. <a href="#ripples" className="underline">How to read a line</a>.</dd>
-        <dt className="font-medium">Frames</dt>
-        <dd className="text-ink-2">World, Europe, Americas, Asia-Pacific, Middle East &amp; Africa. A frame changes what is in view, never what exists; a note at the top right counts the events outside it.</dd>
+        <dt className="font-medium">Moving around</dt>
+        <dd className="text-ink-2">Drag to pan, scroll or pinch to zoom; names appear as you zoom in, and so do each event&apos;s small fuel dots. The ⟲ button returns to the whole world. Search finds an event or a place.</dd>
+        <dt className="font-medium">The key</dt>
+        <dd className="text-ink-2">Always on screen. Point at Money, Goods or People to light that colour up on the map; click to keep only that colour. While you learn, the words sit on the map; after a few looks and one quick check they step back, and the key shrinks to a strip.</dd>
         <dt className="font-medium">Opening an event</dt>
-        <dd className="text-ink-2">Click a dot, or a title in any list, and its ripple opens as a postcard: what it touches first, second and third, the latest headline, and the events it ripples on to (click one to follow the chain). &ldquo;Open the full event&rdquo; goes to the full page; Ctrl or Cmd-click a title to go there directly. Keyboard: Tab to a dot, Enter to open, Esc to close.</dd>
+        <dd className="text-ink-2">Click a dot, or a title in the panel, and the map flies to it. The panel tells its story: what changed, what is fueling it (click a fuel dot or row for its local news), the events feeding into it in the colour of what they move in, and where it ripples next (&ldquo;fly&rdquo; follows the line). Build report picks a size and opens the report builder; &ldquo;Open the event&rdquo; goes to the full page. Elsewhere on the site, a title opens the event&apos;s postcard. Esc clears the selection.</dd>
       </dl>
 
       <h2 className="mt-10 text-2xl">Reading an event</h2>

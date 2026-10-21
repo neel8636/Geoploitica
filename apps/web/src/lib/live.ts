@@ -12,6 +12,7 @@ const ATLAS = (process.env.ATLAS_URL || "https://neel8636.github.io/Geopolitica"
 export interface LiveCard {
   id: string;
   title: string;
+  kicker?: string;
   headline: string;
   pulse: { day: number; perDay: number; trend: "rising" | "steady" | "cooling" | "quiet" };
   recent: { title: string; publisher: string; url: string; published: string }[];
@@ -37,4 +38,17 @@ export async function liveCard(id: string): Promise<LiveCard | undefined> {
   "use cache";
   cacheLife("minutes");
   return (await liveCards())[id];
+}
+
+/* Today's ripples as the Atlas picked them on its last run (live.json). */
+export async function liveToday(): Promise<string[]> {
+  "use cache";
+  cacheLife("minutes");
+  try {
+    const r = await fetch(`${ATLAS}/live.json`);
+    if (!r.ok) return [];
+    return ((await r.json()) as { today?: string[] }).today ?? [];
+  } catch {
+    return [];
+  }
 }

@@ -89,7 +89,7 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
         </ol>
       </section>
 
-      <section className="mt-12 border-t-2 border-teal pt-8">
+      <section id="report" className="mt-12 scroll-mt-6 border-t-2 border-teal pt-8">
         <p className="signpost">{report ? "Full report" : "Report"}</p>
         <div className="mt-3">
           <GenerateReport eventId={e.id} existing={Boolean(report)} />

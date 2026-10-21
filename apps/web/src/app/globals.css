@@ -1,84 +1,84 @@
 @import "tailwindcss";
 
 /*
-  Geopolitica design tokens.
-  Warm beige paper and umber ink, one muted sea-green accent. Amber marks risk, red marks critical.
-  Serif (Newsreader) for dossier reading; sans (IBM Plex Sans) for chrome, briefs and tables.
-  Theme: light by default; dark when the reader picks it (data-theme="dark") or when their
-  system prefers dark and they have not picked light. The toggle lives in the header.
+  Geopolitica design tokens, from the logo: navy and gold.
+  Night (the default) is the logo itself: deep navy, cream text, gold for the brand, severe
+  events and ripples going out. Ivory is the lighter version: cream paper, navy text and
+  buttons, the same gold. The token names are older than the palette ("teal" is the accent,
+  now gold at night and navy by day), so every page re-themes without touching components.
+  Money / goods / people are validated for colour-vision deficiency on both backgrounds, and
+  always come with an icon and a word.
+  Theme: Night unless the reader picks Ivory (data-theme="light"), or picks Auto and their
+  system prefers light (the inline script in layout.tsx sets the attribute before paint).
 */
 :root {
-  --paper: #f4eee3;
-  --paper-2: #ebe3d3;
-  --ink: #2b2521;
-  --ink-2: #6a5f55;
-  --ink-3: #9a8f83;
-  --line: #d8cdb9;
-  --line-2: #e5dccb;
-  --teal: #2f6b66;
-  --teal-2: #d9e6df;
+  --paper: #0a1220;
+  --paper-2: #121e31;
+  --ink: #f4e9d4;
+  --ink-2: #b9b3a6;
+  --ink-3: #8a91a0;
+  --line: #26364f;
+  --line-2: #1a2840;
+  --teal: #d9ad5f;
+  --teal-2: #2a2b2a;
+  --amber: #e39a55;
+  --amber-2: #3a2a19;
+  --red: #e07a70;
+  --red-2: #3f201d;
+  --green: #9cc48a;
+  --green-2: #1f3121;
+  --focus: #d9ad5f;
+  --gold: #d9ad5f;
+  --gold-hi: #f3d79c;
+  --other: #e8dcc2;
+  --sea: #0a1220;
+  --sphere: rgba(217, 173, 95, 0.45);
+  --grat: rgba(217, 173, 95, 0.09);
+  --land: #16253a;
+  --land-line: rgba(217, 173, 95, 0.3);
+  --edge: rgba(217, 173, 95, 0.32);
+  --glow: drop-shadow(0 0 5px rgba(243, 215, 156, 0.85));
+  --shadow: 0 12px 34px rgba(0, 0, 0, 0.5);
+  --radius: 6px;
+  --radius-lg: 12px;
+  --money: #4b8efe;
+  --goods: #c952a8;
+  --people: #438f31;
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  --paper: #f7f2e8;
+  --paper-2: #efe7d6;
+  --ink: #0f1a2b;
+  --ink-2: #46536a;
+  --ink-3: #6f7889;
+  --line: #ddd2bd;
+  --line-2: #e8dfcd;
+  --teal: #14233b;
+  --teal-2: #e4e3dc;
   --amber: #b5651d;
   --amber-2: #f1dfc6;
   --red: #a3332c;
   --red-2: #f0d7d2;
   --green: #4a6b3a;
   --green-2: #dde6d2;
-  --focus: #2f6b66;
-  --radius: 6px;
-  --radius-lg: 12px;
-  /* what a small fueling event moves in: money, goods, people (validated for colour vision deficiency; always with an icon) */
-  --money: #2a78d6;
-  --goods: #eb6834;
-  --people: #1baf7a;
+  --focus: #14233b;
+  --gold: #b8862f;
+  --gold-hi: #d9ad5f;
+  --other: #1d3557;
+  --sea: #f7f2e8;
+  --sphere: #cdbb94;
+  --grat: rgba(184, 134, 47, 0.16);
+  --land: #e7ddc9;
+  --land-line: #cdbb94;
+  --edge: rgba(29, 53, 87, 0.3);
+  --glow: none;
+  --shadow: 0 12px 30px rgba(15, 26, 43, 0.14);
+  --money: #607ef5;
+  --goods: #c34189;
+  --people: #197037;
   color-scheme: light;
-}
-
-:root[data-theme="dark"] {
-  --paper: #1b1813;
-  --money: #3987e5;
-  --goods: #d95926;
-  --people: #199e70;
-  --paper-2: #24201a;
-  --ink: #ece4d6;
-  --ink-2: #b3a898;
-  --ink-3: #857b6e;
-  --line: #3a342b;
-  --line-2: #2d2822;
-  --teal: #7fc0b7;
-  --teal-2: #1f3a37;
-  --amber: #e2a05a;
-  --amber-2: #3d2b17;
-  --red: #e07a70;
-  --red-2: #3f201d;
-  --green: #9cc48a;
-  --green-2: #243321;
-  --focus: #7fc0b7;
-  color-scheme: dark;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-  --paper: #1b1813;
-  --money: #3987e5;
-  --goods: #d95926;
-  --people: #199e70;
-  --paper-2: #24201a;
-  --ink: #ece4d6;
-  --ink-2: #b3a898;
-  --ink-3: #857b6e;
-  --line: #3a342b;
-  --line-2: #2d2822;
-  --teal: #7fc0b7;
-  --teal-2: #1f3a37;
-  --amber: #e2a05a;
-  --amber-2: #3d2b17;
-  --red: #e07a70;
-  --red-2: #3f201d;
-  --green: #9cc48a;
-  --green-2: #243321;
-  --focus: #7fc0b7;
-  color-scheme: dark;
-  }
 }
 
 @theme inline {
@@ -90,6 +90,8 @@
   --color-line: var(--line);
   --color-line-2: var(--line-2);
   --color-teal: var(--teal);
+  --color-gold: var(--gold);
+  --color-other: var(--other);
   --color-money: var(--money);
   --color-goods: var(--goods);
   --color-people: var(--people);
@@ -169,3 +171,10 @@ a {
 .tabular {
   font-variant-numeric: tabular-nums;
 }
+
+/* map-first home: labels with a halo in the page colour, and the pulse of today's events */
+.mf-lbl { fill: var(--ink); paint-order: stroke; stroke: var(--paper); stroke-linejoin: round; pointer-events: none; }
+.mf-flbl { font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; paint-order: stroke; stroke: var(--paper); pointer-events: none; }
+@keyframes mf-halo { 0% { transform: scale(0.7); opacity: 0.9; } 100% { transform: scale(2.5); opacity: 0; } }
+.mf-halo { animation: mf-halo 2.6s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+@media (prefers-reduced-motion: reduce) { .mf-halo { animation: none; } }

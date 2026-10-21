@@ -9,7 +9,7 @@ import { join } from "node:path";
 */
 export const shareSize = { width: 1200, height: 630 };
 
-const C = { paper: "#f4eee3", paper2: "#ebe3d3", ink: "#2b2521", ink2: "#6a5f55", line: "#d8cdb9", teal: "#2f6b66", amber: "#b5651d" };
+const C = { paper: "#0a1220", paper2: "#121e31", ink: "#f4e9d4", ink2: "#b9b3a6", line: "#26364f", teal: "#d9ad5f", amber: "#e39a55" }; // Night: navy and gold, like the logo
 
 async function fonts() {
   const dir = join(process.cwd(), "node_modules/@fontsource/ibm-plex-sans/files");

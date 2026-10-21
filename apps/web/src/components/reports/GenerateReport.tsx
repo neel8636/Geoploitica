@@ -33,6 +33,12 @@ export default function GenerateReport({
 
   const endpoint = `${api}/api/reports/generate`;
 
+  // the map's "Build report" arrives here with the size already picked: ?size=snapshot#report
+  useEffect(() => {
+    const z = new URLSearchParams(window.location.search).get("size");
+    if (z === "snapshot" || z === "brief" || z === "deep") queueMicrotask(() => setSize(z));
+  }, []);
+
   useEffect(() => {
     let alive = true;
     fetch(endpoint)

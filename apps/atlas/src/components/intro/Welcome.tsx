@@ -7,7 +7,7 @@ import { ArrowLeft, ArrowRight, Bookmark, Mail, MessageCircleQuestion } from "lu
 /*
   The introduction a first-time reader sees: what "Geopolitica" means, then three pages on how
   the atlas works, then the map (where the feature spotlight picks up). Dressed in the logo's
-  midnight navy and gold; the atlas itself is beige. Arrow keys move between pages; Skip goes
+  midnight navy and gold, like the atlas itself. Arrow keys move between pages; Skip goes
   straight to the map. Replay it from "What is Geopolitica?" in the footer.
 */
 export const INTRO_KEY = "geopolitica.intro.v1";
@@ -128,7 +128,7 @@ const glow = (
 
 function DotsArt() {
   return (
-    <svg viewBox="0 0 420 300" className="mx-auto w-full max-w-md" role="img" aria-label="Event dots on a map; one pulses and opens a postcard">
+    <svg viewBox="0 0 420 300" className="mx-auto w-full max-w-md" role="img" aria-label="Event dots on a map; one pulses and opens its story">
       {glow}
       <ellipse cx="210" cy="150" rx="200" ry="130" fill="none" stroke={C.gold} strokeOpacity=".25" />
       <ellipse cx="210" cy="150" rx="120" ry="130" fill="none" stroke={C.gold} strokeOpacity=".15" />
@@ -243,9 +243,9 @@ const PAGES: { cta: string; body: ReactNode }[] = [
         lead="The map shows the world events that matter now. Each one is checked against its sources and refreshed through the day."
         art={<DotsArt />}
         points={[
-          { text: <>Click any dot and its ripple opens as a {gold("postcard")}: what it touches first, second and third.</> },
+          { text: <>Click any dot and the map {gold("flies to it")}; the panel beside it tells its story: what changed, what is fueling it, where it ripples next.</> },
           { text: <>A {gold("pulsing dot")} means its news is rising today. &ldquo;What changed&rdquo; tells you what moved, in two lines.</> },
-          { text: <>Today&apos;s ripples, on the home page, are the events the news is moving on right now.</> },
+          { text: <>Today&apos;s ripples, in the panel, are the events the news is moving on right now.</> },
         ]}
       />
     ),
