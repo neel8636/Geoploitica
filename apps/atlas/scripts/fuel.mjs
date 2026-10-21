@@ -9,6 +9,7 @@
 //   npm run fuel -- --dry-run    list what would run
 //
 // Needs ANTHROPIC_API_KEY and src/content/wire.json (run `npm run wire` first).
+// Failures from the latest run are written to src/content/fuel-errors.json.
 
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
