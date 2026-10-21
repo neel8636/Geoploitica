@@ -8,7 +8,7 @@ import { Bookmark, MessageCircleQuestion, MousePointerClick, Sparkles, Waypoints
   A four-step spotlight on the map-first home page, shown once: it dims the page, lights up one feature
   at a time and says what it does in a line. "Skip" ends it; the footer link replays it.
 */
-const KEY = "geopolitica.tour.v1";
+const KEY = "geopolitica.tour.v2";
 export const TOUR_EVENT = "geopolitica:tour";
 
 const STEPS = [
@@ -53,7 +53,7 @@ export default function Spotlight() {
     let seen = true;
     try {
       // the introduction comes first; the spotlight waits until it has been seen
-      seen = localStorage.getItem(KEY) === "done" || localStorage.getItem("geopolitica.intro.v1") !== "done";
+      seen = localStorage.getItem(KEY) === "done" || localStorage.getItem("geopolitica.intro.v2") !== "done";
     } catch {}
     const t = seen ? 0 : window.setTimeout(start, 1800);
     return () => {

@@ -13,7 +13,7 @@
       has seen each colour a few times and answered one quick check.
 
   SHARED FILE. The enterprise edition runs a byte-identical copy at
-  apps/web/src/components/mapfirst/MapFirst.tsx. Edit this one, then run `npm run sync:map`
+  apps/web/src/components/mapfirst/MapFirst.tsx. Edit this one, then run `npm run sync:shared`
   in apps/atlas. Only relative imports of the shared content and npm packages both apps
   install, so the copy compiles in either app.
 */
@@ -52,6 +52,7 @@ export interface MapFirstProps {
   following?: string[]; // shows a Following tab when given
   extraTab?: { label: string; content: ReactNode };
   buildNote?: string; // under the report sizes: who can build, how many a day
+  buildGate?: ReactNode; // shown instead of the build button while the reader is signed out
 }
 
 /* ---------- constants ---------- */
@@ -71,6 +72,7 @@ const SIZES: Record<ReportSize, { label: string; m: number; d: string }> = {
   brief: { label: "Standard", m: 10, d: "The card, the full five-minute brief and a focused deep dive." },
   deep: { label: "Deep dive", m: 25, d: "Every layer at full depth: brief, all deep-dive modules, evidence." },
 };
+const PEEK = 112; // phone: height of the lowered sheet (handle, tabs, one line)
 const famOf = (a: Aspect): Family => (ASPECTS[a]?.family ?? "people") as Family;
 const isDash = (k: LinkKind) => k === "shares_driver" || k === "competes_with";
 const short = (s: string, n: number) => (s.length > n ? s.slice(0, n - 1).replace(/\s+\S*$/, "") + "…" : s);
@@ -214,15 +216,18 @@ function useLearning() {
 type Tab = "today" | "events" | "following" | "extra";
 
 export default function MapFirst(props: MapFirstProps) {
-  const { fuel, pulse, today, loadCards, eventHref, reportHref, actions, following, extraTab, buildNote } = props;
+  const { fuel, pulse, today, loadCards, eventHref, reportHref, actions, following, extraTab, buildNote, buildGate } = props;
   const G = useGeometry();
   const learn = useLearning();
   const wrap = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const panelRef = useRef<HTMLElement>(null);
+  const panelBody = useRef<HTMLDivElement>(null);
   const [vb, setVbState] = useState<[number, number, number, number]>([0, 0, W, H]);
   const vbRef = useRef(vb);
   const [sel, setSel] = useState<string | null>(null);
+  const selRef = useRef<string | null>(null);
+  useEffect(() => { selRef.current = sel; }, [sel]);
   const [fuelOn, setFuelOn] = useState<number | null>(null);
   const [hover, setHover] = useState<string | null>(null);
   const [tab, setTab] = useState<Tab>("today");
@@ -231,7 +236,9 @@ export default function MapFirst(props: MapFirstProps) {
   const [lit, setLit] = useState<Family | null>(null);
   const [building, setBuilding] = useState(false);
   const [size, setSize] = useState<ReportSize>("brief");
-  const [full, setFull] = useState(false); // phone: sheet pulled up
+  // phone: the panel is a bottom sheet with three resting heights; dragging the handle moves it
+  const [sheet, setSheet] = useState<"peek" | "half" | "full">("peek");
+  const [sheetDrag, setSheetDrag] = useState<number | null>(null);
   const [mobile, setMobile] = useState(false);
   const [keyOpen, setKeyOpen] = useState(false);
   const [cards, setCards] = useState<Record<string, CardLite> | null>(null);
@@ -287,8 +294,10 @@ export default function MapFirst(props: MapFirstProps) {
     let [x, y, w] = v;
     w = Math.min(Math.max(w, 70), W * 1.05);
     const h = (w * H) / W;
-    x = Math.min(Math.max(x, -w * 0.45), W - w * 0.55);
-    y = Math.min(Math.max(y, -h * 0.45), H - h * 0.55);
+    // generous bounds: an event at the edge of the world can still sit in the middle of the
+    // clear part of the screen, beside the panel
+    x = Math.min(Math.max(x, -w * 0.8), W - w * 0.2);
+    y = Math.min(Math.max(y, -h * 0.8), H - h * 0.2);
     vbRef.current = [x, y, w, h];
     setVbState([x, y, w, h]);
   }, []);
@@ -324,14 +333,26 @@ export default function MapFirst(props: MapFirstProps) {
   useEffect(() => {
     if (height === null) return;
     const id = requestAnimationFrame(() => {
-      const off = offsetFor(W * 1.02);
-      setVb([W / 2 + off[0] - W * 0.51, H / 2 + off[1] - H * 0.51, W * 1.02]);
+      const r = svgRef.current?.getBoundingClientRect();
+      // a phone held upright: fill the height rather than show a thin strip of world
+      const clear = r ? r.height - (window.innerWidth < 760 ? PEEK : 0) : 0;
+      const w = r && window.innerWidth < 760 && r.width / clear < W / H ? Math.max(W * 0.42, (H * r.width) / clear) : W * 1.02;
+      const off = offsetFor(w);
+      const cx = window.innerWidth < 760 ? W * 0.52 : W / 2;
+      setVb([cx + off[0] - w / 2, H * 0.48 + off[1] - (w * H) / W / 2, w]);
     });
     return () => cancelAnimationFrame(id);
   }, [height, offsetFor, setVb]);
   const zoomBy = (f: number, px?: number, py?: number) => {
     const [x, y, w, h] = vbRef.current;
-    const fx = px ?? x + w / 2, fy = py ?? y + h / 2;
+    let fx = px, fy = py;
+    if (fx === undefined || fy === undefined) {
+      // the buttons zoom on the selected event, or on the middle of the part of the map you can see
+      const p = selRef.current ? G.at[selRef.current] : null;
+      const off = offsetFor(w);
+      fx = p ? p.x : x + w / 2 - off[0];
+      fy = p ? p.y : y + h / 2 - off[1];
+    }
     setVb([fx - (fx - x) / f, fy - (fy - y) / f, w / f]);
   };
 
@@ -343,7 +364,7 @@ export default function MapFirst(props: MapFirstProps) {
     const p = G.at[id];
     for (const f of fuel[id] ?? []) expose(famOf(f.aspect), "ev:" + id);
     for (const l of links[id] ?? []) if (!isDash(l.kind) && (l.flow === "in" || l.flow === "both")) expose(famOf(l.aspect), "ev:" + id);
-    if (window.innerWidth < 760) setFull(false);
+    if (window.innerWidth < 760) setSheet("half");
     if (fly && p) {
       const nearest = Math.min(...G.pts.filter((o) => o.id !== id).map((o) => Math.hypot(o.x - p.x, o.y - p.y)));
       flyTo(p.x, p.y, Math.max(W / 9, Math.min(W / 4.5, nearest * 9)));
@@ -365,11 +386,27 @@ export default function MapFirst(props: MapFirstProps) {
 
   /* ---- pointer: drag to pan, wheel or pinch to zoom, tap to pick ---- */
   const pts = useRef(new Map<number, [number, number]>());
-  const drag = useRef<{ x: number; y: number; vb: number[]; moved: boolean; pinch?: { d: number; vb: number[]; c: DOMPoint } } | null>(null);
+  const drag = useRef<{ x: number; y: number; vb: number[]; moved: boolean; pinch?: { d: number; vb: number[]; c: { x: number; y: number } } } | null>(null);
+  // screen point → map point, worked out from the view box just set rather than from the DOM,
+  // which can be a frame behind during a fast scroll; otherwise each wheel step drifts
   const toSvg = (cx: number, cy: number) => {
-    const s = svgRef.current!;
-    const p = s.createSVGPoint(); p.x = cx; p.y = cy;
-    return p.matrixTransform(s.getScreenCTM()!.inverse());
+    const r = svgRef.current!.getBoundingClientRect();
+    const [x, y, w, h] = vbRef.current;
+    const s = Math.min(r.width / w, r.height / h);
+    return { x: x + (cx - r.left - (r.width - w * s) / 2) / s, y: y + (cy - r.top - (r.height - h * s) / 2) / s };
+  };
+  const lastTap = useRef({ t: 0, x: 0, y: 0 });
+  // events within a fingertip of a screen point, nearest first (distances in screen pixels)
+  const nearestDots = (cx: number, cy: number) => {
+    const r = svgRef.current!.getBoundingClientRect();
+    const [, , w, h] = vbRef.current;
+    const s = Math.min(r.width / w, r.height / h);
+    const p = toSvg(cx, cy);
+    const reach = window.innerWidth < 760 ? 24 : 16;
+    return G.pts
+      .map((q) => ({ id: q.id, d: Math.hypot(q.x - p.x, q.y - p.y) * s }))
+      .filter((q) => q.d <= reach)
+      .sort((a, b) => a.d - b.d);
   };
   useEffect(() => {
     const s = svgRef.current;
@@ -391,6 +428,7 @@ export default function MapFirst(props: MapFirstProps) {
     if (pts.current.size === 2) {
       const [a, b] = [...pts.current.values()];
       drag.current.pinch = { d: Math.hypot(a[0] - b[0], a[1] - b[1]), vb: [...vbRef.current], c: toSvg((a[0] + b[0]) / 2, (a[1] + b[1]) / 2) };
+      drag.current.moved = true;
     }
   };
   const onMove = (ev: React.PointerEvent) => {
@@ -424,11 +462,32 @@ export default function MapFirst(props: MapFirstProps) {
       const i = Number(sat.getAttribute("data-fuel"));
       setFuelOn(i);
       learn.expose(famOf((fuel[sel] ?? [])[i]?.aspect ?? "politics"), `fuel:${sel}${i}`);
-      if (window.innerWidth < 760) setFull(true);
-      setTimeout(() => panelRef.current?.querySelector(`[data-fi="${i}"]`)?.scrollIntoView({ block: "center", behavior: "smooth" }), 40);
+      if (window.innerWidth < 760) setSheet("full");
+      // scroll the panel (never the page) to that row
+      setTimeout(() => {
+        const box = panelBody.current, row = box?.querySelector<HTMLElement>(`[data-fi="${i}"]`);
+        if (box && row) box.scrollTo({ top: row.offsetTop - box.clientHeight / 3, behavior: "smooth" });
+      }, 260);
     } else if (badge) select(badge.getAttribute("data-link"));
-    else if (dot) select(dot.getAttribute("data-ev"));
-    else if (sel) select(null);
+    else if (dot || nearestDots(ev.clientX, ev.clientY).length) {
+      // pick the dot nearest the finger, not whichever is drawn on top; where several sit
+      // under one fingertip (Paris, Brussels), zoom in on them first
+      const near = nearestDots(ev.clientX, ev.clientY);
+      const p = toSvg(ev.clientX, ev.clientY);
+      if (near.length > 1 && near[1].d - near[0].d < 10 && vbRef.current[2] > W / 5) zoomBy(2.4, p.x, p.y);
+      else select(near[0]?.id ?? dot!.getAttribute("data-ev"));
+    } else {
+      // double-tap (or double-click) on open map zooms in on that spot
+      const now = performance.now(), lt = lastTap.current;
+      if (now - lt.t < 320 && Math.hypot(ev.clientX - lt.x, ev.clientY - lt.y) < 30) {
+        const p = toSvg(ev.clientX, ev.clientY);
+        zoomBy(2, p.x, p.y);
+        lastTap.current = { t: 0, x: 0, y: 0 };
+        return;
+      }
+      lastTap.current = { t: now, x: ev.clientX, y: ev.clientY };
+      if (sel) select(null);
+    }
   };
   const hoverAt = (ev: React.PointerEvent) => {
     if (ev.pointerType !== "mouse") return;
@@ -701,9 +760,13 @@ export default function MapFirst(props: MapFirstProps) {
                 </button>
               ))}
             </div>
-            <a href={reportHref(id, size)} className="mt-2.5 inline-flex items-center rounded-sm bg-teal px-3 py-1.5 text-sm font-semibold text-paper no-underline hover:opacity-90">
-              Build {SIZES[size].label.toLowerCase()} report →
-            </a>
+            {buildGate ? (
+              <div className="mt-2.5">{buildGate}</div>
+            ) : (
+              <a href={reportHref(id, size)} className="mt-2.5 inline-flex items-center rounded-sm bg-teal px-3 py-1.5 text-sm font-semibold text-paper no-underline hover:opacity-90">
+                Build {SIZES[size].label.toLowerCase()} report →
+              </a>
+            )}
             <p className="mt-1.5 text-xs text-ink-3">Same format at every size: card, brief, deep dive, evidence.{buildNote ? ` ${buildNote}` : ""}</p>
           </div>
         ) : null}
@@ -781,6 +844,36 @@ export default function MapFirst(props: MapFirstProps) {
     return extraTab?.content ?? null;
   };
 
+  /* the phone's bottom sheet: tap the handle to step through its heights, or drag it */
+  const H0 = height ?? 800;
+  const rest = { peek: PEEK, half: Math.round(H0 * 0.46), full: Math.round(H0 * 0.85) };
+  const sheetPx = sheetDrag ?? rest[sheet];
+  const sheetStart = useRef<{ y: number; h: number; moved: boolean } | null>(null);
+  const sheetDown = (ev: React.PointerEvent) => {
+    (ev.currentTarget as Element).setPointerCapture(ev.pointerId);
+    sheetStart.current = { y: ev.clientY, h: sheetPx, moved: false };
+  };
+  const sheetMove = (ev: React.PointerEvent) => {
+    const st = sheetStart.current;
+    if (!st) return;
+    const dy = ev.clientY - st.y;
+    if (Math.abs(dy) > 6) st.moved = true;
+    if (st.moved) setSheetDrag(Math.min(rest.full, Math.max(PEEK, st.h - dy)));
+  };
+  const sheetUp = (ev: React.PointerEvent) => {
+    const st = sheetStart.current;
+    sheetStart.current = null;
+    if (!st) return;
+    if (!st.moved) {
+      setSheet((cur) => (cur === "peek" ? "half" : cur === "half" ? "full" : "peek"));
+      return;
+    }
+    const h = Math.min(rest.full, Math.max(PEEK, st.h - (ev.clientY - st.y)));
+    const near = (Object.keys(rest) as (keyof typeof rest)[]).reduce((a, b) => (Math.abs(rest[a] - h) < Math.abs(rest[b] - h) ? a : b));
+    setSheet(near);
+    setSheetDrag(null);
+  };
+
   /* ---- the key ---- */
   const slim = learn.L.learned && !keyOpen;
   const keyBox = (
@@ -789,7 +882,7 @@ export default function MapFirst(props: MapFirstProps) {
       onPointerEnter={() => learn.L.learned && setKeyOpen(true)}
       onPointerLeave={() => { setKeyOpen(false); setLit(null); }}
       className={`absolute z-[16] rounded-xl border border-line bg-paper shadow-[var(--shadow)] ${mobile ? "left-2.5 right-2.5 px-2 py-1.5" : `bottom-5 left-[62px] ${slim ? "px-2.5 py-1.5" : "w-[318px] px-3 py-2.5"}`}`}
-      style={mobile ? { bottom: `calc(${full ? 82 : 42}% + 8px)`, display: full ? "none" : undefined } : undefined}
+      style={mobile ? { bottom: sheetPx + 8, display: sheetPx > (height ?? 800) * 0.7 ? "none" : undefined, transition: sheetDrag === null ? "bottom .2s" : undefined } : undefined}
       aria-label="Key"
     >
       {!mobile && !slim ? (
@@ -910,7 +1003,8 @@ export default function MapFirst(props: MapFirstProps) {
 
       {/* zoom */}
       <div className={`absolute z-[15] flex flex-col gap-1.5 ${mobile ? "right-2.5 top-14" : "bottom-5 left-4"}`}>
-        {[["+", "Zoom in", () => zoomBy(1.6)], ["−", "Zoom out", () => zoomBy(1 / 1.6)], ["⟲", "Whole world", () => { select(null); world(); }]].map(([t, l, fn]) => (
+        {/* on a phone, pinch and double-tap zoom; only "whole world" needs a button */}
+        {(mobile ? [["⟲", "Whole world", () => { select(null); world(); }]] : [["+", "Zoom in", () => zoomBy(1.6)], ["−", "Zoom out", () => zoomBy(1 / 1.6)], ["⟲", "Whole world", () => { select(null); world(); }]]).map(([t, l, fn]) => (
           <button key={l as string} type="button" aria-label={l as string} onClick={fn as () => void} className="h-9 w-9 rounded-lg border border-line bg-paper text-lg shadow-[var(--shadow)]">{t as string}</button>
         ))}
       </div>
@@ -922,21 +1016,29 @@ export default function MapFirst(props: MapFirstProps) {
         ref={panelRef}
         aria-label="Event panel"
         className={`absolute z-[18] flex flex-col overflow-hidden border border-line bg-paper shadow-[var(--shadow)] ${mobile ? "inset-x-0 bottom-0 rounded-t-2xl transition-[height] duration-200" : "bottom-4 right-4 top-4 w-[392px] rounded-2xl"}`}
-        style={mobile ? { height: full ? "82%" : "42%" } : undefined}
+        style={mobile ? { height: sheetPx, transition: sheetDrag === null ? "height .2s" : "none" } : undefined}
       >
         {mobile ? (
-          <button type="button" aria-label={full ? "Lower the panel" : "Raise the panel"} onClick={() => setFull((f) => !f)} className="w-full pb-0.5 pt-2">
+          <button
+            type="button"
+            aria-label={sheet === "full" ? "Lower the panel" : "Raise the panel"}
+            onPointerDown={sheetDown}
+            onPointerMove={sheetMove}
+            onPointerUp={sheetUp}
+            className="w-full touch-none pb-1 pt-2.5"
+          >
             <i className="mx-auto block h-[5px] w-10 rounded-full bg-line" />
+            {sheet === "peek" && !sel ? <span className="mt-1 block text-[11px] text-ink-3">Swipe up for today&rsquo;s ripples</span> : null}
           </button>
         ) : null}
         <div className="flex shrink-0 border-b border-line" role="tablist">
           {tabs.map((t) => (
-            <button key={t.id} type="button" role="tab" aria-selected={tab === t.id} onClick={() => { setTab(t.id); select(null); }} className={`flex-1 border-b-2 px-1 py-2.5 text-[13px] ${tab === t.id && !sel ? "border-gold font-semibold text-ink" : tab === t.id ? "border-gold text-ink" : "border-transparent text-ink-2 hover:text-ink"}`}>
+            <button key={t.id} type="button" role="tab" aria-selected={tab === t.id} onClick={() => { setTab(t.id); select(null); if (mobile && sheet === "peek") setSheet("half"); }} className={`flex-1 border-b-2 px-1 py-2.5 text-[13px] ${tab === t.id && !sel ? "border-gold font-semibold text-ink" : tab === t.id ? "border-gold text-ink" : "border-transparent text-ink-2 hover:text-ink"}`}>
               {t.label}
             </button>
           ))}
         </div>
-        <div className="min-h-0 flex-1 overflow-y-auto px-4 pb-6 pt-3.5">{sel ? eventView(sel) : listBody()}</div>
+        <div ref={panelBody} className="relative min-h-0 flex-1 overflow-y-auto overscroll-contain px-4 pb-6 pt-3.5">{sel ? eventView(sel) : listBody()}</div>
       </aside>
 
       {tip ? (

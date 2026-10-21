@@ -11,6 +11,7 @@ import { getDossier, formatDate } from "@/content/dossiers";
 import { DossierBody } from "@/components/dossier/DossierBody";
 import { ImpactMeter } from "@/components/dossier/Primitives";
 import GenerateReport from "@/components/reports/GenerateReport";
+import MembersOnly from "@/components/auth/MembersOnly";
 
 export function generateStaticParams() {
   return EVENTS.map((e) => ({ id: e.id }));
@@ -92,7 +93,9 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
       <section id="report" className="mt-12 scroll-mt-6 border-t-2 border-teal pt-8">
         <p className="signpost">{report ? "Full report" : "Report"}</p>
         <div className="mt-3">
-          <GenerateReport eventId={e.id} existing={Boolean(report)} />
+          <MembersOnly compact title="build a report on this event, at the size you need">
+            <GenerateReport eventId={e.id} existing={Boolean(report)} aspects={links.filter((l) => l.flow === "in" || l.flow === "both").map((l) => l.aspect)} />
+          </MembersOnly>
         </div>
         {report ? (
           <div className="mt-8">

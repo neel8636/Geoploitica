@@ -20,7 +20,7 @@ import { usePathname } from "next/navigation";
 import { auth, db, firebaseEnabled, track } from "@/lib/firebase";
 
 /*
-  Reader accounts. One context for the whole Atlas: who is signed in, whether their profile
+  Reader accounts. One context for the whole site (both editions): who is signed in, whether their profile
   is complete, and the actions the sign-in screen needs. Profiles live in Firestore at
   users/{uid}; the rules in /firebase/firestore.rules let each reader touch only their own.
 */

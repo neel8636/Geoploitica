@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
-import { useSearchParams } from "next/navigation";
+import { useEffect, useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useAuth } from "@/components/auth/AuthProvider";
 import { ProfileStep, SignUpCard } from "@/components/auth/AccountForms";
 
@@ -10,6 +10,14 @@ export default function JoinView() {
   const a = useAuth();
   const q = useSearchParams();
   const start = q.get("mode") === "signin" ? "signin" : "signup";
+  // back to where the reader was (the report they wanted to build or read) once they are in
+  const next = q.get("next") ?? "";
+  const safeNext = next.startsWith("/") && !next.startsWith("//") ? next : "";
+  const router = useRouter();
+  const ready = a.enabled && a.user && a.profileComplete;
+  useEffect(() => {
+    if (ready && safeNext) router.replace(safeNext);
+  }, [ready, safeNext, router]);
 
   if (a.enabled && a.user && a.profileComplete) {
     return (
@@ -29,11 +37,12 @@ export default function JoinView() {
         <p className="signpost">Free, for anyone, anywhere</p>
         <h1 className="mt-2 text-[2.4rem] leading-[1.08] sm:text-5xl">Follow one event to everything it touches.</h1>
         <p className="prose-dossier mt-4 text-ink-2">
-          The map, every event, its ripple and its connections are open to everyone. A free account adds the full report on each
-          one: the 5-minute brief, who wins and who loses, the root causes, scenarios with odds, and what to watch next.
+          The map, every event, what is fueling it and how it connects are open to everyone. A free account adds the reports: read
+          the full layered report on any event, and build a fresh one at the size you need, built around what is fueling it.
         </p>
         <ul className="mt-6 space-y-3 text-[15px]">
           <li className="flex gap-3"><span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-teal" /> Every report, in full, for every event on the map.</li>
+          <li className="flex gap-3"><span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-gold" /> Build reports yourself: snapshot, standard or deep dive, three a day.</li>
           <li className="flex gap-3"><span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-amber" /> Headlines matched to events every hour.</li>
           <li className="flex gap-3"><span className="mt-2 h-2 w-2 shrink-0 rounded-full border border-ink" /> A source behind every claim, and a way to flag anything wrong.</li>
         </ul>

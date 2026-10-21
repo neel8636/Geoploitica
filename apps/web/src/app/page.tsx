@@ -2,6 +2,7 @@ import Link from "next/link";
 import { EVENTS } from "@/content/events";
 import type { FuelLite } from "@/components/mapfirst/MapFirst";
 import WebMapHome from "@/components/mapfirst/WebMapHome";
+import IntroGate from "@/components/intro/IntroGate";
 import { liveCards, liveToday } from "@/lib/live";
 
 /*
@@ -10,6 +11,7 @@ import { liveCards, liveToday } from "@/lib/live";
   sit in the panel's Tools tab; /start lays them out in full. Supply-chain views come later.
 */
 const TOOLS = [
+  { href: "/guide", title: "How to use", body: "Reading the map, moving around on a computer or phone, building reports." },
   { href: "/start", title: "Start here", body: "What the enterprise edition does, in one page." },
   { href: "/get-started", title: "Get started", body: "Six steps, about half an hour, ending with your own supplier list." },
   { href: "/dossiers", title: "Dossiers", body: "Each event as a layered report you can read at your depth." },
@@ -43,6 +45,7 @@ export default async function Home() {
   );
   return (
     <>
+      <IntroGate />
       <h1 className="sr-only">Geopolitica: every ripple of every event, down to your supply chain</h1>
       <WebMapHome fuel={fuel} pulse={pulse} today={today} tools={tools} />
     </>

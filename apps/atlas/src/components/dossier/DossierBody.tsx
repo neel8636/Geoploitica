@@ -56,7 +56,10 @@ export function DossierBody({ d, backHref = "/events", backLabel = "All events",
     `What it means for ${d.deep.sectors.length} industries and for daily life`,
     `What to watch next, with dates`,
   ];
+  // The whole report sits behind a free account: reports are written by AI per event, and the
+  // account keeps that budget for readers who use it. The event page above stays open to all.
   return (
+    <MembersOnly title="Sign in to read this report" points={["The 30-second card: the headline, the key number and what it means for you", "What is fueling it, by money, goods and people", "The 5-minute brief: what happened, why it matters, who wins and who loses", "The deep dive: causes, scenarios with odds, predictions on the record", "Every source, with a confidence label on each claim"]} anchors={["card", "brief", "deep", "evidence"]}>
     <article className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:grid lg:grid-cols-[13rem_1fr] lg:gap-12">
       <aside className="mb-8 lg:mb-0">
         <div className="lg:sticky lg:top-6">
@@ -358,5 +361,6 @@ export function DossierBody({ d, backHref = "/events", backLabel = "All events",
         </Section>
       </div>
     </article>
+    </MembersOnly>
   );
 }

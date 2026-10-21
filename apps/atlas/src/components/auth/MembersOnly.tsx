@@ -64,7 +64,7 @@ export default function MembersOnly({
             </ul>
           ) : null}
           <p className="mt-5 text-sm text-ink-3">
-            No cost and no ads. We ask for your country and what brings you here so we know who the atlas serves; we never sell or
+            No cost and no ads. We ask for your country and what brings you here so we know who Geopolitica serves; we never sell or
             share it.
           </p>
         </div>

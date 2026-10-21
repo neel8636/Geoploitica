@@ -2,6 +2,8 @@
 
 import { useCallback, type ReactNode } from "react";
 import MapFirst, { type CardLite, type FuelLite, type ReportSize } from "@/components/mapfirst/MapFirst";
+import { useAuth } from "@/components/auth/AuthProvider";
+import SignInGate from "@/components/auth/SignInGate";
 
 const ATLAS = (process.env.NEXT_PUBLIC_ATLAS_URL || "https://neel8636.github.io/Geopolitica").replace(/\/$/, "");
 
@@ -31,6 +33,8 @@ export default function WebMapHome({
   today: { id: string; headline: string }[];
   tools: ReactNode;
 }) {
+  const a = useAuth();
+  const signedIn = !a.enabled || Boolean(a.user && a.profileComplete);
   const eventHref = useCallback((id: string) => `/events/${id}`, []);
   const reportHref = useCallback((id: string, size: ReportSize) => `/events/${id}?size=${size}#report`, []);
   return (
@@ -42,6 +46,8 @@ export default function WebMapHome({
       eventHref={eventHref}
       reportHref={reportHref}
       extraTab={{ label: "Tools", content: tools }}
+      buildNote="3 reports a day for each account."
+      buildGate={signedIn ? undefined : <SignInGate what="build a report" />}
     />
   );
 }

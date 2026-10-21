@@ -7,6 +7,9 @@ import "@fontsource/ibm-plex-sans/600.css";
 import Link from "next/link";
 import ThemeToggle, { THEME_SCRIPT } from "@/components/ThemeToggle";
 import JourneyChip from "@/components/journey/JourneyChip";
+import AuthProvider from "@/components/auth/AuthProvider";
+import AccountMenu from "@/components/auth/AccountMenu";
+import ConsentBanner from "@/components/auth/ConsentBanner";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -23,14 +26,16 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
       </head>
       <body className="min-h-full flex flex-col">
+        <AuthProvider>
         <header className="border-b border-line">
-          <nav className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-3 sm:px-6">
+          <nav className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-5 gap-y-2 px-4 py-3 sm:px-6">
             <Link href="/" className="inline-flex items-center gap-2 font-serif text-xl font-medium no-underline">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="/brand/globe-96.png" alt="" width={30} height={30} className="rounded-md" />
-              <span>Geopolitica <span className="hidden text-sm font-normal text-ink-2 sm:inline">· enterprise edition</span></span>
+              <span>Geopolitica <span className="hidden text-sm font-normal text-ink-2 xl:inline">· enterprise edition</span></span>
             </Link>
-            <div className="flex flex-wrap items-center gap-5 text-[15px]">
+            {/* one scrolling row on a phone, so the header never eats the map */}
+            <div className="order-3 flex w-full items-center gap-4 overflow-x-auto whitespace-nowrap text-[15px] sm:order-2 sm:ml-auto sm:w-auto sm:gap-4">
               <JourneyChip />
               <Link href="/events" className="no-underline hover:underline">
                 Events
@@ -49,6 +54,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               </Link>
               <ThemeToggle />
             </div>
+            <div className="order-2 whitespace-nowrap sm:order-3">
+              <AccountMenu />
+            </div>
           </nav>
         </header>
         <main className="flex-1">{children}</main>
@@ -65,12 +73,23 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               <Link href="/method" className="hover:underline">
                 How we work
               </Link>
+              <Link href="/guide" className="hover:underline">
+                How to use
+              </Link>
+              <Link href="/guide#privacy" className="hover:underline">
+                Privacy
+              </Link>
+              <Link href="/welcome" className="hover:underline">
+                What is Geopolitica?
+              </Link>
               <a href="https://neel8636.github.io/Geopolitica/" className="hover:underline">
                 Atlas, the personal edition
               </a>
             </span>
           </div>
         </footer>
+        <ConsentBanner />
+        </AuthProvider>
       </body>
     </html>
   );

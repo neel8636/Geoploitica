@@ -178,3 +178,17 @@ a {
 @keyframes mf-halo { 0% { transform: scale(0.7); opacity: 0.9; } 100% { transform: scale(2.5); opacity: 0; } }
 .mf-halo { animation: mf-halo 2.6s ease-out infinite; transform-box: fill-box; transform-origin: center; }
 @media (prefers-reduced-motion: reduce) { .mf-halo { animation: none; } }
+
+/* the introduction's page turns and pulsing dot (the same as the Atlas) */
+@keyframes fadein {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes map-pulse {
+  0% { transform: scale(1); opacity: 0.9; }
+  100% { transform: scale(2.2); opacity: 0; }
+}
+.map-pulse { animation: map-pulse 2.4s ease-out infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .map-pulse { animation: none; }
+}

@@ -5,14 +5,15 @@ import type { Dossier } from "@/content/types";
 import { DossierBody } from "@/components/dossier/DossierBody";
 import { useAuth } from "@/components/auth/AuthProvider";
 import { REPORT_SIZES, type ReportSize } from "@/content/drafting";
-import type { Aspect } from "@/content/fueling";
-import { AspectBadge } from "@/components/ripple/Aspect";
+import { ASPECTS, type Aspect, type Family } from "@/content/fueling";
+import { FamIcon } from "@/components/mapfirst/MapFirst";
 
 /*
   Generate (or regenerate) the layered report for an event from the page itself.
   Talks to the enterprise server's /api/reports/generate. Signed-in readers send their
   Firebase ID token, which the server verifies and allows a few reports a day; the owner's
-  passcode still works for anyone not signed in. The reader picks how big a report they want
+  passcode still works for the owner. Pages wrap it in <MembersOnly>, so readers sign in first.
+  SHARED FILE: the enterprise edition runs a copy (npm run sync:shared in apps/atlas). The reader picks how big a report they want
   (snapshot, standard, deep dive: the same layers at three depths), and every report is built
   around what is fueling the event. The result renders in place; whether it also becomes the
   event's shared report depends on the server (shown in the status line).
@@ -148,7 +149,11 @@ export default function GenerateReport({
             <div className="mt-3">
               <p className="text-xs uppercase tracking-wide text-ink-2">Built around what is fueling it</p>
               <div className="mt-1.5 flex flex-wrap gap-x-4 gap-y-1.5">
-                {uniq.map((a) => <AspectBadge key={a} aspect={a} />)}
+                {uniq.map((a) => (
+                  <span key={a} className="inline-flex items-center gap-1.5 text-sm">
+                    <FamIcon f={ASPECTS[a].family as Family} size={20} /> {ASPECTS[a].label}
+                  </span>
+                ))}
               </div>
             </div>
           ) : null}

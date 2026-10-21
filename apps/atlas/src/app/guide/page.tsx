@@ -4,10 +4,11 @@ import { EVENTS, allEdges } from "@/content/events";
 import { LineKinds } from "@/components/atlas/MapLegend";
 import { reportErrorUrl } from "@/lib/site";
 import { ConsentChoice } from "@/components/auth/ConsentBanner";
+import MapGuide from "@/components/guide/MapGuide";
 
 export const metadata: Metadata = {
   title: "How to use the atlas",
-  description: "How to read the map, an event and its report, and how the reports are made and corrected.",
+  description: "How to read and move around the map on a computer or a phone, open an event, build a report, and how reports are made and corrected.",
 };
 
 export default function GuidePage() {
@@ -16,23 +17,12 @@ export default function GuidePage() {
     <article className="mx-auto max-w-3xl px-4 py-8 sm:px-6">
       <h1 className="text-3xl">How to use the atlas</h1>
       <p className="prose-dossier mt-3 text-ink-2">
-        The atlas is a map of {EVENTS.length} world events and the {edges.length} connections between them. There is no
-        front story and no fixed order: you start from whatever you care about and follow the lines.
+        The atlas is a map of {EVENTS.length} world events and the {edges.length} connections between them, and the map is the front
+        page: there is no lead story and no fixed order. Start from whatever you care about and follow the lines.{" "}
+        <Link href="/welcome" className="underline">Replay the introduction</Link>.
       </p>
 
-      <h2 className="mt-10 text-2xl">Reading the map</h2>
-      <dl className="mt-3 grid gap-x-6 gap-y-3 text-[15px] sm:grid-cols-[11rem_1fr]">
-        <dt className="font-medium">Dots</dt>
-        <dd className="text-ink-2">One per event, where it is happening. Bigger means more severe. Glowing gold dots are severe (4 or 5 of 5); pale dots are developing; gold rings are scheduled: an election, a deadline, a decision with a date. The coloured ring around a dot is what is fueling it: blue for money, magenta for goods, green for people.</dd>
-        <dt className="font-medium">Lines</dt>
-        <dd className="text-ink-2">A connection between two events. A solid line means one acts on the other; a dotted line means they are related through a driver, without either causing the other. Hover a dot and only its lines stay bright. <a href="#ripples" className="underline">How to read a line</a>.</dd>
-        <dt className="font-medium">Moving around</dt>
-        <dd className="text-ink-2">Drag to pan, scroll or pinch to zoom; names appear as you zoom in, and so do each event&apos;s small fuel dots. The ⟲ button returns to the whole world. Search finds an event or a place.</dd>
-        <dt className="font-medium">The key</dt>
-        <dd className="text-ink-2">Always on screen. Point at Money, Goods or People to light that colour up on the map; click to keep only that colour. While you learn, the words sit on the map; after a few looks and one quick check they step back, and the key shrinks to a strip.</dd>
-        <dt className="font-medium">Opening an event</dt>
-        <dd className="text-ink-2">Click a dot, or a title in the panel, and the map flies to it. The panel tells its story: what changed, what is fueling it (click a fuel dot or row for its local news), the events feeding into it in the colour of what they move in, and where it ripples next (&ldquo;fly&rdquo; follows the line). Build report picks a size and opens the report builder; &ldquo;Open the event&rdquo; goes to the full page. Elsewhere on the site, a title opens the event&apos;s postcard. Esc clears the selection.</dd>
-      </dl>
+      <MapGuide edition="atlas" />
 
       <h2 className="mt-10 text-2xl">Reading an event</h2>
       <ol className="mt-3 list-decimal space-y-2 pl-5 text-[15px] text-ink-2">
@@ -42,7 +32,7 @@ export default function GuidePage() {
         <li><span className="text-ink">How it connects to the rest of the world.</span> Every linked event with the one sentence that justifies the link. If a link looks wrong, that sentence is what to argue with. Each is a link to the next event.</li>
         <li><span className="text-ink">On the wire.</span> Recent headlines matched to the event.</li>
         <li><span className="text-ink">Sources.</span> Where the summary comes from.</li>
-        <li><span className="text-ink">Full report</span>, where one exists: a 30-second card, a 5-minute brief, deep-dive modules and the evidence layer. Read as far as you need. The card and the evidence are open to everyone; the brief and the deep dive need a free account.</li>
+        <li><span className="text-ink">Full report</span>, where one exists: a 30-second card, a 5-minute brief, deep-dive modules and the evidence layer. Read as far as you need. Reports need a free account, and so does building a fresh one (see <a href="#reports" className="underline">Reports</a>).</li>
       </ol>
 
       <h2 id="ripples" className="mt-10 scroll-mt-24 text-2xl">How events ripple</h2>
@@ -64,9 +54,9 @@ export default function GuidePage() {
           the driver and both fade. Follow a dotted line to spot a pattern, then watch the driver rather than each event.
         </p>
         <p>
-          <span className="text-ink">Small amber dots are the fuel.</span> Point at a big event and the smaller local events feeding it
-          appear around it: a strike in one city, a court ruling, a price jump. Claude maps them from the event&apos;s latest local news,
-          each tied to the headlines that report it, and any signed-in reader can ask it to map them again.
+          <span className="text-ink">Small coloured dots are the fuel.</span> Open a big event and the smaller local events feeding it
+          fan out around it, coloured by what they move in (money, goods or people): a strike in one city, a court ruling, a price jump.
+          Claude maps them from the event&apos;s latest local news, each tied to the headlines that report it, for every event on the map.
         </p>
       </div>
       <div className="mt-4 rounded-lg border border-line bg-paper-2 p-4">
@@ -122,11 +112,6 @@ export default function GuidePage() {
         <li><code className="rounded-sm bg-paper-2 px-1">npm run wire</code> fetches the feeds and matches headlines to events; the unmatched ones on the <Link href="/wire" className="hover:underline">wire page</Link> are candidates for new events.</li>
         <li><code className="rounded-sm bg-paper-2 px-1">npm run draft -- &lt;event-id&gt;</code> drafts a full report from the event, its connections and its headlines, for you to check before it is published.</li>
       </ul>
-
-      <h2 className="mt-10 text-2xl">Light and dark</h2>
-      <p className="prose-dossier mt-3 text-ink-2">
-        The switch in the header sets Light, Dark or Auto (follow the device). The choice is remembered in this browser.
-      </p>
 
       <p className="mt-10">
         <Link href="/" className="hover:underline">Back to the map</Link>

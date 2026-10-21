@@ -12,7 +12,8 @@
     "updates": "node --no-warnings scripts/updates.mjs",
     "fuel": "node --no-warnings scripts/fuel.mjs",
     "digest": "node --no-warnings scripts/digest.mjs",
-    "sync:map": "mkdir -p ../web/src/components/mapfirst && cp src/components/mapfirst/MapFirst.tsx ../web/src/components/mapfirst/MapFirst.tsx"
+    "sync:map": "node scripts/sync-shared.mjs",
+    "sync:shared": "node scripts/sync-shared.mjs"
   },
   "dependencies": {
     "@fontsource-variable/newsreader": "^5.3.0",
