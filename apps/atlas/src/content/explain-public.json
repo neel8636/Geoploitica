@@ -1,0 +1,350 @@
+{
+  "france-unrest-2026~gulf-war-energy-shock": {
+    "hook": "A war over Iran helped put 550,000 French people on the streets.",
+    "first": "Strikes on Iran since February have kept oil prices high for eight months.",
+    "more": 2,
+    "watch": true
+  },
+  "france-debt-stress~france-unrest-2026": {
+    "hook": "Every riot weekend in France costs its government money.",
+    "first": "Protests and arrests make France look harder to govern.",
+    "more": 2,
+    "watch": true
+  },
+  "france-election-2027~france-unrest-2026": {
+    "hook": "This autumn's riots are already deciding France's next president.",
+    "first": "Riots and mass arrests leave many voters worried about disorder.",
+    "more": 2,
+    "watch": true
+  },
+  "france-unrest-2026~italy-cost-of-living-riots": {
+    "hook": "Paris and Milan erupted the same weekend. Neither set the other off.",
+    "first": "Prices, rents and wages are straining households in both countries.",
+    "more": 2,
+    "watch": true
+  },
+  "belgium-cost-of-living-clashes~france-unrest-2026": {
+    "hook": "Brussels' clashes started in French school corridors.",
+    "first": "French high-school students blockaded schools over teacher shortages.",
+    "more": 2,
+    "watch": true
+  },
+  "france-unrest-2026~spain-strike-and-snap-election": {
+    "hook": "The anger in Paris has a twin in Madrid, weeks before Spain votes.",
+    "first": "Rents and wages are squeezing households in France and Spain alike.",
+    "more": 2,
+    "watch": true
+  },
+  "gulf-war-energy-shock~italy-cost-of-living-riots": {
+    "hook": "Italy's riots have a price tag, and it is posted at the pump.",
+    "first": "The Iran war keeps oil, and so pump prices, high.",
+    "more": 2,
+    "watch": true
+  },
+  "ecb-inflation-and-rates~gulf-war-energy-shock": {
+    "hook": "A war in the Gulf is setting interest rates in Frankfurt.",
+    "first": "The Iran war keeps oil and freight costs high.",
+    "more": 2,
+    "watch": true
+  },
+  "gulf-war-energy-shock~ukraine-summit-diplomacy": {
+    "hook": "Every escalation in the Gulf leaves less American help for Ukraine.",
+    "first": "The US is heavily involved in the war with Iran.",
+    "more": 2,
+    "watch": true
+  },
+  "ecb-inflation-and-rates~france-debt-stress": {
+    "hook": "France needs the ECB's help; the ECB may make things harder.",
+    "first": "If France's borrowing costs keep rising, pressure grows on the ECB to buy French bonds.",
+    "more": 2,
+    "watch": true
+  },
+  "france-debt-stress~france-election-2027": {
+    "hook": "A credit rating could swing a presidential election.",
+    "first": "France faces a possible downgrade and a hard-to-pass budget.",
+    "more": 2,
+    "watch": true
+  },
+  "france-debt-stress~italy-cost-of-living-riots": {
+    "hook": "When lenders lose faith in Paris, Rome pays too.",
+    "first": "French borrowing costs rose, and Italy's rose with them in early October.",
+    "more": 2,
+    "watch": true
+  },
+  "france-election-2027~ukraine-summit-diplomacy": {
+    "hook": "A French vote in April could cost Ukraine EUR 27bn of support.",
+    "first": "France has committed about EUR 27bn to Ukraine and co-leads the Coalition of the Willing.",
+    "more": 2,
+    "watch": true
+  },
+  "eu-budget-2028-2034~france-election-2027": {
+    "hook": "Europe is racing a clock set by the French election.",
+    "first": "Le Pen wants France's net EU payment cut from about EUR 8bn to EUR 5bn.",
+    "more": 2,
+    "watch": true
+  },
+  "italy-cost-of-living-riots~italy-election-2027": {
+    "hook": "Milan's riots are already campaigning for Italy's 2027 vote.",
+    "first": "Milan's riots brought more than 200 arrests over two days.",
+    "more": 2,
+    "watch": true
+  },
+  "france-election-2027~italy-election-2027": {
+    "hook": "Europe's two biggest right-wing leaders want opposite things on Russia.",
+    "first": "Meloni backs continued support for Ukraine; Le Pen wants to end French funding.",
+    "more": 2,
+    "watch": true
+  },
+  "italy-election-2027~ukraine-summit-diplomacy": {
+    "hook": "Ukraine has a stake in who runs Rome after 2027.",
+    "first": "Meloni told the Senate that support for Ukraine is what makes peace possible.",
+    "more": 2,
+    "watch": true
+  },
+  "france-unrest-2026~portugal-housing-protests": {
+    "hook": "Lisbon and Paris marched on the same day, for the same rent.",
+    "first": "Rents and mortgage costs are rising faster than pay in both countries.",
+    "more": 2,
+    "watch": true
+  },
+  "eu-budget-2028-2034~spain-strike-and-snap-election": {
+    "hook": "Spain's snap election is a deadline for all of Europe's money.",
+    "first": "Spain heads to a snap election soon after a November strike.",
+    "more": 2,
+    "watch": true
+  },
+  "eu-budget-2028-2034~ukraine-summit-diplomacy": {
+    "hook": "Any peace deal for Ukraine lands on the EU's next bill.",
+    "first": "Any ceasefire or deal changes how much Ukraine will need.",
+    "more": 2,
+    "watch": true
+  },
+  "eu-budget-2028-2034~eu-supply-chain-rules-2027": {
+    "hook": "Europe's green rules need money, and one candidate wants both gone.",
+    "first": "The deforestation and carbon border rules are part of the Green Deal.",
+    "more": 2,
+    "watch": true
+  },
+  "eu-supply-chain-rules-2027~france-election-2027": {
+    "hook": "A paperwork deadline for farmers could help Le Pen.",
+    "first": "The deforestation and carbon border rules start biting from late 2026 into 2027.",
+    "more": 2,
+    "watch": true
+  },
+  "alberta-independence-vote~gulf-war-energy-shock": {
+    "hook": "A war in the Gulf gave Alberta's separatists their best argument.",
+    "first": "The Iran war pushed oil prices up.",
+    "more": 2,
+    "watch": true
+  },
+  "china-q3-growth~eu-supply-chain-rules-2027": {
+    "hook": "China's export boom is about to meet Europe's carbon bill.",
+    "first": "China grew 4.5% on an export surge.",
+    "more": 2,
+    "watch": true
+  },
+  "eu-supply-chain-rules-2027~istanbul-floods": {
+    "hook": "A flood in Istanbul is a deadline problem for European factories.",
+    "first": "Floods disrupted Istanbul on 15 October.",
+    "more": 2,
+    "watch": true
+  },
+  "gulf-war-energy-shock~us-midterms-2026": {
+    "hook": "America's midterms are being fought at the gas station.",
+    "first": "The Iran war pushed US gasoline and diesel prices up.",
+    "more": 2,
+    "watch": true
+  },
+  "us-canada-trade-war~us-midterms-2026": {
+    "hook": "Tariffs on Canadian cheese could cost Republicans the House.",
+    "first": "The US put 50% tariffs and bans on Canadian goods; Canada hit back.",
+    "more": 2,
+    "watch": true
+  },
+  "ukraine-summit-diplomacy~us-midterms-2026": {
+    "hook": "The US midterms could tie Trump's hands in any Ukraine deal.",
+    "first": "Polls favour Democrats to win the House on 3 November.",
+    "more": 2,
+    "watch": true
+  },
+  "brazil-runoff-2026~eu-supply-chain-rules-2027": {
+    "hook": "Brazil's vote on 25 October decides how its soy, beef and coffee meet Europe's new forest rule.",
+    "first": "Brazil sells Europe a lot of soy, beef and coffee.",
+    "more": 2,
+    "watch": true
+  },
+  "brazil-runoff-2026~venezuela-oil-reopening": {
+    "hook": "Brazil's vote and Venezuela's oil share one hidden hand.",
+    "first": "The US took Maduro out of power in Venezuela in January.",
+    "more": 2,
+    "watch": true
+  },
+  "us-canada-trade-war~usmca-annual-review-2027": {
+    "hook": "The tariff war and the trade-pact review are one squeeze.",
+    "first": "The US refused to renew USMCA for 16 years on 1 July.",
+    "more": 2,
+    "watch": true
+  },
+  "alberta-independence-vote~us-canada-trade-war": {
+    "hook": "Washington's tariffs reached all the way to Alberta's ballot.",
+    "first": "The US hit Canadian goods with tariffs and bans.",
+    "more": 2,
+    "watch": true
+  },
+  "china-q3-growth~usmca-annual-review-2027": {
+    "hook": "America's North American trade rules are aimed at China.",
+    "first": "China's growth relies on exports.",
+    "more": 2,
+    "watch": true
+  },
+  "gulf-war-energy-shock~venezuela-oil-reopening": {
+    "hook": "The Iran war turned Venezuela back into America's gas tank.",
+    "first": "The Iran war disrupts oil through the Strait of Hormuz.",
+    "more": 2,
+    "watch": true
+  },
+  "us-midterms-2026~venezuela-oil-reopening": {
+    "hook": "A Venezuelan oil deal is a campaign promise in America.",
+    "first": "High pump prices are hurting Republicans.",
+    "more": 2,
+    "watch": true
+  },
+  "apec-shenzhen-2026~china-q3-growth": {
+    "hook": "China's growth may be decided at one summit in Shenzhen.",
+    "first": "China grew 4.5% on exports while spending at home stayed weak.",
+    "more": 2,
+    "watch": true
+  },
+  "apec-shenzhen-2026~north-korea-missile-tests-2026": {
+    "hook": "Two days after Trump mentioned Kim, the missiles flew.",
+    "first": "Trump said he might meet Kim during his trip to Shenzhen.",
+    "more": 2,
+    "watch": true
+  },
+  "apec-shenzhen-2026~ukraine-summit-diplomacy": {
+    "hook": "Putin's path to a Ukraine deal may run through Shenzhen.",
+    "first": "Putin wants a summit with Trump and Xi on a Ukraine deal.",
+    "more": 2,
+    "watch": true
+  },
+  "apec-shenzhen-2026~south-china-sea-incidents-2026": {
+    "hook": "China wants to look calm for Trump. The sea says otherwise.",
+    "first": "China hosts Trump at APEC from 18 November.",
+    "more": 2,
+    "watch": true
+  },
+  "boj-october-decision-2026~gulf-war-energy-shock": {
+    "hook": "Tokyo's interest rates are tied to tankers in the Gulf.",
+    "first": "The Iran war keeps oil from the Gulf expensive.",
+    "more": 2,
+    "watch": true
+  },
+  "boj-october-decision-2026~ecb-inflation-and-rates": {
+    "hook": "Frankfurt and Tokyo face the same problem, one day apart.",
+    "first": "Energy keeps inflation above target in Europe and Japan.",
+    "more": 2,
+    "watch": true
+  },
+  "boj-october-decision-2026~france-debt-stress": {
+    "hook": "A rate move in Tokyo can raise France's borrowing costs.",
+    "first": "Japanese government bond yields are rising.",
+    "more": 2,
+    "watch": true
+  },
+  "gulf-war-energy-shock~india-us-trade-deal-2026": {
+    "hook": "India's trade deal with America runs through Russian oil.",
+    "first": "The Iran war disrupts oil through the Strait of Hormuz.",
+    "more": 2,
+    "watch": true
+  },
+  "china-q3-growth~india-us-trade-deal-2026": {
+    "hook": "India and China are fighting for the same American shopping cart.",
+    "first": "China's growth comes from an export surge.",
+    "more": 2,
+    "watch": true
+  },
+  "apec-shenzhen-2026~india-us-trade-deal-2026": {
+    "hook": "Mumbai and Shenzhen are two stops on one trade tour.",
+    "first": "Trump wants bilateral tariff deals before the midterms.",
+    "more": 2,
+    "watch": true
+  },
+  "north-korea-missile-tests-2026~ukraine-summit-diplomacy": {
+    "hook": "Kim and Putin are both queuing for Trump.",
+    "first": "Putin is seeking a summit with Trump and Xi.",
+    "more": 2,
+    "watch": true
+  },
+  "north-korea-missile-tests-2026~south-china-sea-incidents-2026": {
+    "hook": "Two flashpoints, one question: will America stand by its allies?",
+    "first": "Trump is pursuing summits with Xi and Kim in November.",
+    "more": 2,
+    "watch": true
+  },
+  "ethiopia-eritrea-war-fears~sudan-darfur-kordofan-famine-alert": {
+    "hook": "A new war next door could pull aid away from Sudan's famine.",
+    "first": "Ethiopia says Eritrean troops pushed up to 60 km into Tigray.",
+    "more": 2,
+    "watch": true
+  },
+  "gulf-war-energy-shock~sudan-darfur-kordofan-famine-alert": {
+    "hook": "The Iran war is making Sudan's famine more expensive to fight.",
+    "first": "Oil above $100 and Red Sea disruption raise shipping and fuel costs.",
+    "more": 2,
+    "watch": true
+  },
+  "ethiopia-eritrea-war-fears~gulf-war-energy-shock": {
+    "hook": "One port in Eritrea could choke a second shipping lane.",
+    "first": "Ships to and from the Red Sea pass the Bab al-Mandeb strait.",
+    "more": 2,
+    "watch": true
+  },
+  "gulf-war-energy-shock~israel-election-2026": {
+    "hook": "Israel's election is a vote on the Iran war itself.",
+    "first": "Netanyahu vows to topple Iran's government, and Trump endorses him.",
+    "more": 2,
+    "watch": true
+  },
+  "israel-election-2026~opec-plus-november-output-hold": {
+    "hook": "Israel's ballot boxes could decide how much oil the world gets.",
+    "first": "Israel votes on 27 October.",
+    "more": 2,
+    "watch": true
+  },
+  "gulf-war-energy-shock~opec-plus-november-output-hold": {
+    "hook": "OPEC+ didn't choose to hold back oil. The war chose for it.",
+    "first": "The Iran war restricts tanker traffic through Hormuz.",
+    "more": 2,
+    "watch": true
+  },
+  "opec-plus-november-output-hold~russia-record-budget-deficit-2026": {
+    "hook": "Russia's budget hole is fought over inside OPEC+.",
+    "first": "Russia's quota of 9.9 million barrels a day and Urals prices set its oil income.",
+    "more": 2,
+    "watch": true
+  },
+  "ecb-inflation-and-rates~opec-plus-november-output-hold": {
+    "hook": "An oil decision on 4 October set the mood for Europe's rate call.",
+    "first": "OPEC+ left output targets unchanged.",
+    "more": 2,
+    "watch": true
+  },
+  "china-q3-growth~opec-plus-november-output-hold": {
+    "hook": "Tight oil supply sends China a bigger bill.",
+    "first": "OPEC+ is not adding supply.",
+    "more": 2,
+    "watch": true
+  },
+  "russia-record-budget-deficit-2026~ukraine-summit-diplomacy": {
+    "hook": "Russia's empty purse could bring Putin to the table.",
+    "first": "Russia's 2026 deficit is now double the plan.",
+    "more": 2,
+    "watch": true
+  },
+  "gulf-war-energy-shock~russia-record-budget-deficit-2026": {
+    "hook": "$100 oil should be a gift to Russia. It isn't.",
+    "first": "The Iran war keeps oil above $100.",
+    "more": 2,
+    "watch": true
+  }
+}

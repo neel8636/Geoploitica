@@ -13,6 +13,7 @@ import FuelSection from "@/components/ripple/FuelSection";
 import RippleMap from "@/components/RippleMap";
 import Connections from "@/components/atlas/Connections";
 import { DossierBody } from "@/components/dossier/DossierBody";
+import { connectionsFor } from "@/content/connections";
 import GenerateReport from "@/components/reports/GenerateReport";
 import { ImpactMeter, Signpost } from "@/components/dossier/Primitives";
 import MembersOnly from "@/components/auth/MembersOnly";
@@ -176,7 +177,7 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
         ) : null}
         {dossier ? (
           <div className="mt-8">
-            <DossierBody d={dossier} backHref="/" backLabel="Map" path={`/events/${e.id}/`} />
+            <DossierBody d={dossier} backHref="/" backLabel="Map" path={`/events/${e.id}/`} connections={connectionsFor(dossier.slug)} />
           </div>
         ) : null}
       </section>

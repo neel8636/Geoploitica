@@ -31,12 +31,20 @@ for (const e of EVENTS)
     if (!todo.has(k)) todo.set(k, []);
     todo.get(k).push({ from: e, to: getEvent(l.to), l });
   }
+// the free part (hook, first step, how much more) for browser code; the full chains stay server side
+const PUBLIC = path.join(here, "..", "src", "content", "explain-public.json");
+async function writePublic() {
+  const pub = Object.fromEntries(Object.entries(data).map(([k, v]) => [k, { hook: v.hook, first: v.steps[0], more: Math.max(0, v.steps.length - 1), watch: Boolean(v.watch) }]));
+  await writeFile(PUBLIC, JSON.stringify(pub, null, 2) + "\n");
+}
+
 const keys = [...todo.keys()].slice(0, 20);
 console.log(`${todo.size} connection(s) without an explanation; drafting ${keys.length}`);
 for (const k of keys) console.log("  " + k);
-if (DRY || !keys.length) process.exit(0);
-if (!key) {
-  console.log("no ANTHROPIC_API_KEY: skipping");
+if (DRY) process.exit(0);
+if (!keys.length || !key) {
+  if (!key && keys.length) console.log("no ANTHROPIC_API_KEY: skipping");
+  await writePublic();
   process.exit(0);
 }
 
@@ -76,4 +84,5 @@ for (const it of items) {
   n++;
 }
 await writeFile(FILE, JSON.stringify(data, null, 2) + "\n");
+await writePublic();
 console.log(`${n}/${keys.length} explained`);

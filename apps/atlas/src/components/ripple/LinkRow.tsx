@@ -6,7 +6,7 @@ import { getDriver } from "@/content/drivers";
 import EventLink from "@/components/ripple/EventLink";
 import { AspectBadge } from "@/components/ripple/Aspect";
 import Link from "next/link";
-import { explainFor } from "@/content/explain";
+import { teaserFor } from "@/content/explainPublic";
 
 /*
   One connection, read as a sentence. An icon says which way the ripple travels (into the
@@ -80,9 +80,9 @@ export default function LinkRow({
             <span className="font-medium text-teal">{n.via}</span>
           </p>
         ) : null}
-        {host && explainFor(host, n.event.id) ? (
+        {host && teaserFor(host, n.event.id) ? (
           <p className={`${size === "sm" ? "text-xs" : "text-sm"} mt-0.5 text-ink-2`}>
-            {explainFor(host, n.event.id)!.hook}{" "}
+            {teaserFor(host, n.event.id)!.hook}{" "}
             <Link href={`/events/${host}/#how-it-connects`} className="whitespace-nowrap text-teal hover:underline">How it unfolds →</Link>
           </p>
         ) : (

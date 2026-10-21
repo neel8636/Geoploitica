@@ -1,6 +1,7 @@
 import Link from "next/link";
 import FuelSpine from "@/components/dossier/FuelSpine";
 import HowItConnects from "@/components/dossier/HowItConnects";
+import type { ConnRow } from "@/content/connections";
 import MembersOnly from "@/components/auth/MembersOnly";
 import type { ReactNode } from "react";
 import type { Dossier } from "@/content/types";
@@ -45,7 +46,7 @@ export const dossierLayers = [
   { id: "evidence", label: "Evidence", minutes: 2 },
 ];
 
-export function DossierBody({ d, backHref = "/dossiers", backLabel = "All dossiers", after }: { d: Dossier; backHref?: string; backLabel?: string; after?: ReactNode }) {
+export function DossierBody({ d, backHref = "/dossiers", backLabel = "All dossiers", after, connections }: { d: Dossier; backHref?: string; backLabel?: string; after?: ReactNode; connections?: ConnRow[] }) {
   const S = d.evidence.sources;
   // The whole report sits behind a free account: reports are written by AI per event, and the
   // account keeps that budget for readers who use it. The event page above stays open to all.
@@ -109,7 +110,7 @@ export function DossierBody({ d, backHref = "/dossiers", backLabel = "All dossie
           </div>
         </section>
 
-        <HowItConnects eventId={d.slug} />
+        <HowItConnects rows={connections} />
 
         {/* Layer 2: the brief */}
         <Section id="brief" title="The five-minute brief">

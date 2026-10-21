@@ -25,7 +25,7 @@ import type { GeometryCollection, Topology } from "topojson-specification";
 import land110 from "world-atlas/land-110m.json";
 import { EVENTS, TYPE_LABELS, neighbours, type Flow, type LinkKind, type WorldEvent } from "../../content/events";
 import { ASPECTS, type Aspect, type Family } from "../../content/fueling";
-import { explainFor } from "../../content/explain";
+import { teaserFor } from "../../content/explainPublic";
 
 /* ---------- data the page passes in ---------- */
 
@@ -532,7 +532,7 @@ export default function MapFirst(props: MapFirstProps) {
       if (it) { f = famOf(it.aspect); html = <><b>{it.title}</b><br />{FNAME[f]} · {ASPECTS[it.aspect].label}<br />moves in: {it.via}</>; }
     } else if (badge && sel) {
       const l = links[sel].find((x) => x.event.id === badge.getAttribute("data-link"));
-      if (l) { f = famOf(l.aspect); html = <><b>{FNAME[f]}</b> · {ASPECTS[l.aspect].label}<br />{explainFor(sel, l.event.id)?.hook ?? l.event.title}<br /><i>Click to see how they connect</i></>; }
+      if (l) { f = famOf(l.aspect); html = <><b>{FNAME[f]}</b> · {ASPECTS[l.aspect].label}<br />{teaserFor(sel, l.event.id)?.hook ?? l.event.title}<br /><i>Click to see how they connect</i></>; }
     } else if (dot) {
       const id = dot.getAttribute("data-ev")!;
       const e = G.at[id].e, c = fam(id);
@@ -542,7 +542,7 @@ export default function MapFirst(props: MapFirstProps) {
       const l = links[a]?.find((x) => x.event.id === b);
       if (l) {
         f = isDash(l.kind) ? null : famOf(l.aspect);
-        html = <>{explainFor(a, b)?.hook ?? `${G.at[a].e.title} and ${G.at[b].e.title}`}<br /><i>Click to see how they connect</i></>;
+        html = <>{teaserFor(a, b)?.hook ?? `${G.at[a].e.title} and ${G.at[b].e.title}`}<br /><i>Click to see how they connect</i></>;
       }
     }
     const id = dot?.getAttribute("data-ev") ?? null;
@@ -784,7 +784,7 @@ export default function MapFirst(props: MapFirstProps) {
           <span className="min-w-0">
             <span className="block text-[14px] font-medium leading-snug">{G.at[to].e.title}</span>
             <span className="block text-xs text-ink-3">{sub}</span>
-            {explainFor(id, to) ? <span className="mt-0.5 block text-[12.5px] leading-snug text-ink-2">{explainFor(id, to)!.hook} <span className="text-gold">How? →</span></span> : null}
+            {teaserFor(id, to) ? <span className="mt-0.5 block text-[12.5px] leading-snug text-ink-2">{teaserFor(id, to)!.hook} <span className="text-gold">How? →</span></span> : null}
           </span>
         </button>
         <button type="button" onClick={() => select(to)} className="shrink-0 px-1.5 pt-2 text-xs text-gold hover:underline" aria-label={`Fly to ${G.at[to].e.title}`}>fly ↗</button>
@@ -897,9 +897,10 @@ export default function MapFirst(props: MapFirstProps) {
     const dashed = isDash(l.kind);
     const [from, to] = l.flow === "in" ? [c.b, c.a] : [c.a, c.b];
     const f = famOf(l.aspect);
-    const ex = explainFor(c.a, c.b);
-    const steps = ex?.steps ?? [l.why];
-    const hidden = Math.max(0, steps.length - 1) + (ex?.watch ? 1 : 0);
+    const ex = teaserFor(c.a, c.b);
+    const first = ex?.first ?? l.why;
+    const more = ex?.more ?? 0;
+    const hidden = more + (ex?.watch ? 1 : 0);
     const arrow = dashed ? "┄" : l.flow === "both" ? "⇄" : "→";
     const evBtn = (id: string) => (
       <button type="button" onClick={() => select(id)} className="min-w-0 flex-1 rounded-lg border border-line px-2.5 py-2 text-left hover:border-ink-3">
@@ -932,7 +933,7 @@ export default function MapFirst(props: MapFirstProps) {
         <ol className="mt-3 space-y-2">
           <li className="flex gap-2.5 text-[14.5px] leading-snug">
             <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-gold text-[13px] font-semibold text-paper">1</span>
-            <span>{steps[0]}</span>
+            <span>{first}</span>
           </li>
         </ol>
         {hidden ? (
@@ -941,14 +942,14 @@ export default function MapFirst(props: MapFirstProps) {
             <div className="space-y-2.5 p-3 opacity-60 blur-[1.5px]" aria-hidden>
               {Array.from({ length: hidden }).map((_, n) => (
                 <div key={n} className="flex items-center gap-2.5">
-                  <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-line text-[12px] text-ink-3">{n + 2 <= steps.length ? n + 2 : "!"}</span>
+                  <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-line text-[12px] text-ink-3">{n < more ? n + 2 : "!"}</span>
                   <span className="h-2.5 rounded bg-line" style={{ width: `${70 - n * 12}%` }} />
                 </div>
               ))}
             </div>
             <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 bg-paper/70 px-3 text-center">
               <p className="text-[13px] font-medium">
-                {steps.length - 1 > 0 ? `${steps.length - 1} more step${steps.length - 1 > 1 ? "s" : ""}` : "The rest"}
+                {more > 0 ? `${more} more step${more > 1 ? "s" : ""}` : "The rest"}
                 {ex?.watch ? " and what to watch next" : ""} are in the report.
               </p>
               <a href={`${eventHref(from)}#how-it-connects`} className="inline-flex items-center rounded-sm bg-teal px-3 py-1.5 text-[13px] font-semibold text-paper no-underline hover:opacity-90">
@@ -1197,7 +1198,7 @@ export default function MapFirst(props: MapFirstProps) {
             return (
               <button key={k} type="button" onClick={() => { setPick(null); openConn(a, b, sel); }} className="block w-full rounded-md px-2 py-1.5 text-left hover:bg-paper-2">
                 <span className="block text-[13px] font-medium leading-snug">{short(G.at[a].e.title, 34)} · {short(G.at[b].e.title, 34)}</span>
-                <span className="block text-xs text-ink-2">{explainFor(a, b)?.hook ?? ""}</span>
+                <span className="block text-xs text-ink-2">{teaserFor(a, b)?.hook ?? ""}</span>
               </button>
             );
           })}

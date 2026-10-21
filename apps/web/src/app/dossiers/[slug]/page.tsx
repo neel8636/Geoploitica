@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import JourneyMark from "@/components/journey/JourneyMark";
 import { getDossier, listDossiers } from "@/content/dossiers";
 import { getEvent } from "@/content/events";
+import { connectionsFor } from "@/content/connections";
 import { DossierBody } from "@/components/dossier/DossierBody";
 import GenerateReport from "@/components/reports/GenerateReport";
 
@@ -27,6 +28,7 @@ export default async function DossierPage(props: PageProps<"/dossiers/[slug]">) 
       <JourneyMark step="read-event" />
       <DossierBody
         d={d}
+        connections={connectionsFor(d.slug)}
         after={
           <>
             {event ? (

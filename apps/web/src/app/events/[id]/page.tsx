@@ -5,11 +5,12 @@ import { Suspense } from "react";
 import { EVENTS, KIND_HELP, LINK_WORDS, TYPE_LABELS, getEvent, neighbours } from "@/content/events";
 import { getDriver } from "@/content/drivers";
 import { liveCard } from "@/lib/live";
-import { explainFor } from "@/content/explain";
+import { teaserFor } from "@/content/explainPublic";
 import { FLOW_TEXT, FlowIcon, FuelCard, FuelHeading, Incoming, PulseBadge, WhatChanged } from "@/components/live/Live";
 import FuelRun from "@/components/live/FuelRun";
 import { getDossier, formatDate } from "@/content/dossiers";
 import { DossierBody } from "@/components/dossier/DossierBody";
+import { connectionsFor } from "@/content/connections";
 import { ImpactMeter } from "@/components/dossier/Primitives";
 import GenerateReport from "@/components/reports/GenerateReport";
 import MembersOnly from "@/components/auth/MembersOnly";
@@ -71,8 +72,8 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
                     </p>
                   ) : null}
                   <p className="mt-1 text-[15px] text-ink-2">
-                    {explainFor(e.id, l.event.id)?.hook ?? l.why}{" "}
-                    {explainFor(e.id, l.event.id) ? <a href="#how-it-connects" className="whitespace-nowrap text-teal hover:underline">How it unfolds →</a> : null}
+                    {teaserFor(e.id, l.event.id)?.hook ?? l.why}{" "}
+                    {teaserFor(e.id, l.event.id) ? <a href="#how-it-connects" className="whitespace-nowrap text-teal hover:underline">How it unfolds →</a> : null}
                   </p>
                   {driver ? <p className="mt-1 text-sm text-ink-3">Driver: <span className="text-ink">{driver.name}</span>. {driver.what}</p> : null}
                 </div>
@@ -103,7 +104,7 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
         </div>
         {report ? (
           <div className="mt-8">
-            <DossierBody d={report} backHref="/events" backLabel="All events" />
+            <DossierBody d={report} backHref="/events" backLabel="All events" connections={connectionsFor(report.slug)} />
           </div>
         ) : null}
       </section>

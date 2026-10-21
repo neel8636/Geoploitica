@@ -1,6 +1,7 @@
 import Link from "next/link";
 import FuelSpine from "@/components/dossier/FuelSpine";
 import HowItConnects from "@/components/dossier/HowItConnects";
+import type { ConnRow } from "@/content/connections";
 import type { Dossier } from "@/content/types";
 import { formatDate } from "@/content/format";
 import RippleMap from "@/components/RippleMap";
@@ -47,7 +48,7 @@ export const dossierLayers = [
 
 const LOCKED = ["brief", "what-happened", "why-it-matters", "winners-losers", "whats-next", "deep", "timeline", "causes", "markets", "stakeholders", "industries", "daily-life", "scenarios", "countermeasures", "analogues", "watch"];
 
-export function DossierBody({ d, backHref = "/events", backLabel = "All events", path }: { d: Dossier; backHref?: string; backLabel?: string; path?: string }) {
+export function DossierBody({ d, backHref = "/events", backLabel = "All events", path, connections }: { d: Dossier; backHref?: string; backLabel?: string; path?: string; connections?: ConnRow[] }) {
   const S = d.evidence.sources;
   const errorUrl = reportErrorUrl(d.title, path ?? `/dossiers/${d.slug}/`);
   const points = [
@@ -135,7 +136,7 @@ export function DossierBody({ d, backHref = "/events", backLabel = "All events",
           </div>
         </section>
 
-        <HowItConnects eventId={d.slug} />
+        <HowItConnects rows={connections} />
 
         {/* Layers 2 and 3 need a free account; the card above and the evidence below are open. */}
         <MembersOnly title="Read the full report, free" points={points} anchors={LOCKED}>

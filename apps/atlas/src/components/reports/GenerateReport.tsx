@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import type { Dossier } from "@/content/types";
 import { DossierBody } from "@/components/dossier/DossierBody";
 import { useAuth } from "@/components/auth/AuthProvider";
-import { REPORT_SIZES, type ReportSize } from "@/content/drafting";
+import { REPORT_SIZES, type ReportSize } from "@/content/reportSizes";
 import { ASPECTS, type Aspect, type Family } from "@/content/fueling";
 import { FamIcon } from "@/components/mapfirst/MapFirst";
 
