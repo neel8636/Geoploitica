@@ -1117,5 +1117,141 @@
         ]
       }
     ]
+  },
+  "italy-cost-of-living-riots": {
+    "at": "2026-10-21T15:00:54.959Z",
+    "by": "pipeline",
+    "items": []
+  },
+  "russia-record-budget-deficit-2026": {
+    "at": "2026-10-21T15:00:54.959Z",
+    "by": "pipeline",
+    "items": [
+      {
+        "id": "65-regions-plan-cuts-amid-10-5bn-deficit",
+        "title": "65 regions plan cuts amid $10.5bn deficit",
+        "when": "2026-10-21",
+        "place": "Russian regions",
+        "lat": 56,
+        "lon": 40,
+        "what": "Russia's regions face a combined $10.5 billion budget deficit, and 65 of them are preparing spending cuts, adding strain on public finances.",
+        "via": "regional fiscal strain",
+        "aspect": "budget",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Russia Faces $10.5 Billion Regional Budget Deficit as 65 Regions Prepare Spending Cuts",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYm92MURBTE9reEZVZHMtejREQWQ3VGdMUXdQSTc5VGo1dWdGWXdkOVFhQmFnYnFOcHI4WFVXUm1IX29BWXFDSzJJeHZ1N2tUUXFsSWFsdzdQN2tlc1VfN25YSU9WbGFNTFJ3SjZtVDhjQVdHand6NFZDbUZhV05qLWNkVW5yMVpneENKZER3X3dtdVF2b0M1VE1ydlk5S01fQ1o2WVc0WEZmREdaNXFhWmtRZUFQSkF2VnJ2X05WRQ?oc=5",
+            "publisher": "UNITED24 Media"
+          }
+        ]
+      },
+      {
+        "id": "social-spending-cut-to-fund-war",
+        "title": "Social spending cut to fund war",
+        "when": "2026-10-21",
+        "place": "Moscow",
+        "lat": 55.75,
+        "lon": 37.62,
+        "what": "Russia is again cutting social spending to pay for its war in Ukraine, shifting public money toward the military.",
+        "via": "war spending priority",
+        "aspect": "budget",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Butter melted down into guns: Russia is once again cutting social spending to pay for its war in Ukraine",
+            "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB4NGpicWdOMWYwWlp4SUIydWU0dW9Sb2FTSDkyRzlRMUp6OUU0eFFzOE51ald1QldOMjdydGJHTTZuUnRDMXptSVJjR3NXZ1FKLUE?oc=5",
+            "publisher": "https://theins.press/en"
+          }
+        ]
+      }
+    ]
+  },
+  "china-q3-growth": {
+    "at": "2026-10-21T15:00:54.959Z",
+    "by": "pipeline",
+    "items": [
+      {
+        "id": "woodworking-machinery-exports-rise-6-6",
+        "title": "Woodworking machinery exports rise 6.6%",
+        "when": "2026-10-21",
+        "place": "China",
+        "lat": 35,
+        "lon": 105,
+        "what": "China's woodworking machinery exports rose 6.6% in the third quarter, adding to the export gains behind the faster growth.",
+        "via": "higher machinery export sales",
+        "aspect": "trade",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "China\"s woodworking machinery exports rise 6.6% in third quarter",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNb19NQ1FnM2dHQ0R5MTRsQUI0N0hiN2JUcUJQOXdiYUZEQTVFOEdoWjNhUFNYeDNEbzc2bm5kS25ROWZxdFYwLUZDT3VVbGJVQ2k2alVHbmIxcnl4U2d6T2hUM1JxS0RKd0JlM29WUjZaa0ZVSTdKTDBlVFBwRFJRQ2NnN2c2c2JZZ0wwLUpfcFFfWUZyel9kbVZtdEJmVmdhbHdUZQ?oc=5",
+            "publisher": "Lesprom Network"
+          }
+        ]
+      },
+      {
+        "id": "chip-export-boom-with-south-korea",
+        "title": "Chip export boom with South Korea",
+        "when": "2026-10-21",
+        "place": "China and South Korea",
+        "lat": 37.5,
+        "lon": 127,
+        "what": "A boom in chip exports is deepening China's trade complementarity with South Korea, according to a Global Times editorial.",
+        "via": "chip export earnings",
+        "aspect": "trade",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "GT Voice: Chip export boom reveals deepening China-South Korea complementarity",
+            "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9EYkc4bTd3elVDeTRkY0pYenNILWstMHgycUpPdGpzQUczN09CZHJyV3k1Zl96NUVEWVhsaHJla2d1RVR4UGthM2w2dDhQcUpIZEJiRUZDNmdpdFhvZTJNaW53?oc=5",
+            "publisher": "Global Times"
+          }
+        ]
+      },
+      {
+        "id": "china-restarts-acid-exports",
+        "title": "China restarts acid exports",
+        "when": "2026-10-21",
+        "place": "China",
+        "lat": 35,
+        "lon": 105,
+        "what": "China restarted acid exports to a top source of US refined copper, reopening an outbound trade flow.",
+        "via": "resumed commodity export flows",
+        "aspect": "trade",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "China Restarts Acid Exports to Top US Refined Copper Source",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQc1cxeE1Hdl9PUl9VZzVDcG9XdVV0VkZEemxKalJKeFVtZ1ZJS0c3emtfVHV3NGxZaWpRTkh0QnRLSnpqMGJNbkZka2VnbV9XMUQzLWlZdW1MMDhrbEZzaFUzRXRwY1cwVTE3bXZLLWNad0tsaXV2UjlRY2JJbzBaVlVEdXl5MkFZOU9MeUsyUV9SMWhnZzg4OEJVTHd0WTByVC02ZmsyWEpPS1l3N09r?oc=5",
+            "publisher": "Environment+Energy Leader"
+          }
+        ]
+      },
+      {
+        "id": "high-tech-manufacturing-drives-third-quarter-growth",
+        "title": "High-tech manufacturing drives third-quarter growth",
+        "when": "2026-10-21",
+        "place": "China",
+        "lat": 31.2,
+        "lon": 121.5,
+        "what": "High-tech manufacturing is described as a key growth engine, alongside exports, in China's steady third-quarter GDP growth.",
+        "via": "high-tech factory output",
+        "aspect": "jobs",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "China Q3 GDP: Steady Growth on Exports, High-Tech Manufacturing; Policy Support Key - News and Statistics",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOU01X3Y1UWNYT0s0UWJPR0dUNU1GTHRRVUJpZ3BEejNhd3E3WTRuakRJNUFOVlUtS0dWY3NOeEdSaktYb0plRUJDX0dGSlVMaTY3V0UwcjZYNkFQektzbzZCX0ZWMkVEZTVsRDlSSEdkVVN0NC1EcmRBWWM4OUhmdlNYRWhFS20wYkxzSndhaUFPZG8wem9ySFZJX0YxbXlITkhCb28yMkNHdEFOdC10VkJROWswTEU?oc=5",
+            "publisher": "IndexBox"
+          },
+          {
+            "title": "China Economy: High-tech manufacturing a key growth engine",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAtVDVMNFVBOWV2RlM1TTBiUHVPQWo3VDBPdC1TbXFNa3JNby1OdjBENmdhXzgyTEltNzR3MG5hbFdjNGtpWG1GY1B5WTJFVUlraGJnbmxCdTN4a19OQWU3ZHg5b3FuVjJEOWRYYmlMclFGa2k5ZTNsSw?oc=5",
+            "publisher": "CGTN"
+          }
+        ]
+      }
+    ]
   }
 }
