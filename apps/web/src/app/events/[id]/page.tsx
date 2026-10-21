@@ -131,7 +131,9 @@ async function LiveFuel({ id }: { id: string }) {
             <ul className="mt-3 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{items.map((f) => <FuelCard key={f.id} f={f} />)}</ul>
           </>
         ) : (
-          <p className="mt-3 text-sm text-ink-3">Not mapped yet. Events are mapped once their local news picks up.</p>
+          <p className="mt-3 text-sm text-ink-3">
+            {c?.fuel ? "No clear inputs in the latest local news: most of it is about this event's effects, not what feeds it." : "Not mapped yet. Events are mapped once their local news picks up."}
+          </p>
         )}
         <FuelRun eventId={id} hasItems={items.length > 0} />
       </section>

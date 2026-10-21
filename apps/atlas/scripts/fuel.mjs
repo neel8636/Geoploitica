@@ -71,10 +71,11 @@ for (const { e, h } of picked) {
     const body = await res.json();
     const text = body.content.filter((c) => c.type === "text").map((c) => c.text).join("");
     const items = finishFuel(JSON.parse(extractJson(text)), e, h);
-    if (!items.length) throw new Error("no small events backed by the headlines");
+    // an empty answer is an answer: the latest news holds no clear inputs. Kept, so the event
+    // waits the usual 12 hours instead of being asked again (and paid for) every run.
     fuel[e.id] = { at: new Date(now).toISOString(), by: "pipeline", items };
     ok++;
-    console.log(`  ✓ ${e.id}: ${items.map((i) => i.title).join(" | ")}`);
+    console.log(`  ✓ ${e.id}: ${items.length ? items.map((i) => i.title).join(" | ") : "no clear inputs in the latest news"}`);
   } catch (err) {
     console.log(`  ✗ ${e.id}: ${err.message}`);
   }

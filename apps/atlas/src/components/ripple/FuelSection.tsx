@@ -82,7 +82,9 @@ export default function FuelSection({ eventId, initial, compact = false }: { eve
           ))}
         </ul>
       ) : (
-        <p className="mt-3 text-sm text-ink-3">Not mapped yet. Events are mapped once their local news picks up.</p>
+        <p className="mt-3 text-sm text-ink-3">
+          {set ? "No clear inputs in the latest local news: most of it is about this event's effects, not what feeds it." : "Not mapped yet. Events are mapped once their local news picks up."}
+        </p>
       )}
 
       <div className="mt-3 flex flex-wrap items-center gap-3 text-sm">
