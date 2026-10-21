@@ -53,9 +53,8 @@ export default function RippleMap({ centre, rings, compact = false }: Props) {
         className="mx-auto block w-full max-w-[600px]"
         fontFamily="var(--font-sans)"
       >
-        <title id={`${id}-title`}>
-          Ripple map: {centre}, with {rings.length} rings of effects
-        </title>
+        {/* one string: React renders a <title> with several children as empty on the server */}
+        <title id={`${id}-title`}>{`Ripple map: ${centre}, with ${rings.length} rings of effects`}</title>
         {rings.map((ring, ri) => {
           const r = innerR + step * (ri + 1);
           // ring labels sit at the top of each ring; dots start at -54 degrees so none lands there

@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { EVENTS, TYPE_LABELS, allEdges } from "@/content/events";
 import { getDossier, formatDate } from "@/content/dossiers";
+import { Suspense } from "react";
+import { liveCards } from "@/lib/live";
+import { PulseBadge } from "@/components/live/Live";
 
 export const metadata: Metadata = { title: "Events" };
 
@@ -29,7 +32,10 @@ export default function EventsPage() {
                 <p>{TYPE_LABELS[e.type]} · {e.region}</p>
               </div>
               <div>
-                <Link href={`/events/${e.id}`} className="font-serif text-2xl hover:underline">{e.title}</Link>
+                <div className="flex flex-wrap items-center gap-3">
+                  <Link href={`/events/${e.id}`} className="font-serif text-2xl hover:underline">{e.title}</Link>
+                  <Suspense fallback={null}><LivePulse id={e.id} /></Suspense>
+                </div>
                 <p className="mt-1 text-[15px] text-ink-2">{e.summary}</p>
                 <p className="mt-1 text-sm text-ink-3">
                   Severity {e.severity}/5 · {degree(e.id)} connections ·{" "}
@@ -41,5 +47,16 @@ export default function EventsPage() {
         })}
       </ol>
     </div>
+  );
+}
+
+async function LivePulse({ id }: { id: string }) {
+  const c = (await liveCards())[id];
+  if (!c) return null;
+  return (
+    <>
+      <PulseBadge pulse={c.pulse} />
+      {c.fuel?.items.length ? <span className="text-xs text-ink-3">{c.fuel.items.length} small events fueling it</span> : null}
+    </>
   );
 }

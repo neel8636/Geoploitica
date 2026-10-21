@@ -26,11 +26,18 @@
   --focus: #2f6b66;
   --radius: 6px;
   --radius-lg: 12px;
+  /* what a small fueling event moves in: money, goods, people (validated for colour vision deficiency; always with an icon) */
+  --money: #2a78d6;
+  --goods: #eb6834;
+  --people: #1baf7a;
   color-scheme: light;
 }
 
 :root[data-theme="dark"] {
   --paper: #1b1813;
+  --money: #3987e5;
+  --goods: #d95926;
+  --people: #199e70;
   --paper-2: #24201a;
   --ink: #ece4d6;
   --ink-2: #b3a898;
@@ -52,6 +59,9 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
   --paper: #1b1813;
+  --money: #3987e5;
+  --goods: #d95926;
+  --people: #199e70;
   --paper-2: #24201a;
   --ink: #ece4d6;
   --ink-2: #b3a898;
@@ -80,6 +90,9 @@
   --color-line: var(--line);
   --color-line-2: var(--line-2);
   --color-teal: var(--teal);
+  --color-money: var(--money);
+  --color-goods: var(--goods);
+  --color-people: var(--people);
   --color-teal-2: var(--teal-2);
   --color-amber: var(--amber);
   --color-amber-2: var(--amber-2);

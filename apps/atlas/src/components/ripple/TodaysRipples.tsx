@@ -7,6 +7,7 @@ import RippleMap from "@/components/RippleMap";
 import { ImpactMeter } from "@/components/dossier/Primitives";
 import { TRUST_LABEL } from "@/components/ripple/RipplePostcard";
 import { useRipple } from "@/components/ripple/RippleProvider";
+import { AspectBadge } from "@/components/ripple/Aspect";
 
 /*
   Today's ripples: the few events the news is moving on right now, re-ranked on every hourly
@@ -94,6 +95,22 @@ export default function TodaysRipples({ cards, wireFetchedAt }: { cards: RippleC
             <span className={c.trust === "auto" ? "text-amber" : "text-teal"}>{TRUST_LABEL[c.trust]}</span>
             {c.fresh ? <> · {c.fresh} new headline{c.fresh === 1 ? "" : "s"} in 48 hours</> : null}
           </p>
+          {c.fuel?.items.length ? (
+            <div className="mt-4">
+              <p className="text-xs font-medium uppercase tracking-wide text-ink-2">What&apos;s fueling it</p>
+              <ul className="mt-1.5 space-y-1.5">
+                {c.fuel.items.slice(0, 3).map((f) => (
+                  <li key={f.id} className="flex items-start gap-2 text-sm">
+                    <AspectBadge aspect={f.aspect ?? "politics"} withLabel={false} size={11} />
+                    <span>
+                      <span className="font-medium">{f.title}</span>
+                      {f.via ? <span className="text-ink-2"> · moves in {f.via}</span> : null}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
           <div className="mt-5 flex flex-wrap gap-2">
             <Link href={`/events/${c.id}`} className="rounded-sm bg-teal px-4 py-2 text-paper no-underline hover:opacity-90">Trace the full ripple</Link>
             {ripple ? (
