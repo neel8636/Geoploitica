@@ -51,6 +51,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          # the newest main when the job starts, not when it was queued: a run queued behind
+          # another one would otherwise start from content that run has since rewritten
+          ref: main
           fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
