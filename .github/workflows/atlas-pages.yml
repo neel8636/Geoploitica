@@ -21,6 +21,9 @@ on:
       max_reports:
         description: "Cap on reports drafted in this run (0 = no cap)"
         default: "0"
+      max_plain:
+        description: "Events to (re)write plain-words summaries for in this run"
+        default: "8"
 
 permissions:
   contents: write
@@ -77,6 +80,13 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: npm run explain || echo "explain had failures; publishing what succeeded"
 
+      - name: Write each event's views in plain words
+        if: env.HAS_AUTH == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          INPLAIN_MAX: ${{ github.event.inputs.max_plain || '8' }}
+        run: npm run inplain || echo "plain-words summaries had failures; publishing what succeeded"
+
       - name: Draft reports
         if: env.HAS_AUTH == 'true'
         env:
@@ -97,7 +107,7 @@ jobs:
         run: |
           git config user.name "geopolitica-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add src/content/wire.json src/content/updates.json src/content/fuel.json src/content/fuel-errors.json src/content/explain.json src/content/explain-public.json src/content/plain.json src/content/dossiers
+          git add src/content/wire.json src/content/updates.json src/content/fuel.json src/content/fuel-errors.json src/content/explain.json src/content/explain-public.json src/content/plain.json src/content/inplain.json src/content/dossiers
           if git diff --cached --quiet -- src/content/dossiers; then echo "reports=false" >> "$GITHUB_OUTPUT"; else echo "reports=true" >> "$GITHUB_OUTPUT"; fi
           if git diff --cached --quiet; then
             echo "no content changes"

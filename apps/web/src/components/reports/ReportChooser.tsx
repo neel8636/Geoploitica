@@ -1,15 +1,19 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useRef, useState, type ReactNode } from "react";
-import { BookOpen, Layers, Lock, Newspaper, Sparkles, Waypoints, Zap, type LucideIcon } from "lucide-react";
+import { ArrowRight, BookOpen, Layers, Lock, Newspaper, Sparkles, Waypoints, Zap, type LucideIcon } from "lucide-react";
 import { useAuth } from "@/components/auth/AuthProvider";
 
 /*
-  The event page, reader's choice. Nothing but the event's one-line hook shows until the reader
-  picks how they want to read it: a quick take, how it connects, the brief, the full report, the
-  latest news, or a report built fresh to the size they want. The pick renders right below.
-  The last pick is remembered (in this browser only) so the next event opens the same way, and
-  #read=<id> links straight to a view. SHARED FILE (npm run sync:shared in apps/atlas).
+  The event page, reader's choice. Only the event's one-line hook shows until the reader picks
+  how they want to read it: a quick take, how it connects, the brief, the full report, the
+  latest news, or (the highlighted feature) a report built fresh to the size they want. The pick
+  renders right below, each view opening with a short summary in plain words.
+  Every view needs a free account: a signed-out reader who picks one gets the sign-in right
+  there, and comes back to that same view after signing in (#read=<id>). The last pick is
+  remembered in this browser so the next event opens the same way.
+  SHARED FILE (npm run sync:shared in apps/atlas).
 */
 export type ReadIcon = "quick" | "connect" | "brief" | "full" | "news" | "build";
 export interface ReadOption {
@@ -18,7 +22,7 @@ export interface ReadOption {
   time: string; // "2 min", "about 20 min", "you pick"
   blurb: string; // one short line on what you get
   icon: ReadIcon;
-  members?: boolean; // needs a free account
+  feature?: boolean; // the highlighted one (Build your own)
   view: ReactNode;
 }
 
@@ -71,6 +75,8 @@ export default function ReportChooser({
   }
 
   const chosen = options.find((o) => o.id === pick);
+  const feature = options.find((o) => o.feature);
+  const tiles = options.filter((o) => !o.feature);
 
   return (
     <>
@@ -83,12 +89,35 @@ export default function ReportChooser({
           {actions ? <div className="flex flex-wrap gap-2">{actions}</div> : null}
         </div>
 
-        <p className="mt-5 text-[15px] font-medium">{chosen ? "Read it another way:" : "How do you want to read it?"}</p>
-        <div className="mt-2 grid grid-cols-2 gap-2 sm:grid-cols-3" role="radiogroup" aria-label="Report type">
-          {options.map((o) => {
+        {feature ? (
+          <button
+            type="button"
+            onClick={() => choose(feature.id)}
+            aria-pressed={pick === feature.id}
+            className={`group mt-5 flex w-full flex-col gap-3 rounded-xl border-2 p-4 text-left transition-colors sm:flex-row sm:items-center sm:p-5 ${pick === feature.id ? "border-gold bg-gold/15" : "border-gold bg-gold/10 hover:bg-gold/15"}`}
+          >
+            <span className="hidden h-11 w-11 shrink-0 items-center justify-center rounded-full bg-gold text-paper sm:flex">
+              <Sparkles size={22} aria-hidden />
+            </span>
+            <span className="min-w-0 flex-1">
+              <span className="flex flex-wrap items-center gap-2">
+                <span className="rounded-full bg-gold px-2 py-0.5 text-[10px] font-bold uppercase tracking-[0.12em] text-paper">Feature</span>
+                <span className="text-lg font-semibold leading-tight">{feature.label}</span>
+              </span>
+              <span className="mt-1 block text-[14px] leading-snug text-ink-2">{feature.blurb}</span>
+            </span>
+            <span className="inline-flex shrink-0 items-center gap-1.5 self-start rounded-full bg-gold px-4 py-2 text-sm font-semibold text-paper sm:self-center">
+              {!signedIn ? <Lock size={14} aria-hidden /> : null}
+              Build it <ArrowRight size={16} className="transition-transform group-hover:translate-x-0.5" aria-hidden />
+            </span>
+          </button>
+        ) : null}
+
+        <p className="mt-5 text-[15px] font-medium">{feature ? "Or read what's ready:" : "How do you want to read it?"}</p>
+        <div className="mt-2 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-5" role="radiogroup" aria-label="Report type">
+          {tiles.map((o) => {
             const Icon = ICONS[o.icon];
             const on = o.id === pick;
-            const locked = o.members && !signedIn;
             return (
               <button
                 key={o.id}
@@ -101,7 +130,7 @@ export default function ReportChooser({
                 <span className="flex items-center justify-between gap-2">
                   <Icon size={20} className={on ? "text-gold" : "text-teal"} aria-hidden />
                   <span className="flex items-center gap-1 text-xs text-ink-2">
-                    {locked ? <Lock size={12} aria-label="free account" /> : null}
+                    {!signedIn ? <Lock size={12} aria-label="free account" /> : null}
                     {o.time}
                   </span>
                 </span>
@@ -111,7 +140,14 @@ export default function ReportChooser({
             );
           })}
         </div>
-        {!signedIn ? <p className="mt-3 text-xs text-ink-3"><Lock size={11} className="inline" aria-hidden /> needs a free account</p> : null}
+        {!signedIn && !a.loading ? (
+          <p className="mt-3 text-sm text-ink-2">
+            <Lock size={12} className="mr-1 inline" aria-hidden />
+            Every report needs a free account.{" "}
+            <Link href="/join?mode=signup" className="font-medium underline">Create one</Link> or{" "}
+            <Link href="/join?mode=signin" className="underline">sign in</Link>.
+          </p>
+        ) : null}
       </section>
 
       <div ref={out} id="report" className="scroll-mt-4">
@@ -123,12 +159,42 @@ export default function ReportChooser({
                 Pick another
               </button>
             </div>
-            <div className="mt-4">{chosen.view}</div>
+            <div className="mt-5">
+              {a.loading ? (
+                <p className="py-8 text-center text-ink-2" aria-busy="true">Checking your account…</p>
+              ) : signedIn ? (
+                chosen.view
+              ) : (
+                <SignInFirst option={chosen} />
+              )}
+            </div>
           </section>
         ) : (
           <p className="mt-6 text-center text-sm text-ink-3">Pick one above and it appears here.</p>
         )}
       </div>
     </>
+  );
+}
+
+/* What a signed-out reader sees after picking: what the view holds, and the way in. */
+function SignInFirst({ option }: { option: ReadOption }) {
+  const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+  const here = typeof window === "undefined" ? "" : window.location.pathname.replace(base, "") + window.location.search + `#read=${option.id}`;
+  const next = here ? `&next=${encodeURIComponent(here)}` : "";
+  const Icon = ICONS[option.icon];
+  return (
+    <div className="mx-auto max-w-xl rounded-2xl border-2 border-teal/40 bg-paper p-6 text-center">
+      <span className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-paper-2">
+        <Icon size={24} className="text-gold" aria-hidden />
+      </span>
+      <h2 className="mt-3 text-2xl">Sign in to open {option.label}</h2>
+      <p className="mt-2 text-[15px] text-ink-2">{option.blurb} It&apos;s free, with no ads; we keep reports for signed-in readers because each one costs us to write.</p>
+      <p className="mt-4 flex flex-wrap justify-center gap-2">
+        <Link href={`/join?mode=signup${next}`} className="inline-flex items-center rounded-sm bg-teal px-4 py-2 font-semibold text-paper no-underline hover:opacity-90">Create a free account</Link>
+        <Link href={`/join?mode=signin${next}`} className="inline-flex items-center rounded-sm border border-line px-4 py-2 no-underline hover:border-ink">Sign in</Link>
+      </p>
+      <p className="mt-3 text-xs text-ink-3">You come straight back to this report after signing in.</p>
+    </div>
   );
 }

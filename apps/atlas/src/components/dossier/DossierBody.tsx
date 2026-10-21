@@ -43,6 +43,7 @@ export function DossierBody({
   connections,
   parts,
   embedded = false,
+  noSummary = false,
 }: {
   d: Dossier;
   backHref?: string;
@@ -52,6 +53,7 @@ export function DossierBody({
   connections?: ConnRow[];
   parts?: ChapterId[]; // only these chapters (the reader picked a shorter report); default all
   embedded?: boolean; // inside an event page's report chooser, which already shows the title
+  noSummary?: boolean; // the page already opens with a plain-words summary; skip "In three points"
 }) {
   const S = d.evidence.sources;
   const conns = connections ?? [];
@@ -90,7 +92,7 @@ export function DossierBody({
         {chapters.length > 2 ? <ChapterBar chapters={chapters} /> : null}
 
         {/* the whole report in three points */}
-        {has("card") ? <div className="mt-6 rounded-2xl border border-gold/60 bg-paper-2 p-5">
+        {has("card") && !noSummary ? <div className="mt-6 rounded-2xl border border-gold/60 bg-paper-2 p-5">
           <p className="text-[12px] font-semibold uppercase tracking-[0.12em] text-gold">In three points</p>
           <ol className="mt-3 space-y-3">
             {three.map((t, i) => (

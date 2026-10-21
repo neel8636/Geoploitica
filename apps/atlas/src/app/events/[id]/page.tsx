@@ -17,9 +17,11 @@ import { plainHeadline } from "@/content/plain";
 import { DossierBody } from "@/components/dossier/DossierBody";
 import { connectionsFor } from "@/content/connections";
 import HowItConnects from "@/components/dossier/HowItConnects";
-import MembersOnly from "@/components/auth/MembersOnly";
 import ReportChooser, { type ReadOption } from "@/components/reports/ReportChooser";
-import { ImpactMeter, Signpost } from "@/components/dossier/Primitives";
+import { ImpactMeter } from "@/components/dossier/Primitives";
+import { Fold } from "@/components/dossier/ReportParts";
+import { PlainBox, QuickBox } from "@/components/reports/PlainBox";
+import { connectInPlain, quickPoints, reportInPlain } from "@/content/inplain";
 import { SITE_URL, reportErrorUrl } from "@/lib/site";
 
 // The enterprise server that generates reports on demand (set at build time; empty = not offered).
@@ -70,70 +72,74 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
         { label: "Shared drivers", effects: links.filter((l) => l.kind === "shares_driver" || l.kind === "amplifies" || l.kind === "competes_with").map((l) => ({ text: `${l.event.title}: ${l.why}`, sector: l.event.region })) },
       ].filter((r) => r.effects.length > 0);
 
-  // what the reader can pick from; each view only renders once picked
-  const whatChanged = card?.update ? (
-    <div className="rounded-xl bg-paper-2 px-4 py-3 text-[15px]">
-      <p className="text-[11px] font-semibold uppercase tracking-[0.1em] text-ink-2">What changed · {card.update.at.slice(0, 16).replace("T", " ")} UTC</p>
-      <p className="mt-1">{card.update.text}</p>
-      <p className="mt-1 text-xs text-ink-3">
-        AI summary of{" "}
-        {card.update.sources.map((x, i) => (
-          <span key={x.url}>
-            {i ? ", " : ""}
-            <a href={x.url} target="_blank" rel="noreferrer" className="underline">{x.publisher}</a>
-          </span>
-        ))}
-        . Can be wrong; follow the links.
-      </p>
-    </div>
-  ) : null;
   const errorUrl = reportErrorUrl(e.title, `/events/${e.id}/`);
   const chains = connectionsFor(e.id);
 
+  const quick = quickPoints(e.id);
+  const connect = connectInPlain(e.id);
+  const reportPlain = reportInPlain(e.id);
+  const fuelItems = card?.fuel?.items ?? [];
+  const newsParas = [
+    ...(card?.update ? [card.update.text.replace(/^New since the last line:\s*/i, "").replace(/^./, (x) => x.toUpperCase())] : []),
+    ...fuelItems.slice(0, card?.update ? 2 : 3).map((f) => f.what),
+  ];
+  const ready = dossier && own ? "This event's report" : dossier ? `Part of the report on ${dossier.title}` : "";
+
   const options: ReadOption[] = [
+    ...(REPORT_API
+      ? [
+          {
+            id: "build",
+            label: "Build your own report",
+            time: "you pick",
+            blurb: `Pick Snapshot (3 min), Standard (10 min) or Deep dive (25 min). Claude drafts it from today's news, built around what is fueling ${e.title.length > 40 ? "this event" : e.title}.`,
+            icon: "build" as const,
+            feature: true,
+            view: <BuildCard eventId={e.id} title={e.title} aspects={fuelAspects} api={REPORT_API} existing={Boolean(dossier && own)} hasReport={Boolean(dossier)} bare />,
+          },
+        ]
+      : []),
     {
       id: "quick",
       label: "Quick take",
-      time: "2 min",
-      blurb: "What happened and what it touches, in plain words.",
+      time: "1 min",
+      blurb: "What happened, why it matters, what's next.",
       icon: "quick",
       view: (
-        <div className="space-y-4">
-          <div className="rounded-xl border border-line px-4 py-3 text-[16px]">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.1em] text-ink-2">The facts</p>
-            <p className="mt-1 leading-relaxed">{e.summary}</p>
-          </div>
-          {whatChanged}
-          <RippleStrip eventId={e.id} />
+        <div className="space-y-6">
+          <QuickBox title={e.title} points={quick} />
+          <Fold id="quick-ripple" title="What feeds it and where it ripples" teaser="One card per connection, each with a one-line hook">
+            <RippleStrip eventId={e.id} />
+          </Fold>
+          <Fold id="quick-facts" title="The full facts" teaser="The event summary in full">
+            <p className="text-[16px] leading-relaxed">{e.summary}</p>
+          </Fold>
         </div>
       ),
     },
     {
       id: "connect",
       label: "How it connects",
-      time: "4 min",
-      blurb: "Each link from cause to effect, step by step, on the map.",
+      time: "2 min",
+      blurb: "The chain from cause to effect, in plain words.",
       icon: "connect",
-      members: true,
       view: (
-        <div className="space-y-8">
-          <div className="grid gap-8 lg:grid-cols-2">
+        <div className="space-y-6">
+          {connect ? <PlainBox title={connect.title} paras={connect.paras} /> : <p className="text-ink-2">No connections drafted yet; the hourly run adds them.</p>}
+          {chains.length ? (
             <div>
-              <Signpost>Where it sits</Signpost>
-              <div className="mt-2 rounded-lg border border-line p-2">
+              <p className="mb-2 text-[13px] font-semibold uppercase tracking-[0.08em] text-ink-2">Each link, step by step</p>
+              <HowItConnects rows={chains} />
+            </div>
+          ) : null}
+          <Fold id="connect-map" title="See it on the map" teaser="Where it sits, and how far it spreads in rings">
+            <div className="grid gap-8 lg:grid-cols-2">
+              <div className="rounded-lg border border-line p-2">
                 <WorldMap focusId={e.id} compact pulse={pulseMap()} fuel={fuelDots()} />
               </div>
+              <div>{rings.length ? <RippleMap centre={e.title} rings={rings} compact /> : <p className="text-ink-2">No ripple recorded yet.</p>}</div>
             </div>
-            <div>
-              <Signpost>How far it spreads</Signpost>
-              <div className="mt-2">
-                {rings.length ? <RippleMap centre={e.title} rings={rings} compact /> : <p className="text-ink-2">No ripple recorded yet.</p>}
-              </div>
-            </div>
-          </div>
-          <MembersOnly title="Sign in to read every connection step by step" points={["Each link from cause to effect", "What to watch on each one"]} compact>
-            {chains.length ? <HowItConnects rows={chains} /> : <p className="text-ink-2">No connections drafted yet; the hourly run adds them.</p>}
-          </MembersOnly>
+          </Fold>
         </div>
       ),
     },
@@ -143,23 +149,26 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
             id: "brief",
             label: "The brief",
             time: `${dossier.readingMinutes.card + dossier.readingMinutes.brief} min`,
-            blurb: "The key number, who wins and loses, what comes next.",
+            blurb: "Who wins, who loses, what comes next.",
             icon: "brief" as const,
-            members: true,
-            view: <DossierBody d={dossier} embedded parts={["card", "brief"]} errorUrl={errorUrl} />,
+            view: (
+              <div className="space-y-2">
+                {reportPlain ? <PlainBox title={reportPlain.title} paras={reportPlain.paras} kicker={ready} /> : null}
+                <DossierBody d={dossier} embedded noSummary={Boolean(reportPlain)} parts={["card", "brief"]} errorUrl={errorUrl} />
+              </div>
+            ),
           },
           {
             id: "full",
             label: "Full report",
-            time: `about ${dossier.readingMinutes.card + dossier.readingMinutes.brief + dossier.readingMinutes.deep} min`,
-            blurb: "Everything: scenarios with odds, players, evidence.",
+            time: `${dossier.readingMinutes.card + dossier.readingMinutes.brief + dossier.readingMinutes.deep} min`,
+            blurb: "Scenarios with odds, the players, the evidence.",
             icon: "full" as const,
-            members: true,
             view: (
-              <>
-                {!own ? <p className="text-[15px] text-ink-2">This event is one thread of <em>{dossier.title}</em>; the report covers it in context.</p> : null}
-                <DossierBody d={dossier} embedded errorUrl={errorUrl} connections={connectionsFor(dossier.slug)} />
-              </>
+              <div className="space-y-2">
+                {reportPlain ? <PlainBox title={reportPlain.title} paras={reportPlain.paras} kicker={ready} /> : null}
+                <DossierBody d={dossier} embedded noSummary={Boolean(reportPlain)} errorUrl={errorUrl} connections={connectionsFor(dossier.slug)} />
+              </div>
             ),
           },
         ]
@@ -167,19 +176,22 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
     {
       id: "news",
       label: "Latest news",
-      time: "3 min",
-      blurb: "What is feeding it today, the wire and the sources.",
+      time: "2 min",
+      blurb: "What moved today, and the headlines.",
       icon: "news",
       view: (
-        <div className="space-y-10">
-          {whatChanged}
-          <div className="rounded-lg border border-line bg-paper-2 p-5">
+        <div className="space-y-6">
+          {newsParas.length ? (
+            <PlainBox title={`What's moving on ${e.title.length > 50 ? "this event" : e.title} today`} paras={newsParas} chain={false} kicker={card?.update ? `In plain words · ${card.update.at.slice(0, 16).replace("T", " ")} UTC` : "In plain words"} />
+          ) : (
+            <p className="text-ink-2">Nothing new in the latest run.</p>
+          )}
+          <Fold id="news-fuel" title="What's fueling it" teaser={fuelItems.length ? `${fuelItems.length} smaller events in the local news` : "Map it from the latest news"}>
             <FuelSection eventId={e.id} initial={card?.fuel} />
-          </div>
+          </Fold>
           {headlines.length ? (
-            <div>
-              <h2 className="text-2xl">On the wire</h2>
-              <ul className="mt-3 divide-y divide-line-2 border-t border-line text-[15px]">
+            <Fold id="news-wire" title="On the wire" teaser={`${headlines.length} recent headlines`}>
+              <ul className="divide-y divide-line-2 text-[15px]">
                 {headlines.map((h) => (
                   <li key={h.id} className="py-2.5">
                     <a href={h.url} target="_blank" rel="noreferrer" className="hover:underline">{h.title}</a>
@@ -187,25 +199,14 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
                   </li>
                 ))}
               </ul>
-            </div>
+            </Fold>
           ) : null}
-          <Sources e={e} errorUrl={errorUrl} />
+          <Fold id="news-sources" title="Sources" teaser={`${e.sources.length} sources behind the facts`}>
+            <Sources e={e} errorUrl={errorUrl} />
+          </Fold>
         </div>
       ),
     },
-    ...(REPORT_API
-      ? [
-          {
-            id: "build",
-            label: dossier ? "Build my own" : "Build the report",
-            time: "you pick",
-            blurb: "Snapshot, standard or deep dive, drafted fresh by Claude.",
-            icon: "build" as const,
-            members: true,
-            view: <BuildCard eventId={e.id} title={e.title} aspects={fuelAspects} api={REPORT_API} existing={Boolean(dossier && own)} hasReport={Boolean(dossier)} bare />,
-          },
-        ]
-      : []),
   ];
 
   return (
@@ -231,8 +232,7 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
 function Sources({ e, errorUrl }: { e: NonNullable<ReturnType<typeof getEvent>>; errorUrl: string }) {
   return (
     <div>
-      <h2 className="text-2xl">Sources</h2>
-      <ol className="mt-3 list-decimal space-y-1 pl-5 text-[15px]">
+      <ol className="list-decimal space-y-1 pl-5 text-[15px]">
         {e.sources.map((s) => (
           <li key={s.url}>
             <a href={s.url} target="_blank" rel="noreferrer" className="hover:underline">{s.title}</a>
