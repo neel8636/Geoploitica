@@ -1248,5 +1248,273 @@
         ]
       }
     ]
+  },
+  "italy-cost-of-living-riots": {
+    "at": "2026-10-21T15:49:55.072Z",
+    "by": "pipeline",
+    "items": [
+      {
+        "id": "probe-into-russian-agents-role-in-riots",
+        "title": "Probe into Russian agents' role in riots",
+        "when": "2026-10-21",
+        "place": "Milan",
+        "lat": 45.46,
+        "lon": 9.19,
+        "what": "Italian authorities are looking into whether Russian agents helped fuel the riots in Milan, according to Bloomberg.",
+        "via": "suspected foreign agitation",
+        "aspect": "security",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Italy Is Looking Into Whether Russian Agents Helped Fuel Riots",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbmV5YkVaUjhCb2RCcWdoS2ozYnNydWF4R1JWUkxyVXREZW5uX0x3WXlsaEtab1hwWjV1ZjRjWnpQVG42d0d2OGRHTklrbmJ4V2VJVHo3OVdnSHlUcENPbHJRSzhCeHNsRTJtMklhcWdLNndIa3dfMUFiMF9aOVR6c1hzNnVqM0M3ZUtLVXlFV1NfNVhIZEZyU3ZLRXhMMDIyWGtIQi1YLW1SRWhuUWN5czlRcw?oc=5",
+            "publisher": "Bloomberg.com"
+          }
+        ]
+      }
+    ]
+  },
+  "eu-supply-chain-rules-2027": {
+    "at": "2026-10-21T15:49:55.072Z",
+    "by": "pipeline",
+    "items": [
+      {
+        "id": "us-lobbying-campaign-targets-eudr",
+        "title": "US lobbying campaign targets EUDR",
+        "when": "2026-10-21",
+        "place": "Washington, DC",
+        "lat": 38.9,
+        "lon": -77.04,
+        "what": "A campaign group reveals a US lobbying blitz aimed at destroying the EU anti-deforestation regulation before it applies.",
+        "via": "pressure to weaken the rules",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "US lobbying ‘blitz’ seeks to destroy EU’s anti-deforestation regulation, campaign group reveals",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNM3ZxVDZwZ1JYOGkzTl9HSC1OR2JEaXFLb2Iyb1lYaXo1SHdlUHVteC01N2ZEc3ZQd2RTTVBjSzNJLVZoZlJLd3RqZ1hhYzNMMTBKbFlBdHJvSUQydTZObjlFMVd4aVZZaWpHQ3A5TUwwd0NEZ1IxempXanB1elFWLUtjR3JKbWlLME1PR0ZyeHpTdmwwN01xa1VIVmRJN0VwZHZpeVlFVTI3a2NLbG8zY3B3OGpOMEE?oc=5",
+            "publisher": "The Grocer"
+          }
+        ]
+      },
+      {
+        "id": "vietnam-publishes-forest-boundary-maps",
+        "title": "Vietnam publishes forest boundary maps",
+        "when": "2026-10-20",
+        "place": "Hanoi, Vietnam",
+        "lat": 21.03,
+        "lon": 105.85,
+        "what": "Vietnam released forest boundary maps as a data foundation to help exporters and businesses meet EUDR compliance requirements.",
+        "via": "supplier traceability data",
+        "aspect": "trade",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Việt Nam releases forest map as a data foundation to support EUDR compliance",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbzNwMjJPMjkyVTZtdUllOENpZmd3cExqblN2S0wtOUdnbnFnbDV1b0JVU1JQOEhYZVJMd0t6MFA0WW44cnVQTjRFRkQ0MEQ1NERwQ1RBMXdjMEg5MUpLS2ozSVowNE5jbzV5aEdLUk5fQkg0UlJ5N0p3TEIzRnpvUnM4Tk1ZZVJvSVc0TnpDOC1yY0plXzZpZ3FNV04taDFHZXo1XzFqc2l2QTdKTlFGaGFCX0Z4VmQ0RXpxRA?oc=5",
+            "publisher": "vietnamnews.vn"
+          },
+          {
+            "title": "Publication of forest boundary maps: A database to support businesses in meeting EUDR regulations.",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRGVQQk9PdFROV3psMDhMNXVFTTNNYWdCVTNVSTBFQXFKUVVmQ0pra1BjQUwzcU5ER1VlZDVOTXUtMEU4UGk4Vm1RWnBRdzcyTlNWenpwY2Y5Ukl4QXNGQllzaHhyOXZDZEQ2cE9TemNzVjZvTEFQNUdhWElhb3k1UTJqRW9qRWFJWm9tdTJlT2dUU3BOZmdBVDFXNG1vRDVCWGhLQURoQ2dCV0g4REVLbA?oc=5",
+            "publisher": "Vietnam.vn"
+          },
+          {
+            "title": "Publication of forest boundary maps for EUDR implementation.",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNV2ZWWEczUy1wR0p6eFpuMTBpVEg1eGRTWHI1dGxWOGloNUpkUFpyMUtVa3dYMFRVZ1hQSnBvNFNrdkFEZzNKaDNhVTdwcHVJdVhYbE43b19fLThfTHRSc3BuVEFVdFMyR0dFU1pfQjNsV29ERUVxNk9CNGJwdHdiRmFnazk?oc=5",
+            "publisher": "Vietnam.vn"
+          }
+        ]
+      },
+      {
+        "id": "steel-industries-seek-broader-cbam-scope",
+        "title": "Steel industries seek broader CBAM scope",
+        "when": "2026-10-20",
+        "place": "Brussels, Belgium",
+        "lat": 50.85,
+        "lon": 4.35,
+        "what": "European steel and downstream industries urge the broadest possible CBAM extension to downstream products as trilogue talks begin.",
+        "via": "wider CBAM product coverage",
+        "aspect": "trade",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "European steel and downstream industries call for comprehensive EU CBAM expansion",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcFJOSEtCWnJQU21nVnIwRTA2UVRpcFNvNVlmekRTSmRsTjBzYlp5R0tYZDFELWowbmhaU2MtbFV0T0M4aVQxZi0zakQ2djh4cmRLVXk3MVM3bTdma29mSEtHYjV6ZDBBS1IwSkZqMGRoc2IwNkpDT3gzbGw4NmE2N3ZxS2RvVnFHWnpKZ2VZLUNrWDVEVkcxeWw1SFVXSVpmNVN2TDFtdw?oc=5",
+            "publisher": "EUROMETAL"
+          },
+          {
+            "title": "Industries urge ‘broadest possible’ CBAM extension, trilogues begin",
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYVZUMFN0QmZEQlBZTFZtOXJablprSFZ2WVFmS0d4SW5NWWVSTkoyTHRwTkg4LXhWZTZMZ01xcmZjSEl4Y3VnMlFfMnNZWTRUREhvY0szTDJGY1hZV0p5eUh1cUFzWTBDVTJMQ3pTUjVhUnV3ME1mYUlTRTJNeWhmRXRoOE9tU0pYR0ZnMlFvNDQ?oc=5",
+            "publisher": "EUROMETAL"
+          },
+          {
+            "title": "Eurometal urges EU to expand CBAM to downstream products",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSVMwNXVOZzhyYlVKLXFZeWdQSDlDQnd3dDZwQjJ0SFZacmxBNVR2QlA5TWNjeWFvMEVHTHpwQ2tsNlhJbmg1R1RFVWhiWE5CQ2F6OHczSDNsWmRrRXVkT0VQbGppcWdMdjJoM0szbzY1OURSeTVjaG56U3hGMXJmUnRRU0ZGU2FIR2FZa3NqU1NaZw?oc=5",
+            "publisher": "Yieh Corp."
+          }
+        ]
+      },
+      {
+        "id": "ukrainian-business-seeks-cbam-delay-and-special-terms",
+        "title": "Ukrainian business seeks CBAM delay and special terms",
+        "when": "2026-10-20",
+        "place": "Kyiv, Ukraine",
+        "lat": 50.45,
+        "lon": 30.52,
+        "what": "The European Business Association urges Ukraine's Ministry of Economy to press the EU for a CBAM delay and special terms for Ukraine.",
+        "via": "calls for delay and exemptions",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "European Business Association urges stronger push for special CBAM terms for Ukraine",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYzRMc0NGQTRjS3FpVWlhUlhsU25GMVprTk5rMEd5MUdtQ3BXcEJtOGRXbVlQLXZMMnFxaFBheXExQjdQXzU1WFAtbkFMWmlDSFZma0FrTjlZU0xtc1dPb3V5Nm53TEs5aF9EZTRzdWRkWGZTdDU5aFBsbXJ4dTJkRUloYjFWQ0dBR1E3TTNVZV9KNnN1X01BVGIycjVxY05VYXZfMkwwdVFsX2JlNVBCclJ4Zkd1NHc?oc=5",
+            "publisher": "Yieh Corp."
+          },
+          {
+            "title": "The Ministry of Economy should step up its efforts with the EU to delay the CBAM — EBA",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUjNGOXVZR2dKdDlKa3E2TGc5cklLQVlNUVdNeXF3d19tQ2JpWF81OWwwSEVxWlN6R3NZMGdUNWtDZGZpb21Gd2pNbFYwZG9aWURGdHdoVldCa25LVm9Na3JhcC0tazdwSlEzSHZqczJTQndfRXhvTFRTZmVZMWQ2MzVxYnA5RU9OMzNmZFA0M1gxeXdobUZJVkdfczRHQldpVHhYNmhvUzRfT1BHMnNQOGtETEQybGgwOEI4?oc=5",
+            "publisher": "ЭкоПолитика"
+          }
+        ]
+      }
+    ]
+  },
+  "israel-election-2026": {
+    "at": "2026-10-21T15:49:55.072Z",
+    "by": "pipeline",
+    "items": [
+      {
+        "id": "smotrich-offers-winter-minister-post-to-quit",
+        "title": "Smotrich offers Winter minister post to quit",
+        "when": "2026-10-21",
+        "place": "Jerusalem",
+        "lat": 31.77,
+        "lon": 35.21,
+        "what": "Smotrich offered far-right rival Ofer Winter a ministerial post if he leaves the race, but Winter vowed to stay, leaving the right-wing vote split.",
+        "via": "right-wing vote splitting",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Israel Election 2026: Bezalel Smotrich calls on Winter to drop out, offers minister post",
+            "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBObGFxaWRJMDdwVzJUeVNqMkJEczBteFgydTJyVEp4ODhYSUllSmZTckxxa2lxN3hqMWE5QlZMeVB4ZnZsZmtqVUFHYXA5SUxYbEdvX2tXVTc3RDg0NGJfNU04YnI1SklZ?oc=5",
+            "publisher": "The Jerusalem Post"
+          },
+          {
+            "title": "Netanyahu ally Smotrich offers far-right rival ministerial post if he quits race",
+            "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNRmRqX2RnUm5Ua216MHdGSmJJcVJ0X1A0TDNqRnVUQklUQjFKakdrOU5UczlVVDhUeWV4bXlmRXh5Sldta0EySGhMa01pczdPSUVJaUY3RWVvMXl0NkY4cVJ4dXYyVjBlNFRLVjN3Y3RWMHo5NktNc0FUT3NqeHFtbXVPNVdhLWRlZjZfN3lBMlBPUnBRa0E3R3NoTXpsdHZWcVBkTHB0eTNRc0I3NFJlSGdUN2pjelNCcUZsT2lycWJQcllGMGJScFRWVmhreHhubldaUzRYRGJGQUNzcDE0d1hrdGxTMUdPbzhWODNrYVlnRXVfa3hwaGZkYTJramZ5UEZaRnQ0b0c4S196MEw0VWJoMkZOY3BqWkdqVjRBbw?oc=5",
+            "publisher": "Haaretz"
+          },
+          {
+            "title": "Ofer Winter Vows To Stay In Election Race Despite Netanyahu's Calls To Withdraw",
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQc0o1Nk5oQVlVWHZUTkx1SU82YkJieEcyVmhRQW9ZbUJmemVFdUhjakV5ZFB1akRKUTJzRnVWcVF2QU5fZWdiU2VZYWJ1UnI4ZFBuZGEyVlh4eGZ4QXY3X2xpNWhVeTZmcUtWeDlxVVBkZ3Qyc1huSGU2NnNWdnZQbWUzVVhHRjVrcEZLcE0yNzViVk9JZVNLS2dYaHJseUFpaW9WNkV6alhsY2gtZ09OWHpoY3pTc2s2d1dVY1NOaFlIVzR0Y1pETDVNbU1oZw?oc=5",
+            "publisher": "i24NEWS"
+          }
+        ]
+      },
+      {
+        "id": "netanyahu-orders-idf-and-mossad-to-topple-iran-regime",
+        "title": "Netanyahu orders IDF and Mossad to topple Iran regime",
+        "when": "2026-10-21",
+        "place": "Jerusalem",
+        "lat": 31.77,
+        "lon": 35.21,
+        "what": "Netanyahu said toppling Iran's government is the only way to end the threat and ordered the IDF and Mossad to act, keeping the Iran war central to the campaign.",
+        "via": "Iran war as campaign issue",
+        "aspect": "security",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Netanyahu says 'toppling' Iran government only way to end threat",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNVEwYWZTZlpuNWVGSTR0VXdhMDFyYk5PcXhGWWFYRVZfQUQwLXpBd1RNSFYzN3JmM09uM3lPc282R0lBSGg0OWd2U3U3cFBFN0RWM0dLSFdOZ2x0cjRJMFhWcVlwWlZHNmdnTGZZWjF2UkZIeGp1M1JkZG9HOUIyYmxpLXlZcHEwUlFtb0xpUjVEa0tnaXBJTGRPMUVNc3pkQzRtaElDZjE5QdIBrwFBVV95cUxPVVR2TTRUb0xMTnJJcHVqa2tRSjB2YUhyU1NRWU5ycFd0cjNiYWhqa3V0aWU0Y0JzS292VzBZUDIyRVNmZ1hKcmVyRmJoeW5wQlRuSnJKd1dZak9jQ05iR1NKMzFzb3N0UVYxY0tqUlBSY0wyR0Njdjg1NEZaMXdMN3JxREdkc3B1MEFXVHFKa096YVFDTGhHbThIRzBXOUR2M1d5ZVNRdURCZDdqZS1R?oc=5",
+            "publisher": "The Korea Times"
+          },
+          {
+            "title": "Netanyahu says Iran developing ‘weapons of death,’ orders IDF, Mossad to topple regime",
+            "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9kMEw4M2VsWlRDZnZLVGtCT0VmTWpHbkFoTlNtRld5RmlMR2puV0xCQm5TLW4tVjhtaHBtbEVIUEN6Y1B6SW4xcThra2NNUmtCSkw2QmlQbw?oc=5",
+            "publisher": "Ynetnews"
+          }
+        ]
+      },
+      {
+        "id": "arab-voter-turnout-seen-as-decisive",
+        "title": "Arab voter turnout seen as decisive",
+        "when": "2026-10-21",
+        "place": "Nazareth",
+        "lat": 32.7,
+        "lon": 35.3,
+        "what": "Reports say turnout among Arab voters could make or break efforts to unseat Netanyahu, and a top Arab candidate called a Netanyahu win a 'catastrophe'.",
+        "via": "Arab turnout and kingmaker role",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Turnout among Israel’s Arab voters could make or break hopes to unseat Netanyahu",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPR09JVTZRaF9CU21GQ0lIYzRGeWFGTjZJNDV1QjFLeXhtWWNYUFI3RU8xelVvMjZnZEVoVlo3b1VtRjRyZ09NUzVaWnpKQ1E0cFVSeEhfdVhKVUsyRUJVNkdKdXY2Y091Q1VuODd5UEJXazdMR2g2b1V5UF9fN05ZTDBEb2M2a0xYRWxsSGdTN0NiV1J5a0NhYlFlSHpuMHlsZjhOS2VXTzlUS2NFaDJJ0gG0AUFVX3lxTE90ZG9pNjVJb0hIUWx4UnJLWTI5dklkTkUyTnllWUduclhJYWpINkhGV2Y3NlB3UGlsWmNoTWpfZ1BWMXlNemtlY3JxUFU5WWxsMlI2NFp4M3ctWjFPZGhpTm9SUWw0OFl3QXJVOGhzY0VnTTlFeEV0NFd0MjVFYVR1UnN4M095ckpPcXhEYzQycGt1REoySXdnX1Y1Wk9zeGxKcUREX09za1lJeWdWMEtnNTdEcg?oc=5",
+            "publisher": "The Times of Israel"
+          },
+          {
+            "title": "Arab parties could be kingmakers in Israel’s election. Netanyahu has reason to worry",
+            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNS1ZndDZ3LW5kNzlnTVlqVmtkLV9JQmktdXd2ZUZFUmFSZ3lKU3B2YVBBQWZQdE42dUV5ZGNsN2h6ZnlFVjNyanVyejhkYXc2cHVrVS1pNjBQRTdmZDdOeE9IVTBvc0JnUjJCQ0ZQSXh0R3k2ZzE4bTRtZDNLb1kzNDBCSUZWZ29rRWhzNE9CaUl2TTA4SkFvbmpVMTR5UjY0bXRDWFhVdGpTZ0d6VGRIOXlpbk5xNVdXeUtyQXhjSS1lRWliTldqUk9PTDFRV3NUSTNEMThn?oc=5",
+            "publisher": "The Irish Times"
+          },
+          {
+            "title": "Top Arab-Israeli election candidate tells AFP Netanyahu win would be 'catastrophe'",
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSFg1V0w4OHdaXzIwLXdyVW9Ncm1TYmd3M2NtNGMyajNWcE45bWtGVlZ6QkpBMXlZdTBBeGNtaWdnSVVEZU81WDA3OEEzX3lFUXpQTFRIUjdiVVZmdXhOd2JuVUJaZzVrY2FOVmJ5dkpSOU1BY1R0WERKTk1zbnFrSjZQVklXajZodngxaDJxRGtqRVlOdXdYRG9iM3loMmFOQ25yc1lOSXUwOGxqUFpQM016ZTd5Nnpsald1bWhNVDg0cEk?oc=5",
+            "publisher": "Al-Monitor"
+          },
+          {
+            "title": "Top Arab-Israeli election candidate says Netanyahu win would be ‘catastrophe’: Report",
+            "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMlFsQnlfMjNSZzNqaHZwR01kOEFWODlJUjBaTE9yMjNCbWRMdXlUbW1tTHd3ZFdpRjZvWXNDSTBlQS1Fb3hpd2ZZazRqVjE5cGVOQVlGVWZlVERRd2RPeGFQRDNEREtpZFM1ZTAwdDJrRXF2NWxfanB2S2xaTGJ3RzhwRUF5Y1QzeW5pcFUwbndyR0NBRG9CX1NPSjdmMndYU05HTDE0WDRJdEJyX1BaTFpVcHpyVDZKNGpsYWFEaGhpMDNGZk5HcXg2Z3RHN3ZwUExhd21sTEJkM2vSAdsBQVVfeXFMTTJRbEJ5XzIzUmczamh2cEdNZDhBVjg5SVIwWkxPcjIzQm1kTHV5VG1tbUx3d2RXaUY2b1lzQ0kwZUEtRW94aXdmWWs0alYxOXBlTkFZRlVmZVREUXdkT3hhUEQzRERLaWRTNWUwMHQya0VxdjVsX2pwdktsWkxid0c4cEVBeWNUM3luaXBVMG53ckdDQURvQl9TT0o3ZjJ3WFNOR0wxNFg0SXRCcl9QWkxaVXB6clQ2SjRqbGFhRGhoaTAzRmZOR3F4Nmd0Rzd2cFBMYXdtbExCZDNr?oc=5",
+            "publisher": "Al Arabiya English"
+          }
+        ]
+      },
+      {
+        "id": "eisenkot-rules-out-serving-under-netanyahu",
+        "title": "Eisenkot rules out serving under Netanyahu",
+        "when": "2026-10-21",
+        "place": "Tel Aviv",
+        "lat": 32.09,
+        "lon": 34.78,
+        "what": "Gadi Eisenkot, Netanyahu's main rival, said he will not serve in a Netanyahu-led government, which shapes the coalition arithmetic after the vote.",
+        "via": "coalition-building red line",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Netanyahu’s main election rival rules out serving under him",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWnZrVUV1VktUQk5EUVMtZnNLaGs2bExTX2pDLVZVOERnN3hEY1BFVHhzSE9nTzN2RzlOREVnV2ZtcjFZNUFwaHl6MDlKeW4tOUhVUk1WMVZMYkl2QTlCbi1nby1jNDRsMkJsRjB5bklVbkFaUk1VclozQ0J2b0U5ajV0MDZsamRwb19vMEh5S1hqNmRVQUh4al9EdnR5N1VKZkhaYkxsWGRleGF0SkZuUzhjMDFzYW53NkpBRVhB0gG-AUFVX3lxTE1admtVRXVWS1RCTkRRUy1mc0toazZsTFNfakMtVlU4RGc3eERjUEVUeHNIT2dPM3ZHOU5ERWdXZm1yMVk1QXBoeXowOUp5bi05SFVSTVYxVkxiSXZBOUJuLWdvLWM0NGwyQmxGMHluSVVuQVpSTVVyWjNDQnZvRTlqNXQwNmxqZHBvX28wSHlLWGo2ZFVBSHhqX0R2dHk3VUpmSFpiTGxYZGV4YXRKRm5TOGMwMXNhbnc2SkFFWEE?oc=5",
+            "publisher": "Al Arabiya English"
+          },
+          {
+            "title": "Israel Election 2026: Gadi Eisenkot rules out serving in a Netanyahu-led government",
+            "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE41LVdLY0lhWThUR3J3R3ZwQlZBMzNDWEdUR3B0b1ExeklmVmVhVmNpc19PNWJUTzRyMkd0YzNXUnN5ZUhuTWYzc1RrcER1LWhESzJ1NVJ3ZXk4QVF3TW5RMDJPQnN5NVpp?oc=5",
+            "publisher": "The Jerusalem Post"
+          }
+        ]
+      },
+      {
+        "id": "israelis-in-us-fly-home-to-vote",
+        "title": "Israelis in US fly home to vote",
+        "when": "2026-10-21",
+        "place": "United States",
+        "lat": 39.8,
+        "lon": -98.6,
+        "what": "Israelis flying from the US to vote are leaning on a network built during the judicial overhaul protests, adding to opposition-side turnout.",
+        "via": "overseas voters returning",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Israelis flying from US to vote leaning on network built during judicial overhaul protests",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUEdsdmZBczhVYTRxOUQ3VGlNQjN4dDVRcUNYdDE1UlVEQjc2TFNmcG5XcEdCbmlCNlVKdmxtM2xNUnNKREltRXBwNnBDTkFkVkJsbTBRaEF2T3JJcGNDVlE4RlRCVm9MQl9tZVB3c3NjczdkQnV4R2RoVXgtcE5jMG5rbDRoRnowdmJvWkk3SFM0aGd4QWs0NldnQm1BWVJKMVhmZlZEcFNKWDlZcXMyVUp3U2FJdmxWZG9kT0Rn?oc=5",
+            "publisher": "The Times of Israel"
+          }
+        ]
+      }
+    ]
   }
 }
