@@ -22,6 +22,8 @@ const key = process.env.ANTHROPIC_API_KEY;
 const MODEL = process.env.EXPLAIN_MODEL || DEFAULT_MODEL;
 
 const data = JSON.parse(await readFile(FILE, "utf8"));
+const PLAIN = path.join(here, "..", "src", "content", "plain.json");
+const plain = JSON.parse(await readFile(PLAIN, "utf8"));
 const pk = (a, b) => [a, b].sort().join("~");
 const todo = new Map();
 for (const e of EVENTS)
@@ -41,7 +43,32 @@ async function writePublic() {
 const keys = [...todo.keys()].slice(0, 20);
 console.log(`${todo.size} connection(s) without an explanation; drafting ${keys.length}`);
 for (const k of keys) console.log("  " + k);
+const noPlain = EVENTS.filter((e) => !plain[e.id]).slice(0, 10);
+console.log(`${noPlain.length} event(s) without a plain headline`);
 if (DRY) process.exit(0);
+
+// each new event's ripple in one plain sentence: the headline of its page
+if (noPlain.length && key) {
+  const SYS = `Write one plain sentence per event, at most 25 words, saying what feeds the event and what it moves next, from the connections given. It is the headline of the event's page for a smart non-expert. Use only facts given. No em dashes. JSON only: {"items": [{"id": "", "headline": ""}]}`;
+  const mat = noPlain.map((e) => `ID ${e.id}\n${e.title}. ${e.summary}\nCONNECTIONS: ${e.links.map((l) => `${LINK_WORDS[l.kind]} ${getEvent(l.to)?.title ?? l.to}${l.via ? ` via ${l.via}` : ""}`).join("; ")}`).join("\n\n");
+  try {
+    const r = await fetch("https://api.anthropic.com/v1/messages", {
+      method: "POST",
+      headers: { "content-type": "application/json", "anthropic-version": "2023-06-01", "x-api-key": key },
+      body: JSON.stringify({ model: MODEL, max_tokens: 2000, system: SYS, messages: [{ role: "user", content: mat }] }),
+    });
+    if (r.ok) {
+      const b = await r.json();
+      for (const it of JSON.parse(extractJson(b.content.filter((c) => c.type === "text").map((c) => c.text).join(""))).items ?? []) {
+        if (noPlain.some((e) => e.id === it.id) && it.headline) plain[it.id] = String(it.headline).replace(/\s*[—–]\s*/g, ", ").trim().slice(0, 220);
+      }
+      await writeFile(PLAIN, JSON.stringify(plain, null, 2) + "\n");
+      console.log("plain headlines written");
+    }
+  } catch (err) {
+    console.log(`plain headlines failed: ${err.message}`);
+  }
+}
 if (!keys.length || !key) {
   if (!key && keys.length) console.log("no ANTHROPIC_API_KEY: skipping");
   await writePublic();

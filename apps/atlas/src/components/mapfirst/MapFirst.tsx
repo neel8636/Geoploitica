@@ -26,6 +26,7 @@ import land110 from "world-atlas/land-110m.json";
 import { EVENTS, TYPE_LABELS, neighbours, type Flow, type LinkKind, type WorldEvent } from "../../content/events";
 import { ASPECTS, type Aspect, type Family } from "../../content/fueling";
 import { teaserFor } from "../../content/explainPublic";
+import FamIcon from "./FamIcon";
 
 /* ---------- data the page passes in ---------- */
 
@@ -95,13 +96,7 @@ function FamilyDefs() {
     </svg>
   );
 }
-export function FamIcon({ f, size = 24 }: { f: Family; size?: number }) {
-  return (
-    <span className="inline-flex shrink-0 items-center justify-center rounded-full text-white" style={{ background: FCOL(f), width: size, height: size }} aria-hidden>
-      <svg width={size * 0.58} height={size * 0.58}><use href={`#mf-${f}`} /></svg>
-    </span>
-  );
-}
+export { FamIcon };
 
 /* ---------- geometry, computed once ---------- */
 
@@ -397,9 +392,14 @@ export default function MapFirst(props: MapFirstProps) {
     if (height === null) return;
     if (opened.current) return;
     opened.current = true;
+    // arriving from another page with a hash: start at the top, with the map in full view
+    if (/(event|conn)=/.test(window.location.hash)) window.scrollTo(0, 0);
     const m = window.location.hash.match(/event=([\w-]+)/);
     if (m && G.at[m[1]]) { const id = m[1]; setTimeout(() => select(id), 300); }
-  }, [height, G, select]);
+    // a link from an event page can open one connection: /#conn=<a>~<b>
+    const c = window.location.hash.match(/conn=([\w-]+)~([\w-]+)/);
+    if (c && G.at[c[1]] && G.at[c[2]]) { const [, a, b] = c; setTimeout(() => openConn(a, b, null), 300); }
+  }, [height, G, select, openConn]);
 
   /* ---- pointer: drag to pan, wheel or pinch to zoom, tap to pick ---- */
   const pts = useRef(new Map<number, [number, number]>());

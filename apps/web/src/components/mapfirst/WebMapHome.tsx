@@ -36,7 +36,7 @@ export default function WebMapHome({
   const a = useAuth();
   const signedIn = !a.enabled || Boolean(a.user && a.profileComplete);
   const eventHref = useCallback((id: string) => `/events/${id}`, []);
-  const reportHref = useCallback((id: string, size: ReportSize) => `/events/${id}?size=${size}#report`, []);
+  const reportHref = useCallback((id: string, size: ReportSize) => `/events/${id}?size=${size}#build`, []);
   return (
     <MapFirst
       fuel={fuel}

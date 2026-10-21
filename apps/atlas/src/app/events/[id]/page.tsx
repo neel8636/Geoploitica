@@ -11,12 +11,12 @@ import { AskButton } from "@/components/ask/AskProvider";
 import { PulseBadge } from "@/components/ripple/Pulse";
 import FuelSection from "@/components/ripple/FuelSection";
 import RippleMap from "@/components/RippleMap";
-import Connections from "@/components/atlas/Connections";
+import RippleStrip from "@/components/dossier/RippleStrip";
+import BuildCard from "@/components/reports/BuildCard";
+import { plainHeadline } from "@/content/plain";
 import { DossierBody } from "@/components/dossier/DossierBody";
 import { connectionsFor } from "@/content/connections";
-import GenerateReport from "@/components/reports/GenerateReport";
 import { ImpactMeter, Signpost } from "@/components/dossier/Primitives";
-import MembersOnly from "@/components/auth/MembersOnly";
 import { SITE_URL, reportErrorUrl } from "@/lib/site";
 
 // The enterprise server that generates reports on demand (set at build time; empty = not offered).
@@ -69,39 +69,59 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
 
   return (
     <article className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
-      <p className="text-sm text-ink-2">
-        <Link href="/" className="hover:underline">Map</Link> · {TYPE_LABELS[e.type]} · {e.region} ·{" "}
-        {e.status === "scheduled" ? `scheduled ${formatDate(e.date)}` : `${e.status}, updated ${formatDate(e.date)}`}
-      </p>
-      <h1 className="mt-1 text-4xl sm:text-5xl">{e.title}</h1>
-      <p className="prose-dossier mt-3 text-ink-2">{e.summary}</p>
-      <div className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-3">
-        <ImpactMeter level={e.severity} />
+      <p className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-ink-2">
+        <span>
+          <Link href="/" className="hover:underline">Map</Link> · {TYPE_LABELS[e.type]} · {e.region} ·{" "}
+          {e.status === "scheduled" ? `scheduled ${formatDate(e.date)}` : `${e.status}, updated ${formatDate(e.date)}`}
+        </span>
         {card ? <PulseBadge pulse={card.pulse} /> : null}
-      </div>
-      <div className="mt-4 flex flex-wrap gap-2">
-        <FollowButton id={e.id} />
-        <AskButton eventId={e.id} />
-      </div>
-      {card?.update ? (
-        <div className="mt-5 max-w-3xl rounded-sm bg-paper-2 px-4 py-3 text-[15px]">
-          <p>
-            <span className="font-medium">What changed · {card.update.at.slice(0, 16).replace("T", " ")} UTC.</span> {card.update.text}
-          </p>
-          <p className="mt-1 text-xs text-ink-3">
-            AI summary of{" "}
-            {card.update.sources.map((x, i) => (
-              <span key={x.url}>
-                {i ? ", " : ""}
-                <a href={x.url} target="_blank" rel="noreferrer" className="underline">{x.publisher}</a>
-              </span>
-            ))}
-            . Can be wrong; follow the links.
-          </p>
+      </p>
+
+      {/* first: build your report */}
+      {REPORT_API ? (
+        <div className="mt-4">
+          <BuildCard eventId={e.id} title={e.title} aspects={fuelAspects} api={REPORT_API} existing={Boolean(dossier && own)} hasReport={Boolean(dossier)} />
         </div>
       ) : null}
 
-      <section className="mt-10 grid gap-10 lg:grid-cols-2">
+      {/* then the ripple, in plain words */}
+      <h1 className="mt-8 max-w-4xl text-[2rem] leading-[1.15] sm:text-[2.6rem]">{plainHeadline(e.id)}</h1>
+      <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2">
+        <p className="text-[15px] text-ink-2"><span className="font-medium text-ink">{e.title}</span></p>
+        <ImpactMeter level={e.severity} />
+      </div>
+      <div className="mt-3 flex flex-wrap gap-2">
+        <FollowButton id={e.id} />
+        <AskButton eventId={e.id} />
+      </div>
+
+      <RippleStrip eventId={e.id} />
+
+      <section className="mt-8 grid gap-4 lg:grid-cols-2">
+        {card?.update ? (
+          <div className="rounded-xl bg-paper-2 px-4 py-3 text-[15px]">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.1em] text-ink-2">What changed · {card.update.at.slice(0, 16).replace("T", " ")} UTC</p>
+            <p className="mt-1">{card.update.text}</p>
+            <p className="mt-1 text-xs text-ink-3">
+              AI summary of{" "}
+              {card.update.sources.map((x, i) => (
+                <span key={x.url}>
+                  {i ? ", " : ""}
+                  <a href={x.url} target="_blank" rel="noreferrer" className="underline">{x.publisher}</a>
+                </span>
+              ))}
+              . Can be wrong; follow the links.
+            </p>
+          </div>
+        ) : null}
+        <div className="rounded-xl border border-line px-4 py-3 text-[15px]">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.1em] text-ink-2">The facts</p>
+          <p className="mt-1 text-ink-2">{e.summary}</p>
+        </div>
+      </section>
+
+      <h2 className="mt-12 text-2xl">More detail</h2>
+      <section className="mt-4 grid gap-10 lg:grid-cols-2">
         <div>
           <Signpost>Where it sits and what it touches</Signpost>
           <div className="mt-2 rounded-lg border border-line p-2">
@@ -119,12 +139,6 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
 
       <section className="mt-10 rounded-lg border border-line bg-paper-2 p-5">
         <FuelSection eventId={e.id} initial={card?.fuel} />
-      </section>
-
-      <section className="mt-10">
-        <h2 className="text-2xl">How it connects to the rest of the world</h2>
-        <p className="prose-dossier mt-1 text-ink-2">Every link carries the sentence that justifies it. If a link looks wrong, the sentence is where to argue.</p>
-        <div className="mt-4"><Connections event={e} /></div>
       </section>
 
       {headlines.length ? (
@@ -164,15 +178,9 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
             This event is one thread of <em>{dossier.title}</em>; the layered report below covers it in context.
           </p>
         ) : null}
-        {REPORT_API ? (
-          <div className="mt-3">
-            <MembersOnly compact title="build a report on this event, at the size you need">
-              <GenerateReport eventId={e.id} existing={Boolean(dossier && own)} api={REPORT_API} aspects={fuelAspects} />
-            </MembersOnly>
-          </div>
-        ) : !dossier ? (
+        {!dossier ? (
           <p className="mt-2 text-[15px] text-ink-2">
-            The hourly run drafts one automatically; by hand, <code className="rounded-sm bg-paper-2 px-1">npm run draft -- {e.id}</code>.
+            No report yet. {REPORT_API ? <a href="#build" className="underline">Build one at the top of the page</a> : "The hourly run drafts one automatically"}.
           </p>
         ) : null}
         {dossier ? (

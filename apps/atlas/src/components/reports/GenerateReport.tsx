@@ -6,7 +6,7 @@ import { DossierBody } from "@/components/dossier/DossierBody";
 import { useAuth } from "@/components/auth/AuthProvider";
 import { REPORT_SIZES, type ReportSize } from "@/content/reportSizes";
 import { ASPECTS, type Aspect, type Family } from "@/content/fueling";
-import { FamIcon } from "@/components/mapfirst/MapFirst";
+import FamIcon from "@/components/mapfirst/FamIcon";
 
 /*
   Generate (or regenerate) the layered report for an event from the page itself.
@@ -25,11 +25,13 @@ export default function GenerateReport({
   existing = false,
   api = "",
   aspects = [],
+  compact = false,
 }: {
   eventId: string;
   existing?: boolean; // a report already shows on this page; offer a refresh instead
   api?: string; // base URL of the enterprise server; empty = same origin
   aspects?: Aspect[]; // what is fueling the event, so the reader sees what the report is built around
+  compact?: boolean; // inside the event page's build card, which already says what the report is built around
 }) {
   const [phase, setPhase] = useState<Phase>("checking");
   const { user } = useAuth();
@@ -138,7 +140,8 @@ export default function GenerateReport({
   return (
     <div>
       {phase !== "done" ? (
-        <div className="rounded-lg border border-line bg-paper-2 p-4 text-[15px]">
+        <div className={compact ? "text-[15px]" : "rounded-lg border border-line bg-paper-2 p-4 text-[15px]"}>
+          {compact ? null : (<>
           <p className="font-medium">{existing ? "Build a fresh report with today's headlines" : "Build the report for this event"}</p>
           <p className="mt-1 text-ink-2">
             Same layers every time (a 30-second card, the brief, the deep dive and the evidence); you choose how deep it goes.
@@ -157,7 +160,8 @@ export default function GenerateReport({
               </div>
             </div>
           ) : null}
-          <div className="mt-3 grid gap-2 sm:grid-cols-3" role="radiogroup" aria-label="Report size">
+          </>)}
+          <div className={`${compact ? "" : "mt-3 "}grid gap-2 sm:grid-cols-3`} role="radiogroup" aria-label="Report size">
             {(Object.keys(REPORT_SIZES) as ReportSize[]).map((k) => {
               const z = REPORT_SIZES[k];
               const on = size === k;
@@ -169,13 +173,13 @@ export default function GenerateReport({
                   aria-checked={on}
                   onClick={() => setSize(k)}
                   disabled={phase === "working"}
-                  className={`rounded-md border p-3 text-left ${on ? "border-teal bg-paper ring-1 ring-teal" : "border-line bg-paper hover:border-ink-3"}`}
+                  className={`rounded-md border text-left ${compact ? "px-3 py-2" : "p-3"} ${on ? "border-teal bg-paper ring-1 ring-teal" : "border-line bg-paper hover:border-ink-3"}`}
                 >
                   <span className="flex items-baseline justify-between gap-2">
                     <span className="font-medium">{z.label}</span>
                     <span className="text-xs text-ink-2">about {z.minutes} min read</span>
                   </span>
-                  <span className="mt-1 block text-[13px] leading-snug text-ink-2">{z.blurb}</span>
+                  <span className={`mt-1 text-[13px] leading-snug text-ink-2 ${compact ? "hidden sm:block" : "block"}`}>{z.blurb}</span>
                 </button>
               );
             })}

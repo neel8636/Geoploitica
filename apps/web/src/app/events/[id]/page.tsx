@@ -2,18 +2,17 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
-import { EVENTS, KIND_HELP, LINK_WORDS, TYPE_LABELS, getEvent, neighbours } from "@/content/events";
-import { getDriver } from "@/content/drivers";
+import { EVENTS, TYPE_LABELS, getEvent, neighbours } from "@/content/events";
 import { liveCard } from "@/lib/live";
-import { teaserFor } from "@/content/explainPublic";
-import { FLOW_TEXT, FlowIcon, FuelCard, FuelHeading, Incoming, PulseBadge, WhatChanged } from "@/components/live/Live";
+import { FuelCard, FuelHeading, Incoming, PulseBadge, WhatChanged } from "@/components/live/Live";
 import FuelRun from "@/components/live/FuelRun";
 import { getDossier, formatDate } from "@/content/dossiers";
 import { DossierBody } from "@/components/dossier/DossierBody";
 import { connectionsFor } from "@/content/connections";
 import { ImpactMeter } from "@/components/dossier/Primitives";
-import GenerateReport from "@/components/reports/GenerateReport";
-import MembersOnly from "@/components/auth/MembersOnly";
+import BuildCard from "@/components/reports/BuildCard";
+import RippleStrip from "@/components/dossier/RippleStrip";
+import { plainHeadline } from "@/content/plain";
 
 export function generateStaticParams() {
   return EVENTS.map((e) => ({ id: e.id }));
@@ -38,50 +37,32 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
         <Link href="/events" className="hover:underline">Events</Link> · {TYPE_LABELS[e.type]} · {e.region} ·{" "}
         {e.status === "scheduled" ? `scheduled ${formatDate(e.date)}` : `${e.status}, updated ${formatDate(e.date)}`}
       </p>
-      <h1 className="mt-1 text-4xl sm:text-5xl">{e.title}</h1>
-      <p className="prose-dossier mt-3 text-ink-2">{e.summary}</p>
-      <div className="mt-4"><ImpactMeter level={e.severity} /></div>
-      <Suspense fallback={null}>
-        <LiveTop id={e.id} />
-      </Suspense>
+
+      {/* first: build your report */}
+      <div className="mt-4">
+        <BuildCard eventId={e.id} title={e.title} aspects={links.filter((l) => l.flow === "in" || l.flow === "both").map((l) => l.aspect)} existing={Boolean(report)} hasReport={Boolean(report)} />
+      </div>
+
+      {/* then the ripple, in plain words */}
+      <h1 className="mt-8 max-w-4xl text-[2rem] leading-[1.15] sm:text-[2.6rem]">{plainHeadline(e.id)}</h1>
+      <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2">
+        <p className="text-[15px] font-medium">{e.title}</p>
+        <ImpactMeter level={e.severity} />
+      </div>
+      <RippleStrip eventId={e.id} />
+      <div className="mt-8 grid gap-4 lg:grid-cols-2">
+        <Suspense fallback={null}>
+          <LiveTop id={e.id} />
+        </Suspense>
+        <div className="rounded-xl border border-line px-4 py-3 text-[15px]">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.1em] text-ink-2">The facts</p>
+          <p className="mt-1 text-ink-2">{e.summary}</p>
+        </div>
+      </div>
 
       <Suspense fallback={null}>
         <LiveFuel id={e.id} />
       </Suspense>
-
-      <section className="mt-10">
-        <h2 className="text-2xl">How it connects to the rest of the world</h2>
-        <p className="mt-1 text-sm text-ink-2">
-          The arrow says which way each ripple travels; the dashed icon means no direction, a shared driver pushes both.
-        </p>
-        <ol className="mt-3 divide-y divide-line-2 border-t border-line">
-          {links.map((l) => {
-            const driver = getDriver(l.driver);
-            return (
-              <li key={l.event.id} className="flex gap-3 py-4">
-                <span title={`${LINK_WORDS[l.kind]}: ${KIND_HELP[l.kind]}`}><FlowIcon flow={l.flow} /></span>
-                <div>
-                  <p className="text-xs uppercase tracking-wide text-ink-2">
-                    {l.kind === "competes_with" ? "Competes with" : FLOW_TEXT[l.flow]} · <span className="normal-case tracking-normal">{TYPE_LABELS[l.event.type]}, {l.event.region}</span>
-                  </p>
-                  <Link href={`/events/${l.event.id}`} className="font-serif text-xl hover:underline">{l.event.title}</Link>
-                  {l.via ? (
-                    <p className="mt-0.5 text-sm">
-                      <span className="text-ink-3">{l.flow === "shared" ? (l.kind === "competes_with" ? "competing for " : "both pushed by ") : "via "}</span>
-                      <span className="font-medium text-teal">{l.via}</span>
-                    </p>
-                  ) : null}
-                  <p className="mt-1 text-[15px] text-ink-2">
-                    {teaserFor(e.id, l.event.id)?.hook ?? l.why}{" "}
-                    {teaserFor(e.id, l.event.id) ? <a href="#how-it-connects" className="whitespace-nowrap text-teal hover:underline">How it unfolds →</a> : null}
-                  </p>
-                  {driver ? <p className="mt-1 text-sm text-ink-3">Driver: <span className="text-ink">{driver.name}</span>. {driver.what}</p> : null}
-                </div>
-              </li>
-            );
-          })}
-        </ol>
-      </section>
 
       <section className="mt-10">
         <h2 className="text-2xl">Sources</h2>
@@ -97,11 +78,7 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
 
       <section id="report" className="mt-12 scroll-mt-6 border-t-2 border-teal pt-8">
         <p className="signpost">{report ? "Full report" : "Report"}</p>
-        <div className="mt-3">
-          <MembersOnly compact title="build a report on this event, at the size you need">
-            <GenerateReport eventId={e.id} existing={Boolean(report)} aspects={links.filter((l) => l.flow === "in" || l.flow === "both").map((l) => l.aspect)} />
-          </MembersOnly>
-        </div>
+        {!report ? <p className="mt-2 text-[15px] text-ink-2">No report yet. <a href="#build" className="underline">Build one at the top of the page</a>.</p> : null}
         {report ? (
           <div className="mt-8">
             <DossierBody d={report} backHref="/events" backLabel="All events" connections={connectionsFor(report.slug)} />
@@ -117,7 +94,7 @@ async function LiveTop({ id }: { id: string }) {
   const c = await liveCard(id);
   if (!c) return null;
   return (
-    <div className="mt-4 max-w-3xl space-y-3">
+    <div className="space-y-3">
       <PulseBadge pulse={c.pulse} />
       {c.update ? <WhatChanged u={c.update} /> : null}
       {c.incoming?.length ? <Incoming items={c.incoming} /> : null}

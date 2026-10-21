@@ -26,7 +26,7 @@ export default function AtlasMapHome({
   const signedIn = !a.enabled || Boolean(a.user && a.profileComplete);
   const loadCards = useCallback(() => loadRipples() as unknown as Promise<Record<string, CardLite>>, []);
   const eventHref = useCallback((id: string) => `${BASE}/events/${id}/`, []);
-  const reportHref = useCallback((id: string, size: ReportSize) => `${BASE}/events/${id}/?size=${size}#report`, []);
+  const reportHref = useCallback((id: string, size: ReportSize) => `${BASE}/events/${id}/?size=${size}#build`, []);
   const actions = useCallback(
     (id: string) => (
       <>
