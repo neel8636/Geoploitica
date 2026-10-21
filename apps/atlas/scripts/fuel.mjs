@@ -64,14 +64,14 @@ if (DRY || !picked.length) process.exit(0);
 
 async function ask(e, h) {
   let res;
-  for (let attempt = 0; attempt < 3; attempt++) {
+  for (let attempt = 0; attempt < 4; attempt++) {
     res = await fetch("https://api.anthropic.com/v1/messages", {
       method: "POST",
       headers: { "content-type": "application/json", "anthropic-version": "2023-06-01", "x-api-key": key },
-      body: JSON.stringify({ model: MODEL, max_tokens: 1500, system: FUEL_SYSTEM, messages: [{ role: "user", content: fuelPrompt(e, h) }] }),
+      body: JSON.stringify({ model: MODEL, max_tokens: 3000, system: FUEL_SYSTEM, messages: [{ role: "user", content: fuelPrompt(e, h) }] }),
     });
     if (res.status !== 429 && res.status < 500) break;
-    await new Promise((r) => setTimeout(r, 4000 * (attempt + 1)));
+    await new Promise((r) => setTimeout(r, 15000 * (attempt + 1)));
   }
   if (!res.ok) throw new Error(`Claude API ${res.status}: ${(await res.text()).slice(0, 160)}`);
   const body = await res.json();
@@ -80,6 +80,7 @@ async function ask(e, h) {
 }
 
 let ok = 0;
+const errors = {};
 for (const { e, h } of picked) {
   try {
     let items = await ask(e, h);
@@ -95,7 +96,10 @@ for (const { e, h } of picked) {
     console.log(`  ✓ ${e.id}: ${items.length ? items.map((i) => i.title).join(" | ") : "no clear inputs in the latest news"}`);
   } catch (err) {
     console.log(`  ✗ ${e.id}: ${err.message}`);
+    errors[e.id] = String(err.message).slice(0, 300);
   }
 }
 await writeFile(path.join(CONTENT, "fuel.json"), JSON.stringify(fuel, null, 2) + "\n");
+// the last run's failures, committed beside the data so they can be read without the CI logs
+await writeFile(path.join(CONTENT, "fuel-errors.json"), JSON.stringify({ at: new Date(now).toISOString(), errors }, null, 2) + "\n");
 console.log(`${ok}/${picked.length} mapped`);
