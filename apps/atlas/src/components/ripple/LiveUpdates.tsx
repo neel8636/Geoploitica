@@ -41,7 +41,7 @@ export default function LiveUpdates({ version, today }: { version: string | null
   return (
     <div role="status" className="fixed left-1/2 top-3 z-50 flex w-[calc(100%-2rem)] max-w-md -translate-x-1/2 items-center gap-3 rounded-full border border-line bg-paper px-4 py-2 text-sm shadow-lg">
       <span className="h-2 w-2 shrink-0 animate-pulse rounded-full bg-teal" aria-hidden />
-      <span className="flex-1">{news.ripplesChanged ? "New headlines, and today's ripples have changed." : "New headlines are in."}</span>
+      <span className="flex-1">{news.ripplesChanged ? "New headlines are in, and today's ripples have changed." : "New headlines are in."}</span>
       <button type="button" onClick={() => location.reload()} className="rounded-full bg-teal px-3 py-0.5 text-paper">Refresh</button>
       <button type="button" onClick={() => setHidden(true)} aria-label="Dismiss" className="text-ink-3 hover:text-ink">✕</button>
     </div>

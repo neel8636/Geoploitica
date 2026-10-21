@@ -28,7 +28,7 @@ const STEPS = [
     target: "today",
     Icon: Waypoints,
     title: "Today's ripples, and your report",
-    body: "The panel lists what the news is moving on now. Open any event to build a report around what is fueling it, at the size you need.",
+    body: "The panel lists the events moving most in the news now. Open any event to build a report around what is fueling it, at the size you need.",
   },
   {
     target: "tracker",

@@ -278,7 +278,7 @@ const COMMON: { cta: string; body: ReactNode }[] = [
         lead="Every dot is a world event that matters now, checked against its sources and refreshed through the day. Everything else opens from the map."
         art={<MapArt />}
         points={[
-          { text: <>{gold("Glowing gold")} dots are severe, pale ones are developing, a {gold("gold ring")} is coming up: a vote, a summit, a deadline. A pulsing ring means its news is rising today.</> },
+          { text: <>{gold("Glowing gold")} dots are severe, pale ones are developing, a {gold("gold ring")} marks one coming up: a vote, a summit, a deadline. A pulsing ring means its news is rising today.</> },
           { text: <>Click or tap a dot and the map {gold("flies to it")}. The panel tells its story: what changed, what is fueling it, and where it ripples next.</> },
           { text: <>Drag to move. Scroll, pinch or double-tap to zoom in on the spot you point at. ⟲ shows the whole world again.</> },
         ]}
@@ -296,7 +296,7 @@ const COMMON: { cta: string; body: ReactNode }[] = [
         points={[
           { text: <>{fam("money", "Money")} markets, rates, budgets. {fam("goods", "Goods")} energy, trade, food. {fam("people", "People")} jobs, prices at home, politics, security.</> },
           { text: <>The {gold("ring around a dot")} is what is fueling it. Open the event and the small local developments behind it fan out, each with its own news.</> },
-          { text: <>Events {gold("feeding in")} arrive along a line in the colour of what they carry; {gold("gold lines")} show where it ripples next; dotted lines share a driver.</> },
+          { text: <>Events {gold("feeding in")} arrive along a line in the colour of what they carry; {gold("gold lines")} show where it ripples next; dotted lines join events that share a driver.</> },
           { text: <>The {gold("key stays on screen")}. Point at a colour to light it up. After a few looks and one quick check, the words step back.</> },
         ]}
       />

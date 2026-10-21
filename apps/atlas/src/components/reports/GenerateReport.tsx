@@ -221,7 +221,7 @@ export default function GenerateReport({
                 : result.saved.local
                   ? "Saved on this server until its next deploy. Set a GitHub token on the server to keep reports for good."
                   : "Shown here only."}
-              {result.unknownSources.length ? ` Check these sources, which were not in the material: ${result.unknownSources.join(", ")}` : ""}
+              {result.unknownSources.length ? ` Check these sources, which were not in the material: ${result.unknownSources.join(", ")}.` : ""}
             </p>
           </div>
           <div className="mt-6 border-t-2 border-teal pt-6">

@@ -148,7 +148,7 @@ export default function RipplePostcard({
                           {x.aspect ? <span className="mt-0.5"><AspectBadge aspect={x.aspect} withLabel={false} size={9} /></span> : <ArrowRight size={14} className="mt-0.5 shrink-0 text-teal" aria-hidden />}
                           <span>
                             <button type="button" className="font-medium text-ink hover:underline" onClick={() => onOpen(x.id)}>{x.title}</button> is rising
-                            ({x.day} headlines today){x.via ? <> and reaches this via {x.via}</> : null}.
+                            ({x.day} headline{x.day === 1 ? "" : "s"} today){x.via ? <> and reaches this via {x.via}</> : null}.
                           </span>
                         </li>
                       ))}
@@ -204,7 +204,7 @@ export default function RipplePostcard({
                 {card.fuel?.items.length ? "Other local news" : "Latest headlines"}
                 {card.fresh ? ` · ${card.fresh} in 48 hours` : ""}
               </p>
-              {card.fuel?.items.length ? <p className="mt-0.5 text-xs text-ink-3">The rest of this event&apos;s news; stories about each fueling event sit under it above.</p> : null}
+              {card.fuel?.items.length ? <p className="mt-0.5 text-xs text-ink-3">The rest of this event&apos;s news; stories about each fueling event are listed with it above.</p> : null}
               <ul className="mt-2 grid gap-x-6 gap-y-1.5 text-sm sm:grid-cols-2">
                 {(card.fuel?.items.length && card.otherNews?.length ? card.otherNews.map((n) => ({ ...n, published: n.published ?? "" })) : card.recent).slice(0, 6).map((h) => (
                   <li key={h.url}>

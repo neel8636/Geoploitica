@@ -797,7 +797,7 @@ export default function MapFirst(props: MapFirstProps) {
         </button>
         <p className="text-xs text-ink-3">
           {kickerOf(id)}
-          {p ? ` · ${p.trend === "rising" ? "▲ rising" : p.trend} · ${p.day} headlines today` : ""}
+          {p ? ` · ${p.trend === "rising" ? "▲ rising" : p.trend} · ${p.day} headline${p.day === 1 ? "" : "s"} today` : ""}
         </p>
         <h2 className="mt-1 font-serif text-2xl leading-tight">{e.title}</h2>
         <p className="mt-1.5 text-[13.5px] text-ink-2">{card?.headline ?? e.summary.slice(0, 220)}</p>
@@ -880,7 +880,7 @@ export default function MapFirst(props: MapFirstProps) {
         )}
         {ins.length ? (<>{h3("Events feeding into it")}{ins.map((l) => { const f = famOf(l.aspect); return linkBtn(l.event.id, <FamIcon f={f} size={22} />, <><b className="font-semibold" style={{ color: FCOL(f) }}>{FNAME[f]}</b> · {ASPECTS[l.aspect].label}{l.via ? ` · via ${l.via}` : ""}{l.flow === "both" ? " · and back" : ""}</>); })}</>) : null}
         {outs.length ? (<>{h3("Where it ripples next")}{outs.map((l) => linkBtn(l.event.id, "→", <><b className="font-semibold" style={{ color: FCOL(famOf(l.aspect)) }}>{FNAME[famOf(l.aspect)]}</b> · {ASPECTS[l.aspect].label}{l.via ? ` · via ${l.via}` : ""}</>))}</>) : null}
-        {shared.length ? (<>{h3("Shares a driver with")}{shared.map((l) => linkBtn(l.event.id, "┄", "Same driver, neither caused the other"))}</>) : null}
+        {shared.length ? (<>{h3("Shares a driver with")}{shared.map((l) => linkBtn(l.event.id, "┄", "Same driver: neither caused the other"))}</>) : null}
         {card?.recent?.length ? (
           <>{h3("Latest headlines")}{card.recent.slice(0, 5).map((n) => (
             <a key={n.url} href={n.url} target="_blank" rel="noreferrer" className="block border-t border-dashed border-line py-1.5 text-[13.5px] text-ink no-underline hover:underline">{n.title} <span className="text-xs text-ink-3">{n.publisher}</span></a>
@@ -950,7 +950,7 @@ export default function MapFirst(props: MapFirstProps) {
             <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 bg-paper/70 px-3 text-center">
               <p className="text-[13px] font-medium">
                 {more > 0 ? `${more} more step${more > 1 ? "s" : ""}` : "The rest"}
-                {ex?.watch ? " and what to watch next" : ""} are in the report.
+                {ex?.watch ? " and what to watch next" : ""} {more === 1 && !ex?.watch ? "is" : "are"} in the report.
               </p>
               <a href={`${eventHref(from)}#read=connect&via=${to}`} className="inline-flex items-center rounded-sm bg-teal px-3 py-1.5 text-[13px] font-semibold text-paper no-underline hover:opacity-90">
                 Read the whole chain →

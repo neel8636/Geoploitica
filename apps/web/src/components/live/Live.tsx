@@ -14,7 +14,7 @@ export function PulseBadge({ pulse }: { pulse: LiveCard["pulse"] }) {
     quiet: { Icon: Moon, cls: "border-line text-ink-3", word: "Quiet" },
   }[pulse.trend];
   return (
-    <span className={`inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-xs ${m.cls}`} title={`${pulse.day} headlines in the last 24 hours, against ${pulse.perDay} a day before`}>
+    <span className={`inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-xs ${m.cls}`} title={`${pulse.day} headlines in the last 24 hours, against ${pulse.perDay} a day over the three days before`}>
       <m.Icon size={13} aria-hidden /> {m.word} · {pulse.day} today
     </span>
   );

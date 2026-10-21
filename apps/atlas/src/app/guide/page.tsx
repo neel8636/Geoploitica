@@ -50,7 +50,7 @@ export default function GuidePage() {
         <p>
           <span className="text-ink">Dotted lines are relatives.</span> Neither event caused the other; a third force, the{" "}
           <Link href="/drivers" className="underline">driver</Link>, pushes both. Portugal&apos;s housing marches did not cause France&apos;s
-          protests; rents rising faster than wages drive both. A quick test: remove one event, and the other would still happen, but ease
+          protests; rents rising faster than wages drive both. A quick test: remove one event and the other still happens, but ease
           the driver and both fade. Follow a dotted line to spot a pattern, then watch the driver rather than each event.
         </p>
         <p>

@@ -208,7 +208,7 @@ function AskPanel({ eventId, first, onClose }: { eventId: string; first?: string
                 <li key={i}>
                   <p className="ml-auto w-fit max-w-[90%] rounded-lg bg-teal-2 px-3 py-2 text-[15px]">{t.q}</p>
                   <div className="mt-2 whitespace-pre-wrap text-[15px] leading-relaxed">
-                    {t.error ? <span className="text-red">{t.error}</span> : t.a || <span className="text-ink-3">{slow ? "Waking the answer server, this can take up to a minute the first time…" : "Thinking…"}</span>}
+                    {t.error ? <span className="text-red">{t.error}</span> : t.a || <span className="text-ink-3">{slow ? "Waking the answer server. This can take up to a minute the first time…" : "Thinking…"}</span>}
                   </div>
                 </li>
               ))}

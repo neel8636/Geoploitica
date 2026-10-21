@@ -38,7 +38,7 @@ export default function EventsPage() {
                 </div>
                 <p className="mt-1 text-[15px] text-ink-2">{e.summary}</p>
                 <p className="mt-1 text-sm text-ink-3">
-                  Severity {e.severity}/5 · {degree(e.id)} connections ·{" "}
+                  Severity {e.severity}/5 · {degree(e.id)} connection{degree(e.id) === 1 ? "" : "s"} ·{" "}
                   {report ? `report updated ${formatDate(report.updated)}${report.generated && !report.generated.reviewed ? " (auto-drafted)" : ""}` : "no report yet"}
                 </p>
               </div>
@@ -56,7 +56,7 @@ async function LivePulse({ id }: { id: string }) {
   return (
     <>
       <PulseBadge pulse={c.pulse} />
-      {c.fuel?.items.length ? <span className="text-xs text-ink-3">{c.fuel.items.length} small events fueling it</span> : null}
+      {c.fuel?.items.length ? <span className="text-xs text-ink-3">{c.fuel.items.length} small event{c.fuel.items.length === 1 ? "" : "s"} fueling it</span> : null}
     </>
   );
 }
