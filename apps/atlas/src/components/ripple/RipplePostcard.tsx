@@ -95,8 +95,6 @@ export default function RipplePostcard({
         className="relative max-h-[92vh] w-full max-w-4xl overflow-y-auto rounded-t-xl border border-line bg-paper shadow-2xl sm:rounded-xl"
         onClick={(e) => e.stopPropagation()}
       >
-        {/* postcard edge: a thin double rule and a stamp */}
-        <div className="pointer-events-none absolute inset-2 rounded-lg border border-line-2" aria-hidden />
         <div className="relative p-5 sm:p-8">
           <div className="flex items-start justify-between gap-4">
             <div className="flex flex-wrap items-center gap-2">
@@ -201,12 +199,16 @@ export default function RipplePostcard({
 
           {card && card.recent.length ? (
             <div className="mt-6 border-t border-line pt-4">
-              <p className="signpost">Latest headlines{card.fresh ? ` · ${card.fresh} in 48 hours` : ""}</p>
+              <p className="signpost">
+                {card.fuel?.items.length ? "Other local news" : "Latest headlines"}
+                {card.fresh ? ` · ${card.fresh} in 48 hours` : ""}
+              </p>
+              {card.fuel?.items.length ? <p className="mt-0.5 text-xs text-ink-3">The rest of this event&apos;s news; stories about each fueling event sit under it above.</p> : null}
               <ul className="mt-2 grid gap-x-6 gap-y-1.5 text-sm sm:grid-cols-2">
-                {card.recent.slice(0, 6).map((h) => (
+                {(card.fuel?.items.length && card.otherNews?.length ? card.otherNews.map((n) => ({ ...n, published: n.published ?? "" })) : card.recent).slice(0, 6).map((h) => (
                   <li key={h.url}>
                     <a href={h.url} target="_blank" rel="noreferrer" className="hover:underline">{h.title}</a>
-                    <span className="text-ink-3"> · {h.publisher} · {timeAgo(h.published)}</span>
+                    <span className="text-ink-3"> · {h.publisher}{h.published ? ` · ${timeAgo(h.published)}` : ""}</span>
                   </li>
                 ))}
               </ul>

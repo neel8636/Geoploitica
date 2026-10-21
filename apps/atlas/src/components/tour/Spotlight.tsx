@@ -52,7 +52,8 @@ export default function Spotlight() {
     if (path !== "/") return () => window.removeEventListener(TOUR_EVENT, onStart);
     let seen = true;
     try {
-      seen = localStorage.getItem(KEY) === "done";
+      // the introduction comes first; the spotlight waits until it has been seen
+      seen = localStorage.getItem(KEY) === "done" || localStorage.getItem("geopolitica.intro.v1") !== "done";
     } catch {}
     const t = seen ? 0 : window.setTimeout(start, 1800);
     return () => {

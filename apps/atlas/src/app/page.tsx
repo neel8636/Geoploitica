@@ -4,6 +4,7 @@ import { formatDate } from "@/content/dossiers";
 import { fuelDots, pulseMap, todaysRipples } from "@/content/ripples";
 import TodaysRipples from "@/components/ripple/TodaysRipples";
 import EventLink from "@/components/ripple/EventLink";
+import IntroGate from "@/components/intro/IntroGate";
 import { loadWire } from "@/content/wire";
 import HomeExplorer from "@/components/atlas/HomeExplorer";
 
@@ -32,6 +33,7 @@ export default function Home() {
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
+      <IntroGate />
       <section className="grid gap-6 lg:grid-cols-[1fr_22rem] lg:items-end">
         <div>
           <h1 className="text-[2.25rem] leading-[1.1] sm:text-[2.75rem]">Follow one event to everything it touches.</h1>

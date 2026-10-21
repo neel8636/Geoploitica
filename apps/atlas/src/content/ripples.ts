@@ -4,7 +4,7 @@ import { EVENTS, TYPE_LABELS, neighbours, type WorldEvent } from "@/content/even
 import { getDossier } from "@/content/dossiers";
 import { loadWire, type Wire } from "@/content/wire";
 import type { RippleRing } from "@/content/types";
-import type { Aspect, FuelSet } from "@/content/fueling";
+import { divideNews, type Aspect, type FuelNews, type FuelSet } from "@/content/fueling";
 
 /*
   One "ripple card" per event: what the postcard pop-up and Today's ripples show. Built at
@@ -26,7 +26,8 @@ export interface RippleCard {
   recent: { title: string; publisher: string; url: string; published: string }[]; // newest first, up to 12
   update?: EventUpdate; // the latest AI line on what changed, when there is one
   incoming?: { id: string; title: string; day: number; via?: string }[]; // rising events that drive this one
-  fuel?: FuelSet; // the small events feeding this one, from the pipeline
+  fuel?: FuelSet; // the small events feeding this one, from the pipeline, each with its share of the local news
+  otherNews?: FuelNews[]; // local headlines that belong to none of the fueling items
   drivers: string[]; // the drivers named on its connections
   updated: string; // ISO date the card's content last changed
 }
@@ -57,9 +58,14 @@ export function loadFuel(): Record<string, FuelSet> {
 }
 
 /* The small events for the map: id -> where they are and which way they feed. */
-export function fuelDots(): Record<string, { title: string; lat: number; lon: number; flow: "into" | "both"; aspect: Aspect; via: string }[]> {
+export function fuelDots(): Record<string, { title: string; lat: number; lon: number; flow: "into" | "both"; aspect: Aspect; via: string; place: string; news: FuelNews[] }[]> {
   return Object.fromEntries(
-    Object.entries(loadFuel()).map(([id, f]) => [id, f.items.map((i) => ({ title: i.title, lat: i.lat, lon: i.lon, flow: i.flow, aspect: i.aspect ?? "politics", via: i.via }))]),
+    allRipples()
+      .filter((c) => c.fuel?.items.length)
+      .map((c) => [
+        c.id,
+        c.fuel!.items.map((i) => ({ title: i.title, lat: i.lat, lon: i.lon, flow: i.flow, aspect: i.aspect ?? "politics", via: i.via, place: i.place, news: (i.news ?? []).slice(0, 4).map((n) => ({ title: n.title, url: n.url, publisher: n.publisher })) })),
+      ]),
   );
 }
 
@@ -113,6 +119,7 @@ function freshFor(e: WorldEvent, wire: Wire) {
     latest: items.find((i) => i.hits === best),
     pulse: { day, perDay: Math.round(before * 10) / 10, trend },
     recent: all.slice(0, 12).map((i) => ({ title: i.title, publisher: i.publisher, url: i.url, published: i.published })),
+    all: all.slice(0, 40).map((i) => ({ title: i.title, publisher: i.publisher, url: i.url, published: i.published })),
   };
 }
 
@@ -144,7 +151,12 @@ export function rippleFor(e: WorldEvent, wire: Wire = loadWire()): RippleCard {
     pulse: f.pulse,
     recent: f.recent,
     update: loadUpdates()[e.id]?.[0],
-    fuel: loadFuel()[e.id],
+    ...(() => {
+      const set = loadFuel()[e.id];
+      if (!set?.items.length) return { fuel: set };
+      const d = divideNews(set.items, f.all, `${e.title} ${e.region} ${e.keywords.join(" ")} ${e.countries.join(" ")} ${e.summary}`);
+      return { fuel: { ...set, items: d.items.map((x) => ({ ...x, news: (x.news ?? []).slice(0, 6) })) }, otherNews: d.other.slice(0, 8) };
+    })(),
     drivers: Array.from(new Set(links.map((l) => l.driver).filter((d): d is string => Boolean(d)))),
     updated: own?.updated ?? e.date,
   };

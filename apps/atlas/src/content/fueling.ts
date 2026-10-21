@@ -64,6 +64,56 @@ export interface FuelEvent {
   aspect: Aspect;
   flow: "into" | "both"; // feeds the big event, or feeds it and is driven by it
   sources: { title: string; url: string; publisher: string }[];
+  news?: FuelNews[]; // the event's local headlines that belong to this item (added when the site is built)
+}
+
+export interface FuelNews {
+  title: string;
+  url: string;
+  publisher: string;
+  published?: string;
+}
+
+const STOP = new Set("the a an and or of to in on at for with by from as is are was were be after over amid into its it this that new says say said leader leaders government minister president officials official report reports ahead week weekend latest live news urge urges calls".split(" "));
+const words = (s: string) => new Set(s.toLowerCase().normalize("NFKD").replace(/[^\p{L}\p{N} ]+/gu, " ").split(/\s+/).filter((w) => w.length > 2 && !STOP.has(w)));
+
+/*
+  Divide an event's headlines among its fueling items: a headline an item cites goes to it;
+  any other headline goes to the item it shares the most words with (at least two), so each
+  small dot carries its own slice of the local news. What fits none is returned as "other".
+*/
+export function divideNews(items: FuelEvent[], headlines: FuelNews[], common = ""): { items: FuelEvent[]; other: FuelNews[] } {
+  // words every headline about this event shares (its name, place, actors) say nothing about
+  // which small event a story belongs to, so they are left out of the matching
+  const skip = words(common);
+  const keys = items.map((f) => {
+    const k = words(`${f.title} ${f.what} ${f.via}`);
+    for (const w of skip) k.delete(w);
+    return k;
+  });
+  const out = items.map((f) => ({ ...f, news: [] as FuelNews[] }));
+  const other: FuelNews[] = [];
+  for (const h of headlines) {
+    let at = items.findIndex((f) => f.sources.some((s) => s.url === h.url || s.title === h.title));
+    if (at < 0) {
+      const hw = words(h.title);
+      for (const w of skip) hw.delete(w);
+      let best = 1;
+      keys.forEach((k, i) => {
+        let n = 0;
+        for (const w of hw) if (k.has(w)) n++;
+        if (n > best) {
+          best = n;
+          at = i;
+        }
+      });
+    }
+    if (at >= 0) out[at].news.push(h);
+    else other.push(h);
+  }
+  // an item's cited sources always count as its news, even when older than the headlines given
+  for (const f of out) for (const s of f.sources) if (!f.news.some((n) => n.url === s.url)) f.news.push(s);
+  return { items: out, other };
 }
 
 export interface FuelSet {

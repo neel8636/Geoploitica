@@ -12,7 +12,7 @@ import { allEdges, EVENTS, TYPE_LABELS, type EventType, type WorldEvent } from "
 import MapLegend from "@/components/atlas/MapLegend";
 import type { Aspect } from "@/content/fueling";
 import { ASPECTS } from "@/content/fueling";
-import { ASPECT_ICON, FamilyKey, familyColor, familyOf } from "@/components/ripple/Aspect";
+import { ASPECT_ICON, AspectBadge, FamilyKey, familyColor, familyOf } from "@/components/ripple/Aspect";
 import MapPanel, { dotFill } from "@/components/atlas/MapPanel";
 
 const W = 960;
@@ -110,6 +110,8 @@ export default function WorldMap({
   const [hover, setHover] = useState<string | null>(null); // pointer on a dot
   const [peek, setPeek] = useState<string | null>(null); // pointer on a row in the side panel
   const [selected, setSelected] = useState<string | null>(null); // clicked dot, kept until cleared
+  const [fuelHost, setFuelHost] = useState<string | null>(null); // keeps an event's fueling dots up while the pointer is on them
+  const [fuelPick, setFuelPick] = useState<number | null>(null); // the fueling dot whose news is open
   const [ownView, setOwnView] = useState<View>(() => initialView ?? viewFor(EVENTS.find((e) => e.id === focusId)));
   const view = controlledView ?? ownView;
   const setView = (v: View) => {
@@ -204,6 +206,8 @@ export default function WorldMap({
     }
     const next = selected === id ? null : id;
     setSelected(next);
+    setFuelHost(null);
+    setFuelPick(null);
     if (next) ripple?.open(next);
   };
   // a compact map (inside a report) offers only the world and the event's own region
@@ -225,8 +229,8 @@ export default function WorldMap({
         </div>
       ) : null}
       <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label="World map of tracked events and their connections" className="w-full" fontFamily="var(--font-sans)">
-        <rect x={0} y={0} width={W} height={H} fill="transparent" onClick={() => setSelected(null)} />
-        <path d={landPath} fill="var(--paper-2)" stroke="var(--line)" strokeWidth={0.5} onClick={() => setSelected(null)} />
+        <rect x={0} y={0} width={W} height={H} fill="transparent" onClick={() => { setSelected(null); setFuelHost(null); setFuelPick(null); }} />
+        <path d={landPath} fill="var(--paper-2)" stroke="var(--line)" strokeWidth={0.5} onClick={() => { setSelected(null); setFuelHost(null); setFuelPick(null); }} />
         {frame ? (
           <g aria-hidden fill="var(--paper)" fillOpacity={0.55}>
             <rect x={0} y={0} width={W} height={Math.max(0, frame.y)} />
@@ -301,7 +305,7 @@ export default function WorldMap({
         })}
         {/* the small events feeding the event in focus: little dots tied into it with arrows */}
         {(() => {
-          const id = active ?? null;
+          const id = fuelHost ?? active ?? null;
           const host = id ? visible.find((e) => e.id === id) : undefined;
           const dots = host && fuel?.[host.id];
           if (!host || !dots?.length) return null;
@@ -326,13 +330,24 @@ export default function WorldMap({
                 const col = familyColor(familyOf(f.aspect));
                 const Icon = ASPECT_ICON[f.aspect] ?? ASPECT_ICON.politics;
                 return (
-                  <g key={f.title}>
+                  <g
+                    key={f.title}
+                    role="button"
+                    tabIndex={0}
+                    aria-label={`${f.title}: moves into ${host.title}${f.via ? ` via ${f.via}` : ""}. Show its news.`}
+                    style={{ cursor: "pointer", outline: "none" }}
+                    onMouseEnter={() => setFuelHost(host.id)}
+                    onFocus={() => setFuelHost(host.id)}
+                    onClick={(ev) => { ev.stopPropagation(); setFuelHost(host.id); setFuelPick(fuelPick === i ? null : i); }}
+                    onKeyDown={(k) => { if (k.key === "Enter") { setFuelHost(host.id); setFuelPick(i); } }}
+                  >
                     <title>{`${ASPECTS[f.aspect]?.label ?? "Politics"}: ${f.title}. Moves into ${host.title}${f.via ? `: ${f.via}` : ""}${f.flow === "both" ? " (and back)" : ""}.`}</title>
                     <line x1={x} y1={y} x2={ex} y2={ey} stroke={col} strokeWidth={1.2} strokeOpacity={0.9} />
                     <path d="M-3.4 -3 L3 0 L-3.4 3 Z" transform={`translate(${mx.toFixed(1)} ${my.toFixed(1)}) rotate(${deg.toFixed(0)})`} fill={col} />
                     {f.flow === "both" ? (
                       <path d="M-3.4 -3 L3 0 L-3.4 3 Z" transform={`translate(${(x + Math.cos(ang) * len * 0.3).toFixed(1)} ${(y + Math.sin(ang) * len * 0.3).toFixed(1)}) rotate(${(deg + 180).toFixed(0)})`} fill={col} />
                     ) : null}
+                    {fuelPick === i ? <circle cx={x} cy={y} r={compact ? 15 : 13} fill="none" stroke="var(--ink)" strokeWidth={1.5} /> : null}
                     <circle cx={x} cy={y} r={compact ? 11 : 9} fill={col} stroke="var(--ink)" strokeOpacity={0.5} strokeWidth={1} />
                     <Icon x={x - (compact ? 7 : 6)} y={y - (compact ? 7 : 6)} width={compact ? 14 : 12} height={compact ? 14 : 12} color="#fff" strokeWidth={2.4} aria-hidden />
                   </g>
@@ -343,10 +358,52 @@ export default function WorldMap({
         })()}
       </svg>
       {(() => {
-        const host = active ? visible.find((e) => e.id === active) : undefined;
+        // the news behind one fueling dot, next to it
+        const hid = fuelHost ?? active;
+        const host = hid ? visible.find((e) => e.id === hid) : undefined;
+        const dots = host ? fuel?.[host.id] : undefined;
+        if (!host || !dots?.length || fuelPick === null || !dots[fuelPick]) return null;
+        const f = dots[fuelPick];
+        const [hx, hy] = pos(host);
+        const ringR = radius(host) + (compact ? 46 : 34);
+        const a0 = (fuelPick / dots.length) * 2 * Math.PI - Math.PI / 2;
+        const px = ((hx + Math.cos(a0) * ringR) / W) * 100;
+        const py = ((hy + Math.sin(a0) * ringR) / H) * 100;
+        return (
+          <div
+            className="absolute z-20 w-72 max-w-[85vw] rounded-lg border border-line bg-paper p-3 text-left shadow-xl"
+            style={{ left: `min(max(${px}%, 0px), calc(100% - 18rem))`, top: `${py}%`, transform: py > 60 ? "translateY(calc(-100% - 14px))" : "translateY(14px)" }}
+            onClick={(ev) => ev.stopPropagation()}
+          >
+            <div className="flex items-start justify-between gap-2">
+              <AspectBadge aspect={f.aspect} />
+              <button type="button" onClick={() => setFuelPick(null)} className="text-ink-3 hover:text-ink" aria-label="Close">✕</button>
+            </div>
+            <p className="mt-1.5 font-medium leading-snug">{f.title}</p>
+            {f.place ? <p className="text-xs text-ink-3">{f.place}</p> : null}
+            <p className="mt-1 text-sm">
+              <span className="text-ink-3">Moves into {host.title.length > 40 ? host.title.slice(0, 38) + "…" : host.title}: </span>
+              <span className="font-medium">{f.via}</span>
+            </p>
+            {f.news?.length ? (
+              <ul className="mt-2 space-y-1 border-t border-line-2 pt-2 text-[13px] leading-snug">
+                {f.news.map((n) => (
+                  <li key={n.url}>
+                    <a href={n.url} target="_blank" rel="noreferrer" className="hover:underline">{n.title}</a>
+                    <span className="text-ink-3"> · {n.publisher}</span>
+                  </li>
+                ))}
+              </ul>
+            ) : null}
+          </div>
+        );
+      })()}
+      {(() => {
+        const hid = fuelHost ?? active;
+        const host = hid ? visible.find((e) => e.id === hid) : undefined;
         return host && fuel?.[host.id]?.length ? (
           <div className="pointer-events-none absolute bottom-2 left-2 rounded-full border border-line bg-paper/90 px-3 py-1">
-            <span className="mr-2 text-xs text-ink-3">Fueling {host.title.length > 28 ? host.title.slice(0, 26) + "…" : host.title}:</span>
+            <span className="mr-2 text-xs text-ink-3">Fueling {host.title.length > 28 ? host.title.slice(0, 26) + "…" : host.title} (click a dot for its news):</span>
             <FamilyKey />
           </div>
         ) : null;
@@ -389,7 +446,7 @@ export default function WorldMap({
   );
 }
 
-export type FuelDots = Record<string, { title: string; lat: number; lon: number; flow: "into" | "both"; aspect: Aspect; via: string }[]>;
+export type FuelDots = Record<string, { title: string; lat: number; lon: number; flow: "into" | "both"; aspect: Aspect; via: string; place?: string; news?: { title: string; url: string; publisher: string }[] }[]>;
 
 const RM = "(prefers-reduced-motion: reduce)";
 function useReducedMotion(): boolean {

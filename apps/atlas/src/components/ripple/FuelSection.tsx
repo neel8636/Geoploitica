@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import type { FuelNews } from "@/content/fueling";
 import { ArrowLeftRight, ArrowRight, Flame, Loader2, MapPin } from "lucide-react";
 import type { FuelEvent, FuelSet } from "@/content/fueling";
 import { useAuth } from "@/components/auth/AuthProvider";
@@ -124,14 +125,32 @@ function FuelRow({ f }: { f: FuelEvent }) {
           </span>
         </p>
       ) : null}
-      <p className="mt-1.5 text-xs text-ink-3">
-        {f.sources.slice(0, 2).map((s, i) => (
-          <span key={s.url}>
-            {i ? " · " : ""}
-            <a href={s.url} target="_blank" rel="noreferrer" className="underline">{s.publisher}</a>
-          </span>
-        ))}
-      </p>
+      <FuelNewsList news={f.news?.length ? f.news : f.sources} />
     </li>
+  );
+}
+
+/* The local headlines that belong to one fueling item: two shown, the rest a click away. */
+export function FuelNewsList({ news, max = 2 }: { news: FuelNews[]; max?: number }) {
+  const [all, setAll] = useState(false);
+  if (!news.length) return null;
+  const shown = all ? news : news.slice(0, max);
+  return (
+    <div className="mt-2 border-t border-line-2 pt-2">
+      <p className="text-[11px] font-medium uppercase tracking-wide text-ink-3">Its local news · {news.length}</p>
+      <ul className="mt-1 space-y-1 text-[13px] leading-snug">
+        {shown.map((n) => (
+          <li key={n.url}>
+            <a href={n.url} target="_blank" rel="noreferrer" className="hover:underline">{n.title}</a>
+            <span className="text-ink-3"> · {n.publisher}</span>
+          </li>
+        ))}
+      </ul>
+      {news.length > max ? (
+        <button type="button" onClick={() => setAll(!all)} className="mt-1 text-xs text-ink-2 underline">
+          {all ? "Show fewer" : `Show all ${news.length}`}
+        </button>
+      ) : null}
+    </div>
   );
 }

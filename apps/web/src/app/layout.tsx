@@ -25,8 +25,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-full flex flex-col">
         <header className="border-b border-line">
           <nav className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-3 sm:px-6">
-            <Link href="/" className="font-serif text-xl font-medium no-underline">
-              Geopolitica <span className="hidden text-sm font-normal text-ink-2 sm:inline">· enterprise edition</span>
+            <Link href="/" className="inline-flex items-center gap-2 font-serif text-xl font-medium no-underline">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/brand/globe-96.png" alt="" width={30} height={30} className="rounded-md" />
+              <span>Geopolitica <span className="hidden text-sm font-normal text-ink-2 sm:inline">· enterprise edition</span></span>
             </Link>
             <div className="flex flex-wrap items-center gap-5 text-[15px]">
               <JourneyChip />

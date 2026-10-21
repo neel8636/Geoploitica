@@ -45,8 +45,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <RippleProvider>
         <header className="border-b border-line">
           <nav className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-5 gap-y-2 px-4 py-3 sm:px-6">
-            <Link href="/" className="font-serif text-xl font-medium no-underline">
-              Geopolitica <span className="text-ink-2">Atlas</span>
+            <Link href="/" className="inline-flex items-center gap-2 font-serif text-xl font-medium no-underline">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/brand/globe-96.png`} alt="" width={30} height={30} className="rounded-md" />
+              <span>Geopolitica <span className="text-ink-2">Atlas</span></span>
             </Link>
             <div className="order-3 flex w-full items-center gap-4 overflow-x-auto whitespace-nowrap text-[15px] sm:order-2 sm:ml-auto sm:w-auto sm:gap-5">
               <Link href="/" className="no-underline hover:underline">Map</Link>
@@ -68,6 +70,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <span className="flex gap-4">
               <Link href="/guide#method" className="hover:underline">How reports are made</Link>
               <Link href="/guide#privacy" className="hover:underline">Privacy</Link>
+              <Link href="/welcome" className="hover:underline">What is Geopolitica?</Link>
               <ReplayTour />
               <a href="https://geopolitica-1rja.onrender.com" className="hover:underline">Enterprise edition</a>
             </span>

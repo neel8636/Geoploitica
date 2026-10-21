@@ -106,11 +106,22 @@ export function FuelCard({ f }: { f: FuelEvent }) {
           <span><span className="text-ink-3">{f.flow === "both" ? "Moves in, and back: " : "Moves in: "}</span><span className="font-medium">{f.via}</span></span>
         </p>
       ) : null}
-      <p className="mt-1.5 text-xs text-ink-3">
-        {f.sources.slice(0, 2).map((s, i) => (
-          <span key={s.url}>{i ? " · " : ""}<a href={s.url} target="_blank" rel="noreferrer" className="underline">{s.publisher}</a></span>
-        ))}
-      </p>
+      {(() => {
+        const news = f.news?.length ? f.news : f.sources;
+        return news.length ? (
+          <div className="mt-2 border-t border-line-2 pt-2">
+            <p className="text-[11px] font-medium uppercase tracking-wide text-ink-3">Its local news · {news.length}</p>
+            <ul className="mt-1 space-y-1 text-[13px] leading-snug">
+              {news.slice(0, 3).map((n) => (
+                <li key={n.url}>
+                  <a href={n.url} target="_blank" rel="noreferrer" className="hover:underline">{n.title}</a>
+                  <span className="text-ink-3"> · {n.publisher}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ) : null;
+      })()}
     </li>
   );
 }
