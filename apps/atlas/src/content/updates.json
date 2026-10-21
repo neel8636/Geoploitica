@@ -217,6 +217,32 @@
   ],
   "gulf-war-energy-shock": [
     {
+      "at": "2026-10-21T19:03:59.143Z",
+      "text": "Reports say France has secured extra diesel supplies during Macron's Riyadh visit, and Yemen buries 75 recruits killed in a Houthi strike. Riyadh's airport reopens to limited traffic, while oil prices are mixed.",
+      "sources": [
+        {
+          "title": "Macron makes surprise Saudi visit as France secures extra diesel supplies",
+          "url": "https://www.aljazeera.com/news/2026/10/21/macron-makes-surprise-saudi-visit-as-france-secures-extra-diesel-supplies?traffic_source=rss",
+          "publisher": "Al Jazeera"
+        },
+        {
+          "title": "Yemen holds mass funeral for 75 recruits killed in Houthi strike",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/aje-onl-nf_funeral-in-yemen-for-recruits-killed-by-houthis-211026?traffic_source=rss",
+          "publisher": "Al Jazeera"
+        },
+        {
+          "title": "Saudi capital's airport reopens to limited traffic, and other Mideast news",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUFNCbWZZdEdvUHdNQ3RWLTNvTlVMQmJ1aHJ5WHRzTF9DQUpzYi1fMmF2YXhTc3RpeVNwd3FrNnZISlotY1BEUTRaQ1dRekx5dWhqdXBIZ2RTUURxUzRkVGhMLTNlckhpRC1VYTdzSGtqUElxYmFEcUhsanYzTGpEQlBTUmpPMFc2Vnc4bUp2bkVWLXlRUEl0aGVjMzJ4YTljejY4YXdyUGNIZnJkNWlSRjBXdzRQZm9xVVZvLVg2NVczQ1Ryb3c?oc=5",
+          "publisher": "CTV News"
+        },
+        {
+          "title": "Oil prices mixed as traders assess Middle East developments",
+          "url": "https://www.cnbc.com/2026/10/21/oil-price-today-wti-brent-rise-on-middle-east-worries.html",
+          "publisher": "CNBC World"
+        }
+      ]
+    },
+    {
       "at": "2026-10-21T16:34:00.809Z",
       "text": "Macron is reported to have landed in Saudi Arabia on a surprise 'solidarity' visit, while Kpler data reports say Middle East oil flows now exceed pre-war levels. Israel and the US are reported to weigh fresh strikes on Iran.",
       "sources": [
@@ -440,6 +466,32 @@
     }
   ],
   "us-canada-trade-war": [
+    {
+      "at": "2026-10-21T19:03:59.143Z",
+      "text": "New since the last line: Carney and Ford unveil a $9B plan to support industries hit by the tariff war, per Yahoo! Finance Canada and Ontario's government. The importer lawsuit over the 50% tariffs continues to draw coverage.",
+      "sources": [
+        {
+          "title": "Premier Ford and Prime Minister Carney Launch New Action Plan to Protect Workers from Tariffs and Strengthen Ontario Industries",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOVi1yaHFSRFh0QTRhRENhZ2NWbnZyU2hFalRUNVljU2JUalo2S3F5SlV4V3Q1cDk1UUtPMGpGeTE3OTFmUWF1VkdXZE1FWmpnVGlKSGd0dUxRZjM0TDl2eUs0VmFDdnpLZjFPZERXTmwwUkx3NkJVb21tcURVdXJhZlM5U1VTSDBXby16YWVJX2NvQkdQRHBfckdYREw2dkpHd1h4NlZiS0ZmNXRmdDB5X2F3djI3OHA2Ty1JQk45b1VlbDFZTi01QnlKbVNRUDdUSGhOOGZ1bllUdTg2ak8zOG9MOXJ6VXA4TDZBNlo4ekd5YUxOMjdWUjBwbm01V1k?oc=5",
+          "publisher": "ontario.ca"
+        },
+        {
+          "title": "Carney, Ford unveil $9B plan to support industries hit by tariff war",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNc3BINEMyZC1oendJRHY2X3JGMjJqTXRLcTRDYmtuTE9UeE4wMTd5UWhFUXN1dE94S3VTMDdNemdmMDFLYi1WNjJrMmxBcEdsUjQwWHJKcWs5Nl9ZdWU5Z1ZsRnFrZ3BJNy1hYko0aEhpcmFOdFh6X2pkV2N1T0VTbnZxM1BqRE4wemF3?oc=5",
+          "publisher": "Yahoo! Finance Canada"
+        },
+        {
+          "title": "Food Importer Sues Over Trump's Canada Tariffs",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOR1FhZXFueFA0NWFNMjFLZkxYLXBqLVNkNTFWVmhjb1ZLOEd5QmR3ZXdWa3pBUHJFZk9DSGRrM2tzWDhHT1JfcnhBOXd1NUxveGJ5RDhKSGtyZ0hvQWs3ai1WQ1JaNkxaVEtEWTN4M19lZEgteFR0TURIa3pLMmlGcWk2NTBNN0JkV0dhSkNURQ?oc=5",
+          "publisher": "Newser"
+        },
+        {
+          "title": "Trump Administration Sued Over 50% Tariffs on Canadian Goods, Including Alcohol",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaFFrNWdhZC1ZUUpqdjF0NlAxRXBBQUxrRHNvQnNIVXp3elRldG5BaWwteHU1MHM5ODY4REZDOVpHR21Ha2h0Qi1jNzRNbzVyekVhWVJtQ09CZjZ5bU1iRnBQS2M4OVl1WlhXa0JOeVh0VEVqSE9PQmR1OC1LM0o2WXdPWTRFblBsVjBCVmVOUENadHNrWmYxLQ?oc=5",
+          "publisher": "Yahoo"
+        }
+      ]
+    },
     {
       "at": "2026-10-21T16:34:00.809Z",
       "text": "New since the last line: more outlets report the importer's lawsuit, which seeks refunds, and Carney and Ford's support is described as funding for clean auto investments, per a CBC source. Trump reportedly drops a threatened U.S. sales ban on Bombardier.",
