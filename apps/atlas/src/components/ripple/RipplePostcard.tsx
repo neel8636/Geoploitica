@@ -13,6 +13,7 @@ import FollowButton from "@/components/tracker/FollowButton";
 import { AskButton } from "@/components/ask/AskProvider";
 import { PulseBadge, timeAgo } from "@/components/ripple/Pulse";
 import FuelSection from "@/components/ripple/FuelSection";
+import { AspectBadge } from "@/components/ripple/Aspect";
 
 export const TRUST_LABEL: Record<RippleCard["trust"], string> = {
   reviewed: "Reviewed report",
@@ -144,7 +145,7 @@ export default function RipplePostcard({
                     <ul className="mt-1 space-y-1">
                       {card.incoming.slice(0, 3).map((x) => (
                         <li key={x.id} className="flex items-start gap-1.5 text-ink-2">
-                          <ArrowRight size={14} className="mt-0.5 shrink-0 text-teal" aria-hidden />
+                          {x.aspect ? <span className="mt-0.5"><AspectBadge aspect={x.aspect} withLabel={false} size={9} /></span> : <ArrowRight size={14} className="mt-0.5 shrink-0 text-teal" aria-hidden />}
                           <span>
                             <button type="button" className="font-medium text-ink hover:underline" onClick={() => onOpen(x.id)}>{x.title}</button> is rising
                             ({x.day} headlines today){x.via ? <> and reaches this via {x.via}</> : null}.

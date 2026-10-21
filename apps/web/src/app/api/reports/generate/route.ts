@@ -3,16 +3,24 @@ import path from "node:path";
 import { NextRequest } from "next/server";
 import { getEvent } from "@/content/events";
 import { getDossier, resetDossierCache } from "@/content/dossiers";
-import { DEFAULT_MODEL, extractJson, finishDraft, materialFor, systemPrompt, userPrompt, type WireHeadline } from "@/content/drafting";
+import { DEFAULT_MODEL, REPORT_SIZES, extractJson, finishDraft, isReportSize, materialFor, systemPrompt, userPrompt, type ReportSize, type WireHeadline } from "@/content/drafting";
+import type { FuelEvent } from "@/content/fueling";
+import { liveCard } from "@/lib/live";
 import { perDay, remaining, spend, verifyReader } from "@/lib/readerAuth";
 
 /*
   Generate (or regenerate) the layered report for one event, on demand.
 
-  POST /api/reports/generate  { eventId }  →  a stream of heartbeat lines while the model
-  works (so proxies keep the connection open), then one JSON line:
-    { ok: true, dossier, saved: { local: boolean, repo: boolean }, unknownSources }
+  POST /api/reports/generate  { eventId, size? }  →  a stream of heartbeat lines while the
+  model works (so proxies keep the connection open), then one JSON line:
+    { ok: true, dossier, saved: { local: boolean, repo: boolean, shared: boolean }, unknownSources }
     { ok: false, error }
+
+  size is "snapshot", "brief" (standard, the default) or "deep": the same four layers at three
+  depths (see REPORT_SIZES). Every report is built around what is fueling the event, read from
+  the Atlas's live layer. A reader's report replaces the shared one only when there is none
+  yet, or the shared one is an unchecked auto-draft no bigger than theirs; otherwise it is
+  theirs alone, shown in place and not saved.
 
   Needs ANTHROPIC_API_KEY on the server. Who may call it:
     - the owner, with the REPORT_PASSCODE as the x-passcode header (no limit), or
@@ -21,6 +29,8 @@ import { perDay, remaining, spend, verifyReader } from "@/lib/readerAuth";
       events with no report yet or with an auto-drafted one; reviewed and hand-written
       reports are never overwritten by a reader.
     With no REPORT_PASSCODE set, anyone may call it (local development).
+    A reader may build a report for any event; checked reports are never overwritten (see
+    above), so a reader asking about one gets a personal copy.
   Optional:
     GITHUB_TOKEN        a token with contents:write on the repo below; when set, the report
                         is committed to apps/atlas/src/content/dossiers so it becomes
@@ -57,6 +67,7 @@ export async function GET(req: NextRequest) {
     perDay: perDay(),
     persists: Boolean(process.env.GITHUB_TOKEN),
     model: process.env.REPORT_MODEL ?? DEFAULT_MODEL,
+    sizes: Object.entries(REPORT_SIZES).map(([id, s]) => ({ id, label: s.label, minutes: s.minutes, blurb: s.blurb })),
   };
   return Response.json(body, { headers: corsHeaders(req) });
 }
@@ -102,16 +113,24 @@ export async function POST(req: NextRequest) {
     return Response.json({ ok: false, error: "Sign in to generate reports." }, { status: 401, headers: cors });
   }
   let eventId = "";
+  let size: ReportSize = "brief";
   try {
-    eventId = String(((await req.json()) as { eventId?: string }).eventId ?? "");
+    const body = (await req.json()) as { eventId?: string; size?: string };
+    eventId = String(body.eventId ?? "");
+    if (isReportSize(body.size)) size = body.size;
   } catch {}
   const event = getEvent(eventId);
   if (!event) return Response.json({ ok: false, error: `Unknown event "${eventId}".` }, { status: 404, headers: cors });
+  // does this report replace the shared one? Always for the owner. For a reader, only over no
+  // report, or over an unchecked auto-draft that is no bigger than what they asked for.
+  const RANK: Record<ReportSize, number> = { snapshot: 0, brief: 1, deep: 2 };
+  const current = getDossier(event.id);
+  const own = current && current.slug === event.id ? current : undefined;
+  const shared =
+    !reader ||
+    !own ||
+    (Boolean(own.generated) && !own.generated?.reviewed && !own.generated?.sourceChecked && RANK[own.generated?.size ?? "deep"] <= RANK[size]);
   if (reader) {
-    const current = getDossier(event.id);
-    if (current && current.slug === event.id && (!current.generated || current.generated.reviewed || current.generated.sourceChecked)) {
-      return Response.json({ ok: false, error: "This report has been checked, so it can't be regenerated from here." }, { status: 403, headers: cors });
-    }
     if (remaining(reader.uid) <= 0) {
       return Response.json({ ok: false, error: `You've used today's ${perDay()} reports. More tomorrow.` }, { status: 429, headers: cors });
     }
@@ -135,8 +154,16 @@ export async function POST(req: NextRequest) {
         try {
           wire = (JSON.parse(fs.readFileSync(path.join(atlasContentDir(), "wire.json"), "utf8")) as { items: WireHeadline[] }).items ?? [];
         } catch {}
-        const { text, items } = materialFor(event, wire);
-        send(`drafting ${event.title} from ${event.sources.length} sources and ${items.length} headlines`);
+        // what is fueling it: the live layer first (fresh every 20 minutes), else this build's copy
+        let fuel: FuelEvent[] = (await liveCard(event.id))?.fuel?.items ?? [];
+        if (!fuel.length) {
+          try {
+            fuel = (JSON.parse(fs.readFileSync(path.join(atlasContentDir(), "fuel.json"), "utf8")) as Record<string, { items: FuelEvent[] }>)[event.id]?.items ?? [];
+          } catch {}
+        }
+        const { text, items } = materialFor(event, wire, fuel);
+        console.log(`report: ${event.id} size=${size} by=${reader ? "reader" : "owner"} shared=${shared}`);
+        send(`drafting a ${REPORT_SIZES[size].label.toLowerCase()} report on ${event.title} from ${event.sources.length} sources, ${items.length} headlines and ${fuel.length} fueling developments`);
 
         // model
         const res = await fetch("https://api.anthropic.com/v1/messages", {
@@ -144,37 +171,41 @@ export async function POST(req: NextRequest) {
           headers: { "content-type": "application/json", "anthropic-version": "2023-06-01", "x-api-key": key },
           body: JSON.stringify({
             model,
-            max_tokens: 16000,
-            system: systemPrompt({ typesSource, example, wire, today }),
+            max_tokens: REPORT_SIZES[size].maxTokens,
+            system: systemPrompt({ typesSource, example, wire, today }, size),
             messages: [{ role: "user", content: userPrompt(text) }],
           }),
         });
         if (!res.ok) throw new Error(`Claude API ${res.status}: ${(await res.text()).slice(0, 200)}`);
         const body = (await res.json()) as { content: { type: string; text?: string }[] };
         const out = body.content.filter((c) => c.type === "text").map((c) => c.text ?? "").join("");
-        const { draft, unknownSources } = finishDraft(JSON.parse(extractJson(out)), event, items, {
-          model,
-          by: "Geopolitica (generated in the app)",
-          today,
-        });
+        const { draft, unknownSources } = finishDraft(
+          JSON.parse(extractJson(out)),
+          event,
+          items,
+          { model, by: "Geopolitica (generated in the app)", today, size },
+          fuel.flatMap((f) => f.sources.map((s) => s.url)),
+        );
         const json = JSON.stringify(draft, null, 2) + "\n";
 
         // persist: locally for this deployment, and to the repo when a token is set
         let local = false;
-        try {
-          const dir = path.join(process.cwd(), "src", "content", "dossiers");
-          fs.mkdirSync(dir, { recursive: true });
-          fs.writeFileSync(path.join(dir, `${event.id}.json`), json);
-          resetDossierCache();
-          local = true;
-        } catch {}
         let repo = false;
-        try {
-          repo = await commitToRepo(event.id, json);
-        } catch (err) {
-          send(`note: ${(err as Error).message}`);
+        if (shared) {
+          try {
+            const dir = path.join(process.cwd(), "src", "content", "dossiers");
+            fs.mkdirSync(dir, { recursive: true });
+            fs.writeFileSync(path.join(dir, `${event.id}.json`), json);
+            resetDossierCache();
+            local = true;
+          } catch {}
+          try {
+            repo = await commitToRepo(event.id, json);
+          } catch (err) {
+            send(`note: ${(err as Error).message}`);
+          }
         }
-        send(JSON.stringify({ ok: true, dossier: draft, saved: { local, repo }, unknownSources }));
+        send(JSON.stringify({ ok: true, dossier: draft, saved: { local, repo, shared }, unknownSources }));
       } catch (err) {
         send(JSON.stringify({ ok: false, error: (err as Error).message }));
       } finally {

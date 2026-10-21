@@ -50,6 +50,12 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
   const headlines = wire.items.filter((i) => i.eventIds.includes(e.id) && !cited.has(i.url)).slice(0, 12);
   const links = neighbours(e.id);
   const card = allRipples().find((r) => r.id === e.id);
+  // what the report is built around: the small developments fueling it, then what the events
+  // that drive it move in (so even a quiet event gets three or more aspects to work from)
+  const fuelAspects = [
+    ...(card?.fuel?.items ?? []).map((f) => f.aspect),
+    ...links.filter((l) => l.flow === "in" || l.flow === "both").map((l) => l.aspect),
+  ];
 
   // The ripple map is drawn from the dossier when it is this event's own; otherwise from the event's connections.
   const own = dossier?.slug === e.id;
@@ -159,8 +165,8 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
         ) : null}
         {REPORT_API ? (
           <div className="mt-3">
-            <MembersOnly compact title={dossier && own ? "regenerate this report" : "generate a report for this event now"}>
-              <GenerateReport eventId={e.id} existing={Boolean(dossier && own)} api={REPORT_API} />
+            <MembersOnly compact title="build a report on this event, at the size you need">
+              <GenerateReport eventId={e.id} existing={Boolean(dossier && own)} api={REPORT_API} aspects={fuelAspects} />
             </MembersOnly>
           </div>
         ) : !dossier ? (

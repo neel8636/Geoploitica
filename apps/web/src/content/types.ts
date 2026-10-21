@@ -111,6 +111,15 @@ export interface ChangeLogEntry {
   change: string;
 }
 
+export interface FuelAspect {
+  // the part of the economy: money (markets, budget), goods (energy, trade, food) or people
+  // (jobs, living, politics, security, displacement)
+  aspect: "markets" | "budget" | "energy" | "trade" | "food" | "jobs" | "living" | "politics" | "security" | "displacement";
+  title: string; // the concrete development, at most 8 words: "French 10-year yield hits 5%"
+  how: string; // one sentence: how it feeds the event
+  sourceIndex?: number; // index into evidence.sources
+}
+
 export interface Dossier {
   slug: string;
   title: string;
@@ -120,6 +129,10 @@ export interface Dossier {
   region: string;
   tags: string[];
   readingMinutes: { card: number; brief: number; deep: number };
+  // What is fueling the event, one entry per part of the economy that feeds it (at least three
+  // when the material supports it). The report is built around these: the brief's "why it
+  // matters", the sectors and the first ripple ring take them in turn.
+  fuel?: FuelAspect[];
   // Present when the report was drafted by the draft script rather than written by hand.
   generated?: {
     by: string;
@@ -132,6 +145,8 @@ export interface Dossier {
     sourceChecked?: { at: string; by: string; claims: number; fixed: number };
     // set when events have overtaken the report; the next pipeline run redrafts it
     outdated?: string;
+    // how big a report was asked for: snapshot, standard brief, or full deep dive
+    size?: "snapshot" | "brief" | "deep";
   };
 
   // Layer 1: 30-second card

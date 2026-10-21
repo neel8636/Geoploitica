@@ -1,6 +1,8 @@
 // The event graph. One node per world event worth tracking; edges say how events connect.
 // Keep this file the single source of truth; the wire and the draft-report script read it.
 
+import { linkAspect, type Aspect } from "./fueling.ts";
+
 export type EventType =
   | "unrest" | "conflict" | "election" | "economy" | "markets" | "energy" | "regulation"
   | "diplomacy" | "trade" | "disaster" | "security";
@@ -73,7 +75,7 @@ export function getEvent(id: string): WorldEvent | undefined {
 }
 
 /* Edges in both directions, de-duplicated, so the map can draw each connection once. */
-export interface Edge { a: string; b: string; kind: LinkKind; why: string; via?: string; driver?: string; flow: Flow } // flow seen from a
+export interface Edge { a: string; b: string; kind: LinkKind; why: string; via?: string; driver?: string; flow: Flow; aspect: Aspect } // flow seen from a; aspect: what moves along it
 
 export function allEdges(): Edge[] {
   const seen = new Set<string>();
@@ -83,7 +85,7 @@ export function allEdges(): Edge[] {
       const key = [e.id, l.to].sort().join("|");
       if (seen.has(key)) continue;
       seen.add(key);
-      out.push({ a: e.id, b: l.to, kind: l.kind, why: l.why, via: l.via, driver: l.driver, flow: flowBetween(e.id, l.to) });
+      out.push({ a: e.id, b: l.to, kind: l.kind, why: l.why, via: l.via, driver: l.driver, flow: flowBetween(e.id, l.to), aspect: linkAspect(l.via, l.why) });
     }
   }
   return out;
@@ -98,6 +100,7 @@ export interface Neighbour {
   driver?: string;
   direction: "out" | "in"; // which event's record holds the link
   flow: Flow; // which way the effect travels, seen from the event being looked at
+  aspect: Aspect; // the part of the economy it moves through (money, goods or people)
 }
 
 /*
@@ -141,10 +144,10 @@ export function neighbours(id: string): Neighbour[] {
   const out: Neighbour[] = [];
   for (const l of me.links) {
     const event = getEvent(l.to);
-    if (event) out.push({ event, kind: l.kind, why: l.why, via: l.via, driver: l.driver, direction: "out", flow: flowBetween(id, event.id) });
+    if (event) out.push({ event, kind: l.kind, why: l.why, via: l.via, driver: l.driver, direction: "out", flow: flowBetween(id, event.id), aspect: linkAspect(l.via, l.why) });
   }
   const ins: Neighbour[] = EVENTS.flatMap((e) =>
-    e.links.filter((l) => l.to === id).map((l) => ({ event: e, kind: l.kind, why: l.why, via: l.via, driver: l.driver, direction: "in" as const, flow: flowBetween(id, e.id) })),
+    e.links.filter((l) => l.to === id).map((l) => ({ event: e, kind: l.kind, why: l.why, via: l.via, driver: l.driver, direction: "in" as const, flow: flowBetween(id, e.id), aspect: linkAspect(l.via, l.why) })),
   ).filter((x) => !out.some((o) => o.event.id === x.event.id));
   return [...out, ...ins];
 }

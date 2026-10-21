@@ -1,4 +1,5 @@
 import { LINK_WORDS, neighbours, type WorldEvent } from "./events.ts";
+import { ASPECTS, type FuelEvent } from "./fueling.ts";
 
 /*
   The report generator, shared by the draft script (batch, in CI) and the enterprise
@@ -24,7 +25,37 @@ export interface DraftInputs {
 
 export const DEFAULT_MODEL = "claude-sonnet-5-5";
 
-export function systemPrompt(inputs: DraftInputs): string {
+/*
+  How big a report the reader asks for. Every size keeps the same four layers (card, brief,
+  deep dive, evidence), so the format never changes; the size sets how much goes in each.
+*/
+export type ReportSize = "snapshot" | "brief" | "deep";
+export const REPORT_SIZES: Record<ReportSize, { label: string; minutes: number; blurb: string; maxTokens: number; rules: string }> = {
+  snapshot: {
+    label: "Snapshot",
+    minutes: 3,
+    blurb: "The 30-second card and a short brief, with the deep dive kept to the essentials.",
+    maxTokens: 8000,
+    rules: `SIZE: snapshot. Keep every layer but make it short. Ripple: three rings, 3 effects each. Brief: 1-2 short paragraphs per section, 2 winners, 2 losers, 2 recap questions. Deep: 3-4 timeline entries, 2 cause layers, 3 stakeholders, one sector per fuel aspect, 2 daily-life items, 2-3 scenarios, 2 predictions, 2 countermeasures, 1 analogue, 3 watch items; no chart. readingMinutes: card 1, brief 2, deep 4.`,
+  },
+  brief: {
+    label: "Standard",
+    minutes: 10,
+    blurb: "The card, the full five-minute brief, and a focused deep dive.",
+    maxTokens: 12000,
+    rules: `SIZE: standard. Ripple: three rings, 3-4 effects each. Brief: full. Deep: 5-7 timeline entries, 3 cause layers, 4-5 stakeholders, 4-5 sectors, 3 daily-life items, 3 scenarios, 3 predictions, 3 countermeasures, 2 analogues, 4 watch items. readingMinutes: card 1, brief 5, deep 8-10.`,
+  },
+  deep: {
+    label: "Deep dive",
+    minutes: 25,
+    blurb: "Everything: the full brief and every deep-dive module at full depth, with the evidence.",
+    maxTokens: 16000,
+    rules: `SIZE: deep dive. Ripple: three rings, 3-5 effects each. Brief: full. Deep: every module at full depth (8+ timeline entries, 5-7 stakeholders, 5-7 sectors, 3-4 scenarios, 4-5 predictions, 3 analogues, 5+ watch items). readingMinutes: card 1, brief 5, deep 15-25.`,
+  },
+};
+export const isReportSize = (s: unknown): s is ReportSize => typeof s === "string" && s in REPORT_SIZES;
+
+export function systemPrompt(inputs: DraftInputs, size: ReportSize = "deep"): string {
   const example = { ...(inputs.example as Record<string, unknown>) };
   delete example.generated;
   return `You draft layered geopolitical reports for a reading app. Output must be a single JSON object that satisfies the TypeScript \`Dossier\` interface below exactly: every required field present, correct types, ISO dates, no extra top-level keys, no markdown fences, no commentary. Do not include a "generated" field; the caller adds it.
@@ -33,11 +64,13 @@ Rules of the house:
 - Write for a smart generalist. Short sentences. Every claim that could be wrong is hedged or has a confidence entry.
 - Use only facts that appear in the material or that you are highly confident of; where you must estimate, say so in the text and in evidence.confidence.
 - Sources: list the real URLs given in the material. Never invent a URL. If you draw on general knowledge, cite it only with a well-known URL you are certain exists; otherwise leave it out and lower the confidence.
-- The ripple rings are the heart of the report: first-order effects that follow directly, then second-order, then third-order. Each effect gets a short sector label. Three rings, 3-5 effects each.
+- The ripple rings are the heart of the report: first-order effects that follow directly, then second-order, then third-order. Each effect gets a short sector label. Three rings; how many effects per ring is set by SIZE below.
 - Predictions carry a probability (0-1), a horizon and a dated check so they can be scored later. Scenarios sum to roughly 1.
 - slug must equal the event id. updated must be ${inputs.today}. status "developing" unless the event is clearly over ("stable") or is a scheduled date ("developing" still, since the run-up moves).
-- readingMinutes: card 1, brief 5, deep 15-25. Keep deep.chart only if you have real numbers for a series; otherwise omit it.
+- readingMinutes: as SIZE below says. Keep deep.chart only if you have real numbers for a series; otherwise omit it.
 - evidence.method: one paragraph saying this was drafted from the listed sources and headlines and what was estimated.
+- fuel: the spine of the report. 3 to 5 entries, one per part of the economy that is feeding the event, taken from WHAT'S FUELING IT and the connections in the material (each connection notes what it moves through). Use at least three different aspects when the material supports it, never invent one to reach three. Then build the report around them: brief.whyItMatters takes each fuel aspect in turn, deep.sectors covers the sector each one feeds, and the first ripple ring's sector labels use them where they fit. Keep every fact sourced; sourceIndex points into evidence.sources.
+- ${REPORT_SIZES[size].rules}
 
 TypeScript interfaces:
 ${inputs.typesSource}
@@ -46,12 +79,16 @@ A finished example of the shape (content is for a different event; do not copy i
 ${JSON.stringify(example)}`;
 }
 
-export function materialFor(event: WorldEvent, wire: WireHeadline[]): { text: string; items: WireHeadline[] } {
+export function materialFor(event: WorldEvent, wire: WireHeadline[], fuel: FuelEvent[] = []): { text: string; items: WireHeadline[] } {
   const items = wire.filter((i) => i.eventIds.includes(event.id));
+  const through = (l: { via?: string; aspect: keyof typeof ASPECTS }) => `\n  moves through: ${ASPECTS[l.aspect].label} (${l.aspect})${l.via ? `, via ${l.via}` : ""}`;
   const links = neighbours(event.id).map((l) =>
     l.direction === "out"
-      ? `- This event ${LINK_WORDS[l.kind]} "${l.event.title}" (${l.event.id}): ${l.why}\n  ${l.event.summary}`
-      : `- "${l.event.title}" (${l.event.id}) ${LINK_WORDS[l.kind]} this event: ${l.why}\n  ${l.event.summary}`,
+      ? `- This event ${LINK_WORDS[l.kind]} "${l.event.title}" (${l.event.id}): ${l.why}${through(l)}\n  ${l.event.summary}`
+      : `- "${l.event.title}" (${l.event.id}) ${LINK_WORDS[l.kind]} this event: ${l.why}${through(l)}\n  ${l.event.summary}`,
+  );
+  const fueling = fuel.map(
+    (f) => `- [${f.aspect}: ${ASPECTS[f.aspect]?.label ?? f.aspect}] ${f.title} (${f.place}${f.when !== "ongoing" ? `, ${f.when}` : ""}): ${f.what} Moves in: ${f.via}.${f.sources.length ? `\n  ${f.sources.map((s) => `${s.publisher} — ${s.url}`).join("; ")}` : ""}`,
   );
   const text = `
 EVENT
@@ -63,6 +100,9 @@ summary: ${event.summary}
 
 CONNECTIONS (already judged; keep them consistent)
 ${links.join("\n") || "- none recorded"}
+
+WHAT'S FUELING IT (small developments in the latest news, by the part of the economy they move through)
+${fueling.join("\n") || "- not mapped yet; work the fuel out from the headlines and connections"}
 
 SOURCES CITED ON THE EVENT
 ${event.sources.map((s) => `- ${s.title} — ${s.publisher}${s.date ? `, ${s.date}` : ""} — ${s.url}`).join("\n")}
@@ -106,7 +146,8 @@ export function finishDraft(
   raw: unknown,
   event: WorldEvent,
   items: WireHeadline[],
-  meta: { model: string; by: string; today: string },
+  meta: { model: string; by: string; today: string; size?: ReportSize },
+  extraSources: string[] = [], // further URLs given in the material (the fuel items' headlines)
 ): { draft: Record<string, unknown>; unknownSources: string[] } {
   const draft = raw as Record<string, any>; // eslint-disable-line @typescript-eslint/no-explicit-any
   const problems: string[] = [];
@@ -122,7 +163,14 @@ export function finishDraft(
 
   draft.slug = event.id;
   draft.updated = meta.today;
-  const known = new Set([...event.sources.map((s) => s.url), ...items.map((i) => i.url)]);
+  // the fuel spine: keep entries with a known aspect and some text, at most five
+  if (Array.isArray(draft.fuel)) {
+    draft.fuel = (draft.fuel as Record<string, unknown>[])
+      .filter((f) => typeof f?.aspect === "string" && f.aspect in ASPECTS && typeof f.title === "string" && typeof f.how === "string")
+      .slice(0, 5);
+    if (!draft.fuel.length) delete draft.fuel;
+  } else delete draft.fuel;
+  const known = new Set([...event.sources.map((s) => s.url), ...items.map((i) => i.url), ...extraSources]);
   const unknownSources = ((draft.evidence.sources ?? []) as { url: string }[]).filter((s) => !known.has(s.url)).map((s) => s.url);
   draft.generated = {
     by: meta.by,
@@ -131,6 +179,7 @@ export function finishDraft(
     sources: event.sources.length,
     headlines: items.length,
     reviewed: false,
+    ...(meta.size ? { size: meta.size } : {}),
   };
   return { draft, unknownSources };
 }
