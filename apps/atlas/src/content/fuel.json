@@ -1,1 +1,403 @@
-{}
+{
+  "france-unrest-2026": {
+    "at": "2026-10-21T14:16:42.559Z",
+    "by": "pipeline",
+    "items": [
+      {
+        "id": "french-borrowing-costs-hit-24-year-high",
+        "title": "French borrowing costs hit 24-year high",
+        "when": "2026-10-21",
+        "place": "Paris",
+        "lat": 48.86,
+        "lon": 2.35,
+        "what": "French government borrowing costs rose to a 24-year high as civil unrest and budget worries unsettled bond markets.",
+        "via": "investor fear, costlier state debt",
+        "aspect": "markets",
+        "flow": "both",
+        "sources": [
+          {
+            "title": "French borrowing costs hit 24-year high as civil unrest and budget fears spook markets",
+            "url": "https://www.theguardian.com/business/2026/oct/21/french-borrowing-costs-failure-to-pass-budget-govenment-bonds-violent-street-protests",
+            "publisher": "The Guardian World"
+          }
+        ]
+      },
+      {
+        "id": "union-leaders-urge-strikes-after-meeting-pm",
+        "title": "Union leaders urge strikes after meeting PM",
+        "when": "2026-10-21",
+        "place": "Paris",
+        "lat": 48.86,
+        "lon": 2.35,
+        "what": "French union leaders called for strikes after meeting Prime Minister Lecornu, pointing to wider labour action.",
+        "via": "union mobilisation",
+        "aspect": "jobs",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "REPLAY: French union leaders urges strikes after meeting with PM Lecornu",
+            "url": "https://www.france24.com/en/replay-french-union-leaders-urges-strikes-after-meeting-with-pm-lecornu",
+            "publisher": "France 24"
+          }
+        ]
+      },
+      {
+        "id": "town-hall-arson-suspect-arrested-in-limoges",
+        "title": "Town hall arson suspect arrested in Limoges",
+        "when": "2026-10-21",
+        "place": "Limoges",
+        "lat": 45.83,
+        "lon": 1.26,
+        "what": "Police arrested a suspect in Limoges after an arson attack on the town hall.",
+        "via": "local violence, public anger",
+        "aspect": "security",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Police arrest French suspect in Limoges after town hall arson attack",
+            "url": "https://www.france24.com/en/video/20261021-police-arrest-french-suspect-in-limoges-after-town-hall-arson-attack",
+            "publisher": "France 24"
+          }
+        ]
+      },
+      {
+        "id": "le-pen-odds-rise-in-prediction-markets",
+        "title": "Le Pen odds rise in prediction markets",
+        "when": "2026-10-21",
+        "place": "France",
+        "lat": 46.6,
+        "lon": 2.4,
+        "what": "Prediction-market odds for Marine Le Pen in the 2027 presidential race rose as protests spread across the country.",
+        "via": "election pressure on government",
+        "aspect": "politics",
+        "flow": "both",
+        "sources": [
+          {
+            "title": "Prediction-market odds rise for Marine Le Pen in France 2027 presidential race as protests roil nation",
+            "url": "https://www.cnbc.com/2026/10/20/marine-le-pen-france-2027-election-odds-kalshi.html",
+            "publisher": "CNBC World"
+          }
+        ]
+      },
+      {
+        "id": "macron-vows-protesters-will-not-cause-chaos",
+        "title": "Macron vows protesters will not cause chaos",
+        "when": "2026-10-21",
+        "place": "Paris",
+        "lat": 48.86,
+        "lon": 2.35,
+        "what": "President Macron said protesters would not be allowed to cause chaos, signalling a firm government line on the unrest.",
+        "via": "tougher state response",
+        "aspect": "politics",
+        "flow": "both",
+        "sources": [
+          {
+            "title": "France’s Macron says protesters won’t be allowed to ‘cause chaos’",
+            "url": "https://www.aljazeera.com/news/2026/10/21/frances-macron-says-protesters-wont-be-allowed-to-cause-chaos?traffic_source=rss",
+            "publisher": "Al Jazeera"
+          }
+        ]
+      }
+    ]
+  },
+  "gulf-war-energy-shock": {
+    "at": "2026-10-21T14:16:42.559Z",
+    "by": "pipeline",
+    "items": [
+      {
+        "id": "japan-s-trade-deficit-hits-17-8-billion",
+        "title": "Japan's trade deficit hits $17.8 billion",
+        "when": "2026-10-21",
+        "place": "Tokyo, Japan",
+        "lat": 35.68,
+        "lon": 139.69,
+        "what": "Japan's trade deficit reached $17.8 billion as the Iran war pushed up the price of its oil imports.",
+        "via": "higher oil import bills",
+        "aspect": "trade",
+        "flow": "both",
+        "sources": [
+          {
+            "title": "Japan's trade deficit reaches $17.8 billion as the Iran war sent oil import prices soaring",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdTU4LXE5VllnZEh0eGRyRVpaaVJFMXE3Skd0VTZhWU9rNGNTb25JQ1pZSTVSX3hoS1ptTEZQanA4THZDUHBrZE1wcTBQcDdyQmdHUURwVl9wdUsxMzA2VXZrazczVUxvYlRtR3o1VW9zS3pmRno2UklFd3hyMkwzTlBQLVI4RHVpdHc3LWRrcXMwTEg1ZVdPS3hDcFh3SkJZRGdLbUFtTElKUktFcHZsLW56d3NIY2xRZHFIT2N3?oc=5",
+            "publisher": "Fortune"
+          }
+        ]
+      },
+      {
+        "id": "uk-inflation-rises-to-near-one-year-high",
+        "title": "UK inflation rises to near one-year high",
+        "when": "2026-10-21",
+        "place": "United Kingdom",
+        "lat": 52.5,
+        "lon": -1.5,
+        "what": "UK inflation climbed to its highest in almost a year, with the Iran war driving fuel prices higher.",
+        "via": "fuel-driven consumer prices",
+        "aspect": "living",
+        "flow": "both",
+        "sources": [
+          {
+            "title": "UK inflation rise to highest in almost a year as Iran war drives fuel prices higher",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOS1U0NVVSUW1aWlYyMmxad0VTSVlUTUZoem5Na3JEd0RHRy1wZDZXZUNvYU1GdUlNd2VNZTZrMlhSeE82UjZnWGVmMlZBNHV4TkpESUdvZ0VoZV9oclpMN2dGN0JOX1lFbjB0MWtaRDlBQTNpRTRXZF91OVJ4MThrSVVId0VSX09ZcUFVZTQ5M0xiaXpQV3pON0tKMNIBoAFBVV95cUxPWlh3ZHdhRzBOdERnajJzOW5vbUhITjZBOVVKbUhqUm1EakpIbGE0M2FBTXctZHRMdUNBQnFCa2pvVWZlbW4tb2pNZUV1MFlTNlVKQkNIQU16cy1sT2NUSjJPQWtsd3NObW9FSVBFMjVqUDdFX1g5cTV3Q2piZjNtblNtRW0wa2lOQ0FsZmxOMV9pT3dRT1FTYlU1RDBFbl9T?oc=5",
+            "publisher": "ABC News - Breaking News, Latest News and Videos"
+          }
+        ]
+      },
+      {
+        "id": "us-offers-to-loan-third-of-heating-oil-reserve",
+        "title": "US offers to loan third of heating oil reserve",
+        "when": "2026-10-21",
+        "place": "United States north-east",
+        "lat": 42,
+        "lon": -73,
+        "what": "Amid diesel shortages tied to the Iran war, the US offered to loan nearly a third of its heating oil reserve.",
+        "via": "diesel shortage response",
+        "aspect": "energy",
+        "flow": "both",
+        "sources": [
+          {
+            "title": "Amid diesel shortages due to Iran war, US offers to loan nearly a third of heating oil reserve",
+            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPREpDZS13N29GUDZGN184bkwtLXJSVU5NRk9aY3Y2V2M0TUZqak5zbWRDakFwZGlLMGpuN1lLdmhpYTVwZ0lOVFBwNk5fXzdsUHRLZE1HNmZqSHRKbUpQNWJSdXRfTDgyVUsxNjdIYUlxTVFFTUFxTkpCMGpldFhDNWNiaUhLRWFxMm5IXy1NUjdVZFFLb0xoUm82bjVXMkpuOFhNcWNJd2Vob0ZsZ19pUmdQbWZJMWFBT1RFY2xpOTBFazFNMElYb1pzNmk5UmJhVnlyUTlNbC1NUdIB3wFBVV95cUxOaHZ4eEpCZUNiempoNWx2dXFrM08tUkswMVo3VWdvMGJpRTdiUkNYUVNrTEExS2lQQmtCcW1LdGxodTBmV3hqMkt5akNGUzRaaWcwUkhoM0FyZGJpME9JS0tFejZacXBHb1V6NnpYMElwWG5iaENxaFQ3TFFWNno0alJVRlA3RUU4SnNFQUNNcl9wQzM4WXdyVDNkUzFpQlpXM0J1d1FxVVZMV2Z0Y2gySFJpQWZnSzRvZkZYM3N3RnpzSk9vNkZ4eER6WFNMeDBWZlU3LUF3azRwam9YMzZz?oc=5",
+            "publisher": "Telegraph India"
+          }
+        ]
+      },
+      {
+        "id": "saudi-arabia-cancels-davos-in-the-desert",
+        "title": "Saudi Arabia cancels 'Davos in the Desert'",
+        "when": "2026-10-21",
+        "place": "Riyadh, Saudi Arabia",
+        "lat": 24.71,
+        "lon": 46.68,
+        "what": "Saudi Arabia cancelled its 'Davos in the Desert' investment forum because of Houthi strikes from Yemen.",
+        "via": "investor confidence loss",
+        "aspect": "budget",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Saudi Arabia cancels 'Davos in the Desert' due to Yemen's Houthi strikes",
+            "url": "https://www.npr.org/2026/10/21/nx-s1-6009545/saudi-arabia-cancels-davos-in-the-desert-due-to-air-strikes",
+            "publisher": "NPR World"
+          }
+        ]
+      },
+      {
+        "id": "houthi-attack-on-military-camp-near-aden",
+        "title": "Houthi attack on military camp near Aden",
+        "when": "2026-10-21",
+        "place": "Aden, Yemen",
+        "lat": 12.78,
+        "lon": 45.04,
+        "what": "A blast was heard in Aden as the Houthis claimed an attack on a military camp.",
+        "via": "renewed Yemen fighting",
+        "aspect": "security",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Blast heard in Yemen’s Aden as Houthis claim attack on military camp",
+            "url": "https://www.aljazeera.com/news/2026/10/21/blast-heard-in-yemens-aden-as-houthis-claim-attack-on-military-camp?traffic_source=rss",
+            "publisher": "Al Jazeera"
+          }
+        ]
+      },
+      {
+        "id": "ukmto-logs-15-hormuz-attacks-in-9-days",
+        "title": "UKMTO logs 15 Hormuz attacks in 9 days",
+        "when": "2026-10-21",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "what": "UKMTO logged 15 attacks in nine days even after CENTCOM declared the Strait of Hormuz open.",
+        "via": "shipping risk premiums",
+        "aspect": "trade",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "CENTCOM Declared Hormuz Open. UKMTO Logged 15 Attacks in 9 Days",
+            "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBXLTk1a2tSbW1pbWtBdjcwUXB1TDE2a3FRZ1JHUEJDLVhzaHZIMjNvVHdZSkhiTjZWQWhQNHJPN1EzQUFCdFJndXNqd2ZMUVBjV0I3UU1Fc0JkVDRR?oc=5",
+            "publisher": "https://houseofsaud.com/"
+          }
+        ]
+      }
+    ]
+  },
+  "ukraine-summit-diplomacy": {
+    "at": "2026-10-21T14:16:42.559Z",
+    "by": "pipeline",
+    "items": [
+      {
+        "id": "witkoff-meets-putin-in-st-petersburg",
+        "title": "Witkoff meets Putin in St. Petersburg",
+        "when": "2026-10-21",
+        "place": "St. Petersburg, Russia",
+        "lat": 59.93,
+        "lon": 30.34,
+        "what": "Trump envoy Steve Witkoff met Putin in St. Petersburg for Ukraine peace talks, and Putin agreed to resume negotiations afterward.",
+        "via": "restarted direct US-Russia contact",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Putin agrees to resume Ukraine peace talks after meeting with Trump envoy",
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPN1FKZWw5UThpbUxzMTYyZlVPRmFXdXR0VzV3Y0hVa05hSlNKekxwSF9DdHFBa2pmMlVLdW9pVDI2S1RNT2Z2TEowd01QaFcxRXVPemFHcHdLTnNsQWFRQlVOVzduZFdVaTZqQ0FsaDAyWVF0UXdyc201NzZXbG1sdnd1NWlCaHhnREdGTzkwaWRZQURKcnppaV9VbUl5SjNvTDA3em9lcXNZY3FoLVQ2b1FmdjZxVS1y?oc=5",
+            "publisher": "Scripps News"
+          },
+          {
+            "title": "Putin Hosts U.S. Envoy Steve Witkoff in St. Petersburg for Ukraine Peace Talks: how 12 outlets framed it",
+            "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQTlRsWnQyWEI0SExOQjNBeVdoa19JcUxoOHVXREdjME00eE45RTZvUHc0cjB2UzkwTldpYzdNNjdtVElRRVNMTXFySmNPSVJ2XzZsbzNOek1KaUFwLTZkOTE4ZzFCcEpWQ21ZUERjMDRQSDZCcmFGb1FKalV3NUZzWEpURUo0UHZnQnZQS0FRZ1JsV2plS3hzZVBkLVJVeE5uVGIzLVZZN0VZaDJ4TDVXVkhhLXRZbzlXMHNhLUFnaTZoWVpFZkV1cDhQNlhoUU1pNVlJYTdUUmg1M3JrVU1KMmZjYw?oc=5",
+            "publisher": "NewsCord"
+          },
+          {
+            "title": "Putin orders release of jailed American as he meets Trump envoy for Ukraine talks",
+            "url": "https://www.theguardian.com/world/2026/oct/21/putin-witkoff-russia-ukraine-trump-stephen-hubbard-release",
+            "publisher": "The Guardian World"
+          }
+        ]
+      },
+      {
+        "id": "putin-frees-jailed-american",
+        "title": "Putin frees jailed American",
+        "when": "2026-10-21",
+        "place": "St. Petersburg, Russia",
+        "lat": 59.93,
+        "lon": 30.34,
+        "what": "Putin ordered the release of a jailed US citizen during the meeting with Witkoff, a goodwill gesture that eased the way for talks.",
+        "via": "goodwill gesture to Washington",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Witkoff Urges Putin to Revive Ukraine Peace Talks, Secures Release of US Citizen",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQb1ZrUUQ1NTdPMTZHU1lVX3FMZC1WSmk1bVZwVVdMcDJ4X1NXV0pYOE80d3dtazgxTFh3TVZLZldEb0RCMjgzZmRSNEV1dTVvdXF1OTBScm5Ba21TVlFwSjFXUHYwUkJUYzUzZDBjb1VqdHZBZmJWSGJpNFN0ZUk0RGRoV1F3RFhHclRYTVVEWG5DUE1TZkhKcmp0RlA3MXpETFVxWTloTlMwUkkyZ0FCbHpmdVpRN3JvRVE?oc=5",
+            "publisher": "Modern Diplomacy"
+          },
+          {
+            "title": "Putin orders release of jailed American as he meets Trump envoy for Ukraine talks",
+            "url": "https://www.theguardian.com/world/2026/oct/21/putin-witkoff-russia-ukraine-trump-stephen-hubbard-release",
+            "publisher": "The Guardian World"
+          }
+        ]
+      },
+      {
+        "id": "kremlin-ready-for-november-trilateral-talks",
+        "title": "Kremlin ready for November trilateral talks",
+        "when": "2026-10-21",
+        "place": "Moscow, Russia",
+        "lat": 55.76,
+        "lon": 37.62,
+        "what": "The Kremlin said Russia is willing in principle to resume trilateral peace talks with the US and Ukraine in November.",
+        "via": "Russian offer to resume talks",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Russia is willing in principle to join new Ukraine peace talks in November, Kremlin says",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNX2lXUVRRUFYxUk52Z1V0bVdLaWdydE8zV0ZfQnFxSEVjakhMNUZHNlVIaXBsZzdWUXkzRkhYX3gzTm9RbWFCQlRoWl80YUlyQWJrMVBQRUNxc0lCWWZQY2lmeGVyZDJMdEJQakFEVWMzd1BPNDRzdUtuMjh5Rkh2S3VfSzY0MFROT2dWRS1pU1RBaVY5UGlFMVMtTk10SXl6V0c0RThHd3czZ1JnLURhX1VwRHJPS0I5QmItbA?oc=5",
+            "publisher": "Reuters"
+          },
+          {
+            "title": "Putin Proposes Restarting Russia-Ukraine-US Peace Talks in November, Russian Officials Say",
+            "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPME04Sy0tNU5pOWlfbVNTOGtDeFNTZTdpME4waU9PRnZtakNGeWlPZFptbHBReXpiWU9GTU1xTXlLdk5kZ085NTIycTE3Z2hPanRYaFVXTHNSRkpEYUNVNVN2ZFR0MXRURTJYOUhFLW53SjNCekoxUlUwa2RxNzh2R1RDZGlPeXNXQlAydS1GMDB0cGpGblhuYnk5OFpnRDN0cERFLVB5b1NzTXUwS2hNTWo4M2VWMkNkekZ6ekF0Y0g0czA4c1plUkVnMmQ0NGhLbmc?oc=5",
+            "publisher": "UNITED24 Media"
+          },
+          {
+            "title": "Kremlin 'ready' to resume trilateral peace talks with US, Ukraine, Putin claims",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZFJzak5iNXMzOWw4YU9hbEtKY1NJUWFMbUZBM1c3bTFKaU52S3FXd1VFcDZDbHhaY29TeXZlQ2c1cFhqRDE5TUotREhCN19abWRqQkViU2FUWVNRbnI4LVhmdTlGT3ZIekdSOUQ5UUJfYlpNN3J3ME9rME9CTnNiNVk3eW04akdNTEV2Wm5HRjhvZnRxTDY5a3ItekZaVEZNVlRnZ0k5QQ?oc=5",
+            "publisher": "The Kyiv Independent"
+          }
+        ]
+      },
+      {
+        "id": "putin-eyes-meeting-xi-at-apec",
+        "title": "Putin eyes meeting Xi at APEC",
+        "when": "2026-10-21",
+        "place": "China",
+        "lat": 39.9,
+        "lon": 116.4,
+        "what": "Putin said he could meet the Chinese president during the APEC summit in China, the setting for his proposed summit with Trump and Xi.",
+        "via": "APEC meeting opportunity",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Putin: Opportunity to meet with Chinese President during APEC summit in China",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbnlVVU05UzZEbnVSUHhaRm5yUmpfWFQxQnhRZEc0QVctcnpubFVkdmlIbTNZRTI3SFlJU3k4RDg3TXJuNl9uamt0VnlSb1NqeHRlVUxiUFJHQ1ZYLVUwYWtuNWNNVm81eEpobUZSM3RNRnV0MHB6ZVA4OUhqZ2tYTEwzaWs2X2dNQklQREczNjhxVi1pVFd5TzhXNU1Bdnp6S1ItSkU4Uy03STFNb05EYkJ0ZlFMak9WVFNFNHQ5a2p3NC1zRXM4?oc=5",
+            "publisher": "صوت الإمارات"
+          },
+          {
+            "title": "Vladimir Putin proposed a summit with Donald Trump and Xi Jinping in November, on the sidelines of the APEC meeting in China",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQa0d2bU5aSzR6UFNwOG0teDZEdDdLc2NpR2s2dzBqOUFoNTJRZWRuWkx6NEV4dFJ6eHhNVm5PbVN2MHdOWGNVdmV3M25tQ1NQTzJramx1WXlFMWktOTRtUnM1Ml8wTkdvUERMa01Uci1Jc2VpRzJzTHlOLWpuZmd5OEFPZEd6REFlSkprVjQtckdweFA2ZWVSVjFmdnc4ZE5GUGE4VzMwVjB0dw?oc=5",
+            "publisher": "Informat.ro"
+          }
+        ]
+      },
+      {
+        "id": "zelensky-backs-freezing-the-front-line",
+        "title": "Zelensky backs freezing the front line",
+        "when": "2026-10-21",
+        "place": "Kyiv, Ukraine",
+        "lat": 50.45,
+        "lon": 30.52,
+        "what": "Zelensky said Ukraine would accept a deal freezing the war along the current front line as a first step toward negotiations.",
+        "via": "Ukrainian ceasefire offer",
+        "aspect": "security",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Ukraine ready to accept peace deal that would freeze war along current front line – Zelenskyy",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMlV1dXlXNksyMTJ5c21tNzlJazdXYU9nUzJPdzB2Wi1HcVRWaEwwRnM4OXFuV0gzMWR5OEY3VmtYZnB3LTZaWGM5dU5JQnVRMHNVX0JLWkE4UVh3SUU5UjlSTEpfQmxZbEdfX3p3MEVkS1Raa3haUEpyTlRJYWZsVTZqSHNaRU1jcGptc2VGcHZ1aWFHaVZUSTBuZVBXMmNUb3dPMGxUYkVKWTg5eVJ5VExqOWptY3BXdHfSAbYBQVVfeXFMUDdjcF80WjdvQ2hCYlJ2akhiem52ZXM5R0JPZ091S2ZHTWxYTWt6V3FoUlJkWmJEOU41bnVjNmdjbXpRNngwR0dxdUlvZ0ZsckdkZG4waF9yQl9teEFBVzByUktMaW41Q2VHMHhrU2JvbWxUSEJLMVd3dE8zaUVUWXVRTFllZmdQNDNqZk9pTTRVTmlkUUt4bW5pWWtoSFUzSmlTRGxsMk9OT1pYVXZwOFlFbENpYUE?oc=5",
+            "publisher": "The New Voice of Ukraine"
+          },
+          {
+            "title": "Ukraine’s Zelensky: freeze the war front as a first step toward peace negotiations",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSmFiUEh4V2JadE9oNmNjNks0U1Rwa0dWVDdPdXRkeFFDRFBTcVFzWGZPWG9UZEV5c3BZZ3hJYWdIVXhldXV0dzRNbkNpWkJDTnJLa3ctYUFXMW1ZX2NmWUhpT0dHU25sNGdWQUd2WnhkMmVtMWRwZDRMb2dZbDhYcEtjU2N2SUhRTlF0NzFzenpYMUNyWTV1X0JVcEJxNXlHQ2NtcHBWMlpVMllfeXA4cDVQbEJQMnZWdWhVWGZPV18?oc=5",
+            "publisher": "News24"
+          },
+          {
+            "title": "Ukraine’s Zelensky says he’d accept peace deal with Russia that ‘freezes’ front lines: ‘Real way to end war’",
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeG9kWFRfQU93cVFqaXhNUWgyd0pHcEpwT1JYYXYzaXYyYlVveU1MWWgtREdiV05BQ05jNGVYazNrSjlUS09PWE9RQzdCLW5PMzRXU0t3SmJKbTFEeFJDME5MX0ZJVTR2T1doZVdHUWRPNzM2OE1JSkZYN0h1RGplREc2UEtJTlpiR0c1M1lyMURPSWpqczJ2bXV3d2FGRkpYX19kNnhyQ2VvMDFoZVRkTjgzY2k2anhyTXp2bzBGa1dHRUJl?oc=5",
+            "publisher": "New York Post"
+          },
+          {
+            "title": "Zelensky calls for freezing of front with Russia as first step to talks",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUzVxZ1Y5M0x4QjVDTG1BZWtKeUFpcnVIUjA2c3I2dFFrbGEtYnVxZWRVbjRybDFILWNOZnpKc2NPVGY4aDZEMVRXcDV5cFlzYXBwN2h3X3Frc2JqRV8wR3MxNS1LUGpYZlpUQlB6RW80eW5TeExLSVhsRmlaUm9rZEg2aDgyU29kT2hNMzdFWEpCNERSRGhwcDFlaEtRbmFVSF9QQ3BzVFZZcndPY2U5aWx4WWLSAboBQVVfeXFMTmN4U1drcVJtakdDYm4wbzdFRllTNHZnTXZfbXQyNzEtSmxndXh5YkU3WHNKd0dhZHdkTUJxbnhlTTdnSkx0ZW0zZDdva0Q1YUxzUUpiYWxHSDZJOEVEZFBWUnR6RE9lUUk2YURHR3NwNlRDSXdFa2tZaVNiZ085bjVWRnhJSVJvWUZ4cTcyMDF1bnhvMWdJZXB0N3FnQ090VGNjdHJGSG9KM0Y0ZmlhY0VCTDF2VFJfelB3?oc=5",
+            "publisher": "A News"
+          }
+        ]
+      },
+      {
+        "id": "zelensky-backs-ceasefire-and-trilateral-talks",
+        "title": "Zelensky backs ceasefire and trilateral talks",
+        "when": "2026-10-21",
+        "place": "Kyiv, Ukraine",
+        "lat": 50.45,
+        "lon": 30.52,
+        "what": "Zelensky said he supports a ceasefire and trilateral talks with the US and Russia, insisting Ukraine take part in any negotiations.",
+        "via": "Ukrainian insistence on seat",
+        "aspect": "politics",
+        "flow": "both",
+        "sources": [
+          {
+            "title": "Zelenskyy called for negotiations with Trump and Putin, with Ukraine's participation",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTUZ5WXZVVXpXYzFPcHhFWXdEbmlTT1U5VDBrLUc2a3RqYUtaUE13NllKOG02WUE5dy1fVEttZW5hQjJMVkk4S2lhSGZ6T0Y5aDJiYzVuemxzeDhQbEVsUmI2MEM3bGNiWEtRbjZmOXZhcUJCNEFPWkg0Ul92QkgtOWExYl9xR0tNQlhqRV9IVk8tbTUxTWNaLTVYVGZfVTY0S0E?oc=5",
+            "publisher": "UA.NEWS"
+          },
+          {
+            "title": "Ukraine’s Zelenskyy says he supports ceasefire, trilateral talks with US and Russia",
+            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZU91REViNW1nV1Z2RUQ1NmR1bElnc2FtMi04ZlYzMzdDSHNmbVlkaWEyT1FsdEc1RUI2dWt3Sjc2R0Z0OGlGRTVPRkhfNV9xckxoLWpWenBVREgwVjQ1dWZCOXZQLWRITUtUOGtzQnNBVHN4eEs5a2pacEUyZHg3MXc3SzBrcW42WVNSZFFUOXZJLUZyc2FCeGVrMU5sUEZXNWNxakVmNEwyZ1hkQ05QeUV6RmhBVEJPaEdfem5RNzh0YkxOelFWNGtuRzZfeW_SAdQBQVVfeXFMT0xHTl81TWFhMl9tUU9odjRTQlZCLVlGaV9JZG5Qa2NjNWRON1paTzJwZlVmcDlOd0pmc0RFX0ZLTXBSRGJuUGJ0SHhSdDdsSFhfRlM4NU15aXBHUy1lZS1xS2RZelJheUcydzFiSVZrbEtndFZ2NXZpallONHBBbnJyODhsVk0tT3NxeFl0YTl4M3E4ZURObkYtZVI2bUNEWGlUZmhJRmliMm9nYVdybF9HT01fU1Q2TGsxcEp3SFBOU2V2MDA5RHV2QUdWMVFjZUNJQ3c?oc=5",
+            "publisher": "Al Arabiya English"
+          },
+          {
+            "title": "Ukraine’s Zelensky says he supports ceasefire, trilateral talks with US, Russia",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWkE0Q0pOX2xHaUdyc0RyMHI0ZGw2b3kwdlU1V3p4eS1CX0FSeDAybkQ4SDJ0MUFBN1lIR2ZvSGRqNm1JckVKa3ZObTZlZEMxODhVMU1UaUFmdm1uX1B6M01mTlhYdXlkQWFKeERTYjhNM3g1c24zMkpHTTJLS1liN2QxU1RLcUY1ejc4eFdyREpXRlNvTW5HX1dLUmRxWF8wMGFVRk1TVFFlc1VTY0pFVzl3X1FwUQ?oc=5",
+            "publisher": "Arab News"
+          },
+          {
+            "title": "Zelensky says he supports ceasefire, trilateral talks with US and Russia",
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdzh1MllEWHFoVGllRmZydjVjSHhsVXFRODNicEJiNVc2Vm95QzZ0ZFd3WG42VnB1VGFoYTFJNjVRUEVkajBKVzZEQ2E5bGxOM09GTkdmVnhhV19CT0xvZ1FDOVNjQUw0aXE2cGhYdVpYeGdsbUNXd21MdjFkQzFydGM4N2x6NWVYako0U3loUVIyX24wTDBDQUU0MC0wUTZaYkg4OElYblBBdE15NWJ4cEg4cnJiZjhOVENxZm1yZGJyWFVZN0dRaW5JMA?oc=5",
+            "publisher": "Free Malaysia Today"
+          }
+        ]
+      }
+    ]
+  }
+}
