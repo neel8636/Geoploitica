@@ -83,7 +83,7 @@ export default function LinkRow({
         {host && teaserFor(host, n.event.id) ? (
           <p className={`${size === "sm" ? "text-xs" : "text-sm"} mt-0.5 text-ink-2`}>
             {teaserFor(host, n.event.id)!.hook}{" "}
-            <Link href={`/events/${host}/#how-it-connects`} className="whitespace-nowrap text-teal hover:underline">How it unfolds →</Link>
+            <Link href={`/events/${host}/#read=connect&via=${n.event.id}`} className="whitespace-nowrap text-teal hover:underline">How it unfolds →</Link>
           </p>
         ) : (
           <p className={`${size === "sm" ? "text-xs" : "text-sm"} mt-0.5 text-ink-2`}>{n.why}</p>

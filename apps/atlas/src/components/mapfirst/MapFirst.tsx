@@ -952,7 +952,7 @@ export default function MapFirst(props: MapFirstProps) {
                 {more > 0 ? `${more} more step${more > 1 ? "s" : ""}` : "The rest"}
                 {ex?.watch ? " and what to watch next" : ""} are in the report.
               </p>
-              <a href={`${eventHref(from)}#how-it-connects`} className="inline-flex items-center rounded-sm bg-teal px-3 py-1.5 text-[13px] font-semibold text-paper no-underline hover:opacity-90">
+              <a href={`${eventHref(from)}#read=connect&via=${to}`} className="inline-flex items-center rounded-sm bg-teal px-3 py-1.5 text-[13px] font-semibold text-paper no-underline hover:opacity-90">
                 Read the whole chain →
               </a>
             </div>

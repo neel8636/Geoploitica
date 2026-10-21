@@ -28,6 +28,22 @@ export interface ReadOption {
 
 const ICONS: Record<ReadIcon, LucideIcon> = { quick: Zap, connect: Waypoints, brief: BookOpen, full: Layers, news: Newspaper, build: Sparkles };
 const KEY = "geo.readAs";
+// in-report anchors that older links point at, and the view that now holds them
+const LEGACY: Record<string, string> = {
+  card: "quick",
+  "how-it-connects": "connect",
+  brief: "brief",
+  "what-happened": "brief",
+  "why-it-matters": "brief",
+  "winners-losers": "brief",
+  "whats-next": "brief",
+  deep: "full",
+  evidence: "full",
+  timeline: "full",
+  scenarios: "full",
+  watch: "full",
+  sources: "full",
+};
 
 export default function ReportChooser({
   title,
@@ -49,22 +65,62 @@ export default function ReportChooser({
   const top = useRef<HTMLElement>(null);
   const has = (id: string | null) => Boolean(id && options.some((o) => o.id === id));
 
-  // a link can name the view (#read=brief); the map's "Build report" arrives with ?size=…;
+  const [via, setVia] = useState<string | null>(null);
+
+  // which view a link asks for: #read=<id> (with &via=<event> to open one connection), or an
+  // older in-report anchor (#how-it-connects, #brief, #deep…) from links made before the chooser
+  function fromHash(): { id: string; via: string | null } | null {
+    const h = window.location.hash.slice(1);
+    if (!h) return null;
+    const q = new URLSearchParams(h);
+    const read = q.get("read");
+    if (read && has(read)) return { id: read, via: q.get("via") };
+    const old = h.startsWith("via-") ? "connect" : LEGACY[h];
+    return old && has(old) ? { id: old, via: h.startsWith("via-") ? h.slice(4) : null } : null;
+  }
+
+  // on arrival: what the link names; the map's "Build report" arrives with ?size=…;
   // otherwise the reader's last pick, if this event offers it
   useEffect(() => {
-    const hash = new URLSearchParams(window.location.hash.slice(1)).get("read");
+    const linked = fromHash();
     const size = new URLSearchParams(window.location.search).get("size");
     let saved: string | null = null;
     try {
       saved = localStorage.getItem(KEY);
     } catch {}
-    const first = has(hash) ? hash : size && has("build") ? "build" : has(saved) ? saved : null;
-    if (first) queueMicrotask(() => setPick(first));
+    const first = linked?.id ?? (size && has("build") ? "build" : has(saved) ? saved : null);
+    if (first)
+      queueMicrotask(() => {
+        setPick(first);
+        setVia(linked?.via ?? null);
+      });
+    // a link on this same page (or back/forward) that names another view switches to it
+    const onHash = () => {
+      const next = fromHash();
+      if (!next) return;
+      setPick(next.id);
+      setVia(next.via);
+      requestAnimationFrame(() => out.current?.scrollIntoView({ behavior: "smooth", block: "start" }));
+    };
+    window.addEventListener("hashchange", onHash);
+    return () => window.removeEventListener("hashchange", onHash);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  // a link to one connection: open that fold and bring it into view once the view is showing
+  useEffect(() => {
+    if (!via || pick !== "connect" || !signedIn) return;
+    const t = setTimeout(() => {
+      const el = document.getElementById(`via-${via}`);
+      if (el instanceof HTMLDetailsElement) document.querySelectorAll<HTMLDetailsElement>('details[id^="via-"]').forEach((d) => (d.open = d === el));
+      el?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 150);
+    return () => clearTimeout(t);
+  }, [via, pick, signedIn]);
+
   function choose(id: string) {
     setPick(id);
+    setVia(null);
     try {
       localStorage.setItem(KEY, id);
     } catch {}
