@@ -3300,5 +3300,117 @@
         ]
       }
     ]
+  },
+  "south-china-sea-incidents-2026": {
+    "at": "2026-10-21T16:34:00.809Z",
+    "by": "pipeline",
+    "items": [
+      {
+        "id": "us-warship-shadowed-near-sabina-shoal",
+        "title": "US warship shadowed near Sabina Shoal",
+        "when": "2026-10-21",
+        "place": "Sabina Shoal, Spratly Islands",
+        "lat": 9.72,
+        "lon": 116.6,
+        "what": "China says it tracked USS Charleston near Sabina Shoal and accused it of jeopardizing maritime security, adding a US naval presence to the tensions.",
+        "via": "great-power naval friction",
+        "aspect": "security",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "US warship in disputed South China Sea region triggers response",
+            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPRjhESjhBY1k5RlkxSk5DMXI5ZzBNRm9fbThJVXpiZm1aLTNqQVFjM3Z4c04wQzhzTkdkUlI3QnpuYW8yZ2Y4dFI0aEhPZ0RLNkVVUGphQTYxVXc0NHhNYmdKelg2LWluTG9fdm1sa3BwOGVUQ0NHbVpvWkZHNHhuVzFBNTFpbXVsYTZyRjc3cU9GVkR1THF1bW12SlVzRUZCa3BTZ1RNdFp0MzVQeHlyLW5kRGlrVjdFdHplXzJoaWZqSmVwclVRTE9ZeUN2X1RlaXVCOVB4c1dfZw?oc=5",
+            "publisher": "The Mary Sue"
+          },
+          {
+            "title": "China Claims U.S. Navy Ship Jeopardized Maritime Security Near Contested Sabina Shoal",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSUhGa3hxZTNXN2xQV1B2QUFzWEhSaWhPMUJGSEJId2hHaGp5OHZ0TE9NMDVBMjhKSEdRTUgyT1BDSVlQeVJFNzcxaWdUUTEwa0ZzalRzb09CaEdPcTI3UWVFbFZCNEM2UDZNLUVvcWlWREQ0ajlCODJJcVhOZUtsaG9iWU5Ja0NIRWVQMUhySkRkcnowSUtDT2lILV9BZ3pPb2M2bmMxYmtQeE5JaEliOUNRY3hVdw?oc=5",
+            "publisher": "Marine Insight"
+          },
+          {
+            "title": "China Says It Shadowed USS Charleston Near Sabina Shoal, Challenging US Naval Access",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNEFHWWpLcGFHZEdiVER2UDlHQy1zbHZRVW5vUDE0RGhiSTdJd1JUajI2MF9NQVlUMlZTMDlvMG90WVUtN0hlZmtZcVZ3dTkyZWhpVS1HSE0yb3RjbFluNEZETHlfRnZQbWltOFBYdkJZa3c1N1dJQnJRS0RLVG0zSEFoTXpJcWpuX3c?oc=5",
+            "publisher": "Defence Security Asia"
+          },
+          {
+            "title": "China sends naval forces to monitor US warship near disputed shoal",
+            "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9DVlFvSElyMTI2TVl2d19mSFRYdHFhS1NFeVAwcnlVSTg5M0xxenRaM1YweVhGVnB0dmZkbm11QUJzVk9oeVFocmhEVndNa0JLekxB?oc=5",
+            "publisher": "شبكة تواصل الإخبارية"
+          },
+          {
+            "title": "The Philippines should not misread the message of US warship’s intrusion near Xianbin Jiao: Global Times editorial",
+            "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBwWkNuNnJOeWg0dFRjWHY4Y2hfRXYzcHFaZEh4dXZqTVdkNEpSTG5SSC1YMll4YklyS2ZiSUZFQ3FmUEtjSVI4RnFQaXBMZW9IbnhxVHAtaEhXazBCUEZ6MUdB?oc=5",
+            "publisher": "Global Times"
+          }
+        ]
+      },
+      {
+        "id": "manila-rejects-china-s-warship-intrusion-claim",
+        "title": "Manila rejects China's warship intrusion claim",
+        "when": "2026-10-21",
+        "place": "Manila, Philippines",
+        "lat": 14.6,
+        "lon": 120.98,
+        "what": "The Armed Forces of the Philippines rejected China's claim that a US warship intruded near Sabina Shoal, deepening the dispute over who controls access.",
+        "via": "hardening official positions",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "AFP rejects China's claim of US warship intrusion",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQjZybWVlQ2xYQm1fSThIakJKcjN2Q24wRTdsa0NpdzN5bnN0TFJqb1VNMF9vN2NWaVJrQXFVS3pzdlJydXdTWjRQSFFyV0RpMTVkNUdYRmJfaTBZRWdvazhxd2I5SzJfUlNFM2lxZ1F2dVhEMnFaVWtmMFI0YVQ5MVkycFlUVFloM3c?oc=5",
+            "publisher": "Daily Tribune"
+          }
+        ]
+      },
+      {
+        "id": "china-monitors-second-thomas-shoal-resupply",
+        "title": "China monitors Second Thomas Shoal resupply",
+        "when": "2026-10-21",
+        "place": "Second Thomas Shoal, Spratly Islands",
+        "lat": 9.72,
+        "lon": 115.87,
+        "what": "The China Coast Guard says it permitted but monitored a Philippine resupply to the grounded vessel at Ren'ai Jiao, keeping the flashpoint under close watch.",
+        "via": "coast guard control of access",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "China’s coast guard monitors the Philippines resupplying vessel at disputed shoal",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQa2sxZ3NXNXdvY3ZkaGE4X203WWVScDh1Zm9YQmRVVkVaWlZDQkRuOVpjMG5NdXBLNllRdVU0cENESzNRWXJRdGRMSGg0RjcyME4yWGJTNFR3M0s0NXBqX1lpYkhiOXhjV1BKNW1EWTN3clNMU2U4MkxRaUdXNWIzSDBmdFlUN0t4eVFQYzlodUd4Mmh2YS1PeFhFWkVnUnhYWWdkR2o5bjBzU0pmZG5keEM0Qlg1NjZBNTFaR1psNA?oc=5",
+            "publisher": "The Straits Times"
+          },
+          {
+            "title": "China Coast Guard monitors Philippine supply delivery in South China Sea",
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1GUTVNLTVna2RkQ184a29MREJpYUgyTFA4eHYzd2xULUl5dTBzemc2QWJpY2lEZjU5UERKVmV6ZmctUWR2V2tBWFRqVGxmZGlzRUJYQTJQZGxzaVFNWnRmR1U0aUpyVXBERUplc3JGbWRPYThQZFZhZlg1Qk9EUQ?oc=5",
+            "publisher": "China Daily"
+          },
+          {
+            "title": "China permits, monitors Philippine resupply to illegally grounded vessel at Ren'ai Jiao: CCG spokesperson",
+            "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5UX1N5T0U0WUpRRUExOEJ4aHI1R1R4dDgzcXJKWXo0WmgtZEoxUXQ2azFTZTA1WC1vWU4wRmZzTUstUjkyR0VCSG5RLUNNSTQySjBLWUxZTGg0QlEwdGZQMHZR?oc=5",
+            "publisher": "Global Times"
+          }
+        ]
+      },
+      {
+        "id": "31-chinese-vessels-tracked-in-west-philippine-sea",
+        "title": "31 Chinese vessels tracked in West Philippine Sea",
+        "when": "2026-10-21",
+        "place": "West Philippine Sea",
+        "lat": 12,
+        "lon": 116,
+        "what": "The Armed Forces of the Philippines monitored 31 Chinese naval and coast guard vessels in the West Philippine Sea, a heavy presence that raises the odds of encounters.",
+        "via": "larger Chinese ship presence",
+        "aspect": "security",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "AFP monitors 31 Chinese naval and coast guard vessels in West Philippine Sea",
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWWNuRTZYWVRmRmE5dGJaXzFiWXZGTnRfdUY0eWd6a0xoV2owbTdsVUk1enVrMmRYVlJTN1M4Und4YUs1VW11Y0NJa3BjWk4ySmxpd0NJVGNjcktlVHVYRFZMWklBYnY1b2hpcWMyVnBQSS1GcEN4bEJ4blFlUEwxNm9nUXFmVmRNNDJkV3BTbGVtN09leEtjVXRxOElTRk4wbHRTN00yZmJ0dlNIbGx4aTZGUUttb1N4?oc=5",
+            "publisher": "Philippine Canadian Inquirer"
+          }
+        ]
+      }
+    ]
   }
 }
