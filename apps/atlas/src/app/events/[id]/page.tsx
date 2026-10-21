@@ -11,6 +11,7 @@ import { AskButton } from "@/components/ask/AskProvider";
 import { PulseBadge } from "@/components/ripple/Pulse";
 import FuelSection from "@/components/ripple/FuelSection";
 import RippleMap from "@/components/RippleMap";
+import type { RippleRing } from "@/content/types";
 import RippleStrip from "@/components/dossier/RippleStrip";
 import BuildCard from "@/components/reports/BuildCard";
 import { plainHeadline } from "@/content/plain";
@@ -126,18 +127,16 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
       view: (
         <div className="space-y-6">
           {connect ? <PlainBox title={connect.title} paras={connect.paras} /> : <p className="text-ink-2">No connections drafted yet; the hourly run adds them.</p>}
+          {rings.length ? <Spread title={e.title} rings={rings} /> : null}
           {chains.length ? (
             <div>
               <p className="mb-2 text-[13px] font-semibold uppercase tracking-[0.08em] text-ink-2">Each link, step by step</p>
               <HowItConnects rows={chains} />
             </div>
           ) : null}
-          <Fold id="connect-map" title="See it on the map" teaser="Where it sits, and how far it spreads in rings">
-            <div className="grid gap-8 lg:grid-cols-2">
-              <div className="rounded-lg border border-line p-2">
-                <WorldMap focusId={e.id} compact pulse={pulseMap()} fuel={fuelDots()} />
-              </div>
-              <div>{rings.length ? <RippleMap centre={e.title} rings={rings} compact /> : <p className="text-ink-2">No ripple recorded yet.</p>}</div>
+          <Fold id="connect-map" title="See it on the world map" teaser="Where it sits and what its lines reach">
+            <div className="rounded-lg border border-line p-2">
+              <WorldMap focusId={e.id} compact pulse={pulseMap()} fuel={fuelDots()} />
             </div>
           </Fold>
         </div>
@@ -243,6 +242,19 @@ function Sources({ e, errorUrl }: { e: NonNullable<ReturnType<typeof getEvent>>;
       <p className="mt-3 text-sm text-ink-2">
         Something here wrong or missing a source? <a href={errorUrl} target="_blank" rel="noreferrer" className="underline">Report an error</a>.
       </p>
+    </div>
+  );
+}
+
+/* How far it spreads: the ripple rings, given room of their own. */
+function Spread({ title, rings }: { title: string; rings: RippleRing[] }) {
+  return (
+    <div className="rounded-2xl border border-line bg-paper p-4 sm:p-6">
+      <p className="text-[12px] font-semibold uppercase tracking-[0.12em] text-gold">How far it spreads</p>
+      <h2 className="mt-1.5 text-[1.35rem] leading-snug sm:text-[1.55rem]">The closer the ring, the harder the hit</h2>
+      <div className="mt-3">
+        <RippleMap centre={title} rings={rings} />
+      </div>
     </div>
   );
 }

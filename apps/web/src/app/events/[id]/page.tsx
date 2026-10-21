@@ -15,6 +15,8 @@ import RippleStrip from "@/components/dossier/RippleStrip";
 import HowItConnects from "@/components/dossier/HowItConnects";
 import ReportChooser, { type ReadOption } from "@/components/reports/ReportChooser";
 import { plainHeadline } from "@/content/plain";
+import RippleMap from "@/components/RippleMap";
+import type { RippleRing } from "@/content/types";
 import { Fold } from "@/components/dossier/ReportParts";
 import { PlainBox, QuickBox } from "@/components/reports/PlainBox";
 import { connectInPlain, quickPoints, reportInPlain } from "@/content/inplain";
@@ -37,6 +39,13 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
   const links = neighbours(e.id);
 
   const chains = connectionsFor(e.id);
+  // the ripple rings: from the event's own report, otherwise from its connections
+  const rings: RippleRing[] = report
+    ? report.card.ripple
+    : [
+        { label: "Directly linked", effects: links.filter((l) => l.kind === "causes" || l.kind === "affects" || l.kind === "responds_to").map((l) => ({ text: `${l.event.title}: ${l.why}`, sector: l.event.region })) },
+        { label: "Shared drivers", effects: links.filter((l) => l.kind === "shares_driver" || l.kind === "amplifies" || l.kind === "competes_with").map((l) => ({ text: `${l.event.title}: ${l.why}`, sector: l.event.region })) },
+      ].filter((r) => r.effects.length > 0);
   const quick = quickPoints(e.id);
   const connect = connectInPlain(e.id);
   const reportPlain = reportInPlain(e.id);
@@ -77,6 +86,15 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
       view: (
         <div className="space-y-6">
           {connect ? <PlainBox title={connect.title} paras={connect.paras} /> : <p className="text-ink-2">No connections drafted yet; the hourly run adds them.</p>}
+          {rings.length ? (
+            <div className="rounded-2xl border border-line bg-paper p-4 sm:p-6">
+              <p className="text-[12px] font-semibold uppercase tracking-[0.12em] text-gold">How far it spreads</p>
+              <h2 className="mt-1.5 text-[1.35rem] leading-snug sm:text-[1.55rem]">The closer the ring, the harder the hit</h2>
+              <div className="mt-3">
+                <RippleMap centre={e.title} rings={rings} />
+              </div>
+            </div>
+          ) : null}
           {chains.length ? (
             <div>
               <p className="mb-2 text-[13px] font-semibold uppercase tracking-[0.08em] text-ink-2">Each link, step by step</p>
