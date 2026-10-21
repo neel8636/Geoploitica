@@ -1516,5 +1516,942 @@
         ]
       }
     ]
+  },
+  "opec-plus-november-output-hold": {
+    "at": "2026-10-21T15:58:46.606Z",
+    "by": "pipeline",
+    "items": [
+      {
+        "id": "us-and-iran-receive-framework-ceasefire-proposal",
+        "title": "US and Iran receive framework ceasefire proposal",
+        "when": "2026-10-20",
+        "place": "Gulf",
+        "lat": 26.5,
+        "lon": 52,
+        "what": "The US and Iran received a framework ceasefire proposal, and oil prices fell on the news, which bears on how soon Hormuz flows could recover.",
+        "via": "Hormuz reopening hopes",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Oil Prices Fall After US and Iran Receive Framework Ceasefire Proposal",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQU2EzT2V0SWZFdVQ5QlZsMWtnNjhxMjF5RTFJNmNmZkZ5d2VFcFBjX21mQ1lDRG5XYk5XUHVTZWo1RlhYcThmOWZjU2k4WXZNVXBNTFoxeGdWRVQ2YndtS2tqdHNJcGlzdjIwMjctdG0tMGFBQkpVQkxXQ3pJUWVOV29qaUdMLXNGZGctOU0zNDB6bkliTGI3dHNoUGJwaEFvRGxV?oc=5",
+            "publisher": "EnergyNow.com"
+          }
+        ]
+      },
+      {
+        "id": "uk-sends-fighter-jets-to-protect-saudi-arabia",
+        "title": "UK sends fighter jets to protect Saudi Arabia",
+        "when": "2026-10-20",
+        "place": "Saudi Arabia",
+        "lat": 24.71,
+        "lon": 46.68,
+        "what": "The UK is deploying fighter jets to defend Saudi Arabia from Houthi attacks, a sign of continued threats to the largest OPEC+ producer.",
+        "via": "threat to Saudi output",
+        "aspect": "security",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "UK to deploy fighter jets to protect Saudi Arabia from Houthi attacks",
+            "url": "https://www.theguardian.com/uk-news/2026/oct/20/uk-raf-typhoon-fighters-saudi-arabia-houthi-attacks",
+            "publisher": "The Guardian World"
+          }
+        ]
+      },
+      {
+        "id": "iraq-pushes-for-a-bigger-opec-quota",
+        "title": "Iraq pushes for a bigger OPEC+ quota",
+        "when": "2026-10-20",
+        "place": "Baghdad, Iraq",
+        "lat": 33.31,
+        "lon": 44.37,
+        "what": "Iraq is pressing for a larger OPEC+ quota, driven by revenue pressures and new oil investment, which complicates agreement on targets.",
+        "via": "quota demands from revenue need",
+        "aspect": "budget",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Iraq’s Push for Bigger OPEC Quota Driven by Revenue Pressures, New Oil Investment",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPY1RWT0NzcXJieEZJODl0UmtDY05jM2Z6VUNybTc3MzFMTWgtbWlWUk1WQzhjeTlkZy1rOHFrOW56YnN1STJXSWZObW1zNmM4dUlSajdoYm9ZWXNfUkcxbW9xcjhoV3lxQV92NEJpLTlaZmN5eVZtTVhmOE13c1lhenlIWmxFNUlFR0VySG1wUFpXRDd4SXRpUEo5eTJDdm5pcXota1VYVlkzQVYzNUxr?oc=5",
+            "publisher": "EnergyNow.com"
+          }
+        ]
+      },
+      {
+        "id": "iea-warns-diesel-squeeze-may-last-into-2027",
+        "title": "IEA warns diesel squeeze may last into 2027",
+        "when": "2026-10-21",
+        "place": "Gulf",
+        "lat": 24.71,
+        "lon": 46.68,
+        "what": "The IEA warned that a diesel squeeze may persist into 2027 and that oil markets remain fragile, a reason for producers to hold policy steady.",
+        "via": "fragile supply outlook",
+        "aspect": "energy",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "IEA warns diesel squeeze may persist into 2027 as oil markets remain fragile",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMzVqR3FCaUtSSWE4MUdaSE1WaFl2SURFUEU3cnA1NUpRdW5qTTJGMWh4QkE4eEduZXFtYWFlbVd6aTVNRE4wYkFsRExvYW1ES1R4QWsxZnZfU3BReERjRlJFLXdVNEN4WFFZT0FzalZIUHh4ZDJhVWl3QUNIaFhpR2xNb1hrZVBucmhQQldWT3RMNkFDeXhjYVE4RFM3WlRpSVRVdHd1UGFrdXp1c003ajkwdm5XZw?oc=5",
+            "publisher": "Green Building Africa"
+          }
+        ]
+      },
+      {
+        "id": "oil-touches-pre-war-levels-on-middle-east-supply",
+        "title": "Oil touches pre-war levels on Middle East supply",
+        "when": "2026-10-20",
+        "place": "Gulf",
+        "lat": 26.5,
+        "lon": 52,
+        "what": "Oil prices touched pre-war levels as Middle East supply rose, easing pressure on OPEC+ to change targets.",
+        "via": "easing price pressure",
+        "aspect": "markets",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Oil Touches Pre-War Levels on Rising Middle East Supply",
+            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPc0x2dW5mVTB6dmR1TU9yVGVfaGxUdHlBTU83NG1fVmVlaThzczFFSXJRb2l6MDJrOFc4bXJXWFNzRklySEg5eUp4bXBtbXRnUjk4NzV6THJWdUhiWkJfX3N1b0tLRU5DeHpfSUxzc09rY2dQeFU0ek16SDJObmpYYzZXY2VCMTdNdmg1N3A1VQ?oc=5",
+            "publisher": "EnergyNow.com"
+          }
+        ]
+      }
+    ]
+  },
+  "france-election-2027": {
+    "at": "2026-10-21T15:58:46.606Z",
+    "by": "pipeline",
+    "items": [
+      {
+        "id": "riots-across-france-fuel-immigration-debate",
+        "title": "Riots across France fuel immigration debate",
+        "when": "2026-10-19",
+        "place": "France",
+        "lat": 46.6,
+        "lon": 2.2,
+        "what": "Unrest with burning and looting has spread across France and pushed immigration to the centre of the campaign debate, which National Rally is seen as benefiting from.",
+        "via": "immigration and security anxiety",
+        "aspect": "security",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Le Pen Gains as France Riots Fuel Immigration Debate",
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdzNkbVJYMUV6V3ZOSjc1VEF3RnViYUdVZzdnaXpHMEtWQkZYTE5iQVZaQ3g5OE56ZXNld1hxaXlfVEVoaER2ZjlMQXY3cjlSNTExNnEwNUI5bVVwM3FiUUNkaTJhQ1Q2RC1xZEZNM1VwUnk4a0ZPZ0F0S2lfRGtzVUhoaTFyd0Z2?oc=5",
+            "publisher": "Newsmax"
+          },
+          {
+            "title": "Presidential election watch: Politics amid the burning and looting",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNV1prVVFUeno1aFF4TDREMGRsS2F4V2hadE94c2hpdmFheUpsTk5sVmJmdFF1dEJXUWdlT1ZqRVZoWU5QQnNacnpROGN4LUdtNDVDT3daRWM1VDg3QU50QTZMZ2VKYXZhQk1jNHZHaGstQUNKX0tnZ2JFWTVXX2NnR2JBZEZLdnVESlZlUk9HMHVwVFF3QUJTME00ZkhuNjA?oc=5",
+            "publisher": "The Local France"
+          },
+          {
+            "title": "French protests: Is it game over for Macron’s centrists before elections?",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMUYtNThYSkhCRkxjM1UwWkZYOExRcGt1Vk9LYTZTY0otZll5Tk5TTGRBZHFMMUlkQklySV9yTFpuSnV6NVBPWkJhQTdPRnRqc3F3VTNDSlZxY0FNWWh5bjZIZFg4SmctaWZHQTExcXp1dy1NT0VSdXlRM3dCaU1IRlk3WXlZZEJLSDFRZXF6NWdYbkRxT1UwbFFoRmdWbkhwWHE1ekF4emZDOTlVSlEyZC1R0gG3AUFVX3lxTE01T1AtaXYyWFlZcE5BbkhKZ0xENDBiMUlyWjRqQ1pSTzFaYUxUWUlhM3hlNHFBTVI3RFB1Q2psVUs2aGVwenA2QzhhZzlQbWthYlljMWVhQkhFVk9IUHFRSkRkcGZiVWcwbDhGSlpTc1Nqa2RfU1JnTGk2dk40dmNSek9TbGlZU1Byd19KbENwSHEwQnpCcVp3STFJU1c3TXhVRG1fMkRQTjFCSzNSMW8xaUxsRGliQQ?oc=5",
+            "publisher": "Al Jazeera"
+          },
+          {
+            "title": "French riots lay bare risks and opportunities for 2027 election candidates",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMkwyOVp6UU5QbHBYYWR0aDljVVhmSV9XTnRBQ0JSbVgtVnlwTXdaUTBzUktYZzllRXZEb05Td0NvVWM5elpDMVJUZGd3V2NSY1NHZDRNekNTZXZoM19NVGtiU1BKMzNJRWtMRU9SZlVMNkdrcGQ5aVZZcVpldGd4RlRDb2hYbGhubUY0MVNtRnJONEd2WkdmOXJNdHBzSU5jRTV5Y2MzcjdTbE0?oc=5",
+            "publisher": "POLITICO.eu"
+          },
+          {
+            "title": "Marine Le Pen’s National Rally Profits From France Riots as Macron Faces Criticism: who 16 outlets blamed",
+            "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQaFhHVG5lbnU0V0JqakJRd2w2U3FOVV9TeElSV1UxVEUwQklpejAxaXAzbC1RNDRfYlZta1M4LWl5QWVhVjdnaDdpZWZMNXZCNDdsdnhXVVdUbHpsNkxoWk5HWjFKcmFEOXZDaTJOSEhjMUs5alp5LUZwczF2Um1DaTRQQzIwaUlmU3RCVFFWUU1jdlljeVc0NTVuUWRKbDI4bXFrV1RreXk3SEdGaU5CRkdMa09iT2oyVUtTMmJMb3RiSDF4d2lIR05odHpYclJlYkQwYS1zV0hfa1VuQ0J5Y3RpcHJvTS1MTFE?oc=5",
+            "publisher": "NewsCord"
+          },
+          {
+            "title": "The Specter of Lepenism Looms Over France’s Social Crisis",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWXBIQXBLQTF5STdMQmRZdXpMME11SHdXMnJTZkh3U3p0UDVyYmJEdDJ0NnBCcDRzQnZ1Y2dwLVdFbFJ1d1VacExYTzZJaGRJa1pZRG5Hc2I4NUZxdTlhdzNheWVybXcwSGhVOTJlbGJzUVZxX0VIX05uenAzREZwMTFaYTltRTlDRGprV0doZVFEX0ZQU1JF0gGfAUFVX3lxTFBieEwtVTF2YmE5TDlYVTlFUmZGWHlmbTVhSl9mRHF3d1pHTk5hUEpuM0pMTGhVRktXODlac0t3SGRpS01UaTl5MXFzTDZFVktIS0pPN3pLNE1sMS1JamNHUkhmQzNvQWNTQjBYeVNVeWh2OWNpRGREcXJrMkd5c21xZGt2QUdLcEFIM2h6RFVGOEtiYWlvallUU0Y5RnVzYw?oc=5",
+            "publisher": "The Nation"
+          }
+        ]
+      },
+      {
+        "id": "post-riot-polls-show-le-pen-ahead",
+        "title": "Post-riot polls show Le Pen ahead",
+        "when": "2026-10-20",
+        "place": "France",
+        "lat": 46.6,
+        "lon": 2.2,
+        "what": "The first post-riot poll shows the race largely unchanged, while polling reports Le Pen winning every runoff scenario, with 53%, and 70% if Mélenchon reaches the runoff.",
+        "via": "voter intention shift",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Opinion polling for the 2027 French presidential election",
+            "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2027_French_presidential_election",
+            "publisher": "Wikipedia"
+          },
+          {
+            "title": "Poll: Le Pen wins French presidency in all scenarios",
+            "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBGaEZVcGpiVkN4NHFfSnpPb1FBRWEtMnVVTWpybjVpWkRTOC1IOFFiYjZWWXVqa01rNEhpMEI3cEFhU1Vpc1R2T1VYWUNBZFQw?oc=5",
+            "publisher": "JFeed"
+          },
+          {
+            "title": "French presidential race largely unaffected by unrest, first post-riot poll shows",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPb29WMTRWVG10ekUxemFPZTZSaXJ6Y1BZdkd4aUtQd1E2emVFV29ORElQaWNkdHVEQlpMMjlrb1FqY1FkVkRTQzJOTVlIUHdNS0xaLXVPN0o4OTcwZVFSNF9VTmVJa1llY3dmVVRRSUdUWjBiUHhOV3ZraUktWUgtNWdSQ2otTThpMERnUFJpTzdPdmRPTkdBWUNCYlFUSlN4TjNpVkpDcw?oc=5",
+            "publisher": "POLITICO.eu"
+          },
+          {
+            "title": "Macron humbles France - Le Pen the new president with 53%... will reach 70% if Mélenchon advances to the runoff",
+            "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPVU92SVUtaUhyb0NyNUVaYjVDajdzR0Y4QmF6QXBkeENiRUw2MUJnc0JBNFJkLUd4alZOcW9BUzJnU2luT3FHSXU0VmZ3MHV1cFZNaExjc0hBd3h4b3VtRnYtWS1BU2F4d0xubjNuZlRNRWcwS0t3blQyeDFmdjd3bFJ6NjFnVXZ0cDFTOUswZi1lOUNmTmt6OGYwNDEwMFJac1FZbXJKdExFWWFBRXJLSDFqZFR3elZkeHcwNVNWaTQxelNkbm9TNmJXT0t1Z0FXTzBWdWhhN2ExY3gwTzJvU3lWdDMtb0ozU0V1R19qMWVrWDdSZUxjZ2l6R01oVENnQzNrVUN4SUpfUQ?oc=5",
+            "publisher": "Bankingnews"
+          }
+        ]
+      },
+      {
+        "id": "kalshi-prices-le-pen-win-at-53",
+        "title": "Kalshi prices Le Pen win at 53%",
+        "when": "2026-10-20",
+        "place": "France",
+        "lat": 46.6,
+        "lon": 2.2,
+        "what": "Odds for Marine Le Pen on the Kalshi prediction market rose to 53% for the 2027 presidential race as protests continued.",
+        "via": "betting market confidence",
+        "aspect": "markets",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Prediction-market odds rise for Marine Le Pen in France 2027 presidential race as protests roil nation",
+            "url": "https://www.cnbc.com/2026/10/20/marine-le-pen-france-2027-election-odds-kalshi.html",
+            "publisher": "CNBC World"
+          },
+          {
+            "title": "Kalshi Prices Marine Le Pen’s 2027 Election Odds at 53%",
+            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBPaDRBYkpQRVMtWVdFcG0zMVJ4bmdSTFlDMFpIUnp4OHFuZjg5YzV3TFVkQWF5TTBFM1Rhd1N5Qk90clAwRWpaX3prLWNOeGd5blFkR2RUc1JZZw?oc=5",
+            "publisher": "www.tokenpost.com"
+          },
+          {
+            "title": "Kalshi odds for Marine Le Pen rise in France's 2027 presidential race",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNc2lPM3YtdDNsTllrRXFidnRRaFNZYm50Mm5Rcl94NXhRaVFOei16bEFjRHJuRldyWEJ0aDZ0THllQkU0WG1EcmRiRU5vTjdxWnI2Nk1ReWl6MkJiZmpiS19pYWdLcW0zOEhMbUlicGUxVjlua0FRUzBjVVQydEI0Sm8xaXdQREtvR2hXVVZIMFNQMEd2emlkTHR4UnZNYTVX?oc=5",
+            "publisher": "Traders Union"
+          }
+        ]
+      },
+      {
+        "id": "trump-calls-le-pen-france-s-conservative-voice",
+        "title": "Trump calls Le Pen France's conservative voice",
+        "when": "2026-10-20",
+        "place": "Washington, United States",
+        "lat": 38.9,
+        "lon": -77,
+        "what": "Donald Trump praised Marine Le Pen as France's 'conservative voice' after the riots but held back from endorsing her.",
+        "via": "foreign political backing",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Trump Praises Le Pen as 'Conservative Voice' but Dodges Endorsement Question",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9iZFNPS1k5bWlwVG5Lbnh3Tk5CTklPcXJjLXMyekVIMF9McU5RM0dXT3NpZlNVU3JJSmtDRW94Sk1DM3ZqcXNxZ2EzRGNVZE1OQVNBaXVLRzUwYkpjRjdFdFZSeUQ1cC1PemxNM1pn?oc=5",
+            "publisher": "Ratopati"
+          },
+          {
+            "title": "Donald Trump calls Marine Le Pen France’s “conservative voice”",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOV1NET0NQcTFWa3BoQ1hGMlc1Y0V4S2hnOW1Kd052NnZoUXQ3aUxLMFN2bndIRnBDZTNLTy0zLU1jZjRRRm1EX1FuQUVNRHhpa3RCd2dxTVFkWU1sSEVRSkYzSVBnbWJ3aVNnRFYxY0pXbVhOcnFzODVUc3JlMVNvQUJpaElFVUhxQ01KY0ZhdDN3YVhfVDRWMHRJWUhnTzJlS2k3YzR3?oc=5",
+            "publisher": "Informat.ro"
+          },
+          {
+            "title": "Trump calls Le Pen France’s ‘conservative voice’ after riots, but holds back on endorsement",
+            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNd3hUVHQxbTNrV0ZwbGhXRmtWaTRSSXpsSmZzYTNmVGVRYk5KRElmWXlzR2RCSTRhR2dhWWdXLUM3c0toMy14QXhKRUlIbklIcWUzdGFiQVh3LTBZTjlDZUtETHV3VXZyeEFicW0zcjQwc2lQOGNkaE8xdGlob1gzTUdTUGhGWTZ6RDRXZnV0RGhtODBHa2FCTUctR0ZxMnpJcFVOeWhBeld1RlBYWnB2MENad1dUcW1zcnU3akxqeFpNODRGLWozR2xwMWjSAdIBQVVfeXFMUGZTRlE4S2hHR0Q5N1BEMENzWkdocDJYaC1BcjVrNWd0cmtFOEhiRXV6SkxmMHVJQ012NnRlaFZBYjRUNEEtXzN0QzQ1a3hvME0yMWlwa2FOTkhsOFpyanMxTzIyUDVRRDRlMXZ5UjBPcTMxbEtlNk1sa2JEdEE1eUFCZEl2VzdFdFBtZVRDcDB1bzBjMVk2VkNOd1BQRG4wTkU1ZVNmd3hsU3FFazRXLWdGaFNmb1lWQnR1Y1NLTE0tcDB2ZzVOWTd6T0xpd0RFN09R?oc=5",
+            "publisher": "WION"
+          }
+        ]
+      },
+      {
+        "id": "macron-accuses-foreign-leaders-over-ai-falsehoods",
+        "title": "Macron accuses foreign leaders over AI falsehoods",
+        "when": "2026-10-21",
+        "place": "Paris",
+        "lat": 48.86,
+        "lon": 2.35,
+        "what": "Emmanuel Macron accused foreign leaders of spreading AI-generated falsehoods about the French riots, amid reports of him being increasingly isolated.",
+        "via": "pressure on centrist camp",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Macron Accuses Foreign Leaders of Spreading AI-Generated Falsehoods About France Riots",
+            "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZjdncW9rbXZXZFB4SWV2Tmt0S252YlYwQU5rdmFscWQtVFdPTFVDUHFLU0tzckRKTk90SWFOd3hzX1M3c2ZaZ2J1cmh5c3dhNnhMSUpwVjlUSWZwTW5idGtiZWZPUXZ6clRWWklxRjFQSkptMlRaUDBrelJJUkNxYWFYVkRMODFpSlRITHYtTWJ3ZmVDNjlwMlB5VWc4dWdWZmxHR2xLMG5GV05oY0tWTDdHUE9JOUtBZGd6N1lsdk5OVFhBSGtPSnB1bzQ1M2hK?oc=5",
+            "publisher": "Morocco World News"
+          },
+          {
+            "title": "Macron increasingly isolated amid unrest across France",
+            "url": "https://www.euronews.com/2026/10/19/macron-increasingly-isolated-amid-unrest-across-france",
+            "publisher": "Euronews"
+          }
+        ]
+      }
+    ]
+  },
+  "boj-october-decision-2026": {
+    "at": "2026-10-21T15:58:46.606Z",
+    "by": "pipeline",
+    "items": [
+      {
+        "id": "boj-s-himino-says-inflation-near-2-target",
+        "title": "BOJ's Himino says inflation near 2% target",
+        "when": "2026-10-21",
+        "place": "Tokyo",
+        "lat": 35.68,
+        "lon": 139.69,
+        "what": "BOJ's Himino said underlying inflation is almost at the 2% target, flagged upside inflation risks and signalled readiness to raise borrowing costs, warning about the cost of delay.",
+        "via": "near-target inflation, hike signal",
+        "aspect": "living",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Global Market: BOJ's Himino says Japan inflation near 2% target, signals further rate hikes",
+            "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNei1vaWV5dmpLYXB6Y21Qc2xfTjItVWJLeXNmamdLZldyelJqWFE4d2VJQmlGaHFmM24yQXdmeGN6QUh0bWlYQmJ4VVlYV3NSbmFfQU9EcWtkOEFXQzFaM0oyR1pTcmV0Q3ZQWE1iR0tjWjZsY19sTFMtQ1FaZ1ZQSEdLT2M1bEVtVjBPTmhVLS14Vnc1U1hKaWFyN1dJRXJOSUlwN01TY1lxM1A5R1h3LTFxMm53RXpEaTNpWGtZZ2sxMDduS3JTN25VUkZ5N25wekVjRlNfWGI1Q19LRkZNai0tRm5sOUw4SzJwYll2RFpHdnZiaWQ4WFI4TVZNNjZIY2xsQ0R1TXdfaW5Dc3hLRk5RcHXSAY4CQVVfeXFMTkxjWnBUR2FHQ3FsZHBibG9PWFZEME5RNFQtTEhSeGRVTXgwNlJMb0hXUDJuaXVsdElLWWYzUkxvS2xZNjhEZG5teFJhby1fSTNDMXhEbFh4cFE2Z3E3Tm93YklReWdSRWJzaFhSY0pQSk9ySV8zbms3WWg1bmRCYm1BQWUwdGN0dGtiVkxPUUszTl9MR1N1VFJuRFBUZWEya1NJSkhIUFJhVzdxMkVOSk1LRV9lekNPaExHRk9aVkYxOUItNHVZcnNka0FoOHVnUzBaejZBUU1sZ2k0QXNtUVJCaGo3c2Z5OVozM3Exdzh6Qm9QQ3dCbkUzR3ZwTk5GTExIVW9ia3VPZHl4aXln?oc=5",
+            "publisher": "The Economic Times"
+          },
+          {
+            "title": "USD/JPY steady near 158 as BoJ's Himino warns on delay",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcXV2ekktMlY4VU9QWGZ1cE9tdERRNlYyTmZPdjFoM2hCYkx2RnJqNGJqTlE3MTVRLUFnNXU5RWpjNVdGMzN1eXZhNjA2R2hHRllnN2VQVC1jdFhVbWI5ZmY4Z3BXRkEzcko1eU5RMjJEU0kyVDNKQkdaU2lhbGxxd3F1LXNhUEp4M01aUjYzejFNX2hROXRBaDA5VmNKNVVvSmd5VE82Q2t3bUJT?oc=5",
+            "publisher": "Forextraders.com"
+          },
+          {
+            "title": "Bank of Japan's Himino signals readiness to raise borrowing costs",
+            "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAtM0ZvdzJUV1hkQWc0VHhYQmw0d2tTUlczM2VVR09oSFh4R0NHcG1VTnJ3V0Y0dFE5RVhEcUpxYl8wdjlEM3RJRUFFbFZIMEUtd0FhYg?oc=5",
+            "publisher": "The Edge Malaysia"
+          },
+          {
+            "title": "BoJ’s Himino says underlying inflation almost at 2% target | FXStreet",
+            "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5JeDVYbUtzUklFWmstZ256VXBOMGtaLU83MFIyUmdUdy1XOERCRjRBQW5lVmlWUEdOMTZ5UmhFUktESE90Q2RZbWZmM043d2U5czVN?oc=5",
+            "publisher": "شبكة تواصل الإخبارية"
+          },
+          {
+            "title": "BoJ’s Himino says underlying inflation almost at 2% target",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRjROV0VLc2lMNVNBZjdrZ3FPbTNQeXJGMGg2bzZDQVg0MmhLQ3FlNFJwZXhLekowZU9GeDl3QXFMTy1XbnAxNDllSXpSczNKbHBleFZoOWRxVHVUbXJ2VWRsRF9WTUhLbHp0NTEtQmFpbjQ2dzFDWUM5Z3c4N24wNWpPTnJPMHNsTGgyR2RxTjUtYjhnVGFCUEhSR0daNG1F?oc=5",
+            "publisher": "FXStreet"
+          },
+          {
+            "title": "BOJ policymaker Himino warns of upside inflation risks as Japan nears 2% target",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYUZyRmQybkVldmgzLWY2cXRkOUV5NW80Rm5BZnA0YzJ6N1NUMUxxUFVDdHJKd2RPS0pubFBBd2M3Z2pZZ1FXXzNzMEZyaHJCdVJuLU1kcmdvVlg3SnNxbkFUZm9lUmVGckRfOW41NlRBOFNKeFlsNFY0NmpvVEQzalhQYjE2QUdHM25YNVhYX1hidk1Yay0yTFRpNVBGVGJoTVE0clZVMF80R2xXbGZHSkk2cTM2ZlBNVTUw?oc=5",
+            "publisher": "investingLive"
+          }
+        ]
+      },
+      {
+        "id": "ex-official-expects-december-hike-then-quarterly",
+        "title": "Ex-official expects December hike, then quarterly",
+        "when": "2026-10-21",
+        "place": "Tokyo",
+        "lat": 35.68,
+        "lon": 139.69,
+        "what": "A former Bank of Japan official forecast the next rate hike in December, with further increases possibly every three months after that.",
+        "via": "expected hike path guidance",
+        "aspect": "markets",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "BOJ likely to raise rates every three months, former official says",
+            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBvVGItUE5wQTUya2IxSVNGcDFzU3dJYWFiRzNfV3VmUUt5eGtGN2VpREZXb1ByTDg0VWZpYl8ySXB2QmkwYTYzcG9TYnRKRWU3eHNscXJhem5uaVE4cWN0MmVqZEZWRy1wYzJ6dmozbEpiWnR0WFNyZEVGajE?oc=5",
+            "publisher": "Mezha.net"
+          },
+          {
+            "title": "BOJ likely to keep hiking rates every quarter, ex-official says",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQR05hNWx5anUyMlNIc1A2a3Y1Y1R5ZjRfRUJVMl9oWEx1RnpmY3ItWUJQVVBwVzJQZV9Ca3pUd2x0ZGV6Z3pYOUZCX2lBUHlwS2F3ZEZBQnJ4UEdIak1lRTZ2UW1YcXlUOFN3Q294YktROU9iS1BqS3ktWndjMXBGaV9PRTJEVHZhY1ZwYw?oc=5",
+            "publisher": "The Japan Times"
+          },
+          {
+            "title": "Former Bank of Japan official forecasts next rate hike in December, with potential for subsequent quarterly increases",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOendHdmhpaDlwRjZTWV85R1FoVkEzdng1eXNYa1lDTkdNNDFCWFFfc0x6ZWgzT2hTQm44RjlLaUl0X0M3NkZRTHgtOVpfZUd4bUFPRzZ3bG1Vbk9RcHJ5V2lfOV9NVGN6bnJzWjJUenctRzFlNHI0UGNEcEVmaWNEOWN1blZkd1NpRTF6T0hfVEZyQVZER0hNRFVUMUxvNDRiQnc?oc=5",
+            "publisher": "富途牛牛"
+          },
+          {
+            "title": "Ex-official expects Japan's central bank to hike rates every quarter",
+            "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9SWFloUXJSQXlpa21lcVFjb3VKYVJDV0FGTnFHekdjWnp0SFJoalNVbm9fQS1DTmw4OGk1UGp1blUyQ0xId1dIMHhVdFRpQjROb01B?oc=5",
+            "publisher": "The Edge Malaysia"
+          }
+        ]
+      },
+      {
+        "id": "japan-trade-gap-widens-pressuring-the-yen",
+        "title": "Japan trade gap widens, pressuring the yen",
+        "when": "2026-10-21",
+        "place": "Tokyo",
+        "lat": 35.68,
+        "lon": 139.69,
+        "what": "A widening Japanese trade gap, combined with a cautious BOJ, is keeping the yen under pressure ahead of the meeting.",
+        "via": "weaker yen pressure",
+        "aspect": "trade",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Yen Under Pressure as Trade Gap Widens and BOJ Cautious",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUy1TS1A0OE1uTjRXUDhsRjczTkdYQU1iM2x0cTE5Mjlid0RNaGNDU205ajlFQlVGcm9BcVFXZ1E3Q2pNTDV6SnhqTXBqUzdrd3NsTHU0Zy1BTF9HVjZzTGdDbFRqWmlCU3VVN1k1UG5FQXVQZTUtZU1LSjRINTczYXZ6QjZ4ZnF4VVBsRDZ0Y1F1Um80YlpHbmd6VGE?oc=5",
+            "publisher": "TradingPedia"
+          }
+        ]
+      }
+    ]
+  },
+  "sudan-darfur-kordofan-famine-alert": {
+    "at": "2026-10-21T15:58:46.606Z",
+    "by": "pipeline",
+    "items": [
+      {
+        "id": "army-drone-strike-hits-abyei-fuel-market",
+        "title": "Army drone strike hits Abyei fuel market",
+        "when": "2026-10-20",
+        "place": "Abyei",
+        "lat": 9.59,
+        "lon": 28.45,
+        "what": "A Sudanese army drone strike on a market in disputed Abyei killed more than 150 people, with the army saying the site supplied fuel to the RSF.",
+        "via": "deadly escalation near Kordofan",
+        "aspect": "security",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
+            "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
+            "publisher": "BBC World"
+          },
+          {
+            "title": "Drone attack in disputed Sudan-South Sudan border region kills at least 153",
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVVRSM3dyWk9CNTlUcUJIemVkUGlYTGt4MUE2eTJCaDBXX2I4NGY2WUVsbDIySWdpSWcycVNXSXVVUzdEMnYyb2kzT3daTVRfdHh5S2tCbnpQVGJsUHVlRXh0MHdhMkVwcXE1M1AtSGFvZWtkTkNTcGRhTEhlcEhORW5PeC0zOGRCSVNJTEI2UWJsWXRrblBUbUE0Y2dYYjNfTl9EcE9iMjlLajFQOXRPOXdwZ2doTWgt0gG-AUFVX3lxTE9NVHFQd3NYVTBVWEVBUlpNVGpKODRleFF5cUxHRl9qYkNKWFlqMV9PNXNDTFFobnR6RWx1ZmpKVXdnQTJlZFVIaHNMWUZuRE1LR1lab2tCZWtsXzJldEZmT0pyQVozdHR0SU8tYi1YTk8xN0FaTnozd0lETVNvNWpKbFdxRFZJajM0d2xST3RjZmc1anc0M1l5TFpSMENWYUtmSldUal9uektKZFh6QjdHM0FKQVNDRTRpdHZTMEE?oc=5",
+            "publisher": "Al Jazeera"
+          },
+          {
+            "title": "Sudanese army says deadly Abyei drone strike targeted RSF fuel supplies",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTnBVbmx1ZENxRDNjaVRHelRSakdaZHY1cDR3RjVidnRCRG1SdTd3SDdNNHJjSmJEWDctVndob09OTDZvYUZwSmc4TDZobGg2QUR5WVJTRFF1Wl9Pb251U0IwQXJWQ25iLU9RSF9vLTltWGxZemFRREh0Ymw5MTgwdU9JeEoxY25mRVBKTVoyMmRkekJyS1ZPUmZHSEN5c2RX?oc=5",
+            "publisher": "Sudans Post"
+          },
+          {
+            "title": "Sudanese military source acknowledges Abyei market strike, claims site supplied fuel to RSF",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSkwxN1U0MTktb0txUi0tMk0wdmF4c2lqd1hORUpjMlBnYVl3Tmozb1hiTjUtN2tYSmZ5a2RmcGd5em9pbTJhYUIyMFVDc0IySGk0YUp0Z2xacXVWUEcwbmk2TEZ5amk4RjRJM010VXg5bUVodHJaYXYwbVVjeElvVFgtd3dBd3F0cVkzbHB5TDZKOF9KTUYxb1dmRXI0bzdpaGVQYUZ4NmZ4ZXVoTVVxa1Jn0gG3AUFVX3lxTE1RbUZKbUlmRnJUTWQ3NnA5TlBZeWo0cV9GZ29uYVBnX1BjWks2THlnVXFfMW9ONV84cEMtclRIWlRsMTZLTG5Db0x1blZjRjlUOVBLX2c5RWR3dVkxcmYxNGUzZkZNRmcwSDZFNHRzdUREUldkTkRWajFVbFJuZFJERzVRZjcyb24wenpia1lOTkxLNkxWOWRVUG5PXzYtUHJ1RDFLUnppYjBXWFVrNENKUEVQdGhWWQ?oc=5",
+            "publisher": "Eye Radio"
+          }
+        ]
+      },
+      {
+        "id": "volunteers-bury-600-bodies-in-north-kordofan",
+        "title": "Volunteers bury 600 bodies in North Kordofan",
+        "when": "2026-10-21",
+        "place": "North Kordofan",
+        "lat": 13.18,
+        "lon": 30.22,
+        "what": "Volunteers in North Kordofan report burying around 600 bodies, pointing to heavy killing in an area that more than 300,000 people have fled.",
+        "via": "violence forcing people to flee",
+        "aspect": "displacement",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "'There is no life left': How volunteers buried 600 bodies in Sudan's North Kordofan",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZWN3MGU1N19GY2pmcTFHdHBSX0dtQ3R4eWw3OVJvS2hsN2dyb2g5TXNWTjdxZ2JDV2M3SF94bDE4LU9tdlVBRHFIV2VyVUtwNm1fZnhIR2hPRElXVmppYXZYVDZ6LWwxbDV5UVBhc3RqQkhFVi1aeUl5YUFNUTRjRHotc1lhT2ZrRUN2a09IdFlXQVNnMi1YOHQ2QV9nTEV0Q0ZOUUJoQTgzeXJp?oc=5",
+            "publisher": "Middle East Eye"
+          }
+        ]
+      },
+      {
+        "id": "geneva-talks-held-without-army-or-rsf",
+        "title": "Geneva talks held without army or RSF",
+        "when": "2026-10-21",
+        "place": "Geneva",
+        "lat": 46.2,
+        "lon": 6.14,
+        "what": "The UN and Switzerland met mediators in Geneva to seek a ceasefire and transition, but neither the army nor the RSF attended.",
+        "via": "stalled path to ceasefire",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "UN, Switzerland meet mediators over Sudan crisis",
+            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0wbXpkQkVCMjgyQjRwa25JNHJrM1ZKLVluMG5QejNjQkM4b1FkX1o4bWFpbm9iVkM5aFJxSFEwcG9wNm0xcHNFRU5SSkNkbV81V1hqOVVqU25oekt6Qm50U3JJODRLR2VpejJ6WjBDSVZ2MDMzMWZ5bHRUQQ?oc=5",
+            "publisher": "Peoples Gazette Nigeria"
+          },
+          {
+            "title": "Geneva talks seek coordinated pathway to end Sudan war",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT0JySTFVNVpEVlhqTU1feEVtOEk4aHFZdVdJQ1FXZHhtYW9CZFBlR0lYNkJrdFJmNVZyRlFVZTZmdHZ2UHJrRGI2TjlSMDlHdDlWNkJLcGhjLW83RkV1Qlg2b0txWEc2WjJTZ3oyT09SaTVvNDdlN0hmOVhZc1R5SmVDNHBFd3hKWnhuaHlKNVBhUE9pbTdzUnBLSE1WRjFBdWNoOVB6WVNJUQ?oc=5",
+            "publisher": "Channel Africa"
+          },
+          {
+            "title": "The UN demands a ceasefire and transition at a summit in Switzerland without the presence of the Army or the RSF.",
+            "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNQ1BzcWlWRHdvWTZobFQ5bUYtc1dIRWJMMEcyR1FSekVxeWVaRjdiM1BvbG9DajNfTjVWSkkzZG5pbmV6THd3ZVlxSUJiSG56WWt0cnMxNDBnVE81UThYR0dWaWp6V3N5VXZHRVJzR0E2MUhDTDE4dWNWazloZnl5UEJTN2pIWXJZNFMtU2pRR3p0dkI0TGZGUklpUnpMVVZISEhhNWZ4UmxjeTNjN1ZSN2JBei1mQVRwbzctdF9sUWJmdlZxN1lnWnQ5YTR5VVpqTnI4RzdqVzhfRnhlWjdRYjJfQUR0blRDZTkwZGIwbnbSAfABQVVfeXFMTUNQc3FpVkR3b1k2aGxUOW1GLXNXSEViTDBHMkdRUnpFcXllWkY3YjNQb2xvQ2ozX041VkpJM2RuaW5lekx3d2VZcUlCYkhuellrdHJzMTQwZ1RPNVE4WEdHVmlqeldzeVV2R0VSc0dBNjFIQ0wxOHVjVms5aGZ5eVBCUzdqSFlyWTRTLVNqUUd6dHZCNExmRlJJaVJ6TFVWSEhIYTVmeFJsY3kzYzdWUjdiQXotZkFUcG83LXRfbFFiZnZWcTdZZ1p0OWE0eVVaak5yOEc3alc4X0Z4ZVo3UWIyX0FEdG5UQ2U5MGRiMG52?oc=5",
+            "publisher": "Demócrata"
+          }
+        ]
+      },
+      {
+        "id": "burhan-demands-rsf-surrender-rejects-hamdok",
+        "title": "Burhan demands RSF surrender, rejects Hamdok",
+        "when": "2026-10-21",
+        "place": "Sudan",
+        "lat": 15.5,
+        "lon": 32.56,
+        "what": "Army leader Burhan ruled out a return of Hamdok and demanded that the RSF surrender, hardening his stance against a negotiated end to the war.",
+        "via": "prolonged fighting, no truce",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "SUDAN: Burhan Rules Out Hamdok’s Return, Demands RSF Surrender",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMkk3a0xVZ3ItZmthb3NFQ3NuVEdiOXZmQURGN2lCVGdhdDZfTDRWclFYWU1Xemg3U25zYU9SbTNsQVlvbGl0S1FLQU5OaTFRaGJOWF9NRldPWWRtR3pma0ZKUzAtWlVRQVN5MUQ3LXRydHVJOVcwY2JLUFp2dnVkZlowME42b1hmWEZCQmZ3?oc=5",
+            "publisher": "ChimpReports"
+          }
+        ]
+      }
+    ]
+  },
+  "belgium-cost-of-living-clashes": {
+    "at": "2026-10-21T15:58:46.606Z",
+    "by": "pipeline",
+    "items": [
+      {
+        "id": "housing-and-energy-costs-squeeze-households",
+        "title": "Housing and energy costs squeeze households",
+        "when": "ongoing",
+        "place": "Belgium",
+        "lat": 50.85,
+        "lon": 4.35,
+        "what": "Reports link the wave of protests, Belgium included, to soaring energy costs and a deepening housing crisis, with education grievances also cited as a driver.",
+        "via": "household cost pressure",
+        "aspect": "living",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "From France to Italy, Belgium and Spain: Housing crisis, rising costs, education fuel wave of protests acr",
+            "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQc3A5VW4wMWtHNjBQTmZWdFVhZXBjRFdaVnhCd05BMXpkOERqaWljc2RNTjlSNXpiMlRCUV93ZXJxcXhQLVl1WUpTYUY0VFpjSGNfUGNuRnVLX0ZrUzNaUlJnNjBwaW14Sl9FaVlUN0RreWUxS3NqV29sQ2lzX2VLWTItRThnclJacUIwLWRkbUtIT1NlUkdkb21yZ0s5M2EtOVNxSHUxRy1Jel80N0d6Z21tX0l6c2t3S2RhVkNzQmpFTkplZHhabUFzQ1VabGJpYkYzWkZkQloteXc1Y1FOaXhneDlLQkdVUFhTMDRkYVVrSzRUc3UtdkZXRjJLMTk3OUZVVkhHZ1NMLXVzWWxucXlPWFRLVndzNmxtaE9QNnVMUdIBpwJBVV95cUxObWFQcFdvbTRTaHFKbVNxenRlSWFyU0hRUkx0MGNDRHFCZlZRczIyUGtlM3pTZFFvMTVoQ1BLRnZWQnJoNFJEUEY4SjhuZXUzTER0cWJYSmdmVFR5cWhLUVVFaHFvaV94Q0ZrQ3EwNnluSk84Vk5HMUF2MEI0bWt0MExEdUh6OURTLUZIeFl5ZHhEOUVNeU02R0l2b3dfLUxrWUp6TUlJUVUxTmstNjJMSVZoNVFwOHVBX0hfNmlScTQ1dXFNbTcyNlZZWkh1REhDY0J5TVE5UVlfWmlTMW96X2YxTUkwOTJnRGU3VnFGMWFCZjVUejY1dWFTbWx3em9CMTRmX2RrUTJ5Qnhua0I1dWFMcGppdlFncWxvOUVfU0JHNFFkRjhB?oc=5",
+            "publisher": "The Economic Times"
+          },
+          {
+            "title": "Italy, Spain, Belgium, Portugal: Europe protests spread as energy costs soar, housing crisis deepens",
+            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTG9CNXl0NjdmcWdpNC1renNtanNyRTZ5V241bHM1MzNidTU4d1paVzZYUkYwOVBBYnQ5dkFzY2pvWkhXUHlZNVB1MzRJMlNKRXpzWTJnQXBZcWt3bDNhQmh2R3ZQM2I5SHJSdURYU3hyQUpZWHJLd3Q5M0dpNUIzYlA3ZTFDYUhKeDM2LVFCVmhVVzZpelpaZHpLVUswUTZiMDFrQ1JaTXhuTWtoS18zOXZ6NmhkY1VzcEFsNTQtSmdjX2J5MENDaQ?oc=5",
+            "publisher": "Connected to India"
+          },
+          {
+            "title": "From France and Italy to Belgium: What is driving protests across Europe?",
+            "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPY2tDQmN3Slc3b1BPUWdfM3I3LXJ6bjVBSThxYVZFMVZfX0xfeDdGM3NMQy1ORkRmWjFqSU5udWZSZ2I1QzNHR0RvMmhYcDdGbVg2aUduRnY1RzFEY3F4Wnp3TU9UNTFKS3RlQ2s4TmV2eTlvVVpMeENZbVhxa29USnBnZ1Q5SHJSQTVxX2NSOFcxZmtSRWJEdVR6alROVjQtRm5IU0JfSWMzZC1pRlJDdXowUnFSampubjNoZy1LcE9wM19vN3dQX3plaTBuVkc1V0HSAdcBQVVfeXFMUFhXeEFQTk02enktODE5RERGU1UyaVR0MjYyQ2hGTERyRTA5S2tXeWFRMmpWTW1HWU9RcWUtUTB3RE00OGRCTFJmX01JVVNHb2FSRC1PQmlWRTFMNDFVeW96ZFM0Y21kcjc0UTlDR2ZkWERRbTk3UVJ6a2JUVTFqeXJfb01EWlQ3NWpWbThycTQxT3ZOTGFHcFZqOGpDbWdfZ0JzUDRXNzhKeTFJUzd3eTFNNHpObDBtOFlDTVNYNGk1Y2hfdmJGWDk3cFFOMHBBT3Q5NjVEY2M?oc=5",
+            "publisher": "Business Standard"
+          },
+          {
+            "title": "Italy, Spain, Belgium, Portugal: Social unrest spreads across Europe amid soaring energy prices and a housing crisis",
+            "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPcnphQ2s1d0RnanE2WjJjUzlwVl9PX05EU2ZlenNpZXdMR256aHdwR0lMT1d5dEUwUl9IWGZsTkxmMlpxMGlwWjR6VVVLTHhnZmVfM3NkNjZMejkyN1NYdm1MU2FwMkZVVERXNFg2cHUwQ1pOeGhZdDQ0V1VUZENFWkdVR2dWNUV2dmpyNVhoTVVDdGo0bURzd0FKdi0tU242TnlubkhSaXZPZXpRaVFZcmJtT19NdDdYMV9pR1ZwQ3FCRzFBRmRPRzQ2UjlCRlhVZ1BqcktaeC1xdGxDcGVmSkZpeDRrNXhYcmt2UmN6UTZLal9iYUZURm1lZUc2Vll4Ung4UElfakJ6cmU3N1VRT2xZWXA?oc=5",
+            "publisher": "Le Monde.fr"
+          }
+        ]
+      },
+      {
+        "id": "protests-spread-from-france-to-italy-and-spain",
+        "title": "Protests spread from France to Italy and Spain",
+        "when": "2026-10-20",
+        "place": "Paris, France",
+        "lat": 48.86,
+        "lon": 2.35,
+        "what": "Cost-of-living protests in France, Italy and Spain have turned violent in places, and coverage presents Belgium's unrest as part of the same Europe-wide wave.",
+        "via": "protest momentum from France",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Uprising in Europe: Sweeping protests across 6 countries - Troops deployed to the streets - Daily \"lockdown\" in France",
+            "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNMlFFSmFHRURkSzV1ME5jaWZHOGJFWjhTZEptMGRuMjQzUHkxaVZhT1ZmWDlFdVR1eUU4YW1pZ2l3bzBZSTk0YmZoWHRiRGpvVGE0azhCZzFGeGNjel9rS1FDMWVNM0NTYkRLLTd4SEZFQnVsU0hwbUFCU2p6Z0dxOGZ0SS1RWFloM0NKcnUxcnhjcXdhbV9IYzNxWFhzeWo3TnNtd2pqZHFHZmZySGRHM09seS1ibnVLRGZVSXJjZHF5V0kySnRONlpmM0hyQkRCT1BnNlpFNWl0SURuZG9ZRFBrRTNZMW5uSWRxMTBWc3A3V3o2OENWS0lWb21MT0daSm51cHRMdmtkWTc0TkZ1T3ZTVQ?oc=5",
+            "publisher": "Bankingnews"
+          },
+          {
+            "title": "France, Belgium, Spain, Italy, Portugal and Albania violent protests and tensions - Why are young people protesting in Europe",
+            "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPSHB3bk9WYjNkR1ZSZmlubFlpN2ZKRkxPMURnZWlYYjNEcUFWUXQySlA1bk9ITlQxY0Fwb1ZxUk1QQzNfcDhzZ0ctaHUxa1RaY0Z2bFdQdklBRUw4TWR4dWM3cG5sekdGUlh4M2lNNnp4cG1uWjlEbVZGN20ydUNFczBCRTQteGt6VEdQT2d2MWxZY2pObHpGQ1FOd3k4Mk1VNGhiVFFLeGFFb191U0MtNFo1VEljX2pHdTlVeU1ONmluck5jTDhxaWtYRnVSYVNna0pHREVBOW1QUmxUeC1TZ0VMQzFhTWVZ?oc=5",
+            "publisher": "Gazeta Express"
+          },
+          {
+            "title": "European Cost-of-Living Protests Spread as Clashes Hit Italy, Belgium",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSmpnNm9KbE5GMlN2a3NOZ2VJM1I0NWJNa0ZDWnRxZElTbXJNTEFReUFxN0lXOEpyeEFONXJnSlY1MXhmMjhuaEtUTjdQRU95MUVYcmdIT21YT3BaOVBuTFR0M0Q3TUtxbFNWY1R1bExnNGJSdXk4Tjk1NjBhR1NUNW1SNGhxd1N5RjBpRHhhc0VaaVhSSnVITW9hcWhxRW9SMzRoajJoQkt5MjFfRWxTOHE1LVh2b0M3elRucEE0cFY?oc=5",
+            "publisher": "Caixin Global"
+          },
+          {
+            "title": "Cost-of-living protests sweep France, Belgium, Spain",
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVHFzcWJtYll2NDJidmVqckpveFpGYkZPVl9heTVXMC16b1ZzZ0JlZlBOb09qcWlXX2JJWXRqeEljYWduS1E5NGE3SGlCWnlDYVg3a3NZNWJTR04xcHNNb1VuVTg1TFE5VXJ1by1ITUwtV2s4alVvZUpaTGwyUUxwWW9zZENTQdIB3wJBVV95cUxORjVIaXFOc3BSWHRfQzhJTGRQdEZ0eWpsOE9uR3Fyb0tqUDBYTW1pVTNtaTN0cHdiUFcwYjBpdy04bk1kNm5USmdhbUs2aVJpbGRUckhBU0RweFotMWc1ZE1RQkhuTDF1X3NDeVNSNUtWNDFRWWx5a296WFdHSDNyb2RrQ3lOcERuOHlnQm9HRVkzbS1hNDdfV1FKbVd3VTZqMnZXNklVc2xfeFk3WldEaVZrb1VBRDJ5RTNncnc2QW1fQUdHbWF2NlZ0YkRZenV5QmpBbm0yc2VIOGRnTndwRjJQSEVfMW8wNXNhdDNST0JzQ09BZTVybVR1R0hmRmV5TlAxa1ZnS2dUVGowM2UwSFpSM2lpNVdWeUtPSUtRRjJEd3BSY0dpbGdzaDI4V1lEZ0tDNGotcW4wclJPeVlVNm5GWDFEMTFJbkZ5NWJJaVZVaDZETC15QW1UX3Zqck0?oc=5",
+            "publisher": "Tribune Online"
+          }
+        ]
+      },
+      {
+        "id": "nearly-200-arrested-as-students-defy-crackdown",
+        "title": "Nearly 200 arrested as students defy crackdown",
+        "when": "2026-10-19",
+        "place": "Brussels",
+        "lat": 50.85,
+        "lon": 4.35,
+        "what": "Nearly 200 people were arrested as Belgian youth kept protesting over education despite a police crackdown, which keeps confrontations going.",
+        "via": "arrests and defiance",
+        "aspect": "security",
+        "flow": "both",
+        "sources": [
+          {
+            "title": "Nearly 200 arrested as Belgian youth defy crackdown on education protests",
+            "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB4UnRDbDNrMHN3b18zbHlEYnRWallfR2l6Tk9pdl8yRmlBaXJuTGctSURyeFRWREdkNlZ3aW5tWUhuYWF0MTl6clpXOEFlYXIzTzFON2xIa29vWmtfRXVKRGJ0VUFhOVdY?oc=5",
+            "publisher": "World Socialist Web Site"
+          }
+        ]
+      }
+    ]
+  },
+  "portugal-housing-protests": {
+    "at": "2026-10-21T15:58:46.606Z",
+    "by": "pipeline",
+    "items": [
+      {
+        "id": "police-clear-rossio-protest-camp-55-arrested",
+        "title": "Police clear Rossio protest camp, 55 arrested",
+        "when": "2026-10-20",
+        "place": "Lisbon",
+        "lat": 38.714,
+        "lon": -9.139,
+        "what": "Lisbon police dismantled the housing protest tent camp at Rossio and arrested 55 people, with camps also cleared in Porto. Two people were reported injured.",
+        "via": "protester anger at police action",
+        "aspect": "security",
+        "flow": "both",
+        "sources": [
+          {
+            "title": "Lisbon police arrest 55 housing protesters and clear Rossio tent camp",
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYTQ1S05WTnZfeG0wYU9LbmNNZDdhcVZmRHc0Q1BXOTBCV1A2aDJ5T1BhNGZJSXhJeWh1RGJReHpKaGxUMW5IMllVY0RKbFVVMjdNX29QaU1ON1ZIczEyN2NTNlM2UEV2THI1aDltd3BGV2N0LXdiLVI3OWpwWDJsbFRpdGlPNWE0LWU0UGMtVGo2eTdQMjZHRmNmaUpUeWhYX0w5NFZyQUE?oc=5",
+            "publisher": "Euronews.com"
+          },
+          {
+            "title": "Portuguese police clear housing protest camps, arresting 55",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcnNPYWkzMlIxMzNfRnR6MzNJa3pwNkJpVk1RZUFPbklJbEdCZU9UMFNhcEdVbWcweFNmZEJSWXZNZXBSeF9BM3dHT1RxVzVNMEszOVp3b29LdkZPTVYyQ2gwMVVUNWpleEptUnByOEtQa0pMWVJGdWFpNDBBcFQ3Uy15YkZOakk?oc=5",
+            "publisher": "Yahoo News Singapore"
+          },
+          {
+            "title": "Lisbon Police Arrest 55 Housing Protesters and Clear Camp",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9fQ1BlMFdRUVFJN0c2ZnZ0dU9OMG5CWlBwZGtNLXFzSW5XMmROVEo2cU9oNTRQczZPb1NNZERlZ2RiUmNtTUozdURpQ2xsT1pqZWlmWjFHb1FoUmZzd2tVUWl3NFlUUnZFWEI4SmJmZ1d2c0RROEpR?oc=5",
+            "publisher": "Demokratis.co.id"
+          },
+          {
+            "title": "Lisbon Police Clear Housing Protest Camps and Arrest 55",
+            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE42SXhETUNoNGozWU5DQTA3UEtKZklqZDdlTDdYMktqS0lmUUI2TXZERjRvQTNveld2Q25DUzdsY3l5TGJKYjZCaEtMbklRdlg2UXFCOHkydGNUTG9BQkNXbkMyM2Jza2M5WmFGMnFMeEo?oc=5",
+            "publisher": "SuaraGarut.ID"
+          },
+          {
+            "title": "Portugal police clear demonstrators from protest camps against cost of housing",
+            "url": "https://www.france24.com/en/video/20261021-portugal-police-clear-demonstrators-from-protest-camps-against-cost-of-housing",
+            "publisher": "France 24"
+          },
+          {
+            "title": "Police dismantle housing protest camps in Portugal",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zcW1zSW8tQzZRNUlqUTViLXpEa2NTY3JkOHg2Q0ZrQ1lCMEpDSFE4bUhtcE93eTNSMDJZc3NnMkhvNmNkczVGUGN3R2gtOFVGa3ZBV1AxbXpwbTNVWUZuX29FN3pmOU1FVlgwbWZtcTNVX05JMTlR?oc=5",
+            "publisher": "PressReader"
+          },
+          {
+            "title": "Housing protests in Portugal, 55 arrested and two injured during police intervention",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRjNfRF9VOVhONi1Pand3eUlTLXlJRlhGMlVKVnRuT1ZzZk9DdzZBY3F5MHpRZUdZRTRXV2JIdnQ1ektTOWdSazdvYkl5T0p1ZkhISERKNVV5V3lQVll4ckU4T25KQ2UtVmw3Ty1zTGJBSHN5N3JZWDIwMUVTRmQ1WGNSd2NDR0xfdnQxamVERV8ta2JxX2VJZW9RUEJ2TURPNUlzQlBPY0FOaGk0akVtdVJubFREOGNXVXVkQw?oc=5",
+            "publisher": "Gazeta Express"
+          },
+          {
+            "title": "Portugal housing protests return after police clear camps and arrest 55",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdjBOSG56RGx4QTlsSXFRME1iRWp0VGRGWlFRZGdYWG0tSlhBODZwbHJpOC1CZGhBek5zRWh0bl9fX3pnRUdBWnlQY3hPay00MmNKbFJYWjFtV2NhMTd2bGJWakx5WDN4SDRySDViZ1hsR2NKVTNHM2h4bUhhY20zcnhzeTEzemlUSk9EbTZzVV95UWhUWm5Z?oc=5",
+            "publisher": "Latest news from Azerbaijan"
+          },
+          {
+            "title": "Portuguese Police Clear Housing Protest Encampments in Lisbon and Porto as 55 Arrested",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdGxqbHBWeE9rYS1ZR0tOSDNzRnNQbmtnSTdNZWdPOEp2Qk5DcjJtSDFfNkZEamZmVTVVcklEM3VGNUFXTkxqeUQ2LUVMWHZBdURFcXJWU1BBbmpiRmxIcjhmaVF6anFvZmcwU0dMN1JvOFVWYlJ5VWttdk5SOTA3bjRCU2lGRmtBU2RGQUFUbHdiR0ZEajBPbllQM2pYajZPLVF1YXExdTJvUnlET2tN?oc=5",
+            "publisher": "https://streamlinefeed.co.ke/"
+          }
+        ]
+      },
+      {
+        "id": "protesters-return-to-cleared-squares-vow-to-continue",
+        "title": "Protesters return to cleared squares, vow to continue",
+        "when": "2026-10-20",
+        "place": "Lisbon",
+        "lat": 38.72,
+        "lon": -9.14,
+        "what": "Thousands of housing protesters went back to the squares and camps police had cleared, saying they would keep up pressure for affordable housing.",
+        "via": "renewed street mobilisation",
+        "aspect": "politics",
+        "flow": "both",
+        "sources": [
+          {
+            "title": "Portugal housing protesters return to squares, vow to press on",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdWwxLWtmTWFlcG1YV2s1RV91eXlPVFlCeFNzY2ZkX2Z4T1pnZllxOXB0eFlkX3hnWllLT1N5SmVNUnJZRnI3UDBxcTNuQnRsYUFZeWFyUktlcEMxbkdBQW96VGJxdjNjbjRNTXFrdDVVbUhSOUw1OFRDaE9jNkpGdmQzbUZMR0thZUY1MklFcTU4YXhvNDRmNHlyMGxiNDd4clE?oc=5",
+            "publisher": "Reuters"
+          },
+          {
+            "title": "Portugal cost-of-living protesters pour back into camps cleared by police",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOM3JMWWZ0amRuM2VYNEcxbE1vcU83UmVnM1lwSmJVcjdYbjdXS0FNdmI3YkR2NjRXdVRBcUFreFBqSHlFYmpyc1EwWmJPX0tHenJLMU9JTWJMZXVSTHZuMHYyeUplUmxZNzNBcUNPUDVfelNRTkFWbG5hdFdiVnZlM292THd3RUFBeG9rWEl5UmM5dTU5a0E5cjhxTUlBelVsRVEyanp1dVByeVB3WHZFT3h2OWM2UdIBuwFBVV95cUxPOVIxSzkxNU50cFF1WkVJblJGVE9PbGxpeFd2d1ZuODlNdHJxTVNnVDRyeHpySUdSem4tME11OWwzSktCbVBJUW0wZWV4VlF5ZThvSGlNNGd5Zk9NcTVKdWRzZkJJSnBzM1RjTEJ0OHR6LUp6UEJSRHNnRUhMcElkUmN3Tm4xTm1VYmF4Zzg5bHd6MHE0eGo0MEV3UXZURmxCLURKYThVa1hYaXpZc2tySnM5UnVHejlzNS1N?oc=5",
+            "publisher": "Al Jazeera"
+          },
+          {
+            "title": "Portugal housing protests continue after police clear camps",
+            "url": "https://www.dw.com/en/portugal-housing-protests-continue-after-police-clear-camps/a-79717904?maca=en-rss-en-world-4025-rdf",
+            "publisher": "Deutsche Welle"
+          },
+          {
+            "title": "Thousands rally in Portugal after police clear housing protest camps",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNLVdRNVR2RUFLaUtjLVVLMm1OdFJvQ01acWNQUFRpZzdMVDdDTVI2VngzRlZJSXBpZS1YQnV6NVIzdXVLYkdMRUgtVUotQjlWU2tHU2tiMlRqcnd4SnF6eWhQN09Oa2hER0N3MDJmaDFmc2lxekxFOVBQYldGVlFIX00xRmgxTXNiTTc1TGstVmxxY0hqT3ppdUJaUXNOUFpXZXhhWERB?oc=5",
+            "publisher": "Club of Mozambique"
+          },
+          {
+            "title": "Thousands of people continue protesting for affordable housing in Portugal",
+            "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPN0RYSWNnVGhrSTl6Ykx5UlEzS0pUWjktVVlCaVVOZE8wZUdUVV9pLUVVaDg3cGZ2ZWhNalhNVWJrNEdKNWJWOVVaYkNvTVVDZjd2dWl6LS1DUHVRTVBoUmQ1ekxaNC1WYU9ZQlc5TGF3OW5KaDNTdjlLbHpobjgzOUhNd1lJTU84NHozRDN1emFURmxnRnNvX21IMndFXzVDeFlPSnBzSlpjeGlydzdxUzZWVFhVRm5rNmoxQWJjWGQ4TTlQQmNhcEt1bGRPLWUwSWs5amJwUXRNMnpOZDRJMUtEZENnYy1iNmRvX2thTmE4M3hhdHgyM3BR?oc=5",
+            "publisher": "Daily Gate City"
+          },
+          {
+            "title": "‘A house cannot be a privilege’: Thousands rally in Lisbon over housing crisis",
+            "url": "https://www.euronews.com/video/2026/10/21/a-house-cannot-be-a-privilege-thousands-rally-in-lisbon-over-housing-crisis",
+            "publisher": "Euronews"
+          }
+        ]
+      },
+      {
+        "id": "soaring-energy-costs-add-to-household-squeeze",
+        "title": "Soaring energy costs add to household squeeze",
+        "when": "2026-10-20",
+        "place": "Portugal",
+        "lat": 38.72,
+        "lon": -9.14,
+        "what": "Coverage of protests in Italy, Spain, Belgium and Portugal links the unrest to soaring energy costs alongside a deepening housing crisis.",
+        "via": "higher household energy bills",
+        "aspect": "energy",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Italy, Spain, Belgium, Portugal: Europe protests spread as energy costs soar, housing crisis deepens",
+            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTG9CNXl0NjdmcWdpNC1renNtanNyRTZ5V241bHM1MzNidTU4d1paVzZYUkYwOVBBYnQ5dkFzY2pvWkhXUHlZNVB1MzRJMlNKRXpzWTJnQXBZcWt3bDNhQmh2R3ZQM2I5SHJSdURYU3hyQUpZWHJLd3Q5M0dpNUIzYlA3ZTFDYUhKeDM2LVFCVmhVVzZpelpaZHpLVUswUTZiMDFrQ1JaTXhuTWtoS18zOXZ6NmhkY1VzcEFsNTQtSmdjX2J5MENDaQ?oc=5",
+            "publisher": "Connected to India"
+          },
+          {
+            "title": "Italy, Spain, Belgium, Portugal: Europe hit by wave of protests as energy costs soar, housing crisis deepens",
+            "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQS1NjQXNYR3lOcW9YT1NYUkhmd1dOOUh1V1dlV011UjNORmhRODJMeWx3eXFPcUR1V3VIOWpCMmxwa1kxMnB1TU5hUmFuQVhMeEd3UkpIVEVhTXRSYUc3NlFMNE42MjA2TDJKR2lzdEkzTkFVWTdwQmJuY0Z5bTlGSmFEMWlXcWtNXzZHTlBWOXBXalQzUXNmRXR6MGZJanpCU2dyNkY4ZDYtZVJ1NGxEY0FvYW1pY3dCWnhhSWlYRWVQTUVGbUdXc21SeE9FMFRfOEVsY093ZjdIcjRGMHc?oc=5",
+            "publisher": "Indiablooms"
+          },
+          {
+            "title": "Italy, Spain, Belgium, Portugal: Social unrest spreads across Europe amid soaring energy prices and a housing crisis",
+            "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPcnphQ2s1d0RnanE2WjJjUzlwVl9PX05EU2ZlenNpZXdMR256aHdwR0lMT1d5dEUwUl9IWGZsTkxmMlpxMGlwWjR6VVVLTHhnZmVfM3NkNjZMejkyN1NYdm1MU2FwMkZVVERXNFg2cHUwQ1pOeGhZdDQ0V1VUZENFWkdVR2dWNUV2dmpyNVhoTVVDdGo0bURzd0FKdi0tU242TnlubkhSaXZPZXpRaVFZcmJtT19NdDdYMV9pR1ZwQ3FCRzFBRmRPRzQ2UjlCRlhVZ1BqcktaeC1xdGxDcGVmSkZpeDRrNXhYcmt2UmN6UTZLal9iYUZURm1lZUc2Vll4Ung4UElfakJ6cmU3N1VRT2xZWXA?oc=5",
+            "publisher": "Le Monde.fr"
+          }
+        ]
+      }
+    ]
+  },
+  "spain-strike-and-snap-election": {
+    "at": "2026-10-21T15:58:46.606Z",
+    "by": "pipeline",
+    "items": [
+      {
+        "id": "unions-call-general-strike-over-housing",
+        "title": "Unions call general strike over housing",
+        "when": "2026-11-11",
+        "place": "Madrid",
+        "lat": 40.42,
+        "lon": -3.7,
+        "what": "Spain's trade unions are mobilizing a nationwide general strike for November 11 demanding affordable housing, ahead of the snap election.",
+        "via": "union turnout, housing anger",
+        "aspect": "jobs",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "General strike for affordable housing: Spain’s trade unions mobilize for November 11",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON1JfWTVKaHlUMnkyRThfa1JJbm1LZG15b09hZ0pNZnBycE9VQkhfd1VJYlRsLTh3Wm0xMkpWaDRlTU9ZUVhmeTR0VzdVT3ltNWZGbDZZSk95RFlLbjBtTzBXcDNxSWtTclRQcXozaEhXX0pDam1zeTZLWmxxb1NTMFJTdVJmS3lha01EczJYM3pGWG12cGxVV09ZaTFCSGF6dmJiZkhycUU0UGYzdjFocTdqR0dmTzQ?oc=5",
+            "publisher": "Spanien Press"
+          },
+          {
+            "title": "Spain Announces Nationwide Strike November 11",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdy1zQkhiaDU1QWtyb01Wem5oR0VFREpYZ0ZBQlo3M2RKY3pkVnJSZnRuNWxfOTdibV9reWJrUjhnMU9odmJkNDVEVlNhX2hjWXdQTHB5MUlLaXM0NmloLUtlaUl2UTlsMFBHR3N0QV9QQkctZjcyNWVMWERDQmtzLU90UF81MWNqOUJDblRKRllMUQ?oc=5",
+            "publisher": "Rus Tourism News"
+          }
+        ]
+      },
+      {
+        "id": "milei-calls-sa-nchez-a-dictator-in-madrid",
+        "title": "Milei calls Sánchez a dictator in Madrid",
+        "when": "2026-10-21",
+        "place": "Madrid",
+        "lat": 40.42,
+        "lon": -3.7,
+        "what": "Argentina's president Javier Milei, visiting Madrid mid-campaign, called Sánchez a dictator and a thief and urged the Socialists be expelled, while Sánchez replied he was proud to be a leftist.",
+        "via": "campaign polarization",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "'Lefty and proud': Spain's Sánchez hits back at Argentina's Milei in Madrid",
+            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObE9RY0V5bmVWWm84TVRGUEtxdTJqRU8tX0ZhaFh0MExHdlZ0SC1Ob3hKTS1tWkRhQ2dZbzVnM2Rfal8xMzdtU0xOOEc5NS1fYjJzS2VuQkhnZ01IZ2dpZTYwTTllUVE3STVyYy1JQmJTejRVbEhqVEMtdDVNVDBjRQ?oc=5",
+            "publisher": "AOL.co.uk"
+          },
+          {
+            "title": "Milei calls Sánchez an “unpresentable dictator” in Madrid in the middle of Spain’s election campaign",
+            "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRDAwQkdzbjNSZ3U5RElTTEtPMF9OemR5Q0lmOVVKVzRUT1BRRU1OLWwwOTZNUGZNd3QtSzMwY2o0QnNGQWV2M2tJRVI1OS1GWkhMQXNJc1h6WGJQQUc5YUloNi1lbnhieUNXZnBDM2tJZzlTclFqUEp5R3NvQXdKa3ZrZDhVbE9NdGFVRnliWnNEVGhVdUtCazBwZlZaMTFWVGFGVHRyU3RvRV80S3piYzBwNXlRY0VWZDhpaVZEeUx3MVpfLWw0NHJvdVU5VGpz?oc=5",
+            "publisher": "MercoPress"
+          },
+          {
+            "title": "Milei lashes out at the Spanish elections: “Sánchez is a dictator; the Socialists should be kicked out”",
+            "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNUUJqNURfTzRGTHRVaDg3d2dwQ3lyU1plVGhnYWFFUmZCdnUyQTFUWnRaTmlQNzFJYTNxTms1cVpRZTZ6WmNNdk5ENGJzM2p6ZE5FMTl3TFQzbW0xX3FBR3JYM0czSjVETHBWVlRmTUNwMy02VmVkOGNKaGdiQnIwRmJoUDJ3UXhkUjY4ajRSWHN1aUlVVmJ1TjFTMjAwM0ZpVG1YczIyODBPeFFYR0dCNjVITDNUTUdIMVFyaWlLZHBydGp1WmlhMDc0VjVTalJ5NUhkbkJCU0JGa1UtQWxlQ0xkbldWTkhmdzdTVHFzbG4?oc=5",
+            "publisher": "la Repubblica"
+          },
+          {
+            "title": "Argentina's Milei calls Spain's Sánchez a 'dictator' and a 'thief'",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTnhRUy1EeVF3N0htMFNoRHV0N2FLbV9FYmVLNUVPYzJaa2JGeXh3dzJBcl9PaEtnUnpuM0NNNV9hbUlCZEJrRXUxVVloMUEtZHloNDZsVlJhUUFKNlJ1Q2NFSlVtT0ozTXlpYTVkaXVMLVhpem1OMWJlVkQ2QXd4d1kxNF9aQzVIM3RxclZta1I3QTdoZmw4?oc=5",
+            "publisher": "Yahoo"
+          },
+          {
+            "title": "Argentina's Milei calls Spain's PM a 'dictator' during Madrid visit",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVGhRcnV3amo5c19vU1pBaWQtWmdfZEVpM1Y0NHduVkFzak9ERGh1aWNCdXFUOEdVRW80WGFDZ0w5czNRRjlzNkkyRFE1aklOc254c0RtclNPUDF0Tnd3NGt0NkZycUhDQi1XVmY4NTdXWDlQSkVtVy1SS0JuVGZ6OTZVRlpkb2FfbEF6dzI2RDdTMFlFR0R2Nl9JazA?oc=5",
+            "publisher": "The Local Spain"
+          },
+          {
+            "title": "In Madrid, Milei calls Sánchez a “dictator” and a “thief”",
+            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdzJmUUdzUllRbk9tUXIzbm1ObHVVOVRSWi1WZUFMa3ZVYlF6Y0dPVWNQRDBTRjFwSGdtQm4xZFZxN2hEVWNXdVJQbXZ2SWlHZVRDSTc1TzZCaGRRX2dtTWNkMTBkQjRUc0hLQ21BcGJFT083U0JrLTlIdEtOcVZKQ2w2eXhEVGdEX3ZLOFB0bWhXWEFvOHc4cC13?oc=5",
+            "publisher": "blue News"
+          },
+          {
+            "title": "Milei calls Sánchez a ‘dictator’ in Madrid",
+            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPa0JaakxabUVMWHpuVnhGb1hKMDdtVjk5NEtXSGxLVFNyWER0ZklHWlBBN0JTN0dkRUhaLUxSQ2NFM3plLUtTdFdVZVZEWkxBRV84ZndLQll4M21keGNfNVUzcTBLZ05qMVAxOE9UVXNoZ1k2VHBNOF9hUmpmNUVBUQ?oc=5",
+            "publisher": "Brussels Signal"
+          },
+          {
+            "title": "Milei labels Pedro Sánchez a \"dictator\" and calls to kick the socialists out \"with kicks\"",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd2cxVF94dHNWUG5PNHkyNWVJU182Z0RTcnBvcndkR2lHdTQxX3ZMNFB4UjZUeTUybFRjQ1dIdWFzc0NlSFY2VUZTNzBlbHVZd2YwdUE3ZlNtcjRzVWdOMFpFYUZJUzd3czRHdTJNd0hUc1gtOFNGLWROWUNCbEw5dTlPQi1yVFlCN1BLMUN2dmtBX29JN015YXZlUEI1N1lTZjZVOGllTjRudw?oc=5",
+            "publisher": "Diari ARA"
+          }
+        ]
+      },
+      {
+        "id": "pp-and-vox-seek-senate-control-pact",
+        "title": "PP and Vox seek Senate control pact",
+        "when": "2026-10-20",
+        "place": "Madrid",
+        "lat": 40.42,
+        "lon": -3.7,
+        "what": "The PP and Vox are seeking a pact to stop Sánchez's allies from controlling Spain's senate.",
+        "via": "opposition alliance maneuvering",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "PP and Vox seek pact to block Sánchez’s allies from controlling Spain’s senate",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONV8tbkVCSFBaNmlnS3hoQ2p6bUh5TDlRYWNMWEpaVmpKYzJYMEJtTWlBRUJLd0lGWEpXNzZBanE1NXV2Zk96WjJ0MlQwM1U2SXY5a0Nqc0QyakoxR0NSdENfdjd1amo2VlIzLWlERGZXdzBRVC12ZWYzYTFNenF5VTVDblBlRmZhbkpoYlo2NnNZcTJhTl9lLXZJcW5pLXp0aldSNlZla0d5Z0JvdnNVV0VTbHN3QQ?oc=5",
+            "publisher": "Euro Weekly News"
+          }
+        ]
+      },
+      {
+        "id": "sa-nchez-jeered-in-flood-hit-town",
+        "title": "Sánchez jeered in flood-hit town",
+        "when": "2026-10-21",
+        "place": "Valencia region",
+        "lat": 39.47,
+        "lon": -0.38,
+        "what": "Fed-up residents of a flood-hit town jeered and insulted Pedro Sánchez during his visit, reflecting anger toward the government during the campaign.",
+        "via": "voter anger at government",
+        "aspect": "displacement",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "‘Son of a B***h!’ Fed-up Spaniards Jeer Socialist Pedro Sánchez During Visit to Flood-hit Town",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNDN0WExLMzFVWExVUGkzS3dPLS1Zd2IzZTZ4OXF2YVZfYjQ0NXlHbVRoSmUxOHczMHA4NjJCSXZfZXVnNlAycUIxQlhVQUNzYVR2Qk9kMC15bkhhWS1nbGJOS0VVN0tmNEwwcmExVGxrQlFneFR3cjdlVkN2OTJFMlhGd3p3UzMzVGp3OFJaV0g5aDZrS2UzQ01mZ1lNS3ZyMzJWWnpGMnBsajRkUHREWi15dTZNRU9EZ0FMd1VGd1YtZ9IBxwFBVV95cUxQQjM4ZU1jbmdDTDZBUF9IZTVOMGFfcjgyYkFZTTJBMWV5Q1EwRzBfODlYd2hsSTR6Y1JPQ3VrWVZmRHR0SEEycUlrVVRYdVRTeXo5bVZxSjA1Q3BsbXhyckR6ek9ld04xblZTeXpSRGlhSkQ5TThMLXhEajNsX0ZodUFfdmJ2WVQxS2tJVjlDTVQ4eURDYXhhWndodkRVNzZhNWNmWFl4ZU9RSm1yS2picENNaGg3aWtVcUZseGVYNEhCb29qaklR?oc=5",
+            "publisher": "Breitbart News"
+          }
+        ]
+      }
+    ]
+  },
+  "usmca-annual-review-2027": {
+    "at": "2026-10-21T15:58:46.606Z",
+    "by": "pipeline",
+    "items": [
+      {
+        "id": "us-mexico-talks-stall-over-metal-and-auto-tariffs",
+        "title": "US-Mexico talks stall over metal and auto tariffs",
+        "when": "2026-10-21",
+        "place": "Mexico City",
+        "lat": 19.4326,
+        "lon": -99.1332,
+        "what": "Bilateral trade talks reportedly stalled over steel and aluminum tariffs and auto tariffs, and a deal now faces delay.",
+        "via": "unresolved tariff disputes",
+        "aspect": "trade",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "US-Mexico trade talks stall over metal, auto tariffs; deal faces delay",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQM3RJb3NQcmhrY1U3Nm9sOUU4OFhvaTF3dFpCb1hCOWZFN19IZWwxM0lLX0pCQ2lMbm0yYjVBMVR4ZURVeE9qVl83Tmo4OVVUWURFWm1uem1NNkE0ekl5TV8yVXNaWE9McFRNSjRyUzlfNzRxMHQwZ3pCNm9uSFdZYnlhdVZsOXhLX2xNR0lrMW9IRlJxR0NfMzYyN2VfeFNJOHVPbWg2VkQxcWNsVFI5SDlB0gG3AUFVX3lxTE9LOGNCQ1Z0MlQzVE9SWFVINWVWWHZub3dteDBhbDNHVjk0TFhabGZ3ODRjclBwRkpyamtIRUM1ZU5PdUpaTkstOWNZYUdvRXdxekZTUFp0S3VfS1AteEY2UVpueU1PNmJXdjhicmpiTnBORXlHWnpPNXpvV1JOaTB5V0dPdm84bU5uT1FYNUpkX1RrQy1VTWpDWnRqWmtWaXFHUHF0VjluSjVMTVo2anBBbjUtaVE0QQ?oc=5",
+            "publisher": "CNBC TV18"
+          },
+          {
+            "title": "U.S.-Mexico trade talks reportedly stall over auto tariffs, raising concerns for USMCA",
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNLXFiMGIxa0FLMWpTTTh1UHdUS0g4NDlfZ0JOYkZKWE91ang3SmVrRzh3eVdBUkppMnpwdEppOWtVN0lNNGtNVklPT1phODVHamtib2dVY0xKaTlsNEhOYnNRbk9IaWRJY2ctZTZRYnZjdzRES0xpVFV0Y2dIenRORHFYc3k5OUdubF9PYjR0REkydXlHb0JfQzdXdUN5TmVhVkdjUHJXRG1tTmZvVVkyZjRBbU9IUWtu?oc=5",
+            "publisher": "Car Dealership Guy News"
+          }
+        ]
+      },
+      {
+        "id": "trump-says-mexico-deal-is-close",
+        "title": "Trump says Mexico deal is close",
+        "when": "2026-10-20",
+        "place": "Washington, D.C.",
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "what": "Trump said the US and Mexico are close to a major trade deal, though the terms remain unclear, and a US official said Mexico talks are advancing.",
+        "via": "bilateral deal momentum",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Trump Says US and Mexico are Close to a Trade Deal, but Terms Remain Unclear",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUUNlQnlPVWFQaUlGY0xZOFc3VHpaNVh1Z3lCdWVFXzZVR21HNEM1aUh0UG8xSXlYS0xmZVF0RkRWX1pJQ0Y0eVlGUUNHazVXTDJRR2J1TC1tTGoyd05Yd3BRcWhBREFfRzROYmZpNXRDWGl5dUtxT3hONWhic2RIR1ZIMUVjM3hXSlBCNGMtbjdYNnZHTEVUVkVKNzlpNXg5ZXg3UjR1ckVqRjZRMXg3WmNnY3FWNTUzVkxlckp3?oc=5",
+            "publisher": "American Ag Network"
+          },
+          {
+            "title": "Trump Says US, Mexico Close to Major Trade Deal",
+            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONVlTZDQ2MXNfeDVaUnBIZERBTDdZSTNYbFBibENIUDVMdGRIYkQxcEpqZW9mZk5yU05ZcV8zTWJCUk1Ea0dDTXpVWFhSWDVrcDNTaGxTYUVvbDRjaDkzN1JZOXhmbHB5TU5iWElGaGgwWHJMZzctRXN6d1k2amtubg?oc=5",
+            "publisher": "MundoNOW"
+          },
+          {
+            "title": "Lindberg: Mexico talks advancing, Canada remains a challenge",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQnRzbkxjbElzOWk5N1Fjdl93dFQxQm5ZWGtNYnhpT2JpN2ZwTW1qeXgzUXBTaFdWQVZ2VlBhR1dGcUkxS0haZ2xpWjU3SG5LaElWV0lZSDR1QXlEQXVUTER0N3NsSUVCUjlPZW1NdFJvRmpsQ1NmS2tHN0JMTURZVWhfdXBuZkE0eVBYb21NQ2F5S2oxeV9COQ?oc=5",
+            "publisher": "Brownfield Ag News"
+          }
+        ]
+      },
+      {
+        "id": "sheinbaum-confirms-us-push-for-more-gas",
+        "title": "Sheinbaum confirms US push for more gas",
+        "when": "2026-10-19",
+        "place": "Mexico City",
+        "lat": 19.4326,
+        "lon": -99.1332,
+        "what": "President Sheinbaum confirmed Trump is pressing Mexico to take more US natural gas, while denying any link to the trade talks.",
+        "via": "US energy export demands",
+        "aspect": "energy",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Sheinbaum Confirms Trump Push for More US Gas, Denies Trade Link",
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbE1LRTE3XzlLVkg1OWl6QUp1b1M5dWNtSGhGaEFwcUZtUmJ4ZWRMZWI2YVZ0Y2lhRjhGb080aXpfOXBVY2hpSlB4LXZyTC1jSktvd3IxVmJNTmtGU0p1clRsNk5lYjk1eE5wNXgyX2FiNERNZnM5Q3hub01jS1F6Nml6REdIQQ?oc=5",
+            "publisher": "Discovery Alert"
+          }
+        ]
+      },
+      {
+        "id": "us-and-canada-plan-talks-as-trump-shrugs",
+        "title": "US and Canada plan talks as Trump shrugs",
+        "when": "2026-10-21",
+        "place": "Ottawa",
+        "lat": 45.4215,
+        "lon": -75.6972,
+        "what": "Trump said he does not care about USMCA as the US and Canada plan trade talks, with Canada pointing to its US oil trade and the US eyeing energy and critical minerals cooperation.",
+        "via": "Canada-US bargaining positions",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Trump Says He Does Not Care About USMCA as US, Canada Plan Trade Talks",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUW9JV3ZqZXctbEZTeGh4NUZoX24wbC1XSWJLaVpqVDRpMEsyc2VsM0xQaUFGeEZnaXFNU21ZWUN5WkNqR1VfX0k4WEMzckpfSXNoYTdCVmQyTWl5MWlZVWQ3WWxuYWdveWwwVU84eElDQ2JQZWdwdno4UUFOV2dYZWthSHZmbU5LUm5rOWFPam85SHVFY3V1bjBKOUY0eURv?oc=5",
+            "publisher": "EnergyNow"
+          },
+          {
+            "title": "Canada Touts US Oil Trade Before Minister’s Talks With Greer",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRFluU3dwbl94TTAwOVRrb3dkNXh2VTNTSUt4dHhOUUVpdGs0RDRQZjVJLTRFNkRna2pGYThRQWtOT2J0YVZtX1JuY1p2bmpVZXhVeXg3M1R5Q3d6N1NnTm91M2I2SU9EYkNZellQWUI5d2NlVGNMdlhnRlc3enZPckZrbnFoYmtEM1dmcGFSUGwxMkU?oc=5",
+            "publisher": "EnergyNow"
+          },
+          {
+            "title": "Trump’s Trade Czar Says U.S. Looking to Work with Canada on Energy and Critical Minerals",
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMWZvWnVTbjJlNDR1UHNTTVZFd3lRTmZYaVA0Q1l2SmRsWDhMWndUM0dXU2MxYmJpQWpUbUE3UVZTeS12SHcwYUZCNFROV1RMTER5clg0ZndESVF2dW5UZ3JBTkh1TmI3Q0ZPN1hacGt0blZrRVBmZkE1WVhiV0F6ZFpfbG8yNGJNQ3RIc2VNM0NqM3N0eHJJMEoxbE9nWDN5eFhlc0ZXeGFPU0JpeG8yRG9FUFBPc2px?oc=5",
+            "publisher": "EnergyNow.com"
+          }
+        ]
+      }
+    ]
   }
 }
