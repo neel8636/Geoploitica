@@ -399,5 +399,179 @@
         ]
       }
     ]
+  },
+  "alberta-independence-vote": {
+    "at": "2026-10-21T14:18:30.427Z",
+    "by": "pipeline",
+    "items": [
+      {
+        "id": "province-spends-130m-to-hold-referendum",
+        "title": "Province spends $130M to hold referendum",
+        "when": "2026-10-21",
+        "place": "Edmonton, Alberta",
+        "lat": 53.53,
+        "lon": -113.49,
+        "what": "Premier Danielle Smith defended the $130 million cost of staging the referendum, the public spending that put the independence question to voters.",
+        "via": "public funding for the ballot",
+        "aspect": "budget",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Alberta Premier defends $130M referendum amid political hurdles",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOUZsQ0hpQUdZcmYtalJEQzJMY1o1MHE4VzJXT21VNHNvRDNVbVh3eExmUmlTWWZybEZnZFJVRVozR0xwT09Ia1lZVHFiSEZWOWFsbWxkNGJOQ0FyNUJrNEJISl9ackkwNUYzZHNYTUxIdG5IbXJNS3VraU0wb1NCamFfeEtLNV81NFRJSkhmdWtpNjVYcnc3SG1nSmE3U3lwN2duOHJn?oc=5",
+            "publisher": "CTV News"
+          }
+        ]
+      },
+      {
+        "id": "trump-pressure-unites-canadians-against-separation",
+        "title": "Trump pressure unites Canadians against separation",
+        "when": "2026-10-21",
+        "place": "Ottawa, Ontario",
+        "lat": 45.42,
+        "lon": -75.7,
+        "what": "Coverage says pressure from US President Trump pulled Canadians together, helping produce Alberta's decisive no to independence and giving Prime Minister Carney a boost.",
+        "via": "national unity against US pressure",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Alberta’s “no” to separation gives Carney a boost as Trump pressure unites Canadians",
+            "url": "https://www.euronews.com/2026/10/21/albertas-no-to-separation-hands-carney-a-win-as-trump-pressure-unites-canadians",
+            "publisher": "Euronews"
+          },
+          {
+            "title": "Alberta's decisive decision to stay in Canada gives Carney backing to take on Trump",
+            "url": "https://www.bbc.co.uk/news/articles/cr62ylj832vxo?at_medium=RSS&at_campaign=rss",
+            "publisher": "BBC World"
+          }
+        ]
+      }
+    ]
+  },
+  "us-midterms-2026": {
+    "at": "2026-10-21T14:18:30.427Z",
+    "by": "pipeline",
+    "items": [
+      {
+        "id": "trump-approval-hits-new-low-in-poll",
+        "title": "Trump approval hits new low in poll",
+        "when": "2026-10-21",
+        "place": "United States",
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "what": "A poll two weeks before the midterms finds Trump's approval at a new low, and another New York Times poll shows Democrats with a wide lead.",
+        "via": "weaker presidential standing",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Trump Approval Hits New Low Two Weeks Before Midterms, Poll Finds",
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTVN3ampseWl6Q0F6T1AwVWJyS1dXUFdJOU94UTJsLVE4emI1MVJuMV9TWGZQUElyck1INXAxSTh1XzNweXpremFFU2xNdlJETTcyMW5iZHNvOTdmdGpITmNhMm5HTmtvMEhCcWplclEyTTd3NXdubnFEeVBSZmVUeDB5S3RxZw?oc=5",
+            "publisher": "The New York Times"
+          },
+          {
+            "title": "Democrats Have a Wide Lead in Our New Poll as Trump Slides",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSjlRVzRCNFM3NFMwM05YV1ZpQ2hoSXRKb01WUERQMllIaUhoRVZkcGJrQWEwUlpGY1M0S3dMVnMyT0lfZFpOdHkzT1JlWEpYNENUdzQ1Y0Nacnk5WThtUTlaSmFGRHZLZVo0LXR2X0RpMUR0Ml94ZUxUd2dqSFJwSk9Sczg?oc=5",
+            "publisher": "The New York Times"
+          }
+        ]
+      },
+      {
+        "id": "cnn-poll-shows-anti-trump-mood-aiding-democrats",
+        "title": "CNN poll shows anti-Trump mood aiding Democrats",
+        "when": "2026-10-21",
+        "place": "United States",
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "what": "A CNN poll finds a desire for change and anti-Trump feeling are driving the Democratic advantage in the midterm campaign.",
+        "via": "desire for change",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Desire for change, anti-Trump feelings fuel Democrats’ midterms advantage: CNN poll",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdUJrZmNWQ0x2SHpjOWdjcThfSEVzaUVPMXhEbFpENjFXVjZGZTFSVDhyeGhtNkZJQjF5WTJwMjlMeW91a1FKRm9SYlJlUG1JZGQ2WTQzMGo2em44eEJ2dlhkWDVSYm9oLTVZTjYyNVMxU3dVbXpiUF80VENKdldtSHlvX21ENzU5ZDk4OGNR?oc=5",
+            "publisher": "CNN"
+          }
+        ]
+      },
+      {
+        "id": "republicans-outspend-democrats-on-senate-ads",
+        "title": "Republicans outspend Democrats on Senate ads",
+        "when": "2026-10-21",
+        "place": "United States",
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "what": "Republicans are outspending Democrats on Senate advertising, though costly TV slots blunt the advantage they gain from the extra spending.",
+        "via": "Senate ad spending",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Republicans outspend Democrats on Senate ads, but costly TV slots blunt their midterm advantage",
+            "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQVFZJdjFsMU5hcHhERGZtSjZ6RkxVbXQ5clZVem90eGM2SUhmRkl1TExRdDVIaE1kZnh4X0VpUktWU3pWXzFHNGZZdm4yT1lwalk4VER6V2VhV3pIX3hhSl8tWmUtVFRCMWJXbW1pUTkwalRtY183QWRVNFJGVGFYbXVhaVZRVjB5aEk5TWVYV0puS0gwR0JlenJnTWxMSGRDTnlPWXF3YUU2dU83NFgwUWVMU25DbDI5THA3NHFfdzBKUFNkNnNlTndVcl85eVF5QlZPVjhEeDJ4UXVNWEoydUZRQUtfQjlwdEHSAe8BQVVfeXFMTUVKMFk4TW5TbnBjR0RJZkEyUkgtc1lqQVpJVkdWRnZ1MkNnUzVDNWVoNE1nTGg4d0wyVWQtcVZTUlJWT3pGclc3VFdxWHVLZFZkRG0zQ1MzazVWUGpwQ0xTYU1IRUxlM1Uzd1lFYzFIWmJ1cUpsQUdlSlNua1lPQ18taFdHWjFhVDRpX0JhdFpvVjl4a0NsV3gzU3liZ3NZT3NKZTU3Y3VXQ2NrRGZEY2dTajI3TmlUdzdSNGRoakhBdWg0TU9aTmlIYXhrZFdMY3VRRk5sdGdhWElpQ2N1blh4N3VuLVBsckJTWDYxUzQ?oc=5",
+            "publisher": "Firstpost"
+          }
+        ]
+      },
+      {
+        "id": "house-democrats-face-limited-campaign-cash",
+        "title": "House Democrats face limited campaign cash",
+        "when": "2026-10-21",
+        "place": "United States",
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "what": "House Democrats are being forced into tough choices over where to spend limited midterm money across competitive races.",
+        "via": "scarce campaign funds",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "House Democrats forced to make tough choices with limited midterm cash",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNYVJoS1djVmJOVXhoVU9lQXJkX3FDYm1NaW1feGZsSVYzMmRiaUo3d0ZWQklJOFZ5d2dnWjloM1RyOHI0RjR1Z09WZFBsc0NaWWVqVHRlWUNLM25EQmVxUnp6VW5fS2RTOVhmdDJTMVJja1pwLWdoNlh3ZWM4bDF2dFVPRG01T1U?oc=5",
+            "publisher": "Axios"
+          }
+        ]
+      },
+      {
+        "id": "new-hampshire-senate-race-tightens",
+        "title": "New Hampshire Senate race tightens",
+        "when": "2026-10-21",
+        "place": "New Hampshire",
+        "lat": 43.1939,
+        "lon": -71.5724,
+        "what": "The New Hampshire Senate race is tightening as two state veterans clash, adding to the battle for Senate control.",
+        "via": "tighter Senate contest",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "New Hampshire’s Senate race tightens as two Granite State veterans clash in US midterms",
+            "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcDlWNEhwUm9SNUUtZ0ZheFp4WEdKWE52NUNRX3lUa3Y5WThfMW1qdFJLTFBLLWdnb0tWNjExbWF4UEJVUDhJeFdsSFVZaXU2TDhFUjBEVFFpdFk5TUc5QnhTeURTWnZpZVpEcURCQ1BOQTNoalhmY3llRmp2RGdvdm1MdGxqRkZ1Y2JBTGRxUUNVYWIxY1pDejBBckNLSGlUTFpaR1ZNV0ZDRlBwZEdPN0NmbHNqbWNyaGtOb1hWMDJSc08tZTZfZmNhTm5pUWVBcVNBeExuRzRnMm9PRlZz0gHkAUFVX3lxTE0yMFhSQlhZN0JFcGFRNDVEdGsxalRQaVZtVHE2clN2TmJzbzRXY19wdFgwOW1RYjlEcGpNLVY2Wmk2Q2tLNUtLWnBPcDBBVnFBeTkxTTFaNXpYeUVyZzRjWWtBdjE0TWdPXzVVb1QtMFM2VGxwWGtEOUxEV1dKTVNVYkZzdmMwUDhUaVd4ZXEzWktDUW9BOV85R0JJcmx4amZHa3JkXzlmT1pNS1pLYnF1SG95MEdMZHZQVm0zVS1WdnVEdFZTQ2ZzM25CeUtfS2w2T0kzQ3Z5MUZ1Q0Y3bWdiRC1vVQ?oc=5",
+            "publisher": "Firstpost"
+          }
+        ]
+      },
+      {
+        "id": "fake-polling-scandal-angers-democrats",
+        "title": "Fake polling scandal angers Democrats",
+        "when": "2026-10-21",
+        "place": "United States",
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "what": "A new fake polling scandal has riled Democrats ahead of the midterm elections.",
+        "via": "distrust over polling",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "New fake polling scandal riles Democrats ahead of midterm elections",
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRm1tOXFjZklfcVJoOGVzY2RXa3paemZvd1pqemlscU53Q1ZrT2Z3ekRqRXk2ZnBCeU80OHhSV1B0WldhejRMRzdtY1huSXFrS240S3g2eHhDNnIyd2ZPWUVrZFUzNHVIbHljRFZ5QjBZSDJTMk9jNnNrM0w0NVRTanhjd202SjE3WldxZV92UXFtVHo3MEk1bGlPQWdOMG8zTEdYNlY3bUg3WVFVOVlGcEN4YUV4QVl1UXdmTFJFS0t4a2VfbHRoYklzdw?oc=5",
+            "publisher": "Washington Examiner"
+          }
+        ]
+      }
+    ]
   }
 }
