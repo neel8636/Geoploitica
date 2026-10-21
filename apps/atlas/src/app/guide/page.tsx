@@ -61,6 +61,11 @@ export default function GuidePage() {
           protests; rents rising faster than wages drive both. A quick test: remove one event, and the other would still happen, but ease
           the driver and both fade. Follow a dotted line to spot a pattern, then watch the driver rather than each event.
         </p>
+        <p>
+          <span className="text-ink">Small amber dots are the fuel.</span> Point at a big event and the smaller local events feeding it
+          appear around it: a strike in one city, a court ruling, a price jump. Claude maps them from the event&apos;s latest local news,
+          each tied to the headlines that report it, and any signed-in reader can ask it to map them again.
+        </p>
       </div>
       <div className="mt-4 rounded-lg border border-line bg-paper-2 p-4">
         <LineKinds wide />

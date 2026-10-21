@@ -54,6 +54,17 @@ const ITEMS: { swatch: ReactNode; label: string; detail: string }[] = [
     label: "Pulsing dot",
     detail: "its news is rising today; a moving dot on a line is that ripple travelling",
   },
+  {
+    swatch: (
+      <svg width={SW} height={22} viewBox={`0 0 ${SW} 22`} aria-hidden className="shrink-0">
+        <circle cx={6} cy={11} r={5} fill="var(--money)" />
+        <circle cx={18} cy={11} r={5} fill="var(--goods)" />
+        <circle cx={30} cy={11} r={5} fill="var(--people)" />
+      </svg>
+    ),
+    label: "Small coloured dots",
+    detail: "small events fueling the one in focus: money, goods or people moving in",
+  },
   { swatch: <LineSwatch lit />, label: "Highlighted line", detail: "a connection of the event you are pointing at; the rest fade" },
   {
     swatch: (

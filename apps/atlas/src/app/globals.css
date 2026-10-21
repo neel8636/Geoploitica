@@ -26,10 +26,18 @@
   --focus: #2f6b66;
   --radius: 6px;
   --radius-lg: 12px;
+  /* what a small fueling event moves into the big one; validated all-pairs for colour vision
+     deficiency on this paper, and always shown with an icon and a label */
+  --money: #2a78d6;
+  --goods: #eb6834;
+  --people: #1baf7a;
   color-scheme: light;
 }
 
 :root[data-theme="dark"] {
+  --money: #3987e5;
+  --goods: #d95926;
+  --people: #199e70;
   --paper: #1b1813;
   --paper-2: #24201a;
   --ink: #ece4d6;
@@ -51,6 +59,9 @@
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
+  --money: #3987e5;
+  --goods: #d95926;
+  --people: #199e70;
   --paper: #1b1813;
   --paper-2: #24201a;
   --ink: #ece4d6;
@@ -80,6 +91,9 @@
   --color-line: var(--line);
   --color-line-2: var(--line-2);
   --color-teal: var(--teal);
+  --color-money: var(--money);
+  --color-goods: var(--goods);
+  --color-people: var(--people);
   --color-teal-2: var(--teal-2);
   --color-amber: var(--amber);
   --color-amber-2: var(--amber-2);

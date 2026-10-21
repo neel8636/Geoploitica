@@ -1,0 +1,70 @@
+# The email digest: each morning around 7 AM Eastern, one email per reader who turned it on
+# (Tracker → "Email me what changed"), with what changed on what they follow. Readers on the
+# weekly digest get it when a week has passed since their last one. Several slots, because
+# GitHub drops some scheduled runs; the job skips anyone already sent, so extra runs are free.
+#
+# Setup (repository secrets): FIREBASE_SERVICE_ACCOUNT (Firebase console → Project settings →
+# Service accounts → Generate new private key; paste the whole JSON), SMTP_USER and SMTP_PASS
+# (a Gmail address and an app password for it). Optional variables: SMTP_HOST, SMTP_PORT,
+# MAIL_FROM. Without the secrets the job does nothing.
+name: "Atlas: email digest"
+
+on:
+  schedule:
+    - cron: "4 11 * * *"  # 7:04 EDT / 6:04 EST
+    - cron: "34 11 * * *" # 7:34 EDT
+    - cron: "4 12 * * *"  # 8:04 EDT / 7:04 EST
+    - cron: "34 12 * * *" # 7:34 EST
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Send only to this email (a test); empty = everyone who is due"
+        default: ""
+      dry_run:
+        description: "Compose and print without sending"
+        type: boolean
+        default: false
+
+concurrency:
+  group: digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/atlas
+    env:
+      HAS_SECRETS: ${{ secrets.FIREBASE_SERVICE_ACCOUNT != '' && secrets.SMTP_USER != '' && secrets.SMTP_PASS != '' }}
+    steps:
+      - name: Not set up yet
+        if: env.HAS_SECRETS != 'true'
+        working-directory: ${{ github.workspace }}
+        run: echo "Digest secrets are not set (FIREBASE_SERVICE_ACCOUNT, SMTP_USER, SMTP_PASS); nothing to send."
+      - uses: actions/checkout@v4
+        if: env.HAS_SECRETS == 'true'
+      - uses: actions/setup-node@v4
+        if: env.HAS_SECRETS == 'true'
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: apps/atlas/package-lock.json
+      - run: npm ci --no-audit --no-fund
+        if: env.HAS_SECRETS == 'true'
+      - name: Send
+        if: env.HAS_SECRETS == 'true'
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          SMTP_HOST: ${{ vars.SMTP_HOST }}
+          SMTP_PORT: ${{ vars.SMTP_PORT }}
+          MAIL_FROM: ${{ vars.MAIL_FROM }}
+          ONLY: ${{ github.event.inputs.only }}
+          DRY: ${{ github.event.inputs.dry_run }}
+        run: |
+          EXTRA=""
+          if [ -n "$ONLY" ]; then EXTRA="--only $ONLY"; fi
+          if [ "$DRY" = "true" ]; then EXTRA="$EXTRA --dry-run"; fi
+          npm run digest -- $EXTRA

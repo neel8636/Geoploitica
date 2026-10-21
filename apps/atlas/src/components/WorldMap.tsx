@@ -10,6 +10,9 @@ import type { MultiPoint } from "geojson";
 import land110 from "world-atlas/land-110m.json";
 import { allEdges, EVENTS, TYPE_LABELS, type EventType, type WorldEvent } from "@/content/events";
 import MapLegend from "@/components/atlas/MapLegend";
+import type { Aspect } from "@/content/fueling";
+import { ASPECTS } from "@/content/fueling";
+import { ASPECT_ICON, FamilyKey, familyColor, familyOf } from "@/components/ripple/Aspect";
 import MapPanel, { dotFill } from "@/components/atlas/MapPanel";
 
 const W = 960;
@@ -90,6 +93,7 @@ export default function WorldMap({
   onView,
   hideFrames = false,
   pulse,
+  fuel,
 }: {
   focusId?: string;
   filter?: EventType | "all";
@@ -99,6 +103,7 @@ export default function WorldMap({
   onView?: (v: View) => void;
   hideFrames?: boolean; // when the parent draws its own frame chips
   pulse?: Record<string, "rising" | "steady" | "cooling" | "quiet">; // how fast each event's news is moving
+  fuel?: FuelDots; // the small events feeding each event, drawn around the one in focus
 }) {
   const router = useRouter();
   const ripple = useRipple();
@@ -294,7 +299,58 @@ export default function WorldMap({
             </g>
           );
         })}
+        {/* the small events feeding the event in focus: little dots tied into it with arrows */}
+        {(() => {
+          const id = active ?? null;
+          const host = id ? visible.find((e) => e.id === id) : undefined;
+          const dots = host && fuel?.[host.id];
+          if (!host || !dots?.length) return null;
+          const [hx, hy] = pos(host);
+          const hr = radius(host);
+          return (
+            <g aria-label={`Small events fueling ${host.title}`}>
+              {dots.map((f, i) => {
+                // a ring around the event they fuel, so each reads clearly however close the places are;
+                // the place itself is in the dot's label and in the "What's fueling it" list
+                const ringR = hr + (compact ? 46 : 34);
+                const a0 = (i / dots.length) * 2 * Math.PI - Math.PI / 2;
+                const x = hx + Math.cos(a0) * ringR;
+                const y = hy + Math.sin(a0) * ringR;
+                const ang = Math.atan2(hy - y, hx - x);
+                const len = Math.hypot(hx - x, hy - y);
+                const ex = x + Math.cos(ang) * (len - hr - 2);
+                const ey = y + Math.sin(ang) * (len - hr - 2);
+                const mx = x + Math.cos(ang) * len * 0.55;
+                const my = y + Math.sin(ang) * len * 0.55;
+                const deg = (ang * 180) / Math.PI;
+                const col = familyColor(familyOf(f.aspect));
+                const Icon = ASPECT_ICON[f.aspect] ?? ASPECT_ICON.politics;
+                return (
+                  <g key={f.title}>
+                    <title>{`${ASPECTS[f.aspect]?.label ?? "Politics"}: ${f.title}. Moves into ${host.title}${f.via ? `: ${f.via}` : ""}${f.flow === "both" ? " (and back)" : ""}.`}</title>
+                    <line x1={x} y1={y} x2={ex} y2={ey} stroke={col} strokeWidth={1.2} strokeOpacity={0.9} />
+                    <path d="M-3.4 -3 L3 0 L-3.4 3 Z" transform={`translate(${mx.toFixed(1)} ${my.toFixed(1)}) rotate(${deg.toFixed(0)})`} fill={col} />
+                    {f.flow === "both" ? (
+                      <path d="M-3.4 -3 L3 0 L-3.4 3 Z" transform={`translate(${(x + Math.cos(ang) * len * 0.3).toFixed(1)} ${(y + Math.sin(ang) * len * 0.3).toFixed(1)}) rotate(${(deg + 180).toFixed(0)})`} fill={col} />
+                    ) : null}
+                    <circle cx={x} cy={y} r={compact ? 11 : 9} fill={col} stroke="var(--ink)" strokeOpacity={0.5} strokeWidth={1} />
+                    <Icon x={x - (compact ? 7 : 6)} y={y - (compact ? 7 : 6)} width={compact ? 14 : 12} height={compact ? 14 : 12} color="#fff" strokeWidth={2.4} aria-hidden />
+                  </g>
+                );
+              })}
+            </g>
+          );
+        })()}
       </svg>
+      {(() => {
+        const host = active ? visible.find((e) => e.id === active) : undefined;
+        return host && fuel?.[host.id]?.length ? (
+          <div className="pointer-events-none absolute bottom-2 left-2 rounded-full border border-line bg-paper/90 px-3 py-1">
+            <span className="mr-2 text-xs text-ink-3">Fueling {host.title.length > 28 ? host.title.slice(0, 26) + "…" : host.title}:</span>
+            <FamilyKey />
+          </div>
+        ) : null;
+      })()}
       </div>
       {!compact ? (
         <div className="relative h-80 lg:h-auto">
@@ -332,6 +388,8 @@ export default function WorldMap({
     </figure>
   );
 }
+
+export type FuelDots = Record<string, { title: string; lat: number; lon: number; flow: "into" | "both"; aspect: Aspect; via: string }[]>;
 
 const RM = "(prefers-reduced-motion: reduce)";
 function useReducedMotion(): boolean {

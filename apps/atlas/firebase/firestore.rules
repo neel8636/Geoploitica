@@ -10,9 +10,10 @@ service cloud.firestore {
       function isOwner() {
         return request.auth != null && request.auth.uid == uid;
       }
+      // digestSentAt is written by the digest job (server side); a reader may keep it but not move it
       function validProfile() {
         let d = request.resource.data;
-        return d.keys().hasOnly(['name', 'email', 'country', 'interest', 'provider', 'source', 'tracker', 'createdAt', 'lastSeen'])
+        return d.keys().hasOnly(['name', 'email', 'country', 'interest', 'provider', 'source', 'tracker', 'digest', 'digestSentAt', 'createdAt', 'lastSeen'])
           && (!('name' in d) || (d.name is string && d.name.size() <= 120))
           && (!('email' in d) || (d.email is string && d.email.size() <= 254))
           && (!('country' in d) || (d.country is string && d.country.size() <= 80))
@@ -25,7 +26,9 @@ service cloud.firestore {
           && (!('tracker' in d) || (d.tracker is map
                 && d.tracker.keys().hasOnly(['follows', 'seen'])
                 && d.tracker.follows is list && d.tracker.follows.size() <= 60
-                && d.tracker.seen is map && d.tracker.seen.size() <= 80));
+                && d.tracker.seen is map && d.tracker.seen.size() <= 80))
+          && (!('digest' in d) || d.digest in ['off', 'daily', 'weekly'])
+          && (!('digestSentAt' in d) || (resource != null && 'digestSentAt' in resource.data && d.digestSentAt == resource.data.digestSentAt));
       }
       allow read: if isOwner();
       allow create: if isOwner() && validProfile();

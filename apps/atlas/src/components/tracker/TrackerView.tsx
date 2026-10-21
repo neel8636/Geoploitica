@@ -11,6 +11,7 @@ import { useRipple, loadRipples } from "@/components/ripple/RippleProvider";
 import FollowButton from "@/components/tracker/FollowButton";
 import { FlowIcon, FLOW_TEXT } from "@/components/ripple/LinkRow";
 import { PulseBadge, timeAgo } from "@/components/ripple/Pulse";
+import DigestChoice from "@/components/tracker/DigestChoice";
 
 /*
   Your tracker. For each event you follow: what is new since you last looked (headlines from
@@ -52,6 +53,7 @@ export default function TrackerView() {
         New headlines since you last looked, what changed, and the connected events whose ripples are heading your way. Updated
         several times an hour.
       </p>
+      <DigestChoice />
 
       {!follows.length ? (
         <Empty />

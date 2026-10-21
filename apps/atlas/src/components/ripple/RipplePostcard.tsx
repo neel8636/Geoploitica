@@ -12,6 +12,7 @@ import { Share2, Sparkles, Radio, ArrowRight } from "lucide-react";
 import FollowButton from "@/components/tracker/FollowButton";
 import { AskButton } from "@/components/ask/AskProvider";
 import { PulseBadge, timeAgo } from "@/components/ripple/Pulse";
+import FuelSection from "@/components/ripple/FuelSection";
 
 export const TRUST_LABEL: Record<RippleCard["trust"], string> = {
   reviewed: "Reviewed report",
@@ -171,6 +172,12 @@ export default function RipplePostcard({
               </div>
             </div>
           )}
+
+          {card ? (
+            <div className="mt-6 border-t border-line pt-4">
+              <FuelSection eventId={card.id} initial={card.fuel} compact />
+            </div>
+          ) : null}
 
           {card && card.rings.length ? (
             <div className="mt-6 border-t border-line pt-4">

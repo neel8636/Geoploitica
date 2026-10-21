@@ -9,6 +9,7 @@ import { createRemoteJWKSet, jwtVerify } from "jose";
     FIREBASE_PROJECT_ID   default geopolitica-941b0
     READER_REPORTS_PER_DAY  default 3
     READER_QUESTIONS_PER_DAY  default 20
+    READER_FUEL_RUNS_PER_DAY  default 5
 */
 const PROJECT = process.env.FIREBASE_PROJECT_ID ?? "geopolitica-941b0";
 const JWKS = createRemoteJWKSet(new URL("https://www.googleapis.com/service_accounts/v1/jwk/securetoken@system.gserviceaccount.com"));
@@ -42,6 +43,7 @@ const used = new Map<string, { day: string; n: number }>();
 const LIMITS: Record<string, [string, number]> = {
   reports: ["READER_REPORTS_PER_DAY", 3],
   ask: ["READER_QUESTIONS_PER_DAY", 20],
+  fuel: ["READER_FUEL_RUNS_PER_DAY", 5],
 };
 
 export function perDay(kind = "reports"): number {

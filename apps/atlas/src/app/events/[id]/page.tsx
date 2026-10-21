@@ -5,10 +5,11 @@ import { EVENTS, TYPE_LABELS, getEvent, neighbours } from "@/content/events";
 import { formatDate, getDossier } from "@/content/dossiers";
 import { loadWire } from "@/content/wire";
 import WorldMap from "@/components/WorldMap";
-import { pulseMap, allRipples } from "@/content/ripples";
+import { pulseMap, allRipples, fuelDots } from "@/content/ripples";
 import FollowButton from "@/components/tracker/FollowButton";
 import { AskButton } from "@/components/ask/AskProvider";
 import { PulseBadge } from "@/components/ripple/Pulse";
+import FuelSection from "@/components/ripple/FuelSection";
 import RippleMap from "@/components/RippleMap";
 import Connections from "@/components/atlas/Connections";
 import { DossierBody } from "@/components/dossier/DossierBody";
@@ -97,7 +98,7 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
         <div>
           <Signpost>Where it sits and what it touches</Signpost>
           <div className="mt-2 rounded-lg border border-line p-2">
-            <WorldMap focusId={e.id} compact pulse={pulseMap()} />
+            <WorldMap focusId={e.id} compact pulse={pulseMap()} fuel={fuelDots()} />
           </div>
           <p className="mt-2 text-sm text-ink-2">Lit arcs are this event&apos;s connections. Click any dot to see its ripple.</p>
         </div>
@@ -107,6 +108,10 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
             {rings.length ? <RippleMap centre={e.title} rings={rings} compact /> : <p className="text-ink-2">No ripple recorded yet.</p>}
           </div>
         </div>
+      </section>
+
+      <section className="mt-10 rounded-lg border border-line bg-paper-2 p-5">
+        <FuelSection eventId={e.id} initial={card?.fuel} />
       </section>
 
       <section className="mt-10">

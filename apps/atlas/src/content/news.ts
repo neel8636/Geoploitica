@@ -46,3 +46,31 @@ export function newsUrl(s: NewsSearch, days = 3): string {
   const hl = ["US", "GB", "CA", "IN", "AU"].includes(s.edition) ? `en-${s.edition}` : "en";
   return `https://news.google.com/rss/search?q=${encodeURIComponent(`${s.q} when:${days}d`)}&hl=${hl}&gl=${s.edition}&ceid=${s.edition}:en`;
 }
+
+// A small RSS reader for the Google News results (used where the wire script's parser is not
+// available, such as the enterprise server's on-demand fueling search).
+function decode(s: string): string {
+  return s
+    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
+    .replace(/<[^>]+>/g, "")
+    .replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"')
+    .replace(/&#39;|&apos;/g, "'").replace(/&nbsp;/g, " ").replace(/&amp;/g, "&")
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+export function parseNews(xml: string): { title: string; url: string; publisher: string; published: string }[] {
+  const out: { title: string; url: string; publisher: string; published: string }[] = [];
+  for (const b of xml.match(/<item[\s>][\s\S]*?<\/item>/gi) ?? []) {
+    const get = (name: string) => decode(b.match(new RegExp(`<${name}(?:\\s[^>]*)?>([\\s\\S]*?)</${name}>`, "i"))?.[1] ?? "");
+    const source = get("source");
+    let title = get("title");
+    if (source && title.endsWith(` - ${source}`)) title = title.slice(0, -(` - ${source}`).length);
+    const when = Date.parse(get("pubDate"));
+    const url = get("link");
+    if (!title || !url || !Number.isFinite(when)) continue;
+    out.push({ title, url, publisher: source || "Google News", published: new Date(when).toISOString() });
+  }
+  return out.sort((a, b) => (a.published < b.published ? 1 : -1));
+}

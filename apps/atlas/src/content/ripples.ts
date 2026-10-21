@@ -4,6 +4,7 @@ import { EVENTS, TYPE_LABELS, neighbours, type WorldEvent } from "@/content/even
 import { getDossier } from "@/content/dossiers";
 import { loadWire, type Wire } from "@/content/wire";
 import type { RippleRing } from "@/content/types";
+import type { Aspect, FuelSet } from "@/content/fueling";
 
 /*
   One "ripple card" per event: what the postcard pop-up and Today's ripples show. Built at
@@ -25,6 +26,8 @@ export interface RippleCard {
   recent: { title: string; publisher: string; url: string; published: string }[]; // newest first, up to 12
   update?: EventUpdate; // the latest AI line on what changed, when there is one
   incoming?: { id: string; title: string; day: number; via?: string }[]; // rising events that drive this one
+  fuel?: FuelSet; // the small events feeding this one, from the pipeline
+  drivers: string[]; // the drivers named on its connections
   updated: string; // ISO date the card's content last changed
 }
 
@@ -40,6 +43,24 @@ export interface EventUpdate {
   at: string; // ISO
   text: string; // one or two sentences: what changed
   sources: { title: string; url: string; publisher: string }[];
+}
+
+let fuelCache: Record<string, FuelSet> | null = null;
+export function loadFuel(): Record<string, FuelSet> {
+  if (fuelCache) return fuelCache;
+  try {
+    fuelCache = JSON.parse(fs.readFileSync(path.join(process.cwd(), "src", "content", "fuel.json"), "utf8")) as Record<string, FuelSet>;
+  } catch {
+    fuelCache = {};
+  }
+  return fuelCache;
+}
+
+/* The small events for the map: id -> where they are and which way they feed. */
+export function fuelDots(): Record<string, { title: string; lat: number; lon: number; flow: "into" | "both"; aspect: Aspect; via: string }[]> {
+  return Object.fromEntries(
+    Object.entries(loadFuel()).map(([id, f]) => [id, f.items.map((i) => ({ title: i.title, lat: i.lat, lon: i.lon, flow: i.flow, aspect: i.aspect ?? "politics", via: i.via }))]),
+  );
 }
 
 let updatesCache: Record<string, EventUpdate[]> | null = null;
@@ -123,6 +144,8 @@ export function rippleFor(e: WorldEvent, wire: Wire = loadWire()): RippleCard {
     pulse: f.pulse,
     recent: f.recent,
     update: loadUpdates()[e.id]?.[0],
+    fuel: loadFuel()[e.id],
+    drivers: Array.from(new Set(links.map((l) => l.driver).filter((d): d is string => Boolean(d)))),
     updated: own?.updated ?? e.date,
   };
 }
