@@ -56,7 +56,10 @@ What comes next: ${d.brief.whatsNext.join(" ")}`
     : "REPORT: none yet";
   return { text: `EVENT: ${e.title} (${e.region}, ${e.status}, ${e.date})\n${e.summary}\n\nCONNECTIONS:\n${links.join("\n") || "none"}\n\n${report}`, hasReport: Boolean(d) };
 }
-const sum = (s) => createHash("sha1").update(s).digest("hex").slice(0, 12);
+// bump to redraft every event after a change to the instructions
+const VERSION = "2";
+const sum = (s) => createHash("sha1").update(VERSION + s).digest("hex").slice(0, 12);
+const TODAY = new Date().toISOString().slice(0, 10);
 
 const todo = [];
 for (const e of EVENTS) {
@@ -79,7 +82,7 @@ Write three things for the event:
 1. quick: three single sentences, at most 25 words each.
    happened: what happened or is about to happen.
    matters: why it matters to people far from it.
-   next: what comes next, with a date if the material has one.
+   next: what comes next, with a date if the material has one. Only dates after TODAY; never something that has already happened.
 
 2. connect: how the event connects to what feeds it and what it moves, as a title and exactly 3 short paragraphs (each at most 45 words, at most 3 sentences).
    title: "How <the event, short> connects to <its one or two most important connections, short>, in plain words" (at most 18 words).
@@ -95,6 +98,7 @@ Write three things for the event:
 
 3. report: only if a REPORT is given, what it says, as a title and exactly 3 short paragraphs (same limits). title: "What the report says, in plain words". Paragraph 1: the situation and the key number. Paragraph 2: who wins and who loses. Paragraph 3: what comes next. If no report is given, report is null.
 
+TODAY is given at the top of the material. Anything dated before TODAY has happened: write it in the past tense, never as "next".
 Use only facts in the material. Never invent dates, numbers or quotes. No em dashes, no jargon without a three-word explanation, no hype.
 Answer with JSON only: {"quick": {"happened": "", "matters": "", "next": ""}, "connect": {"title": "", "paras": ["", "", ""]}, "report": {"title": "", "paras": ["", "", ""]} | null}`;
 
@@ -108,7 +112,7 @@ async function draft({ e, m }) {
   const res = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
     headers: { "content-type": "application/json", "anthropic-version": "2023-06-01", "x-api-key": key },
-    body: JSON.stringify({ model: MODEL, max_tokens: 3000, system: SYSTEM, messages: [{ role: "user", content: m.text }] }),
+    body: JSON.stringify({ model: MODEL, max_tokens: 3000, system: SYSTEM, messages: [{ role: "user", content: `TODAY: ${TODAY}\n\n${m.text}` }] }),
   });
   if (!res.ok) throw new Error(`Claude API ${res.status}: ${(await res.text()).slice(0, 160)}`);
   const body = await res.json();
