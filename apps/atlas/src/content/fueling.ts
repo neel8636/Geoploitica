@@ -36,20 +36,43 @@ export const ASPECTS = {
 export type Aspect = keyof typeof ASPECTS;
 export const FAMILY_LABEL: Record<Family, string> = { money: "Money", goods: "Goods", people: "People" };
 
+const ASPECT_RULES: [Aspect, RegExp][] = [
+  ["energy", /\b(oil|fuel|diesel|gas|lng|energy|power|electricity|opec|brent|refin\w*|crude|petrol)\b/],
+  ["trade", /\b(tariffs?|trade|exports?|imports?|shipping|ships?|ports?|freight|supply chains?|customs|suppl\w+|sanctions?|chips?|investment deals?)\b/],
+  ["food", /\b(food|grain|wheat|harvests?|crops?|farm\w*|famine|fertili[sz]er)\b/],
+  ["markets", /\b(bonds?|yields?|spreads?|rates?|markets?|stocks?|currenc\w+|yen|euro|ruble|dollar|investors?|banks?|borrowing|credit)\b/],
+  ["budget", /\b(budgets?|deficits?|debt|tax\w*|spending|aid|subsid\w+|funding|money)\b/],
+  ["jobs", /\b(strikes?|unions?|wages?|jobs?|workers?|layoffs?|pay|pensions?)\b/],
+  ["living", /\b(prices?|rents?|housing|inflation|cost of living|bills?|living costs)\b/],
+  ["security", /\b(military|missiles?|troops?|attacks?|clash\w*|drones?|army|navy|police|violence|war|weapons?|arms|security|deterren\w+|nuclear)\b/],
+  ["displacement", /\b(refugees?|displac\w+|migra\w+|flee\w*|hunger|health|people on the move)\b/],
+];
+
 function guessAspect(text: string): Aspect {
   const t = text.toLowerCase();
-  const rules: [Aspect, RegExp][] = [
-    ["energy", /oil|fuel|diesel|gas|energy|power|electric|opec|brent|refin/],
-    ["trade", /tariff|trade|export|import|ship|port|freight|supply|customs/],
-    ["food", /food|grain|wheat|harvest|crop|farm|famine/],
-    ["markets", /bond|yield|spread|rate|market|stock|currency|yen|euro|ruble|investor|bank/],
-    ["budget", /budget|deficit|debt|tax|spending|aid fund|subsid/],
-    ["jobs", /strike|union|wage|job|worker|layoff|pay/],
-    ["living", /price|rent|housing|inflation|cost of living|bill/],
-    ["security", /military|missile|troop|attack|clash|drone|army|navy|police|violence/],
-    ["displacement", /refugee|displac|migra|flee|hunger|health/],
-  ];
-  return rules.find(([, re]) => re.test(t))?.[0] ?? "politics";
+  return ASPECT_RULES.find(([, re]) => re.test(t))?.[0] ?? "politics";
+}
+
+/*
+  The part of the economy a connection between two events moves through, read from its
+  channel ("via diesel and fuel prices" → energy), else from the reason given. So the lines
+  between big events carry the same money / goods / people colours as the small fuel dots.
+*/
+// phrases in the link channels that the general rules would misread ("household budget" is a
+// living cost, not public money; "interest bill" is the bond market)
+const LINK_RULES: [Aspect, RegExp][] = [
+  ["living", /household/],
+  ["markets", /interest bill|money flowing|capital/],
+  ["energy", /urals|quota/],
+  ["trade", /compliance|eudr|cbam/],
+  ["displacement", /refugee/],
+  ["politics", /blockade|protest|campaign|talks|summit|vote|voters/],
+];
+
+export function linkAspect(via?: string, why?: string): Aspect {
+  const t = (via ?? "").toLowerCase();
+  const hit = t ? [...LINK_RULES, ...ASPECT_RULES].find(([, re]) => re.test(t))?.[0] : undefined;
+  return hit ?? guessAspect(why ?? via ?? "");
 }
 
 export interface FuelEvent {
@@ -124,11 +147,12 @@ export interface FuelSet {
 
 export const FUEL_SYSTEM = `You map the small events that fuel a big world event, for Geopolitica Atlas, a free site that shows how events ripple into each other.
 
-From the numbered headlines, pick 2 to 6 distinct, concrete, smaller events that feed the big event: a strike in one city, a court ruling, a port closure, a poll, a price jump, a clash at one border post, a minister's resignation. Rules:
+From the numbered headlines, pick 3 to 6 distinct, concrete, smaller events that feed the big event: a strike in one city, a court ruling, a port closure, a poll, a price jump, a clash at one border post, a minister's resignation. Spread them across different parts of the economy where the headlines allow: readers see each as a coloured dot (money, goods, people), and the event's report is built around them, so aim for at least three different aspects. Never stretch a headline to reach three; two well-backed items beat three where one is invented. Rules:
 - Every item must be reported by at least one of the numbered headlines; cite them by number. Never add an event, number or name that is not in the headlines.
 - Only inputs: things that push the big event along. Leave out consequences, the effects the big event has elsewhere (a trade deficit it causes in another country, inflation it raises abroad); those belong in its ripple, not its fuel. Use flow "both" only when a consequence also clearly feeds back into the big event.
 - One item per development: if several headlines report the same thing, make one item and cite them all.
 - Skip general commentary, opinion and items that merely restate the big event.
+- A scheduled event (a vote, a summit, a central-bank decision) has not happened yet: its fuel is what is shaping it in the run-up, such as a poll, a price or inflation figure, a position a government has taken, a deal being prepared, a protest.
 - title: at most 8 words, concrete, no clickbait. what: one plain sentence, at most 30 words.
 - via: 2 to 6 words naming what moves from the small event into the big one ("higher diesel costs", "union turnout", "investor fear").
 - aspect: the part of the economy that carries it, one of: markets (bonds, rates, currencies, stocks), budget (public money, aid funding, investment), energy, trade (tariffs, shipping, supply chains), food (food supply, farming), jobs (strikes, wages, employment), living (prices, rents, cost of living), politics (votes, government, protest), security (military, violence), displacement (refugees, hunger, health).
@@ -140,7 +164,8 @@ Answer with JSON only: {"items": [{"title": "", "when": "", "place": "", "lat": 
 
 export function fuelPrompt(event: WorldEvent, headlines: FuelHeadline[]): string {
   const list = headlines.map((h, n) => `${n + 1}. ${h.title} (${h.publisher}, ${h.published.slice(0, 10)})`).join("\n");
-  return `Big event: ${event.title}\nWhere: ${event.region} (lat ${event.lat}, lon ${event.lon})\nSummary: ${event.summary}\n\nHeadlines, newest first:\n${list}`;
+  const when = event.status === "scheduled" ? `\nStatus: scheduled for ${event.date}; map what is shaping it in the run-up` : `\nStatus: ${event.status}`;
+  return `Big event: ${event.title}\nWhere: ${event.region} (lat ${event.lat}, lon ${event.lon})${when}\nSummary: ${event.summary}\n\nHeadlines, newest first:\n${list}`;
 }
 
 const slug = (s: string) => s.toLowerCase().normalize("NFKD").replace(/[^\p{L}\p{N}]+/gu, "-").replace(/^-|-$/g, "").slice(0, 60);
