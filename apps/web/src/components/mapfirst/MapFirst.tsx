@@ -25,6 +25,7 @@ import type { GeometryCollection, Topology } from "topojson-specification";
 import land110 from "world-atlas/land-110m.json";
 import { EVENTS, TYPE_LABELS, neighbours, type Flow, type LinkKind, type WorldEvent } from "../../content/events";
 import { ASPECTS, type Aspect, type Family } from "../../content/fueling";
+import { explainFor } from "../../content/explain";
 
 /* ---------- data the page passes in ---------- */
 
@@ -229,6 +230,10 @@ export default function MapFirst(props: MapFirstProps) {
   const selRef = useRef<string | null>(null);
   useEffect(() => { selRef.current = sel; }, [sel]);
   const [fuelOn, setFuelOn] = useState<number | null>(null);
+  // a connection opened from its line, its badge or a row: the two events, and where the reader came from
+  const [conn, setConn] = useState<{ a: string; b: string; back: string | null } | null>(null);
+  // where lines cross, a tap can mean more than one connection: offer them to pick from
+  const [pick, setPick] = useState<{ x: number; y: number; pairs: string[] } | null>(null);
   const [hover, setHover] = useState<string | null>(null);
   const [tab, setTab] = useState<Tab>("today");
   const [layers, setLayers] = useState({ lines: true, fuel: true, pulse: true });
@@ -359,7 +364,7 @@ export default function MapFirst(props: MapFirstProps) {
   /* ---- selecting ---- */
   const expose = learn.expose;
   const select = useCallback((id: string | null, fly = true) => {
-    setSel(id); setFuelOn(null); setBuilding(false); setTip(null);
+    setSel(id); setFuelOn(null); setBuilding(false); setTip(null); setConn(null);
     if (!id) return;
     const p = G.at[id];
     for (const f of fuel[id] ?? []) expose(famOf(f.aspect), "ev:" + id);
@@ -370,6 +375,18 @@ export default function MapFirst(props: MapFirstProps) {
       flyTo(p.x, p.y, Math.max(W / 9, Math.min(W / 4.5, nearest * 9)));
     }
   }, [G, fuel, links, expose, flyTo]);
+  // open a connection: the map frames both events and the panel tells the story between them
+  const openConn = useCallback((a: string, b: string, back: string | null) => {
+    const A = G.at[a], B = G.at[b];
+    if (!A || !B) return;
+    setSel(null); setFuelOn(null); setBuilding(false); setTip(null);
+    setConn({ a, b, back });
+    const l = links[a]?.find((x) => x.event.id === b);
+    if (l) expose(famOf(l.aspect), `conn:${a}${b}`);
+    if (window.innerWidth < 760) setSheet("half");
+    const d = Math.hypot(A.x - B.x, A.y - B.y);
+    flyTo((A.x + B.x) / 2, (A.y + B.y) / 2, Math.min(W * 0.95, Math.max(W / 6, d * 1.8 + 60)));
+  }, [G, links, expose, flyTo]);
   useEffect(() => {
     const onKey = (ev: KeyboardEvent) => { if (ev.key === "Escape") select(null); };
     window.addEventListener("keydown", onKey);
@@ -421,6 +438,7 @@ export default function MapFirst(props: MapFirstProps) {
     return () => s.removeEventListener("wheel", onWheel);
   });
   const onDown = (ev: React.PointerEvent) => {
+    setPick(null);
     (ev.currentTarget as Element).setPointerCapture(ev.pointerId);
     pts.current.set(ev.pointerId, [ev.clientX, ev.clientY]);
     cancelAnimationFrame(anim.current);
@@ -458,6 +476,7 @@ export default function MapFirst(props: MapFirstProps) {
     const sat = el?.closest("[data-fuel]");
     const badge = el?.closest("[data-link]");
     const dot = el?.closest("[data-ev]");
+    const line = el?.closest("[data-pair]");
     if (sat && sel) {
       const i = Number(sat.getAttribute("data-fuel"));
       setFuelOn(i);
@@ -468,14 +487,26 @@ export default function MapFirst(props: MapFirstProps) {
         const box = panelBody.current, row = box?.querySelector<HTMLElement>(`[data-fi="${i}"]`);
         if (box && row) box.scrollTo({ top: row.offsetTop - box.clientHeight / 3, behavior: "smooth" });
       }, 260);
-    } else if (badge) select(badge.getAttribute("data-link"));
-    else if (dot || nearestDots(ev.clientX, ev.clientY).length) {
+    } else if (badge) {
+      const other = badge.getAttribute("data-link")!;
+      const host = sel ?? conn?.a ?? other;
+      openConn(host, other, sel);
+    } else if (dot || nearestDots(ev.clientX, ev.clientY).length) {
       // pick the dot nearest the finger, not whichever is drawn on top; where several sit
       // under one fingertip (Paris, Brussels), zoom in on them first
       const near = nearestDots(ev.clientX, ev.clientY);
       const p = toSvg(ev.clientX, ev.clientY);
       if (near.length > 1 && near[1].d - near[0].d < 10 && vbRef.current[2] > W / 5) zoomBy(2.4, p.x, p.y);
       else select(near[0]?.id ?? dot!.getAttribute("data-ev"));
+    } else if (line) {
+      const pairs = [...new Set(document.elementsFromPoint(ev.clientX, ev.clientY).map((x) => x.getAttribute("data-pair")).filter(Boolean) as string[])];
+      if (pairs.length > 1) {
+        const box = wrap.current!.getBoundingClientRect();
+        setPick({ x: ev.clientX - box.left, y: ev.clientY - box.top, pairs });
+        return;
+      }
+      const [a, b] = pairs[0].split("~");
+      openConn(a, b, sel);
     } else {
       // double-tap (or double-click) on open map zooms in on that spot
       const now = performance.now(), lt = lastTap.current;
@@ -486,13 +517,13 @@ export default function MapFirst(props: MapFirstProps) {
         return;
       }
       lastTap.current = { t: now, x: ev.clientX, y: ev.clientY };
-      if (sel) select(null);
+      if (sel || conn) select(null);
     }
   };
   const hoverAt = (ev: React.PointerEvent) => {
     if (ev.pointerType !== "mouse") return;
     const el = document.elementFromPoint(ev.clientX, ev.clientY) as Element | null;
-    const sat = el?.closest("[data-fuel]"), badge = el?.closest("[data-link]"), dot = el?.closest("[data-ev]");
+    const sat = el?.closest("[data-fuel]"), badge = el?.closest("[data-link]"), dot = el?.closest("[data-ev]"), line = el?.closest("[data-pair]");
     const box = wrap.current!.getBoundingClientRect();
     const at = { x: ev.clientX - box.left, y: ev.clientY - box.top };
     let html: ReactNode = null, f: Family | null = null;
@@ -501,11 +532,18 @@ export default function MapFirst(props: MapFirstProps) {
       if (it) { f = famOf(it.aspect); html = <><b>{it.title}</b><br />{FNAME[f]} · {ASPECTS[it.aspect].label}<br />moves in: {it.via}</>; }
     } else if (badge && sel) {
       const l = links[sel].find((x) => x.event.id === badge.getAttribute("data-link"));
-      if (l) { f = famOf(l.aspect); html = <><b>{l.event.title}</b> feeds in through <b>{FNAME[f]}</b> · {ASPECTS[l.aspect].label}{l.via ? <><br />via {l.via}</> : null}</>; }
+      if (l) { f = famOf(l.aspect); html = <><b>{FNAME[f]}</b> · {ASPECTS[l.aspect].label}<br />{explainFor(sel, l.event.id)?.hook ?? l.event.title}<br /><i>Click to see how they connect</i></>; }
     } else if (dot) {
       const id = dot.getAttribute("data-ev")!;
       const e = G.at[id].e, c = fam(id);
       html = <><b>{e.title}</b>{FAMS.some((x) => c[x]) ? <><br />Fueled by {FAMS.filter((x) => c[x]).map((x) => `${FNAME[x].toLowerCase()} (${c[x]})`).join(", ")}</> : null}</>;
+    } else if (line) {
+      const [a, b] = line.getAttribute("data-pair")!.split("~");
+      const l = links[a]?.find((x) => x.event.id === b);
+      if (l) {
+        f = isDash(l.kind) ? null : famOf(l.aspect);
+        html = <>{explainFor(a, b)?.hook ?? `${G.at[a].e.title} and ${G.at[b].e.title}`}<br /><i>Click to see how they connect</i></>;
+      }
     }
     const id = dot?.getAttribute("data-ev") ?? null;
     if (id !== hover) setHover(id);
@@ -517,7 +555,7 @@ export default function MapFirst(props: MapFirstProps) {
   const k = box.w ? Math.max(vb[2] / box.w, vb[3] / box.h) : vb[2] / 1000;
   const S = sel ? G.at[sel] : null;
   const selLinks = sel ? links[sel] : [];
-  const near = sel ? new Set([sel, ...selLinks.map((l) => l.event.id)]) : null;
+  const near = conn ? new Set([conn.a, conn.b]) : sel ? new Set([sel, ...selLinks.map((l) => l.event.id)]) : null;
   const zoomed = vb[2] < W / 3.2;
   const faded = (f: Family) => (brush && f !== brush ? 0.12 : 1);
   const satellites = (p: Pt, R: number, r: number) => {
@@ -530,12 +568,43 @@ export default function MapFirst(props: MapFirstProps) {
 
   const edgeEls: ReactNode[] = [];
   const topEls: ReactNode[] = [];
+  const hitEls: ReactNode[] = [];
   if (layers.lines)
     for (const ed of G.edges) {
       const a = G.at[ed.a], b = G.at[ed.b];
       const t = curve(a, b, (rad(a.e) + 4) * k, (rad(b.e) + 4) * k);
       const key = ed.a + ed.b;
       const dashed = isDash(ed.kind);
+      if (conn) {
+        const on = (ed.a === conn.a && ed.b === conn.b) || (ed.a === conn.b && ed.b === conn.a);
+        if (!on) { edgeEls.push(<path key={key} d={t.d} fill="none" stroke="var(--edge)" strokeWidth={1} vectorEffect="non-scaling-stroke" opacity={0.06} />); continue; }
+        const l = links[ed.a].find((x) => x.event.id === ed.b);
+        const f = l ? famOf(l.aspect) : "people";
+        const col = dashed ? "var(--ink-2)" : FCOL(f);
+        const fl: Flow = l?.flow ?? "out";
+        topEls.push(
+          <g key={key}>
+            <path d={t.d} fill="none" stroke={col} strokeWidth={3.2} strokeDasharray={dashed ? "6 5" : undefined} vectorEffect="non-scaling-stroke" />
+            {!dashed && fl !== "in" ? <path d={headPath(t.B, t.ub, k * 1.2)} fill={col} /> : null}
+            {!dashed && (fl === "in" || fl === "both") ? <path d={headPath(t.A, t.ua, k * 1.2)} fill={col} /> : null}
+            {!dashed ? (
+              <circle r={3.2 * k} fill={col}>
+                <animateMotion dur="2s" repeatCount="indefinite" path={t.d} {...(fl === "in" ? { keyPoints: "1;0", keyTimes: "0;1", calcMode: "linear" } : {})} />
+              </circle>
+            ) : null}
+            {!dashed ? (
+              <g>
+                <circle cx={t.mid.x} cy={t.mid.y} r={10 * k} fill={col} stroke="var(--paper)" strokeWidth={1.5} vectorEffect="non-scaling-stroke" />
+                <use href={`#mf-${f}`} x={t.mid.x - 6.5 * k} y={t.mid.y - 6.5 * k} width={13 * k} height={13 * k} style={{ color: "#fff" }} />
+              </g>
+            ) : null}
+          </g>,
+        );
+        continue;
+      }
+      // a wide, invisible line on top of each connection, so the line itself can be pointed at and clicked
+      const hit = <path key={key + "x"} d={t.d} fill="none" stroke="transparent" strokeWidth={mobile ? 18 : 12} vectorEffect="non-scaling-stroke" data-pair={`${ed.a}~${ed.b}`} style={{ cursor: "pointer", pointerEvents: "stroke" }} />;
+      if (!sel || ed.a === sel || ed.b === sel) hitEls.push(hit);
       if (!sel || (ed.a !== sel && ed.b !== sel)) {
         edgeEls.push(<path key={key} d={t.d} fill="none" stroke={dashed ? "var(--ink-3)" : "var(--edge)"} strokeWidth={1.1} strokeDasharray={dashed ? "4 4" : undefined} vectorEffect="non-scaling-stroke" opacity={sel ? 0.07 : dashed ? 0.5 : 1} />);
         if (!sel && !dashed) {
@@ -707,15 +776,19 @@ export default function MapFirst(props: MapFirstProps) {
     const shared = ls.filter((l) => isDash(l.kind));
     const p = pulse[id];
     const c = fam(id);
+    // a connection row: the row opens how the two connect; "fly" goes to the other event
     const linkBtn = (to: string, icon: ReactNode, sub: ReactNode) => (
-      <button key={to} type="button" onClick={() => select(to)} className="flex w-full items-start gap-2.5 rounded-md px-1.5 py-2 text-left hover:bg-paper-2">
-        <span className="mt-0.5 flex w-6 shrink-0 justify-center text-gold">{icon}</span>
-        <span className="min-w-0">
-          <span className="block text-[14px] font-medium leading-snug">{G.at[to].e.title}</span>
-          <span className="block text-xs text-ink-3">{sub}</span>
-        </span>
-        <span className="ml-auto shrink-0 pt-0.5 text-xs text-gold">fly ↗</span>
-      </button>
+      <div key={to} className="flex items-start gap-1 rounded-md hover:bg-paper-2">
+        <button type="button" onClick={() => openConn(id, to, id)} className="flex min-w-0 flex-1 items-start gap-2.5 px-1.5 py-2 text-left">
+          <span className="mt-0.5 flex w-6 shrink-0 justify-center text-gold">{icon}</span>
+          <span className="min-w-0">
+            <span className="block text-[14px] font-medium leading-snug">{G.at[to].e.title}</span>
+            <span className="block text-xs text-ink-3">{sub}</span>
+            {explainFor(id, to) ? <span className="mt-0.5 block text-[12.5px] leading-snug text-ink-2">{explainFor(id, to)!.hook} <span className="text-gold">How? →</span></span> : null}
+          </span>
+        </button>
+        <button type="button" onClick={() => select(to)} className="shrink-0 px-1.5 pt-2 text-xs text-gold hover:underline" aria-label={`Fly to ${G.at[to].e.title}`}>fly ↗</button>
+      </div>
     );
     return (
       <div>
@@ -806,13 +879,87 @@ export default function MapFirst(props: MapFirstProps) {
           <p className="text-[13px] text-ink-2">Being mapped from the latest local news; the next run fills it in.</p>
         )}
         {ins.length ? (<>{h3("Events feeding into it")}{ins.map((l) => { const f = famOf(l.aspect); return linkBtn(l.event.id, <FamIcon f={f} size={22} />, <><b className="font-semibold" style={{ color: FCOL(f) }}>{FNAME[f]}</b> · {ASPECTS[l.aspect].label}{l.via ? ` · via ${l.via}` : ""}{l.flow === "both" ? " · and back" : ""}</>); })}</>) : null}
-        {outs.length ? (<>{h3("Where it ripples next")}{outs.map((l) => linkBtn(l.event.id, "→", l.via ? `moves through: ${l.via}` : short(l.why, 110)))}</>) : null}
-        {shared.length ? (<>{h3("Shares a driver with")}{shared.map((l) => linkBtn(l.event.id, "┄", short(l.why, 110)))}</>) : null}
+        {outs.length ? (<>{h3("Where it ripples next")}{outs.map((l) => linkBtn(l.event.id, "→", <><b className="font-semibold" style={{ color: FCOL(famOf(l.aspect)) }}>{FNAME[famOf(l.aspect)]}</b> · {ASPECTS[l.aspect].label}{l.via ? ` · via ${l.via}` : ""}</>))}</>) : null}
+        {shared.length ? (<>{h3("Shares a driver with")}{shared.map((l) => linkBtn(l.event.id, "┄", "Same driver, neither caused the other"))}</>) : null}
         {card?.recent?.length ? (
           <>{h3("Latest headlines")}{card.recent.slice(0, 5).map((n) => (
             <a key={n.url} href={n.url} target="_blank" rel="noreferrer" className="block border-t border-dashed border-line py-1.5 text-[13.5px] text-ink no-underline hover:underline">{n.title} <span className="text-xs text-ink-3">{n.publisher}</span></a>
           ))}</>
         ) : null}
+      </div>
+    );
+  };
+
+  /* ---- one connection, told simply: the hook and the first step free, the rest in the report ---- */
+  const connView = (c: { a: string; b: string; back: string | null }) => {
+    const l = links[c.a]?.find((x) => x.event.id === c.b);
+    if (!l) return null;
+    const dashed = isDash(l.kind);
+    const [from, to] = l.flow === "in" ? [c.b, c.a] : [c.a, c.b];
+    const f = famOf(l.aspect);
+    const ex = explainFor(c.a, c.b);
+    const steps = ex?.steps ?? [l.why];
+    const hidden = Math.max(0, steps.length - 1) + (ex?.watch ? 1 : 0);
+    const arrow = dashed ? "┄" : l.flow === "both" ? "⇄" : "→";
+    const evBtn = (id: string) => (
+      <button type="button" onClick={() => select(id)} className="min-w-0 flex-1 rounded-lg border border-line px-2.5 py-2 text-left hover:border-ink-3">
+        <span className="block text-[13px] font-medium leading-snug">{G.at[id].e.title}</span>
+        <span className="block text-[11px] text-gold">open ↗</span>
+      </button>
+    );
+    return (
+      <div>
+        <button type="button" onClick={() => (c.back ? select(c.back) : select(null))} className="mb-2 text-[13px] text-ink-2 hover:text-ink">
+          ← {c.back ? short(G.at[c.back].e.title, 40) : "Back"}
+        </button>
+        <p className="text-[11px] font-semibold uppercase tracking-[0.08em] text-ink-2" style={{ fontFamily: "var(--font-sans)" }}>How they connect</p>
+        <div className="mt-2 flex items-stretch gap-2">
+          {evBtn(from)}
+          <span className="flex items-center text-lg text-gold" aria-label={dashed ? "share a driver" : l.flow === "both" ? "both ways" : "leads to"}>{arrow}</span>
+          {evBtn(to)}
+        </div>
+        <p className="mt-2.5 flex flex-wrap items-center gap-1.5 text-xs text-ink-2">
+          {dashed ? (
+            <span>Same driver: neither caused the other.</span>
+          ) : (
+            <>
+              <FamIcon f={f} size={20} />
+              <span><b className="font-semibold" style={{ color: FCOL(f) }}>{FNAME[f]}</b> · {ASPECTS[l.aspect].label}{l.via ? ` · moves in: ${l.via}` : ""}</span>
+            </>
+          )}
+        </p>
+        <p className="mt-3 font-serif text-[21px] leading-snug">{ex?.hook ?? l.why}</p>
+        <ol className="mt-3 space-y-2">
+          <li className="flex gap-2.5 text-[14.5px] leading-snug">
+            <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-gold text-[13px] font-semibold text-paper">1</span>
+            <span>{steps[0]}</span>
+          </li>
+        </ol>
+        {hidden ? (
+          <div className="relative mt-2 overflow-hidden rounded-lg border border-line">
+            {/* the rest of the chain is in the report: placeholders only, the text is not on this page */}
+            <div className="space-y-2.5 p-3 opacity-60 blur-[1.5px]" aria-hidden>
+              {Array.from({ length: hidden }).map((_, n) => (
+                <div key={n} className="flex items-center gap-2.5">
+                  <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-line text-[12px] text-ink-3">{n + 2 <= steps.length ? n + 2 : "!"}</span>
+                  <span className="h-2.5 rounded bg-line" style={{ width: `${70 - n * 12}%` }} />
+                </div>
+              ))}
+            </div>
+            <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 bg-paper/70 px-3 text-center">
+              <p className="text-[13px] font-medium">
+                {steps.length - 1 > 0 ? `${steps.length - 1} more step${steps.length - 1 > 1 ? "s" : ""}` : "The rest"}
+                {ex?.watch ? " and what to watch next" : ""} are in the report.
+              </p>
+              <a href={`${eventHref(from)}#how-it-connects`} className="inline-flex items-center rounded-sm bg-teal px-3 py-1.5 text-[13px] font-semibold text-paper no-underline hover:opacity-90">
+                Read the whole chain →
+              </a>
+            </div>
+          </div>
+        ) : null}
+        <button type="button" onClick={() => { select(from); setTimeout(() => setBuilding(true), 50); }} className="mt-3 text-[13px] text-gold hover:underline">
+          Build a report on {short(G.at[from].e.title, 44)} →
+        </button>
       </div>
     );
   };
@@ -961,6 +1108,7 @@ export default function MapFirst(props: MapFirstProps) {
         <path d={G.land} fill="var(--land)" stroke="var(--land-line)" strokeWidth={0.7} vectorEffect="non-scaling-stroke" />
         {edgeEls}
         {topEls}
+        {hitEls}
         {dots}
         {labels}
         {sats}
@@ -1038,10 +1186,24 @@ export default function MapFirst(props: MapFirstProps) {
             </button>
           ))}
         </div>
-        <div ref={panelBody} className="relative min-h-0 flex-1 overflow-y-auto overscroll-contain px-4 pb-6 pt-3.5">{sel ? eventView(sel) : listBody()}</div>
+        <div ref={panelBody} className="relative min-h-0 flex-1 overflow-y-auto overscroll-contain px-4 pb-6 pt-3.5">{conn ? connView(conn) : sel ? eventView(sel) : listBody()}</div>
       </aside>
 
-      {tip ? (
+      {pick ? (
+        <div className="absolute z-40 w-[280px] rounded-lg border border-line bg-paper p-1.5 shadow-[var(--shadow)]" style={{ left: Math.max(8, Math.min(pick.x - 140, box.w - 288)), top: Math.max(8, pick.y + 12) }}>
+          <p className="px-2 pb-1 pt-0.5 text-[11px] font-semibold uppercase tracking-[0.08em] text-ink-2">Which connection?</p>
+          {pick.pairs.map((k) => {
+            const [a, b] = k.split("~");
+            return (
+              <button key={k} type="button" onClick={() => { setPick(null); openConn(a, b, sel); }} className="block w-full rounded-md px-2 py-1.5 text-left hover:bg-paper-2">
+                <span className="block text-[13px] font-medium leading-snug">{short(G.at[a].e.title, 34)} · {short(G.at[b].e.title, 34)}</span>
+                <span className="block text-xs text-ink-2">{explainFor(a, b)?.hook ?? ""}</span>
+              </button>
+            );
+          })}
+        </div>
+      ) : null}
+      {tip && !pick ? (
         <div className="pointer-events-none absolute z-40 max-w-[270px] rounded-md bg-ink px-2.5 py-1.5 text-xs leading-snug text-paper" style={{ left: Math.min(tip.x + 14, box.w - 285), top: tip.y + 14 }}>
           {tip.html}
         </div>

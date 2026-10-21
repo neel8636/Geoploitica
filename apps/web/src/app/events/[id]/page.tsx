@@ -5,6 +5,7 @@ import { Suspense } from "react";
 import { EVENTS, KIND_HELP, LINK_WORDS, TYPE_LABELS, getEvent, neighbours } from "@/content/events";
 import { getDriver } from "@/content/drivers";
 import { liveCard } from "@/lib/live";
+import { explainFor } from "@/content/explain";
 import { FLOW_TEXT, FlowIcon, FuelCard, FuelHeading, Incoming, PulseBadge, WhatChanged } from "@/components/live/Live";
 import FuelRun from "@/components/live/FuelRun";
 import { getDossier, formatDate } from "@/content/dossiers";
@@ -69,7 +70,10 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
                       <span className="font-medium text-teal">{l.via}</span>
                     </p>
                   ) : null}
-                  <p className="mt-1 text-[15px] text-ink-2">{l.why}</p>
+                  <p className="mt-1 text-[15px] text-ink-2">
+                    {explainFor(e.id, l.event.id)?.hook ?? l.why}{" "}
+                    {explainFor(e.id, l.event.id) ? <a href="#how-it-connects" className="whitespace-nowrap text-teal hover:underline">How it unfolds →</a> : null}
+                  </p>
                   {driver ? <p className="mt-1 text-sm text-ink-3">Driver: <span className="text-ink">{driver.name}</span>. {driver.what}</p> : null}
                 </div>
               </li>

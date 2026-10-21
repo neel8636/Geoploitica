@@ -5,6 +5,8 @@ import { KIND_HELP, LINK_WORDS, type Flow, type Neighbour } from "@/content/even
 import { getDriver } from "@/content/drivers";
 import EventLink from "@/components/ripple/EventLink";
 import { AspectBadge } from "@/components/ripple/Aspect";
+import Link from "next/link";
+import { explainFor } from "@/content/explain";
 
 /*
   One connection, read as a sentence. An icon says which way the ripple travels (into the
@@ -37,8 +39,10 @@ export default function LinkRow({
   onOpen,
   size = "md",
   onPeek,
+  host,
 }: {
   n: Neighbour;
+  host?: string; // the event this row sits on: shows the plain-words hook, with the full chain in its report
   onOpen?: (id: string) => void; // open in place (postcard, map); otherwise a link to the event
   size?: "sm" | "md" | "lg";
   onPeek?: (id: string | null) => void;
@@ -76,7 +80,14 @@ export default function LinkRow({
             <span className="font-medium text-teal">{n.via}</span>
           </p>
         ) : null}
-        <p className={`${size === "sm" ? "text-xs" : "text-sm"} mt-0.5 text-ink-2`}>{n.why}</p>
+        {host && explainFor(host, n.event.id) ? (
+          <p className={`${size === "sm" ? "text-xs" : "text-sm"} mt-0.5 text-ink-2`}>
+            {explainFor(host, n.event.id)!.hook}{" "}
+            <Link href={`/events/${host}/#how-it-connects`} className="whitespace-nowrap text-teal hover:underline">How it unfolds →</Link>
+          </p>
+        ) : (
+          <p className={`${size === "sm" ? "text-xs" : "text-sm"} mt-0.5 text-ink-2`}>{n.why}</p>
+        )}
         {driver && size !== "sm" ? (
           <details className="mt-1 text-sm">
             <summary className="cursor-pointer text-ink-2">

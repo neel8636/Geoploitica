@@ -1,5 +1,6 @@
 import Link from "next/link";
 import FuelSpine from "@/components/dossier/FuelSpine";
+import HowItConnects from "@/components/dossier/HowItConnects";
 import MembersOnly from "@/components/auth/MembersOnly";
 import type { ReactNode } from "react";
 import type { Dossier } from "@/content/types";
@@ -49,7 +50,7 @@ export function DossierBody({ d, backHref = "/dossiers", backLabel = "All dossie
   // The whole report sits behind a free account: reports are written by AI per event, and the
   // account keeps that budget for readers who use it. The event page above stays open to all.
   return (
-    <MembersOnly title="Sign in to read this report" points={["The 30-second card: the headline, the key number and what it means for you", "What is fueling it, by money, goods and people", "The 5-minute brief: what happened, why it matters, who wins and who loses", "The deep dive: causes, scenarios with odds, predictions on the record", "Every source, with a confidence label on each claim"]} anchors={["card", "brief", "deep", "evidence"]}>
+    <MembersOnly title="Sign in to read this report" points={["The 30-second card: the headline, the key number and what it means for you", "What is fueling it, by money, goods and people", "The 5-minute brief: what happened, why it matters, who wins and who loses", "The deep dive: causes, scenarios with odds, predictions on the record", "Every source, with a confidence label on each claim"]} anchors={["card", "how-it-connects", "brief", "deep", "evidence"]}>
     <article className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:grid lg:grid-cols-[13rem_1fr] lg:gap-12">
       <aside className="mb-8 lg:mb-0">
         <div className="lg:sticky lg:top-6">
@@ -107,6 +108,8 @@ export function DossierBody({ d, backHref = "/dossiers", backLabel = "All dossie
             </div>
           </div>
         </section>
+
+        <HowItConnects eventId={d.slug} />
 
         {/* Layer 2: the brief */}
         <Section id="brief" title="The five-minute brief">

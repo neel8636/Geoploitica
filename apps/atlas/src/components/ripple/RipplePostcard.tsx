@@ -225,7 +225,7 @@ export default function RipplePostcard({
               <ul className="mt-3 grid gap-4 sm:grid-cols-2">
                 {onward.map((l) => (
                   <li key={l.event.id}>
-                    <LinkRow n={l} size="md" onOpen={onOpen} />
+                    <LinkRow n={l} size="md" onOpen={onOpen} host={card?.id} />
                   </li>
                 ))}
               </ul>

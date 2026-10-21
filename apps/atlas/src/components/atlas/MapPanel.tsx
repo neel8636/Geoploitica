@@ -129,7 +129,7 @@ function Detail({
         <ul className="mt-2 space-y-3">
           {items.map((l) => (
             <li key={l.event.id}>
-              <LinkRow n={l} size="sm" onOpen={(id) => onSelect(id)} onPeek={onPeek} />
+              <LinkRow n={l} size="sm" onOpen={(id) => onSelect(id)} onPeek={onPeek} host={e.id} />
             </li>
           ))}
         </ul>

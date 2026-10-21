@@ -24,7 +24,7 @@ export default function Connections({ event }: { event: WorldEvent }) {
         <ol className="mt-3 divide-y divide-line-2 border-t border-line">
           {items.map((l) => (
             <li key={l.event.id} className="py-4">
-              <LinkRow n={l} size="lg" />
+              <LinkRow n={l} size="lg" host={event.id} />
             </li>
           ))}
         </ol>

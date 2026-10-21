@@ -48,6 +48,10 @@ export default function MapGuide({ edition = "atlas" }: { edition?: "atlas" | "e
             "Lines",
             <>With nothing selected, thin gold lines show every connection, with an arrow for the direction. Select an event and its own lines light up: events <span className="text-ink">feeding into it</span> arrive in the colour of what they carry, with its icon halfway along; <span className="text-ink">gold</span> lines show where it ripples next; <span className="text-ink">dotted</span> lines join events pushed by the same driver, where neither caused the other.</>,
           ],
+          [
+            "How two connect",
+            <>Point at any line for its one-line story; click or tap it (or a row in an event&apos;s panel) to open how the two connect: what moves between them, and the first step of the chain. The whole chain, step by step, with what to watch next, is in the report&apos;s &ldquo;How it connects&rdquo; section. Where lines cross, the map asks which one you meant.</>,
+          ],
           ["Layers", "Ripples, Fuel and Pulse at the top of the map switch the lines, the coloured rings and the pulsing rings on and off."],
         ]}
       />

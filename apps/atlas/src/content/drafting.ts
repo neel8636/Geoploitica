@@ -1,5 +1,6 @@
 import { LINK_WORDS, neighbours, type WorldEvent } from "./events.ts";
 import { ASPECTS, type FuelEvent } from "./fueling.ts";
+import { explainFor } from "./explain.ts";
 
 /*
   The report generator, shared by the draft script (batch, in CI) and the enterprise
@@ -81,7 +82,10 @@ ${JSON.stringify(example)}`;
 
 export function materialFor(event: WorldEvent, wire: WireHeadline[], fuel: FuelEvent[] = []): { text: string; items: WireHeadline[] } {
   const items = wire.filter((i) => i.eventIds.includes(event.id));
-  const through = (l: { via?: string; aspect: keyof typeof ASPECTS }) => `\n  moves through: ${ASPECTS[l.aspect].label} (${l.aspect})${l.via ? `, via ${l.via}` : ""}`;
+  const through = (l: { via?: string; aspect: keyof typeof ASPECTS; event: WorldEvent }) => {
+    const ex = explainFor(event.id, l.event.id);
+    return `\n  moves through: ${ASPECTS[l.aspect].label} (${l.aspect})${l.via ? `, via ${l.via}` : ""}${ex ? `\n  in plain words: ${ex.steps.join(" ")}` : ""}`;
+  };
   const links = neighbours(event.id).map((l) =>
     l.direction === "out"
       ? `- This event ${LINK_WORDS[l.kind]} "${l.event.title}" (${l.event.id}): ${l.why}${through(l)}\n  ${l.event.summary}`

@@ -17,6 +17,7 @@ export const SHARED = [
   "components/intro/Welcome.tsx",
   "components/intro/IntroGate.tsx",
   "components/guide/MapGuide.tsx",
+  "components/dossier/HowItConnects.tsx",
   "components/auth/AuthProvider.tsx",
   "components/auth/AccountForms.tsx",
   "components/auth/AccountMenu.tsx",
