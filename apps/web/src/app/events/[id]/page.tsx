@@ -103,14 +103,14 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
           },
           {
             id: "full",
-            label: "Full report",
-            time: `${report.readingMinutes.card + report.readingMinutes.brief + report.readingMinutes.deep} min`,
+            label: "Deep dive",
+            time: `${report.readingMinutes.deep + 2} min`,
             blurb: "Scenarios with odds, the players, the evidence.",
             icon: "full" as const,
             view: (
               <div className="space-y-2">
                 {reportPlain ? <div className="mx-auto max-w-3xl"><PlainBox title={reportPlain.title} paras={reportPlain.paras} kicker="This event's report" /></div> : null}
-                <DossierBody d={report} embedded noSummary={Boolean(reportPlain)} connections={connectionsFor(report.slug)} />
+                <DossierBody d={report} embedded noSummary={Boolean(reportPlain)} parts={["deep", "evidence"]} />
               </div>
             ),
           },
