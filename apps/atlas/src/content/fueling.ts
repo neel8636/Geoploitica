@@ -76,6 +76,8 @@ export const FUEL_SYSTEM = `You map the small events that fuel a big world event
 
 From the numbered headlines, pick 2 to 6 distinct, concrete, smaller events that feed the big event: a strike in one city, a court ruling, a port closure, a poll, a price jump, a clash at one border post, a minister's resignation. Rules:
 - Every item must be reported by at least one of the numbered headlines; cite them by number. Never add an event, number or name that is not in the headlines.
+- Only inputs: things that push the big event along. Leave out consequences, the effects the big event has elsewhere (a trade deficit it causes in another country, inflation it raises abroad); those belong in its ripple, not its fuel. Use flow "both" only when a consequence also clearly feeds back into the big event.
+- One item per development: if several headlines report the same thing, make one item and cite them all.
 - Skip general commentary, opinion and items that merely restate the big event.
 - title: at most 8 words, concrete, no clickbait. what: one plain sentence, at most 30 words.
 - via: 2 to 6 words naming what moves from the small event into the big one ("higher diesel costs", "union turnout", "investor fear").
