@@ -564,6 +564,15 @@
   },
   "runs": [
     {
+      "at": "2026-10-22T14:02:41.223Z",
+      "screened": 0,
+      "accepted": [],
+      "rejected": [],
+      "existing": [],
+      "retired": [],
+      "skipped": "last screen 3 min ago"
+    },
+    {
       "at": "2026-10-22T13:59:19.892Z",
       "screened": 140,
       "accepted": [],
