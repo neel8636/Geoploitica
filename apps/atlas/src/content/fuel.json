@@ -1071,87 +1071,63 @@
     ]
   },
   "china-q3-growth": {
-    "at": "2026-10-21T15:00:54.959Z",
+    "at": "2026-10-22T10:58:03.753Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "woodworking-machinery-exports-rise-6-6",
-        "title": "Woodworking machinery exports rise 6.6%",
-        "when": "2026-10-21",
-        "place": "China",
-        "lat": 35,
-        "lon": 105,
-        "what": "China's woodworking machinery exports rose 6.6% in the third quarter, adding to the export gains behind the faster growth.",
-        "via": "higher machinery export sales",
-        "aspect": "trade",
+        "id": "xi-calls-for-measurable-economic-growth",
+        "title": "Xi calls for measurable economic growth",
+        "when": "2026-10-22",
+        "place": "Beijing",
+        "lat": 39.9,
+        "lon": 116.4,
+        "what": "Xi Jinping called for qualitative improvement and measurable growth in the economy, setting the policy direction behind the third-quarter result.",
+        "via": "policy push for growth",
+        "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "China\"s woodworking machinery exports rise 6.6% in third quarter",
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNb19NQ1FnM2dHQ0R5MTRsQUI0N0hiN2JUcUJQOXdiYUZEQTVFOEdoWjNhUFNYeDNEbzc2bm5kS25ROWZxdFYwLUZDT3VVbGJVQ2k2alVHbmIxcnl4U2d6T2hUM1JxS0RKd0JlM29WUjZaa0ZVSTdKTDBlVFBwRFJRQ2NnN2c2c2JZZ0wwLUpfcFFfWUZyel9kbVZtdEJmVmdhbHdUZQ?oc=5",
-            "publisher": "Lesprom Network"
+            "title": "China’s Xi calls for qualitative improvement, measurable growth in economy",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdFhaNldRZmNadmp2SVRMT2lycWZBMDF3YUxxZUVlOFVPOXZyWm1vM01RRzlYR3F0WWFHXzFxQ1BlYjM3ajRuNjZYdHBSekxRam1rRFN6VGdfQzhiTlRwempIeklZc2hUSElMRW1aaXV1a3ItZnZtZDFZeVREWlppSFQ0WHdyZHh0RlppdjVmMUZnMzVRNXlWQ2NFb3M2MTdwd1dkaGFFYnp6WG5FT2IwR3JtUnFjems?oc=5",
+            "publisher": "The Straits Times"
           }
         ]
       },
       {
-        "id": "chip-export-boom-with-south-korea",
-        "title": "Chip export boom with South Korea",
-        "when": "2026-10-21",
-        "place": "China and South Korea",
-        "lat": 37.5,
-        "lon": 127,
-        "what": "A boom in chip exports is deepening China's trade complementarity with South Korea, according to a Global Times editorial.",
-        "via": "chip export earnings",
+        "id": "beijing-warns-uk-against-restricting-chinese-evs",
+        "title": "Beijing warns UK against restricting Chinese EVs",
+        "when": "2026-10-22",
+        "place": "Beijing",
+        "lat": 39.9,
+        "lon": 116.4,
+        "what": "Beijing threatened retaliation if the UK follows the EU in restricting Chinese electric vehicles, putting a key export line to Europe at stake.",
+        "via": "export market access risk",
         "aspect": "trade",
         "flow": "into",
         "sources": [
           {
-            "title": "GT Voice: Chip export boom reveals deepening China-South Korea complementarity",
-            "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9EYkc4bTd3elVDeTRkY0pYenNILWstMHgycUpPdGpzQUczN09CZHJyV3k1Zl96NUVEWVhsaHJla2d1RVR4UGthM2w2dDhQcUpIZEJiRUZDNmdpdFhvZTJNaW53?oc=5",
-            "publisher": "Global Times"
+            "title": "Beijing threatens retaliation if UK follows EU in restricting Chinese EVs",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWHNLYXliS0ZKXzAyRW1FTjJtSm8yMzlzM2lTVzdrcUF2N2ZPV0dPSmc2c1dlMVlRcDY1dEx2QUNqb3d1V2twWDBsQTlGaWVzaUNlQ1ktREp3LWd1cnRzLTRtY25CcGl2Y0JQTXRIeW1FbDhZNUJHc2JlWFU0M0NWMGg2T2hjbWVkMHhzRG13QVg2M1hIVk04?oc=5",
+            "publisher": "Automotive News"
           }
         ]
       },
       {
-        "id": "china-restarts-acid-exports",
-        "title": "China restarts acid exports",
-        "when": "2026-10-21",
-        "place": "China",
-        "lat": 35,
-        "lon": 105,
-        "what": "China restarted acid exports to a top source of US refined copper, reopening an outbound trade flow.",
-        "via": "resumed commodity export flows",
-        "aspect": "trade",
+        "id": "hong-kong-stocks-hit-four-month-low",
+        "title": "Hong Kong stocks hit four-month low",
+        "when": "2026-10-22",
+        "place": "Hong Kong",
+        "lat": 22.3,
+        "lon": 114.2,
+        "what": "Hong Kong stocks slid to a four-month low as hopes for new stimulus faded, leaving growth to lean on exports rather than domestic demand.",
+        "via": "fading stimulus hopes",
+        "aspect": "markets",
         "flow": "into",
         "sources": [
           {
-            "title": "China Restarts Acid Exports to Top US Refined Copper Source",
-            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQc1cxeE1Hdl9PUl9VZzVDcG9XdVV0VkZEemxKalJKeFVtZ1ZJS0c3emtfVHV3NGxZaWpRTkh0QnRLSnpqMGJNbkZka2VnbV9XMUQzLWlZdW1MMDhrbEZzaFUzRXRwY1cwVTE3bXZLLWNad0tsaXV2UjlRY2JJbzBaVlVEdXl5MkFZOU9MeUsyUV9SMWhnZzg4OEJVTHd0WTByVC02ZmsyWEpPS1l3N09r?oc=5",
-            "publisher": "Environment+Energy Leader"
-          }
-        ]
-      },
-      {
-        "id": "high-tech-manufacturing-drives-third-quarter-growth",
-        "title": "High-tech manufacturing drives third-quarter growth",
-        "when": "2026-10-21",
-        "place": "China",
-        "lat": 31.2,
-        "lon": 121.5,
-        "what": "High-tech manufacturing is described as a key growth engine, alongside exports, in China's steady third-quarter GDP growth.",
-        "via": "high-tech factory output",
-        "aspect": "jobs",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "China Q3 GDP: Steady Growth on Exports, High-Tech Manufacturing; Policy Support Key - News and Statistics",
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOU01X3Y1UWNYT0s0UWJPR0dUNU1GTHRRVUJpZ3BEejNhd3E3WTRuakRJNUFOVlUtS0dWY3NOeEdSaktYb0plRUJDX0dGSlVMaTY3V0UwcjZYNkFQektzbzZCX0ZWMkVEZTVsRDlSSEdkVVN0NC1EcmRBWWM4OUhmdlNYRWhFS20wYkxzSndhaUFPZG8wem9ySFZJX0YxbXlITkhCb28yMkNHdEFOdC10VkJROWswTEU?oc=5",
-            "publisher": "IndexBox"
-          },
-          {
-            "title": "China Economy: High-tech manufacturing a key growth engine",
-            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAtVDVMNFVBOWV2RlM1TTBiUHVPQWo3VDBPdC1TbXFNa3JNby1OdjBENmdhXzgyTEltNzR3MG5hbFdjNGtpWG1GY1B5WTJFVUlraGJnbmxCdTN4a19OQWU3ZHg5b3FuVjJEOWRYYmlMclFGa2k5ZTNsSw?oc=5",
-            "publisher": "CGTN"
+            "title": "Hong Kong stocks slide to four-month low as stimulus hopes fade",
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdzFqRVlpbmtuZEc2TmFqdUh0QTIxYkNsYTVNZ1VGMmJNamQzZjl4RF9rWnpCSlI0STNqUjNERDNYa2o3eGJrZEs4aG1xYzFkVVJER3BYNUhCanFoUEFMVUlQNk5xMzFlNjhyOWN0UWVFamlPOFRPTjl2bmo5UmpieUlMeFB1bXZxbHFXZ2lTdEJWZUgzeUdJb0tyWC1LNUlBbVBQbWJRUGQtR1NNMl9pZTJHX0M3a1JKVEVLSk9IMDR3NTBz0gHEAUFVX3lxTE53MWpFWWlua25kRzZOYWp1SHRBMjFiQ2xhNU1nVUYyYk1qZDNmOXhEX2taekJKUjRJM2pSM0REM1hrajd4YmtkSzhobXFjMWRVUkRHcFg1SEJqcWhQQUxVSVA2TnEzMWU2OHI5Y3RRZUVqaU84VE9OOXZuajlSamJ5SUx4UHVtdnFscVdnaVN0QlZlSDN5R0lvS3JYLUs1SUFtUFBtYlFQZC1HU00yX2llMkdfQzdrUkpURUtKT0gwNHc1MHM?oc=5",
+            "publisher": "Devdiscourse"
           }
         ]
       }
@@ -1707,210 +1683,286 @@
     ]
   },
   "boj-october-decision-2026": {
-    "at": "2026-10-21T15:58:46.606Z",
+    "at": "2026-10-22T10:58:03.753Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "boj-s-himino-says-inflation-near-2-target",
-        "title": "BOJ's Himino says inflation near 2% target",
-        "when": "2026-10-21",
+        "id": "rengo-targets-big-pay-bump",
+        "title": "Rengo targets big pay bump",
+        "when": "2026-10-22",
         "place": "Tokyo",
         "lat": 35.68,
         "lon": 139.69,
-        "what": "BOJ's Himino said underlying inflation is almost at the 2% target, flagged upside inflation risks and signalled readiness to raise borrowing costs, warning about the cost of delay.",
-        "via": "near-target inflation, hike signal",
-        "aspect": "living",
+        "what": "Japan's top labor union is targeting a large pay increase, in line with the BoJ's aims, supporting the wage-inflation case for further hikes.",
+        "via": "wage growth backing hikes",
+        "aspect": "jobs",
         "flow": "into",
         "sources": [
           {
-            "title": "Global Market: BOJ's Himino says Japan inflation near 2% target, signals further rate hikes",
-            "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNei1vaWV5dmpLYXB6Y21Qc2xfTjItVWJLeXNmamdLZldyelJqWFE4d2VJQmlGaHFmM24yQXdmeGN6QUh0bWlYQmJ4VVlYV3NSbmFfQU9EcWtkOEFXQzFaM0oyR1pTcmV0Q3ZQWE1iR0tjWjZsY19sTFMtQ1FaZ1ZQSEdLT2M1bEVtVjBPTmhVLS14Vnc1U1hKaWFyN1dJRXJOSUlwN01TY1lxM1A5R1h3LTFxMm53RXpEaTNpWGtZZ2sxMDduS3JTN25VUkZ5N25wekVjRlNfWGI1Q19LRkZNai0tRm5sOUw4SzJwYll2RFpHdnZiaWQ4WFI4TVZNNjZIY2xsQ0R1TXdfaW5Dc3hLRk5RcHXSAY4CQVVfeXFMTkxjWnBUR2FHQ3FsZHBibG9PWFZEME5RNFQtTEhSeGRVTXgwNlJMb0hXUDJuaXVsdElLWWYzUkxvS2xZNjhEZG5teFJhby1fSTNDMXhEbFh4cFE2Z3E3Tm93YklReWdSRWJzaFhSY0pQSk9ySV8zbms3WWg1bmRCYm1BQWUwdGN0dGtiVkxPUUszTl9MR1N1VFJuRFBUZWEya1NJSkhIUFJhVzdxMkVOSk1LRV9lekNPaExHRk9aVkYxOUItNHVZcnNka0FoOHVnUzBaejZBUU1sZ2k0QXNtUVJCaGo3c2Z5OVozM3Exdzh6Qm9QQ3dCbkUzR3ZwTk5GTExIVW9ia3VPZHl4aXln?oc=5",
-            "publisher": "The Economic Times"
-          },
-          {
-            "title": "USD/JPY steady near 158 as BoJ's Himino warns on delay",
-            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcXV2ekktMlY4VU9QWGZ1cE9tdERRNlYyTmZPdjFoM2hCYkx2RnJqNGJqTlE3MTVRLUFnNXU5RWpjNVdGMzN1eXZhNjA2R2hHRllnN2VQVC1jdFhVbWI5ZmY4Z3BXRkEzcko1eU5RMjJEU0kyVDNKQkdaU2lhbGxxd3F1LXNhUEp4M01aUjYzejFNX2hROXRBaDA5VmNKNVVvSmd5VE82Q2t3bUJT?oc=5",
-            "publisher": "Forextraders.com"
-          },
-          {
-            "title": "Bank of Japan's Himino signals readiness to raise borrowing costs",
-            "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAtM0ZvdzJUV1hkQWc0VHhYQmw0d2tTUlczM2VVR09oSFh4R0NHcG1VTnJ3V0Y0dFE5RVhEcUpxYl8wdjlEM3RJRUFFbFZIMEUtd0FhYg?oc=5",
-            "publisher": "The Edge Malaysia"
-          },
-          {
-            "title": "BoJ’s Himino says underlying inflation almost at 2% target | FXStreet",
-            "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5JeDVYbUtzUklFWmstZ256VXBOMGtaLU83MFIyUmdUdy1XOERCRjRBQW5lVmlWUEdOMTZ5UmhFUktESE90Q2RZbWZmM043d2U5czVN?oc=5",
-            "publisher": "شبكة تواصل الإخبارية"
-          },
-          {
-            "title": "BoJ’s Himino says underlying inflation almost at 2% target",
-            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRjROV0VLc2lMNVNBZjdrZ3FPbTNQeXJGMGg2bzZDQVg0MmhLQ3FlNFJwZXhLekowZU9GeDl3QXFMTy1XbnAxNDllSXpSczNKbHBleFZoOWRxVHVUbXJ2VWRsRF9WTUhLbHp0NTEtQmFpbjQ2dzFDWUM5Z3c4N24wNWpPTnJPMHNsTGgyR2RxTjUtYjhnVGFCUEhSR0daNG1F?oc=5",
-            "publisher": "FXStreet"
-          },
-          {
-            "title": "BOJ policymaker Himino warns of upside inflation risks as Japan nears 2% target",
-            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYUZyRmQybkVldmgzLWY2cXRkOUV5NW80Rm5BZnA0YzJ6N1NUMUxxUFVDdHJKd2RPS0pubFBBd2M3Z2pZZ1FXXzNzMEZyaHJCdVJuLU1kcmdvVlg3SnNxbkFUZm9lUmVGckRfOW41NlRBOFNKeFlsNFY0NmpvVEQzalhQYjE2QUdHM25YNVhYX1hidk1Yay0yTFRpNVBGVGJoTVE0clZVMF80R2xXbGZHSkk2cTM2ZlBNVTUw?oc=5",
-            "publisher": "investingLive"
+            "title": "Japan's Top Labor Union Targets Big Pay Bump, in Line With BOJ Aims",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOE5RcDAtS0podEtlOG5wWk9XU2pvT2g2LVIwN1FTOHFWZFh4R1RlT2MyNzZWcU5ZdGhhTUtpbjB6RG4taDJRUnZKbEYtVTZEemVaY01GTFJOLUpWVGQ5bWc1eXhBMW1aSnZvSEVOVUxpaHVUQTluWDNWZWlueW5qZnViMDN6SXpEZjA3d2tvUGRJck9wcGhTSDAtQ3h6VlN2T2FleTJJNUN1R3lSbzgwQ2xBOVpyYy1xRkRz?oc=5",
+            "publisher": "marketscreener.com"
           }
         ]
       },
       {
-        "id": "ex-official-expects-december-hike-then-quarterly",
-        "title": "Ex-official expects December hike, then quarterly",
-        "when": "2026-10-21",
+        "id": "takaichi-presses-boj-to-buy-more-bonds",
+        "title": "Takaichi presses BoJ to buy more bonds",
+        "when": "2026-10-22",
         "place": "Tokyo",
         "lat": 35.68,
         "lon": 139.69,
-        "what": "A former Bank of Japan official forecast the next rate hike in December, with further increases possibly every three months after that.",
-        "via": "expected hike path guidance",
-        "aspect": "markets",
+        "what": "Prime Minister Takaichi is pressing the central bank to buy more government bonds, adding political pressure on the policy stance.",
+        "via": "government pressure on policy",
+        "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "BOJ likely to raise rates every three months, former official says",
-            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBvVGItUE5wQTUya2IxSVNGcDFzU3dJYWFiRzNfV3VmUUt5eGtGN2VpREZXb1ByTDg0VWZpYl8ySXB2QmkwYTYzcG9TYnRKRWU3eHNscXJhem5uaVE4cWN0MmVqZEZWRy1wYzJ6dmozbEpiWnR0WFNyZEVGajE?oc=5",
-            "publisher": "Mezha.net"
+            "title": "Japan's Takaichi presses central bank to buy more bonds",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQLU9kV1dmX1lmbEpfeVNmaVRjRWVKb0ZEdVVYekxTdE1ZT1Z4cE0wOUhaRnhVZTR4VzlfRUVNVElKSHVzaGh1UWh6MGp6TEQ4WUJBMF81bVdSUTI4U09faUUzYW5VbEgxMWZPSXhNNWFHSURLRmI4QUI1am1lZnd1dENBVFdUZHpsQTdTb1FfMW9hQV8wOEVXa0VRb3RJY2Y3Z2lrQWFkT1NjV01QZXdOSzlqZVdvUWvSAbwBQVVfeXFMTkZpRzlRbElVNTRHdTNUQ1djamtIcG9JQXFqT0ctckNDMWpZYUl2NUc3QVpQSVlqOTh6aDdoX0hXZ2o3aTRqaVRVcC1Ob21pU3p4c0J6VDk3Tmp3Und0Q3JKSDNIa3M4dURTOTE0X2NhV1hfR2FvYUFLc0RBQmZYdDFsT3ZsakstbkhwcU1iUFd5U01uVmhpUlNpVUkzaHc3RzhrRVRtWUdmUkVMQm04czIxUnJhQkdpN3Nad04?oc=5",
+            "publisher": "upi"
+          }
+        ]
+      },
+      {
+        "id": "corporate-loan-demand-turns-positive",
+        "title": "Corporate loan demand turns positive",
+        "when": "2026-10-22",
+        "place": "Tokyo",
+        "lat": 35.68,
+        "lon": 139.69,
+        "what": "The BoJ's October survey shows the corporate loan demand index at plus 3, holding firm even as rates rise.",
+        "via": "resilient credit demand",
+        "aspect": "budget",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Bank of Japan's October Survey: Corporate Loan Demand DI Turns Positive at Plus 3, Holding Firm Even as Rates Rise",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1VVEdISHhjckFfODNnR2U2bE84SWh1UVU3cG42N0NuWWZ4SW8wTzduWFFzUjNZUmNTOG9ISEVEWlJLYWhLVFVmUUJFVm9jSmRMVnc5SE9GdVdUaElBRnpXQU1rUWFKbHdRZmZFa29YNWtSbi0wZ0E?oc=5",
+            "publisher": "BigGo Finance"
+          }
+        ]
+      },
+      {
+        "id": "analysts-shift-hike-call-to-december",
+        "title": "Analysts shift hike call to December",
+        "when": "2026-10-22",
+        "place": "Tokyo",
+        "lat": 35.68,
+        "lon": 139.69,
+        "what": "Most BoJ watchers now expect the next hike in December, with none seeing an October move, shaping a hold with guidance.",
+        "via": "rate path expectations",
+        "aspect": "markets",
+        "flow": "both",
+        "sources": [
+          {
+            "title": "BOJ Seen Holding Rates Steady at End of October as It Weighs Timing of Next Hike",
+            "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1NYXBZWlAzRmdBSlcweHNINEExQ1ItZ3JSMEVCaWRrSUNVTGJTVUNGeTViTlMtcUVfZHdadUVKV00tWEU3ejhpOFV2Q3U4OWZmTmNmdA?oc=5",
+            "publisher": "bloomingbit"
           },
           {
-            "title": "BOJ likely to keep hiking rates every quarter, ex-official says",
-            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQR05hNWx5anUyMlNIc1A2a3Y1Y1R5ZjRfRUJVMl9oWEx1RnpmY3ItWUJQVVBwVzJQZV9Ca3pUd2x0ZGV6Z3pYOUZCX2lBUHlwS2F3ZEZBQnJ4UEdIak1lRTZ2UW1YcXlUOFN3Q294YktROU9iS1BqS3ktWndjMXBGaV9PRTJEVHZhY1ZwYw?oc=5",
+            "title": "BOJ to hold rate at 1.25% at meeting next week",
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOR18ydjRNdWlKSkJtZElIS0JuWDJOYXQtRjNJTmhCZE51bXh2RVdOSHhPeXpqQTQybUh2bTdTbG5UcFU4b2QteUNsWmxqa2FLdTlKanFIZ09BSkxsOTV0UTZuTGxtcXZ6ZDNGU3Y2TDBIbEpEVXdsNW5Qdm1XdVJsc01jVVZTbTIwMlZud0R3WUxkV3MzckE?oc=5",
+            "publisher": "Nikkei Asia"
+          },
+          {
+            "title": "Most BOJ Watchers Expect Next Interest Rate Hike in December",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbHhpQXc5aFR4emg5TF9pOE5NVmJ2UG9UOUxIRHZkM0dQWi1qOHF5Ty1pYndYenpZSEM2T1lRa01BMHdmc2tHOTVLVnZranRld1ptWWJ0MzdVcWZlbFRiMXBqZC1OZkMtcXVvVDZ4LXhKOFhxUjhicUZPZ1hyUERUaFNNZGxUbnBtVHRLMHRmZnVzVXBZQXpCS245cEY?oc=5",
             "publisher": "The Japan Times"
           },
           {
-            "title": "Former Bank of Japan official forecasts next rate hike in December, with potential for subsequent quarterly increases",
-            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOendHdmhpaDlwRjZTWV85R1FoVkEzdng1eXNYa1lDTkdNNDFCWFFfc0x6ZWgzT2hTQm44RjlLaUl0X0M3NkZRTHgtOVpfZUd4bUFPRzZ3bG1Vbk9RcHJ5V2lfOV9NVGN6bnJzWjJUenctRzFlNHI0UGNEcEVmaWNEOWN1blZkd1NpRTF6T0hfVEZyQVZER0hNRFVUMUxvNDRiQnc?oc=5",
-            "publisher": "富途牛牛"
+            "title": "Most analysts now expect the next BOJ rate hike in December, none see October move: Bloomberg",
+            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZVF2NXRkZTRwRXVvY1VPX05JZjFaNDJEV2VoUHliUmQ3ejVoM0VqLWUzT2xMOGF6c09FR0o4ZVdYVnl0eG9pcXN6M3NjZDdTMGpTWWllcEFjcjFpdUZjS1NUaTJQQldKbVAzM0VLdTBfRWZQMDhnNTJ0ajhwSkdJdzAtYjMtMzFMVk5oZHpfX0JiaHJsVHVDQ0luNERBQ0pmZGd0ZXlHMU9teElFOURUc0FLZl9WMENqYmw1VzA1anVsZHhQd2xDaGRlOE0?oc=5",
+            "publisher": "investingLive"
           },
           {
-            "title": "Ex-official expects Japan's central bank to hike rates every quarter",
-            "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9SWFloUXJSQXlpa21lcVFjb3VKYVJDV0FGTnFHekdjWnp0SFJoalNVbm9fQS1DTmw4OGk1UGp1blUyQ0xId1dIMHhVdFRpQjROb01B?oc=5",
-            "publisher": "The Edge Malaysia"
+            "title": "Experts predict the Bank of Japan will raise interest rates to 1.50% in December.",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMVRJVldqQmx3bmhOWWduXzZ2UDlOZEdlQ281bU1SSWNKZ201ejRvSFlOTTNBRjJqQy0xZGxRRjhndGl2Q2tUZ2UtZ2tDQ3pTMWQybEdwNTdZZE1KQmZYRl85UDBwNlZQbFNhNEYzWnFvZFhwaFI0X0J2dzhtX2JuWGNWcmw3aFN2cWtrWjNR?oc=5",
+            "publisher": "Vietnam.vn"
+          },
+          {
+            "title": "\"BOJ Rate Hike in December\" Expert Forecasts Jump 48 Percentage Points in a Month",
+            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE43d0t0Z3otZ3UyZjQtT2dXeW9HUUZvMUJ0OWhIUWVYN0ZCWlJmSHNsT2l1Z19WR2dENXpydGQ0V2FYMzlKdFhiUlV5MV9LcW85cFJmMnNTZ1RaSkFnSk84eUk1eHY?oc=5",
+            "publisher": "아시아경제"
+          },
+          {
+            "title": "BOJ Watchers Now See A December Rate Hike",
+            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9rNDFTNW9yQlhpdFJ5cjdqZnVpSS1vd1hZdjNLT3dJUUh0NDFPYm41SnlLREIwem45T0pzb3EyXzVyMExuTXVDdG02SHZIY1hLdzJmTFh5aldMYzRzQjBySGdjMy0tMVYtYlZhTWc2bEFmams0VEI1Vy13?oc=5",
+            "publisher": "Finimize"
           }
         ]
       },
       {
-        "id": "japan-trade-gap-widens-pressuring-the-yen",
-        "title": "Japan trade gap widens, pressuring the yen",
-        "when": "2026-10-21",
+        "id": "ueda-vows-to-keep-raising-rates",
+        "title": "Ueda vows to keep raising rates",
+        "when": "2026-10-22",
         "place": "Tokyo",
         "lat": 35.68,
         "lon": 139.69,
-        "what": "A widening Japanese trade gap, combined with a cautious BOJ, is keeping the yen under pressure ahead of the meeting.",
-        "via": "weaker yen pressure",
-        "aspect": "trade",
+        "what": "Governor Ueda vowed to keep raising rates to anchor inflation around the 2% target, signalling a continued tightening bias.",
+        "via": "hawkish BoJ guidance",
+        "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "Yen Under Pressure as Trade Gap Widens and BOJ Cautious",
-            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUy1TS1A0OE1uTjRXUDhsRjczTkdYQU1iM2x0cTE5Mjlid0RNaGNDU205ajlFQlVGcm9BcVFXZ1E3Q2pNTDV6SnhqTXBqUzdrd3NsTHU0Zy1BTF9HVjZzTGdDbFRqWmlCU3VVN1k1UG5FQXVQZTUtZU1LSjRINTczYXZ6QjZ4ZnF4VVBsRDZ0Y1F1Um80YlpHbmd6VGE?oc=5",
+            "title": "BOJ’s Ueda vows to keep raising rates and anchor inflation around 2% target",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNE9Sc2ROQm4tYXQ0M2pFRkVSem1LR1VrM0FScnJoLUg0NmFDT2xKcDJBRlJjNkJjX2pNVmxXSnZxYnBwRm5mTEFTR1VRb3ZZM1hXZzBRZHV3RWlwbDk0ejlER2p1MGhObk5rRHMwRXZmem1hd1lDX2JleGZDNFNCcXBqSVJvVVNwb1HSAY8BQVVfeXFMT2l2MFRMM3V6SFpDVThnRDdFc0U5bzRWTzMxMEJsRHVTamVtSm1CMnJNdzIzVG0wVkwycGRkQ1h3ZjJnYzhVMGk3RUNpazdvWnQ0LXQwQ0dzczR1Y0VEZlRUd1ZORUxKZVJsVjFNODhnZkl6UHFPYlI1Y0pvazI5R0RUdWJPenJDX2t5UnRpRTA?oc=5",
+            "publisher": "Forex Factory"
+          }
+        ]
+      },
+      {
+        "id": "yen-holds-range-ahead-of-fed-boj",
+        "title": "Yen holds range ahead of Fed, BoJ",
+        "when": "2026-10-22",
+        "place": "Tokyo",
+        "lat": 35.68,
+        "lon": 139.69,
+        "what": "The yen is trading in a tight range against the dollar as investors wait for the Fed and BoJ decisions next week.",
+        "via": "currency pressure and caution",
+        "aspect": "markets",
+        "flow": "both",
+        "sources": [
+          {
+            "title": "Japanese Yen pulls back slightly after hitting fresh monthly high vs broadly weaker USD",
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQVpETGRDNGRfV0dPQzhkbmxqZ3BjUmd3N2FZY2Y4aWhvWGU0aURzSDlPR3dRN3JRRV9reXdscEY0VUZ5QTVZbUFLX1ItMzJpa2V5QVRBLWdFamZwc0xQNXQ5ZU5CaUpKdmNGTlpLX1pnYk04MGdsenYzd081bXJKY3otUnl2M19hVVFzQ0Z6MF9aeDZ6SlBNQ3Fsa2c1Zncyb1pPU0hzdHJyT1VrbkhtYzBQMDdXekpHOF82cGI0Q2FFM1ptd1RRa2Nn?oc=5",
+            "publisher": "FXStreet"
+          },
+          {
+            "title": "Yen Holds Tight Range Ahead of Fed, BoJ Verdicts",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORU1uZXduV3ZSMjJYWEpiMTVPaV9na2g3NnlvckJKV3JpbUJ1d09DdjNBT0JKbklvY0ZIZFdULXA1NFdVRURpLTk5OXpscWVJc3VrUXlNeWo4T1RscnhCclJPSnNGUXJFSHd1UlJheU1zSTMwZC1mYXVScjVrVFJfeWxTMi1TYnlqdmQzUnBjT3ZUUQ?oc=5",
             "publisher": "TradingPedia"
+          },
+          {
+            "title": "Yen Edges Up Ahead of BOJ Policy Meeting",
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPY2NlalY2aklqUHRTRDhVcmJyNEQ1S2pVb2Q4WGJlMHdaRFc1d0dPRnBIX1diOW82aFVRZXRqWFV0WXhuZUZiNXExbERQMGtDY0h5VE83bFdOOWVpMHE4RmJQNXRqLUdNUkNYUC00M0VuM0VNa1B1eUJpdnN0ZmQ5SjI3alRqMV94aGpRME1GQ3lnQWZTbGc?oc=5",
+            "publisher": "TradingView"
+          },
+          {
+            "title": "Japanese Yen extends range play vs USD as focus remains on Fed, BoJ meetings next week",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTklveGxEQWNfYUo3WkM4YU94bU9rX0lBN3luVTY0dDV1SzdTeHFJQUxwTGlqOTYzMGxEWWV3MkxRXzdQNHhKVEQ3NVkyMDFaQXRjUTg5U2R0ejlvWnFnZmViNmFzaWhQNW9XbWdyU0U4bUpIaW0tTDZTZWhqWUlaMTZKbzRXV0JLRS1WV216U3pfcU1pUDdZNjd1NXptZ1lwSmtZMDhxalRIZ29xcHN4cGMyZWViMWVpQ2RuMUItbUJkUUFqNUpR?oc=5",
+            "publisher": "FXStreet"
           }
         ]
       }
     ]
   },
   "sudan-darfur-kordofan-famine-alert": {
-    "at": "2026-10-21T15:58:46.606Z",
+    "at": "2026-10-22T10:58:03.753Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "army-drone-strike-hits-abyei-fuel-market",
-        "title": "Army drone strike hits Abyei fuel market",
-        "when": "2026-10-20",
+        "id": "drone-strike-hits-abyei-border-market",
+        "title": "Drone strike hits Abyei border market",
+        "when": "2026-10-21",
         "place": "Abyei",
         "lat": 9.59,
-        "lon": 28.45,
-        "what": "A Sudanese army drone strike on a market in disputed Abyei killed more than 150 people, with the army saying the site supplied fuel to the RSF.",
-        "via": "deadly escalation near Kordofan",
+        "lon": 28.44,
+        "what": "A drone strike on a border market in Abyei reportedly killed more than 150 people, hitting a trading point where local communities buy food.",
+        "via": "lost food trade, civilian deaths",
+        "aspect": "food",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "153 Dead After Sudan Drone Strike Hits Border Market in Abyei",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMHJzQ1dpbkFlMVVTdVQ0U0NZbjhhUVM0S0lrb3FVVjRNQ2EtYUVmdkNHVU5KUGl2bWVTbFBaZXJBZ3VFVlZMTWxaaE1tYlNBZXJyU2phQVZUWUxxS2RFbzBuVVZxVDJlY3dKZTY4LXJ1blJJTXZHYXIxczQ1UFdzWWtiWFNadGJpTVZKNVNDVUd4ci00TkQw?oc=5",
+            "publisher": "Latin Times"
+          },
+          {
+            "title": "Drone strike kills more than 150 at market in Sudanese war",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZHdPdHJvbUlsMVFnY29MWXpHZHZJQjN6dXRoVW5vVmp0Qng5ZjItd25wZ014Y29EMGFOWDY1b1JWdV9lRTcyS21leHVzNUQ3aTRDMU5wLTlqUXhoYXRuTkNjZUVVTjF1dFYyMzNLM0tieU9VNWhVUzJILTdWT3MzQ3VUc3Y5cGkxVjhpN3hXcGZielpTU0xITVo4eVpnRUU?oc=5",
+            "publisher": "The Guardian"
+          }
+        ]
+      },
+      {
+        "id": "airstrikes-kill-civilians-in-west-kordofan",
+        "title": "Airstrikes kill civilians in West Kordofan",
+        "when": "2026-10-21",
+        "place": "West Kordofan",
+        "lat": 11.5,
+        "lon": 28,
+        "what": "The Sudan Founding Alliance says airstrikes in West Kordofan killed 21 civilians, adding to the violence pushing people out of Kordofan.",
+        "via": "new flight from violence",
         "aspect": "security",
         "flow": "into",
         "sources": [
           {
-            "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
-            "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
-            "publisher": "BBC World"
-          },
-          {
-            "title": "Drone attack in disputed Sudan-South Sudan border region kills at least 153",
-            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVVRSM3dyWk9CNTlUcUJIemVkUGlYTGt4MUE2eTJCaDBXX2I4NGY2WUVsbDIySWdpSWcycVNXSXVVUzdEMnYyb2kzT3daTVRfdHh5S2tCbnpQVGJsUHVlRXh0MHdhMkVwcXE1M1AtSGFvZWtkTkNTcGRhTEhlcEhORW5PeC0zOGRCSVNJTEI2UWJsWXRrblBUbUE0Y2dYYjNfTl9EcE9iMjlLajFQOXRPOXdwZ2doTWgt0gG-AUFVX3lxTE9NVHFQd3NYVTBVWEVBUlpNVGpKODRleFF5cUxHRl9qYkNKWFlqMV9PNXNDTFFobnR6RWx1ZmpKVXdnQTJlZFVIaHNMWUZuRE1LR1lab2tCZWtsXzJldEZmT0pyQVozdHR0SU8tYi1YTk8xN0FaTnozd0lETVNvNWpKbFdxRFZJajM0d2xST3RjZmc1anc0M1l5TFpSMENWYUtmSldUal9uektKZFh6QjdHM0FKQVNDRTRpdHZTMEE?oc=5",
-            "publisher": "Al Jazeera"
-          },
-          {
-            "title": "Sudanese army says deadly Abyei drone strike targeted RSF fuel supplies",
-            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTnBVbmx1ZENxRDNjaVRHelRSakdaZHY1cDR3RjVidnRCRG1SdTd3SDdNNHJjSmJEWDctVndob09OTDZvYUZwSmc4TDZobGg2QUR5WVJTRFF1Wl9Pb251U0IwQXJWQ25iLU9RSF9vLTltWGxZemFRREh0Ymw5MTgwdU9JeEoxY25mRVBKTVoyMmRkekJyS1ZPUmZHSEN5c2RX?oc=5",
-            "publisher": "Sudans Post"
-          },
-          {
-            "title": "Sudanese military source acknowledges Abyei market strike, claims site supplied fuel to RSF",
-            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSkwxN1U0MTktb0txUi0tMk0wdmF4c2lqd1hORUpjMlBnYVl3Tmozb1hiTjUtN2tYSmZ5a2RmcGd5em9pbTJhYUIyMFVDc0IySGk0YUp0Z2xacXVWUEcwbmk2TEZ5amk4RjRJM010VXg5bUVodHJaYXYwbVVjeElvVFgtd3dBd3F0cVkzbHB5TDZKOF9KTUYxb1dmRXI0bzdpaGVQYUZ4NmZ4ZXVoTVVxa1Jn0gG3AUFVX3lxTE1RbUZKbUlmRnJUTWQ3NnA5TlBZeWo0cV9GZ29uYVBnX1BjWks2THlnVXFfMW9ONV84cEMtclRIWlRsMTZLTG5Db0x1blZjRjlUOVBLX2c5RWR3dVkxcmYxNGUzZkZNRmcwSDZFNHRzdUREUldkTkRWajFVbFJuZFJERzVRZjcyb24wenpia1lOTkxLNkxWOWRVUG5PXzYtUHJ1RDFLUnppYjBXWFVrNENKUEVQdGhWWQ?oc=5",
-            "publisher": "Eye Radio"
+            "title": "Sudan Founding Alliance ‘Tasees’ claims 21 civilians killed in West Kordofan airstrikes",
+            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcW9fSWEzdWtINDFtQ0ZUNGlSRC1PVnRRbEkxRHBYakdUTUNFa1NPWHFNZVZjQ2FfVVFQQWRHREx1RzJfWWJscW9yMm9lNWI3dHRVakhid1RfS1g0NGs2UVA5dDJkX1ZydC01c2VEOFZ3RncxckZ0em84bGVqVVNFeFZESUVBRndpMTB0aGNSRkhsSi04SG9EaVNpS3pFZmVPM1hST09HaGpScjEwQ0ZWcFlQclBKOFdhbTNWVzItOEVuc3IyajJidEZYbUpoeE0?oc=5",
+            "publisher": "Radio Dabanga"
           }
         ]
       },
       {
-        "id": "volunteers-bury-600-bodies-in-north-kordofan",
-        "title": "Volunteers bury 600 bodies in North Kordofan",
+        "id": "drone-strike-on-refugees-kills-aid-workers",
+        "title": "Drone strike on refugees kills aid workers",
         "when": "2026-10-21",
-        "place": "North Kordofan",
-        "lat": 13.18,
-        "lon": 30.22,
-        "what": "Volunteers in North Kordofan report burying around 600 bodies, pointing to heavy killing in an area that more than 300,000 people have fled.",
-        "via": "violence forcing people to flee",
+        "place": "Chad",
+        "lat": 15,
+        "lon": 19,
+        "what": "A drone strike on Sudanese refugees in Chad killed five people, including two aid workers, threatening relief delivery to people already displaced.",
+        "via": "fewer aid workers, refugee risk",
         "aspect": "displacement",
         "flow": "into",
         "sources": [
           {
-            "title": "'There is no life left': How volunteers buried 600 bodies in Sudan's North Kordofan",
-            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZWN3MGU1N19GY2pmcTFHdHBSX0dtQ3R4eWw3OVJvS2hsN2dyb2g5TXNWTjdxZ2JDV2M3SF94bDE4LU9tdlVBRHFIV2VyVUtwNm1fZnhIR2hPRElXVmppYXZYVDZ6LWwxbDV5UVBhc3RqQkhFVi1aeUl5YUFNUTRjRHotc1lhT2ZrRUN2a09IdFlXQVNnMi1YOHQ2QV9nTEV0Q0ZOUUJoQTgzeXJp?oc=5",
-            "publisher": "Middle East Eye"
+            "title": "Five killed, including two aid workers, in drone strike on Sudanese refugees in Chad",
+            "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1iTk1sSmVPQWhFTVJyTEJuU05IQmNBcEVqQU5jcld2M3MwV3lvSHQxX1diMHZoUFdWM2tIZGk2VVo3cnlMZzVScnQyWDNPdXJ0?oc=5",
+            "publisher": "Sudan Tribune"
           }
         ]
       },
       {
-        "id": "geneva-talks-held-without-army-or-rsf",
-        "title": "Geneva talks held without army or RSF",
+        "id": "geneva-talks-draw-27-delegations",
+        "title": "Geneva talks draw 27 delegations",
         "when": "2026-10-21",
         "place": "Geneva",
         "lat": 46.2,
         "lon": 6.14,
-        "what": "The UN and Switzerland met mediators in Geneva to seek a ceasefire and transition, but neither the army nor the RSF attended.",
-        "via": "stalled path to ceasefire",
+        "what": "Mediators, the UN and Switzerland met in Geneva with 27 delegations to push for an end to the war, and the UN envoy said there is no military solution.",
+        "via": "possible ceasefire and access",
         "aspect": "politics",
         "flow": "into",
         "sources": [
+          {
+            "title": "Sudan peace talks draw 27 delegations to Geneva",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNT0plU2M3cGtVVHVNZVc1alJNMlNZSzNRemN2YjBMbTVSeVJ4YkRIZDh3SUp6YjlxX1hZcU9NNkVaUjJ3Qzd2UHpSVUFUbEFsY3hOOHVtVlZCMml3a3VHYV91QzExamIyRTNKbkJvNHljaWZTcnpRdEJsTzNoRlBZdmU1dkIyRTdBNTRqS0FoMXI1SW5qSS1jSG9IUlE5WEsw0gGmAUFVX3lxTFBxV1VhR3MwRzM3RXpmWHpuZTZweW5TY3BOM0gxNWQ5TGR0YWoyLUJDNFBBeEF2ZnpGOTdBUUxlaFBmRHQyWjlYZmhfVGdWU1U3dXcwa1lIWFd2T3J2TTRtWk5IbjAxRkRiQlFxaWF2cHNMSkljM3cwbzhIWTJyTE5acXA5MEZ1X24zNzEwSTVTc0h5amFFdEl5dzM4MVF1NFA5bGRRTGc?oc=5",
+            "publisher": "Qatar Tribune"
+          },
           {
             "title": "UN, Switzerland meet mediators over Sudan crisis",
             "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0wbXpkQkVCMjgyQjRwa25JNHJrM1ZKLVluMG5QejNjQkM4b1FkX1o4bWFpbm9iVkM5aFJxSFEwcG9wNm0xcHNFRU5SSkNkbV81V1hqOVVqU25oekt6Qm50U3JJODRLR2VpejJ6WjBDSVZ2MDMzMWZ5bHRUQQ?oc=5",
             "publisher": "Peoples Gazette Nigeria"
           },
           {
-            "title": "Geneva talks seek coordinated pathway to end Sudan war",
-            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT0JySTFVNVpEVlhqTU1feEVtOEk4aHFZdVdJQ1FXZHhtYW9CZFBlR0lYNkJrdFJmNVZyRlFVZTZmdHZ2UHJrRGI2TjlSMDlHdDlWNkJLcGhjLW83RkV1Qlg2b0txWEc2WjJTZ3oyT09SaTVvNDdlN0hmOVhZc1R5SmVDNHBFd3hKWnhuaHlKNVBhUE9pbTdzUnBLSE1WRjFBdWNoOVB6WVNJUQ?oc=5",
-            "publisher": "Channel Africa"
+            "title": "Mediators gather at UN for push to end Sudan war",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNY1hfZDU5bHVITDMzWEhwQk5CZlYwYVVPLW5xQnNVSlBhWEcteEFqYngxNlZ0QzljMXloTWo1V19pcnhFU2NONUpZcHo1X3ZaQk9sbDJqYzZGODVQRkF5Q0NKZ2NrYURaN0RYbmtRdm9MeVhrQUhZMjhPS0pCNDBnNVpvekxhZGtWSldvMXByWVhpdUoxZDQ4?oc=5",
+            "publisher": "SABC News"
           },
           {
-            "title": "The UN demands a ceasefire and transition at a summit in Switzerland without the presence of the Army or the RSF.",
-            "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNQ1BzcWlWRHdvWTZobFQ5bUYtc1dIRWJMMEcyR1FSekVxeWVaRjdiM1BvbG9DajNfTjVWSkkzZG5pbmV6THd3ZVlxSUJiSG56WWt0cnMxNDBnVE81UThYR0dWaWp6V3N5VXZHRVJzR0E2MUhDTDE4dWNWazloZnl5UEJTN2pIWXJZNFMtU2pRR3p0dkI0TGZGUklpUnpMVVZISEhhNWZ4UmxjeTNjN1ZSN2JBei1mQVRwbzctdF9sUWJmdlZxN1lnWnQ5YTR5VVpqTnI4RzdqVzhfRnhlWjdRYjJfQUR0blRDZTkwZGIwbnbSAfABQVVfeXFMTUNQc3FpVkR3b1k2aGxUOW1GLXNXSEViTDBHMkdRUnpFcXllWkY3YjNQb2xvQ2ozX041VkpJM2RuaW5lekx3d2VZcUlCYkhuellrdHJzMTQwZ1RPNVE4WEdHVmlqeldzeVV2R0VSc0dBNjFIQ0wxOHVjVms5aGZ5eVBCUzdqSFlyWTRTLVNqUUd6dHZCNExmRlJJaVJ6TFVWSEhIYTVmeFJsY3kzYzdWUjdiQXotZkFUcG83LXRfbFFiZnZWcTdZZ1p0OWE0eVVaak5yOEc3alc4X0Z4ZVo3UWIyX0FEdG5UQ2U5MGRiMG52?oc=5",
-            "publisher": "Demócrata"
+            "title": "No military solution in Sudan: UN envoy - War in Sudan - World",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMkQxeGF6Z3dtdjMyVjhOYXo3bjVJWXFZOElVQ2RKSWZUMnRXRlFLVGh0enh2SndJeUVpVDNWSUJKQW9ubTdmQ2gxdVhZcDVYRTdUZldGX0tqcFZZLWhfUVZoNGhHYWkxb09DTmNOQlFpSmVWeVd4SlFLMVB3cW9IcnNiRmdlY1VmdExUZ0kwd3lWY09kQmU0cW94WjFFQUJZV2c?oc=5",
+            "publisher": "Ahram Online"
           }
         ]
       },
       {
-        "id": "burhan-demands-rsf-surrender-rejects-hamdok",
-        "title": "Burhan demands RSF surrender, rejects Hamdok",
+        "id": "burhan-rejects-dialogue-with-rsf",
+        "title": "Burhan rejects dialogue with RSF",
         "when": "2026-10-21",
-        "place": "Sudan",
-        "lat": 15.5,
-        "lon": 32.56,
-        "what": "Army leader Burhan ruled out a return of Hamdok and demanded that the RSF surrender, hardening his stance against a negotiated end to the war.",
-        "via": "prolonged fighting, no truce",
+        "place": "Wadi Halfa",
+        "lat": 21.8,
+        "lon": 31.33,
+        "what": "Army leader Burhan rejected external rule and any dialogue with the RSF in an address at Wadi Halfa, as the Geneva talks opened.",
+        "via": "prolonged fighting",
         "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "SUDAN: Burhan Rules Out Hamdok’s Return, Demands RSF Surrender",
-            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMkk3a0xVZ3ItZmthb3NFQ3NuVEdiOXZmQURGN2lCVGdhdDZfTDRWclFYWU1Xemg3U25zYU9SbTNsQVlvbGl0S1FLQU5OaTFRaGJOWF9NRldPWWRtR3pma0ZKUzAtWlVRQVN5MUQ3LXRydHVJOVcwY2JLUFp2dnVkZlowME42b1hmWEZCQmZ3?oc=5",
-            "publisher": "ChimpReports"
+            "title": "Sudan’s Burhan rejects external rule and dialogue with RSF in Wadi Halfa address",
+            "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5NS19oT0pkeXBkVjZXWExocE1Ec1pELVhNSkk0YURFbjNPU2pTeV9vQUJWd0RsT2UxLVl4YV92RWthblFaZTNQVkZSS2ZYVElW?oc=5",
+            "publisher": "Sudan Tribune"
           }
         ]
       }
@@ -2157,30 +2209,63 @@
     ]
   },
   "spain-strike-and-snap-election": {
-    "at": "2026-10-21T15:58:46.606Z",
+    "at": "2026-10-22T10:58:03.753Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "unions-call-general-strike-over-housing",
-        "title": "Unions call general strike over housing",
-        "when": "2026-11-11",
-        "place": "Madrid",
+        "id": "unions-demand-7-minimum-wage-rise",
+        "title": "Unions demand 7% minimum wage rise",
+        "when": "2026-10-22",
+        "place": "Spain",
         "lat": 40.42,
         "lon": -3.7,
-        "what": "Spain's trade unions are mobilizing a nationwide general strike for November 11 demanding affordable housing, ahead of the snap election.",
-        "via": "union turnout, housing anger",
+        "what": "Spanish unions are demanding a seven percent increase in the minimum wage, putting wages at the centre of the dispute behind the planned November strike.",
+        "via": "wage demands",
         "aspect": "jobs",
         "flow": "into",
         "sources": [
           {
-            "title": "General strike for affordable housing: Spain’s trade unions mobilize for November 11",
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON1JfWTVKaHlUMnkyRThfa1JJbm1LZG15b09hZ0pNZnBycE9VQkhfd1VJYlRsLTh3Wm0xMkpWaDRlTU9ZUVhmeTR0VzdVT3ltNWZGbDZZSk95RFlLbjBtTzBXcDNxSWtTclRQcXozaEhXX0pDam1zeTZLWmxxb1NTMFJTdVJmS3lha01EczJYM3pGWG12cGxVV09ZaTFCSGF6dmJiZkhycUU0UGYzdjFocTdqR0dmTzQ?oc=5",
+            "title": "Spain: Unions demand a seven percent increase in the minimum wage!",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbUdrR0gtRm9FNG9vNGhBaDVkMFNpdkhLTHZsMXNVMW5WYVNOVkJiYXlGYUswLWJIdXBaeHk0THV6THBZeEYxZTdOZEdlcVRFVXNIS1M2TDVwQkNMSzY2em56YU5WNXZFUmNxa2pLRlRPTUZhNmhNYVBBM1JGSjFyWXB4QnEtTnAwa3p1Z1psZHowbWc5eUhhSGpvSUNJTGM?oc=5",
             "publisher": "Spanien Press"
-          },
+          }
+        ]
+      },
+      {
+        "id": "housing-protests-follow-defeat-of-government-decrees",
+        "title": "Housing protests follow defeat of government decrees",
+        "when": "2026-10-21",
+        "place": "Spain",
+        "lat": 40.42,
+        "lon": -3.7,
+        "what": "Housing protests have spread across Spain as pressure grows on the government after its housing decrees were defeated.",
+        "via": "housing protest momentum",
+        "aspect": "living",
+        "flow": "into",
+        "sources": [
           {
-            "title": "Spain Announces Nationwide Strike November 11",
-            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdy1zQkhiaDU1QWtyb01Wem5oR0VFREpYZ0ZBQlo3M2RKY3pkVnJSZnRuNWxfOTdibV9reWJrUjhnMU9odmJkNDVEVlNhX2hjWXdQTHB5MUlLaXM0NmloLUtlaUl2UTlsMFBHR3N0QV9QQkctZjcyNWVMWERDQmtzLU90UF81MWNqOUJDblRKRllMUQ?oc=5",
-            "publisher": "Rus Tourism News"
+            "title": "Housing protests sweep across Spain as pressure mounts after defeat of government decrees",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPR0F5LWtyaXRCNXB3eUJiaWJ5X2NZbWdmd1FfOHZIUVFXYUVaVVBMaGY0a0lEb2dxUjgtd3dib2NyX2ozRXg1LWNlc29FMnVhYjR6b3VEeWJFOWJkU2xSNDVnNGo3WWY5MU1qeTRkQ2l6SU05bUNIMlFtNzVLUHpDWTRJcHNDS1FCaE1abFFXMkNrRXBDZWdCWHc1Z21BZ3cxYkFCVllmNEpaRFpqNFZPNTRwUXp5V0tZLUNlR3FsdS0?oc=5",
+            "publisher": "Spanien Press"
+          }
+        ]
+      },
+      {
+        "id": "ceuta-migrant-crisis-fuels-anger-at-sa-nchez",
+        "title": "Ceuta migrant crisis fuels anger at Sánchez",
+        "when": "2026-10-22",
+        "place": "Ceuta",
+        "lat": 35.89,
+        "lon": -5.32,
+        "what": "The migrant crisis in Ceuta is stoking public anger at Prime Minister Sánchez ahead of the election.",
+        "via": "voter anger over migration",
+        "aspect": "displacement",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Ceuta migrant crisis stokes anger at Sánchez ahead of Spain's election",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTHJiVm1JTjhoTjRoSy1jRlRwS1NSN0JtdGM3Rk5qeTRvY3RoRkVPeHZldU5VdlhNLXVheHF5Zkx1YnNrazYwc0VMazZmWnU5N1ZtMFhhN1NIODNON2VhVjhJQ0RPamRtS3BfSFlhbDdJNVBnY3VkVGRpeGlsTVgwalR6WGFkOVNCN1czX21yR0ZjUnZJejU5ZkdscGN0dkpyUDI3OQ?oc=5",
+            "publisher": "The Local Spain"
           }
         ]
       },
@@ -2191,88 +2276,45 @@
         "place": "Madrid",
         "lat": 40.42,
         "lon": -3.7,
-        "what": "Argentina's president Javier Milei, visiting Madrid mid-campaign, called Sánchez a dictator and a thief and urged the Socialists be expelled, while Sánchez replied he was proud to be a leftist.",
-        "via": "campaign polarization",
+        "what": "Argentina's president Milei called Sánchez a dictator in Madrid and urged Spaniards to oust the Socialists, while Ayuso embraced him and Sánchez gained a campaign opening.",
+        "via": "polarised campaign rhetoric",
         "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "'Lefty and proud': Spain's Sánchez hits back at Argentina's Milei in Madrid",
-            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObE9RY0V5bmVWWm84TVRGUEtxdTJqRU8tX0ZhaFh0MExHdlZ0SC1Ob3hKTS1tWkRhQ2dZbzVnM2Rfal8xMzdtU0xOOEc5NS1fYjJzS2VuQkhnZ01IZ2dpZTYwTTllUVE3STVyYy1JQmJTejRVbEhqVEMtdDVNVDBjRQ?oc=5",
-            "publisher": "AOL.co.uk"
+            "title": "Milei's Madrid visit gives Sánchez a campaign opening",
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNm8xWnpfbVVSVkpNdE13ZnN3VkpIalotMlNBTm5yenB2bnZwc01tMnBZYm96TGtYelhCWWFNVUQ1VEVQTXd6VzgtaF82VGQwR1cyVkgzODZySGZZOGgtcS1RSzRrVjhzNjVuRHNyOG1BbmJfbzFXTWg0RVdTa0tCVHBaaHZJVnE2ZFFQVWlYNWs?oc=5",
+            "publisher": "RUSSPAIN.com"
           },
           {
-            "title": "Milei calls Sánchez an “unpresentable dictator” in Madrid in the middle of Spain’s election campaign",
-            "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRDAwQkdzbjNSZ3U5RElTTEtPMF9OemR5Q0lmOVVKVzRUT1BRRU1OLWwwOTZNUGZNd3QtSzMwY2o0QnNGQWV2M2tJRVI1OS1GWkhMQXNJc1h6WGJQQUc5YUloNi1lbnhieUNXZnBDM2tJZzlTclFqUEp5R3NvQXdKa3ZrZDhVbE9NdGFVRnliWnNEVGhVdUtCazBwZlZaMTFWVGFGVHRyU3RvRV80S3piYzBwNXlRY0VWZDhpaVZEeUx3MVpfLWw0NHJvdVU5VGpz?oc=5",
-            "publisher": "MercoPress"
+            "title": "Milei calls Sánchez a 'dictator' in Madrid & tells Spaniards to kick out Socialists",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVlpPM1UzM0ZVZnNRV3d2dWloaWtvQUR6b2puS1hlV1lxZmt1dEdLT256NUhSRFc3YW5tMGZCZk80S0g2S05FTmFvVW0ydlJ4ajlIeW80eFlTR2VyVGZaMDE2U2dJdXZMVFFfcjA2MF9iSkdvQ08wcF8zOV9QdmU0ZExqQi1mYXBaaEw0R0RYdlBEMVlneXNmcUxFbzg0R3NzMGZ2cjVaRU5aYWxGOUV4Yg?oc=5",
+            "publisher": "Latin Times"
           },
           {
-            "title": "Milei lashes out at the Spanish elections: “Sánchez is a dictator; the Socialists should be kicked out”",
-            "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNUUJqNURfTzRGTHRVaDg3d2dwQ3lyU1plVGhnYWFFUmZCdnUyQTFUWnRaTmlQNzFJYTNxTms1cVpRZTZ6WmNNdk5ENGJzM2p6ZE5FMTl3TFQzbW0xX3FBR3JYM0czSjVETHBWVlRmTUNwMy02VmVkOGNKaGdiQnIwRmJoUDJ3UXhkUjY4ajRSWHN1aUlVVmJ1TjFTMjAwM0ZpVG1YczIyODBPeFFYR0dCNjVITDNUTUdIMVFyaWlLZHBydGp1WmlhMDc0VjVTalJ5NUhkbkJCU0JGa1UtQWxlQ0xkbldWTkhmdzdTVHFzbG4?oc=5",
-            "publisher": "la Repubblica"
+            "title": "Javier Milei monopolizes a day of pre-campaign amid praise for the right and electoral ammunition for Sánchez",
+            "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxORDJlUDU0eUxHMVhLRlRhaUk0c2hnaDRNT0E0aENOeEt1RWd2dWhRUlNwM2xiY09CcUJxTktQcG1HdjlSUTdhdno1YXlUMnp4aDhQa05xUC1zWnp1TEluQVdFUTdmS29YczRxTjM5T19tLWpKZ3FKWkRkMU9xTjJWYmktWWFfbF81YkdWNE9mc1J2aDZQbnhyUVRsMHpRdnVzdkJHbXdaWUFKejZRNmdaVzgtN2k0akRNUlhKaWt0ZWptU2YzeHY2Z0paS3RmUklXcnRrMnBVNU1RMEdXcC1YcHBmZW1LLUlUZXhCWWY2QTFiQkQ3azJ3ODdn0gH6AUFVX3lxTE5EMmVQNTR5TEcxWEtGVGFpSTRzaGdoNE1PQTRoQ054S3VFZ3Z1aFFSU3AzbGJjT0JxQnFOS1BwbUd2OVJRN2F2ejVheVQyenhoOFBrTnFQLXNaenVMSW5BV0VRN2ZLb1hzNHFOMzlPX20takpncUpaRGQxT3FOMlZiaS1ZYV9sXzViR1Y0T2ZzUnZoNlBueHJRVGwwelF2dXN2Qkdtd1pZQUp6NlE2Z1pXOC03aTRqRE1SWEppa3Rlam1TZjN4djZnSlpLdGZSSVdydGsycFU1TVEwR1dwLVhwcGZlbUstSVRleEJZZjZBMWJCRDdrMnc4N2c?oc=5",
+            "publisher": "Demócrata"
           },
           {
-            "title": "Argentina's Milei calls Spain's Sánchez a 'dictator' and a 'thief'",
-            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTnhRUy1EeVF3N0htMFNoRHV0N2FLbV9FYmVLNUVPYzJaa2JGeXh3dzJBcl9PaEtnUnpuM0NNNV9hbUlCZEJrRXUxVVloMUEtZHloNDZsVlJhUUFKNlJ1Q2NFSlVtT0ozTXlpYTVkaXVMLVhpem1OMWJlVkQ2QXd4d1kxNF9aQzVIM3RxclZta1I3QTdoZmw4?oc=5",
-            "publisher": "Yahoo"
+            "title": "Argentina's Milei calls Spain PM Sánchez a 'dictator' in Madrid visit",
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOWtZVDhsQXZoMnNueUd5ZXdpWE05LU5tT1I2aDFYSzRVdzRxZ2c3RXpMMS1XM25fbUtCRlRIclRkUmVfUFl5ODJsaUhkSEdIMXZTVVhQV2dmNDhLVFBUakhYZmZtVXZILXViR29yTnFkZXJCTHFpQXlnMzZJQURSTGNSLXdvYjlCSVdxeUxuX2lvOHh2OXhQQXlEWGRHQQ?oc=5",
+            "publisher": "Courthouse News"
           },
           {
-            "title": "Argentina's Milei calls Spain's PM a 'dictator' during Madrid visit",
-            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVGhRcnV3amo5c19vU1pBaWQtWmdfZEVpM1Y0NHduVkFzak9ERGh1aWNCdXFUOEdVRW80WGFDZ0w5czNRRjlzNkkyRFE1aklOc254c0RtclNPUDF0Tnd3NGt0NkZycUhDQi1XVmY4NTdXWDlQSkVtVy1SS0JuVGZ6OTZVRlpkb2FfbEF6dzI2RDdTMFlFR0R2Nl9JazA?oc=5",
-            "publisher": "The Local Spain"
+            "title": "Milei attacks left-wing leaders Sánchez and Lula during Spain trip",
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeW5hMzFyTFhNQlNBNW94bkhRVjRkVExpejhDOWM0SmhxdUhNdWNGMGlJN2gzS2VrNFBfNHpyMEJqdkR0aGpBbDNDUnpseXVjeHB4UnJZMGEySlBOU0lWcjdPd3d5a1pvYzYzcUVQVmtXRkhjMWptdTNuVG1peVRBRkxGaXBDZFplQV96d21xczlvdHJLamQzbnN5aTlCVTduWHZpc2FuZXQ?oc=5",
+            "publisher": "Buenos Aires Herald"
           },
           {
-            "title": "In Madrid, Milei calls Sánchez a “dictator” and a “thief”",
-            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdzJmUUdzUllRbk9tUXIzbm1ObHVVOVRSWi1WZUFMa3ZVYlF6Y0dPVWNQRDBTRjFwSGdtQm4xZFZxN2hEVWNXdVJQbXZ2SWlHZVRDSTc1TzZCaGRRX2dtTWNkMTBkQjRUc0hLQ21BcGJFT083U0JrLTlIdEtOcVZKQ2w2eXhEVGdEX3ZLOFB0bWhXWEFvOHc4cC13?oc=5",
-            "publisher": "blue News"
+            "title": "Javier Milei Calls Pedro Sánchez Dictator, Urges Spaniards To Oust Socialists In Madrid: how 20 outlets framed it",
+            "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOX1hhcWt3czFHWWh1ekVwanQtNjFsd3FPbjFKU2RfUjlVNWVhWXN2dVlOS2pMbWE1NlgzNWhjQkRsOEs5WENFajhSUWZXNzlKdl8tTUhONFpsNkg0TnhMQzRWaUVscXo5ZnMxWGJpTWFmM2xvMk5jajJVRUdJYkwtUlA2SlR5V3hjS0s4cFJWLVI0M3UwOHl6S2M1S0pDTnNVbzA4bHk3NUxESDRhekY0RHE4UHN6VFVJak1jYmtDd2Q3RkswOVBTVFBWMWF2alU0cHFuN3RlQUxKQTVuVldUUFRvTUN0d0hKV3c?oc=5",
+            "publisher": "NewsCord"
           },
           {
-            "title": "Milei calls Sánchez a ‘dictator’ in Madrid",
-            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPa0JaakxabUVMWHpuVnhGb1hKMDdtVjk5NEtXSGxLVFNyWER0ZklHWlBBN0JTN0dkRUhaLUxSQ2NFM3plLUtTdFdVZVZEWkxBRV84ZndLQll4M21keGNfNVUzcTBLZ05qMVAxOE9UVXNoZ1k2VHBNOF9hUmpmNUVBUQ?oc=5",
-            "publisher": "Brussels Signal"
-          },
-          {
-            "title": "Milei labels Pedro Sánchez a \"dictator\" and calls to kick the socialists out \"with kicks\"",
-            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd2cxVF94dHNWUG5PNHkyNWVJU182Z0RTcnBvcndkR2lHdTQxX3ZMNFB4UjZUeTUybFRjQ1dIdWFzc0NlSFY2VUZTNzBlbHVZd2YwdUE3ZlNtcjRzVWdOMFpFYUZJUzd3czRHdTJNd0hUc1gtOFNGLWROWUNCbEw5dTlPQi1yVFlCN1BLMUN2dmtBX29JN015YXZlUEI1N1lTZjZVOGllTjRudw?oc=5",
-            "publisher": "Diari ARA"
-          }
-        ]
-      },
-      {
-        "id": "pp-and-vox-seek-senate-control-pact",
-        "title": "PP and Vox seek Senate control pact",
-        "when": "2026-10-20",
-        "place": "Madrid",
-        "lat": 40.42,
-        "lon": -3.7,
-        "what": "The PP and Vox are seeking a pact to stop Sánchez's allies from controlling Spain's senate.",
-        "via": "opposition alliance maneuvering",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "PP and Vox seek pact to block Sánchez’s allies from controlling Spain’s senate",
-            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONV8tbkVCSFBaNmlnS3hoQ2p6bUh5TDlRYWNMWEpaVmpKYzJYMEJtTWlBRUJLd0lGWEpXNzZBanE1NXV2Zk96WjJ0MlQwM1U2SXY5a0Nqc0QyakoxR0NSdENfdjd1amo2VlIzLWlERGZXdzBRVC12ZWYzYTFNenF5VTVDblBlRmZhbkpoYlo2NnNZcTJhTl9lLXZJcW5pLXp0aldSNlZla0d5Z0JvdnNVV0VTbHN3QQ?oc=5",
-            "publisher": "Euro Weekly News"
-          }
-        ]
-      },
-      {
-        "id": "sa-nchez-jeered-in-flood-hit-town",
-        "title": "Sánchez jeered in flood-hit town",
-        "when": "2026-10-21",
-        "place": "Valencia region",
-        "lat": 39.47,
-        "lon": -0.38,
-        "what": "Fed-up residents of a flood-hit town jeered and insulted Pedro Sánchez during his visit, reflecting anger toward the government during the campaign.",
-        "via": "voter anger at government",
-        "aspect": "displacement",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "‘Son of a B***h!’ Fed-up Spaniards Jeer Socialist Pedro Sánchez During Visit to Flood-hit Town",
-            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNDN0WExLMzFVWExVUGkzS3dPLS1Zd2IzZTZ4OXF2YVZfYjQ0NXlHbVRoSmUxOHczMHA4NjJCSXZfZXVnNlAycUIxQlhVQUNzYVR2Qk9kMC15bkhhWS1nbGJOS0VVN0tmNEwwcmExVGxrQlFneFR3cjdlVkN2OTJFMlhGd3p3UzMzVGp3OFJaV0g5aDZrS2UzQ01mZ1lNS3ZyMzJWWnpGMnBsajRkUHREWi15dTZNRU9EZ0FMd1VGd1YtZ9IBxwFBVV95cUxQQjM4ZU1jbmdDTDZBUF9IZTVOMGFfcjgyYkFZTTJBMWV5Q1EwRzBfODlYd2hsSTR6Y1JPQ3VrWVZmRHR0SEEycUlrVVRYdVRTeXo5bVZxSjA1Q3BsbXhyckR6ek9ld04xblZTeXpSRGlhSkQ5TThMLXhEajNsX0ZodUFfdmJ2WVQxS2tJVjlDTVQ4eURDYXhhWndodkRVNzZhNWNmWFl4ZU9RSm1yS2picENNaGg3aWtVcUZseGVYNEhCb29qaklR?oc=5",
-            "publisher": "Breitbart News"
+            "title": "Ayuso embraces Milei in Madrid hours after the Argentine president called Sánchez a \"dictator\" and \"thief\"",
+            "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPVng0RVhMbTBOSlg4Uk5JSFBfa2hUZmQ1WWhnc3d0OHF1bWpqVDFsdFhwX3FYdk0wY01zd0dWb2w5c2R6LWxJMGE4b1NKbmo5V0l2UHpxczRlTTF5Zzg1WTF3aHJlUzVwYWU3bnN3Mi03OTlUNGpDRDRqWkxUdzlEQmcwbVd2bkZhU1g0dE5UY3RnWEpyZ1NfR1hVZFhKYUJja0pnYS1ZSFU4N2ZJZXBnZTE5Q2J2bVNNaHBlX3VUTW5CZmVoNHJrVkhFcVBWUFZTdWJGdHIxLUZvX2ZXQ3MyZTVJTEZ2M2FGV2pjak5iN2U4V0YtdEFSREhKZ1Q?oc=5",
+            "publisher": "El Constitucional"
           }
         ]
       }
@@ -2386,57 +2428,62 @@
     ]
   },
   "venezuela-oil-reopening": {
-    "at": "2026-10-21T16:02:08.237Z",
+    "at": "2026-10-22T10:58:03.753Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "venezuela-resumes-diluted-crude-exports",
-        "title": "Venezuela resumes diluted crude exports",
-        "when": "2026-10-20",
+        "id": "chevron-commits-7-billion-over-five-years",
+        "title": "Chevron commits $7 billion over five years",
+        "when": "2026-10-21",
         "place": "Venezuela",
-        "lat": 8,
-        "lon": -66,
-        "what": "Venezuela restarted exports of diluted crude oil after a 15-month pause, according to a document cited in the report.",
-        "via": "restored export revenue channel",
-        "aspect": "trade",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Venezuela Resumes Exports of Diluted Crude Oil After 15-Month Pause -Document",
-            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVzB4NHBWMHJWd3JkeGtncFFvUnNQUUlydENIOVRwNUF1QjFicWRXbnBmUUw3czBDRWRVQlJFR0VUMXVqUlRvSnBlLXpLX1NaeC1VOFB3WWQ3T3RlMzAtc2tJMGxYcnE5OGVETVNRRWNhLUdYcDdxOFItY2s3UjZWZmNITzhjbnhnZk1xMUhQNHRQTEZPZmY1b1hZVEs1V1Q2S2lvMm5wX3ptTDQ?oc=5",
-            "publisher": "EnergyNow.com"
-          }
-        ]
-      },
-      {
-        "id": "chevron-expands-its-venezuelan-position",
-        "title": "Chevron expands its Venezuelan position",
-        "when": "2026-10-20",
-        "place": "Venezuela",
-        "lat": 8,
-        "lon": -66,
-        "what": "Chevron widened its footprint in Venezuela, adding to the foreign company commitments behind the touted oil investment.",
-        "via": "major operator capital commitment",
+        "lat": 10.48,
+        "lon": -66.9,
+        "what": "Chevron will expand its Venezuela position and invest $7 billion over the next five years, funded from revenue of its existing operations there, according to its CEO.",
+        "via": "large private capital pledge",
         "aspect": "budget",
         "flow": "into",
         "sources": [
           {
-            "title": "Chevron Expands Position in Venezuela",
-            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE90eEh6dzBKS1JkTHNGa3U4d2ExSU9kQkNZNXV4N0VPa3FPenM4dmRtQjFFOUlyem5ibUhWLV83azEyR3d1eWpqeVZscFVxMlA4VGZFRjM4NHd1djNJd1habHRhUnFTQXR4bVh4Sm92NUNJTWpabjVz?oc=5",
+            "title": "Chevron to Fund $7 Billion Venezuela Investment With Revenue From Existing Operations, CEO Says",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZ1l2SXR3RE5wOFp0TkF3VHhfZHBEaVFhV2w4V2w1SWk0bkpJMDdWVFp5NFFkVjVWcGhiVi12UHlTTjl2azdiRmdfN1RZRzBCN1l3NHBpdE82My1XanZHbEdkeEw3dV91ampDSXpBbHdmMFR6aWxSUHBFWjBQVHZEMVhEU01ieDFDWlZCSG54eHBSWGdVZm84OHFfQ2s1eWFEbVBZdDRGYl9xN0ZESWNjbHZVbFJxa0J3V2dKa3o1elpFdw?oc=5",
+            "publisher": "EnergyNow.com"
+          },
+          {
+            "title": "Chevron Expands Venezuela Position, to Invest $7 Billion in Next Five Years",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQS1M3dHZrMW84MDZreGpKSGN2QlMybjBmeHMwNW40bjF2MWdjUE13dWVHSTZPaGJlaDZIZFlJMGVkZGh2MHZ5cGptbkpPNVZGdlVyUjVQbU5hVlRjQ0ZneFA1NkVUWEs0bzU3S1hGS00tY0xjRDQzX0VISmNLSE9ZblNnNVhQZ3d6UXI3Mkd0M1lfZzc2T3A5N2V5QVRXZmFmckNsYmxJdw?oc=5",
             "publisher": "EnergyNow.com"
           }
         ]
       },
       {
-        "id": "uae-and-qatari-firms-join-bp-led-gas-deal",
-        "title": "UAE and Qatari firms join BP-led gas deal",
-        "when": "2026-10-20",
+        "id": "continental-resources-signs-block-deal-with-pdvsa",
+        "title": "Continental Resources signs block deal with PDVSA",
+        "when": "2026-10-21",
         "place": "Venezuela",
-        "lat": 8,
-        "lon": -66,
-        "what": "Firms from the UAE and Qatar made their Venezuelan debut through a gas deal led by BP, widening the pool of foreign investors.",
-        "via": "new Gulf investor money",
+        "lat": 10.48,
+        "lon": -66.9,
+        "what": "US producer Continental Resources signed a deal with state oil company PDVSA for a Venezuelan oil block, adding to the stack of signed agreements.",
+        "via": "new signed oil agreement",
         "aspect": "energy",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Continental Resources Signs Venezuela Oil Block Deal With PDVSA",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeTNKVE1KQ1dOTnMxRXNxdWxZZVlqWm5qaUlyUW9wajMyOUlTR1FlTXoxTDVIYWMydGRuUU1FWWtpYWNMdGUycFBGTUpsOGFlUExYZFdwVUpGblFYWGJ1V0hTZ2xYUlhoajJRa0oxVjVaWjhaNjhuVVhDWG9YdjNZNmpnSGtDbEh4bmt5VQ?oc=5",
+            "publisher": "EnergyNow.com"
+          }
+        ]
+      },
+      {
+        "id": "uae-and-qatari-firms-enter-via-bp-gas-deal",
+        "title": "UAE and Qatari firms enter via BP gas deal",
+        "when": "2026-10-21",
+        "place": "Venezuela",
+        "lat": 10.48,
+        "lon": -66.9,
+        "what": "Firms from the UAE and Qatar debut in Venezuela through a gas deal led by BP, widening the pool of foreign investors.",
+        "via": "new Gulf investor capital",
+        "aspect": "budget",
         "flow": "into",
         "sources": [
           {
@@ -2447,60 +2494,64 @@
         ]
       },
       {
-        "id": "us-energy-secretary-heads-to-venezuela",
-        "title": "US Energy Secretary heads to Venezuela",
-        "when": "2026-10-20",
-        "place": "Caracas",
-        "lat": 10.4806,
-        "lon": -66.9036,
-        "what": "The US Energy Secretary was set to arrive in Venezuela to tackle oil sector recovery, adding political backing from Washington to the investment push.",
-        "via": "US government backing",
-        "aspect": "politics",
+        "id": "caracas-asks-oil-firms-to-bring-own-power",
+        "title": "Caracas asks oil firms to bring own power",
+        "when": "2026-10-21",
+        "place": "Venezuela",
+        "lat": 10.48,
+        "lon": -66.9,
+        "what": "Venezuela wants oil companies to supply their own electricity for their projects, setting a condition for how new investment will be developed.",
+        "via": "self-supplied power requirement",
+        "aspect": "energy",
         "flow": "into",
         "sources": [
           {
-            "title": "US Energy Secretary Set to arrive in Venezuela with Herculean Task of Oil Recovery",
-            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTk1kaVlzSjN5aWtIaXZFdjY3LUVoSnd1ZkYyVGFTUmMycDZGbW5yMi1xN2Y5a25mSmxkeHhXWnZqT0VOSG9fUm84ZmZIczlnSzhJNkoyNjVRVWo0aEwwVmZzTFREcXZtajFMQmNhTEVQMHVzOHo0ZmFyMzc0dFE0TkFlcFZveFdpa1JXSGQ1R1F4aXp4ZllLQmFnMm1LeERSZkxWQkxzTnMwR2Jyd3piTjdsYw?oc=5",
+            "title": "Venezuela Wants Oil Firms to Supply Their Own Power for Projects",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYzV0RVhpWmM5X3FKMUVGNGdHMjZzVENKLUlaWnROTTBSR2pfeWh5a0t2QzNCVllwb3dvSnozLTZIQ0VuU3dKcVV4Y3ExRzI4S1NPQ1dCTzNvWDcxN01EVEM0S3h2ell5SmtVRzFTMmY4Y3NfOUhoeVRPcUZLeHZzUng1aXctYk82Z3d4bjRuamRrZHdVTDNsM3Z2dw?oc=5",
             "publisher": "EnergyNow.com"
           }
         ]
       },
       {
-        "id": "rubio-visits-reliance-refinery-in-jamnagar",
-        "title": "Rubio visits Reliance refinery in Jamnagar",
+        "id": "washington-weighs-stake-in-venezuelan-oil",
+        "title": "Washington weighs stake in Venezuelan oil",
         "when": "2026-10-21",
-        "place": "Jamnagar, India",
-        "lat": 22.4707,
-        "lon": 70.0577,
-        "what": "Secretary of State Marco Rubio visited Reliance's Jamnagar refinery, with talks hinted around the company's Venezuelan crude imports and wider Indian ties to Venezuelan oil.",
-        "via": "Indian demand for Venezuelan crude",
+        "place": "Washington",
+        "lat": 38.9,
+        "lon": -77.04,
+        "what": "The Trump administration discussed taking a stake in Venezuelan oil and reportedly agreed to acquire a stake in a Venezuelan firm with hidden owners and investors.",
+        "via": "US government backing",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Trump Administration Discusses Taking Stake in Venezuela Oil",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT2xRdFJUaDZpcGpQUm9qSUZyN1h5cmFnd0dlLVktOFVqanRsQ0UxSzI4MEl1YWRzLXVyUk04bWYtZk1HMUsyRmxzdV9HQW9nQVFhZUk0bFdRa3p2MVFtM3A0LU5MdUs2eHVTc3dPeEQ1YU5NR0V6Q2Q5VUREelVmdHhFel8yRUFVZmFEZk5VWWNUdzUxYnBwYkxFOFQwZ2NXQmVGZEdWZw?oc=5",
+            "publisher": "EnergyNow"
+          },
+          {
+            "title": "Trump Administration Agreed to Acquire Stake in Venezuelan Firm with Hidden Owners and Investors",
+            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1zOXZIMGRobEY1UDJWMlZXaXpJQ18zZWpXUm12eHNZbDVIX0lTMTlpQ2RKQ04xdS12YUp1YjhlRlNaRGZjY01VbXppM1lkZjM2eHlpMkJqVHg?oc=5",
+            "publisher": "CubaHeadlines"
+          }
+        ]
+      },
+      {
+        "id": "us-presses-india-to-process-more-venezuelan-crude",
+        "title": "US presses India to process more Venezuelan crude",
+        "when": "2026-10-22",
+        "place": "Jamnagar",
+        "lat": 22.47,
+        "lon": 70.07,
+        "what": "The United States is pushing India to refine more Venezuelan oil, with the Jamnagar refining complex already familiar with this crude.",
+        "via": "export demand from India",
         "aspect": "trade",
         "flow": "into",
         "sources": [
           {
-            "title": "Marco Rubio Lands in Jamnagar: Why Is Mukesh Ambani’s Oil Refinery in Focus?",
-            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYk1Fb3M2NEFTY00ySGZiV2VOdXFWcXI0XzQ2bHpJSGV4VDFyeTJDNTBwNWQzbkJZZ003SmhHbl9xNi1BOC14aV95REFZZVFlSGo5NV8wNWsyM2lyX0VwQzR6VUhVME9ONy1oQUZSYmhsdUJacG96T0I5bDJUMmt2MndtTUtOZkpyQklnT0FZbktoOEZrdHJPM09uaU96Yzltb1dZLVJjc3prOXhQZWJtMNIBtgFBVV95cUxPdnlvMTRzS2NPZ01TQlZBUVRDTm1MalEtaEpoNTZ4cVpTTXd6MlMta1dZSWRmTUd3aVBQZzhnSnJ3ZTZhd2lfR0dxelRrd19FNjFjUjdESElVSlE1aGNqMmlGNkVFekNwWmdGbWtCM0puX1I2OWRUaUh0elVac0RmZjJZR2pzbkItTEZwVEZKMlRyWGItZDlDS0RjLWNuMGRFcUpZVm1BUy11eGhXZkxpemJlc0F5QQ?oc=5",
-            "publisher": "Dynamite News"
-          },
-          {
-            "title": "Rubio Lands in Jamnagar to Visit Reliance Refinery, Hints at Discussions Around Company's Venezuelan Crude Imports",
-            "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQekdjLWdRMmtzb2gzcEZveWwwTlFRYnVtaDE3UlFrVjlIOWdYOXprSzdEaUpWR3ZyVXQxTUVyOWJJMVZOWmxGNjRtUGxYTGpyZXBzZGtRc0ExdUFwU21halZsWjdVOEFPbDRxTENNNGc3aUxNNlB3cGw3WGdZYjA2OXRGdTJNWWtSVDI2MG1lMXotdVhTaHZCRWotRk04SzU1QWhqajk0UHpfeG0zNmdOTDRzeDcxcW4taC1udzQ0TzNIeDl3aXAwRTlscDhjaXl1VWtoLVNMY0pJT0ZZZHQxVWhNTWV3bDhHOTBTdkY2alN5TG8za2FTcWFoWdIBgAJBVV95cUxPWnRoV2hkVE83dWZ5RVVBXzh0MWFzdXdPa3QtUFBRN2x4ckQtNm5UUUV5aWlNTTBOTlRNM2JBb3FoUHhqRXFqVmVqTWYyenU2NnpCVHpvOUw5aDJud01UQjU5bHp0SmRlY3liTGpsWFZnbUJyZU5VckJ0N0hwZ2U1amQ0cmxjUjQ0SGVWQXpyZ1gtSEJZM1FJc2VURk44ZWJBVElwaEZnSklESmkxUUF6WWR4ekphSmlKbGhmbmFtcWt0RFR1REN0TEJyM1V2YzFwd3Z3cmtOYUhLU2pta25hb003RXV5UGpvemJTTmhEQU1xRTc2a21qLTNZX1hraUFG?oc=5",
-            "publisher": "Republic World"
-          },
-          {
-            "title": "US Energy Diplomacy: Marco Rubio To Visit Gujarat's Jamnagar Today For Key Meeting With Mukesh Ambani",
-            "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdWpSZTZvMDJDdElZcFc2OVgzZm9BTXJvd21XdlRYa2hXM2hHN25pNnd5RHBjeHV6NkF0YWtBOWF1bm5QNHp3UmkxYXk5V3ZZQ1hqalc2RW1EUThSaE9xZWVMaXNmQlJHaWg4VU1TZ29LdWFGTTNMVVBXTFd3ZGFEWHRBVzdnUjZQYkRWaTJXNHZrRHdLNXAxSUtHY2dyRXBxZFdTQjRObjRCN2RnaG9KTi1hYU1jUzNvY2twb0FHNnJ1MVprWUJQZmY5dENwSlpwOS10aFEzOHg1NUNSbjMwNmFCQUZzYXhSZW5J0gHwAUFVX3lxTFB3V3dYb2djRGMzRHVnNHN6dnRtQzQwZWRzeGh1bHg4NjJKbFNKN2QxZ1VSblNfbHp4cnpVc0pGNGhPV2xRMDRKUTVlZXBUZHkyWFp3THVGZzJKcDlheHRaOWFtQVhZODdWVDlJY3NxMVhwNFpoNEwwRU9xa3VxQ3UzOGpvTFFWcHFiRUpyZ2ZYRVZLX2c0dXdESlRnMF9Fa2Y5aDk1Q1VMck0wa0k1ZmpLVll1N0ZsQTRYLXJHbzZ5Q0dycHNxM0JTS1ZCZHBubWc2d0lBS1VSX3JnRFhEWl9MWXllWE56OU5mb25Sdm9XZg?oc=5",
-            "publisher": "ETV Bharat"
-          },
-          {
-            "title": "US to build 1st refinery in 50 years: Rubio and Ambani meeting today; talks likely on refining Venezuelan c...",
-            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQmMyeHNoMWFMckdkUnBTU21GSXd5dmh2Rko2WG1TMERmaWZsSHBpVUMxMEM5eEtfdmJlVEw2MExSV3VxcUxzVVo0R0RLNDJzS3NXMkExNUFBZVBiSjdOVDJYdTYyYkpGWFB0YlVwUFVLSFRiVEQwWTVPcFZsUW9PQThtakphRlNHaFh1TzhJQjNyOWRCcTlPT1hjSEtpdG0xZEw0RU1JZ2xIam1GNnpIX2xQQXQwTnJBNER6bVdBSUhWMG5KZGZV0gHMAUFVX3lxTE1ZVGlFRFFuaU1qZXRTLTluODJIcU50YjFQR0FuVXZQTHpianlfOHRtT3hUWF9Gb2pNWktBMmJQOUs2Mnd4emZGN29QMFVjVXFKX2VBRmtXMW5DRmNUbnpoSUFpNXkwMWpxYndrWDNxQ0F5YkhSTFhSZWRZdlNzaGxkc3FoNmRDZHpxeWtSQVFOVi1RcVdoMnhLX09LSEZqTk4xZFJZdi05YlRuak1rUWxfRV9ZeHRVWV9TSThHTFBMdkZyUEZiXzd5WTBOcw?oc=5",
-            "publisher": "Bhaskar English"
-          },
-          {
-            "title": "US Wants India To Expand Venezuela Oil Ties; GTRI Advises Seeking Clear Commercial Terms",
-            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWjFtVHBHazhPY3hLTXVLWkdNeU5vZFBoOXRMRndJS2FUallPaDNWbTNxelFsR1pxQVZ2eEVTckw3d2g0LVZaLWZGOUc0NnozbzRsU01NTEFaWUtUWldMa1dXQ05ZNkt4bV8wMG5jSHRvcy14ellqaUJVbm11TlFhS3hqOGpsXy1OQ283SnR6cWpmUEhGU191dG5XMnl0YVlxcm8tc2pWZFRNVV9zZGVMNEZ6SFJacUN0aDBERU5SbkZnMERKU3pXV1FB0gHPAUFVX3lxTE90dkdLMDg0UGFteXcyd0lWU0VsY1o3TjR4OEtzZ0tfY3BjUDZtb1BuOHFla1hCNjVhX2pXdTdNYTByZ09Vb1k3OW5rT3lxbmk1eUFzSDBVd29zVS1MZWVPZ2hQOFJRLUJtRFcxQVJXcEprbWNlZGgxMTRyMUxfQXBkVXF1Z0F3LUdQT2s0TEZRWDN2bWdXUEprWkp0ZF9IeGZPMGZwbkdzbVlsVmV6N1pKOU1GTmtHLS1qN2E0TVc5cTRfX3dkeldKOWd3NVpFcw?oc=5",
-            "publisher": "ETV Bharat"
+            "title": "U.S. Pushes India to Process More Venezuelan Oil, but Jamnagar Already Knows the Terrain",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVFlJajRQaG5BOXRHVVlyMm5MVVpYRFZiU2V6OE1jX0V0bFBDbTNkTEpwcFdGdnVTamsyTXp1SFRnODhGU250ZmRYcEJPX3hEQkpHVDNHNi1rcGZLQkMwOUdPcFBrSTlLODBpQkJ2VDdOdVl3Y2lfNGZGZDRUU3doX1dNZzJiOEtUTVYzNnp6TC0yb2FXODhyRkloWGhRZ2E4OGpaNzhSSk81S00?oc=5",
+            "publisher": "Gujarat Samachar"
           }
         ]
       }
@@ -2754,218 +2805,263 @@
     ]
   },
   "north-korea-missile-tests-2026": {
-    "at": "2026-10-21T16:02:08.237Z",
+    "at": "2026-10-22T10:58:03.753Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "signs-kim-preparing-for-trump-summit",
-        "title": "Signs Kim preparing for Trump summit",
-        "when": "2026-10-21",
+        "id": "kim-yo-jong-threatens-border-loudspeakers",
+        "title": "Kim Yo Jong threatens border loudspeakers",
+        "when": "2026-10-22",
+        "place": "Inter-Korean border",
+        "lat": 37.96,
+        "lon": 126.68,
+        "what": "Kim Yo Jong said propaganda loudspeakers along the border with South Korea would be ready within days, and Seoul urged dialogue.",
+        "via": "rising inter-Korean tension",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "North Korea plans to resume propaganda broadcasts along border with South Korea",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUVlxNzM2bHM2ako0T2ZZdHlxSy1LUnJIWTFXYlY4eUpCaHpKdkZRbFQ4WnB2VXJ6QWxIdUZGSVJISGFYZDUyaE1DN1FLVEV3OVB5V0RYRTI1MjlRQnpOcmNQUXlid213OEF4QW00YlRTSVNhY2dJcktPUWNOaXZZRUpTYlNoRXBYRU9NcVo2V19KeE5xQUVrdHM0dWYxZGRtdmVNdHJWa3Zzblc5eExmLWlkbVIxUQ?oc=5",
+            "publisher": "Sky News"
+          },
+          {
+            "title": "North Korea's Kim Yo Jong says border loudspeakers ready within days",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQjhQSmZTZ1lwUHQ4RTg2cGpfWi1HeUZBcFN6aGhsNnFVelA3OUxxWWxMb3lCQW9zVmZ6enpsZ3RPbnBGbDBvd1BZdUtZZzkyRFdGdDhaN19velhqLWRDdlJqRFlHU0FveXNGcm5LUkR6TnQ0RnI2S2dfYmh1TzN4eGk4dTlrMG5lckZvYlptRlk3UGpUdjNQZEFFeUZYVHhwQXgwYXpxNHptbUJCdUxEaVhaWdIBuAFBVV95cUxOOURwMHRFTFVWZjMyc3lmTVBuNjdjbmNrNEJCalYzcjNVNENnVllKS1FnbnA1T3Z3TFQ5MW9KMUgycFNaV3VzOEJhREswMGE1SjNQT0RCUmhuOHN3ZFBqUi1FbW0yN2NkbHU0Y1dmbzUyek81TEk2UTJobUthX1k2UXJ5eG9uNGEwWlo5Tnlrczg4TTdKblZSb0tYRzIxR0laTDNDZ1JLcGhHakd2ZVpGTURjU3Y4MVhk?oc=5",
+            "publisher": "upi"
+          },
+          {
+            "title": "Kim Jong-un’s sister warns of ‘new counter means’ at North Korea-South Korea border, threatens loudspeaker broadcasts",
+            "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQN3djTENqeVVycHpxVTVIYnVULUptazI4RHdsbmVlVFdTNW9QeTdqcEVyMnhSQ1F6clNMN2JsRnJCaHE0X2QtRUpzY21FeXA4SGswbDZ3N3VpZURoTldqOWZGS1prMVgyQVNCMUtCNWZ3Y1VlZWdqS0hjWDJSNjhibnFZZ3czSHZDanV0SmpWbU44RkpJZWVwVEFSOEZSTDZQZzk3cXFsMWNEdFpOcDdWZWtoeGVSNWZFWmI2by04S3Z3QmZwVEd2WTdjUkpyYTQ1aHphaFFwRGtyenBhc0JkcXNEQ2I1X21PdlHSAe4BQVVfeXFMUENLVlROYWxXMEpRNGRpMUNsSVUyLUFqc1VPQ1BhS2tVMkdHS1JOLW0tRUZMaGJpMlZIbnRXZFEtalRYQjRPTEt2NTluWXNFcHpwdTNSNms0bjIzR1g0RGJuMmk1RDJQUjB5NVhNRkxoNV8xTG1EbVJzN2VXZTFoNnNWX2hfWE5RY3Y2TFFBSmVjNjQwMXZmbVVJWXNaNFRrTUdDNzdxaDV6bUtxVkJLbjgtd2pZTzI1bWxCUU9rNEV1bHF2b1J2VzB0Tm1zdVAySWloSkEtdVF6ZlZwUXA4REF5NVZKdERReUxjUThEdw?oc=5",
+            "publisher": "The Tribune"
+          },
+          {
+            "title": "North Korea to resume propaganda broadcasts, South Korea urges dialogue",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPakV6X0d1UTRmQ3pKbGd2MGRGd1NyNUN0ZjAzSTdzZEVubE0tMnVRXzlsWWNFeVhkVjFlSnlvWDBIY3poQVFKZDJsT0xWUGZ5Qm5OeFowQ0dCMmJ4OEtieXZWcWVSN0dtdDZLVi1IOVBBUFpSLWFGSk9iVFl3bUV6T1pidGFQbHVzVzlrUDJvZnd5VnJqY0lwM3VTMmlhaGM4LWVhcUphdlhhR2xodHZtS1lB0gG3AUFVX3lxTFBHcUp5eFRkQkE0TU51bTcxcGhWS1dmSGtiTDg5ZUZvSTc1OW9FdUNyRU91TkRhNWV3aEYydUNiYmFiMzBTb3RUM056SExDbTdyUWEyc29CSEQ5cXROWXN1akVNQVRKSE12dW9zWWtNZlpXZjVNRWNGdlNic2RVWkRvelJwbVRJZXVlMnFzLUFySzdlS1dxMEF6ckZ6N29XamlCeC1BeXJrdjRXN3Itd252RW01Y0VkOA?oc=5",
+            "publisher": "Al Jazeera"
+          },
+          {
+            "title": "North Korea says it will resume propaganda broadcasts across border into South Korea",
+            "url": "https://www.npr.org/2026/10/22/g-s1-149306/north-korea-propaganda-broadcasts",
+            "publisher": "NPR World"
+          },
+          {
+            "title": "Kim Yo Jong threatens South Korea with reprisals and announces the reactivation of North Korean loudspeakers along the border",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcVppQ09fS3piV0d5RkNVaEN2N0NQUEwzQndMQ0RBbG5TamlVaHRMWGk4N1NXUmYzTXItd0l0OGpHbFZ4Zml6aGFNekZLVDZOVHppMDNHTzYyWFNsTXYtaHFjTDFZcW51dW1vczk5YnhTRjlmdkZvZndXSnA4RWZPZWZJOXlad2xhOVUzNm9vdUlVaDJtSW9PWU84TjRacE5Kb2JBYU9jVk45NmpheWdqWA?oc=5",
+            "publisher": "Informat.ro"
+          },
+          {
+            "title": "N. Korea's Kim Yo-jong escalates border threats in apparent pressure tactic",
+            "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5uWjA1UWxWSHZQd1RoWDJDZ1U2NmRBYmlIbnI1aFEzU25vQXhuY0N0TVlnNVVQSXNpR2J6WjJ0SEZrdW84b0w1SEwyUGNFajl0TUt5QnQ4MA?oc=5",
+            "publisher": "The Korea Herald"
+          },
+          {
+            "title": "Kim Jong-un’s sister warns South Korea of new border measures, threatens to restart propaganda broadcasts",
+            "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQS1h1U09iNzBtcGJsZ2VrQW5md1B0aXF5TXdlZ193RXk2VVpPdkVBZ203SFlkS1ZDTU1CRjNXaGZTZjFMMElndGZPZ1hVVFg3aC0xaUphN0tZTmFWZk9PdHh6UHJkQVkxNnQ5ZE82aU9TU3dteUQyWGxvYUJ6T1pyeXU5ZVc2VHQ1VWV3RzlJQ1I5XzJyWlZFaHZOdEpNQk1YQVJSY2pZQ3YzblRtbXpXdnp3d0M0bU1XS0ZDS0Q2ZWFKV0loY1BPUmkxbUlKQXQwVmhnUHBGQ2RLMWJsWU96a2FLOXZURlBpY0HSAe8BQVVfeXFMUFhoZks3UzhEOUVTbFBMangxa3JDRHo1RFFMZDBWeExxbXA2Z1V3R3NLTnZqNnp6ZXdSWWd2RGc2Wk1UVmp6bkpCU2piWDljNjlVLWxzLUVfSjNpUTVLdWppc3JORGdNQ2h0ZXVzWW9XSXdiaDRzek1iZ2hGdFdpUi1KM2U1NEdkd0xMUGlIRG1BX0NtLWEyMU1qOU8xcURzNTktb18xZjA0Z29Qd0hPQmF4aEtMbXIzSzh4a2N3MV85TW1uREpqb3NxeGVVNWJqT2pTRFRFOV9XdDhYa05idlU3V0VNT2t5Vmd4S282X1E?oc=5",
+            "publisher": "The Statesman"
+          },
+          {
+            "title": "Kim Jong Un's sister issues new warning to South Korea, says border loudspeakers to be ready within days",
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOS1E0RXFiVU1JNzVsU0lxT1pFeFpDd3lPbGVoMEJZTGthbllJTkdULXM0ZVRrX1hJa01ZekRKRVZnbnZ4SXlIdllvdllLV2FRa3diN214VV9ET0hrV1hkMXNBeW5BdnQ1QVowekJVYTQtclNzMWNmU28xZk1MX3RvOS1Bc1NSV051MTI3R1lTWVROZjdfeEc0T2hTOWxEQQ?oc=5",
+            "publisher": "CNA"
+          },
+          {
+            "title": "North Korea prepares to restart propaganda loudspeakers as ties sour with South",
+            "url": "https://www.theguardian.com/world/2026/oct/22/north-korea-to-restart-propaganda-loudspeakers-south-korea",
+            "publisher": "The Guardian World"
+          }
+        ]
+      },
+      {
+        "id": "counter-means-put-on-alert-at-border",
+        "title": "'Counter means' put on alert at border",
+        "when": "2026-10-22",
+        "place": "Inter-Korean border",
+        "lat": 37.96,
+        "lon": 126.68,
+        "what": "North Korea put new 'counter means' on alert along the border, while Seoul said it saw no weapons deployed.",
+        "via": "heightened military posture",
+        "aspect": "security",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "North Korea puts new ‘counter means’ on alert along border, Seoul says no weapons seen",
+            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOU014LWp6U3d4M0hUdlo0Mks5bWcteGl1dnRLa1JkaFAtRG1EaG1aSUU5cUlzR05RRlVtR0JoLUl5LTJBMWRsNjBqSWFoOXJwQjRhenpmcnZSd0dYMWdrN2Q1S25MX2VDUnNpb3c3UmREQVd5QmhaSDAySWtfU2lyWTUxUGZvTlNBYWtZeE5mWDlxMEhtUkRKdzZhVURLYXF1X1pacEtwOTF1QkdUXzltc3hjWGZlZWFlSW41bzZvcW9BME1hVW9JblFVRUVLWm9oTnJnU1BydHBsUdIB2gFBVV95cUxOU014LWp6U3d4M0hUdlo0Mks5bWcteGl1dnRLa1JkaFAtRG1EaG1aSUU5cUlzR05RRlVtR0JoLUl5LTJBMWRsNjBqSWFoOXJwQjRhenpmcnZSd0dYMWdrN2Q1S25MX2VDUnNpb3c3UmREQVd5QmhaSDAySWtfU2lyWTUxUGZvTlNBYWtZeE5mWDlxMEhtUkRKdzZhVURLYXF1X1pacEtwOTF1QkdUXzltc3hjWGZlZWFlSW41bzZvcW9BME1hVW9JblFVRUVLWm9oTnJnU1BydHBsUQ?oc=5",
+            "publisher": "Malay Mail"
+          },
+          {
+            "title": "Kim Jong-Un's sister puts military into 'firing positions' as tyrant brother 'feared dead'",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5oamQzcUExOEl2S3FnTWZROHMxTVBDUUdpWUdGLXUtbmN0MjBfU3B5bWttR2xReXpyUHc4Q0tIWm13VUJEdk1xMFlUQ1ZIbWVBSWdkSWl1THBMMTlYTWtrOWdvdEd0bDV5ZnJkVXNYQml0ZUpXQlU1WtIBfkFVX3lxTFBTd0hJcTlBZXN0aTUycU9mcUFtRU9TZUJjR2oxZ2ZtTjdrNm9OQm1pbTJzaks1MWpNVGxmNnlYOENtemtNbjFFMDFFc3V0cUg2YjQ5ck5JVnJHQVdWdDZMbVhBM20wRUZSaDZ0dDQ5STUxeHZXeDFsb0hhV2RHUQ?oc=5",
+            "publisher": "Daily Express"
+          }
+        ]
+      },
+      {
+        "id": "new-defense-museum-showcases-advanced-arsenal",
+        "title": "New defense museum showcases advanced arsenal",
+        "when": "2026-10-22",
         "place": "Pyongyang",
         "lat": 39.02,
         "lon": 125.75,
-        "what": "Daily NK reports signs that Kim Jong Un is preparing for a possible summit with Trump, which shapes how the North calibrates its launches.",
-        "via": "summit bargaining leverage",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Signs point to Kim Jong Un preparing for a Trump-Kim summit",
-            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0yOVFQR2ZYOGdLS3g5bm1wWERfbTRfdGxtYU9HdXMzTFk4S2dETFVQeHItLVdrOWV4aklZc3diZGU5aEowOVlzYzMxSjJaa0VhNzlxODRnSWRMMzhIWWQ2UjY5SENmT2p6MnU3RWd2VTJaRHhYODZZTmVTWWtMQQ?oc=5",
-            "publisher": "데일리NK"
-          }
-        ]
-      },
-      {
-        "id": "north-korea-condemns-us-rok-and-us-japan-drills",
-        "title": "North Korea condemns US-ROK and US-Japan drills",
-        "when": "2026-10-21",
-        "place": "Korean Peninsula",
-        "lat": 37.5,
-        "lon": 127.5,
-        "what": "North Korea criticized the joint military exercises between the US and South Korea and between the US and Japan, citing them as a threat.",
-        "via": "allied drills as stated justification",
+        "what": "North Korea opened a new defense museum displaying its advanced weapons, underlining the weapons push behind the tests.",
+        "via": "arsenal showcase and resolve",
         "aspect": "security",
         "flow": "into",
         "sources": [
           {
-            "title": "North Korea criticized the joint military exercises between the US and South Korea, and the US and Japan.",
-            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdG1xeURqeGU4M25lbDZPNk9EN0xyOTI1UUVMb2oyUWNSZmJlQ1RDdUZZQi1kOFItV3VCVXBtYWlkVkd0R29oWTdFd3hVYXE2R2tueDR6cWFhc3huYXVwdTc0cXphb2NLWmZKQ1hVbUNWQzNPZXpnbkI2b3NSMkZNTmZyb3BCd3dPUFVOLUE3bUpzYUtfQ3QydHgwRVVuZTFI?oc=5",
-            "publisher": "Vietnam.vn"
+            "title": "North Korea Opens New Defense Museum Showcasing Advanced Arsenal",
+            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1BTGo2cFBrZU8wU2U3dTBZb0FPSmRPdzVSVmhUVWZqZ1Q2amExV3hBcjlRM2RnVDZaS01femJyMFFBNWhCRlBFb2xxdThwbUw0bWVsVjgwWVk?oc=5",
+            "publisher": "Israel Defense"
           }
         ]
       },
       {
-        "id": "kim-yo-jong-inspects-border-fortifications",
-        "title": "Kim Yo Jong inspects border fortifications",
-        "when": "2026-10-21",
-        "place": "Demilitarized Zone",
-        "lat": 37.95,
-        "lon": 126.68,
-        "what": "Kim Jong Un's sister visited border fortifications and announced tough new measures against South Korea, with threats of immediate counterattack.",
-        "via": "hardline border posture",
-        "aspect": "security",
+        "id": "pyongyang-balances-china-and-russia-ties",
+        "title": "Pyongyang balances China and Russia ties",
+        "when": "2026-10-22",
+        "place": "North Korea",
+        "lat": 39.02,
+        "lon": 125.75,
+        "what": "A ThinkChina analysis describes North Korea building lifelines with both China and Russia while walking a tightrope between them.",
+        "via": "outside backing for Pyongyang",
+        "aspect": "trade",
         "flow": "into",
         "sources": [
           {
-            "title": "Kim Jong-un’s sister announces tough new North Korean measures against South in the DMZ",
-            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeGZ4WEw5TWRjSUNfSk9aUDh5T2dhNDZKYjFZQzRyZUNZQ2E5T05iN3AxT29IZjdoUUh6UGhlSXM1aFdsRHluSm8tVE83TldGX3ZvREFNNVNWX3BpWkx1NUpaOFFmNXpQRm5IT2FqOE4zSmFlcXI2QmVUa0ktd191d2k3ZlE4NjFYaU5FTlBLdmtzR2taOThDb05DdG9wV2lOTjFQQVlKVDlQdzlIc3V4XzdiYWVqSWty?oc=5",
-            "publisher": "Washington Times"
-          },
-          {
-            "title": "North Korea threatens a ‘counterattack immediately’ warning ‘no mercy’ to Seoul",
-            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQR04yWHpOamdSTGgyejNTNHQ1ZzJZYXh5T3VZSEZmSFFHa0M5ZWZ4MG92TV9sNWlKYTdwOUlzUmhMb2JWb0FfMHJhZi1aMzlIaS13UGJZNnE1ZDR2eC02b3N2QWZqMU1TQ3BmMzhKMllvYlpIc1ZzX0R0SV9uczNGMU4wLXNlLW5rTXpGVjViY1J3Z21LVlpCamZyS2Q2TGZBVy1JY29OWDh6NjVQ?oc=5",
-            "publisher": "London Business News"
-          },
-          {
-            "title": "Kim Jong Un’s sister issues stark threat on visit to border with South Korea",
-            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPN3BoaS1uMUM1UnF2ZGdQcVNsQWtJUEFhT1pPOXFVaThkRVpVWVdxWXdtQTNVb0JTaFM4eENCZEh1MDBhcmVVWGg0czg2ZU5pRmlrdDNDRVBpOVBVOWc1cUozSUtqVGtISWFOYXZQbXZjQk1kMEJNMDZKYTlNb2RRMi1RZXRRNnVvZTJQdl9NMDdfY0lET1lFYUI5VFZESnhGdk5aTXplRmN6UlBvdXN2ckc1T0V4VXVRUExXSw?oc=5",
-            "publisher": "The Independent"
-          },
-          {
-            "title": "North Korean leader's sister inspects border fortifications as tensions rise with the South",
-            "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQS3FPUTVkOFZsc0lzV2pkRHFaeGJBeC11QjZjcVB3YlA4R1l3Sm5XR2owQ3NJZ1drX040eUthUl9raUtFZXVWSDZILTZtSVhtbWUtcUN0NzRNbElZd281RmozVFhQZE9NRlFBRlVLWTh4UnJDUl9qRUFUWnhIVDVQQTE0X3lyOWVlX014d0lFdFlZcU9JeWVadGFGRFUydENaQ3ZXVUpQWXhPRUJPS245ejYyc3NtYjVTRTV1MmIxcFdaR1hjd3AtOElaTmhUdU0zS0p5a19neUt2YzdrSmppSVhMNFdDc3dMTzByVdIB7AFBVV95cUxQS3FPUTVkOFZsc0lzV2pkRHFaeGJBeC11QjZjcVB3YlA4R1l3Sm5XR2owQ3NJZ1drX040eUthUl9raUtFZXVWSDZILTZtSVhtbWUtcUN0NzRNbElZd281RmozVFhQZE9NRlFBRlVLWTh4UnJDUl9qRUFUWnhIVDVQQTE0X3lyOWVlX014d0lFdFlZcU9JeWVadGFGRFUydENaQ3ZXVUpQWXhPRUJPS245ejYyc3NtYjVTRTV1MmIxcFdaR1hjd3AtOElaTmhUdU0zS0p5a19neUt2YzdrSmppSVhMNFdDc3dMTzByVQ?oc=5",
-            "publisher": "Khaosod English"
-          }
-        ]
-      },
-      {
-        "id": "north-korea-to-restart-border-loudspeaker-broadcasts",
-        "title": "North Korea to restart border loudspeaker broadcasts",
-        "when": "2026-10-21",
-        "place": "Inter-Korean border",
-        "lat": 38.3,
-        "lon": 127.2,
-        "what": "North Korea said it will resume anti-South loudspeaker propaganda broadcasts along the border by the end of October as tensions with Seoul rise.",
-        "via": "renewed psychological pressure on Seoul",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "North Korea to resume loudspeaker broadcasts targeting South",
-            "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE92Y1lVN1J3Y2c0d3Qtb09yRUJ4Z3dKNVB2RGVjMEdONjVKcVJrN2V6ci1oSm10bmNGQUxPVFBvVHdIT21yWUtuakxB?oc=5",
-            "publisher": "Daily Observer"
-          },
-          {
-            "title": "North Korea to resume using loudspeakers along border by end of October",
-            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNd0I4OHJvZURzVXVmNzN3cnlxenNRZlB5SF94bllLdHhaa1hqa2NSTjFJV1dYcHlfd0hpbHRTOVdRVHRmNE9IaV9Yel9VLWw0YUdQdVlzd1BLNWxMMUQ2eW1EOXBzMXpISXBtSjkxOC1LRUR3d2xhcWVKN3ZMcjlnR28tN1JVbU8tSWNfUjNweVpJdVRJVmttOFY3dHc5Q2RnaWw0MkQ4R2NWTXNSZE9rM1MwYVVHSFAyZnh1aG93?oc=5",
-            "publisher": "Korea JoongAng Daily"
-          },
-          {
-            "title": "‘Will mercilessly eliminate’: North Korea warns South, to activate border-wide 'anti-South' loudspeakers",
-            "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxORGhtUlBjdVpiUENIaUZtZFJINmItelhvNlotRTRWMVRCOFFMNnU0akU1WThyai1DWkg4Sk1tVVdiY1lSTlB6cjhuenNJLU1nd2JQUk9SLU9MaHNOajFfNjRxT0RmR0ZCSzUwdFZsSmpNWUxFd0N2NVFfVEwxelJrVWJGTzU4QmlIai1FZTUxNXAtbk5Ecm1uYWUya1pJMUtRRHdmTVZ1b3RSRXB6WjZKdjRtU1dHRVNVSHRTQUNvVDlMSGkySk5tV18yWXlQMWtYa1BBTGptWGxCT0ota2xpYWlvTEk3elNhTXd2NWd0QmFnNVdsZ0s0c29UQ210dWkyWHhxbzJYeFFldnlk0gGSAkFVX3lxTE80VHVmNVJWRXFXdXRSSDR3b0VNNHd2WmdxNUhlTHVtTGI2ZjFrNnVTVm04ZFNrb1UzWlNoQUlTc2ZkZU03MjFIV1VscUdEc0d1Qk9MZk9PSU5NN282eDhSaEFTeEVycjFmZlRRVFdWRUxIX3BfWkcwMHBqcDZjTzVMbW1YXzF1Wl9sZzRLX0lVQTVUUkUxTmNHdXczUHBSZGxkXzVuSU9pRFZDemxHNm54WWN2WkNLVFBfM3pVaENDeXJCaHBScVNaandEWkNMbS1IRW9VYUp2QnhGdXZZOVdLb1ZRTmcxamt2d2g5elVaMEVHdW5JVEk5MUE5UURBclFIZGR6S2xMekFZSV9Bb2ZnNnc?oc=5",
-            "publisher": "The Times of India"
-          },
-          {
-            "title": "North Korea says it will restart border propaganda broadcasts as tensions rise with the South",
-            "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNVnBuY2lRbnQzUS1icFRuMTdJQUxmbzliSmpZSUtMNU93dVl2ckswejNpVTFDbEh2NHVlcTItZGVobS1hNC16N2lIYm5xRU93Y0FZcmR6MG1fLWJUNFF4amRCTHlrOWhNNmd6WXB1Y0hsb1Vha3ZhamcyQWI3TTFuTHh6ZGZMSXIwOG8xS1pUc3RkSGE1aEZGZHhaZk9adFFOSklpRkltdjd6Z3hWTDhFNUZzZnZIQ2pVWjgxQUZ4V1BPRmtBRGp0Q3NxdzRMdHktNFphLWtidExoZUVHZHdma0NfTmtWWTdoZXFUaDRObGlKTzRHRDhHeGlnM2E0Q3hXV1JrLQ?oc=5",
-            "publisher": "The Killeen Daily Herald"
+            "title": "Building lifelines: North Korea’s China-Russia tightrope",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPU2xwTGdtMHN6eVZrYjcxd1F0OENOOFMyblJGbUc3T2FZdncyZEtCb2R2aTEwOHBkc2VHejdXdlI2dG1fclA5UzlmTXF1TmdEZXVhWW1vS05vbWtVYjRUOWZBby1RT2FlV2t6RG8xMHp0Z2dpM2Z2bXZEYTNxS0hjazNkUFdITTRtZXIwNVBGVC01TmM?oc=5",
+            "publisher": "ThinkChina"
           }
         ]
       }
     ]
   },
   "brazil-runoff-2026": {
-    "at": "2026-10-21T16:02:08.237Z",
+    "at": "2026-10-22T10:58:03.753Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "phone-theft-becomes-a-runoff-campaign-issue",
-        "title": "Phone theft becomes a runoff campaign issue",
-        "when": "2026-10-21",
-        "place": "Brazil",
-        "lat": -15.7939,
-        "lon": -47.8828,
-        "what": "Mobile phone theft has emerged as a key issue in the runoff campaign, which fits Flávio Bolsonaro's crime crackdown message.",
-        "via": "public safety concern",
-        "aspect": "security",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Mobile Phone Theft Emerges as Key Campaign Issue in Brazilian Runoff Election",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNU1ZIOWc0RDBVMkx3NS1VZV9FQzg4dWo3LWN5UEYzdkNCQWdZWFJJUWFJRzlKZUM0RTlKUlBIbHlkUGU5RTJxdjc4RTJVNFBORk4ydUtPOXZCMS1nSmdveUhZVEM0Q1ZQWXNhUTdQTktteHZBRFo3eEdBZ0tCYndqU0JiZTM?oc=5",
-            "publisher": "조선일보"
-          }
-        ]
-      },
-      {
-        "id": "lula-and-bolsonaro-offer-costly-voter-promises",
-        "title": "Lula and Bolsonaro offer costly voter promises",
-        "when": "2026-10-21",
-        "place": "Brazil",
-        "lat": -15.7939,
-        "lon": -47.8828,
-        "what": "Both candidates are courting voters with expensive pledges such as free bus rides and cash back, putting public spending at the centre of the run-off pitch.",
-        "via": "spending pledges to voters",
-        "aspect": "budget",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Free Bus Rides, Cash Back: Lula, Bolsonaro Court Brazil Voters With Costly Promises",
-            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZ2V2cUJRczRWSXB6MG5MYzgtcHNfa2FuYkJ0NkxpbUdSM2FwbE8yNks1VEIwRjNLb1hLd0JocEhKRnZQb29Qbmc1TElUTlNVSzVBeU1hbmpxMUtxR1dpQ0hsS240NzQ2SFRvYk8wTGpHdVFOMTRIaTdkNHVRcTFxaGN2ajZsS2RIUVkydWd3OXlHaC11Zng4U2ZHN0REMzFBMXNmVXpRWjk1WFFJTmdkTDJtQ3JWZy1BNlREeWVrdEZ3UHdCOVFr?oc=5",
-            "publisher": "Bloomberg.com"
-          }
-        ]
-      },
-      {
-        "id": "some-left-leaning-voters-shift-to-fla-vio-bolsonaro",
-        "title": "Some left-leaning voters shift to Flávio Bolsonaro",
-        "when": "2026-10-21",
-        "place": "Brazil",
-        "lat": -15.7939,
-        "lon": -47.8828,
-        "what": "Some Brazilians long associated with the left are moving toward Flávio Bolsonaro, which erodes a base Lula would normally count on.",
-        "via": "defecting left-wing voters",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Some Brazilians long associated with the left now shift towards Flavio Bolsonaro",
-            "url": "https://www.france24.com/en/video/20261021-some-brazilians-long-associated-with-the-left-now-shift-towards-flavio-bolsonaro",
-            "publisher": "France 24"
-          }
-        ]
-      },
-      {
-        "id": "court-denies-transport-to-amazon-indigenous-voters",
-        "title": "Court denies transport to Amazon Indigenous voters",
-        "when": "2026-10-21",
-        "place": "Brazilian Amazon",
-        "lat": -3.5,
-        "lon": -65,
-        "what": "A court denied transportation to Indigenous voters in the Amazon, and they fear they will not be able to reach polling places for the run-off.",
-        "via": "lower remote turnout",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Indigenous voters in Brazil’s Amazon fear missing runoff after court denies transportation",
-            "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQOERzLXZZUGh3dUdkTWV4ampCd2pIM0tXVXBDQ2VmWWE0QzZ0ODhKWGlyY2RiQ0pZQVhIaDZuZVJ0czlLYzZueVpkNjBORFZEUmtrZXBqV0FhLUt1RWVZaF9mNExxQVRJc2RaN3RJTzNXenNXM3pZR3poNTUxSm04c014Y1BOMVVQdmQ0eGhzb0FsUnE5bGRZVWx3czEwTXNpZFVtSnVkZDBSblZLaGxjNVg1SUMzbkpMVVc5em1TS044ZDNoaG43c1MwN0ozWENwTlFWU2t0OHZZVlE?oc=5",
-            "publisher": "Los Angeles Times"
-          }
-        ]
-      },
-      {
-        "id": "top-court-fines-meta-over-alleged-election-bias",
-        "title": "Top court fines Meta over alleged election bias",
-        "when": "2026-10-21",
+        "id": "polls-show-lula-narrowing-bolsonaro-s-lead",
+        "title": "Polls show Lula narrowing Bolsonaro's lead",
+        "when": "2026-10-22",
         "place": "Brasília",
         "lat": -15.7939,
         "lon": -47.8828,
-        "what": "Brazil's top court fined Meta $200,000 per day over alleged election bias, while protesters accuse the company of election interference.",
-        "via": "online campaign pressure",
+        "what": "Reports say Lula has closed the gap, with one account putting Flávio Bolsonaro down to 45%, which makes the run-off look tighter.",
+        "via": "shifting voter momentum",
         "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "Top Brazilian Court Fines Meta $200k Per Day Over ‘Election Bias’",
-            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUU5QRDRWSjMyYnpfQ3A3TWtEc3RTYmF1ZzRMYW5nbDdBRVVQQk5kV2JKWk9WWGtsNm1BbTV5YjNFeUl1NmRvLThTU0lIQThMaWlzcFIyNHhock1URVdyOWxubzlOeE9JQkVoU1FGX2NWdmNRSWx4dW1pUDNoMzRfaUx5UVRGRlJ0UnF2ekFfY015VGRVX2F2RTFVT0hYS2M?oc=5",
-            "publisher": "Novara Media"
+            "title": "Brazil's countdown to the runoff election begins: Lula closes gap with Bolsonaro. - L'Unione Sarda English",
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZVdOT0o5dDNib3ctdklKNnhlU0JHMFA1aDFxM1VudkJNM0pYa2IyY1pYZDYzSGFjbUh4VlZDYUpzWjd2cVgwT3FlbElvb0JsdmdzbEV1b0pPYUJNU1hWZzBDYzZablNucUx6SGZETlhPR3ZNSkhVUHJNUlZqOUdxZTFiNEsxWkdSdHhOU0JzNW5XRHR1RGZDcG1OQzNLb29VZjdmd0I4Q2lXUl9sQUpqUmtEM09CMnJHYWd4dU1lYmdsVTct0gHMAUFVX3lxTE1Vbzh6Y1R2QjlUWDNTNFZXUUl4MV9vblBfaThicEJKT290bm10QjNDMFhlaERGSXV1ZHhsem9XMDFjVHppQkN6eF9SaWRmdExodVJ3ZEJ0dVRHb2V0bVFsMzl6WURUM2RGWVBBUGkzWWRYZ1hIYXZCbGZlWjBLLXJ0VHk2eEZlajhlU3dXbVNjVGd2Z1ViZWdVQk1NYVAtbXBJQVo0T1Z4eXUwLUV3RVV6bTZFcFppYTZEcGVWYWEwNlRXY3hwcGdRaXpxMg?oc=5",
+            "publisher": "L'Unione Sarda.it"
           },
           {
-            "title": "Brazil protesters accuse Meta of election interference",
-            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWHRnOHg3aTVQSDRhaUlvb2luS1dmTTNTQWprLVhZbkZ6MkFSZUpySU9aRnFmZDdRQWxmaTQ4UkNXb20xMU1PZkdnVnV1MFluaHVxNG1ZcVNLamRuMlJ5X0pEOXNPVFNDaHM5TXJzSDZFa0dicWRoXzIwT0pKSkNQSDlHTlU4SXFTZjZYa0RQQlQ?oc=5",
-            "publisher": "Monthly Review"
+            "title": "Brazil Election Race Tightens as Flávio Bolsonaro Slips to 45% Against Lula",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNFhvZzk2UW9HbHQyeVZCVVcxdmFJV3ZIVVRuUDRmOUNURDFoYk1kNUViWGFIeC1TM0U2Vm8zM1hEdzdWaXZTb296Wk9nVWg2enRSYXo4dVdvZGVkcm85cU9CX3JyRmxHdjdqQ3RLRXhzUExkMmtkekVsOU1HYjhhUVI0Snh4MUo2WkxwLUF4bktKVzUxQjRpTFJZN0htNkU?oc=5",
+            "publisher": "Sri Lanka Guardian"
+          }
+        ]
+      },
+      {
+        "id": "lula-seeks-annulment-of-bolsonaro-candidacy",
+        "title": "Lula seeks annulment of Bolsonaro candidacy",
+        "when": "2026-10-22",
+        "place": "Brasília",
+        "lat": -15.7939,
+        "lon": -47.8828,
+        "what": "Lula is pursuing a tit-for-tat legal move to annul Flávio Bolsonaro's candidacy, pulling the electoral courts into the final days of the campaign.",
+        "via": "legal pressure on candidate",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Lula seeks tit-for-tat annulment of Bolsonaro election candidacy",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWjVNLVZYUzZzQzBXcVAxTllLR2xEY3ZZOE1pR0FodU9vV3V2TlZhekZEbkxwWnhLcUdOU3YtTlAwWW9MT2xqUmFKMmpkQUQ5b1kwN2tRZ2h2dV83UTVmSXptempjRmQybUlhVl9iRjdscEV1SS04MWFQc3hYOFd3dkpmWEc0bDJHdngyaWNmajFiR1ZkNHJ0enJ4SHpIRGJxVTdjY084TQ?oc=5",
+            "publisher": "Bangkok Post"
+          }
+        ]
+      },
+      {
+        "id": "lula-courts-older-and-swing-voters",
+        "title": "Lula courts older and swing voters",
+        "when": "2026-10-22",
+        "place": "Brazil",
+        "lat": -14.235,
+        "lon": -51.9253,
+        "what": "Lula is making a final push for swing voters and hopes older voters will carry him to victory, appealing directly to the undecided.",
+        "via": "swing-voter turnout",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Brazil’s president appeals to undecided voters ahead of run-off",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/10/22/brazils-president-appeals-to-undecided-voters-ahead-of-run-off?traffic_source=rss",
+            "publisher": "Al Jazeera"
+          },
+          {
+            "title": "Lula hopes older voters can help power him to victory against Flavio Bolsonaro",
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYzlvUUFjdHBqTUNtazdESjBmMWUzNktvaFM3cktpNmJQbmh3TFFUVnlVamVMNVMxc01aOTZ1NDA5LXdQQlBLS2lzTE16OXJnVi1weFlrdDc4dzl5NUxzNTVEeTJ1cDZfQ1FtS1U2X1RsVVd2ZjdQWVlFMWRVVG85V1JtallTTTQ4allxeFhMamUwTFQtWnNmQ3A0QTNqM2VOUW1sVVlWdlFBcjRFSUs3SGFIeGozcWRaVXVrQkFEN1hjSG9n?oc=5",
+            "publisher": "Reuters"
+          },
+          {
+            "title": "Brazil election: Lula rallies swing voters in final campaign push",
+            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DcWdDcnZDWTZSQzBFTG9lQXBZM1Mwb1FOaXZmYXh5OGszZTQyb1djZmxKTWhvT0pUQWlTWmxmM1ZTVWZRT1JEeVRNc2ZUdDVoRk9OaTF6WGxMMWJiamJwNm1tTE1nNFXSAVxBVV95cUxPR0FiX214eW4yb0NmLUxjM3Z1M09GMzVVQkgyRFJBRTFFLWFnVDJCNlh2WXBjdlBGUnd5d3Q0Zzl2WXd1dmFpcVUtdE11WGQ2aVdHWmxySUM4YVEzUA?oc=5",
+            "publisher": "Modern Ghana"
+          }
+        ]
+      },
+      {
+        "id": "dispute-over-release-of-candidates-personal-records",
+        "title": "Dispute over release of candidates' personal records",
+        "when": "2026-10-21",
+        "place": "Brazil",
+        "lat": -14.235,
+        "lon": -51.9253,
+        "what": "Flávio Bolsonaro challenged Lula to expand the release of his personal records, and set terms for releasing his own after Lula's disclosure challenge.",
+        "via": "transparency fight shaping image",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Brazil’s Bolsonaro challenges Lula to expand release of personal records",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSHNPUnpXNHZ5NTZwaFZlazdrMEs3LWh3ZVpNb0N2bHEyNXpDcVc0aEdtWUw2V0dDNnhxa1c2eWFDaGZOeXU1Tk50UEdONkhkYTA0ZTVvbVJIUDktNTFEa0EtZkRuemtKdGhYYjJsRDB1WFA0MFVxUUU4LXVlWV9kQzVTTURKZTBpSHVWN0diV3NkQ2YtbklvWFZ0SUdzVzdNSThpd20ybmtNZV8xM2FCSXhqNNIBuAFBVV95cUxNLUJIeHpsZ1o5bUdrR0haY2lJeW5iclR1LUFBSF9rUzFyTDJRTl9hekVGM2xiNzRwek5DMEppMXdwNkxkNk1ObGhTc2RTWm0xaEFoV2FoYUZDY3ZfRWN2Z0JSQXVmTnJoNmRwcTFmeENlY000ZFhtSU9laW15dmNhbzFlZGZ1U2ZMY0FYbnMwU0l4TG9kRzVSZC1aR2lqdEdzZER1S1FGRkJuVXdSMVIycjRybXlLUk1i?oc=5",
+            "publisher": "Al Jazeera"
+          },
+          {
+            "title": "Brazil's Bolsonaro sets terms for records release after Lula's disclosure challenge",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNa0FYbDJZTjR3dXpBOFJtc0Q0UmUtRUlzN01yNnRYMTZ6NGVGdXUyWVNENkYxcEdrbFd5RDRlZmVIUnN6M0NkU0FQUnpyZG1XUnlFbnlMb09qQjV4YzdwRTdCQXZDbWhfRmRXT0hSWTdhNlMzUUxFTnpheklnbVVIUHZ6UTRZMVp1Rl80Sy1XVWZIT1NheWhraEFrT0lCSmNzVFFXaTY4N2tzOWJ0ekJlZ0lCc2RreTQ?oc=5",
+            "publisher": "The Straits Times"
+          }
+        ]
+      },
+      {
+        "id": "meta-moderation-of-lula-s-posts-under-scrutiny",
+        "title": "Meta moderation of Lula's posts under scrutiny",
+        "when": "2026-10-22",
+        "place": "Brazil",
+        "lat": -14.235,
+        "lon": -51.9253,
+        "what": "UN experts said Meta unjustly restricted Lula's posts, the Oversight Board noted recurring moderation failures, and organizations asked the US Congress to investigate Meta's role.",
+        "via": "online campaign visibility",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "UN Experts Say Meta \"Unjustly Restricted\" Lula's Posts in Brazil Election",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4tNU9zWTkwNldUeXQyajdaX1NrVUJCaWxkbDRHTXdJVkhiMjJEYmRLVXJ3WXZSamtJQVpYXzNjeEhYN014d2dCRS1JOHVuOHMzSjNnNXF2c05XSUxNaXFzdjZEc0NUSjRWd1lVNDR3?oc=5",
+            "publisher": "news.sbs.co.kr"
+          },
+          {
+            "title": "Organizations Ask US Congress to Investigate Meta's Role in Brazilian Election - 21/10/2026 - World",
+            "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZTFiMnpBNmNJZzhaRmkzWVpfenJjVlFfQTJFMk5SazhWaG0tVW5XQ2pQelFMSzNVeW5CemRHaHJkN0YwRjFGTUxZa1ViUGlYb0dQNEp0Z3ZhOXZqVmhIbnZjcmNPXzVzRnoxQnc1LTN1OGNJQ2RsTWxWSVRBcGI3eElMVUk5amZXaEZGSnhqdFVsekx3cTJ1SDZTT0FRZW5xV0VCNmVVVlIxbTN3bWFYZHNSUzdqQmlpVU9xUHh6bFhERE5kaEdJbDh6YmxsLUxZbDNiNUd2WUJiWkZw?oc=5",
+            "publisher": "Folha de S.Paulo"
+          },
+          {
+            "title": "Meta Oversight Board Points to Recurring Failures in Election Content Moderation - 21/10/2026 - World",
+            "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOc2ZLTHA3YktCUkREblpaWWtsS0RJeGRzRURncU5oRjQzUVpaamNYdXotSjNvV2hrMmk2a3FuaENtOXF5RERMVjA4LVdQX2ZfY1JTMk1GbjBDLW1VTFVrczdrVGw1a3VQYk9sMm9XWEF4OE1yT1NDVFJRUWxXaHZmSmlKYVpPaDJEdjdGZ1NuVGJLclBjUGlLd29YVno3aTdCZ2tVYmV1QnBwbXFlMHR1MkRMclhIRWhuUUlUWTFXQTRnM2Npa0tMU2xueUEwVTBZZzdDRThZSDRDbGhUZVJwbA?oc=5",
+            "publisher": "Folha de S.Paulo"
           }
         ]
       }
@@ -3233,112 +3329,132 @@
     ]
   },
   "south-china-sea-incidents-2026": {
-    "at": "2026-10-21T16:34:00.809Z",
+    "at": "2026-10-22T10:58:03.753Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "us-warship-shadowed-near-sabina-shoal",
-        "title": "US warship shadowed near Sabina Shoal",
+        "id": "us-warship-enters-waters-near-sabina-shoal",
+        "title": "US warship enters waters near Sabina Shoal",
         "when": "2026-10-21",
-        "place": "Sabina Shoal, Spratly Islands",
-        "lat": 9.72,
-        "lon": 116.6,
-        "what": "China says it tracked USS Charleston near Sabina Shoal and accused it of jeopardizing maritime security, adding a US naval presence to the tensions.",
-        "via": "great-power naval friction",
+        "place": "Sabina Shoal, Spratlys",
+        "lat": 9.7,
+        "lon": 115.7,
+        "what": "China accuses the USS Charleston of illegally entering its waters near the shoal and deploys naval forces in response, raising the stakes of the standoff.",
+        "via": "great-power naval escalation",
         "aspect": "security",
         "flow": "into",
         "sources": [
           {
-            "title": "US warship in disputed South China Sea region triggers response",
-            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPRjhESjhBY1k5RlkxSk5DMXI5ZzBNRm9fbThJVXpiZm1aLTNqQVFjM3Z4c04wQzhzTkdkUlI3QnpuYW8yZ2Y4dFI0aEhPZ0RLNkVVUGphQTYxVXc0NHhNYmdKelg2LWluTG9fdm1sa3BwOGVUQ0NHbVpvWkZHNHhuVzFBNTFpbXVsYTZyRjc3cU9GVkR1THF1bW12SlVzRUZCa3BTZ1RNdFp0MzVQeHlyLW5kRGlrVjdFdHplXzJoaWZqSmVwclVRTE9ZeUN2X1RlaXVCOVB4c1dfZw?oc=5",
-            "publisher": "The Mary Sue"
+            "title": "China accuses U.S. Navy's USS Charleston of illegally entering its waters and deploys naval forces",
+            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOODNKa1Y3blkxTU42VUZQS1hST3lVVTNKa3VGZ2N6Xy1tRDM5cWZKd1cwbl9IbW4tbzBLTkdwN1RCbEtzZWFsbFFnMVNzMWxXR1Nxc2s1WDdvdzQzRXpsQXhhYmZNQUdGbXpQSE1nTU5EUFVKUzctTms3NFp0VkNzZ1hOTDhPOUpMX3B1MFk5eGhXUkFiV2dtMHA5b2dyNEJoQXNwaDAtX1pndng3akF4a0pQbUV3Vnlna1Bpbnc0UUFiVDllR09ISTVCQnV6WGpsVG1OVWNnTQ?oc=5",
+            "publisher": "Zona Militar"
           },
           {
-            "title": "China Claims U.S. Navy Ship Jeopardized Maritime Security Near Contested Sabina Shoal",
-            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSUhGa3hxZTNXN2xQV1B2QUFzWEhSaWhPMUJGSEJId2hHaGp5OHZ0TE9NMDVBMjhKSEdRTUgyT1BDSVlQeVJFNzcxaWdUUTEwa0ZzalRzb09CaEdPcTI3UWVFbFZCNEM2UDZNLUVvcWlWREQ0ajlCODJJcVhOZUtsaG9iWU5Ja0NIRWVQMUhySkRkcnowSUtDT2lILV9BZ3pPb2M2bmMxYmtQeE5JaEliOUNRY3hVdw?oc=5",
-            "publisher": "Marine Insight"
-          },
-          {
-            "title": "China Says It Shadowed USS Charleston Near Sabina Shoal, Challenging US Naval Access",
-            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNEFHWWpLcGFHZEdiVER2UDlHQy1zbHZRVW5vUDE0RGhiSTdJd1JUajI2MF9NQVlUMlZTMDlvMG90WVUtN0hlZmtZcVZ3dTkyZWhpVS1HSE0yb3RjbFluNEZETHlfRnZQbWltOFBYdkJZa3c1N1dJQnJRS0RLVG0zSEFoTXpJcWpuX3c?oc=5",
-            "publisher": "Defence Security Asia"
-          },
-          {
-            "title": "China sends naval forces to monitor US warship near disputed shoal",
-            "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9DVlFvSElyMTI2TVl2d19mSFRYdHFhS1NFeVAwcnlVSTg5M0xxenRaM1YweVhGVnB0dmZkbm11QUJzVk9oeVFocmhEVndNa0JLekxB?oc=5",
-            "publisher": "شبكة تواصل الإخبارية"
+            "title": "Why the China-US Naval Encounter at Sabina Shoal Is Different",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQ0ptUmpoSFdhX09IeS1qeUJINEVtQzN5eV9pVnBQSWxHU19sdHpQQmU3VklYalVjRGh4emsydGtYc1BRSFM0YnpNcjFTZUU1SGdtNXNBb2VWYVk2QTlSYlRtRUk0SUR3ZzlndmtONHB6eExWWE81UmUzVXV3NVV3X1hua1NSd3J1RFpmYlI0c3dtSm9NT3pJY2t3TQ?oc=5",
+            "publisher": "The Diplomat – Asia-Pacific Current Affairs Magazine"
           },
           {
             "title": "The Philippines should not misread the message of US warship’s intrusion near Xianbin Jiao: Global Times editorial",
             "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBwWkNuNnJOeWg0dFRjWHY4Y2hfRXYzcHFaZEh4dXZqTVdkNEpSTG5SSC1YMll4YklyS2ZiSUZFQ3FmUEtjSVI4RnFQaXBMZW9IbnhxVHAtaEhXazBCUEZ6MUdB?oc=5",
             "publisher": "Global Times"
-          }
-        ]
-      },
-      {
-        "id": "manila-rejects-china-s-warship-intrusion-claim",
-        "title": "Manila rejects China's warship intrusion claim",
-        "when": "2026-10-21",
-        "place": "Manila, Philippines",
-        "lat": 14.6,
-        "lon": 120.98,
-        "what": "The Armed Forces of the Philippines rejected China's claim that a US warship intruded near Sabina Shoal, deepening the dispute over who controls access.",
-        "via": "hardening official positions",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
+          },
           {
-            "title": "AFP rejects China's claim of US warship intrusion",
-            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQjZybWVlQ2xYQm1fSThIakJKcjN2Q24wRTdsa0NpdzN5bnN0TFJqb1VNMF9vN2NWaVJrQXFVS3pzdlJydXdTWjRQSFFyV0RpMTVkNUdYRmJfaTBZRWdvazhxd2I5SzJfUlNFM2lxZ1F2dVhEMnFaVWtmMFI0YVQ5MVkycFlUVFloM3c?oc=5",
-            "publisher": "Daily Tribune"
+            "title": "US warship in disputed South China Sea region triggers response",
+            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPRjhESjhBY1k5RlkxSk5DMXI5ZzBNRm9fbThJVXpiZm1aLTNqQVFjM3Z4c04wQzhzTkdkUlI3QnpuYW8yZ2Y4dFI0aEhPZ0RLNkVVUGphQTYxVXc0NHhNYmdKelg2LWluTG9fdm1sa3BwOGVUQ0NHbVpvWkZHNHhuVzFBNTFpbXVsYTZyRjc3cU9GVkR1THF1bW12SlVzRUZCa3BTZ1RNdFp0MzVQeHlyLW5kRGlrVjdFdHplXzJoaWZqSmVwclVRTE9ZeUN2X1RlaXVCOVB4c1dfZw?oc=5",
+            "publisher": "The Mary Sue"
           }
         ]
       },
       {
-        "id": "china-monitors-second-thomas-shoal-resupply",
-        "title": "China monitors Second Thomas Shoal resupply",
+        "id": "china-monitors-philippine-resupply-at-contested-shoal",
+        "title": "China monitors Philippine resupply at contested shoal",
         "when": "2026-10-21",
-        "place": "Second Thomas Shoal, Spratly Islands",
+        "place": "Second Thomas Shoal",
         "lat": 9.72,
-        "lon": 115.87,
-        "what": "The China Coast Guard says it permitted but monitored a Philippine resupply to the grounded vessel at Ren'ai Jiao, keeping the flashpoint under close watch.",
-        "via": "coast guard control of access",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "China’s coast guard monitors the Philippines resupplying vessel at disputed shoal",
-            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQa2sxZ3NXNXdvY3ZkaGE4X203WWVScDh1Zm9YQmRVVkVaWlZDQkRuOVpjMG5NdXBLNllRdVU0cENESzNRWXJRdGRMSGg0RjcyME4yWGJTNFR3M0s0NXBqX1lpYkhiOXhjV1BKNW1EWTN3clNMU2U4MkxRaUdXNWIzSDBmdFlUN0t4eVFQYzlodUd4Mmh2YS1PeFhFWkVnUnhYWWdkR2o5bjBzU0pmZG5keEM0Qlg1NjZBNTFaR1psNA?oc=5",
-            "publisher": "The Straits Times"
-          },
-          {
-            "title": "China Coast Guard monitors Philippine supply delivery in South China Sea",
-            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1GUTVNLTVna2RkQ184a29MREJpYUgyTFA4eHYzd2xULUl5dTBzemc2QWJpY2lEZjU5UERKVmV6ZmctUWR2V2tBWFRqVGxmZGlzRUJYQTJQZGxzaVFNWnRmR1U0aUpyVXBERUplc3JGbWRPYThQZFZhZlg1Qk9EUQ?oc=5",
-            "publisher": "China Daily"
-          },
-          {
-            "title": "China permits, monitors Philippine resupply to illegally grounded vessel at Ren'ai Jiao: CCG spokesperson",
-            "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5UX1N5T0U0WUpRRUExOEJ4aHI1R1R4dDgzcXJKWXo0WmgtZEoxUXQ2azFTZTA1WC1vWU4wRmZzTUstUjkyR0VCSG5RLUNNSTQySjBLWUxZTGg0QlEwdGZQMHZR?oc=5",
-            "publisher": "Global Times"
-          }
-        ]
-      },
-      {
-        "id": "31-chinese-vessels-tracked-in-west-philippine-sea",
-        "title": "31 Chinese vessels tracked in West Philippine Sea",
-        "when": "2026-10-21",
-        "place": "West Philippine Sea",
-        "lat": 12,
-        "lon": 116,
-        "what": "The Armed Forces of the Philippines monitored 31 Chinese naval and coast guard vessels in the West Philippine Sea, a heavy presence that raises the odds of encounters.",
-        "via": "larger Chinese ship presence",
+        "lon": 115.86,
+        "what": "China says it allowed a Philippine warship resupply while its coast guard monitored the mission, amid diplomatic tensions over the shoal.",
+        "via": "friction at resupply route",
         "aspect": "security",
         "flow": "into",
         "sources": [
           {
-            "title": "AFP monitors 31 Chinese naval and coast guard vessels in West Philippine Sea",
-            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWWNuRTZYWVRmRmE5dGJaXzFiWXZGTnRfdUY0eWd6a0xoV2owbTdsVUk1enVrMmRYVlJTN1M4Und4YUs1VW11Y0NJa3BjWk4ySmxpd0NJVGNjcktlVHVYRFZMWklBYnY1b2hpcWMyVnBQSS1GcEN4bEJ4blFlUEwxNm9nUXFmVmRNNDJkV3BTbGVtN09leEtjVXRxOElTRk4wbHRTN00yZmJ0dlNIbGx4aTZGUUttb1N4?oc=5",
-            "publisher": "Philippine Canadian Inquirer"
+            "title": "China Coast Guard Says It Monitored Philippine Resupply Mission at Contested Shoal",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWk9TRUgwNHFteTNoVkdQbmJzU2VRM2VyUG1ESUU4aHJZT0UyVVZqaDJFUjJ2YUJXSThTcWtISTV6XzhjMlFhS2tWLXhnckZCbDQxczlveUV3ODBOMjJRT1dNMk5nbWxvX1pFVDRzYk5tYzFQbHd0U2FvMVBtZnRudlYxT1JfWndYcDhsU3BhbGJZNHpUOU1aOVF0b2dpZldadmtxZGJyRVUzU0dTNHFZR3hlaU9Ydw?oc=5",
+            "publisher": "The Diplomat – Asia-Pacific Current Affairs Magazine"
+          },
+          {
+            "title": "China says it allowed Philippines to resupply warship amid diplomatic tensions",
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNy10dkxORkpKTk1uWXFLVk1WTU4ybGNzTGdDSDJLanFCYzh4SF9UNHRHMzRKbGd5ZnBobHlMRmlnUERnMXBGZHA2Y1BBcUNlamFyQW1tRWEzekx4MXY4ZlFsekNDem52aTdyb2xiakVJYTY4dW1ES0tUMXlUN0ZGbE9ycDZGOEVzTXhfWXpvSUVYVlBQeHpLaVc3QnZfamRFclU5T0QxT1dBY0xud3dRZGdqWThXdksyeVo3UW96LTcyWG1sSk8tc0MzMWZ1QdIBzgFBVV95cUxNb3pHOXR3MXlmZVl2djdmZHh2bERhWW0yd3F4UTZfc1dHTTlhaWZ5WjZNRGJUcWJPM3MtQ25jQzBpZXZvMzlBQ20xaTZGNlQzVmw3cGctNEY5dm9jQzVCSHFfenB3LVc2SnpBa0xBY0VnZmphcW5KaDlEeWNSYWs0TVl3bVhLaGx0VTA3eUFlYXAxWGhNN0tiSm9DTUNVMkFjNFVPM1p4Y2xaeEJvU2lDVndYQzNzd05kTFJYbVJRREpTc2FvOGZxdXdFaENKZw?oc=5",
+            "publisher": "South China Morning Post"
+          }
+        ]
+      },
+      {
+        "id": "manila-weighs-taiwan-cable-protection-ties",
+        "title": "Manila weighs Taiwan cable protection ties",
+        "when": "2026-10-21",
+        "place": "Luzon Strait",
+        "lat": 20.4,
+        "lon": 121.97,
+        "what": "The Philippines is exploring deeper cooperation with Taiwan to protect undersea cables, and China responds with a reminder of its one-China policy.",
+        "via": "Beijing anger over Taiwan ties",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "China Reminds Philippines On ‘One-China’ Policy As Manila Builds Closer Ties To Taiwan",
+            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQd0d0Y1dyb0tXN1NRbzI2RWtIUFBBTlJrNi11a3R4Uk9yQVJmZVpJc1U5ckZKQl9INnRtOUE4SkZBdnMxWU5xcU5vb1ZVLUI0UkFPNnJWSWJ4VTE5UUdPY2p6eWxISjZSYThoTjBObmE5MUFCUmtTUHo1M1BRUExiWU9Jd0ctbUN5QWZubjJlSjFKSU8zLXlOSDlrakR1NnpDTUVmbTBpT0JRNzU4OS1yNE56anN6QmxycWZOampxSkxxSmhTY19WOQ?oc=5",
+            "publisher": "BusinessToday Malaysia"
+          },
+          {
+            "title": "Philippines exploring deeper cooperation with Taiwan to protect undersea cables",
+            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZHZqRE13a0JHbEJ0eXNGLVJvdHkxbTIxdmo1RUZGM25MYi1oalNOdTFvVlZPSFl0Ym5uc0d0anVPNG16N2QtaWtCREFSM0VJNHhvZGVTRWdPNGplMk5yTXVKcWlDd3BlQ25jRG5oeE1QeE1iYXBBcUFiVTJHRVdXbW9yQXFyMXZqZVJHTk8xdkduY29Ub1VONVpEMHRSYWlKcUVJUThaWWhIakhXV29oUGZyWmF3QWtnRngxLVA4WEJScWVmQXpRMzkybUZEYXN2c3ROZHY0Q1lkQdIB2gFBVV95cUxPZHZqRE13a0JHbEJ0eXNGLVJvdHkxbTIxdmo1RUZGM25MYi1oalNOdTFvVlZPSFl0Ym5uc0d0anVPNG16N2QtaWtCREFSM0VJNHhvZGVTRWdPNGplMk5yTXVKcWlDd3BlQ25jRG5oeE1QeE1iYXBBcUFiVTJHRVdXbW9yQXFyMXZqZVJHTk8xdkduY29Ub1VONVpEMHRSYWlKcUVJUThaWWhIakhXV29oUGZyWmF3QWtnRngxLVA4WEJScWVmQXpRMzkybUZEYXN2c3ROZHY0Q1lkQQ?oc=5",
+            "publisher": "Devdiscourse"
+          },
+          {
+            "title": "Two faced remarks by Philippine diplomat expose Manila’s bid to exploit Taiwan question for S.China Sea interests; Political ploy will not succeed",
+            "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE13Y0dva19Hbk5scDN5R2NNeFo5UllITUpyQXRwbktmNXdGcDVwTG9nbE1iWWhtMF9IYlM3QmZiSElxcV9kUVp2dzgtSVFoZHpnNjFtSVUzdnNsVnZlZ3dvSmV3?oc=5",
+            "publisher": "Global Times"
+          },
+          {
+            "title": "Philippines exploring deeper co-operation with Taiwan to protect cables, Asia News",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQTRlZk5iX0Q0a2kzUHNUcjQ3YkVnbzh1TklZSHgydHJyemFubXY3cDNwUXc0SEJjU3JQMDhvS0xQRXkyX045RnlzNXRPa0owQXNQeEx6QjVDWkJYcHd0eGFEN3J4QkhMQjRVT3RGa3JpOVlnRzdsR3BtT2tXSmc0bXJrMGs1dnBybjJWY01aQXA2QTA5X19n?oc=5",
+            "publisher": "AsiaOne.com"
+          },
+          {
+            "title": "Philippines exploring deeper cooperation with Taiwan to protect cables",
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdlVVc0J4MmdIbC1BZV84dFpWTU0xdUNLRE5vM01lUGd4RXVoREZxakFkUTF6YVVCdGxJdFRFNXZSN2ZMZld1MTBtcmZSTkJoY2JvODlzcUdpNVdRNF9nWk83U0Q2a1k5UFRQMWZETFhGZFZrQzBHUm9NeFk0OVIyNC13eFoxX3BiU3VaTlVNbTdRbHRPWE5uLWpyTDNqMk1FazRqbjRoTTdTMHRjYzVWaWJwT29kd2Vld3NkdkxyV29JNnM?oc=5",
+            "publisher": "The Straits Times"
+          },
+          {
+            "title": "Philippines eyes closer cooperation with Taiwan to protect cables",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE91c1NTSm1vX1FYRFFsaWZFV2tIVG5RTFBtX3VWdWZHWjVhYTdhZldDcG9RV0FRZXBmWDRKb3Z4ZEpzV2hJQmdyRkRvNmQ0dXFzVUVaVlA0am1GUWZmV3U3aVM3d1lSQ1pjUVYteDNHaG5Bc09LajBDYw?oc=5",
+            "publisher": "Taipei Times"
+          }
+        ]
+      },
+      {
+        "id": "china-weighs-sanctions-and-oil-fertilizer-cuts",
+        "title": "China weighs sanctions and oil, fertilizer cuts",
+        "when": "2026-10-22",
+        "place": "Manila",
+        "lat": 14.6,
+        "lon": 121,
+        "what": "A report says China is considering sanctions and cuts to oil and fertilizer supplies aimed at the Philippines, adding economic pressure to the maritime dispute.",
+        "via": "threat of economic retaliation",
+        "aspect": "trade",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Watch : China mulls sanctions, oil and fertilizer cuts vs Philippines — report",
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNX1NIYldWZjR3eVNMZGYzRnhGcEFnZ3BUT0JKbzllMVl0SUV6UTJPQW53ZXo3MS1pa0hRSFA2QlN6ZmdjMmhCVFBRSGtwc1NsazdtclZFNUJLY25IcElYRTNORTEyd3dmR1U0UFpXWGt3WVNjSy1hckUzdnJwUzN2aDMyb3lrQUVadndaejhJcFlhbXotLUd3ejE0dnI0dVVoX0FqS3pPRV8tMVdnTDVUZi1UbWljdXZ0RkF1c1VjRk43Xy1keXVOX1haMNIBywFBVV95cUxNX1NIYldWZjR3eVNMZGYzRnhGcEFnZ3BUT0JKbzllMVl0SUV6UTJPQW53ZXo3MS1pa0hRSFA2QlN6ZmdjMmhCVFBRSGtwc1NsazdtclZFNUJLY25IcElYRTNORTEyd3dmR1U0UFpXWGt3WVNjSy1hckUzdnJwUzN2aDMyb3lrQUVadndaejhJcFlhbXotLUd3ejE0dnI0dVVoX0FqS3pPRV8tMVdnTDVUZi1UbWljdXZ0RkF1c1VjRk43Xy1keXVOX1haMA?oc=5",
+            "publisher": "The Manila Times"
+          },
+          {
+            "title": "China mulls sanctions, oil and fertilizer cuts vs Philippines — report",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSlk4SVIyUnNkSmhCWFctcEVPUElLRFBYZzVuTUdpX1dYN1dDVjRVbGVOMmR1Yk1neTBWRkI0UldLZ2VSYi1ldGxZV3FqeGJKTGdaUHNGaFZWTU9OUXlTeDFaZVhLVkpLWUFGMHY2SGUwUjVVOWlycFFzYXVOOWRLbUpxRy0tRWxYOUdiendQRmV2T1MteFVscUlKZEd2VVJKZ0doeW9ab2YxclpRQVo1RkdqZlNWbG1jUlJz0gHAAUFVX3lxTE5OLTV3SW9WcnpZdUFSV25XNC00YmdMcWp1V2ZoMW4wbFdvY2dNQVhRdU9zZEVCX0VKOG8xUXcyRHA1UWFOVnZPeTdSR0lIdW1xOWgzZWdDLUxMejJ1OFRySDRINFBWOTZzdTVKbVFhdGNibTBqU0NfM1BfdEtnbnBuSzBRaHhyaS1yYkFGRmVWaUFVMmpTTGsyeGZMZnAxZklkV0RYazVoZ1c1Z2VoU0pwWDNfSkhhc3RRblB3ZnY5cg?oc=5",
+            "publisher": "The Manila Times"
           }
         ]
       }
