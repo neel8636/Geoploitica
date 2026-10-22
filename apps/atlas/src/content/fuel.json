@@ -734,29 +734,49 @@
     ]
   },
   "apec-shenzhen-2026": {
-    "at": "2026-10-22T10:21:00.459Z",
+    "at": "2026-10-22T22:30:18.910Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "kremlin-says-china-preparing-putin-trump-xi-meeting",
-        "title": "Kremlin says China preparing Putin-Trump-Xi meeting",
+        "id": "kremlin-floats-trump-xi-putin-summit-in-china",
+        "title": "Kremlin floats Trump-Xi-Putin summit in China",
         "when": "2026-10-21",
         "place": "Moscow",
         "lat": 55.75,
         "lon": 37.62,
-        "what": "The Kremlin said China is already preparing a possible trilateral meeting of Putin, Trump and Xi on the sidelines of the Shenzhen APEC summit.",
-        "via": "possible three-way summit agenda",
+        "what": "The Kremlin says Putin, Trump and Xi could hold a trilateral summit in China around APEC, with Ukraine talks restarting and Trump reportedly open to talks.",
+        "via": "added summit agenda item",
         "aspect": "politics",
         "flow": "into",
         "sources": [
+          {
+            "title": "Trump, Xi, Putin Could Hold Trilateral Summit in China to End Ukraine War, Kremlin Says",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQW9VcW9Ld1RJb29Mdi05NW5iS3dnbWgxMWk1VkEwX0cweTUzdldLbzlmMUNNNXdnRGNRUHlVTzdYOW9Mbl96M0VOUUU0S05kN1NlZFlPVmtRS2hvUm5YLXJkRVF5Qll3Ym9zYkRlSURrWGtPUTd2VHZBMERzRzUyMTZPdHpkMHd3ZWF2V05VY2MtN192WWZwU0NrN3h0Rmo2ZHViYzNUUG1admZ3OERsNmlGV3VnbmVZUlFNTGJ6ZkpxbVJ1X0RV?oc=5",
+            "publisher": "Vision Times"
+          },
+          {
+            "title": "Russia comments on the 'historic summit' of Putin, Trump, and Xi Jinping.",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWlc3YVR6d2RqbUM2NWxBYmR0NXRyN2VQbzlTd0d2T1dDR0FfcU8xZ3ZLOUxiRVQxdjdCOFZ1YnIzdFN6Z19XQXdGNlpjakhSSDlualV3N3ctM1NZZnVFUjFrQmF2bVdrejJPWS1PUkVFTjRpbHhfOWtFWlBmY25hRUh6VFRld1o0QXFWb1NZQ0x4TlRjX3daTFpJYjc?oc=5",
+            "publisher": "Vietnam.vn"
+          },
+          {
+            "title": "Putin pushes for US-China-Russia summit; Trump open to talks as concerns mount in Washington",
+            "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE10ZENnSGpjZ3FBWVhhZWxqbHgwMG9EY3o4NXQ3YUU0Zkk4UC13RVRSbGNVeG42cXR4UkF4WDdmZzlyYmJWWFRyOFdoTzF5VDg1TGRVMjM0TQ?oc=5",
+            "publisher": "헤럴드경제"
+          },
           {
             "title": "China Plans Trilateral Meeting with Putin, Trump, and Xi at APEC Summit, Kremlin Says",
             "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1qSGRGNWNydzF6cUUzY1R3YnhBOVlQVENVSk5LZ2JjLVAtNXpjV1pyU1NzQkZTQzV3U3Rqa0M3NWF6NFlob0lsYUsyU05VZ3hzWVJLNkJjYUU?oc=5",
             "publisher": "CubaHeadlines"
           },
           {
+            "title": "China is preparing a trilateral meeting between Putin, Trump, and Xi at the APEC summit in November, according to the Kremlin",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbThHc1VPUWpqYk1ITGtlM0kycGZVVzhUeVNEQy1lSThzX1BnNGZpZm5tbkZWQk9ZVzBYNE0tNktEWGZjZ2ROeDR5aWpZWlhadUZMODRrN0lyUzZ3SXUxMHhQdnlMSmRYTktWa0Vndk1MWEJSQ1VUYTA3bGoyMTdVMGZ0dkVCc1FMbzBNVUFSLVZMRW1JejYtYTg2MkV2MGlQR0YtNXBSRy1obVlPbExLcVgySlh3UVBOV0pXUQ?oc=5",
+            "publisher": "CiberCuba"
+          },
+          {
             "title": "US, China, Russia plan first summit at APEC as Ukraine talks restart - CHOSUNBIZ",
-            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaFlELWJxUzNPUXlaZW5zWUQwXzVHREJRZnc0OGtzQ3dpdzAwcGNrMzI3NjJ4NEw0eWY2M2U1bnVsYUphV2tVNnMyY1BhOFhqc21tYUNaQXFMUC1fQnNGb2xoVVhGWkVDNHJEcm5nNndPOW9kU3hkNmJlc3IxcFBMQ1hLRkVrTXFPQ2hUcTBZNU10UFNuLUlrNUpkUzjSAZwBQVVfeXFMT2hZRC1icVMzT1F5WmVuc1lEMF81R0RCUWZ3NDhrc0N3aXcwMHBjazMyNzYyeDRMNHlmNjNlNW51bGFKYVdrVTZzMmNQYThYanNtbWFDWkFxTFAtX0JzRm9saFVYRlpFQzRyRHJuZzZ3TzlvZFN4ZDZiZXNyMXBQTENYS0ZFa01xT0NoVHEwWTVNdFBTbi1JazVKZFM4?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZXdTLXd3ODZJSmxoVTFuVTNzWVllU0JxbVpUeFNEbVM1dUFwN3lwdUJQTWx4QmJ1OXBCWFBQeWd0bnNwYW5ISGJSbFV0NlFMaU9faWNPUWVMVUVxTWlrQVdBbWNRZlhaTzEzb092OG9wRGFOTGlucjY0UDVhZXRIeklhaVc2dTVJ0gGcAUFVX3lxTE9oWUQtYnFTM09ReVplbnNZRDBfNUdEQlFmdzQ4a3NDd2l3MDBwY2szMjc2Mng0TDR5ZjYzZTVudWxhSmFXa1U2czJjUGE4WGpzbW1hQ1pBcUxQLV9Cc0ZvbGhVWEZaRUM0ckRybmc2d085b2RTeGQ2YmVzcjFwUExDWEtGRWtNcU9DaFRxMFk1TXRQU24tSWs1SmRTOA?oc=5",
             "publisher": "Chosunbiz"
           },
           {
@@ -765,53 +785,39 @@
             "publisher": "Big News Network.com"
           },
           {
-            "title": "Kremlin Says China Preparing for Possible Putin-Trump-Xi Meeting",
-            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMTFtU1ZmYlhkdjhvTUR2ZmFRUzVIcDNQOUpKTkp0S1NCZGJjT1RfUjdobXZ5cTRtOWF3Sm9kaXdBdEo2NUM2VzNjaFp1WjdNRWpVeXY3VS1lbXlzRFNyd1R1SEk2WC1UZWVwdm5WcU1vSE83RmswcVZWSTdTRXVNdm1uV1Jmd1JMNFFxZU9TeXpBQ2NzVzJLV0F0TWg2cUJLdHFjalpHMHRPb3BVV29FSEV2UktyUQ?oc=5",
-            "publisher": "Bloomberg.com"
-          },
-          {
-            "title": "Kremlin claims China is \"already preparing\" for US-Russia-China summit",
-            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA3SGxSZV9xSUtkRVdyLUxVamVUZFJFWGtISkxOVnNmY2FLSTFPMWtNaXVwY1Y1dHRmWVV4akNuQnJCY1ZwWmVRWHJrNGxrUkZZcW5BdF95aFBTaHJDVDlENHEtVG_SAXBBVV95cUxNSVQ5U2Z6cldSR1V0dTF1TlJZb1pSQjBsbUpiajJ5cFhwazdQSzNtZ1BKdnhva3dldUdMUW9UYmVBbm02TVNJX3padVlQbWhYRlYxSTRBa25tZkhCMlU3X2l1c2gzM0p4cEU0VXJXdE8y?oc=5",
-            "publisher": "Українська правда"
+            "title": "Trump, Putin and Xi at one table, without Ukraine. What Moscow wants from the proposal and why Beijing might agree.",
+            "url": "https://www.dw.com/en/trump-putin-and-xi-at-one-table-without-ukraine-what-moscow-wants-from-the-proposal-and-why-beijing-might-agree/a-79726190?maca=en-rss-en-world-4025-rdf",
+            "publisher": "Deutsche Welle"
           }
         ]
       },
       {
-        "id": "putin-and-li-qiang-pledge-wider-cooperation",
-        "title": "Putin and Li Qiang pledge wider cooperation",
-        "when": "2026-10-21",
-        "place": "China",
-        "lat": 35,
-        "lon": 105,
-        "what": "Putin met Chinese Premier Li Qiang and both reaffirmed strategic ties and wider Russia-China cooperation ahead of the APEC summit.",
-        "via": "Russia-China alignment before summit",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Putin meets Li Qiang, pledges wider Russia-China cooperation before APEC - CHOSUNBIZ",
-            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeTI0bTNmem9qRkZ3YjVnR19LdUlObVVuVUpCNHNscFd2Q2FsTUJsdUFiQ2RPU0FsLTBOM2JBdHhtWFVjd3gzOVFHdkMzZllpN29uTm04cFdtTFFLanBtN3VQb25HT01ZV2ZMMFBFdklESHFnbWF3VHZpdE1HaHNNODJfU215ajE5RDJLSW10a256OXJUaXNHOV84YkrSAZwBQVVfeXFMTXkyNG0zZnpvakZGd2I1Z0dfS3VJTm1VblVKQjRzbHBXdkNhbE1CbHVBYkNkT1NBbC0wTjNiQXR4bVhVY3d4MzlRR3ZDM2ZZaTdvbk5tOHBXbUxRS2pwbTd1UG9uR09NWVdmTDBQRXZJREhxZ21hd1R2aXRNR2hzTTgyX1NteWoxOUQyS0ltdGtuejlyVGlzRzlfOGJK?oc=5",
-            "publisher": "Chosunbiz"
-          },
-          {
-            "title": "Putin and Chinese Premier Li Qiang reaffirm strategic ties ahead of APEC summit",
-            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOazhOam1weVFuWHU0bkk1VzNQMWVUdTVWeFBFRWdNTHFUY3FFU213akJnSGM4Y241TUpyV2tOYzRmS2NCQWRBNjlMSkhVMExOcFVRVGJFNGtWMDBOQngyQ0J1d2xFcEkxUm9LeGFnb01HLUtQLVpqczlGYlV5V1hLTFFVV2pydWtUMElCWkNpei1XQ1N3eDZlbUdDNTY3XzB6Q1FEZ0hSVTdNXzhUNjVZbDc2NVVGMGdvS0tIeml6c2p2V0NXTXlYVmZxSQ?oc=5",
-            "publisher": "The Standard (HK)"
-          }
-        ]
-      },
-      {
-        "id": "trump-kim-meeting-in-november-seen-as-unlikely",
-        "title": "Trump-Kim meeting in November seen as unlikely",
+        "id": "trump-kim-meeting-prospects-on-apec-trip",
+        "title": "Trump-Kim meeting prospects on APEC trip",
         "when": "2026-10-22",
-        "place": "Seoul",
-        "lat": 37.57,
-        "lon": 126.98,
-        "what": "South Korea's Democratic Party said a Trump-Kim summit in November is unlikely, casting doubt on Trump's hint that he may meet Kim during the trip.",
-        "via": "doubts over Kim side meeting",
+        "place": "Pyongyang",
+        "lat": 39.04,
+        "lon": 125.76,
+        "what": "Signs point to Kim Jong Un preparing for a summit with Trump, though US experts put the chance of one at APEC below 10%.",
+        "via": "possible Trump-Kim side meeting",
         "aspect": "security",
         "flow": "into",
         "sources": [
+          {
+            "title": "Signs point to Kim Jong Un preparing for a Trump-Kim summit",
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0yOVFQR2ZYOGdLS3g5bm1wWERfbTRfdGxtYU9HdXMzTFk4S2dETFVQeHItLVdrOWV4aklZc3diZGU5aEowOVlzYzMxSjJaa0VhNzlxODRnSWRMMzhIWWQ2UjY5SENmT2p6MnU3RWd2VTJaRHhYODZZTmVTWWtMQQ?oc=5",
+            "publisher": "데일리NK"
+          },
+          {
+            "title": "U.S. Experts: \"Less Than 10% Chance of U.S.-North Korea Summit on Sidelines of November APEC Summit\"",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9FcEtyR3dTbEdzNHRqVWtWY0ZMUkx5LUhSSXU3YlNENFpQcDdTSDEyM2x4bi12VFB6b0tlY3Z4ZWRKN1NnMWJRRjBCMEFabjdpY095OEN2alJPeGd4U094bGFqQW9sNlhaU1BlWTI0MmNyb2VMYy1z?oc=5",
+            "publisher": "아시아경제"
+          },
+          {
+            "title": "US Experts: Less Than 10% Chance of North Korea-US Summit on Margins of China APEC Next Month",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE56ckcwWjhSU2J6YWFHeXZ4OWp3THo3cEhjQzMyRHllVFhkb0FoX1FiWFhEZGx6eEk5OWJ1NlczMDd3bjlkMW83RE9vUEp1d2ZCSGd2UkhzcmhfbHhHcjZQc2pnRFdsaWFkOUVMeGhR?oc=5",
+            "publisher": "news.sbs.co.kr"
+          },
           {
             "title": "Democratic Party: November Trump-Kim Summit Unlikely",
             "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdzVxcnBocGpfQ0F5RUFKVHY5RDBFWm5UcEdiZjY2Ti0xSFhweDk3d3FLUWNlQy1rWFRGTDNPU2Y3QjlkSjNFWjYzQTNlc1ZGLTVwSnNFb1RmTmh0Q0w2OW0wemxHSGlsMFZGbEl3Nl9vSVVTeFdnNVVQNTllSkVFVTRvWXhZLU5Z?oc=5",
@@ -820,136 +826,194 @@
         ]
       },
       {
-        "id": "think-tank-calls-steel-and-aluminum-tariffs-a-disaster",
-        "title": "Think tank calls steel and aluminum tariffs a disaster",
+        "id": "quad-and-squad-talks-planned-before-summit",
+        "title": "Quad and 'Squad' talks planned before summit",
         "when": "2026-10-22",
-        "place": "United States",
-        "lat": 39.8,
-        "lon": -98.6,
-        "what": "A think tank report said Trump's tariffs on steel and aluminum are a disaster for the U.S., adding domestic pressure on tariff policy before he meets Xi.",
-        "via": "domestic pressure over tariffs",
+        "place": "Manila",
+        "lat": 14.6,
+        "lon": 120.98,
+        "what": "A Manila envoy confirmed the Quad and signalled likely 'Squad' talks ahead of the Trump-Xi summit, shaping regional positions going in.",
+        "via": "allied pre-summit coordination",
+        "aspect": "security",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Exclusive | Quad confirmed, Manila envoy signals likely ‘Squad’ talks before Trump-Xi summit",
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYXUyYmhZLXZIOHUwOGZmQnhvNENOOWpYWDhpa01UQXg4YzUtVDhPZUgwbTJwZjZKdFAwbW5pcl9rYkdweThwRXBGcmVWaXlZa1JsRHYyMDVfaU51SWVQTE1FajBaaUtMQmgyOFZMS3FDdWJpSDY1MlZMZmx5Skt6b2t0ZzBiRGhvYWJZeWVlRlo3UzV3LWNjVVhQbXZMSjNYUXo0Qmh2RUNVYW1xc0RvbGtrYkFIdTRub2xPbzJXUlpKUFXSAcMBQVVfeXFMT2F1MmJoWS12SDh1MDhmZkJ4bzRDTjlqWFg4aWtNVEF4OGM1LVQ4T2VIMG0ycGY2SnRQMG1uaXJfa2JHcHk4cEVwRnJlVml5WWtSbER2MjA1X2lOdUllUExNRWowWmlLTEJoMjhWTEtxQ3ViaUg2NTJWTGZseUpLem9rdGcwYkRob2FiWXllZUZaN1M1dy1jY1VYUG12TEozWFF6NEJodkVDVWFtcXNEb2xra2JBSHU0bm9sT28yV1JaSlBV?oc=5",
+            "publisher": "South China Morning Post"
+          }
+        ]
+      },
+      {
+        "id": "lawsuits-challenge-trump-s-tariffs",
+        "title": "Lawsuits challenge Trump's tariffs",
+        "when": "2026-10-22",
+        "place": "Washington, D.C.",
+        "lat": 38.9,
+        "lon": -77.04,
+        "what": "Food importer Gellert Global Group sued the administration over US tariffs, and Trump also faces a lawsuit over 50% tariffs on Canada.",
+        "via": "legal pressure on tariffs",
         "aspect": "trade",
         "flow": "into",
         "sources": [
           {
-            "title": "Trump tariffs on steel, aluminum a 'disaster' for the U.S., think tank report says",
-            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVUI0bDFERHlkTDRfOUI5UXFKdVdvVVdWRWctczd0N0FzRXB3RFZFOVl5ODU1VXdRb2dmYmt5ZUg1RzZoQnNhempNcW9RNTBLMVdMdnA0Y0hTdDdFcjFsXzNrOUJCR3ppTkR2RXB2cWEzNnl2S0dzMlh2UWRoSEpjYWN1eFpCNUZUVU43VmQzZFNzQQ?oc=5",
-            "publisher": "National Post"
+            "title": "Donald Trump faces lawsuit over 50% Canadian tariffs",
+            "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1vbDlPNGRQVERaYldoUlVQeXZJQWV3SksyN0RXcHlHX2tPb3BmMUJLRnBFdEhOSHNFQ0NOVTRWejhwLWxQY0poalN6TTRHZ2drbnVCbHNMTW9Fek81V1owYzg5ejMxZ9IBa0FVX3lxTE51Y2NORXAyajgwMjFpTFBNN2FUNmtiaUQtNnBoMlh2YTRiVlkwTFN5b002aS1fSGF1SmlrR0RzVG4wTFdhc3B3eWFyT3JVUng0dGE5Wl9ySElZV3lrRUZoTFZXb1FlblFHTTd3?oc=5",
+            "publisher": "FOX 10 Phoenix"
+          },
+          {
+            "title": "US food importer Gellert Global Group sues Trump Administration over US tariffs",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOXk0aUg0VVphTmdObjRLUVZIaDJFTW5wMGRXcmhKMU1PS3dWamdvd2FrTUNUQ0lTT01oVWdaVnFCRmtpZHRKR3pERG52MmxQb1J3dG9OMjJ4Tmh1MWd3QlU3RFdoWFgwWjA3VWVLTkVJT0ltZEhCZEctSDM5VERuVmpkUnU4YUNyMmpnUUduMmJxWXdDY1dWUHRmNTlHUjNXYnM3QUw1MHZBQ0RqX0FULXBlS2lteUU?oc=5",
+            "publisher": "JURIST News"
           }
         ]
       }
     ]
   },
   "india-us-trade-deal-2026": {
-    "at": "2026-10-22T10:21:00.459Z",
+    "at": "2026-10-22T22:30:18.910Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "trump-signals-narrower-different-india-trade-deal",
-        "title": "Trump signals narrower, different India trade deal",
-        "when": "2026-10-21",
-        "place": "Washington, United States",
-        "lat": 38.9,
-        "lon": -77.04,
-        "what": "Trump said a deal with India is 'pretty close' but will be a much different kind, with sectors that remain unresolved left out of the pact.",
-        "via": "narrower deal scope",
-        "aspect": "trade",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "India deal pretty close, will be different: Trump; pact to exclude unresolved sectors",
-            "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNbkdYWkQ0b1FxX2RsdkVYY0F1dWZuTTVBLXpLb2xuQjFmSTJwSjdPeFlaaTBOa2hFNjZTRDVNVnVrRXE2blozeUlnYnZEdjIzaU9nWFhfQ3lBT1pqakRqLU40U0M2cVBVWVZzX1k2TFhNMkJ5SFc0NWl0OVU5NEowcm0td3BDZTFqR3lzY3B2Rk1FWXpyRkJwMXdpaUQ3Ylp0dWhCNXV1QTBUdTE1UnRzNmMyRmt3elNfUEI0Q2l6SEczVG9OVGhMa3RDc09MblpZNHQ3SXhQY09wY00yZEFKbVdMNGfSAeoBQVVfeXFMTmlCYnZNM2RHT1FMOWFBQXR1ckFQSDlVTEhxMXE1MWJ4SDJ6Y1NqMm5lcUFSc292S2tkdlZGY2xLakRJdjZXN3R3M0lVQVlXeXBUNXc3UFhnSnptdTlia2xpeDd3ZUJMdkF3V3lhc1N4VEhkYlEzd3hURUVlenlVaGZwXy1RYks2cmRFSXdIYzJuelNQMkMyUDIyaHlybUVKV1RNTC1hZVdUR0FfRmpkOFNLVVd5dTJXM2Ztb0ZCMmR5Y2pmTGJJSUVPTFEzcHROTXk0Zk9qMkFwbE55eXV5M3oyYVpBZ2prVTdB?oc=5",
-            "publisher": "The Times of India"
-          },
-          {
-            "title": "‘Pretty close’: Trump hints at ‘much different kind of deal’ with India",
-            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbnJtdE81cm83NEdGNS1TcjIwTUR1OTdzZWRfR1NxT09ydjU0VVVRdjRwT083ZFZsXzJmMGV6QTc4amhMT3Y1Y1k4VGhGM09HbVlGdHBXM3VlV0hPVHJBejJDbEItMmhxMXZNaXREXzJaYUFneDFXTGpVM2xqR3JTZUtha3FBM25hTW9EU1dLdl9OTzYtb0owNDkyekJ6UjI0eVBmd2Y0aXczc3VzSGZHUHB30gG4AUFVX3lxTE1ZWmZoRkZVdE1QZkNZbENpTlNZc3I0Vi1FbzhIV2dUY0FET2tCT2ZZNmNyb2EwM1ZnRFJSMHVSYXhGbm15LXUxbTlrVTV6cFdfb2d1RTZCcEROUHlWa21Ha01IUU1WdVJCWUJvUjZxV09LNGJNQ2pqQUFvY2RXanJKNjk3MGh1UzJPNUhZT0tlUVVDSXdwbTVQUzloRHFWY3JxeFMxVXBfeGJWUnA3bzB5RHFlX0JPdGw?oc=5",
-            "publisher": "The Indian Express"
-          },
-          {
-            "title": "India news: India-US trade deal 'pretty close,' says Trump",
-            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUEY0SkRUOWg3NTVURVZFSGM2NEd5T2xtczhhUHpQMlBrVXZGSkZGTFFCcEJ4eW5sSzNidnJSWjg0MjM4NmVfNUpGdUYyMmxiS2xaX3c3YXppZ0hYMEZHWlhwR3lVZk1CbllSU1JKSlVDS3FzTmRuUUtkc0NWWFBPSEtNYTVUUm8wSV9reUI5NE9PVlI3?oc=5",
-            "publisher": "DW.com"
-          },
-          {
-            "title": "Donald Trump Says \"Much Different Kind\" Of India-US Trade Deal Is \"Pretty Close\"",
-            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWnR5bGhfMjVLc1RBM202QWxHNFFhLVNnOGdlTHNaM1RySndXNFpQWVAzb0VNd1VwT21aaWpON0FjSld4Yi1kODRsSmFXeXFTNDVvaUllM2wzUWI0emFmVm8wR0lYSVg0c3dadFA3OXdiLWxveDB3SF8tWVlEa2REWnlleHBqaTZIZ1Rpb3FnQnd0QkMteXVBeFVqOEtHQ0NUWTYtMmtZVERVZG1QZmZsRHlPUGZUaHNF0gHAAUFVX3lxTFBTMmREMU5MYjdvRl8wTWxfS2pWX004bXhXNnlMUDc2Yk1tM2JXTDJnS05BdEtCY21aTi16WWxuVDdiM2YzV2tveTBpdVdqc3A5bEptdDk5ZVhuU0JuXzZtU2xpTk55SzR1SEd1RVRjTGFCejEtQ2hiSGVrQkcwczZHS3BJb0JjQV9NR0RzeUhsVnFjQkEwVjBRWTBfeDdBUEZaWHY4VTZ1NHJVcHlMeEtQbHR6MTgxYzFucEJyMTNZNA?oc=5",
-            "publisher": "NDTV"
-          }
-        ]
-      },
-      {
-        "id": "farmers-union-threatens-militant-resistance-over-deal",
-        "title": "Farmers' union threatens 'militant resistance' over deal",
-        "when": "2026-10-21",
+        "id": "jaishankar-says-trade-deal-s-last-mile-is-hard",
+        "title": "Jaishankar says trade deal's last mile is hard",
+        "when": "2026-10-22",
         "place": "New Delhi",
         "lat": 28.61,
         "lon": 77.21,
-        "what": "The All India Kisan Sabha warned the government of militant resistance if it goes ahead with the US trade deal Rubio is pushing to finalise.",
-        "via": "farm lobby pressure",
+        "what": "External Affairs Minister Jaishankar said the India-US deal is in its last mile but challenges remain, cautioning that it is never done till it is done.",
+        "via": "Indian caution on closing",
         "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "All India Kisan Sabha threatens govt of 'militant resistance' if it goes ahead with US trade deal",
-            "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQTEI1ZjFLOXNVcEJKMFZRUEhUdkU1ZzJvODRqdDhmZ2diSHJCYnJrOGdaSTdRd0xna3YyeHlBaFpzeWpnRGU1aFh3TjFLMWNxMDJBOVYxNjR6UTZtNDNvQXFhVHNMZ1hfZVJDMld0R3NIaTJWQXVDNk9MVGtYcXRxREJRR2RQSV9MSEV6NnZ0RTl2aTY3RW9zRHVYcVZsVWprYmxYUnJLQWFmaG1UaVdUbGxXTFB3SjBhZ3d6Q3gyX1Y2QnoteTQyaVFIQms3bHl5SzBFZDZuajhYWmdpeFJhUVh0Vmgtc1pKU3FZWktqeVlQWGdDRnfSAfsBQVVfeXFMUGJXbExVR29uWFBvTGhxUG1WUTBRZ2VsM0ZWQlVHWVNqNU5BekNrUm9mZXVRaHFpWUNZX1N4aW9tVlVVcXE3OE9FaTliOVlqYTBuTmJ1c3BzdDBKaXdIdi1iZ3d5M1praFlEcVFqS3M4bFZJOFpFTUpIWXByYXFqekJVZDZlY253eWpucnFmY1Q1eGZOZDdNVUh5cHlaTWhwaElPV3p6bFBqcEh5WndaYm5FZEJYODZBQXN1eTlxbzRsZjVGRHp3SURWaGdTUE5nSU1OV0lCUmdtR1RqZ2pfSWl2UV94TGQ4ZHdQcXV6UjlJdElvSGVXbm90SkU?oc=5",
-            "publisher": "The Times of India"
+            "title": "India-US trade deal in ‘last mile’, says EAM Jaishankar",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPN0xWa2FtTmp3RWRfU1BoX190LTZ5MkM0V3JiZEJiemFxMVFtbVJwZkVvVzVzdXJGcjlNNnV6alFDbUFrVmI2MTQ0dGE1Q2hlMWxqb2ZiYWV6RnpqQW5vaFRxWFNVWTQ5VmFHZ0pfejd6M1BxNXRfeThNb0NQUFVOYjlhVkcyVjRWMjVqbzB3QmMwdw?oc=5",
+            "publisher": "Cityairnews"
           },
           {
-            "title": "AIKS threatens 'militant resistance' as Rubio pushes to finalise India-US trade deal",
-            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOR3JlX0pTZDRkelhaWGR1Ny16bm9oZTFhMndibVR5NWh5R1FpS3pqS3pfTTV1TmFubWJuaUt4RFNCN1A1dElUTWo5LWtfQkExTkVQaFIxclhFZy1FdzNXLTMzTUoxYTRiQmV4bTJRclREbV9aV0VZVndjeTh2T3NWempPelZUT19GeHBrWW56N1RONWtFeVlCc3NKVDdHVTc4Z3Q2aHZYSWZkeFAyRlU1aTdWeV83OEtxODFFZUo3VE9HUy16Q1diQlR6RWpRd9IB2wFBVV95cUxOUWFPdURUV1AteEs3Y0tySVBpaEp2MlBRNjJCd1ZZa284ckZYNXNfM2p2XzhNR3lxUFAwN3BCcXhaWFBrOVQ0WUNfNjNFMDQwMGkzbzdHNzZwQ0kza1N4dXNpTDQxRnZQbnlqOHBoUkQzQVBCQmY3SVdhakxJSkxDYXJRWWlWS2RYOEhaQmYyLUpVTlBSdlI1UDRsWXZCTGY3VFFVWGZ4OG1jZU9McGJpUTMtMjJPUTByZ09NaEJ1UXBZakh4cXUya0JPV01JSG1UNVpucHQyRTMwQlE?oc=5",
-            "publisher": "The New Indian Express"
+            "title": "India-US Trade Agreement in Final Stages, but Challenges Remain, Jaishankar Says",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPb1A5NGFoaXBsZmdIemFiZ1pJbTlHOHJfT0YtUDlRUlVuaUwzSUJONzRtRzRYQXI4REEzUmdVRFFhQkxkN2piS1MwTXNHR2lQby16U1dyeHBTMF93dURaMlFjNDQtUnFrRWo5a2E3c0ZlX1lZWHpZMTJQOFJnRlZXSE9rNDdobjZOR1VQSjNWVmlNUzNkT3pzdlNTWlljOF9HcjZKSnZUbUJOWHc?oc=5",
+            "publisher": "INDIA New England News"
+          },
+          {
+            "title": "Jaishankar signals progress on India-US trade deal, says last mile remains challenging",
+            "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQXZvOWJHeFoxbkQzQVNwTVlfNG05RUFOSlJfc1ZaVTE4MWlRbUJ6SlFyekNMeXRIa2RrYWU2YUVjeHhIRUtrN21fczJjNkRDMXdab2I0VHNsUENuOEtFQUJtU2gtbklMTUhVXzVnQzRBNWYyVnFsYjY1dzAxUW9zSURoVGtOcHpiZWRwR1FxX19nZTh2bGFPUlA3MzROajVaUHhJVUNVSlN6RDhaV2tnT0hCbGdVMFRhTDYweXFaT1FISTZZdXFoNUdkU1M3U2N2YXfSAdcBQVVfeXFMTTc4aDJFRzN6eFJmLVdOdVR3VGlxSU9wbm1GMWR6blhJZ2pCWXlDZ3NmYWhqQ1piNFdjTlFSN3BOZGxfTGRHbXh2ZmNMVzVfNVFtX0w3WjVrbmFVUmFQTmVjclRvMmdZR3dwWjlMVXBhamhnTXNBVERqaExzek1zVnNNLTJ2b1ZOd21ydEhGbEszeGRxODNIclVLVkwtRWFRZDB6Mm9OSDYxWGg0bFhVdW1XSE4wTmVtOTBnS3VieUlaZEpVUlM2cGFxWHRqNktLMHV3RXl5T2M?oc=5",
+            "publisher": "The Statesman"
+          },
+          {
+            "title": "‘It's never done till it's done’: Jaishankar on India-US trade deal",
+            "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPNVRiRkZpc2MyRlJVN3Njblp5X2RtVWV6by03VEFsTlduTzNXMlN3M2VGdkh1OUNpTC1iYWJWX1E4X1BEZXZjeTdwZnV0NU02OTh2OHl6T0JTWndFb0toVDZyTHVGSXJkblEzU3dwSjQ2NUdmUEhFY1FoREdGZVdqYWV0bkRJaFlrbUVyMFNTbUZXd2NPRUh0d1pQQUthX2xVMHRJT0RxcHduWERoSjhfUGRBdm5rcFY4NEVjXzVzTGVuR1VNVmZRS0ktZ1hJdFBmdXFubEk3cnFuRXVPMTBFUm1lc9IB6AFBVV95cUxOc09WcGdMTW84SV9id3A2dXI5NzFMSFIzVTExaHU4YVQ5ZUJRSDliYnZic3o3bGVVTW40aHRDXzFUdkJGT0tjMkw4UTRyOWMxblhsbHA0Vi10RW1tcXBQa1YweGcyMHpRZ2NHdUswcU1zTUE5Rnc5U1lMOVpJUWpxWW5yZ1VKeDNPY0x5Sld5c1VOVUdBUmNVaTAtb0tzX1VSYlhtUmNQd1hpWDNjclVuTE5UM1l1MVp2SUZaSjhMSmFSQkJndDU2Tnp4LTdITWlDamJ0dHIxU2FtLVQwZzhWR2tTYXp4UGdk?oc=5",
+            "publisher": "The Economic Times"
+          },
+          {
+            "title": "India-US trade deal: Trump says ‘pretty close’, EAM Jaishankar cautions against calling it done",
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOX1BRZjNNMUlfbXdVOEQ3c3dlVVFEWEd2djhFcDI0ckFXV2JRdV9fSmI3M3J4b2xTWkI5b3pqNkFqdVlwYWllX0RGNXktRjRoUGlYMm9UZlZPNkREODkzYUxvYWdfTmczZ29wNXVkWDJYQmRIVFBYcW01amNLZEM0bFNzeTZpREFOZ3ltMGRkdjFHNENUdktBSlMxVFhlWVN0NENDYnBCVnp1LWJlUVJtLTBLYlQ4WGhfQVRmNEc5VnYxUGM?oc=5",
+            "publisher": "Open Magazine"
+          },
+          {
+            "title": "Video | Dr Jaishankar On US-India Trade Deal",
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQkhBa0thM1YxYUs5RUhXR3dVVWJQb2g2MUtxZGVxdV9zdVpBUWE1eWFsOHdONXRzVE1UdkZuWDA3RGRUTGxUNUVqbWdfRm1oR2VrZllWSnRaN3dJMVZ6VFJMSU5lNDBWNjJYZmkyaUtrbnY4aWM2MFVWc0RsS0VxR1c1eXJpS29LSWlnOE45X28?oc=5",
+            "publisher": "NDTV Profit"
           }
         ]
       },
       {
-        "id": "us-courts-reliance-s-jamnagar-refinery-pushes-venezuelan-cru",
-        "title": "US courts Reliance's Jamnagar refinery, pushes Venezuelan crude",
+        "id": "russian-oil-waiver-tied-to-trade-talks",
+        "title": "Russian oil waiver tied to trade talks",
         "when": "2026-10-22",
-        "place": "Jamnagar, Gujarat",
-        "lat": 22.47,
-        "lon": 70.07,
-        "what": "Rubio visited Reliance's Jamnagar plant as Washington pushed India to process more Venezuelan oil, putting energy cooperation alongside the trade talks.",
-        "via": "energy cooperation bargaining",
+        "place": "New Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "what": "Rubio's comments on a Russian oil waiver and Jaishankar's remarks on Trump's oil deal with Russia show energy policy shaping the trade negotiations.",
+        "via": "Russian oil sanctions leverage",
         "aspect": "energy",
         "flow": "into",
         "sources": [
           {
-            "title": "U.S. Pushes India to Process More Venezuelan Oil, but Jamnagar Already Knows the Terrain",
-            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVFlJajRQaG5BOXRHVVlyMm5MVVpYRFZiU2V6OE1jX0V0bFBDbTNkTEpwcFdGdnVTamsyTXp1SFRnODhGU250ZmRYcEJPX3hEQkpHVDNHNi1rcGZLQkMwOUdPcFBrSTlLODBpQkJ2VDdOdVl3Y2lfNGZGZDRUU3doX1dNZzJiOEtUTVYzNnp6TC0yb2FXODhyRkloWGhRZ2E4OGpaNzhSSk81S00?oc=5",
-            "publisher": "Gujarat Samachar"
+            "title": "Rubio on India-US trade deal, Russian oil waiver, visa rules and ties with Pakistan - India Today",
+            "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPNU5HNldnaEtEa0w2aDctLVRpajZyOXNmYlVBLW1tSFN0QmNZRFJWZ2UycU9MZWFMT1gxSnk0bDhrZmVoYm5kd2NQTTVkS29JT3EweFBhU2NOa2ctaEZGaUt1UHB6NWlvN3dtblFWd3p1VWFEWmJrNWNlQzZHNEtBN3FvRnIwYi1XNGNncEU4Ny10LU9kRHJzajhING92T0VLb21FQk55RldKRnBSUWpjVjNsY1hwM2NJRWE3NTAwRHZyQ0JaaXhRQ3ZoNzJ1dUJVc2pmVUdVRVIxaFpFS21MWDZBaURVQ3RTVS1jVkZn0gHuAUFVX3lxTE81Tkc2V2doS0RrTDZoNy0tVGlqNnI5c2ZiVUEtbW1IU3RCY1lEUlZnZTJxT0xlYUxPWDFKeTRsOGtmZWhibmR3Y1BNNWRLb0lPcTB4UGFTY05rZy1oRkZpS3VQcHo1aW83d21uUVZ3enVVYURaYms1Y2VDNkc0S0E3cW9GcjBiLVc0Y2dwRTg3LXQtT2REcnNqOEg0b3ZPRUtvbUVCTnlGV0pGcFJRamNWM2xjWHAzY0lFYTc1MDBEdnJDQlppeFFDdmg3MnV1QlVzamZVR1VFUjFoWkVLbUxYNkFpRFVDdFNVLWNWRmc?oc=5",
+            "publisher": "India Today"
           },
           {
-            "title": "U.S. eyes refining muscle of Indian billionaire Ambani's Reliance as Rubio visits Jamnagar plant",
-            "url": "https://www.cnbc.com/2026/10/21/rubio-reliance-venezuela-oil-diesel.html",
-            "publisher": "CNBC World"
+            "title": "NDTV World Summit | \"US Protecting Its Interest\": S Jaishankar On Donald Trump's Oil Deal With Russia",
+            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZERWZzlxUV82dnpza2lLdVdDcFc0OXRTMWhJTFpBbllyUTAxSUI4LVF6MDVtQ1hzYTVzdjhsNWpyN0RTWnp5Yk1ZVmx0eHNaNXBSaEh6ajk5bWhVdjRvS2R2M19Wa194TGdDMUlVT0ZycHpMZVY1TUdXWUZLRVNVSmFuU3RqUmdEeW1CQlV3aHlfTDM4S3NEM1VjUUFIakF1MFAzOFYyTkpLWWxWLUJTVWdBOUxzLXp4dkZYb3hma05fWkJRVWlqSEpvN296dlNuT2FrTG9R0gHeAUFVX3lxTE5aWU1yX2NHbDNxdTVjZlpKeTBxdU9aODFUbngzaTZCblFMNlBBdXUyTUV6ZlAyejR6VFUtR1Raa2VFSGx3V2NLbGhoMjJqemliSVlGeG5OY3c0emhUX0xmN2ptZlFyTE5oUWhJVHVNbmU5SEtQMkJWZE5wWXhoVHA2WUI3V3lNWkJwemJPNmlKemV2REtPOVZPay0xc1hzdFNFajRpd3g2M25Oa3MyUWZaWEU2RDJNblBTTm9VY0V1WDRYblJwUTRrLW9hZThwVC1mQ0lIdWFaQmlVQXVHQQ?oc=5",
+            "publisher": "NDTV"
           },
           {
-            "title": "Marco Rubio courts Reliance on India visit. Does that spell hope for US-India trade deal?",
-            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZjdWTS0xcS03NXRYODloRzNXbVZEYXdZLUpPMmtZa0NEOWhBUWhkRGw5cUsxdjBRMlFKSVNyQTFMWWxOUWF5dWVWeGhfYlNLdlExUzhzWVVsMldSMFB3TUpuc1A0LWdLdko3VEtLVWQ3ak5aSU93YTIwbTRaZmZhUXZzdWIyczZ4czU5RUZUVk5STDloMDQxNUMtQV84UGlNMEUyZDVjSG9yRk1YYTFPY19TWWJfX3U4R2U0ektsSmxFWGdGcTBsWDlRMWxWZkVIWjVGNWxR0gHbAUFVX3lxTE5kOEtWdTdwZGZMYmdWTWRYcTZGTms3ZnUzMDNSakFwYnlVMWlOYkNsZmtjVXhhekprQlE1RFNDdHJkcHlvZWlQYnA2MTBNenhRb0o3SXpPWDRDZzg1VWFOWGNfVl9ZbzlDUi1RM0lSekFfMDhDSlZwN1dhNGdGRnZGTE5JMzk2RGVYWmdMWVY5anBMWWxFbmZVZXd3T25zYzdBRVR0bFUtSFV0a0xFd3lWb1Q4aGZHZGVfOUJya3lZRlVTQUF1VFpiNFhOaEJBSk1pVFgwSWVNSG42aw?oc=5",
-            "publisher": "Telegraph India"
+            "title": "India-US trade, Russian oil, BrahMos missiles: Rubio, Gor and experts discuss key issues - India Today",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOSTZvRVExT1paT1VUdzhpOTA3cjI4RjJrcG8wVWVkQ04zZkoyMmtmSFcxWXgyYXViYlhPeEg1X2hmUFZ4MExmOHhlOTJ0b1NQNnYyaWxxRWlaYV8xZ016aDlQNjczaU5rZFBSR3EybTlDTDJMZS1EVllTeWJsM2EweW1rajg2Nkw1eGdEM1V0ZzU3cUk1ZHNUTGdNWlZQZXl2cThFWldLR1VLTmdMeC01MXhPS2l0WHNNeFZBQnlPTWN0OGg2YzlRaFRGOTg3MnFLYWdCS0VNR1JPdGhPTXkyUExva0pVTkxKV0pFTV9JTDJGWGvSAfMBQVVfeXFMTkk2b0VRMU9aWk9VVHc4aTkwN3IyOEYya3BvMFVlZENOM2ZKMjJrZkhXMVl4MmF1YmJYT3hINV9oZlBWeDBMZjh4ZTkydG9TUDZ2MmlscUVpWmFfMWdNemg5UDY3M2lOa2RQUkdxMm05Q0wyTGUtRFZZU3libDNhMHlta2o4NjZMNXhnRDNVdGc1N3FJNWRzVExnTVpWUGV5dnE4RVpXS0dVS05nTHgtNTF4T0tpdFhzTXhWQUJ5T01jdDhoNmM5UWhURjk4NzJxS2FnQktFTUdST3RoT015MlBMb2tKVU5MSldKRU1fSUwyRlhr?oc=5",
+            "publisher": "India Today"
           },
           {
-            "title": "Venezuelan crude, Russian oil, trade deal: What US Secretary of State Marco Rubio’s India visit signalled | India News",
-            "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxORC1JMlN2c1BxZnhCUTJLd3RISDB6Sjk0ZkRfZmFiTktRdEtFQ0p1U2RtZVlvOVhLam54TTFaYjFnQmUzQjkyYVRjRXl5RGdnVHpickVOVEFReHNxS29MOTNiM08tdTRrc3I3QUxVVWF4TEEtMVdMVmpzY1FfSm1yX2tMdDg0SzRIMl9hd0xhUzlhSm9Hak5YNGd4QW1MaFppQ2ZiX2loV1dwV0JiOU1NRWwtZDVQN01yRl9ieFdPZWhGUUEybF9yZVMzNm1obzBJdGxVd05udXpvMDd5N2MwUFd0cW91OU0zbDlUSFI0blbSAfYBQVVfeXFMT3R5czlUQzd2eENEN2VPRXRuTy1PaGtCWWdGTXJuMXdMdmltMHNZbWFlTm5ZRkR1UkU4b01FNUF5T05HeEc5em9WeFJxazlER2FRakdWd3E0NjJNVWZXdV9faWxCc2hBTUFkdUxWV1o4b2RiTVRBdVB4a1phRVFhRDhsT2pXaFlBRl9xeU9Ib1M0THE4YlBCZEV4d2FRSkp3RFVpYzlsWTlXSjRGNE0wSEI4cXI4Y0FydWdOVFlmcHZXWjAyTldwcktKN0dtZGJkRFVKSVdGZVFIR3gwY0JyWTZUUUxNWWdhak1WV3lSTmNwN3ZfSkpR?oc=5",
-            "publisher": "Hindustan Times"
+            "title": "India-US Trade Deal Talks, Russian Oil Imports And Ukraine Peace Formula - India Today",
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdGFMYTNsMHRKU1dBTU41NWRnOF9iNURhWVUyVE9GTGlnaGRVc00tZTRJZWN4dzNNN2VIa0NWVjlnYVBucjU3QzEzcHBBaHhJbmpCd01pQlFkN1B4d2c2WDc2aklSQVNPQnFuNHZMV2xxbVRRSGhPVFExM3FGUVVoM2dqaWw4Z1Z3SHpESFhsYmhYYWwzSFVhWllub1A3VDBvWVltMXkyaUhOQlBhMFkwY0k3bFVQcDVwbVRGTFFRbS10Vmt1Umgzcm5fNlA4d9IB0wFBVV95cUxNbmpVV21GMzFrbnI1VmRvTmVGc0w5WUxWMmxJT1pTNHlxN04wV3pIVDNwNWVCTnhGRnRHdW1YSFpWX0hZVXJ1N1lzdTFYNEhiM3hZQmFVdGthUGxZZ04yaUVlSTBCS2ZHSWt2NUVzS1RlWDkyc1h4T0l4dzBRY3c5bzdIeVJvMVJ2Sk5HaHFsOTZfYU13UjBlWWJIRGNEMXBjcTFvOVZNN2U5ZzFzWWUwSmE3cVZTQjNZX3pqc2JMWmlSODNPRFNoTmZyd0laQmVzSTVz?oc=5",
+            "publisher": "India Today"
+          }
+        ]
+      },
+      {
+        "id": "h-1b-visa-rules-raised-in-talks",
+        "title": "H-1B visa rules raised in talks",
+        "when": "2026-10-22",
+        "place": "New Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "what": "Rubio addressed H-1B visa rules alongside the trade deal, putting Indian skilled-worker access on the agenda of the negotiations.",
+        "via": "skilled-worker visa demands",
+        "aspect": "jobs",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Rubio on India-US trade deal, Russian oil waiver, visa rules and ties with Pakistan - India Today",
+            "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPNU5HNldnaEtEa0w2aDctLVRpajZyOXNmYlVBLW1tSFN0QmNZRFJWZ2UycU9MZWFMT1gxSnk0bDhrZmVoYm5kd2NQTTVkS29JT3EweFBhU2NOa2ctaEZGaUt1UHB6NWlvN3dtblFWd3p1VWFEWmJrNWNlQzZHNEtBN3FvRnIwYi1XNGNncEU4Ny10LU9kRHJzajhING92T0VLb21FQk55RldKRnBSUWpjVjNsY1hwM2NJRWE3NTAwRHZyQ0JaaXhRQ3ZoNzJ1dUJVc2pmVUdVRVIxaFpFS21MWDZBaURVQ3RTVS1jVkZn0gHuAUFVX3lxTE81Tkc2V2doS0RrTDZoNy0tVGlqNnI5c2ZiVUEtbW1IU3RCY1lEUlZnZTJxT0xlYUxPWDFKeTRsOGtmZWhibmR3Y1BNNWRLb0lPcTB4UGFTY05rZy1oRkZpS3VQcHo1aW83d21uUVZ3enVVYURaYms1Y2VDNkc0S0E3cW9GcjBiLVc0Y2dwRTg3LXQtT2REcnNqOEg0b3ZPRUtvbUVCTnlGV0pGcFJRamNWM2xjWHAzY0lFYTc1MDBEdnJDQlppeFFDdmg3MnV1QlVzamZVR1VFUjFoWkVLbUxYNkFpRFVDdFNVLWNWRmc?oc=5",
+            "publisher": "India Today"
+          },
+          {
+            "title": "Watch: Rubio on India-US trade deal, H-1B visas and why Ukraine war must end diplomatically - India Today",
+            "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQUmVzZVJuR2hfM3VLa0w5Z2NJMl9iVkZwMjBiY3E1NW9zWE50VlhOWDNwa2JtM3d0ak5DdmZDRlpMbEQtbThGeUxBRmRZOVczbDlyQjlReksyTTRhV1dQaGo0T2xfWmpVcU1lcUJaMEJxMXNQeVVJRV83SkVKVjNTbk43NEloMzVfUlQ0SmpLNV9iWHVuN1lYUVZ3WVVMV0lIZVF6YTJ2SlRLV3lBbkpRNnMzRkpJZEtIN09iRThKekhpNThwc3hyZW9lVk8teFZBWkhhUnBEVzNFYVpyQ2FuRkEtR2jSAeQBQVVfeXFMUFJlc2VSbkdoXzN1S2tMOWdjSTJfYlZGcDIwYmNxNTVvc1hOdFZYTlgzcGtibTN3dGpOQ3ZmQ0ZaTGxELW04RnlMQUZkWTlXM2w5ckI5UXpLMk00YVdXUGhqNE9sX1pqVXFNZXFCWjBCcTFzUHlVSUVfN0pFSlYzU25ONzRJaDM1X1JUNEpqSzVfYlh1bjdZWFFWd1lVTFdJSGVRemEydkpUS1d5QW5KUTZzM0ZKSWRLSDdPYkU4SnpIaTU4cHN4cmVvZVZPLXhWQVpIYVJwRFczRWFackNhbkZBLUdo?oc=5",
+            "publisher": "India Today"
+          },
+          {
+            "title": "Trade, H-1B visas, Pak factor: Marco Rubio on key issues in India-US relations",
+            "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNSGFlbldUS0ZZZi1vV1o1MlFQX1FYM1B5eWRTOVlCb3c0RzVQbmJmeVAwOUJRbW84WEMwblNBRHNSdS1MNzhabV9MT3B0NmpNZ3g5VTJJdXNQZ0tjQ2IxUm9wdzVvTlRkbW5yTks1a09VZ0tLd3hicDFfR1NNMmNzWUp2d1B1VFNLcWVlSnFuaG5zanV5ZlQxYkRSV0VHRTU4MlFNeWdEY19CTUdnVTRRSTFyMFJUanpuaGtSUEtZZm5vS3FwYzJJMkk1SVhWMmY1S2kzRkYyWkFYaG5uSmY0M0VYMkx0N3ZRWlJKbjY2bkjSAfYBQVVfeXFMTVZCZ2lHU0NyZHluMUd2S2U1SWRWSEoxSVRCcmQzbmxtd3o3eXF6aVJfYU1jeFFXOXVWQ1YxQnJvZUxVV1l6cDkzSW5OMHEtQkFubUpKelZTZjZ4TlctalpySFlDMVFBV1hOb05ObzRCd2thVWRlYkY1aGdGRnkzT09Wa01YNXhsT0lVVzZBd1gyNnlyX0ZHdTluMjdNSE5VZU9id0VJdlJtU3E5cUZoNVc3NWx5Wlcwel8zaWxleDZYOTluV0w4VHRTSE81QnFQZ0xyZDl6RHY5RnBrVm1DN0Vac0dkcV9OYzJkOVg0dXdvZzdidmxn?oc=5",
+            "publisher": "India Today"
+          }
+        ]
+      },
+      {
+        "id": "india-eu-trade-deal-eyed-for-early-2027",
+        "title": "India-EU trade deal eyed for early 2027",
+        "when": "2026-10-22",
+        "place": "New Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "what": "Negotiations on an India-EU trade deal are moving forward, with entry into force possible in early 2027, giving India an alternative trade partner.",
+        "via": "alternative trade partner leverage",
+        "aspect": "trade",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "India–EU Trade Deal Could Take Effect in Early 2027 as Negotiations Move Forward",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRGdGeFdFa0hnMUdDNG53eVYtel9nQmU0enF1WF9EeGFDd29fbFE1VDlnTFJCcnZlUlIzb3RjNFVLVTV2WXJGTUl2d3Baeml0UVBGb2NqU2poWDQteG5vaDJFNEZoY09fUkdxTjd5WE10ZmRBZHV2LWt2Um5LWUVpN3h3b1ZnQ2NOcFl2NXdTTDVqWGFfSDI2bGRXQ2EtcE5zTXp6NV9rd1owVFdsLWhxREZEclo4N0JhbWpYYw?oc=5",
+            "publisher": "www.nationpathindia.com"
           }
         ]
       }
     ]
   },
   "russia-record-budget-deficit-2026": {
-    "at": "2026-10-22T10:21:00.459Z",
+    "at": "2026-10-22T22:30:18.910Z",
     "by": "pipeline",
     "items": [
       {
         "id": "urals-crude-falls-to-1-5-month-low",
         "title": "Urals crude falls to 1.5-month low",
         "when": "2026-10-21",
-        "place": "Russia (oil exports)",
+        "place": "Moscow",
         "lat": 55.75,
         "lon": 37.62,
-        "what": "Russian Urals crude dropped to about $80 per barrel, its lowest in six weeks, trimming the oil income that feeds the federal budget.",
+        "what": "Russian Urals crude dropped to about $80 per barrel, a 1.5-month low, cutting the export price that feeds oil-and-gas budget revenue.",
         "via": "weaker oil export revenue",
         "aspect": "energy",
         "flow": "into",
@@ -962,17 +1026,61 @@
         ]
       },
       {
-        "id": "central-bank-sells-gold-to-fund-deficit",
-        "title": "Central bank sells gold to fund deficit",
+        "id": "oil-tax-price-runs-60-above-budget",
+        "title": "Oil tax price runs 60% above budget",
         "when": "2026-10-21",
         "place": "Moscow",
         "lat": 55.75,
         "lon": 37.62,
-        "what": "Russia sold 6.2 tonnes of gold in September, pushing bullion reserves to their lowest since 2019, as reports say the sales help fund the war.",
-        "via": "reserve sales covering the gap",
+        "what": "The Russian oil price used for tax calculations in October was about 60% above the budget assumption, even as the deficit overshot its target.",
+        "via": "oil price versus budget baseline",
+        "aspect": "budget",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Russia oil tax price rises above budget assumption in October",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWDYyT1Q4VFFTQ3p0RmgyYWh3MlMtbzZIRThRS3RQdXk1RU5NTV9RZWdIQU90TEpmMllpVEtYbEFNWjBsb3V1dzhiZkRfOXI3WW5ZdTVPbVpCY2ZUSTlYX1hJTmZkX05keENpX3UxM3ZSeS12WGVXZEVHc3BTY1EwMXplc0MwWUhzZkZDRFNfTzJhc00?oc=5",
+            "publisher": "Traders Union"
+          },
+          {
+            "title": "Russian oil tax price runs 60% above budget assumptions in October",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNczZENDdwTHk5WVB0aUNmNW5rUnlxZXgzVjZCRnZ3WFZWLU5wZ0gtVC1BUjlYN0xveUhrU3BRYm9meF9aSnhxR1BHQWxtQnZlSXdZVE5NRkZpaENuX2hiSVFCY3B0ZzVqMDVvZkhLcWVNQXZHT0JuZEtvWVZ0Q0UzblY3S0x5VG5UUTRNSjM1T2k5VVNWOU1LdzFHSTQwQnJSSGlKdTZmMzlHRTN3UmZ6a2g1VlVTQ0FYb3lmQ3U2WQ?oc=5",
+            "publisher": "Investing.com"
+          },
+          {
+            "title": "Price of Russian oil used for tax calculations jumps 60% above the budget level",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOM1VvUFdrcXA5VlZyOURwRi1jUmhOMGhBTDYyVVEwbWNZRjhTT0NnbDVIT1JpeW1FOU1PTjVfWGEwYUhkNzBGTnNSb0tWZWt3VzE0ZTJTU3pUV3hOOVhBdFlfajhkZ1lOTzE5V2N1RXlFVE5VYmQwZTFfdW4tZEpRSTVFSmVMLVN4MHZJQnhDa1F6SWdSVlEzWGhNWEZHUWZwNHk5RTNwdURIYUVxY3JjZlBZODdEUUtTRy1N?oc=5",
+            "publisher": "Reuters"
+          },
+          {
+            "title": "Russian Oil Tax Price Exceeds Federal Budget Benchmark as Deficit Overshoots Target",
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMTA2OHpaaVc5Rno2VEI2RGpGdXU0blNXaHd4OER3RG95T3ZmcmhaMFNRUkZLUUdaanlXY195RlVCWXJ1b1dKVGJhWDZPM05VZHJJanBzc2RvaVk5RUNlZm01VDNMZEJuSnhZeUhEYkFTTzV5c1ZHcnNHdW45T2VTQkZOOUdDWTJyODFfUzdXT2Z4a3ZIdDhibVBFaEUwblZZQTc3a2R1dEM4dk9tUFE?oc=5",
+            "publisher": "energynews.pro"
+          }
+        ]
+      },
+      {
+        "id": "gold-sales-drain-russian-reserves",
+        "title": "Gold sales drain Russian reserves",
+        "when": "2026-10-21",
+        "place": "Moscow",
+        "lat": 55.75,
+        "lon": 37.62,
+        "what": "Russia sold 6.2 tonnes of gold in September, its tenth straight month of sales, taking bullion reserves to the lowest level since 2019.",
+        "via": "treasury funding strain",
         "aspect": "markets",
         "flow": "into",
         "sources": [
+          {
+            "title": "Russia sells 6.2 tonnes of gold in September as bullion reserves fall to lowest level since 2019",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRTlLMTBNZUtSdy02UW5DVWtpQXdSRURvOVNuQ2E4VUw4UUhmc1ktdXM1bnAzZGFrb2Q5MGxvcUVZVUt2N1RzMVN4bFVaVkxuRjNaajJnM25paVJubzBKbFU3SHhUTkxsZ2szS3phdjVLNGx1ZnRRLXo0WTd4cndlcVhISU1oUmpXSVpETEhhTFlVY2pkYTJEZ2c5eVRqNzZ6UXdjRURIT015cjloNWY0cHhHSUU2UzBOd2c?oc=5",
+            "publisher": "Kitco"
+          },
+          {
+            "title": "Russia sells off gold for 10 consecutive months, reserves hit a 7-year low.",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTlo1Q2lQMldOS3p4NHJjYUlYLXhfNjFOVjZwNjFyTVBGcjd6MGhJTHlIVEliZHJDYldFc0JUZnBsdDM5RWMxa3RJMExRZGkzX0k3cU9BdHFfY2JWMWhZYVQ2aUFTX1ZwVmxlZ3BaR3RtN3BjajNUenlLRXhrb2t0SGIweVBEWFNOWUE?oc=5",
+            "publisher": "Vietnam.vn"
+          },
           {
             "title": "A shake-up in the Russian treasury. Putin is selling gold to fund the war",
             "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaUxoT0NSWW1VZTVlMVJ0RU0yTk9RWHR6MmtFa0Fha2tPMVlZOHlNa2hCYWlkNjBoZW4yTS1pTFN5UFBtdFlBYkZ1bDZrQm9MLVpHVllnTlRQTnBPX2RPOEJRVl9RQTlGODBOR2x4OEdUa3pLQ04tRUxxbDB6OFkwYWxVSFUzalpXWUZ5cFZubkFpajlzcUE3NkdGWW40UGQxQXVOWkgzWU5zVzEzT2c?oc=5",
@@ -982,74 +1090,54 @@
             "title": "Russia is selling off gold reserves. Why, to whom, and does it matter for the market?",
             "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQaW1mS1JJUTM1T1BxcWZTX2I2MjVweFJKZFdsN3J6dVN1S3lJU2poQkExZTFFT21ES3l6SEpTZUNEa1ZHVVVyY09tV1diY3p5WXh2UnNybFQ2bk5sU2tIQVlmb0R5UVlFZ0tpaHZheURtZnRJa0xUeHRTVThtTUdiMG8wOWlENnVqZl8ybDhvZ1BXQUpwTjUtVnBReHZWUmMyZXAtaF8xSGNTQzI2QV9KVFR0MnMtQS04d0ZobWdsdjBHaUJKaE1zUVFqbEJRMVJHcE5fX01n?oc=5",
             "publisher": "XTB.com"
-          },
-          {
-            "title": "Russia sells 6.2 tonnes of gold in September as bullion reserves fall to lowest level since 2019",
-            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRTlLMTBNZUtSdy02UW5DVWtpQXdSRURvOVNuQ2E4VUw4UUhmc1ktdXM1bnAzZGFrb2Q5MGxvcUVZVUt2N1RzMVN4bFVaVkxuRjNaajJnM25paVJubzBKbFU3SHhUTkxsZ2szS3phdjVLNGx1ZnRRLXo0WTd4cndlcVhISU1oUmpXSVpETEhhTFlVY2pkYTJEZ2c5eVRqNzZ6UXdjRURIT015cjloNWY0cHhHSUU2UzBOd2c?oc=5",
-            "publisher": "Kitco"
-          },
-          {
-            "title": "Russia's gold reserves plummet rarely, to a 7-year low",
-            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPazFWQmZIZ0o1VDdibFRHdXM3azNaTzR3aW1KQ2Eyd00zQnlQQm9FSkpEUGdIaWFkZTJjWG4tSnBUMWM0NXUzYnNiY1ROVmRxWVZsQWJVWGlfNXhCT01VcFhNa2VQaXB3VlZTcWI4MlVtNG1Mc2ljRmVwWGJkTXpvTkRqdnN5M0VWS3NUcXp5RkoyNmZFYVQtSGpFMjl4REU?oc=5",
-            "publisher": "Laodong.vn"
-          },
-          {
-            "title": "Russia’s central bank sells gold at fastest pace since 1998 crisis",
-            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNN0RaaGJldjIxWlRwenBUdTM3OXR1Um94bklHZWhmT1pSNXFmdFhjM1lXRHpNZEM0NVlPZ3B6SkdpdzFUb0lCVkcwTHo1amstMFBtZHBLSjFSOFNSdXVSY2FGX2I4alpuOTdnd1RyNU92NHVyYjdxR2NQdDltQTd3dlRmdlhZVjhVejd6eDdNbllCUzZoUkE?oc=5",
-            "publisher": "TVP World"
-          },
-          {
-            "title": "Russia's gold reserves fall to lowest since 1998",
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVjI3dERwUm9PZk9BOXdObGREZDZTNzJFZnpUcjhRVGxJVDctM09aMUttcTdlWEVFWWh6NkJaNy1VYnVqWWtzLVoxbDBqMTRkZGxYeHh6ZFpyU3Y0RGg3dktnSmwyODZZYS01WDM1ZEE2OHVyQXduS0g3NGZXQjBCSDdTLWhVS3dmVE9qMVZ0VWdqdUlQbXpPQ3JnOEV2OFlmSURJMw?oc=5",
-            "publisher": "Прямий"
           }
         ]
       },
       {
-        "id": "65-regions-prepare-spending-cuts",
-        "title": "65 regions prepare spending cuts",
+        "id": "missiles-hit-kyiv-after-talks-agreed",
+        "title": "Missiles hit Kyiv after talks agreed",
         "when": "2026-10-21",
-        "place": "Russian regions",
-        "lat": 57,
-        "lon": 40,
-        "what": "Russia's regions face a combined $10.5 billion budget deficit, and 65 of them are preparing to cut spending.",
-        "via": "regional fiscal strain",
-        "aspect": "budget",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Russia Faces $10.5 Billion Regional Budget Deficit as 65 Regions Prepare Spending Cuts",
-            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYm92MURBTE9reEZVZHMtejREQWQ3VGdMUXdQSTc5VGo1dWdGWXdkOVFhQmFnYnFOcHI4WFVXUm1IX29BWXFDSzJJeHZ1N2tUUXFsSWFsdzdQN2tlc1VfN25YSU9WbGFNTFJ3SjZtVDhjQVdHand6NFZDbUZhV05qLWNkVW5yMVpneENKZER3X3dtdVF2b0M1VE1ydlk5S01fQ1o2WVc0WEZmREdaNXFhWmtRZUFQSkF2VnJ2X05WRQ?oc=5",
-            "publisher": "UNITED24 Media"
-          }
-        ]
-      },
-      {
-        "id": "strikes-continue-despite-peace-talk-pledges",
-        "title": "Strikes continue despite peace talk pledges",
-        "when": "2026-10-22",
         "place": "Kyiv",
         "lat": 50.45,
         "lon": 30.52,
-        "what": "Russia and Ukraine traded overnight attacks, with missiles hitting Kyiv, even as Moscow said it was ready to resume peace talks.",
-        "via": "continued war spending pressure",
+        "what": "Russia struck Kyiv with missiles hours after agreeing to a US call to resume peace talks, and strikes continued on both sides.",
+        "via": "ongoing war spending pressure",
         "aspect": "security",
         "flow": "into",
         "sources": [
           {
-            "title": "Russia and Ukraine trade attacks despite pledging to resume peace talks",
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/10/22/russia-and-ukraine-trade-attacks-despite-pledging-to-resume-peace-talks?traffic_source=rss",
-            "publisher": "Al Jazeera"
-          },
-          {
-            "title": "Russia and Ukraine trade strikes overnight as Moscow signals readiness for peace talks",
-            "url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks",
-            "publisher": "France 24"
-          },
-          {
             "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
             "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
             "publisher": "BBC World"
+          },
+          {
+            "title": "Russia bombards Kyiv with missiles hours after agreeing to resume talks with Ukraine",
+            "url": "https://www.theguardian.com/world/2026/oct/22/russia-missile-attack-kyiv-hours-after-agreeing-to-talks-ukraine",
+            "publisher": "The Guardian World"
+          },
+          {
+            "title": "Ukraine and Russia exchange strikes after US envoy visit to the Kremlin",
+            "url": "https://www.france24.com/en/ukraine-and-russia-exchange-strikes-after-us-envoy-visit-to-the-kremlin",
+            "publisher": "France 24"
+          }
+        ]
+      },
+      {
+        "id": "russia-pours-2bn-into-propaganda",
+        "title": "Russia pours $2bn into propaganda",
+        "when": "2026-10-22",
+        "place": "Moscow",
+        "lat": 55.75,
+        "lon": 37.62,
+        "what": "BBC Monitoring reports Russia is putting about $2bn into its wartime propaganda machine, adding to state spending.",
+        "via": "higher state media spending",
+        "aspect": "budget",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Russia pours $2bn into its wartime propaganda machine",
+            "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1EV3hxZGc4RHFkcWVOc0JrX3BfWmlRbklLRXZJX1JLZkZ0cU1aeWN6aGxlblhqUjNQV3JrMzRwN3FsdHBEVWNKTUl0SDcwZzNHZk5fSGhWaw?oc=5",
+            "publisher": "BBC Monitoring"
           }
         ]
       }
@@ -1197,18 +1285,62 @@
     ]
   },
   "eu-supply-chain-rules-2027": {
-    "at": "2026-10-22T10:21:00.459Z",
+    "at": "2026-10-22T22:30:18.910Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "eu-cbam-certificate-price-set-higher-for-q3",
-        "title": "EU CBAM certificate price set higher for Q3",
+        "id": "india-s-trade-minister-attacks-eu-steel-carbon-tax",
+        "title": "India's trade minister attacks EU steel carbon tax",
+        "when": "2026-10-22",
+        "place": "New Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "what": "Commerce minister Piyush Goyal said the EU is inviting disaster and shooting itself in the foot with its carbon tax and steel curbs, putting pressure on CBAM talks.",
+        "via": "exporter government opposition",
+        "aspect": "trade",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "EU 'inviting disaster' with carbon tax on steel, says Piyush Goyal",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWW9sR2F3a0Z2TGVsU09ac2pXOEcxaWZBbWI5OGVxMmRtREdHRjhUakJmb0JPM2hSYlVFQWhoQzBWVmZrQUZNanZ6TU03al92aUxEZE5KNEFSd283RWFXODM0WlVBNzBvbHpwX1lhNFJvNzJVRUhNY0lDdjlRS0ZTb3hycHJJVE5DY25pQWtpU3Z5R1AwM1RtYjV4dm5QSWFiT2xSRFFvSTVGZms?oc=5",
+            "publisher": "www.indiagazette.com"
+          },
+          {
+            "title": "'Who did most harm to Ozone layer?': Piyush Goyal holds up the mirror to Europe on climate change",
+            "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQX1AyYW5uTTdDZ2JXUC1JQjFDalhxV1J6UEJzTlo4clpjS2hIVUhvYmxOVWNxLWFSSHNJaXN2ZVBMY2tpS3I3bXJiYmRkUHY1SmUydUZLZmlZUFdrbVJjTjRUNmstdTlfZGp0TWdCMVB3dWpUdXB4cU5nUlJWUVNfdzlka2ZsMEJxOFVNdGtEQ0QwNkFuNVlCY01NcHhMbW5XNi0zZU5sTzZWSTZETC1CZTJuQXpKN2FMZC1pMTlvU3M1ZXNEZkMzLVd0S3ZlR0laZkNEdXVHRmRwX18wSUp3NlhkUEVjYlFRZnJ4d1kwelJwUdIB8gFBVV95cUxQX1AyYW5uTTdDZ2JXUC1JQjFDalhxV1J6UEJzTlo4clpjS2hIVUhvYmxOVWNxLWFSSHNJaXN2ZVBMY2tpS3I3bXJiYmRkUHY1SmUydUZLZmlZUFdrbVJjTjRUNmstdTlfZGp0TWdCMVB3dWpUdXB4cU5nUlJWUVNfdzlka2ZsMEJxOFVNdGtEQ0QwNkFuNVlCY01NcHhMbW5XNi0zZU5sTzZWSTZETC1CZTJuQXpKN2FMZC1pMTlvU3M1ZXNEZkMzLVd0S3ZlR0laZkNEdXVHRmRwX18wSUp3NlhkUEVjYlFRZnJ4d1kwelJwUQ?oc=5",
+            "publisher": "The Economic Times"
+          },
+          {
+            "title": "EU carbon tax: Piyush Goyal asks Europe not to 'invite disaster' or 'shoot themselves in the foot'",
+            "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNYkNvOHNPM3dyd0FRMHdsZi03STRRTmlCYjBnZ0NaV3FBNXBxMGoxUlVUdVlzaWdfblZDRGlhN09tQkFvMVBodEpKdzVPYkNkd1pwUFA5djZ5UGFSMWFCSGxQTEFkeHlzdUNfeXcyVS1ad2wtWWlmRTdjbzJDNWNnOG9CQVNFUHh1Tk9IRlA4QVJXeXNrN2RsX0U1c2VZb1dOZncwbHU2bGpLeFlYQkI1Vkh0RzdGbnNkLUNMZnhoRHJrVG5hN0pnZS1XR3N0eXBSYjROR0s2UXVXbGJYTG5UbjRaQ3NKRWJaSHNPQV91ajI4UU5rTTUtLTNKbmlZQ2FxQXY0bFFfVnfSAY4CQVVfeXFMUFlzcEszR1VNVERkNmpkcV80c1JwNWpsM0FFQ3hiWlJJaUpycnZJTk1TbzJVOTdpaVU2U0wxSjRsNTJpNUlfWlRRZVp5eWNlaU1yU3R4MXFPVkIwaVBBY3c5ZEo5UXhiem9xcWY3VllWdTJpcFRaN2VjcTJaNHN4OGx0YkRhTGZRTzFHbHJBMlpmbFNSQ2hOTXVJRUtlODlqMnlpbVpHRUhYdGlVMmRaS21weGlyVHRyZlVQSWs1WWl0VmhRbm1PTzZWRjNVRU9HTURKS1dNSVBLZm1XMWQwaHJRWlMzQkV6NDQ4SWNYMXJPTmd1V1JUdkN4WHJ1cE5yalZQOU9tSTVJTUZmazJ3?oc=5",
+            "publisher": "The Economic Times"
+          },
+          {
+            "title": "EU carbon tax is ‘inviting disaster’, says Piyush Goyal",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaUJ3TV81Wmo2YWxvYkh0MWNQaEJqNjRCa3Npb1VuUF9XUmlmS0NHcG1xeW91WjI4aXE0OFRYMVkyYmEyZlp2aTliLUJTdHNXdTU0Tkc5Y2hZdlI0OVRKY3k4OHJ1alo4a2VGamh6eU1ZdFBCNGRIdExLNk4xZ0xwZHZYLVVHQjc1TFRQM1N6LWJhRk9Uek9FSGoxdUtBamNwYmVGenROVC1hb0F6WmpEQURB0gG3AUFVX3lxTFB4VWNzUTNoaF9aZGo3bk5HYzFvbFl5ZWI0eTc2cm9sZWdMb2l1MllVOXB0VlhDeS1GYXpwaTNaNmlwTWJ4ZWVveU5ydkQzLVd4dUM3c0JhUU9YOExacW03ZEpaUDNJRjVaX3VjQ3ZzbGtuUldHUURMaUtBRzl0RGVNcHNMSkphbHZDU1RGZ29HQzM3N1BjeU1JZFpUODB2RUJyVHJRY3ZfQUJ5QWRiWWFsRkQtdWZaSQ?oc=5",
+            "publisher": "Livemint"
+          },
+          {
+            "title": "Goyal: EU Carbon Tax on Steel Invites Disaster, Hurts Economy",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQW5DcVpLcjg5ajBGUWw4NHVQeXgwdVFGMkl5anpKWGJ2R29xNnBWdWI3OGN4TE9GQy1ZbW5URzFZRlVYUldrUWJtQ1pPb0dwZ0wwTVJ4MHpEWGhGbk9fbk1OcWljN2c4TDM5c0FMNWJfbFBtUmFEZ3poN2Y1UmZyaXAzdXl0cGVuSUh6NTVMbzNjbXNBMTZPb1pBN3U3TW_SAaQBQVVfeXFMUHlpbFNOQ2NZY2VKNUxxbldLRll4SzRxdzNOMHgxOU5raUtOa2xrVWVReVFlV3lhaDZ3UExKaFp0RkNqV3pJeFVuU0Rzcmp5TjN0WG52eE1ScFNGQndpQ1ZWUVEzcDB4aHJkb01ha1NFRUtKbGRnbVI5ZDlFZFZqeXgwaGc1djVIenlVQ0hobHM1V19PeDZtREk0cU5rU1JnWjZocUI?oc=5",
+            "publisher": "Rediff MoneyWiz"
+          },
+          {
+            "title": "‘Europe shooting itself in the foot' with steel curbs, CBAM: Piyush Goyal",
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMDJPYXpxQkhBazB3WUljVEFaRXBsMk94WURjUTFCYTFHWHRxT1hhQXlwX2RlZnpVTkN4a01VOGRnaW1laGlqY2tLaExpbjVoRl9DLU4yeE9MdXlmU0ZUMkJidHNkaUpkNlcxVVAycF9aZVMxMjdLc0V6aUkyZVU2UjBPMkxxNVVEV3F1ZkFVMVhYV1dtRzRHOUZNLW81cW9rNWQydTlkV1hIR181b1FyQWdYekZhakJCRFZERTkxNTQweUZR0gHKAUFVX3lxTE5idkhaZnlLdzRjaFJpT1IxakdvQ3AyZjZoNEFhQ056bmI4cllKQ19qUEFCQ25BLVcwV0taYm50SWdiRzBaLV91N1ZHRDNDX0xudzZYRzhGZWFpU21rQVYwRUZqYU85TXRITU1pVENXWWdTY3NLQ1V0Z0g1VDh1MVFaZmt1UUU0TEcyWV9ZNlZuS0ItNFlmVmJqMFBsQ1NLUWpzSDJIbFdsa0ppV1h2WlVXR1U3ekZiVlpPaUJJSVRia0lKNHN2cHdSQVE?oc=5",
+            "publisher": "Moneycontrol.com"
+          }
+        ]
+      },
+      {
+        "id": "eu-sets-higher-cbam-certificate-cost-for-q3",
+        "title": "EU sets higher CBAM certificate cost for Q3",
         "when": "2026-10-22",
         "place": "Brussels",
         "lat": 50.85,
         "lon": 4.35,
-        "what": "The EU set a higher cost for CBAM certificates for the third quarter, raising the expected carbon charge on imported steel and aluminium.",
-        "via": "higher carbon cost estimates",
+        "what": "The EU set a higher CBAM certificate price for the third quarter, signalling a rising carbon cost that importers must plan for before certificate sales open.",
+        "via": "higher carbon certificate price",
         "aspect": "markets",
         "flow": "into",
         "sources": [
@@ -1220,14 +1352,57 @@
         ]
       },
       {
-        "id": "us-lobbying-push-against-eudr",
-        "title": "US lobbying push against EUDR",
-        "when": "2026-10-21",
-        "place": "Washington DC",
+        "id": "sri-lanka-readies-rubber-sector-for-eudr",
+        "title": "Sri Lanka readies rubber sector for EUDR",
+        "when": "2026-10-22",
+        "place": "Colombo",
+        "lat": 6.93,
+        "lon": 79.86,
+        "what": "Sri Lanka is preparing its rubber sector for the EU deforestation rules, and the EU and Sri Lanka have stepped up dialogue on compliance.",
+        "via": "supplier compliance preparation",
+        "aspect": "trade",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Sri Lanka prepares rubber sector for EU deforestation rules",
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUXE2VGpsT25CN1FYR3F3ZTBVaDAyQlpXcXpRQTBkM2s3RXM4YmVxQXgwWnpOR3lHS0lUY29ONEJaUmpZWDRmdk9UdTYxazBDdjBESGE1eGNQRTItRmpIdjNJYTlqZzZBak82cy1Mb3kxY0pHY2RGcm1WellVVTBoV1V4c0tJSnVYazB0SVBjOGRXNFVFTHc?oc=5",
+            "publisher": "EconomyNext"
+          },
+          {
+            "title": "EU and Sri Lanka strengthen dialogue on EU Deforestation Regulation",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOFktZnlLb0ZobGlpdkpKYjNDOWxlUDNJQ3V3a1FxWWNwb0NHd21iZGt1SUQtZEVab2JrNWZ4RVFOZTN4em9mem5VekFGaGE0ZjlwMEl0U3FpVHZ5bGh1QUJPY2ZKNnBZdS1hM2pna2cxVU93cGE3SFZsNHVVSkp0U0hUQVliUjhfT3kwZDZFRnkxUWZ0NU03NS1ORjJtdkt5UXdscnZqbmRLM3NCVWl4VQ?oc=5",
+            "publisher": "Hiru News"
+          }
+        ]
+      },
+      {
+        "id": "ghana-weighs-cocoa-farmers-against-eu-rules",
+        "title": "Ghana weighs cocoa farmers against EU rules",
+        "when": "2026-10-22",
+        "place": "Accra",
+        "lat": 5.6,
+        "lon": -0.19,
+        "what": "Ghana is asking how to protect its cocoa farmers and its export market as Europe demands deforestation-free cocoa.",
+        "via": "farmer and export exposure",
+        "aspect": "food",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Europe wants deforestation-free cocoa. Can Ghana protect its farmers and its export market?",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSEtIU1FRQ2N5cEJrZXpoNi1iLXdVTXJlNWZTWnYzYlkwdExOazY4MkpMV0tDMDhxU3dsbVJBSnJ3blZicWVuV2o5Y2Fkd2o2dGFNUGNWYjBoY1htSVhuQkxIRnBPMzZQOE9KbmRmdFF6NFdqZmUxdnRVMWVqbVhCLTdrSzB5X3FLdExMX3E4SFEwVUU2SlBtaDZTWGVaN2lEUUVYeFBpQkplZXVjdDM2ZVpuUExFQQ?oc=5",
+            "publisher": "3News"
+          }
+        ]
+      },
+      {
+        "id": "us-congressman-urges-eu-to-resist-eudr-rollback",
+        "title": "US congressman urges EU to resist EUDR rollback",
+        "when": "2026-10-22",
+        "place": "Washington",
         "lat": 38.9,
         "lon": -77.04,
-        "what": "A US lobbying campaign is pressing to gut the EU Deforestation Regulation, while a congressman urges Europe to resist.",
-        "via": "pressure to weaken rules",
+        "what": "A US congressman wants Europe to stand up to Trump's push to gut the EUDR, showing outside pressure on the rules before they apply.",
+        "via": "US pressure on rules",
         "aspect": "politics",
         "flow": "into",
         "sources": [
@@ -1235,285 +1410,237 @@
             "title": "Congressman Wants Europe to Stand Up to Trump’s Push to Gut the EUDR",
             "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9wWENrMGl6bExXRFVIVTBHMHZpaXFZcWFjb3FUY2pTX1J5TGJ2TnRyRVBYVlZJMUd6dGNjR3E4OVI1YmpyVVFDWEdkLVlXckRLU2liMzN4cHVSZw?oc=5",
             "publisher": "Wood Central"
-          },
-          {
-            "title": "US lobbying ‘blitz’ seeks to destroy EU’s anti-deforestation regulation, campaign group reveals",
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNM3ZxVDZwZ1JYOGkzTl9HSC1OR2JEaXFLb2Iyb1lYaXo1SHdlUHVteC01N2ZEc3ZQd2RTTVBjSzNJLVZoZlJLd3RqZ1hhYzNMMTBKbFlBdHJvSUQydTZObjlFMVd4aVZZaWpHQ3A5TUwwd0NEZ1IxempXanB1elFWLUtjR3JKbWlLME1PR0ZyeHpTdmwwN01xa1VIVmRJN0VwZHZpeVlFVTI3a2NLbG8zY3B3OGpOMEE?oc=5",
-            "publisher": "The Grocer"
-          }
-        ]
-      },
-      {
-        "id": "cbam-extension-trilogues-begin",
-        "title": "CBAM extension trilogues begin",
-        "when": "2026-10-20",
-        "place": "Brussels",
-        "lat": 50.85,
-        "lon": 4.35,
-        "what": "Trilogue talks have opened on widening CBAM, with industries urging the broadest possible extension to downstream products.",
-        "via": "wider CBAM product scope",
-        "aspect": "trade",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Industries urge ‘broadest possible’ CBAM extension, trilogues begin",
-            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYVZUMFN0QmZEQlBZTFZtOXJablprSFZ2WVFmS0d4SW5NWWVSTkoyTHRwTkg4LXhWZTZMZ01xcmZjSEl4Y3VnMlFfMnNZWTRUREhvY0szTDJGY1hZV0p5eUh1cUFzWTBDVTJMQ3pTUjVhUnV3ME1mYUlTRTJNeWhmRXRoOE9tU0pYR0ZnMlFvNDQ?oc=5",
-            "publisher": "EUROMETAL"
-          }
-        ]
-      },
-      {
-        "id": "sri-lanka-readies-rubber-sector-for-eudr",
-        "title": "Sri Lanka readies rubber sector for EUDR",
-        "when": "2026-10-22",
-        "place": "Colombo",
-        "lat": 6.93,
-        "lon": 79.86,
-        "what": "Sri Lanka is preparing its rubber sector for the EU deforestation rules, and the EU and Sri Lanka have strengthened dialogue on compliance.",
-        "via": "exporter compliance preparation",
-        "aspect": "trade",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "EU and Sri Lanka strengthen dialogue on EU Deforestation Regulation",
-            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOFktZnlLb0ZobGlpdkpKYjNDOWxlUDNJQ3V3a1FxWWNwb0NHd21iZGt1SUQtZEVab2JrNWZ4RVFOZTN4em9mem5VekFGaGE0ZjlwMEl0U3FpVHZ5bGh1QUJPY2ZKNnBZdS1hM2pna2cxVU93cGE3SFZsNHVVSkp0U0hUQVliUjhfT3kwZDZFRnkxUWZ0NU03NS1ORjJtdkt5UXdscnZqbmRLM3NCVWl4VQ?oc=5",
-            "publisher": "Hiru News"
-          },
-          {
-            "title": "Sri Lanka prepares rubber sector for EU deforestation rules",
-            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUXE2VGpsT25CN1FYR3F3ZTBVaDAyQlpXcXpRQTBkM2s3RXM4YmVxQXgwWnpOR3lHS0lUY29ONEJaUmpZWDRmdk9UdTYxazBDdjBESGE1eGNQRTItRmpIdjNJYTlqZzZBak82cy1Mb3kxY0pHY2RGcm1WellVVTBoV1V4c0tJSnVYazB0SVBjOGRXNFVFTHc?oc=5",
-            "publisher": "EconomyNext"
-          }
-        ]
-      },
-      {
-        "id": "vie-t-nam-releases-forest-map-for-eudr",
-        "title": "Việt Nam releases forest map for EUDR",
-        "when": "2026-10-21",
-        "place": "Hanoi",
-        "lat": 21.03,
-        "lon": 105.85,
-        "what": "Việt Nam published a forest map to serve as a data foundation for exporters meeting EUDR compliance requirements.",
-        "via": "traceability data for exporters",
-        "aspect": "trade",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Việt Nam releases forest map as a data foundation to support EUDR compliance",
-            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbzNwMjJPMjkyVTZtdUllOENpZmd3cExqblN2S0wtOUdnbnFnbDV1b0JVU1JQOEhYZVJMd0t6MFA0WW44cnVQTjRFRkQ0MEQ1NERwQ1RBMXdjMEg5MUpLS2ozSVowNE5jbzV5aEdLUk5fQkg0UlJ5N0p3TEIzRnpvUnM4Tk1ZZVJvSVc0TnpDOC1yY0plXzZpZ3FNV04taDFHZXo1XzFqc2l2QTdKTlFGaGFCX0Z4VmQ0RXpxRA?oc=5",
-            "publisher": "vietnamnews.vn"
           }
         ]
       }
     ]
   },
   "israel-election-2026": {
-    "at": "2026-10-22T10:21:00.459Z",
+    "at": "2026-10-22T22:30:18.910Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "kan-era-polls-put-eisenkot-ahead-of-likud",
-        "title": "Kan-era polls put Eisenkot ahead of Likud",
+        "id": "us-and-israel-draft-renewed-iran-strike-plans",
+        "title": "US and Israel draft renewed Iran strike plans",
         "when": "2026-10-22",
         "place": "Israel",
         "lat": 31.77,
         "lon": 35.21,
-        "what": "New polls show Gadi Eisenkot's party leading, with two smaller parties hovering at the electoral threshold, which could decide whether either bloc can reach 61 seats.",
-        "via": "threshold risk for small parties",
-        "aspect": "politics",
+        "what": "US and Israeli officials have reportedly drawn up detailed plans to resume attacks on Iran after the election, keeping the Iran war at the center of the campaign.",
+        "via": "Iran war as ballot issue",
+        "aspect": "security",
         "flow": "into",
         "sources": [
           {
-            "title": "New Polls Show Eisenkot Ahead, Two Parties at Edge of Electoral Threshold",
-            "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNbFBRS1NyTTZLQldIZWVoMUMwd0RjeEtVMUZVN3NybnFlTk9TcnNHODdLdTIyWmJqVTBUTFRyaFVLWFRteEVHY0hvcmhlZHVJbkVPZC04SEl0TGJOblkxRGlfTVZZZkliQTdSQjMza29GaGcwS2dYbzRsWEJFMWM5Qmg2alA3YUJBU2FVZ0kxbHowUTVJa1owbmphMWdUanRVRzBndVM5b2VyREs4ZExxX2hicHl6b29hYnhIcDFyMTRoWFpwYjVxQ2dPUExTREFTc01ENWIwRWw5dHFyQnlKOE5oY2FPdTc5N29qOHlwd0lhNUtMVmhGelFNVGd0SnRhNXJBcQ?oc=5",
-            "publisher": "Haaretz"
+            "title": "What we know about war plans that Trump and Netanyahu are drawing up",
+            "url": "https://www.npr.org/2026/10/22/nx-s1-6012306/what-we-know-about-war-plans-that-trump-and-netanyahu-are-drawing-up",
+            "publisher": "NPR World"
+          },
+          {
+            "title": "US and Israel drawing up plans to resume attacks on Iran post-election, sources say",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPd19fS1N5MG9ScWZka1NXVEM3S1NoUlBSTURnR09nR3Y5SGIxRFFpRktHNHZXeElmbzFPcTBkMUdNNXE5MG01aWhRVmhKSTVGZVcwZVBNRWxHTGxQc1JpQWZBRnBLNTVPWkoyRnFIZkxSTnI0SktYRGQ5dlh2aWxhSWhOVVlMVjktd1hHak1PV19HbXpyNS0waGRfVXXSAaIBQVVfeXFMUGJ0OE81VjRRZ1dhN1gtLVd2d2szU19XZzRNREJQdWV6OG1mRUhtQ0JTWXZYc3Jqa0FOdkFoWTF3b19JMEx3YW9XYkJRbXRlVHkxcWpPbWx3bVVydFBySV9yMW9tVFZRVWljYUNXeEEwNXMzSWJmeEdwdTZwaHh6VG52alZDQ3dmcU5NTXE4MWk1V0w4ZHMzX2FkNXUydndhTktR?oc=5",
+            "publisher": "ABC News - Breaking News, Latest News and Videos"
+          },
+          {
+            "title": "US, Israel have drawn up detailed plans for renewed strikes on Iran",
+            "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VWmlfQ1hBVlVBX1JjQ0xkR25hSVA2UU93UmRvRVVKelJucUNHRDZUcUhtWXg1OGxMSkd4a18zZEMzU3RwZy1YdkNSV3dZS1c3ekV4X0xIUXZNVmUtNEUwMkF2eE9Va3lHRGc?oc=5",
+            "publisher": "The Jerusalem Post"
+          },
+          {
+            "title": "Ahead of US and Israeli elections, 3-day joint attack on Iran 'would not radically change conflict'",
+            "url": "https://www.france24.com/en/ahead-of-us-and-israeli-elections-3-day-joint-attack-on-iran-would-not-radically-change-conflict",
+            "publisher": "France 24"
           }
         ]
       },
       {
-        "id": "arab-citizens-weigh-turnout-amid-fear-disillusionment",
-        "title": "Arab citizens weigh turnout amid fear, disillusionment",
-        "when": "ongoing",
-        "place": "Arab communities, northern Israel",
-        "lat": 32.7,
-        "lon": 35.3,
-        "what": "Palestinian citizens of Israel, who rarely vote in large numbers, are debating whether to turn out, and Arab parties could hold the balance of power.",
-        "via": "Arab party turnout",
-        "aspect": "politics",
+        "id": "idf-chief-sees-no-need-to-strike-before-vote",
+        "title": "IDF chief sees no need to strike before vote",
+        "when": "2026-10-22",
+        "place": "Tel Aviv",
+        "lat": 32.08,
+        "lon": 34.78,
+        "what": "The IDF chief reportedly told leaders there is no operational need for a strike on Iran before the election, which weakens any argument for acting before voters decide.",
+        "via": "military view on timing",
+        "aspect": "security",
         "flow": "into",
         "sources": [
           {
-            "title": "Palestinian Israelis rarely turn out to vote. They will t...",
-            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORTN1WEYwbE9uWm5RdExYY2JpbXEzeERlZFBTUlpQc3Jka3NjRTF3UFhpN3I1QmFiMFpjMXFTLUs4OUJtRUpyS0lyUVdmbGV0dWdEV181Z1ZtcGIwTnZ1cDFqSzh5RDZhRHlXUWExcWQ0cC1tVXJZSWZxaW5wR1hUZUxvRWNlaUJWQU0wSGlsNDN2b2pIN2RNSkZnUlBGMWZBQ1pNMnEwdmF4ZTdHQWo4OVZtYzE?oc=5",
-            "publisher": "The Observer"
-          },
-          {
-            "title": "In Israel election, Palestinian citizens weigh fear against disillusionment",
-            "url": "https://www.aljazeera.com/news/2026/10/22/in-israel-election-palestinian-citizens-weigh-fear-against-disillusionment?traffic_source=rss",
-            "publisher": "Al Jazeera"
-          },
-          {
-            "title": "How Arab parties could hold critical balance of power in Israeli election",
-            "url": "https://www.bbc.co.uk/news/articles/cx8dzrp768j8o?at_medium=RSS&at_campaign=rss",
-            "publisher": "BBC World"
+            "title": "Report: IDF chief says no operational need for strike on Iran before Israeli election",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNGk4Y3lyVnlzNnlHdHgyYkI2ZENwOXk0TWk2bTA1YVlpU0lJQ1V4VXk3OE8wck9LSFJTZGlEcXhQYWpWZFhLZEVoOU1DUE5qeFJoVHEyRmdUQmJQU3htdHUxaU1aamdjUTN4NGY2Q3o3di1KMEl4d2xCeHhFaEZZWHJaYmlHS3phQlhXaHVmclNkZ2F2NTAzVUM2X09Sc1RDRThxVXFn0gGrAUFVX3lxTE5xSVVyaDMtaG9hVDdMd2FFWUdtN0t2ZGpoNXZMRHVSU01neVRCMmFWZ005anliS1RiVjZ1Z1pNMXVqczAtVVRsUmZmUXNJa0RIejh0aExQbzNUdDBHaW05Z3NJRnRPMUNFek9meVJNa0c3TnhhYm9QM0hrUi0zNlZXdjdYR1czM242WTJyLU1wdkdLZE1GT2wwYjc5Nzc5SFVqZFd5Z3I4VHY1MA?oc=5",
+            "publisher": "The Times of Israel"
           }
         ]
       },
       {
-        "id": "katz-blames-opposition-for-any-future-attack",
-        "title": "Katz blames opposition for any future attack",
+        "id": "tibi-outlines-plan-to-oust-netanyahu-post-vote",
+        "title": "Tibi outlines plan to oust Netanyahu post-vote",
         "when": "2026-10-22",
         "place": "Jerusalem",
         "lat": 31.77,
         "lon": 35.21,
-        "what": "Defence Minister Katz said any future attack on Israel will be laid at the feet of the opposition, framing the vote around security.",
-        "via": "security-framed campaign messaging",
-        "aspect": "security",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "DM Katz: Any Future Attack On Israel ‘will Be Laid At The Feet Of The Opposition’",
-            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdVhqX0JadDZFaWludE0waUIxaUlQeFh1Nng3MkR6UEgyS3oxUGN3WVlwWHluVFhJaTFLVHlEcEYxM0FlT2VKUXdHTURrZkNmR1VJZjdKUXpVS3JKYTRSbEZqSkJVSkRjQjI2bXlUeDhybWlaZHVTU1lOT0ZIOUVNSzNQRG9fZURmUG1tODV1YXhWUXo0WHNwaVRFRU5xMGJLYkwySUV4MWphYXdtZGdjdHUyVkt1U2NJQ0pxMUU1TjVuRWFoUFFsazV3?oc=5",
-            "publisher": "i24NEWS"
-          }
-        ]
-      },
-      {
-        "id": "us-and-israel-reportedly-plan-possible-iran-strike",
-        "title": "US and Israel reportedly plan possible Iran strike",
-        "when": "2026-10-22",
-        "place": "Iran, Israel",
-        "lat": 32.43,
-        "lon": 53.69,
-        "what": "A source told NPR that the US and Israel are planning for a possible attack on Iran, keeping the Iran war central to the campaign.",
-        "via": "Iran war salience",
-        "aspect": "security",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "U.S. and Israel are planning for a possible attack on Iran, source tells NPR",
-            "url": "https://www.npr.org/2026/10/22/nx-s1-6011514/us-israel-iran-war",
-            "publisher": "NPR World"
-          }
-        ]
-      },
-      {
-        "id": "fake-accounts-amplify-netanyahu-attacks-on-rivals",
-        "title": "Fake accounts amplify Netanyahu attacks on rivals",
-        "when": "2026-10-22",
-        "place": "Israel",
-        "lat": 32.08,
-        "lon": 34.78,
-        "what": "Haaretz reports that fake accounts once used against Iran's regime now boost Netanyahu's attacks on rivals, while the Shin Bet deleted accounts linked to election interference.",
-        "via": "online influence operations",
+        "what": "Arab-party leader Ahmad Tibi set out a plan to remove Netanyahu after the election if neither bloc forms a majority.",
+        "via": "opposition coalition maneuvering",
         "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "Fake Accounts Used Against Iran's Regime Now Amplify Netanyahu's Attacks on Rivals",
-            "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxOWk5qdnJ2NEFlbEVqb0VKTm9CTVptLVZwTXlBMXBiMEVzaTZCaDFSYzRkdTNPOWxjZmpCV1FPSVg4UXpaM0ZrWlJGXzVmQUZNaHlGbUktazl4UFFiZUtPVlRfak95TGZBeTlpb1hlNHFPQ3lGRkc5a1ZKLWJubDBtNGMxZkxGVUY3ZGd1VlhqR21TdWdUelp6czluZ080SmtpVTRsaXU4UFlMSHltanV6WTN5cW1OU0R0bUI2Y0NhZ2p1RWJJeXktVnJ3VWRSUFpiXy1EdjVxZk8tZ2tPcmdrdVE1X19zWllxcEhHSkRqaW16VlU2aWh1cU50NGZsZUVBM0JOblZBd1kwd2lnS2luWURxYWRxMktnUjRrWHF0R28wa0VjRG1GUg?oc=5",
-            "publisher": "Haaretz"
-          },
-          {
-            "title": "Shin Bet deletes online accounts linked to election interference",
-            "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1oZl9SYXJLVlFHckU2ci1rR1pmX0ItajFMa1A3V3NUbDRnclFfSG9mc2szTmphY1lBUUNWc3ZIZ0FNWjE1eGJpV2N4ZzVqejI0RmlwbktodUxoOFY0aTFlbzRfLWJOV2k0?oc=5",
+            "title": "Ahmad Tibi outlines plan to oust Netanyahu after elections if neither bloc forms majority",
+            "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5SRXg1UzNhWU9WWDhGUnB5RVJWRzdubnZvYUh4U1MzQnk3VU9BX3BqbjNqZ0NoVE5XU0ppckR3QUtZMlZoVDdwMmV5VTNsYWRXMFgweWI1YXh3VDNNRTJGQ1kxejVKU2hU?oc=5",
             "publisher": "The Jerusalem Post"
           }
         ]
       },
       {
-        "id": "vance-declines-to-endorse-netanyahu",
-        "title": "Vance declines to endorse Netanyahu",
+        "id": "netanyahu-pledges-torah-exemption",
+        "title": "Netanyahu pledges Torah exemption",
         "when": "2026-10-22",
-        "place": "United States",
-        "lat": 38.9,
-        "lon": -77.04,
-        "what": "The US vice president declined to endorse Netanyahu ahead of the Israeli elections.",
-        "via": "mixed US backing signals",
+        "place": "Jerusalem",
+        "lat": 31.77,
+        "lon": 35.21,
+        "what": "Netanyahu's pledge on a Torah exemption signals what he is offering in the campaign, and it highlights the stakes of the vote.",
+        "via": "coalition partner appeal",
         "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "US vice president declines to endorse Netanyahu ahead of Israeli elections",
-            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNek9tbmdGb195cnQ5VzhDNDJCZklaTE1uYXc2QUhjTmc5d1NxdVE4eFFianhhTUprcG9tZEJ0bG9zSzNCaFlJNVdyUG5YQkFpalZjZWdza001M2V3ZjNqM1hOOG8tWDRsMDYtVThNTHVlYkNUYXZQanNYZ0huaGh5Q01zQWVqdnliVWxmaVVsbkNsblNUR00zMGhDUzRKMlpldm1naWpfejlud2dfaVJDSHA4cw?oc=5",
-            "publisher": "Yeni Safak English"
+            "title": "Netanyahu’s Torah exemption pledge highlights election stakes",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOc2RadFlMclhJYVc5VHI2dV9yMm5Cekh2SXJBeG9yVFpmbDNzMkRxZTFpMHFpZG9LdW16d3RnYmVUQVN3RVU4Vnp2UG5qQ2h6RTlObk00OXZVZHVKbkVwSWlVQXJkQWhTSmVURmwzZFcydXgtTUFvTDhBZTRiNHFLOURtd3dHRnFyWU1YSGxRY2pCMmR5ZEQ0SA?oc=5",
+            "publisher": "The Forward"
+          }
+        ]
+      },
+      {
+        "id": "ben-gvir-shares-ai-videos-mocking-gazans",
+        "title": "Ben-Gvir shares AI videos mocking Gazans",
+        "when": "2026-10-22",
+        "place": "Jerusalem",
+        "lat": 31.77,
+        "lon": 35.21,
+        "what": "Minister Itamar Ben-Gvir shared AI videos mocking Gazans as 'donkeys' and sending them to Paris, drawing international coverage during the campaign.",
+        "via": "campaign polarization",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Israel’s Ben-Gvir shares AI videos mocking Gazans as ‘donkeys’ and sending them to Paris",
+            "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20261022-israel-s-ben-gvir-shares-ai-videos-mocking-gazans-as-donkeys-and-sending-them-to-paris",
+            "publisher": "France 24"
+          },
+          {
+            "title": "Israel’s Ben-Gvir shares AI videos mocking Gazans as ‘donkeys’ and sending them to Paris - Truth or Fake",
+            "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxObTU1ZzZnY0ZQWkM2QjlQeTRhQnVpekxUZzR1SFROR0Jxa0QtcGFmZjVHYy1NUV9oZ2REZ3Brdml5aGM0Q0ZMbDhqMWctcy1rUy1vTzVFSC1jck1lRDNoUndSb0VtRmdwZ3h0Nm1fQkNYcGJvZ2ZMYzhKem1uWG1lczJrbUtFQXhjd1pJVnlKV3J0ZzFZV1VrZC1LaVF1RFAtTjNTTnNuN3VMamhqbVJBdDNYcmlNUFlHaTN5S040UEFiVy1HYVdHNzhrZWNwcDA0Tnl3eW05VUN0MFl3YWk0?oc=5",
+            "publisher": "France 24"
           }
         ]
       }
     ]
   },
   "opec-plus-november-output-hold": {
-    "at": "2026-10-22T10:21:00.459Z",
+    "at": "2026-10-22T22:30:18.910Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "seven-oil-tankers-damaged-near-hormuz",
-        "title": "Seven oil tankers damaged near Hormuz",
+        "id": "seven-tankers-hit-in-strait-of-hormuz",
+        "title": "Seven tankers hit in Strait of Hormuz",
         "when": "2026-10-22",
         "place": "Strait of Hormuz",
         "lat": 26.57,
         "lon": 56.25,
-        "what": "Iranian state media says seven oil tankers were damaged: four struck in the Persian Gulf and three hit mines in the Strait of Hormuz.",
-        "via": "disrupted Gulf export shipping",
-        "aspect": "trade",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Iran says seven oil tankers damaged in Strait of Hormuz",
-            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQWm9PbjlFV1lUdHp5VExEaEJJZ1VRRERwTlRkQklLSG9mbFR4MUJBV1RQNk16Vm1paWxtT0NKdWZWSWFKcGFZeE1WemNlUWpuQWdPWXRfekNwQzNHRUVmQ1RSbE9qbnF6amFmMHZNazlfTnRhZExCM1lFQVhaUm52d3F3?oc=5",
-            "publisher": "Latest news from Azerbaijan"
-          },
-          {
-            "title": "7 oil tankers damaged in Strait of Hormuz, Iran's state television reports",
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNT1dLNkNuUnpBRWV1b3d3a1lYcW5mTjB0U2trbW1OV1p0elFKU05KRXVLbkx0WUl5aGtZR0lrczZTVndJMEhBRzE0bWM1MEYtMkhHNHNvUndoQk1fcG1KeGk1clVhTDNmc1RjWVJNbW1xWnNnTEJ0TkVhaVJhRk1uSkpiR01YZkgtMEpGZ0dCQ2dObEZVZnpSN0h4S3oyc0g2YjZONzFZTzdOTi1SSndoelVsTDJHWnc?oc=5",
-            "publisher": "Naharnet"
-          },
-          {
-            "title": "Iran claims it struck 4 oil ships in Persian Gulf, 3 others hit mines in Strait of Hormuz | World News",
-            "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQZWhEVHYzVE56THpoRlJRMUEydnR5UFpQa3FGa0g4UE9kYnZ1dlVseUlVZzNCVG9JYmxVaFlhUnNwY1lZXzdNUHZLY3JuVFpIT2pVVXI1WnRqZTlqazYxY093YlpIaEs5NlFwbnRXMXFaT1p6Q2wtYVVHSk1Pd2lmY19zem9KZzRMb3A0QUdzR09RaVU3S3dEV2NRU3pWY2NSVmNmRUtLXzBvN2FYNmZNeElULTIxaWh6aTU2bW5BSERxWmF5aFdKQ1ZlNU5tcG1LRHgzQ1ZCZzdvUjR5VlRaX05sQmlWYUs1YUF6dlJ0czRSTGZFYW02dFRrbEJRWjZoUTJKSVJIZ0NZX2QtYmZZ0gGUAkFVX3lxTE5aTHptUk4xaWdabXFwQTdTbEhnVzdLc3ZJazdnSzRfWGlaVm1nWVgtX2NEbkY1VWVBcWZ0ZE9mQUNFdDd6TTJjSng1X0gtaUllN1pfMWFtODJRTktUa01ENXlpZEJ6aFVRVWFrTUFHQmhTWnFkM1V4bUdiWGpTTEstTUNxaDlhRWhyNzlrTFZmQzhoazNrQkh2UlFsY1JtLVBqcnJmenZjNHg1MXZLMkZEYkdRdW5BMW1taXJ4T25MWXI5akVReXBNRUJJZnpibjhEa0VKYldaaDFyOEdPcE04eFVlQS1wVjhod1BBNEFHeDNrdXNiTHl0a0NBaXFOYWZBQkx0MktmOTh3U1hzNG9ENHJMaA?oc=5",
-            "publisher": "Hindustan Times"
-          },
-          {
-            "title": "Iran Reports Seven Oil Tankers Damaged in Strait of Hormuz",
-            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSV82VGVHRERRTjA2X0NyZk9uWERaMll1UlNQTFZVeWphNTV0eVQ5ZDRsZWJsYzAyTFJ4cXpQV1NJZ3dCQkF0VUVUUHVad1dGdlUyOU16SWh4bTRGLXlYRGozSG9NM3VxRVotcldsZ24wSTEzYldrb05WQUxJc29SMldIRTdLT21NejFhZHhta2tWa1o1c1l6bkhnVWlNN3psODVzM3JsVmRsdWJ60gGsAUFVX3lxTFBJXzZUZUdERFFOMDZfQ3JmT25YRFoyWXVSU1BMVlV5amE1NXR5VDlkNGxlYmxjMDJMUnhxelBXU0lnd0JCQXRVRVRQdVp3V0Z2VTI5TXpJaHhtNEYteVhEajNIb00zdXFFWi1yV2xnbjBJMTNiV2tvTlZBTElzb1IyV0hFN0tPbU16MWFkeG1ra1ZrWjVzWXpuSGdVaU03emw4NXMzcmxWZGx1Yno?oc=5",
-            "publisher": "Deccan Chronicle"
-          }
-        ]
-      },
-      {
-        "id": "us-pulls-diplomats-from-saudi-arabia",
-        "title": "US pulls diplomats from Saudi Arabia",
-        "when": "2026-10-22",
-        "place": "Riyadh, Saudi Arabia",
-        "lat": 24.71,
-        "lon": 46.68,
-        "what": "The US told some diplomats to leave Saudi Arabia amid Houthi attacks, and reportedly is readying strikes on Iran after the midterms.",
-        "via": "fear of wider Gulf conflict",
+        "what": "Iran says seven oil tankers were damaged overnight in the Strait of Hormuz, and it warned the US of a wider response.",
+        "via": "Gulf export disruption",
         "aspect": "security",
         "flow": "into",
         "sources": [
           {
-            "title": "U.S. pulls diplomats from Saudi Arabia as it reportedly readies Iran strikes after midterms",
-            "url": "https://www.cnbc.com/2026/10/22/us-iran-trump-hormuz-.html",
+            "title": "Iran says seven oil tankers damaged overnight in Strait of Hormuz",
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaWhkVUdxeGRKVWlCeHJLZUJPMVlEUVkwMlB3T2xzQW95S1lxdG5aU2RpYV9LQW81akQ1WXlLLVlFVnB0bjNKYUt3ZFAxeW1fX1VtX2I5Sm1GSEVwckdRcWFrdzdsclgxQ1RwVmZnckJJeVFyWjhfLTNJQlBDZExhTTRTdm9iSzl6VUpZdGJqbUtoTTNrMTVibjZNWG5wbkx1LXBXSnNrM0J5WklYSHFsakFBenliMGRuQ19HZGcxQ3VCcWpfSnFsS0JR?oc=5",
+            "publisher": "The Irish News"
+          },
+          {
+            "title": "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOVo5NGVvb09wSzBSTFVOa21PVVRNWWlEYUd1ZEU2U0tjTm55R3hYQ2Ezd1lUWUYwbFNpVUhJVDBxNlZaamJKaDJvblV1dl83LVhSX21rMkZuUXQtWFZmZmpZbXRrMkwwRzloVnA0QUs0cjN5MXNiZDBKR2MwaW9Sa1BKUGlaRUlQeG5PYnNPcTQ3YXZFc3QybjE1ZmVCYVJmY0doag?oc=5",
+            "publisher": "AP News"
+          },
+          {
+            "title": "Iran says seven ships hit in Hormuz Strait, warns US of wider response",
+            "url": "https://www.aljazeera.com/news/2026/10/22/iran-says-seven-ships-hit-in-hormuz-strait-warns-us-of-wider-response?traffic_source=rss",
+            "publisher": "Al Jazeera"
+          }
+        ]
+      },
+      {
+        "id": "brent-tops-113-on-iran-fears",
+        "title": "Brent tops $113 on Iran fears",
+        "when": "2026-10-22",
+        "place": "London",
+        "lat": 51.5,
+        "lon": -0.13,
+        "what": "Brent rose above $113, its highest since May, after Trump hinted at action on Iran and attacks raised supply fears.",
+        "via": "high prices and supply fear",
+        "aspect": "markets",
+        "flow": "both",
+        "sources": [
+          {
+            "title": "Brent crude tops $113, highest level since May, after Trump hints at action on Iran",
+            "url": "https://www.cnbc.com/2026/10/22/oil-prices-today-wti-brent-saudi-arabia.html",
             "publisher": "CNBC World"
           },
           {
-            "title": "Some US diplomats told to leave Saudi Arabia amid Houthi attacks",
-            "url": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks",
+            "title": "Oil prices jump to five-month high as attacks threaten global supply",
+            "url": "https://www.theguardian.com/business/2026/oct/22/oil-prices-jump-five-month-high-threats-supply",
             "publisher": "The Guardian World"
           }
         ]
       },
       {
-        "id": "uae-exits-opec",
-        "title": "UAE exits OPEC",
+        "id": "strikes-reported-on-shaybah-and-yanbu",
+        "title": "Strikes reported on Shaybah and Yanbu",
+        "when": "2026-10-22",
+        "place": "Yanbu, Saudi Arabia",
+        "lat": 24.09,
+        "lon": 38.06,
+        "what": "Reported strikes on Saudi Shaybah and Yanbu sites helped push Brent toward a $112.68 breakout and added to supply fears.",
+        "via": "threat to Saudi supply",
+        "aspect": "energy",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Oil Price Forecast — Brent ($111) and WTI ($99) Jump on Shaybah and Yanbu Strikes — $112.68 Breakout Targets $120",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMzJId01uSGVtNXhFaHJNMVdkSEtIM1BaUjZsZ1VRb000M1lKZ3UyTGdCR2pRaFZmcGN1QWVLN3dPREVETzNtU0ZnbHVuSTNydzhnLXlzZ0M2LWl0MlhFNTQ2YmlYcFozWVlIRkFSOFB3Tmo5RWR3QUdyWmF5bkI1LUt5WG5zc0I1UklQNGVBTUdERG1jOHlPem1pTlFxNU13NE5fMQ?oc=5",
+            "publisher": "TradingNEWS"
+          }
+        ]
+      },
+      {
+        "id": "iraq-pushes-for-a-bigger-quota",
+        "title": "Iraq pushes for a bigger quota",
+        "when": "2026-10-22",
+        "place": "Baghdad",
+        "lat": 33.31,
+        "lon": 44.37,
+        "what": "Iraq is pressing for a larger OPEC quota, driven by revenue pressures and new oil investment.",
+        "via": "member quota demands",
+        "aspect": "budget",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Iraq’s Push for Bigger OPEC Quota Driven by Revenue Pressures, New Oil Investment",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPY1RWT0NzcXJieEZJODl0UmtDY05jM2Z6VUNybTc3MzFMTWgtbWlWUk1WQzhjeTlkZy1rOHFrOW56YnN1STJXSWZObW1zNmM4dUlSajdoYm9ZWXNfUkcxbW9xcjhoV3lxQV92NEJpLTlaZmN5eVZtTVhmOE13c1lhenlIWmxFNUlFR0VySG1wUFpXRDd4SXRpUEo5eTJDdm5pcXota1VYVlkzQVYzNUxr?oc=5",
+            "publisher": "EnergyNow.com"
+          }
+        ]
+      },
+      {
+        "id": "uae-leaves-opec-citing-faster-investment",
+        "title": "UAE leaves OPEC, citing faster investment",
         "when": "2026-10-21",
-        "place": "Abu Dhabi, UAE",
+        "place": "Abu Dhabi",
         "lat": 24.45,
         "lon": 54.38,
-        "what": "The UAE has left OPEC, and its oil head says this lets it speed up investment, raising talk of lost OPEC clout.",
+        "what": "The UAE has exited OPEC, with its oil head saying this lets it speed up investment, while commentators warn of lost OPEC clout.",
         "via": "weaker group cohesion",
-        "aspect": "energy",
+        "aspect": "politics",
         "flow": "into",
         "sources": [
           {
@@ -1534,90 +1661,46 @@
         ]
       },
       {
-        "id": "opec-cuts-demand-growth-forecast-again",
-        "title": "OPEC cuts demand growth forecast again",
-        "when": "2026-10-21",
-        "place": "Vienna, Austria",
-        "lat": 48.21,
-        "lon": 16.37,
-        "what": "OPEC lowered its oil demand growth forecast again, citing Gulf supply risks, while saying supplies are adequate and blaming war fears for higher prices.",
-        "via": "softer demand outlook",
-        "aspect": "markets",
+        "id": "venezuela-resumes-diluted-crude-exports",
+        "title": "Venezuela resumes diluted crude exports",
+        "when": "2026-10-22",
+        "place": "Caracas",
+        "lat": 10.48,
+        "lon": -66.9,
+        "what": "Venezuela resumed exports of diluted crude oil after a 15-month pause, according to a document.",
+        "via": "extra Venezuelan supply",
+        "aspect": "trade",
         "flow": "into",
         "sources": [
           {
-            "title": "OPEC Cuts Demand Growth Forecast Again as Gulf Supply Risks Mount",
-            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUEt1NmxaOWtwZ2RBbVh1Q01nZjU2TlZCR1gtRm5sOElDQXFOaVJuTWRQVkhKcGxwNG5KYkhITnJsamhoV1JxVDlxc3p6RlJNR0FCUEtoWm1NQlpNcHN5TXh0RFZJYkhqUFlVdnBXQm5IUFMzdzBqNHRNSk9BelFWbEkwOEJ3bVJLLTZLUjU3Slo3UXVUZjk2YkpySnN5Sl83LWN6Mzdka0MyZzBfTUEtVldmU0Q?oc=5",
-            "publisher": "WSJ"
-          },
-          {
-            "title": "OPEC says oil supplies are adequate, blames war fears for higher prices",
-            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQ3k1WmVtV3phc0NlaWJqMmJ0VnExR09tTXJuMXV2bDVlTTlHbmRMV0pMVXlFRWMwZ2RLd3dQRmZMUnd1ZWtsUWxqWTdTVmRGYWt5S244djVfcUVMajdPd2V2ZU5RZmhnaXVBNVM5Xy15M2FUMTJYRC1jVHpneVl3eEF5MmJnQ2hpWUJ2OUpQUm8ydkpRQ1hjcGVuRDYtV0tscmRzYWI4OG1KUks2WlZGNS1RYUg4Y3RCN2FGUk9KSHhBT3Y5RFVwbEFaM28?oc=5",
-            "publisher": "Petroleum News"
+            "title": "Venezuela Resumes Exports of Diluted Crude Oil After 15-Month Pause -Document",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVzB4NHBWMHJWd3JkeGtncFFvUnNQUUlydENIOVRwNUF1QjFicWRXbnBmUUw3czBDRWRVQlJFR0VUMXVqUlRvSnBlLXpLX1NaeC1VOFB3WWQ3T3RlMzAtc2tJMGxYcnE5OGVETVNRRWNhLUdYcDdxOFItY2s3UjZWZmNITzhjbnhnZk1xMUhQNHRQTEZPZmY1b1hZVEs1V1Q2S2lvMm5wX3ptTDQ?oc=5",
+            "publisher": "EnergyNow.com"
           }
         ]
       }
     ]
   },
   "france-election-2027": {
-    "at": "2026-10-22T10:21:00.459Z",
+    "at": "2026-10-22T22:30:18.910Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "weekend-riots-and-mass-protests-across-france",
-        "title": "Weekend riots and mass protests across France",
-        "when": "2026-10-21",
+        "id": "le-pen-poll-rating-rises-during-riots",
+        "title": "Le Pen poll rating rises during riots",
+        "when": "2026-10-22",
         "place": "France",
         "lat": 46.6,
         "lon": 2.2,
-        "what": "Mass protests and riots over the weekend, with Paris bracing for more, have pushed order and security to the centre of the campaign.",
-        "via": "security fears driving votes",
-        "aspect": "security",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Marine Le Pen Gains Support in French Presidential Poll After Weekend Riots",
-            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVFB3SHliakpOVVJNd200bndxbmU2SW9Wb0NzeGVIWGwwRWZleXNHZFU5TUR0amNvVkl4OG5nVGFFWGxmeFJfYzhOUnFhajJMdzVFTHZEZUVncG9JQ3JoeGRIRm1JQld0ejRnY2hMSW42NlJZWmdaQlhuenhPdHUyMHF5Zm9jRWlaSnZIVVJPcElWd3VSUmpjRFdwS0tJcEpX?oc=5",
-            "publisher": "Sri Lanka Guardian"
-          },
-          {
-            "title": "Le Pen sees polls boost amid mass protests, riots",
-            "url": "https://www.france24.com/en/le-pen-sees-polls-boost-amid-mass-protests-riots",
-            "publisher": "France 24"
-          },
-          {
-            "title": "‘France’s expense’: Macron blasts Trump as Paris braces for new riots",
-            "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNY1l4LXNWZ29mWThJR2hWejlVS0s4U3RCVmp1UWVheC1nNUdha2lJZTI4clN3Y0dNSUdTNnJlZVRTVDdnTXVsRXR5UjB1Vm5lU19BVzRJV2JHT1R1SXZyLVp4QTYyS0pSM2piUGxtWjRNbWNsQ0ZDZWtwc2I2RXBNOV80MExvODVtZnJPenliYTNEOTAxeE9VUHVqbi12b3ZHd19MSFgyeWdBbmxQdFlObWU4dnV4VmljUDJ4ZXlicm5iU3JrMV82djFJR3NNZHdDMEctd21uQmNXWWtkQ05sd19McUhrQk96NFBMcGRDclU?oc=5",
-            "publisher": "NT News"
-          },
-          {
-            "title": "Prediction-market odds rise for Marine Le Pen in France 2027 presidential race as protests roil nation",
-            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNmwxQUVRaDlncFFmZ1MzeXZ3aC13YXZIREJTQWpVUTg2V3NpZi1wbDZBME1pZlVuNG5nMlBCWEZGcGsxdGV1QWJTNlF1dS1zb2g5MUxrcmZSSXlDU2tQVzg2QzlZckItNEkzdGVqdlE5a0pxWndYdnRTSzVMN015b2duTEpNbFF4TDVJ0gGQAUFVX3lxTE4ycEVGTVIwZzNrTW1fcFFRYVB6UkRSaVRicE10UEM1V3lfVkZyenhlcWJWZlpXTS1VZTRuRURrdzB4N0FpMkFxbEpjYmFDOUlEUEVKN3JUQzlmZnRNeENoZkdRQTFUQ25pRElCVFBseDRmeF9HUzhoM09wZTAxdTRueWVtN2RLazJJeVpEal84bw?oc=5",
-            "publisher": "CNBC"
-          }
-        ]
-      },
-      {
-        "id": "poll-shows-le-pen-winning-in-all-scenarios",
-        "title": "Poll shows Le Pen winning in all scenarios",
-        "when": "2026-10-21",
-        "place": "France",
-        "lat": 46.6,
-        "lon": 2.2,
-        "what": "A poll reported on 21 October has Marine Le Pen winning the presidency in every run-off scenario tested, and polls show her gaining after the riots.",
-        "via": "polling momentum for National Rally",
+        "what": "Reports say Marine Le Pen's poll rating climbed from 32% to 36% during the weekend riots, strengthening the National Rally lead.",
+        "via": "unrest boosting far-right support",
         "aspect": "politics",
-        "flow": "into",
+        "flow": "both",
         "sources": [
           {
-            "title": "Marine Le Pen Could Win the French Presidential Election by a Wide Margin, According to a Poll",
-            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZkp4UG1vUUlqb2FYZE1mRm1HWjEzdldlLTdiN1NDM05Kd2JoWjRGVHNBZHhkdXlVWHdOOGlZbGZ6SXA1RVdMcXJFdUN5T0l4ZUxCSEd5Z2RadFNiZDFoMGdGZE1YQnhYN0laRkVGbzBvZmJ0bXVWQTVPNWFtWG1PeDVKMTB3VTYtc05FR0tLT0F0NE9RQmxzZnc5bFgzRENnelFnTkJvejUyNi1SSUtQM0I0RXlNaHNMUDRfTEdVaEI?oc=5",
-            "publisher": "UA.NEWS"
-          },
-          {
-            "title": "Poll: Le Pen wins French presidency in all scenarios",
-            "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBGaEZVcGpiVkN4NHFfSnpPb1FBRWEtMnVVTWpybjVpWkRTOC1IOFFiYjZWWXVqa01rNEhpMEI3cEFhU1Vpc1R2T1VYWUNBZFQw?oc=5",
-            "publisher": "JFeed"
+            "title": "Marine Le Pen's Poll Rating Rose From 32% to 36% During Mass Riots in France",
+            "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9hVm5ndVI3bzA5QkIzQlhfMEdwSWhvME10U1FpOEh4Zkp2NVQ3M1lDaHg0cFdWLWVHX2lPNWh6S3NLakYta09ZMXJYU21SMzFDVFBoc2tIek90OFBmVm1lc2labWdsdF9BZEt1ZWxjdw?oc=5",
+            "publisher": "SFG Media"
           },
           {
             "title": "Marine Le Pen Gains Support in French Presidential Poll After Weekend Riots",
@@ -1632,47 +1715,85 @@
         ]
       },
       {
-        "id": "kalshi-prices-le-pen-win-at-53",
-        "title": "Kalshi prices Le Pen win at 53%",
+        "id": "paris-bans-protests-near-key-landmarks",
+        "title": "Paris bans protests near key landmarks",
         "when": "2026-10-21",
-        "place": "France",
-        "lat": 46.6,
-        "lon": 2.2,
-        "what": "Traders on the Kalshi prediction market raised Le Pen's 2027 odds to 53% as the protests continued.",
-        "via": "betting market confidence",
-        "aspect": "markets",
+        "place": "Paris",
+        "lat": 48.86,
+        "lon": 2.35,
+        "what": "Authorities banned protests in parts of Paris as new riots were feared, keeping law and order at the center of the campaign.",
+        "via": "public order concerns",
+        "aspect": "security",
         "flow": "both",
         "sources": [
           {
-            "title": "Kalshi Prices Marine Le Pen’s 2027 Election Odds at 53%",
-            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBPaDRBYkpQRVMtWVdFcG0zMVJ4bmdSTFlDMFpIUnp4OHFuZjg5YzV3TFVkQWF5TTBFM1Rhd1N5Qk90clAwRWpaX3prLWNOeGd5blFkR2RUc1JZZw?oc=5",
-            "publisher": "www.tokenpost.com"
+            "title": "France Unrest: Paris Bans Protests Near Key Landmarks, Macron Rebukes Trump",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMmpydzZZTUdzTGlfRHJZWFp4Q1M0aUJ4MzdndlY3Y0dSc2pJVUR5UE1WUHFqZ2F5ZnMwbk5uYVVUX2pLM2FHWEZIc0tueDVSUUlBT2UtNHpiQ09Hdm1IdjRyT1Rrckw4SzFrRlVDeTgzZlhfdE9TeC1pNko3RkQyVGZJTHBfVFdYckFxSkNXRU9yREhwdnlrMjJXWnRkeG5YLUM5RFNWNFNEVjFyVmw1ckdNbjBsam_SAcQBQVVfeXFMUGhCLVlvYUpwT1pkOUdwRlJZYUk0WEpmUXhwMUlyWVg0bC1VOWtKR3RqSUd6bEhkTVc2Ry1qNncyY2RYY2UxT0lWUmhUV3ZuSjNaYVRDUV9pTVJ3V1poWTdFaGcxLThUYWoycE15NzJ6QXZheFVLeDVKSTJwcGVrQUw1bEZjdFpJZXF0NlltRk1nMVBjTzRiX0o0X2ZTanhvYTc1SzVfSElzengwVnE2UEs4cU9uQ25jQ0VfNTBEZGRSSmJfSw?oc=5",
+            "publisher": "Outlook India"
           },
           {
-            "title": "Kalshi Traders See Rising Chances for Le Pen in 2027 French Elec",
-            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTHUzT05pNkF0S29jTnh0ODBLZUNsMm1BRDltVmt5bGxOZERNLXgzZEZRUUtSR3N2SGRFeWFKNDBPOWU0OENhWkMwM2xKSnRtZ1BBM1BjeW50QUdWbHFVbDBUSTd1Ykh1VnZUbFVWN2JzOHAxSmtxVUN2emU0QmlsU21CSzVMN3A0TndVRm1oY1V0Q21fbVJvUzJsdDBILW9rM3dGQ1oyOEhhSDQ?oc=5",
-            "publisher": "GuruFocus"
+            "title": "France Bans Protests in Parts of Paris as Macron Slams Trump",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaXhxcDR6a1NnTG0wbkFKNFlXeGtVblEtem9UWnM4US1wLXRiNFlUOGc5WVo5c19CWG54VGlfVVZ4aHQ2aHNQUjhfWmQxTTJiWWctelpKUFpOQXVqZThhRGZsbUdFQmxWRjQ1TWE5bGhUU3dRejBEYnBDV3hlLTJ4b29UYkZMWGl6dkJLUHQ2bmgwVzQtdE04?oc=5",
+            "publisher": "Tempo.co English"
           },
           {
-            "title": "Kalshi odds for Marine Le Pen rise in France's 2027 presidential race",
-            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNc2lPM3YtdDNsTllrRXFidnRRaFNZYm50Mm5Rcl94NXhRaVFOei16bEFjRHJuRldyWEJ0aDZ0THllQkU0WG1EcmRiRU5vTjdxWnI2Nk1ReWl6MkJiZmpiS19pYWdLcW0zOEhMbUlicGUxVjlua0FRUzBjVVQydEI0Sm8xaXdQREtvR2hXVVZIMFNQMEd2emlkTHR4UnZNYTVX?oc=5",
-            "publisher": "Traders Union"
-          },
-          {
-            "title": "Prediction-market odds rise for Marine Le Pen in France 2027 presidential race as protests roil nation",
-            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNmwxQUVRaDlncFFmZ1MzeXZ3aC13YXZIREJTQWpVUTg2V3NpZi1wbDZBME1pZlVuNG5nMlBCWEZGcGsxdGV1QWJTNlF1dS1zb2g5MUxrcmZSSXlDU2tQVzg2QzlZckItNEkzdGVqdlE5a0pxWndYdnRTSzVMN015b2duTEpNbFF4TDVJ0gGQAUFVX3lxTE4ycEVGTVIwZzNrTW1fcFFRYVB6UkRSaVRicE10UEM1V3lfVkZyenhlcWJWZlpXTS1VZTRuRURrdzB4N0FpMkFxbEpjYmFDOUlEUEVKN3JUQzlmZnRNeENoZkdRQTFUQ25pRElCVFBseDRmeF9HUzhoM09wZTAxdTRueWVtN2RLazJJeVpEal84bw?oc=5",
-            "publisher": "CNBC"
+            "title": "‘France’s expense’: Macron blasts Trump as Paris braces for new riots",
+            "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQRGxNamthWm9FM19yeDFxQ2wwTGt6akZaQXI4djdXY040MzhXN0hfU2pOYXI2OWVZUHpIR3VNQU91c240WlRyUXFnZGFNMkI5X2pUdEczQWRQSUVPNDlvN2R6Rkg2cFhVMmZPdW92TlJCeTdyeEhjUmVPaGZPTktfY1N2Y21TczBrY1gzOXZvWm5RNFRtcnBFZUVHeElNMm1sRkdvLWV3ZTBhaEpjRjlTWkZRVkx6XzlPcC1hSjl1V3c2bFRLTkloSDBFQWRRRDl1ZFFZREh0TzYwbGVzeWpwY2EzR1BxWXBmQ181aVJnZm4ydXJ2clo4am9rQQ?oc=5",
+            "publisher": "The Daily Telegraph"
           }
         ]
       },
       {
-        "id": "trump-calls-le-pen-france-s-conservative-voice",
-        "title": "Trump calls Le Pen France's conservative voice",
-        "when": "2026-10-20",
+        "id": "37k-bet-placed-on-le-pen-win",
+        "title": "$37K bet placed on Le Pen win",
+        "when": "2026-10-22",
+        "place": "France",
+        "lat": 46.6,
+        "lon": 2.2,
+        "what": "A trader placed a $37,000 bet on Marine Le Pen winning the 2027 presidency, as betting markets turned bullish on her.",
+        "via": "betting market optimism",
+        "aspect": "markets",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "A trader just placed a $37K bet on Marine Le Pen winning the 2027 French presidential election",
+            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTzZmblc3akpEQk9sSEtjeFhQTXhJa25vVkV6a2xGVVFTWTdNc245TXB1ZTV0MnJrM1JCYVk2RE5DZnFFdmZtM3N5UFpoSVgzdFc0WTd0WFBMUzhFLThvRmk0SkFkZzJvUkIzVFlkVUg3ODZ3b1pUSXRYNkRyUXMzdTlJMDRyc0ZtQk1KTzB6cHB5ZFNOZ2xpdVl3MTdwbUl3YjdmaENTMV9xVTNDbGNYTFVXVkZrcUI0emFlUHJwTGlXR3hlM1lVRw?oc=5",
+            "publisher": "Quiver Quantitative"
+          },
+          {
+            "title": "Who is Marine Le Pen? Why are betting markets bullish on her winning 2027 French presidency amid unrest in France",
+            "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOTVFnVjdTWTZfcVlOOFlvOU93UE9PMUxhbzJZMVc4Nk03VVBESW5FSXlaenROV1NXNGNaYmJ0SHdfanVsWGFYZG9zUGFaSlNod1V6YnlkZFJGMU54cHRWRmJVdHAyMl9NaC1QeUtCeWlhYVltVVBScEg4R0JEblpNdmhyMGNFMUxxOUF6MG4yczc0VFR6M2pBdGZGOEFwUnFGbEVibjJvRDdNcDFNSEwyNWZLcmdDT2NCcHVJNDVva2hfSWlhN3AtLW5aWldKYnpGbVR1Sjd3V2lRZWxMNDJKbHk1QUM1TkVlRXVxVWVhYmd2emdIdm1TSGw1bk7SAYICQVVfeXFMTVVSRGR3SlIwTi1JZXQ4OHhoUXlTamFKZTZaR2M4WG9Qb1ZiWGF2aEtERTVsUllnVmd0dW1TbkZOSm4zTXFGSUNiRmc2MHREYnk0SFgzTlVHT3laeXdPaHo5Tm5vR0pYdEx6OXdScFJFS0tOa01yTDZiUmdvdl8xNG0tMFlZZUliMVpsckIzZ2Y3Z09wWFk2bVBpS3llekxGdVNjWXJabzdyalloRlNzVVd3N0JHT1dWb3hCN3ZCSXFxLXBSbjZCSXFzREc4VjUyOExxSnJQOXI0X3dHbzh5TnBEdXpwaUJodi1YaVlld1VSeTBZYy1CRHNad08yWjk0NFVn?oc=5",
+            "publisher": "Livemint"
+          }
+        ]
+      },
+      {
+        "id": "eu-prosecutors-search-far-right-offices",
+        "title": "EU prosecutors search far-right offices",
+        "when": "2026-10-22",
+        "place": "Brussels",
+        "lat": 50.85,
+        "lon": 4.35,
+        "what": "EU prosecutors searched far-right offices in the European Parliament while the National Rally was surging in French polls.",
+        "via": "legal pressure on far right",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "EU prosecutors search far-right offices in European Parliament as National Rally surges in French polls",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSGJDa05EMzVBal9xSFE5UEd5cFlZTC1aQk9aZjVfUUdHdUtmRmV1VnVSUkVHTVZKNDRRelI3Nzc0WWRVcVVGVmk3cnFWdzFTYUJobkpJMDA5b1lKT0hhMzhsdEFvUl9SVUJiM1E5QlUwY3otTF9jSFc2aGRqbEVMdFRIb1NJN3hTMmZvenlsR1dpc1Ruai1zWVlvMFhFSGtpTUlPVHhhZVMyNU9KMUJRTC1ySTk3UWF5WldQeUxoUW1uQQ?oc=5",
+            "publisher": "EUalive"
+          }
+        ]
+      },
+      {
+        "id": "trump-praises-le-pen-dodges-endorsement",
+        "title": "Trump praises Le Pen, dodges endorsement",
+        "when": "2026-10-21",
         "place": "United States",
         "lat": 38.9,
-        "lon": -77,
-        "what": "Donald Trump praised Le Pen as France's 'conservative voice' after the riots but did not answer whether he would endorse her.",
+        "lon": -77.04,
+        "what": "Donald Trump called Le Pen a 'conservative voice' but avoided answering whether he would endorse her.",
         "via": "foreign political backing",
         "aspect": "politics",
         "flow": "into",
@@ -1681,35 +1802,6 @@
             "title": "Trump Praises Le Pen as 'Conservative Voice' but Dodges Endorsement Question",
             "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9iZFNPS1k5bWlwVG5Lbnh3Tk5CTklPcXJjLXMyekVIMF9McU5RM0dXT3NpZlNVU3JJSmtDRW94Sk1DM3ZqcXNxZ2EzRGNVZE1OQVNBaXVLRzUwYkpjRjdFdFZSeUQ1cC1PemxNM1pn?oc=5",
             "publisher": "Ratopati"
-          },
-          {
-            "title": "Donald Trump calls Marine Le Pen France’s “conservative voice”",
-            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOV1NET0NQcTFWa3BoQ1hGMlc1Y0V4S2hnOW1Kd052NnZoUXQ3aUxLMFN2bndIRnBDZTNLTy0zLU1jZjRRRm1EX1FuQUVNRHhpa3RCd2dxTVFkWU1sSEVRSkYzSVBnbWJ3aVNnRFYxY0pXbVhOcnFzODVUc3JlMVNvQUJpaElFVUhxQ01KY0ZhdDN3YVhfVDRWMHRJWUhnTzJlS2k3YzR3?oc=5",
-            "publisher": "Informat.ro"
-          },
-          {
-            "title": "Trump calls Le Pen France’s ‘conservative voice’ after riots, but holds back on endorsement",
-            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNd3hUVHQxbTNrV0ZwbGhXRmtWaTRSSXpsSmZzYTNmVGVRYk5KRElmWXlzR2RCSTRhR2dhWWdXLUM3c0toMy14QXhKRUlIbklIcWUzdGFiQVh3LTBZTjlDZUtETHV3VXZyeEFicW0zcjQwc2lQOGNkaE8xdGlob1gzTUdTUGhGWTZ6RDRXZnV0RGhtODBHa2FCTUctR0ZxMnpJcFVOeWhBeld1RlBYWnB2MENad1dUcW1zcnU3akxqeFpNODRGLWozR2xwMWjSAdIBQVVfeXFMUGZTRlE4S2hHR0Q5N1BEMENzWkdocDJYaC1BcjVrNWd0cmtFOEhiRXV6SkxmMHVJQ012NnRlaFZBYjRUNEEtXzN0QzQ1a3hvME0yMWlwa2FOTkhsOFpyanMxTzIyUDVRRDRlMXZ5UjBPcTMxbEtlNk1sa2JEdEE1eUFCZEl2VzdFdFBtZVRDcDB1bzBjMVk2VkNOd1BQRG4wTkU1ZVNmd3hsU3FFazRXLWdGaFNmb1lWQnR1Y1NLTE0tcDB2ZzVOWTd6T0xpd0RFN09R?oc=5",
-            "publisher": "WION"
-          }
-        ]
-      },
-      {
-        "id": "melenchon-under-fire-in-riot-blame-game",
-        "title": "Melenchon under fire in riot blame-game",
-        "when": "2026-10-22",
-        "place": "France",
-        "lat": 46.6,
-        "lon": 2.2,
-        "what": "Far-left leader Jean-Luc Melenchon is being targeted as French parties trade blame over the unrest, putting pressure on the left ahead of the vote.",
-        "via": "blame shifting against the left",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Far-left leader Melenchon in firing line as France blame-game heats up",
-            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUlVxQThsaWdWeFpWTGdUWE1KQUZvNTJDV0xqdVpDQjBzVkJLSHBxMUV4SDlKemVXLUJNR0hIbmpoM19zR2o5cVdnck9PT1FSUHhOdFd0OVRiNThiQTI1cWlRVnctek5NbGYtSFNBM1d5c01KWkxLTjB5ZTFSa0RSR0lFTkVMMTdXOG0tMjVMdFR5aE9EZ19IWkNIMzEzT3pOcEFuNTRkLXpuTUpQdnBBcUxvb3I5bG5XYVk3LU5mXzk?oc=5",
-            "publisher": "Reuters"
           }
         ]
       }
@@ -2002,7 +2094,7 @@
     ]
   },
   "belgium-cost-of-living-clashes": {
-    "at": "2026-10-22T10:21:00.459Z",
+    "at": "2026-10-22T22:30:18.910Z",
     "by": "pipeline",
     "items": [
       {
@@ -2012,7 +2104,7 @@
         "place": "Brussels",
         "lat": 50.81,
         "lon": 4.38,
-        "what": "Students blocked parts of the Brussels university campus in protest at a rise in tuition fees, adding a student cost grievance to the unrest.",
+        "what": "Students blocked parts of the Brussels university campus (ULB) in protest against a tuition fee increase, keeping student anger over costs visible.",
         "via": "student anger over fees",
         "aspect": "living",
         "flow": "into",
@@ -2034,20 +2126,58 @@
           },
           {
             "title": "Students block Brussels university over tuition hikes",
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWk1kTzlvSlc5am1hbzYzMWJDeWppT2plcGJvRGQ0b0lQODJnVnRtM0xoNV9wMUxJY3Q0SkpfVFBGZ1BJWGxHN2pYeHQ0Q0lWU0VaYW0zSUVQTzNVSHZ3c0JvcE5zWHFleEtCRlhOdDRIMHZ2aWtuVHlGNHV3QTEtOXF1Ym02RUlLQVlkWlRYQU1JR1BlbkhNa1JZbmFjVDBodVZDaA?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRDkxSGtSbV95XzdrMnhPVnU5Wllld0p5ei1rN1d5MlM4cXdRSk91NUkwNTFoZl9EUU1tZ0hWQTJBZnpIWFluY05YcGZyRXVJYVBqZVBwaGRnRFUwakRIcFltUDRSOTRaUFl4a25wNE15MnJlQmNqTXQteTNGYXhuTGkwQnhEaXRQcG9uLWpmXzZaOHpsTjdPaXBB?oc=5",
             "publisher": "Anadolu Ajansı"
           }
         ]
       },
       {
-        "id": "500m-cuts-cited-in-belgian-protests",
-        "title": "€500M cuts cited in Belgian protests",
+        "id": "tec-subcontractor-bus-drivers-to-strike",
+        "title": "TEC subcontractor bus drivers to strike",
+        "when": "2026-10-22",
+        "place": "Wallonia",
+        "lat": 50.45,
+        "lon": 4.6,
+        "what": "Bus drivers working for TEC subcontractors are set to strike in Wallonia over a pay dispute, adding wage grievances to the unrest.",
+        "via": "wage grievances",
+        "aspect": "jobs",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "TEC subcontractor bus drivers to strike in Wallonia over pay dispute",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTFN2VWdoU1BPSEpCeERuRG1NMTZCUU5kczd5WmRVYVc4UXYybXg4RDVyOHp3N1l6ZUc2eTJUeGIyYVVpNFZTYlExSDJlSnhsTFF1c3NkYjRfQ1FjMkVMRW1XRVJpcm1mZVBPYlY4dU1JZ1Eza3QwSGZQVlBfaGROMWJZbkR5ZVlFdzlIcWFVQjZIWFBFREdSdmQwTTU3SUlEMnd5TTFkTUpHTVJjMGlpRkRkZWY?oc=5",
+            "publisher": "The Brussels Times"
+          }
+        ]
+      },
+      {
+        "id": "major-national-demonstration-set-for-23-november",
+        "title": "Major national demonstration set for 23 November",
+        "when": "2026-11-23",
+        "place": "Brussels",
+        "lat": 50.85,
+        "lon": 4.35,
+        "what": "A new 'major' national demonstration has been announced in Brussels for 23 November, extending the protest movement beyond the 17 October clashes.",
+        "via": "sustained protest mobilisation",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "New 'major' national demonstration in Brussels on 23 November",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY3luaVpaVngxdnVlZnN5RXV0RG9MTUdKV201OWp4Wngzcm43b2QwQzJsUDE5MUhmWUFCN1MyWkRNZGdvSWdsZnJxT1pCRXFId3I0QndkcjU3VkVYUDczSzJVLS1XSDJ2WllGdHJzQkdVc2dLeGxoVXRJa3dkU1RzQzBhZllWbXNPejlETmNEeXo0dWNCdk5mMA?oc=5",
+            "publisher": "The Brussels Times"
+          }
+        ]
+      },
+      {
+        "id": "500m-cuts-cited-behind-belgian-protests",
+        "title": "€500M cuts cited behind Belgian protests",
         "when": "2026-10-22",
         "place": "Belgium",
         "lat": 50.85,
         "lon": 4.35,
-        "what": "Coverage of the Belgian protests points to €500M in cuts as a grievance driving demonstrators onto the streets.",
-        "via": "austerity grievance",
+        "what": "A protest roundup links the Belgian demonstrations to €500M in spending cuts, presenting public budget reductions as a grievance behind the unrest.",
+        "via": "anger over public spending cuts",
         "aspect": "budget",
         "flow": "into",
         "sources": [
@@ -2055,49 +2185,6 @@
             "title": "Belgium Protests: Tear Gas, TikTok, €500M Cuts [2026]",
             "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBFRTdLUTZ0RnhpWC1ad1h0YncxbDEtUGxhMC0wRUpWS05iR1p2VlA3MHRxX3ZsVUNwcnM2bG1aN3ltaHMxck9GeEV6TFpOTHV0ajhWaDNqeXRCLUhQMXBCTGR5Yi1BWFVPUnZOa01DSGZ2UVlWeXEweVNUekM?oc=5",
             "publisher": "https://tech-insider.org/"
-          }
-        ]
-      },
-      {
-        "id": "french-student-protests-set-the-template",
-        "title": "French student protests set the template",
-        "when": "2026-10-21",
-        "place": "Paris",
-        "lat": 48.86,
-        "lon": 2.35,
-        "what": "French students turned an awkward slogan into a protest rallying cry, a movement that Belgian high-school protesters echoed.",
-        "via": "protest model from France",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "French students turn awkward slogan into protest rallying cry | Daily Sabah",
-            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOczF5a2FzNDBybXlZdjFDaDdyWnN1TGtkUVdsSzAyUDVhZ2Z3T2tNZDRvd2tyWi10eUIzRUdUZEdxSHJVd05YOWxabmpxbEU5NDQ3R0QwcVpaVmE5OWt2Wm42bmZrNzVuUmM0STBhRHVzX3FISGhfd1hGQWNSTVJsZEZMLVFTa3RLdnZROUFVMGZmVkRVV0lZdnVWMzdZSFZXNTB3eU14bk_SAagBQVVfeXFMTnMxeWthczQwcm15WXYxQ2g3clpzdUxrZFFXbEswMlA1YWdmd09rTWQ0b3drclotdHlCM0VHVGRHcUhyVXdOWDlsWm5qcWxFOTQ0N0dEMHFaWlZhOTlrdlpuNm5mazc1blJjNEkwYUR1c19xSEhoX3dYRkFjUk1SbGRGTC1RU2t0S3Z2UTlBVTBmZlZEVVdJWXZ1VjM3WUhWVzUwd3lNeG5P?oc=5",
-            "publisher": "Daily Sabah"
-          }
-        ]
-      },
-      {
-        "id": "police-violence-complaints-after-youth-protests",
-        "title": "Police violence complaints after youth protests",
-        "when": "2026-10-21",
-        "place": "Liege",
-        "lat": 50.63,
-        "lon": 5.57,
-        "what": "Belgium received complaints over alleged police violence, and a student in Liege accused police of racist abuse, which feeds anger at the policing.",
-        "via": "anger at policing",
-        "aspect": "security",
-        "flow": "both",
-        "sources": [
-          {
-            "title": "Belgian student accuses police of racist abuse during protests in Liege",
-            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRnVaejFsT0RHalFIak42TldrcEFHdk1Sc1hJOS13NXNTY2JDU2tRdTY2akVOTmMtaHRfMGFtRmQ3UWpqcmlPSElfV19DVFBNOWtmdTJia1hLTEY5Vzk2d3JTZUVLcEQ5ZDIycUJtd1dETVBYaU5vSHU0UzVRa0pBZFJLVkozZXhVS1g3NVdZRmdyWHc5YlpLWHZmUmRCVTgyQWNuNzJ6aUxvZFktV0M2VmJ3c9IBuAFBVV95cUxNZE9tMU1KRS13NGduSTlsLTF6b1o4RmFIRFlha3U5cmN5QzM4S211ZmMxWlJOYjZXRlJtWVRTRzU3X0xoLWFhanJMYXpzY214NUNkc29zc2dtYnBwYU5TQnR1SjA3N01XcklGZHRYVC1UTXFKdngyUktHdWpLcGtwNTB2TUxaMkpWMEFWQUZINGNBaTZUZzZZcjgyRWhHLUE3OTBDUGtZSm84dW1vZG1FR1pxRmVJa3hB?oc=5",
-            "publisher": "A News"
-          },
-          {
-            "title": "Belgium receives complaints over alleged police violence during youth protests",
-            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUDdDcDc3bHRoX29fcjFsQlAweXZDc3lkSGUyeS11V1EyRTIyLTJFR0RpS1N5cWw1cjJqQWNnX3MxbE1VdzhOejVtNUplb1dsWGhWRmhwQm9UMExoamY0d2hWd21Ba1pQWGJfdHVUbDdUcHM2N2lwZ2RPTHlXTDBLMHdkazM0TWJVT3h3MDBLTUNnZ3BhTVpqU3hDdVNhUzNwb01rd0NXd0p6Umo0RjBpM3A1WXhkVVRqMVE?oc=5",
-            "publisher": "Anadolu Ajansı"
           }
         ]
       }
