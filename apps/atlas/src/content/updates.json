@@ -1,6 +1,33 @@
 {
   "france-unrest-2026": [
     {
+      "at": "2026-10-22T17:58:49.228Z",
+      "text": "The protest ban widens to a total ban in Marseille and Lyon after riots. Art Basel Paris is now reported by Le Monde to end early over fears of unrest, and lawyers criticize fast-tracked riot cases.",
+      "sources": [
+        {
+          "title": "Total ban on protests in Marseille and Lyon after riots",
+          "url": "https://www.bbc.co.uk/news/articles/cvde8g40xx42o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC World"
+        },
+        {
+          "title": "Art Basel Paris to end early over fears of unrest",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbTJFU3FpcXhhYkM5OE5seEtwU0tURS0ya2V3X1BMNXdFczZUYThmRlNseFlqbjJoLVc2ZjZCcGxYMUdqM0hwQVdUSl9fOC1MblU5alFnVmpIYllyY0Rkb2FkZ1dvZjFnRTVTX090M0dhV2hMTWpaLTNfQV84UlpfbEZfQ0l0SGZmYk9YSTRxQzVhQmRIcjhqbjZKWS0wcGd4VG9SQjcxWWVtSEVPSGlSNzhLcy1xdmVDbWc?oc=5",
+          "publisher": "Le Monde.fr"
+        },
+        {
+          "title": "Angry lawyers and bewildered defendants: the fallout from fast-tracking French rioting cases",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbTJJMTVxaWVBQ3FPR0l5WDNZY3lhSVhWZ0RyWWlVR095WHktaTVfTVNXVWZFU0dFLU1JN1o1QlVLV2pRMDRJN1pneHlvTlJTR3NKUC1xYjlwZUJRREZQdDk1ZEtFQ0IyTXRtX2VpWkpXSGJLaUxhc0hmNlNESGFsQVpHa1BiYzRSMFkzSE5iaHpQZw?oc=5",
+          "publisher": "The Guardian"
+        }
+      ],
+      "headline": "France bans protests in Marseille and Lyon after riots, as fear of more unrest closes events and worries bond markets.",
+      "quick": {
+        "happened": "France widens its protest ban to a total ban in Marseille and Lyon after the worst street violence in years, and Macron blames the hard left.",
+        "matters": "Bloomberg reports French bond stress is intensifying, and Art Basel Paris is reported to end early, so unrest is reaching markets and business.",
+        "next": "Reports say more protests are possible, and the new restrictions will be tested in the coming days; the headlines give no firm date."
+      }
+    },
+    {
       "at": "2026-10-22T16:58:55.795Z",
       "text": "Macron accuses the far left of 'seditious acts' as the protest ban tightens. Reports say Art Basel Paris ends early and shopkeepers rush to buy weapons before the weekend. Bloomberg reports French bond stress is intensifying.",
       "sources": [
@@ -227,35 +254,36 @@
           "publisher": "London Evening Standard"
         }
       ]
-    },
-    {
-      "at": "2026-10-22T00:35:34.720Z",
-      "text": "New: France bans protests in parts of Paris, and Macron calls comments by Trump and other foreign leaders blaming migration for the riots 'stupid'. Bond yields and the pro-Russian amplification finding were already reported.",
-      "sources": [
-        {
-          "title": "Some foreign leaders blame migration for France’s riots. Macron says that’s ‘stupid.’",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSjBDSmlGa1dxYWc1NTZFRzNPV0MzN1dRTU1WV0ktU1Njejd4VTR3bGgxS1RIOEl0SE9KU0VtMk9xZ1lXWG5wZmF5VHJXYlJodjNPREZfWVY5Nm9LdjJYOVZjRTZGMmp2R2d0MzlIV2JfTkJ4QTVmVGZpQzBnQUhhaTY2SDVmbVFQR0U4SUIwRlFFNlhRMHFRUngzeEpSR0RJcnFTV3RTbnptRGJqcy00RQ?oc=5",
-          "publisher": "The Washington Post"
-        },
-        {
-          "title": "France Bans Protests in Parts of Paris as Macron Slams Trump",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaXhxcDR6a1NnTG0wbkFKNFlXeGtVblEtem9UWnM4US1wLXRiNFlUOGc5WVo5c19CWG54VGlfVVZ4aHQ2aHNQUjhfWmQxTTJiWWctelpKUFpOQXVqZThhRGZsbUdFQmxWRjQ1TWE5bGhUU3dRejBEYnBDV3hlLTJ4b29UYkZMWGl6dkJLUHQ2bmgwVzQtdE04?oc=5",
-          "publisher": "Tempo.co English"
-        },
-        {
-          "title": "Macron accuses Trump and other foreign leaders of ‘stupid comments’ about France unrest",
-          "url": "https://www.theguardian.com/world/2026/oct/21/macron-trump-foreign-leaders-stupid-comments-france-unrest",
-          "publisher": "The Guardian World"
-        },
-        {
-          "title": "France bans protests in parts of Paris as Macron slams Trump comment",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd05FUGxlVEFoOTZRQTlBbEgxUnhmMWZybkJieDE2MGgxYWJVSEF3RHlKOUVITGtHbVgxbm1iTGlSZl83anA2R1ZUWi04aDl2WlN2YmRHZU1zcEFkdDNPQTZ3bnJEUE9LTTJ3Ujd5M29Tc01FWkNzams5SHFTeXJHY1lXR21VRjE5d05WYmpUTjBlSkU2cm45WtIBmAFBVV95cUxNYVc5eko4U3lyMG1aVDBILVFSZEtpUTFpTkFrNEU4a0pGSWR5S0p0MEIyLTlyZ3NJTXFSSW92Y2RsaGl3cGVLWkphSDU0RU5hVDdOVGprWEcxdFd1TGk5VEM0RkJoWG92WnBRTTF2cXMwd3Rmb2lxNElYemRHWDJxSFQ3Nllxa2E5ck1jUkJyRkszMUxYck5ZUQ?oc=5",
-          "publisher": "DW.com"
-        }
-      ]
     }
   ],
   "ukraine-summit-diplomacy": [
+    {
+      "at": "2026-10-22T17:58:49.228Z",
+      "text": "Kyiv Post reports Zelensky accuses Trump of shifting Iran blame to Kyiv, calling it wrong and unacceptable. Downing Street rejects Witkoff's description of Putin as a 'humanitarian', while Vance says Witkoff is optimistic about the talks.",
+      "sources": [
+        {
+          "title": "‘Wrong and Unacceptable’: Zelensky Accuses Trump of Shifting Iran Blame to Kyiv",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5VOXZEcmxnSERFT0luQzFMUjRjTWFlLWotZ3Rzb01UMGZ3TlduUFFSTENFbHZNSXN3NThLcVR4MDF4RkFIX0U5YTNzdw?oc=5",
+          "publisher": "Kyiv Post"
+        },
+        {
+          "title": "Vance: Witkoff is optimistic about Ukraine-Russia peace talks",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRDdjZEo1VGZDdFM2dWtNV1p4MlkyWDRBRWRNbU5uNThGM2plSmhPWFpqdGVOY0NCcXh2WW5wUEREMW81QkJEQnFQVG9FNldUdnFYb0NRd0tiNTk4d0hvTFFGTy05N1dWbjBJWnVmRzhEUTY3UVVQOWlISzJEWXBFOUlISFc3bW5yTW9adGVKWHJ4UEk?oc=5",
+          "publisher": "RBC-Ukraine"
+        },
+        {
+          "title": "Downing Street rejects Witkoff’s description of Putin as a ‘humanitarian’",
+          "url": "https://www.theguardian.com/world/2026/oct/22/downing-street-us-envoy-witkoff-putin-humanitarian",
+          "publisher": "The Guardian World"
+        }
+      ],
+      "headline": "Russia agrees to restart peace talks but keeps striking Ukraine, leaving Putin's summit idea and Western aid decisions uncertain.",
+      "quick": {
+        "happened": "Russia agrees to resume trilateral talks, then hits Kyiv with missiles within hours, and Zelensky says the attacks show no change in Moscow's attitude.",
+        "matters": "Ukraine aid is a campaign issue for France's April 2027 election and competes with the Iran war for US attention and money.",
+        "next": "No date is set for the talks; reports say Trump wants Putin and Zelensky to sign a deal at the G20 in Miami."
+      }
+    },
     {
       "at": "2026-10-22T16:58:55.795Z",
       "text": "Russia agrees to resume trilateral peace talks, then strikes Kyiv within hours. Zelensky says the attacks show 'no change' in Russia's attitude, while Ukraine and Russia trade strikes after a US envoy's Kremlin visit.",
@@ -449,32 +477,6 @@
           "title": "Witkoff announces technical-level trilateral meetings",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5IdzZxUnRxV1gxYjM2MXBTamRKTXdXQXA5NHdpLWRMbFZqbEFMQXZhaEEzXzlsOTdvS0UxZzVrSVF1clhaZHhWc01ITGJDREp1OHpadF8zNmNmOWZTOTc1bm1QNELSAXBBVV95cUxNMVBPNlBTZXZNT2RWWFFVV2JEd2RzQ19uQW5ublB1WUxma3BxQVJBelVELVhRZGV0OGVVdVpLN2VEUF9oRk0tZkxKSDJwbHpzSjYxbE1oWUh3MzU4aEZLSDBCQmNkYVpIOUpueUJDTjV1?oc=5",
           "publisher": "Українська правда"
-        }
-      ]
-    },
-    {
-      "at": "2026-10-21T17:14:52.898Z",
-      "text": "Witkoff calls Putin a 'humanitarian' after their talks, which Ukraine did not attend, and Zelensky backs freezing the front line as a first step toward a ceasefire. Meduza, citing The Atlantic, says Trump eyes a December G20 summit for a deal.",
-      "sources": [
-        {
-          "title": "Trump envoy Steve Witkoff praises Putin as 'humanitarian' as Ukraine peace talks hang in the balance",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSUJ6ckdiakJQSDB5aXloQ0FWbl9ZUEo2c050NkNOSUYyc1dEVXhBeEdISUtST3FzRVByQXl6M3BHYkpVY2hGSW9pSlBYZUtZTWlUWEV6X21IQnhlQWNvcnJKNWZ5NnByREEtbUZxOGh2RGNPcWE5YkVBSXZXeUxyTExWZjZuQVh2OGhzemlWNVR1bExnSUpfMEdDM2NNX2c3YWZfSVJ1bjJzTnRYYXhhemwxOGdPdDZvUkVycVFQZExGdnh1dl90NFNoZTcyTkozQkZF?oc=5",
-          "publisher": "New York Post"
-        },
-        {
-          "title": "Zelenskyy backs freezing front line as first step towards Ukraine ceasefire",
-          "url": "https://www.euronews.com/2026/10/21/zelenskyy-backs-freezing-front-line-as-first-step-towards-ukraine-ceasefire",
-          "publisher": "Euronews"
-        },
-        {
-          "title": "Steve Witkoff calls Putin a 'humanitarian' at Russia peace talks without Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbWZHVVl3VzNENnk2SE9ZaXBBVE1nRzJORHhOWVZwc005dEw2a0hMVWNNZVJ2YWhzdm84NHl0d0JqWWZTOWhmTW5mUUZTTVJqcUFYV1htNm9QNUpMMS1vZHRFSDMwQjZEdFV0aWxFdkRxQXV3X0hMczVDY3p1ZXNxS2RIcUhRZVY5MmNxS2hRT1pBdU93WVhDMEdLQ1M0UUhDdjVtQ3FxVkRneVh0dFFuU29OMVNNZ3o4WlhqUjd3?oc=5",
-          "publisher": "CNBC"
-        },
-        {
-          "title": "Trump eyes December G20 summit for Russia–Ukraine peace deal, The Atlantic reports",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSzJmVnVTaEhoeUNVMWI0bGN5cXVLalZIcVlZN1pCRlpsakNocEJUZG5BZEdUVmRXZTZ0ZU56bkxoSUZKN3dYdWpvWm9NeEh1RU1ma2RtNzZJb1RkdHJmWmlJREpKb3NoSTZvbGxsSnhrMmY5NEhyY0tZUXI3RGt6NldsRExyQzJOWVZJNWo0X1k5OEV2OHJnb0FPR0RydzFrblpUVzJjZkZibmZFQTZfbE1vdUZFYXNXcGfSAb8BQVVfeXFMUE5vc09veU1kTVhYa2NuSmlCTHhjVTdNeU5vWjA3MFJndXlBenlBejdUaHdFS0syREllelB6S21FTUEydG9IYUEtRTUyeFprOVBLZnZxcFV2dDNWMUF6SkZpajFBZVY5dEZrRHB2eTNjRm5hXzVOUkxQTWduOFI0S0paVXJIbkVDTWxaS2UycmMzVld0QVhQd29HdmkxZnJNTE5ESzVKUGZZeGJtYkkyTEJSOEFqZ01sdFl3ckFMWkE?oc=5",
-          "publisher": "Meduza"
         }
       ]
     }
@@ -1033,6 +1035,33 @@
   ],
   "france-debt-stress": [
     {
+      "at": "2026-10-22T17:58:49.228Z",
+      "text": "ECB's Panetta says rising bond yields will restrain the economy. The WSJ reports US 10-year yields fall under 5% as French turmoil drives a flight to safety, and Reuters says France's risk premium hits euro-crisis levels.",
+      "sources": [
+        {
+          "title": "ECB’s Panetta Says Rising Bond Yields Will Restrain Economy",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQkpvQUx6Nm1yVG1hNVJhY25ZU0RYeUxYSFVxV1dVVWZZc0VTQnI4SzJkdjcxQXVEbDBrUmctUXRudEwwQzBqS0VvcWd6ZDlxaUZMbTIxSzlkdW1QRUE1TTZaemRabVpXNEdReDgyUjJYYW9WREx4ajBUeFd1anBXbzB3ZjZMRUdYbGZlaFA0Z2lnWWRBdVRScDJCOWt1dllZbDF0SmE4dEpPQUtuejFJ?oc=5",
+          "publisher": "Bloomberg.com"
+        },
+        {
+          "title": "U.S. 10-Year Treasury Yield Falls Under 5% as French Turmoil Fuels Flight for Safety",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaG1kb1dxekJabUk3czhacmlCWC1GV1N5WlkyaFZVekxHaUhsbUVIU0lLMXFHRk91ZnVBRUZCMkNWWmVMZGppbDJ1QXZTX05OdkJpNy1nVlQ0MzVyb3dONjNQcjVoU1ZsdDVwc1BuVnpUTk9TX1dMNnBJdVNtVHpkbjZCSDBrZTZlOEo5MFo5QV9WTnAxV2JySkVpWGh5alBYVTNBRlBJTUVYVjJ1Q2hwdDlyY2tJUmFJYjg4?oc=5",
+          "publisher": "WSJ"
+        },
+        {
+          "title": "French debt risk premium reaches euro zone sovereign crisis levels",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZG1tbk1Ea3kzamhBdWdPRmV3S3JKYkFUYVlaTmdWMDNZZk41WDVFU3FGM3JJSkpxanYxaUFsbjdWWDVnZHlaZWlBYVctc3ZtWklsZndxelk4NWU0aWpIVnhGOXFTbTRYX0R4VXBGUElvaXNGaWU3Z3hNWVpVVjlHZVN6Zm1xSEVPekdnb2VmVXlqeThrV0ZQU1E2c2V4QXdfSFQydjVlaW1vYTRXV2Y4bHNocW4tdw?oc=5",
+          "publisher": "Reuters"
+        }
+      ],
+      "headline": "French borrowing costs keep climbing ahead of Moody's review on 23 October, and the ECB's Panetta says higher yields will restrain the economy.",
+      "quick": {
+        "happened": "French borrowing costs have overtaken US ones, and Reuters says France's risk premium has reached euro sovereign crisis levels.",
+        "matters": "Euro zone bond yields are rising and, the WSJ reports, money is moving to safety, so the stress reaches beyond France.",
+        "next": "Moody's reviews France's Aa3 negative rating on 23 October."
+      }
+    },
+    {
       "at": "2026-10-22T11:10:41.576Z",
       "text": "French 10-year yields now top US yields, The Guardian reports, and one outlet says France's risk premium tops 160 points, the highest since 2011. Moody's review on 23 October is still ahead.",
       "sources": [
@@ -1103,6 +1132,38 @@
     }
   ],
   "india-us-trade-deal-2026": [
+    {
+      "at": "2026-10-22T17:58:49.228Z",
+      "text": "Jaishankar calls the deal 'in the last mile' and says challenges remain, while Rubio says an agreement is meant to give certainty and that diversifying is in India's interest. Still no signing date.",
+      "sources": [
+        {
+          "title": "India-US trade deal in ‘last mile’, says EAM Jaishankar",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPN0xWa2FtTmp3RWRfU1BoX190LTZ5MkM0V3JiZEJiemFxMVFtbVJwZkVvVzVzdXJGcjlNNnV6alFDbUFrVmI2MTQ0dGE1Q2hlMWxqb2ZiYWV6RnpqQW5vaFRxWFNVWTQ5VmFHZ0pfejd6M1BxNXRfeThNb0NQUFVOYjlhVkcyVjRWMjVqbzB3QmMwdw?oc=5",
+          "publisher": "Cityairnews"
+        },
+        {
+          "title": "India-US Trade Agreement in Final Stages, but Challenges Remain, Jaishankar Says",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPb1A5NGFoaXBsZmdIemFiZ1pJbTlHOHJfT0YtUDlRUlVuaUwzSUJONzRtRzRYQXI4REEzUmdVRFFhQkxkN2piS1MwTXNHR2lQby16U1dyeHBTMF93dURaMlFjNDQtUnFrRWo5a2E3c0ZlX1lZWHpZMTJQOFJnRlZXSE9rNDdobjZOR1VQSjNWVmlNUzNkT3pzdlNTWlljOF9HcjZKSnZUbUJOWHc?oc=5",
+          "publisher": "INDIA New England News"
+        },
+        {
+          "title": "Marco Rubio: 'It's In India's Interest To Diversify Its Portfolio' - India Today",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVkVHOTFTdl95ZjdFbUdIbWtiUmVjV1NDb1pKclV4SnFqeVVCYVI4Vm93aDJKaXFpUmc5RjNzTjh6RF9kSGREbklpakl4Ql9OaTBlNDE1R1pSamNEc3ZQYmxIYlhacEw1RThkRjhnVWVIeDVxRm10dWt6VWp2bGtZQ1E5Mkl4Y3dnTWNCLXMxLU1adEx1THZmVlhqdm5tLTU1YWNmdFg2WmZPMWFRazV2NWRyYWtkX2sxRlAyWTNjOUbSAcYBQVVfeXFMTnNwRXJwQlJPU0xReVdaeDZqWmstZWJ2MEZmRlBzZEluYlVEM2ZGV0pjMkJMYzJaSnE1b1l3M1Vla2ZDMnppODgwUXV5em5kcVZXVjZOQmJEcnFVTklPSndqYWxaWTNZSFJYdTRvYUpKVDhCbGUyVVp6akVNbTBFOWptSzdMVENpOEFodTZaVFZaUHhCVGxWdW1XRnJuYXk2YXJ1OTVvdkJ1b09BbXlfTUh5RG1qaXhLQ0RQcG9Kbi1oWUpTb1Rn?oc=5",
+          "publisher": "India Today"
+        },
+        {
+          "title": "Marco Rubio: 'The Point Of Having An Agreement Is To Be Able To Have Certainty' - India Today",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZGNIenltVTNsTHc1VnVxYkFWb2xETTg1UEQ0VkY5NFA4RHN3b1ZYb0NKZ05YUmFRZHIzSGFGRXBqVkdKZ1Q1SjNEYzZPV3FveE1oanlYWGRYbGxyUnZ3dmlaaXBhX0hubWZFNGNIbnVaOXpudjBZNTh4YnZZX205NXE2WFRqMTVPaEJGbHZiSGN1MnNCSkFBOHdlcFJlZFJWWDNRNGJnWDJnOXJ4SjRDYnV6SVNjY2tocnZmSUdPdERfeGxJaTlHMmNnVHRGVGlad19fdWpRbHhJQdIB2gFBVV95cUxQZGNIenltVTNsTHc1VnVxYkFWb2xETTg1UEQ0VkY5NFA4RHN3b1ZYb0NKZ05YUmFRZHIzSGFGRXBqVkdKZ1Q1SjNEYzZPV3FveE1oanlYWGRYbGxyUnZ3dmlaaXBhX0hubWZFNGNIbnVaOXpudjBZNTh4YnZZX205NXE2WFRqMTVPaEJGbHZiSGN1MnNCSkFBOHdlcFJlZFJWWDNRNGJnWDJnOXJ4SjRDYnV6SVNjY2tocnZmSUdPdERfeGxJaTlHMmNnVHRGVGlad19fdWpRbHhJQQ?oc=5",
+          "publisher": "India Today"
+        }
+      ],
+      "headline": "The US and India say their trade deal is almost done, but the last steps are hard and no signing date is set.",
+      "quick": {
+        "happened": "Rubio says the US is 'very close' to a trade deal with India, and Jaishankar says the deal is in its last mile but challenges remain.",
+        "matters": "The deal would settle tariffs on Indian goods and is tied to US waivers on Russian-energy sanctions, which affects energy supply and trade flows well beyond the two countries.",
+        "next": "No signing date is given in the headlines; the first tranche is still in legal drafting, so the timing of any signing is unclear."
+      }
+    },
     {
       "at": "2026-10-22T16:58:55.795Z",
       "text": "Reports say one outlet's headline puts the deal at '99% done', and Rubio repeats that the US is 'very close'. Jaishankar says there is progress but the last mile is challenging. No signing date is given.",
@@ -1300,40 +1361,41 @@
           "publisher": "The American Bazaar"
         }
       ]
-    },
-    {
-      "at": "2026-10-21T14:16:42.559Z",
-      "text": "Rubio says a deal is likely within weeks, and Trump calls it 'pretty close' (8, 13). New: the All India Kisan Sabha threatens 'militant resistance' if the government signs (1, 2), and reports say the US may offer India lower tariffs than Asian peers (3).",
-      "sources": [
-        {
-          "title": "All India Kisan Sabha threatens govt of 'militant resistance' if it goes ahead with US trade deal",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQTEI1ZjFLOXNVcEJKMFZRUEhUdkU1ZzJvODRqdDhmZ2diSHJCYnJrOGdaSTdRd0xna3YyeHlBaFpzeWpnRGU1aFh3TjFLMWNxMDJBOVYxNjR6UTZtNDNvQXFhVHNMZ1hfZVJDMld0R3NIaTJWQXVDNk9MVGtYcXRxREJRR2RQSV9MSEV6NnZ0RTl2aTY3RW9zRHVYcVZsVWprYmxYUnJLQWFmaG1UaVdUbGxXTFB3SjBhZ3d6Q3gyX1Y2QnoteTQyaVFIQms3bHl5SzBFZDZuajhYWmdpeFJhUVh0Vmgtc1pKU3FZWktqeVlQWGdDRnfSAfsBQVVfeXFMUGJXbExVR29uWFBvTGhxUG1WUTBRZ2VsM0ZWQlVHWVNqNU5BekNrUm9mZXVRaHFpWUNZX1N4aW9tVlVVcXE3OE9FaTliOVlqYTBuTmJ1c3BzdDBKaXdIdi1iZ3d5M1praFlEcVFqS3M4bFZJOFpFTUpIWXByYXFqekJVZDZlY253eWpucnFmY1Q1eGZOZDdNVUh5cHlaTWhwaElPV3p6bFBqcEh5WndaYm5FZEJYODZBQXN1eTlxbzRsZjVGRHp3SURWaGdTUE5nSU1OV0lCUmdtR1RqZ2pfSWl2UV94TGQ4ZHdQcXV6UjlJdElvSGVXbm90SkU?oc=5",
-          "publisher": "The Times of India"
-        },
-        {
-          "title": "AIKS threatens 'militant resistance' as Rubio pushes to finalise India-US trade deal",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOR3JlX0pTZDRkelhaWGR1Ny16bm9oZTFhMndibVR5NWh5R1FpS3pqS3pfTTV1TmFubWJuaUt4RFNCN1A1dElUTWo5LWtfQkExTkVQaFIxclhFZy1FdzNXLTMzTUoxYTRiQmV4bTJRclREbV9aV0VZVndjeTh2T3NWempPelZUT19GeHBrWW56N1RONWtFeVlCc3NKVDdHVTc4Z3Q2aHZYSWZkeFAyRlU1aTdWeV83OEtxODFFZUo3VE9HUy16Q1diQlR6RWpRd9IB2wFBVV95cUxOUWFPdURUV1AteEs3Y0tySVBpaEp2MlBRNjJCd1ZZa284ckZYNXNfM2p2XzhNR3lxUFAwN3BCcXhaWFBrOVQ0WUNfNjNFMDQwMGkzbzdHNzZwQ0kza1N4dXNpTDQxRnZQbnlqOHBoUkQzQVBCQmY3SVdhakxJSkxDYXJRWWlWS2RYOEhaQmYyLUpVTlBSdlI1UDRsWXZCTGY3VFFVWGZ4OG1jZU9McGJpUTMtMjJPUTByZ09NaEJ1UXBZakh4cXUya0JPV01JSG1UNVpucHQyRTMwQlE?oc=5",
-          "publisher": "The New Indian Express"
-        },
-        {
-          "title": "US may consider lower tariffs for India over Asian peers as trade talks near finish",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQUWI2WHU4djFPME1sVHBVQWRaZERKTEExUUZVNmc2MEk0T1VJNThoTEhsTERoXzNGM1ZaZkRieVJEZnBIWk1iWUV4QkNzTFpRZjY4QmRsWVd6NEdlNkhmLVdkbDBDM1RaZnhmcGQ2bXM5VVAyZHBienJWajlwdV9iVUZGT1d6dXBaU21leExNSTB2ZmVIcEc2RUJCQ3B5dk9oNVRxemZaOS1ROWZLdFpPVjFTbHNTbVZVUW5iRU5ndlptclhiRnA3Z3lLLUxzMjNXRW82QVhiUi1Xa3U0SG9DU3JEQy3SAeQBQVVfeXFMUFFiNlh1OHYxTzBNbFRwVUFkWmRESkxBMVFGVTZnNjBJNE9VSTU4aExIbExEaF8zRjNWWmZEYnlSRGZwSFpNYllFeEJDc0xaUWY2OEJkbFlXejRHZTZIZi1XZGwwQzNUWmZ4ZnBkNm1zOVVQMmRwYnpyVmo5cHVfYlVGRk9XenVwWlNtZXhMTUkwdmZlSHBHNkVCQkNweXZPaDVUcXpmWjktUTlmS3RaT1YxU2xzU21WVVFuYkVOZ3ZabXJYYkZwN2d5Sy1MczIzV0VvNkFYYlItV2t1NEhvQ1NyREMt?oc=5",
-          "publisher": "Moneycontrol.com"
-        },
-        {
-          "title": "India-US Trade Deal Likely In Weeks, Says Marco Rubio",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVEthT1ZNU0hObEZRZ1ZrOGxTWUttWlp1R1dNLTZzZFNBc2EteGxBeUpuSkZoRTY5TzJZOHJLY00zQVJQeWNGVTAyLUJNV1p2X0c1QTNCbHllXzY3aFMtcVhNZnhxMVZlUXl4Z0dCVlZONnQ5a1RSQjVXUGxlamRKcmJrRnZHTWFHREpjb1FaSFpoSWUtZU1fSG5Wc9IBqAFBVV95cUxQcUZwUXAwNzhjTFJCUEpZTFRfQzk1bHJlNGpWRk1Va2s4bXZmWWgwRmt5aEstckk1aDUtVUMtblJsekZ6T2Rza053ZzRPYW1qMjZ4dUgtWHg2OFE3QnRhQzE1TlJOSndrWEF5UkxHZkVTTHR0VVpLeU9nQk1PQzAtV3dhNnVUdDY1YmoyY1luaW9sd01DcTJ1NWxTekw0cEQ4TTZNSHlkVGY?oc=5",
-          "publisher": "Outlook India"
-        },
-        {
-          "title": "“India-US trade deal is pretty close,” says Trump; Sec. Rubio signals breakthrough soon as three-day India visit begins",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPYkJleWNTUGQxNzExY2hGLVRmUUJ2bnZoSDcyVFB6RlF3M3hyM2t5NkR5UV9Hbk1aNmtqcDJ0YmozZVVFYVNHRV9lZUZRTE40OWdOc0NVTUI0MVhvNWsxd09rS19IcDNQQVZERVpWYkZONkszTVV1akpiSWNRNDhuUkV4bWUzQTlWTXA4VkRJZnNwMmR1Q1hVUC01a3Y2X3lpcGZFaF9rMzRDd0lfUkw4VFBtdVZJLUZBYmd3eXF5VXZLeWVkbGJ5Qlp3UjVzZl9NRzFKZ1ZMZEEzalNlUnBmWnd6c0FIWVlPcFF1ZlQ3THdhUkXSAfgBQVVfeXFMTXhBOEJuWkVLSElMeWFuaWlIT1dwY1BNenJXNXFsTFB5NDZlb2dORGU2aXhONzU3enV5Z2hieHJ5TU1jREVQWkdlZW93NlQ3Z3FpVTQ1ZDFZaUgtN0k1aDdfNU81NUxlR05DY3ZkOUdDY2tEOVBaMDZqM0NNZDV5TEhYZVNFdHRxbWlxc1luc0QzSWxBdFI5cVF1Z0lkS0ZiQlYwOWdVeXY1TnJMbjlTM3hySTRjbFltQjV3aXAtTG9LN1VzcnRhZk5rU3kzSUdZVHhvM1ZxUllwSXFEUGtiWUFHTDRBTFhSZ3RfNXRSdGJIUUhCakxCLTM?oc=5",
-          "publisher": "Organiser Weekly"
-        }
-      ]
     }
   ],
   "us-canada-trade-war": [
+    {
+      "at": "2026-10-22T17:58:49.228Z",
+      "text": "US officials accuse Canada of meddling in the midterm elections, and Carney denies it, reports say. Carney also spoke to Trump, saying they discussed \"a wide range of things.\" Bloomberg reports Canada bars its diplomats from being seen with US candidates.",
+      "sources": [
+        {
+          "title": "'We discussed a wide range of things': PM Carney spoke to Trump as U.S. officials say Canada is meddling in their elections",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVU1BcXVaSDNGNW54dUVaeEFqVnRmbEZiT0xLVDNrd1B3U05sRXJTaXFfWWVmUFYwQlJxWGVRWkREeTF4cVVpY3VFUDM4M2pGaFpqdnRaOTRQTHVUV2dWdXdfZzdMLUtYX19nNENLVEpsUXZ4dE82MDZNZUw2a3c2bVV3TGc?oc=5",
+          "publisher": "Money.ca"
+        },
+        {
+          "title": "Canada hit back at Trump tariffs. Now the U.S. alleges possible election interference.",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZ1VPaDMtckQ5cDF4QmN1R1hfM0FDVEJQd2ZWNWFWVXFiZWtRNXEzNHBYb21jMEhfRWJQeXVOcjhnSFhXTlZfc05IMFc2NGFEdmY3TkYxeU1iMjFpY1lDWVhVWnZJcXFUeVBwckVnSFNVeWgxMVJHRjd3cWVQcm5XSGh4Q3JoMm8?oc=5",
+          "publisher": "Axios"
+        },
+        {
+          "title": "Canada Bans Its Diplomats From Being Seen With US Candidates",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlNiR0ZPeEYyZjE4d3l1bGdEZDE4d1NPLVJXaDQ0Mm9WU1lkZXZCRW01eFlYT3pTaC1EdGw3TWp6Q1MyV1JiRU1xdUtiZVh1MExyeUc0MS1sZDNWdHdzcXhSZ3p3WTd3S2hTWFVDV2dUVlhkYUVNZGhJeFQ1MDM4RFRZMFptT3RiYUZtb0NNQkxmbUM1SVp5UGx3RllwenFvbU5KZmp1SktVYkpYektieA?oc=5",
+          "publisher": "Bloomberg.com"
+        },
+        {
+          "title": "US accuses Canada of interference in midterm elections, Carney denies charges",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNNEpIXzJ0Z0ZHaTZ5b1FpbDAwQ182MjN1QThvN21KQlA1VUdyRTExZzduTVEycnhLZHhzVzhMbXJjUFBQYzl2OFZPOUNjQVE1ODY4NnljUUxfNkFMbU9VbWplVG5Lb0o4NjBvS2NxbC1aN0xYcGdWclVHNW85R3ZyYzZTeldFRWJQcmxmcFU5Smk2UVlwZWdQWmxUd3BVcjRhUGg4YjlUN0R5QWhCbENzZS1HaXJzaVJBYW55LUVaOWxZNXVrYnh3ZFVNd3hvQUxkS2duNF9sSlRHTEVwZnFlTF9ZVE9KY3h1STJNNWdtd2ZYamlHYnB4LWRrbFdvZS1fcU1zMtIBigJBVV95cUxPaUJITzdJQUZsX0VHbUx3THJ1TVBQemZtQ2FBZUI1VWxwQlZDLVRWLXZibWhzWFc3bkRrUmNDRHV1cWRqN0lCUVlOM29nMkpQQTl6WjFFMl9xd1V2Q25KaFdQUUhoQnkxSkFxSDB6T3NBT0VfNzNMdmpGbzRhUy1jZjJJSXUtS3VaOXJyeWVYTHZHM3J3MGxGQ3ZBOGdoWVhuREJvMlNLeF9wOTFjZWZyS2ZJWldmSzZUY1JaOHR5M0VrX0hHekJoZ21XVUxtWnBlUVBwUThmVXl1OUJfZXpZS1hnUUlmREVBTFZTLWpuQ3pqQlFVeVZRS1Zmck9JRmpjNFpGOWh2elYwZw?oc=5",
+          "publisher": "The Times of India"
+        }
+      ],
+      "headline": "The US now accuses Canada of meddling in its midterms, which Carney denies, adding a political fight to the tariff war.",
+      "quick": {
+        "happened": "US officials accuse Canada of election interference, and Carney denies it. He also spoke to Trump, and reports say Canada told diplomats to avoid US candidates.",
+        "matters": "The tariff dispute now touches US election politics, and tariff-driven prices are already a factor in how the midterms may go.",
+        "next": "The headlines give no date for new talks. Annual USMCA reviews begin, with comments due 12 Jan, and the US midterms follow."
+      }
+    },
     {
       "at": "2026-10-22T15:24:37.536Z",
       "text": "Carney and Erdogan launch a Canada-Turkiye partnership as Ottawa seeks to reduce reliance on the US. Separately, US food importer Gellert Global Group sues the Trump administration over the 50% Canada tariffs.",
@@ -1528,35 +1590,36 @@
           "publisher": "CBC"
         }
       ]
-    },
-    {
-      "at": "2026-10-21T14:16:42.559Z",
-      "text": "A New Jersey cheese importer has sued in U.S. trade court, reports say, arguing Trump unlawfully invoked a 1930s law for the 50% Canada tariffs. Carney and Ford are set to announce support for tariff-hit steel and auto sectors.",
-      "sources": [
-        {
-          "title": "New Jersey Cheese Importer Takes Trump's Canada Tariffs to Trade Court",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVTZPQlNTa3RnTWM2OEI2dExtM1JzTU9hUWllQ1gwTWlralc5UC1Ld3Q4T3NDNWFsV3habjlCaERGTXktRFFYRE1LdGlSSzZuazZHSXdMRDI1Wkd6QmhYTnpOS0xLc2JNWWF1ZVlSdGhmU0lnRUtaRFFGOXl2Z1dPa09qZGgyRHB2Zl85SmxrMm1LTHpuUkUxYnA4NGFCWWluUEU5NXdBaGQ?oc=5",
-          "publisher": "Around Prague"
-        },
-        {
-          "title": "Trump Accused of Unlawfully Invoking 1930s Law for Canada Tariffs",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNLTdLRGt3RXBfZmNCVW13Z2wyNTlQQ0dabVVIanpkZDM2eW5pX21wdVRZa2dBTjdLdENXVEl5OUs1QS15OURyeDJNWW1PcGZnNi1JemNKdnNJQ0NvTEZhWWxFT0RCT2NYZENyQlhJRWlMMkRtTEd4VnlzdHZlWmFDZFVVeXJDMDV3UFJCRlhiRWJFNUdOdFdR?oc=5",
-          "publisher": "Newsweek"
-        },
-        {
-          "title": "US food importer sues Trump administration over 50% tariffs on Canadian goods",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZjJNY1RkbHZ5NFhYYXIxdFBSdDF2cEVMMjMzWjMwQTBkVWpRSkFReERtRTZCcUR5VElrODduaWNtXy04dzZGaHYyT2lwTzV2MFJVV0FUZWhRSUxsS2Z5VHlBdlJ2SGNITl9JbDFrYXFUVGxycFZ0Y2g4cmNnNEpydU1PVkhJUkYwWWRYc3RfMVpkOFBRZGh5bFctR0gxNW4yOWEzZzQ5Z1dKcmw0RXZz?oc=5",
-          "publisher": "Fox Business"
-        },
-        {
-          "title": "Carney, Ford to announce support for steel and auto sectors hit by tariffs",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQbmhYWlIwOHNUUE1XeXFTLTVKZGlUbzJXcUg3SmpCdWFUZDVKcDlLaGZpcWR3Z2dZZ09udG4zUlcyZjVWdWxnc1hxc0plbEltTFktYktLUjNheFdSOG1wb0xPMnZHV2o5MEtmdTNWTVNOeUw2dXVQbm8xdGVvdHBZbjNySHRISkVCbGJLZ3VyOFVxZ3hKbU04Qk1sVDBBN2ZFYVViRmppYUdPRTFDU3lQbnNSZUQtdUNkRENrVXduc0dOU29GcmVZMmxfeFB3SFZNeENOa3U4YlY4em5qcTJFdjIwMEdLTEV3OXh2MHlzeS0?oc=5",
-          "publisher": "Toronto Star"
-        }
-      ]
     }
   ],
   "italy-cost-of-living-riots": [
+    {
+      "at": "2026-10-22T17:58:49.228Z",
+      "text": "Courts detain three minors and place 21 more under house arrest or in youth care over the Milan clashes, ANSA reports. Florence is preparing for a protest on 24 October, The Florentine says.",
+      "sources": [
+        {
+          "title": "Clashes in Milan: Three minors in prison and 21 in house arrest and community detention. - L'Unione Sarda English",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQ1JRemRZT1JrbHZvQU9qdzYzemtKMWhIaG4wcTRwNC1fRUpFVkJNSDlJSEx0d3AtcVFaRlNDN3dSbE9zdHVBM05MZDMyNmN2YXRlc0RERlNZeGNLSlExOUVsdDhIV2Yza094N2V6cWVhMDZxcEFtc19OOWZCVDV2QXAzNkhNcU5yRHdpSGF6OFc4QVVGX3hnd0ZmZU5DS0xHclU0R0hFU1dISnNUUjBpUWhUN3VaeE1HY2g0d1dhQmVrandCWTQ3MjBGd9IB0wFBVV95cUxNUl9OSzU5c1BNaUprVG50OWNJZGFhVFlaM1FGeEg5bWZUOFFlZHVOTzVoSXY3eFZ3ZGFWTzVTUF9sX0w2cW9DejIyV1NNSVZRalJyR1prWElFbmlJVXVjeUF5czRJRFNxeGlnN1JJQXhSSDhYZUNsMmFKRkhfaFQ2cDc0TEZFSGRBaW9Pcm9ydS03bkpTSGtmWXFwdXFpa0hCTkhIVUN5SDF1Yzg4UFBvbG1nTkt5dVVSUzNlTUFDbjFUY1Z6QVp3T2xMYXhINWNpdFlZ?oc=5",
+          "publisher": "L'Unione Sarda.it"
+        },
+        {
+          "title": "Milan clashes: three minors detained, 21 placed under house arrest or in youth care",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOZ1d6WlFWdURtU3NUTU9XdDZZQTl4bnF2NXcxV2ljbkxqQVFnaXhmdU5kOVhGTlp2OG16S2VfZ0Rva2czOXpQTWt0SmxBdlJRYXNVS2VFUi1kNGNTMnhyMUFxUkxVaVNXSlFzNWlnQ1VSN3V4Sjh0MEJaS3lYam51UjVfNTdKS3BxSWlfWXl5WWdIYkRVR0hEaWhNSW9saVVoalFIZ1I4UnZmSjlmRUQxSlozcmdONzBEOWc5alBPTVRXWExRWVBqaUVwRGU3M3B3aFlTVEptS05uODhtem9wY01FY1k4cDZ1UzdVMVRNRlJMY0xKbFZ5dEtpYi16SEU2RXg1dkNB0gGLAkFVX3lxTE94djc3WEMyc0hhb0pGVWZRbVFla0Y0UXBoT3c5a3RvSklHemdFT08xNWowSUUzdWRZOHF6MTFYcUlfdUp2bDd5WG1DaGNnZVNSc1FwMi1JaTVmZkZDV2dMYm1uTWRNNkl0cnN4NDVrZUw2cUJuQ0NGTTJHcE1pUXIyUmNiekdncHVHSnNCRjlJQVJPb3Y3RkRHd0RnOFVaaUlRWGF5elpoX0dtMnRtX2VwV24xRXRta21SaEd3Vkt5U1lHVlNDdkU1ZmV5MFQwUjBadGN0VHY0M3psZG90ZWdkZ0wwTDloSmpRQ2JfNEJiOTZOTFJjc2p3RGZOVHRVbS1kamx4OFg1RzBraw?oc=5",
+          "publisher": "ANSA"
+        },
+        {
+          "title": "Florence braces for 24 October protest",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVXJhQ0ttTFpMOGlFZ05aTW9HdnFVVXg5V0wtY2VxZTROencwU1dOR05tWmVTdDF0dlhEWDZDbGFrT0pZdndrWU53ajJtTUhCbTVZQ3BLOHdnMll3eTFrdmZJcUl2UGo1bUJTQ3BvMVRZcE1yckpna2hneENpejVuZFFpbVNqaU0?oc=5",
+          "publisher": "The Florentine"
+        }
+      ],
+      "headline": "Italian courts now act against minors held after the Milan riots, and a new protest is expected in Florence on 24 October.",
+      "quick": {
+        "happened": "Three minors are in prison and 21 more are under house arrest or in youth care after the Milan clashes, ANSA reports.",
+        "matters": "The unrest is tied to household budget pressure also seen in France, and voters' fear of disorder could shape Italy's 2027 election.",
+        "next": "Florence is preparing for a protest on 24 October, according to The Florentine."
+      }
+    },
     {
       "at": "2026-10-22T11:13:40.800Z",
       "text": "Italy is sending 500 troops to Milan, and inkl reports nearly 200 police were hurt. Firstpost reports Italy now says Russia stoked riots as part of a 'hybrid war'; Meloni also plans a five-year jail term, per Times of India.",
@@ -1730,6 +1793,38 @@
     }
   ],
   "alberta-independence-vote": [
+    {
+      "at": "2026-10-22T17:58:49.228Z",
+      "text": "Unofficial results now show Albertans backing both staying in Canada and tighter immigration rules, though reports say some questions flipped to 'no' as the count continues. Smith says the separation debate is settled and will proceed with caution on immigration.",
+      "sources": [
+        {
+          "title": "Albertans back staying in Canada, tighter immigration rules in unofficial referendum results",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPOXdqRmE1RWhTbUNZVG9IRkJqZFpiRzh5eW5VdFFvVVVxbkxlNnpodWdRYTBSc0l2NVlzdlJNaFgtR0dCYXQzRGhGd3JPWUdORUJmWjVIQ2Q2STlkek1HcF9UeU1NTW8xUHNlVExmZmpGRDV4U0o3R2xyTFRoWC02ak5GckhzMlQ5SHZQc1d2TzFfQy0tMmFoQ2lKajB5bHEyWTJ6LUVXOEVCa1MtUHBhaWVqNnN0akhXM1ZxZGdPVkpudHFUX0hvTUhoNGVkV21qM0wyaDBROWRyb3dmSlhJ?oc=5",
+          "publisher": "My Lethbridge Now"
+        },
+        {
+          "title": "Some referendum questions flip to ‘no’ as the count continues in Alberta",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQYUVwd3hyUHViOG9yLTlpSFFkMTgzWVQ4eEJHWUNrU04xM1cwdDZvVGRDcXdiZzl0b1QzUVdodGtra0o0R3R0dnJxdEJrNU1ncGdPV3JVcXBlelk5aUJ4YnhxOEJ3cXJqa2cyVkJPcVJVd0tTa0JUVjBSaUVBQWJjWk5LdmhrMGRjSW55Q1RNbVA3OFExRm1qNW81RW05M0NOdnVMRHM3OXQ4RVF4NW5ySlZ1UHhPS0ZOcjhWYTNCeHhyeG1Da0dmWUdjOGx1aU84cHFRWjJPeFpveVBrV1BCNWNqTEFpUE5Eb0RMd1d6ZzB1cjczRHdR?oc=5",
+          "publisher": "Toronto Star"
+        },
+        {
+          "title": "Accept the result”: Smith says separation debate is settled",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSGU5bGVDVldLNXVjUVdLbHhhSi1EbE41V1B2NjBjc19KS0RjNHROQmtyZFlwS0U3LUgyaWJkcDQ3eDNZdFJNZ3ZibEFxTmdyYkswamJ0VjJNV20zQlE1Q21IZEJHUkV1dGpWcXlOMGhJSjVkWkl5NlR0WVNjamRwc1RKTDlvdk9yS19zcGRidXREUGwzN01MaVZVWXkxMWpmX01KRGNkMnpzZ0lFUmphdldB?oc=5",
+          "publisher": "My Lethbridge Now"
+        },
+        {
+          "title": "Premier Smith to 'proceed with caution' on immigration changes following referendum results",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQmpHVjZuSG01Q2RVV1hlLXc3TGR1NzNrdFpwQU9CQ3FRcjdOcDlZLWQyX2ZVRkFxQy1uYWl1c0VVeGxWb081OVhqOGxKXzZKLUhKVXBDa29HZXFybThoOGlvTTl5N3BhdTMzd0lieU9KdklrUS1wOUxJNFEyNnV4NmhpY3l0NVpGbDZad1VCa0Z6ZVpyZW5iTjFWd3VqaldiZlN4ekpRTmpVaGZfTUZSYjVzdmc1SC1GTVlack4zRmtIVGVseDhkRA?oc=5",
+          "publisher": "CityNews Calgary"
+        }
+      ],
+      "headline": "Albertans vote to stay in Canada, and Premier Smith says the debate is settled as the count wraps up and immigration changes come next.",
+      "quick": {
+        "happened": "Unofficial results show Albertans backing staying in Canada, while the count runs on past Elections Alberta's 48 hour deadline.",
+        "matters": "Alberta's oil economy gains from the Gulf-driven price spike, and US tariffs sharpen its grievances with Ottawa, so the result matters for Canada's energy heartland.",
+        "next": "Elections Alberta keeps counting, and Premier Smith says she will proceed with caution on immigration changes after the referendum."
+      }
+    },
     {
       "at": "2026-10-22T16:58:55.795Z",
       "text": "Reports say Alberta First Nations face closures, cancellations and insufficient ballots, while the count runs on past its deadline. Smith outlines immigration plans and calls for UCP unity.",
@@ -1924,22 +2019,6 @@
           "title": "Carney won’t rule out giving Alberta a Quebec-style immigration deal",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdFBJS2x3NC1pSXRqZHVfS01adFdVaVdYU2U4aTBtUXhFYUZmNF9hNkhJdmJKMER2X0s5QktvVEtYNndaWmVMQ2pNeGQwWVlra3FnMmJfV0J0aERnUE1vSlFBQV9TSnJwdzExYXhWbTY4dVEtR3p1ZUZKRTBoYXBuNjhCTHRWTTg?oc=5",
           "publisher": "Global News"
-        }
-      ]
-    },
-    {
-      "at": "2026-10-21T19:59:56.101Z",
-      "text": "Newly reported: the referendum vote total counts 10 separate ballots rather than individual voters, and First Nations say Elections Alberta was unprepared for turnout. Smith's UCP message is unchanged from the previous line.",
-      "sources": [
-        {
-          "title": "First Nations say Elections Alberta unprepared for referendum turnout",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUXZQUmJBaFRtQ21RQWNTSjVoTzRZeE00UGNRN19nZkRka2V3ZUxCa2JoZ3hyTFdRMmhYQXM1amlUQkxtV2VRSnJJclJ2eWNtZ2hjTEt4bEZjY3Y3LUpYOXZVU3cyWXdjYWhFWjhZcTA4ekplTU0tVGFMam5zWlVPZDVpWQ?oc=5",
-          "publisher": "Global News"
-        },
-        {
-          "title": "Alberta referendum vote total tallies 10 separate ballots, not individual voters",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUk5haFhVNVluRUZySHJmc0h6RDMtWVIxR0NTeTd3UXZVTVc5NGtEY2lCbkZ6ODlxYkk2YnNKYTlBaXBHY2FJZWxhdElidkdRbGdYbjM1a24yNDVlejJXR3ZtQl9IQW80Z0hMMVk0SWNPX2NIclBBWndKenJfRFgxZnRRenZVclh3bnB1bg?oc=5",
-          "publisher": "Yahoo"
         }
       ]
     }
@@ -2493,6 +2572,38 @@
     }
   ],
   "brazil-runoff-2026": [
+    {
+      "at": "2026-10-22T17:58:49.228Z",
+      "text": "BBC reports Lula asks for Bolsonaro to be disqualified over alleged Meta interference. Latin Times says election-week spending leaves a R$55.8 billion tab for 2027. New Haven Register says Brazil's left is pushing for Lula on social media and in the streets.",
+      "sources": [
+        {
+          "title": "Spooked by Bolsonaro, Brazil’s left takes to social media and the streets pushing for Lula win",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZjc0MWtDYnJuUUhSTlVyOEFHdWJ1N0xnclhMd0pmV09GbkpZTS04SFctWGlaS1JBalZUNHZhbTBxMEsxSFJIWWhnM05nUmJ4dU1SRnI1TnFsQU11akVjczVQaDZZVndGSU1LbHkzMmdiQXhQbDBHZnVlZEYxM2ZnMThjZndha0NkUkJmQ3R3ZHd1QzVFTHFCX0U3Z050SXZZRlJjQQ?oc=5",
+          "publisher": "New Haven Register"
+        },
+        {
+          "title": "Lula says rival should be disqualified over alleged Meta interference ahead of Brazil vote",
+          "url": "https://www.bbc.co.uk/news/articles/c6pwgve2lk5go?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC World"
+        },
+        {
+          "title": "Brazilian election: Lula seeks Bolsonaro's disqualification over alleged Meta interference",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE51czVHaHV1VzJ0azdwMTdCN0VLYzZCRU52SEpiS2M2cXhDTi1yaUVnTHVnX0NqMUFOQUliRVNpTm53Qm1DTnV4SVJndXhfTGNrd1c1N29uMVpxeU9hVmc?oc=5",
+          "publisher": "BBC"
+        },
+        {
+          "title": "Brazil's election-week spending wave leaves a R$55.8 billion tab for 2027",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOY3g4OUkyUEhrSWpKeGVjS1pNRkFUS1hPdjUzaE9obVlDanh2WFpVV1ZCMndKM0dCWkNuUGVDQ0dLUm9uNVNZc2RjMk53aFJqZjJMTC1BZFY3MUotNnRVT2NEWGFRc0g5UW9ERFNrc29CTV9TOFdNOUlSVG5NU1ZPS3dQSThCak9OcEVHczF6Q3lEM1FCU1BJdG1jYnl6TDFhRjVyd0p6ODA4QUQ5NXdKQTNvX3A2ZE5NSThqeWNHWQ?oc=5",
+          "publisher": "Latin Times"
+        }
+      ],
+      "headline": "Brazil votes Sunday in a tight run-off, and Lula is now asking that Bolsonaro be disqualified over alleged Meta interference.",
+      "quick": {
+        "happened": "BBC reports Lula wants Flávio Bolsonaro disqualified over alleged Meta interference, three days before a run-off that polls show is too close to call.",
+        "matters": "Brazil's result could shift the political balance of Latin America, according to Xinhua, and Reuters describes the race as razor-tight.",
+        "next": "Brazil holds the presidential run-off on 25 October."
+      }
+    },
     {
       "at": "2026-10-22T16:58:55.795Z",
       "text": "Bloomberg reports Lula and Bolsonaro agree on terms to open bank records. Orinoco Tribune says Bolsonaro's poll lead narrows to 1 point. Reports say a trader placed a $27K bet against Bolsonaro winning.",
@@ -3462,6 +3573,33 @@
   ],
   "north-korea-missile-tests-2026": [
     {
+      "at": "2026-10-22T17:58:49.228Z",
+      "text": "Reports say Pyongyang is fortifying the border, and one outlet says Kim Yo Jong threatens to \"mercilessly eliminate\" South Korean troops. Another says North Korea plans to resume propaganda broadcasts. Nothing else material is new.",
+      "sources": [
+        {
+          "title": "North and South Korea tensions rise as Pyongyang fortifies border",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOc0RJcm9jb0ZqZ0dPa1BEZ3ZZRV9qMTg4OHRTNVRUeHREMG9fLTAyaWpGTjRrQlhYWGlMNEZhemhWUWN6WGNON3Q1bTdFODFtam5rQU5VcnExcFA5VWV4Q3hHSy0td1Z2RTZpSFpiVl9UMWV4c3BtLTF6cEQ0OF9hNkJVRVo?oc=5",
+          "publisher": "ABC News & Headlines – Australian Broadcasting Corporation"
+        },
+        {
+          "title": "Kim Jong Un’s sister threatens to ‘mercilessly eliminate’ South Korean troops as tensions explode",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdlE1ZDlqakUwN1pmcVdxZEloUVYxMFM4Q3JFWmtDVDBMd294bGstbUh5MjNMLWx1R2h4aC1PdG5mTnRQM1FDRWhnS0ZwWU1IN3BMek53UWttNDNELUFjNzc1Z0I0Q2h2LUlOMm5Vdm1zUDlWb2pPaTcyejg0WDNGb2ppLWd0YU5CNXV4RC1rcjYxZGJvX3FqOFBmQU1tYVFGSnZLUjZzN005b3lnaWFxX2kyNFlxZ0lwaVFXSVRuWmM5c1Q1V1E?oc=5",
+          "publisher": "London Business News"
+        },
+        {
+          "title": "North Korea plans to resume propaganda broadcasts along border with South Korea",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUVlxNzM2bHM2ako0T2ZZdHlxSy1LUnJIWTFXYlY4eUpCaHpKdkZRbFQ4WnB2VXJ6QWxIdUZGSVJISGFYZDUyaE1DN1FLVEV3OVB5V0RYRTI1MjlRQnpOcmNQUXlid213OEF4QW00YlRTSVNhY2dJcktPUWNOaXZZRUpTYlNoRXBYRU9NcVo2V19KeE5xQUVrdHM0dWYxZGRtdmVNdHJWa3Zzblc5eExmLWlkbVIxUQ?oc=5",
+          "publisher": "Sky News"
+        }
+      ],
+      "headline": "North Korea is fortifying its border and threatening Seoul while its missile tests continue, which could shape talk of a Trump-Kim meeting.",
+      "quick": {
+        "happened": "North Korea fired submarine-launched cruise missiles on 14 October, and now Kim Yo Jong warns of new border measures as loudspeaker standoff returns.",
+        "matters": "Rising tension on the Korean border raises the price of any talks, and a Trump-Kim meeting is tied to the same pressure.",
+        "next": "Kim Yo Jong says loudspeakers will be ready within days, and Trump heads to the APEC summit in Shenzhen on 18-19 November."
+      }
+    },
+    {
       "at": "2026-10-22T14:46:52.665Z",
       "text": "Kim Yo Jong says border loudspeakers will be ready within days and puts new \"counter means\" on alert. Seoul says it sees no weapons there and urges dialogue. She calls her warning \"not a threat, but a clear warning.\"",
       "sources": [
@@ -3701,6 +3839,38 @@
   ],
   "south-china-sea-incidents-2026": [
     {
+      "at": "2026-10-22T17:58:49.228Z",
+      "text": "The China Coast Guard says it monitored a Philippine resupply at a contested shoal, while Global Times says Manila denies needing Beijing's approval. Marcos says new US bases will be scattered, and SCMP reports likely 'Squad' talks before the Trump-Xi summit.",
+      "sources": [
+        {
+          "title": "Exclusive: Philippines denies needing China’s approval for resupply; GT video exposes Manila’s lies",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5pTEpTZVNwZEx1RXRoOUdQdV9WRW52WVF6OFZmb2hrVWl1eDdQWERseFhSNUl3c0NKT2dvV0s3Y0FTd1JwSUtVbENNZ3VKeWdDYWVFZ19TQ0t3a0JDZjNhcEJB?oc=5",
+          "publisher": "Global Times"
+        },
+        {
+          "title": "Exclusive | Quad confirmed, Manila envoy signals likely ‘Squad’ talks before Trump-Xi summit",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYXUyYmhZLXZIOHUwOGZmQnhvNENOOWpYWDhpa01UQXg4YzUtVDhPZUgwbTJwZjZKdFAwbW5pcl9rYkdweThwRXBGcmVWaXlZa1JsRHYyMDVfaU51SWVQTE1FajBaaUtMQmgyOFZMS3FDdWJpSDY1MlZMZmx5Skt6b2t0ZzBiRGhvYWJZeWVlRlo3UzV3LWNjVVhQbXZMSjNYUXo0Qmh2RUNVYW1xc0RvbGtrYkFIdTRub2xPbzJXUlpKUFXSAcMBQVVfeXFMT2F1MmJoWS12SDh1MDhmZkJ4bzRDTjlqWFg4aWtNVEF4OGM1LVQ4T2VIMG0ycGY2SnRQMG1uaXJfa2JHcHk4cEVwRnJlVml5WWtSbER2MjA1X2lOdUllUExNRWowWmlLTEJoMjhWTEtxQ3ViaUg2NTJWTGZseUpLem9rdGcwYkRob2FiWXllZUZaN1M1dy1jY1VYUG12TEozWFF6NEJodkVDVWFtcXNEb2xra2JBSHU0bm9sT28yV1JaSlBV?oc=5",
+          "publisher": "South China Morning Post"
+        },
+        {
+          "title": "Marcos says new military bases with US to be ‘scattered’ around PH",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeTNJRWc4M3RUb1ppMWh1cFl3akgtVXlhVEN6emtERlFhQkNYZHpEWmRTZnNNOGlZVW9HaXBwanhDaXlwb1RTUnJkZzA3MVc4TWJHcDdZR01QenU0WUZXYlZfWTAwNnBhaUpvZkJoRVdPMlJMNW4tTnRWZnhzNmJYNTZhWUdzYmdYNFVxbTlsUFNMYVRrYTRFQ1lkTTdnSXRSQUZxSXI3c3VkZw?oc=5",
+          "publisher": "Rappler"
+        },
+        {
+          "title": "China Coast Guard Says It Monitored Philippine Resupply Mission at Contested Shoal",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWk9TRUgwNHFteTNoVkdQbmJzU2VRM2VyUG1ESUU4aHJZT0UyVVZqaDJFUjJ2YUJXSThTcWtISTV6XzhjMlFhS2tWLXhnckZCbDQxczlveUV3ODBOMjJRT1dNMk5nbWxvX1pFVDRzYk5tYzFQbHd0U2FvMVBtZnRudlYxT1JfWndYcDhsU3BhbGJZNHpUOU1aOVF0b2dpZldadmtxZGJyRVUzU0dTNHFZR3hlaU9Ydw?oc=5",
+          "publisher": "The Diplomat – Asia-Pacific Current Affairs Magazine"
+        }
+      ],
+      "headline": "Tension at sea continues as Manila builds closer US and Taiwan ties, with allies likely to talk before Trump meets Xi in November.",
+      "quick": {
+        "happened": "Philippine and Chinese forces keep clashing at sea, and the China Coast Guard says it monitored a Philippine resupply mission at a contested shoal.",
+        "matters": "Coast guard pressure at sea feeds into the run-up to the Trump-Xi talks, and reports say Beijing weighs sanctions and oil and fertilizer cuts against Manila.",
+        "next": "Trump heads to Xi's APEC summit in Shenzhen on 18-19 November, and SCMP reports 'Squad' talks among allies are likely before it."
+      }
+    },
+    {
       "at": "2026-10-22T10:58:03.753Z",
       "text": "Reports say China is weighing sanctions and oil and fertilizer cuts against the Philippines (2, 11), while Manila explores deeper cooperation with Taiwan on undersea cables (5, 12) and Beijing issues a One-China reminder (1).",
       "sources": [
@@ -3770,6 +3940,33 @@
     }
   ],
   "opec-plus-november-output-hold": [
+    {
+      "at": "2026-10-22T17:58:49.228Z",
+      "text": "Brent tops $113 after Trump hints at action on Iran and the US tells some diplomats to leave Saudi Arabia amid Houthi attacks. One outlet reports strikes at Shaybah and Yanbu; the quota freeze is unchanged.",
+      "sources": [
+        {
+          "title": "Brent crude tops $113 after Trump hints at action on Iran, U.S. orders staff to leave Saudi Arabia",
+          "url": "https://www.cnbc.com/2026/10/22/oil-prices-today-wti-brent-saudi-arabia.html",
+          "publisher": "CNBC World"
+        },
+        {
+          "title": "Oil Price Forecast — Brent ($111) and WTI ($99) Jump on Shaybah and Yanbu Strikes — $112.68 Breakout Targets $120",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMzJId01uSGVtNXhFaHJNMVdkSEtIM1BaUjZsZ1VRb000M1lKZ3UyTGdCR2pRaFZmcGN1QWVLN3dPREVETzNtU0ZnbHVuSTNydzhnLXlzZ0M2LWl0MlhFNTQ2YmlYcFozWVlIRkFSOFB3Tmo5RWR3QUdyWmF5bkI1LUt5WG5zc0I1UklQNGVBTUdERG1jOHlPem1pTlFxNU13NE5fMQ?oc=5",
+          "publisher": "TradingNEWS"
+        },
+        {
+          "title": "Some US diplomats told to leave Saudi Arabia amid Houthi attacks",
+          "url": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks",
+          "publisher": "The Guardian World"
+        }
+      ],
+      "headline": "Oil climbs above $113 as Saudi Arabia faces attacks and Trump hints at action on Iran, while OPEC+ keeps its output targets unchanged.",
+      "quick": {
+        "happened": "Brent tops $113 after Trump hints at action on Iran, and the US tells some diplomats to leave Saudi Arabia amid Houthi attacks.",
+        "matters": "Gulf exports through Hormuz run at 60-80% of normal, so higher crude prices feed into inflation, including the 3.8% the ECB is dealing with.",
+        "next": "The core OPEC+ producers meet again on 1 November, and the freeze on November targets stands until then."
+      }
+    },
     {
       "at": "2026-10-22T14:46:52.665Z",
       "text": "Brent tops $112 after Trump says there are no negotiations with Iran and something will happen 'fairly soon'. Iran says seven tankers were damaged in Hormuz, and Kuwait raises output above 2 mb/d. The quota freeze is unchanged.",
@@ -3894,6 +4091,38 @@
     }
   ],
   "istanbul-floods": [
+    {
+      "at": "2026-10-22T17:58:49.228Z",
+      "text": "A new orange alert warns of heavy rain in Istanbul today, and schools close amid the flooding. Reports say the floods put climate risks in focus ahead of Turkey's COP31, and stream rehabilitation and demolitions follow.",
+      "sources": [
+        {
+          "title": "Storm in Istanbul: orange alert issued for heavy rain today",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUlVTTkU3OEU2SjVXQl9NTWl2T0JnUnZrU1BhejZYMlhKNHFtb1FROGJ6RExUcU1LRGc3TzZycHc4OGowSTE4UTZOQWxLNzYtTmdBaUNjaHB3QklhaWE1cEtVVVF3d1J4YkV1czR5alUwU211eWROTEEtVHlYNG0yaTE2ZDN0SlNVQzI4bktneGR4QQ?oc=5",
+          "publisher": "Hispanatolia"
+        },
+        {
+          "title": "Flooding in Turkey: schools close amid heavy rain",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZGx2U0R2bTkza1FoeUgxUXpGZU16STRtWEdBMHIwNC1OVGhPeS1KRktvYWNWMjJYTkd2TV85WE0wdXUwSWdva0V1X3lQal9NSU5reHFmYlVVU3puVVRxbG91T1ZUdmFJd2FuN092d2pac2xlc0FDb251d0ZYUUFpQVRhdkdVZXNoSUdTYnN1OA?oc=5",
+          "publisher": "Hispanatolia"
+        },
+        {
+          "title": "Istanbul floods put climate risks in focus ahead of Turkey’s COP31",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNUM4UkdVejJqek1YZGpPdE5WQ3l5ZHJtbDVIU0hIVHhKTEl5NUpTTnhMNGxlZ1hLcHVUMGY5ZElsRlhUUy1sNS01RWFSQ29NU3ZtYkZVZFNBR0lJVlkzMENtSnFhN05NRTkwY1dZdmVjdDN3WG5CdkZYeHpRSzZoSG10OFQ4VzVSS1Jtc0tqSXZGOWxFZjVvU0NJNU1wZThYV0p0VNIBqgFBVV95cUxQYzVaSnBHdHl2NmtXMjEyZmp5ZVlXeTBfeVBBX1NDcUFlYlFpOWhOQk1lUm5BaktJSW9GYXBmNHZSdlQwWDFsQ3BxRmlxRzVlNHozd2VJWHlmZTllSllTYkJwSXNQbEVRWFdUVG03d0lsc0JDMjJBbEo3WUlHcDRKYkdLbTI2NUVvazZaLTdxX3VYV0lPODg5TXdXX2ZVTkF3dXp5QTA4X0swZw?oc=5",
+          "publisher": "ThePrint"
+        },
+        {
+          "title": "Deadly Istanbul flood prompts stream rehabilitation, demolitions",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZmFXUXAxUjhNMUNpMW9pZ2RzU0FSaFRZeDV5b1ExX2c0clVoeHp0RVZseEpnRHdPaVR0Ul9OeE5GN1Z3Z2pFUmtyRVVDa0Y3V1hBMW45d2tBZElOSXpQUWRQWTNjY0tqWDBfdW5yNGh4cXNJZnktN2xKSzRSWllNNHl3c25ZdmRsdU9oR3V4UjFpYW9QaURrRkVobnJ4bVFOa29oYWg1aDF1NDJIUGNsd3FVQVJGb2pEcnlZdmxOLUdwZTh5S19pRFBVak54NFhiSUxybk1NTQ?oc=5",
+          "publisher": "Stormwater Solutions"
+        }
+      ],
+      "headline": "Istanbul faces a fresh orange rain alert as schools close, while flood recovery continues and climate risks draw attention before COP31.",
+      "quick": {
+        "happened": "Istanbul is under an orange alert for heavy rain today, and schools close amid the flooding after the deadly floods.",
+        "matters": "Reports say the floods put climate risks in focus ahead of Turkey's COP31, and Turkish exporters' delays can affect EU imports.",
+        "next": "Stream rehabilitation and demolitions follow the deadly flood, according to a report, but the headlines give no dates."
+      }
+    },
     {
       "at": "2026-10-22T11:10:41.576Z",
       "text": "Counts differ: one report says eight dead and one missing, while others say nine including Kocaeli. Erdoğan announces 57 million liras in aid, and reports say damage tops $90M with over 3,000 insurance claims.",

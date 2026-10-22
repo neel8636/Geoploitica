@@ -1,501 +1,588 @@
 {
   "france-unrest-2026": {
-    "at": "2026-10-22T05:23:27.979Z",
+    "at": "2026-10-22T17:58:49.228Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "general-strike-called-for-november-5",
-        "title": "General strike called for November 5",
-        "when": "2026-11-05",
-        "place": "France",
+        "id": "french-bond-stress-deepens-as-protests-spread",
+        "title": "French bond stress deepens as protests spread",
+        "when": "2026-10-22",
+        "place": "Paris",
         "lat": 48.86,
         "lon": 2.35,
-        "what": "A nationwide general strike is set for 5 November, and transport and schools are bracing for a large turnout.",
-        "via": "union turnout, pressure to keep marching",
-        "aspect": "jobs",
+        "what": "Pressure on French government bonds is intensifying while the risk of further protests grows, limiting the state's room to spend its way out of the unrest.",
+        "via": "investor fear, tighter budget room",
+        "aspect": "markets",
         "flow": "into",
         "sources": [
           {
-            "title": "General strike on November 5, 2026: transport and schools brace for a large turnout",
-            "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNcHNJZWQ5ZWtsanYtZHMyLUJIby1YRHctNkg0OGtacm5Rd3pNXzZWZng2ekhpZm1mUVJjeHdldDZnTF9kblhOSTVBcDhkMmdCWWlNUDRWWkVmY0tZUGpjTTF2VFBPbXlkSVdTbDZiODUtUEx5dGlRaTRONVRjLWFUSFFlcnBndS1Bb2pEU3VQaXlIWndBbUZIbVJKOXhLcFlTOVZjVDJ2NjkzSGoteHI3SkdHUkstOU1FMVZJdXZmQ3A5aVVwM3EtZ2dRY3l4VkgydXI3VEVLNXl4TGR5WUdLeE1R?oc=5",
-            "publisher": "Sortir à Paris"
+            "title": "France’s Bond Stress Intensifies and Risk of More Protests Grow",
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMGFidE9CM2FZbzhvNmktSV9qa0JyeTYtSENqLTMzVmtYcVZvLWExYXZNM0NUTXZ4S19LSi1PVUJSeTUtZ3VVOEMtY0FQUU9CVzhjQ1kzU1NWcVZ6blIyb2VGa3JyMjNYZTFYNC05eGRtY01XbzU0Wk9YcTFsR3M3Z2UtNUlZZ1IxWmZSNXBEaXhPZWhlZFNZWHFvbjBzR3d4bElKSzBxSlVvQkVVaTJLcHJsam9GN2Nx?oc=5",
+            "publisher": "Bloomberg.com"
           }
         ]
       },
       {
-        "id": "pro-russian-accounts-amplified-french-anger-online",
-        "title": "Pro-Russian accounts amplified French anger online",
-        "when": "2026-10-21",
-        "place": "France",
+        "id": "riots-in-marseille-and-lyon",
+        "title": "Riots in Marseille and Lyon",
+        "when": "2026-10-22",
+        "place": "Lyon",
+        "lat": 45.76,
+        "lon": 4.84,
+        "what": "Riots in Marseille and Lyon were described as the worst street violence in years, prompting the authorities to move against further demonstrations.",
+        "via": "street violence, public anger",
+        "aspect": "security",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Total ban on protests in Marseille and Lyon after riots",
+            "url": "https://www.bbc.co.uk/news/articles/cvde8g40xx42o?at_medium=RSS&at_campaign=rss",
+            "publisher": "BBC World"
+          },
+          {
+            "title": "France bans fresh protests after worst street violence in years, tightens security",
+            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWF94UHNJTUtqX3hUWDlva3JpQ2lsMEh6T0xZcUlsaTg3MUlZZXU0QnNEUTNfUHJ4dzFXbVUyMWpXaDZwV3gzc2pTRWJ6RG9ZVkVYbVVQb1RnTENmMG9YcFVFWldtbVhxM1lrODBRQ2tmX1ZQZzhsZ0ktc1F3YTMya3ZlLVdHeDBPTTdYOGVwSjZCU2dGbW4xeFdKaGpQZTNJUnY3S3lMbFNKd1o4VXh0cmpTd2dvVHpzTkxabjBOY1JpS2xSaFHSAcsBQVVfeXFMTUw3bm1QVW16RUZKdlc4MlZYYmtvdmlYWVhKeU13a0NCZUhoYVVuTkh1NVhvUURWSGJNbWFrYnRoWG9haUxnSTc2SWFBVG5WZl9XU3hZeG1xNmtuZmZhU0FCVmdLUnNUUzNpSWFqRzdkWkVBbzZQanJmMFIxLUF3Yi1FckdRTUp3TnBvM1Q0ckd1U2lIQ2FKLTczLWRlUHdUUHprMkY3eUlkbHhhTk93SUFCVzhINHI5akRJX01BLVdPdmlBa0ZRWGRxeFU?oc=5",
+            "publisher": "Firstpost"
+          }
+        ]
+      },
+      {
+        "id": "macron-bans-protests-and-blames-hard-left",
+        "title": "Macron bans protests and blames hard left",
+        "when": "2026-10-22",
+        "place": "Paris",
         "lat": 48.86,
         "lon": 2.35,
-        "what": "An NGO found that pro-Russian accounts amplified anger over the protests and riots in the run-up to the mass mobilisation.",
-        "via": "online amplification of anger",
+        "what": "The government banned protests it called illegitimate, including a total ban in Marseille and Lyon, and Macron blamed the hard left for the unrest.",
+        "via": "hardline government stance",
         "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "In run-up to mass protests and riots, pro-Russian accounts amplified French anger, NGO finds",
-            "url": "https://www.france24.com/en/tv-shows/a-propos/20261021-in-run-up-to-mass-protests-and-riots-pro-russian-accounts-amplified-french-anger-ngo-finds",
-            "publisher": "France 24"
+            "title": "Total ban on protests in Marseille and Lyon after riots",
+            "url": "https://www.bbc.co.uk/news/articles/cvde8g40xx42o?at_medium=RSS&at_campaign=rss",
+            "publisher": "BBC World"
           },
           {
-            "title": "A propos - In run-up to mass protests and riots, pro-Russian accounts amplified French anger, NGO finds",
-            "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSGFEMHdlei1UNGVGQUNJb1ZpRU1aaXVkRVJKOW9keEEzVHVDRmR4bFZnY1doc19nQktXbWVCU2NHU1pYeXI2OTB1aW83d0hwVElRdFEzWlJUZngwSnBjYXJDbWdBOXF2NkN6cGJUcG8zODV6NlJfT0F0Mk1ENElvWjFSZDRZY1hqMW1USHljSldoZlpSZ3RKeUhPV3ItUV82NEluSFV2M0lRZUd0UHRxVk1mZEFQSUVESUtZd2poMkhxTE8yMHNYQi1LWHVpbEI2dUpVVG5vdHNmai1CeGc?oc=5",
-            "publisher": "France 24"
+            "title": "France adds protest restrictions in wake of weekend unrest",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUHI2NDREMXNCU25KcVVIRlNkUjJsVVQ5TDNTSWxZa24xdVM4dWhhMnZhaFZXNGdyQUZ2Q3pEaGtDVVZkQzVEVDVEX2p6WUFMMzlTdGhwbXI1cnNxbHlHZnFMSElsc0tmcnRwdnF1TzAxdWJJcUtqZ3NyTElzR1J3Zi1TbDM1R1dsY282T2xZdkpxVmhZa1FCM9IBngFBVV95cUxNNFJTQkxIMTBjMTRkVjV0U09rQ2F1aElIZVVkZGhxVzhHM1otZGhwd2gyNkZBbGlLTGphR0hYNGoteW9JcThiWTY3MVZISWFwNU43RXZ2S0x5UEFrdVNfRFIwbFIyWGNqWXNTVEhvbW5sdENIWFl1dnVWZ00yUVpnU2tOMDktRzBMZXlOTlluLTlCTVpGcloyR3g1d1E5UQ?oc=5",
+            "publisher": "upi"
           },
           {
-            "title": "In run-up to mass protests and riots, pro-Russian accounts amplified French anger, NGO finds",
-            "url": "https://www.france24.com/en/in-run-up-to-mass-protests-and-riots-pro-russian-accounts-amplified-french-anger-ngo-finds",
-            "publisher": "France 24"
+            "title": "France's Macron tightens curbs on protests, blaming hard left for unrest",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdHhBdkpVMVZzcjFPVTR6dkJIR1VJcGR3QXBOeFRHRFJuZFBGM2hWYzczWXdMUFdjVnpsYzI0RE1nZzhIMUNaQzVQMHRKa1VxcnpsaHJzalQzNHJXb2lkbDd3WkJQdXItb1UtZmpQNmQwQzQtV1VfUkJtdHpTR3p4OG95dmM3UkozM3FxWm5WMF9wMl9qQVVJR0l5NmxzV1pzVWtzVy1HXzQwSGRKTVlEZWtB?oc=5",
+            "publisher": "Reuters"
+          },
+          {
+            "title": "France bans fresh protests after worst street violence in years, tightens security",
+            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWF94UHNJTUtqX3hUWDlva3JpQ2lsMEh6T0xZcUlsaTg3MUlZZXU0QnNEUTNfUHJ4dzFXbVUyMWpXaDZwV3gzc2pTRWJ6RG9ZVkVYbVVQb1RnTENmMG9YcFVFWldtbVhxM1lrODBRQ2tmX1ZQZzhsZ0ktc1F3YTMya3ZlLVdHeDBPTTdYOGVwSjZCU2dGbW4xeFdKaGpQZTNJUnY3S3lMbFNKd1o4VXh0cmpTd2dvVHpzTkxabjBOY1JpS2xSaFHSAcsBQVVfeXFMTUw3bm1QVW16RUZKdlc4MlZYYmtvdmlYWVhKeU13a0NCZUhoYVVuTkh1NVhvUURWSGJNbWFrYnRoWG9haUxnSTc2SWFBVG5WZl9XU3hZeG1xNmtuZmZhU0FCVmdLUnNUUzNpSWFqRzdkWkVBbzZQanJmMFIxLUF3Yi1FckdRTUp3TnBvM1Q0ckd1U2lIQ2FKLTczLWRlUHdUUHprMkY3eUlkbHhhTk93SUFCVzhINHI5akRJX01BLVdPdmlBa0ZRWGRxeFU?oc=5",
+            "publisher": "Firstpost"
+          },
+          {
+            "title": "French authorities seek to ban or impose restrictions on new protests",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYkNkZkh5WFNrQjdsZExuYmJ4U3NuNkxrRktRekpEUGl3SUlkSGxUdkk1VGQ0NUM4T1I0OER3ODZDQTRtSU5mTUtsSWZLOGl3NENQZi1RTjNRWEdhWjBFNDY0WG9QaWR1WV9WR0xfNW1NdkpCaS1TalJ6QTZicm1oYW4wZWIteEhzZVlQeENwak5sYjFTY0FjXzZxOVA5eG5SSGtONzl2ZUNSSHp5UW5qV256ck9rWDg?oc=5",
+            "publisher": "Le Monde.fr"
+          },
+          {
+            "title": "France bans 'illegitimate' protests in coming days",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOY25KSmpUWk1HSHFmU1dUZnhaaGt2TUR0X2dGRmROUzRpMGI4RXBHYmRaSTNTSjNVV2VMYmFmYmJtcS1mQjMyQUNRMFFQODNPcVhOSmlYQnQ4clBjLXB1RUlaWjZNVmVmTG52ZjliQl9SSmxtYXlDQmZKWG9lLWYxT0h2cVdEMGctQ1ktZ3JndEx5YXlLUVFTa1E4QjkwUExtd3lGNFFQMNIBpwFBVV95cUxQQWtMOElDRWt1WUkyWkx2VzZyMENvcmxlejlCN3poTDVNQ3o3MFJwMkV5Y3kwbDJCQ19pdGlyeHM3NmpsUmJMb0duaXFFekkyUGE5T1VTN25HUUhhdDVXSVNSa09wSjAxX3pMc25TWTNRS0ctUTNoRVlaUGs4cEV3SDBIYUtkeWpWMHdWRmkxZlFwTUtaSnEyWGlRQ2pMaE1JN1p5VkdRdw?oc=5",
+            "publisher": "DW.com"
+          },
+          {
+            "title": "Macron bans ‘illegitimate‘ protests in France as he tries to get a grip on unrest",
+            "url": "https://www.theguardian.com/world/2026/oct/22/macron-ban-illegitimate-demonstrations-france-unrest",
+            "publisher": "The Guardian World"
           }
         ]
       }
     ]
   },
   "alberta-independence-vote": {
-    "at": "2026-10-22T05:23:27.979Z",
+    "at": "2026-10-22T17:58:49.228Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "northern-alberta-rural-areas-back-separation",
-        "title": "Northern Alberta rural areas back separation",
-        "when": "2026-10-21",
-        "place": "Northern Alberta",
-        "lat": 56.23,
-        "lon": -117.29,
-        "what": "Support for separation ran higher in northern and rural Alberta, where taxes and frustration with Ottawa drove sentiment, which fed the minority vote against staying.",
-        "via": "tax and federal grievances",
+        "id": "immigration-questions-pass-on-referendum-ballot",
+        "title": "Immigration questions pass on referendum ballot",
+        "when": "2026-10-22",
+        "place": "Alberta",
+        "lat": 53.53,
+        "lon": -113.49,
+        "what": "Alongside the vote to stay in Canada, Albertans backed tighter immigration rules in unofficial results, and Bow Valley leaders and newcomers said they were deeply disappointed.",
+        "via": "same-ballot immigration questions",
         "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "Northern Alberta shows higher support for separation, especially in rural areas",
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORkNhcHIzNFdsd20tcmVFSUptaVFlV3ltVVp6V1gzRDNWZ3EwQTR3TTZmTTYxQURLU2pQckF3eklJcHhRQnh1TWk4M3M1b3FOUjdzZC1velRfaVBVWmdqd1VzMFVNZEVwMVlwOVpIWmxNdHdUYTY0anNwTkExd3hvbW83S1BEYmE0NHBIWDdxMG1oTWh2UkVVd2VzSm5ROUprV3Fldw?oc=5",
-            "publisher": "CBC"
+            "title": "Albertans back staying in Canada, tighter immigration rules in unofficial referendum results",
+            "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPOXdqRmE1RWhTbUNZVG9IRkJqZFpiRzh5eW5VdFFvVVVxbkxlNnpodWdRYTBSc0l2NVlzdlJNaFgtR0dCYXQzRGhGd3JPWUdORUJmWjVIQ2Q2STlkek1HcF9UeU1NTW8xUHNlVExmZmpGRDV4U0o3R2xyTFRoWC02ak5GckhzMlQ5SHZQc1d2TzFfQy0tMmFoQ2lKajB5bHEyWTJ6LUVXOEVCa1MtUHBhaWVqNnN0akhXM1ZxZGdPVkpudHFUX0hvTUhoNGVkV21qM0wyaDBROWRyb3dmSlhJ?oc=5",
+            "publisher": "My Lethbridge Now"
           },
           {
-            "title": "Taxes, federal frustration at the heart of northern Alberta separatist sentiment",
-            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0wUmhGVUI4TjN5dUxqV2NWUE5aaF9waWZOV1l0RWR1V1hWeWZxVWMwdzRHQkc5MmJoQ2htUTdlejFTVmp3ODZ6azJOMXZlMjM0cUdULVl4NEI?oc=5",
-            "publisher": "CBC"
+            "title": "Bow Valley leaders, newcomers 'deeply disappointed' by immigration referendum results in Alberta",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNU1hLaXZPQW41WjlSSDJMQWxXSXpGa2NaRGRQZDZieFkwd2xCWnRVY0MzOUxmaGlLR19Uclc1clZpMzdXbGJxTmZaa0NuSXFzY294UFRYbWZqYzc4RHNHREhDb09RLUFjTVl1QUw4azJQbUVWM1BvLVBxckJUQVhZRDMyeTlJdjR3U3lTclF3Y29BUUZnT2hSX0FmeWpUX2lLNkp3ckU3ODMxRjRhaGc3VkxzTWpDZXF5VUNXRUpYTTY?oc=5",
+            "publisher": "Rocky Mountain Outlook"
           }
         ]
       },
       {
-        "id": "ottawa-unveils-6-2bn-plan-for-tariff-hit-manufacturers",
-        "title": "Ottawa unveils $6.2bn plan for tariff-hit manufacturers",
-        "when": "2026-10-22",
-        "place": "Ottawa",
-        "lat": 45.42,
-        "lon": -75.7,
-        "what": "Canada announced a $6.2bn package to shield manufacturers as US tariffs bite, the kind of trade pressure that sharpens Alberta's grievances with Ottawa.",
-        "via": "tariff pressure on Ottawa",
-        "aspect": "trade",
+        "id": "alberta-moves-to-restrict-migrant-worker-rights",
+        "title": "Alberta moves to restrict migrant worker rights",
+        "when": "ongoing",
+        "place": "Alberta",
+        "lat": 53.53,
+        "lon": -113.49,
+        "what": "Alberta welcomed migrant workers but now wants to restrict their rights, a labour and immigration dispute that ran alongside the referendum.",
+        "via": "migrant worker policy fight",
+        "aspect": "jobs",
         "flow": "into",
         "sources": [
           {
-            "title": "Canada unveils $6.2bn plan to shield manufacturers as Trump trade tariffs bite",
-            "url": "https://www.euronews.com/2026/10/22/canada-unveils-62bn-plan-to-shield-manufacturers-as-trump-trade-tariffs-bite",
-            "publisher": "Euronews"
+            "title": "Alberta welcomed migrant workers. Now, it wants to restrict their rights",
+            "url": "https://www.theguardian.com/world/2026/oct/22/canada-alberta-migrant-workers",
+            "publisher": "The Guardian World"
+          }
+        ]
+      },
+      {
+        "id": "constitutional-questions-flip-to-no-in-count",
+        "title": "Constitutional questions flip to 'no' in count",
+        "when": "2026-10-22",
+        "place": "Alberta",
+        "lat": 53.53,
+        "lon": -113.49,
+        "what": "As counting continued past the 48-hour deadline, some referendum questions flipped to 'no' and the 'no' side gained ground on constitutional questions.",
+        "via": "shifting count margins",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Some referendum questions flip to ‘no’ as the count continues in Alberta",
+            "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQYUVwd3hyUHViOG9yLTlpSFFkMTgzWVQ4eEJHWUNrU04xM1cwdDZvVGRDcXdiZzl0b1QzUVdodGtra0o0R3R0dnJxdEJrNU1ncGdPV3JVcXBlelk5aUJ4YnhxOEJ3cXJqa2cyVkJPcVJVd0tTa0JUVjBSaUVBQWJjWk5LdmhrMGRjSW55Q1RNbVA3OFExRm1qNW81RW05M0NOdnVMRHM3OXQ4RVF4NW5ySlZ1UHhPS0ZOcjhWYTNCeHhyeG1Da0dmWUdjOGx1aU84cHFRWjJPeFpveVBrV1BCNWNqTEFpUE5Eb0RMd1d6ZzB1cjczRHdR?oc=5",
+            "publisher": "Toronto Star"
+          },
+          {
+            "title": "Some Alberta referendum questions flip to ‘no’ as count continues",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTTRWanc3QW56UTF1bnZ4XzM3c2pNZ21iOExvTDN4VHNHejZtczJjQ1hKWXBGbEpIYWE3ZlVaQjZHZlFFTEp2c1VxUU0xckRJMTFwUG15V2EtYTE3alIwNjNpMTJPRkxJUDF4c015UkNMTVRtYjBQSDhlSm5uVHdrdzdDTnp5a3QzZ0tHVFpOeWM0QmxvUzNWM3hWMjRPeXZNRlE?oc=5",
+            "publisher": "The Globe and Mail"
+          },
+          {
+            "title": "Alberta referendum count passes deadline as ‘no’ gains ground on constitutional questions",
+            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaEl6MF8tMkVyTHQ0SElmNGdNd20zeEc2a0xtZEo5b1JycVZQMUtWS2syQmtacmNyTVNhRXJQV2VNMnMtX2hSaXlIYWhJTnpTZVpyUUZRVndXTVMxMW9zaTFZMWlPbnVRNm4xaTBRMDJpa0NrUGtLcmQtQUt6dmRnV09UMTZaV0lYU2dPSUd0NDI4MjlxYWo1TkdidlA4TWlOU19NUHdKMDNVYURNa1J5NFM3ekEyUTlBLUI0OG9MUnU4a1MwNnc?oc=5",
+            "publisher": "CTV News"
+          }
+        ]
+      },
+      {
+        "id": "first-nations-chiefs-confront-premier-over-referendum",
+        "title": "First Nations chiefs confront premier over referendum",
+        "when": "2026-10-22",
+        "place": "Edmonton",
+        "lat": 53.55,
+        "lon": -113.49,
+        "what": "Alberta First Nations chiefs addressed the premier on the damage done by the referendum, voicing Indigenous opposition to the process.",
+        "via": "Indigenous opposition",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Alberta First Nations chiefs address premier on damage done by referendum",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQR2FocFY2RTdpaklXY3NXc2RMdVkzd2pQOWxnLWVndWY5ZFFzMXZMUDJVY25fdlh0Q3hXcTZXMTJlTmVYMUVRV3BjU05nQWhJT1RZelA3Z3BTckw5U0JDa2ZHaE9pd2p3ZXo1UlQ4RHptT2JtYkk0eUptYmg1Y1Jrdm5LZ1VRTXlZWlJ3THBOUExEYVBrMThweFVPYVJMUjVtaEt6SGY4aEd3cURfa3lFY3NiYw?oc=5",
+            "publisher": "CTV News"
           }
         ]
       }
     ]
   },
   "us-midterms-2026": {
-    "at": "2026-10-22T05:23:27.979Z",
+    "at": "2026-10-22T17:58:49.228Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "trump-approval-rating-hits-new-polling-lows",
-        "title": "Trump approval rating hits new polling lows",
+        "id": "trump-presses-oil-companies-on-gas-prices",
+        "title": "Trump presses oil companies on gas prices",
         "when": "2026-10-22",
-        "place": "United States",
+        "place": "Washington, DC",
         "lat": 38.9072,
         "lon": -77.0369,
-        "what": "Polls two weeks before the midterms show President Trump's approval at new lows, which adds to the pressure on Republican candidates.",
-        "via": "weaker presidential approval",
-        "aspect": "politics",
+        "what": "Trump demanded lower gasoline prices from oil companies and chided Chevron's CEO, as high fuel costs weigh on Republican prospects in the final stretch before the midterms.",
+        "via": "pump prices driving voter anger",
+        "aspect": "energy",
         "flow": "into",
         "sources": [
           {
-            "title": "Trump’s approval rating hits new lows in polls two weeks before midterms",
-            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQN1QyYnFkUDk1Y0d4TXRtZHl1eXlEbnllbTJHMkhZTUZ0ZW16ZW1fN1pnLTBnQlZPNkhYeU9ZU3NkVGJuaUlOeXJGM2RNT1JLVHlSanlmZVJWY0dmbHdZLTY0S0FreTZpR29IV2wzV1JJdk10aHBDNUVsbnNLWDNaV2tvYWlKbkRPWDdaRFlaZF9ZLU9Pd3FLeHRpN3BpQlNaNDBMSDlETVkxcTd4UDNmZFlnQmdUcnpUSGVDMw?oc=5",
-            "publisher": "The Washington Post"
-          }
-        ]
-      },
-      {
-        "id": "bush-family-members-back-democrat-talarico-in-texas",
-        "title": "Bush family members back Democrat Talarico in Texas",
-        "when": "2026-10-22",
-        "place": "Texas",
-        "lat": 30.2672,
-        "lon": -97.7431,
-        "what": "Members of the Bush political dynasty, including George W. Bush's brother, endorsed Democrat James Talarico over Republican Ken Paxton in the Texas Senate race.",
-        "via": "Republican crossover endorsements",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "US midterms 2026: Warning sign for Republicans? Members of Bush political dynasty back Democrat Talarico over Paxton in Texas Senate race",
-            "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNWmwyZ09VR0JrY1didDVwTW83RmhldXpFVWFTel8zelVBVGNrQ09IdG1KUDVWQm5SMWEzYlBxZmhpenFWYm9oTEE1T0gwdkpEZi1sd0prUG9JZENCdGxOYWhIdS1jNHVBRHdpNWpQZl9saGJYSnQ5X0FGLWV2RXNyb3ZCaHhTbjA1alB3cEZIanZ5TUppaGdweGUyVnNlOVBFMnFNOHlvUzYyWXF3eUpDdjEwLV9aVnZDNDhGRU5qQXZIUW42aDY3cnFCcDVJeWRrcjEyRWNRaGxFOTV6VVdVcGtTQ242a1ZpRzBiWFRpSEVwN2NzdXFoZFN1VGxHTmRKb2NhX1NvOG1fcknSAZACQVVfeXFMTjFxSlloMm8yX051cW10cWxKM3pNMFY0VGdPQ1l3bHd0UkZKd2oxVDdoRmYxRmg3aC1rdXVzb1pOanU3YVB6NGJielNpYVNJenV0cHhaOEFmSXpqQVNQNXVQcG5xRU52NUUxZVFyWncwZlpoNzJLbzc2ZjRHUTJ6RFJPQXViZ3NES2RXcVNHZ3dpUDNKR1RUOVBiSE5faE5jbklDTnZzaVlUb1VtRWNoMjMxWTVGc0laRVVRUWZpUmxmUjd0YTJSYXhaaUR1YXVyR3U3SE92WG95NmE0MnUzbjk3THlVU3VuRDBrd0Zjdl9wbkJMVDAySDFOalkxbFZZdlZGcmExQmhoV3BFZTVTQU0?oc=5",
-            "publisher": "WION"
+            "title": "Trump Demands Lower Gas Prices From Oil Companies, Chides Chevron CEO",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTFJ6YmgybVVRNmhHYmszYmhFVkw0T1JFQVFNUWk0SlRVMk12T3dZQzl5UmcxX1U0TGVqajI2WUJfRnhJOVhzdWt1XzBoQ3BXQXNuREhoZTg0eExLQjNLenYzd3pJeXZiZkExbG92UGFEbEU3Z2FmbWRTdGRYVURfVVl2NC1EYkIwaDl4V3JaQmRtb3ZHX05yYmRYZklwUEpy?oc=5",
+            "publisher": "EnergyNow.com"
           },
           {
-            "title": "George W Bush’s brother backs Democrat James Talarico in Texas Senate race",
-            "url": "https://www.aljazeera.com/news/2026/10/22/brother-of-george-bush-endorses-democratic-senate-candidate-in-texas?traffic_source=rss",
-            "publisher": "Al Jazeera"
+            "title": "Too little, too late: Trump takes on gas prices as fuel costs hamper his midterm hopes",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWWNRWFJnNWVXM2p6ekRVNFd5YmYzc1BTRzNjblN1aHR3ZHNLLWlHUGllcHVRYkZYUWJsaTNmSkZkaHgzS19fZ016V0dMb0R5dThPY1l0OUdmemF1OE1HcFFZQ09IUWJhYkNoTURzOTdwaXhYNDB2aVJFa25jV3c1YmtrTEJBSTFrTTF5bg?oc=5",
+            "publisher": "The Guardian"
           }
         ]
       },
       {
-        "id": "early-voting-surges-in-senate-battleground-states",
-        "title": "Early voting surges in Senate battleground states",
-        "when": "2026-10-21",
-        "place": "Senate battleground states",
-        "lat": 41.6,
-        "lon": -93.5,
-        "what": "An AP analysis shows many of the states that will decide Senate control are seeing a big boost in early voting.",
-        "via": "higher early turnout",
+        "id": "trump-economy-approval-hits-record-low",
+        "title": "Trump economy approval hits record low",
+        "when": "2026-10-22",
+        "place": "United States",
+        "lat": 39.8283,
+        "lon": -98.5795,
+        "what": "A CNBC survey put Trump's approval on the economy at an all-time low, and two other polls showed his overall rating at a record low days before the vote.",
+        "via": "weak economic approval",
+        "aspect": "living",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Trump's approval rating on economy hits all-time low as midterm looms: CNBC survey",
+            "url": "https://www.cnbc.com/2026/10/22/trump-economic-approval-rating-midterms-poll.html",
+            "publisher": "CNBC World"
+          },
+          {
+            "title": "Trump’s Approval Rating Hits Record Low in 2 New Polls Days Before Midterms",
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcXc5OVAtMWhaTk9IYy1uSUFhVzdkV1NnVmQ4OGNqczZDeklxX0NkUkRmbHJjSWE2SnZBUDBxV3BuOVJXRzdGV00xM2pmNEhFN3FXdTU1cW5sYjRCd1hEOXFEY2Yyc2c0RWVnZW5LOHZxUXEwbHZLRUF2QVdDNlBDeXlQeXN3Y1BI?oc=5",
+            "publisher": "Newsweek"
+          }
+        ]
+      },
+      {
+        "id": "tariffs-weigh-on-maine-senate-race",
+        "title": "Tariffs weigh on Maine Senate race",
+        "when": "2026-10-22",
+        "place": "Maine",
+        "lat": 44.3106,
+        "lon": -69.7795,
+        "what": "Trump's tariffs loom over the Senate race between Republican Susan Collins and Democrat Jackson, making trade policy a campaign issue in a key contest.",
+        "via": "tariff backlash in Senate race",
+        "aspect": "trade",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Trump’s tariffs loom over Maine Senate race between Collins and Jackson",
+            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8zQy1vM2xpZlhpcVU1ZmtRNEhhTGtNZENvSTk3WDdxWWxOYjN6UVJuVlhvTl9faDAxZGR4cEZ1cThZOVJBd1JKVEIydllROEU4MXhFWG02R0RlSXlqaWZmNXhMU3FWLWFWQjFHQy1MOTY1anBBRXpyV0RNVTfSAYIBQVVfeXFMTzFyOW45TzR6WU44QjhRN3VORHpNWElzazRkUHQ0NXJwVXZ3d2VoMUpET0RxSjR1LThUU3hrN2NMcS1EOXhfN3FjU0VvNWYxVmp2V3BvRzdlakQxUzh0dllzdjJKR29ZWXZaQzNBbGM2QVI1TWRLa1YwSHZac25KMFB6QQ?oc=5",
+            "publisher": "CNBC"
+          }
+        ]
+      },
+      {
+        "id": "peltola-close-to-flipping-alaska",
+        "title": "Peltola close to flipping Alaska",
+        "when": "2026-10-22",
+        "place": "Alaska",
+        "lat": 61.2181,
+        "lon": -149.9003,
+        "what": "Democrat Mary Peltola is reported to be on the verge of flipping right-leaning Alaska, a sign of Democratic strength in territory that usually favors Republicans.",
+        "via": "Democratic gains in red territory",
         "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "Many states deciding control of the Senate are seeing a big boost in early voting, AP analysis shows",
-            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNemJJOFF0a0lQM21VNzhvTEJMaldZd2dTb1ZPazF0SHpmaWMtVWxpNi1nQzM3WTVKNHdhdHhDMGtsVEpxUmgzWUxKWTFUb2hDOENhbk5OSF9wcFNKd2JoLVJpRHJHRVpUZ09LbUlFdmxUVnlFc0tYQzE2dDBVU21hWUUzOFZyX2EzdG5Gc3NhR2d0ZHhsdUxqNzgyZGtyNmxPVHRrWGN3?oc=5",
-            "publisher": "AP News"
-          }
-        ]
-      },
-      {
-        "id": "trump-proposes-ai-data-centres-pay-dividends",
-        "title": "Trump proposes AI data centres pay dividends",
-        "when": "2026-10-22",
-        "place": "Washington, D.C.",
-        "lat": 38.9072,
-        "lon": -77.0369,
-        "what": "Trump said AI data centres should pay 'dividends', a pre-midterm shift in his stance on the industry.",
-        "via": "campaign-driven policy shift",
-        "aspect": "budget",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Trump says AI data centres should pay ‘dividends’ in pre-midterm shift",
-            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSlZNZ21UM0RHcDNtb3ZGUThYeG9wS0FPT1V6U2tPVzhuX1B0UEhGNUNaVGdZYVIyVGFGTldWbWZvZkxCbjlQT1Fsb2xHc2toajN1Nk5OZWhRemEzaW1lU3ozRm1FMHBIT2l4dzFITkZPVmJITmYyMDFrYWJMMlZXS1hmaXNRYTlkNTlwR0hIU3NiTnBVZUxfWUczVy1JSGpLQlBzN1MxbTBGbDduTlBv0gG0AUFVX3lxTE9YOVZUdnlDYV9rcTRZRDZGVWtqNDZtM2QtbGpOTzJLZnd3TzNMT0dYcVhOZXdHZ0JaX192TVZxYjhBQzZaQWtPUGhZVjlnbUcwRXlmeWV0WEt6bE02YWFmZGVrT2lkb1lsU1VyMzN6QXcyUm90NDlER0JKc2xsWW1POVltT3ItNndaV0xHbzV3WjZkRUdxb2hyYnh0WjBVOFJCZnJFRkNfQTVXenJDZU03SUZUNA?oc=5",
-            "publisher": "Al Jazeera"
-          }
-        ]
-      },
-      {
-        "id": "bipartisan-anger-over-trump-targeting-ukraine",
-        "title": "Bipartisan anger over Trump targeting Ukraine",
-        "when": "2026-10-21",
-        "place": "Washington, D.C.",
-        "lat": 38.9072,
-        "lon": -77.0369,
-        "what": "Bipartisan furor is growing in Congress over Trump targeting Ukraine as the midterms approach.",
-        "via": "party divisions over Ukraine",
-        "aspect": "security",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "As midterms near, bipartisan furor grows over Trump targeting Ukraine",
-            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeHpucDVsN3BQajg0UWQ4QlJhUjdld0I5aWhlMDNsUXJiZWhjb2hvX3ByS2wta0NFeW9NQlJMLVl1cmFPdE5WaVVMM05fU2NfTEJOdWNBOGJtMHNXOXZ6Y1FUM29ZYXlyam9jb2loLUdDanBSVExQeTJpX1FpaFZWWVFBWU1jTFF6ZG1HTzU0WmwwMm1JRmxpckthcXdYOHBzMGlXX1pPdHVhUHVsYnZPaVAxWEpPTnlHa1E?oc=5",
-            "publisher": "Los Angeles Times"
+            "title": "How Democrat Mary Peltola is on the verge of flipping right-leaning Alaska",
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZnE3T1RxYmlrS29NaFlycWRsNE1XdUVUNlJ0TTlrNHEwZGhFWXBfZkJyc2tqal9RTWtzZXFvVy1UM3pvTjdoRmRYM0x2RVk4V2xPVUJKOE5DdVJiakZrQkdkbW9ab3ZCN3hFNHN3ZzREWW90ZFp1MzFpcnFvZjFTb0ZPVDdERTFhYzd3?oc=5",
+            "publisher": "The Guardian"
           }
         ]
       }
     ]
   },
   "france-debt-stress": {
-    "at": "2026-10-22T05:23:27.979Z",
+    "at": "2026-10-22T17:58:49.228Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "civil-unrest-and-curfews-across-france",
-        "title": "Civil unrest and curfews across France",
-        "when": "2026-10-20",
-        "place": "France",
-        "lat": 46.6,
-        "lon": 2.5,
-        "what": "Civil unrest led France to enforce curfews, and investors linked the disorder and budget worries to the jump in French borrowing costs.",
-        "via": "political risk premium",
-        "aspect": "security",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "French bond yields hit 24-year high after unrest",
-            "url": "https://www.france24.com/en/french-bond-yields-hit-24-year-high-after-unrest",
-            "publisher": "France 24"
-          },
-          {
-            "title": "French borrowing costs hit 24-year high as civil unrest and budget fears spook markets",
-            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTG1pZ3N5RlUyN0Zzb3pGX0VYd3pqWTRtdzM2LUVDZFpXWlZNejE2RjFUY2ppYzFueVdJSWZMWktId3oxQnJvUC1ScHd0TV9xYkQxbHh3dUdfdXZ3OXdMR2x5SHI4ZmF2WmNvbHB3TEdKbmZVUTBDeWRWUkNMT2ZpUXpIU0ZmN3pGdXVIblFWQUxBN1lnSnI4SXFUdDFjbHFVNTVvMXVkUG1oRDdrTk80QzBmNDdFdkxKYWlQTVNoTEhKc1lPZXFHR2hiSm5uWDg?oc=5",
-            "publisher": "The Guardian"
-          },
-          {
-            "title": "Social unrest is putting France in a difficult budgetary position.",
-            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5fUFRLcnV1UmJoSE9tdy1lc05pbm43dHdka2dZWVU2bzBZZGUzbnhuRV9GRFVZN1NsQXgzTUZ2ZWxqaDJKNVJuMUJUbVFFS0ZFM1lBSDlqRExKaE5iamZwVmVndkFJZ2ZuODZxT3JBVHVuSDFhdnNLdF9IWV85QQ?oc=5",
-            "publisher": "Vietnam.vn"
-          },
-          {
-            "title": "World in Brief: Zelensky to meet Steve Witkoff; France enforces curfews",
-            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdzJhSC1MekZEem1HbURCeE15dGQ0TDJGRGxNZjZReGpNcExEeDY2emRCdmhsZE9sNHJDNkVEX1oxa1lPM3AwamRodDhVRlBqWHo5cGR0TTJaX290ZTkxYjRHUmppT3VQTWpucjFRSXd1R3M1WTItZkFDZ0R2OXhOaUJ5QUtqdkVDeFVQckJHU0ptQzRIM2lN?oc=5",
-            "publisher": "The Economist"
-          }
-        ]
-      },
-      {
-        "id": "french-budget-vote-looms-before-moody-s-review",
-        "title": "French budget vote looms before Moody's review",
-        "when": "2026-10-20",
+        "id": "protests-and-civil-unrest-across-france",
+        "title": "Protests and civil unrest across France",
+        "when": "ongoing",
         "place": "Paris",
         "lat": 48.87,
         "lon": 2.33,
-        "what": "A French budget vote is approaching, and markets are watching whether the budget passes while Moody's tests the country's rating.",
-        "via": "budget passage doubts",
-        "aspect": "budget",
+        "what": "Street protests and civil unrest in France are cited as a driver of the 5% ten-year yield, and Macron has criticised outside comments on them.",
+        "via": "political risk premium",
+        "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "EUR/USD Steadies as French Budget Vote Looms and Moody’s Review Tests France’s Rating",
-            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZ2kyU3FtUWNyejRqaDRvbFZYYmxwVjc4Q01oNWZHT3JtZmRHZHhhNzVRMGpRVVNGS1Q1ZW42a2pRZFdvOUdNSUFqRC1pZWdwRGhKLVVBSG9aOGprVVRjUkpIeDBoZnYtSWFXR0ZaOHpEZXNWazFtYWdQY3doYmRPUVM1ZkVBN1lDc1VwYW8wNVlSWDVmQ3Y3T0U2M2RaRS10cXdaOTBGZmwwM29Xc1NxVURycWtTTVpGVk5icUh6Ul85cWNfd0h2Ug?oc=5",
-            "publisher": "VT Markets"
+            "title": "France protests: Macron condemns 'stupid' comments from Trump, others as bond market pressure builds",
+            "url": "https://www.cnbc.com/2026/10/22/macron-trump-france-protests.html",
+            "publisher": "CNBC World"
           },
           {
-            "title": "French borrowing costs hit 24-year high as civil unrest and budget fears spook markets",
-            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTG1pZ3N5RlUyN0Zzb3pGX0VYd3pqWTRtdzM2LUVDZFpXWlZNejE2RjFUY2ppYzFueVdJSWZMWktId3oxQnJvUC1ScHd0TV9xYkQxbHh3dUdfdXZ3OXdMR2x5SHI4ZmF2WmNvbHB3TEdKbmZVUTBDeWRWUkNMT2ZpUXpIU0ZmN3pGdXVIblFWQUxBN1lnSnI4SXFUdDFjbHFVNTVvMXVkUG1oRDdrTk80QzBmNDdFdkxKYWlQTVNoTEhKc1lPZXFHR2hiSm5uWDg?oc=5",
-            "publisher": "The Guardian"
-          },
-          {
-            "title": "Social unrest is putting France in a difficult budgetary position.",
-            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5fUFRLcnV1UmJoSE9tdy1lc05pbm43dHdka2dZWVU2bzBZZGUzbnhuRV9GRFVZN1NsQXgzTUZ2ZWxqaDJKNVJuMUJUbVFFS0ZFM1lBSDlqRExKaE5iamZwVmVndkFJZ2ZuODZxT3JBVHVuSDFhdnNLdF9IWV85QQ?oc=5",
-            "publisher": "Vietnam.vn"
+            "title": "French 10-year bond yield hits 5% for first time since 2002 amid unrest",
+            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9IUktuMWpyQnBWOUFSNDdoeG9mdWUtLTJCOFZxSnphZVo2Mm9icFFoZDJtaDZIZzYwQzNfa3hxY0RVcUk5OXlabVEwT2Z1eGVQbXh4QWZVaTc3Z090SE5JdDdxTXRtYlhncUFQXy10Wmo?oc=5",
+            "publisher": "CNBC"
           }
         ]
       },
       {
-        "id": "ecb-s-kazaks-signals-possible-further-tightening",
-        "title": "ECB's Kazaks signals possible further tightening",
-        "when": "2026-10-21",
-        "place": "Frankfurt",
-        "lat": 50.11,
-        "lon": 8.68,
-        "what": "ECB policymaker Kazaks said more tightening might be needed if inflation stays above target, and that the rise in yields has already tightened financing conditions.",
-        "via": "ECB tightening signal",
+        "id": "foreign-investors-sell-french-government-debt",
+        "title": "Foreign investors sell French government debt",
+        "when": "2026-10-22",
+        "place": "Paris",
+        "lat": 48.87,
+        "lon": 2.33,
+        "what": "Foreign investors are reported to be heading for the exit from French bonds, which deepens the debt crisis and adds to selling pressure.",
+        "via": "foreign investor selling",
         "aspect": "markets",
         "flow": "into",
         "sources": [
           {
-            "title": "ECB's Kazaks says that some more policy tightening might be necessary if inflation continues to reside above target; recent rise in yields has already tightened financing conditions, Econostream reports",
-            "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNOE5VNnRuWnEwRHNoeF9SeWE3TXppaGtWLURxd0ItdWNoTi1wMnB3ekxSNjByVERVd3Z6S0F1TFFycXFOQW1aX2lyZDFfaTd6VlJkVGluOEtlTkpwNlY1TnV5MXEyY1dteFdzblRFZG5KcHVGWm9YamF3cE1SU2YzS1hTdnMwRnRVZ2VDSUdKQkZKMGpyQVh2NGdoMnFyNG5zRXFsN210Zjd6ZHJiMHFBeXVPM0hVN1dTNVFHeld2RjZHV1h1dXNtaXlreGQ0M0hOQllOMklnd1Y0OUVxZWRaLVBoSnQ?oc=5",
-            "publisher": "Newsquawk"
+            "title": "France’s Debt Crisis Deepens as Foreign Investors Look for the Exit",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbHZpbmlQOU91ajdXQW9SU3JXdlZMN3NBUGVQcTFRUHE3RXNfSHRCODNybnBFR081bi1SVmlwS2FHTkFiWFRMOFUzeUYtbTd2cDQ0LUQyQU5rRTdOVGN6OUZpR09hX1R0d0NpQnV2d0lfazI4ckVoTEtBRWtJNWJtUUplVzRBVDdpV0tEQVN1c0dRZWRmNFZ2LWVsWGlGbFg5Q1dYUUpFNVJYd2NwcXdyUlU5RQ?oc=5",
+            "publisher": "WSJ"
+          }
+        ]
+      },
+      {
+        "id": "budget-turmoil-raises-french-borrowing-costs",
+        "title": "Budget turmoil raises French borrowing costs",
+        "when": "ongoing",
+        "place": "Paris",
+        "lat": 48.87,
+        "lon": 2.33,
+        "what": "Reports tie French borrowing costs to budget turmoil and political instability, which unsettle bond markets ahead of the Moody's review.",
+        "via": "doubts over budget credibility",
+        "aspect": "budget",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "French borrowing costs overtake US amid budget turmoil",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSUljaU96WFR4anR6SFhQX3p0TlhwUVBSN0tzM085NkRJeXcwbTdKS3Jubi1BbGVtUllTSkljcV9EQ3VyUVlxcXJQS3NRa1hLRFpvQlg5YUQyTmIxdDVZN0VwSGY4TmJjTUFkSHhOOHVTOVhzVFpRYl9LNzZhdEtLV3hiVDFabDEweFJST3ItS1N5Z3ppQjNKdXlSdnZ3NGdWMWc?oc=5",
+            "publisher": "The Guardian"
+          },
+          {
+            "title": "French borrowing costs hit 24-year high as civil unrest and budget fears spook markets",
+            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTG1pZ3N5RlUyN0Zzb3pGX0VYd3pqWTRtdzM2LUVDZFpXWlZNejE2RjFUY2ppYzFueVdJSWZMWktId3oxQnJvUC1ScHd0TV9xYkQxbHh3dUdfdXZ3OXdMR2x5SHI4ZmF2WmNvbHB3TEdKbmZVUTBDeWRWUkNMT2ZpUXpIU0ZmN3pGdXVIblFWQUxBN1lnSnI4SXFUdDFjbHFVNTVvMXVkUG1oRDdrTk80QzBmNDdFdkxKYWlQTVNoTEhKc1lPZXFHR2hiSm5uWDg?oc=5",
+            "publisher": "The Guardian"
+          },
+          {
+            "title": "The OAT breaks above 5%: France pays the price of political instability",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNm12VU5LWVA2UVBNRE4xRC16UGFWeEVoQm9KbHk3enlrMUtpQ0ZCVWJEWTQ2d1pJYlVsVGxNLVZGV0lqNGNqMlV2UkFRbkR2UENlUTJwbFB0dk9jS05NeVBrWkhEYmpuNDZLbjVXdWlScjFwelFZcGVYa1hiZlVjNXRvWGxWcmJWVUZJa3dYeGpMQUpJdU1UaS05S3Y3NURwUFRFYWE3dVl6VzRqbFREbW45QkRGaVVWX3c1SmtpYw?oc=5",
+            "publisher": "marketscreener.com"
           }
         ]
       }
     ]
   },
   "ukraine-summit-diplomacy": {
-    "at": "2026-10-22T05:23:27.979Z",
+    "at": "2026-10-22T17:58:49.228Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "witkoff-and-kushner-meet-putin-in-russia",
-        "title": "Witkoff and Kushner meet Putin in Russia",
-        "when": "2026-10-21",
+        "id": "russia-agrees-to-resume-trilateral-peace-talks",
+        "title": "Russia agrees to resume trilateral peace talks",
+        "when": "2026-10-22",
         "place": "Moscow",
         "lat": 55.75,
         "lon": 37.62,
-        "what": "Trump envoys Witkoff and Kushner held talks with Putin, who told them he is ready to resume direct peace talks with Ukraine and the US.",
-        "via": "US envoy channel to Putin",
+        "what": "After a US envoy visited the Kremlin, Russia agreed to resume US-mediated talks with Ukraine, giving Putin a diplomatic track on which to seek a wider summit.",
+        "via": "renewed negotiating channel",
         "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "What happened during Witkoff and Kushner’s latest meeting with Putin",
-            "url": "https://www.aljazeera.com/news/2026/10/21/what-happened-during-witkoff-and-kushners-latest-meeting-with-putin?traffic_source=rss",
-            "publisher": "Al Jazeera"
-          },
-          {
-            "title": "Putin tells Witkoff he is ready to resume direct peace talks, Russia releases U.S. detainee",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE85WmRyTzZETUhtLWthdGtkamFBM3VmaE4ya0lJZDdoU1BVZTVpc29oaUZWbHdMMXR5ZWg5THBWR0x3emM5WVdWODNJaS1RMWs4UktVREVCZmZ0MWNuMkYtU1o0c3pZSF82TEJxLVZwZlJCVFMzMmc?oc=5",
-            "publisher": "Axios"
-          },
-          {
-            "title": "Witkoff Pushes Putin to Restart Peace Talks",
-            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUURFRXpxYnNkM29kbkJGbkpLWWpHc1FFTWVPZF9zbjdPQ3c0NExNcUhJSFJPMnpxM19lRzhmYlpBdmV6djB3MjY2QmlXOGs3QW13SUlyeHE4bmlMUEVRMzlEb1VtNkZ2X3BiTTdlbmw5OWRoWFd5WldtMEppdDBUaDQ2YXFVdDZ6TW84Q29QZjFTZno1MzYwRw?oc=5",
-            "publisher": "Foreign Policy"
-          },
-          {
-            "title": "Putin hosts Trump envoy for new Ukraine peace talks",
-            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1CNlJwR0VOQ0lMbElhbElnWE54LTNNYm56cHhTdUswaEVJbW1ubGd5REJDRnQ2cS1MRkZwV2IxRnlTMkZhMUxPMzhNMEtmcElQdS15dzR2ZUFsaEp6cUw1U3NXa0NMSUU?oc=5",
-            "publisher": "Reuters"
-          }
-        ]
-      },
-      {
-        "id": "russia-frees-jailed-american-after-envoy-talks",
-        "title": "Russia frees jailed American after envoy talks",
-        "when": "2026-10-21",
-        "place": "Moscow",
-        "lat": 55.75,
-        "lon": 37.62,
-        "what": "Putin ordered the release of a jailed American while meeting the Trump envoy, a goodwill gesture alongside the Ukraine talks.",
-        "via": "goodwill gesture toward Washington",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Putin orders release of jailed American as he meets Trump envoy for Ukraine talks",
-            "url": "https://www.theguardian.com/world/2026/oct/21/putin-witkoff-russia-ukraine-trump-stephen-hubbard-release",
-            "publisher": "The Guardian World"
-          },
-          {
-            "title": "Putin tells Witkoff he is ready to resume direct peace talks, Russia releases U.S. detainee",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE85WmRyTzZETUhtLWthdGtkamFBM3VmaE4ya0lJZDdoU1BVZTVpc29oaUZWbHdMMXR5ZWg5THBWR0x3emM5WVdWODNJaS1RMWs4UktVREVCZmZ0MWNuMkYtU1o0c3pZSF82TEJxLVZwZlJCVFMzMmc?oc=5",
-            "publisher": "Axios"
-          }
-        ]
-      },
-      {
-        "id": "china-prepares-trilateral-meeting-at-apec",
-        "title": "China prepares trilateral meeting at APEC",
-        "when": "2026-10-21",
-        "place": "Beijing",
-        "lat": 39.9,
-        "lon": 116.4,
-        "what": "The Kremlin said China is preparing a Putin, Trump and Xi meeting at the November APEC summit, which it called a possible historic summit.",
-        "via": "Chinese host offer for summit",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "China Plans Trilateral Meeting with Putin, Trump, and Xi at APEC Summit, Kremlin Says",
-            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1qSGRGNWNydzF6cUUzY1R3YnhBOVlQVENVSk5LZ2JjLVAtNXpjV1pyU1NzQkZTQzV3U3Rqa0M3NWF6NFlob0lsYUsyU05VZ3hzWVJLNkJjYUU?oc=5",
-            "publisher": "CubaHeadlines"
-          },
-          {
-            "title": "China is preparing a trilateral meeting between Putin, Trump, and Xi at the APEC summit in November, according to the Kremlin",
-            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbThHc1VPUWpqYk1ITGtlM0kycGZVVzhUeVNEQy1lSThzX1BnNGZpZm5tbkZWQk9ZVzBYNE0tNktEWGZjZ2ROeDR5aWpZWlhadUZMODRrN0lyUzZ3SXUxMHhQdnlMSmRYTktWa0Vndk1MWEJSQ1VUYTA3bGoyMTdVMGZ0dkVCc1FMbzBNVUFSLVZMRW1JejYtYTg2MkV2MGlQR0YtNXBSRy1obVlPbExLcVgySlh3UVBOV0pXUQ?oc=5",
-            "publisher": "CiberCuba"
-          },
-          {
-            "title": "US, China, Russia plan first summit at APEC as Ukraine talks restart - CHOSUNBIZ",
-            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZXdTLXd3ODZJSmxoVTFuVTNzWVllU0JxbVpUeFNEbVM1dUFwN3lwdUJQTWx4QmJ1OXBCWFBQeWd0bnNwYW5ISGJSbFV0NlFMaU9faWNPUWVMVUVxTWlrQVdBbWNRZlhaTzEzb092OG9wRGFOTGlucjY0UDVhZXRIeklhaVc2dTVJ0gGcAUFVX3lxTE9oWUQtYnFTM09ReVplbnNZRDBfNUdEQlFmdzQ4a3NDd2l3MDBwY2szMjc2Mng0TDR5ZjYzZTVudWxhSmFXa1U2czJjUGE4WGpzbW1hQ1pBcUxQLV9Cc0ZvbGhVWEZaRUM0ckRybmc2d085b2RTeGQ2YmVzcjFwUExDWEtGRWtNcU9DaFRxMFk1TXRQU24tSWs1SmRTOA?oc=5",
-            "publisher": "Chosunbiz"
-          },
-          {
-            "title": "Putin, Xi and Trump could hold 'historic summit' - Kremlin",
-            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQm9GSEM1Z3otekh0eVQ1TGg3MmdkT3lQRnFkLXktY1lWdVJZRER1R1B2QXZ6NUdMUHRITFROQ0JxV0lpTE42SUdlYUtlRkxlb0JjN1ZZOTQ0M3ZyZjFVUTUyOWs1OUxBemMyUVUtemlWR3padXI5dWQ2SS02MWRNOHlaOG5iV25CTHJKWmtDcHNkVHNYQUNyb1BBVklnaHo5?oc=5",
-            "publisher": "Big News Network.com"
-          }
-        ]
-      },
-      {
-        "id": "putin-and-li-qiang-reaffirm-strategic-ties",
-        "title": "Putin and Li Qiang reaffirm strategic ties",
-        "when": "2026-10-21",
-        "place": "Beijing",
-        "lat": 39.9,
-        "lon": 116.4,
-        "what": "Putin and Chinese Premier Li Qiang reaffirmed their strategic partnership ahead of the APEC summit.",
-        "via": "Russia-China alignment before APEC",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Putin and Chinese Premier Li Qiang reaffirm strategic ties ahead of APEC summit",
-            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOazhOam1weVFuWHU0bkk1VzNQMWVUdTVWeFBFRWdNTHFUY3FFU213akJnSGM4Y241TUpyV2tOYzRmS2NCQWRBNjlMSkhVMExOcFVRVGJFNGtWMDBOQngyQ0J1d2xFcEkxUm9LeGFnb01HLUtQLVpqczlGYlV5V1hLTFFVV2pydWtUMElCWkNpei1XQ1N3eDZlbUdDNTY3XzB6Q1FEZ0hSVTdNXzhUNjVZbDc2NVVGMGdvS0tIeml6c2p2V0NXTXlYVmZxSQ?oc=5",
-            "publisher": "The Standard (HK)"
-          }
-        ]
-      },
-      {
-        "id": "missiles-hit-kyiv-as-moscow-signals-talks",
-        "title": "Missiles hit Kyiv as Moscow signals talks",
-        "when": "2026-10-21",
-        "place": "Kyiv",
-        "lat": 50.45,
-        "lon": 30.52,
-        "what": "Russian missiles struck Kyiv right after Moscow agreed to a US call to resume peace talks, so fighting continues alongside the diplomacy.",
-        "via": "battlefield pressure during diplomacy",
-        "aspect": "security",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Russian missiles hit Kyiv as Moscow signals readiness for peace talks",
-            "url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks",
+            "title": "Russia agrees to resume trilateral peace talks on Ukraine war",
+            "url": "https://www.france24.com/en/russia-agrees-to-resume-trilateral-peace-talks-on-ukraine-war",
             "publisher": "France 24"
           },
           {
-            "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
-            "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
-            "publisher": "BBC World"
+            "title": "Putin AGREES to US-mediated Ukraine peace talks",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1JdERiNFJ2QjB5eFZHSG1SN1dYVnJXWDNwZ0Rieko4bHpkZXZlMUJnSFFHVEE0QkRkVlNCNnZRNDlESHBkWGk2NjE1RUpzUmpOUXNfN21n?oc=5",
+            "publisher": "Fox News"
+          },
+          {
+            "title": "Putin open to new round of peace talks with Ukraine, U.S.",
+            "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBpcFBETkJtR2l1dGlMZ2d3T2VBN19fUjhXMUNnei1pUzVYSWVWOTZtSUtYMExPVnFNUXhVdEFjRXRFTzV1R1pnaE1CN3duS2wwUTUxYW5ibVl4b2lh0gFiQVVfeXFMTkNiVTBBZnJZZFFLX0ppM0JQUW5HaE9OaDJyaXlaSDFnS0lvX1hTd2Rfb1dLdl85NzI0SldwdTFkb2lWYlNpVjk4cm9YSGtXRU9GQ21LZUFDdFo0ZzhPeEkxdlE?oc=5",
+            "publisher": "FOX 29 Philadelphia"
+          },
+          {
+            "title": "Ukraine and Russia exchange strikes after US envoy visit to the Kremlin",
+            "url": "https://www.france24.com/en/ukraine-and-russia-exchange-strikes-after-us-envoy-visit-to-the-kremlin",
+            "publisher": "France 24"
+          },
+          {
+            "title": "Vance: Witkoff is optimistic about Ukraine-Russia peace talks",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRDdjZEo1VGZDdFM2dWtNV1p4MlkyWDRBRWRNbU5uNThGM2plSmhPWFpqdGVOY0NCcXh2WW5wUEREMW81QkJEQnFQVG9FNldUdnFYb0NRd0tiNTk4d0hvTFFGTy05N1dWbjBJWnVmRzhEUTY3UVVQOWlISzJEWXBFOUlISFc3bW5yTW9adGVKWHJ4UEk?oc=5",
+            "publisher": "RBC-Ukraine"
+          }
+        ]
+      },
+      {
+        "id": "trump-wants-peace-deal-signed-at-miami-g20",
+        "title": "Trump wants peace deal signed at Miami G20",
+        "when": "2026-10-22",
+        "place": "Miami",
+        "lat": 25.76,
+        "lon": -80.19,
+        "what": "Trump reportedly wants Putin and Zelensky to sign a peace deal at the G20 in Miami, and the Kremlin has responded, shaping the leader-level summit push.",
+        "via": "US push for leader-level deal",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Kremlin responds to Trump's reported wish for Putin and Zelenskyy to sign peace deal at G20 in Miami",
+            "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTjdFS01ER1VQLWtYT3ZxWlZYUTE1NEQyYlRRWldENHNCaFg4ZlhoVUQ0NDlxWWZ4aEFtT3p6YXNCTEV2ZG0weHEwSktSUTZLTWhPb2V6N3ZQTXpEOXAxZFd6OHloWGFnOTNfQlVsUHhGNnE0STluTEpfWVNjdHlCdmcyNTUxQmRtd3gyVnh3VjFCOU5aUU0zT0xOSGpBWl9VWmYzLU9mdTllODB3UkZqTVBrLTBzczY5YktzaUI1WDFhT0otZG5UTmR1Q3lxTzNSSldlNdIB0AFBVV95cUxOU3VuT2Q2bG5kOGFBUmRkT2xmUTQ0cUk5NFFsWENlRWJ2WFFSaktxU2VOZm5veldXYzJ4enEtT0xyNEpNUkxUODA0Z0ZqRlZxM3YyME9LZzlqVW50T0oxMFJDdG15SlBvNGttSEVnb2Q3aWRJR2pweG5CYlRkeXFpWFh0SG1OT0lnN2tWTmtKSmdYemptOVkyei1ZMkd2TG4wRnI4NC1PN3kzZ0tpQkdkX3ZrVTdDM1hOV0pHWmNPeHY5MENYODBwMHo1TXpyUGtZ?oc=5",
+            "publisher": "The New Voice of Ukraine"
+          }
+        ]
+      },
+      {
+        "id": "russian-diesel-decision-eases-pressure-on-moscow",
+        "title": "Russian diesel decision eases pressure on Moscow",
+        "when": "2026-10-22",
+        "place": "Washington",
+        "lat": 38.9,
+        "lon": -77.04,
+        "what": "Czech President warns that Trump's decision on Russian diesel weakened pressure for a Ukraine ceasefire, reducing Moscow's incentive to concede before any summit.",
+        "via": "weaker sanctions leverage",
+        "aspect": "energy",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Trump’s Russian Diesel Decision Weakened Pressure for Ukraine Ceasefire, Czech President Warns",
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNm1YMDFIaFEyY2pGb2todkswcDZMRjBOZGRwNEwwM2E2dEF2cG91WEY2dkpRT29iUm85ODNvRFM5d29WVlhwRFg0eDNnQUQwWTladThqUFRPV185Qk8zUkQ2TFVkZG5nREQwZFVaaDVTNHAxRjhTVEFQUmFEYk4tZDFsUHNlYk1IRkZWZ3hOUEZWa0hSUGRkMDFOLUo5LWVJYWowWk93ekMyVVdpQjh1Z2Joc1lFZWcyTDJ1MjBxa2JJd2ozWmV3QWpn?oc=5",
+            "publisher": "UNITED24 Media"
+          }
+        ]
+      },
+      {
+        "id": "russian-missile-and-drone-strikes-on-kyiv",
+        "title": "Russian missile and drone strikes on Kyiv",
+        "when": "2026-10-22",
+        "place": "Kyiv",
+        "lat": 50.45,
+        "lon": 30.52,
+        "what": "Russia pounded Kyiv with missiles and drones hours after agreeing to talks, while Moscow said 808 drones were downed over Russian cities, so fighting continues alongside diplomacy.",
+        "via": "battlefield pressure during talks",
+        "aspect": "security",
+        "flow": "both",
+        "sources": [
+          {
+            "title": "Russia bombards Kyiv with missiles hours after agreeing to resume talks with Ukraine",
+            "url": "https://www.theguardian.com/world/2026/oct/22/russia-missile-attack-kyiv-hours-after-agreeing-to-talks-ukraine",
+            "publisher": "The Guardian World"
+          },
+          {
+            "title": "Russia pounds Ukraine's capital Kyiv with missiles and drones, hours after agreeing to peace talks",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1saDFuT2F3bEpyOE0tOWluNXBPSHJkVVB0bEN4S0puZW9heVY3NHl3LVJnMlFDTkNxaUZ4YkZWUUdiel95d05tM2tOSVJya0NKcWp6SjQzbUpWTlg4WnBiSFIwUEItdGVydlBqbG1JMU5uT0l4OEZHVA?oc=5",
+            "publisher": "CBC"
+          },
+          {
+            "title": "Russia pounds Kyiv with missiles as Moscow says 808 drones downed in Russian cities",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTVlzVDJqZVZpTEJjRTl2eEZMOG5rdklJN0gtNTY5VzNjdkFPTG5zV2hVTi0yak1KWmlmQzFfejdXMDNIamxuLXZQUUVMZjhYX1lHM1F3VHQ1STdfMDFDTjl0T0xaMm9VMVBpVi1oU0lFd2NRR3VNSkNWcnEteERPSGZvdDU0UUl4Y0pGVmpBRmVKaF9NaFkw?oc=5",
+            "publisher": "Gulf Coast News and Weather"
+          },
+          {
+            "title": "Russia pounds Kyiv with missiles and drones, hours after agreeing to peace talks",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOEdGTWtjTl9xZ0UwUDlueUFBSG5PaXNRZW1oN0o4ZXF6Q1pjbEhrb2RmWkdVVUJTeEQ3ODQ0R1hoSFNjbTFVSEN0aEQ1SF9DeExXSmRubWNLcXhvWG4wSGs5Q0pKM1BjZWd2SExwNUprNWdzeFNBR2hLRjYxVnFCN2stOGh4WmYyb2JZZzZsNVVUdzRENFIxeXFDZVZVRm9Zd0N5N19IY3ZmYzYzbjA4?oc=5",
+            "publisher": "NBC News"
+          },
+          {
+            "title": "Russia and Ukraine trade attacks despite pledging to resume peace talks",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbGRabkVHeGhCTkFkZ0hucWpyOG43aFpDYnQ5M0JhaVVrXzVzQkxhNjhPYUhMbEFGTnV5OHNSSnFoaFA3Q2dOc05MdERXMDVDa3ZmZzd3aTRJTzZpWkdnMjJTVTZsUGdwMXk1YjdvU3JNcG1tOUVlWFNYSl9OTWpmaDZsWnF5NGljUDN3N2dEUWlsY1NNQUdqVzNveGZHcWVoTWVXX0ZYbUlxSXpWYlVVck9yRnVGNDBYeXEtQlVWZWbSAcYBQVVfeXFMTnNCTmZjczk2bUhXQm5TeERlSU41VkF0Q1Q0bjFQbnktdUROdEl1UzYyVTljU2NQT2x3NzZGS21CWlJ2bEx4SEhZYTVOWVRqTGhCcnJNbEl5aW5CUTRpdDdsdWZUYUF3WHhYNEM4VXM2Sll2TWJqdXBQeWVhTmpIS0xOOVR0S1k3NWd4VU5EN3NoU0hJSndlcDJGNzJhYXRQT2JOWkVZaS05RXRERkJhOXFXckJzZDNZZnJDUHZyaE56cUkzS0p3?oc=5",
+            "publisher": "Al Jazeera"
+          }
+        ]
+      },
+      {
+        "id": "zelensky-backs-a-front-line-freeze",
+        "title": "Zelensky backs a front-line freeze",
+        "when": "2026-10-22",
+        "place": "Kyiv",
+        "lat": 50.45,
+        "lon": 30.52,
+        "what": "Zelensky backed freezing the front line, a position that shapes what Putin, Trump and Xi might discuss at a summit on a Ukraine deal.",
+        "via": "Ukrainian negotiating position",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Russia Strikes Kyiv Hours After Agreeing to Peace Talks as Zelenskyy Backs Front-Line Freeze",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWEtwZVdDdzFiWlRzQ3o4ZlduNzhKMU1FRjhaVEUxYl9rZEJvZVJpdkZ0Y0swNTljNklEWGhacE5JcE1VTWROTHBYWjA3QnVqQ3hwSGhvZXg1T21CdXE3YWxTWnhiYS1WU2tEYkFMWXRRU2YzVlJ4eGVEeUxCaU1kUFRTaXFxd1dIWG13R25ySkEyNHdJcUhSRFBMNW81NG5LU3V1WTRxY0RNS2NN?oc=5",
+            "publisher": "EEW Magazine"
           }
         ]
       }
     ]
   },
   "gulf-war-energy-shock": {
-    "at": "2026-10-22T05:23:27.979Z",
+    "at": "2026-10-22T17:58:49.228Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "attack-on-dammam-airport-kills-one",
-        "title": "Attack on Dammam airport kills one",
+        "id": "seven-tankers-hit-in-strait-of-hormuz",
+        "title": "Seven tankers hit in Strait of Hormuz",
         "when": "2026-10-22",
-        "place": "Dammam, Saudi Arabia",
-        "lat": 26.43,
-        "lon": 50.1,
-        "what": "Saudi Arabia confirmed one person dead and eight injured in an attack on Dammam airport, in the Gulf's main oil-producing region.",
-        "via": "Gulf supply security fears",
-        "aspect": "security",
+        "place": "Strait of Hormuz",
+        "lat": 26.6,
+        "lon": 56.3,
+        "what": "Iran says seven oil tankers were damaged or attacked in the Strait of Hormuz, adding to mounting attacks on shipping and fears of a return to war.",
+        "via": "shipping risk and freight costs",
+        "aspect": "trade",
         "flow": "into",
         "sources": [
           {
-            "title": "Middle East latest: One dead in attack on Dammam airport in Saudi Arabia",
-            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQ2R1cnowWHhzQXdZcXRMWGVEZU83YmJaLUE3bHk1b1hleDhCNmpwcVJDbEg0Zll0LWpjTkhwdE1qc3hUdTJYSjdmMFlMaml2eTBPeHVwWll2bVFsVDJ5REx0RHk3YllpeXZuVVc5enVhS2ZyazlYQ0xGQl9WV0NMM1l0eHM0QQ?oc=5",
-            "publisher": "The National"
+            "title": "Iran says 7 tankers damaged in Strait of Hormuz, and other Mideast news",
+            "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQZVF5bTlQQ3JOTHBtQmFXZUJ2OVlILUs0Nk5IbTl3aDV0TnluR2p6aFo4cURmMlVFMmVHUG5UOTRicndGRjFCZjF4RGQybWlJTkx2V2ZNbXk3ZTVnNWdvbzdkTVR6NFBoVE9fRE5pSnBYNlYzZkl3eUVSX05VTG5hYzdhMEpjdVU4RzJqSW1pSlFYckdCVjFJNU93WU5GOW5oYnZpX0pQY3Jqb0JtMUFnZGNnSUd4WXNpYmVQSjJfMjdXMEhqX0cxRXN5YmNIZndMdzN4YmZ4XzQwUzltRlJFektJZTBTS3Z2ck1lZjBfd2QyLXFUU3VPZ2Rib0c3VkRmWXJPY2VJdmtvSzBzQ3JPQnpn?oc=5",
+            "publisher": "Cherokee Tribune"
           },
           {
-            "title": "Iran war live: Saudi Arabia confirms one dead and eight injured in attack on Dammam airport",
-            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
-            "publisher": "Arabian Business"
+            "title": "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOVo5NGVvb09wSzBSTFVOa21PVVRNWWlEYUd1ZEU2U0tjTm55R3hYQ2Ezd1lUWUYwbFNpVUhJVDBxNlZaamJKaDJvblV1dl83LVhSX21rMkZuUXQtWFZmZmpZbXRrMkwwRzloVnA0QUs0cjN5MXNiZDBKR2MwaW9Sa1BKUGlaRUlQeG5PYnNPcTQ3YXZFc3QybjE1ZmVCYVJmY0doag?oc=5",
+            "publisher": "AP News"
+          },
+          {
+            "title": "Iran says 7 tankers were damaged in the Strait of Hormuz, and other Mideast news",
+            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWmRHdjNVcUxHaTR1V1NKRDhMZTdrV1lWXzZCWERDeWhCU202dUJpLWdlSDhJQ1RQeWJReVkxdVAtcGdhN3o0cklhT01PM0lsSTFmT0VDWmsya1VrcGNLcVNYU2pGMVZndWl3UWw2ZU1aWjl3Tko4MGpKV0NtcElZOGFxVHBsc2Nydi1qNm9uNDEzRmQwTnpOZ1lUQ1Uya2c1NkdFXzFPbE9ZUFphQ0dMX0hCUjY1dk5id0IzWmJzbmp4Z2l4S3cwRdIBzgFBVV95cUxNTnlFWk16SDVKOXVyaUtOS2twQ1BabjBXeUlVMUVJd01IUF8tMVA0QzBzaUNDLUFxN0FyQW9EeU0tQUhmQTJlYnpwMVB3TmxDVkxjWWdWaUphZmtxTkw0X2tFbWEwRXpIYnlpaXRmcWNHTVVfU0Rfc1lRSmdSWWc4ZlZ6ZnhwNnByUFB1SW5PR21JZUFOcFFWOFVESFc0WDl3RlZGNzNPb0NfdWU4end3NTk4dUxxUDNkanJRXzJlazlaSnphRHVVbGJTVFVMdw?oc=5",
+            "publisher": "myMotherLode.com"
+          },
+          {
+            "title": "US, Israel weigh new Iran strikes as attacks on Hormuz shipping mount",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTFU1NkJqRURqVVAzck4xVkpmbjF5ZEJMblM5OUMwQWt5YWZyVTY5LUVMRFdSdDF5T0IzOU1nU3RmQXhRMHZsc2J5MVNPVGo5dThmUHlpV0VTaHptRGhoZWp5NjM1bDBCVHNZemZwWGpjX09hY29OVFhfTzBYVTZrQVNaZVB0bE9oVnhOX1NwLTdiLUt2VWlWczV5bFdVdTg?oc=5",
+            "publisher": "Stars and Stripes"
           }
         ]
       },
       {
-        "id": "us-orders-diplomats-out-of-saudi-arabia",
-        "title": "US orders diplomats out of Saudi Arabia",
-        "when": "2026-10-21",
-        "place": "Riyadh, Saudi Arabia",
-        "lat": 24.71,
-        "lon": 46.68,
-        "what": "Washington ordered some diplomats to leave Saudi Arabia, citing the Houthi threat and escalating Houthi attacks.",
-        "via": "Houthi escalation risk",
+        "id": "houthi-strike-kills-two-at-saudi-airport",
+        "title": "Houthi strike kills two at Saudi airport",
+        "when": "2026-10-22",
+        "place": "Eastern Saudi Arabia",
+        "lat": 26.4,
+        "lon": 50.1,
+        "what": "Two people were killed in a Houthi attack on an airport in eastern Saudi Arabia, and Gulf markets fell on the fresh strikes.",
+        "via": "attacks on Saudi territory",
         "aspect": "security",
         "flow": "into",
         "sources": [
           {
-            "title": "US orders departure of personnel from Saudi Arabia, citing Houthi threat",
-            "url": "https://www.aljazeera.com/news/2026/10/21/us-orders-departure-of-personnel-from-saudi-arabia-citing-houthi-threat?traffic_source=rss",
-            "publisher": "Al Jazeera"
-          },
-          {
-            "title": "US orders some diplomats to leave Saudi Arabia amid Houthi threat",
-            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZDFhRUpPR1pROUJ3eWkwc2FaMnY1dm12SWY5djlRN1otRmJ2STdnUGRtcGljQVVHLVdrODJEWWhsaFZhZUZjSnVrYkZLWmpQOV9xeXRHUlhDMmpZdDE5ZUZYTHFEZjJDMWs1VEdmNzhtMWFkSU9iekVsckZDemNWdWFJM2ZMajVKTmhQMTZOc2RGTk1kQzJQZjZla2FuTFXSAZ8BQVVfeXFMT0NpTjVqLVJCNG9LUWJ5bmMzSE1JVEhtMXdDclJpNDBOanRLZjNwMzNNVklVMzhMcF9FUk1RU3c5UHN0YXpNcGJfeExxVFRuYWJiVFR2R2M0NVpObUFPbnpYbmRLejRWcFl2ZEtXR0cyOHJad1djdUh5bk1VVHNkeEFfZ2RDMl9uWFdMUjRwcVlaQjBuWmRhRkUzbmJaT2hB?oc=5",
-            "publisher": "DW.com"
-          },
-          {
-            "title": "US orders diplomats to leave Saudi Arabia amid Houthi strikes",
-            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQX2hfejdjOVFxeWk1TE9zcExkd3RINmNvSnFqRUh0NGdFYkQwNTBSOWsySkd6ZUpBZUZUa0Qtd3BtUnN1OUd4T016UXZ2b1I4dUN6TEMxNVZzTW5qMlRSN2taRzRVd3ppNHhkSXlwQnlKOHMta0RCSXBfcmY2bWRPNdIBhgFBVV95cUxOMkpUZEtNWHdldHE2Y2VZVDJGc2Q3eXVoMlpETVdjWE5KX0RsOXBodDB1RDJUUkJtTWpodHFJenJOX1Y1Q29SQWxoM3JCTXVTT2ozOU5NNl9FeGdNQTNtcktqUTE0Z01vZjY3Z2o5WjJNNDctRG9XNUlmR2VOUm11RUxJUGl5dw?oc=5",
-            "publisher": "NewsNation"
-          },
-          {
-            "title": "US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate",
-            "url": "https://www.bbc.co.uk/news/articles/c6x2vpk93770o?at_medium=RSS&at_campaign=rss",
+            "title": "Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say",
+            "url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
             "publisher": "BBC World"
+          },
+          {
+            "title": "Gulf markets fall as fresh Houthi strikes on Saudi Arabia raise regional risk",
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQS1ESU5ra242UzdCbkxuVkNzUkV2NWZVTGlRcDZnSzJBeE5KTkFyMEZvaTd0ZEl4LWduc0lmbGZkRnV6REF1dV9VUkRESHpVM3lLUkt0SmtfQzJDLXdnZ0l6akwwOWZpS1lza2tSbHczcnlpU2JPSXo5eHNrY0c4aWNpWjNJSlFYa2M2UEhDNnVsUnQySGF6MVJSY1FPam1LSlliSkJUTzFKck9tZ2J6S2xlUnVSam1TTllJbUxQWmtTcjQ?oc=5",
+            "publisher": "Reuters"
+          }
+        ]
+      },
+      {
+        "id": "us-orders-staff-out-of-saudi-arabia",
+        "title": "US orders staff out of Saudi Arabia",
+        "when": "2026-10-22",
+        "place": "Riyadh, Saudi Arabia",
+        "lat": 24.7,
+        "lon": 46.7,
+        "what": "The US told some diplomats and staff to leave Saudi Arabia amid Houthi attacks, a sign of rising regional danger as Brent topped $113.",
+        "via": "heightened escalation fears",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Brent crude tops $113 after Trump hints at action on Iran, U.S. orders staff to leave Saudi Arabia",
+            "url": "https://www.cnbc.com/2026/10/22/oil-prices-today-wti-brent-saudi-arabia.html",
+            "publisher": "CNBC World"
           },
           {
             "title": "Some US diplomats told to leave Saudi Arabia amid Houthi attacks",
@@ -505,112 +592,83 @@
         ]
       },
       {
-        "id": "us-and-israel-plan-post-midterm-iran-strikes",
-        "title": "US and Israel plan post-midterm Iran strikes",
+        "id": "kuwait-lifts-oil-output-above-2-million-barrels",
+        "title": "Kuwait lifts oil output above 2 million barrels",
         "when": "2026-10-22",
-        "place": "Washington, USA",
-        "lat": 38.9,
-        "lon": -77.04,
-        "what": "The US and Israel have reportedly drawn up plans for renewed strikes on Iran after the midterm elections and are stepping up military exercises.",
-        "via": "expected new strikes",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "US, Israel draw up plans for post-election strikes on Iran — report",
-            "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOSFBzU0hXeVY4eW5XNFU2WlJVb2Q3LVB4S1Q5bmVpUHU2UENabklEXzVkSExrSldCYUY1dmdocXZ4QmtZa29DSnlBcXVIbEJDVzU5ZE9yQ3NubnBIRGVFM0VJM0FxU2FoM2g1MWhTeEdjQTNvUURNMDViajRLSmJNcUdqTVZwb2VVQnZBNTVNcVFyRGxxREVfRmlIeF8yb2xtR3VQU014ZktGRjd1QThCWlpwZk5HOWpxSDVJZVJRSTZMdk8xY0dxQW5qdWRaS0lPRWhlTE1fMkhaTlhpYzZsdm1wbXZ2dw?oc=5",
-            "publisher": "TRT World"
-          },
-          {
-            "title": "US, Israel plan renewed Iran strikes after midterm elections, step up military exercises: sources",
-            "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPM2w3SE9DN3JOWWtOeW5MbWdrdEZDSXVLSkJ1d0FDVW9PWW1JYzVzYXRMVm1JQ1Bkc2oyWm1aSFBtME1nM3c0NUp6SV9ZcjZDaXhGYlFZazlUdFlFZUx0aVM3enZucG1qa2JDY0xyOVhwNWxDUV9YWjBhTGJrdWRac2E5QU9na0RFRHl3SV9VZFlFTkc1ZjdaaGRwMzIzcjdhYXBzblZVeWVSOVFya0pmX0o2R2RBbDNLQms1RXZ0LU5UU0FOTTdOQ1J3eWlUUDMtUmVONg?oc=5",
-            "publisher": "The Business Times"
-          },
-          {
-            "title": "US, Israel plan Iran strikes after midterms but expect limited impact - CHOSUNBIZ",
-            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNN1d4bmtoX2pTYmdjZHlYeGF4eld1Q3kxeHB2TUg1MzdPZlhadUdFSzl3YjR4UVpWc3dvMENzY19qSEZhWnQ3d2o3TGNCOTlkY2w2UGxZa1VOZnMxSklERHhmcGdZS2FzTXJ3bWQ2bmdhblE3MldFYzdoeEQxNWt2SmUzbVQxY2Iy0gGcAUFVX3lxTE56QWZCazB3NTZJUE5VM1RqVk4xR3JVeGtMdC0yOVRMVTRpSTJqVkc2TDZJNk5naE5BUnhBZEx6YTRTaUxtZGtQX2RMZXpHLUc0aDFMR1VkaVc3NHhPWWJwY0Y4SEdNRGNScU8tUUNTV2JpQUV3R0ltdmtiaWZvTEgtYV9FZUtIazAwNnV4aHdGelFZbjRmay12cUg5ZQ?oc=5",
-            "publisher": "Chosunbiz"
-          },
-          {
-            "title": "U.S. pulls diplomats from Saudi Arabia as it reportedly readies Iran strikes after midterms",
-            "url": "https://www.cnbc.com/2026/10/22/us-iran-trump-hormuz-.html",
-            "publisher": "CNBC World"
-          },
-          {
-            "title": "Will Brent Jump 28% Again? US and Israel Draft Post-Midterm Iran Strike Plans",
-            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMkoyclZxWDJZck9FSnE1aTlHSnk3WUdDNWwtRkdiczN1LUpPdzMzTzdfaEc4aVdhVmdpdXo1VnpiWUIwUDdIWW1nTWRCazJ0N2NjWnRsT2FGQ1NxSW5WRjZDelRBV1BQekxsejNmTFRJYVRLZG1CMjBaN1RFcnFpSnpqMzZiQQ?oc=5",
-            "publisher": "Yahoo Finance"
-          }
-        ]
-      },
-      {
-        "id": "hormuz-attacks-surge-as-gulf-exports-hold",
-        "title": "Hormuz attacks surge as Gulf exports hold",
-        "when": "2026-10-22",
-        "place": "Strait of Hormuz",
-        "lat": 26.57,
-        "lon": 56.25,
-        "what": "Attacks around Hormuz have surged, even though Gulf oil exports are reportedly higher than before the Iran war.",
-        "via": "shipping risk premiums",
-        "aspect": "trade",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Gulf exports more oil than it did before Iran war despite surge in Hormuz attacks",
-            "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNcDNtdTRoMWdBQWxmUERXdGNLdng3bW1NSGJSc21CVmVYQ0dOZXQzcFpZTDAzWkU4RndRUUVjS0RwLUptMnkxNXFqT0tzaHlrSGZjaU9zWWxVS09IVHFZTUtzZWpqTGRjeENSUGxpUlhhcUJ0eGJCbEFvb3hVRzFPM0ZOODZ0eG5JbWlOaExSeVJZQVo3TExNVmxITTVhWks0N0t0NFJUcnh3LXlaaFRPMkRVMHA3VXdDSjVEU1JKb2hWUUtpdFNyRkF2WlczUHlRblVxUEo1dUI5bjEtYXotVTZXOW5hZnZVLUphNWRscnNYZ0dxUUZWRDZZUmVnRXc0RkR3?oc=5",
-            "publisher": "Middle East Eye"
-          }
-        ]
-      },
-      {
-        "id": "opec-keeps-november-output-targets-steady",
-        "title": "OPEC+ keeps November output targets steady",
-        "when": "2026-10-21",
-        "place": "Vienna, Austria",
-        "lat": 48.21,
-        "lon": 16.37,
-        "what": "OPEC+ agreed to hold its November oil output targets unchanged amid the Iran war, adding no extra supply.",
-        "via": "unchanged crude supply",
+        "place": "Kuwait",
+        "lat": 29.4,
+        "lon": 47.9,
+        "what": "Kuwait has raised its oil output above 2 million barrels a day during the Iran war, changing how much Gulf crude reaches the market.",
+        "via": "shifting Gulf crude supply",
         "aspect": "energy",
         "flow": "into",
         "sources": [
           {
-            "title": "OPEC+ Agrees to Keep November Oil Output Targets Steady",
-            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaWIzaV9QMGF4MDZQT0pHT3FRbTRDN0pzNkVBTVI0eDhPQ00yRjNCTUxBS3B6MWFTU3BHcjdqUlpQYzBpbWN2QTJWUFB5VlFCUDU0Ulg2bEdMTkxzTzFjN1pyX3FnX0dUWHpJaWFyNEtxS1ZheTVTU2pzTVROX2tZeGROTU5qRmozYV8xVk5n?oc=5",
-            "publisher": "EnergyNow.com"
-          },
-          {
-            "title": "OPEC Holds Nov Oil Output Target Steady Amid Iran War",
-            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYXpscFozN0ZkLURGVzNYR3AyV1dkSlRoR0s1THBWUG5TYmM0aEtHaUlXT0kxN2ItTWFzak10TFhrNHVPbXd1bl8xRUt5bXZmSWQyUVVZbXRhTWJqQW5rQ1oycjRMVTdxNGlrOTd3VldfVVc1VHVWRVY3TGtRaEZFbTRsal8xZGJHSVJmYWU3dWlLXzdwVlZEdA?oc=5",
-            "publisher": "THISDAYLIVE"
+            "title": "Kuwait Raises Oil Output Above 2 Mmbbl/d Amid Iran War",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWndEQUpjdkh5V1F0T3NWRUUzTUJOS2Vqcy1hOWtVVFdLdWlOVmlWdUp6Y2s3NE5kc3pzN2ZmQWozdHo5OHFBTU02c1hwaE5kc1lNMTFzMkkxZXdOaGVZOWxwcnRIX2pYUDFMTUpoSEpiYXpUWU0zUDh6X3ZUak5GcWFjXzZJOGdjbHk2c0dB?oc=5",
+            "publisher": "Egypt Oil & Gas"
           }
         ]
       },
       {
-        "id": "iran-s-shadow-tankers-run-out-of-oil",
-        "title": "Iran's shadow tankers run out of oil",
+        "id": "iran-sets-seven-conditions-to-reopen-hormuz",
+        "title": "Iran sets seven conditions to reopen Hormuz",
         "when": "2026-10-22",
-        "place": "Persian Gulf",
-        "lat": 27,
-        "lon": 52,
-        "what": "Iran's shadow tanker fleet has run out of oil after months of a US blockade.",
-        "via": "lost Iranian oil exports",
-        "aspect": "trade",
+        "place": "Tehran, Iran",
+        "lat": 35.7,
+        "lon": 51.4,
+        "what": "An Iranian official laid out seven conditions for reopening the Strait of Hormuz and resuming talks, setting terms for any de-escalation.",
+        "via": "terms for ending closure",
+        "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "Iran’s Fleet of Shadow Tankers Has Run Out of Oil After Monthslong U.S. Blockade",
-            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNa0NkenN2WUo2NHU0WXRYU0dmdldBVmhIVmphdk9HZFpMckZOZ2paMVFiQ3BaMHFCZ0lydjdyVHVWWUFwNUwzblVZVWVacU8tRXBCVXI0V1pibHdaT1BtelN4Qks5eVA0VDJkOGdWS1BpNWhZZVdtRXgtMmJ2bXFkYkZUMlRSNjF0WTBVZEZKdkVkakgtd0R2SnZHUk9MSHNJYXppMUpWNXhDMXFJQjg1QTBoemZBUG9GWVNwRlZyZW9xYlE?oc=5",
-            "publisher": "WSJ"
+            "title": "Iran sets seven conditions for reopening the Strait of Hormuz, resuming talks: Official",
+            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQR1ZDWnlMSm0tajQzNXh6b0s1enM3aW1NY2tjdkZqX1B5SHdWQTBMNlFTZFNkeU1ZbGpreXJHZ2RJRDIwc0ZiMFVtZngyOEI3ak9QaXNsV2tuVHhBdlJRMGlKVXVMZzkxYUdEeEJVU045LVN2a2VibFZjR0F5N3J5dFItN2pDRlZPaGgwRXN2WUVlNG9tNEhmQnZ4TTBQVF9icFlkSVFPdUxfcENGcXVzSmJEYlg1M2treXkzdFVpSzBvNDhvRElpcw?oc=5",
+            "publisher": "The Malaysian Reserve"
           }
         ]
       }
     ]
   },
   "us-canada-trade-war": {
-    "at": "2026-10-22T05:23:27.979Z",
+    "at": "2026-10-22T17:58:49.228Z",
     "by": "pipeline",
     "items": [
+      {
+        "id": "us-accuses-canada-of-election-meddling",
+        "title": "US accuses Canada of election meddling",
+        "when": "2026-10-22",
+        "place": "Ottawa",
+        "lat": 45.4215,
+        "lon": -75.6972,
+        "what": "The US embassy accused Canada of interfering in the midterm elections, which Carney denied, while Carney and Trump spoke by phone amid the tariff dispute.",
+        "via": "rising diplomatic friction",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "'We discussed a wide range of things': PM Carney spoke to Trump as U.S. officials say Canada is meddling in their elections",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVU1BcXVaSDNGNW54dUVaeEFqVnRmbEZiT0xLVDNrd1B3U05sRXJTaXFfWWVmUFYwQlJxWGVRWkREeTF4cVVpY3VFUDM4M2pGaFpqdnRaOTRQTHVUV2dWdXdfZzdMLUtYX19nNENLVEpsUXZ4dE82MDZNZUw2a3c2bVV3TGc?oc=5",
+            "publisher": "Money.ca"
+          },
+          {
+            "title": "Canada hit back at Trump tariffs. Now the U.S. alleges possible election interference.",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZ1VPaDMtckQ5cDF4QmN1R1hfM0FDVEJQd2ZWNWFWVXFiZWtRNXEzNHBYb21jMEhfRWJQeXVOcjhnSFhXTlZfc05IMFc2NGFEdmY3TkYxeU1iMjFpY1lDWVhVWnZJcXFUeVBwckVnSFNVeWgxMVJHRjd3cWVQcm5XSGh4Q3JoMm8?oc=5",
+            "publisher": "Axios"
+          },
+          {
+            "title": "US accuses Canada of interference in midterm elections, Carney denies charges",
+            "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNNEpIXzJ0Z0ZHaTZ5b1FpbDAwQ182MjN1QThvN21KQlA1VUdyRTExZzduTVEycnhLZHhzVzhMbXJjUFBQYzl2OFZPOUNjQVE1ODY4NnljUUxfNkFMbU9VbWplVG5Lb0o4NjBvS2NxbC1aN0xYcGdWclVHNW85R3ZyYzZTeldFRWJQcmxmcFU5Smk2UVlwZWdQWmxUd3BVcjRhUGg4YjlUN0R5QWhCbENzZS1HaXJzaVJBYW55LUVaOWxZNXVrYnh3ZFVNd3hvQUxkS2duNF9sSlRHTEVwZnFlTF9ZVE9KY3h1STJNNWdtd2ZYamlHYnB4LWRrbFdvZS1fcU1zMtIBigJBVV95cUxPaUJITzdJQUZsX0VHbUx3THJ1TVBQemZtQ2FBZUI1VWxwQlZDLVRWLXZibWhzWFc3bkRrUmNDRHV1cWRqN0lCUVlOM29nMkpQQTl6WjFFMl9xd1V2Q25KaFdQUUhoQnkxSkFxSDB6T3NBT0VfNzNMdmpGbzRhUy1jZjJJSXUtS3VaOXJyeWVYTHZHM3J3MGxGQ3ZBOGdoWVhuREJvMlNLeF9wOTFjZWZyS2ZJWldmSzZUY1JaOHR5M0VrX0hHekJoZ21XVUxtWnBlUVBwUThmVXl1OUJfZXpZS1hnUUlmREVBTFZTLWpuQ3pqQlFVeVZRS1Zmck9JRmpjNFpGOWh2elYwZw?oc=5",
+            "publisher": "The Times of India"
+          },
+          {
+            "title": "US embassy accuses Canada of election meddling ahead of midterms",
+            "url": "https://www.bbc.co.uk/news/articles/cmn06g29522lo?at_medium=RSS&at_campaign=rss",
+            "publisher": "BBC World"
+          }
+        ]
+      },
       {
         "id": "trump-says-he-does-not-care-about-usmca",
         "title": "Trump says he does not care about USMCA",
@@ -618,8 +676,8 @@
         "place": "Washington",
         "lat": 38.9072,
         "lon": -77.0369,
-        "what": "Trump said he does not care about USMCA while the US and Canada plan trade talks, signalling little appetite to ease the tariff and ban regime.",
-        "via": "weaker treaty protection",
+        "what": "Trump said he does not care about the USMCA, even as the US and Canada plan trade talks, weakening the treaty framework around the tariffs.",
+        "via": "weaker trade-pact protection",
         "aspect": "trade",
         "flow": "into",
         "sources": [
@@ -631,63 +689,14 @@
         ]
       },
       {
-        "id": "us-embassy-accuses-canada-of-election-interference",
-        "title": "US embassy accuses Canada of election interference",
-        "when": "2026-10-21",
-        "place": "Ottawa",
-        "lat": 45.4215,
-        "lon": -75.6972,
-        "what": "The US embassy accused Canadian politicians of interfering in American elections ahead of the midterms, adding political friction as Carney argues the tariffs hurt American families.",
-        "via": "worsening diplomatic mistrust",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Carney says Trump’s tariffs hurt Americans as US Embassy alleges Canadian interference",
-            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQc0xHRkFVb2NhcGVJaW5jWHppb093UnFiOWljWEZmRU5zRmN6cGkxcF9JZzd5ZUk5ZVBMcnU4MXN5d0UwbjFlbWRyZVNwRzZveUxNTFVfaElCM0o0dkR0c1FCODlJaHVXNFNMdkpuYW1UaHJvNFJneUpYSlJzQzFVQXFEeWhfU1NWbjNLRXVRVlo5RDR6MUUzMUlkMllVRWtOdUg2aU81WUN6M0NfOEVENF9mcHIwQkVqUW1QdnpicUl5QlRJeFlF?oc=5",
-            "publisher": "Effingham Radio"
-          },
-          {
-            "title": "Carney says Trump's tariffs hurt Americans as US alleges Canadian interference",
-            "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQcF9sR05HV0FFUTJPc3cyc0NraXZTYmVnRWYzNXBTdnFkQVcwOXdzVjV5UFZEVTdqTnQxb3lxVzBXcW1jXzJ5TUF6QkFRNFhLajRtc3E5N20zX1ZPVFl5eV9SVlVZdlJ2TG9idDBFZHVjcl9DMHV6RVNCUS1iYzFqOFJfdWtjZUJIU1B0N0VUYWRLUWRYNHBvM1dWT3V3Z0pfUFRFd2lfSFc5ZVFyVEE4WWU3QWdUdG82VU43MEE4Y0YwRXB0VHdZemlNU2xLeFBaak1ZOGRENGxjYmo3YkljUWF0UVVCTEZIazVxVTE4R2M5LTl4Z0k2UFRaUUVzYTA?oc=5",
-            "publisher": "The Economic Times"
-          },
-          {
-            "title": "US embassy accuses Canada of election meddling ahead of midterms",
-            "url": "https://www.bbc.co.uk/news/articles/cmn06g29522lo?at_medium=RSS&at_campaign=rss",
-            "publisher": "BBC World"
-          },
-          {
-            "title": "US embassy accuses Canada of brushing off allegations of election interference",
-            "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5wa0JUbHVIdFN3YWJYeXJmR05BcjJCUFVXc3pSU0VsWVpQdDRCVnVPNmYycFk3ZzUyeVhpa0JIR3I1XzdtZk5la0x6V1pxcmRaUFNtUGFxUFNiX1VjOEE?oc=5",
-            "publisher": "BBC"
-          },
-          {
-            "title": "Carney says Trump’s tariffs hurt US families as embassy accuses Canada of election interference",
-            "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWGdXNnpySHBqY2U1MFpGZm55eldNYmhIajJXMGFpaFRRY29CNlBvbXo0YU1FY1VkMGdSZVE4U2tJWk5BM0I3ZEdIUGtkajAydGo5Rldsa0xDclhsLVhwUjdyV1hqZnl5ZTc5LVpZQ2pxT1dlRktsbk1LdDZOSzg3VzliWkxqUWFTTjVId1VwZkpNTEJKVTFLRDdXUUtiX2hPODdVR3JrWWh4THJWbWZRbVNGSl9WLXloanpnNm1iS1pOV2ZmMmZ6bXNCWEJWLVJZ?oc=5",
-            "publisher": "United News of Bangladesh"
-          },
-          {
-            "title": "U.S. embassy accuses Canadian politicians of interfering in American elections",
-            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdWxGNEM2WmRfcTFTTzNmR3JORjMxVEVjWUNEMDl1S1JVYldIcURxai1IZ2xsUTlBRkVudHg1MW5tUDRRUnBWcVUxMlN0ZnJuU3czYXZCVTZ2cGVfNGRaUHVJbWt1dlZRb2hMcEtwWUVjUG9MSHNjdExqcHRfb21nN0dFUHJDVnJFdWpGWlBuSGNPX0kyaXJvNDZYRWVxdDhzQ1F3cG9FVVFkVV9jOXlWT3lOMFA4YTRTR3dxbm00eEVFalg2ZXlOTQ?oc=5",
-            "publisher": "CTV News"
-          },
-          {
-            "title": "US accuses Canada of election interference ahead of midterms",
-            "url": "https://www.aljazeera.com/news/2026/10/21/us-accuses-canada-of-election-interference-ahead-of-midterms?traffic_source=rss",
-            "publisher": "Al Jazeera"
-          }
-        ]
-      },
-      {
-        "id": "us-trade-chief-eyes-energy-and-minerals-cooperation",
-        "title": "US trade chief eyes energy and minerals cooperation",
+        "id": "us-trade-chief-eyes-energy-and-minerals-deal",
+        "title": "US trade chief eyes energy and minerals deal",
         "when": "2026-10-21",
         "place": "Washington",
         "lat": 38.9072,
         "lon": -77.0369,
-        "what": "Trump's trade czar said Washington is looking to work with Canada on energy and critical minerals, even as tariffs and bans remain in force.",
-        "via": "possible bargaining leverage",
+        "what": "The US trade representative said Washington wants to work with Canada on energy and critical minerals, signalling a possible area for a deal.",
+        "via": "possible energy bargaining chip",
         "aspect": "energy",
         "flow": "into",
         "sources": [
@@ -699,50 +708,26 @@
         ]
       },
       {
-        "id": "trump-sued-over-canadian-tariffs",
-        "title": "Trump sued over Canadian tariffs",
-        "when": "2026-10-20",
-        "place": "United States",
-        "lat": 38.9072,
-        "lon": -77.0369,
-        "what": "A new lawsuit challenges Trump's tariffs on Canada, adding a legal front to the dispute over the duties and import bans.",
-        "via": "legal pressure on tariffs",
-        "aspect": "politics",
+        "id": "new-jersey-importer-sues-over-tariffs",
+        "title": "New Jersey importer sues over tariffs",
+        "when": "2026-10-22",
+        "place": "New Jersey",
+        "lat": 40.0583,
+        "lon": -74.4057,
+        "what": "US food importer Gellert Global Group sued the Trump administration over the tariffs, citing goat cheese from a Lindsay, Ontario dairy.",
+        "via": "legal challenge to tariffs",
+        "aspect": "trade",
         "flow": "into",
         "sources": [
           {
-            "title": "Trump sued over Canadian tariffs in latest legal challenge",
-            "url": "https://www.bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss",
-            "publisher": "BBC World"
-          }
-        ]
-      },
-      {
-        "id": "alberta-voters-reject-leaving-canada",
-        "title": "Alberta voters reject leaving Canada",
-        "when": "2026-10-20",
-        "place": "Alberta",
-        "lat": 53.5461,
-        "lon": -113.4938,
-        "what": "Alberta voters overwhelmingly rejected separation in a referendum, which commentators say strengthens Carney's domestic backing as he confronts Trump on tariffs.",
-        "via": "stronger domestic backing",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Alberta’s “no” to separation gives Carney a boost as Trump pressure unites Canadians",
-            "url": "https://www.euronews.com/2026/10/21/albertas-no-to-separation-hands-carney-a-win-as-trump-pressure-unites-canadians",
-            "publisher": "Euronews"
+            "title": "US food importer Gellert Global Group sues Trump Administration over US tariffs",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOXk0aUg0VVphTmdObjRLUVZIaDJFTW5wMGRXcmhKMU1PS3dWamdvd2FrTUNUQ0lTT01oVWdaVnFCRmtpZHRKR3pERG52MmxQb1J3dG9OMjJ4Tmh1MWd3QlU3RFdoWFgwWjA3VWVLTkVJT0ltZEhCZEctSDM5VERuVmpkUnU4YUNyMmpnUUduMmJxWXdDY1dWUHRmNTlHUjNXYnM3QUw1MHZBQ0RqX0FULXBlS2lteUU?oc=5",
+            "publisher": "JURIST News"
           },
           {
-            "title": "Alberta's decisive decision to stay in Canada gives Carney backing to take on Trump",
-            "url": "https://www.bbc.co.uk/news/articles/cr62ylj832vxo?at_medium=RSS&at_campaign=rss",
-            "publisher": "BBC World"
-          },
-          {
-            "title": "Alberta voters overwhelmingly reject plan to leave Canada in referendum",
-            "url": "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum",
-            "publisher": "The Guardian World"
+            "title": "A New Jersey importer is fighting Trump's tariffs — and a Lindsay dairy’s goat cheese is why",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZURRYlVaSHVYT3oyWDFja09DYXJndHRQQzJDUmVTWjBFZ0hJTnVoaDJjOVF2VWpRQTJTdHRFYkZtQlIzX200RHRhU2ZkY0czVGFNcXVxaFlxcy13V3lma2pTSmw1U09qRkRyWExOZ0R2VDdXZWVlNk1UQWI0Vm1TbFJZTUh2dmR6cnNOaUdPRXh2Y0YtX3VvRFVZNDZseC15Z0N3MnNiTS1WbFZrN2FBdmQ4TVRaQUNOc0NKRThKeWRka1I0OHdIbWxDTzhSbkl0a1dONFpzS1RiSVMzb3p4bGxpQ3hrSGdtMUl6SEpBd1BYSE0?oc=5",
+            "publisher": "Toronto Star"
           }
         ]
       }
@@ -1134,21 +1119,64 @@
     ]
   },
   "italy-cost-of-living-riots": {
-    "at": "2026-10-22T05:23:27.979Z",
+    "at": "2026-10-22T17:58:49.228Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "italy-probes-russian-agents-role-in-riots",
-        "title": "Italy probes Russian agents' role in riots",
+        "id": "truckers-protest-triggers-pasta-supply-crisis",
+        "title": "Truckers' protest triggers pasta supply crisis",
+        "when": "2026-10-22",
+        "place": "Italy",
+        "lat": 42.5,
+        "lon": 12.5,
+        "what": "A truckers' protest over mounting pressures is reported to be driving a pasta crisis, putting strain on household food supply and prices.",
+        "via": "food supply strain",
+        "aspect": "food",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "‘We Can’t Take It Anymore’: Italy’s Truckers' Protest Drives Pasta Crisis | Firstpost America",
+            "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTjdvdl9VakdsRlFULTZvc2w0UVViNW5SZ1dxeXVaTi1hWGp0WlRUSjcwdm81YW5tN3dOLWtDRUFKRkpPY29fZElrRmJZbkNZc2ctMWttQzZtdjlBSFpWdkpzQ3lXeVVhbUJ2Tm1JVzZIemZCblR0SDNOckdxMXNPamFnSEZqMC1xaS1wUnlGekFQV3hwUEl3eVR5a2ZPTDNTREF2MEpLN1pIWnhGREh6Zk9PelhfRnZrVlBPWVNyLWdKY2dTZi05OUo2NnNXVHJuSW9fbTZibXJXLWtFRkpqbnA3bUFGMFVr0gHoAUFVX3lxTFBON292X1VqR2xGUVQtNm9zbDRRVWI1blJnV3F5dVpOLWFYanRaVFRKNzB2bzVhbm03d04ta0NFQUpGSk9jb19kSWtGYlluQ1lzZy0xa21DNm12OUFIWlZ2SnNDeVd5VWFtQnZObUlXNkh6ZkJuVHRIM05yR3Exc09qYWdIRmowLXFpLXBSeUZ6QVBXeHBQSXd5VHlrZk9MM1NEQXYwSks3WkhaeEZESHpmT096WF9GdmtWUE9ZU3ItZ0pjZ1NmLTk5SjY2c1dUcm5Jb19tNmJtclcta0VGSmpucDdtQUYwVWs?oc=5",
+            "publisher": "Firstpost"
+          }
+        ]
+      },
+      {
+        "id": "teenage-anger-pushes-youths-onto-the-streets",
+        "title": "Teenage anger pushes youths onto the streets",
+        "when": "2026-10-22",
+        "place": "Italy",
+        "lat": 42.5,
+        "lon": 12.5,
+        "what": "La Repubblica traces the unrest to a generation's rage, explaining why Italian teenagers are taking to the streets in several cities.",
+        "via": "youth anger",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Anatomy of a generation’s rage: why Italy’s teenagers are taking to the streets",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWFpDSGo5SEJDcHN4RWE5TnUtWjlvWVRZY0tMc2RwSjNkUE5wS1dIZi1XbTNOQVY4aFMxZUt3VFhyc0xLYUJwc2NBTV9oUDVCRGtSUFEtSV9ySTRFcEkwbmtYbU5ZVnNUNS00MHVqanlzR1lRb05GdGMyYU92eW9wclJnQ2kteGpJRmdaMVl0U2RyNlpiXzVLNmx3c3dHYkVCMmNBMW1B?oc=5",
+            "publisher": "la Repubblica"
+          }
+        ]
+      },
+      {
+        "id": "italy-probes-alleged-russian-role-in-riots",
+        "title": "Italy probes alleged Russian role in riots",
         "when": "2026-10-21",
         "place": "Rome",
         "lat": 41.9,
         "lon": 12.5,
-        "what": "Italian authorities are investigating whether Russian agents or influence operations helped stoke the protests and riots, according to reports by Bloomberg and The New Voice of Ukraine.",
+        "what": "Italian authorities are investigating whether Russian agents helped fuel the riots, and the government says Moscow stoked them as part of a hybrid war.",
         "via": "alleged foreign agitation",
         "aspect": "security",
         "flow": "into",
         "sources": [
+          {
+            "title": "Riots in Europe stoked by Russia as part of ‘hybrid war’, says Italy",
+            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOY3FzcjhnRzNpODA3M0lGWXZsTFdqOTBwVG8tUkEwaC1tZ3BPdFBKTFVqUElMTHlLcnJ1WHo0VGtFaWs4dkZEbHpzSUI2Z2k5RnZ6cnJiYjJlcEFUbjEweTFWVzI1ZmNxVE9VZXNCM3FKRkNXRzRPZWxKLWk1eU1yeFdQZG8xRmRQOHVBV1pOcnFkVXJSc2dKUFJicWE5MllBQzZuaEp4eHA2eXZ1MVo0Zk16ZjRaRDdxZXNLTmtlbFNEZER2TlZRU1R1WG1sYm0tTnJ1Nng5Z9IB3AFBVV95cUxOLUM1aERrMWZZNTlOM21keVB5aEJwX1hwNGxFMFRSc2hVeVp5SkgwOUNSN1YyMEhoMXIxOUZJZ1ZIR2s1c3dqZW9xTUkyRXBCRjRSRmZ4azEtTW10TktoZG1saTJGY2NnbFJZRmdNVzMxaG1WZF9fNXFjZmxHNW1hNzBsUWVFTzljUXROUXJtWVduVy16WmFfNmh3aE1fOUZ2YkhDTlBGMkNMWXFKeUFLbVJqVTg2RDBXeUVsd19jMmt0dTJuWG1NRzEyZGY2Xzljd0JvUzhKNTYxTXJu?oc=5",
+            "publisher": "Firstpost"
+          },
           {
             "title": "Italy investigates Russian influence on protests and riots — report",
             "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMWhjWnVQY2NkWV9HZkxiWk9PaVY3bktGemExQ211MlNMRjdFYk9RWEhtekxzTVJab3lYME1xNlhBMlF1T1I1WG5MMm5RZUZhRFdBTndPMl9mLVBkdXZsbVVtUzEtWlFOcXZYRndnS3hPejB5dlhicmRDd2czS1VHZDhBSXZNLXFLay1laXhXV2R3eWvSAY8BQVVfeXFMUFRCRFFwcDllV1VKZzV0dFZZNEFBd1NobWlmdXhQWThCVjIyZVF3aEZqby1jMXdMdXlwYTBkMFpzbjdEX3R6UzMxOEs5UmFwdl9rT1EyakRaZ19jbW9KNi1ob25mU3ZXbWhhWGFYd0dYR2Rpd0pFbTNyNkZRWG1xb1hrcXdLTVhhQUNodUZXU00?oc=5",
@@ -1158,6 +1186,11 @@
             "title": "Italy Is Looking Into Whether Russian Agents Helped Fuel Riots",
             "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbmV5YkVaUjhCb2RCcWdoS2ozYnNydWF4R1JWUkxyVXREZW5uX0x3WXlsaEtab1hwWjV1ZjRjWnpQVG42d0d2OGRHTklrbmJ4V2VJVHo3OVdnSHlUcENPbHJRSzhCeHNsRTJtMklhcWdLNndIa3dfMUFiMF9aOVR6c1hzNnVqM0M3ZUtLVXlFV1NfNVhIZEZyU3ZLRXhMMDIyWGtIQi1YLW1SRWhuUWN5czlRcw?oc=5",
             "publisher": "Bloomberg.com"
+          },
+          {
+            "title": "Moscow stoked weekend riots in Europe, Italy says",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOW54SmZ0dkYtZ192N0pTMU5jZmlGR0tIcGhJZW9yeHNJVmNMUEpsWkdWS0JFc2k5VERVMXRvNWpyeVZuUkwxU3BmS2hFUDhzejUtaDJoeEhPSUE0OVpPMkNPYUlpSmV3R053eHJELXNDenFyRTREeGwxdHc5QWtEaVFub0x0cUcwSVNTTzI1SXBlSGdIQlNTc1pBUlFzcDhS?oc=5",
+            "publisher": "The Telegraph"
           }
         ]
       }

@@ -1,5 +1,5 @@
 {
-  "screenedAt": "2026-10-22T14:03:49.910Z",
+  "screenedAt": "2026-10-22T17:58:49.228Z",
   "judged": {
     "1eccdfad4d8e": {
       "at": "2026-10-22T14:03:49.910Z",
@@ -22,15 +22,15 @@
       "verdict": "reject"
     },
     "f721a790285b": {
-      "at": "2026-10-22T14:03:49.910Z",
+      "at": "2026-10-22T17:58:49.228Z",
       "verdict": "existing"
     },
     "cca5fe90b712": {
-      "at": "2026-10-22T14:03:49.910Z",
+      "at": "2026-10-22T17:58:49.228Z",
       "verdict": "existing"
     },
     "304f86f7053e": {
-      "at": "2026-10-22T14:03:49.910Z",
+      "at": "2026-10-22T17:58:49.228Z",
       "verdict": "reject"
     },
     "7bb0f852f06e": {
@@ -46,7 +46,7 @@
       "verdict": "reject"
     },
     "361a6712ada2": {
-      "at": "2026-10-22T14:03:49.910Z",
+      "at": "2026-10-22T17:58:49.228Z",
       "verdict": "reject"
     },
     "a6b86e41d749": {
@@ -402,8 +402,8 @@
       "verdict": "no story"
     },
     "289111182ec8": {
-      "at": "2026-10-22T13:56:47.109Z",
-      "verdict": "no story"
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "reject"
     },
     "e891ee3bd438": {
       "at": "2026-10-22T13:56:47.109Z",
@@ -572,9 +572,337 @@
     "258f57ccf1aa": {
       "at": "2026-10-22T14:03:49.910Z",
       "verdict": "no story"
+    },
+    "795bd6bf317c": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "reject"
+    },
+    "7ec0cd327973": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "reject"
+    },
+    "0939ddfd332b": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "reject"
+    },
+    "44ac378685be": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "reject"
+    },
+    "4c4dc836a370": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "reject"
+    },
+    "5a6931ce053f": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "reject"
+    },
+    "29c38f7e4961": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "reject"
+    },
+    "7e1ac076fddd": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "reject"
+    },
+    "49e1f0108295": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "reject"
+    },
+    "ec94294189a8": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "reject"
+    },
+    "036e9e400d41": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "reject"
+    },
+    "0faa9c048a2d": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "reject"
+    },
+    "822a44a8c12b": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "reject"
+    },
+    "4c6934632105": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "reject"
+    },
+    "78fbdd210373": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "reject"
+    },
+    "1d2b9bb4bd64": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "reject"
+    },
+    "17b02f85d188": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "reject"
+    },
+    "573f0bd2d15f": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "reject"
+    },
+    "ed6df0176f4c": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "7e6736c317ce": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "795b2f9bbb2b": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "a012cc6e60ec": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "19d8c92484d8": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "79f8d740f380": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "add82d23b296": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "df7659b38ab2": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "8fdd0db8fd51": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "911247b8e3de": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "ed88de50ca28": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "42856fc57dd7": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "ac78bf1e64af": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "0453d8a3f103": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "afa7f40d6885": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "fc5bd631c2af": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "deb5b545fd79": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "5b776d559c59": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "cb64df832b58": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "5851e2864cf6": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "0a9afca89a64": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "9628e2b2e4d3": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "6e3c722eeabe": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "e7376ea61f7c": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "9645162095c9": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "64bcc385d16b": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "29eb24007269": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "de7f030edad3": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "562b510695d8": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "3578e00668d5": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "79e7500ccd92": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "809800530da3": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "69e98bb2a3f0": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "2b663c8c7c13": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "478658265d1e": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "79383fdd499b": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "67b62de86ddc": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "efa456118cfa": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "7d10ed3832ce": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
+    },
+    "162fb79dc347": {
+      "at": "2026-10-22T17:58:49.228Z",
+      "verdict": "no story"
     }
   },
   "runs": [
+    {
+      "at": "2026-10-22T17:58:49.228Z",
+      "screened": 140,
+      "accepted": [],
+      "rejected": [
+        {
+          "title": "Italy and Spain lift border controls after Ceuta tension",
+          "reason": "Passed the test but not the evidence check: only 2 headlines.",
+          "headlines": 2,
+          "publishers": 2
+        },
+        {
+          "title": "DR Congo Ebola outbreak expands as responders strain",
+          "reason": "Passed the test but not the evidence check: only 1 headline, only 1 outlet.",
+          "headlines": 1,
+          "publishers": 1
+        },
+        {
+          "title": "Germany arrests suspected Russian spy, Merz cites intensive espionage",
+          "reason": "A spy arrest and a general statement from Merz decide nothing and show no concrete cross-border effect yet.",
+          "headlines": 2,
+          "publishers": 2
+        },
+        {
+          "title": "Albanian lawmakers scuffle as protests continue",
+          "reason": "This is a domestic political dispute with no clear effect outside Albania.",
+          "headlines": 1,
+          "publishers": 1
+        },
+        {
+          "title": "Serbia's student movement ahead of snap elections",
+          "reason": "These are background and profile pieces plus a rally, with no dated decision and no clear cross-border channel.",
+          "headlines": 3,
+          "publishers": 3
+        },
+        {
+          "title": "Musk-Ukraine Starlink clash drives demand for alternatives",
+          "reason": "This is company-centred news with no stated government decision or concrete cross-border change.",
+          "headlines": 2,
+          "publishers": 1
+        },
+        {
+          "title": "ICC wins EU human rights award",
+          "reason": "An award is symbolic and decides nothing on state policy or cross-border flows.",
+          "headlines": 1,
+          "publishers": 1
+        },
+        {
+          "title": "Hegseth authorizes DHS 'heat ray' test at US-Mexico border",
+          "reason": "This is a domestic equipment test with no clear effect on another country's decisions.",
+          "headlines": 1,
+          "publishers": 1
+        },
+        {
+          "title": "Trump floats renaming the Atlantic Ocean",
+          "reason": "It is a rhetorical remark that decides nothing.",
+          "headlines": 2,
+          "publishers": 2
+        },
+        {
+          "title": "Guterres urges linking street protests and global turmoil",
+          "reason": "This is commentary, not a development.",
+          "headlines": 1,
+          "publishers": 1
+        },
+        {
+          "title": "Foreigner beaten to death by mob in South Africa",
+          "reason": "This is a local violent crime with no state action or reported effect abroad.",
+          "headlines": 2,
+          "publishers": 2
+        },
+        {
+          "title": "Trump ordered to give deposition in BBC lawsuit",
+          "reason": "This is a court case with no policy or cross-border effect.",
+          "headlines": 2,
+          "publishers": 2
+        },
+        {
+          "title": "Syrian officers killed in raid on ISIL cell near Damascus",
+          "reason": "This is a small security incident with no reported effect beyond Syria.",
+          "headlines": 1,
+          "publishers": 1
+        }
+      ],
+      "existing": [
+        {
+          "title": "Russia frees American Stephen Hubbard as Trump envoy meets Putin",
+          "reason": "The release came during a US envoy's meeting with Putin and belongs to the ongoing US-Russia summit diplomacy.",
+          "headlines": 2,
+          "publishers": 2,
+          "event": "ukraine-summit-diplomacy"
+        }
+      ],
+      "retired": [],
+      "skipped": ""
+    },
     {
       "at": "2026-10-22T16:58:55.795Z",
       "screened": 0,
