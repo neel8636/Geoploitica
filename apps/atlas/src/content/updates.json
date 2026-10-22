@@ -1,6 +1,43 @@
 {
   "france-unrest-2026": [
     {
+      "at": "2026-10-22T16:58:55.795Z",
+      "text": "Macron accuses the far left of 'seditious acts' as the protest ban tightens. Reports say Art Basel Paris ends early and shopkeepers rush to buy weapons before the weekend. Bloomberg reports French bond stress is intensifying.",
+      "sources": [
+        {
+          "title": "France’s Bond Stress Intensifies and Risk of More Protests Grow",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMGFidE9CM2FZbzhvNmktSV9qa0JyeTYtSENqLTMzVmtYcVZvLWExYXZNM0NUTXZ4S19LSi1PVUJSeTUtZ3VVOEMtY0FQUU9CVzhjQ1kzU1NWcVZ6blIyb2VGa3JyMjNYZTFYNC05eGRtY01XbzU0Wk9YcTFsR3M3Z2UtNUlZZ1IxWmZSNXBEaXhPZWhlZFNZWHFvbjBzR3d4bElKSzBxSlVvQkVVaTJLcHJsam9GN2Nx?oc=5",
+          "publisher": "Bloomberg.com"
+        },
+        {
+          "title": "Art Basel Paris Ends Early, Fondation Louis Vuitton Shutters as Protests Loom",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSVhoeEI5dDJoQXZuQ1ZqcC0zTjVZblFDODh5TlRxZkJXQWhjZjdIaHZONm1ZZ1hVT0M0QVh0WmN2ZnFkTUF3QTN4VmM5UFI1V0lKeVlzOE1RQkotQ0dDTENHWkxyQTVQVHpIN1lxZEZCUFFzQ29lNXRxeUh1V0hONXFXeVNscFYxWGRiQUp4c2ZCZXNHT2pyeWZVSF91WFZvbEY0?oc=5",
+          "publisher": "Artforum"
+        },
+        {
+          "title": "Macron tightens curbs on protests and accuses far left of ‘seditious acts’",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYUN3Q3JXbmVSQ0pfNzZlamFUQkdIbU1qY1pKRVpXUzhGdHBTYnlCNFV4Tm45Y29PMVBmVE1ZczRaRUZMYW00R09zT2wtbVhveDJma2JJZTVFSk1RbHZ0ZWFkNWdkZEZGLV9Dd0ZjUmtLMHhrYWItZGttOXJYd0pjZlQxckQ4YVFCejM1bnRxZkY0Vld4NXdJZTkxampnRkpzYmZkLUJ6ZnItYm5ERnZ1WURGM1EycmktYWpWbEtqZDlXUQ?oc=5",
+          "publisher": "The Irish Times"
+        },
+        {
+          "title": "France riots: shopkeepers in weapons rush before weekend protests",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRTFXTGl4YzN6VDFrT1VITnZ0djBwNlhlSjUzcFQ3bnBKUmpTN09xX0dqWlVUSE1LaUNtSDhnaUh4TjMybGZ4emFfMXItYk9XdG9VSnZtT2tySEYwQTRwa1dIdlFPMTBpUXpYbk0tTk5mSnBhY3NGaU9XN21uNkJDaDhCaTM4X2Q3UE1uSV9VdllEZ1J2UzZwTXFiTS0?oc=5",
+          "publisher": "The Times"
+        },
+        {
+          "title": "France's Macron tightens curbs on protests, blaming hard left for unrest",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdHhBdkpVMVZzcjFPVTR6dkJIR1VJcGR3QXBOeFRHRFJuZFBGM2hWYzczWXdMUFdjVnpsYzI0RE1nZzhIMUNaQzVQMHRKa1VxcnpsaHJzalQzNHJXb2lkbDd3WkJQdXItb1UtZmpQNmQwQzQtV1VfUkJtdHpTR3p4OG95dmM3UkozM3FxWm5WMF9wMl9qQVVJR0l5NmxzV1pzVWtzVy1HXzQwSGRKTVlEZWtB?oc=5",
+          "publisher": "Reuters"
+        }
+      ],
+      "headline": "France bans protests it calls illegitimate after its worst street violence in years, while bond markets and the April 2027 election watch.",
+      "quick": {
+        "happened": "Macron bans 'illegitimate' protests and tightens security after the worst street violence in years, blaming the hard left.",
+        "matters": "Bloomberg reports French bond stress is intensifying, and the same household squeeze is behind unrest in Italy and Belgium.",
+        "next": "Weekend protests are due under the new ban, and the presidential election follows in April 2027."
+      }
+    },
+    {
       "at": "2026-10-22T15:24:37.536Z",
       "text": "Macron says weekend protests will be limited to union demonstrations, and reports say 'illegitimate' ones are banned. Thousands gather in Paris after a court lifts a protest ban, and Prime Minister Lecornu meets party leaders.",
       "sources": [
@@ -216,30 +253,41 @@
           "publisher": "DW.com"
         }
       ]
-    },
-    {
-      "at": "2026-10-21T21:40:04.835Z",
-      "text": "New since the last line: French bond yields hit a 24-year high after the unrest, and an NGO finds pro-Russian accounts amplified French anger before the protests and riots. A general strike is set for 5 November, according to one outlet.",
-      "sources": [
-        {
-          "title": "Business - French bond yields hit 24-year high after unrest",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVUV1clQ3c1lNMkRkWlZ4WjlremQ3OXE1V1BHVGw2WU5YQlZBZnAtUW5Mb1ZQQ1BaenlmckNndXdTY2JmX216VTdWTDJYMWlpWFp5S2o4RUpiMmREalRiU1BCR0Y4OUp6TFBockhzajdUZlJ3UHhLbnEtdUN3c3lMZ0dR?oc=5",
-          "publisher": "France 24"
-        },
-        {
-          "title": "In run-up to mass protests and riots, pro-Russian accounts amplified French anger, NGO finds",
-          "url": "https://www.france24.com/en/tv-shows/a-propos/20261021-in-run-up-to-mass-protests-and-riots-pro-russian-accounts-amplified-french-anger-ngo-finds",
-          "publisher": "France 24"
-        },
-        {
-          "title": "General strike on November 5, 2026: transport and schools brace for a large turnout",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNcHNJZWQ5ZWtsanYtZHMyLUJIby1YRHctNkg0OGtacm5Rd3pNXzZWZng2ekhpZm1mUVJjeHdldDZnTF9kblhOSTVBcDhkMmdCWWlNUDRWWkVmY0tZUGpjTTF2VFBPbXlkSVdTbDZiODUtUEx5dGlRaTRONVRjLWFUSFFlcnBndS1Bb2pEU3VQaXlIWndBbUZIbVJKOXhLcFlTOVZjVDJ2NjkzSGoteHI3SkdHUkstOU1FMVZJdXZmQ3A5aVVwM3EtZ2dRY3l4VkgydXI3VEVLNXl4TGR5WUdLeE1R?oc=5",
-          "publisher": "Sortir à Paris"
-        }
-      ]
     }
   ],
   "ukraine-summit-diplomacy": [
+    {
+      "at": "2026-10-22T16:58:55.795Z",
+      "text": "Russia agrees to resume trilateral peace talks, then strikes Kyiv within hours. Zelensky says the attacks show 'no change' in Russia's attitude, while Ukraine and Russia trade strikes after a US envoy's Kremlin visit.",
+      "sources": [
+        {
+          "title": "‘No change’ in Russia’s attitude on war shown by deadly attacks, Zelensky says",
+          "url": "https://www.france24.com/en/europe/20261022-no-change-russia-attitude-war-after-deadly-attacks-zelensky-says",
+          "publisher": "France 24"
+        },
+        {
+          "title": "Ukraine and Russia exchange strikes after US envoy visit to the Kremlin",
+          "url": "https://www.france24.com/en/ukraine-and-russia-exchange-strikes-after-us-envoy-visit-to-the-kremlin",
+          "publisher": "France 24"
+        },
+        {
+          "title": "Russia bombards Kyiv with missiles hours after agreeing to resume talks with Ukraine",
+          "url": "https://www.theguardian.com/world/2026/oct/22/russia-missile-attack-kyiv-hours-after-agreeing-to-talks-ukraine",
+          "publisher": "The Guardian World"
+        },
+        {
+          "title": "Russia agrees to resume trilateral peace talks on Ukraine war",
+          "url": "https://www.france24.com/en/russia-agrees-to-resume-trilateral-peace-talks-on-ukraine-war",
+          "publisher": "France 24"
+        }
+      ],
+      "headline": "Russia says it will return to peace talks, but its missiles hit Kyiv within hours, and Zelensky says Moscow's attitude has not changed.",
+      "quick": {
+        "happened": "Russia agreed to resume trilateral talks on Ukraine, then bombarded Kyiv with missiles hours later, and the two sides traded strikes after a US envoy visited the Kremlin.",
+        "matters": "Talks that keep running alongside heavy attacks make a real ceasefire look distant, and that affects aid decisions in Europe and US attention elsewhere.",
+        "next": "No date is given for the resumed talks; one outlet reports Trump wants Putin and Zelensky to sign a deal at the G20 in Miami, and the Kremlin has responded."
+      }
+    },
     {
       "at": "2026-10-22T14:46:52.665Z",
       "text": "Vance says the US has \"a very tall mountain to climb\" on peace talks. Zelenskyy backs a front-line freeze, one outlet reports, and at least 9 people were killed in Russian attacks over 24 hours.",
@@ -429,40 +477,36 @@
           "publisher": "Meduza"
         }
       ]
-    },
-    {
-      "at": "2026-10-21T15:49:55.072Z",
-      "text": "Putin agrees to resume three-way talks with Ukraine and the US after Nov 10, reports say, and the Kremlin says China is preparing for a possible Putin-Trump-Xi summit. He also orders the release of a jailed American during Witkoff's visit.",
-      "sources": [
-        {
-          "title": "Putin agrees to resume 3-way peace talks with Ukraine and US",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQXZaYTY5blYzZWJWYkJaQnI2M2RSSGJUcnpzSF9OMldoZjZxckRDRzhyb2JReEVNbEE5bjdZcUZlNzJ2b0YzQkRIZjltamVxVHVSaElldGhNUmlFZzdmZHpPOFBOSDNhbFV0NEdpYXBBN0w3VjlHV0JkSVQ3NG1hMHJMay14MWNuNDdQTldXaVE2Z205bjFkN05lVUh4TkloZWFvSm5FcGp0aS1nQ2JKcmNGTHB1NDhqdWJCaEM2NnoyRUE?oc=5",
-          "publisher": "Reuters"
-        },
-        {
-          "title": "Putin orders release of jailed American as he meets Trump envoy for Ukraine talks",
-          "url": "https://www.theguardian.com/world/2026/oct/21/putin-witkoff-russia-ukraine-trump-stephen-hubbard-release",
-          "publisher": "The Guardian World"
-        },
-        {
-          "title": "Kremlin Says China Preparing for Possible Putin-Trump-Xi Meeting",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMTFtU1ZmYlhkdjhvTUR2ZmFRUzVIcDNQOUpKTkp0S1NCZGJjT1RfUjdobXZ5cTRtOWF3Sm9kaXdBdEo2NUM2VzNjaFp1WjdNRWpVeXY3VS1lbXlzRFNyd1R1SEk2WC1UZWVwdm5WcU1vSE83RmswcVZWSTdTRXVNdm1uV1Jmd1JMNFFxZU9TeXpBQ2NzVzJLV0F0TWg2cUJLdHFjalpHMHRPb3BVV29FSEV2UktyUQ?oc=5",
-          "publisher": "Bloomberg.com"
-        },
-        {
-          "title": "Putin agrees to resume Ukraine peace talks after Nov 10, Kremlin says summit with Trump and Xi 'being...",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPaVNrSmZvTmhRTm44Q0pPZzM5ZmxuQ19EQUEzdDgtOHlxclJud1daME9JR0poZGlVY05XZVJTcHp2ZFo1Z1RzdmtjXzU0bnVfcG5LZnRqZm1MZTAzN2d0UG9QM0VxWHVMUzU0T1g3WE5xVEVmRExIQ0otUGtKV3pqa0JrclV2TUh0ajlzRUZFaUN5cmluYWpVcklOOGhMRXhyM2VqZEt0Y0MyX19CQlRuRnNYRHJoOGRrdENXblA0cVdWMFBEc2M3am05X2J6cmxzY1E3SmZkcU1CZUU2cUZaMnBLZWtyYm9QYXRuVFA5RzdySG9mRzZWTNIB_gFBVV95cUxPZUc1OVNkck1hRkx6QjFFeVRLaFJRV1dMcEZjZnVmaDFfUDZyU3QtR19OLUxBVjlhQUZTbEkxR3BWTU9RSEhCN1g4aDdzZ0NNLTZHQllaZUE4YUNvdE1ZQzdKOUs2M09KZ1VHaF90WERnWkI1OEtUWHE3MnN3OHhfMW5mREFfZXhHNElRTE5nOHcxYVpuZ3otaXZlTTZ5ME1oX25aRVBSeFpCUzVzZlNGbmRjeG8za2FISXFFNDlpeGMwMS0zcE9SbXpVYkFLYTd5WUJtdjNyN3djSlBlcUV0Q3oxSXA0V2NLR0tJNjBGdHcwTkcxclpRVmJIQ3FmQQ?oc=5",
-          "publisher": "Moneycontrol.com"
-        },
-        {
-          "title": "Putin says Russia is ready to resume Ukraine peace talks in November",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWDZNNmoxRlNweG1kRlg2QkxfWTg0RTNZbTdZcXBTaFgzNkVhNXFoWmx2bXgzZTloMkZoSGRBNGdTVzZBRi1UeXBjUW1IV1hLOHF1djNjY1NCWklMdVRBLTBWSmVfaEVSZTdIeDFKdDgzeERzWlhPRlJBblJaWXF0YkM2TnRULUxja1pmNlNrYkxWWTFZTTM4?oc=5",
-          "publisher": "RBC-Ukraine"
-        }
-      ]
     }
   ],
   "gulf-war-energy-shock": [
+    {
+      "at": "2026-10-22T16:58:55.795Z",
+      "text": "Brent crude tops $111 after Trump hints at action on Iran and the U.S. orders staff to leave Saudi Arabia, reports say. Iran's Guards threaten to hit US bases over Hormuz escorts, while the US and Israel weigh new strikes.",
+      "sources": [
+        {
+          "title": "Iran's Guards threaten to hit US bases in retaliation for Hormuz escorts",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWVY4R0ZtcGxuSmcxY3hmMnRqYzZQS21SSTB1dVcyMWIxeFdfVE1oeGJPN0VxYk02NFF5WkNGQjZ4Mm5JdldWR25UalZNcGVMeGtNNkdUNEVOeDh6VGczbmhaTHZBelBXZzBCVG5teDdVaTVMRTVDUkdUZ1dEYzlCNFp0OVNCbDVkN2QyX0JMYlV1enIyb3ctbzBtRk5EY09VYWpBeXNLU21sWVpJT1lnTFM5YmlJSFZwOHNrSEUtVEY?oc=5",
+          "publisher": "The Standard (HK)"
+        },
+        {
+          "title": "US, Israel weigh new Iran strikes as attacks on Hormuz shipping mount",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTFU1NkJqRURqVVAzck4xVkpmbjF5ZEJMblM5OUMwQWt5YWZyVTY5LUVMRFdSdDF5T0IzOU1nU3RmQXhRMHZsc2J5MVNPVGo5dThmUHlpV0VTaHptRGhoZWp5NjM1bDBCVHNZemZwWGpjX09hY29OVFhfTzBYVTZrQVNaZVB0bE9oVnhOX1NwLTdiLUt2VWlWczV5bFdVdTg?oc=5",
+          "publisher": "Stars and Stripes"
+        },
+        {
+          "title": "Brent crude tops $111 after Trump hints at action on Iran, U.S. orders staff to leave Saudi Arabia",
+          "url": "https://www.cnbc.com/2026/10/22/oil-prices-today-wti-brent-saudi-arabia.html",
+          "publisher": "CNBC World"
+        }
+      ],
+      "headline": "Fears of new US and Israeli strikes on Iran push oil above $111, which keeps fuel and living costs high for households far away.",
+      "quick": {
+        "happened": "Brent crude tops $111 as the US and Israel weigh new strikes and Iran's Guards threaten US bases over Hormuz escorts.",
+        "matters": "Higher oil prices feed into pump prices and household budgets, which are already stretched in places like France and Italy.",
+        "next": "No dates are given in the headlines; one report asks whether a major US attack could follow the midterm elections."
+      }
+    },
     {
       "at": "2026-10-22T14:46:52.665Z",
       "text": "Iran's officials set seven conditions for reopening the Strait of Hormuz and resuming talks, and Iran says seven tankers were damaged there. The IMF says Gulf economies will contract 4.8% this year, and Kuwait lifts oil output above 2 million barrels a day.",
@@ -673,35 +717,26 @@
           "publisher": "EnergyNow.com"
         }
       ]
-    },
-    {
-      "at": "2026-10-21T20:20:41.370Z",
-      "text": "New since the last line: Iranian state media reports explosions near the Strait of Hormuz, and US officials tell Reuters Washington is preparing ordered departures of some personnel from Gulf embassies. Reports say Gulf oil exports now exceed pre-war levels.",
-      "sources": [
-        {
-          "title": "Explosions heard near Strait of Hormuz: Iran state media",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMnpRRDUtQUdEb2plSGt6SEdCTktQQ3VIMi1PTHB3NWpVMXlvTGlnWHk5bFNFOHZ5czM5NlVoTlVHZDRxOHFIcWFURjVDWlh1a0tOUkp2TDJpMl9tZV8zakZUZ0VKZzdDQ0JmbE5KNURpUHNobW1JYXRqZkNvNFU5RjU1d2xkY0hYV21SWEk3VjB3VzktYXRkVXp0T1F5TFVw?oc=5",
-          "publisher": "Gulf News"
-        },
-        {
-          "title": "Gulf exports more oil than it did before Iran war despite surge in Hormuz attacks",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPNmtzNlMwTm5RWWlTRFNKZUxXdVEzVmZobUFZN2Z3bkxmLU5PaDFMRGJfcERXUXZrSnBoLWlQaFpNZEVWUmlKbFJyODhBVV9lekhMYjljNEZwaWR1Ui1DNlpjbDlNMWozTXlhXzRUTVN1anZZSjFha0JKc2pneWV4dnpTUmRqTGhFN1Exa2RBX0NXOFJXZjlMMU9wQmdUM1pJY25ZOUZRX0c0aklpanV2QzhpcjR5OWtEbHJ5YWxYY1ZpUTZEck5FS0dIRUM1QW1JZi1Lbk9HeVN6a2N4TlE2WG5wdlRabzl2dDdSM1ZsT0VRek1ZSDJUNGN3ZUlJVHQt?oc=5",
-          "publisher": "Middle East Eye"
-        },
-        {
-          "title": "EXCLUSIVE: US preparing to issue ordered departure of some personnel from Gulf embassies, say US officials",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONDg0WFNBeGFxeHpUVUsya2RYd0k3XzF6bXU3eGpZVnh2T25MWHVsQzVrbE9PNEdaWnpfN1dmRmtxajMtbl8yZ29EWUxYaXAxcnkxcFN1NEVDLVE3bUtkR0NwZDVPN2haVXFERXRUeHRnQ2QyVDhVdjBNa2FIUFVDOWFicGJOQVVWR0JFMnZSM0NLV09nZHk5UzA2LTgtbmFEVnlYZDI1Uk9ic1hyLTZ0Z2NKbWI5QWgtWWE3ZzV4eE11bmpCcGstTFAzQnVGUQ?oc=5",
-          "publisher": "Reuters"
-        },
-        {
-          "title": "Arab Gulf oil exports surpass pre-war levels despite Iranian attacks",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWkdiS1JVY3BLNW0zSHhIR3N5aGRQOXVJdHJWMjhhaFlmOUFDT3E0aHR3cjRFaXNSYUd0cWNpLUVKYlUxM3hXVmFmWDJnY3R5OWdubFZFZTlFeWt4cl9IZ2wwVlpmZnFkTTN6V2Y2Nnk0b2R0VFZDaWZHd2V5enJxcTJ5Nko1Rk9vM0dVbDE1YmUyVTJ5SmVsd1ZDSXBnSWs4OFI1ckZwdF82aUFENFRnWTc3UQ?oc=5",
-          "publisher": "Arab News"
-        }
-      ]
     }
   ],
   "apec-shenzhen-2026": [
+    {
+      "at": "2026-10-22T16:58:55.795Z",
+      "text": "Reports say Manila's envoy signals likely 'Squad' talks among US allies before the Trump-Xi summit, and that the Quad is confirmed. The rest of the headlines are tariff stories that add nothing on the Shenzhen meeting.",
+      "sources": [
+        {
+          "title": "Exclusive | Quad confirmed, Manila envoy signals likely ‘Squad’ talks before Trump-Xi summit",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYXUyYmhZLXZIOHUwOGZmQnhvNENOOWpYWDhpa01UQXg4YzUtVDhPZUgwbTJwZjZKdFAwbW5pcl9rYkdweThwRXBGcmVWaXlZa1JsRHYyMDVfaU51SWVQTE1FajBaaUtMQmgyOFZMS3FDdWJpSDY1MlZMZmx5Skt6b2t0ZzBiRGhvYWJZeWVlRlo3UzV3LWNjVVhQbXZMSjNYUXo0Qmh2RUNVYW1xc0RvbGtrYkFIdTRub2xPbzJXUlpKUFXSAcMBQVVfeXFMT2F1MmJoWS12SDh1MDhmZkJ4bzRDTjlqWFg4aWtNVEF4OGM1LVQ4T2VIMG0ycGY2SnRQMG1uaXJfa2JHcHk4cEVwRnJlVml5WWtSbER2MjA1X2lOdUllUExNRWowWmlLTEJoMjhWTEtxQ3ViaUg2NTJWTGZseUpLem9rdGcwYkRob2FiWXllZUZaN1M1dy1jY1VYUG12TEozWFF6NEJodkVDVWFtcXNEb2xra2JBSHU0bm9sT28yV1JaSlBV?oc=5",
+          "publisher": "South China Morning Post"
+        }
+      ],
+      "headline": "Trump is set to meet Xi at the Shenzhen APEC summit in November, and allies are lining up talks beforehand.",
+      "quick": {
+        "happened": "Trump plans to attend China's APEC summit in Shenzhen, and reports say Manila's envoy expects 'Squad' talks among allies before the Trump-Xi meeting.",
+        "matters": "Trump and Xi meeting could shape tariffs and trade, and allies are positioning over the South China Sea before it.",
+        "next": "APEC leaders meet in Shenzhen on 18-19 November, with Trump and Xi expected to talk on the sidelines."
+      }
+    },
     {
       "at": "2026-10-22T11:10:41.576Z",
       "text": "A Korean outlet reports a Democratic Party view that a November Trump-Kim summit is unlikely. Separately, Putin meets Premier Li Qiang and pledges wider Russia-China cooperation ahead of APEC.",
@@ -789,6 +824,33 @@
     }
   ],
   "us-midterms-2026": [
+    {
+      "at": "2026-10-22T16:58:55.795Z",
+      "text": "A pollster admits to making up numbers, Nine.com.au reports, angering Democrats. A CNBC survey puts Trump's economic approval at an all-time low. Vance criticizes Republican 'whining' over an Ohio ad, The New York Times reports.",
+      "sources": [
+        {
+          "title": "Election Dispatches: Vance Slams Republican ‘Whining’ Over Ohio Ad as Bipartisan Furor Grows",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBidUhJNnNPbmZSaEIzRUJVekxXVjA5Q1N4UDlCM3F2VFVsZjJaQ1VZbzV0dHg1dk1PMTBMTUJaS0NVNEIzRU5paTFpZG9pXzRNZ05jNUlrcUZyRXg5ejl3RVY1dVk0THBkcFV6UDVQZjl5NTlMUXc?oc=5",
+          "publisher": "The New York Times"
+        },
+        {
+          "title": "Pollster admits to making up numbers, infuriating Democrats ahead of midterms",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTlBQRHFkZWZBREgxRFhsZUVaY0gxTGVpdGFwSmFHUEI4VzFqWkRWQVoyWEZMaDhVUjVqdy1NM0g4UEhacnJaNE1MNkhMdUtqSUZRN1V1Z1ltWllwWkNSVkc0TG1ORGUtdHcwMEcyTUMyNkpxZG80VWpHSkxiYzFrRGN0bnNwcDYwTTk4MWYyWU9GbTQ4bkg5YXdINm44aElUUElPMmxzNWowM3pfZVEzdHMzbFhwcm00MUd2RTllRWN1RV9Ca1BsdWpvZ2RFUEk2Znc?oc=5",
+          "publisher": "Nine.com.au"
+        },
+        {
+          "title": "Trump's approval rating on economy hits all-time low as midterm looms: CNBC survey",
+          "url": "https://www.cnbc.com/2026/10/22/trump-economic-approval-rating-midterms-poll.html",
+          "publisher": "CNBC World"
+        }
+      ],
+      "headline": "Twelve days before the vote, Democrats hold the edge in polls, but a pollster's admitted fake numbers are shaking trust in the surveys.",
+      "quick": {
+        "happened": "Twelve days before the vote, a pollster admits making up numbers, and a CNBC survey puts Trump's approval on the economy at an all-time low.",
+        "matters": "Prices tied to the Iran war and tariffs drive the vote, and House control would shape decisions such as Ukraine aid.",
+        "next": "Americans vote on 3 November for all 435 House seats, 35 Senate seats and 39 governorships."
+      }
+    },
     {
       "at": "2026-10-22T13:56:47.109Z",
       "text": "Fake polls are shaking trust in midterm polling, The Hill reports, and Newsweek says two new polls put Trump's approval at a record low. Jeffries says Democrats are 'on the verge' of winning the House.",
@@ -967,22 +1029,6 @@
           "publisher": "Lowell Sun"
         }
       ]
-    },
-    {
-      "at": "2026-10-21T18:39:04.115Z",
-      "text": "The Guardian now reports an 11-point Democratic lead among likely voters, up from the 10 points in the previous line. Reports say Democratic Senate candidates lead in polls, though one Washington Post opinion piece argues that may not be enough.",
-      "sources": [
-        {
-          "title": "Democrats have 11-point lead among likely voters as Trump’s approval rating craters – live",
-          "url": "https://www.theguardian.com/us-news/live/2026/oct/21/donald-trump-south-carolina-data-centers-midterms-ukraine-witkoff-russia-latest-news-updates",
-          "publisher": "The Guardian World"
-        },
-        {
-          "title": "Opinion | Democratic Senate candidates lead in polls. That may not be enough.",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWFl4NFdVYkJLYmdueDFPRExCWjYxWjg4WTdKbk5GalZYMWN0ZVRsM1RaMUlpVG8xbmIydUg5a1NGbHBNY1QzQnZmbUdaTUk4dFJGbUctZDEzSHN6SHUtc2RPamxMeng0ZU5jX1dseEY2T1ZWWWFmUktVSnVWSFNEQzVJWklHaVZEZ0dkU2syMHhEN1UzYXZVT0ItNEhfckRpRDlZ?oc=5",
-          "publisher": "The Washington Post"
-        }
-      ]
     }
   ],
   "france-debt-stress": [
@@ -1057,6 +1103,33 @@
     }
   ],
   "india-us-trade-deal-2026": [
+    {
+      "at": "2026-10-22T16:58:55.795Z",
+      "text": "Reports say one outlet's headline puts the deal at '99% done', and Rubio repeats that the US is 'very close'. Jaishankar says there is progress but the last mile is challenging. No signing date is given.",
+      "sources": [
+        {
+          "title": "Trade Deal \"99% Done\": 6 Key Takeaways From Marco Rubio's India Trip",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSG1rWEJLbS1JSWdwWkd1WExKUnhMV25mclhULUZsUVJtNG1zVmdyYlFpOHhJejdRVDZrNGgwd0FTMWFNaDdTTVlHSHZkWVJoNFYwVUp4Z01NWXFCWll4QXh6TVlqSnJjSnZwVnhYT1h3cHhBTHEwUldQS3IxSUhYMXB2Z2ZFOS1nbElaZ0lGNA?oc=5",
+          "publisher": "India Weekly"
+        },
+        {
+          "title": "'We're Very Close': Marco Rubio on India-US Trade Agreement - India Today",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMmVHdVYwbHQ4M3FsNDFVWnVaNjNWY1pTcDB5RnVyMGZGM19lWElwRjBfVHBUWHo5V0pLV2NXMnlKZHJFemZaNllCZmR4a2hCcmVqZUg5dXNVbzNMUlZEVERQdTFLUjhvZ0JvdWNlUExRVkJtRVM5TXRaZHA5Tk5yZVFSSWFIaWVwTUVvbHJURzNTRlNpOVFhT2M4Y0daNGJOZW5yTEFib2xuZ3JlWEwxR0JMaUd2MWJS0gG-AUFVX3lxTFB3bklZR21FeUZkSkVDR2NxOEI4X2tuMjhSVDV3VDN4Q1JoRko4Y3U5R2RhQXFfMFBHc2c5STFvSTlrcHdSWXpVU3JfSDE3dzkzc1BGVlhvUGpiS2ZQRjRIeURTOXNzT244NVdPX0JTM01odk5EX2hoUXItVXpfQTNsT1VCVlhjYlJKSi1FM3lGY2E3QnZqZXRURXRSNnZOWnRNelRCQnllZUdGeV9sYlcxZV9ILWVtTVFWNXV5c2c?oc=5",
+          "publisher": "India Today"
+        },
+        {
+          "title": "Jaishankar signals progress on India-US trade deal, says last mile remains challenging",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQXZvOWJHeFoxbkQzQVNwTVlfNG05RUFOSlJfc1ZaVTE4MWlRbUJ6SlFyekNMeXRIa2RrYWU2YUVjeHhIRUtrN21fczJjNkRDMXdab2I0VHNsUENuOEtFQUJtU2gtbklMTUhVXzVnQzRBNWYyVnFsYjY1dzAxUW9zSURoVGtOcHpiZWRwR1FxX19nZTh2bGFPUlA3MzROajVaUHhJVUNVSlN6RDhaV2tnT0hCbGdVMFRhTDYweXFaT1FISTZZdXFoNUdkU1M3U2N2YXfSAdcBQVVfeXFMTTc4aDJFRzN6eFJmLVdOdVR3VGlxSU9wbm1GMWR6blhJZ2pCWXlDZ3NmYWhqQ1piNFdjTlFSN3BOZGxfTGRHbXh2ZmNMVzVfNVFtX0w3WjVrbmFVUmFQTmVjclRvMmdZR3dwWjlMVXBhamhnTXNBVERqaExzek1zVnNNLTJ2b1ZOd21ydEhGbEszeGRxODNIclVLVkwtRWFRZDB6Mm9OSDYxWGg0bFhVdW1XSE4wTmVtOTBnS3VieUlaZEpVUlM2cGFxWHRqNktLMHV3RXl5T2M?oc=5",
+          "publisher": "The Statesman"
+        }
+      ],
+      "headline": "The US and India say their trade deal is close, but the last stretch is hard, and Russian oil waivers ride on it.",
+      "quick": {
+        "happened": "Rubio says the US is 'very close' to a trade deal with India, while Jaishankar says the last mile remains challenging.",
+        "matters": "Rubio ties US waivers on Russian-energy sanctions to the talks, which links the deal to India's crude supply during the Gulf energy shock.",
+        "next": "No signing date is given, and the first tranche is still in legal drafting."
+      }
+    },
     {
       "at": "2026-10-22T15:24:37.536Z",
       "text": "Reports say Trump calls the India-US deal 'pretty close' and one outlet says Rubio sees it just weeks away. Jaishankar still says it is never done till it is done, and no signing date is given.",
@@ -1576,6 +1649,33 @@
   ],
   "russia-record-budget-deficit-2026": [
     {
+      "at": "2026-10-22T16:58:55.795Z",
+      "text": "Reports say Russia has sold gold for 10 straight months, taking reserves to a 7-year low; one outlet says the sales help fund the war. Moscow agreed to resume Ukraine talks, yet missiles hit Kyiv.",
+      "sources": [
+        {
+          "title": "A shake-up in the Russian treasury. Putin is selling gold to fund the war",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaUxoT0NSWW1VZTVlMVJ0RU0yTk9RWHR6MmtFa0Fha2tPMVlZOHlNa2hCYWlkNjBoZW4yTS1pTFN5UFBtdFlBYkZ1bDZrQm9MLVpHVllnTlRQTnBPX2RPOEJRVl9RQTlGODBOR2x4OEdUa3pLQ04tRUxxbDB6OFkwYWxVSFUzalpXWUZ5cFZubkFpajlzcUE3NkdGWW40UGQxQXVOWkgzWU5zVzEzT2c?oc=5",
+          "publisher": "Defence24.com"
+        },
+        {
+          "title": "Russia sells off gold for 10 consecutive months, reserves hit a 7-year low.",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTlo1Q2lQMldOS3p4NHJjYUlYLXhfNjFOVjZwNjFyTVBGcjd6MGhJTHlIVEliZHJDYldFc0JUZnBsdDM5RWMxa3RJMExRZGkzX0k3cU9BdHFfY2JWMWhZYVQ2aUFTX1ZwVmxlZ3BaR3RtN3BjajNUenlLRXhrb2t0SGIweVBEWFNOWUE?oc=5",
+          "publisher": "Vietnam.vn"
+        },
+        {
+          "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+          "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC World"
+        }
+      ],
+      "headline": "Russia keeps selling gold while its budget gap nearly doubles, adding pressure on Moscow as it agrees to resume talks with Ukraine.",
+      "quick": {
+        "happened": "Russia's 2026 deficit forecast has nearly doubled to 7.345 trillion rubles, and reports say it has sold gold for 10 months, leaving reserves at a 7-year low.",
+        "matters": "Less oil money and record 2027 defence spending leave Moscow short of cash, which feeds into its Ukraine talks and its role in OPEC+.",
+        "next": "The Duma holds the first reading of the three-year budget on 29 October."
+      }
+    },
+    {
       "at": "2026-10-22T11:10:41.576Z",
       "text": "The Russian oil price used for tax calculations runs 60% above the budget level in October, Reuters reports. One outlet says Urals crude fell to $80, a 1.5-month low.",
       "sources": [
@@ -1630,6 +1730,38 @@
     }
   ],
   "alberta-independence-vote": [
+    {
+      "at": "2026-10-22T16:58:55.795Z",
+      "text": "Reports say Alberta First Nations face closures, cancellations and insufficient ballots, while the count runs on past its deadline. Smith outlines immigration plans and calls for UCP unity.",
+      "sources": [
+        {
+          "title": "After Alberta's referendum, Smith outlines immigration plans and calls for UCP unity",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcXUzRlFFdWxhR1BYU3VtMHVSUVczUEd4OU90NHVrVVhuQTJhUWtpd05SS01CV0h2QkhEQmdjMHlHRENWZ3JpNWJYdTFKV0RpLTJuRWUtZ2xLUFNFUVdSb3FRN0l3LW01QVliUVlSRlFydzFDd0tMalhSQXpzMUVOckJGaXd1alpYdlE4bUNFTk9Gakg2am8tOXNNT0lmWlJCb3VBN0FzT1RtVmlPN29FdVNJVVlKd1h1YTdz?oc=5",
+          "publisher": "HighRiverOnline"
+        },
+        {
+          "title": "Referendum ballot count continues after 48 hr deadline passes: Elections Alberta",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZjVoTU1FTXFuZ1F2WG5FbHA4aUE1elZ6ME5fUVJMd19URFR3eFhCVW9raF9FOC1NVWVKMklXYk9YTEJ6S3UwWkh2SDRjcUp5LVVyZFc2dVd1ZUlMenZObXF5Vk80ZXJQT2hiUS1zLXc5YmlZYjdibE1OZ1g5cTh2cDlqQXk5d09yLXVIajctYw?oc=5",
+          "publisher": "Edmonton Journal"
+        },
+        {
+          "title": "Closures, cancellations, insufficient ballots: Albertan First Nations raise concerns with referendum voting issues",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVzNobFVXLWRyeVpVS2lYai12azRDa3JtZlgzQmJhVlRxX1NyLXNtc3pVbmlaWTFRSVp5aWxBNlM3WEMyaG5KMTEwR2hRN1J3M3VTTlFJU1FxaXVtRW5tQm1ISlBKSWtpZjU2MFBJa1g4MjJzY2Jnd01IbEtHaHVqRktrNnpXdnpmRmxfbEJTREFtY092N3A1aQ?oc=5",
+          "publisher": "Yahoo News Canada"
+        },
+        {
+          "title": "‘Just hasn’t been possible’: Alberta referendum count not complete, results delayed",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNX2d1bHpWOFp1eHAzQjFWYVJFT01wdnRUUVFyWmlZNjY4TnlIVU9Ia3M3T0JfY2JzQnVjRWNlSDlDWFVBR1RYUHR2c1ROdS13THZKMWlHX1R1bFhFY3hVWWI1RjlhZjhfZlBMMW1yRHplQUtTXzg2Nm1xQ1pvRThwZ0VPYnN3Q3VBMEk2b0wwd0x6TUo0VkxsVW9R?oc=5",
+          "publisher": "CityNews Edmonton"
+        }
+      ],
+      "headline": "Albertans voted to stay in Canada, but the final count is still unfinished and First Nations are raising concerns about how voting worked.",
+      "quick": {
+        "happened": "About 77% voted to stay in Canada on unofficial results, and Elections Alberta is still counting past its 48-hour deadline.",
+        "matters": "Alberta's oil income benefits from the Gulf-driven price spike, and US tariffs sharpen its grievances with Ottawa, so the result matters well beyond the province.",
+        "next": "The count has yet to be completed, and Premier Smith says she plans to proceed with caution on immigration changes."
+      }
+    },
     {
       "at": "2026-10-22T15:24:37.536Z",
       "text": "Premier Smith says the separation debate is settled and urges people to accept the result, though Elections Alberta is still counting past its 48-hour deadline. Smith also plans to proceed with caution on immigration changes.",
@@ -1808,37 +1940,6 @@
           "title": "Alberta referendum vote total tallies 10 separate ballots, not individual voters",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUk5haFhVNVluRUZySHJmc0h6RDMtWVIxR0NTeTd3UXZVTVc5NGtEY2lCbkZ6ODlxYkk2YnNKYTlBaXBHY2FJZWxhdElidkdRbGdYbjM1a24yNDVlejJXR3ZtQl9IQW80Z0hMMVk0SWNPX2NIclBBWndKenJfRFgxZnRRenZVclh3bnB1bg?oc=5",
           "publisher": "Yahoo"
-        }
-      ]
-    },
-    {
-      "at": "2026-10-21T18:39:04.115Z",
-      "text": "Premier Smith now says the UCP is a federalist party, tells separatists in it to move on or find a new party, and says there won't be another separation referendum while she is premier. The Toronto Star reports separatist support was strongest in ridings where Poilievre did well.",
-      "sources": [
-        {
-          "title": "Danielle Smith calls UCP a ‘federalist party’ after Alberta rejects separation",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPN0VJVVFuVWtMYmsyUTZmSVlRa3NiZzU5Nm0yOER0YWVmTXI1WDhCb0hoSG1xalplTlNzeGdMdkZSOVRIeEJ6bDdPVVFvV1ZGeGJrTjJJakNZM1ZzdExmTXAzLWduSVo3VzdXTkM3Rmp4czc4WnhPclQ5Y1c1RTZjeTZhT0F2S19yUC1xdEw3cw?oc=5",
-          "publisher": "Global News"
-        },
-        {
-          "title": "Alberta's Smith tells UCP members to get on team Canada or find new party",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZHBrYzR0N0ZMbmNTbUdpY2dGUzFTMUUtUGNVZnlQRFJZTVZwYmYzZ1NLUEJZRGJXOUtsaVYyTGZuMDNJVkZlY1JfZU9ZczVvdXhTd2FqWmJMOWZYcjRJX3BnMjEwcExDVWpBWFVCV1VyTjRiWVAxdTk5RHJ1d1RWTHB1RkpYcktIQmx6d3V5bmFZelFaU2hBUkx3anZwS0l4TE5xSF81OXBJbzV2UUNIQjNTWQ?oc=5",
-          "publisher": "CTV News"
-        },
-        {
-          "title": "Separatist support was strongest in ridings where Pierre Poilievre had some of his best results",
-          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOeEtUc1E4ZVk5OVZHLVFFcEo5cFo4WUh0QUVybkFWMXpYNHFKNWV2N0tYNE9Tck5LWHFOUXloTHJsR1ZfSlEyc3gteHpBSjhldVQxUXVsaE9TWE9XUU1DTW01MWxULWJvRWFHLXBwZFhINFdMWnhpeGVRVFJRSkw2Wnpjaml2dnNvbEc3ZUJaTmdmeXBWdlllX2lFZ1lHUVQwTEVOVEVNREo1clZ4UG9QU1VMYWV0T3V0bXczamdxYzEtb2pERW9SWXFaemNmTzQwYnRJSTEzaDA4TUo3SUM0T0tBQXFmV0JtQXVUQkxBVDNiS2F1UTF1alpSYVEwOVhud1JMa1dUWjl3cDNfR3NV?oc=5",
-          "publisher": "Toronto Star"
-        },
-        {
-          "title": "Danielle Smith says there won’t be another separation referendum while she’s premier",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZjJNcjZnd0w3TlBXLTFCRmJ0Mjh5aTJNQURoaW1DcmhoTklpeXN5aVotX0pXb19SZ1cwOWNMOTVlbGFrbE44dlY0MTZYSkdSRGFkNE4wMFpwaWZCWUxjT2ZjWDM2SU5lRi1RZXlHTHgzYjhFNGlsR3NsQ3lGWFc0QVBpS2pKWFZhX2xKOEdoeEY0VnIwWnJ6NDBld0xWcm1VdS1MckJiUmo1b082N181c0xZLXdYUQ?oc=5",
-          "publisher": "Abbotsford News"
-        },
-        {
-          "title": "Smith tells UCP separatists to move on from referendum or find a new party",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbnliTjFCZkNiSS0ydTEyN0Nmcms3TXh1VE12STlyb2NqS0VYYU1tbzcyZF83bVF0WjFOWTNCSm4tckJ5X0QzM2x5ZFpqcklrWXBGbm55SUczaXo5eDJCNVBCMFdkUkxBc25hblh5WVRaNkc3ejBoNjdqVzB6WHpuOHo3azFqNlE3aWJRTmdLU0NOX3I5OUFnTm1GME43UDU1R0tCdg?oc=5",
-          "publisher": "The Globe and Mail"
         }
       ]
     }
@@ -2053,6 +2154,48 @@
     }
   ],
   "eu-supply-chain-rules-2027": [
+    {
+      "at": "2026-10-22T16:58:55.795Z",
+      "text": "Piyush Goyal calls the EU carbon tax on steel 'inviting disaster' and says Europe is shooting itself in the foot. Sri Lanka and the EU discuss how the deforestation rules will apply to rubber exports.",
+      "sources": [
+        {
+          "title": "EU carbon tax is ‘inviting disaster’, says Piyush Goyal",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaUJ3TV81Wmo2YWxvYkh0MWNQaEJqNjRCa3Npb1VuUF9XUmlmS0NHcG1xeW91WjI4aXE0OFRYMVkyYmEyZlp2aTliLUJTdHNXdTU0Tkc5Y2hZdlI0OVRKY3k4OHJ1alo4a2VGamh6eU1ZdFBCNGRIdExLNk4xZ0xwZHZYLVVHQjc1TFRQM1N6LWJhRk9Uek9FSGoxdUtBamNwYmVGenROVC1hb0F6WmpEQURB0gG3AUFVX3lxTFB4VWNzUTNoaF9aZGo3bk5HYzFvbFl5ZWI0eTc2cm9sZWdMb2l1MllVOXB0VlhDeS1GYXpwaTNaNmlwTWJ4ZWVveU5ydkQzLVd4dUM3c0JhUU9YOExacW03ZEpaUDNJRjVaX3VjQ3ZzbGtuUldHUURMaUtBRzl0RGVNcHNMSkphbHZDU1RGZ29HQzM3N1BjeU1JZFpUODB2RUJyVHJRY3ZfQUJ5QWRiWWFsRkQtdWZaSQ?oc=5",
+          "publisher": "Livemint"
+        },
+        {
+          "title": "Goyal: EU Carbon Tax on Steel 'Inviting Disaster'",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeWlsU05DY1ljZUo1THFuV0tGWXhLNHF3M04weDE5TmtpS05rbGtVZVF5UWVXeWFoNndQTEpoWnRGQ2pXekl4VW5TRHNyanlOM3RYbnZ4TVJwU0ZCd2lDVlZRUTNwMHhocmRvTWFrU0VFS0psZGdtUjlkOUVkVmp5eDBoZzV2NUh6eVVDSGhsczVXX094Nm1ESTRxTmtTUmdaNmhxQtIBpAFBVV95cUxQeWlsU05DY1ljZUo1THFuV0tGWXhLNHF3M04weDE5TmtpS05rbGtVZVF5UWVXeWFoNndQTEpoWnRGQ2pXekl4VW5TRHNyanlOM3RYbnZ4TVJwU0ZCd2lDVlZRUTNwMHhocmRvTWFrU0VFS0psZGdtUjlkOUVkVmp5eDBoZzV2NUh6eVVDSGhsczVXX094Nm1ESTRxTmtTUmdaNmhxQg?oc=5",
+          "publisher": "Rediff MoneyWiz"
+        },
+        {
+          "title": "‘Europe shooting itself in the foot' with steel curbs, CBAM: Piyush Goyal",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMDJPYXpxQkhBazB3WUljVEFaRXBsMk94WURjUTFCYTFHWHRxT1hhQXlwX2RlZnpVTkN4a01VOGRnaW1laGlqY2tLaExpbjVoRl9DLU4yeE9MdXlmU0ZUMkJidHNkaUpkNlcxVVAycF9aZVMxMjdLc0V6aUkyZVU2UjBPMkxxNVVEV3F1ZkFVMVhYV1dtRzRHOUZNLW81cW9rNWQydTlkV1hIR181b1FyQWdYekZhakJCRFZERTkxNTQweUZR0gHKAUFVX3lxTE5idkhaZnlLdzRjaFJpT1IxakdvQ3AyZjZoNEFhQ056bmI4cllKQ19qUEFCQ25BLVcwV0taYm50SWdiRzBaLV91N1ZHRDNDX0xudzZYRzhGZWFpU21rQVYwRUZqYU85TXRITU1pVENXWWdTY3NLQ1V0Z0g1VDh1MVFaZmt1UUU0TEcyWV9ZNlZuS0ItNFlmVmJqMFBsQ1NLUWpzSDJIbFdsa0ppV1h2WlVXR1U3ekZiVlpPaUJJSVRia0lKNHN2cHdSQVE?oc=5",
+          "publisher": "Moneycontrol.com"
+        },
+        {
+          "title": "Sri Lanka prepares rubber sector for EU deforestation rules",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUXE2VGpsT25CN1FYR3F3ZTBVaDAyQlpXcXpRQTBkM2s3RXM4YmVxQXgwWnpOR3lHS0lUY29ONEJaUmpZWDRmdk9UdTYxazBDdjBESGE1eGNQRTItRmpIdjNJYTlqZzZBak82cy1Mb3kxY0pHY2RGcm1WellVVTBoV1V4c0tJSnVYazB0SVBjOGRXNFVFTHc?oc=5",
+          "publisher": "EconomyNext"
+        },
+        {
+          "title": "EU and Sri Lanka strengthen dialogue on EU Deforestation Regulation",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOFktZnlLb0ZobGlpdkpKYjNDOWxlUDNJQ3V3a1FxWWNwb0NHd21iZGt1SUQtZEVab2JrNWZ4RVFOZTN4em9mem5VekFGaGE0ZjlwMEl0U3FpVHZ5bGh1QUJPY2ZKNnBZdS1hM2pna2cxVU93cGE3SFZsNHVVSkp0U0hUQVliUjhfT3kwZDZFRnkxUWZ0NU03NS1ORjJtdkt5UXdscnZqbmRLM3NCVWl4VQ?oc=5",
+          "publisher": "Hiru News"
+        },
+        {
+          "title": "EU deforestation rules: Sri Lanka focuses on safeguarding rubber exports",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWHNOenlseTNUaWRWb0RoamFndTFVcVpja3FnY21pRkdnTnlhMF9JRXRTQjAzQnJOMWpuUFBsbVp4Q3hiR3lwdGJJc1Y4b1JKMFE4Y3llbTYwamR6bnpfUk9odk55MkE0eW1LSnkxNkN2ZmJMOVliNW40WElvdTVkRnEzMEc5aDU5aFN4Yzd0SXhpTmVqaVNmbE1tZnZpc0tWc3M1RGJucFZGeFE?oc=5",
+          "publisher": "Newswire"
+        }
+      ],
+      "headline": "EU deforestation and carbon rules start to bite abroad, with Goyal attacking the steel tax and Sri Lanka preparing its rubber exports.",
+      "quick": {
+        "happened": "Piyush Goyal calls the EU carbon tax on steel 'inviting disaster', while Sri Lanka and the EU talk about deforestation rules for rubber.",
+        "matters": "Importers of steel, aluminium, rubber, wood and coffee face new paperwork and costs, and trade partners are pushing back or getting ready.",
+        "next": "EU deforestation rules apply to large and medium operators from 30 December 2026, and CBAM certificate sales open on 1 February 2027."
+      }
+    },
     {
       "at": "2026-10-22T13:59:19.892Z",
       "text": "UK CBAM, starting 1 January 2027, gets fresh attention, with HMRC guidance explained and NFU Scotland asking for clarity (2, 6, 7). BigMint reports a higher EU CBAM certificate cost for Q3 (10).",
@@ -2350,6 +2493,33 @@
     }
   ],
   "brazil-runoff-2026": [
+    {
+      "at": "2026-10-22T16:58:55.795Z",
+      "text": "Bloomberg reports Lula and Bolsonaro agree on terms to open bank records. Orinoco Tribune says Bolsonaro's poll lead narrows to 1 point. Reports say a trader placed a $27K bet against Bolsonaro winning.",
+      "sources": [
+        {
+          "title": "Lula, Bolsonaro Agree on Terms to Open Bank Records",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMkpZRHo2dEl5bE9IeU00U2FZc2lxZjBXVTMyZHJXNndIS0tRbmxkWndEZzFwSmdyNjdqT2I2NkEtMlNWR3NmT0xRZVI4NW9UWHF2UVVfVlVrblpjaTMxZXN5NjJqbGpSU3NtRzNCZVB1bEVLbk5GbGdSUnMwWXZ3QUtSaDZkUGQ1NWtPN1l0VlQwVFZCV0plZm84aGpGaVFHZlJlQi1ESGJRNFhLamc4SmRYcw?oc=5",
+          "publisher": "Bloomberg.com"
+        },
+        {
+          "title": "Bolsonaro’s Lead Over Lula Narrows to 1 Point Ahead of Brazil’s Runoff",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbktUTFBoUWJXTHhhWndzSmtnZzRSNnplLWtibFlkdzBQYnVmaVh3MjdZa2FoSWNndDAtNGRjUjl1c0J0TXhpdy1TR1Y5Yl9NV2dib2p2WV93VHZ5Z19nV0hnU0NOT2hzQ1lRbTU1cVZaNWNTWEp2c2lOS0Rvb0gxZW8xdlhncUNxWi12elVsaHVtbzBFWDVGdUV3SUc?oc=5",
+          "publisher": "Orinoco Tribune"
+        },
+        {
+          "title": "A trader just placed a $27K bet against Flávio Bolsonaro winning the 2026 Brazilian presidential election",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxObmk3cFBqVVN2a3kteVJwVk4yZ3RfZERRLWFFNU16aS11M2JDUUVxNUp1OVBlTnJQTkFHZFpaalpsNWxQVDZfNlVlc3RFSERuT21kR3VSLXh6SDNOSjdib1J2a2w2QXZER1FTUDFBdy1WTXcxcXVCXzJJa1dUNmJvQWtPUFhBejVDemRlWDVTa2VxbW9GOERsVnFVRFliak9PTzlMeHpISXNsbGpIM3hEbEZuZDFGVU12Mm8zUWdoVmx5RUVaSnZ0VlFEQndXTnBVdkppWTV6cG9ZWktya0E?oc=5",
+          "publisher": "Quiver Quantitative"
+        }
+      ],
+      "headline": "Brazil votes on 25 October in a very tight run-off, with Bolsonaro's small poll lead down to about one point.",
+      "quick": {
+        "happened": "Bolsonaro leads Lula by 1-2 points in final polls, within the margin of error, and one outlet says his lead has narrowed to 1 point.",
+        "matters": "Brazil's next president will shape Amazon protection and energy policy, and Foreign Policy frames the vote as a question of Brazil's sovereignty.",
+        "next": "Brazilians vote in the run-off on 25 October."
+      }
+    },
     {
       "at": "2026-10-22T15:24:37.536Z",
       "text": "Reports say Lula seeks to annul Bolsonaro's candidacy in a tit-for-tat move, per one outlet. ICIJ reports the US is letting a convicted Bolsonaro spy chief stay in Florida, and Brazil wants answers.",
@@ -2752,6 +2922,48 @@
   ],
   "ethiopia-eritrea-war-fears": [
     {
+      "at": "2026-10-22T16:58:55.795Z",
+      "text": "Border clashes push hundreds of Ethiopians to flee into Kenya, with injuries reported on the Kenyan side. Reports say the Tigray drone strike killed four civilians, including two children. The US seeks to mediate and sidelines the TPLF, per The EastAfrican.",
+      "sources": [
+        {
+          "title": "Border town clashes force hundreds of Ethiopians to flee into Kenya",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSTJSZ0VjTTVDek5GNUtXMExNY1ZOYURQNDdHby0yTzBBcGpYVHZVZ1ZSdkZjMGJsdHN5TkhCd3VIbXhzanJvc1F1RFYwNmtzZWg3MTN1QlNoSm1RMFA3Q1JuQXlJaWhucE5rQmRrbjliVmFEbUFiNFg5X3AxREoyY3FBM2s3YTJIRDd0UGJvY18tMUFMZWJMUHFVTHZWVFhuRkI2SEFRVlFOZkdxenBpbm5aaENUWXI1cnVz?oc=5",
+          "publisher": "TimesLIVE"
+        },
+        {
+          "title": "Drone Strike Reportedly Kills Four Civilians, Including Two Children, in Tigray",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XNGVPbHE5MkplUUhlRHA0anZseU1HM3VHcVowaFdEY055STd5amhOeVljWkZoOWJRTEMyM0dxa3NycDhRM3ZSek5QWFZVSEJsTl9XQVAyYjk1bVZSaTVBYi12YkhkVFh4LWdpeEhsYXpPdw?oc=5",
+          "publisher": "https://kulu-media.com/"
+        },
+        {
+          "title": "Hundreds flee Ethiopia into Kenya after border clashes",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdGMxdkc3YVI0QUk2M29iNkhuVzQ4SHVIZXRpeUJYWGo5SmdGREJIM1dWQk1tV1pZNTFmWm1DZlMyTjdpQWhZX2N3dEM5bFBuZ2tNUWdXSGE4SnJKdllTRE1aeGpsaTYzd0lUckV6bGNkczRjWUNQMHhmZzFmU0sxeg?oc=5",
+          "publisher": "Latest news from Azerbaijan"
+        },
+        {
+          "title": "Injuries Reported as Chaos Erupts Along Kenyan Border",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNEEzSnEwdlREZHJPanR1d3psblhtMXI0bDhack9OczBVWkdwbURJdEVIZmRlRm93Y0VxZTIxZGp4ZU1CWnl5OUcyMnRYelBPaUphLWk5enduZUU1djFVcnpsZWVjZTBZdE5nNk5FZ3VjN19PVUhHS0ZXMFVHTkY0MmlpZXJibDVtMDItMktyN0l2M2RlS0RJY0NRa1Q3cHVfcnc?oc=5",
+          "publisher": "Kenyans.co.ke"
+        },
+        {
+          "title": "US sidelines TPLF as it seeks to mediate Ethiopia–Eritrea dispute",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaEVZLXI4b01hWkh2T2dMSHo5V1k0cDFKbVA2YlZIWnVGbzBUcTNfME96WlRMaVFiN0swcW1XY3EwN0x3NTN5RDRtYmlYbjRCelU1ekZBd05pLWJQdldEZ0tOQjdHdldVZkc0Mm5GRjAwNGJWdnJJZzN4b2RxdGtlQjJZakZNU1ZSS1JERlI5UXBNaFpZT1hobXg0UXQ1SDNmNGQwWkZndVVFV0VuUXVwTmF5UThHa2xraEQ5TWxXTEFuZDVSRFdaaXVB?oc=5",
+          "publisher": "The EastAfrican"
+        },
+        {
+          "title": "Four people, including two children, killed by a drone in Ethiopias Tigray region - Sada News Agency",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFByT2c4SDFXQzZqd2tpdnA1MndwaXo4VVZ4R3kteTRVM2U1VFFyd01TdnV6WW12bFRCVE41SXJhekhMVDB2NHplM3RaSzhmMXJQaFJhZVlR?oc=5",
+          "publisher": "وكالة صدى نيوز"
+        }
+      ],
+      "headline": "Fighting now spills over the border, with hundreds fleeing into Kenya, while the US tries to broker talks between Ethiopia and Eritrea.",
+      "quick": {
+        "happened": "Border clashes push hundreds of Ethiopians into Kenya, and a drone strike in Tigray reportedly kills four civilians, including two children.",
+        "matters": "Fleeing civilians strain neighbors, and tension near the Red Sea raises the risk to shipping and the wider region.",
+        "next": "The US seeks to mediate the Ethiopia-Eritrea dispute, and reports say it sidelines the TPLF; no date is given in the headlines."
+      }
+    },
+    {
       "at": "2026-10-22T10:58:03.753Z",
       "text": "Reports say Abiy names a new Tigray government and wants elections in six months, which the TPLF rejects as illegitimate. Four people die in a drone strike in Tigray, residents say, and the US seeks to mediate.",
       "sources": [
@@ -2816,6 +3028,33 @@
     }
   ],
   "israel-election-2026": [
+    {
+      "at": "2026-10-22T16:58:55.795Z",
+      "text": "New since the last line: Netanyahu asks voters for time to finish the job in Iran, and reports say the US and Israel are planning new strikes. Arab News reports he is pushing small right-wing parties to quit the race.",
+      "sources": [
+        {
+          "title": "Israel Elections 2026: Benjamin Netanyahu asks voters for time to finish the job in Iran",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4yN29MMEYyS3ZGeTFPTWJWdlFhYVZ1bVJsQjZsaVAyYnZBN2pzc0Nyek9yN19kb044LTY2cjR5UkVIUWtyN091dHpRMF8xb1NXQkNJZVpGeXVaWC1PZjYwWXQzOFRxcl9B?oc=5",
+          "publisher": "The Jerusalem Post"
+        },
+        {
+          "title": "Reports show US and Israel are planning new strikes on Iran",
+          "url": "https://www.france24.com/en/video/20261022-reports-show-us-and-israel-plan-new-strikes-on-iran",
+          "publisher": "France 24"
+        },
+        {
+          "title": "Netanyahu pushes small right-wing parties to quit election race",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOUlDQkdyRnBmYkctY2x4a2IzQ2lGZ3QxU3RwYUdxUEFiM2FpWEJlVjdfRGMtcFR0YU56WS1ZZ2RPZ0pwSTlhWld6R3kzZ3k1bnVmR3FrYmdTUm5xUGRxSHZTREs4WXNaQ3NqVWlMWXlkb0RITjFnaG1BNEJ5MnplVUV3dzhIUWMyZ0RTQ3ZSZ3RnZDRxcHJkclRhczdPQ19WSDh4TnRIY1VjM3Jf?oc=5",
+          "publisher": "Arab News"
+        }
+      ],
+      "headline": "Israel votes on 27 October with neither camp near a majority, and talk of new Iran strikes keeps the war at the center of the race.",
+      "quick": {
+        "happened": "Netanyahu asks voters for more time to finish the job in Iran, while the final Times of Israel poll shows the two blocs in a dead heat.",
+        "matters": "The vote is partly a verdict on the Iran war, and reports of new US and Israeli strikes could raise tension in the region.",
+        "next": "Israelis vote on 27 October to fill the 120-seat Knesset, and coalition talks follow if neither bloc reaches 61 seats."
+      }
+    },
     {
       "at": "2026-10-22T15:24:37.536Z",
       "text": "New since the last line: The Times of Israel's final poll shows the blocs in a dead heat, with neither holding a majority if campaign promises are kept. Haaretz reports the elections panel will monitor a Likud voter-tracking app.",
@@ -3004,27 +3243,6 @@
           "title": "Winter says may have erred pledging support for PM; Smotrich offers him minister role to quit",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOb0M2RFh4bjV6b2I0aktIbExUdW0yNG45OFkyZ1RLcWlrcURtR05ZM0JMZnFXU3JEYnFQdC1DRXVjRWVESHVnQU1rb01LY0pSb2YwQ3BSNHQ1RHFHWV83NmxDdG5HNWdjU1dWMVpUYmRsTlk0TUE2Uzc2cGtob1NhU0VMQmtFelpBM3c0RXRwSlNPSkNDQ0lVb3RWQVY4MFVwbXRFc195d0dmb3BUUWRmek9BWlZVY2pwbGNSMWJxa0XSAcYBQVVfeXFMTjhiZUN3T21wNXVvTDlDRExkdS1sSzJMNkZxLWFKc3Nha1BvdUJXM1ZPS0VhMXE4bWxNMVYzYmNrNTlOSnNQTDVrVjB3WFFqd1E3eVlwTHlVODBMYU1GOTBHeGJfSGNoSFlMZWVUNG5vcUlROWR0Uks4T1hlX2xtXzBJM2M2NnNvQ25GZjNlOFRPQ3M5cnZUdEU5RnR1MllxRkh5ME5VempQTGtyTjdzMWZLdWx5VmZ4UHZTR29CT1pKOXNNS2dn?oc=5",
           "publisher": "The Times of Israel"
-        }
-      ]
-    },
-    {
-      "at": "2026-10-21T19:23:04.418Z",
-      "text": "New since the last line: the Jerusalem Post says the IDF did not plan to strike Iran before the vote, and Netanyahu is pushing back on Ben-Gvir's bid to become defense minister. Eisenkot rules out joining a government with Netanyahu.",
-      "sources": [
-        {
-          "title": "IDF did not plan to strike Iran before election despite earlier reports",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB2MnlIWVdLV2tBemh3cC1BeWNFbDd3RmxhM2VGZlNCVFhURDVfSkRYYUppYXVrbndySmtiWUxheG0zYVNCcGZ2Z2ozSkZnbzF6emRXcGlwOW1CdnRmLTRfREYtajZGR2tFRTZzZUZn?oc=5",
-          "publisher": "The Jerusalem Post"
-        },
-        {
-          "title": "Benjamin Netanyahu pushes back on Ben-Gvir's ambitions to become defense minister",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1PYmw4WFM4OS1Fc21pNWxSZDNiVEJ1TmE5dkZ5M20zRW9sbDBwcEIzejlHbUFMVEMzRkZlUkRaX2NEU1Q2cTVTSXp5ZWpJcnN3TkZ6MGo3VVBPcGp6ZjdNbDFuWnYxVDA?oc=5",
-          "publisher": "The Jerusalem Post"
-        },
-        {
-          "title": "Eisenkot Rules Out Government With Netanyahu, Vows He'll Resign if He Joins One",
-          "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPN3RWdkEzeVRnNS1KTzUyd0hkMWduY1JWZ2hLT1Y3Wm5fYldMSE5pWExsRFZOYXpnWms0SHZUUlljRXV4YkNfTlZBM0NXQ21GU2Z6Z1UxbTk2TGhuUlBWeW5UVmJxOWpCTVVuNFlERkxJcm5ma2Z0R1BHUkRfcVBEemkyeGFfVEJYenJRRTk2NUZFSTZyQndQNkpLNjBYTl9iUHV1RGpFMTl0aGR3N0tIMVRFN2xyajRzZEdRMzdScC1jN1Q0a3RQZWpEM204Z2h3OGkzREI3ZW5JYjNHS3FSOHk5aGp6UGFuTXdodXNSX3JLZHlmUkZCRkVlV29XOWVMWGFjSzEwXzZBdjNPZVJFT1JZdE9LWDl1d2NZ?oc=5",
-          "publisher": "Haaretz"
         }
       ]
     }
