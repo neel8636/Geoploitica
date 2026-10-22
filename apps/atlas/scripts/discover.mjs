@@ -60,6 +60,7 @@ const log = JSON.parse(await readFile(F.log, "utf8"));
 const now = Date.parse(wire.fetchedAt) || Date.now();
 const iso = new Date(now).toISOString();
 const run = { at: iso, screened: 0, accepted: [], rejected: [], existing: [], retired: [], skipped: "" };
+let tagged = 0; // headlines handed to events already on the map
 
 // --- 1. retire added events that have gone quiet ---------------------------------------
 const lastNews = (id) => wire.items.filter((i) => i.eventIds.includes(id)).reduce((m, i) => Math.max(m, Date.parse(i.published) || 0), 0);
@@ -173,7 +174,6 @@ for (const s of stories) {
     if (sev < 2) why.push("severity below 2");
     if (!String(s.channel ?? "").trim()) why.push("no channel named");
     if (!reaches.length) why.push("no country reached abroad");
-    if (!conns.length && !(reaches.length >= 2 && sev >= 3)) why.push("connects to nothing on the map and is not big enough to stand alone");
     if (why.length) {
       verdict = "reject";
       reason = `Passed the test but not the evidence check: ${why.join(", ")}.`;
@@ -182,7 +182,20 @@ for (const s of stories) {
   for (const h of heads) log.judged[h.id] = { at: iso, verdict };
   const entry = { title: String(s.title ?? "").slice(0, 120), reason, headlines: heads.length, publishers };
   if (verdict === "accept") candidates.push({ s, heads, conns, reaches, sev, publishers, entry });
-  else if (verdict === "existing") run.existing.push({ ...entry, event: s.existing ?? null });
+  else if (verdict === "existing") {
+    run.existing.push({ ...entry, event: s.existing ?? null });
+    // its headlines now feed that event (what changed, fuel, the page's news)
+    if (ids.has(s.existing)) {
+      for (const h of heads) {
+        const w = wire.items.find((x) => x.id === h.id);
+        if (w && !w.eventIds.includes(s.existing)) {
+          w.eventIds.push(s.existing);
+          w.found = w.found ?? s.existing;
+          tagged++;
+        }
+      }
+    }
+  }
   else run.rejected.push(entry);
 }
 for (const h of pool) if (!log.judged[h.id]) log.judged[h.id] = { at: iso, verdict: "no story" };
@@ -204,7 +217,7 @@ Fields:
 - summary: two plain sentences: what happened, and why it matters beyond the country.
 - severity: 1 to 5 (1 local, 3 regional, 5 global shock).
 - keywords: 6 to 12 lower-case words or short phrases that headlines about this story contain and that are specific to it (names, places, programmes); no generic words like "government" or "economy".
-- links: 1 to 4 connections to events already on the map, each {"to": id, "kind": one of ${KINDS.join(", ")}, "why": one sentence of at most 30 words, "via": the channel in at most 6 words, read after "via", "driver": optional id from the drivers list}. Kinds: ${KINDS.map((k) => `${k} (${KIND_HELP[k]})`).join("; ")}. A link from this event to another means this event ${KINDS.map((k) => `${k}: "${LINK_WORDS[k]}"`).join(", ")} the other.
+- links: 0 to 4 connections to events already on the map (only real ones; an empty list is fine), each {"to": id, "kind": one of ${KINDS.join(", ")}, "why": one sentence of at most 30 words, "via": the channel in at most 6 words, read after "via", "driver": optional id from the drivers list}. Kinds: ${KINDS.map((k) => `${k} (${KIND_HELP[k]})`).join("; ")}. A link from this event to another means this event ${KINDS.map((k) => `${k}: "${LINK_WORDS[k]}"`).join(", ")} the other.
 - news: a Google News search for this story's local coverage: {"q": query with OR and quotes, "edition": one of ${EDITIONS.join(", ")} closest to the place}.
 - sources: the numbers of the 2 to 4 headlines that best support the summary.
 
@@ -261,7 +274,6 @@ function validate(d, heads, c) {
     .filter((l) => ids.has(l.to) && KINDS.includes(l.kind) && l.why)
     .slice(0, 4)
     .map((l) => ({ to: l.to, kind: l.kind, why: clean(l.why, 240), ...(l.via ? { via: clean(l.via, 60) } : {}), ...(DRIVERS.some((x) => x.id === l.driver) ? { driver: l.driver } : {}) }));
-  if (!links.length && !(c.reaches.length >= 2 && severity >= 3)) throw new Error("no valid link to the map");
   const sources = [...new Set((d.sources ?? []).map(Number))]
     .filter((n) => n >= 1 && n <= heads.length)
     .slice(0, 4)
@@ -296,5 +308,5 @@ async function save() {
   log.runs = [run, ...(log.runs ?? [])].slice(0, 40);
   await writeFile(F.found, JSON.stringify(found, null, 2) + "\n");
   await writeFile(F.log, JSON.stringify(log, null, 2) + "\n");
-  if (run.accepted.length) await writeFile(F.wire, JSON.stringify(wire, null, 2) + "\n");
+  if (run.accepted.length || tagged) await writeFile(F.wire, JSON.stringify(wire, null, 2) + "\n");
 }
