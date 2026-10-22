@@ -22,7 +22,7 @@ import ReportChooser, { type ReadOption } from "@/components/reports/ReportChoos
 import { ImpactMeter } from "@/components/dossier/Primitives";
 import { Fold } from "@/components/dossier/ReportParts";
 import { PlainBox, QuickBox } from "@/components/reports/PlainBox";
-import { connectInPlain, quickPoints, reportInPlain } from "@/content/inplain";
+import { connectInPlain, quickFromNews, quickPoints, reportInPlain } from "@/content/inplain";
 import { SITE_URL, reportErrorUrl } from "@/lib/site";
 
 // The enterprise server that generates reports on demand (set at build time; empty = not offered).
@@ -76,7 +76,11 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
   const errorUrl = reportErrorUrl(e.title, `/events/${e.id}/`);
   const chains = connectionsFor(e.id);
 
-  const quick = quickPoints(e.id);
+  // the top line, the quick take and the date follow the news: the hourly run rewrites them from the latest headlines
+  const live = card?.update;
+  const quick = quickFromNews(live?.quick) ?? quickPoints(e.id);
+  const quickKicker = live?.quick ? `In plain words · from the news, ${live.at.slice(0, 16).replace("T", " ")} UTC` : "In plain words";
+  const lastChange = live && live.at.slice(0, 10) > e.date ? live.at.slice(0, 10) : e.date;
   const connect = connectInPlain(e.id);
   const reportPlain = reportInPlain(e.id);
   const fuelItems = card?.fuel?.items ?? [];
@@ -108,7 +112,7 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
       icon: "quick",
       view: (
         <div className="space-y-6">
-          <QuickBox title={e.title} points={quick} />
+          <QuickBox title={e.title} points={quick} kicker={quickKicker} />
           <Fold id="quick-ripple" title="What feeds it and where it ripples" teaser="One card per connection, each with a one-line hook">
             <RippleStrip eventId={e.id} />
           </Fold>
@@ -213,13 +217,13 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
       <p className="mb-4 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-ink-2">
         <span>
           <Link href="/" className="hover:underline">Map</Link> · {TYPE_LABELS[e.type]} · {e.region} ·{" "}
-          {e.status === "scheduled" ? `scheduled ${formatDate(e.date)}` : `${e.status}, updated ${formatDate(e.date)}`}
+          {e.status === "scheduled" ? `scheduled ${formatDate(e.date)}${live ? ` · news updated ${formatDate(lastChange)}` : ""}` : `${e.status}, updated ${formatDate(lastChange)}`}
         </span>
         {card ? <PulseBadge pulse={card.pulse} /> : null}
       </p>
       <ReportChooser
         title={e.title}
-        hook={plainHeadline(e.id)}
+        hook={live?.headline ?? plainHeadline(e.id)}
         meta={<ImpactMeter level={e.severity} />}
         actions={<><FollowButton id={e.id} /><AskButton eventId={e.id} /></>}
         options={options}

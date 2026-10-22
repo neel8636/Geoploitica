@@ -13,7 +13,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { EVENTS } from "../src/content/events.ts";
+import { EVENTS, LINK_WORDS, getEvent } from "../src/content/events.ts";
 import { DEFAULT_MODEL, extractJson } from "../src/content/drafting.ts";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
@@ -70,19 +70,25 @@ Rules:
 - Say what is new compared with the event summary and the previous line. If nothing material is new, say so in one short sentence.
 - Cite the headlines you used by number.
 
-Answer with JSON only: {"text": "...", "used": [1, 3]}`;
+Also write, from the same headlines plus the connections given:
+- headline: the line at the top of the event's page. One plain sentence, at most 25 words, present tense: what is happening now and what it moves next. Everyday words, no news-speak, no question marks.
+- quick: three single sentences, at most 25 words each. happened: what happened or is happening now. matters: why it matters to people far from it. next: what comes next, with a date if the headlines give one; only dates after TODAY.
+Same rules: only facts in the headlines, summary and connections; "reports say" for single-outlet claims; no em dashes.
+
+Answer with JSON only: {"text": "...", "used": [1, 3], "headline": "...", "quick": {"happened": "...", "matters": "...", "next": "..."}}`;
 
 let ok = 0;
 for (const { e, all, last } of picked) {
   const list = all.map((h, n) => `${n + 1}. ${h.title} (${h.publisher}, ${h.published.slice(0, 16).replace("T", " ")} UTC)`).join("\n");
-  const user = `Event: ${e.title}\nSummary on the site: ${e.summary}\n${last ? `Previous line (${last.at.slice(0, 16)}): ${last.text}\n` : ""}\nHeadlines, newest first:\n${list}`;
+  const conns = e.links.map((l) => `${LINK_WORDS[l.kind]} ${getEvent(l.to)?.title ?? l.to}${l.via ? ` (via ${l.via})` : ""}`).join("; ");
+  const user = `TODAY: ${new Date(now).toISOString().slice(0, 10)}\nEvent: ${e.title}\nSummary on the site: ${e.summary}\nConnections: ${conns || "none"}\n${last ? `Previous line (${last.at.slice(0, 16)}): ${last.text}\n` : ""}\nHeadlines, newest first:\n${list}`;
   try {
     let res;
     for (let attempt = 0; attempt < 3; attempt++) {
       res = await fetch("https://api.anthropic.com/v1/messages", {
         method: "POST",
         headers: { "content-type": "application/json", "anthropic-version": "2023-06-01", "x-api-key": key },
-        body: JSON.stringify({ model: MODEL, max_tokens: 400, system: SYSTEM, messages: [{ role: "user", content: user }] }),
+        body: JSON.stringify({ model: MODEL, max_tokens: 900, system: SYSTEM, messages: [{ role: "user", content: user }] }),
       });
       if (res.status !== 429 && res.status < 500) break;
       await new Promise((r) => setTimeout(r, 4000 * (attempt + 1)));
@@ -95,7 +101,11 @@ for (const { e, all, last } of picked) {
     if (!text) throw new Error("empty line");
     const used = (Array.isArray(parsed.used) ? parsed.used : []).map(Number).filter((n) => n >= 1 && n <= all.length);
     const sources = (used.length ? used : [1]).map((n) => all[n - 1]).map((h) => ({ title: h.title, url: h.url, publisher: h.publisher }));
-    updates[e.id] = [{ at: new Date(now).toISOString(), text, sources }, ...(updates[e.id] ?? [])].slice(0, KEEP);
+    const clean = (v, n) => String(v ?? "").replace(/\s*[—–]\s*/g, ", ").replace(/\s+/g, " ").trim().slice(0, n);
+    const headline = clean(parsed.headline, 220);
+    const q = parsed.quick ?? {};
+    const quick = q.happened && q.matters && q.next ? { happened: clean(q.happened, 240), matters: clean(q.matters, 240), next: clean(q.next, 240) } : undefined;
+    updates[e.id] = [{ at: new Date(now).toISOString(), text, sources, ...(headline ? { headline } : {}), ...(quick ? { quick } : {}) }, ...(updates[e.id] ?? [])].slice(0, KEEP);
     ok++;
     console.log(`  ✓ ${e.id}: ${text}`);
   } catch (err) {

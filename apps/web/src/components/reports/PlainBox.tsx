@@ -26,11 +26,11 @@ export function PlainBox({ title, paras, kicker = "In plain words", chain = true
   );
 }
 
-export function QuickBox({ points, title }: { points: { label: string; text: string }[]; title: string }) {
+export function QuickBox({ points, title, kicker = "In plain words" }: { points: { label: string; text: string }[]; title: string; kicker?: string }) {
   if (!points.length) return null;
   return (
     <div className="rounded-2xl border border-gold/60 bg-paper-2 p-5 sm:p-6">
-      <p className="text-[12px] font-semibold uppercase tracking-[0.12em] text-gold">In plain words</p>
+      <p className="text-[12px] font-semibold uppercase tracking-[0.12em] text-gold">{kicker}</p>
       <h2 className="mt-1.5 text-[1.45rem] leading-snug sm:text-[1.7rem]">{title}</h2>
       <dl className="mt-4 grid gap-3 sm:grid-cols-3">
         {points.map((p) => (

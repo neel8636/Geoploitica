@@ -44,6 +44,8 @@ export interface EventUpdate {
   at: string; // ISO
   text: string; // one or two sentences: what changed
   sources: { title: string; url: string; publisher: string }[];
+  headline?: string; // the page's top line, rewritten from the latest headlines
+  quick?: { happened: string; matters: string; next: string }; // the quick take, from the latest headlines
 }
 
 let fuelCache: Record<string, FuelSet> | null = null;
@@ -141,7 +143,7 @@ export function rippleFor(e: WorldEvent, wire: Wire = loadWire()): RippleCard {
     id: e.id,
     title: own?.title ?? e.title,
     kicker: `${TYPE_LABELS[e.type]} · ${e.region} · ${status}`,
-    headline: own && trust !== "outdated" ? own.card.headline : firstSentence(e.summary),
+    headline: loadUpdates()[e.id]?.[0]?.headline ?? (own && trust !== "outdated" ? own.card.headline : firstSentence(e.summary)),
     keyNumber: own && trust !== "outdated" ? { value: own.card.keyNumber.value, label: own.card.keyNumber.label } : undefined,
     impact: own && trust !== "outdated" ? own.card.impactMeter : e.severity,
     rings,

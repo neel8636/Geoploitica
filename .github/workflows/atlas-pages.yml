@@ -21,6 +21,9 @@ on:
       max_reports:
         description: "Cap on reports drafted in this run (0 = no cap)"
         default: "0"
+      max_updates:
+        description: "Events to write a 'what changed' line, headline and quick take for in this run"
+        default: "12"
       max_plain:
         description: "Events to (re)write plain-words summaries for in this run"
         default: "8"
@@ -69,7 +72,8 @@ jobs:
         if: env.HAS_AUTH == 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: npm run updates || echo "updates had failures; publishing what succeeded"
+          MAX_UPDATES: ${{ github.event.inputs.max_updates || '12' }}
+        run: npm run updates -- --max "$MAX_UPDATES" || echo "updates had failures; publishing what succeeded"
 
       - name: What's fueling it (small events feeding the big ones)
         if: env.HAS_AUTH == 'true'

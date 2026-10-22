@@ -49,6 +49,16 @@ export function quickPoints(id: string): QuickPoint[] {
   return s.slice(0, 3).map((text, i) => ({ label: labels[i], text }));
 }
 
+/* The quick take rewritten from the latest headlines (the hourly "what changed" step), when there is one. */
+export function quickFromNews(q?: { happened: string; matters: string; next: string }): QuickPoint[] | null {
+  if (!q?.happened || !q.matters || !q.next) return null;
+  return [
+    { label: "What happened", text: q.happened },
+    { label: "Why it matters", text: q.matters },
+    { label: "What comes next", text: q.next },
+  ];
+}
+
 export function connectInPlain(id: string): Plain | null {
   const c = ALL[id]?.connect;
   if (c?.paras?.length) return c;

@@ -19,7 +19,7 @@ import RippleMap from "@/components/RippleMap";
 import type { RippleRing } from "@/content/types";
 import { Fold } from "@/components/dossier/ReportParts";
 import { PlainBox, QuickBox } from "@/components/reports/PlainBox";
-import { connectInPlain, quickPoints, reportInPlain } from "@/content/inplain";
+import { connectInPlain, quickFromNews, quickPoints, reportInPlain } from "@/content/inplain";
 
 export function generateStaticParams() {
   return EVENTS.map((e) => ({ id: e.id }));
@@ -46,7 +46,11 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
         { label: "Directly linked", effects: links.filter((l) => l.kind === "causes" || l.kind === "affects" || l.kind === "responds_to").map((l) => ({ text: `${l.event.title}: ${l.why}`, sector: l.event.region })) },
         { label: "Shared drivers", effects: links.filter((l) => l.kind === "shares_driver" || l.kind === "amplifies" || l.kind === "competes_with").map((l) => ({ text: `${l.event.title}: ${l.why}`, sector: l.event.region })) },
       ].filter((r) => r.effects.length > 0);
-  const quick = quickPoints(e.id);
+  // the top line, the quick take and the date follow the news: read live from the Atlas's hourly run
+  const live = (await liveCard(e.id))?.update;
+  const quick = quickFromNews(live?.quick) ?? quickPoints(e.id);
+  const quickKicker = live?.quick ? `In plain words · from the news, ${live.at.slice(0, 16).replace("T", " ")} UTC` : "In plain words";
+  const lastChange = live && live.at.slice(0, 10) > e.date ? live.at.slice(0, 10) : e.date;
   const connect = connectInPlain(e.id);
   const reportPlain = reportInPlain(e.id);
   const options: ReadOption[] = [
@@ -67,7 +71,7 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
       icon: "quick",
       view: (
         <div className="space-y-6">
-          <QuickBox title={e.title} points={quick} />
+          <QuickBox title={e.title} points={quick} kicker={quickKicker} />
           <Fold id="quick-ripple" title="What feeds it and where it ripples" teaser="One card per connection, each with a one-line hook">
             <RippleStrip eventId={e.id} />
           </Fold>
@@ -164,9 +168,9 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
     <article className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
       <p className="mb-4 text-sm text-ink-2">
         <Link href="/events" className="hover:underline">Events</Link> · {TYPE_LABELS[e.type]} · {e.region} ·{" "}
-        {e.status === "scheduled" ? `scheduled ${formatDate(e.date)}` : `${e.status}, updated ${formatDate(e.date)}`}
+        {e.status === "scheduled" ? `scheduled ${formatDate(e.date)}${live ? ` · news updated ${formatDate(lastChange)}` : ""}` : `${e.status}, updated ${formatDate(lastChange)}`}
       </p>
-      <ReportChooser title={e.title} hook={plainHeadline(e.id)} meta={<ImpactMeter level={e.severity} />} options={options} />
+      <ReportChooser title={e.title} hook={live?.headline ?? plainHeadline(e.id)} meta={<ImpactMeter level={e.severity} />} options={options} />
     </article>
   );
 }
