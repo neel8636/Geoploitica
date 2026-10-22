@@ -1,18 +1,6 @@
 {
-  "at": "2026-10-22T11:07:48.403Z",
+  "at": "2026-10-22T11:10:41.576Z",
   "tried": 12,
-  "ok": 1,
-  "errors": {
-    "ukraine-summit-diplomacy": "no JSON object in the reply (stop: max_tokens; reply starts: )",
-    "us-canada-trade-war": "JSON object in the reply is not closed (stop: max_tokens; reply starts: {\"text\": \"A US food importer, Gellert Global Group, sues the Trump administration over the 50% Canada tariffs. The US Em)",
-    "venezuela-oil-reopening": "no JSON object in the reply (stop: max_tokens; reply starts: )",
-    "opec-plus-november-output-hold": "no JSON object in the reply (stop: max_tokens; reply starts: )",
-    "istanbul-floods": "no JSON object in the reply (stop: max_tokens; reply starts: )",
-    "north-korea-missile-tests-2026": "no JSON object in the reply (stop: max_tokens; reply starts: )",
-    "russia-record-budget-deficit-2026": "no JSON object in the reply (stop: max_tokens; reply starts: )",
-    "apec-shenzhen-2026": "no JSON object in the reply (stop: max_tokens; reply starts: )",
-    "spain-strike-and-snap-election": "JSON object in the reply is not closed (stop: max_tokens; reply starts: {\"text\": \"Reports say a Ceuta migrant crisis is stoking anger at Sánchez before the election, and Italy and Sp)",
-    "alberta-independence-vote": "no JSON object in the reply (stop: max_tokens; reply starts: )",
-    "france-election-2027": "no JSON object in the reply (stop: max_tokens; reply starts: )"
-  }
+  "ok": 12,
+  "errors": {}
 }
