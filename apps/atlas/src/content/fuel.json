@@ -2071,19 +2071,19 @@
     ]
   },
   "portugal-housing-protests": {
-    "at": "2026-10-21T15:58:46.606Z",
+    "at": "2026-10-22T11:01:52.106Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "police-clear-rossio-protest-camp-55-arrested",
-        "title": "Police clear Rossio protest camp, 55 arrested",
+        "id": "police-clear-rossio-housing-protest-camp-in-lisbon",
+        "title": "Police clear Rossio housing protest camp in Lisbon",
         "when": "2026-10-20",
         "place": "Lisbon",
-        "lat": 38.714,
-        "lon": -9.139,
-        "what": "Lisbon police dismantled the housing protest tent camp at Rossio and arrested 55 people, with camps also cleared in Porto. Two people were reported injured.",
+        "lat": 38.71,
+        "lon": -9.14,
+        "what": "Police dismantled housing protest camps in Lisbon and Porto, arresting 55 people at the Rossio tent camp, and protesters then returned to the squares vowing to continue.",
         "via": "protester anger at police action",
-        "aspect": "security",
+        "aspect": "politics",
         "flow": "both",
         "sources": [
           {
@@ -2108,8 +2108,8 @@
           },
           {
             "title": "Portugal police clear demonstrators from protest camps against cost of housing",
-            "url": "https://www.france24.com/en/video/20261021-portugal-police-clear-demonstrators-from-protest-camps-against-cost-of-housing",
-            "publisher": "France 24"
+            "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4xY1VOS0NrZHh2OHZMWUhOX0dfRWFkREp1QmF1Y2ZsYTRJZkhkdUhPZzhvZzN1V3U1UFZsdGV3bHdKOGdTOGtnaE0yMF91ZHNPNEswREltSVYwNnFW0gFcQVVfeXFMTjFjVU5LQ2tkeHY4dkxZSE5fR19FYWRESnVCYXVjZmxhNElmSGR1SE9nOG9nM3VXdTVQVmx0ZXdsd0o4Z1M4a2doTTIwX3Vkc080SzBESW1JVjA2cVY?oc=5",
+            "publisher": "Modern Ghana"
           },
           {
             "title": "Police dismantle housing protest camps in Portugal",
@@ -2130,21 +2130,12 @@
             "title": "Portuguese Police Clear Housing Protest Encampments in Lisbon and Porto as 55 Arrested",
             "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdGxqbHBWeE9rYS1ZR0tOSDNzRnNQbmtnSTdNZWdPOEp2Qk5DcjJtSDFfNkZEamZmVTVVcklEM3VGNUFXTkxqeUQ2LUVMWHZBdURFcXJWU1BBbmpiRmxIcjhmaVF6anFvZmcwU0dMN1JvOFVWYlJ5VWttdk5SOTA3bjRCU2lGRmtBU2RGQUFUbHdiR0ZEajBPbllQM2pYajZPLVF1YXExdTJvUnlET2tN?oc=5",
             "publisher": "https://streamlinefeed.co.ke/"
-          }
-        ]
-      },
-      {
-        "id": "protesters-return-to-cleared-squares-vow-to-continue",
-        "title": "Protesters return to cleared squares, vow to continue",
-        "when": "2026-10-20",
-        "place": "Lisbon",
-        "lat": 38.72,
-        "lon": -9.14,
-        "what": "Thousands of housing protesters went back to the squares and camps police had cleared, saying they would keep up pressure for affordable housing.",
-        "via": "renewed street mobilisation",
-        "aspect": "politics",
-        "flow": "both",
-        "sources": [
+          },
+          {
+            "title": "Portugal Erupts Over Housing Crisis As Thousands Protest After Police Clear Camps In Lisbon & Porto",
+            "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOSTdwRzZiWnd1d3pDM3dmaTVjcld6RENBNTMwWm5ickRRVS1ocDVwOVV6X1pDR3NGYWR1LXNqNjFwVHBLTktGajVSZ0k1bVo2aFVuMWgyMUpkVVN2TUpzWVBWcFJXT3JRZ0ZfSm9mYi13aHdJV0M0dkI5Uk9XWWYyQ2QwdlE2S244UHVua25DTEJGbU1LN21ySlJpb2hpdWMwUjc2NmFWRDZ1RWhEbHZCZWtPOUlCS2psZ2xpaTJtdG44R2hockRuRWY0bjRjdTdySmFGSmY4TUFqZGlQUEZRMFZjOFp5bjZpSmY2RkhkTVpRc0N6ZlJmSW5JZk1DcGZ5anJyUGZCdjNvQdIBjwJBVV95cUxNdGg4bG5ES21aRkllcGduTktFeVd4ckNvcGRUcXNoMWdZazg3Z1lmbkpMdVF5LUZWZWV3c0VVSVk3bG1mTWt2YWpmSVlEc2s2NTZVUGtzSFEzZE5FRk5TZXlKcDYyT1BxU3p0V08wbklscWFiSHl3bE5nWUlFQUh1NkRRbzkxNzhuOFNBT1ZEQ09rNjg1WGI1Q1c5TVEzOS1EbDdWbmdMSTJjVkZxOE84YkhTTDRxcFB2QWE0ekdhNnNOMXU2WVlueHhWelp1S1VIMXo1Nm03M3RZMjY5cUdjdm9BU3NTeVhRdXBLTDhVaGZYcGgtZjg3bk9yZTU2dzcxaTNiY1FYLUw3Rk5lZWhZ?oc=5",
+            "publisher": "The Times of India"
+          },
           {
             "title": "Portugal housing protesters return to squares, vow to press on",
             "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdWwxLWtmTWFlcG1YV2s1RV91eXlPVFlCeFNzY2ZkX2Z4T1pnZllxOXB0eFlkX3hnWllLT1N5SmVNUnJZRnI3UDBxcTNuQnRsYUFZeWFyUktlcEMxbkdBQW96VGJxdjNjbjRNTXFrdDVVbUhSOUw1OFRDaE9jNkpGdmQzbUZMR0thZUY1MklFcTU4YXhvNDRmNHlyMGxiNDd4clE?oc=5",
@@ -2154,38 +2145,18 @@
             "title": "Portugal cost-of-living protesters pour back into camps cleared by police",
             "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOM3JMWWZ0amRuM2VYNEcxbE1vcU83UmVnM1lwSmJVcjdYbjdXS0FNdmI3YkR2NjRXdVRBcUFreFBqSHlFYmpyc1EwWmJPX0tHenJLMU9JTWJMZXVSTHZuMHYyeUplUmxZNzNBcUNPUDVfelNRTkFWbG5hdFdiVnZlM292THd3RUFBeG9rWEl5UmM5dTU5a0E5cjhxTUlBelVsRVEyanp1dVByeVB3WHZFT3h2OWM2UdIBuwFBVV95cUxPOVIxSzkxNU50cFF1WkVJblJGVE9PbGxpeFd2d1ZuODlNdHJxTVNnVDRyeHpySUdSem4tME11OWwzSktCbVBJUW0wZWV4VlF5ZThvSGlNNGd5Zk9NcTVKdWRzZkJJSnBzM1RjTEJ0OHR6LUp6UEJSRHNnRUhMcElkUmN3Tm4xTm1VYmF4Zzg5bHd6MHE0eGo0MEV3UXZURmxCLURKYThVa1hYaXpZc2tySnM5UnVHejlzNS1N?oc=5",
             "publisher": "Al Jazeera"
-          },
-          {
-            "title": "Portugal housing protests continue after police clear camps",
-            "url": "https://www.dw.com/en/portugal-housing-protests-continue-after-police-clear-camps/a-79717904?maca=en-rss-en-world-4025-rdf",
-            "publisher": "Deutsche Welle"
-          },
-          {
-            "title": "Thousands rally in Portugal after police clear housing protest camps",
-            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNLVdRNVR2RUFLaUtjLVVLMm1OdFJvQ01acWNQUFRpZzdMVDdDTVI2VngzRlZJSXBpZS1YQnV6NVIzdXVLYkdMRUgtVUotQjlWU2tHU2tiMlRqcnd4SnF6eWhQN09Oa2hER0N3MDJmaDFmc2lxekxFOVBQYldGVlFIX00xRmgxTXNiTTc1TGstVmxxY0hqT3ppdUJaUXNOUFpXZXhhWERB?oc=5",
-            "publisher": "Club of Mozambique"
-          },
-          {
-            "title": "Thousands of people continue protesting for affordable housing in Portugal",
-            "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPN0RYSWNnVGhrSTl6Ykx5UlEzS0pUWjktVVlCaVVOZE8wZUdUVV9pLUVVaDg3cGZ2ZWhNalhNVWJrNEdKNWJWOVVaYkNvTVVDZjd2dWl6LS1DUHVRTVBoUmQ1ekxaNC1WYU9ZQlc5TGF3OW5KaDNTdjlLbHpobjgzOUhNd1lJTU84NHozRDN1emFURmxnRnNvX21IMndFXzVDeFlPSnBzSlpjeGlydzdxUzZWVFhVRm5rNmoxQWJjWGQ4TTlQQmNhcEt1bGRPLWUwSWs5amJwUXRNMnpOZDRJMUtEZENnYy1iNmRvX2thTmE4M3hhdHgyM3BR?oc=5",
-            "publisher": "Daily Gate City"
-          },
-          {
-            "title": "‘A house cannot be a privilege’: Thousands rally in Lisbon over housing crisis",
-            "url": "https://www.euronews.com/video/2026/10/21/a-house-cannot-be-a-privilege-thousands-rally-in-lisbon-over-housing-crisis",
-            "publisher": "Euronews"
           }
         ]
       },
       {
-        "id": "soaring-energy-costs-add-to-household-squeeze",
-        "title": "Soaring energy costs add to household squeeze",
+        "id": "rising-energy-costs-deepen-european-household-strain",
+        "title": "Rising energy costs deepen European household strain",
         "when": "2026-10-20",
         "place": "Portugal",
         "lat": 38.72,
         "lon": -9.14,
-        "what": "Coverage of protests in Italy, Spain, Belgium and Portugal links the unrest to soaring energy costs alongside a deepening housing crisis.",
-        "via": "higher household energy bills",
+        "what": "Protests are spreading across Italy, Spain, Belgium and Portugal as soaring energy costs add to the housing crisis.",
+        "via": "higher energy bills",
         "aspect": "energy",
         "flow": "into",
         "sources": [
@@ -2193,16 +2164,6 @@
             "title": "Italy, Spain, Belgium, Portugal: Europe protests spread as energy costs soar, housing crisis deepens",
             "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTG9CNXl0NjdmcWdpNC1renNtanNyRTZ5V241bHM1MzNidTU4d1paVzZYUkYwOVBBYnQ5dkFzY2pvWkhXUHlZNVB1MzRJMlNKRXpzWTJnQXBZcWt3bDNhQmh2R3ZQM2I5SHJSdURYU3hyQUpZWHJLd3Q5M0dpNUIzYlA3ZTFDYUhKeDM2LVFCVmhVVzZpelpaZHpLVUswUTZiMDFrQ1JaTXhuTWtoS18zOXZ6NmhkY1VzcEFsNTQtSmdjX2J5MENDaQ?oc=5",
             "publisher": "Connected to India"
-          },
-          {
-            "title": "Italy, Spain, Belgium, Portugal: Europe hit by wave of protests as energy costs soar, housing crisis deepens",
-            "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQS1NjQXNYR3lOcW9YT1NYUkhmd1dOOUh1V1dlV011UjNORmhRODJMeWx3eXFPcUR1V3VIOWpCMmxwa1kxMnB1TU5hUmFuQVhMeEd3UkpIVEVhTXRSYUc3NlFMNE42MjA2TDJKR2lzdEkzTkFVWTdwQmJuY0Z5bTlGSmFEMWlXcWtNXzZHTlBWOXBXalQzUXNmRXR6MGZJanpCU2dyNkY4ZDYtZVJ1NGxEY0FvYW1pY3dCWnhhSWlYRWVQTUVGbUdXc21SeE9FMFRfOEVsY093ZjdIcjRGMHc?oc=5",
-            "publisher": "Indiablooms"
-          },
-          {
-            "title": "Italy, Spain, Belgium, Portugal: Social unrest spreads across Europe amid soaring energy prices and a housing crisis",
-            "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPcnphQ2s1d0RnanE2WjJjUzlwVl9PX05EU2ZlenNpZXdMR256aHdwR0lMT1d5dEUwUl9IWGZsTkxmMlpxMGlwWjR6VVVLTHhnZmVfM3NkNjZMejkyN1NYdm1MU2FwMkZVVERXNFg2cHUwQ1pOeGhZdDQ0V1VUZENFWkdVR2dWNUV2dmpyNVhoTVVDdGo0bURzd0FKdi0tU242TnlubkhSaXZPZXpRaVFZcmJtT19NdDdYMV9pR1ZwQ3FCRzFBRmRPRzQ2UjlCRlhVZ1BqcktaeC1xdGxDcGVmSkZpeDRrNXhYcmt2UmN6UTZLal9iYUZURm1lZUc2Vll4Ung4UElfakJ6cmU3N1VRT2xZWXA?oc=5",
-            "publisher": "Le Monde.fr"
           }
         ]
       }
@@ -2321,7 +2282,7 @@
     ]
   },
   "usmca-annual-review-2027": {
-    "at": "2026-10-21T15:58:46.606Z",
+    "at": "2026-10-22T11:01:52.106Z",
     "by": "pipeline",
     "items": [
       {
@@ -2331,7 +2292,7 @@
         "place": "Mexico City",
         "lat": 19.4326,
         "lon": -99.1332,
-        "what": "Bilateral trade talks reportedly stalled over steel and aluminum tariffs and auto tariffs, and a deal now faces delay.",
+        "what": "Bilateral trade talks between the US and Mexico have stalled over steel and aluminum and auto tariffs, so a deal faces delay.",
         "via": "unresolved tariff disputes",
         "aspect": "trade",
         "flow": "into",
@@ -2340,23 +2301,18 @@
             "title": "US-Mexico trade talks stall over metal, auto tariffs; deal faces delay",
             "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQM3RJb3NQcmhrY1U3Nm9sOUU4OFhvaTF3dFpCb1hCOWZFN19IZWwxM0lLX0pCQ2lMbm0yYjVBMVR4ZURVeE9qVl83Tmo4OVVUWURFWm1uem1NNkE0ekl5TV8yVXNaWE9McFRNSjRyUzlfNzRxMHQwZ3pCNm9uSFdZYnlhdVZsOXhLX2xNR0lrMW9IRlJxR0NfMzYyN2VfeFNJOHVPbWg2VkQxcWNsVFI5SDlB0gG3AUFVX3lxTE9LOGNCQ1Z0MlQzVE9SWFVINWVWWHZub3dteDBhbDNHVjk0TFhabGZ3ODRjclBwRkpyamtIRUM1ZU5PdUpaTkstOWNZYUdvRXdxekZTUFp0S3VfS1AteEY2UVpueU1PNmJXdjhicmpiTnBORXlHWnpPNXpvV1JOaTB5V0dPdm84bU5uT1FYNUpkX1RrQy1VTWpDWnRqWmtWaXFHUHF0VjluSjVMTVo2anBBbjUtaVE0QQ?oc=5",
             "publisher": "CNBC TV18"
-          },
-          {
-            "title": "U.S.-Mexico trade talks reportedly stall over auto tariffs, raising concerns for USMCA",
-            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNLXFiMGIxa0FLMWpTTTh1UHdUS0g4NDlfZ0JOYkZKWE91ang3SmVrRzh3eVdBUkppMnpwdEppOWtVN0lNNGtNVklPT1phODVHamtib2dVY0xKaTlsNEhOYnNRbk9IaWRJY2ctZTZRYnZjdzRES0xpVFV0Y2dIenRORHFYc3k5OUdubF9PYjR0REkydXlHb0JfQzdXdUN5TmVhVkdjUHJXRG1tTmZvVVkyZjRBbU9IUWtu?oc=5",
-            "publisher": "Car Dealership Guy News"
           }
         ]
       },
       {
-        "id": "trump-says-mexico-deal-is-close",
-        "title": "Trump says Mexico deal is close",
+        "id": "trump-and-sheinbaum-say-trade-deal-is-close",
+        "title": "Trump and Sheinbaum say trade deal is close",
         "when": "2026-10-20",
-        "place": "Washington, D.C.",
-        "lat": 38.9072,
-        "lon": -77.0369,
-        "what": "Trump said the US and Mexico are close to a major trade deal, though the terms remain unclear, and a US official said Mexico talks are advancing.",
-        "via": "bilateral deal momentum",
+        "place": "Mexico City",
+        "lat": 19.4326,
+        "lon": -99.1332,
+        "what": "Trump said the US and Mexico are close to a major trade deal, and Sheinbaum called it very close, though terms remain unclear.",
+        "via": "bilateral deal expectations",
         "aspect": "politics",
         "flow": "into",
         "sources": [
@@ -2366,46 +2322,46 @@
             "publisher": "American Ag Network"
           },
           {
+            "title": "Mexico-US trade deal ‘very close,’ confirms Sheinbaum: Tuesday’s mañanera recapped",
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeTNNeS1vMnpaY0ctVGloTVhDTk9GdHNaWG9zT0RjLVZxcUUzZEdKSmdyVTZHd1B5WnU3Yi1wbWRIOVJkbUxZX0xUckFpam1JSE94dDVTZktodDZ6ZXVJTllkZ3kxbHIzVFZ6c05SMkVRYTA4WlBnYldxUVJza3VqUFkzRGlSWnpNWWJVTUV2LVpEN0ZkRHc?oc=5",
+            "publisher": "Mexico News Daily"
+          },
+          {
             "title": "Trump Says US, Mexico Close to Major Trade Deal",
             "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONVlTZDQ2MXNfeDVaUnBIZERBTDdZSTNYbFBibENIUDVMdGRIYkQxcEpqZW9mZk5yU05ZcV8zTWJCUk1Ea0dDTXpVWFhSWDVrcDNTaGxTYUVvbDRjaDkzN1JZOXhmbHB5TU5iWElGaGgwWHJMZzctRXN6d1k2amtubg?oc=5",
             "publisher": "MundoNOW"
-          },
+          }
+        ]
+      },
+      {
+        "id": "grain-exporters-push-border-fixes-into-usmca-review",
+        "title": "Grain exporters push border fixes into USMCA review",
+        "when": "2026-10-21",
+        "place": "US-Mexico border",
+        "lat": 31.69,
+        "lon": -106.42,
+        "what": "The US grain trade group NGFA wants Mexican border delays and inspection costs for grain shipments addressed in the USMCA review.",
+        "via": "agri-trade lobbying demands",
+        "aspect": "food",
+        "flow": "into",
+        "sources": [
           {
-            "title": "Lindberg: Mexico talks advancing, Canada remains a challenge",
-            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQnRzbkxjbElzOWk5N1Fjdl93dFQxQm5ZWGtNYnhpT2JpN2ZwTW1qeXgzUXBTaFdWQVZ2VlBhR1dGcUkxS0haZ2xpWjU3SG5LaElWV0lZSDR1QXlEQXVUTER0N3NsSUVCUjlPZW1NdFJvRmpsQ1NmS2tHN0JMTURZVWhfdXBuZkE0eVBYb21NQ2F5S2oxeV9COQ?oc=5",
+            "title": "NGFA wants Mexico border delays, inspection costs for grain shipments to be addressed in USMCA",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcGxEYmpTd1h0U2JQbVRWSWRub2ZqTGVIMFZQYTU4Mk42YjNVYjBRQ2taNDh5aEUtUmxCcUl5d3dtdVRPVXpCeHVpdWVOVDBoVWVvMjN5TXltRENmdTBJMVdPMEdBQUtFUlBCTkxKUV9XVHRYbmJweGJURkZBdVFEMURvOUJmZ2hEQ19mOE1GcGtLQkFsWV91QlNfUW5oMHFuaEJCN1AzYnFXSE9fRHFMZmtRZXpxSnBoS3ZoLXVtVV8tNjdBQk9Z?oc=5",
             "publisher": "Brownfield Ag News"
           }
         ]
       },
       {
-        "id": "sheinbaum-confirms-us-push-for-more-gas",
-        "title": "Sheinbaum confirms US push for more gas",
-        "when": "2026-10-19",
-        "place": "Mexico City",
-        "lat": 19.4326,
-        "lon": -99.1332,
-        "what": "President Sheinbaum confirmed Trump is pressing Mexico to take more US natural gas, while denying any link to the trade talks.",
-        "via": "US energy export demands",
-        "aspect": "energy",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Sheinbaum Confirms Trump Push for More US Gas, Denies Trade Link",
-            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbE1LRTE3XzlLVkg1OWl6QUp1b1M5dWNtSGhGaEFwcUZtUmJ4ZWRMZWI2YVZ0Y2lhRjhGb080aXpfOXBVY2hpSlB4LXZyTC1jSktvd3IxVmJNTmtGU0p1clRsNk5lYjk1eE5wNXgyX2FiNERNZnM5Q3hub01jS1F6Nml6REdIQQ?oc=5",
-            "publisher": "Discovery Alert"
-          }
-        ]
-      },
-      {
-        "id": "us-and-canada-plan-talks-as-trump-shrugs",
-        "title": "US and Canada plan talks as Trump shrugs",
+        "id": "us-canada-talks-on-energy-and-critical-minerals",
+        "title": "US-Canada talks on energy and critical minerals",
         "when": "2026-10-21",
         "place": "Ottawa",
         "lat": 45.4215,
         "lon": -75.6972,
-        "what": "Trump said he does not care about USMCA as the US and Canada plan trade talks, with Canada pointing to its US oil trade and the US eyeing energy and critical minerals cooperation.",
-        "via": "Canada-US bargaining positions",
-        "aspect": "politics",
+        "what": "Canada is promoting its US oil trade ahead of its minister's talks with USTR Greer, who wants to work with Canada on energy and critical minerals.",
+        "via": "separate Canada-US bargaining",
+        "aspect": "energy",
         "flow": "into",
         "sources": [
           {
@@ -2414,14 +2370,14 @@
             "publisher": "EnergyNow"
           },
           {
-            "title": "Canada Touts US Oil Trade Before Minister’s Talks With Greer",
-            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRFluU3dwbl94TTAwOVRrb3dkNXh2VTNTSUt4dHhOUUVpdGs0RDRQZjVJLTRFNkRna2pGYThRQWtOT2J0YVZtX1JuY1p2bmpVZXhVeXg3M1R5Q3d6N1NnTm91M2I2SU9EYkNZellQWUI5d2NlVGNMdlhnRlc3enZPckZrbnFoYmtEM1dmcGFSUGwxMkU?oc=5",
-            "publisher": "EnergyNow"
-          },
-          {
             "title": "Trump’s Trade Czar Says U.S. Looking to Work with Canada on Energy and Critical Minerals",
             "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMWZvWnVTbjJlNDR1UHNTTVZFd3lRTmZYaVA0Q1l2SmRsWDhMWndUM0dXU2MxYmJpQWpUbUE3UVZTeS12SHcwYUZCNFROV1RMTER5clg0ZndESVF2dW5UZ3JBTkh1TmI3Q0ZPN1hacGt0blZrRVBmZkE1WVhiV0F6ZFpfbG8yNGJNQ3RIc2VNM0NqM3N0eHJJMEoxbE9nWDN5eFhlc0ZXeGFPU0JpeG8yRG9FUFBPc2px?oc=5",
             "publisher": "EnergyNow.com"
+          },
+          {
+            "title": "Canada Touts US Oil Trade Before Minister’s Talks With Greer",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRFluU3dwbl94TTAwOVRrb3dkNXh2VTNTSUt4dHhOUUVpdGs0RDRQZjVJLTRFNkRna2pGYThRQWtOT2J0YVZtX1JuY1p2bmpVZXhVeXg3M1R5Q3d6N1NnTm91M2I2SU9EYkNZellQWUI5d2NlVGNMdlhnRlc3enZPckZrbnFoYmtEM1dmcGFSUGwxMkU?oc=5",
+            "publisher": "EnergyNow"
           }
         ]
       }
@@ -2558,45 +2514,26 @@
     ]
   },
   "ethiopia-eritrea-war-fears": {
-    "at": "2026-10-21T16:02:08.237Z",
+    "at": "2026-10-22T11:01:52.106Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "abiy-warns-eritrea-of-severe-consequences",
-        "title": "Abiy warns Eritrea of severe consequences",
+        "id": "reported-eritrean-troop-crossing-into-ethiopia",
+        "title": "Reported Eritrean troop crossing into Ethiopia",
         "when": "2026-10-21",
-        "place": "Addis Ababa",
-        "lat": 9.03,
-        "lon": 38.74,
-        "what": "Prime Minister Abiy Ahmed warns Eritrea of \"extremely severe\" consequences if it keeps rejecting Ethiopia's peace call and backing Tigray rebels.",
-        "via": "escalating government threats",
-        "aspect": "politics",
+        "place": "Northern Tigray border",
+        "lat": 14.3,
+        "lon": 39.5,
+        "what": "Reports say Eritrean troops crossed into Ethiopia, which Eritrea denies, while it also rejects calls for mutual restraint, deepening the dispute over who is the aggressor.",
+        "via": "contested border incursion claims",
+        "aspect": "security",
         "flow": "into",
         "sources": [
           {
-            "title": "News: #PM_Abiy warns #Eritrea of ‘extremely severe’ consequences if it rejects #Ethiopia’s peace call amid rising tensions Addis Abeba — Prime Minister Abiy Ahmed has warned Eritrea of “extremely severe” consequences if its government continues to rejec",
-            "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPekZTRVQ2UnFyR3JjZF90RkM2WVpBUkt1LVZpMUF0dGEzWmJHXzZ3Q2FlVWZLcXo2RENNM1oyZk1xX183OWpibzdGbWJRY1pNZWxuV0VhdjdOWjk3VGlmUzlwLVNXdkZhYzJQMnlJYkQzTGFJZWtHUUhtNnhKN1ZvcjNtdFM5Sl9XXzRRNVUzSklXVXA0T3RIV2NjS1NSQldYdjdaSmJUN0xmSk9NdG1TbTdQdlBPWDUwLTZKWTVRWG54V3M5TnpMYkJGY241aEUyREVndXNSY2NXMVlFVC1J?oc=5",
-            "publisher": "Facebook"
+            "title": "Eritrean Troops Reportedly Cross the Border into Ethiopia, Raising Fears of Regional War",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQX2xfekhCUmdPQkYxSXpobHl2d25RUnRmVUZsRUk2NUt6bzFUN2xRVVN3bXdSaGRpcUNDNFZLUld2MWlxQXhoT1lqb1BnNC1tREVMOENhamVlS01YNkRlV1NpUmdhbnctUElEZlNabUhscWpFTHpjWlhya3NLcjh6Q054OWpnMTdyWlV2eWZpazhFZlUxZWtDV2tpRTBTMGJIb0E1Z251b2ZlUV9jNVFERGx5d3RUQlN1Z1RB?oc=5",
+            "publisher": "https://globalpost.com/"
           },
-          {
-            "title": "Abiy Ahmed Warns Eritrea Of ‘Severe Consequences’ Over Support For Tigray Rebels",
-            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVU9WNmFpVzJ6Rk5IV05aWjFnTzBtQ0lSa0hyQ1plaWszQ2hUeHFlWEFVMkwyekU1b0RUQjlXdVI5ZGs2d1EyT2k5eld4VDJQZE8xZkQ5TFVCTG45dms0ZEtFUWw5YWI4RTBDRDNibVg0OEJYaUpoS21UU2lFTUhuNVNzWVJVbnVVTXQ5S2kwNDMybDFJSXhWdHFLLXBkTWJ4ZTVUY2NxTErSAbABQVVfeXFMTld1aU1BUk5wSmEzd3IwRnFFRkdDUTFzemNncmFyTTF3dzYxUWg1YXN5eU5ubTlSRDB1TnB2YjNCQkFTd0pROW94VWpiSnJDRTJKQTAtMFFBUk80cG85NEFoY2VCQ0cyTERWT2ZPMzM2eV9HTnVIWDhqa1ZjRlJHTlp1X2t1X0RCVTBNM3l1Q0pVTERITHFsckNoZ3BscVF5YjU4N3RDSjAxRFpJdWljMmU?oc=5",
-            "publisher": "Trendsnafrica"
-          }
-        ]
-      },
-      {
-        "id": "eritrea-denies-incursion-rejects-restraint-calls",
-        "title": "Eritrea denies incursion, rejects restraint calls",
-        "when": "2026-10-21",
-        "place": "Asmara",
-        "lat": 15.32,
-        "lon": 38.93,
-        "what": "Eritrea denies its troops entered Ethiopia and rejects calls for mutual restraint, hardening the standoff Ethiopia is bringing to the UN.",
-        "via": "Eritrean denial and defiance",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
           {
             "title": "Eritrea Denies Troops Entered Ethiopia, Rejects Calls for Mutual Restraint",
             "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE84TTljcXFBQ0ZNdXdZVFdLV0tYendJN0xwLTk2VE9pLUEwRW94T0NZemQ1Y3gxNlEzcXM3NkZuN3ppSUhqSDY1M0Y1TEIxOUtsdC1TRTFaY3IycUV3OC1rQjY0R2pLYUsxODVjblVIcw?oc=5",
@@ -2605,96 +2542,82 @@
         ]
       },
       {
-        "id": "tigray-rebels-claim-1-500-soldiers-killed",
-        "title": "Tigray rebels claim 1,500 soldiers killed",
-        "when": "2026-10-21",
-        "place": "Tigray",
+        "id": "drone-strike-kills-four-in-tigray",
+        "title": "Drone strike kills four in Tigray",
+        "when": "2026-10-22",
+        "place": "Tigray region",
         "lat": 13.5,
-        "lon": 39.47,
-        "what": "Tigray rebels claim to have killed more than 1,500 Ethiopian soldiers, a report that sharpens the fighting behind Ethiopia's accusations against Eritrea.",
-        "via": "battlefield pressure on Addis Ababa",
+        "lon": 39.5,
+        "what": "Residents say a drone strike killed four people in Tigray, adding to the violence that both governments cite in their accusations.",
+        "via": "fresh civilian casualties",
         "aspect": "security",
         "flow": "into",
         "sources": [
           {
-            "title": "Tigray rebels claim to have killed over 1,500 Ethiopian soldiers as PM Abiy Ahmed warns Eritrea",
-            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMHB5SVdMc1gxS1AxSzluVXhuaGF2STdWTHd3Z3h5S3RXVEhvQ3ljV1dXeDdhTGFCaWlFU21SVHZWZ3libkZ3RzR0VWFrSG1QMElvR1NjazVOUTBraXJVa1BWLWhPNEplQklzQnZXc1NIM0lKRlFvZTdTNWsyblpVQ0xlekRNaVpQSDFlQnhQbmJkVDVaLXYxMFNDdkxQVF80aFZXN2QyUnR2ZkVqNFEyVXkwemIySHhlU2s4cWpFdDg4akxkazhxV3RfUU96ZnZXNFJxRU4xTQ?oc=5",
-            "publisher": "Garowe Online"
+            "title": "Four killed in drone strike in Ethiopia's Tigray region, residents say",
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdkgzb2RNYjhtSnduVEI3ZHBuQjE4cTh2N1h0THdTeHptU2s1dVhON250VVpsMXhtb2JZSXJNUmZRSlA2UUJqZ2l4M05aX0YzWTZ4RWxMbzZqYXZRUGZMM1hDMy1nQUpfY0JDa0cwaGJQOURNSHh0RXFNZ1ctcUV2Q0Z4dklTbmgtRGdVQ1I0Z040SnBPdHlISWlWWTRYUUozaUtqNkVNc3lWZWk1VFNaVDVwbmJDVWgt?oc=5",
+            "publisher": "The Peninsula Qatar"
           }
         ]
       },
       {
-        "id": "uae-urges-immediate-end-to-hostilities",
-        "title": "UAE urges immediate end to hostilities",
-        "when": "2026-10-21",
-        "place": "Abu Dhabi",
-        "lat": 24.45,
-        "lon": 54.38,
-        "what": "The United Arab Emirates calls for an immediate cessation of hostilities to end Ethiopia's renewed conflict, adding Gulf diplomatic pressure.",
-        "via": "outside diplomatic pressure",
+        "id": "us-mediation-bid-sidelines-tplf",
+        "title": "US mediation bid sidelines TPLF",
+        "when": "2026-10-22",
+        "place": "Washington",
+        "lat": 38.9,
+        "lon": -77.04,
+        "what": "The US is seeking to mediate the Ethiopia-Eritrea dispute and is sidelining the TPLF, while Eritrea tells Washington there is no crisis between the two states.",
+        "via": "competing diplomatic narratives",
         "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "#UAE calls for ‘immediate cessation of hostilities’ to end #Ethiopia‘a renewed conflict",
-            "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9tTDZKYjlnZl9obEVUdHdxTDB3T2M3TEpuX2F4cWN6dVE1NTk4RGxuMF94SXMxdm4xdXVzUm1LZzdoRVJtYXFQQ09UTmFvamNTLUE?oc=5",
-            "publisher": "Addis Standard"
+            "title": "US sidelines TPLF as it seeks to mediate Ethiopia–Eritrea dispute",
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaEVZLXI4b01hWkh2T2dMSHo5V1k0cDFKbVA2YlZIWnVGbzBUcTNfME96WlRMaVFiN0swcW1XY3EwN0x3NTN5RDRtYmlYbjRCelU1ekZBd05pLWJQdldEZ0tOQjdHdldVZkc0Mm5GRjAwNGJWdnJJZzN4b2RxdGtlQjJZakZNU1ZSS1JERlI5UXBNaFpZT1hobXg0UXQ1SDNmNGQwWkZndVVFV0VuUXVwTmF5UThHa2xraEQ5TWxXTEFuZDVSRFdaaXVB?oc=5",
+            "publisher": "The EastAfrican"
+          },
+          {
+            "title": "#Video_News: Eritrea tells US there is no “crisis” between Ethiopia and Eritrea watch",
+            "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVndLNkN3QTdjQVJWVlYxcVZpVTFiQmRqaEpSRXNkVlpoOWtyMUxmN0hWYjROcm56R3NCaksyV0hOMk5HSlNQTmYtWjNUNnYteDVDMzFnVGhjMGMycVQwNk5lbXFuRWE3UmJDeWt3T0J2eWZyTlRBczM0NnhhUHRVemNER1U5M3FYOHVXTjlBMGhQWVl3NUlaQzVVNW9ER0N5YnI5X1h4VnhBVzlGMTN2T3B5bGtLc0d3U28wZUVoblZHWDVWQ212ZEQ2YkJXUVhJbUFSV3lQZDhzWFBqdHhr?oc=5",
+            "publisher": "Facebook"
           }
         ]
       }
     ]
   },
   "ecb-inflation-and-rates": {
-    "at": "2026-10-21T16:02:08.237Z",
+    "at": "2026-10-22T11:01:52.106Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "kazaks-open-to-more-ecb-tightening",
-        "title": "Kazaks open to more ECB tightening",
+        "id": "kazaks-says-more-tightening-may-be-needed",
+        "title": "Kazaks says more tightening may be needed",
         "when": "2026-10-21",
         "place": "Riga, Latvia",
         "lat": 56.95,
         "lon": 24.11,
-        "what": "ECB policymaker Kazaks said more tightening might be needed if inflation stays above target, though the recent rise in yields has already tightened financing conditions.",
+        "what": "ECB Governing Council member Martins Kazaks said further rate tightening may be needed, adding a hawkish voice ahead of the 29 October meeting.",
         "via": "hawkish policymaker signal",
         "aspect": "markets",
         "flow": "into",
         "sources": [
           {
-            "title": "ECB's Kazaks says that some more policy tightening might be necessary if inflation continues to reside above target; recent rise in yields has already tightened financing conditions, Econostream reports",
-            "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNOE5VNnRuWnEwRHNoeF9SeWE3TXppaGtWLURxd0ItdWNoTi1wMnB3ekxSNjByVERVd3Z6S0F1TFFycXFOQW1aX2lyZDFfaTd6VlJkVGluOEtlTkpwNlY1TnV5MXEyY1dteFdzblRFZG5KcHVGWm9YamF3cE1SU2YzS1hTdnMwRnRVZ2VDSUdKQkZKMGpyQVh2NGdoMnFyNG5zRXFsN210Zjd6ZHJiMHFBeXVPM0hVN1dTNVFHeld2RjZHV1h1dXNtaXlreGQ0M0hOQllOMklnd1Y0OUVxZWRaLVBoSnQ?oc=5",
-            "publisher": "Newsquawk"
+            "title": "ECB’s Kazaks Says More Tightening May Be Needed: Econostream",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNFlTazNROVoxcFQ3RDRiWmxUSVU5WWF4MlU0cDR1MlR5bmZVUmlzdmtnTFhhQ0kyZUNkU05LT2hHNVlTTmc5QlV4WFhYV0RzRm9vWUlzMVk2VmVxdHhYdjFEVmM4T3o1VnRGNVhVZ2tvVjlfdDRqS0NQWjZsRkVoN1NSUTdpaHJJYXVyS1JESm0zdjJza3l3cVdEMzl6OUFfRWtyc2p2SXhvQmpwNEJv?oc=5",
+            "publisher": "Bloomberg.com"
           }
         ]
       },
       {
-        "id": "bond-market-turmoil-complicates-rate-decision",
-        "title": "Bond market turmoil complicates rate decision",
+        "id": "ecb-projects-food-inflation-at-3-4-in-2027",
+        "title": "ECB projects food inflation at 3.4% in 2027",
         "when": "2026-10-20",
-        "place": "Euro area",
+        "place": "Frankfurt, Germany",
         "lat": 50.11,
         "lon": 8.68,
-        "what": "Turbulence in euro-area bond markets is making the ECB's coming rate decision harder to call.",
-        "via": "bond yield pressure",
-        "aspect": "markets",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Bond market turmoil complicates ECB rate decision",
-            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQ1c2clEzNUlkc0h0MnVudTE3RnlYVnVWVXBSS1BXNzZudURBLUxDb2RwcFRSNmJOQV94RVEwdGU3RlE4aUZNbjhocHNpWno3ME1jNnFUREpjUWlCRFZ1ekpReDJveVE5NTFjWFR6U2UyNXpVd2RBdS1zWmpBcTczUDA1Tlo2LXJQVWt5bXNxU2NRcy1zcktIMXBvaGlKQQ?oc=5",
-            "publisher": "The Irish Times"
-          }
-        ]
-      },
-      {
-        "id": "ecb-warns-of-rising-food-prices",
-        "title": "ECB warns of rising food prices",
-        "when": "2026-10-20",
-        "place": "Euro area",
-        "lat": 50.11,
-        "lon": 8.68,
-        "what": "The ECB warned that bread, milk and meat prices will rise on heatwaves, war and supply chain pressure, and forecasts food inflation of 3.4% in 2027.",
-        "via": "higher food inflation risk",
+        "what": "The ECB's forecast puts food inflation at 3.4% in 2027, pointing to price pressure from food that policymakers must weigh.",
+        "via": "persistent food price pressure",
         "aspect": "food",
         "flow": "into",
         "sources": [
@@ -2702,65 +2625,74 @@
             "title": "ECB Food Inflation Forecast: 3.4% in 2027",
             "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBNU1pZaExlVzZvVXZ3Y0dmcWtRd2RyMnc5NGZtV3pPcG5neVhhaVFVMjhFZXdBTV9FRFExVW0tUV9FbDdWc0pvNlJWelNrMjBYc2lzMURvV1VDVlJONUVueGIyUVl1c01IeFZBSFlUMXVBWTZLSXNmV2MwNA?oc=5",
             "publisher": "CEO Magazyn"
-          },
-          {
-            "title": "Prices of bread, milk and meat to rise on back of heatwaves and war, ECB warns",
-            "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbGNpdVd2TXRXSkxoRk1vMlZGX2NnMlNSdFhNc2t2ZTRWalYtbWFLbWpLSEdyQVhiVTkza1M4V0V1S3lhVHNYSlQxWVRFVElKVm1sWDJYSFQ5eFNnS3hQNWdQSVdLdC1tdjU5TFJwalZSaFBBZm9haWlBaTVRN3ozNDJkMHlfMllFS2xJQlVWd3l3U0huSWdYbS1yOXNxQy1zUlhpOTRyLXRYUmZDZ3RndlN0ejJhSHNRM2M4QUpBc2NOUGFOSktxdEJrcmxGV3Nz?oc=5",
-            "publisher": "Irish Independent"
-          },
-          {
-            "title": "New ECB warning: Pressure on the supply chain is mounting, with a risk of higher food inflation",
-            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTERXVjBocVUzSXAyN2VwUHFXTXdobHBZazlxZG9yN21iU0tocFN3VzFKalIwMk5tcnN1cGt4R0FQLUVZYllaOHNYWHg4Z2hWNWx5VGhJWllLMTZLZnktX1BTak80Vm5qQVd1STFpZWY0RjNKa2w2ZGhkajdZNXJzNl85UE1XblJHY1RhMkkxMzdSb0hGcUJzSEY3M3p6N0Y5WFlXX0w5TWJOMlAzUV9pWlhUWFprQWdmQzJ0alhPRzlxZ0ZNU3AwOWhB?oc=5",
-            "publisher": "Eunews"
-          },
-          {
-            "title": "Has food inflation lost its bite?",
-            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9pVXdlRTFjNV9sNmlFeFktd1hIVzhLUndENWg4dXhQYnZvQ2ktYjktX1dzNEdwUzdiZFpaZjR5QlNwMlNXMTFvQjJmNHVlRlJvU3oxMjNxWF8xemo4RzRwd1ZYRXB2Yl9VNlBxOUFweVhHQQ?oc=5",
-            "publisher": "Zprávy Kurzy.cz"
           }
         ]
       },
       {
-        "id": "german-mortgage-rates-hit-highest-since-2009",
-        "title": "German mortgage rates hit highest since 2009",
-        "when": "2026-10-20",
-        "place": "Germany",
-        "lat": 51.16,
-        "lon": 10.45,
-        "what": "German mortgage rates climbed to their highest level since 2009 as the Iran war stokes inflation fears.",
-        "via": "tighter financing, inflation fears",
-        "aspect": "living",
+        "id": "ecb-says-ai-and-less-fossil-use-cushion-energy-shock",
+        "title": "ECB says AI and less fossil use cushion energy shock",
+        "when": "2026-10-21",
+        "place": "Frankfurt, Germany",
+        "lat": 50.11,
+        "lon": 8.68,
+        "what": "The ECB said artificial intelligence and reduced dependence on fossil fuels are helping the euro zone weather the energy shock, which could ease pressure for further tightening.",
+        "via": "resilience against energy shock",
+        "aspect": "energy",
         "flow": "into",
         "sources": [
           {
-            "title": "German mortgage rates climb to highest since 2009 as Iran war stokes inflation fears",
-            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcDYtX1ltLXFHbTByVHhfdi1GZUlCRWR2VmxWWFgwSTk2SG5DazdLX3NXbS1HVXp0TktZZGJtRm56Nl8tU0RqSV9tRm1OS3lYSHR6bTlLZVE4M3pGTXl5YXlhU1htd3FWSDU5dm9BdjZNU2o2T1BUZHpPWXE5bHpFZ1J5alhkcFpDNzctdnMzYk5XdmxmMGx0U2NQV2xMUQ?oc=5",
-            "publisher": "Yahoo Finance"
+            "title": "ECB Says Artificial Intelligence and Reduced Dependence on Fossil Fuels Are Shielding Europe's Economy",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GLWZBdlZqVnFUY21OTm0zYk14cHlDdDFqQTc5TVFpMm5NU0xpdGNFVTZpWm40LUI2eGNfel9QY2JLcThiVmxibEhmYkpEOWx1SkllTF9EM3o0dEhIaHZiSWV1MlRvRmpSdUlVRU9fa1lsY2NaTFFvNg?oc=5",
+            "publisher": "EU Today"
+          },
+          {
+            "title": "ECB says AI, greener economy help euro zone weather energy shock",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNVE1WFlPV043OWhlQ0E3TXFCSnNmQmhLaVBsS0l5TTlRSFNGNlUwY3pqZllBVDQ1alFzdXFuTEowN0RlRU5jMkdmNjFzU3hRM01XdGc4TVVvQWhOdWp5aGQtNm9sdUhzWWUzWkN6VTUzeHFtWjk4aFlTdzllSGZtZTFYX0gzb2k0TkFyRUZrYnRJTmF4d2JJZWwtN0s5RzVaRDhLYmgxS3pqRERvSTFzM2VxVVZubDQ?oc=5",
+            "publisher": "Reuters"
+          }
+        ]
+      },
+      {
+        "id": "analysts-preview-an-october-pause",
+        "title": "Analysts preview an October pause",
+        "when": "2026-10-20",
+        "place": "Frankfurt, Germany",
+        "lat": 50.11,
+        "lon": 8.68,
+        "what": "An FXStreet preview of the ECB meeting points to an October pause, with MRR in focus, which sets market expectations against the hawkish voices.",
+        "via": "market expectation of a pause",
+        "aspect": "markets",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "ECB Preview: October pause – MRR in focus",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZDRhSEVzNTR4MmJ0cnNRY1lKUElISU12clpqNkhibmxFajZ3QndqQkU2T3NVUHN5NFpJMDdkTTNoVS14bjZ3cGdOSWhicDE3dDF0YkIwUTNYM2tXVFpudUFiR2IyUEk5MFZSX2g5ZGVSdUI3WFFCOGRYVmwxUVRhbG9OOA?oc=5",
+            "publisher": "FXStreet"
           }
         ]
       }
     ]
   },
   "istanbul-floods": {
-    "at": "2026-10-21T16:02:08.237Z",
+    "at": "2026-10-22T11:01:52.106Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "shopkeepers-say-stream-bed-was-narrowed",
-        "title": "Shopkeepers say stream bed was narrowed",
-        "when": "2026-10-20",
+        "id": "heaviest-rainfall-in-84-years-hits-istanbul",
+        "title": "Heaviest rainfall in 84 years hits Istanbul",
+        "when": "2026-10-15",
         "place": "Istanbul",
         "lat": 41.01,
         "lon": 28.98,
-        "what": "Shopkeepers near the TV8 building claimed the stream bed had been narrowed, leaving less room for floodwater and adding to the 15 million lira damage there.",
-        "via": "reduced drainage capacity",
-        "aspect": "living",
+        "what": "Istanbul was hit by its heaviest rainfall in 84 years, which flooded streets and buildings and led to the deaths.",
+        "via": "record rainfall volume",
+        "aspect": "displacement",
         "flow": "into",
         "sources": [
           {
-            "title": "15 million lira in damage in the Istanbul flood! Shopkeepers claimed that the stream bed was narrowed in the area where the TV8 building is located",
-            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSFoxS05qZm1kTjk2X0ttTHVjSVd4TjNldlMyNnR6TmE2d1JJcHVLMlNGNndRbWJrNVZtdzJOdFJjd3dzMnNfdzI4QjhkSDhPN29vWWlEWFdJblZhbHE0MTF3TTRway1rZGsxcGNPV1BJdTFwdUk3eXJhRF9qbGQtNXlTWktIZXM?oc=5",
-            "publisher": "Haberler.com"
+            "title": "Deadly Floods Kill Six in Istanbul After Heaviest Rainfall in 84 Years",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSkRKMkJQbWJlVjdsRWEzdHBSRVRYSmI2YllGMnJhSC04M18zTUlVUmgwa0h6RVNQM2lUbG9zY2llTm1udTRzNTI3azYyRWZZa25uTkFtd01kMldrMlJPbkhlU0NKRkNFcmcxZEhmdzJ1SGhscFdqZGdBNUdOOHh2RTJFM1FEX0ZOdmJXSFA5SEE4UFllblZHUFlCNm1jeUZ4SElIV2RpOE1Vd0ZvT1VoSk5ZaldPWHdObTZtWWwyaVVsQQ?oc=5",
+            "publisher": "ShiaWaves"
           }
         ]
       },
@@ -2771,7 +2703,7 @@
         "place": "Istanbul",
         "lat": 41.01,
         "lon": 28.98,
-        "what": "Istanbul Governor Gül said that if measures had been taken in time, the seven deaths would not have happened, pointing to gaps in flood preparation.",
+        "what": "Istanbul Governor Gül said that if preventive measures had been taken in time, the seven deaths counted then would not have happened.",
         "via": "missing flood prevention",
         "aspect": "politics",
         "flow": "into",
@@ -2784,21 +2716,21 @@
         ]
       },
       {
-        "id": "motorcycle-courier-swept-away-by-floodwater",
-        "title": "Motorcycle courier swept away by floodwater",
-        "when": "2026-10-20",
+        "id": "orange-alert-issued-for-more-heavy-rain",
+        "title": "Orange alert issued for more heavy rain",
+        "when": "2026-10-21",
         "place": "Istanbul",
         "lat": 41.01,
         "lon": 28.98,
-        "what": "Footage showed a motorcycle courier being swept away by the flood as he clung to life, one of the exposed street-level cases behind the toll.",
-        "via": "workers exposed on streets",
-        "aspect": "jobs",
+        "what": "Authorities issued an orange alert for heavy rain in Istanbul, so more storm risk hung over the city while recovery was under way.",
+        "via": "renewed rain risk",
+        "aspect": "displacement",
         "flow": "into",
         "sources": [
           {
-            "title": "The moments when the motorcycle courier was swept away in the flood have emerged! This is how he clung to life.",
-            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUFhHc3g4bVlqYm1wRG1XNVBkUndnU1JOX2xYMW82VHgxbUFkNFYxNGVBZHFMdndGYkNHUHdGWGNsV19rdGtxcjlpWjdPLTd6S0xRdUdNY0M3c0ZjN3dibE9xRDFERW1CRXRwLUNDY19XSVU0anBpVDdwSjYwVTB1NHgzMWxRakg3RHc?oc=5",
-            "publisher": "Haberler.com"
+            "title": "Storm in Istanbul: orange alert issued for heavy rain today",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUlVTTkU3OEU2SjVXQl9NTWl2T0JnUnZrU1BhejZYMlhKNHFtb1FROGJ6RExUcU1LRGc3TzZycHc4OGowSTE4UTZOQWxLNzYtTmdBaUNjaHB3QklhaWE1cEtVVVF3d1J4YkV1czR5alUwU211eWROTEEtVHlYNG0yaTE2ZDN0SlNVQzI4bktneGR4QQ?oc=5",
+            "publisher": "Hispanatolia"
           }
         ]
       }
@@ -3068,78 +3000,64 @@
     ]
   },
   "italy-election-2027": {
-    "at": "2026-10-21T16:02:08.237Z",
+    "at": "2026-10-22T11:01:52.106Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "milan-riots-and-looting-hundreds-detained",
-        "title": "Milan riots and looting, hundreds detained",
-        "when": "2026-10-19",
+        "id": "milan-riots-test-meloni-s-law-and-order-record",
+        "title": "Milan riots test Meloni's law-and-order record",
+        "when": "2026-10-21",
         "place": "Milan",
         "lat": 45.46,
         "lon": 9.19,
-        "what": "Weekend unrest in Milan saw stores looted and police detain hundreds, putting Meloni's law and order credentials to the test.",
-        "via": "public order backlash",
-        "aspect": "security",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Italian police detain hundreds as stores looted in weekend unrest in Milan",
-            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOLUVfdmhxZTJpTjNXeE93S0lScHhPRXk1c2ZVSzNTVnFFQlFDVGxCbzU5RjFBek5tc3YySDM4ZTRQellBNDlGUC1vNFF3WjhQamFGU3ZGOWI3RTRKNmJkdmljbUFRS0FIT194NjU1bFlWR2pnSVhXNmtndno2aVMtR25DMFloZXlJaEs5NUhyNGJqd3lhQlZ5SkR0U0VUc0Q4S2hqOUVR?oc=5",
-            "publisher": "MyJoyOnline"
-          },
-          {
-            "title": "Milan riots test Giorgia Meloni’s law and order credentials",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR2IySFNiQ0IyLXBGS0xHdXhhTEpTaXZ0TTloWE1jZ3daTkpWaURuTkp3cFc4ZXo3bXFSU25Ic3FjcTNuTnRhYm9YdC1lQzdvckMxV2JVcGc5S0hJVm85YmtuTE5MVHJYVTVHUEotZm5kQThQY0RMMTFqY3YxdUtKMENhTjY?oc=5",
-            "publisher": "Financial Times"
-          }
-        ]
-      },
-      {
-        "id": "500-troops-sent-to-milan",
-        "title": "500 troops sent to Milan",
-        "when": "2026-10-19",
-        "place": "Milan",
-        "lat": 45.46,
-        "lon": 9.19,
-        "what": "Italy is dispatching 500 troops to defend Milan after the protests and looting, a visible show of government force.",
-        "via": "government security stance",
-        "aspect": "security",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Italy to send 500 troops to Milan after clashes with protesters",
-            "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPV2FVUHRUNmFsczZVMF9kSGZzZmw5RTJBVzFVNG15S0lHLU4tWFRBTGhRSF9VZkRkU3FKUjlCb1JTMXN2bmxGaVNsbGlvV25RUTRfMEprS2tnVFNPUnpaNHhqLWEwN2JhODl0R0Y3VzY2elNSbVg0STBlLXNtMkRpOENpNEh0MzZiV19YSnBPYkdWdUxzQk14bmpVbzhrVkRUWENJSjhvMHpNd2VSc0VRbmd1OXdMMmk0emNrRU1oS3ZtaEwtR2xSU0xyYWYwd2ZGRGx3?oc=5",
-            "publisher": "Le Monde.fr"
-          },
-          {
-            "title": "Italy dispatching 500 troops to 'defend Milan' after protests and looting",
-            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQR3lERVJ3dVZFNThKM0tyLS1Xcm9DanRtZXZ1Z2hUMDBYRUlpOHJkSXJYTWNYRUZrOVhvaGkzNV84VnItMDhqWTNkTFBoTjNFR3lqM1F0c2dsM0ZORFFPTjBxUUpQaGpFMmhwNnJQOVM4eG1mcFJ0VzVKTVhKeVhhYlRUZ0tsR2VQYW1ObG55Z3E4ZDN2c3VhVGdKQThPSW9YREtKbk5iOA?oc=5",
-            "publisher": "The Independent"
-          },
-          {
-            "title": "Italy deploys 500 troops to protect Milan amid unrest",
-            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55bFNuYXBNcFlEUUhoUEEtV1dfS1JlMEZNQl94djBraDVia3VfVUFrY21IUnFUYUs3bzJ6N3htUnNsZEhacUc2ZWp4Mmp2REZVN191ZkR3c1pHZ1k0bGN1VDZEX01mSHRkbUowTkMyRXdDM3VfSVUwSGZJZUxfTHM?oc=5",
-            "publisher": "Latest news from Azerbaijan"
-          }
-        ]
-      },
-      {
-        "id": "meloni-toughens-protest-and-vandalism-laws",
-        "title": "Meloni toughens protest and vandalism laws",
-        "when": "2026-10-20",
-        "place": "Rome",
-        "lat": 41.9,
-        "lon": 12.5,
-        "what": "Meloni approves tougher measures after the riots, including sentences of up to five years, wider police arrest powers and parental liability for children's vandalism.",
-        "via": "law and order campaign message",
+        "what": "Riots in Milan over the weekend put the government's law-and-order credentials under scrutiny, turning public order into a campaign issue ahead of the 2027 vote.",
+        "via": "public order as campaign issue",
         "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "Italy’s Meloni approves tougher measures to crack down on protests after Milan riots",
-            "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsb085ODhkSnlSd3FSWlFUVktHTFFEYm0tLW9ISTU0d1I2WUNIaENUdnRxSDB1bkxBSjA5ZXBpbVR0c1ozXzBLeXZzRDA2TEpLMXlxT0VoQUtCWTQ2X3k2eTJlZTZvUXFp?oc=5",
-            "publisher": "Daily Bonik Barta"
+            "title": "Milan riots test Giorgia Meloni’s law and order credentials",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR2IySFNiQ0IyLXBGS0xHdXhhTEpTaXZ0TTloWE1jZ3daTkpWaURuTkp3cFc4ZXo3bXFSU25Ic3FjcTNuTnRhYm9YdC1lQzdvckMxV2JVcGc5S0hJVm85YmtuTE5MVHJYVTVHUEotZm5kQThQY0RMMTFqY3YxdUtKMENhTjY?oc=5",
+            "publisher": "Financial Times"
+          },
+          {
+            "title": "What do Italy’s rioters want?",
+            "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5rVHpVRmhYZUJaR190SWE1elA5QndKNkI1XzQyQzhUdTVmZjZ2QnNEeUpUSEc1VEFOY2xIcEJ6WXA1OWdQdzlGOTA1UlBmdXBKOXBIc1N1UUpYekNVdUhTOWdQdTBidlRO?oc=5",
+            "publisher": "The Spectator"
+          }
+        ]
+      },
+      {
+        "id": "cabinet-approves-tougher-anti-protest-measures",
+        "title": "Cabinet approves tougher anti-protest measures",
+        "when": "2026-10-21",
+        "place": "Rome",
+        "lat": 41.9,
+        "lon": 12.5,
+        "what": "Meloni's government approved harsher measures after the Milan riots, including a €20,000 fine for damaging public property and prison terms of up to five years.",
+        "via": "tough-on-crime voter appeal",
+        "aspect": "politics",
+        "flow": "both",
+        "sources": [
+          {
+            "title": "Italy Cracks Down After Milan Protests, Meloni Announces €20,000 Fine For Public Property Damage - India Today",
+            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdDhTN25jX2hkUjdWVG54MGYtdGhTLVVaVTJrbHlacTRNeEJKcjYtYl8tV0g2TG1vUFdKSkRTS3ZJeGNlT0docUMzMkxUU2g1bFd5WXM5RWJ2dzJxamJXOE56Z2ZjUTlOZC1FbVY3TFE2OFVRMU9WdkRDeU9EYllmM0swWGppOENWaWgwOTRUVENKMlZyWi1OWWgwaVhFczhud1RVSloyVUZpdWFLX2haejVzYzRJMGkyNVlsYkJfOVhSUS1lTlBoTF8xYk5yUkFEVThSWXZB0gHbAUFVX3lxTE5lejV3QzV0WFA3aUxoUkhJUHBUQ3NxbGFxeWJZbzhhSGV0b3lQRUNIdnRqNHNWekc0MXFrSGNOd1NPbE9hRzBJR3BJd05sanlrbk5LdDUtSDljTDBSYmZ3MFBROTc0Ny1WYS0tUjQwVzRTQV9oeGMyMFp1b2lUcDA4MzRsMkw5UG9zQjBxTzd2Sk9NZFFRbTRiTEpXRVkzaHF6Qk1kN19MUmQyV2swenoyVkJ1UU9YYmF3Q1R3NUZ1UlE2SE9iak9iaW9LcEl2SE9KbWhTclpTR2tMWQ?oc=5",
+            "publisher": "India Today"
+          },
+          {
+            "title": "'Vandalism Not Your Right': Italy's Meloni Crushing Response to Milan 'Rioters' | Firstpost America",
+            "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQS3pTY3FnZ2JnLWlEajg2aDVBY1VTNTY0VTVpTTBxbUtQclBwZC1fb3I3bUk4M0RmckgxeVVNTUVnUnN2cENSNlo1WXpqdUxCblZQZXkxWnE1OEQ1a1h6NlJkVERVSnRJRGdqdEg2VEg4dTZZZzFERnBzOERvc2J5V3dwc01UZDlROEpBOWlyUkFOMXVheTRiUlViQmFuaXRQU2x6OUR0OEJPS193THpUQVdPMDhyWmY1TVpINmlIcDQwOUNSN3ZZd1BMZGV1azg3QmZsaHVFUVVYWkN5MF95czUtanFUT19BSjFYc29jR0zSAfABQVVfeXFMUEt6U2NxZ2diZy1pRGo4Nmg1QWNVUzU2NFU1aU0wcW1LUHJQcGQtX29yN21JODNEZnJIMXlVTU1FZ1JzdnBDUjZaNVl6anVMQm5WUGV5MVpxNThENWtYejZSZFREVUp0SURnanRINlRIOHU2WWcxREZwczhEb3NieVd3cHNNVGQ5UThKQTlpclJBTjF1YXk0YlJVYkJhbml0UFNsejlEdDhCT0tfd0x6VEFXTzA4clpmNU1aSDZpSHA0MDlDUjd2WXdQTGRldWs4N0JmbGh1RVFVWFpDeTBfeXM1LWpxVE9fQUoxWHNvY0dM?oc=5",
+            "publisher": "Firstpost"
+          },
+          {
+            "title": "Italy's Meloni approves tougher measures to crack down on protests after Milan riots",
+            "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZml0VXVNQWlkYm9xc3ItWkxUMXNvcmRqNXVES0x6MTlaNWpoMjBadnQ4UTAxdU9rRndCUFdkbVNfdFJXaWtCRVAzR3pWZDlWVDFZdW5kdGdac2lSbTdyaWd0aWl5MWdacHJrZUR0Z0hianVrTmFjekJySC1VaGVkS2dhNGx1MzdoMllNY2d3Nl9SUVJuM2Vxd0ZDb0l1MVlDQV9xNGVXSW9rdXNXRExHZVd0ZW83ZUpzNE5pdGlkN1p2ZDhwS1NnbUtVaU9BVGwzMEFOaC1DUGg?oc=5",
+            "publisher": "Magzter"
+          },
+          {
+            "title": "Watch: Italy’s Meloni approves tougher measures to crack down on protests after Milan riots",
+            "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTkN0MS1SMmJ1WUpuSFB5RmJHdkdLY1o4QmxjSkZLbjlWUXBlak5jZ1ZOaEVyZTNzMTNYSUdlVjZFZ0pOb0ZkajdnOHYzWnBVTml3MmktTDhhZ05sSTNra0JNQ0RWRWtsRG1iVkdJXzl1cHpsZUoybXNaOGhmUmRIUmM3UlJBRXJtQmx5YmRHaTNZS3BVRGp0THBjbWNJVjB2aGdsVkE5SGZ3M3dCTnVBYkFCVzg0UzZucUFsUWsyZU5oaFFQT2VvVnY5TVV3YlNVSlUtUkpfNjlzWHFudTJaWGVR?oc=5",
+            "publisher": "The Hindu"
           },
           {
             "title": "Italy toughens the law after the riots: Meloni pushes for sentences of up to five years in prison",
@@ -3159,13 +3077,56 @@
         ]
       },
       {
+        "id": "500-troops-deployed-to-milan",
+        "title": "500 troops deployed to Milan",
+        "when": "2026-10-21",
+        "place": "Milan",
+        "lat": 45.46,
+        "lon": 9.19,
+        "what": "Italy is sending 500 soldiers to Milan under a new security decree following the protests and riots in the city.",
+        "via": "visible security response",
+        "aspect": "security",
+        "flow": "both",
+        "sources": [
+          {
+            "title": "Italy deploys 500 troops to Milan as part of new security decree",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaVRUdzdoMzFIQnFnMENKTjl0Tl9EWm5PUjNzYUNYWDZ1ckhyeW80Umpqb1ZBVDZfbWNCVXRmb251UVdoNkIyU0xEdWl3cTFidFZNeUh6clU5RUE2a3MxZWlHc1o4cXJKeG0zYkFjaHZJcU5fTXNwWEVCd3lSeGxNbk1RS1FyNWNFM1QzQmY2NmNJQUJBQ2NQYjZBcUhxcG8xNHZPd01GQXpyNVpCZUJMNS15TksxcThmRGZ3LUt3?oc=5",
+            "publisher": "Euronews.com"
+          },
+          {
+            "title": "Italy to Deploy 500 Soldiers to Milan Following Protests",
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBDRjl3bUZHSkZtUlotUndNaHRlcWd5VmJMcGViZVJxVXg0UVhJUGRTbFZFYk1BNkp6TVQ4Mk10clk0c2k3U3dpLTM5RzlsVmFaZ1pqUUJORnBSRmFVVjVrMW53Ti1sWnRaT2pRTUk5a3l1MGFkMEE2b1M2MEQ3dw?oc=5",
+            "publisher": "Sada Elbalad English"
+          }
+        ]
+      },
+      {
+        "id": "meloni-government-becomes-longest-serving-postwar",
+        "title": "Meloni government becomes longest-serving postwar",
+        "when": "2026-10-21",
+        "place": "Rome",
+        "lat": 41.9,
+        "lon": 12.5,
+        "what": "Meloni's government has become the longest-serving in postwar Italy, giving her a record of stability to run on in 2027.",
+        "via": "government stability record",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Meloni government becomes longest-serving in postwar Italy",
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeXhWbVZ4UzJtLVExRVdpV3dVckZWLXR4LUtiaUh3d1hCRC03ZTJmVnpsaFo2aWtkdUltT3l5aGhBcl9UMXZBbk9NS3diLUJzMV9fWFB5b3RKVDFTcnAyc2NodE5HcERQSjlacTZkS3BLYjUybENxaDY0Vy1IUW9pWDdoOEhWbjZGTVZ2akZfVTJoWnkxS0HSAZYBQVVfeXFMTzBPeTE2bzlJWXVLTWg3Q2N1WUZoV1U5cWFrcmJ1b2p3Ykp2Q3NONTNSME1NbjBUOG9pOHphWktWNkxrOTZoZ1YxZGNhcTFNaFJfMGwwUUVnY1hDVXFvR1d1SzIxY0lWb0hoTHU3Rl9sOUxXNVdiRVI0WWswLVhlMWFwdURmVXpGellsZ2RYX0hfWDEzT19R?oc=5",
+            "publisher": "DW.com"
+          }
+        ]
+      },
+      {
         "id": "minister-says-meloni-won-t-run-with-far-right",
         "title": "Minister says Meloni won't run with far right",
         "when": "2026-10-21",
         "place": "Rome",
         "lat": 41.9,
         "lon": 12.5,
-        "what": "A minister says Meloni will not run alongside Italy's far right in the 2027 election, signalling how the coalition is positioning itself.",
+        "what": "A minister said Meloni will not run alongside Italy's far right in 2027, shaping coalition and alliance choices before the election.",
         "via": "coalition positioning",
         "aspect": "politics",
         "flow": "into",
@@ -3178,151 +3139,142 @@
         ]
       },
       {
-        "id": "top-court-to-rule-on-taranto-steelworks",
-        "title": "Top court to rule on Taranto steelworks",
-        "when": "2026-10-20",
-        "place": "Taranto",
-        "lat": 40.47,
-        "lon": 17.24,
-        "what": "Italy's top court is set to rule on the future of the troubled Taranto steelworks, a major industrial and jobs question.",
-        "via": "industrial job worries",
-        "aspect": "jobs",
+        "id": "births-set-to-hit-record-low-in-2026",
+        "title": "Births set to hit record low in 2026",
+        "when": "2026-10-21",
+        "place": "Italy",
+        "lat": 41.9,
+        "lon": 12.5,
+        "what": "Italy's births are projected to sink to a record low in 2026, keeping demographic decline on the agenda for voters.",
+        "via": "demographic pressure on policy",
+        "aspect": "living",
         "flow": "into",
         "sources": [
           {
-            "title": "Italy's top court set to rule on future of troubled Taranto steelworks",
-            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaTF3UW0tZGlFUnphN0o0dWtnVXpZWklVV2VFWmJ2SFFBODFvN1I0Y3FUS2hYTW5aRndXSms3eTVNN2VmTHlRRzFzREtyUlB3TV9ZMlk2M0hjQ2g2eDdxLTZheGo2OFI1ZE0xR1lZT0xralBtdTFMX2dnVjVCV3JyckZKdlFOZFljT0RaRnI5Y2dRbG1DWWZYc2FpSEtyVHNzLXNwcUxWUHRRMHJiay1IOHlnRzQ0a29pb2prU3p3NDBNaTE1Q1JkZGowTWXSAcwBQVVfeXFMTmkxd1FtLWRpRVJ6YTdKNHVrZ1V6WVpJVVdlRVpidkhRQTgxbzdSNGNxVEtoWE1uWkZ3V0prN3k1TTdlZkx5UUcxc0RLclJQd01fWTJZNjNIY0NoNng3cS02YXhqNjhSNWRNMUdZWU9Ma2pQbXUxTF9nZ1Y1QldycnJGSnZRTmRZY09EWkZyOWNnUWxtQ1lmWHNhaUhLclRzcy1zcHFMVlB0UTByYmstSDh5Z0c0NGtvaW9qa1N6dzQwTWkxNUNSZGRqME1l?oc=5",
-            "publisher": "Devdiscourse"
+            "title": "Italy's births set to sink to a record low in 2026",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQa29wOGQ4ZGdwRkdyYkpWTFI2VDduSzZtejI0MXdhZENRdUZxeXpoamtCUFZwd3V0d01xOHpOT0h2RklFZllwYXRRUF94Uk1XaGw1M0VjR2NoOEdZejBXNUt6MWFDSGpwNHdCWXJjb1JMeGJMSHQ4VURSbV93bi1NVHhfRjR2aURyTW9wMjhsVWtTeUNha0xvUNIBmAFBVV95cUxQa29wOGQ4ZGdwRkdyYkpWTFI2VDduSzZtejI0MXdhZENRdUZxeXpoamtCUFZwd3V0d01xOHpOT0h2RklFZllwYXRRUF94Uk1XaGw1M0VjR2NoOEdZejBXNUt6MWFDSGpwNHdCWXJjb1JMeGJMSHQ4VURSbV93bi1NVHhfRjR2aURyTW9wMjhsVWtTeUNha0xvUA?oc=5",
+            "publisher": "NST Online"
           }
         ]
       }
     ]
   },
   "eu-budget-2028-2034": {
-    "at": "2026-10-21T16:02:08.237Z",
+    "at": "2026-10-22T11:01:52.106Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "parliament-demands-eur-225bn-for-foreign-policy",
-        "title": "Parliament demands EUR 225bn for foreign policy",
-        "when": "2026-10-20",
+        "id": "costa-to-bring-new-budget-figures-in-november",
+        "title": "Costa to bring new budget figures in November",
+        "when": "2026-11-26",
         "place": "Brussels",
         "lat": 50.84,
         "lon": 4.38,
-        "what": "The European Parliament demanded EUR 225 billion for EU foreign policy in the next budget, deepening the dispute over how the money is split.",
-        "via": "higher spending demand",
-        "aspect": "budget",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "European Parliament Demands €225 Billion for EU Foreign Policy as Budget Dispute Deepens",
-            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVWE0djZJMXZVQUdJUnZfczZ2UWEwYmNuekdnMGYxNTlScVpLSlA1Mkg5MnZrY3VvZjN5OFFXMTlSUm5Lc3hrdVBYaTNRUW11X3F0YXpVWHFQVTRaMmhJTGZfVlFQZkY3Q01uV0RJa2NBWXBtbE9Rc2ZUVlV4NW93TQ?oc=5",
-            "publisher": "EU Today"
-          },
-          {
-            "title": "Who will stand up for Global Europe?",
-            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMEUyNTVfbXdxSmo4aHNtZ19RRGtKVmNDamlkVW5pcVZDaGR5VkU1cG5wWU51dV9qXzRUTzZtUmRRX0h5d24tSXNkLVc1MFpjVUoxaW9vcmZhVUtYUVZ6cnhLcVNFVzI1bk1KWGEwblE5c1RxQXM5VmRQdjZaclVYNGFmcExmazh3Z3RtZkFzV1pOUQ?oc=5",
-            "publisher": "PubAffairs Bruxelles"
-          }
-        ]
-      },
-      {
-        "id": "farm-budget-dispute-continues-despite-new-market-rules",
-        "title": "Farm budget dispute continues despite new market rules",
-        "when": "2026-10-20",
-        "place": "Brussels",
-        "lat": 50.84,
-        "lon": 4.38,
-        "what": "EU ministers agreed new agricultural market rules, but the dispute over the farm budget in the next seven-year plan continues.",
-        "via": "farm funding conflict",
-        "aspect": "food",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "EU Ministers Agree New Agricultural Market Rules as Farm Budget Dispute Continues",
-            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1WTldJZS0ySFlOS1E0YVlDODNuNGNMZjNJb0dWSnVEQmlEQVZLaEhNLVlIa2N3OE8xaFQyNWZDN0dRMWJLODkwemhwQUtHaXNMdjhad3d3ei1PRzJzREFJRVBBZVBxZlRmdU84NDJSUXM2Wm9DWHdUQ3JVMHJsR0k?oc=5",
-            "publisher": "EU Today"
-          }
-        ]
-      },
-      {
-        "id": "canaries-and-rural-areas-seek-special-treatment",
-        "title": "Canaries and rural areas seek special treatment",
-        "when": "2026-10-21",
-        "place": "Canary Islands",
-        "lat": 28.29,
-        "lon": -16.63,
-        "what": "The Canary Islands and rural groups lobbied in Brussels for specific treatment of the outermost regions in the next European budget.",
-        "via": "regional funding claims",
+        "what": "Council President Costa will present new figures to EU leaders at the 26-27 November summit, aiming to close the 2028-2034 budget in December, with Ukraine financing also on the agenda.",
+        "via": "revised deal figures",
         "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "Canaries and the countryside demand in Brussels a specific treatment for the OMRs in the next European budget",
-            "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNTk9LTms0TGtqMzRtNEF4ZzFhUzV1TkdIX3JnRFdGTHFTT2VkWl9ZamJNM1p0enNYMHJjUkIyVzJjRmRPSEsxRlI0ZkxpYTJXNFFRTnFRbGVpbkpySGl5bkwtRk40eXc2ZlVXcG02NlZXOWplSUFNSXYwTFpQbmNnYUl5T0kzektSRHBDd19TUjdQeXJqenZxaVdSYnlaWlZTcFF4cUlCak5FSmFzV3pkNXY1YVZJQ3J1c1lPN1RIQUlGaVNtVkpoRXc3bXdWOE5iMlh4ZUJZUWpGSE95Z2JCMUJ2Uy1ycEtUYVJyQllaTXDSAfABQVVfeXFMTU5PS05rNExrajM0bTRBeGcxYVM1dU5HSF9yZ0RXRkxxU09lZFpfWWpiTTNadHpzWDByY1JCMlcyY0ZkT0hLMUZSNGZMaWEyVzRRUU5xUWxlaW5KckhpeW5MLUZONHl3NmZVV3BtNjZWVzlqZUlBTUl2MExaUG5jZ2FJeU9JM3pLUkRwQ3dfU1I3UHlyanp2cWlXUmJ5WlpWU3BReHFJQmpORUphc1d6ZDV2NWFWSUNydXNZTzdUSEFJRmlTbVZKaEV3N213VjhOYjJYeGVCWVFqRkhPeWdiQjFCdlMtcnBLVGFSckJZWk1w?oc=5",
+            "title": "EU leaders to discuss Ukraine financing, next long-term budget at November summit",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT0FLZWR3VXRyWkh6a2VXVDJwQlJVT2lMOTNfdTEwbXgtbUtteWFhajBhZ3pxRmYwcUc0UVppSGdBTTNTZTA1UFFPMzZfeUpkblpWUjBQTkJWM2hPZkNJazNrTUdfcDBUSlJqb1F2dmp4Q1hFcXR2Y3F4S3h5dVBNTEY3UEZQakJSM3NETlc0MFpXOUpWTVNQX0t4NS0?oc=5",
+            "publisher": "Traders Union"
+          },
+          {
+            "title": "EU leaders to discuss 2027 money for Ukraine, next EU budget on November 26-27",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUDNvVmpOQkdESmYySUwtc0lZRktNekxaa3ItanN1aFppcTgzazJOcXlQVktKWS0waGJmU3UtVUtJblRhWGZDeDFPdDhzNWIyaUZCem95YXNNRzNLakUzSlY1M29KLWhFNDVEMjJVR2IwX09tb3dhQ1ZCRkcwQW9uYTJrcURwb285c193RjdUbkc4di0xQUVCUXZmUVhvaXRnZUdzdE50OXFCZTRPVHlJa0RleURmdHdIV1A4?oc=5",
+            "publisher": "The Straits Times"
+          },
+          {
+            "title": "EU Leaders to Convene November Summit Focusing on Long-Term Budget and Ukraine Support",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeGs0bU1OMUFxWEVrb2k5bzJUNzJNMTRYVlR4N21qaWIzbC14MjczNnB1NkFoSXJzOWFqeHNOWVVmeDdwdzA0M1lCTGtIZjREOG04UTNxa3VuSVRhQThHSlotYXJBT25zUWI2TkRVd2JYbi1hNEVJSk9GeGFqbTBmV09NTUVaYjdJTkloWXVjY3dpR2ItUE1RZlRiNWtpNkNSY1kwMHpOS2RmOXJSTlB0d3B30gG3AUFVX3lxTFBHVE9iZEd4NWJmdnFzemFmN0FaelBHWjdzREliOFBPNFRYX3YwWnQ0WTJiRWJXT04xNGRuSWYzSm1QUHBqbXNyU0otWnZxcDBscGRjdXRwa1dTdlh3YWp4WFNPV2YxeDFhSEpYamZGUjhTeWx6NmtCNGRfdG1uT1pNVVFEY0ZOS0IyYW9SV2tRR1ZrQ3JPMjBJck9rTURHQmEzam5RZ3Q5WFU4VWE4MFlYaUhqOGJLVQ?oc=5",
+            "publisher": "Inkorr"
+          },
+          {
+            "title": "Costa will bring new figures to the leaders in November to close the EU budget in December.",
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQktZSm9oSDItOHlzWXpFRVAxSm44R0NjX2p1MThkd0NYRk9waEc3dnhmb0FRbzZxdlJxSnMxNXdqLWtXcmItai1RdXI4ZG5RajJFbzJON1lUeG1fb3dzcWJ4cENWdGFfS2lCR0ZMTTNJRVhBdzJvUXk3eDNaaWlRSU1lZmpXMnVPLVdHNzRuSVcyVmNWMExwRGtQVVRiczI4NTB2eTFWYXlMMjR1ZE1OOTdWTnBlRXhfYnZuUnNBZHlNcXNfMEp1WDIwVdIBywFBVV95cUxPQktZSm9oSDItOHlzWXpFRVAxSm44R0NjX2p1MThkd0NYRk9waEc3dnhmb0FRbzZxdlJxSnMxNXdqLWtXcmItai1RdXI4ZG5RajJFbzJON1lUeG1fb3dzcWJ4cENWdGFfS2lCR0ZMTTNJRVhBdzJvUXk3eDNaaWlRSU1lZmpXMnVPLVdHNzRuSVcyVmNWMExwRGtQVVRiczI4NTB2eTFWYXlMMjR1ZE1OOTdWTnBlRXhfYnZuUnNBZHlNcXNfMEp1WDIwVQ?oc=5",
             "publisher": "Demócrata"
           }
         ]
       },
       {
-        "id": "eu-transport-budget-faces-eur-5-2bn-cut",
-        "title": "EU transport budget faces EUR 5.2bn cut",
-        "when": "2026-10-20",
-        "place": "Brussels",
-        "lat": 50.84,
-        "lon": 4.38,
-        "what": "The proposed EU transport budget faces a cut of EUR 5.2 billion, adding to pressure on how infrastructure money is shared.",
-        "via": "proposed transport cut",
-        "aspect": "trade",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "EU transport budget faces €5.2 billion cut as German rail freight charges rise",
-            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOREQxWlpUOWlLcTRna0hqOUV5UFhyMi1iQnRRb0M4bmtfTEZHU1ZURC1xLXR5RmdLS1JjSmJrVjF2UVJ1Tnk4alZRN25kOFhheXdudXJkYzVmbS1BS1JKdnlTQjF0Y1Y1RHUwUHdHa0VXMFBvam5ZVENTNFlzR1Q1YVFyTFM5WmVrNlB2eDN3V1VPZE9QNUlPTm90SmRJV0wwQmlxY2IzZ08yekQtYi1nMGFQNGZ5QlhmU1JKLVhXeEg?oc=5",
-            "publisher": "RAILMARKET.com"
-          }
-        ]
-      },
-      {
-        "id": "film-bodies-protest-30-agoraeu-cultural-cut",
-        "title": "Film bodies protest 30% AgoraEU cultural cut",
-        "when": "2026-10-19",
-        "place": "Brussels",
-        "lat": 50.84,
-        "lon": 4.38,
-        "what": "European film bodies criticised a proposed 30% cut to the AgoraEU cultural fund, adding to the pushback over spending priorities.",
-        "via": "pushback on cuts",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "European film bodies criticise proposed 30% cut to AgoraEU cultural fund",
-            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORzJfdXAwa2JFcnNxamlod2tMV1A2UVlNUEdpQl9XRjZGeGM2Q0FaMTcyZmtJMjgxejdkbDlVYjM5MFZiM1EyUC0yMXVpRmN3dlVhNWxVc0ZUZ0w0R0pYT21DRXdIaXpIQVN2ZDFhNThoZmpDRUZjX3ZNaHNac0hkUVB4bGZzSGJNQ1BBOHRnLXVuaUFsV0pFTXBUZ2lqWXd5dTM0SF85VlB6NzdUM3dVMmREZ1VzZ0JaS0JxdHFR?oc=5",
-            "publisher": "Screen Global Production"
-          }
-        ]
-      },
-      {
-        "id": "leaders-to-discuss-ukraine-funding-at-special-meeting",
-        "title": "Leaders to discuss Ukraine funding at special meeting",
+        "id": "uncertain-eur-100bn-ukraine-funding-stalls-talks",
+        "title": "Uncertain EUR 100bn Ukraine funding stalls talks",
         "when": "2026-10-21",
         "place": "Brussels",
         "lat": 50.84,
         "lon": 4.38,
-        "what": "EU leaders will discuss funding for Ukraine at a special meeting, which bears on how large the next budget needs to be.",
-        "via": "Ukraine funding needs",
+        "what": "Negotiations on the 2028-2034 budget are stalling because EUR 100 billion in Ukraine funding remains unresolved.",
+        "via": "Ukraine funding gap",
         "aspect": "security",
         "flow": "into",
         "sources": [
           {
-            "title": "EU leaders to discuss funding for Ukraine at special meeting",
-            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5wR0pjV19admNTRkkzTi15U2NHQ1ZZS1pQeDJUZFpRSXo2VzVCX3d5TnNsSHBNSWpPd3FST3dXUFVtcmlQYTEzN3R3ZS03UHdUX3dGSVYwcGlCNFF4N0poNEVocGTSAXBBVV95cUxOb0dmT05CM3o0UmgwX3hPa29rdjNlZjU1UlJtVUZuVWpIaGprSGZmSGJzT25NZFVWa3lqVXNpODZ0ZzVRbnZZQXVBUkpkNFJTS1lENWNCbEJsQ2tRd0M3dXJYNWhqVVRPSC15bjY3SXpN?oc=5",
-            "publisher": "Українська правда"
+            "title": "EU Budget Negotiations for 2028–2034 Stall as €100 Billion in Ukraine Funding Remains Uncertain — Experts Club",
+            "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQM29TNElZdjFnbDZuTnNfc3Budk1teWxXaHlBTlUwNWo0WmxHcVBOdURjYTZQLVdzQXk1QkN4RzFHZEFHRjRpbWFZcERtOVJhako2aXJfYW52eFpmUzVIc2tLd3Bfc1Y1T05pbTBRRG5TeHFJOXRRLUhnaUZJcnNHWEp6RVNpRG9TM1JQbXBsdmZEb2NTOWNDaFlaZDc4MWFFNnZIVnJQVWI3ZXk5clp6cmhPMmZ4aTB5bzIwTEhCN0JzZC1McTNHT21QZjI3R0hqX2x3WmZwZG4?oc=5",
+            "publisher": "Open4business.com.ua."
+          }
+        ]
+      },
+      {
+        "id": "parliament-proposes-cuts-to-2027-eu-budget",
+        "title": "Parliament proposes cuts to 2027 EU budget",
+        "when": "2026-10-21",
+        "place": "Brussels",
+        "lat": 50.84,
+        "lon": 4.38,
+        "what": "Parliament proposes cuts to the 2027 EU budget, which plans over EUR 200 billion in spending, and Zingaretti calls the decisions short-sighted.",
+        "via": "spending-level dispute",
+        "aspect": "budget",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "EU budget for 2027: Parliament proposes cuts. Zingaretti: \"Short-sighted decisions\"",
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZzREZllfNm9ZaTBGQnBtQ3ZSelJrTDUteWpfZFZpcktuQnF3anQ1Z1FmNWZteGRpcVlmbm8zbTN0dUVaWVJiZ0RQSEFrdktzS2w3VWxoMVlneFVkeVpDLVBqbzdBQ2pkQ2FBS3pyMjVjU0p6Q2lGWE95RWRYSnZrd3hvV1NLc3ZLOVNEVXNJSTlXb3BSRUUtUU1iN0dNTndXbVJYeGMzdmk5QUZtQ2JPV0NweWdJS2NtYnhIRE92b2RaNFd3bjFERkVRRQ?oc=5",
+            "publisher": "Eunews"
           },
           {
             "title": "EU plans to spend over €200 billion in 2027: where the money will go and how much will be allocated to Ukraine",
             "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMkJUNWZrWDNjR0lTQkFhVTladk5VZ0FVZm1jd0lxMnZnWWZyNjFBbGFyYWRWeE40bVJPcURPWDRobFllWlIxT3NfQkJwRVZaNjlUT2ZMQm14SEtMR0pQaEUzTG9tR0QzU0FSdmJ2WlpnNnl0TFU1Y2xzNDdwX1ZCZ0ljaVdrUlJIajhMbndUVEItWUxiby1JNFRWRkgxeXNhRUVXNWxyaGJfUS1oWXF5Nl9OQlRXTUs4Wlh0QWpjVW92UzdmT3pMUERieWN3UW5WMnhoNWtn0gHUAUFVX3lxTE45QnZsQWF0V3pIT0VQR1VrTG45Y3FEQmpzTmNuS1h5bmNYTk5TbHhWTklWUnctWjMtUHA0YU9ISXh6dFpEb2VmVnRVWXZPeVg3US03MXBSbnBhZWh1UVdkVEc2MXlqNmJMdU1ER0hTMWc0cS03UVRrWDhwUXZpaFRwYzNSTUlyekNrRlo0c0xXLVdzb29FT21IZnJGVF9wYVNvdTRLTk1zRnVIUk9nSHdtX1MyVHBfaTNBZkpDVVowOC0xRUl2Rm5JV2hqVTgxNV9nSGlq?oc=5",
             "publisher": "Українські Національні Новини (УНН)"
+          }
+        ]
+      },
+      {
+        "id": "rail-sector-asks-to-protect-transport-funding",
+        "title": "Rail sector asks to protect transport funding",
+        "when": "2026-10-21",
+        "place": "Brussels",
+        "lat": 50.84,
+        "lon": 4.38,
+        "what": "The transport sector calls for rail funding to be safeguarded in the 2028-2034 budget.",
+        "via": "sector lobbying pressure",
+        "aspect": "trade",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "EU: Transport sector calls for rail funding to be safeguarded in the 2028–2034 budget",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVTdqLURxUVZSU21JT0VyUWYwQkstM20weVZvMEh5T0hiZ1dNWkdYWWtxd0VGb0EwVlhLal95dUE0NGMwZmwteGpXYnlMZkowNXcxNUFFVTRmN2w2aGQ0WHpydWxtQkdHN3pWUFA2T2NmN0V1Mmc3MmZnM0NiUEYtRTZ1OG9CZ2hzbU03MVF5VkRHYV9pOGhCRGdMcEsxdnN1aUZTN05rOXdfclp4eHhmdEZyMktObUNSeHZTQTd3?oc=5",
+            "publisher": "megaproject.com"
+          }
+        ]
+      },
+      {
+        "id": "mep-urges-tech-giants-and-polluters-to-fund-budget",
+        "title": "MEP urges tech giants and polluters to fund budget",
+        "when": "2026-10-21",
+        "place": "Brussels",
+        "lat": 50.84,
+        "lon": 4.38,
+        "what": "MEP Nicolae Ștefănuță calls on digital giants and major polluters to contribute to funding the EU budget.",
+        "via": "new revenue proposal",
+        "aspect": "markets",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Nicolae Ștefănuță calls on digital giants and major polluters to contribute to funding the EU budget",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYXNlaFRMaFBUVnV2Q2xtNkk3THVkZHlUb05VMGc1dl9NSGtFaXRFaFZsWVBBRGFKMzQ5Vy02MXFLdjFPcTlrTXNtQ1AtTGRyRHQ2V0xrNWYtOHFNNXhucUJiMG5EOUlxSHMzM1pXRmFDLXU2MFVEOGI1YmRPWWVKSHlwbk4?oc=5",
+            "publisher": "Informat.ro"
           }
         ]
       }
