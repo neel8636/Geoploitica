@@ -808,6 +808,15 @@
   },
   "runs": [
     {
+      "at": "2026-10-22T18:59:01.846Z",
+      "screened": 0,
+      "accepted": [],
+      "rejected": [],
+      "existing": [],
+      "retired": [],
+      "skipped": "last screen 60 min ago"
+    },
+    {
       "at": "2026-10-22T17:58:49.228Z",
       "screened": 140,
       "accepted": [],
