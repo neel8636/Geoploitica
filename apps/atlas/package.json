@@ -15,7 +15,8 @@
     "sync:map": "node scripts/sync-shared.mjs",
     "sync:shared": "node scripts/sync-shared.mjs",
     "explain": "node --no-warnings scripts/explain.mjs",
-    "inplain": "node --no-warnings scripts/inplain.mjs"
+    "inplain": "node --no-warnings scripts/inplain.mjs",
+    "discover": "node --no-warnings scripts/discover.mjs"
   },
   "dependencies": {
     "@fontsource-variable/newsreader": "^5.3.0",

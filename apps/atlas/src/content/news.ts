@@ -8,7 +8,15 @@ export interface NewsSearch {
   edition: "US" | "GB" | "CA" | "IN" | "PH" | "KE" | "IL" | "AU";
 }
 
+import discovered from "./events/discovered.json" with { type: "json" };
+
+// events added from the news carry their own search (scripts/discover.mjs)
+const DISCOVERED_NEWS: Record<string, NewsSearch> = Object.fromEntries(
+  (discovered as unknown as { events: { id: string; news?: NewsSearch }[] }).events.filter((e) => e.news?.q).map((e) => [e.id, e.news as NewsSearch]),
+);
+
 export const NEWS: Record<string, NewsSearch> = {
+  ...DISCOVERED_NEWS,
   "france-unrest-2026": { q: '(France OR Paris) (protest OR protests OR riots OR "general strike" OR blockade)', edition: "GB" },
   "gulf-war-energy-shock": { q: 'Iran (war OR strikes) (oil OR Hormuz OR "Red Sea" OR Houthi OR Brent)', edition: "US" },
   "france-debt-stress": { q: 'France (bonds OR OAT OR "bond spread" OR "Moody\'s" OR "budget deficit")', edition: "GB" },

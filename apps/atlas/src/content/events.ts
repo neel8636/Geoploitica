@@ -55,6 +55,17 @@ export interface WorldEvent {
   links: Link[];
   dossierSlug?: string; // a full layered report exists
   sources: Source[];
+  auto?: AutoAdded; // added by the pipeline from the news (scripts/discover.mjs), not by hand
+}
+
+/* Why the pipeline added an event: the ripple test it passed. */
+export interface AutoAdded {
+  addedAt: string; // ISO
+  reason: string; // one sentence: why it passes the ripple test
+  channel: string; // what moves across the border
+  reaches: string[]; // ISO-2 codes outside the origin
+  headlines: number; // how many headlines backed it when it was added
+  publishers: number;
 }
 
 export const TYPE_LABELS: Record<EventType, string> = {
@@ -66,9 +77,13 @@ import { EUROPE } from "./events/europe.ts";
 import { AMERICAS } from "./events/americas.ts";
 import { ASIA_PACIFIC } from "./events/asia-pacific.ts";
 import { MEA } from "./events/middle-east-africa.ts";
+import discovered from "./events/discovered.json" with { type: "json" };
 
-// All events, in region files under ./events. Order does not matter; ids must be unique.
-export const EVENTS: WorldEvent[] = [...EUROPE, ...AMERICAS, ...ASIA_PACIFIC, ...MEA];
+// Events the pipeline added from the news after they passed the ripple test (scripts/discover.mjs).
+export const DISCOVERED: WorldEvent[] = (discovered as unknown as { events: WorldEvent[] }).events;
+
+// All events, in region files under ./events plus the discovered ones. Order does not matter; ids must be unique.
+export const EVENTS: WorldEvent[] = [...EUROPE, ...AMERICAS, ...ASIA_PACIFIC, ...MEA, ...DISCOVERED];
 
 export function getEvent(id: string): WorldEvent | undefined {
   return EVENTS.find((e) => e.id === id);

@@ -22,6 +22,7 @@ import ReportChooser, { type ReadOption } from "@/components/reports/ReportChoos
 import { ImpactMeter } from "@/components/dossier/Primitives";
 import { Fold } from "@/components/dossier/ReportParts";
 import { PlainBox, QuickBox } from "@/components/reports/PlainBox";
+import AutoNote from "@/components/reports/AutoNote";
 import { connectInPlain, quickFromNews, quickPoints, reportInPlain } from "@/content/inplain";
 import { SITE_URL, reportErrorUrl } from "@/lib/site";
 
@@ -221,6 +222,7 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
         </span>
         {card ? <PulseBadge pulse={card.pulse} /> : null}
       </p>
+      {e.auto ? <AutoNote a={e.auto} /> : null}
       <ReportChooser
         title={e.title}
         hook={live?.headline ?? plainHeadline(e.id)}

@@ -21,6 +21,9 @@ on:
       max_reports:
         description: "Cap on reports drafted in this run (0 = no cap)"
         default: "0"
+      force_discover:
+        description: "Screen the news for new events now, even if the last screen was recent (yes/no)"
+        default: "no"
       max_updates:
         description: "Events to write a 'what changed' line, headline and quick take for in this run"
         default: "12"
@@ -68,6 +71,14 @@ jobs:
       - name: Pull the wire
         run: npm run wire || echo "wire fetch failed; building with the committed wire.json"
 
+      - name: New events from the news (only stories that pass the ripple test)
+        if: env.HAS_AUTH == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FORCE: ${{ github.event.inputs.force_discover || 'no' }}
+        run: |
+          if [ "$FORCE" = "yes" ]; then npm run discover -- --force; else npm run discover; fi || echo "discovery had failures; publishing what succeeded"
+
       - name: What changed (a short AI line for events whose news is moving)
         if: env.HAS_AUTH == 'true'
         env:
@@ -114,8 +125,8 @@ jobs:
         run: |
           git config user.name "geopolitica-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add src/content/wire.json src/content/updates.json src/content/updates-errors.json src/content/fuel.json src/content/fuel-errors.json src/content/explain.json src/content/explain-public.json src/content/plain.json src/content/inplain.json src/content/inplain-errors.json src/content/dossiers
-          if git diff --cached --quiet -- src/content/dossiers; then echo "reports=false" >> "$GITHUB_OUTPUT"; else echo "reports=true" >> "$GITHUB_OUTPUT"; fi
+          git add src/content/wire.json src/content/updates.json src/content/updates-errors.json src/content/fuel.json src/content/fuel-errors.json src/content/explain.json src/content/explain-public.json src/content/plain.json src/content/inplain.json src/content/events/discovered.json src/content/discovery-log.json src/content/inplain-errors.json src/content/dossiers
+          if git diff --cached --quiet -- src/content/dossiers src/content/events/discovered.json; then echo "reports=false" >> "$GITHUB_OUTPUT"; else echo "reports=true" >> "$GITHUB_OUTPUT"; fi
           if git diff --cached --quiet; then
             echo "no content changes"
             echo "changed=false" >> "$GITHUB_OUTPUT"

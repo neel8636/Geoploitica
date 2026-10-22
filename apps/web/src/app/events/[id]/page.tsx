@@ -19,6 +19,7 @@ import RippleMap from "@/components/RippleMap";
 import type { RippleRing } from "@/content/types";
 import { Fold } from "@/components/dossier/ReportParts";
 import { PlainBox, QuickBox } from "@/components/reports/PlainBox";
+import AutoNote from "@/components/reports/AutoNote";
 import { connectInPlain, quickFromNews, quickPoints, reportInPlain } from "@/content/inplain";
 
 export function generateStaticParams() {
@@ -170,6 +171,7 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
         <Link href="/events" className="hover:underline">Events</Link> · {TYPE_LABELS[e.type]} · {e.region} ·{" "}
         {e.status === "scheduled" ? `scheduled ${formatDate(e.date)}${live ? ` · news updated ${formatDate(lastChange)}` : ""}` : `${e.status}, updated ${formatDate(lastChange)}`}
       </p>
+      {e.auto ? <AutoNote a={e.auto} /> : null}
       <ReportChooser title={e.title} hook={live?.headline ?? plainHeadline(e.id)} meta={<ImpactMeter level={e.severity} />} options={options} />
     </article>
   );
