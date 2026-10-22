@@ -89,7 +89,7 @@ for (const { e, all, last } of picked) {
       res = await fetch("https://api.anthropic.com/v1/messages", {
         method: "POST",
         headers: { "content-type": "application/json", "anthropic-version": "2023-06-01", "x-api-key": key },
-        body: JSON.stringify({ model: MODEL, max_tokens: 900, system: SYSTEM, messages: [{ role: "user", content: user }] }),
+        body: JSON.stringify({ model: MODEL, max_tokens: 4000, system: SYSTEM, messages: [{ role: "user", content: user }] }),
       });
       if (res.status !== 429 && res.status < 500) break;
       await new Promise((r) => setTimeout(r, 4000 * (attempt + 1)));
