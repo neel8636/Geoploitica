@@ -3444,5 +3444,59 @@
         ]
       }
     ]
+  },
+  "serbia-student-election-2026": {
+    "at": "2026-10-22T20:59:09.077Z",
+    "by": "pipeline",
+    "items": [
+      {
+        "id": "final-student-led-rally-fills-belgrade",
+        "title": "Final student-led rally fills Belgrade",
+        "when": "2026-10-22",
+        "place": "Belgrade",
+        "lat": 44.8,
+        "lon": 20.46,
+        "what": "Thousands of student protesters gathered in Belgrade for the last student-led rally before the snap election, showing how much street support the movement can mobilise.",
+        "via": "street turnout and momentum",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Thousands gather at final student-led rally ahead of Serbia election",
+            "url": "https://www.aljazeera.com/news/2026/10/22/thousands-gather-at-final-student-led-rally-ahead-of-serbia-election?traffic_source=rss",
+            "publisher": "Al Jazeera"
+          },
+          {
+            "title": "Serbia: Student protesters flood Belgrade ahead of snap elections",
+            "url": "https://www.euronews.com/video/2026/10/22/serbia-student-protesters-flood-belgrade-ahead-of-snap-elections",
+            "publisher": "Euronews"
+          }
+        ]
+      },
+      {
+        "id": "students-turn-protest-movement-into-election-bid",
+        "title": "Students turn protest movement into election bid",
+        "when": "ongoing",
+        "place": "Serbia",
+        "lat": 44.8,
+        "lon": 20.46,
+        "what": "The student movement is trying to convert street pressure into votes against 12 years of Vučić rule, setting the contest as a challenge to the incumbent.",
+        "via": "protest energy turned into votes",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "From the streets to the ballot box: Serbia’s students hope for election win",
+            "url": "https://www.aljazeera.com/news/2026/10/22/from-the-streets-to-the-ballot-box-serbias-students-hope-for-election-win?traffic_source=rss",
+            "publisher": "Al Jazeera"
+          },
+          {
+            "title": "Why a student protest movement is challenging 12 years of Vučić rule in Serbia",
+            "url": "https://www.bbc.co.uk/news/articles/cmq8n3v94ql3o?at_medium=RSS&at_campaign=rss",
+            "publisher": "BBC World"
+          }
+        ]
+      }
+    ]
   }
 }

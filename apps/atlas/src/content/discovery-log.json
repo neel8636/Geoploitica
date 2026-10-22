@@ -1,5 +1,5 @@
 {
-  "screenedAt": "2026-10-22T17:58:49.228Z",
+  "screenedAt": "2026-10-22T20:59:09.077Z",
   "judged": {
     "1eccdfad4d8e": {
       "at": "2026-10-22T14:03:49.910Z",
@@ -10,23 +10,23 @@
       "verdict": "reject"
     },
     "6e9db18e8007": {
-      "at": "2026-10-22T14:03:49.910Z",
+      "at": "2026-10-22T20:59:09.077Z",
       "verdict": "reject"
     },
     "5b0b1c5830fb": {
-      "at": "2026-10-22T14:03:49.910Z",
+      "at": "2026-10-22T20:59:09.077Z",
       "verdict": "reject"
     },
     "ace894679257": {
-      "at": "2026-10-22T14:03:49.910Z",
+      "at": "2026-10-22T20:59:09.077Z",
       "verdict": "reject"
     },
     "f721a790285b": {
-      "at": "2026-10-22T17:58:49.228Z",
+      "at": "2026-10-22T20:59:09.077Z",
       "verdict": "existing"
     },
     "cca5fe90b712": {
-      "at": "2026-10-22T17:58:49.228Z",
+      "at": "2026-10-22T20:59:09.077Z",
       "verdict": "existing"
     },
     "304f86f7053e": {
@@ -46,8 +46,8 @@
       "verdict": "reject"
     },
     "361a6712ada2": {
-      "at": "2026-10-22T17:58:49.228Z",
-      "verdict": "reject"
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "accept"
     },
     "a6b86e41d749": {
       "at": "2026-10-22T14:03:49.910Z",
@@ -58,7 +58,7 @@
       "verdict": "existing"
     },
     "69f578ee4a88": {
-      "at": "2026-10-22T14:03:49.910Z",
+      "at": "2026-10-22T20:59:09.077Z",
       "verdict": "existing"
     },
     "a47cd477ffc1": {
@@ -138,7 +138,7 @@
       "verdict": "reject"
     },
     "bcd64b51a212": {
-      "at": "2026-10-22T13:59:19.892Z",
+      "at": "2026-10-22T20:59:09.077Z",
       "verdict": "reject"
     },
     "14c2ebb49f6e": {
@@ -574,15 +574,15 @@
       "verdict": "no story"
     },
     "795bd6bf317c": {
-      "at": "2026-10-22T17:58:49.228Z",
+      "at": "2026-10-22T20:59:09.077Z",
       "verdict": "reject"
     },
     "7ec0cd327973": {
-      "at": "2026-10-22T17:58:49.228Z",
+      "at": "2026-10-22T20:59:09.077Z",
       "verdict": "reject"
     },
     "0939ddfd332b": {
-      "at": "2026-10-22T17:58:49.228Z",
+      "at": "2026-10-22T20:59:09.077Z",
       "verdict": "reject"
     },
     "44ac378685be": {
@@ -598,19 +598,19 @@
       "verdict": "reject"
     },
     "29c38f7e4961": {
-      "at": "2026-10-22T17:58:49.228Z",
-      "verdict": "reject"
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "accept"
     },
     "7e1ac076fddd": {
-      "at": "2026-10-22T17:58:49.228Z",
-      "verdict": "reject"
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "accept"
     },
     "49e1f0108295": {
       "at": "2026-10-22T17:58:49.228Z",
       "verdict": "reject"
     },
     "ec94294189a8": {
-      "at": "2026-10-22T17:58:49.228Z",
+      "at": "2026-10-22T20:59:09.077Z",
       "verdict": "reject"
     },
     "036e9e400d41": {
@@ -726,8 +726,8 @@
       "verdict": "no story"
     },
     "0a9afca89a64": {
-      "at": "2026-10-22T17:58:49.228Z",
-      "verdict": "no story"
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "existing"
     },
     "9628e2b2e4d3": {
       "at": "2026-10-22T17:58:49.228Z",
@@ -804,9 +804,224 @@
     "162fb79dc347": {
       "at": "2026-10-22T17:58:49.228Z",
       "verdict": "no story"
+    },
+    "2ae9fb016b77": {
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "accept"
+    },
+    "7356c9501e94": {
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "reject"
+    },
+    "835262019fa4": {
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "reject"
+    },
+    "bbd8e370cf53": {
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "reject"
+    },
+    "f51e021147c3": {
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "reject"
+    },
+    "ab3c54f3ff3e": {
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "reject"
+    },
+    "855dfd853b3d": {
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "reject"
+    },
+    "c04ebe641849": {
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "reject"
+    },
+    "91a852a1ecea": {
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "reject"
+    },
+    "8b759a513652": {
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "reject"
+    },
+    "9cc953d3eea9": {
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "no story"
+    },
+    "effcfb664b01": {
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "no story"
+    },
+    "74b46fb1024c": {
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "no story"
+    },
+    "a07fd5e99d22": {
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "no story"
+    },
+    "b388a3d44a8a": {
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "no story"
+    },
+    "303ea72b6073": {
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "no story"
+    },
+    "3c4007f3d3f6": {
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "no story"
+    },
+    "067782d71ebd": {
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "no story"
+    },
+    "352a44f083f0": {
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "no story"
+    },
+    "684d45a8ccbb": {
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "no story"
+    },
+    "723473c25410": {
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "no story"
+    },
+    "d866bc2baaef": {
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "no story"
+    },
+    "bd4be76e36ec": {
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "no story"
+    },
+    "e2fdeefd57b8": {
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "no story"
+    },
+    "441ead6a8c75": {
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "no story"
+    },
+    "3a7db54c81b7": {
+      "at": "2026-10-22T20:59:09.077Z",
+      "verdict": "no story"
     }
   },
   "runs": [
+    {
+      "at": "2026-10-22T20:59:09.077Z",
+      "screened": 140,
+      "accepted": [
+        {
+          "id": "serbia-student-election-2026",
+          "title": "Serbia's student movement challenges Vučić at snap election",
+          "reason": "A nationwide student movement is contesting 12 years of state power in a snap national election, and the result shapes Serbia's EU accession path and its ties with Russia.",
+          "channel": "EU accession and enlargement decisions, Russia energy and political alignment",
+          "reaches": [
+            "DE",
+            "RU"
+          ],
+          "headlines": 4,
+          "publishers": 3
+        }
+      ],
+      "rejected": [
+        {
+          "title": "WHO warns Ebola outbreak now spans three African countries",
+          "reason": "Passed the test but not the evidence check: only 2 headlines.",
+          "headlines": 2,
+          "publishers": 2
+        },
+        {
+          "title": "OpenAI nears $30bn round led by UAE investors",
+          "reason": "This is company funding news without a clear state or policy decision.",
+          "headlines": 1,
+          "publishers": 1
+        },
+        {
+          "title": "Libya-Turkiye maritime deal explained",
+          "reason": "The headlines are explainers and controversy pieces, not a dated new decision.",
+          "headlines": 2,
+          "publishers": 1
+        },
+        {
+          "title": "ICC wins EU human rights prize",
+          "reason": "A symbolic award that decides nothing and moves no money, goods or people.",
+          "headlines": 2,
+          "publishers": 2
+        },
+        {
+          "title": "Italy and Spain lift border controls over Ceuta tension",
+          "reason": "The headlines give too little to show a real flow of people or policy shift; the second is a feature on Ceuta politics.",
+          "headlines": 2,
+          "publishers": 2
+        },
+        {
+          "title": "El Salvador launches operation in Haiti to free hostages",
+          "reason": "A small-scale rescue over four kidnapped technicians with limited wider ripple.",
+          "headlines": 3,
+          "publishers": 3
+        },
+        {
+          "title": "Israel frees settler attack suspects",
+          "reason": "No clear cross-border channel is shown; this is a local security and legal matter.",
+          "headlines": 1,
+          "publishers": 1
+        },
+        {
+          "title": "7.0 earthquake hits Tibet",
+          "reason": "A natural disaster with no reported effect abroad.",
+          "headlines": 1,
+          "publishers": 1
+        },
+        {
+          "title": "UK government advises stockpiling food and water",
+          "reason": "It is domestic advice with no stated cross-border channel.",
+          "headlines": 1,
+          "publishers": 1
+        },
+        {
+          "title": "UK relaxes City accountability rules",
+          "reason": "Domestic financial regulation with no clear effect abroad.",
+          "headlines": 1,
+          "publishers": 1
+        },
+        {
+          "title": "Trump green card curbs test Indian tech workers",
+          "reason": "This is a feature piece, not a dated decision.",
+          "headlines": 1,
+          "publishers": 1
+        }
+      ],
+      "existing": [
+        {
+          "title": "Russia frees American Stephen Hubbard as Trump envoy meets Putin",
+          "reason": "The release is part of the US-Russia contacts already tracked in the Putin-Trump summit diplomacy event.",
+          "headlines": 2,
+          "publishers": 2,
+          "event": "ukraine-summit-diplomacy"
+        },
+        {
+          "title": "Trump's economic approval hits a record low before the midterms",
+          "reason": "The poll belongs to the existing US midterms event.",
+          "headlines": 1,
+          "publishers": 1,
+          "event": "us-midterms-2026"
+        },
+        {
+          "title": "Lyon and Marseille ban all protests on Saturday",
+          "reason": "The protest bans are part of France's ongoing autumn of unrest.",
+          "headlines": 1,
+          "publishers": 1,
+          "event": "france-unrest-2026"
+        }
+      ],
+      "retired": [],
+      "skipped": ""
+    },
     {
       "at": "2026-10-22T19:19:09.374Z",
       "screened": 0,

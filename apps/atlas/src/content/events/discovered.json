@@ -1,3 +1,67 @@
 {
-  "events": []
+  "events": [
+    {
+      "id": "serbia-student-election-2026",
+      "title": "Serbia's student movement challenges Vučić at snap election",
+      "type": "election",
+      "date": "2026-10-22",
+      "status": "scheduled",
+      "region": "Serbia",
+      "lat": 44.8,
+      "lon": 20.46,
+      "countries": [
+        "RS"
+      ],
+      "summary": "Thousands of students rallied in Belgrade at a final student-led event before a snap national election, as a protest movement tries to turn street pressure into votes against 12 years of Vučić rule. The result will shape Serbia's EU accession path and its alignment with Russia.",
+      "severity": 3,
+      "keywords": [
+        "serbia",
+        "vučić",
+        "vucic",
+        "belgrade",
+        "student protesters",
+        "student movement",
+        "snap election",
+        "snap elections",
+        "student-led rally",
+        "eu accession"
+      ],
+      "links": [],
+      "sources": [
+        {
+          "title": "Thousands gather at final student-led rally ahead of Serbia election",
+          "url": "https://www.aljazeera.com/news/2026/10/22/thousands-gather-at-final-student-led-rally-ahead-of-serbia-election?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Why a student protest movement is challenging 12 years of Vučić rule in Serbia",
+          "url": "https://www.bbc.co.uk/news/articles/cmq8n3v94ql3o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC World",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Serbia: Student protesters flood Belgrade ahead of snap elections",
+          "url": "https://www.euronews.com/video/2026/10/22/serbia-student-protesters-flood-belgrade-ahead-of-snap-elections",
+          "publisher": "Euronews",
+          "date": "2026-10-22"
+        }
+      ],
+      "news": {
+        "q": "Serbia election OR Vučić OR \"student movement\" OR Belgrade",
+        "edition": "GB"
+      },
+      "auto": {
+        "addedAt": "2026-10-22T20:59:09.077Z",
+        "reason": "A nationwide student movement is contesting 12 years of state power in a snap national election, and the result shapes Serbia's EU accession path and its ties with Russia.",
+        "channel": "EU accession and enlargement decisions, Russia energy and political alignment",
+        "reaches": [
+          "DE",
+          "RU"
+        ],
+        "headlines": 4,
+        "publishers": 3
+      }
+    }
+  ]
 }
