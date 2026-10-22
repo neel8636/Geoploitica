@@ -1,4 +1,5 @@
 import { ArrowLeft, ArrowLeftRight, ArrowRight, Banknote, Briefcase, Flame, Fuel, Home, Landmark, MapPin, Minus, Moon, Radio, Shield, Ship, Sparkles, TrendingDown, TrendingUp, Users, Vote, Waypoints, Wheat, type LucideIcon } from "lucide-react";
+import { plainUpdate } from "@/content/format";
 import { ASPECTS, FAMILY_LABEL, type Aspect, type Family, type FuelEvent } from "@/content/fueling";
 import type { Flow } from "@/content/events";
 import type { LiveCard } from "@/lib/live";
@@ -26,7 +27,7 @@ export function WhatChanged({ u }: { u: NonNullable<LiveCard["update"]> }) {
       <p className="flex gap-2">
         <Sparkles size={16} className="mt-1 shrink-0 text-amber" aria-hidden />
         <span>
-          <span className="font-medium">What changed · {u.at.slice(0, 16).replace("T", " ")} UTC.</span> {u.text}
+          <span className="font-medium">What changed · {u.at.slice(0, 16).replace("T", " ")} UTC.</span> {plainUpdate(u.text)}
         </span>
       </p>
       <p className="mt-1 pl-6 text-xs text-ink-3">

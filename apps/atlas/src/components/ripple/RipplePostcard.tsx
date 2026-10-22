@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { plainUpdate } from "@/content/format";
 import { useEffect, useRef, useState } from "react";
 import type { RippleCard } from "@/content/ripples";
 import { DASHED_KINDS, neighbours } from "@/content/events";
@@ -135,7 +136,7 @@ export default function RipplePostcard({
                   <p className="mt-3 flex gap-2 rounded-sm bg-paper-2 px-3 py-2 text-[15px]">
                     <Sparkles size={16} className="mt-1 shrink-0 text-amber" aria-hidden />
                     <span>
-                      <span className="font-medium">What changed · {timeAgo(card.update.at)}.</span> {card.update.text}
+                      <span className="font-medium">What changed · {timeAgo(card.update.at)}.</span> {plainUpdate(card.update.text)}
                     </span>
                   </p>
                 ) : null}

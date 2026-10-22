@@ -83,7 +83,7 @@ export default function FollowProvider({ children }: { children: ReactNode }) {
     } catch {}
     if (!user) return;
     const t = window.setTimeout(() => {
-      const seen = Object.fromEntries(Object.entries(state.seen).filter(([k]) => state.follows.includes(k)).slice(0, 80));
+      const seen = Object.fromEntries(Object.entries(state.seen).filter(([k]) => state.follows.includes(k) || k.startsWith("tracker:")).slice(0, 80));
       setDoc(doc(db(), "users", user.uid), { tracker: { follows: state.follows, seen } }, { merge: true }).catch(() => {});
     }, 800);
     return () => window.clearTimeout(t);

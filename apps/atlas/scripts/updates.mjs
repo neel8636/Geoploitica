@@ -68,7 +68,7 @@ Rules:
 - Use ONLY the numbered headlines you are given. Never add facts, numbers or names that are not in them. Headlines can be wrong or partial; say "reports say" when a claim comes from one outlet.
 - One or two plain sentences, at most 45 words, present tense, no hype, no em dashes.
 - Say what is new compared with the event summary and the previous line. If nothing material is new, say so in one short sentence.
-- Cite the headlines you used by number.
+- List the numbers of the headlines you used in "used". Do not put headline numbers in the text itself.
 
 Also write, from the same headlines plus the connections given:
 - headline: the line at the top of the event's page. One plain sentence, at most 25 words, present tense: what is happening now and what it moves next. Everyday words, no news-speak, no question marks.

@@ -11,3 +11,16 @@ export function daysBetween(fromIso: string, toIso: string): number {
   const b = Date.parse(toIso);
   return Math.round((b - a) / 86400000);
 }
+
+/* A "what changed" line for readers: drop the headline numbers it cites, like "(1, 3)",
+   which only make sense next to the numbered list Claude was given, and the old
+   "New since the last line:" opener. */
+export function plainUpdate(text: string): string {
+  return text
+    .replace(/^New since the last line:\s*/i, "")
+    .replace(/\s*\((?:\d+\s*(?:,|and|-|–)\s*)*\d+\)/g, "")
+    .replace(/\s+([.,;:])/g, "$1")
+    .replace(/\s{2,}/g, " ")
+    .trim()
+    .replace(/^./, (x) => x.toUpperCase());
+}

@@ -7,6 +7,7 @@ import { liveCard } from "@/lib/live";
 import { FuelCard, FuelHeading } from "@/components/live/Live";
 import FuelRun from "@/components/live/FuelRun";
 import { getDossier, formatDate } from "@/content/dossiers";
+import { plainUpdate } from "@/content/format";
 import { DossierBody } from "@/components/dossier/DossierBody";
 import { connectionsFor } from "@/content/connections";
 import { ImpactMeter } from "@/components/dossier/Primitives";
@@ -183,7 +184,7 @@ async function LiveFuel({ id }: { id: string }) {
   const items = c?.fuel?.items ?? [];
   const title = getEvent(id)?.title ?? "this event";
   const paras = [
-    ...(c?.update ? [c.update.text.replace(/^New since the last line:\s*/i, "").replace(/^./, (x) => x.toUpperCase())] : []),
+    ...(c?.update ? [plainUpdate(c.update.text)] : []),
     ...items.slice(0, c?.update ? 2 : 3).map((f) => f.what),
   ];
   return (

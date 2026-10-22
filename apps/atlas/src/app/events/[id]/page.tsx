@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { EVENTS, TYPE_LABELS, getEvent, neighbours } from "@/content/events";
 import { formatDate, getDossier } from "@/content/dossiers";
+import { plainUpdate } from "@/content/format";
 import { loadWire } from "@/content/wire";
 import WorldMap from "@/components/WorldMap";
 import { pulseMap, allRipples, fuelDots } from "@/content/ripples";
@@ -86,7 +87,7 @@ export default async function EventPage(props: PageProps<"/events/[id]">) {
   const reportPlain = reportInPlain(e.id);
   const fuelItems = card?.fuel?.items ?? [];
   const newsParas = [
-    ...(card?.update ? [card.update.text.replace(/^New since the last line:\s*/i, "").replace(/^./, (x) => x.toUpperCase())] : []),
+    ...(card?.update ? [plainUpdate(card.update.text)] : []),
     ...fuelItems.slice(0, card?.update ? 2 : 3).map((f) => f.what),
   ];
   const ready = dossier && own ? "This event's report" : dossier ? `Part of the report on ${dossier.title}` : "";

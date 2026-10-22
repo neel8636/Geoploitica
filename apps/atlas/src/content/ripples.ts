@@ -30,6 +30,7 @@ export interface RippleCard {
   otherNews?: FuelNews[]; // local headlines that belong to none of the fueling items
   drivers: string[]; // the drivers named on its connections
   updated: string; // ISO date the card's content last changed
+  addedAt?: string; // ISO time the pipeline added the event from the news, for events it added
 }
 
 const DAY = 86_400_000;
@@ -161,6 +162,7 @@ export function rippleFor(e: WorldEvent, wire: Wire = loadWire()): RippleCard {
     })(),
     drivers: Array.from(new Set(links.map((l) => l.driver).filter((d): d is string => Boolean(d)))),
     updated: own?.updated ?? e.date,
+    ...(e.auto ? { addedAt: e.auto.addedAt } : {}),
   };
 }
 

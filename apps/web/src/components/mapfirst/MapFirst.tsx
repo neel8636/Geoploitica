@@ -19,6 +19,7 @@
 */
 
 import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import { plainUpdate } from "@/content/format";
 import { geoGraticule10, geoNaturalEarth1, geoPath } from "d3-geo";
 import { feature } from "topojson-client";
 import type { GeometryCollection, Topology } from "topojson-specification";
@@ -843,7 +844,7 @@ export default function MapFirst(props: MapFirstProps) {
             <p className="mt-1.5 text-xs text-ink-3">Same format at every size: card, brief, deep dive, evidence.{buildNote ? ` ${buildNote}` : ""}</p>
           </div>
         ) : null}
-        {card?.update ? (<>{h3("What changed")}<p className="border-l-[3px] border-gold pl-2.5 text-[14px]">{card.update.text}</p></>) : null}
+        {card?.update ? (<>{h3("What changed")}<p className="border-l-[3px] border-gold pl-2.5 text-[14px]">{plainUpdate(card.update.text)}</p></>) : null}
         {h3(<>
           What&rsquo;s fueling it
           {FAMS.some((f) => c[f]) ? <span className="inline-flex gap-[3px]">{FAMS.filter((f) => c[f]).map((f) => <i key={f} className="inline-block h-[7px] w-[7px] rounded-full" style={{ background: FCOL(f) }} />)}</span> : null}
