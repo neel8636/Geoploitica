@@ -78,6 +78,7 @@ Same rules: only facts in the headlines, summary and connections; "reports say" 
 Answer with JSON only: {"text": "...", "used": [1, 3], "headline": "...", "quick": {"happened": "...", "matters": "...", "next": "..."}}`;
 
 let ok = 0;
+const errors = {};
 for (const { e, all, last } of picked) {
   const list = all.map((h, n) => `${n + 1}. ${h.title} (${h.publisher}, ${h.published.slice(0, 16).replace("T", " ")} UTC)`).join("\n");
   const conns = e.links.map((l) => `${LINK_WORDS[l.kind]} ${getEvent(l.to)?.title ?? l.to}${l.via ? ` (via ${l.via})` : ""}`).join("; ");
@@ -96,7 +97,12 @@ for (const { e, all, last } of picked) {
     if (!res.ok) throw new Error(`Claude API ${res.status}: ${(await res.text()).slice(0, 160)}`);
     const body = await res.json();
     const out = body.content.filter((c) => c.type === "text").map((c) => c.text).join("");
-    const parsed = JSON.parse(extractJson(out));
+    let parsed;
+    try {
+      parsed = JSON.parse(extractJson(out));
+    } catch (err) {
+      throw new Error(`${err.message} (stop: ${body.stop_reason}; reply starts: ${out.slice(0, 120).replace(/\s+/g, " ")})`);
+    }
     const text = String(parsed.text ?? "").replace(/\s*[—–]\s*/g, ", ").trim();
     if (!text) throw new Error("empty line");
     const used = (Array.isArray(parsed.used) ? parsed.used : []).map(Number).filter((n) => n >= 1 && n <= all.length);
@@ -110,8 +116,11 @@ for (const { e, all, last } of picked) {
     console.log(`  ✓ ${e.id}: ${text}`);
   } catch (err) {
     console.log(`  ✗ ${e.id}: ${err.message}`);
+    errors[e.id] = String(err.message).slice(0, 400);
   }
 }
 
 await writeFile(path.join(CONTENT, "updates.json"), JSON.stringify(updates, null, 2) + "\n");
+// kept in the repo so a failed run can be read without the Actions log
+await writeFile(path.join(CONTENT, "updates-errors.json"), JSON.stringify({ at: new Date(now).toISOString(), tried: picked.length, ok, errors }, null, 2) + "\n");
 console.log(`${ok}/${picked.length} updated`);
