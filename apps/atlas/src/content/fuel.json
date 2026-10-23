@@ -2186,50 +2186,30 @@
     ]
   },
   "portugal-housing-protests": {
-    "at": "2026-10-22T11:01:52.106Z",
+    "at": "2026-10-23T00:58:06.112Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "police-clear-rossio-housing-protest-camp-in-lisbon",
-        "title": "Police clear Rossio housing protest camp in Lisbon",
-        "when": "2026-10-20",
+        "id": "police-clear-lisbon-and-porto-protest-camps",
+        "title": "Police clear Lisbon and Porto protest camps",
+        "when": "2026-10-21",
         "place": "Lisbon",
-        "lat": 38.71,
+        "lat": 38.72,
         "lon": -9.14,
-        "what": "Police dismantled housing protest camps in Lisbon and Porto, arresting 55 people at the Rossio tent camp, and protesters then returned to the squares vowing to continue.",
-        "via": "protester anger at police action",
-        "aspect": "politics",
+        "what": "Police cleared housing protest camps in Lisbon and Porto, arresting 55 people and injuring two, after which thousands returned to rally.",
+        "via": "anger at police action",
+        "aspect": "security",
         "flow": "both",
         "sources": [
-          {
-            "title": "Lisbon police arrest 55 housing protesters and clear Rossio tent camp",
-            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYTQ1S05WTnZfeG0wYU9LbmNNZDdhcVZmRHc0Q1BXOTBCV1A2aDJ5T1BhNGZJSXhJeWh1RGJReHpKaGxUMW5IMllVY0RKbFVVMjdNX29QaU1ON1ZIczEyN2NTNlM2UEV2THI1aDltd3BGV2N0LXdiLVI3OWpwWDJsbFRpdGlPNWE0LWU0UGMtVGo2eTdQMjZHRmNmaUpUeWhYX0w5NFZyQUE?oc=5",
-            "publisher": "Euronews.com"
-          },
-          {
-            "title": "Portuguese police clear housing protest camps, arresting 55",
-            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcnNPYWkzMlIxMzNfRnR6MzNJa3pwNkJpVk1RZUFPbklJbEdCZU9UMFNhcEdVbWcweFNmZEJSWXZNZXBSeF9BM3dHT1RxVzVNMEszOVp3b29LdkZPTVYyQ2gwMVVUNWpleEptUnByOEtQa0pMWVJGdWFpNDBBcFQ3Uy15YkZOakk?oc=5",
-            "publisher": "Yahoo News Singapore"
-          },
-          {
-            "title": "Lisbon Police Arrest 55 Housing Protesters and Clear Camp",
-            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9fQ1BlMFdRUVFJN0c2ZnZ0dU9OMG5CWlBwZGtNLXFzSW5XMmROVEo2cU9oNTRQczZPb1NNZERlZ2RiUmNtTUozdURpQ2xsT1pqZWlmWjFHb1FoUmZzd2tVUWl3NFlUUnZFWEI4SmJmZ1d2c0RROEpR?oc=5",
-            "publisher": "Demokratis.co.id"
-          },
-          {
-            "title": "Lisbon Police Clear Housing Protest Camps and Arrest 55",
-            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE42SXhETUNoNGozWU5DQTA3UEtKZklqZDdlTDdYMktqS0lmUUI2TXZERjRvQTNveld2Q25DUzdsY3l5TGJKYjZCaEtMbklRdlg2UXFCOHkydGNUTG9BQkNXbkMyM2Jza2M5WmFGMnFMeEo?oc=5",
-            "publisher": "SuaraGarut.ID"
-          },
           {
             "title": "Portugal police clear demonstrators from protest camps against cost of housing",
             "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4xY1VOS0NrZHh2OHZMWUhOX0dfRWFkREp1QmF1Y2ZsYTRJZkhkdUhPZzhvZzN1V3U1UFZsdGV3bHdKOGdTOGtnaE0yMF91ZHNPNEswREltSVYwNnFW0gFcQVVfeXFMTjFjVU5LQ2tkeHY4dkxZSE5fR19FYWRESnVCYXVjZmxhNElmSGR1SE9nOG9nM3VXdTVQVmx0ZXdsd0o4Z1M4a2doTTIwX3Vkc080SzBESW1JVjA2cVY?oc=5",
             "publisher": "Modern Ghana"
           },
           {
-            "title": "Police dismantle housing protest camps in Portugal",
-            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zcW1zSW8tQzZRNUlqUTViLXpEa2NTY3JkOHg2Q0ZrQ1lCMEpDSFE4bUhtcE93eTNSMDJZc3NnMkhvNmNkczVGUGN3R2gtOFVGa3ZBV1AxbXpwbTNVWUZuX29FN3pmOU1FVlgwbWZtcTNVX05JMTlR?oc=5",
-            "publisher": "PressReader"
+            "title": "Thousands rally in Portugal after police clear housing protest camps",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNLVdRNVR2RUFLaUtjLVVLMm1OdFJvQ01acWNQUFRpZzdMVDdDTVI2VngzRlZJSXBpZS1YQnV6NVIzdXVLYkdMRUgtVUotQjlWU2tHU2tiMlRqcnd4SnF6eWhQN09Oa2hER0N3MDJmaDFmc2lxekxFOVBQYldGVlFIX00xRmgxTXNiTTc1TGstVmxxY0hqT3ppdUJaUXNOUFpXZXhhWERB?oc=5",
+            "publisher": "Club of Mozambique"
           },
           {
             "title": "Housing protests in Portugal, 55 arrested and two injured during police intervention",
@@ -2247,16 +2227,6 @@
             "publisher": "https://streamlinefeed.co.ke/"
           },
           {
-            "title": "Portugal Erupts Over Housing Crisis As Thousands Protest After Police Clear Camps In Lisbon & Porto",
-            "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOSTdwRzZiWnd1d3pDM3dmaTVjcld6RENBNTMwWm5ickRRVS1ocDVwOVV6X1pDR3NGYWR1LXNqNjFwVHBLTktGajVSZ0k1bVo2aFVuMWgyMUpkVVN2TUpzWVBWcFJXT3JRZ0ZfSm9mYi13aHdJV0M0dkI5Uk9XWWYyQ2QwdlE2S244UHVua25DTEJGbU1LN21ySlJpb2hpdWMwUjc2NmFWRDZ1RWhEbHZCZWtPOUlCS2psZ2xpaTJtdG44R2hockRuRWY0bjRjdTdySmFGSmY4TUFqZGlQUEZRMFZjOFp5bjZpSmY2RkhkTVpRc0N6ZlJmSW5JZk1DcGZ5anJyUGZCdjNvQdIBjwJBVV95cUxNdGg4bG5ES21aRkllcGduTktFeVd4ckNvcGRUcXNoMWdZazg3Z1lmbkpMdVF5LUZWZWV3c0VVSVk3bG1mTWt2YWpmSVlEc2s2NTZVUGtzSFEzZE5FRk5TZXlKcDYyT1BxU3p0V08wbklscWFiSHl3bE5nWUlFQUh1NkRRbzkxNzhuOFNBT1ZEQ09rNjg1WGI1Q1c5TVEzOS1EbDdWbmdMSTJjVkZxOE84YkhTTDRxcFB2QWE0ekdhNnNOMXU2WVlueHhWelp1S1VIMXo1Nm03M3RZMjY5cUdjdm9BU3NTeVhRdXBLTDhVaGZYcGgtZjg3bk9yZTU2dzcxaTNiY1FYLUw3Rk5lZWhZ?oc=5",
-            "publisher": "The Times of India"
-          },
-          {
-            "title": "Portugal housing protesters return to squares, vow to press on",
-            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdWwxLWtmTWFlcG1YV2s1RV91eXlPVFlCeFNzY2ZkX2Z4T1pnZllxOXB0eFlkX3hnWllLT1N5SmVNUnJZRnI3UDBxcTNuQnRsYUFZeWFyUktlcEMxbkdBQW96VGJxdjNjbjRNTXFrdDVVbUhSOUw1OFRDaE9jNkpGdmQzbUZMR0thZUY1MklFcTU4YXhvNDRmNHlyMGxiNDd4clE?oc=5",
-            "publisher": "Reuters"
-          },
-          {
             "title": "Portugal cost-of-living protesters pour back into camps cleared by police",
             "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOM3JMWWZ0amRuM2VYNEcxbE1vcU83UmVnM1lwSmJVcjdYbjdXS0FNdmI3YkR2NjRXdVRBcUFreFBqSHlFYmpyc1EwWmJPX0tHenJLMU9JTWJMZXVSTHZuMHYyeUplUmxZNzNBcUNPUDVfelNRTkFWbG5hdFdiVnZlM292THd3RUFBeG9rWEl5UmM5dTU5a0E5cjhxTUlBelVsRVEyanp1dVByeVB3WHZFT3h2OWM2UdIBuwFBVV95cUxPOVIxSzkxNU50cFF1WkVJblJGVE9PbGxpeFd2d1ZuODlNdHJxTVNnVDRyeHpySUdSem4tME11OWwzSktCbVBJUW0wZWV4VlF5ZThvSGlNNGd5Zk9NcTVKdWRzZkJJSnBzM1RjTEJ0OHR6LUp6UEJSRHNnRUhMcElkUmN3Tm4xTm1VYmF4Zzg5bHd6MHE0eGo0MEV3UXZURmxCLURKYThVa1hYaXpZc2tySnM5UnVHejlzNS1N?oc=5",
             "publisher": "Al Jazeera"
@@ -2264,21 +2234,40 @@
         ]
       },
       {
-        "id": "rising-energy-costs-deepen-european-household-strain",
-        "title": "Rising energy costs deepen European household strain",
-        "when": "2026-10-20",
-        "place": "Portugal",
+        "id": "lisbon-protest-camp-calls-saturday-demonstration",
+        "title": "Lisbon protest camp calls Saturday demonstration",
+        "when": "2026-10-23",
+        "place": "Lisbon",
         "lat": 38.72,
         "lon": -9.14,
-        "what": "Protests are spreading across Italy, Spain, Belgium and Portugal as soaring energy costs add to the housing crisis.",
-        "via": "higher energy bills",
-        "aspect": "energy",
+        "what": "The Lisbon housing protest camp has called for a further demonstration on Saturday, extending the mobilisation begun by the march.",
+        "via": "planned weekend mobilisation",
+        "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "Italy, Spain, Belgium, Portugal: Europe protests spread as energy costs soar, housing crisis deepens",
-            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTG9CNXl0NjdmcWdpNC1renNtanNyRTZ5V241bHM1MzNidTU4d1paVzZYUkYwOVBBYnQ5dkFzY2pvWkhXUHlZNVB1MzRJMlNKRXpzWTJnQXBZcWt3bDNhQmh2R3ZQM2I5SHJSdURYU3hyQUpZWHJLd3Q5M0dpNUIzYlA3ZTFDYUhKeDM2LVFCVmhVVzZpelpaZHpLVUswUTZiMDFrQ1JaTXhuTWtoS18zOXZ6NmhkY1VzcEFsNTQtSmdjX2J5MENDaQ?oc=5",
-            "publisher": "Connected to India"
+            "title": "Portugal: Lisbon housing protest camp calls for Saturday demo",
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWlluYTRPWXR0NWFHaVV6cHhfakNFeFluUVYxTV9hdWE4Y3VtVnN6aVptLUgwZWFnR0o2Q2tHeks1UlVkT0htWFUxRThnTFhFeU9NSHEwRmZ4TS1CbHJFTWx3ZFdNcm9RbUFVYUg3MWNUREN6bFlqb3hJNmRTbElGcUhBUVV6UDZ3WXZQUFJwcjg?oc=5",
+            "publisher": "Macau Business"
+          }
+        ]
+      },
+      {
+        "id": "madeira-president-calls-housing-question-legitimate",
+        "title": "Madeira president calls housing question legitimate",
+        "when": "2026-10-22",
+        "place": "Madeira",
+        "lat": 32.65,
+        "lon": -16.91,
+        "what": "Madeira's regional president said the housing question is legitimate but cannot be solved by protest, acknowledging the marchers' grievance.",
+        "via": "official recognition of grievance",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Housing question legitimate, not solved by protest – Madeira president",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdElTcTBVZWF1aFlaZUw0dXRYcnlyZ01fMHpNakxSVzZTeWhXTE56YktVZ2hLZng1UWhTZmRZN01WNlp1Nk1JNkk5M2taSHNkM3JUR2VwcW91VkNEalJpR2I3VGMxbHgwb2x3QlZpOWw1emxiNnZNVWlfUFlqSTlBQi1wajM1T21ZdF90c3RmbTRWTkE1dGhEYUFxa1ZadFZUeE9B?oc=5",
+            "publisher": "Portugal Resident"
           }
         ]
       }
@@ -2416,163 +2405,196 @@
     ]
   },
   "usmca-annual-review-2027": {
-    "at": "2026-10-22T11:01:52.106Z",
+    "at": "2026-10-23T00:58:06.112Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "us-mexico-talks-stall-over-metal-and-auto-tariffs",
-        "title": "US-Mexico talks stall over metal and auto tariffs",
+        "id": "us-50-tariffs-on-canada-take-effect",
+        "title": "US 50% tariffs on Canada take effect",
         "when": "2026-10-21",
-        "place": "Mexico City",
-        "lat": 19.4326,
-        "lon": -99.1332,
-        "what": "Bilateral trade talks between the US and Mexico have stalled over steel and aluminum and auto tariffs, so a deal faces delay.",
-        "via": "unresolved tariff disputes",
+        "place": "Ottawa, Canada",
+        "lat": 45.4215,
+        "lon": -75.6972,
+        "what": "Trump's 50% tariffs on Canada took effect and Prime Minister Carney vowed to retaliate, souring the climate for the annual USMCA reviews.",
+        "via": "tariff leverage, retaliation threat",
         "aspect": "trade",
         "flow": "into",
         "sources": [
           {
-            "title": "US-Mexico trade talks stall over metal, auto tariffs; deal faces delay",
-            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQM3RJb3NQcmhrY1U3Nm9sOUU4OFhvaTF3dFpCb1hCOWZFN19IZWwxM0lLX0pCQ2lMbm0yYjVBMVR4ZURVeE9qVl83Tmo4OVVUWURFWm1uem1NNkE0ekl5TV8yVXNaWE9McFRNSjRyUzlfNzRxMHQwZ3pCNm9uSFdZYnlhdVZsOXhLX2xNR0lrMW9IRlJxR0NfMzYyN2VfeFNJOHVPbWg2VkQxcWNsVFI5SDlB0gG3AUFVX3lxTE9LOGNCQ1Z0MlQzVE9SWFVINWVWWHZub3dteDBhbDNHVjk0TFhabGZ3ODRjclBwRkpyamtIRUM1ZU5PdUpaTkstOWNZYUdvRXdxekZTUFp0S3VfS1AteEY2UVpueU1PNmJXdjhicmpiTnBORXlHWnpPNXpvV1JOaTB5V0dPdm84bU5uT1FYNUpkX1RrQy1VTWpDWnRqWmtWaXFHUHF0VjluSjVMTVo2anBBbjUtaVE0QQ?oc=5",
-            "publisher": "CNBC TV18"
+            "title": "Trump's 50% tariffs on Canada take effect as Carney vows to retaliate",
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeDdPQV9hVEo4eEFTSlhrVkowRE9mVVlJQzJkZTJnOG1TTUl1ZWYtNG1CcWk2MWlmZG51eVd2S0NJT0pWeHphblVQWThQMTc2OVhDd3VQQXZRU0gteVYtQlkxa29fcVpVV3VKSkl6NVdRTWhvT0E5X3VfVVI0UlVVdnhoUERGMFpxWVR1YXFiSENWQ2lTUTFNLTBEcU1ObHlfTW9OZ01VcmLSAa4BQVVfeXFMT0NxQThhZzl5Q29YNEt0Nl9FV3NrYzRMa1JXX0Vmd2pROGhvVHM3TFJ5NGRrOWVnY0FCOS1LM25MdVdINW8tNjZSS2NDSmhZbUZ4cFdOMWU4N1RObVVpNG43YTJRelY2R21VRDVjcm51cVk0b0ZISVdmNWFFcTdVOFJRdEZLamtrZXg0eER4cW9RbEt2R0lONGxjSXpYZ3RZbXRxbk9iaWdmREw0YVZB?oc=5",
+            "publisher": "ABC News - Breaking News, Latest News and Videos"
           }
         ]
       },
       {
-        "id": "trump-and-sheinbaum-say-trade-deal-is-close",
-        "title": "Trump and Sheinbaum say trade deal is close",
-        "when": "2026-10-20",
-        "place": "Mexico City",
-        "lat": 19.4326,
-        "lon": -99.1332,
-        "what": "Trump said the US and Mexico are close to a major trade deal, and Sheinbaum called it very close, though terms remain unclear.",
-        "via": "bilateral deal expectations",
+        "id": "trump-says-he-does-not-care-about-usmca",
+        "title": "Trump says he does not care about USMCA",
+        "when": "2026-10-21",
+        "place": "Washington, United States",
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "what": "Trump said he does not care about USMCA while the US and Canada plan trade talks, signalling little push to restore a long extension.",
+        "via": "White House stance on pact",
         "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Trump Says US and Mexico are Close to a Trade Deal, but Terms Remain Unclear",
-            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUUNlQnlPVWFQaUlGY0xZOFc3VHpaNVh1Z3lCdWVFXzZVR21HNEM1aUh0UG8xSXlYS0xmZVF0RkRWX1pJQ0Y0eVlGUUNHazVXTDJRR2J1TC1tTGoyd05Yd3BRcWhBREFfRzROYmZpNXRDWGl5dUtxT3hONWhic2RIR1ZIMUVjM3hXSlBCNGMtbjdYNnZHTEVUVkVKNzlpNXg5ZXg3UjR1ckVqRjZRMXg3WmNnY3FWNTUzVkxlckp3?oc=5",
-            "publisher": "American Ag Network"
-          },
-          {
-            "title": "Mexico-US trade deal ‘very close,’ confirms Sheinbaum: Tuesday’s mañanera recapped",
-            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeTNNeS1vMnpaY0ctVGloTVhDTk9GdHNaWG9zT0RjLVZxcUUzZEdKSmdyVTZHd1B5WnU3Yi1wbWRIOVJkbUxZX0xUckFpam1JSE94dDVTZktodDZ6ZXVJTllkZ3kxbHIzVFZ6c05SMkVRYTA4WlBnYldxUVJza3VqUFkzRGlSWnpNWWJVTUV2LVpEN0ZkRHc?oc=5",
-            "publisher": "Mexico News Daily"
-          },
-          {
-            "title": "Trump Says US, Mexico Close to Major Trade Deal",
-            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONVlTZDQ2MXNfeDVaUnBIZERBTDdZSTNYbFBibENIUDVMdGRIYkQxcEpqZW9mZk5yU05ZcV8zTWJCUk1Ea0dDTXpVWFhSWDVrcDNTaGxTYUVvbDRjaDkzN1JZOXhmbHB5TU5iWElGaGgwWHJMZzctRXN6d1k2amtubg?oc=5",
-            "publisher": "MundoNOW"
-          }
-        ]
-      },
-      {
-        "id": "grain-exporters-push-border-fixes-into-usmca-review",
-        "title": "Grain exporters push border fixes into USMCA review",
-        "when": "2026-10-21",
-        "place": "US-Mexico border",
-        "lat": 31.69,
-        "lon": -106.42,
-        "what": "The US grain trade group NGFA wants Mexican border delays and inspection costs for grain shipments addressed in the USMCA review.",
-        "via": "agri-trade lobbying demands",
-        "aspect": "food",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "NGFA wants Mexico border delays, inspection costs for grain shipments to be addressed in USMCA",
-            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcGxEYmpTd1h0U2JQbVRWSWRub2ZqTGVIMFZQYTU4Mk42YjNVYjBRQ2taNDh5aEUtUmxCcUl5d3dtdVRPVXpCeHVpdWVOVDBoVWVvMjN5TXltRENmdTBJMVdPMEdBQUtFUlBCTkxKUV9XVHRYbmJweGJURkZBdVFEMURvOUJmZ2hEQ19mOE1GcGtLQkFsWV91QlNfUW5oMHFuaEJCN1AzYnFXSE9fRHFMZmtRZXpxSnBoS3ZoLXVtVV8tNjdBQk9Z?oc=5",
-            "publisher": "Brownfield Ag News"
-          }
-        ]
-      },
-      {
-        "id": "us-canada-talks-on-energy-and-critical-minerals",
-        "title": "US-Canada talks on energy and critical minerals",
-        "when": "2026-10-21",
-        "place": "Ottawa",
-        "lat": 45.4215,
-        "lon": -75.6972,
-        "what": "Canada is promoting its US oil trade ahead of its minister's talks with USTR Greer, who wants to work with Canada on energy and critical minerals.",
-        "via": "separate Canada-US bargaining",
-        "aspect": "energy",
         "flow": "into",
         "sources": [
           {
             "title": "Trump Says He Does Not Care About USMCA as US, Canada Plan Trade Talks",
             "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUW9JV3ZqZXctbEZTeGh4NUZoX24wbC1XSWJLaVpqVDRpMEsyc2VsM0xQaUFGeEZnaXFNU21ZWUN5WkNqR1VfX0k4WEMzckpfSXNoYTdCVmQyTWl5MWlZVWQ3WWxuYWdveWwwVU84eElDQ2JQZWdwdno4UUFOV2dYZWthSHZmbU5LUm5rOWFPam85SHVFY3V1bjBKOUY0eURv?oc=5",
             "publisher": "EnergyNow"
+          }
+        ]
+      },
+      {
+        "id": "us-and-mexico-talk-of-a-close-trade-deal",
+        "title": "US and Mexico talk of a close trade deal",
+        "when": "2026-10-21",
+        "place": "Mexico City, Mexico",
+        "lat": 19.4326,
+        "lon": -99.1332,
+        "what": "Trump said a US-Mexico trade deal is close, though terms are unclear. Mexico is negotiating lower tariffs while Washington reportedly wants more in return.",
+        "via": "bilateral deal bargaining",
+        "aspect": "trade",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Moving Forward or Backward? Mexico Negotiates Lower Tariffs, but the US Wants Something More",
+            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdHRpelNaZEhXeUc0XzBYcWZBLWFZN3ljbkJyak9kWHpVVVZ1RXBNUlBUQW9rQVRGMDRhdnhzdi0tVFhycXpmN3RfaU1vMVJpcWdMZVdpNlExWWRmYV9ZUGVzaU4teWhQMVVNbEFXRjdPZVJVUHNMYTRzRlZBQU5rMFRYRk5zR0pWa2xyOS1GRHlLMHVCUy02YkZn?oc=5",
+            "publisher": "SiiLA México"
+          },
+          {
+            "title": "Trump in Latin America: U.S. Officials in Argentina, Paraguay; Trump Talks USMCA Progress",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPS3IzTnRJTnd3b2RMSW5ldFVVVjZ4bi1nUnVLM3BwR3ByQXoyeXhCR0lTTzVsLXBqcG5MZXhrV2xGbjlRRkxDcmZqQkJmTVR6alFGMkFFcEZGQk1vM3Z1MktBNjZZWkZRb0FzVFNpNldQTzZ5MmptVWdzRnNLMkdIbDBUQkdNQTIzeDhxXzFtRmNkYktCRVNWSTBfNVpIMzY3U2VRa3oyTmQzay1BZzlF?oc=5",
+            "publisher": "AS/COA"
+          },
+          {
+            "title": "Trump Says US and Mexico are Close to a Trade Deal, but Terms Remain Unclear",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUUNlQnlPVWFQaUlGY0xZOFc3VHpaNVh1Z3lCdWVFXzZVR21HNEM1aUh0UG8xSXlYS0xmZVF0RkRWX1pJQ0Y0eVlGUUNHazVXTDJRR2J1TC1tTGoyd05Yd3BRcWhBREFfRzROYmZpNXRDWGl5dUtxT3hONWhic2RIR1ZIMUVjM3hXSlBCNGMtbjdYNnZHTEVUVkVKNzlpNXg5ZXg3UjR1ckVqRjZRMXg3WmNnY3FWNTUzVkxlckp3?oc=5",
+            "publisher": "American Ag Network"
+          }
+        ]
+      },
+      {
+        "id": "canada-pitches-oil-trade-ahead-of-greer-talks",
+        "title": "Canada pitches oil trade ahead of Greer talks",
+        "when": "2026-10-22",
+        "place": "Washington, United States",
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "what": "Canada touted its US oil trade before its minister's talks with USTR Greer, who said the US wants to work with Canada on energy and critical minerals.",
+        "via": "energy trade bargaining chips",
+        "aspect": "energy",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Canada Touts US Oil Trade Before Minister’s Talks With Greer",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRFluU3dwbl94TTAwOVRrb3dkNXh2VTNTSUt4dHhOUUVpdGs0RDRQZjVJLTRFNkRna2pGYThRQWtOT2J0YVZtX1JuY1p2bmpVZXhVeXg3M1R5Q3d6N1NnTm91M2I2SU9EYkNZellQWUI5d2NlVGNMdlhnRlc3enZPckZrbnFoYmtEM1dmcGFSUGwxMkU?oc=5",
+            "publisher": "EnergyNow"
           },
           {
             "title": "Trump’s Trade Czar Says U.S. Looking to Work with Canada on Energy and Critical Minerals",
             "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMWZvWnVTbjJlNDR1UHNTTVZFd3lRTmZYaVA0Q1l2SmRsWDhMWndUM0dXU2MxYmJpQWpUbUE3UVZTeS12SHcwYUZCNFROV1RMTER5clg0ZndESVF2dW5UZ3JBTkh1TmI3Q0ZPN1hacGt0blZrRVBmZkE1WVhiV0F6ZFpfbG8yNGJNQ3RIc2VNM0NqM3N0eHJJMEoxbE9nWDN5eFhlc0ZXeGFPU0JpeG8yRG9FUFBPc2px?oc=5",
             "publisher": "EnergyNow.com"
+          }
+        ]
+      },
+      {
+        "id": "farm-country-worries-over-stalled-usmca-talks",
+        "title": "Farm country worries over stalled USMCA talks",
+        "when": "2026-10-22",
+        "place": "Des Moines, Iowa",
+        "lat": 41.5868,
+        "lon": -93.625,
+        "what": "US farm groups and economists warn that stalled USMCA talks and the review could reshape North American farm trade, adding pressure on negotiators.",
+        "via": "farm lobby pressure",
+        "aspect": "food",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Ag economist: USMCA review could shape North American farm trade",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNLTh0YlNMOTVfdmVuYzZiMGJRVlplaEdIeTVRRXBoRVFlTmxEMlhtZnA3Mk4zLVFWUXlqem85QkE3cXVfM3hNLUQyX0VXeFhjbm9Qcm8zTUI0N1pjbjBseGlDSC1pT25LSDVaZ3RWZl93eW94aGU4cmtUOUVVWmxQUnBFaXN5Z3RpWXRoNjFhWnhDcjFxaGFSMEhXeFZsaGM?oc=5",
+            "publisher": "Brownfield Ag News"
           },
           {
-            "title": "Canada Touts US Oil Trade Before Minister’s Talks With Greer",
-            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRFluU3dwbl94TTAwOVRrb3dkNXh2VTNTSUt4dHhOUUVpdGs0RDRQZjVJLTRFNkRna2pGYThRQWtOT2J0YVZtX1JuY1p2bmpVZXhVeXg3M1R5Q3d6N1NnTm91M2I2SU9EYkNZellQWUI5d2NlVGNMdlhnRlc3enZPckZrbnFoYmtEM1dmcGFSUGwxMkU?oc=5",
-            "publisher": "EnergyNow"
+            "title": "Stalled USMCA talks raise concerns across farm country",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPb3JhMndVX1NTMmNQenhUQjJ2Sm8wTGlpYUxFQVBYSDBtYjAyRlplWE50aUNtZFVCeGxjVGhWa21vc2dZSGlJaVdYUDgwYTBRcDdCcE5jWTJPSFpmQktIVDBlaExRR01kZ3gyUXVYbGdBUTE1azRad2VHTnAtc1lCeGY1S1J0bkpDVDU2aTNLM1FXejA?oc=5",
+            "publisher": "Brownfield Ag News"
           }
         ]
       }
     ]
   },
   "venezuela-oil-reopening": {
-    "at": "2026-10-22T10:58:03.753Z",
+    "at": "2026-10-23T00:58:06.112Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "chevron-commits-7-billion-over-five-years",
-        "title": "Chevron commits $7 billion over five years",
-        "when": "2026-10-21",
-        "place": "Venezuela",
-        "lat": 10.48,
-        "lon": -66.9,
-        "what": "Chevron will expand its Venezuela position and invest $7 billion over the next five years, funded from revenue of its existing operations there, according to its CEO.",
-        "via": "large private capital pledge",
-        "aspect": "budget",
+        "id": "us-license-authorizes-venezuela-oil-and-gas-production",
+        "title": "US license authorizes Venezuela oil and gas production",
+        "when": "2026-10-22",
+        "place": "Washington, United States",
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "what": "The US Treasury issued a license authorizing oil and gas exploration and production in Venezuela, opening the legal path for foreign firms to invest.",
+        "via": "legal cover for investors",
+        "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "Chevron to Fund $7 Billion Venezuela Investment With Revenue From Existing Operations, CEO Says",
-            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZ1l2SXR3RE5wOFp0TkF3VHhfZHBEaVFhV2w4V2w1SWk0bkpJMDdWVFp5NFFkVjVWcGhiVi12UHlTTjl2azdiRmdfN1RZRzBCN1l3NHBpdE82My1XanZHbEdkeEw3dV91ampDSXpBbHdmMFR6aWxSUHBFWjBQVHZEMVhEU01ieDFDWlZCSG54eHBSWGdVZm84OHFfQ2s1eWFEbVBZdDRGYl9xN0ZESWNjbHZVbFJxa0J3V2dKa3o1elpFdw?oc=5",
-            "publisher": "EnergyNow.com"
-          },
-          {
-            "title": "Chevron Expands Venezuela Position, to Invest $7 Billion in Next Five Years",
-            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQS1M3dHZrMW84MDZreGpKSGN2QlMybjBmeHMwNW40bjF2MWdjUE13dWVHSTZPaGJlaDZIZFlJMGVkZGh2MHZ5cGptbkpPNVZGdlVyUjVQbU5hVlRjQ0ZneFA1NkVUWEs0bzU3S1hGS00tY0xjRDQzX0VISmNLSE9ZblNnNVhQZ3d6UXI3Mkd0M1lfZzc2T3A5N2V5QVRXZmFmckNsYmxJdw?oc=5",
+            "title": "US Issues License Authorizing Oil and Gas Exploration and Production in Venezuela, Treasury Says",
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQb2l5eGRYS0tOWUZjZElpeklpVnlxM0E4OEM0UjJJRGh5V2FXX3hOUEwtMGJhY2xHb0F2eWVaMWtsWGVnWE80cjNKbUV0OXdpRWZPdmtpYnBBUWZLMVBoYWhzN3p6djl1ZWVPLW51cm93RVdwcjJsa2pJSEkzN0RxcUZqQ3RBc1NYYm1HM3Rod2hZNF91SWtpRHBnWURWQWpVVm1EVzUwVWkxdnFSMzVUeVR4dkJfVUktRTlnVDhweFlBcHd6?oc=5",
             "publisher": "EnergyNow.com"
           }
         ]
       },
       {
-        "id": "continental-resources-signs-block-deal-with-pdvsa",
-        "title": "Continental Resources signs block deal with PDVSA",
-        "when": "2026-10-21",
+        "id": "venezuela-resumes-diluted-crude-exports-after-15-months",
+        "title": "Venezuela resumes diluted crude exports after 15 months",
+        "when": "2026-10-22",
+        "place": "Jose terminal, Venezuela",
+        "lat": 10.1667,
+        "lon": -64.8667,
+        "what": "Venezuela restarted exports of diluted crude oil after a 15-month pause, according to a document cited in the report.",
+        "via": "restored export channel",
+        "aspect": "trade",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Venezuela Resumes Exports of Diluted Crude Oil After 15-Month Pause -Document",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVzB4NHBWMHJWd3JkeGtncFFvUnNQUUlydENIOVRwNUF1QjFicWRXbnBmUUw3czBDRWRVQlJFR0VUMXVqUlRvSnBlLXpLX1NaeC1VOFB3WWQ3T3RlMzAtc2tJMGxYcnE5OGVETVNRRWNhLUdYcDdxOFItY2s3UjZWZmNITzhjbnhnZk1xMUhQNHRQTEZPZmY1b1hZVEs1V1Q2S2lvMm5wX3ptTDQ?oc=5",
+            "publisher": "EnergyNow.com"
+          }
+        ]
+      },
+      {
+        "id": "oil-exports-top-1-million-bpd-for-first-time-in-six-months",
+        "title": "Oil exports top 1 million bpd for first time in six months",
+        "when": "2026-10-22",
         "place": "Venezuela",
-        "lat": 10.48,
-        "lon": -66.9,
-        "what": "US producer Continental Resources signed a deal with state oil company PDVSA for a Venezuelan oil block, adding to the stack of signed agreements.",
-        "via": "new signed oil agreement",
+        "lat": 10.4806,
+        "lon": -66.9036,
+        "what": "Shipping data shows Venezuelan oil exports surpassed 1 million barrels per day for the first time in six months.",
+        "via": "rising export volumes",
         "aspect": "energy",
         "flow": "into",
         "sources": [
           {
-            "title": "Continental Resources Signs Venezuela Oil Block Deal With PDVSA",
-            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeTNKVE1KQ1dOTnMxRXNxdWxZZVlqWm5qaUlyUW9wajMyOUlTR1FlTXoxTDVIYWMydGRuUU1FWWtpYWNMdGUycFBGTUpsOGFlUExYZFdwVUpGblFYWGJ1V0hTZ2xYUlhoajJRa0oxVjVaWjhaNjhuVVhDWG9YdjNZNmpnSGtDbEh4bmt5VQ?oc=5",
+            "title": "Venezuela’s Oil Exports Surpassed 1 Million Bpd for the First in 6 months, Shipping Data Shows",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOa0hoOUNPLV9BSU5MdjZYMnk3bTNMbjhKQXBjNjRjenh3b0F4eWU4a1RBaWtBM1BUUzdVX2FBLXNlRkRsTVJxejg5VjJGMFpmVEdVQkE4czF5ckpSOU1qYWJqZk14UmxoWlhzNXJXU0xTa2htZjFzcFhlNC10M0lHU21DWk9tTjdlYW5LUEpnT0pWSjhobUdpQWVtdHllblExclctR2hNQllzbUpTX3dCQWs3Tm1kZnZfRXA1V1hSR0g?oc=5",
             "publisher": "EnergyNow.com"
           }
         ]
       },
       {
-        "id": "uae-and-qatari-firms-enter-via-bp-gas-deal",
-        "title": "UAE and Qatari firms enter via BP gas deal",
-        "when": "2026-10-21",
+        "id": "bp-led-gas-deal-brings-uae-and-qatari-firms",
+        "title": "BP-led gas deal brings UAE and Qatari firms",
+        "when": "2026-10-22",
         "place": "Venezuela",
-        "lat": 10.48,
-        "lon": -66.9,
-        "what": "Firms from the UAE and Qatar debut in Venezuela through a gas deal led by BP, widening the pool of foreign investors.",
-        "via": "new Gulf investor capital",
+        "lat": 10.4806,
+        "lon": -66.9036,
+        "what": "Firms from the UAE and Qatar debuted in Venezuela through a gas deal led by BP, widening the pool of foreign investors.",
+        "via": "new foreign capital",
         "aspect": "budget",
         "flow": "into",
         "sources": [
@@ -2584,64 +2606,45 @@
         ]
       },
       {
-        "id": "caracas-asks-oil-firms-to-bring-own-power",
-        "title": "Caracas asks oil firms to bring own power",
-        "when": "2026-10-21",
+        "id": "colombia-s-richest-man-takes-over-venezuelan-oil-producer",
+        "title": "Colombia's richest man takes over Venezuelan oil producer",
+        "when": "2026-10-22",
         "place": "Venezuela",
-        "lat": 10.48,
-        "lon": -66.9,
-        "what": "Venezuela wants oil companies to supply their own electricity for their projects, setting a condition for how new investment will be developed.",
-        "via": "self-supplied power requirement",
-        "aspect": "energy",
+        "lat": 10.4806,
+        "lon": -66.9036,
+        "what": "Colombia's richest man took over an oil producer in Venezuela, part of a rush of investors seeking positions in the sector.",
+        "via": "private investor interest",
+        "aspect": "markets",
         "flow": "into",
         "sources": [
           {
-            "title": "Venezuela Wants Oil Firms to Supply Their Own Power for Projects",
-            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYzV0RVhpWmM5X3FKMUVGNGdHMjZzVENKLUlaWnROTTBSR2pfeWh5a0t2QzNCVllwb3dvSnozLTZIQ0VuU3dKcVV4Y3ExRzI4S1NPQ1dCTzNvWDcxN01EVEM0S3h2ell5SmtVRzFTMmY4Y3NfOUhoeVRPcUZLeHZzUng1aXctYk82Z3d4bjRuamRrZHdVTDNsM3Z2dw?oc=5",
+            "title": "Colombia’s Richest Man Takes Over Oil Producer in Venezuela Rush",
+            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQV2tDTVJmSnNoajZQYzM0YVM1QmcwUkx0NkE2YnhFam9CRWc0Zk5oRlNXSVdKYUo3a192bnRoc2IwWEllb1NxZTBjaERTM3U2dU1CeDJxWEtwQWR6WDZ5VlpyVXFRYXFLeXpadFJUbENuSDVCRkFuTlNRQ1poc2dlNWg2d0drajc0QTFsTnluNGhiWGh3VDlhbEFB?oc=5",
             "publisher": "EnergyNow.com"
           }
         ]
       },
       {
-        "id": "washington-weighs-stake-in-venezuelan-oil",
-        "title": "Washington weighs stake in Venezuelan oil",
-        "when": "2026-10-21",
-        "place": "Washington",
-        "lat": 38.9,
-        "lon": -77.04,
-        "what": "The Trump administration discussed taking a stake in Venezuelan oil and reportedly agreed to acquire a stake in a Venezuelan firm with hidden owners and investors.",
-        "via": "US government backing",
-        "aspect": "politics",
+        "id": "refinery-outage-and-power-demand-for-oil-projects",
+        "title": "Refinery outage and power demand for oil projects",
+        "when": "2026-10-22",
+        "place": "Paraguana, Venezuela",
+        "lat": 11.9,
+        "lon": -70,
+        "what": "A power outage shut Venezuela's largest refinery, while Venezuela asked oil firms to supply their own power for projects, exposing grid limits on investment.",
+        "via": "grid constraints on projects",
+        "aspect": "energy",
         "flow": "into",
         "sources": [
           {
-            "title": "Trump Administration Discusses Taking Stake in Venezuela Oil",
-            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT2xRdFJUaDZpcGpQUm9qSUZyN1h5cmFnd0dlLVktOFVqanRsQ0UxSzI4MEl1YWRzLXVyUk04bWYtZk1HMUsyRmxzdV9HQW9nQVFhZUk0bFdRa3p2MVFtM3A0LU5MdUs2eHVTc3dPeEQ1YU5NR0V6Q2Q5VUREelVmdHhFel8yRUFVZmFEZk5VWWNUdzUxYnBwYkxFOFQwZ2NXQmVGZEdWZw?oc=5",
-            "publisher": "EnergyNow"
+            "title": "Power Outage Forces Venezuela’s Largest Refinery to Shut Down, Sources Say",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRm9qYWtSbnJCaTYta0hjQlJSUk1Pd05CaDFRMW9WS3VJMGMzbWRtZ0VPVkZCY25rZjhwcUI1YTc3dURCYWFiSDZ0ME9CWG4yaTRlQTJpT2h3YjQ4aGc1cnIzbFpocVN1d2xldzZ5eFpHbjRUNDlmTFlBdGNwZndqM2FROTY3Vy10dEhTV1hQUEtNdWZBeHl5SnVueUhoRWNGLW1MZnNB?oc=5",
+            "publisher": "EnergyNow.com"
           },
           {
-            "title": "Trump Administration Agreed to Acquire Stake in Venezuelan Firm with Hidden Owners and Investors",
-            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1zOXZIMGRobEY1UDJWMlZXaXpJQ18zZWpXUm12eHNZbDVIX0lTMTlpQ2RKQ04xdS12YUp1YjhlRlNaRGZjY01VbXppM1lkZjM2eHlpMkJqVHg?oc=5",
-            "publisher": "CubaHeadlines"
-          }
-        ]
-      },
-      {
-        "id": "us-presses-india-to-process-more-venezuelan-crude",
-        "title": "US presses India to process more Venezuelan crude",
-        "when": "2026-10-22",
-        "place": "Jamnagar",
-        "lat": 22.47,
-        "lon": 70.07,
-        "what": "The United States is pushing India to refine more Venezuelan oil, with the Jamnagar refining complex already familiar with this crude.",
-        "via": "export demand from India",
-        "aspect": "trade",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "U.S. Pushes India to Process More Venezuelan Oil, but Jamnagar Already Knows the Terrain",
-            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVFlJajRQaG5BOXRHVVlyMm5MVVpYRFZiU2V6OE1jX0V0bFBDbTNkTEpwcFdGdnVTamsyTXp1SFRnODhGU250ZmRYcEJPX3hEQkpHVDNHNi1rcGZLQkMwOUdPcFBrSTlLODBpQkJ2VDdOdVl3Y2lfNGZGZDRUU3doX1dNZzJiOEtUTVYzNnp6TC0yb2FXODhyRkloWGhRZ2E4OGpaNzhSSk81S00?oc=5",
-            "publisher": "Gujarat Samachar"
+            "title": "Venezuela Wants Oil Firms to Supply Their Own Power for Projects",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYzV0RVhpWmM5X3FKMUVGNGdHMjZzVENKLUlaWnROTTBSR2pfeWh5a0t2QzNCVllwb3dvSnozLTZIQ0VuU3dKcVV4Y3ExRzI4S1NPQ1dCTzNvWDcxN01EVEM0S3h2ell5SmtVRzFTMmY4Y3NfOUhoeVRPcUZLeHZzUng1aXctYk82Z3d4bjRuamRrZHdVTDNsM3Z2dw?oc=5",
+            "publisher": "EnergyNow.com"
           }
         ]
       }
@@ -3047,173 +3050,153 @@
     ]
   },
   "brazil-runoff-2026": {
-    "at": "2026-10-22T10:58:03.753Z",
+    "at": "2026-10-23T00:58:06.112Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "polls-show-lula-narrowing-bolsonaro-s-lead",
-        "title": "Polls show Lula narrowing Bolsonaro's lead",
-        "when": "2026-10-22",
-        "place": "Brasília",
-        "lat": -15.7939,
-        "lon": -47.8828,
-        "what": "Reports say Lula has closed the gap, with one account putting Flávio Bolsonaro down to 45%, which makes the run-off look tighter.",
-        "via": "shifting voter momentum",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Brazil's countdown to the runoff election begins: Lula closes gap with Bolsonaro. - L'Unione Sarda English",
-            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZVdOT0o5dDNib3ctdklKNnhlU0JHMFA1aDFxM1VudkJNM0pYa2IyY1pYZDYzSGFjbUh4VlZDYUpzWjd2cVgwT3FlbElvb0JsdmdzbEV1b0pPYUJNU1hWZzBDYzZablNucUx6SGZETlhPR3ZNSkhVUHJNUlZqOUdxZTFiNEsxWkdSdHhOU0JzNW5XRHR1RGZDcG1OQzNLb29VZjdmd0I4Q2lXUl9sQUpqUmtEM09CMnJHYWd4dU1lYmdsVTct0gHMAUFVX3lxTE1Vbzh6Y1R2QjlUWDNTNFZXUUl4MV9vblBfaThicEJKT290bm10QjNDMFhlaERGSXV1ZHhsem9XMDFjVHppQkN6eF9SaWRmdExodVJ3ZEJ0dVRHb2V0bVFsMzl6WURUM2RGWVBBUGkzWWRYZ1hIYXZCbGZlWjBLLXJ0VHk2eEZlajhlU3dXbVNjVGd2Z1ViZWdVQk1NYVAtbXBJQVo0T1Z4eXUwLUV3RVV6bTZFcFppYTZEcGVWYWEwNlRXY3hwcGdRaXpxMg?oc=5",
-            "publisher": "L'Unione Sarda.it"
-          },
-          {
-            "title": "Brazil Election Race Tightens as Flávio Bolsonaro Slips to 45% Against Lula",
-            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNFhvZzk2UW9HbHQyeVZCVVcxdmFJV3ZIVVRuUDRmOUNURDFoYk1kNUViWGFIeC1TM0U2Vm8zM1hEdzdWaXZTb296Wk9nVWg2enRSYXo4dVdvZGVkcm85cU9CX3JyRmxHdjdqQ3RLRXhzUExkMmtkekVsOU1HYjhhUVI0Snh4MUo2WkxwLUF4bktKVzUxQjRpTFJZN0htNkU?oc=5",
-            "publisher": "Sri Lanka Guardian"
-          }
-        ]
-      },
-      {
-        "id": "lula-seeks-annulment-of-bolsonaro-candidacy",
-        "title": "Lula seeks annulment of Bolsonaro candidacy",
-        "when": "2026-10-22",
-        "place": "Brasília",
-        "lat": -15.7939,
-        "lon": -47.8828,
-        "what": "Lula is pursuing a tit-for-tat legal move to annul Flávio Bolsonaro's candidacy, pulling the electoral courts into the final days of the campaign.",
-        "via": "legal pressure on candidate",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Lula seeks tit-for-tat annulment of Bolsonaro election candidacy",
-            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWjVNLVZYUzZzQzBXcVAxTllLR2xEY3ZZOE1pR0FodU9vV3V2TlZhekZEbkxwWnhLcUdOU3YtTlAwWW9MT2xqUmFKMmpkQUQ5b1kwN2tRZ2h2dV83UTVmSXptempjRmQybUlhVl9iRjdscEV1SS04MWFQc3hYOFd3dkpmWEc0bDJHdngyaWNmajFiR1ZkNHJ0enJ4SHpIRGJxVTdjY084TQ?oc=5",
-            "publisher": "Bangkok Post"
-          }
-        ]
-      },
-      {
-        "id": "lula-courts-older-and-swing-voters",
-        "title": "Lula courts older and swing voters",
+        "id": "datafolha-poll-shows-race-about-even",
+        "title": "Datafolha poll shows race about even",
         "when": "2026-10-22",
         "place": "Brazil",
-        "lat": -14.235,
-        "lon": -51.9253,
-        "what": "Lula is making a final push for swing voters and hopes older voters will carry him to victory, appealing directly to the undecided.",
-        "via": "swing-voter turnout",
+        "lat": -15.7939,
+        "lon": -47.8828,
+        "what": "A Datafolha poll published days before the run-off shows Flávio Bolsonaro and Lula about even, and Bloomberg reports the two as tied.",
+        "via": "tight polling, voter uncertainty",
         "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "Brazil’s president appeals to undecided voters ahead of run-off",
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/10/22/brazils-president-appeals-to-undecided-voters-ahead-of-run-off?traffic_source=rss",
-            "publisher": "Al Jazeera"
+            "title": "Bolsonaro and Lula Tied Ahead of Brazil Runoff, Poll Shows",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRlFZSVU4NVRtdjBIUURQOXR5d0hDQzJ4V0dWTFJJSFFEZGtndkJ0anZvTER4ZWlpeGhjM0p5UDFGVEpWWlVHejI0dnZvNDg1NUZpU3ZnVDZlb0ZsRFpLLWtZcy0wRVM5SXRpX3o1TUlfZ1RjSkFVSjgxcFRqM3FiVVJNUnNhT3pLVmQzOGM3MllVbG9JcnZzRjNEME1yYW94YjNzT3pVYk5udmhta205TEVIaw?oc=5",
+            "publisher": "Bloomberg.com"
           },
           {
-            "title": "Lula hopes older voters can help power him to victory against Flavio Bolsonaro",
-            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYzlvUUFjdHBqTUNtazdESjBmMWUzNktvaFM3cktpNmJQbmh3TFFUVnlVamVMNVMxc01aOTZ1NDA5LXdQQlBLS2lzTE16OXJnVi1weFlrdDc4dzl5NUxzNTVEeTJ1cDZfQ1FtS1U2X1RsVVd2ZjdQWVlFMWRVVG85V1JtallTTTQ4allxeFhMamUwTFQtWnNmQ3A0QTNqM2VOUW1sVVlWdlFBcjRFSUs3SGFIeGozcWRaVXVrQkFEN1hjSG9n?oc=5",
-            "publisher": "Reuters"
-          },
-          {
-            "title": "Brazil election: Lula rallies swing voters in final campaign push",
-            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DcWdDcnZDWTZSQzBFTG9lQXBZM1Mwb1FOaXZmYXh5OGszZTQyb1djZmxKTWhvT0pUQWlTWmxmM1ZTVWZRT1JEeVRNc2ZUdDVoRk9OaTF6WGxMMWJiamJwNm1tTE1nNFXSAVxBVV95cUxPR0FiX214eW4yb0NmLUxjM3Z1M09GMzVVQkgyRFJBRTFFLWFnVDJCNlh2WXBjdlBGUnd5d3Q0Zzl2WXd1dmFpcVUtdE11WGQ2aVdHWmxySUM4YVEzUA?oc=5",
-            "publisher": "Modern Ghana"
-          }
-        ]
-      },
-      {
-        "id": "dispute-over-release-of-candidates-personal-records",
-        "title": "Dispute over release of candidates' personal records",
-        "when": "2026-10-21",
-        "place": "Brazil",
-        "lat": -14.235,
-        "lon": -51.9253,
-        "what": "Flávio Bolsonaro challenged Lula to expand the release of his personal records, and set terms for releasing his own after Lula's disclosure challenge.",
-        "via": "transparency fight shaping image",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Brazil’s Bolsonaro challenges Lula to expand release of personal records",
-            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSHNPUnpXNHZ5NTZwaFZlazdrMEs3LWh3ZVpNb0N2bHEyNXpDcVc0aEdtWUw2V0dDNnhxa1c2eWFDaGZOeXU1Tk50UEdONkhkYTA0ZTVvbVJIUDktNTFEa0EtZkRuemtKdGhYYjJsRDB1WFA0MFVxUUU4LXVlWV9kQzVTTURKZTBpSHVWN0diV3NkQ2YtbklvWFZ0SUdzVzdNSThpd20ybmtNZV8xM2FCSXhqNNIBuAFBVV95cUxNLUJIeHpsZ1o5bUdrR0haY2lJeW5iclR1LUFBSF9rUzFyTDJRTl9hekVGM2xiNzRwek5DMEppMXdwNkxkNk1ObGhTc2RTWm0xaEFoV2FoYUZDY3ZfRWN2Z0JSQXVmTnJoNmRwcTFmeENlY000ZFhtSU9laW15dmNhbzFlZGZ1U2ZMY0FYbnMwU0l4TG9kRzVSZC1aR2lqdEdzZER1S1FGRkJuVXdSMVIycjRybXlLUk1i?oc=5",
-            "publisher": "Al Jazeera"
-          },
-          {
-            "title": "Brazil's Bolsonaro sets terms for records release after Lula's disclosure challenge",
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNa0FYbDJZTjR3dXpBOFJtc0Q0UmUtRUlzN01yNnRYMTZ6NGVGdXUyWVNENkYxcEdrbFd5RDRlZmVIUnN6M0NkU0FQUnpyZG1XUnlFbnlMb09qQjV4YzdwRTdCQXZDbWhfRmRXT0hSWTdhNlMzUUxFTnpheklnbVVIUHZ6UTRZMVp1Rl80Sy1XVWZIT1NheWhraEFrT0lCSmNzVFFXaTY4N2tzOWJ0ekJlZ0lCc2RreTQ?oc=5",
+            "title": "Flavio Bolsonaro and Lula about even ahead of Brazil runoff, Datafolha poll shows",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRzQ3V0dSbGZrR25TcW5VZW04Y21HcHM4N19kNzUwQmNkYUZ5LXNRc25paFk5TWN6QWxfWlhVQmJ3NWJjTi1jWEhLTEhILVpEYkhrbk9VbDRfeXpJbVVSbW5VUnJjblg3ZEpBVzZqcjhUX0dhU0FIQ3gyMjRoRHduMmFITW5HelRZRGNySlY0YWdobE00UUZVWGZvS3I2aUs5SmNEeDB0VTJ3SWxnbF9qUDNFT2g1dw?oc=5",
             "publisher": "The Straits Times"
           }
         ]
       },
       {
-        "id": "meta-moderation-of-lula-s-posts-under-scrutiny",
-        "title": "Meta moderation of Lula's posts under scrutiny",
+        "id": "lula-seeks-disqualification-over-alleged-meta-interference",
+        "title": "Lula seeks disqualification over alleged Meta interference",
         "when": "2026-10-22",
-        "place": "Brazil",
-        "lat": -14.235,
-        "lon": -51.9253,
-        "what": "UN experts said Meta unjustly restricted Lula's posts, the Oversight Board noted recurring moderation failures, and organizations asked the US Congress to investigate Meta's role.",
-        "via": "online campaign visibility",
+        "place": "Brasília",
+        "lat": -15.7939,
+        "lon": -47.8828,
+        "what": "Lula says his rival should be disqualified over alleged interference involving Meta ahead of the vote, escalating the legal and political fight.",
+        "via": "legal dispute, campaign tension",
         "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "UN Experts Say Meta \"Unjustly Restricted\" Lula's Posts in Brazil Election",
-            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4tNU9zWTkwNldUeXQyajdaX1NrVUJCaWxkbDRHTXdJVkhiMjJEYmRLVXJ3WXZSamtJQVpYXzNjeEhYN014d2dCRS1JOHVuOHMzSjNnNXF2c05XSUxNaXFzdjZEc0NUSjRWd1lVNDR3?oc=5",
-            "publisher": "news.sbs.co.kr"
-          },
+            "title": "Lula says rival should be disqualified over alleged Meta interference ahead of Brazil vote",
+            "url": "https://www.bbc.co.uk/news/articles/c6pwgve2lk5go?at_medium=RSS&at_campaign=rss",
+            "publisher": "BBC World"
+          }
+        ]
+      },
+      {
+        "id": "candidates-sign-disclosure-agreement",
+        "title": "Candidates sign disclosure agreement",
+        "when": "2026-10-22",
+        "place": "Brazil",
+        "lat": -15.7939,
+        "lon": -47.8828,
+        "what": "Flávio Bolsonaro accepts a disclosure proposal made by Lula, and both presidential candidates sign an agreement before the run-off.",
+        "via": "campaign transparency pledge",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
           {
-            "title": "Organizations Ask US Congress to Investigate Meta's Role in Brazilian Election - 21/10/2026 - World",
-            "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZTFiMnpBNmNJZzhaRmkzWVpfenJjVlFfQTJFMk5SazhWaG0tVW5XQ2pQelFMSzNVeW5CemRHaHJkN0YwRjFGTUxZa1ViUGlYb0dQNEp0Z3ZhOXZqVmhIbnZjcmNPXzVzRnoxQnc1LTN1OGNJQ2RsTWxWSVRBcGI3eElMVUk5amZXaEZGSnhqdFVsekx3cTJ1SDZTT0FRZW5xV0VCNmVVVlIxbTN3bWFYZHNSUzdqQmlpVU9xUHh6bFhERE5kaEdJbDh6YmxsLUxZbDNiNUd2WUJiWkZw?oc=5",
+            "title": "Flávio Bolsonaro Agrees to Disclosure Proposed by Lula, and Brazil's Presidential Candidates Sign Agreement",
+            "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNNy16VUFZRjBUNm0xX1FsZDFkZnFuT2w2ZEMzOFE4UTFnblNMOGpjQ1hScUtSZXVQZFNLZzBiRmVvMkdKMU8yckpjQk5jOVhSMTM2Q1djOHBPRzlHUWl5Z2VSak9NSXZ3WnNidVhNRVV1ckxsRFpacVkyUGpPVndqcS1xUDk5U3pSN2JHdEF4eENfWU5yQXV0MHM2dWt1dWZSUkVVVENXMHRyeGNNTmJEbVF4V2lRNDk1eG1tRzZzWmRpb2ZFQW5QV3NhTUlLQUNlLXh2MUZOTy1OVFlKZWxhbTJjS0JocGZpeUJIeEprbzVhdkZrdnVUVkJiandrTFQ3VE5F?oc=5",
             "publisher": "Folha de S.Paulo"
-          },
+          }
+        ]
+      },
+      {
+        "id": "lula-gets-a-cell-phone-for-campaign",
+        "title": "Lula gets a cell phone for campaign",
+        "when": "2026-10-22",
+        "place": "Brazil",
+        "lat": -15.7939,
+        "lon": -47.8828,
+        "what": "Bloomberg reports that Lula finally got a cell phone, which may improve his chances of winning reelection.",
+        "via": "wider campaign reach",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
           {
-            "title": "Meta Oversight Board Points to Recurring Failures in Election Content Moderation - 21/10/2026 - World",
-            "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOc2ZLTHA3YktCUkREblpaWWtsS0RJeGRzRURncU5oRjQzUVpaamNYdXotSjNvV2hrMmk2a3FuaENtOXF5RERMVjA4LVdQX2ZfY1JTMk1GbjBDLW1VTFVrczdrVGw1a3VQYk9sMm9XWEF4OE1yT1NDVFJRUWxXaHZmSmlKYVpPaDJEdjdGZ1NuVGJLclBjUGlLd29YVno3aTdCZ2tVYmV1QnBwbXFlMHR1MkRMclhIRWhuUUlUWTFXQTRnM2Npa0tMU2xueUEwVTBZZzdDRThZSDRDbGhUZVJwbA?oc=5",
-            "publisher": "Folha de S.Paulo"
+            "title": "Lula Finally Got a Cell Phone. It May Give Him a Shot at Reelection",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZGxfMmlKaWxJSlhOZm5sQmhfQnlCQ2FNUTI2blBKMWVDY2JOcWtjQUk0NHpVZ2ZOTUpTX3hVWC1WUmF3cFR2ZkF6ZTRFQ2ZfTTJick9kWWFtWG9iM0V2Y3FyOFA3bmYwbkVuVzI1R3VzTEJkaUdpNlZHclpEN3plNFNsZ2JhSHFaNWVrNVNuR2FXdFVRUlktb19tdWlpR3ExMVdIa2JDeGd4dm5QbmlwbkJ4czk3T1p6TC1Z?oc=5",
+            "publisher": "Bloomberg.com"
           }
         ]
       }
     ]
   },
   "italy-election-2027": {
-    "at": "2026-10-22T11:01:52.106Z",
+    "at": "2026-10-23T00:58:06.112Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "milan-riots-test-meloni-s-law-and-order-record",
-        "title": "Milan riots test Meloni's law-and-order record",
-        "when": "2026-10-21",
-        "place": "Milan",
-        "lat": 45.46,
-        "lon": 9.19,
-        "what": "Riots in Milan over the weekend put the government's law-and-order credentials under scrutiny, turning public order into a campaign issue ahead of the 2027 vote.",
-        "via": "public order as campaign issue",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Milan riots test Giorgia Meloni’s law and order credentials",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR2IySFNiQ0IyLXBGS0xHdXhhTEpTaXZ0TTloWE1jZ3daTkpWaURuTkp3cFc4ZXo3bXFSU25Ic3FjcTNuTnRhYm9YdC1lQzdvckMxV2JVcGc5S0hJVm85YmtuTE5MVHJYVTVHUEotZm5kQThQY0RMMTFqY3YxdUtKMENhTjY?oc=5",
-            "publisher": "Financial Times"
-          },
-          {
-            "title": "What do Italy’s rioters want?",
-            "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5rVHpVRmhYZUJaR190SWE1elA5QndKNkI1XzQyQzhUdTVmZjZ2QnNEeUpUSEc1VEFOY2xIcEJ6WXA1OWdQdzlGOTA1UlBmdXBKOXBIc1N1UUpYekNVdUhTOWdQdTBidlRO?oc=5",
-            "publisher": "The Spectator"
-          }
-        ]
-      },
-      {
-        "id": "cabinet-approves-tougher-anti-protest-measures",
-        "title": "Cabinet approves tougher anti-protest measures",
+        "id": "italy-passes-new-electoral-law",
+        "title": "Italy passes new electoral law",
         "when": "2026-10-21",
         "place": "Rome",
         "lat": 41.9,
         "lon": 12.5,
-        "what": "Meloni's government approved harsher measures after the Milan riots, including a €20,000 fine for damaging public property and prison terms of up to five years.",
-        "via": "tough-on-crime voter appeal",
+        "what": "Italy's parliament passed a new electoral law as Meloni seeks to tighten her grip on power ahead of the 2027 vote.",
+        "via": "new election rules",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Italy passes new electoral law as Giorgia Meloni seeks to tighten her grip on power",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMVRqNnJkZEFqek5hUFRQVEhpdE8zQ1A2ajVIdkQzVW1WRHdBczl4ZzJUWEVRYkU2dFVGOE5oNi05TE0xU2NKQ0FSVzV4SkU2bEkyajRMRjRidUlnNzYzZlN0R1MyRTJZMk9HTmZZNVp5ZW9pOTBVZEdSbUdCX3ZCcmdGWUJhTE1ZTndmeGxiWjlVbmxBX0tINE9EXzBZNVFjcHl2ck1rMmV5QQ?oc=5",
+            "publisher": "la Repubblica"
+          }
+        ]
+      },
+      {
+        "id": "milan-protests-and-riots",
+        "title": "Milan protests and riots",
+        "when": "2026-10-21",
+        "place": "Milan",
+        "lat": 45.46,
+        "lon": 9.19,
+        "what": "Riots in Milan put Meloni's law and order credentials to the test, and the government sent 500 troops to the city.",
+        "via": "law and order pressure",
+        "aspect": "security",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "What do Italy’s rioters want?",
+            "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5rVHpVRmhYZUJaR190SWE1elA5QndKNkI1XzQyQzhUdTVmZjZ2QnNEeUpUSEc1VEFOY2xIcEJ6WXA1OWdQdzlGOTA1UlBmdXBKOXBIc1N1UUpYekNVdUhTOWdQdTBidlRO?oc=5",
+            "publisher": "The Spectator"
+          },
+          {
+            "title": "Italian Government Deploys 500 Troops to Milan After Protests",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQa2tZZmhUMWRCVkp3NTZJaWhEeXRTbWVEWWZMclBaS21CdHBwQmNOR2VOWUI1MHQ5eXpnNlFnbUxzMmM4eU9uRzVUUlRzVDBwaHN4ZEZLOWEwamR3OHg4Vzc5ZWlkOEVhalZGZXVNMFNEcUZHalZHT2tESlBTcGVUcXZISnNja2YxNmthNTlMR2RWZWN3OXRMekdyX3E4WVNTeENYdGJRXzdsZ3pYZTh6QQ?oc=5",
+            "publisher": "Democracy Now!"
+          },
+          {
+            "title": "Milan riots test Giorgia Meloni’s law and order credentials",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR2IySFNiQ0IyLXBGS0xHdXhhTEpTaXZ0TTloWE1jZ3daTkpWaURuTkp3cFc4ZXo3bXFSU25Ic3FjcTNuTnRhYm9YdC1lQzdvckMxV2JVcGc5S0hJVm85YmtuTE5MVHJYVTVHUEotZm5kQThQY0RMMTFqY3YxdUtKMENhTjY?oc=5",
+            "publisher": "Financial Times"
+          }
+        ]
+      },
+      {
+        "id": "tougher-penalties-for-protest-damage",
+        "title": "Tougher penalties for protest damage",
+        "when": "2026-10-21",
+        "place": "Rome",
+        "lat": 41.9,
+        "lon": 12.5,
+        "what": "After the Milan riots Meloni announced a €20,000 fine for damaging public property and pushed for prison sentences of up to five years.",
+        "via": "tough-on-crime stance",
         "aspect": "politics",
         "flow": "both",
         "sources": [
@@ -3221,16 +3204,6 @@
             "title": "Italy Cracks Down After Milan Protests, Meloni Announces €20,000 Fine For Public Property Damage - India Today",
             "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdDhTN25jX2hkUjdWVG54MGYtdGhTLVVaVTJrbHlacTRNeEJKcjYtYl8tV0g2TG1vUFdKSkRTS3ZJeGNlT0docUMzMkxUU2g1bFd5WXM5RWJ2dzJxamJXOE56Z2ZjUTlOZC1FbVY3TFE2OFVRMU9WdkRDeU9EYllmM0swWGppOENWaWgwOTRUVENKMlZyWi1OWWgwaVhFczhud1RVSloyVUZpdWFLX2haejVzYzRJMGkyNVlsYkJfOVhSUS1lTlBoTF8xYk5yUkFEVThSWXZB0gHbAUFVX3lxTE5lejV3QzV0WFA3aUxoUkhJUHBUQ3NxbGFxeWJZbzhhSGV0b3lQRUNIdnRqNHNWekc0MXFrSGNOd1NPbE9hRzBJR3BJd05sanlrbk5LdDUtSDljTDBSYmZ3MFBROTc0Ny1WYS0tUjQwVzRTQV9oeGMyMFp1b2lUcDA4MzRsMkw5UG9zQjBxTzd2Sk9NZFFRbTRiTEpXRVkzaHF6Qk1kN19MUmQyV2swenoyVkJ1UU9YYmF3Q1R3NUZ1UlE2SE9iak9iaW9LcEl2SE9KbWhTclpTR2tMWQ?oc=5",
             "publisher": "India Today"
-          },
-          {
-            "title": "'Vandalism Not Your Right': Italy's Meloni Crushing Response to Milan 'Rioters' | Firstpost America",
-            "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQS3pTY3FnZ2JnLWlEajg2aDVBY1VTNTY0VTVpTTBxbUtQclBwZC1fb3I3bUk4M0RmckgxeVVNTUVnUnN2cENSNlo1WXpqdUxCblZQZXkxWnE1OEQ1a1h6NlJkVERVSnRJRGdqdEg2VEg4dTZZZzFERnBzOERvc2J5V3dwc01UZDlROEpBOWlyUkFOMXVheTRiUlViQmFuaXRQU2x6OUR0OEJPS193THpUQVdPMDhyWmY1TVpINmlIcDQwOUNSN3ZZd1BMZGV1azg3QmZsaHVFUVVYWkN5MF95czUtanFUT19BSjFYc29jR0zSAfABQVVfeXFMUEt6U2NxZ2diZy1pRGo4Nmg1QWNVUzU2NFU1aU0wcW1LUHJQcGQtX29yN21JODNEZnJIMXlVTU1FZ1JzdnBDUjZaNVl6anVMQm5WUGV5MVpxNThENWtYejZSZFREVUp0SURnanRINlRIOHU2WWcxREZwczhEb3NieVd3cHNNVGQ5UThKQTlpclJBTjF1YXk0YlJVYkJhbml0UFNsejlEdDhCT0tfd0x6VEFXTzA4clpmNU1aSDZpSHA0MDlDUjd2WXdQTGRldWs4N0JmbGh1RVFVWFpDeTBfeXM1LWpxVE9fQUoxWHNvY0dM?oc=5",
-            "publisher": "Firstpost"
-          },
-          {
-            "title": "Italy's Meloni approves tougher measures to crack down on protests after Milan riots",
-            "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZml0VXVNQWlkYm9xc3ItWkxUMXNvcmRqNXVES0x6MTlaNWpoMjBadnQ4UTAxdU9rRndCUFdkbVNfdFJXaWtCRVAzR3pWZDlWVDFZdW5kdGdac2lSbTdyaWd0aWl5MWdacHJrZUR0Z0hianVrTmFjekJySC1VaGVkS2dhNGx1MzdoMllNY2d3Nl9SUVJuM2Vxd0ZDb0l1MVlDQV9xNGVXSW9rdXNXRExHZVd0ZW83ZUpzNE5pdGlkN1p2ZDhwS1NnbUtVaU9BVGwzMEFOaC1DUGg?oc=5",
-            "publisher": "Magzter"
           },
           {
             "title": "Watch: Italy’s Meloni approves tougher measures to crack down on protests after Milan riots",
@@ -3241,70 +3214,36 @@
             "title": "Italy toughens the law after the riots: Meloni pushes for sentences of up to five years in prison",
             "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQV091blF5NWVjRnVmcVVKbG1DeEg4UGtVajlHU1p1dHVnR2k0clpqakpxV3BtTW1wX2FLMDViUENuV3pnaFpUYUZMc1Y0UDBZU2NSUGN1dms5d0R0OTlNUnBIUHdRM3d4M3AxYy1sdGFBM1MwMWhBYWVLU0Z6S3h6LThSQmNLcGRGSnN6RFgzUjdJNlNodlNCRHJuU2VCNzI0c1VUcFdTelJuQ05PeWI0aTA1MXN6VDhCVFExZEdJeXU1MjdsaHfSAcsBQVVfeXFMTlF1UUtDT2dENE5wdDhhLVh0YnF0aENldXNkeUVRQTZ3LW9uX04teTJYeDdPZ1lNejZWUExjS3hWSzFZbUxXM3cwUDYtc3FPQjBpZWM1VkJFU3o4QURJRHM3NW9WOU1OeWo5TFF1MGJGQlBKYmhqeGR1Qmd5eWo4am45dnRzTGZwVDRJTTNNZFNkN1NERTFnRUVJSXl4UXN4aTZ3V0RuQW1yRV9VelJQSVhDS0NEX1dWSi1xc05YalpYcEY5VmU5TmJlQ0E?oc=5",
             "publisher": "Demócrata"
-          },
-          {
-            "title": "Vandalism is criminality: Meloni makes parents liable for children's vandalism",
-            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdl9HcnlFSjhEbXF5MWJ5ek5DNnFXbVR2NXNRTF9XNTZTcEZmcjloX2hfYjQ0TkZtci1BOXVmRy1MQVM1RHA4X2NUM2sxTDgxemRxeHNINGlYcXR0LWtxemhDN19FZUJtMXgyVnZabUZicDB1MXVSWW1MWEJsU3BEal9UODZXRHlzd2U3SF9nWE5yNWJ5Y1NPODBmRGh3TENOaVN2VzI1YXNIbnNiVFB5YkRGVTJaeG1FSEJ2RHU5NFp5QW15a21jcE1JekpJZ9IB0wFBVV95cUxQNFptMlFjWkRWVXlJblhGTmM0dFFUWlBVVDlyU0RxZGYtQWRzRHZfdEhCaUhIakNsTlJEdnFCeUJpUUVSa25PVW9CRXpzR0h3RHZDWWc0SGNrMGxDbmRXaVlmaHVPUW1OUmhwdHg2TUxqek05anBOOWtEN3lYODJlNzVZUmoyOHdWWTJ4Wnd2S3h0MHVpR3ptRmpoWEV4U2VaZUVCem9oR21fXy1YeEZxSzZqZTdjZzZYY0ZwS09jNG4yQ09SVGg3alFUNENzRWRYTGJZ?oc=5",
-            "publisher": "India Today"
-          },
-          {
-            "title": "Italy’s Meloni to boost police arrest powers in response to weekend riots",
-            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOV2lGNXpSVUUzRTlsOGtwV2tYRHUzeXNzbXBWQlZIREU4d05BZUZ3ZENWUERacFBuUzRxV1FWdHJnc2w5VU5ObzNxclozN0xUcDc2Um9VOTVpdUVoWnVKR3EtQVVkRXRKaUE4TncwRmRrRjlaVGdMV1RZSVBvaEFoaEFaR2UxTVB2RWp4ampTdUMzdjdKSEVMdnJpVkFxWDhQU2VxdmU0RmxhLURwWW0xaQ?oc=5",
-            "publisher": "Arab News"
           }
         ]
       },
       {
-        "id": "500-troops-deployed-to-milan",
-        "title": "500 troops deployed to Milan",
-        "when": "2026-10-21",
-        "place": "Milan",
-        "lat": 45.46,
-        "lon": 9.19,
-        "what": "Italy is sending 500 soldiers to Milan under a new security decree following the protests and riots in the city.",
-        "via": "visible security response",
-        "aspect": "security",
-        "flow": "both",
-        "sources": [
-          {
-            "title": "Italy deploys 500 troops to Milan as part of new security decree",
-            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaVRUdzdoMzFIQnFnMENKTjl0Tl9EWm5PUjNzYUNYWDZ1ckhyeW80Umpqb1ZBVDZfbWNCVXRmb251UVdoNkIyU0xEdWl3cTFidFZNeUh6clU5RUE2a3MxZWlHc1o4cXJKeG0zYkFjaHZJcU5fTXNwWEVCd3lSeGxNbk1RS1FyNWNFM1QzQmY2NmNJQUJBQ2NQYjZBcUhxcG8xNHZPd01GQXpyNVpCZUJMNS15TksxcThmRGZ3LUt3?oc=5",
-            "publisher": "Euronews.com"
-          },
-          {
-            "title": "Italy to Deploy 500 Soldiers to Milan Following Protests",
-            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBDRjl3bUZHSkZtUlotUndNaHRlcWd5VmJMcGViZVJxVXg0UVhJUGRTbFZFYk1BNkp6TVQ4Mk10clk0c2k3U3dpLTM5RzlsVmFaZ1pqUUJORnBSRmFVVjVrMW53Ti1sWnRaT2pRTUk5a3l1MGFkMEE2b1M2MEQ3dw?oc=5",
-            "publisher": "Sada Elbalad English"
-          }
-        ]
-      },
-      {
-        "id": "meloni-government-becomes-longest-serving-postwar",
-        "title": "Meloni government becomes longest-serving postwar",
-        "when": "2026-10-21",
-        "place": "Rome",
-        "lat": 41.9,
-        "lon": 12.5,
-        "what": "Meloni's government has become the longest-serving in postwar Italy, giving her a record of stability to run on in 2027.",
-        "via": "government stability record",
-        "aspect": "politics",
+        "id": "southern-truckers-ease-protests-after-aid",
+        "title": "Southern truckers ease protests after aid",
+        "when": "2026-10-22",
+        "place": "Southern Italy",
+        "lat": 40,
+        "lon": 16,
+        "what": "Truckers in southern Italy eased their protests after the government approved aid for the sector.",
+        "via": "pacified transport workers",
+        "aspect": "jobs",
         "flow": "into",
         "sources": [
           {
-            "title": "Meloni government becomes longest-serving in postwar Italy",
-            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeXhWbVZ4UzJtLVExRVdpV3dVckZWLXR4LUtiaUh3d1hCRC03ZTJmVnpsaFo2aWtkdUltT3l5aGhBcl9UMXZBbk9NS3diLUJzMV9fWFB5b3RKVDFTcnAyc2NodE5HcERQSjlacTZkS3BLYjUybENxaDY0Vy1IUW9pWDdoOEhWbjZGTVZ2akZfVTJoWnkxS0HSAZYBQVVfeXFMTzBPeTE2bzlJWXVLTWg3Q2N1WUZoV1U5cWFrcmJ1b2p3Ykp2Q3NONTNSME1NbjBUOG9pOHphWktWNkxrOTZoZ1YxZGNhcTFNaFJfMGwwUUVnY1hDVXFvR1d1SzIxY0lWb0hoTHU3Rl9sOUxXNVdiRVI0WWswLVhlMWFwdURmVXpGellsZ2RYX0hfWDEzT19R?oc=5",
-            "publisher": "DW.com"
+            "title": "Southern Italy truckers ease protests as government approves aid",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQTVNMlA2VlNGdEVPOUZ0bGhuc3JEQkNmSm1uMXJVSFRWaUhvMmVRMkxzY2x3bWNlZEEwVG9MX0ttNjh1Vk5ERUxsOWd2a0wwNXExR2FvVzB4QUE2NWZZeXVhVXl2dXE1aE00NDF1Y2ttRWlUdWRhZE5DQmVTcWxOS0NMMDJDQVZmbVo4SVgwSkRjSXZ6ZEdaVXpURDZ1aGFacjZ3cFlrdTZBZU1mR3NtTmxxYUhYeUJhbzJkaUJpaTRwUGp0Tzgw?oc=5",
+            "publisher": "Internazionale"
           }
         ]
       },
       {
-        "id": "minister-says-meloni-won-t-run-with-far-right",
-        "title": "Minister says Meloni won't run with far right",
+        "id": "meloni-to-avoid-running-with-far-right",
+        "title": "Meloni to avoid running with far right",
         "when": "2026-10-21",
         "place": "Rome",
         "lat": 41.9,
         "lon": 12.5,
-        "what": "A minister said Meloni will not run alongside Italy's far right in 2027, shaping coalition and alliance choices before the election.",
+        "what": "A minister said Meloni will not run with Italy's far right in the 2027 election, shaping the alliances on the ballot.",
         "via": "coalition positioning",
         "aspect": "politics",
         "flow": "into",
@@ -3317,14 +3256,14 @@
         ]
       },
       {
-        "id": "births-set-to-hit-record-low-in-2026",
-        "title": "Births set to hit record low in 2026",
+        "id": "italy-s-births-heading-for-record-low",
+        "title": "Italy's births heading for record low",
         "when": "2026-10-21",
         "place": "Italy",
         "lat": 41.9,
         "lon": 12.5,
-        "what": "Italy's births are projected to sink to a record low in 2026, keeping demographic decline on the agenda for voters.",
-        "via": "demographic pressure on policy",
+        "what": "Italy's births are set to sink to a record low in 2026, keeping demographic decline in the public debate.",
+        "via": "demographic worries",
         "aspect": "living",
         "flow": "into",
         "sources": [
@@ -3338,7 +3277,7 @@
     ]
   },
   "eu-budget-2028-2034": {
-    "at": "2026-10-22T11:01:52.106Z",
+    "at": "2026-10-23T00:58:06.112Z",
     "by": "pipeline",
     "items": [
       {
@@ -3348,11 +3287,16 @@
         "place": "Brussels",
         "lat": 50.84,
         "lon": 4.38,
-        "what": "Council President Costa will present new figures to EU leaders at the 26-27 November summit, aiming to close the 2028-2034 budget in December, with Ukraine financing also on the agenda.",
-        "via": "revised deal figures",
+        "what": "European Council President Costa will present new figures to leaders at the November 26-27 summit, aiming to close the 2028-2034 budget deal in December.",
+        "via": "revised negotiating figures",
         "aspect": "politics",
         "flow": "into",
         "sources": [
+          {
+            "title": "Costa will bring new figures to the leaders in November to close the EU budget in December.",
+            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxONGo4WGVycEhvb180X2N2aWNPTVBFMnN4ODNLZXY2Q2xIbk81TmlGS1lONnZ6VGVqOXBNLWQyTGF6REtINGpUZmxfd3AtTFdOSUdNcldtQUd6Nzl6SktLV1N1eVBYUjRXSzMwX0h1bk9faHBhM3pBYU9PM1pVa21maDBhTHMtVkdhV3AzN2FkVVpGeUtlR2gtVGx0bDl4eDkzWFFxdXhWTGtCLXV0cFZiek5hM2FuT2NNWmUydDI5dmVQNHdLQ0HSAcsBQVVfeXFMT0JLWUpvaEgyLTh5c1l6RUVQMUpuOEdDY19qdTE4ZHdDWEZPcGhHN3Z4Zm9BUW82cXZScUpzMTV3ai1rV3JiLWotUXVyOGRuUWoyRW8yTjdZVHhtX293c3FieHBDVnRhX0tpQkdGTE0zSUVYQXcyb1F5N3gzWmlpUUlNZWZqVzJ1Ty1XRzc0bklXMlZjVjBMcERrUFVUYnMyODUwdnkxVmF5TDI0dWRNTjk3Vk5wZUV4X2J2blJzQWR5TXFzXzBKdVgyMFU?oc=5",
+            "publisher": "Demócrata"
+          },
           {
             "title": "EU leaders to discuss Ukraine financing, next long-term budget at November summit",
             "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT0FLZWR3VXRyWkh6a2VXVDJwQlJVT2lMOTNfdTEwbXgtbUtteWFhajBhZ3pxRmYwcUc0UVppSGdBTTNTZTA1UFFPMzZfeUpkblpWUjBQTkJWM2hPZkNJazNrTUdfcDBUSlJqb1F2dmp4Q1hFcXR2Y3F4S3h5dVBNTEY3UEZQakJSM3NETlc0MFpXOUpWTVNQX0t4NS0?oc=5",
@@ -3365,25 +3309,20 @@
           },
           {
             "title": "EU Leaders to Convene November Summit Focusing on Long-Term Budget and Ukraine Support",
-            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeGs0bU1OMUFxWEVrb2k5bzJUNzJNMTRYVlR4N21qaWIzbC14MjczNnB1NkFoSXJzOWFqeHNOWVVmeDdwdzA0M1lCTGtIZjREOG04UTNxa3VuSVRhQThHSlotYXJBT25zUWI2TkRVd2JYbi1hNEVJSk9GeGFqbTBmV09NTUVaYjdJTkloWXVjY3dpR2ItUE1RZlRiNWtpNkNSY1kwMHpOS2RmOXJSTlB0d3B30gG3AUFVX3lxTFBHVE9iZEd4NWJmdnFzemFmN0FaelBHWjdzREliOFBPNFRYX3YwWnQ0WTJiRWJXT04xNGRuSWYzSm1QUHBqbXNyU0otWnZxcDBscGRjdXRwa1dTdlh3YWp4WFNPV2YxeDFhSEpYamZGUjhTeWx6NmtCNGRfdG1uT1pNVVFEY0ZOS0IyYW9SV2tRR1ZrQ3JPMjBJck9rTURHQmEzam5RZ3Q5WFU4VWE4MFlYaUhqOGJLVQ?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQR1RPYmRHeDViZnZxc3phZjdBWnpQR1o3c0RJYjhQTzRUWF92MFp0NFkyYkViV09OMTRkbklmM0ptUFBwam1zclNKLVp2cXAwbHBkY3V0cGtXU3ZYd2FqeFhTT1dmMXgxYUhKWGpmRlI4U3lsejZrQjRkX3Rtbk9aTVVRRGNGTktCMmFvUldrUUdWa0NyTzIwSXJPa01ER0JhM2puUWd0OVhVOFVhODBZWGlIajhiS1XSAbcBQVVfeXFMUEdUT2JkR3g1YmZ2cXN6YWY3QVp6UEdaN3NESWI4UE80VFhfdjBadDRZMmJFYldPTjE0ZG5JZjNKbVBQcGptc3JTSi1adnFwMGxwZGN1dHBrV1N2WHdhanhYU09XZjF4MWFISlhqZkZSOFN5bHo2a0I0ZF90bW5PWk1VUURjRk5LQjJhb1JXa1FHVmtDck8yMElyT2tNREdCYTNqblFndDlYVThVYTgwWVhpSGo4YktV?oc=5",
             "publisher": "Inkorr"
-          },
-          {
-            "title": "Costa will bring new figures to the leaders in November to close the EU budget in December.",
-            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQktZSm9oSDItOHlzWXpFRVAxSm44R0NjX2p1MThkd0NYRk9waEc3dnhmb0FRbzZxdlJxSnMxNXdqLWtXcmItai1RdXI4ZG5RajJFbzJON1lUeG1fb3dzcWJ4cENWdGFfS2lCR0ZMTTNJRVhBdzJvUXk3eDNaaWlRSU1lZmpXMnVPLVdHNzRuSVcyVmNWMExwRGtQVVRiczI4NTB2eTFWYXlMMjR1ZE1OOTdWTnBlRXhfYnZuUnNBZHlNcXNfMEp1WDIwVdIBywFBVV95cUxPQktZSm9oSDItOHlzWXpFRVAxSm44R0NjX2p1MThkd0NYRk9waEc3dnhmb0FRbzZxdlJxSnMxNXdqLWtXcmItai1RdXI4ZG5RajJFbzJON1lUeG1fb3dzcWJ4cENWdGFfS2lCR0ZMTTNJRVhBdzJvUXk3eDNaaWlRSU1lZmpXMnVPLVdHNzRuSVcyVmNWMExwRGtQVVRiczI4NTB2eTFWYXlMMjR1ZE1OOTdWTnBlRXhfYnZuUnNBZHlNcXNfMEp1WDIwVQ?oc=5",
-            "publisher": "Demócrata"
           }
         ]
       },
       {
-        "id": "uncertain-eur-100bn-ukraine-funding-stalls-talks",
-        "title": "Uncertain EUR 100bn Ukraine funding stalls talks",
+        "id": "100bn-ukraine-funding-gap-stalls-talks",
+        "title": "€100bn Ukraine funding gap stalls talks",
         "when": "2026-10-21",
         "place": "Brussels",
         "lat": 50.84,
         "lon": 4.38,
-        "what": "Negotiations on the 2028-2034 budget are stalling because EUR 100 billion in Ukraine funding remains unresolved.",
-        "via": "Ukraine funding gap",
+        "what": "Negotiations on the 2028-2034 budget are reported to be stalling because about €100 billion in Ukraine funding remains uncertain.",
+        "via": "unresolved Ukraine financing",
         "aspect": "security",
         "flow": "into",
         "sources": [
@@ -3391,6 +3330,16 @@
             "title": "EU Budget Negotiations for 2028–2034 Stall as €100 Billion in Ukraine Funding Remains Uncertain — Experts Club",
             "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQM29TNElZdjFnbDZuTnNfc3Budk1teWxXaHlBTlUwNWo0WmxHcVBOdURjYTZQLVdzQXk1QkN4RzFHZEFHRjRpbWFZcERtOVJhako2aXJfYW52eFpmUzVIc2tLd3Bfc1Y1T05pbTBRRG5TeHFJOXRRLUhnaUZJcnNHWEp6RVNpRG9TM1JQbXBsdmZEb2NTOWNDaFlaZDc4MWFFNnZIVnJQVWI3ZXk5clp6cmhPMmZ4aTB5bzIwTEhCN0JzZC1McTNHT21QZjI3R0hqX2x3WmZwZG4?oc=5",
             "publisher": "Open4business.com.ua."
+          },
+          {
+            "title": "EU leaders to discuss Ukraine financing, next long-term budget at November summit",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT0FLZWR3VXRyWkh6a2VXVDJwQlJVT2lMOTNfdTEwbXgtbUtteWFhajBhZ3pxRmYwcUc0UVppSGdBTTNTZTA1UFFPMzZfeUpkblpWUjBQTkJWM2hPZkNJazNrTUdfcDBUSlJqb1F2dmp4Q1hFcXR2Y3F4S3h5dVBNTEY3UEZQakJSM3NETlc0MFpXOUpWTVNQX0t4NS0?oc=5",
+            "publisher": "Traders Union"
+          },
+          {
+            "title": "EU leaders to discuss 2027 money for Ukraine, next EU budget on November 26-27",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUDNvVmpOQkdESmYySUwtc0lZRktNekxaa3ItanN1aFppcTgzazJOcXlQVktKWS0waGJmU3UtVUtJblRhWGZDeDFPdDhzNWIyaUZCem95YXNNRzNLakUzSlY1M29KLWhFNDVEMjJVR2IwX09tb3dhQ1ZCRkcwQW9uYTJrcURwb285c193RjdUbkc4di0xQUVCUXZmUVhvaXRnZUdzdE50OXFCZTRPVHlJa0RleURmdHdIV1A4?oc=5",
+            "publisher": "The Straits Times"
           }
         ]
       },
@@ -3398,11 +3347,11 @@
         "id": "parliament-proposes-cuts-to-2027-eu-budget",
         "title": "Parliament proposes cuts to 2027 EU budget",
         "when": "2026-10-21",
-        "place": "Brussels",
-        "lat": 50.84,
-        "lon": 4.38,
-        "what": "Parliament proposes cuts to the 2027 EU budget, which plans over EUR 200 billion in spending, and Zingaretti calls the decisions short-sighted.",
-        "via": "spending-level dispute",
+        "place": "Strasbourg",
+        "lat": 48.58,
+        "lon": 7.75,
+        "what": "The European Parliament put forward cuts to the 2027 annual budget, which Zingaretti called short-sighted, exposing a split over spending ambition.",
+        "via": "spending ambition dispute",
         "aspect": "budget",
         "flow": "into",
         "sources": [
@@ -3410,22 +3359,36 @@
             "title": "EU budget for 2027: Parliament proposes cuts. Zingaretti: \"Short-sighted decisions\"",
             "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZzREZllfNm9ZaTBGQnBtQ3ZSelJrTDUteWpfZFZpcktuQnF3anQ1Z1FmNWZteGRpcVlmbm8zbTN0dUVaWVJiZ0RQSEFrdktzS2w3VWxoMVlneFVkeVpDLVBqbzdBQ2pkQ2FBS3pyMjVjU0p6Q2lGWE95RWRYSnZrd3hvV1NLc3ZLOVNEVXNJSTlXb3BSRUUtUU1iN0dNTndXbVJYeGMzdmk5QUZtQ2JPV0NweWdJS2NtYnhIRE92b2RaNFd3bjFERkVRRQ?oc=5",
             "publisher": "Eunews"
-          },
-          {
-            "title": "EU plans to spend over €200 billion in 2027: where the money will go and how much will be allocated to Ukraine",
-            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMkJUNWZrWDNjR0lTQkFhVTladk5VZ0FVZm1jd0lxMnZnWWZyNjFBbGFyYWRWeE40bVJPcURPWDRobFllWlIxT3NfQkJwRVZaNjlUT2ZMQm14SEtMR0pQaEUzTG9tR0QzU0FSdmJ2WlpnNnl0TFU1Y2xzNDdwX1ZCZ0ljaVdrUlJIajhMbndUVEItWUxiby1JNFRWRkgxeXNhRUVXNWxyaGJfUS1oWXF5Nl9OQlRXTUs4Wlh0QWpjVW92UzdmT3pMUERieWN3UW5WMnhoNWtn0gHUAUFVX3lxTE45QnZsQWF0V3pIT0VQR1VrTG45Y3FEQmpzTmNuS1h5bmNYTk5TbHhWTklWUnctWjMtUHA0YU9ISXh6dFpEb2VmVnRVWXZPeVg3US03MXBSbnBhZWh1UVdkVEc2MXlqNmJMdU1ER0hTMWc0cS03UVRrWDhwUXZpaFRwYzNSTUlyekNrRlo0c0xXLVdzb29FT21IZnJGVF9wYVNvdTRLTk1zRnVIUk9nSHdtX1MyVHBfaTNBZkpDVVowOC0xRUl2Rm5JV2hqVTgxNV9nSGlq?oc=5",
-            "publisher": "Українські Національні Новини (УНН)"
           }
         ]
       },
       {
-        "id": "rail-sector-asks-to-protect-transport-funding",
-        "title": "Rail sector asks to protect transport funding",
+        "id": "mep-pushes-digital-giants-and-polluters-to-fund-budget",
+        "title": "MEP pushes digital giants and polluters to fund budget",
         "when": "2026-10-21",
         "place": "Brussels",
         "lat": 50.84,
         "lon": 4.38,
-        "what": "The transport sector calls for rail funding to be safeguarded in the 2028-2034 budget.",
+        "what": "Nicolae Ștefănuță called on digital giants and major polluters to contribute to funding the EU budget, adding to the debate on new revenue sources.",
+        "via": "new revenue proposals",
+        "aspect": "markets",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Nicolae Ștefănuță calls on digital giants and major polluters to contribute to funding the EU budget",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYXNlaFRMaFBUVnV2Q2xtNkk3THVkZHlUb05VMGc1dl9NSGtFaXRFaFZsWVBBRGFKMzQ5Vy02MXFLdjFPcTlrTXNtQ1AtTGRyRHQ2V0xrNWYtOHFNNXhucUJiMG5EOUlxSHMzM1pXRmFDLXU2MFVEOGI1YmRPWWVKSHlwbk4?oc=5",
+            "publisher": "Informat.ro"
+          }
+        ]
+      },
+      {
+        "id": "transport-sector-demands-rail-funding-protection",
+        "title": "Transport sector demands rail funding protection",
+        "when": "2026-10-21",
+        "place": "Brussels",
+        "lat": 50.84,
+        "lon": 4.38,
+        "what": "The transport sector is calling for rail funding to be safeguarded in the 2028-2034 budget, adding lobbying pressure on how money is allocated.",
         "via": "sector lobbying pressure",
         "aspect": "trade",
         "flow": "into",
@@ -3436,75 +3399,70 @@
             "publisher": "megaproject.com"
           }
         ]
-      },
-      {
-        "id": "mep-urges-tech-giants-and-polluters-to-fund-budget",
-        "title": "MEP urges tech giants and polluters to fund budget",
-        "when": "2026-10-21",
-        "place": "Brussels",
-        "lat": 50.84,
-        "lon": 4.38,
-        "what": "MEP Nicolae Ștefănuță calls on digital giants and major polluters to contribute to funding the EU budget.",
-        "via": "new revenue proposal",
-        "aspect": "markets",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Nicolae Ștefănuță calls on digital giants and major polluters to contribute to funding the EU budget",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYXNlaFRMaFBUVnV2Q2xtNkk3THVkZHlUb05VMGc1dl9NSGtFaXRFaFZsWVBBRGFKMzQ5Vy02MXFLdjFPcTlrTXNtQ1AtTGRyRHQ2V0xrNWYtOHFNNXhucUJiMG5EOUlxSHMzM1pXRmFDLXU2MFVEOGI1YmRPWWVKSHlwbk4?oc=5",
-            "publisher": "Informat.ro"
-          }
-        ]
       }
     ]
   },
   "south-china-sea-incidents-2026": {
-    "at": "2026-10-22T10:58:03.753Z",
+    "at": "2026-10-23T00:58:06.112Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "us-warship-enters-waters-near-sabina-shoal",
-        "title": "US warship enters waters near Sabina Shoal",
-        "when": "2026-10-21",
-        "place": "Sabina Shoal, Spratlys",
-        "lat": 9.7,
-        "lon": 115.7,
-        "what": "China accuses the USS Charleston of illegally entering its waters near the shoal and deploys naval forces in response, raising the stakes of the standoff.",
-        "via": "great-power naval escalation",
+        "id": "us-warship-transit-at-escoda-shoal",
+        "title": "US warship transit at Escoda Shoal",
+        "when": "2026-10-22",
+        "place": "Escoda Shoal, Spratlys",
+        "lat": 9.72,
+        "lon": 116.5,
+        "what": "China accused a US warship of unauthorized trespassing at the disputed reef, and Washington rejected the claim, citing the 2016 arbitral ruling.",
+        "via": "US-China naval friction",
         "aspect": "security",
         "flow": "into",
         "sources": [
           {
-            "title": "China accuses U.S. Navy's USS Charleston of illegally entering its waters and deploys naval forces",
-            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOODNKa1Y3blkxTU42VUZQS1hST3lVVTNKa3VGZ2N6Xy1tRDM5cWZKd1cwbl9IbW4tbzBLTkdwN1RCbEtzZWFsbFFnMVNzMWxXR1Nxc2s1WDdvdzQzRXpsQXhhYmZNQUdGbXpQSE1nTU5EUFVKUzctTms3NFp0VkNzZ1hOTDhPOUpMX3B1MFk5eGhXUkFiV2dtMHA5b2dyNEJoQXNwaDAtX1pndng3akF4a0pQbUV3Vnlna1Bpbnc0UUFiVDllR09ISTVCQnV6WGpsVG1OVWNnTQ?oc=5",
-            "publisher": "Zona Militar"
+            "title": "The US rejected Beijing’s trespass claim at Escoda Shoal, and the answer is a 2016 ruling",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUmlEZnlBRlRJT21UVzhGZTI3M3Q0OEJ4dFFXeFJ5WVBfNjFwbXgwZW1jX2JSZElodjU5ZkRabUZGdk83M3UwbHZVZWlSdjBvN3k5a0ZoeVlPYm9vVUFZY1c5NnhCbHkwMjAzQVctRkJrNWxVd3g2NFpScmlmUS1ETTFCN21KMFdSZkxWYW5n?oc=5",
+            "publisher": "astig.ph"
           },
           {
-            "title": "Why the China-US Naval Encounter at Sabina Shoal Is Different",
-            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQ0ptUmpoSFdhX09IeS1qeUJINEVtQzN5eV9pVnBQSWxHU19sdHpQQmU3VklYalVjRGh4emsydGtYc1BRSFM0YnpNcjFTZUU1SGdtNXNBb2VWYVk2QTlSYlRtRUk0SUR3ZzlndmtONHB6eExWWE81UmUzVXV3NVV3X1hua1NSd3J1RFpmYlI0c3dtSm9NT3pJY2t3TQ?oc=5",
-            "publisher": "The Diplomat – Asia-Pacific Current Affairs Magazine"
-          },
-          {
-            "title": "The Philippines should not misread the message of US warship’s intrusion near Xianbin Jiao: Global Times editorial",
-            "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBwWkNuNnJOeWg0dFRjWHY4Y2hfRXYzcHFaZEh4dXZqTVdkNEpSTG5SSC1YMll4YklyS2ZiSUZFQ3FmUEtjSVI4RnFQaXBMZW9IbnhxVHAtaEhXazBCUEZ6MUdB?oc=5",
-            "publisher": "Global Times"
-          },
-          {
-            "title": "US warship in disputed South China Sea region triggers response",
-            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPRjhESjhBY1k5RlkxSk5DMXI5ZzBNRm9fbThJVXpiZm1aLTNqQVFjM3Z4c04wQzhzTkdkUlI3QnpuYW8yZ2Y4dFI0aEhPZ0RLNkVVUGphQTYxVXc0NHhNYmdKelg2LWluTG9fdm1sa3BwOGVUQ0NHbVpvWkZHNHhuVzFBNTFpbXVsYTZyRjc3cU9GVkR1THF1bW12SlVzRUZCa3BTZ1RNdFp0MzVQeHlyLW5kRGlrVjdFdHplXzJoaWZqSmVwclVRTE9ZeUN2X1RlaXVCOVB4c1dfZw?oc=5",
-            "publisher": "The Mary Sue"
+            "title": "US rejects China’s claim of ‘unauthorized trespassing’ after warship sails through disputed reef",
+            "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdmgtUXNIUnhRUmpxWmFUa2hZMGR2UGxWUDc1WnRWNXk1ZDkxNGVFWVZwOUREQmw4RnJ0c0x3V2gyUGEzVllQWnVtREpvS1hYbnJwQVYzSi1Qc0hvVk5jSnVLQzY2VXQyTGkxSHF0Tl9Ib0JxWUlqVWxhcTVLYnRzUVh0Tmc2LXo5S2szYXpsRUVNWG1YMnI1RlNnZVlmamctQjJMLUktamxtV3oweDg4LWVDSFZyZlBHbkpucnQ1clFsb21UTlV6ZDc0c1lETlZGdGY0Q0FhMnlqR3fSAdsBQVVfeXFMUHZoLVFzSFJ4UVJqcVphVGtoWTBkdlBsVlA3NVp0VjV5NWQ5MTRlRVlWcDlEREJsOEZydHNMd1doMlBhM1ZZUFp1bURKb0tYWG5ycEFWM0otUHNIb1ZOY0p1S0M2NlV0MkxpMUhxdE5fSG9CcVlJalVsYXE1S2J0c1FYdE5nNi16OUtrM2F6bEVFTVhtWDJyNUZTZ2VZZmpnLUIyTC1JLWpsbVd6MHg4OC1lQ0hWcmZQR25KbnJ0NXJRbG9tVE5VemQ3NHNZRE5WRnRmNENBYTJ5akd3?oc=5",
+            "publisher": "VOA - Voice of America English News"
           }
         ]
       },
       {
-        "id": "china-monitors-philippine-resupply-at-contested-shoal",
-        "title": "China monitors Philippine resupply at contested shoal",
-        "when": "2026-10-21",
-        "place": "Second Thomas Shoal",
-        "lat": 9.72,
-        "lon": 115.86,
-        "what": "China says it allowed a Philippine warship resupply while its coast guard monitored the mission, amid diplomatic tensions over the shoal.",
-        "via": "friction at resupply route",
+        "id": "beijing-weighs-sanctions-and-oil-fertilizer-cuts",
+        "title": "Beijing weighs sanctions and oil, fertilizer cuts",
+        "when": "2026-10-22",
+        "place": "Beijing",
+        "lat": 39.9,
+        "lon": 116.4,
+        "what": "A report says China is considering sanctions and cuts to oil and fertilizer supplies against the Philippines, adding economic pressure to the maritime standoff.",
+        "via": "threat of economic retaliation",
+        "aspect": "trade",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Report: Beijing considers sanctions",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQ09hT2psNVJfd0lwenprNXJjbDVXc2lJbFJ5ZEgxQ1lwUUN6ZmY5OHJIQjZVeXhCWGlCZ29kYUFaWGhRR3Fyci1tdThnQjNnRXMtLUhtMnNNMXBhZm56WFBWT0RzdGRMV2V4U2NGRXRuV3Bac3RiSmM5enJ0bnpKMUNXeTZ5TlE3RlRCdHhLYnVvYlpnVVRqLTI3MNIBoAFBVV95cUxNeTdLazJTUjJHV0pfQVZtUnpCdVZDTTVMVGp3UlRQaHFUSzF6LS1NSzA2MngxUTdaSUxOaWpmMFJfdUFtZjF3a04wcm40UFdJN2RUaVB2N2hyVlVQUHlIbGxjanNiYkRlQ2xvQTdXaVc1ZGg0Q1l1RDhRb2hZVV93Vng4cVQ1YkMzMTAwVEZoREVPbWpkOVpkdXpaR0dnR2hH?oc=5",
+            "publisher": "The Manila Times"
+          },
+          {
+            "title": "Watch : China mulls sanctions, oil and fertilizer cuts vs Philippines — report",
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNX1NIYldWZjR3eVNMZGYzRnhGcEFnZ3BUT0JKbzllMVl0SUV6UTJPQW53ZXo3MS1pa0hRSFA2QlN6ZmdjMmhCVFBRSGtwc1NsazdtclZFNUJLY25IcElYRTNORTEyd3dmR1U0UFpXWGt3WVNjSy1hckUzdnJwUzN2aDMyb3lrQUVadndaejhJcFlhbXotLUd3ejE0dnI0dVVoX0FqS3pPRV8tMVdnTDVUZi1UbWljdXZ0RkF1c1VjRk43Xy1keXVOX1haMNIBywFBVV95cUxNX1NIYldWZjR3eVNMZGYzRnhGcEFnZ3BUT0JKbzllMVl0SUV6UTJPQW53ZXo3MS1pa0hRSFA2QlN6ZmdjMmhCVFBRSGtwc1NsazdtclZFNUJLY25IcElYRTNORTEyd3dmR1U0UFpXWGt3WVNjSy1hckUzdnJwUzN2aDMyb3lrQUVadndaejhJcFlhbXotLUd3ejE0dnI0dVVoX0FqS3pPRV8tMVdnTDVUZi1UbWljdXZ0RkF1c1VjRk43Xy1keXVOX1haMA?oc=5",
+            "publisher": "The Manila Times"
+          }
+        ]
+      },
+      {
+        "id": "china-coast-guard-shadows-philippine-resupply-mission",
+        "title": "China Coast Guard shadows Philippine resupply mission",
+        "when": "2026-10-22",
+        "place": "South China Sea",
+        "lat": 10,
+        "lon": 115,
+        "what": "The China Coast Guard said it monitored a Philippine resupply mission at a contested shoal, keeping the two sides in close contact at sea.",
+        "via": "close coast guard contact",
         "aspect": "security",
         "flow": "into",
         "sources": [
@@ -3512,79 +3470,59 @@
             "title": "China Coast Guard Says It Monitored Philippine Resupply Mission at Contested Shoal",
             "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWk9TRUgwNHFteTNoVkdQbmJzU2VRM2VyUG1ESUU4aHJZT0UyVVZqaDJFUjJ2YUJXSThTcWtISTV6XzhjMlFhS2tWLXhnckZCbDQxczlveUV3ODBOMjJRT1dNMk5nbWxvX1pFVDRzYk5tYzFQbHd0U2FvMVBtZnRudlYxT1JfWndYcDhsU3BhbGJZNHpUOU1aOVF0b2dpZldadmtxZGJyRVUzU0dTNHFZR3hlaU9Ydw?oc=5",
             "publisher": "The Diplomat – Asia-Pacific Current Affairs Magazine"
-          },
-          {
-            "title": "China says it allowed Philippines to resupply warship amid diplomatic tensions",
-            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNy10dkxORkpKTk1uWXFLVk1WTU4ybGNzTGdDSDJLanFCYzh4SF9UNHRHMzRKbGd5ZnBobHlMRmlnUERnMXBGZHA2Y1BBcUNlamFyQW1tRWEzekx4MXY4ZlFsekNDem52aTdyb2xiakVJYTY4dW1ES0tUMXlUN0ZGbE9ycDZGOEVzTXhfWXpvSUVYVlBQeHpLaVc3QnZfamRFclU5T0QxT1dBY0xud3dRZGdqWThXdksyeVo3UW96LTcyWG1sSk8tc0MzMWZ1QdIBzgFBVV95cUxNb3pHOXR3MXlmZVl2djdmZHh2bERhWW0yd3F4UTZfc1dHTTlhaWZ5WjZNRGJUcWJPM3MtQ25jQzBpZXZvMzlBQ20xaTZGNlQzVmw3cGctNEY5dm9jQzVCSHFfenB3LVc2SnpBa0xBY0VnZmphcW5KaDlEeWNSYWs0TVl3bVhLaGx0VTA3eUFlYXAxWGhNN0tiSm9DTUNVMkFjNFVPM1p4Y2xaeEJvU2lDVndYQzNzd05kTFJYbVJRREpTc2FvOGZxdXdFaENKZw?oc=5",
-            "publisher": "South China Morning Post"
           }
         ]
       },
       {
-        "id": "manila-weighs-taiwan-cable-protection-ties",
-        "title": "Manila weighs Taiwan cable protection ties",
-        "when": "2026-10-21",
-        "place": "Luzon Strait",
-        "lat": 20.4,
-        "lon": 121.97,
-        "what": "The Philippines is exploring deeper cooperation with Taiwan to protect undersea cables, and China responds with a reminder of its one-China policy.",
-        "via": "Beijing anger over Taiwan ties",
+        "id": "manila-taiwan-ties-draw-chinese-one-china-warning",
+        "title": "Manila-Taiwan ties draw Chinese one-China warning",
+        "when": "2026-10-22",
+        "place": "Manila",
+        "lat": 14.6,
+        "lon": 120.98,
+        "what": "The Philippines is exploring deeper cooperation with Taiwan on undersea cables, while China's foreign ministry urged Manila to uphold the one-China principle.",
+        "via": "Taiwan-linked diplomatic friction",
         "aspect": "politics",
         "flow": "into",
         "sources": [
+          {
+            "title": "Philippines Exploring Deeper Cooperation With Taiwan To Protect Undersea Cables",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbmVpU0NRQ1JMNTJvdXBKbWlmRGpfQWlQMDNyeF9IX29SN05aTzBpNDZtY2Y5Y2dsRHA2TTA1Z2xxM3lZUHM5NkJ1MUcxMXpMNFhQekdhZEs0OTV2Tzl4dkR5b29icGxZVGJiWllFZ1FGTHBoZFlSU29waUl6ZEcyUjZlZE92eVkwN25VV1k5U2gtYXRwbWRYakNiajg0R3hhdVZrckVZOFNjRmdyOUtVXw?oc=5",
+            "publisher": "OneNews.PH"
+          },
           {
             "title": "China Reminds Philippines On ‘One-China’ Policy As Manila Builds Closer Ties To Taiwan",
             "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQd0d0Y1dyb0tXN1NRbzI2RWtIUFBBTlJrNi11a3R4Uk9yQVJmZVpJc1U5ckZKQl9INnRtOUE4SkZBdnMxWU5xcU5vb1ZVLUI0UkFPNnJWSWJ4VTE5UUdPY2p6eWxISjZSYThoTjBObmE5MUFCUmtTUHo1M1BRUExiWU9Jd0ctbUN5QWZubjJlSjFKSU8zLXlOSDlrakR1NnpDTUVmbTBpT0JRNzU4OS1yNE56anN6QmxycWZOampxSkxxSmhTY19WOQ?oc=5",
             "publisher": "BusinessToday Malaysia"
           },
           {
-            "title": "Philippines exploring deeper cooperation with Taiwan to protect undersea cables",
-            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZHZqRE13a0JHbEJ0eXNGLVJvdHkxbTIxdmo1RUZGM25MYi1oalNOdTFvVlZPSFl0Ym5uc0d0anVPNG16N2QtaWtCREFSM0VJNHhvZGVTRWdPNGplMk5yTXVKcWlDd3BlQ25jRG5oeE1QeE1iYXBBcUFiVTJHRVdXbW9yQXFyMXZqZVJHTk8xdkduY29Ub1VONVpEMHRSYWlKcUVJUThaWWhIakhXV29oUGZyWmF3QWtnRngxLVA4WEJScWVmQXpRMzkybUZEYXN2c3ROZHY0Q1lkQdIB2gFBVV95cUxPZHZqRE13a0JHbEJ0eXNGLVJvdHkxbTIxdmo1RUZGM25MYi1oalNOdTFvVlZPSFl0Ym5uc0d0anVPNG16N2QtaWtCREFSM0VJNHhvZGVTRWdPNGplMk5yTXVKcWlDd3BlQ25jRG5oeE1QeE1iYXBBcUFiVTJHRVdXbW9yQXFyMXZqZVJHTk8xdkduY29Ub1VONVpEMHRSYWlKcUVJUThaWWhIakhXV29oUGZyWmF3QWtnRngxLVA4WEJScWVmQXpRMzkybUZEYXN2c3ROZHY0Q1lkQQ?oc=5",
-            "publisher": "Devdiscourse"
-          },
-          {
-            "title": "Two faced remarks by Philippine diplomat expose Manila’s bid to exploit Taiwan question for S.China Sea interests; Political ploy will not succeed",
+            "title": "No ‘gray zone’ on Taiwan question: Chinese FM urges Philippines to uphold one-China principle",
             "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE13Y0dva19Hbk5scDN5R2NNeFo5UllITUpyQXRwbktmNXdGcDVwTG9nbE1iWWhtMF9IYlM3QmZiSElxcV9kUVp2dzgtSVFoZHpnNjFtSVUzdnNsVnZlZ3dvSmV3?oc=5",
             "publisher": "Global Times"
-          },
-          {
-            "title": "Philippines exploring deeper co-operation with Taiwan to protect cables, Asia News",
-            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQTRlZk5iX0Q0a2kzUHNUcjQ3YkVnbzh1TklZSHgydHJyemFubXY3cDNwUXc0SEJjU3JQMDhvS0xQRXkyX045RnlzNXRPa0owQXNQeEx6QjVDWkJYcHd0eGFEN3J4QkhMQjRVT3RGa3JpOVlnRzdsR3BtT2tXSmc0bXJrMGs1dnBybjJWY01aQXA2QTA5X19n?oc=5",
-            "publisher": "AsiaOne.com"
-          },
-          {
-            "title": "Philippines exploring deeper cooperation with Taiwan to protect cables",
-            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdlVVc0J4MmdIbC1BZV84dFpWTU0xdUNLRE5vM01lUGd4RXVoREZxakFkUTF6YVVCdGxJdFRFNXZSN2ZMZld1MTBtcmZSTkJoY2JvODlzcUdpNVdRNF9nWk83U0Q2a1k5UFRQMWZETFhGZFZrQzBHUm9NeFk0OVIyNC13eFoxX3BiU3VaTlVNbTdRbHRPWE5uLWpyTDNqMk1FazRqbjRoTTdTMHRjYzVWaWJwT29kd2Vld3NkdkxyV29JNnM?oc=5",
-            "publisher": "The Straits Times"
-          },
-          {
-            "title": "Philippines eyes closer cooperation with Taiwan to protect cables",
-            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE91c1NTSm1vX1FYRFFsaWZFV2tIVG5RTFBtX3VWdWZHWjVhYTdhZldDcG9RV0FRZXBmWDRKb3Z4ZEpzV2hJQmdyRkRvNmQ0dXFzVUVaVlA0am1GUWZmV3U3aVM3d1lSQ1pjUVYteDNHaG5Bc09LajBDYw?oc=5",
-            "publisher": "Taipei Times"
           }
         ]
       },
       {
-        "id": "china-weighs-sanctions-and-oil-fertilizer-cuts",
-        "title": "China weighs sanctions and oil, fertilizer cuts",
+        "id": "marcos-plans-scattered-new-us-military-bases",
+        "title": "Marcos plans scattered new US military bases",
         "when": "2026-10-22",
-        "place": "Manila",
-        "lat": 14.6,
-        "lon": 121,
-        "what": "A report says China is considering sanctions and cuts to oil and fertilizer supplies aimed at the Philippines, adding economic pressure to the maritime dispute.",
-        "via": "threat of economic retaliation",
-        "aspect": "trade",
+        "place": "Philippines",
+        "lat": 12.9,
+        "lon": 122,
+        "what": "Marcos said new military bases with the US will be scattered around the Philippines, as US forces return under a new model aimed at checking China.",
+        "via": "expanded US military presence",
+        "aspect": "security",
         "flow": "into",
         "sources": [
           {
-            "title": "Watch : China mulls sanctions, oil and fertilizer cuts vs Philippines — report",
-            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNX1NIYldWZjR3eVNMZGYzRnhGcEFnZ3BUT0JKbzllMVl0SUV6UTJPQW53ZXo3MS1pa0hRSFA2QlN6ZmdjMmhCVFBRSGtwc1NsazdtclZFNUJLY25IcElYRTNORTEyd3dmR1U0UFpXWGt3WVNjSy1hckUzdnJwUzN2aDMyb3lrQUVadndaejhJcFlhbXotLUd3ejE0dnI0dVVoX0FqS3pPRV8tMVdnTDVUZi1UbWljdXZ0RkF1c1VjRk43Xy1keXVOX1haMNIBywFBVV95cUxNX1NIYldWZjR3eVNMZGYzRnhGcEFnZ3BUT0JKbzllMVl0SUV6UTJPQW53ZXo3MS1pa0hRSFA2QlN6ZmdjMmhCVFBRSGtwc1NsazdtclZFNUJLY25IcElYRTNORTEyd3dmR1U0UFpXWGt3WVNjSy1hckUzdnJwUzN2aDMyb3lrQUVadndaejhJcFlhbXotLUd3ejE0dnI0dVVoX0FqS3pPRV8tMVdnTDVUZi1UbWljdXZ0RkF1c1VjRk43Xy1keXVOX1haMA?oc=5",
-            "publisher": "The Manila Times"
+            "title": "Three Decades After Subic Bay Withdrawal, U.S. Military Returns to the Philippines With a New Model to Check China",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQLWx4cUhOZTBjUnR6bDFMY0pzSWZHVjVRd2R6VmF5ZlZrbERxeGJOaGZ5dWZXRVhkMFVKdXdxZlVINFRzX2RlOURBN0dMa1dGVGtKaERoZnctT3RmMFFsaTNrOWV0ZGlCb1FraHB1MnJpTTBHODAtVmxZZy1NSVdZRno2UjhPYmPSAYcBQVVfeXFMUC1seHFITmUwY1J0emwxTGNKc0lmR1Y1UXdkelZheWZWa2xEcXhiTmhmeXVmV0VYZDBVSnV3cWZVSDRUc19kZTlEQTdHTGtXRlRrSmhEaGZ3LU90ZjBRbGkzazlldGRpQm9Ra2hwdTJyaU0wRzgwLVZsWWctTUlXWUZ6NlI4T2Jj?oc=5",
+            "publisher": "EurAsian Times"
           },
           {
-            "title": "China mulls sanctions, oil and fertilizer cuts vs Philippines — report",
-            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSlk4SVIyUnNkSmhCWFctcEVPUElLRFBYZzVuTUdpX1dYN1dDVjRVbGVOMmR1Yk1neTBWRkI0UldLZ2VSYi1ldGxZV3FqeGJKTGdaUHNGaFZWTU9OUXlTeDFaZVhLVkpLWUFGMHY2SGUwUjVVOWlycFFzYXVOOWRLbUpxRy0tRWxYOUdiendQRmV2T1MteFVscUlKZEd2VVJKZ0doeW9ab2YxclpRQVo1RkdqZlNWbG1jUlJz0gHAAUFVX3lxTE5OLTV3SW9WcnpZdUFSV25XNC00YmdMcWp1V2ZoMW4wbFdvY2dNQVhRdU9zZEVCX0VKOG8xUXcyRHA1UWFOVnZPeTdSR0lIdW1xOWgzZWdDLUxMejJ1OFRySDRINFBWOTZzdTVKbVFhdGNibTBqU0NfM1BfdEtnbnBuSzBRaHhyaS1yYkFGRmVWaUFVMmpTTGsyeGZMZnAxZklkV0RYazVoZ1c1Z2VoU0pwWDNfSkhhc3RRblB3ZnY5cg?oc=5",
-            "publisher": "The Manila Times"
+            "title": "Marcos says new military bases with US to be ‘scattered’ around PH",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeTNJRWc4M3RUb1ppMWh1cFl3akgtVXlhVEN6emtERlFhQkNYZHpEWmRTZnNNOGlZVW9HaXBwanhDaXlwb1RTUnJkZzA3MVc4TWJHcDdZR01QenU0WUZXYlZfWTAwNnBhaUpvZkJoRVdPMlJMNW4tTnRWZnhzNmJYNTZhWUdzYmdYNFVxbTlsUFNMYVRrYTRFQ1lkTTdnSXRSQUZxSXI3c3VkZw?oc=5",
+            "publisher": "Rappler"
           }
         ]
       }
