@@ -1,5 +1,5 @@
 {
-  "screenedAt": "2026-10-23T03:59:38.111Z",
+  "screenedAt": "2026-10-23T06:59:40.541Z",
   "judged": {
     "1eccdfad4d8e": {
       "at": "2026-10-22T14:03:49.910Z",
@@ -58,7 +58,7 @@
       "verdict": "existing"
     },
     "69f578ee4a88": {
-      "at": "2026-10-23T03:59:38.111Z",
+      "at": "2026-10-23T06:59:40.541Z",
       "verdict": "existing"
     },
     "a47cd477ffc1": {
@@ -582,7 +582,7 @@
       "verdict": "reject"
     },
     "0939ddfd332b": {
-      "at": "2026-10-22T23:59:35.316Z",
+      "at": "2026-10-23T06:59:40.541Z",
       "verdict": "reject"
     },
     "44ac378685be": {
@@ -726,7 +726,7 @@
       "verdict": "no story"
     },
     "0a9afca89a64": {
-      "at": "2026-10-23T03:59:38.111Z",
+      "at": "2026-10-23T06:59:40.541Z",
       "verdict": "existing"
     },
     "9628e2b2e4d3": {
@@ -826,7 +826,7 @@
       "verdict": "reject"
     },
     "ab3c54f3ff3e": {
-      "at": "2026-10-23T03:59:38.111Z",
+      "at": "2026-10-23T06:59:40.541Z",
       "verdict": "reject"
     },
     "855dfd853b3d": {
@@ -834,7 +834,7 @@
       "verdict": "reject"
     },
     "c04ebe641849": {
-      "at": "2026-10-23T03:59:38.111Z",
+      "at": "2026-10-23T06:59:40.541Z",
       "verdict": "reject"
     },
     "91a852a1ecea": {
@@ -910,11 +910,11 @@
       "verdict": "no story"
     },
     "c7a012896dca": {
-      "at": "2026-10-23T03:59:38.111Z",
+      "at": "2026-10-23T06:59:40.541Z",
       "verdict": "existing"
     },
     "895da49a496a": {
-      "at": "2026-10-23T03:59:38.111Z",
+      "at": "2026-10-23T06:59:40.541Z",
       "verdict": "reject"
     },
     "bbae1fcdf5c4": {
@@ -922,7 +922,7 @@
       "verdict": "existing"
     },
     "b3fe7d46ea56": {
-      "at": "2026-10-22T23:59:35.316Z",
+      "at": "2026-10-23T06:59:40.541Z",
       "verdict": "reject"
     },
     "ab99a38ed97b": {
@@ -930,11 +930,11 @@
       "verdict": "reject"
     },
     "bfddb5098dba": {
-      "at": "2026-10-23T03:59:38.111Z",
+      "at": "2026-10-23T06:59:40.541Z",
       "verdict": "reject"
     },
     "bfd2f2a99f0c": {
-      "at": "2026-10-23T03:59:38.111Z",
+      "at": "2026-10-23T06:59:40.541Z",
       "verdict": "reject"
     },
     "e8bbb41dee75": {
@@ -958,7 +958,7 @@
       "verdict": "reject"
     },
     "b56a73f2f281": {
-      "at": "2026-10-22T23:59:35.316Z",
+      "at": "2026-10-23T06:59:40.541Z",
       "verdict": "reject"
     },
     "5b870876e356": {
@@ -1034,11 +1034,11 @@
       "verdict": "existing"
     },
     "1a9016105a77": {
-      "at": "2026-10-23T03:59:38.111Z",
+      "at": "2026-10-23T06:59:40.541Z",
       "verdict": "reject"
     },
     "c88f0a6e7527": {
-      "at": "2026-10-23T03:59:38.111Z",
+      "at": "2026-10-23T06:59:40.541Z",
       "verdict": "reject"
     },
     "b5547c309e00": {
@@ -1112,9 +1112,201 @@
     "d5a669c63923": {
       "at": "2026-10-23T03:59:38.111Z",
       "verdict": "no story"
+    },
+    "063ca5be2c9c": {
+      "at": "2026-10-23T06:59:40.541Z",
+      "verdict": "reject"
+    },
+    "730477cf8a23": {
+      "at": "2026-10-23T06:59:40.541Z",
+      "verdict": "reject"
+    },
+    "80e2963232be": {
+      "at": "2026-10-23T06:59:40.541Z",
+      "verdict": "reject"
+    },
+    "807e7821a156": {
+      "at": "2026-10-23T06:59:40.541Z",
+      "verdict": "reject"
+    },
+    "6d1c11498368": {
+      "at": "2026-10-23T06:59:40.541Z",
+      "verdict": "reject"
+    },
+    "6c7824dee722": {
+      "at": "2026-10-23T06:59:40.541Z",
+      "verdict": "reject"
+    },
+    "028659998935": {
+      "at": "2026-10-23T06:59:40.541Z",
+      "verdict": "reject"
+    },
+    "a8a581da4ae0": {
+      "at": "2026-10-23T06:59:40.541Z",
+      "verdict": "reject"
+    },
+    "94eaec9459ac": {
+      "at": "2026-10-23T06:59:40.541Z",
+      "verdict": "no story"
+    },
+    "0c81e13546db": {
+      "at": "2026-10-23T06:59:40.541Z",
+      "verdict": "no story"
+    },
+    "1cfc5a02b764": {
+      "at": "2026-10-23T06:59:40.541Z",
+      "verdict": "no story"
+    },
+    "d1db85a7ab16": {
+      "at": "2026-10-23T06:59:40.541Z",
+      "verdict": "no story"
+    },
+    "1fde91062570": {
+      "at": "2026-10-23T06:59:40.541Z",
+      "verdict": "no story"
+    },
+    "346cfd5b0109": {
+      "at": "2026-10-23T06:59:40.541Z",
+      "verdict": "no story"
+    },
+    "8cbdbf867029": {
+      "at": "2026-10-23T06:59:40.541Z",
+      "verdict": "no story"
+    },
+    "cdbb9f2923ff": {
+      "at": "2026-10-23T06:59:40.541Z",
+      "verdict": "no story"
+    },
+    "94347791b738": {
+      "at": "2026-10-23T06:59:40.541Z",
+      "verdict": "no story"
+    },
+    "f19075763eaf": {
+      "at": "2026-10-23T06:59:40.541Z",
+      "verdict": "no story"
+    },
+    "6e9d9567e202": {
+      "at": "2026-10-23T06:59:40.541Z",
+      "verdict": "no story"
+    },
+    "65d8e4f49509": {
+      "at": "2026-10-23T06:59:40.541Z",
+      "verdict": "no story"
+    },
+    "d936b9661c9e": {
+      "at": "2026-10-23T06:59:40.541Z",
+      "verdict": "no story"
+    },
+    "b5070314416d": {
+      "at": "2026-10-23T06:59:40.541Z",
+      "verdict": "no story"
+    },
+    "6e3a1b2842c0": {
+      "at": "2026-10-23T06:59:40.541Z",
+      "verdict": "no story"
+    },
+    "eea4f31f94f2": {
+      "at": "2026-10-23T06:59:40.541Z",
+      "verdict": "no story"
+    },
+    "a204715e5a84": {
+      "at": "2026-10-23T06:59:40.541Z",
+      "verdict": "no story"
+    },
+    "233e8dfc6818": {
+      "at": "2026-10-23T06:59:40.541Z",
+      "verdict": "no story"
+    },
+    "52d4860625f8": {
+      "at": "2026-10-23T06:59:40.541Z",
+      "verdict": "no story"
+    },
+    "50e7489c2c1d": {
+      "at": "2026-10-23T06:59:40.541Z",
+      "verdict": "no story"
     }
   },
   "runs": [
+    {
+      "at": "2026-10-23T06:59:40.541Z",
+      "screened": 140,
+      "accepted": [],
+      "rejected": [
+        {
+          "title": "EU enters winter with record-low gas reserves",
+          "reason": "Passed the test but not the evidence check: only 2 headlines.",
+          "headlines": 2,
+          "publishers": 2
+        },
+        {
+          "title": "Ebola outbreak spreads from DR Congo to Uganda, Kenya and Nigeria",
+          "reason": "Passed the test but not the evidence check: only 2 headlines.",
+          "headlines": 2,
+          "publishers": 2
+        },
+        {
+          "title": "Saab orders triple after Gripen deal with Ukraine",
+          "reason": "This is a company earnings report; the state-level Gripen deal is only background.",
+          "headlines": 1,
+          "publishers": 1
+        },
+        {
+          "title": "Magnitude-7 earthquake hits Tibet",
+          "reason": "It is a natural disaster with local casualties and no clear cross-border or policy ripple.",
+          "headlines": 6,
+          "publishers": 5
+        },
+        {
+          "title": "UK-EU youth mobility scheme may be delayed",
+          "reason": "It is speculation about timing with no dated decision.",
+          "headlines": 1,
+          "publishers": 1
+        },
+        {
+          "title": "Trump says Musk restored Ukraine's Starlink access",
+          "reason": "It is a claim about a private company's service with no confirmed state decision.",
+          "headlines": 2,
+          "publishers": 2
+        },
+        {
+          "title": "Albanian student protests and parliament scuffle",
+          "reason": "It is domestic unrest with no clear cross-border channel.",
+          "headlines": 2,
+          "publishers": 2
+        },
+        {
+          "title": "ICC wins Sakharov Prize",
+          "reason": "A prize award decides nothing in policy terms.",
+          "headlines": 2,
+          "publishers": 2
+        }
+      ],
+      "existing": [
+        {
+          "title": "Ukraine hit by strikes after Russia agrees to new peace talks",
+          "reason": "This is part of the ongoing Russia-Ukraine summit diplomacy already on the map.",
+          "headlines": 1,
+          "publishers": 1,
+          "event": "ukraine-summit-diplomacy"
+        },
+        {
+          "title": "Lyon and Marseille ban Saturday protests",
+          "reason": "This is part of France's autumn of unrest.",
+          "headlines": 1,
+          "publishers": 1,
+          "event": "france-unrest-2026"
+        },
+        {
+          "title": "Trump's economic approval hits a record low before the midterms",
+          "reason": "This belongs to the US midterms event already on the map.",
+          "headlines": 1,
+          "publishers": 1,
+          "event": "us-midterms-2026"
+        }
+      ],
+      "retired": [],
+      "skipped": ""
+    },
     {
       "at": "2026-10-23T05:56:04.070Z",
       "screened": 0,
