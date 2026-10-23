@@ -768,18 +768,26 @@
     }
   },
   "ebola-drc-nigeria-kenya-2026": {
-    "sum": "4e0b225ef370",
+    "sum": "f46df8b9f242",
     "quick": {
-      "happened": "An Ebola outbreak that began in DR Congo has spread to Nigeria and Kenya, and the WHO calls the situation 'complex'.",
-      "matters": "Officials say the two patients may have crossed paths at Uganda's airport, so air travel could carry the virus to more countries.",
-      "next": "No date is set yet. Watch for new cases and for tighter airport screening and travel rules in several states."
+      "happened": "Ebola from DR Congo has spread to Nigeria and Kenya, and the WHO calls the outbreak 'complex'.",
+      "matters": "Both patients may have crossed paths at Uganda's Entebbe airport, so screening and travel rules are under pressure in several states.",
+      "next": "Around 24 October, the 21-day watch on contacts from the 3 October airport transit ends; new linked cases would signal a wider chain."
     },
     "connect": {
-      "title": "How the Ebola spread connects to Uganda's airport and travel rules, in plain words",
+      "title": "How the Ebola spread connects to Entebbe airport and DR Congo's stretched responders, in plain words",
       "paras": [
-        "Airports mix travelers from many countries in one place. If a sick person passes through, the virus can end up far from where it started.",
-        "The outbreak began in DR Congo. By 23 October 2026 it had reached Nigeria and Kenya. Officials say the two patients may have crossed paths at Uganda's airport.",
-        "This puts airport screening and travel rules under pressure in several states. What governments decide there will help set whether the spread slows or grows. The WHO calls the outbreak 'complex'."
+        "Viruses travel with people, and big airports link far-apart countries. Ebola spreads by direct contact with the body fluids of sick people, not through casual contact. So most travellers are not at risk, but contacts of a patient need tracking.",
+        "The outbreak in DR Congo reached an eighth province, UN News reported on 22 October. Responders there are under pressure. Each new country adds contact tracing, testing and treatment work that competes for the same people and supplies.",
+        "The Nigerian and Kenyan patients both travelled through Entebbe on 3 October. Officials say contact is possible, not proven. The watch window ends around 24 October and will show whether the airport scare fades or a wider chain exists."
+      ]
+    },
+    "report": {
+      "title": "What the report says, in plain words",
+      "paras": [
+        "An Ebola outbreak in DR Congo has reached eight provinces, UN News said on 22 October. It has also spread to Nigeria and Kenya, and the WHO calls it 'complex'. No case counts are given.",
+        "Likely winners are makers of tests, gloves and gowns (our estimate) and countries that trace contacts fast. Losers are patients and families, health workers in DR Congo, airlines, and Entebbe airport's transit trade.",
+        "Around 24 October, the 21-day watch on 3 October contacts ends. Expect more detail from Nigeria, Kenya and Uganda, and possibly new screening rules. Outbreaks are usually declared over only after 42 days with no new cases."
       ]
     }
   }
