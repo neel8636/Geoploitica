@@ -62,6 +62,74 @@
         "headlines": 4,
         "publishers": 3
       }
+    },
+    {
+      "id": "ebola-drc-nigeria-kenya-2026",
+      "title": "Ebola spreads from DR Congo to Nigeria and Kenya, WHO warns",
+      "type": "disaster",
+      "date": "2026-10-23",
+      "status": "developing",
+      "region": "DR Congo, Nigeria, Kenya, Uganda",
+      "lat": 0.3,
+      "lon": 32.4,
+      "countries": [
+        "CD",
+        "NG",
+        "KE",
+        "UG"
+      ],
+      "summary": "An Ebola outbreak that began in DR Congo has spread to Nigeria and Kenya, and the WHO calls it 'complex'. Officials say the Nigerian and Kenyan patients may have crossed paths at Uganda's airport, which raises the risk of further spread and puts airport screening and travel rules under pressure in several states.",
+      "severity": 3,
+      "keywords": [
+        "ebola",
+        "ebola outbreak",
+        "dr congo",
+        "nigeria",
+        "kenya",
+        "uganda airport",
+        "entebbe",
+        "who",
+        "ebola responders",
+        "health screening",
+        "cross-border spread"
+      ],
+      "links": [],
+      "sources": [
+        {
+          "title": "Africa faces 'complex' Ebola outbreak after spread to Nigeria: WHO",
+          "url": "https://www.france24.com/en/africa-faces-complex-ebola-outbreak-after-spread-to-nigeria-who",
+          "publisher": "France 24",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Nigeria and Kenya Ebola patients may have crossed paths at Uganda airport, officials say",
+          "url": "https://www.bbc.co.uk/news/articles/cmwy4wlzqz3zo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC World",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "DR Congo: Ebola responders under pressure as outbreak expands",
+          "url": "https://news.un.org/feed/view/en/story/2026/10/1168647",
+          "publisher": "UN News",
+          "date": "2026-10-22"
+        }
+      ],
+      "news": {
+        "q": "Ebola OR \"Ebola outbreak\" Kenya OR Nigeria OR Uganda OR Congo",
+        "edition": "KE"
+      },
+      "auto": {
+        "addedAt": "2026-10-23T09:59:54.200Z",
+        "reason": "WHO calls the outbreak 'complex' after cross-border spread, with patients possibly crossing paths at Uganda's airport, which will drive health screening and travel decisions in several states.",
+        "channel": "infected travellers, border and airport health controls, WHO emergency response",
+        "reaches": [
+          "NG",
+          "KE",
+          "UG"
+        ],
+        "headlines": 3,
+        "publishers": 3
+      }
     }
   ]
 }

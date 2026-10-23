@@ -3737,5 +3737,49 @@
         ]
       }
     ]
+  },
+  "ebola-drc-nigeria-kenya-2026": {
+    "at": "2026-10-23T09:59:54.200Z",
+    "by": "pipeline",
+    "items": [
+      {
+        "id": "nigeria-and-kenya-patients-may-have-met-in-uganda",
+        "title": "Nigeria and Kenya patients may have met in Uganda",
+        "when": "2026-10-23",
+        "place": "Uganda (airport)",
+        "lat": 0.3,
+        "lon": 32.4,
+        "what": "Officials say the Nigerian and Kenyan Ebola patients may have crossed paths at a Ugandan airport, raising the risk of further spread.",
+        "via": "airport contact, travel spread risk",
+        "aspect": "displacement",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Nigeria and Kenya Ebola patients may have crossed paths at Uganda airport, officials say",
+            "url": "https://www.bbc.co.uk/news/articles/cmwy4wlzqz3zo?at_medium=RSS&at_campaign=rss",
+            "publisher": "BBC World"
+          }
+        ]
+      },
+      {
+        "id": "ebola-responders-strained-as-dr-congo-outbreak-grows",
+        "title": "Ebola responders strained as DR Congo outbreak grows",
+        "when": "2026-10-22",
+        "place": "DR Congo",
+        "lat": -4,
+        "lon": 21.8,
+        "what": "Responders in DR Congo are under pressure as the outbreak expands, which limits how well it can be contained at its source.",
+        "via": "stretched response capacity",
+        "aspect": "displacement",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "DR Congo: Ebola responders under pressure as outbreak expands",
+            "url": "https://news.un.org/feed/view/en/story/2026/10/1168647",
+            "publisher": "UN News"
+          }
+        ]
+      }
+    ]
   }
 }
