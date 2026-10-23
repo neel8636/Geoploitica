@@ -1178,111 +1178,25 @@
     ]
   },
   "china-q3-growth": {
-    "at": "2026-10-22T23:59:35.316Z",
+    "at": "2026-10-23T14:03:48.451Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "zinc-oxide-exports-surge-97",
-        "title": "Zinc oxide exports surge 97%",
-        "when": "2026-10-22",
-        "place": "China",
-        "lat": 35,
-        "lon": 105,
-        "what": "China's zinc oxide exports jumped 97% as domestic demand struggled to recover, pushing more output into overseas markets.",
-        "via": "export volume from weak home demand",
-        "aspect": "trade",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "China Zinc Oxide Exports Surge 97% as Domestic Demand Struggles to Recover",
-            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaWVOY1NoZXM5SzMzd0FNQjVOLWhfa3dKeVE4Wmx3b0JialVxcnFEaTdldUlrU3NjYkthX0thQndRdUd6MEdnN2pfRDZqSzRUNWEwQml3TjVtemhBcG1teWdkQ0k0cFFhQnNQb1Z4Ulk0eUhRd2tMa21EU3ZJelcyOUFRcGdXeWtCQlhLVjVIQXlPbkRFOUFrRGFrSkxmUlpSY3FfYk14Z2V5U2pqbnhyMg?oc=5",
-            "publisher": "ChemAnalyst"
-          }
-        ]
-      },
-      {
-        "id": "turkish-seafood-exports-to-china-nearly-triple",
-        "title": "Turkish seafood exports to China nearly triple",
-        "when": "2026-10-22",
-        "place": "Turkey",
-        "lat": 39,
-        "lon": 35,
-        "what": "Turkish seafood exports to China rose about 190% after protocols were signed, led by salmon and tuna.",
-        "via": "higher food import volumes",
-        "aspect": "food",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Turkish seafood exports to China nearly triple, led by salmon and tuna",
-            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbk5UUzdRMFpyZHFYeUlqRlBBWmQ0bnowMFkxQ1kzQUVsYmhYSE5VSlg5RlVKdlVPLU1NTFh1VHdSa3I1d1lsNEszNXFQemZQblJWVDVScElqdmpsSnJSNFZTR2NJdXoydVNuYVNvdHZrX2xFcHNTaFhvbWU1Z1E5MTQwOTJiWXozbDNVelpvT2RFWFhXQTF4RmNKZ25kel9SUUNINGxNZGZSUQ?oc=5",
-            "publisher": "Anadolu Ajansı"
-          },
-          {
-            "title": "Turkish seafood exports to China jump 190% after signing protocols | Daily Sabah",
-            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT19MRlctbm1lT0tuaGNGOXdjWW9Qamh4b1JYdV95VjJhTEZpVzhuYWVyTTFLZkw0QzdpaGdDc3JsWTNIdHMyOHhLRUhfRExqbHc4Qy1jQzZRSm1iUkxWY0FJZUNUYldOVDVuY1A2b1RtYzZ2UVRaaHpjQ2pYNE1DTl9CY1Q2aVJBOWw1SUxPQzRGMzJpRjRTUmRfWXZJM2dpS1JjMS1mb29FbEhQSVNGeTUwSdIBswFBVV95cUxNT19MRlctbm1lT0tuaGNGOXdjWW9Qamh4b1JYdV95VjJhTEZpVzhuYWVyTTFLZkw0QzdpaGdDc3JsWTNIdHMyOHhLRUhfRExqbHc4Qy1jQzZRSm1iUkxWY0FJZUNUYldOVDVuY1A2b1RtYzZ2UVRaaHpjQ2pYNE1DTl9CY1Q2aVJBOWw1SUxPQzRGMzJpRjRTUmRfWXZJM2dpS1JjMS1mb29FbEhQSVNGeTUwSQ?oc=5",
-            "publisher": "Daily Sabah"
-          }
-        ]
-      },
-      {
-        "id": "china-russia-trade-passes-us-180-billion",
-        "title": "China-Russia trade passes US$180 billion",
-        "when": "2026-10-22",
-        "place": "Russia",
-        "lat": 55.75,
-        "lon": 37.6,
-        "what": "Trade between China and Russia exceeded US$180 billion in the first months of 2026.",
-        "via": "larger bilateral trade flows",
-        "aspect": "trade",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Trade between China and Russia exceeds US$180 billion in first few months of 2026",
-            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOLV9sd2VKZFFKTFJtY3Z3RU5mNktLN2hyQUlIUDNINlNxMXFqZ2ZxU282ZHFTakFfUlBzeTNFUEVNRGozTXNVQ1V4emtBX3dxQzVZR1NFV3lZUzhXaHRVQ29yQUd1YUtJUmhUM1FUNGF0cmt2NzhFb2c3YUpiUUhZZGNFVFYwY08waW16c0E4TDJ5eDFHcVZTelFXX254dmZlVU9CblBES0xzeXlpVDNJ?oc=5",
-            "publisher": "TV BRICS"
-          }
-        ]
-      },
-      {
-        "id": "medtech-exports-surge-challenging-incumbents",
-        "title": "Medtech exports surge, challenging incumbents",
-        "when": "2026-10-22",
-        "place": "China",
-        "lat": 31.2,
-        "lon": 121.5,
-        "what": "Chinese medical technology exports are surging, challenging established global manufacturers.",
-        "via": "high-value export growth",
-        "aspect": "trade",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "China medtech exports surge, challenging global incumbents",
-            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORng4V181T0RrbDJwSmVaMHZyRGxBMVY4Rm5QOUlncVdmNGkyRGQxbnJ5UldmbGRwT1dRZDVpMEQ4WVctZ3I2bmVVVm12c19NT1BYdG1wQTduc2FtMWQ5cHdWTDB4eG8tUE05a2NqWFYtQV9tZzZRejdoSmNDd0RNbUJqVlJabGN0Mkc1NFR3SkQ1RlZjS0tmUFhEVENBSWdPMUE?oc=5",
-            "publisher": "Semafor"
-          }
-        ]
-      },
-      {
-        "id": "weak-domestic-demand-and-private-firm-slump",
-        "title": "Weak domestic demand and private firm slump",
-        "when": "2026-10-22",
+        "id": "ai-boom-lifts-chinese-export-orders",
+        "title": "AI boom lifts Chinese export orders",
+        "when": "2026-10-19",
         "place": "China",
         "lat": 39.9,
         "lon": 116.4,
-        "what": "Private firms are stuck in a rut and domestic demand remains weak, leaving exports to carry growth.",
-        "via": "reliance on external demand",
-        "aspect": "living",
+        "what": "An AI boom boosted Chinese exports in the third quarter, helping the economy grow faster than forecast.",
+        "via": "stronger AI-related export demand",
+        "aspect": "trade",
         "flow": "into",
         "sources": [
           {
-            "title": "In Focus | China’s private firms are in a rut. Are regulations making it deeper?",
-            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWnVuN29CSzdMMmJyVEs4Q28yczF5YjBMUHpqRU1kMG53WVdGODQwd3cxUk9Ocmg4MjVnSXEtazBuSFBLeDVFTVBNcjd0YjRvNWVyVFp0bWRQNWNGRDNMa29nNXNOTUFWTUNxeHFVQTRGd3NCYXBMSjNIZUJIbEMzazB6Q05XOVpIUDJMbjVhZ1JteXBIeWUyMDlRaHFHcnRlYjBDMHlaV3gzdGtCa3pRV1lMdFk4Q2hXS1lxd1ZIdy1Ic2pVaVBwak1n?oc=5",
-            "publisher": "South China Morning Post"
-          },
-          {
-            "title": "China Zinc Oxide Exports Surge 97% as Domestic Demand Struggles to Recover",
-            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaWVOY1NoZXM5SzMzd0FNQjVOLWhfa3dKeVE4Wmx3b0JialVxcnFEaTdldUlrU3NjYkthX0thQndRdUd6MEdnN2pfRDZqSzRUNWEwQml3TjVtemhBcG1teWdkQ0k0cFFhQnNQb1Z4Ulk0eUhRd2tMa21EU3ZJelcyOUFRcGdXeWtCQlhLVjVIQXlPbkRFOUFrRGFrSkxmUlpSY3FfYk14Z2V5U2pqbnhyMg?oc=5",
-            "publisher": "ChemAnalyst"
+            "title": "China’s economy grows faster than forecast after AI boom boosts exports",
+            "url": "https://www.theguardian.com/world/2026/oct/19/china-economy-grows-faster-than-forecast-after-ai-boom-boosted-exports",
+            "publisher": "The Guardian World"
           }
         ]
       }
@@ -2431,108 +2345,21 @@
     ]
   },
   "spain-strike-and-snap-election": {
-    "at": "2026-10-22T23:59:35.316Z",
+    "at": "2026-10-23T14:03:48.451Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "spanish-and-portuguese-unions-discuss-joint-strike",
-        "title": "Spanish and Portuguese unions discuss joint strike",
+        "id": "spain-accuses-milei-of-election-interference",
+        "title": "Spain accuses Milei of election interference",
         "when": "2026-10-22",
         "place": "Madrid",
         "lat": 40.42,
         "lon": -3.7,
-        "what": "Portuguese and Spanish unions are in talks over an 'Iberian general strike', which would add cross-border union weight to the planned November walkout.",
-        "via": "union coordination and turnout",
-        "aspect": "jobs",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Iberian General Strike: Portuguese and Spanish Unions in Talks - News and Statistics",
-            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNajV1eU9PakhlZFRtZ2J0Mjh6X2h0NUpncXRGV1NHckJtZmNNTmJyMUJGelJLUmpUQkZjZWIwa1JUWWxibXZfWFd3b0E5TGtIajN4SGdVaTRuellWbWFaU0o1V21zazM4S0lPcmhueFVCdEx6Nm9wUFJKZDF0cXV1OWZ3Z3FSdnVLWks4SmlLYXRuRmVUaTdhYzB4UlRXa3A4?oc=5",
-            "publisher": "IndexBox"
-          },
-          {
-            "title": "Portuguese and Spanish unions in talks over 'Iberian general strike'",
-            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZXcycm1nSHpoRWs5S2s2cG9oUEFWVkNmczhVWFVNaFNDaExaR2xQLXhLN01COElGS1MwVHdoc2YtRVlkUmUwT3B3VjU3NjFCbUVVb3FUYWlkeWJYWFpPX2ZmUWd6bTZkYy1SV1R5SHNUWDl4ODhlOHNKRG9zWV9uZXk3Rk9HR2tZaTFEVVN1Sm44ZEtf?oc=5",
-            "publisher": "Yahoo Finance UK"
-          },
-          {
-            "title": "Spanish and Portuguese unions discuss joint general strike",
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSElKUHp3ZE1qWU5jcWxvdkt5aVEySE11SG1rZmJtcDM5Z2NIVmhrczFxMGx3OWJmOFdhVDNuNXZsZVl2SjQ3WlA3dExKS1pXd2JTWU1yWGMyaUktNWJVbjNqMzNGNC1GLVo5dm1QUjQ0aVlmX3FxYnNtdFF4T21PZ0o1WDAwNmgtYjhYQ1JpdTFHUTNTSXV6WlpMWEFQX0NveFRDaA?oc=5",
-            "publisher": "Euronews.com"
-          },
-          {
-            "title": "Portuguese and Spanish unions discuss 'Iberian general strike'",
-            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcGh2TllCM3I0Sld5Ui1KbGRHOGpTQjJHa2IwOVQ5VkxqWkMyV3lWZnhGeVVqSWZuZlU4S2RXWlJibHRkRHhURFdZcWxOVnZTNFlDMUVuMHpJNHpQaUFuRWdta2M1anFFM2RVUG1uaEp2enlNQXBvV2J4OXZ0SGx3Sk9TbFE2eVdtcmxKR0U5M1M?oc=5",
-            "publisher": "AOL.co.uk"
-          }
-        ]
-      },
-      {
-        "id": "unions-demand-seven-percent-minimum-wage-rise",
-        "title": "Unions demand seven percent minimum wage rise",
-        "when": "2026-10-22",
-        "place": "Madrid",
-        "lat": 40.42,
-        "lon": -3.7,
-        "what": "Spanish unions are demanding a seven percent increase in the minimum wage, putting wages at the centre of the strike demands.",
-        "via": "wage demands",
-        "aspect": "living",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Spain: Unions demand a seven percent increase in the minimum wage!",
-            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbUdrR0gtRm9FNG9vNGhBaDVkMFNpdkhLTHZsMXNVMW5WYVNOVkJiYXlGYUswLWJIdXBaeHk0THV6THBZeEYxZTdOZEdlcVRFVXNIS1M2TDVwQkNMSzY2em56YU5WNXZFUmNxa2pLRlRPTUZhNmhNYVBBM1JGSjFyWXB4QnEtTnAwa3p1Z1psZHowbWc5eUhhSGpvSUNJTGM?oc=5",
-            "publisher": "Spanien Press"
-          }
-        ]
-      },
-      {
-        "id": "ceuta-migrant-crisis-fuels-anger-at-sa-nchez",
-        "title": "Ceuta migrant crisis fuels anger at Sánchez",
-        "when": "2026-10-22",
-        "place": "Ceuta",
-        "lat": 35.89,
-        "lon": -5.32,
-        "what": "The Ceuta migrant crisis is stoking anger at Prime Minister Sánchez ahead of the election.",
-        "via": "voter anger over migration",
-        "aspect": "displacement",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Ceuta migrant crisis stokes anger at Sánchez ahead of Spain's election",
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTHJiVm1JTjhoTjRoSy1jRlRwS1NSN0JtdGM3Rk5qeTRvY3RoRkVPeHZldU5VdlhNLXVheHF5Zkx1YnNrazYwc0VMazZmWnU5N1ZtMFhhN1NIODNON2VhVjhJQ0RPamRtS3BfSFlhbDdJNVBnY3VkVGRpeGlsTVgwalR6WGFkOVNCN1czX21yR0ZjUnZJejU5ZkdscGN0dkpyUDI3OQ?oc=5",
-            "publisher": "The Local Spain"
-          }
-        ]
-      },
-      {
-        "id": "milei-calls-sa-nchez-a-dictator-in-madrid",
-        "title": "Milei calls Sánchez a dictator in Madrid",
-        "when": "2026-10-21",
-        "place": "Madrid",
-        "lat": 40.42,
-        "lon": -3.7,
-        "what": "Argentine president Javier Milei called Sánchez a 'dictator' in Madrid and urged Spaniards to remove the Socialists, giving Sánchez a campaign opening.",
-        "via": "campaign polarisation",
+        "what": "The Spanish government called Trump ally Milei's conduct 'disgraceful' election interference, pulling a foreign political dispute into the campaign before the snap vote.",
+        "via": "campaign tension, political polarisation",
         "aspect": "politics",
         "flow": "into",
         "sources": [
-          {
-            "title": "Milei calls Sánchez a 'dictator' in Madrid & tells Spaniards to kick out Socialists",
-            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVlpPM1UzM0ZVZnNRV3d2dWloaWtvQUR6b2puS1hlV1lxZmt1dEdLT256NUhSRFc3YW5tMGZCZk80S0g2S05FTmFvVW0ydlJ4ajlIeW80eFlTR2VyVGZaMDE2U2dJdXZMVFFfcjA2MF9iSkdvQ08wcF8zOV9QdmU0ZExqQi1mYXBaaEw0R0RYdlBEMVlneXNmcUxFbzg0R3NzMGZ2cjVaRU5aYWxGOUV4Yg?oc=5",
-            "publisher": "Latin Times"
-          },
-          {
-            "title": "Argentina's Milei calls Spain PM Sánchez a 'dictator' in Madrid visit",
-            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOWtZVDhsQXZoMnNueUd5ZXdpWE05LU5tT1I2aDFYSzRVdzRxZ2c3RXpMMS1XM25fbUtCRlRIclRkUmVfUFl5ODJsaUhkSEdIMXZTVVhQV2dmNDhLVFBUakhYZmZtVXZILXViR29yTnFkZXJCTHFpQXlnMzZJQURSTGNSLXdvYjlCSVdxeUxuX2lvOHh2OXhQQXlEWGRHQQ?oc=5",
-            "publisher": "Courthouse News"
-          },
-          {
-            "title": "Milei's Madrid visit gives Sánchez a campaign opening",
-            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNm8xWnpfbVVSVkpNdE13ZnN3VkpIalotMlNBTm5yenB2bnZwc01tMnBZYm96TGtYelhCWWFNVUQ1VEVQTXd6VzgtaF82VGQwR1cyVkgzODZySGZZOGgtcS1RSzRrVjhzNjVuRHNyOG1BbmJfbzFXTWg0RVdTa0tCVHBaaHZJVnE2ZFFQVWlYNWs?oc=5",
-            "publisher": "RUSSPAIN.com"
-          },
           {
             "title": "Spain accuses Trump ally Milei of ‘disgraceful’ election interference",
             "url": "https://www.cnbc.com/2026/10/22/spain-sanchez-milei-trump-election-protests.html",
@@ -2541,21 +2368,21 @@
         ]
       },
       {
-        "id": "clash-at-vox-rally-in-a-corun-a",
-        "title": "Clash at VOX rally in A Coruña",
-        "when": "2026-10-22",
-        "place": "A Coruña",
-        "lat": 43.37,
-        "lon": -8.4,
-        "what": "Protesters tried to disrupt a VOX party rally in A Coruña, in a night of confrontation during the pre-campaign.",
-        "via": "street tension in campaign",
-        "aspect": "security",
+        "id": "pension-funding-debate-ahead-of-election",
+        "title": "Pension funding debate ahead of election",
+        "when": "2026-10-19",
+        "place": "Madrid",
+        "lat": 40.42,
+        "lon": -3.7,
+        "what": "A debate over whether Spain can afford its pensions has become a central issue in the run-up to the snap general election.",
+        "via": "pension funding worries",
+        "aspect": "budget",
         "flow": "into",
         "sources": [
           {
-            "title": "Watch: Spanish Far-Left Rioters Try to Crash VOX Party Rally in A Coruña, Stage Night of Chaos",
-            "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOXzR3RHdDcXJ0Z3NNODNsVFZhOUxTanVnaS1rTDM0dFA3amo5ZXpDcUg3eHh2Q1k2M2stak9CRk9zRzVFV2U3dm9Kc0F6bm5YdENMa082Vm1FOTVKUG9PT0JUV3BCY1pSRC1jcXFwLXQ3TXlaZ0xZNWY4cjRuQV9mY1FDQ1czSm1kSHFTZjBEYlFqRjZuZU1MSTg3RmRMVTM3X3lPdFY3cG80SC1KMFlFYTFGTUJLYzZ2QUVWSHFXc2lwdnNEYmNkcmtfdTVqYTNabmdxLXZJck7SAdgBQVVfeXFMTl80d0R3Q3FydGdzTTgzbFRWYTlMU2p1Z2kta0wzNHRQN2pqOWV6Q3FIN3h4dkNZNjNrLWpPQkZPc0c1RVdlN3ZvSnNBem5uWHRDTGtPNlZtRTk1SlBvT09CVFdwQmNaUkQtY3FxcC10N015WmdMWTVmOHI0bkFfZmNRQ0NXM0ptZEhxU2YwRGJRakY2bmVNTEk4N0ZkTFUzN195T3RWN3BvNEgtSjBZRWExRk1CS2M2dkFFVkhxV3NpcHZzRGJjZHJrX3U1amEzWm5ncS12SXJO?oc=5",
-            "publisher": "Breitbart News"
+            "title": "Can Spain afford its pensions? What to know about the funding debate ahead of the election",
+            "url": "https://www.euronews.com/2026/10/19/pensions-become-key-issue-in-spains-election-campaign-are-they-going-bust",
+            "publisher": "Euronews"
           }
         ]
       }
@@ -3203,87 +3030,25 @@
     ]
   },
   "brazil-runoff-2026": {
-    "at": "2026-10-23T00:58:06.112Z",
+    "at": "2026-10-23T14:03:48.451Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "datafolha-poll-shows-race-about-even",
-        "title": "Datafolha poll shows race about even",
-        "when": "2026-10-22",
+        "id": "bolsonaro-corrupto-stunt-becomes-viral-meme",
+        "title": "Bolsonaro 'corrupto' stunt becomes viral meme",
+        "when": "2026-10-20",
         "place": "Brazil",
-        "lat": -15.7939,
-        "lon": -47.8828,
-        "what": "A Datafolha poll published days before the run-off shows Flávio Bolsonaro and Lula about even, and Bloomberg reports the two as tied.",
-        "via": "tight polling, voter uncertainty",
+        "lat": -15.79,
+        "lon": -47.88,
+        "what": "Flávio Bolsonaro's 'corrupto' stunt sparked a viral meme days before the run-off, putting his campaign at the centre of online attention.",
+        "via": "viral campaign attention",
         "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "Bolsonaro and Lula Tied Ahead of Brazil Runoff, Poll Shows",
-            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRlFZSVU4NVRtdjBIUURQOXR5d0hDQzJ4V0dWTFJJSFFEZGtndkJ0anZvTER4ZWlpeGhjM0p5UDFGVEpWWlVHejI0dnZvNDg1NUZpU3ZnVDZlb0ZsRFpLLWtZcy0wRVM5SXRpX3o1TUlfZ1RjSkFVSjgxcFRqM3FiVVJNUnNhT3pLVmQzOGM3MllVbG9JcnZzRjNEME1yYW94YjNzT3pVYk5udmhta205TEVIaw?oc=5",
-            "publisher": "Bloomberg.com"
-          },
-          {
-            "title": "Flavio Bolsonaro and Lula about even ahead of Brazil runoff, Datafolha poll shows",
-            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRzQ3V0dSbGZrR25TcW5VZW04Y21HcHM4N19kNzUwQmNkYUZ5LXNRc25paFk5TWN6QWxfWlhVQmJ3NWJjTi1jWEhLTEhILVpEYkhrbk9VbDRfeXpJbVVSbW5VUnJjblg3ZEpBVzZqcjhUX0dhU0FIQ3gyMjRoRHduMmFITW5HelRZRGNySlY0YWdobE00UUZVWGZvS3I2aUs5SmNEeDB0VTJ3SWxnbF9qUDNFT2g1dw?oc=5",
-            "publisher": "The Straits Times"
-          }
-        ]
-      },
-      {
-        "id": "lula-seeks-disqualification-over-alleged-meta-interference",
-        "title": "Lula seeks disqualification over alleged Meta interference",
-        "when": "2026-10-22",
-        "place": "Brasília",
-        "lat": -15.7939,
-        "lon": -47.8828,
-        "what": "Lula says his rival should be disqualified over alleged interference involving Meta ahead of the vote, escalating the legal and political fight.",
-        "via": "legal dispute, campaign tension",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Lula says rival should be disqualified over alleged Meta interference ahead of Brazil vote",
-            "url": "https://www.bbc.co.uk/news/articles/c6pwgve2lk5go?at_medium=RSS&at_campaign=rss",
-            "publisher": "BBC World"
-          }
-        ]
-      },
-      {
-        "id": "candidates-sign-disclosure-agreement",
-        "title": "Candidates sign disclosure agreement",
-        "when": "2026-10-22",
-        "place": "Brazil",
-        "lat": -15.7939,
-        "lon": -47.8828,
-        "what": "Flávio Bolsonaro accepts a disclosure proposal made by Lula, and both presidential candidates sign an agreement before the run-off.",
-        "via": "campaign transparency pledge",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Flávio Bolsonaro Agrees to Disclosure Proposed by Lula, and Brazil's Presidential Candidates Sign Agreement",
-            "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNNy16VUFZRjBUNm0xX1FsZDFkZnFuT2w2ZEMzOFE4UTFnblNMOGpjQ1hScUtSZXVQZFNLZzBiRmVvMkdKMU8yckpjQk5jOVhSMTM2Q1djOHBPRzlHUWl5Z2VSak9NSXZ3WnNidVhNRVV1ckxsRFpacVkyUGpPVndqcS1xUDk5U3pSN2JHdEF4eENfWU5yQXV0MHM2dWt1dWZSUkVVVENXMHRyeGNNTmJEbVF4V2lRNDk1eG1tRzZzWmRpb2ZFQW5QV3NhTUlLQUNlLXh2MUZOTy1OVFlKZWxhbTJjS0JocGZpeUJIeEprbzVhdkZrdnVUVkJiandrTFQ3VE5F?oc=5",
-            "publisher": "Folha de S.Paulo"
-          }
-        ]
-      },
-      {
-        "id": "lula-gets-a-cell-phone-for-campaign",
-        "title": "Lula gets a cell phone for campaign",
-        "when": "2026-10-22",
-        "place": "Brazil",
-        "lat": -15.7939,
-        "lon": -47.8828,
-        "what": "Bloomberg reports that Lula finally got a cell phone, which may improve his chances of winning reelection.",
-        "via": "wider campaign reach",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Lula Finally Got a Cell Phone. It May Give Him a Shot at Reelection",
-            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZGxfMmlKaWxJSlhOZm5sQmhfQnlCQ2FNUTI2blBKMWVDY2JOcWtjQUk0NHpVZ2ZOTUpTX3hVWC1WUmF3cFR2ZkF6ZTRFQ2ZfTTJick9kWWFtWG9iM0V2Y3FyOFA3bmYwbkVuVzI1R3VzTEJkaUdpNlZHclpEN3plNFNsZ2JhSHFaNWVrNVNuR2FXdFVRUlktb19tdWlpR3ExMVdIa2JDeGd4dm5QbmlwbkJ4czk3T1p6TC1Z?oc=5",
-            "publisher": "Bloomberg.com"
+            "title": "Flavio Bolsonaro’s ‘corrupto’ stunt sparks viral meme before Brazil election runoff",
+            "url": "https://www.theguardian.com/world/2026/oct/20/flavio-bolsonaro-corrupto-viral-meme-brazil-election-runoff",
+            "publisher": "The Guardian World"
           }
         ]
       }

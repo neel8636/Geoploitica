@@ -1,6 +1,38 @@
 {
   "france-unrest-2026": [
     {
+      "at": "2026-10-23T14:03:48.451Z",
+      "text": "France plans to deploy 70,000 officers for the weekend, and Macron convenes student representatives. Authorities have banned some student protests, and reports say PSG's game has been moved because of the unrest.",
+      "sources": [
+        {
+          "title": "France to deploy 70,000 officers as it braces for weekend of protests – Europe live",
+          "url": "https://www.theguardian.com/world/live/2026/oct/23/starlink-ukraine-musk-trump-russia-black-sea-strikes-france-milan-europe-protests-latest-news-updates",
+          "publisher": "The Guardian World"
+        },
+        {
+          "title": "Major protests in France: Macron convenes student representatives",
+          "url": "https://www.france24.com/en/major-protests-in-france-macron-convenes-student-representatives",
+          "publisher": "France 24"
+        },
+        {
+          "title": "French authorities ban some student protests after weekend looting and clashes",
+          "url": "https://www.france24.com/en/french-authorities-ban-some-student-protests-after-weekend-looting-and-clashes",
+          "publisher": "France 24"
+        },
+        {
+          "title": "Dembele to miss Ballon d’Or event as PSG game moved amid protests in France",
+          "url": "https://www.aljazeera.com/sports/2026/10/23/dembele-to-miss-ballon-dor-event-as-psg-game-moved-amid-protests-in-france?traffic_source=rss",
+          "publisher": "Al Jazeera"
+        }
+      ],
+      "headline": "France is putting 70,000 officers on the streets for a weekend of protests, while Macron talks to student representatives.",
+      "quick": {
+        "happened": "France plans to deploy 70,000 officers for the weekend, bans some student protests and has Macron meeting student representatives.",
+        "matters": "Reports say a PSG game has been moved and an NFL game in Paris could be cancelled, so the unrest is reaching events beyond France.",
+        "next": "Weekend protests are expected, and France awaits a Moody's verdict, with a downgrade widely expected, according to France 24."
+      }
+    },
+    {
       "at": "2026-10-23T13:00:04.052Z",
       "text": "Shops are barricaded in Lyon and Orléans, Euronews reports, and several Paris museums will close on Saturday, The Brussels Times says, as authorities and businesses brace for the weekend protests.",
       "sources": [
@@ -207,38 +239,6 @@
         "happened": "Macron meets student representatives and police before Saturday, when only union-led protests will be allowed, and Paris extends its curfew while the Louvre closes.",
         "matters": "Reports say unrest is raising French bond stress and may spread to other markets, and Paris art, fashion and sport events are being postponed.",
         "next": "Saturday's union-led protest is the next test, while a bill to make vandals pay for damage moves through parliament."
-      }
-    },
-    {
-      "at": "2026-10-23T05:56:04.070Z",
-      "text": "Reports say Macron will allow only union-led protests on Saturday and is meeting student representatives and police. Paris extends its curfew and the Louvre closes ahead of the weekend protest. A bill to make vandals pay for damage advances.",
-      "sources": [
-        {
-          "title": "Bill to make vandals pay for damage makes headway in wake of France's unrest",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOFBTXy1MWTVkQVIzU3BFUVRfMXEtNGE1NUlZaXFfd2NrWE9YSU1Bc3M1UEZlNlpOdW52S2ZhOW91a0VOTy0tNUNyVTNWVlRSVDVSclFoXzVBMXFWeU1MOTQwelQ5SHJOQzlOVkhYV1g3NnhaenJjZTlKaGcya1FfTzROazRnMzhPYjQtUWFkQ3EyazNLbFNtVXB1X0NMZXA4b3phS2pieFJldEpfS05XakpzTE8?oc=5",
-          "publisher": "RFI"
-        },
-        {
-          "title": "Live: Macron meets with student representatives and law enforcement ahead of new protests",
-          "url": "https://www.france24.com/en/europe/20261023-macron-meets-with-student-representatives-and-law-enforcement-ahead-of-new-protests",
-          "publisher": "France 24"
-        },
-        {
-          "title": "Macron says only union-led protests will be allowed on Saturday",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4xNWZmei04RDZzckNBZ25oUi1jWkZjSHhBZkJPLXVXSXNENEE1Q0xUM2NUTzhzUGgyU0VxdlR3R0EzZGx1WThqRmVZUGRnTUFLNGVqNnJZbEk?oc=5",
-          "publisher": "chinadailyhk"
-        },
-        {
-          "title": "Paris extends curfew as Louvre closes before weekend protest",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZG1aVHhGaU5lcnZ2RFhWNXdIam5oZmVpdTJRdVpmWDF1dFVYZWNRcHhlZFN1YTZPU25QVkROWEx2dW5KVS0teGRwRFJUNlRJTmJCZ2o3WktnWk5yLUt2dVhfd2Rhd0ZsN1dsZXphLUFxNjVWV3ZOS2JKdUZCeU9sWkp6bGpxb0pacW1kakdqbFBKRjVvaFRGaUs0bw?oc=5",
-          "publisher": "Brussels Signal"
-        }
-      ],
-      "headline": "Paris braces for Saturday protests under an extended curfew, and the unrest is raising worries about French bonds and the April 2027 election.",
-      "quick": {
-        "happened": "Reports say Macron will allow only union-led protests on Saturday, while Paris extends its curfew and the Louvre closes.",
-        "matters": "The unrest is adding stress to French bonds, and Vogue says it is putting off art, fashion and sport events in Paris.",
-        "next": "Fresh protests are due on Saturday 24 October, and The Brussels Times reports the military will support police."
       }
     }
   ],
