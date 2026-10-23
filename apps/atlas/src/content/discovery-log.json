@@ -1824,6 +1824,15 @@
   },
   "runs": [
     {
+      "at": "2026-10-23T22:00:56.031Z",
+      "screened": 0,
+      "accepted": [],
+      "rejected": [],
+      "existing": [],
+      "retired": [],
+      "skipped": "only 7 new uncovered headlines"
+    },
+    {
       "at": "2026-10-23T21:00:30.438Z",
       "screened": 140,
       "accepted": [
