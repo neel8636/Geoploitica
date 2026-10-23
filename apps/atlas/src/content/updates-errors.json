@@ -1,6 +1,8 @@
 {
-  "at": "2026-10-23T15:56:01.305Z",
+  "at": "2026-10-23T17:00:19.409Z",
   "tried": 12,
-  "ok": 12,
-  "errors": {}
+  "ok": 11,
+  "errors": {
+    "brazil-runoff-2026": "JSON object in the reply is not closed (stop: end_turn; reply starts: {\"text\":\"Brazil's federal prosecution office demands answers from Meta on the eve of the vote, and US lawmakers Jayapal )"
+  }
 }

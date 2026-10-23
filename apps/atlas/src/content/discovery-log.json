@@ -1,5 +1,5 @@
 {
-  "screenedAt": "2026-10-23T13:00:04.052Z",
+  "screenedAt": "2026-10-23T17:00:19.409Z",
   "judged": {
     "1eccdfad4d8e": {
       "at": "2026-10-22T14:03:49.910Z",
@@ -58,7 +58,7 @@
       "verdict": "existing"
     },
     "69f578ee4a88": {
-      "at": "2026-10-23T13:00:04.052Z",
+      "at": "2026-10-23T17:00:19.409Z",
       "verdict": "existing"
     },
     "a47cd477ffc1": {
@@ -74,7 +74,7 @@
       "verdict": "reject"
     },
     "b2917dd007e7": {
-      "at": "2026-10-23T09:59:54.200Z",
+      "at": "2026-10-23T17:00:19.409Z",
       "verdict": "reject"
     },
     "1225d6e3643d": {
@@ -586,7 +586,7 @@
       "verdict": "accept"
     },
     "44ac378685be": {
-      "at": "2026-10-23T09:59:54.200Z",
+      "at": "2026-10-23T17:00:19.409Z",
       "verdict": "reject"
     },
     "4c4dc836a370": {
@@ -686,7 +686,7 @@
       "verdict": "no story"
     },
     "ed88de50ca28": {
-      "at": "2026-10-23T09:59:54.200Z",
+      "at": "2026-10-23T17:00:19.409Z",
       "verdict": "reject"
     },
     "42856fc57dd7": {
@@ -910,11 +910,11 @@
       "verdict": "no story"
     },
     "c7a012896dca": {
-      "at": "2026-10-23T13:00:04.052Z",
+      "at": "2026-10-23T17:00:19.409Z",
       "verdict": "existing"
     },
     "895da49a496a": {
-      "at": "2026-10-23T13:00:04.052Z",
+      "at": "2026-10-23T17:00:19.409Z",
       "verdict": "reject"
     },
     "bbae1fcdf5c4": {
@@ -1126,7 +1126,7 @@
       "verdict": "accept"
     },
     "807e7821a156": {
-      "at": "2026-10-23T09:59:54.200Z",
+      "at": "2026-10-23T17:00:19.409Z",
       "verdict": "reject"
     },
     "6d1c11498368": {
@@ -1238,7 +1238,7 @@
       "verdict": "existing"
     },
     "ba57adb7a991": {
-      "at": "2026-10-23T09:59:54.200Z",
+      "at": "2026-10-23T17:00:19.409Z",
       "verdict": "reject"
     },
     "cb72d1bbfa0c": {
@@ -1262,7 +1262,7 @@
       "verdict": "reject"
     },
     "77fd204f109f": {
-      "at": "2026-10-23T09:59:54.200Z",
+      "at": "2026-10-23T17:00:19.409Z",
       "verdict": "reject"
     },
     "f9c375ea1e90": {
@@ -1378,7 +1378,7 @@
       "verdict": "no story"
     },
     "537af07b2733": {
-      "at": "2026-10-23T13:00:04.052Z",
+      "at": "2026-10-23T17:00:19.409Z",
       "verdict": "existing"
     },
     "fba667d0691d": {
@@ -1386,7 +1386,7 @@
       "verdict": "existing"
     },
     "44b9cc41405d": {
-      "at": "2026-10-23T13:00:04.052Z",
+      "at": "2026-10-23T17:00:19.409Z",
       "verdict": "existing"
     },
     "e4755efc3c95": {
@@ -1394,7 +1394,7 @@
       "verdict": "existing"
     },
     "7384e5e9f05b": {
-      "at": "2026-10-23T13:00:04.052Z",
+      "at": "2026-10-23T17:00:19.409Z",
       "verdict": "reject"
     },
     "d14103109644": {
@@ -1478,8 +1478,8 @@
       "verdict": "no story"
     },
     "ba45162a1510": {
-      "at": "2026-10-23T13:00:04.052Z",
-      "verdict": "no story"
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "reject"
     },
     "676bfadc26ed": {
       "at": "2026-10-23T13:00:04.052Z",
@@ -1528,9 +1528,304 @@
     "b6ecef602075": {
       "at": "2026-10-23T13:00:04.052Z",
       "verdict": "no story"
+    },
+    "e6da4cfb4d8d": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "existing"
+    },
+    "62d900103eb4": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "existing"
+    },
+    "8e12c9667319": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "existing"
+    },
+    "0bf52164d348": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "reject"
+    },
+    "21ad1bb958f4": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "reject"
+    },
+    "a01736f45916": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "reject"
+    },
+    "ac5e98862ed5": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "reject"
+    },
+    "cc7e114f0069": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "reject"
+    },
+    "6897a9d426b2": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "reject"
+    },
+    "fb263a47871a": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "reject"
+    },
+    "10a2d7c6a8b1": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "reject"
+    },
+    "255affda73ae": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "reject"
+    },
+    "718a5f8551d9": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "reject"
+    },
+    "e450d03e81ee": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "reject"
+    },
+    "11d110340d6c": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "0a277f5b0937": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "9c4b47b27a89": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "7c46bbe37f8b": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "6b69ccd86c07": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "7e69ef251b52": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "ffb07b720f11": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "78e3adcd8242": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "93f3d755db6d": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "cfa2757acc9e": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "aa53df98fb20": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "a6f4041bd35b": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "400254d6d58e": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "4892ae6e7913": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "d81299cf1a7e": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "8fa9fec11a44": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "5302ca6ad515": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "0426de5eae1c": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "f1554b1107fa": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "f560d7226bcf": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "d1225ccd6133": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "2c4345d22418": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "80c603c2aff7": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "456eb0d18328": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "a7b7788f4977": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "60c1555134e2": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "fd4d41e21ca3": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "079ffecac576": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "a25a67ce00b3": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "dfdd9f293412": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "c2d44a0085f0": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "9618adb3d0fa": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
+    },
+    "c1b58413a2fc": {
+      "at": "2026-10-23T17:00:19.409Z",
+      "verdict": "no story"
     }
   },
   "runs": [
+    {
+      "at": "2026-10-23T17:00:19.409Z",
+      "screened": 140,
+      "accepted": [],
+      "rejected": [
+        {
+          "title": "Critical PHP flaws trigger a global security scramble",
+          "reason": "It is a software vulnerability story with no state or policy decision driving it, and no clear cross-border channel.",
+          "headlines": 4,
+          "publishers": 4
+        },
+        {
+          "title": "Gunmen kill seven at a church funeral in Jordan",
+          "reason": "It is a criminal shooting with no identified state actor or cross-border effect so far.",
+          "headlines": 3,
+          "publishers": 3
+        },
+        {
+          "title": "Deadly shooting west of Paris investigated as terrorism",
+          "reason": "It is a single attack with no stated cross-border or policy ripple yet.",
+          "headlines": 4,
+          "publishers": 3
+        },
+        {
+          "title": "Israel demolishes buildings in Hebron and closes the West Bank after soldiers are killed",
+          "reason": "It is a local security response with no clear channel to another country's decisions or to flows of money, goods or people across a border.",
+          "headlines": 3,
+          "publishers": 3
+        },
+        {
+          "title": "Saab orders triple after Gripen deal with Ukraine",
+          "reason": "It is company results news and was already rejected.",
+          "headlines": 1,
+          "publishers": 1
+        },
+        {
+          "title": "Ukraine says Starlink is still restricted",
+          "reason": "It is a dispute over a company's service with no state decision reported.",
+          "headlines": 1,
+          "publishers": 1
+        },
+        {
+          "title": "UN secretary-general race enters its decisive phase",
+          "reason": "A new contender arriving is process news with no dated decision and no clear cross-border channel.",
+          "headlines": 1,
+          "publishers": 1
+        },
+        {
+          "title": "Europe warned of sabotage and espionage threats",
+          "reason": "These are statements and warnings rather than a new decision or event.",
+          "headlines": 2,
+          "publishers": 2
+        },
+        {
+          "title": "Doctors describe paramilitary attacks on Sudanese hospitals",
+          "reason": "This is a testimony report and not a new development.",
+          "headlines": 1,
+          "publishers": 1
+        }
+      ],
+      "existing": [
+        {
+          "title": "European and Middle East ministers urge US-Iran diplomacy as forces move to the region",
+          "reason": "This is part of the ongoing US-Israel war on Iran and the Gulf crisis already on the map.",
+          "headlines": 2,
+          "publishers": 2,
+          "event": "gulf-war-energy-shock"
+        },
+        {
+          "title": "Russia agrees to new peace talks as Ukraine is struck",
+          "reason": "This continues the Russia-Ukraine summit diplomacy already mapped.",
+          "headlines": 1,
+          "publishers": 1,
+          "event": "ukraine-summit-diplomacy"
+        },
+        {
+          "title": "EU states wrangle over the 2028-2034 budget",
+          "reason": "This is the budget negotiation already on the map.",
+          "headlines": 1,
+          "publishers": 1,
+          "event": "eu-budget-2028-2034"
+        },
+        {
+          "title": "French bonds face another stress test",
+          "reason": "This is about the French bond stress already covered.",
+          "headlines": 1,
+          "publishers": 1,
+          "event": "france-debt-stress"
+        },
+        {
+          "title": "French interior minister details security ahead of protests",
+          "reason": "This belongs to France's autumn unrest, already on the map.",
+          "headlines": 1,
+          "publishers": 1,
+          "event": "france-unrest-2026"
+        },
+        {
+          "title": "Trump's economic approval hits a low before the midterms",
+          "reason": "This is part of the US midterms event already mapped.",
+          "headlines": 1,
+          "publishers": 1,
+          "event": "us-midterms-2026"
+        }
+      ],
+      "retired": [],
+      "skipped": ""
+    },
     {
       "at": "2026-10-23T15:56:01.305Z",
       "screened": 0,
