@@ -1,6 +1,28 @@
 {
   "france-unrest-2026": [
     {
+      "at": "2026-10-23T13:00:04.052Z",
+      "text": "Shops are barricaded in Lyon and Orléans, Euronews reports, and several Paris museums will close on Saturday, The Brussels Times says, as authorities and businesses brace for the weekend protests.",
+      "sources": [
+        {
+          "title": "France: shops barricaded in Lyon and Orléans for possible unrest as protests loom",
+          "url": "https://www.euronews.com/video/2026/10/23/france-shops-barricaded-in-lyon-and-orleans-for-possible-unrest-as-protests-loom",
+          "publisher": "Euronews"
+        },
+        {
+          "title": "Several museums in Paris will be closed on Saturday due to protests",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQY3Y1UjBRd3Z6N1BkRWxsSGt6c21MQjZUV2tMeElIZGIxbU1jUTVxaGVDT25HRk1zRURud0JFWHZJdFN2SGZDazNudTVmYkVsbF9lNGVoVmJsMGhTOFd3Ui1yVTVKUDdBWHZESEFTaG1BLWM2VGxwcHBta0FSOGhBeTItMk0tV2tDdmtqT3ctdW01MjFxaHBmeGpHbHdER01Od2lReW1JZDZaYlVi?oc=5",
+          "publisher": "The Brussels Times"
+        }
+      ],
+      "headline": "France braces for Saturday's protests with 70,000 officers, barricaded shops and closed museums, as cost-of-living anger heads toward next April's presidential election.",
+      "quick": {
+        "happened": "France is deploying 70,000 officers for Saturday's protests, some student marches are banned, and shops in Lyon and Orléans are barricaded.",
+        "matters": "Anger over living costs and fuel prices adds political risk to French borrowing and to the April 2027 presidential vote.",
+        "next": "Saturday's protest, 24 October, is the next test of whether the unrest grows or the heavy security holds."
+      }
+    },
+    {
       "at": "2026-10-23T11:28:27.648Z",
       "text": "France is to mobilise 70,000 security forces for Saturday's protest, Reuters reports, and authorities ban some student protests after the weekend looting and clashes, France 24 says. The interior minister promises to be uncompromising with vandals.",
       "sources": [
@@ -218,31 +240,46 @@
         "matters": "The unrest is adding stress to French bonds, and Vogue says it is putting off art, fashion and sport events in Paris.",
         "next": "Fresh protests are due on Saturday 24 October, and The Brussels Times reports the military will support police."
       }
-    },
-    {
-      "at": "2026-10-23T04:59:33.225Z",
-      "text": "France plans to deploy the military to support police ahead of fresh protests, The Brussels Times reports. Vogue says more planned riots are putting off art, fashion and sport events in Paris.",
-      "sources": [
-        {
-          "title": "More Planned Riots Put Off Art, Fashion and Sport Events in Paris",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTEpNcnkxSkRNZ2dRVUZmbnpGbG1MakFlc0hyZ1ZOQkh1NDhqSlYzcVFqaE1Eejl0cUpIYWRJbkRnaWN1UHpVT0p1eFRkaUNZTEl5MGR2QWJ0NWI5VXZZMlhLWnFDSEFsY2JqXy00VmZZb29hSWRVeWtWZ3oxQkxSVVpqRlZkdkl4TDU3Zk1jMmcwTkRZem12U1pB?oc=5",
-          "publisher": "Vogue"
-        },
-        {
-          "title": "France to deploy military in support of police ahead of fresh protests",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWVNRMTdIQTR5dnU2NnF6d05tZVNRR05jYUpud1VfVGFIdFlQcHJGbHZYa3RqMkZnQ2I1dVV0X0FXYnRWUXVBa2NRV0hScWthXzZqMzczVFR1ZEpuUV9nZ3VwRFNKdTBXYXh5X0RoQ052cUl4NGNwN1EzM2RBbC11Q2NEdnBfZy1YaHRKVFpUX3FXdVl6MUtNek1iamllOGJSb2NtcklEWENJdGJKTnk0ZFJ0OG0?oc=5",
-          "publisher": "The Brussels Times"
-        }
-      ],
-      "headline": "France is sending the military to back police before new protests, while unrest and bond worries keep pressing on the presidential race.",
-      "quick": {
-        "happened": "Reports say France will deploy the military to support police before fresh protests, as authorities seek to ban or curb them.",
-        "matters": "Bloomberg says French bond stress is intensifying as the risk of more protests grows, which weighs on a state that cannot afford to buy peace.",
-        "next": "Fresh protests are expected this weekend, with Art Basel Paris shut for them and the Louvre and other museums planning to close Saturday."
-      }
     }
   ],
   "ukraine-summit-diplomacy": [
+    {
+      "at": "2026-10-23T13:00:04.052Z",
+      "text": "The Kremlin says Russia-Ukraine talks are planned for November in the UAE. Separately, reports say Ukrainian troops still face Starlink problems and Ukraine plans its own satellite system.",
+      "sources": [
+        {
+          "title": "Russia-Ukraine talks planned for November in UAE: Kremlin",
+          "url": "https://www.aljazeera.com/news/2026/10/23/russia-ukraine-talks-planned-for-november-in-uae-kremlin?traffic_source=rss",
+          "publisher": "Al Jazeera"
+        },
+        {
+          "title": "Ukraine plans independent satellite system as Starlink issues persist",
+          "url": "https://www.aljazeera.com/news/2026/10/23/ukraine-plans-independent-satellite-system-as-starlink-issues-persist?traffic_source=rss",
+          "publisher": "Al Jazeera"
+        },
+        {
+          "title": "Ukraine troops report ongoing problems with Starlink satellite network",
+          "url": "https://www.theguardian.com/world/2026/oct/23/ukraine-troops-report-ongoing-problems-with-starlink-satellite-network",
+          "publisher": "The Guardian World"
+        },
+        {
+          "title": "Putin Says Russia Ready for Ukraine Talks, Rejects Short Ceasefire",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeFotaWwyTXd2Mk1JRW5Md01IdkRlQzFLXzFJZ1M4eUVkWUxZVXJSeUNmWFJVaFAxa1RpVGFrUnVVLXRFemExdE85NkpwVUVNSTIwRnJwNEo0UE92YVU3Q1JZaVdtdU5LUGR6Y1JoeFVlNmtyWVBjc0R1djJpcDFxdjFrdWU1TzRDUF8zR1UtNXFSU1A3RHJyZ2FXdDFEcTJ5NGlTenM2U0plV1pRcWc?oc=5",
+          "publisher": "Kurdistan24"
+        },
+        {
+          "title": "Putin Says Renewed Peace Talks Must Focus on Security for Russia, Ukraine and Europe Overall",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTVdqWGphNTRXVENIcWIzd0kyYkFXcUxSdzAxclNsbFdzRFI5cnEyc1RHTHlPLVEzeGM3SmUzbTJRbXFsSW5RZm5yMW1xSGxpLUwteWZFb3lfUm5nXzFhUndPdFl4YzVZTXF3c3UyZGY4YWxLRGs4aG5Fd3MwX1BLNkljaU9KdFc0SGduVEczZFdoRl9YakxxT01hUm1IZFFlcHFILTZnQ3NmeTlaR3VuOVpja1lBeVFYajRoNEUyVzFoZF82Z0FTeXpPdWZ2c0kwZ01vRzhiMA?oc=5",
+          "publisher": "The Moscow Times"
+        }
+      ],
+      "headline": "The Kremlin says Russia and Ukraine will hold talks in the UAE in November, while Putin still wants a bigger summit with Trump and Xi.",
+      "quick": {
+        "happened": "The Kremlin says Russia-Ukraine talks are planned for November in the UAE, and Putin says Russia is ready to resume three-way talks with US mediation.",
+        "matters": "Putin says talks must cover security for Russia, Ukraine and Europe overall, and he rejects a short ceasefire, so any deal could reshape Europe's security.",
+        "next": "Talks are planned for November in the UAE, according to the Kremlin; the headlines give no exact date."
+      }
+    },
     {
       "at": "2026-10-23T10:59:49.636Z",
       "text": "Putin says renewed talks must cover security for Russia, Ukraine and Europe overall, and reports say he is ready to resume three-way talks after meeting Witkoff. Russia and Ukraine keep trading strikes.",
@@ -471,56 +508,51 @@
         "matters": "Ukraine aid is a campaign issue in France's April 2027 election and shapes demand on the EU's 2028-2034 budget.",
         "next": "Zelensky says Ukraine is ready for talks at the G20 summit, but it has had no signal from the US yet."
       }
-    },
-    {
-      "at": "2026-10-22T18:59:01.846Z",
-      "text": "Russia agrees to resume peace talks after Putin meets a Trump envoy, then strikes Kyiv with missiles and drones within hours. Zelensky says the attacks show no change in Russia's attitude. A monastery is reportedly hit.",
-      "sources": [
-        {
-          "title": "Putin agrees to resume peace talks with Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE14TlJkdDc2YXZzb1NfZ1B0RmtxWUMzcFRNUmRTUXR1bmpDMGg5SjdXLUNGSmRVWGJLc0FBZFY5cGRVN3hHUjIwUEdiaF9wNjJfcE1kWkxQb2xtd2s2RTJMNkNZQlk4T1pSby1uU29FVmQ5dnQwWTl5bXdR?oc=5",
-          "publisher": "Ticker News"
-        },
-        {
-          "title": "Monastery hit in new wave of Russian missile attacks on Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOYk4yTXpzUlJpMXRDdTdZWE1ra0FkMDNiUzBjSFhFLXRfVEFocl9ybVEwVmRsMHVwdjZfYTRiY2V5T0RkeVBxbFdkUUVSREo1RGJKN3R3SnJQM1R2clMxek1CZ0c3aEozekFVeUNLTTd4YThrZ3h6ank3T2w1eGpZaHNaN2RVWUxUWXJJeWxCZTFBVlJmVmZrdHpvRnBZMkthWmVtVlNaR2s4bFNOYWh6clZYMGM1NUIzRkl1RkxqQ1Aza2ZhSG96aHVuMHB3OGdMVjMyN2x3?oc=5",
-          "publisher": "Scripps News"
-        },
-        {
-          "title": "Putin agrees to resume Ukraine peace talks after meeting with Trump envoy",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZEQ0dVN5RnI4V01pWkpuM2pZbXRJUTEwSDFDM1ZlNG1mQ0U3M1lfRm5oZnYySFRrQjlYLVB3OU4weF9mOV92aVJSeFN2M1J3ajczdmNTMU1vOXZRazhmcmpQN05La1B0cG83M1lPQ0V0cmlRX0JBcXRZTXk1ZFdGaGpldEZCVGJUN19TUjJ2T3Q0QzNIQWNQTFZHSkw5dC10aENGRjBxaXlST0E?oc=5",
-          "publisher": "TMJ4 News"
-        },
-        {
-          "title": "Russia pounds Ukraine's capital Kyiv with missiles and drones, hours after agreeing to peace talks",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1saDFuT2F3bEpyOE0tOWluNXBPSHJkVVB0bEN4S0puZW9heVY3NHl3LVJnMlFDTkNxaUZ4YkZWUUdiel95d05tM2tOSVJya0NKcWp6SjQzbUpWTlg4WnBiSFIwUEItdGVydlBqbG1JMU5uT0l4OEZHVA?oc=5",
-          "publisher": "CBC"
-        },
-        {
-          "title": "‘No change’ in Russia’s attitude on war shown by deadly attacks, Zelensky says",
-          "url": "https://www.france24.com/en/europe/20261022-no-change-russia-attitude-war-after-deadly-attacks-zelensky-says",
-          "publisher": "France 24"
-        },
-        {
-          "title": "Russia bombards Kyiv with missiles hours after agreeing to resume talks with Ukraine",
-          "url": "https://www.theguardian.com/world/2026/oct/22/russia-missile-attack-kyiv-hours-after-agreeing-to-talks-ukraine",
-          "publisher": "The Guardian World"
-        },
-        {
-          "title": "Russia agrees to resume trilateral peace talks on Ukraine war",
-          "url": "https://www.france24.com/en/russia-agrees-to-resume-trilateral-peace-talks-on-ukraine-war",
-          "publisher": "France 24"
-        }
-      ],
-      "headline": "Russia says it will restart peace talks, then hits Kyiv with missiles within hours, leaving the summit idea and any deal on shaky ground.",
-      "quick": {
-        "happened": "Putin met a Trump envoy and agreed to resume talks with Ukraine, then Russia struck Kyiv with missiles and drones within hours.",
-        "matters": "Heavy strikes right after a talks pledge raise doubts that a deal is near, which keeps pressure on aid, budgets and energy far from Ukraine.",
-        "next": "Headlines give no date for the resumed talks; a Trump wish for a Putin and Zelensky deal at a G20 in Miami is reported, and the Kremlin has responded."
-      }
     }
   ],
   "gulf-war-energy-shock": [
+    {
+      "at": "2026-10-23T13:00:04.052Z",
+      "text": "Reports say Iran says seven tankers were hit in one night near Hormuz, and an oil spill reaches UAE beaches. Reports say US and Israel draw up strike plans for after November 3. Trump accuses Iran of inventing the attacks. Brent hits a five-month high.",
+      "sources": [
+        {
+          "title": "U.S. oil rises above $100, Brent at five-month high as Iran says it’s prepared for warfare",
+          "url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html",
+          "publisher": "CNBC World"
+        },
+        {
+          "title": "Oil hits five-month high amid fears US will renew strikes on Iran",
+          "url": "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran",
+          "publisher": "The Guardian World"
+        },
+        {
+          "title": "Iran Says 7 Oil Tankers Hit In One Night In Strait Of Hormuz As Fears Of Return To War Grow",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZXlKaHZSV2xkaXFHTU5uWUJMTTVhSFA5VGNoYWtIZXRPOFBvaDdja2dPc1Q5TVl2OXhaNGFIblF4S0kyMTUyRElBZTh6Z3hGN29OcnRXMVNpM2NyalcxMDA1Q19DRzV1aFBDNjJQOTAwZXhTaUVubVE0QjQ0bFM3cXk1b2JHd2N6SmZ5SUh3cGZHU0xUU2g3dTFzSWhDNkVxekxOaExFdlg5MzhBY081bWpiTGVVWFVSLTIxeFlmYw?oc=5",
+          "publisher": "Marine Insight"
+        },
+        {
+          "title": "US and Israel Draw Up Iran Strike Plans for After November 3",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ZZnBJZi03VGFvQWg4YVZYdHk5Mjd0RzQ2YXc4TG1reFJ6RWw0dTd5Z2lUWWFXbGc1TzhjUmctYW1NY1poWWk2dTh1NHJrTDhuSTJoT2tIZkRDRjJhMElXbjVRXzRpQmM?oc=5",
+          "publisher": "houseofsaud.com"
+        },
+        {
+          "title": "Trump accuses Iran of making up attacks and mines to raise oil prices",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNXNSb2JEd1RMaG9rV1hsVzFfNXloVDFQVXIxaHYtV3haWWY0azRESmJ0aGhBOEgwMUgyLXp5SDVRbGJPLVV3SzNHalN1MDd3Q1BobW5DQ1VwLXIzLUdWUDVWbW11aVdHcFF6bnVBYW50S29uRk84bU1mdmEtZ3djemZpMnI0UdIBiwFBVV95cUxOREVDZDNSbFRqVzk0OGNiSlllWGNCTmowU1V5czBKak1WaGpFbVNiSTQ5ODZ5TFhSdFNOU2huZzk4UGZ6SGgtNnhQRi0wZEJwOE94UUJFdU4yRUE3OEFhd1k0Yjk3SlJGSVV0Qm9ZaER1Tl9Gd3UyRWNuMmFhQkdkaW9EOUE0NTZvYkFN?oc=5",
+          "publisher": "NewsNation"
+        },
+        {
+          "title": "Oil spill hits UAE beaches as tanker attacks multiply near Hormuz",
+          "url": "https://www.euronews.com/2026/10/23/oil-spill-hits-uae-beaches-as-tanker-attacks-multiply-near-hormuz",
+          "publisher": "Euronews"
+        }
+      ],
+      "headline": "Tanker attacks near Hormuz and talk of new US strikes push oil to a five-month high, keeping fuel costs up for households.",
+      "quick": {
+        "happened": "Iran says seven tankers were hit in one night near Hormuz, and an oil spill reaches UAE beaches. Trump says Iran invents the attacks.",
+        "matters": "Higher oil feeds pump prices and household budgets, adding to unrest in France and Italy and to energy-driven inflation facing the ECB.",
+        "next": "Reports say the US and Israel plan strikes after November 3, and a U.S. envoy expects the war to last another year."
+      }
+    },
     {
       "at": "2026-10-23T10:59:49.636Z",
       "text": "Reports say U.S. envoy Mike Waltz expects the war to run another year, with oil past $114. The Saudi-led coalition intercepts a wave of overnight attacks, and one outlet says Hormuz shipping attacks are the highest since March.",
@@ -714,56 +746,36 @@
         "matters": "Higher oil and tanker rates push up fuel and freight costs, and US gas is unlikely to fall below $4 a gallon before the midterms, some experts say.",
         "next": "Sources say the US and Israel are planning to resume strikes on Iran after the election, though no date is given."
       }
-    },
-    {
-      "at": "2026-10-22T21:59:11.821Z",
-      "text": "Oil jumps after Houthi strikes and Iranian shipping attacks, and stocks tumble as Iran war worries collide with AI spending fears. Trump warns of more strikes, and sources say the US and Israel are planning to resume attacks after the election.",
-      "sources": [
-        {
-          "title": "Sharp drops for AI stocks overwhelm markets worldwide as oil prices jump",
-          "url": "https://www.theguardian.com/business/2026/oct/22/stock-markets-drop-ai-oil",
-          "publisher": "The Guardian World"
-        },
-        {
-          "title": "Trump warns of more strikes on Iran",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1kWEhlaklHM1FDZ3JJVkc1QVhEN1FHLWhtU25UOWw4cFY3QUp3dy1KUEVuSmxnNU5vbXp5bEdNMmdkb1FCQWNhRk0yVjJSbDBLaXl4UlJhdXBuS0x0d1V1Rml6R0hzaksyb3c?oc=5",
-          "publisher": "Ticker News"
-        },
-        {
-          "title": "Oil Prices Jump After Houthi Strikes and Iranian Shipping Attacks",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWW1DNFFSdW93ckIyNGNFNkJ4ekpscEZiMGtUQjJVSm9rZFdrVGg4VkozMmNHQVd4ZzFvd1hvZDVqV2dVOVJtbFhtUkFoX3d6b0NQYTQ0d3VzdER0dUVvY3R5OEUwS1FoZkNYdE1UNnRMY1dha1AxcWRPMDRmanh1TDZ4NmNXVGQ3TF92M2NYZk9ZcE5hdjlzcWRjMllaTGRBTHk2OVA3RQ?oc=5",
-          "publisher": "The Maritime Executive"
-        },
-        {
-          "title": "US and Israel drawing up plans to resume attacks on Iran post-election, sources say",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPd19fS1N5MG9ScWZka1NXVEM3S1NoUlBSTURnR09nR3Y5SGIxRFFpRktHNHZXeElmbzFPcTBkMUdNNXE5MG01aWhRVmhKSTVGZVcwZVBNRWxHTGxQc1JpQWZBRnBLNTVPWkoyRnFIZkxSTnI0SktYRGQ5dlh2aWxhSWhOVVlMVjktd1hHak1PV19HbXpyNS0waGRfVXXSAaIBQVVfeXFMUGJ0OE81VjRRZ1dhN1gtLVd2d2szU19XZzRNREJQdWV6OG1mRUhtQ0JTWXZYc3Jqa0FOdkFoWTF3b19JMEx3YW9XYkJRbXRlVHkxcWpPbWx3bVVydFBySV9yMW9tVFZRVWljYUNXeEEwNXMzSWJmeEdwdTZwaHh6VG52alZDQ3dmcU5NTXE4MWk1V0w4ZHMzX2FkNXUydndhTktR?oc=5",
-          "publisher": "ABC News - Breaking News, Latest News and Videos"
-        },
-        {
-          "title": "Gas prices unlikely to fall below $4 a gallon before midterms, some experts say",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZ3Z1R3J5SWEtcnJqMGdDUDRNa1pFMG5rajNmMmo1a2hYNEtSWGc3ejlzc2FWaF9JYlI1ZC1QMURXY3g5aUxyd1VhdVJSZ2RiTzQ4aFFQekthN1pZTDdjdWE5MGtzNENpa3pNWUFvTDN0ZmxnemVsTTlyZUljeW1UZk9fZjZyRVlvdHpjRnZuaTlMWC1RbC1fRXJxa9IBoAFBVV95cUxPRjBNS2w5blRaN0NMdTJTLUF4WVQtdmZRanl5cHFIcXpiS3lsUnprWUpHZFhVSDh4QWoxclhIcW92NjJCSjYyZ016R2JJMEo0NzQ1NElGSThZSmplWXZGR1lLYnlGUkhTb2hmUGh4cFM4ME5XLWpQTHdVOVZRb29Ha0xGWXRtaTd2dEdVaFN4bzd3ZnQ0ZE1VRXJGakdvaU94?oc=5",
-          "publisher": "ABC News - Breaking News, Latest News and Videos"
-        },
-        {
-          "title": "Markets tumble as concerns about Iran war and high AI spending collide",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSVY4cFhVNmoxak9SOVdrbDh3NkozUkd0Wmc3YmtsWW9PWUFQWFgtb25pX2xhV2liWmxyRktLSjgwRkxLRERjaTk0Y1RyLWdFeVVHNFphUDY4aDZyVWhHdWltNnBtM0JWTTFVRXNjY2prMWZnRlJpeUFMeGxnb1VlOGlFWE5FRGNtNlpEUUtKVVFzT2J5dWc?oc=5",
-          "publisher": "NBC News"
-        },
-        {
-          "title": "Iran says 7 tankers damaged in Strait of Hormuz, and other Mideast news",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcmxkSUw3N3BIRncxYTA1MkE4Y1JuX0dKaG1kSU1jZElzcFVoWFk4REluNnd2VjZZMFo2S0c4U1k4VG9QaC03RF9zakxFQWpZQURfRTdLazEyaXFETmtNS2Q0TjJHamY2cTVPQ3JaRlBZZHhoRS11ZHFLblp3am05aGpaT2hUcW5UZDQ5bFJ4SGpjd0k0NVpiLTZFQlA2RVpFaHJZMA?oc=5",
-          "publisher": "AP News"
-        }
-      ],
-      "headline": "Oil jumps again on new attacks around Gulf shipping, keeping fuel costs high and adding strain to household budgets.",
-      "quick": {
-        "happened": "Oil jumps after Houthi strikes and Iranian attacks on shipping, and Iran says seven tankers were damaged in the Strait of Hormuz.",
-        "matters": "Higher oil and tanker rates keep pump prices up, and some experts say US gas is unlikely to fall below $4 a gallon before the midterms.",
-        "next": "Sources say the US and Israel are drawing up plans to resume attacks on Iran after the election; no date is given."
-      }
     }
   ],
   "apec-shenzhen-2026": [
+    {
+      "at": "2026-10-23T13:00:04.052Z",
+      "text": "Reports say US and South Korean officials now see little chance of a Trump-Kim meeting in 2026. Pyongyang stays silent, and one report says North Korea has found new leverage with Russia and China.",
+      "sources": [
+        {
+          "title": "EXCLUSIVE: US, South Korean officials see little chance of Trump-Kim meeting this year",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVkw3ZXVpd3NUV2JqelBpckw5WnBRUUJuNE5fcDZJZ1VtVDlBTmI0Uk5paGdNZWV5ZjlnTWQxeVVwZktyeTF3TER5bzdGUWpNOEpfeGNjVWQyazM5dEVqRDYyd19PUHg1ajU1cjNIUFg1VHJKT3ROdkp3V0FBY0FNVENxbldkMlNaa1BfYnVXcVFmTzZTcDQ2VWZKWmVoaWNuT2x0Tk53WDJ5aWdCaGVTRWVrNXpjMUxBMW44?oc=5",
+          "publisher": "Reuters"
+        },
+        {
+          "title": "US, South Korean officials see little chance of Trump-Kim meeting in 2026",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdC0xZG5vS3l0eXZYWHFqQWNLb251MXR5bUNGWmM3elQtc3VKaF9laXBqQmRSMVh6U1BoWlV0SEc1RjhLTFB3bUdUdEkzamNZN3NVVmpOMGxZVVQwenl4RDRUbE1tc2lqN21lOG9CZmVPQ0VQMDFoSGJDVDBTWWdmRVRnUmJhTTVpOU9wdGNUd2E0b3N3TS1PWkpvSDM2dFhyRjBtQmkxZUxHRWw1Z1BBNDhPbGZrYUxWYlpCc3IzTHE?oc=5",
+          "publisher": "The Straits Times"
+        },
+        {
+          "title": "Trump-Kim summit hopes fade as North Korea finds new leverage with Russia, China",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSU45T21pb1puZlRDeW9PaGpaaEliTlkxdUcxRmN4N09fcmlGMkp0dUZHVzVPLXV0alN4a05nLWc4b2Y0dWNSQl9UdlRBYmpYRHYwX1BQbThOajJ4WnZZTjZwb25PYXByeVFmOHd1UkZPenVkb1hyYzBPOVhDWTlscDg2d29XOEtRQnNiOS0talltLWxrZFp1dFpXYlU5VnhCOTZlY2oxcDFtelBaQ3V3SGg3VHlYRlo1MVg5VzZ3NzNUcndNVHhhSUtRanFLejTSAdQBQVVfeXFMT2IteVdwNEVSa0dxbFBrQUNqQUdSSHpLOW91ejVERE1DMmtNNWVkQTVEZkF6RGZVcU9DcDhxM203aTJpOEhoX0htUW5sRF9QVmIyRjAyM3JGYVdSdU9SSVU3bUJTSnY4dm93OVIyZExzU1REYnFVbkNhQVVwdWRVczVHRUlDZlRjN2N3Y3NMOGdhbklzU0xHT1ZBQmdoNzNjQjdYcEdJOUpJX2VQOTBQOG92VV9INUQzX3RXN3FCWU9yNnQxeWJPQmxEcTVGMnZ3TmI5MFA?oc=5",
+          "publisher": "Malay Mail"
+        }
+      ],
+      "headline": "Trump is due in Shenzhen on 18-19 November, but a meeting with Kim Jong Un on the trip looks increasingly unlikely.",
+      "quick": {
+        "happened": "Reports say US and South Korean officials see little chance of a Trump-Kim meeting this year, as North Korea leaves Trump's outreach unanswered.",
+        "matters": "Beijing hopes the summit brings US tariff relief, and whether Trump meets Kim bears on North Korea's recent missile tests.",
+        "next": "Trump is due at the APEC leaders' meeting in Shenzhen on 18-19 November."
+      }
+    },
     {
       "at": "2026-10-23T08:59:52.141Z",
       "text": "Reports say the Kremlin sees China as a possible venue for a Trump, Xi and Putin summit on ending the Ukraine war. Trump's outreach to Kim ahead of APEC still gets no reply from Pyongyang, reports say.",
@@ -942,27 +954,6 @@
         "matters": "The summit could shape US tariffs on Chinese goods, and talks on Ukraine and North Korea may use it as a venue.",
         "next": "APEC leaders meet in Shenzhen on 18-19 November, and the Kremlin says Russia, China and the US have not ruled out talks there."
       }
-    },
-    {
-      "at": "2026-10-21T20:37:09.956Z",
-      "text": "Little is materially new since the last line. The Kremlin says Russia, China and the US have not ruled out talks at APEC, and a Korean outlet reports Putin proposed a Yalta summit with Trump and Xi. Reports say China would host a trilateral meeting in Shenzhen.",
-      "sources": [
-        {
-          "title": "Russia, China and US have not ruled out APEC summit talks, Kremlin says",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVFdmLUtBdFVvc2MtWkhSNC1reGdWQUcwNlNadXJZSXJJN3RaWXFLYU5CMVBYMHlmVTZXUVFiTE84UkFPRlJXQ0JYbmJhRkUyWTU3OGlobTVWeDFzeTBKcEduSHJGRDNhNHBLbUE3WlNoaG4xTTRVb1ZKR1NaaGQzU3VuSXNLWGQzTjdQcEtfZUFmYURKczFSSktVT0g0UGpsNkpYMXBzdHE?oc=5",
-          "publisher": "Operativ Məlumat Mərkəzi"
-        },
-        {
-          "title": "Putin Proposes Yalta Summit With Trump, Xi",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaFBoWkNkVElKVUJTMWs4VTlpSGJqOVBiNWdJcDFCUm1zb0RYSEF3M29JRDdvZFFyTjN2VFZ4Z3hYbjJXSnZ0bXhlSTh0Y1hGTUVCbHh6dVJURzdON3UwcVJEeVhkTDNpMXUxc2ZBUi01Unc2V0VIaWZXam02U2lvMDItazQ?oc=5",
-          "publisher": "조선일보"
-        },
-        {
-          "title": "China to Host Proposed Trilateral Summit Between Putin, US, and Chinese Leaders in Shenzhen at APEC",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMWp4aThWMlBWMkg4YllESkI1b1hkQUJkNlZyTHI4X3EtUTNPelRBa2JWSlQ5U256UDJ3VWUwOG9Od3djWmp5S0Z3RG95SFNpckExajAwMkhodnNtZ19FYzdoM3pia1B1Q3J6NHpMSFpPNGFtSXV4czBnbWNwS3VURnA5bC1PUzFVTzJEb2VZTTM0MlNpOHduT3BlYUxyRWdrSzdGSEgwMmtZVlB2Y0YtYVpGc9IBuAFBVV95cUxNRzM3LU5ScVJFNnRlYXhjLWhBQWdDRmw1Q1l2T1poTUJlOWpVeFlfblhsOXEwQVd4WTVtX3VmMWZOU1VSZndmOFJfQkI2bDhKZVQ4VTFTRzc3OFRnX2NIa01QUDFsZ09acDRBV3FHVVdfd3JSMWRsbl9rZ1VsU21IUWJEYzB4SVdyTlpseDc0MEJ6anFPVEloVm4xRTRMZFN3b1NnX0dGTV9fVW5ZdVFrTm1oRndPVlBJ?oc=5",
-          "publisher": "Inkorr"
-        }
-      ]
     }
   ],
   "us-midterms-2026": [
@@ -1195,6 +1186,33 @@
   ],
   "france-debt-stress": [
     {
+      "at": "2026-10-23T13:00:04.052Z",
+      "text": "Euro zone bonds stabilise and France gets a brief respite, marketscreener reports, while France's flash October PMI drops below 50 hours before Moody's decision later today.",
+      "sources": [
+        {
+          "title": "Euro zone bonds stabilise as France catches a break",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOVk2VEEwMDc4YWprZnRiWkYtWGh2UGdGSW1aQTEwd0ZycU84Ym8wSWJ0RHF1RjI1TFRGdG9uTjA4UWtRSVB6djdQMHBSOElhTFVWb21FNllmZEVKZzIxOXdHd0doajBLYXVNazh5TVRqbmU1enR2ckRQRzBrQ2plWlloT1NmVHVFYm9yeU9iSzkzanpYcURsRkNrMDlqc3dnQk9KYnZyUQ?oc=5",
+          "publisher": "marketscreener.com"
+        },
+        {
+          "title": "France's Flash October PMI Drops Below 50 Ahead Of Moody's Decision Later Today",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOanhVeEtYVGxSQjd1TjZTSU9xRU9JNGlRSWRHdG5neEJYVElYQmE4dXlOaV9BRV9DYlVaMWE2M0g0NnkwV193aEpJbmRrN2ZfTlpZd3d1MDhsQXdHd2lsbjlJYnhNemxmTnd2RXcyTk1ucFpnemdpcFFFcVpIa3pZQ28weXFUc1hFdGdIV2kzdFBMQUc4OElQRFoyTnhsNTEyWWVSTW9WbHc?oc=5",
+          "publisher": "Seeking Alpha"
+        },
+        {
+          "title": "Euro zone bonds stabilise, France gains brief respite",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOekpWQThleTgtOW5Ua0JaVVpOYmFiaWNNNWJScGV4VW8xcTBiN3MzamZJNWc3ZTVMWHJmYmxkWmZjaEsyWW1TQnh1Uk5ScnN2bTVFRHJ0ZF9CcElwTU53SERyYS13Ri1iSzdhVXJidWtkSHp6Z1ZzQWRWa0FmWE1TNzNxc2tPSEpLcFJRZGxtS0lIbnNtLWZvR0E3Q0xxNE03Z3pLY2xMQXQ?oc=5",
+          "publisher": "marketscreener.com"
+        }
+      ],
+      "headline": "French bond markets calm a little before Moody's decides on France's credit rating today, with weak business data adding to worries about borrowing costs.",
+      "quick": {
+        "happened": "Euro zone bonds steady and France gets a brief break, while its flash October PMI falls below 50 before Moody's decision later today.",
+        "matters": "France pays about 140 basis points over Germany to borrow, the widest since the euro-debt crisis, and reports say stress could spread beyond France.",
+        "next": "Moody's rules later today on its Aa3 negative rating for France, while the ECB says intervention is not warranted."
+      }
+    },
+    {
       "at": "2026-10-23T10:59:49.636Z",
       "text": "The French 10-year spread tests 175 basis points hours before Moody's verdict, according to FXStreet, wider than the roughly 140 on the site. Reuters and MarketWatch say the review is imminent, and an ECB official calls rising yields a growth drag, not a crisis.",
       "sources": [
@@ -1389,32 +1407,6 @@
           "title": "Euro zone bond yields rise as French borrowing costs hit 24-year high",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMk5MTWU0OHd6RWtKSTFHNTZ4Q0Q0dFhaNnQzeHBHeTE4Q3BmY2FpaGdCbERYWVItcWE1ejJ2RUtMQ044Q1hGemNOY05vcDl1bHp0Z1pmbF81UW1nQnBCLThwYkh6LXhEOUQ4NGJGYmZ3WGRzTmxqWTV1NThkS3IzWGp4WXlUdjVUWFBlTnJQaw?oc=5",
           "publisher": "Reuters"
-        }
-      ]
-    },
-    {
-      "at": "2026-10-21T13:53:51.419Z",
-      "text": "France's 10-year bond yield reaches 5% for the first time since 2002, reports say, as unrest and budget fears weigh on markets. The PM meets unions ahead of Saturday protests, and Moody's review is two days away.",
-      "sources": [
-        {
-          "title": "Yield on 10-year French bonds reaches 5% — The Guardian",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbUpNNVBVVWFtWDJvd1FvWFhlaWk0YU55Y2VWYTZsQkp4MjZ2VF9sWllpRlVGeXA1VHJNX3ZZdlZiR0RiUzVBRkJoeDlrMmp0MWJXU1UtOXBGTklxWVhabm94U2dxWndncks3cHF2NHZuclNHeUtTcjRzZzYySkFIVm9zMWZ4X1VHTGNmb09tazYzaVIzOXpnTEVn?oc=5",
-          "publisher": "UA.NEWS"
-        },
-        {
-          "title": "French borrowing costs hit 24-year high as civil unrest and budget fears spook markets",
-          "url": "https://www.theguardian.com/business/2026/oct/21/french-borrowing-costs-failure-to-pass-budget-govenment-bonds-violent-street-protests",
-          "publisher": "The Guardian World"
-        },
-        {
-          "title": "French 10-year bond yield hits 5% for first time since 2002 amid unrest",
-          "url": "https://www.cnbc.com/2026/10/21/france-protests-bonds-debt.html",
-          "publisher": "CNBC World"
-        },
-        {
-          "title": "French PM meets unions as France braces for Saturday protests",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeHdXOFlTcHotbTJuald3OTNrelk1YUlOSVNaWHV3Rkt5ZnFiekNvYlM2cmlLekFqMEIxM1ltMnU1NFFQOFJQczRyaFR3SHJ2VEpqcnJXekpkYkNBVUstMHRWNG5WbEpSc2hiX08zYVNmcmNCV3d4d1NTSm00NXd6NGlITDdvZWlZY0taVlI1dnlkMXhsTE1kZzZtT3ctbW43czRmeGRxS2Z4Z9IBrgFBVV95cUxPMVFOYjdtd3ZJdmZETEFBM3JPNnpjZURnd1pUVFNxSHQxdUx6MTNKTFlZRlM1Q2xDNW1WWDJwRS1EbTllZDh2LThlcUNZRFQ1Z1R3SC1OWXNkVThVUkdFSDJ0TlJmaFdyZ1diY2xJNTJoUTlBQlFrN1dyZUE5SmthRTc4ZmVsTy1IeUVrbXdUZktNVlkwTWt3S1BUOXhUc09Zd1NKOWJzc3FLSU1JdkE?oc=5",
-          "publisher": "Kuwait Times"
         }
       ]
     }
@@ -3516,6 +3508,33 @@
   ],
   "brazil-runoff-2026": [
     {
+      "at": "2026-10-23T13:00:04.052Z",
+      "text": "New: Bloomberg reports Brazil's inflation has shot through the target limit before the vote. TeleSUR reports a Datafolha poll shows Lula and Bolsonaro tied at 50%. Sanders and Democratic lawmakers demand answers from Meta over alleged favoritism toward Bolsonaro.",
+      "sources": [
+        {
+          "title": "Brazil Inflation Shoots Through Target Limit Before Runoff Vote",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTGk4MllZSzJIVzJTd25mX3JPcnZTZktMWEtkRVZRNHo0YW84M244eUJsLWRwOVpnZjJuQkpITmxyNVFTWjdiWEZ6SDQxSFNNZG83UmdOd0RIRkpudjBOTDJmY2pObVVTVmNuMkNyQk91MkJGMzJHeVprU0I3WjM0TjBCSlNvVVlyUHBSMzh4T2NheXpzTW8yandsc2JXWl80TzZTSEtTdXhYMHhqRkRHY2NaSDE?oc=5",
+          "publisher": "Bloomberg.com"
+        },
+        {
+          "title": "Datafolha Poll Shows Lula and Bolsonaro Tied at 50% Ahead of Runoff",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQUNqMms5cWE0bzZ0SVpDc2V1TUwwUFBmNG5TWkEwc3hTaFJpb0NsSUg5RnRCeUlJZFpmR19UWUpjQTE1bXlTMjk3VXRKTlBzMDBuUktUWThuZnlYNnhCQ2JsUWlybDdCTnNJSjh1dGc5OHJTWkVaY0MzYWFYbkh5ZmpRc0VSUktrSE9KX0JabUJtNmVFWUlNbXVHSW9NUDg?oc=5",
+          "publisher": "teleSUR English"
+        },
+        {
+          "title": "Bernie Sanders and Democratic lawmakers demand answers from Meta over alleged favoritism toward Bolsonaro in Brazil election",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOZC1Fa3RtUE9aV2tOaFlfMDhVcDQxdk12RGMxOTRxSFlBb2pNNG9nNmNJcmRtTnY4a0JndEswQXBLaF9GS0hHZkRxeEFkN25xSTBEQXNTYWhtUzRHZTNQVXFyQUtWQUlLVUVDYlJDRmd2M2tubmk4SkdpcDM5WDdaS0JVWHgwMDV4SklKZ3hFM0E5ZmNMUE12ekw0eE9iRzUtNTB2TThsQTZacjBSa0JFR19MTEZrS29IdGYzOEZPNWpPUEltYmZvMlpmZUlxSG50ODduVHFjNlBCMVdRQUtrU05rcTNEeU1SMV81bFd4cHY3QmlZaHdhYUlPM2FIck110gGUAkFVX3lxTE9RUENMd2FtTUx4Z0oyRTdaZzFEd3N4Mkh6SE1HYm1fSnYwdDgtSU9FeGIwQnI2ZzZHdW5nZEhCb0lUTlU5ejlQaV9lY1Mzb3BuZmJxTzBQTDRDa20tdm9jMzhCdVZHTGlFRW9kRU53VXZJWEFVVFNpZFVnWWNLdEVMTW1SYlpYUE1CNDI2WVNPdWFfMC1xVG9hcmNrTlQ0VEdYOUpwNzdnTXVyLWJYUWRtbG94U2RkZXotb3poRjlnSnFGT05KakdSa0hCUkxwbzFFRS1saDVKSUljTkpkSGFYeEFpSy1wdmEtaTVRS19uOTJpOXkxWEZMTzBkOVZyckFlUjl5dWdKUmJWVEVYdDVIUjh4VA?oc=5",
+          "publisher": "EL PAÍS English"
+        }
+      ],
+      "headline": "Brazil votes on 25 October in a run-off too close to call, and the result will shape Latin America's political balance.",
+      "quick": {
+        "happened": "Bolsonaro and Lula enter the 25 October run-off with polls inside the margin of error; reports say one Datafolha poll shows a 50% tie.",
+        "matters": "The winner shapes the Amazon's future and Brazil's stance on EU deforestation rules, and tilts Latin America's political balance.",
+        "next": "Brazilians vote on 25 October; reports say foreign diplomats are discussing quick recognition of the winner."
+      }
+    },
+    {
       "at": "2026-10-23T10:59:49.636Z",
       "text": "New since the last line: Reuters reports foreign diplomats in Brazil are discussing quick recognition of the run-off winner. The Guardian reports Indigenous groups fear Bolsonaro's hold on voters in Amazon towns. Polls still read as too close to call.",
       "sources": [
@@ -3717,33 +3736,6 @@
         "happened": "Reuters says the last Datafolha poll shows Lula and Flávio Bolsonaro about even, and Folha reports both signed a disclosure agreement.",
         "matters": "The result shapes the balance of power in Latin America, and Bloomberg reports Brazil's currency hedging costs have spiked on election nerves.",
         "next": "Brazil holds the presidential run-off on 25 October."
-      }
-    },
-    {
-      "at": "2026-10-22T19:19:09.374Z",
-      "text": "Bloomberg reports Brazil's currency hedging costs have spiked as election anxiety grows, and says two billionaire brothers have emerged as Bolsonaro's foes. Reuters looks at elderly voters in the razor-tight race.",
-      "sources": [
-        {
-          "title": "Brazil Hedging Costs Spike as Election Anxiety Surges",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMFpQMkphR1g2VG92UFA2YUtJM1pFTFNWdjBYQnFST1l1bVF0X29wMThYMDQ1UjJ5WGJ5Qkx3OWhJMDlnVjE3eEJ3Rk9YRWVSc0VOcXBzNDN1MS1Gbm1LSHVJcE1EZ0c1LTBxMnBxbXFfV1FkWnMxV1M3aEtCVF9oMno2anVVVlhGM1V6TTBBWGdEMW4tYkJ2V0MxdUxCMm9MVGFEeVIyUQ?oc=5",
-          "publisher": "Bloomberg.com"
-        },
-        {
-          "title": "Billionaire Brazilian Brothers Emerge as Bolsonaro’s Foes in Presidential Runoff",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRHpCU0tFdG9yZTBSMVF3cGdBUmxPVEdtTFY1aWxtM1VoSDlobVRxSXd6TDk0LUxoSC0xcElERHBqZU9uWDVVaGt0bW5yM1pLcXBueXd4b1lhcThQSEZFSjg0TTJxMms1UlN2N0NNcHM2S2NaY25qTkx2QlNGc0pnR0RCLUh1cWdCV0tobXkwdmxrUnVXbk5iS2dpYzhPdm0zOE5XU0xYdjdOS2tZeHVxM0ZhWUZyd244T2luMEFR?oc=5",
-          "publisher": "Bloomberg.com"
-        },
-        {
-          "title": "Brazil's elderly voters reflect on razor-tight presidential election",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORWdpUWY1S2ZNbXVGdEptOXlEQjl4d2RpTHg0SGs2ZVdaT2J1S0hIa2RXNWZGdEQ2ajlsUmZEQjV3d3RzT2RucWpmUTNCaUJBelJHSXhOcWFJdnRpc1ZrS09xZDNVM1E3WHJVQkplNUZLZi1MdjZNQVNsOXBnaGtaZHpyTjdMdVluOXZ5YU9IakNyc2ZITU02LWQ3YWtCZnJ2VkRibGRma1VMdUhpLXc?oc=5",
-          "publisher": "Reuters"
-        }
-      ],
-      "headline": "Brazil votes Sunday in a run-off too close to call, and investors are already paying more to protect themselves against swings.",
-      "quick": {
-        "happened": "Brazil's run-off between Flávio Bolsonaro and Lula is down to the wire, and Bloomberg reports hedging costs have spiked on election anxiety.",
-        "matters": "Xinhua says the balance of Latin America's politics is at stake, and the result could shape Brazil's links with the US and the EU.",
-        "next": "Brazilians vote in the presidential run-off on 25 October."
       }
     }
   ],
@@ -4477,6 +4469,33 @@
   ],
   "israel-election-2026": [
     {
+      "at": "2026-10-23T13:00:04.052Z",
+      "text": "BBC reports two Israeli soldiers killed in a West Bank attack by suspected Palestinian gunmen, after earlier reports of five wounded. Middle East Monitor reports a broadcaster called Eisenkot a 'monkey', sparking a racism row.",
+      "sources": [
+        {
+          "title": "Two Israeli soldiers killed in attack by suspected Palestinian gunmen in West Bank",
+          "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC World"
+        },
+        {
+          "title": "Netanyahu orders full shutdown of West Bank after Hamas shooting wounds 5 Israelis",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSmJyQXhhU1ZfQUJvRVp4cENkNzhMZFl3ajF2UjByeFJGMzdmY2VUdEI1ekRFV1EzZE5KNERXOVFYSTFzckZXYUN4QXc5ZC1CUFl5cGEzOTZ3WnpGa2tLV3NKYW9lZkFGMkFzUl9tekZnM213ZXJOdnJwaTBLMlhlRU5wZEFvYWN6OG9fSDRZMzM0dEw5SFZZX0oza0poNDlCNzhuTlBXSE96UlEyWWtpNkRGZjcySWV6VGx0NndLWkM0c0E?oc=5",
+          "publisher": "The Washington Post"
+        },
+        {
+          "title": "Racism controversy erupts in Israeli election campaign after broadcaster calls Eisenkot a ‘monkey’",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUmVhNWdUTEV5bFBzZzhkaDF4ZVFVTURmRk5qTUYzVWdCM3paQl9Fb3RfeWRTSjM3OUpuTjJidzFvaGlWWUdnTVVFMS1FREM0MW5QcW53LUJnQ0s0c1pTTGpoVnhLeVBwbDBOUW5NYkZ2cURBRS00X1NObjV3VHBKMjlXZEcyZzJFVnY3eVRMd3N2ZmNOTTN1LXdRZjQxbmxnWjlpVkpsdkVyWXJuSUpqZ0tWYTNTRkE0MllIS3BVWUdqRHd4bi1jMWNteUllZHFhSlJaMWh0bUJyUmpw0gHcAUFVX3lxTFBSZWE1Z1RMRXlsUHNnOGRoMXhlUVVNRGZGTmpNRjNVZ0IzelpCX0VvdF95ZFNKMzc5Sm5OMmJ3MW9oaVZZR2dNVUUxLUVEQzQxblBxbnctQmdDSzRzWlNMamhWeEt5UHBsME5Rbk1iRnZxREFFLTRfU05uNXdUcEoyOVdkRzJnMkVWdjd5VEx3c3ZmY05NM3Utd1FmNDFubGdaOWlWSmx2RXJZcm5JSmpnS1ZhM1NGQTQyWUhLcFVZR2pEd3huLWMxY215SWVkcWFKUloxaHRtQnJSanA?oc=5",
+          "publisher": "Middle East Monitor"
+        }
+      ],
+      "headline": "Israel votes on 27 October with neither camp near a majority, as a deadly West Bank attack and a closure order hit the final days.",
+      "quick": {
+        "happened": "Netanyahu orders a full West Bank closure after a shooting, and the BBC reports two Israeli soldiers were killed by suspected Palestinian gunmen.",
+        "matters": "The vote is a referendum on the Iran war, which has Gulf oil exports running at 60-80% of normal, so the result reaches energy markets.",
+        "next": "Israel holds its election on 27 October; a Jerusalem Post poll has the opposition ahead of Netanyahu's bloc 54-48."
+      }
+    },
+    {
       "at": "2026-10-23T10:59:49.636Z",
       "text": "Netanyahu orders a full West Bank closure after the attack, several outlets report. A Jerusalem Post poll puts the opposition ahead of his bloc 54-48, and the paper reports Benny Gantz has quit the race.",
       "sources": [
@@ -4673,38 +4692,6 @@
         "happened": "A final Times of Israel poll shows Netanyahu and Eisenkot in a dead heat five days before the vote.",
         "matters": "Reports say the US and Israel are drawing up plans to resume attacks on Iran after the election, which could renew pressure on Gulf energy supplies.",
         "next": "Israel votes on 27 October for all 120 Knesset seats; the 18 October Kan poll left neither camp at 61."
-      }
-    },
-    {
-      "at": "2026-10-22T21:59:11.821Z",
-      "text": "New since the last line: Netanyahu says the US and Israel must topple Iran's regime, and The Times of Israel reports the IDF chief sees no operational need to strike Iran before the vote. Haaretz cites polls of religious voters leaving Likud.",
-      "sources": [
-        {
-          "title": "Religious Israelis turning away from Likud for far-right alternatives, polls say",
-          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNZ2tQWGlTWWw1S005WFBvOVpuMkRDV1g3VnV5dHhKX0I2SnlyeFpnUVZOWmNLZVVJMWlqWGdIMjJBcDlvcGJYTFhuQm1YT1NSdnZqWkZRaHZUMzdwRzlFMDlkZU9naUxZSTVOeGFLcTZoaHhwbHBGZGRFSmhyOWp5RVNhNFRlSTA4b3hjUU9nMVNUX0QzZzZmdGVITXl3czdtRmVWYW1aMks4WHJtWHQ4UHVGN1A0bTE4VjNqOEE2QlJpRnI5Q0dvdklGR2VJQnZCWnBuYWlMc25sQWUyMEo4SVZlUzM2Xy1TdTljQm5WNU1ub3JfeW5GbUZJVGszb0hHdGZ6cm5KMVFSaVBWU0o0NFFjaTZzUFlhelZhQW1n?oc=5",
-          "publisher": "Haaretz"
-        },
-        {
-          "title": "Netanyahu says U.S. and Israel must topple Iranian regime",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPblM5N2lNR1dGazZJNVFnYkhPeUU4bmlXTWJQX3JMX1ZNanBaM21EaTRzT0d0YUx4Rkg2bjQ1bXlSMjNFOWNKTGJ3WFcyQ0lTUUp1TmxSUlJQWV9qZjRONDY5SFZWQVRHd1l6c2ZsRmtONzYzTms4OGFzYlp2MUl6bTFPanBpaFNPbkI2cWxUS1pVdXpBcDl3Vk9uOExYd29JUlE?oc=5",
-          "publisher": "The Washington Post"
-        },
-        {
-          "title": "Report: IDF chief says no operational need for strike on Iran before Israeli election",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNGk4Y3lyVnlzNnlHdHgyYkI2ZENwOXk0TWk2bTA1YVlpU0lJQ1V4VXk3OE8wck9LSFJTZGlEcXhQYWpWZFhLZEVoOU1DUE5qeFJoVHEyRmdUQmJQU3htdHUxaU1aamdjUTN4NGY2Q3o3di1KMEl4d2xCeHhFaEZZWHJaYmlHS3phQlhXaHVmclNkZ2F2NTAzVUM2X09Sc1RDRThxVXFn0gGrAUFVX3lxTE5xSVVyaDMtaG9hVDdMd2FFWUdtN0t2ZGpoNXZMRHVSU01neVRCMmFWZ005anliS1RiVjZ1Z1pNMXVqczAtVVRsUmZmUXNJa0RIejh0aExQbzNUdDBHaW05Z3NJRnRPMUNFek9meVJNa0c3TnhhYm9QM0hrUi0zNlZXdjdYR1czM242WTJyLU1wdkdLZE1GT2wwYjc5Nzc5SFVqZFd5Z3I4VHY1MA?oc=5",
-          "publisher": "The Times of Israel"
-        },
-        {
-          "title": "Netanyahu Calls on Israel to Overthrow Iranian Regime",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeGpsR0NyeS1xR3JZUEhCbVoxeHBtVHpObFlseU5zRS1qREEySnFkNDUyZkVJOTlIZF83WGtzUVhvZlBzX1NDVHB3TWk1UjgwOHRtU2tmbjN6aGlTbE5xOWxlQXdwRU41TVhDQlRpc0tlNGdNZEVQMkdVc2NDV0N4WVV1eTAxOW5DVnFWTEJuTS03MjFNYkU1U0xwcW1tektfU1E?oc=5",
-          "publisher": "Foreign Policy"
-        }
-      ],
-      "headline": "Israelis vote on 27 October, and Netanyahu's call to topple Iran's regime puts the Iran war at the center of the final days.",
-      "quick": {
-        "happened": "Netanyahu says the US and Israel must topple Iran's regime, while reports say the IDF chief sees no need to strike Iran before the election.",
-        "matters": "The vote is partly a verdict on the Iran war, and what Israel does next toward Iran could affect Gulf oil exports and energy prices worldwide.",
-        "next": "Israel votes on 27 October; ABC News reports, citing sources, that the US and Israel are drawing up plans to resume attacks on Iran after the election."
       }
     }
   ],
@@ -5015,6 +5002,33 @@
   ],
   "ecb-inflation-and-rates": [
     {
+      "at": "2026-10-23T13:00:04.052Z",
+      "text": "New since the last line: reports say October eurozone PMI missed estimates as growth slows, deepening the ECB's rate hike dilemma. Separately, a Bloomberg survey makes Hernández de Cos the narrow favorite to succeed Lagarde.",
+      "sources": [
+        {
+          "title": "Eurozone October PMI misses estimates as growth slows, keeping ECB rate hike dilemma alive",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVWt4d0c1UG1BSlNMMzVtOWFVMGEyWUZBZ1VuNTFmei1tTF9faWtsS1FWSmhzRFhVclBzQmFhUGt6YW1JOWcwMkJlRlpTbUJmWWlSaXl4ZHBnS0IxeXp4TXhoRU1fLUtMVlpOOGFZZ2lXWlFhUTJ3MENVU2QtUWg2RlUxRGhDTWhRdkJ3VFA5bmNkZzFuUk1mLUlYUURyWTlQR1BuLUNqMWU2b1BjNjJJbG1pWVR5S3RFTEdIWjZn?oc=5",
+          "publisher": "investingLive"
+        },
+        {
+          "title": "De Cos Is Narrow Favorite to Follow Lagarde at ECB, Survey Shows",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdDFQblgzY3FFYVBhOEduem9aMDBPaGtUaXJoT3J1VS1jWjA3a3BjWGJTdmc0aUx4NDBOcndkN3JydzFmUDVJRWdnV3kxRUVoSFRwbm5TbFl0eV9qelV4QjJkZmNncVVmdHF4clRGOFo2MWdxTzJiaVkxRFZuU0J1U0duUk11dU01Qll3TlNyNlVsd3pITFMyZXdGblN6eEtlcFRWQmNGcXBIcndJemhLT0JUYnc?oc=5",
+          "publisher": "Bloomberg.com"
+        },
+        {
+          "title": "Hernández de Cos stands out among economists as the favorite replacement for Lagarde at the ECB",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPamtmYklBdnlvV0ZnXzRxelA2Wm9jc3FOTFdYbVNLaF9YVjdmeE9nQTBmMDZlT3IxVFFZT1ZVZUc3ckpSakRKQ1drYVk5YWNwQmVwQVFJdFFUTldlUTQ5UnRDTjZrd09qeE5Qb0o3VHRRQ3hXUm5MbHlkRFhMQWw3c0tuOERRR2QwdGNURFVaU1N1Wmp1VzJDQ0NJaXVTcHZ0Y3Z6VzhReFRBUHZHRHc5VW9XUkQ5RlBra2hNQmR1RDVZb2FjcjJjUS1hUVXSAdIBQVVfeXFMT2FIR2RvMUN5bWY1MmRPMFJWb21rX0lNTXhOU3lhekpidTc5MGlnQUlkbU9YcDEzRW5HQ2M4QzB5V3RiSEtHMDB4V2ZRaVdTWjJSa0NWSUhuOGxSZGNqTXBjVnlJOU4wdHhmRXpLZ1JMN3RrYjVYRDVXaGFPRktiNnYyMDEtSE5kSjFyeTdTMVd1bVZLNHduQ014Wi1SdUlveGc4eDVmelJVV0pRaS1wX1BnMWJLQ1hFb0lnT3Etei1qYW9zWjA3NDU1bkkzUE83bVVR?oc=5",
+          "publisher": "Demócrata"
+        }
+      ],
+      "headline": "Euro-area growth is slowing while inflation stays high, leaving the ECB torn over another rate rise ahead of its 29 October meeting.",
+      "quick": {
+        "happened": "Euro-area consumers expect higher near-term inflation, and reports say October business activity missed estimates as growth slows, which keeps the ECB's rate hike dilemma alive.",
+        "matters": "Higher rates would raise borrowing costs across Europe, including France's interest bill, while energy-driven inflation keeps squeezing household budgets.",
+        "next": "The ECB meets on 29 October to decide whether to raise rates again."
+      }
+    },
+    {
       "at": "2026-10-23T08:59:52.141Z",
       "text": "New today: an ECB consumer survey shows euro-area consumers expect higher near-term inflation in September, and reports say it also points to a weaker growth outlook. A Forex Factory preview says the ECB has no reason to speed up hikes.",
       "sources": [
@@ -5197,30 +5211,31 @@
         "matters": "Euronews says one ECB rate produces three different inflation realities across Europe, so higher borrowing costs land unevenly on households.",
         "next": "The ECB meets on 29 October, with minutes showing policymakers weighing another rate rise and one preview expecting a pause."
       }
-    },
-    {
-      "at": "2026-10-21T15:49:55.072Z",
-      "text": "Reports say ECB's Kazaks sees more tightening as possibly necessary if inflation stays above target, noting that higher yields have already tightened financing conditions. A preview piece expects an October pause. Lagarde speaks in Berlin.",
-      "sources": [
-        {
-          "title": "ECB's Kazaks says that some more policy tightening might be necessary if inflation continues to reside above target; recent rise in yields has already tightened financing conditions, Econostream reports",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNOE5VNnRuWnEwRHNoeF9SeWE3TXppaGtWLURxd0ItdWNoTi1wMnB3ekxSNjByVERVd3Z6S0F1TFFycXFOQW1aX2lyZDFfaTd6VlJkVGluOEtlTkpwNlY1TnV5MXEyY1dteFdzblRFZG5KcHVGWm9YamF3cE1SU2YzS1hTdnMwRnRVZ2VDSUdKQkZKMGpyQVh2NGdoMnFyNG5zRXFsN210Zjd6ZHJiMHFBeXVPM0hVN1dTNVFHeld2RjZHV1h1dXNtaXlreGQ0M0hOQllOMklnd1Y0OUVxZWRaLVBoSnQ?oc=5",
-          "publisher": "Newsquawk"
-        },
-        {
-          "title": "ECB Preview: October pause – MRR in focus",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZDRhSEVzNTR4MmJ0cnNRY1lKUElISU12clpqNkhibmxFajZ3QndqQkU2T3NVUHN5NFpJMDdkTTNoVS14bjZ3cGdOSWhicDE3dDF0YkIwUTNYM2tXVFpudUFiR2IyUEk5MFZSX2g5ZGVSdUI3WFFCOGRYVmwxUVRhbG9OOA?oc=5",
-          "publisher": "FXStreet"
-        },
-        {
-          "title": "ECB President Lagarde holds a press conference, in Berlin",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNLUF0U0tWTjRjT0szcklCeHJDbTBuR0RvQjRTMnl4SExHUHFpcDZ1Vl9HZkh1ZkRJRFN2a2tPaWJTcWhtNC13aVRnRHVKTkozRWZEQXJKaGhjaGtnaXZrOG5LSzI3SHpMRzlTS1NuUHQzaGxVRmkyWnE4Ny1PX1doVGRUSWl6bFJBQ3NvRGFjMG8wRklfa1hQU0Vmc3FfOG55aTJ1MS0yWmJPSkM2U2Q3UXloUG82WE5tREh0WDR2YlY1MDdqdm52UjhGbUo1WFlCRE10QTFjalZnUmsyRGV2cHcybUVoUQ?oc=5",
-          "publisher": "The Daily News | Texas' Oldest Newspaper"
-        }
-      ]
     }
   ],
   "north-korea-missile-tests-2026": [
+    {
+      "at": "2026-10-23T13:00:04.052Z",
+      "text": "US and South Korean officials now estimate little chance of a Trump-Kim meeting this year, reports say, while Seoul's spy agency reportedly calls rumors of Kim's death false.",
+      "sources": [
+        {
+          "title": "US, South Korean officials estimate little chance of Trump-Kim meeting this year",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVi10ODBJbzZ4OU5jMTlXVDNWSXJOd1pNWmNlRFZFSmNFNVkxTFB6NWYzb0JTZTB6S19OQTF1cWVDaXdXMHNIcTJxZGtQb2Jwcy1yQWtmdkxMWWlCai05WlRZTk04QXF6VjRfRUk2MjJtY2FxdmJDMDRvdXZXMGxJVmI0Z3doc2FGUlRhR3VUd2xnMXI4M1VvSE5kYXFuY2RvU3BfMmhRYnF6X1ZJOTlMUWhlSzQtakNIZGc?oc=5",
+          "publisher": "The Business Times"
+        },
+        {
+          "title": "South's spy agency reportedly assesses that social media rumors of Kim Jong-un's death are false",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNS1NCVjA4cmJyZ3FKU3BzU0JPWFctWVhiZDZLbkYtbURBSEt4N2QxWjBvVFFnZG9lOUpod3RjTkN5NTU0TFpOTDA1T3hXcFN6V2ZJdnhlRHN1b0Y2RDkzb1MwNnliMTlQWEp5VUFOMzhuQ29VaEhWRURhS05ZZlM0Z0dMRXUwV1VIanpaUXVzck55cXJMZFMxZWVObk1oUFVVLU9laXRuZTlqbEJqQko1QnFOZVdTQ0kxRjZtRVpjeXN1WHBYNjJyMml0VjRGaE4wNzZHZW1UV3d1UkU?oc=5",
+          "publisher": "Korea JoongAng Daily"
+        }
+      ],
+      "headline": "US and South Korean officials see little chance Trump and Kim meet this year, even as Seoul invites the North to military talks.",
+      "quick": {
+        "happened": "Officials in Washington and Seoul estimate little chance of a Trump-Kim meeting this year, and South Korea has invited the North to military talks over the border.",
+        "matters": "A stalled summit and rising border tensions keep risk high on the Korean peninsula, and Pyongyang may use the pause to gain leverage with Russia and China, reports say.",
+        "next": "Trump has said he may meet Kim during his November Asia trip, which includes the APEC summit in Shenzhen on 18-19 November, but North Korea stays silent."
+      }
+    },
     {
       "at": "2026-10-23T08:59:52.141Z",
       "text": "Reuters reports Kim would meet Trump only on strict conditions, and South Korea proposes military talks with the North to calm rising border tensions.",
@@ -5433,28 +5448,6 @@
         "happened": "Kim Yo Jong says border loudspeakers will be ready within days and warns of new \"counter means\"; Seoul says it sees no weapons and urges dialogue.",
         "matters": "Border threats and missile tests raise the price of talks, just as Trump says he may meet Kim and other powers seek summits with him.",
         "next": "Trump heads to the APEC summit in Shenzhen on 18-19 November, where he said he 'may' meet Kim during his Asia trip."
-      }
-    },
-    {
-      "at": "2026-10-22T13:56:47.109Z",
-      "text": "Reports say Kim Yo Jong also threatens to \"mercilessly eliminate\" South Korean troops. Separately, North Korean websites go dark and speculation about Kim Jong Un's death spreads, with no confirmation in these headlines.",
-      "sources": [
-        {
-          "title": "Kim Jong Un’s sister threatens to ‘mercilessly eliminate’ South Korean troops as tensions explode",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdlE1ZDlqakUwN1pmcVdxZEloUVYxMFM4Q3JFWmtDVDBMd294bGstbUh5MjNMLWx1R2h4aC1PdG5mTnRQM1FDRWhnS0ZwWU1IN3BMek53UWttNDNELUFjNzc1Z0I0Q2h2LUlOMm5Vdm1zUDlWb2pPaTcyejg0WDNGb2ppLWd0YU5CNXV4RC1rcjYxZGJvX3FqOFBmQU1tYVFGSnZLUjZzN005b3lnaWFxX2kyNFlxZ0lwaVFXSVRuWmM5c1Q1V1E?oc=5",
-          "publisher": "London Business News"
-        },
-        {
-          "title": "North Korea’s websites go dark as Kim Jong-un death rumor fuels speculation",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcWllMkJHOHZIR1laZUNmcHd4YkNqeEFfeHF1eGM1RUE4VTIzR181ZWszRkc5Y3d6Qm9SQnQ2MkJiR182ZzJnbVlKbkJRb0xIZzZxVGlJeGRXZElLQnMyUVN1c1BDRHU2a0hFTWlJQ0JRbXZibzg1TThkM0NUdDRiLUIwd0oyYTA2b3BhNHp3WEdlbFZRUzZxQjFPb3J0M1JIdjFScmhLcHF3RU83QmJ4MHkybzRHS3lpUXZ2bzlmMlU?oc=5",
-          "publisher": "Korea JoongAng Daily"
-        }
-      ],
-      "headline": "North Korea plans border loudspeaker broadcasts and warns of new \"counter means\", while Seoul urges talks ahead of Trump's November Asia trip.",
-      "quick": {
-        "happened": "Kim Yo Jong says border loudspeakers will be ready within days and warns of new \"counter means\"; Seoul says it sees no weapons.",
-        "matters": "It adds to a month of missile tests and raises the price of talks, as Trump says he 'may' meet Kim.",
-        "next": "Loudspeakers are due within days; Trump heads to the APEC summit in Shenzhen on 18-19 November, part of his Asia trip."
       }
     }
   ],
@@ -5870,6 +5863,38 @@
   ],
   "opec-plus-november-output-hold": [
     {
+      "at": "2026-10-23T13:00:04.052Z",
+      "text": "Oil spill reaches UAE beaches as tanker attacks multiply near Hormuz, and the IRGC says it attacked four tankers. The IEA puts UAE output at a record 5.3 mb/d in September, after its OPEC exit.",
+      "sources": [
+        {
+          "title": "Oil spill hits UAE beaches as tanker attacks multiply near Hormuz",
+          "url": "https://www.euronews.com/2026/10/23/oil-spill-hits-uae-beaches-as-tanker-attacks-multiply-near-hormuz",
+          "publisher": "Euronews"
+        },
+        {
+          "title": "IRGC Says It Attacked Four Oil Tankers in Strait of Hormuz, Iran Warns U.S.: 53 outlets compared",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNMDV6dENRSkN6d29ERV8tS25KLVRZT1JQbEtnWVg2b1NYeEFQT2J0NWpHamI1LVl6M3lGSzJ6WEFuUWptZWFkVk84ZXpZQ0xmT1E3UFJYd0ZJNmVRLWFxbXRWYy1DUmlCSGJHMVZSVHY3eWZWY0RjWkZSZmN4NVJNMFRNSzEyRjVIanN4Y1ducjctVzZuMTRxekhNOWpFU0dtNDFKX2Z6RmtDYk5EZWtVRlhiUUN3MWNrbGh6VmpmMGtXbDE3RkxBdmFiSmNrR1FleTJRNU0yemhJQlJNSDhXdHEtSG0?oc=5",
+          "publisher": "NewsCord"
+        },
+        {
+          "title": "UAE Oil Output Hits Record 5.3mbpd In September- IEA",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1vZjdYTFhucnY3M2trbjB5eERicGVGeGlWZHJOcGlPUkw2a3BQTDhCazkyWktHcWVNcjZMUVd5bkoxbGp1OWM1QkI1TzVnV3dINjY5VWVneUQtNUR3SGE2dm41V1BTMUFvQ1dZT2pZTnU3anRCMU8wQTVkM0FIZlk?oc=5",
+          "publisher": "LEADERSHIP Newspapers"
+        },
+        {
+          "title": "UAE Crude Output Nears Record Following OPEC Exit, Sources Say",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUFozdlNVRF9ZRVZwc1NxLU5DMWpfdmtFWmtyWW1hMU8talZKZVRvWFl6N1BxM2ZpRlBRR0ZnLXJnUk4xLTYwdlNXUzU0c1VaaDZTWnJGOWY2LXV4MVZSUkVjU1diR2dqSHhsZ0tROGJWVFFpdkhNT2ktejNaRnQ2Q21LbTM2N0JzSE5nSHpxRlV6cE02NUE?oc=5",
+          "publisher": "EnergyNow"
+        }
+      ],
+      "headline": "Tanker attacks near Hormuz and fears of new US strikes on Iran push oil to a five-month high, raising costs worldwide.",
+      "quick": {
+        "happened": "Iran says seven tankers were hit in one night near Hormuz, the IRGC says it attacked four, and an oil spill reaches UAE beaches.",
+        "matters": "Higher crude prices feed into inflation, which squeezes the ECB, and raise oil import costs for China.",
+        "next": "The seven core OPEC+ producers next meet on 1 November, with Gulf exports still well below normal."
+      }
+    },
+    {
       "at": "2026-10-23T07:59:48.761Z",
       "text": "Iran says seven oil tankers were hit in the Strait of Hormuz and warns the US of a wider response. Brent topped $113, its highest since May, after Trump hinted at action on Iran.",
       "sources": [
@@ -6087,27 +6112,6 @@
         "matters": "Gulf exports at 60-80% of normal keep Brent far above the $73 before the war, which feeds into inflation and import costs worldwide.",
         "next": "The seven core OPEC+ producers meet again on 1 November, after holding November targets unchanged."
       }
-    },
-    {
-      "at": "2026-10-21T18:33:18.285Z",
-      "text": "Nothing material changes on the quota freeze. New is diplomacy: Macron makes a surprise 'solidarity' visit to Saudi Arabia, and France 24 says a fuel deal is part of it. CNBC says oil prices are little changed.",
-      "sources": [
-        {
-          "title": "Macron visits Riyadh to show solidarity amid Houthi attacks, ease tensions at home via fuel deal",
-          "url": "https://www.france24.com/en/macron-visits-riyadh-show-solidarity-amid-houthi-attacks-ease-tensions-home-via-fuel-deal",
-          "publisher": "France 24"
-        },
-        {
-          "title": "French President Macron lands in Saudi Arabia on surprise 'solidarity' visit",
-          "url": "https://www.france24.com/en/french-president-macron-lands-in-saudi-arabia-on-surprise-solidarity-visit",
-          "publisher": "France 24"
-        },
-        {
-          "title": "Oil prices little changed as traders assess Middle East developments",
-          "url": "https://www.cnbc.com/2026/10/21/oil-price-today-wti-brent-rise-on-middle-east-worries.html",
-          "publisher": "CNBC World"
-        }
-      ]
     }
   ],
   "istanbul-floods": [
@@ -6204,6 +6208,28 @@
     }
   ],
   "serbia-student-election-2026": [
+    {
+      "at": "2026-10-23T13:00:04.052Z",
+      "text": "Vučić alleges a foreign conspiracy as the Sunday vote nears, according to EUalive. IntelliNews reports that tech executives are backing the student-led list.",
+      "sources": [
+        {
+          "title": "Vučić alleges foreign conspiracy as Serbia heads to crucial Sunday vote",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOOXlCUUdvbEhIaG5UOWZzUjYyYm1yUC1ZN01yR3M5VU1QYjdZT3V2OW9EZEoxeHNITEJiLUh6VS1keXFDN2RQRHVPdDlXbnprYmEwTUtwSno5aWp3SEdzZXRrdjZiSFptR0NNS202Rmo1NHRQTVdJdUdIcHNPSWtzQ1JrRDdfdElMcmFYT1JNREVOOXlvTDc4?oc=5",
+          "publisher": "EUalive"
+        },
+        {
+          "title": "Tech executives back student-led list in Serbia election",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcGo5a2pwamMxTE5BTWtHQzFZTTExQUdhR2ZISWlQUzJYWFZERjVvamQtMzJzeXNSN1VVV2lVQlRKRC1FT25BWHFGekxpNUZVRVBkRWFXRDcxXzlFSmlVUzhaTC1PLWRqSjllZVVqeXFRX1dnbTlOajBXcVhidWxtclVVZG9RVmFwUUFmQmFFbGV3UnRELWNFZE8zMzB4VFF2QmRRRFg4dnZBQQ?oc=5",
+          "publisher": "IntelliNews"
+        }
+      ],
+      "headline": "Serbia votes Sunday in a snap election where a student-led movement tries to end Vučić's 12 years in power, with the EU path at stake.",
+      "quick": {
+        "happened": "AFP reports 150,000 people joined a student-led rally in Belgrade, the last big event before Sunday's snap election.",
+        "matters": "The result will shape Serbia's path toward EU membership and how closely it stays aligned with Russia.",
+        "next": "Serbians vote for a new parliament on Sunday."
+      }
+    },
     {
       "at": "2026-10-23T10:59:49.636Z",
       "text": "AFP reports 150,000 people joined the Belgrade student rally, and an analyst expects very tight results. Baltic News Network reports beatings, cyberattacks and threats before the Sunday vote.",
@@ -6422,36 +6448,41 @@
         "matters": "The vote will shape Serbia's path toward EU membership and how close it stays to Russia, which affects the wider region.",
         "next": "Serbia votes in the snap national election; the headlines give no exact date or result yet."
       }
-    },
-    {
-      "at": "2026-10-22T23:59:35.316Z",
-      "text": "Crowd estimates for the final rally rise from thousands to around 150,000, according to WION and AFP. Blue News reports tens of thousands. Reports say the numbers vary by outlet and none is independently confirmed here.",
-      "sources": [
-        {
-          "title": "Serbia elections: Nearly 150,000 people take to streets in massive rally against Aleksandar Vucic | In pics",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORnpVdFFKX2l2eko4WGUxa3FrRWVmNF9vbVFiX2ZrOFNFQTNZbXh1N3dBNzcxNkxoRl9TbGwzVkVpQkZjRGNPNXgtZExlNjRRY2dPVzUySkh3ZlJfX242TllDbGVkbTZWU3A3ekNMQUZnUWROejAyUzlpSHZxUzZYbk9ld1B4bk9WWTZvckh2c1VET1pkNXA2dENjYTR3b0lHUEd6X09tNjhuSlY0WHBLeTN1RllJaEdJTFJRVC1aTW84aGFFeVJvLVptdFNQMi1NbF9ISVpLVmdMQ3o4OFAwVDg3bw?oc=5",
-          "publisher": "WION"
-        },
-        {
-          "title": "Serbia: Tens of Thousands Attend Students' Final Rally",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRGVmRTd4M3NpUUFmT3dyXzRQQlRUQUN6clpxZ2g1Qm9fZXBUMlJXeTRCelI1S3hLYkVzLWhfakt5LUZxalFhMnlVdU54dmFkeERIWmZNeDhVXzVfVnBjajdrd1VhQjVWMGtvMWF2MHYzbXJZV3dQb1VQUVptY2V2VUpWWmFPSlJONzlqVlgxZ0RXb3ZlT3hBODBn?oc=5",
-          "publisher": "blue News"
-        },
-        {
-          "title": "Around 150,000 rally in Belgrade as Serbia heads to pivotal poll",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1Jb2VIeWlMclBNSS1lRzdNVUM3a21USFdTRm5aV3JjbFZQTVV5OThwMzlSYVlZV2RPVklKUVFGZzNTT0NzUmNwUm9Xdw?oc=5",
-          "publisher": "AFP.com"
-        }
-      ],
-      "headline": "Students end their campaign with a huge Belgrade rally, and the snap election now tests whether street anger turns into votes against Vučić.",
-      "quick": {
-        "happened": "Students held their final rally in Belgrade before the snap election, with reports putting the crowd from tens of thousands to around 150,000.",
-        "matters": "The result will shape Serbia's path toward the EU and how close it stays to Russia, which affects the wider Balkans.",
-        "next": "Serbia votes in the snap national election, where the student movement tries to turn 12 years of protest anger into votes."
-      }
     }
   ],
   "ebola-drc-nigeria-kenya-2026": [
+    {
+      "at": "2026-10-23T13:00:04.052Z",
+      "text": "Switzerland says the Nigerian patient, a diplomat's wife, returned from her native Uganda, not DR Congo. Authorities are investigating whether the Kenyan and Nigerian cases crossed paths. Uganda says it has no active cases. Congo's Ebola has reached an eighth province.",
+      "sources": [
+        {
+          "title": "Authorities investigating whether first Kenyan and Nigerian Ebola cases crossed paths",
+          "url": "https://www.npr.org/2026/10/23/g-s1-149515/africa-ebola-outbreak",
+          "publisher": "NPR World"
+        },
+        {
+          "title": "Switzerland confirms Nigeria’s latest Ebola patient is a Swiss diplomat’s wife who returned from her native Uganda, denies DR Congo visit",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPMnJYb2J4d2g4dmxlRk02S29tN0RQZjlQWlpWTDZQMFo1c0VtNmZSSVZhY3NKVTNJM1pxd3duOVJHbDFfUkY5dFp2U3k3U2xZQUlBd3VfcE8xVTk2cm9YMXVIUXA3dGhNbVNkaE11b1lITDBYVzB3dUowT3NmeTlWZnZNVnBqUU9iWlNydDAwSFBLRUtiMldQYXYxQ3VXWmVQWS0tbnd6RkZ5UWlvcXctVTVsRkpIWFRwYjlDR211X29reFFyQU84a2ZnU0pHZVpocm1xY09R?oc=5",
+          "publisher": "Business Insider Africa"
+        },
+        {
+          "title": "Uganda says it has no active Ebola cases, but infections in Kenya and Nigeria are prompting fresh scrutiny",
+          "url": "https://www.dw.com/en/uganda-says-it-has-no-active-ebola-cases-but-infections-in-kenya-and-nigeria-are-prompting-fresh-scrutiny/a-79741580?maca=en-rss-en-world-4025-rdf",
+          "publisher": "Deutsche Welle"
+        },
+        {
+          "title": "Ebola spreads to 8th province in Congo as hunger threatens patient carer: UN food agency",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOLW51YnNHQzFNcFVkdXNkRWJwYUgyTTgwWkFJMklFRlRxT2w4dm1HSTJfb0YycExSZHJpZlNSUUluZnZtTHlXWmxBdUxQVElXVGpfNWpoSVFjOTJydDdFQU9Zc2FIZXBEQk4xcHNHaml1bDd6ZXUtTkxjVmlJSVFkMW1BZnZKb0V3TzlZZjBVbG1CUENrTGR3THNkdHJEci1pblBIZ1FfQ1FjTDNxWm5KWVJXNW9sRjhJMGlzaThjV24?oc=5",
+          "publisher": "Anadolu Ajansı"
+        }
+      ],
+      "headline": "Ebola cases in Nigeria and Kenya may be linked through Uganda, so airports and border checks are tightening while the outbreak in Congo keeps growing.",
+      "quick": {
+        "happened": "Switzerland says the Nigerian patient returned from Uganda, not DR Congo, and authorities are checking whether she and the Kenyan patient crossed paths. Congo's outbreak has reached an eighth province.",
+        "matters": "If the two cases met at an airport, travelers can carry Ebola between countries, which puts screening and travel rules under pressure far from Congo.",
+        "next": "Authorities continue investigating the link between the Kenyan and Nigerian cases, and Busia in Uganda is stepping up Ebola screening."
+      }
+    },
     {
       "at": "2026-10-23T10:59:49.636Z",
       "text": "BBC reports the Nigerian patient is a Swiss diplomat's wife, and the Swiss government says she did not travel to DR Congo. The US tightens Ebola travel rules, and one outlet reports models showing Kenya could see 21 cases a day by October 28.",

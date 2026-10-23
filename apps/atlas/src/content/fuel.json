@@ -1934,233 +1934,307 @@
     ]
   },
   "boj-october-decision-2026": {
-    "at": "2026-10-22T23:59:35.316Z",
+    "at": "2026-10-23T13:00:04.052Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "september-core-cpi-tops-boj-s-2-target",
-        "title": "September core CPI tops BOJ's 2% target",
-        "when": "2026-10-22",
+        "id": "japan-september-core-inflation-hits-2-1",
+        "title": "Japan September core inflation hits 2.1%",
+        "when": "2026-10-23",
         "place": "Tokyo",
         "lat": 35.68,
         "lon": 139.69,
-        "what": "Japan's core inflation rose to 2.1% in September, its highest this year and above the BOJ target for the first time since December, strengthening the case for further hikes.",
-        "via": "inflation above target",
+        "what": "Japan's core consumer inflation rose to 2.1% in September, the highest this year, strengthening the case for further rate hikes.",
+        "via": "hotter inflation data",
         "aspect": "living",
         "flow": "into",
         "sources": [
-          {
-            "title": "Japan core inflation exceeds BOJ target, cements near-term rate hike chance",
-            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOTJqdzA2UHpkbmExTlVYbWgxX2VuMGQ3ck9XcUpfUEgxQURja19JdmlfLURneW9HUWpZbzNPMFJ3bS15Zk5DYlNTWU1teWprbW1hOHlJNXdDNWxYbExYRUU0bTIyVzFPLVlRZjY2cFk0THZTb094X2FrM3lPZ005THBHczdTdEl4WEhIUXVCdnA2TE9qTEtFWHh4aHloeWZFU0RuQmhlR0VRSDRCTURWZDB2eTNnWDloNWJIWktsNG5Pak5NSEdtSQ?oc=5",
-            "publisher": "Reuters"
-          },
           {
             "title": "Japan core inflation in September surges to its highest this year at 2.1%",
             "url": "https://www.cnbc.com/2026/10/23/japan-inflation-september-highest-in-2026.html",
             "publisher": "CNBC World"
           },
           {
-            "title": "Japan’s Inflation Is Back Above The BOJ’s 2% Target",
-            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOY2wyN3lMclV4YWtXZk1pMGFXa0pYclE5ZVA4bUN5M05ZNGlvalRUeThCY1ZxVzRjS0dqRzVZNWVYTnRsdm1WQXV5elhTLWJLeFUyZGk3MTAxSVBUMk9BTGVCbFhpaVFBTmNhcm5uOW1oRk5mOXN1NlNMOTJmTUtZZ2R3WQ?oc=5",
+            "title": "Japan inflation accelerates, paving way for rate hike",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPS1ZtVU1PMHRKdFlyT0tQNlMwNkIwN3hYNTNfZmFaQ3liZmFNNW5KaVdrR1R4VzU2dnNlOGdhLXFTMnJkNEV3RHhFcDNId3E0UlhNRlIzS0FBeDhaVjJrZy1KN3p6YlcyWGtzM19Sc00tUFRFQW0yUG1JTVBYcTFTWkZxR2ZncFRpb2t5RHJvTENfRTl3dzFNS1plbGNUMWtNWXfSAaYBQVVfeXFMTlJDc2FhRVdNUWQ0Y3NnWlc1ZGN3Yjc5UnVnS1VyQ3pxWXNTQjRneko1VlladlZFYmlKZlFBdGtkM2otQnFqT1E1RHU4NThkN09jRzVibE1wTmxTOVFyQjdEZjVfdzQwWjZUXzRwR1JJdXVNUGFXU0NaMzZndHNzd1U3RWpGSXAtdHgyUllZYjhDZmpNYmVvLU4tcl81MVhLOEd0VTBrZw?oc=5",
+            "publisher": "Kuwait Times"
+          },
+          {
+            "title": "Japanese Yen: Strong CPI backs BoJ hikes as USD range set to hold - BBH",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWUllbVRCWktCbjdOVGR2cVI2ay1DNjZjMkZsRGJMSTNwRzVkMHpIdE1sSDFHUU9TMVloaTVhNmYwR29OOUtvOHNVSVpXQ1RITEpLTzJtS1pBaERVS1pIRTV5UWlwTXdTOUFpemNuMVR2ZmVqc05YRGJjZV85dzJRSUZMWm5BSXdWSkR2YkVzMWMtQjVCcng5Y3lxQVZ0YzlqVlZqWDdkV21rYXdmMThzWQ?oc=5",
+            "publisher": "FXStreet"
+          },
+          {
+            "title": "USD/JPY: Yen Hits 5-Week High at ¥156.10 as US Yields Slide, Japan Inflation Hits 2026 Peak",
+            "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQaUZPUEplazkzMDJjTzQ4QjAwa1hpQ2dEa1hQTlJIS1Y0VmNMN09GX3pwYktpYzVTSWVKZmVrNFVsdFJDb2RQZ05wRjFzRUZnTU1jdDZzR1lEdVdLZmprNEJSaUZMVFNxb3BmMGFjSzNqQWdfUnZBM0FRTEdUQlV5bkdHNk9WTmh3WW1QMFZOU0Fud1VMU1VVNGk5b1pvYzJLd0s0bUlqbl9hYXM5czc2S1RJMlc3TURaVkE4YVpfNnVWMHNNWGpCeXNyREZoUHB5NWRPSjNXY2VfOXV0dnQ3UjhlYkI?oc=5",
+            "publisher": "TradingView"
+          }
+        ]
+      },
+      {
+        "id": "sources-say-boj-keeps-hikes-on-fast-track",
+        "title": "Sources say BoJ keeps hikes on fast track",
+        "when": "2026-10-23",
+        "place": "Tokyo",
+        "lat": 35.68,
+        "lon": 139.69,
+        "what": "Sources say the BoJ is expected to continue rapid hikes with December in focus, and that rates are still far from neutral.",
+        "via": "December hike expectations",
+        "aspect": "markets",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "BoJ is expected to continue rapid rate hikes, with focus on December, sources suggest; report suggests that interest rates are still far from neutral, adding that inflation needs to stabilise",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbVE2TGFITUc2NUVfV2FVcC1GQ25FOWNtWkNLQllqcXZSOHNtcDE3TW9XY0otWE1UdE84Z0dKaWdmMDlkZFM2aWJiOWVEQzdsQjk0a1F6OUNRa0ppR0dSX2FoXzMycXEyWUZrQmQwUFV2Y3l2V0RUQ1VWRUktQWQ3R29hODl6OHpRNjRhNW90TGUwUTlhMU1sQVpzTGluMlpuQ1BqLXJYUUpEU3BjMEJyNW9kQjhUU3dOWk1j?oc=5",
+            "publisher": "Newsquawk"
+          },
+          {
+            "title": "BOJ Is Said to Keep Rate Hikes on Fast Track, December in Focus",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQW5DREpVMnNMQmxSbGNDTjk4bnFtTmxjVk9ZemtOenFQZ1V6TEk2ZnRFV2lMZ0VSbUdBT1BBRkwzS0tTTjJTcWJuMVdTTkVnMmVVZUxJUUdsV1lXRGs4b29yaVl5SGU4R1JHbFNVaEZ3U01rNGx5VTdaVlFkXzdPMElub09nalY5ZW1iTTVyT3d5VUU?oc=5",
+            "publisher": "Yahoo Finance"
+          }
+        ]
+      },
+      {
+        "id": "yen-reaches-five-week-high-near-156",
+        "title": "Yen reaches five-week high near 156",
+        "when": "2026-10-23",
+        "place": "Tokyo",
+        "lat": 35.68,
+        "lon": 139.69,
+        "what": "The yen hit a five-week high around 156.10 per dollar as US yields slid and inflation data lifted rate hike bets, before the dollar recovered.",
+        "via": "currency pressure on policy",
+        "aspect": "markets",
+        "flow": "both",
+        "sources": [
+          {
+            "title": "USD/JPY: Yen Hits 5-Week High at ¥156.10 as US Yields Slide, Japan Inflation Hits 2026 Peak",
+            "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQaUZPUEplazkzMDJjTzQ4QjAwa1hpQ2dEa1hQTlJIS1Y0VmNMN09GX3pwYktpYzVTSWVKZmVrNFVsdFJDb2RQZ05wRjFzRUZnTU1jdDZzR1lEdVdLZmprNEJSaUZMVFNxb3BmMGFjSzNqQWdfUnZBM0FRTEdUQlV5bkdHNk9WTmh3WW1QMFZOU0Fud1VMU1VVNGk5b1pvYzJLd0s0bUlqbl9hYXM5czc2S1RJMlc3TURaVkE4YVpfNnVWMHNNWGpCeXNyREZoUHB5NWRPSjNXY2VfOXV0dnQ3UjhlYkI?oc=5",
+            "publisher": "TradingView"
+          },
+          {
+            "title": "Tokyo FX: Yen Little Changed in Upper 156 Range as CPI-Driven Buying Runs Its Course; Market Awaits US, Japan Central Bank Meetings",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9qLW5MUGZtenJBT2dwUVNHeE84cW96YXQ4eS1TMFBYLW5iM2NlV25RUlMxbVVfRmhCV2RKNkk1WmlyOTJVSlVLYjZCSjhsTmM0QzhsRGViV0x3cFJnX3pDeDdValRyRUt4OXNHYUl3Sm4wQkNpcWc?oc=5",
+            "publisher": "BigGo Finance"
+          },
+          {
+            "title": "Japanese Yen slips from one-month high as USD recovers, with Fed and BoJ still in focus",
+            "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOVFZ0a19ocFJVTzdWZ09hcEo2N2R5dHRnNlFSd1ZTX2t4ZWtIU25lbWV5WFhGTnl6MkdzS3d3d2ZwVWxiQTl5MGtvUXpic040QjZTaFo1NVhkWEhieGgyMnNCdkI0Y1RyS0xsTE5CdHd4TGNBSXZ2YzEyeGJpbVNmN1RremI5N28wOFV5VHN1ek1CY1hrd19uczB2M3JkeTRrb1FtNEN3N3VRX0pfNmVBaW5hRG5KSEh4a2JMcVRPbF91ZVV1cjg2aEpLQUoxR1c2M24yS2IyYTR2eUp3NGRVVWk5ZExTZVB6M0dLLTI2c0Y?oc=5",
+            "publisher": "www.tmgm.com"
+          },
+          {
+            "title": "USD/JPY Forecast: Bounce from one-month low; BoJ bets to cap gains | FXStreet",
+            "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE04YU9lRFRETS1aaHdJZkd3UzZtYUZYbmhRM21kLXRXWWhCRGNESlNqV3pjeGwwUzV4eFpmUUF0TFREeEI1NUQ5Snc0OTlTSE9Tc0pj?oc=5",
+            "publisher": "شبكة تواصل الإخبارية"
+          }
+        ]
+      },
+      {
+        "id": "japanese-savers-flock-to-2-deposits",
+        "title": "Japanese savers flock to 2% deposits",
+        "when": "2026-10-23",
+        "place": "Japan",
+        "lat": 36.2,
+        "lon": 138.25,
+        "what": "Japanese households are moving money into deposits paying 2% as interest rates rise.",
+        "via": "shifting household savings",
+        "aspect": "budget",
+        "flow": "both",
+        "sources": [
+          {
+            "title": "Japanese Flock to 2% Deposits as Rates Rise",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQzJGdFZVcktjU3BkclV4X3JjN0VzTWpPYTU1QXlxalBPWkMwZUhmaXQ0eFV6VTlhOWVFTExxRXRyZ2FRMmF1bW0zSlBVd3dReHUtc3FTRTJzbWxfSHYzLUNsSkRzNVFoNGZFenZTR1oxY2YtZFA4S1VScjRDT2ZDNmE0Zjg?oc=5",
+            "publisher": "조선일보"
+          }
+        ]
+      },
+      {
+        "id": "boj-flags-ai-and-middle-east-financial-risks",
+        "title": "BoJ flags AI and Middle East financial risks",
+        "when": "2026-10-23",
+        "place": "Tokyo",
+        "lat": 35.68,
+        "lon": 139.69,
+        "what": "The BoJ's financial system report called the system stable but flagged risks from an AI market shock, cyberattacks and Middle East developments including AI financing.",
+        "via": "financial stability risk concerns",
+        "aspect": "markets",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Bank of Japan warns of risks from AI market shock, cyberattacks",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZXpraVNNeDNTd2lSZ1VuYWRiWm1kU1ladTlEXzRWSVNrSXZxRGVscXROSzlYZUlXc1NzckVTUmdSd2xyNEpLdzVMZVB1N05IQ1ZiU0JwMWJNWllfM1ExVlhhSWNybjUtU0E4VWxqZFdwU0NOMHpCMmI2UE42ZThuU0RYajRFOE8taVpNWTJIampObzhpSGN0ZDJwdW1EeVk?oc=5",
+            "publisher": "The Business Times"
+          },
+          {
+            "title": "BOJ Flags AI As A New Flashpoint For Japan’s Banks",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ0RBVzJTT09zX1l4UHNULWZkRUxoUUFFaG96a3g3V25KX183dkQ0MV9MaVFRN3lsQ2tQaXNvOTNxV0J6M3FLMU5obURnMVJpUW03NnFtWElyV0RyaHI3c2hQbVp5YlpuYUNJVDRoVDg1aDVRRjgySndNVnRBc3h0eDJHV3A?oc=5",
             "publisher": "Finimize"
           },
           {
-            "title": "Japan CPI preview: core seen at 2.1%, topping BoJ target for first time since December",
-            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdDJxTWV3MGptd2UzcDgyUm1YOW5NVE5TNUNfajA3RnBYOWdvdzVLNFA2TS1HUWQtSUd2U3FJbm9XaGN6b3pqUTVVWTFTWldrTDlHMF9pNTBaTHVCeE5pT3BWZ1A1LWVTVFVMaFVEWUhhd190OVlSRlMyRkJGN2J4SHRFT01lUGtyUW8tLVE3RzhpQ003ZWlKSTZGMWNPanAzbGZPVHF5bGdqa3ZlZ00yVHVCcDcxUQ?oc=5",
-            "publisher": "investingLive"
-          }
-        ]
-      },
-      {
-        "id": "corporate-loan-demand-turns-positive-in-boj-survey",
-        "title": "Corporate loan demand turns positive in BOJ survey",
-        "when": "2026-10-22",
-        "place": "Tokyo",
-        "lat": 35.68,
-        "lon": 139.69,
-        "what": "The BOJ's October survey shows the corporate loan demand index at plus 3, and Japanese banks report rising demand despite higher rates, which supports the case for tightening.",
-        "via": "firm corporate borrowing",
-        "aspect": "budget",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Global Market: Japanese banks see rising corporate loan demand ahead of BOJ meeting",
-            "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOaHNkeThaQjBjRUF4SWNkVHRVWjhfRktNY0FvdGo5M0VVcUNzMERNTVJwTXZaSHZ0ZVV3LUU0VERHWGpiTFoxdUpOWE8zdDhZV1QtWWwzbnBRenFKM09LMV93ZXlBZUVWNXY3bXIxTFpBaDZ2azB0Q1hxSTFjd1NUUW1xTjZXazZsR1hzNDlIOUszYlZZUEoyZXQyeEk0Wm9qbFRjRFd2NnR4RjRxOWJCbm9kYXh2M21vU3BQb3ZiNmQ2WVBhdlhCZnJNNUMzS1BaLU1aZkZpa2lMQms1NUJWSEpMLThscEszZ3l6bkhnb05XSW5YbmpiMjJ4cnpsLTg5TXfSAYcCQVVfeXFMTXJBdEpZRVVzWlVpYWFST3EyWmc5ZUhSb01KbVlRelZFQ3Z1NElqOW1xQUhNNnJpRXB1ZS1VaG80ZUVjdTFMSGhYS0JrQVJwS002aEE3SUp2aGlmTElDNndzUXFYcEs3X2d4ZjdKNldmb0h4N09IajVpbV9yaDA2cHpzeVFkdEV1MEVIbWM0eEdmWjhFVDFsTkJXT2xEZDBlVEhTTHBXVTVDZmFIbElwNmFrU3B3MjJSUHJOdzRWa0VsOFNhakZrVmU5VnVqR3N5MnEtRTJVdkFRVUxsYi1uN0FWVXc0TGRlMjAwdzQ4a0ZNMkQyaFItNlN4VTcwbzZIazRQMTd2aEU?oc=5",
-            "publisher": "The Economic Times"
-          },
-          {
-            "title": "Bank of Japan's October Survey: Corporate Loan Demand DI Turns Positive at Plus 3, Holding Firm Even as Rates Rise",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1VVEdISHhjckFfODNnR2U2bE84SWh1UVU3cG42N0NuWWZ4SW8wTzduWFFzUjNZUmNTOG9ISEVEWlJLYWhLVFVmUUJFVm9jSmRMVnc5SE9GdVdUaElBRnpXQU1rUWFKbHdRZmZFa29YNWtSbi0wZ0E?oc=5",
-            "publisher": "BigGo Finance"
-          }
-        ]
-      },
-      {
-        "id": "yen-climbs-on-risk-aversion-and-monthly-high",
-        "title": "Yen climbs on risk aversion and monthly high",
-        "when": "2026-10-22",
-        "place": "Tokyo",
-        "lat": 35.68,
-        "lon": 139.69,
-        "what": "The yen gained across major currencies as risk aversion grew, touching a fresh monthly high against a weaker dollar, with US midterms and French unrest cited as supports.",
-        "via": "safe-haven yen demand",
-        "aspect": "markets",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Japanese Yen Surges Across FX Majors as Risk Aversion Intensifies",
-            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbld3YU1Xa01GaW5wbDBIRjlJelhGMG9JaDhYM05JUmUtckZWaFZkMWVHZjBwaEw0MFBCZEtzWXVEelZXcVRPXzdvM2EzZXpvYllSNnlYR3JlV1lFUkZWMHNYcmpUU0l4SXRQVGY5ZjNWckdTdHpfcVRhT052SUdmSHBadEJRbmxIUmd0SHJHNWxuQjBxUGNwLTI0MHhoQmRWcENWbkE1dWNwaGpOYjY3NGEyZjIzeFBwbGJjem53TGp1UQ?oc=5",
-            "publisher": "StoneX"
-          },
-          {
-            "title": "Yen on track to gain from US midterm elections and France unrest",
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaXdrSWkwMHBUdzVYWFhsLWVuSTBtcU43QjNsZ1dTdTl0RG5GM1JITWpHMlFTRnlTel85bmxQSU95NE00b3huaFl2TmpBMjhFcmFlWmtQSFppRnlIMGxQMDBMajdjemtPalltTHgxMmdtaGE2VWs2a0FkMFBobnA0Sk81VFJyb05aVHpYWGJlWWZvQ0J6dmM4cU8xdkRkeF9BaGUyVHM3dVUwTEt5ekRiRWVkbm04dVk?oc=5",
-            "publisher": "Nikkei Asia"
-          },
-          {
-            "title": "Japanese Yen pulls back slightly after hitting fresh monthly high vs broadly weaker USD",
-            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQVpETGRDNGRfV0dPQzhkbmxqZ3BjUmd3N2FZY2Y4aWhvWGU0aURzSDlPR3dRN3JRRV9reXdscEY0VUZ5QTVZbUFLX1ItMzJpa2V5QVRBLWdFamZwc0xQNXQ5ZU5CaUpKdmNGTlpLX1pnYk04MGdsenYzd081bXJKY3otUnl2M19hVVFzQ0Z6MF9aeDZ6SlBNQ3Fsa2c1Zncyb1pPU0hzdHJyT1VrbkhtYzBQMDdXekpHOF82cGI0Q2FFM1ptd1RRa2Nn?oc=5",
+            "title": "BoJ: Japan's financial system has been maintaining stability on the whole",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTm5DWi16cS01Q2V3aHJnNUUyT1dBRU9PUS11NVVKR3ZHbnF6aHBjUnJDRTVKeTlLMUVlU1V4dHRFOWJSVlNwN3RXQUZCY2xWMVVqdHAtNWpCTmNKVzJhdFFSTUFYbWd0cERxMDFKNFhzaDJwYUw2Rm1vTDFjQmFlM3dNakNIZTZEbC1mWWI1WXdVb1ZxTXdmNjJhbVhYYmdRODNLRmY3UmtkTWJhUGNEMF84b04?oc=5",
             "publisher": "FXStreet"
-          }
-        ]
-      },
-      {
-        "id": "ueda-vows-to-keep-raising-rates",
-        "title": "Ueda vows to keep raising rates",
-        "when": "2026-10-22",
-        "place": "Tokyo",
-        "lat": 35.68,
-        "lon": 139.69,
-        "what": "Governor Ueda said the BOJ will keep raising rates to anchor inflation around the 2% target, shaping expectations for guidance on the next hike.",
-        "via": "hawkish BOJ guidance",
-        "aspect": "markets",
-        "flow": "into",
-        "sources": [
+          },
           {
-            "title": "BOJ’s Ueda vows to keep raising rates and anchor inflation around 2% target",
-            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNE9Sc2ROQm4tYXQ0M2pFRkVSem1LR1VrM0FScnJoLUg0NmFDT2xKcDJBRlJjNkJjX2pNVmxXSnZxYnBwRm5mTEFTR1VRb3ZZM1hXZzBRZHV3RWlwbDk0ejlER2p1MGhObk5rRHMwRXZmem1hd1lDX2JleGZDNFNCcXBqSVJvVVNwb1HSAY8BQVVfeXFMT2l2MFRMM3V6SFpDVThnRDdFc0U5bzRWTzMxMEJsRHVTamVtSm1CMnJNdzIzVG0wVkwycGRkQ1h3ZjJnYzhVMGk3RUNpazdvWnQ0LXQwQ0dzczR1Y0VEZlRUd1ZORUxKZVJsVjFNODhnZkl6UHFPYlI1Y0pvazI5R0RUdWJPenJDX2t5UnRpRTA?oc=5",
-            "publisher": "Forex Factory"
+            "title": "BOJ says Japan financial system stable, flags Middle East, AI financing risks",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQb0p5XzZYSkFIVVFWdzI3eDRRNEFQbXJmLTBfNlhwSTY1MTRpQktiX3dPTC1fdDNodUJwYVhRX0NxRndPYXJ6a1dBVmFoNk81b3p1V0ppYkp6WWxJdm85S2VqaldXUkluOGhQcGg2NnZGSVBqRGI3XzNWSUlOY1Y3RUFQbVE0ZnFxbVJPZGsxZFMyOWZLMWIyRHlKZU9zWUtrZTlkanFVaTRZRmV6S2VtdjhOVXQtZ3J0eTA1T01rRWNieUhjZzNF?oc=5",
+            "publisher": "marketscreener.com"
           }
         ]
       }
     ]
   },
   "sudan-darfur-kordofan-famine-alert": {
-    "at": "2026-10-22T23:59:35.316Z",
+    "at": "2026-10-23T13:00:04.052Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "drone-strike-kills-153-in-abyei-market",
-        "title": "Drone strike kills 153 in Abyei market",
-        "when": "2026-10-22",
-        "place": "Abyei",
-        "lat": 9.59,
-        "lon": 28.45,
-        "what": "A Sudanese drone strike on a market in disputed Abyei killed 153 people, according to a South Sudanese official, and the African Union condemned it.",
-        "via": "market destruction and fear",
-        "aspect": "security",
+        "id": "el-nin-o-drought-raises-sudan-famine-risk",
+        "title": "El Niño drought raises Sudan famine risk",
+        "when": "2026-10-23",
+        "place": "Sudan",
+        "lat": 13.18,
+        "lon": 30.22,
+        "what": "A UN monitor warns that El Niño-driven drought is raising the risk of new famine in war-torn Sudan, adding climate stress to the conflict.",
+        "via": "drought-hit harvests",
+        "aspect": "food",
         "flow": "into",
         "sources": [
           {
-            "title": "Daily_Brief: #Sudanese drone strike kills 153 in disputed #Abyei market, #South_Sudanese official says",
-            "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1adGRqQ1g5cEpJOUtVQ2ZmR21fYWZBaWdrbFI2bF9rdEQzTFFoSXp4OHNXczE3VE44MWt2Y2tXSnRFeEZya0NDRXhRbkc3UGpKSXc?oc=5",
+            "title": "War-ravaged Sudan on brink as El Nino fans new flames of hunger | Daily Sabah",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUENfSVhpcTNnUVp6bWoydUJPMmZYNGJEQ2hMX0tpU2NWdHMxOVVxVmI3RVJ3a3JTbWFGSlNUd0VpWkZCZ1d5aFBOaU5oUW9FYW5taU9oNkdja2htUTZPYkg4dklVRi1jLUZ2ZmdJVUtabmhsY2ZfQmt5LXZMcHBNQjVKVy14NlR6UlBQRE9tWDhuQmpiaHViRnk5alJFRm95WElyUzZn0gGrAUFVX3lxTE1pVDBkcjNJY3lVdER6N3F1ZS1nLVNaMU9IRDlJMmJ4VkJPazlDci1MeU9xTnl0dEZzSDBIRThaaDlqX3F1Z1NQWGQ2azhMTUp1SVc0N1hPeTZtOVI4NnpwZGp2RXYwQmtHRlhsckR0RklWLTVnUzJfcnpPTnFMZWFvOU9yM0RLa3RDMHhybWNlblRCX2Nyem5rVFRCSWFPNFdYcnJqYmUzUmpCdw?oc=5",
+            "publisher": "Daily Sabah"
+          },
+          {
+            "title": "El Niño threatens to spread famine across war-torn Sudan",
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9iUHg2NV9OWUxPY0gxUFRzNkJNcUhJaGZ1UWpETGFTWklWRUJWQXB1eWxiVWVPZlpfQkhNblJnYzIxM21LX2pYdzdvZFY4Y0pKYVRNMDgxV0lUOE5EbmlrVUc2ZTZ6WWx6eFpYaDQ1bEhlazJLT0t2dU0yOTE2UQ?oc=5",
+            "publisher": "Yahoo"
+          },
+          {
+            "title": "New famine risk haunts war-torn Sudan with El Niño-driven drought",
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSmJPSmR4YTVOMi1VSEpxdTFyc3phaVVDb01BVF9PLS1ObGhPVWFkSEdaUFNZck9jRkxCTFN0YW1HTDVvLVZ1SDBHd1Fhal9XMTdGaldmYWRuVUZmSlg2bEswQjRacTZLY3RTaW1XallPdDA4X0xGTGNVd3dXU3lUTTRhdWgxd2ZEZ2xSMVhCT1RwWGtDUEV6ekItMURfWDNJYlcwM1dkSEd1SkNrQXg3ZGFXd2R6ZnNZZVlsbGYwVlJmcjJw0gHEAUFVX3lxTE5KYk9KZHhhNU4yLVVISnF1MXJzemFpVUNvTUFUX08tLU5saE9VYWRIR1pQU1lyT2NGTEJMU3RhbUdMNW8tVnVIMEd3UWFqX1cxN0ZqV2ZhZG5VRmZKWDZsSzBCNFpxNktjdFNpbVdqWU90MDhfTEZMY1V3d1dTeVRNNGF1aDF3ZkRnbFIxWEJPVHBYa0NQRXp6Qi0xRF9YM0liVzAzV2RIR3VKQ2tBeDdkYVd3ZHpmc1llWWxsZjBWUmZyMnA?oc=5",
+            "publisher": "Moneycontrol.com"
+          },
+          {
+            "title": "Daily_Brief: El Niño-driven drought raises famine risk in war-torn #Sudan, #UN monitor warns",
+            "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5nV1ZpM2hRZmc5WHdxZVRkWVpjUVdwbWlsQkhKWXJCYW1JZWRaT1hjQm1qaDRieWlEazlkYXpWWk5hWTk3UkthRGR0YWlqMVRodEE?oc=5",
             "publisher": "Addis Standard"
           },
           {
-            "title": "Drone Strike Kills More Than 150 in Abyei in Sudan’s Civil War",
-            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5DYlFuZ2xsR2xmVFkxVHA3bzh2UWpaU0ZuTHpoQXRrVnc5a3ZqNlpQMy12cDJWX3FHUG1Kd0R1am1qaGR1S2hoTXRPdzhQRmR4X0xVVFNwbGFUR2k0dGsybGZKdWgzNEtZVTV3QXhyZHdsdWt0UTQ3OTIzX2Q?oc=5",
-            "publisher": "The New York Times"
-          },
-          {
-            "title": "African Union condemns deadly drone strikes in Sudan, Abyei",
-            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVDFpd1hlSG1RQUQxaF9RRWxING1OM0g4QXRVcV9sc1ktOTNMWFdPYmtycXZPMTVSTDBNeFloTnpzUHh4SWdjR2phby1NYVBsMnBlOWR2OVlHazJHMUw2Y0FOa2hoZkJYU3d5NmlzZ19VeEhQMW9WTXhIRWFqTzZlbnBmQzFVeTAwY0RiaThkRVFpeHpic18wTEt3RDJHd0xMTmJ0SWNvTFJISE0?oc=5",
-            "publisher": "Radio Dabanga"
+            "title": "Drought caused by El Niño threatens Sudan with new famine: \"It's not just about bullets anymore\"",
+            "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOY0p0cG84Qm1USVd6enBqQk1fR2IxTHhPMkZTX0JYZG1tRjh1ZGpnSXZmcU9DUTg0MUpqSnBrempMTnVjVkhXUWVfaEFXOU8zYTY1MUE5X2NmSzJiUHZmb005X3R0aWhxaFVaZ3RYaDh0ZElycGFaX2FHWXlaTjM5Z1FIcnFCMlh2SThqVl8wSmJpV29vaHNXbFhmdHN3Nkh4NFNfcFF0VThCOW1jYzd1VWFTVUZfTDBBeU43dTZWY2trQXN6endiRkpIeVBWOUdjd0o2OFhDMXV3RTU0bFHSAc8BQVVfeXFMUDNwRHdWX3FWTjlidHNKeS1nTmREa0N2YkZLZGtRanI0dlVNdlN1R3hNRlRWbnpNaUQ1cTZNLVU0WGJPd1d1Ni1McF9fVjlRczNBbEUyMUdPRjJaMkVmQ1lra3U2T1pJU3VkWTFyZnVkZWVzMnhqUVczY3MwcnVOUXg4R1JyOUZyYnd6RjMxcU43NnFXNXRPd0xCbFJmMTVEekJuUmFzUGVXUUdHZWJ5UUNSblk5LVdBYkZmX3B1VWFGSDFKMHd2U2RuX2pud2Zj?oc=5",
+            "publisher": "vijesti.me"
           }
         ]
       },
       {
-        "id": "army-airstrikes-intensify-on-rsf-in-darfur-kordofan",
-        "title": "Army airstrikes intensify on RSF in Darfur, Kordofan",
-        "when": "2026-10-22",
-        "place": "Darfur and Kordofan",
-        "lat": 12.5,
-        "lon": 27,
-        "what": "The Sudanese army stepped up airstrikes on RSF positions across Darfur and Kordofan, the two regions the famine alert covers.",
-        "via": "fighting in famine zones",
-        "aspect": "security",
+        "id": "wfp-aid-cuts-warned-to-deepen-hunger",
+        "title": "WFP aid cuts warned to deepen hunger",
+        "when": "2026-10-23",
+        "place": "Sudan",
+        "lat": 13.18,
+        "lon": 30.22,
+        "what": "A Sudanese organization warns that cuts to World Food Programme aid will heighten the risk of hunger.",
+        "via": "reduced food aid",
+        "aspect": "budget",
         "flow": "into",
         "sources": [
           {
-            "title": "Sudanese army intensifies airstrikes on RSF positions in Darfur and Kordofan",
-            "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5wa3VULTFTdXdNcy1SNEtjRTNfbWpGME5xdEczYWh0SlhBd0lWUmx2RnlWempHYXY2dDZUZjd2ZGxZVUNoVmtSZlB6b085WTV3?oc=5",
-            "publisher": "Sudan Tribune"
+            "title": "Sudanese organization warns WFP aid cuts will heighten hunger risk",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNUV2cG9hQzU3TjRtWU5SUWFtQTJiekJ2N2JEeWhjRl9DSGMxNVBtZnNYZVc4RVA5SkIyTnM3a2lvSlZnOXFFMVVXby1JNjZQbzgwcVIwZ0F4Z2JvNXZjVG40anc4WGI0d1RRMzhDWnY4M0JCTW54NlBlZmxDYy1pRUsyRi1NOTRKU3JfWGh6MEhlV1pFQ1EyMzgzNklLT2VGWEhoaklVVGdXbFV5cElIZw?oc=5",
+            "publisher": "Radio Tamazuj"
           }
         ]
       },
       {
-        "id": "el-fasher-hospitals-deliberately-targeted-by-rsf",
-        "title": "El Fasher hospitals deliberately targeted by RSF",
-        "when": "2026-10-22",
-        "place": "El Fasher",
+        "id": "rsf-attacks-on-el-fasher-hospitals",
+        "title": "RSF attacks on El Fasher hospitals",
+        "when": "2026-10-23",
+        "place": "El Fasher, North Darfur",
         "lat": 13.63,
         "lon": 25.35,
-        "what": "A BBC investigation found RSF fighters deliberately targeted hospitals in El Fasher, removing health care that malnourished and displaced civilians depend on.",
+        "what": "A BBC investigation found at least 43 RSF attacks on El Fasher hospitals during the siege, which it says deliberately targeted health care.",
         "via": "collapsed health care",
         "aspect": "displacement",
         "flow": "into",
         "sources": [
           {
-            "title": "Hospitals deliberately targeted by Sudan's RSF fighters, BBC investigation finds",
+            "title": "Sudan paramilitary deliberately targeted hospitals during el-Fasher siege: Report",
+            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNUZlUWNmVmlTZC1tRTJoV25HSVU4akhyZEtvQXNZc1dzd0Y3alZURlk1NUI4RElfaTZyZkpQTG5FRXJ1V0ppM0FpRm5JaWJJRjgxMlZpTjJKNXVxRHhLbzUzRHBObi1hUHRseVRBUjZmMG4wU3lHVE9uVE5IMnhSTkZVancyQnQyQUVIZHJCMzIwUDROOS1GelpqS1BhUnBIVEp4NkdmYnNlbzloODNWOFZVUVRncFZEcGxWQnh0S3NTdDc5ejBTTA?oc=5",
+            "publisher": "Saudi Gazette"
+          },
+          {
+            "title": "BBC identifies at least 43 RSF attacks on El Fasher hospitals — BBC News",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOTJsd0VIUnljN3g5YkpRUjI2RnF2b1JnVUpSbVdYRXp4OVVialRVQmZvMmlSYVB1dGl1YUJodkRqLWR5UUZTdmQzVVBLTWsyUU1fcDh2N1JXY1VNZmZnWGJtWFRhLU9Zb25GUWVod2VidGlpdFV4TU5QN2lpOS1YUER5SV93dlJMYXBHZ25CMldzSlh0dW8xNWlqV0lEUTVwMFpON3pZOA?oc=5",
+            "publisher": "UA.NEWS"
+          },
+          {
+            "title": "Doctors tell the BBC about the targeting of Sudanese hospitals by paramilitary fighters",
+            "url": "https://www.bbc.co.uk/news/videos/c8x23gegwz34o?at_medium=RSS&at_campaign=rss",
+            "publisher": "BBC World"
+          },
+          {
+            "title": "Hospitals deliberately targeted by Sudan's RSF fighters, BBC finds",
             "url": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss",
             "publisher": "BBC World"
           },
           {
-            "title": "Sudan hospitals deliberately targeted in el-Fasher by RSF fighters, BBC investigation finds",
+            "title": "Sudan hospitals deliberately targeted in el-Fasher by RSF fighters, BBC finds",
             "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9qNUhwT083MHNvS2ZOVG55OXEyNEpUVXZRMFh6X0Vhcmd0UTlHN29hb2tFelpjdGhRN1JXdVdWb2t6aTRqWmxBRnNXNHAyVGphMmdVSkNwNmdmWjg?oc=5",
             "publisher": "BBC"
-          }
-        ]
-      },
-      {
-        "id": "el-nin-o-crop-failure-hits-darfur-harvests",
-        "title": "El Niño crop failure hits Darfur harvests",
-        "when": "2026-10-22",
-        "place": "Darfur",
-        "lat": 13,
-        "lon": 25,
-        "what": "Crop failure linked to El Niño is deepening hunger in Darfur, and the UN says attacks and El Niño are raising humanitarian needs.",
-        "via": "lost harvests",
-        "aspect": "food",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Sudan hunger crisis deepens as aid cuts collide with crop failure in Darfur",
-            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORVRCTTJWenpyeXltT1pfTWFBaEhmZ3pKbTJ1TDkxd0JUWXVoblZrMko2UWJTcUkzejBsTDFyNUprTUs4QTRFWWhmdkhEWkVQazc5MVFlVW45OVRCRzh1TXNlc2Zpc0F3YWpsMUdGV2Q2ZkdJaVRZa2kwcHg3bDZCT1NGZGVaaXlpSWVkV2c4aGV1VTFQWWRqY1YtMUdzQXU3bW5kbDg5UUc3bzZqX1VteS1SUWZpV0xha3JZSmx4V1N2QQ?oc=5",
-            "publisher": "Radio Dabanga"
           },
           {
-            "title": "Attacks, El Nino deepen humanitarian needs in Sudan: UN",
-            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE84Ml9PUmszU0JncmMwRVlJeXB3WjQtZ1ZwYTlEMzRlM2VZXzgyQVhILU5hSmlLaWNMNmVjWmxLQ2NhbHhLY3ZkOTRZeEt0ajhITUt0S3dLRHBucXEzM2VId0ozeVhhN2hnemhDcnpmLWJNQi0wcXRDekRROWc?oc=5",
-            "publisher": "Xinhua"
+            "title": "BBC investigation claims systematic RSF attacks on El-Fasher’s hospitals",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeHM0d2pJbDNpMDB2alhqTXlQVkF4d0xWUFNtTXh0ODZ6VlZrOHNTcjUzRkVOZzRVUzFzNEp0X2pZUWhncnRFdVgxdEhDbWdkNW1iMVZwTW1tODJkLW9TRzJCYVRUeDFMd3RKb2t6SjI2S291QlpUVVdIOFhHMDFOR2dPUkZUaE1pUlYwYlRpSV9iMkh0S1ZaYkNmdDd1Z25wRkxxT0VwNjBKM2liSTNocm92T1ZOU2M?oc=5",
+            "publisher": "Arab News"
+          },
+          {
+            "title": "Hospitals deliberately targeted by Sudan's RSF fighters, BBC investigation finds",
+            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTWFteXpLckcxRlo1eUlvQTBoaWNhdDVMczFLZlR0VXhiV0NiYkdkQmNVV0phMjBjRDE0NF9OcUhvT3J4d2ttMkw1Ni1zSHlzU05hYjVkb3VxRFYyRjk1R1pNQlhPaXZ5Yko5M0YwcVBWdGUzUElsWDk4SjFEektXRE1ZSE1Qdllwbjl2dFE4ekcxb1ZFUlJlMjJZTloyM1JpdGxSMC10ajF5eUZ0eVZVd0I4UXY3MUVsVlpNSkVqdkVzTUMxV0E?oc=5",
+            "publisher": "The Star, Kenya"
           }
         ]
       },
       {
-        "id": "aid-cuts-leave-darfur-hunger-response-short",
-        "title": "Aid cuts leave Darfur hunger response short",
-        "when": "2026-10-22",
-        "place": "Darfur",
-        "lat": 12.05,
-        "lon": 24.88,
-        "what": "Reduced aid funding is colliding with crop failure in Darfur, leaving less food assistance for communities already facing severe hunger.",
-        "via": "shrinking food aid",
-        "aspect": "budget",
+        "id": "drone-attacks-hit-markets-and-camps",
+        "title": "Drone attacks hit markets and camps",
+        "when": "2026-10-23",
+        "place": "Sudan",
+        "lat": 13.18,
+        "lon": 30.22,
+        "what": "The Red Cross warns that drone attacks are killing hundreds as homes, markets and displacement camps come under fire.",
+        "via": "civilian deaths, displacement",
+        "aspect": "security",
         "flow": "into",
         "sources": [
           {
-            "title": "Sudan hunger crisis deepens as aid cuts collide with crop failure in Darfur",
-            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORVRCTTJWenpyeXltT1pfTWFBaEhmZ3pKbTJ1TDkxd0JUWXVoblZrMko2UWJTcUkzejBsTDFyNUprTUs4QTRFWWhmdkhEWkVQazc5MVFlVW45OVRCRzh1TXNlc2Zpc0F3YWpsMUdGV2Q2ZkdJaVRZa2kwcHg3bDZCT1NGZGVaaXlpSWVkV2c4aGV1VTFQWWRqY1YtMUdzQXU3bW5kbDg5UUc3bzZqX1VteS1SUWZpV0xha3JZSmx4V1N2QQ?oc=5",
-            "publisher": "Radio Dabanga"
+            "title": "Red Cross warns Sudan drone attacks killing hundreds as homes, markets, displacement camps come under fire",
+            "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPYjJkZGh5RDVaeHZLUjFNVFZjOVQxY0lpOEt4bU1Vam1GN2k4NklPMTRseFlNczRRQnVGX2xiTnVoZ3A5XzBNVl83SUFxQnQ5SkV0Tzl1RDR5STZVcndIa3JsRi1EZWpLSTdFSFdhVjlTbWxNelFNLU1GeE9scTBBcUV2TnlJN1lOeFJ1QVhpbHprNXFCVTA5TU1jUHFfUGFTdnF6X3RxOHI0QldBVTFFRUtobEttcUpxdEprV2FiakRXVThYbTZXT3Fya3JNNVE0UWRYTl95UTBhUzVzWF83c05POWVva3dDVjBR?oc=5",
+            "publisher": "The Eastleigh Voice"
+          }
+        ]
+      },
+      {
+        "id": "army-gains-against-rsf-in-blue-nile",
+        "title": "Army gains against RSF in Blue Nile",
+        "when": "2026-10-23",
+        "place": "Blue Nile state",
+        "lat": 11.8,
+        "lon": 34.4,
+        "what": "The Sudanese army claims gains in Blue Nile and says it recaptured a strategic base near the Ethiopian border from the RSF-SPLM-N alliance.",
+        "via": "widening frontline fighting",
+        "aspect": "security",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Daily_Brief: #Sudanese army recaptures strategic base near #Ethiopian border from RSF-SPLM-N alliance",
+            "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE91Rk8wMTZCZkozQ0tLdk1LOW4tZVNIc05lOWxDMVB3WjdUaGRqX2lHSF9xQUM1ZWpKRk5UOGtwclhoN1BkNzQxbUtjbUl2T1hpbkE?oc=5",
+            "publisher": "Addis Standard"
+          },
+          {
+            "title": "Sudanese army claims gains against RSF in Blue Nile",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNXRpdkFpbzZTdkNpOXI3YUhYZU1neXI4aG5YVDM2bVR6TW5EbFNLMWVBLW1oeTNXMXg4MndZWFNnMVI4dWRZS09EUm1wMzJwYXZMY0FwQ3UzcUZ6akhvbUYwbUdTUW5JNTVQX0VUajFDYU1HZllTT01xSFM5OG1YaFh1Vk5lZGpMN3AybGpfUHB6ZkhPb3UtZ2xhZVQ?oc=5",
+            "publisher": "Radio Tamazuj"
           }
         ]
       }
@@ -2609,76 +2683,129 @@
     ]
   },
   "venezuela-oil-reopening": {
-    "at": "2026-10-23T00:58:06.112Z",
+    "at": "2026-10-23T13:00:04.052Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "us-license-authorizes-venezuela-oil-and-gas-production",
-        "title": "US license authorizes Venezuela oil and gas production",
-        "when": "2026-10-22",
-        "place": "Washington, United States",
-        "lat": 38.9072,
-        "lon": -77.0369,
-        "what": "The US Treasury issued a license authorizing oil and gas exploration and production in Venezuela, opening the legal path for foreign firms to invest.",
-        "via": "legal cover for investors",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "US Issues License Authorizing Oil and Gas Exploration and Production in Venezuela, Treasury Says",
-            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQb2l5eGRYS0tOWUZjZElpeklpVnlxM0E4OEM0UjJJRGh5V2FXX3hOUEwtMGJhY2xHb0F2eWVaMWtsWGVnWE80cjNKbUV0OXdpRWZPdmtpYnBBUWZLMVBoYWhzN3p6djl1ZWVPLW51cm93RVdwcjJsa2pJSEkzN0RxcUZqQ3RBc1NYYm1HM3Rod2hZNF91SWtpRHBnWURWQWpVVm1EVzUwVWkxdnFSMzVUeVR4dkJfVUktRTlnVDhweFlBcHd6?oc=5",
-            "publisher": "EnergyNow.com"
-          }
-        ]
-      },
-      {
-        "id": "venezuela-resumes-diluted-crude-exports-after-15-months",
-        "title": "Venezuela resumes diluted crude exports after 15 months",
-        "when": "2026-10-22",
-        "place": "Jose terminal, Venezuela",
-        "lat": 10.1667,
-        "lon": -64.8667,
-        "what": "Venezuela restarted exports of diluted crude oil after a 15-month pause, according to a document cited in the report.",
-        "via": "restored export channel",
-        "aspect": "trade",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Venezuela Resumes Exports of Diluted Crude Oil After 15-Month Pause -Document",
-            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVzB4NHBWMHJWd3JkeGtncFFvUnNQUUlydENIOVRwNUF1QjFicWRXbnBmUUw3czBDRWRVQlJFR0VUMXVqUlRvSnBlLXpLX1NaeC1VOFB3WWQ3T3RlMzAtc2tJMGxYcnE5OGVETVNRRWNhLUdYcDdxOFItY2s3UjZWZmNITzhjbnhnZk1xMUhQNHRQTEZPZmY1b1hZVEs1V1Q2S2lvMm5wX3ptTDQ?oc=5",
-            "publisher": "EnergyNow.com"
-          }
-        ]
-      },
-      {
-        "id": "oil-exports-top-1-million-bpd-for-first-time-in-six-months",
-        "title": "Oil exports top 1 million bpd for first time in six months",
+        "id": "chevron-commits-7-billion-to-venezuela",
+        "title": "Chevron commits $7 billion to Venezuela",
         "when": "2026-10-22",
         "place": "Venezuela",
         "lat": 10.4806,
         "lon": -66.9036,
-        "what": "Shipping data shows Venezuelan oil exports surpassed 1 million barrels per day for the first time in six months.",
-        "via": "rising export volumes",
+        "what": "Chevron will complete a deal to migrate and expand its Venezuelan oil projects, investing $7 billion over five years funded by revenue from its existing operations.",
+        "via": "large foreign capital commitment",
+        "aspect": "budget",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Chevron to Fund $7 Billion Venezuela Investment With Revenue From Existing Operations, CEO Says",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZ1l2SXR3RE5wOFp0TkF3VHhfZHBEaVFhV2w4V2w1SWk0bkpJMDdWVFp5NFFkVjVWcGhiVi12UHlTTjl2azdiRmdfN1RZRzBCN1l3NHBpdE82My1XanZHbEdkeEw3dV91ampDSXpBbHdmMFR6aWxSUHBFWjBQVHZEMVhEU01ieDFDWlZCSG54eHBSWGdVZm84OHFfQ2s1eWFEbVBZdDRGYl9xN0ZESWNjbHZVbFJxa0J3V2dKa3o1elpFdw?oc=5",
+            "publisher": "EnergyNow.com"
+          },
+          {
+            "title": "Chevron Expands Venezuela Position, to Invest $7 Billion in Next Five Years",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQS1M3dHZrMW84MDZreGpKSGN2QlMybjBmeHMwNW40bjF2MWdjUE13dWVHSTZPaGJlaDZIZFlJMGVkZGh2MHZ5cGptbkpPNVZGdlVyUjVQbU5hVlRjQ0ZneFA1NkVUWEs0bzU3S1hGS00tY0xjRDQzX0VISmNLSE9ZblNnNVhQZ3d6UXI3Mkd0M1lfZzc2T3A5N2V5QVRXZmFmckNsYmxJdw?oc=5",
+            "publisher": "EnergyNow.com"
+          },
+          {
+            "title": "Chevron to Complete Deal in Venezuela to Migrate, Expand Oil Projects",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQakhDaFZLWi1aVm9jZDZYa1VKcFNPT0J1RjFvS2pRQV85S3NPVHJiWHhGbFE2VFU5TU53SjVNRGFncm9vYm5Rc0xSdjFoMk9xeXJWc2dEdkRHQm9qYVk3RjR0aVc5U2FzUmJzbHNsdUh2elVSNUd5YjVzVlZNTFpjanBEMjJYeTQtVnBOa2R3MC0zMF9pN3NNb2NlSWxhQlhn?oc=5",
+            "publisher": "EnergyNow.com"
+          }
+        ]
+      },
+      {
+        "id": "nabep-adds-rig-and-lifts-output",
+        "title": "Nabep adds rig and lifts output",
+        "when": "2026-10-23",
+        "place": "Venezuela",
+        "lat": 10.4806,
+        "lon": -66.9036,
+        "what": "Nabep, described as the Pentagon's Venezuelan oil partner, has added a rig and boosted its production.",
+        "via": "added drilling capacity",
         "aspect": "energy",
         "flow": "into",
         "sources": [
           {
-            "title": "Venezuela’s Oil Exports Surpassed 1 Million Bpd for the First in 6 months, Shipping Data Shows",
-            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOa0hoOUNPLV9BSU5MdjZYMnk3bTNMbjhKQXBjNjRjenh3b0F4eWU4a1RBaWtBM1BUUzdVX2FBLXNlRkRsTVJxejg5VjJGMFpmVEdVQkE4czF5ckpSOU1qYWJqZk14UmxoWlhzNXJXU0xTa2htZjFzcFhlNC10M0lHU21DWk9tTjdlYW5LUEpnT0pWSjhobUdpQWVtdHllblExclctR2hNQllzbUpTX3dCQWs3Tm1kZnZfRXA1V1hSR0g?oc=5",
+            "title": "Pentagon’s Venezuelan Oil Partner Nabep Adds Rig, Boosts Output",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYktGU2FvSWpkaFJRZlJBR19jTU1hRGpDa0pFTTJ1YUNTaGxPaU4xTlAwS01SZjNWQUNQNTBPcDJrajhDbHhXU0dkTHdUbm1HMjVpQjEzUlcyc0hCX3BwX3ZDbk9JUjRtd2d0Wi1Ob083R1MxTlIyalpzWjd3SW12RmhZNmpOa2NoTzNwOWNqdE9jRHdaakdscjAtTUZTengzV1BxQk9KbF9jaTR3ZGduM3M1dw?oc=5",
+            "publisher": "Bloomberg.com"
+          }
+        ]
+      },
+      {
+        "id": "sovereign-control-of-oil-revenue-reaffirmed",
+        "title": "Sovereign control of oil revenue reaffirmed",
+        "when": "2026-10-23",
+        "place": "Caracas",
+        "lat": 10.4806,
+        "lon": -66.9036,
+        "what": "Venezuela reaffirmed that it keeps sovereign control of oil revenue as deals advance, while a US official said Washington structured its position to avoid dilution.",
+        "via": "revenue control terms for investors",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Venezuela Reaffirms Sovereign Control of Oil Revenue as Deals Advance",
+            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9oMzNZNnlHZVRUdlpDYTdWWFgyMEctWDliX3dENGJFc1FzOVhmbTgwYW9vd2d0cVViTEZScDBvOG1iS20temltWE56U01rSmlTV05zSV84OUU1c1lUMnZzRWViUktTbHIxU2k2ZHJoNDZvNXduRHhaUml6RQ?oc=5",
+            "publisher": "teleSUR English"
+          },
+          {
+            "title": "US Structured Venezuela Oil Position to Protect it From Dilution, Official Says",
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPX3NTc3ZfNEZ2QVhBdkVEdGQ0V3NiM0pHWHlQTE9oNEFyNGhNalYxZllSVGxEMDljOVBqa0pTU2NCdjVZd2VrbUFvZmJjaENrTU1BUTM4Nm9zOVZYZlJ6NjNPZjJWTWx5MzVibG1UVVNfU2lFbDkySnJUVExMRll2YURpaXhOc2VsRWZMSExMNUtlbGdiN1RRVW1xU2RIbHA5M2NGc2RRXy1GclEtemc?oc=5",
             "publisher": "EnergyNow.com"
           }
         ]
       },
       {
-        "id": "bp-led-gas-deal-brings-uae-and-qatari-firms",
-        "title": "BP-led gas deal brings UAE and Qatari firms",
+        "id": "wright-rules-out-chinese-claim-on-revenue",
+        "title": "Wright rules out Chinese claim on revenue",
+        "when": "2026-10-22",
+        "place": "Washington",
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "what": "US Energy Secretary Wright said China will have no claim to Venezuelan oil revenue, backing the investment framework that excludes rival powers.",
+        "via": "US-backed investor exclusions",
+        "aspect": "trade",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "China Won’t Have Claim to Venezuela Oil Revenue, Wright Says",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQV0txdjFOSDFvRWh3S1UzcGRWVm1jVmVORE1DTTZxZENpUlU5ZENSWWVySHZPLWp3NjJzNVJVZzFmZTkyd3NrV2Z3QlhCSzhJUlR4UG5IS3h2Y0V0NjVFcVhHVVZUa2dLVUt6aF9VS2FyTWpyR1pVMU45SEFEQWZRbUMtSWhzeDhNRTQydUd2TlctYVU?oc=5",
+            "publisher": "EnergyNow.com"
+          }
+        ]
+      },
+      {
+        "id": "venezuela-asks-oil-firms-to-bring-own-power",
+        "title": "Venezuela asks oil firms to bring own power",
         "when": "2026-10-22",
         "place": "Venezuela",
         "lat": 10.4806,
         "lon": -66.9036,
-        "what": "Firms from the UAE and Qatar debuted in Venezuela through a gas deal led by BP, widening the pool of foreign investors.",
-        "via": "new foreign capital",
-        "aspect": "budget",
+        "what": "Venezuela wants oil companies to supply their own electricity for projects, as grid weakness constrains new investment.",
+        "via": "power supply burden on investors",
+        "aspect": "energy",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Venezuela Wants Oil Firms to Supply Their Own Power for Projects",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYzV0RVhpWmM5X3FKMUVGNGdHMjZzVENKLUlaWnROTTBSR2pfeWh5a0t2QzNCVllwb3dvSnozLTZIQ0VuU3dKcVV4Y3ExRzI4S1NPQ1dCTzNvWDcxN01EVEM0S3h2ell5SmtVRzFTMmY4Y3NfOUhoeVRPcUZLeHZzUng1aXctYk82Z3d4bjRuamRrZHdVTDNsM3Z2dw?oc=5",
+            "publisher": "EnergyNow.com"
+          }
+        ]
+      },
+      {
+        "id": "bp-led-gas-deal-draws-uae-and-qatari-firms",
+        "title": "BP-led gas deal draws UAE and Qatari firms",
+        "when": "2026-10-22",
+        "place": "Venezuela",
+        "lat": 10.4806,
+        "lon": -66.9036,
+        "what": "Firms from the UAE and Qatar are debuting in Venezuela through a gas deal led by BP, widening the pool of investors.",
+        "via": "new Gulf investor money",
+        "aspect": "markets",
         "flow": "into",
         "sources": [
           {
@@ -2687,83 +2814,21 @@
             "publisher": "EnergyNow.com"
           }
         ]
-      },
-      {
-        "id": "colombia-s-richest-man-takes-over-venezuelan-oil-producer",
-        "title": "Colombia's richest man takes over Venezuelan oil producer",
-        "when": "2026-10-22",
-        "place": "Venezuela",
-        "lat": 10.4806,
-        "lon": -66.9036,
-        "what": "Colombia's richest man took over an oil producer in Venezuela, part of a rush of investors seeking positions in the sector.",
-        "via": "private investor interest",
-        "aspect": "markets",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Colombia’s Richest Man Takes Over Oil Producer in Venezuela Rush",
-            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQV2tDTVJmSnNoajZQYzM0YVM1QmcwUkx0NkE2YnhFam9CRWc0Zk5oRlNXSVdKYUo3a192bnRoc2IwWEllb1NxZTBjaERTM3U2dU1CeDJxWEtwQWR6WDZ5VlpyVXFRYXFLeXpadFJUbENuSDVCRkFuTlNRQ1poc2dlNWg2d0drajc0QTFsTnluNGhiWGh3VDlhbEFB?oc=5",
-            "publisher": "EnergyNow.com"
-          }
-        ]
-      },
-      {
-        "id": "refinery-outage-and-power-demand-for-oil-projects",
-        "title": "Refinery outage and power demand for oil projects",
-        "when": "2026-10-22",
-        "place": "Paraguana, Venezuela",
-        "lat": 11.9,
-        "lon": -70,
-        "what": "A power outage shut Venezuela's largest refinery, while Venezuela asked oil firms to supply their own power for projects, exposing grid limits on investment.",
-        "via": "grid constraints on projects",
-        "aspect": "energy",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Power Outage Forces Venezuela’s Largest Refinery to Shut Down, Sources Say",
-            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRm9qYWtSbnJCaTYta0hjQlJSUk1Pd05CaDFRMW9WS3VJMGMzbWRtZ0VPVkZCY25rZjhwcUI1YTc3dURCYWFiSDZ0ME9CWG4yaTRlQTJpT2h3YjQ4aGc1cnIzbFpocVN1d2xldzZ5eFpHbjRUNDlmTFlBdGNwZndqM2FROTY3Vy10dEhTV1hQUEtNdWZBeHl5SnVueUhoRWNGLW1MZnNB?oc=5",
-            "publisher": "EnergyNow.com"
-          },
-          {
-            "title": "Venezuela Wants Oil Firms to Supply Their Own Power for Projects",
-            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYzV0RVhpWmM5X3FKMUVGNGdHMjZzVENKLUlaWnROTTBSR2pfeWh5a0t2QzNCVllwb3dvSnozLTZIQ0VuU3dKcVV4Y3ExRzI4S1NPQ1dCTzNvWDcxN01EVEM0S3h2ell5SmtVRzFTMmY4Y3NfOUhoeVRPcUZLeHZzUng1aXctYk82Z3d4bjRuamRrZHdVTDNsM3Z2dw?oc=5",
-            "publisher": "EnergyNow.com"
-          }
-        ]
       }
     ]
   },
   "ethiopia-eritrea-war-fears": {
-    "at": "2026-10-22T23:59:35.316Z",
+    "at": "2026-10-23T13:00:04.052Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "ethiopian-forces-retake-mekelle-from-rebels",
-        "title": "Ethiopian forces retake Mekelle from rebels",
-        "when": "2026-10-04",
-        "place": "Mekelle, Tigray",
-        "lat": 13.5,
-        "lon": 39.47,
-        "what": "Federal forces retook the Tigray capital Mekelle, as tensions with Eritrea escalated alongside the fighting against the rebel alliance.",
-        "via": "federal military momentum",
-        "aspect": "security",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Ethiopian Forces Retake Tigray Capital Mekelle as Tensions With Eritrea Escalate",
-            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRG1LMnY2UktmN3BOVmJwSUs1Qmd5SGhuM2tYRkxIaU90a3gxMFdBMjctX3RvaS1CMkNlUDJ5SEhOMHIwYXRrYllOSGtLdTRHVmZiaEY3S0dDUFc4MjRsZE1ycFp0aF80Y3VKNFp3bXF5NUVBWkxYNzdPaDVvdVozMVdJM2FCWVdSdUxFVFBnZkVjM0M1clN2S3RQTWpxRGlSd1hzRjRkV3pmUVdVLXBfdlNR?oc=5",
-            "publisher": "https://globalpost.com/"
-          }
-        ]
-      },
-      {
-        "id": "ethiopia-takes-control-of-zalambessa",
-        "title": "Ethiopia takes control of Zalambessa",
+        "id": "ethiopian-forces-take-zalambessa-on-eritrean-border",
+        "title": "Ethiopian forces take Zalambessa on Eritrean border",
         "when": "2026-10-22",
-        "place": "Zalambessa, Tigray-Eritrea border",
-        "lat": 14.65,
+        "place": "Zalambessa, Tigray",
+        "lat": 14.72,
         "lon": 39.45,
-        "what": "Ethiopian troops entered and took control of Zalambessa on the Eritrean border, stoking fears of a wider war between the two states.",
+        "what": "Ethiopian troops entered and took control of Zalambessa, a town on the border with Eritrea, which stoked fears of a wider war between the two states.",
         "via": "troops at the border",
         "aspect": "security",
         "flow": "into",
@@ -2781,14 +2846,52 @@
         ]
       },
       {
-        "id": "drone-strike-kills-four-civilians-in-tigray",
-        "title": "Drone strike kills four civilians in Tigray",
+        "id": "eritrea-rejects-regional-calls-for-restraint",
+        "title": "Eritrea rejects regional calls for restraint",
+        "when": "2026-10-23",
+        "place": "Asmara, Eritrea",
+        "lat": 15.34,
+        "lon": 38.93,
+        "what": "Eritrea turned down regional appeals for restraint and accused Ethiopia of endangering African borders, hardening its public position in the dispute.",
+        "via": "hardened diplomatic positions",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Eritrea Rejects Regional Restraint Calls, Accuses Ethiopia of Endangering African Borders",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOT1VJNW9zRm80YjB1ZkNEZk5kb2J3Y25ieHQ0Vlh0ZExOMVQzRlpieDdUU0t4WWItSGhDQUJ3SGRwTkRVRTNBcUhhajh2MWhiY3NldTJUSW5jYWN5S1ZRbXFHaEVXek1wd2JGUkszMjhkdmg4MzhLdDRyOFRFYmVJb3FlelZzbDBHQlhEWEpPa2VPdWFYcFVtZy05aVZFRlJiS2c?oc=5",
+            "publisher": "Borkena"
+          }
+        ]
+      },
+      {
+        "id": "tigray-rebel-leader-vows-to-keep-fighting",
+        "title": "Tigray rebel leader vows to keep fighting",
+        "when": "2026-10-23",
+        "place": "Tigray",
+        "lat": 13.5,
+        "lon": 39.5,
+        "what": "The Tigray rebel leader said the war against Ethiopian forces will continue despite territorial losses, which keeps the conflict going on the ground.",
+        "via": "continued rebel resistance",
+        "aspect": "security",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Tigray rebel leader vows to continue war against Ethiopian forces despite territorial losses",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRm9lTnFya2RsVE9Eb2lpOFJubG9PUUhJeDJKa3hpaUNUNFJCRDhtdk1jSkpNV3NUSmVWRmpwWGJSa25TdkhGbks1dkM3Mkh6UXFyMFNQWHo4My1BQVU2WTJsR3R0dE00NUtiZHBLVlBTY09QMmRoRTBZU1RpNHhjd0FnRVJnSlZ1WktHMENXU2pUQjNJeUQwbWZ0Qmljb1I5MVVrbUxqamNXUFE5TW1qX2N4ZUJITzVEZ3dPZTlsYWR5M0NydTVn?oc=5",
+            "publisher": "Anadolu Ajansı"
+          }
+        ]
+      },
+      {
+        "id": "drone-strike-reportedly-kills-four-civilians-in-tigray",
+        "title": "Drone strike reportedly kills four civilians in Tigray",
         "when": "2026-10-22",
         "place": "Tigray",
-        "lat": 13.8,
-        "lon": 39.3,
-        "what": "A drone strike reportedly killed four civilians, including two children, in Tigray, one of several strikes showing the conflicts are not abating.",
-        "via": "escalating civilian toll",
+        "lat": 14,
+        "lon": 39,
+        "what": "A drone strike in Tigray reportedly killed four civilians, including two children, adding to the violence behind the rival accusations.",
+        "via": "civilian casualties and escalation",
         "aspect": "security",
         "flow": "into",
         "sources": [
@@ -2796,197 +2899,188 @@
             "title": "Drone Strike Reportedly Kills Four Civilians, Including Two Children, in Tigray",
             "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XNGVPbHE5MkplUUhlRHA0anZseU1HM3VHcVowaFdEY055STd5amhOeVljWkZoOWJRTEMyM0dxa3NycDhRM3ZSek5QWFZVSEJsTl9XQVAyYjk1bVZSaTVBYi12YkhkVFh4LWdpeEhsYXpPdw?oc=5",
             "publisher": "https://kulu-media.com/"
-          },
-          {
-            "title": "Ethiopia: Drone Strikes Kill Schoolchildren in Amhara, Civilians in Tigray Regions As Conflicts Show No Sign of Abating",
-            "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE41TGE1Qnd5ajVHQWVMZjRIcjQxdzh1RUg5TmZKTEVXV3ZaT01LOHc1Z1ZhbE1ubmlxVTBoYmw5LW1udzF3WEV0RnJrR2c4emRjY3NPZlZ5VnczdUk?oc=5",
-            "publisher": "allAfrica.com"
           }
         ]
       }
     ]
   },
   "ecb-inflation-and-rates": {
-    "at": "2026-10-22T23:59:35.316Z",
+    "at": "2026-10-23T13:00:04.052Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "panetta-says-rising-yields-drag-on-growth",
-        "title": "Panetta says rising yields drag on growth",
-        "when": "2026-10-22",
-        "place": "Frankfurt",
+        "id": "consumers-expect-higher-inflation-ahead",
+        "title": "Consumers expect higher inflation ahead",
+        "when": "2026-10-23",
+        "place": "Eurozone",
         "lat": 50.11,
         "lon": 8.68,
-        "what": "ECB's Panetta said rising bond yields will restrain the economy but are a drag on growth rather than a crisis, ahead of the rate meeting.",
-        "via": "yield pressure on policy",
-        "aspect": "markets",
+        "what": "The ECB's September consumer survey shows 12-month-ahead inflation expectations at 3.1%, up from 3.0% in August, while perceived past inflation rose to 3.6%.",
+        "via": "firmer inflation expectations",
+        "aspect": "living",
         "flow": "into",
         "sources": [
           {
-            "title": "ECB’s Panetta says rising yields a drag on growth, not a crisis, ahead of rate meeting",
-            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSjBPWG82alNaTEZFTXYxbkp5VkR6UjFOLUY2U0hfSElqanBmY1dWTC1NRmJrUnZwRGxFNUgySGJicHVXX3U3ZlFTeUc0SlMxTGZzeVhkQmx4aHhmZ0VIWFpvM01MYXdXNWxxc3JzcjYzQ0xKaFpLakZDLUR3UG1VSEd6RWJVT28xMHh2cWdHYTVjdVBWN2JLaVFLaXNNYlZxdjRhM2loNFYtOXhHNGpHM2lpRFNsdnVZdmt4dWJFaXZ2bGM?oc=5",
-            "publisher": "investingLive"
+            "title": "The ECB observes a rebound in consumer inflation expectations",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNS2piMm81Q3plaHdLZTQxTjlDaWlGUkRLTnh5Ty1LR2ZDbFUydGRWYWVFaC1HQl9yVGRra3RwYnBVaXpjWUZrSU5RbGdHdC1ld1phbnVkMjhiRHJwT2lERTZuSUljbDdnMzR1X08zd1V0ZVJ2bnBCZ0V4ME1rLUJ5NTRGT3dpZEhDNGdaa3BpSUgxM0dvWFpmSDRiejNFMzTSAaQBQVVfeXFMTk9JY25qLXQteWtZQ1dnZ292amhBTmxXX1NyM3pUVlhxdDhiVW9DZ083emxfbE9vUUVncTBRcUxxV0hSZE9RU0ZPaDA2RFo5YkRDX3ZVbFZNRUM5Y0hJclZKS1JZb1oyTkR3Z1dkSnFIZ3RlT3hVSUhGeXFRLTloUFdscUo5TUMtdTdKZ1BDS2w3d1JsZS1UUWoxMnR6bk5BV0dZTkU?oc=5",
+            "publisher": "Demócrata"
           },
           {
-            "title": "ECB’s Panetta Says Rising Bond Yields Will Restrain Economy",
-            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQkpvQUx6Nm1yVG1hNVJhY25ZU0RYeUxYSFVxV1dVVWZZc0VTQnI4SzJkdjcxQXVEbDBrUmctUXRudEwwQzBqS0VvcWd6ZDlxaUZMbTIxSzlkdW1QRUE1TTZaemRabVpXNEdReDgyUjJYYW9WREx4ajBUeFd1anBXbzB3ZjZMRUdYbGZlaFA0Z2lnWWRBdVRScDJCOWt1dllZbDF0SmE4dEpPQUtuejFJ?oc=5",
+            "title": "Eurozone Consumer Inflation Expectations Edged Higher in September",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRk1YZU52amp4cDNRa3A5cm11eDd6NUhJYVFIVkFtbXBhU2JpZXlDYlVZU0ZNY1JBNm1NdHdxbTlLc2NSYW9hdkl1RmRqSFNzbEdCMXd6NGZ2VlNCdWZoRFNROGNGUmpLQ2RCWHM3WUo1WDVaM0pLT0psWExQdjgyYTUzRnJwTlMtak5uajJSTk45a1FCR0x3RkplT0lkUHZadFQxZ1Z5cUlsWmcydmF2aEFJa2huNkdxNlE4?oc=5",
+            "publisher": "WSJ"
+          },
+          {
+            "title": "ECB consumer survey signals firmer inflation expectations and weaker euro area growth outlook",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPX2QzYXNzSVZvSk9RU0ZUUXAzYnJ0dFpQYmh4N0lLUGU4SlpXUUxNalVRWTNxOFk5RzFFblN5LWlNbjdnZ1ZpNVYwNHRZSDM2cFFqNlpPVHFtX3dzWm9EMTFFTzdFTk5uLU12LUZzNTBxb2NwUy1oUVY5aDBnX1daODFqaVptVmQ5T0RmcThtY0RKNkxvVllNZGpoanFuMU0?oc=5",
+            "publisher": "Traders Union"
+          },
+          {
+            "title": "Euro Zone Consumers Expect Higher Near-Term Inflation: ECB Survey",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPX1NCZURMWGhDRzVRWHJBZ1hjVUUzZ3EwVjBldXFqTjVkVGx3VEZ2eGZaV2dKbnhubDlBTUF3VFB1VUhxUHZoMTZwa0VuMlFDTmxKSXNyVzhiLWpHLVJPekhoYm5oQjBrRzY4dlhmenhwVjRRUkhYck4yOVI2RmNHNDhYaU05RlZtWFo1T3BDeVJNbk1TR2VHeV96MDRPYkNm?oc=5",
+            "publisher": "Global Banking & Finance Review"
+          },
+          {
+            "title": "Euro zone consumers raise near-term inflation expectations, ECB says",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPS01LMnVhVllBSGM1SVRCUkdpTUZvTkJzSXBoY2JSX2ljTldaMWdpVWNIZ2FiQjJLT196b3g0bzc4WGFBWkY5X2M0OHduZXBQbzRGWHpqTGF4MVhRT2N1NWgxTW10MUh6RW9lcmg0OGEwSDdOZWlrXzNDX1N0eXRVMmpKVWZjS3l1QnoxQ0pURDVuU3F0cGdHX1ZWZGkyOWNwUmpTTFd6TEtVNVhyd2pITQ?oc=5",
+            "publisher": "Euronext Markets: Real-time Stock Market Data | live"
+          },
+          {
+            "title": "ECB Consumer Expectations Survey results – September 2026",
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRVRraG82MWNRWENRa1VSLWtneER0MU5NUHR6UEhrX2xCTWlRejF6WE5IcVRaQXQ5OUZfQnp4YmJ3WEtLdWk1VERZa29KQm54MF9uMlA0REFVcDhvemN5d0RJNklPNzZXWFpNa2ROazdJMWNIRExNVkM2OXRHV2JKWDlNNnpwaWxZbE9YeE1PNmFrT0UweTk2dTN6bE53QdIBowFBVV95cUxNeTg0MGhoV252cWtueEl4YTNySkE3aklfbjRfZWFjbUZGQjZwUU1jVld6ZUpxaFI0MGM2ZmQ0Y2NHMTdPaWQwUzFoSDNTcjhBeWZTejhsWld2YXpvUWwzRWdOQVlxUWlyWHJTNTJiUXpUYnhneWZaeTdzTHJDUFlURk5fNkJGTkxPa1hUMHlWb2g3aFZqVzIydWdGd25vTmV0Zi04?oc=5",
+            "publisher": "Forex Factory"
+          },
+          {
+            "title": "ECB Says Consumers’ Inflation Expectations Edge Up in September",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdG1oUVp2R3FDYWpyQVZuRmhvY3RzTzBjZDJZOWQ3UWowcVdBNVJjN1RRTWU0YWxXNkNrMVNTeUc2N1R2V1RLWUJuTGlmNEx4N0ctMEUwT1RRUEVLSFZjUnBVNjFpSm15eDlJVXg1d3gyLW05MDB4dkpiUVF3bHBUM1dMd1ZTZnNISVpYWGNEVFNWSWZTbkxHUzFvT1pQNmNrUlFpT0U0NEhIdVZZZHl6T1F6MA?oc=5",
             "publisher": "Bloomberg.com"
+          },
+          {
+            "title": "MORE ECB SEPT CONSUMER SURVEY: PERCEIVED PREVIOUS 12-MONTH INFLATION RATE 3.6%, UP FROM 3.5% IN AUGUST (VS ACTUAL RATE OF 3.8% IN SEPT)",
+            "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPemRuYXBCZW5WWDYwRXRSekVIMHRVYzF1ejAyMXBmTzUzc0JZUlJfZGpCSmtuZlJlbTdNc2J5amxBQkpwMTBsLU5GWjFpbXI5aFJPRk1ueDBhRElMeGdNajJua3o2UnRqQzB6MmEyT2E1UzNDbzEtXzNDLXNhS1lzZlI0RW5FOWdDNGJkYVVXenBCUENlLUVDdVJ1amVXWjBnNG5Zd1E5ME9Bc2RCdXRiWWlHQTRjRWlKamU0YXJIQWllX2NUX0ZSc1NXTnk2eHVkb2JuZTlkUDBBOVVkWGlOX1FDMkUzaW1ZQ1EwWUFrWDdoMlVJdGlkbkh4VkVhNGo4V1EwdE1vM0l5MlptbXMzbTJaZ2todw?oc=5",
+            "publisher": "TradingView"
+          },
+          {
+            "title": "ECB SEPT CONSUMER EXPECTATIONS: 12-MONTH AHEAD INFLATION EXPECTED 3.1% VS 3.0% EXPECTED IN AUGUST",
+            "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOQkhrMEktbjNIc3RSMFpwY3V4QVFNaUxmbXY3WTExOVNCWmIyRms2ZHV0M0xORDVzWHE2ZE0tU0M5M2loM0pwdjdnUWxCSHlOQnJiSlhiNnByNThRVE9xZ1Y2aW9VTU5tYkFpUXN2UDJmRUZWaUliajJiSlR5NzZkdkRhLVVJYXA1M2padHhkNEpxcnUtUTZIbmFMRl9UZGFwLXJSTkNWVUNzVlVPQ1kyRkROTnBsZV9sMGJ5MUtBMEtxN1Mxd0ZmVDZoM0JFeHdZOW85OFpvUmFyc1ZUeVptQURRZDIwS1FE?oc=5",
+            "publisher": "TradingView"
           }
         ]
       },
       {
-        "id": "kazaks-says-more-tightening-may-be-needed",
-        "title": "Kazaks says more tightening may be needed",
-        "when": "2026-10-21",
-        "place": "Riga",
-        "lat": 56.95,
-        "lon": 24.11,
-        "what": "ECB's Kazaks said further tightening might be necessary if inflation stays above target, noting that higher yields have already tightened financing conditions.",
-        "via": "hawkish policymaker signal",
+        "id": "october-pmi-misses-estimates-as-growth-slows",
+        "title": "October PMI misses estimates as growth slows",
+        "when": "2026-10-23",
+        "place": "Eurozone",
+        "lat": 50.11,
+        "lon": 8.68,
+        "what": "The eurozone October PMI came in below forecasts as growth slowed, sharpening the dilemma between supporting activity and raising rates against persistent inflation.",
+        "via": "weaker growth data",
+        "aspect": "markets",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Macro pulse: Europe's economy is losing steam but inflation won't let up",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSkZGQV9YQWlmbFM1VnJsN01lLXR1WEJRWmR4cUs5UnNJam45T1VGTFRYaS1iR1BZX0w3MkN3S3ZKM0d5Y2pZSFhrUmlRQmNfeEZZQ2FLSTNQWEtPLVF4QWtMeHhfazBnRDB3VmtLOC1XNy1XZFZjNmpaX0pHREZDcDVhdVpOT1BoN1JvZFZqRTVTdnJMTF9sbm4tOGlqckNVcGY0X2VaaTh6RnFQ?oc=5",
+            "publisher": "investingLive"
+          },
+          {
+            "title": "Eurozone October PMI misses estimates as growth slows, keeping ECB rate hike dilemma alive",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVWt4d0c1UG1BSlNMMzVtOWFVMGEyWUZBZ1VuNTFmei1tTF9faWtsS1FWSmhzRFhVclBzQmFhUGt6YW1JOWcwMkJlRlpTbUJmWWlSaXl4ZHBnS0IxeXp4TXhoRU1fLUtMVlpOOGFZZ2lXWlFhUTJ3MENVU2QtUWg2RlUxRGhDTWhRdkJ3VFA5bmNkZzFuUk1mLUlYUURyWTlQR1BuLUNqMWU2b1BjNjJJbG1pWVR5S3RFTEdIWjZn?oc=5",
+            "publisher": "investingLive"
+          }
+        ]
+      },
+      {
+        "id": "debate-over-ecb-support-for-french-bonds",
+        "title": "Debate over ECB support for French bonds",
+        "when": "2026-10-23",
+        "place": "Paris",
+        "lat": 48.86,
+        "lon": 2.35,
+        "what": "Press coverage asks whether the ECB might bail out France and what a French test means for policy, putting French bond stress in the run-up to the meeting.",
+        "via": "French bond market stress",
+        "aspect": "budget",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Is the ECB about to bail out France?",
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYm1ZMzAyOUpGRDhnM21JSllMSExsVXBaUlpzdjRqbUhkRmlKZkFpdW1vSWJPd0xEdlBzNWF6MDY5MkdxYUNwbTZoY1lFdGdBcTB4RzhZb0xyRVRwQVJGXzhMVkt5d3NDbXdZY2x3eXpTVEwzWGZhLU1GYWYyWUVqaU03eFV5U2tqQm9ZUnYwZWRYeUZGcHNEYlZ0RVoyQ21tUllmdU1yWFo?oc=5",
+            "publisher": "The Times"
+          },
+          {
+            "title": "Ready for a French test? - 5 questions for the ECB",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOXhQMXVWQkNnZGIzVENYbjZVcHdncXJMRFFKT2JJdVU1c2FZbVo3a1ZuNGNZczEzaFlhclpJZGdTR3NmRHBuczgxSm56UG54a3RVcnhXbUNNeUR6SmM0UXFSaXJ4dU1iZExzWFEySFZiSlFhc2pOdWJRNnJaZC1fc0lZV1pxVmRwd2c?oc=5",
+            "publisher": "RTE.ie"
+          }
+        ]
+      },
+      {
+        "id": "de-cos-tipped-as-lagarde-s-successor",
+        "title": "De Cos tipped as Lagarde's successor",
+        "when": "2026-10-23",
+        "place": "Frankfurt",
+        "lat": 50.11,
+        "lon": 8.68,
+        "what": "A Bloomberg survey makes Hernández de Cos the narrow favourite to succeed Lagarde, adding talk of a leadership change around the ECB's October meeting.",
+        "via": "leadership succession talk",
         "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "ECB's Martins Kazaks Says Rates May Need To Rise If Inflation Stays High",
-            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOakhTb0szdjI5UVgyTEdlRE5VdjNsS202VzdzTUJib1VwWmpRZFpKNjhfN3BEeUZQYm9ab25nb0dwNnpFTzBBRHlsdFBUclhrVnRybDRiWXBQZ1F1ekUzMVZiY2w0SVNUNG41ZjV6WE1CaElGZGNYQ0dkbzNEZ3UzZnZoV2J3SkRFRUxhOUFPZUR4QQ?oc=5",
-            "publisher": "Briefs Finance"
+            "title": "Hernández de Cos stands out among economists as the favorite replacement for Lagarde at the ECB",
+            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPamtmYklBdnlvV0ZnXzRxelA2Wm9jc3FOTFdYbVNLaF9YVjdmeE9nQTBmMDZlT3IxVFFZT1ZVZUc3ckpSakRKQ1drYVk5YWNwQmVwQVFJdFFUTldlUTQ5UnRDTjZrd09qeE5Qb0o3VHRRQ3hXUm5MbHlkRFhMQWw3c0tuOERRR2QwdGNURFVaU1N1Wmp1VzJDQ0NJaXVTcHZ0Y3Z6VzhReFRBUHZHRHc5VW9XUkQ5RlBra2hNQmR1RDVZb2FjcjJjUS1hUVXSAdIBQVVfeXFMT2FIR2RvMUN5bWY1MmRPMFJWb21rX0lNTXhOU3lhekpidTc5MGlnQUlkbU9YcDEzRW5HQ2M4QzB5V3RiSEtHMDB4V2ZRaVdTWjJSa0NWSUhuOGxSZGNqTXBjVnlJOU4wdHhmRXpLZ1JMN3RrYjVYRDVXaGFPRktiNnYyMDEtSE5kSjFyeTdTMVd1bVZLNHduQ014Wi1SdUlveGc4eDVmelJVV0pRaS1wX1BnMWJLQ1hFb0lnT3Etei1qYW9zWjA3NDU1bkkzUE83bVVR?oc=5",
+            "publisher": "Demócrata"
           },
           {
-            "title": "ECB’s Kazaks Says More Tightening May Be Needed: Econostream",
-            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNFlTazNROVoxcFQ3RDRiWmxUSVU5WWF4MlU0cDR1MlR5bmZVUmlzdmtnTFhhQ0kyZUNkU05LT2hHNVlTTmc5QlV4WFhYV0RzRm9vWUlzMVk2VmVxdHhYdjFEVmM4T3o1VnRGNVhVZ2tvVjlfdDRqS0NQWjZsRkVoN1NSUTdpaHJJYXVyS1JESm0zdjJza3l3cVdEMzl6OUFfRWtyc2p2SXhvQmpwNEJv?oc=5",
+            "title": "De Cos Is Narrow Favorite to Follow Lagarde at ECB, Survey Shows",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdDFQblgzY3FFYVBhOEduem9aMDBPaGtUaXJoT3J1VS1jWjA3a3BjWGJTdmc0aUx4NDBOcndkN3JydzFmUDVJRWdnV3kxRUVoSFRwbm5TbFl0eV9qelV4QjJkZmNncVVmdHF4clRGOFo2MWdxTzJiaVkxRFZuU0J1U0duUk11dU01Qll3TlNyNlVsd3pITFMyZXdGblN6eEtlcFRWQmNGcXBIcndJemhLT0JUYnc?oc=5",
             "publisher": "Bloomberg.com"
-          },
-          {
-            "title": "ECB's Kazaks says that some more policy tightening might be necessary if inflation continues to reside above target; recent rise in yields has already tightened financing conditions, Econostream reports",
-            "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNOE5VNnRuWnEwRHNoeF9SeWE3TXppaGtWLURxd0ItdWNoTi1wMnB3ekxSNjByVERVd3Z6S0F1TFFycXFOQW1aX2lyZDFfaTd6VlJkVGluOEtlTkpwNlY1TnV5MXEyY1dteFdzblRFZG5KcHVGWm9YamF3cE1SU2YzS1hTdnMwRnRVZ2VDSUdKQkZKMGpyQVh2NGdoMnFyNG5zRXFsN210Zjd6ZHJiMHFBeXVPM0hVN1dTNVFHeld2RjZHV1h1dXNtaXlreGQ0M0hOQllOMklnd1Y0OUVxZWRaLVBoSnQ?oc=5",
-            "publisher": "Newsquawk"
-          }
-        ]
-      },
-      {
-        "id": "irish-banks-raise-rates-after-june-ecb-hike",
-        "title": "Irish banks raise rates after June ECB hike",
-        "when": "2026-10-22",
-        "place": "Dublin",
-        "lat": 53.35,
-        "lon": -6.26,
-        "what": "Bank of Ireland and PTSB raised interest rates on products for the first time since the June ECB hike, with PTSB lifting fixed mortgage rates.",
-        "via": "higher household borrowing costs",
-        "aspect": "living",
-        "flow": "both",
-        "sources": [
-          {
-            "title": "Bank of Ireland and PTSB raise interest rates on products for first time since June ECB hike",
-            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQU3BZck9fUUE5UVNSbGtaczBpR3JXcDlCV0FfUTYwazR1Um84bnVIU2ZocDIzXzVtSnRPVTRJdkE5MHd4QlRZY3hPZlF2SGdfYlZRSkh6a05SQTNDS2VJVkJrS185VEV4NnNtalVoU3lTcnp6S2NlQ3RZVGVUTlJLVEVJM3hob2FXTTloTllxMFlZSm5KX1VaRmd5bndJUmxFVXhRVHBYajdkYU5zcHVGbmYzbkJiaUVPZmJ1aXZ3aGs1SnlqX2NZb0E1aXBabVV3LW9PMFc2UQ?oc=5",
-            "publisher": "The Irish Times"
-          },
-          {
-            "title": "PTSB hikes fixed mortgage rates",
-            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9DTGZFTlp2TVppTlhDWXF3QklEWFM2MGxhR2s0RzBjZ3ZqNllIZlZRc3JRek9GUllJLWJZaDRnWWwtOXptenRzSDhlWlFfbTVYZEZnTDNIMlJzUnlrdEpLU2RLNExFZjI3dDRSSmR2eVN6WlFs?oc=5",
-            "publisher": "The Journal"
-          }
-        ]
-      },
-      {
-        "id": "ecb-says-ai-and-green-shift-cushion-energy-shock",
-        "title": "ECB says AI and green shift cushion energy shock",
-        "when": "2026-10-21",
-        "place": "Frankfurt",
-        "lat": 50.11,
-        "lon": 8.68,
-        "what": "The ECB said artificial intelligence and reduced reliance on fossil fuels help the euro zone weather the energy shock, with AI-related trade a key driver.",
-        "via": "resilient growth outlook",
-        "aspect": "energy",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Eurozone economy: weathering the energy shock better than expected; AI-related trade activity is a key driver.",
-            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdXNrSGxQSEo2Rnk3SDdhUHVlVTNkQWhlT1ZLWUdBOGpxTFF5elNydWR3c0EyU0E5QzYxd2hNLUVoOWo3b1NiVHZ0Z0ViUmlEeXlzdUd3UW1ybzlDS1llU19fc0FNaTgweTRta1l3UFVlOTlhTU83bEh4cFl1R29EaHk0VlVleUJ0SGlDbUFUNmg1bUxyRFFDeDBUcnRlRXJ1bEk0R2ZXV1ZMMnctcmtYRVAzb0s5RHd0S2VTeUJaQkhQaFFmWUJYVkFHVGNQMVN0clBLd2Q2VQ?oc=5",
-            "publisher": "Vietnam.vn"
-          },
-          {
-            "title": "ECB Says Artificial Intelligence and Reduced Dependence on Fossil Fuels Are Shielding Europe's Economy",
-            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GLWZBdlZqVnFUY21OTm0zYk14cHlDdDFqQTc5TVFpMm5NU0xpdGNFVTZpWm40LUI2eGNfel9QY2JLcThiVmxibEhmYkpEOWx1SkllTF9EM3o0dEhIaHZiSWV1MlRvRmpSdUlVRU9fa1lsY2NaTFFvNg?oc=5",
-            "publisher": "EU Today"
-          },
-          {
-            "title": "ECB says AI, greener economy help euro zone weather energy shock",
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNVE1WFlPV043OWhlQ0E3TXFCSnNmQmhLaVBsS0l5TTlRSFNGNlUwY3pqZllBVDQ1alFzdXFuTEowN0RlRU5jMkdmNjFzU3hRM01XdGc4TVVvQWhOdWp5aGQtNm9sdUhzWWUzWkN6VTUzeHFtWjk4aFlTdzllSGZtZTFYX0gzb2k0TkFyRUZrYnRJTmF4d2JJZWwtN0s5RzVaRDhLYmgxS3pqRERvSTFzM2VxVVZubDQ?oc=5",
-            "publisher": "Reuters"
-          }
-        ]
-      },
-      {
-        "id": "analysts-split-on-october-hold-and-later-hikes",
-        "title": "Analysts split on October hold and later hikes",
-        "when": "2026-10-22",
-        "place": "Frankfurt",
-        "lat": 50.11,
-        "lon": 8.68,
-        "what": "MUFG expects an October hold and two hikes ahead, while Rabobank sees gradual tightening pointing to a December hike.",
-        "via": "market rate expectations",
-        "aspect": "markets",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "ECB preview: MUFG sees October hold, two hikes ahead. See EUR/USD year end at 1.12",
-            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZmI3S0JNUTlveEh6ei1vYkpXUkV3dy13V05NR1N6RHhna0JHM19IWHIxdDkxLWZ5WEF4VWh3WDhJR2hpU08zZ0FhbW5pR0ZJUk9XOUxDbzRCdm9raUFMbEQyRWx3UzZDaWhLRzZ2UnZPSzhwX1RLOE5laXhxQWxadUcxX2ZlaEpJcGxuU2R6R2ZvLUN0RlNZWVJjcS1rd3U5dEZ0dFBjWVRwRFVLQ0gzTXB4MWZRbDV2OVp1QQ?oc=5",
-            "publisher": "investingLive"
-          },
-          {
-            "title": "European Central Bank: Gradual tightening points to December hike – Rabobank",
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaHhzbnBzRzJSVl9vbEhnb0x6SDB3cUFzR1dlX21xRlR3WFhIWmdvdDJFV3FaQzlBR1BIalV3cnJZSy1RUFlNTDlRNWl6ZDM0ajBIcEpvQzJrbXFzSHpPYWVuVWpEV2VjUXlHNzZFSXZPajkybzlLRFc1NDhIN3NESFVZWVJFOU1feEVPOG1KeEc0NkZLUXhQdTdNeS1PNVBwN3h1V1M4X2NmM2lMTGtBcmNSVEZHZUk?oc=5",
-            "publisher": "FXStreet"
-          },
-          {
-            "title": "ECB on course for another rate rise in 2026",
-            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NZGlXYVA2anNNdy03NTRIX2FPOG56T29UaDNua3dycmhKdnhzUXN3b29Nc294Y1ZSOFVscVRTMG9MOV9pRkVvTlljNGpjYTZlWFltS0VEQXRrY0VCNW43blpGM3FXUnFaLWxTdHFhZHQ?oc=5",
-            "publisher": "Financial Times"
           }
         ]
       }
     ]
   },
   "istanbul-floods": {
-    "at": "2026-10-22T23:59:35.316Z",
+    "at": "2026-10-23T13:00:04.052Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "heaviest-rainfall-in-84-years-hits-istanbul",
-        "title": "Heaviest rainfall in 84 years hits Istanbul",
-        "when": "2026-10-15",
+        "id": "new-rain-wave-and-flood-warnings-for-istanbul",
+        "title": "New rain wave and flood warnings for Istanbul",
+        "when": "2026-10-23",
         "place": "Istanbul",
         "lat": 41.01,
         "lon": 28.98,
-        "what": "Istanbul recorded its heaviest rainfall in 84 years, which flooded the city and began the deadly flooding that has killed six or more people.",
-        "via": "record rainfall volume",
+        "what": "Turkey's meteorological service warned of fresh flooding in three provinces including Istanbul, after an orange alert for heavy rain the day before, keeping the flood threat and risk to life alive.",
+        "via": "renewed heavy rainfall risk",
         "aspect": "displacement",
         "flow": "into",
         "sources": [
           {
-            "title": "Deadly Floods Kill Six in Istanbul After Heaviest Rainfall in 84 Years",
-            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSkRKMkJQbWJlVjdsRWEzdHBSRVRYSmI2YllGMnJhSC04M18zTUlVUmgwa0h6RVNQM2lUbG9zY2llTm1udTRzNTI3azYyRWZZa25uTkFtd01kMldrMlJPbkhlU0NKRkNFcmcxZEhmdzJ1SGhscFdqZGdBNUdOOHh2RTJFM1FEX0ZOdmJXSFA5SEE4UFllblZHUFlCNm1jeUZ4SElIV2RpOE1Vd0ZvT1VoSk5ZaldPWHdObTZtWWwyaVVsQQ?oc=5",
-            "publisher": "ShiaWaves"
-          }
-        ]
-      },
-      {
-        "id": "orange-alert-and-school-closures-as-rain-returns",
-        "title": "Orange alert and school closures as rain returns",
-        "when": "2026-10-22",
-        "place": "Istanbul",
-        "lat": 41.01,
-        "lon": 28.98,
-        "what": "An orange alert for heavy rain was issued for Istanbul and schools closed, so more rain is falling on an already flooded city.",
-        "via": "renewed heavy rain risk",
-        "aspect": "living",
-        "flow": "into",
-        "sources": [
+            "title": "A new wave of rain has entered the country! Flood warning from the Meteorology for 3 provinces: Time given for Istanbul",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPV0R4ZTVmRjAtRm8wR2tBdEl3amhGN18wLUVNTEJkRkZQOGtfckh3NS05VDBrTFQzaHg2MlFXekxlaWo2NDhKQklzLS1FODNvLXlNV1hMTHpwZUlwdnhqTHN5cGVJY3lVQmVqdUtZOXRtMTZNdE40WUQwT25nNFBZWmdqYkNvT2M?oc=5",
+            "publisher": "Haberler.com"
+          },
           {
             "title": "Storm in Istanbul: orange alert issued for heavy rain today",
             "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUlVTTkU3OEU2SjVXQl9NTWl2T0JnUnZrU1BhejZYMlhKNHFtb1FROGJ6RExUcU1LRGc3TzZycHc4OGowSTE4UTZOQWxLNzYtTmdBaUNjaHB3QklhaWE1cEtVVVF3d1J4YkV1czR5alUwU211eWROTEEtVHlYNG0yaTE2ZDN0SlNVQzI4bktneGR4QQ?oc=5",
             "publisher": "Hispanatolia"
-          },
+          }
+        ]
+      },
+      {
+        "id": "schools-close-amid-heavy-turkish-rain",
+        "title": "Schools close amid heavy Turkish rain",
+        "when": "2026-10-22",
+        "place": "Istanbul",
+        "lat": 41.01,
+        "lon": 28.98,
+        "what": "Schools were closed as heavy rain continued to hit Turkey, disrupting daily life while flooding was still developing.",
+        "via": "disrupted daily routines",
+        "aspect": "living",
+        "flow": "into",
+        "sources": [
           {
             "title": "Flooding in Turkey: schools close amid heavy rain",
             "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZGx2U0R2bTkza1FoeUgxUXpGZU16STRtWEdBMHIwNC1OVGhPeS1KRktvYWNWMjJYTkd2TV85WE0wdXUwSWdva0V1X3lQal9NSU5reHFmYlVVU3puVVRxbG91T1ZUdmFJd2FuN092d2pac2xlc0FDb251d0ZYUUFpQVRhdkdVZXNoSUdTYnN1OA?oc=5",
@@ -2997,136 +3091,112 @@
     ]
   },
   "north-korea-missile-tests-2026": {
-    "at": "2026-10-22T23:59:35.316Z",
+    "at": "2026-10-23T13:00:04.052Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "north-korea-fortifies-its-border-with-south",
-        "title": "North Korea fortifies its border with South",
-        "when": "ongoing",
-        "place": "Korean DMZ",
-        "lat": 38.3,
-        "lon": 127,
-        "what": "Pyongyang is reinforcing defences along the inter-Korean border, and tensions between the two Koreas are rising.",
-        "via": "military hardening, border tension",
-        "aspect": "security",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "North and South Korea tensions rise as Pyongyang fortifies border",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOc0RJcm9jb0ZqZ0dPa1BEZ3ZZRV9qMTg4OHRTNVRUeHREMG9fLTAyaWpGTjRrQlhYWGlMNEZhemhWUWN6WGNON3Q1bTdFODFtam5rQU5VcnExcFA5VWV4Q3hHSy0td1Z2RTZpSFpiVl9UMWV4c3BtLTF6cEQ0OF9hNkJVRVo?oc=5",
-            "publisher": "ABC News & Headlines – Australian Broadcasting Corporation"
-          }
-        ]
-      },
-      {
-        "id": "kim-yo-jong-issues-clear-warning-to-south",
-        "title": "Kim Yo Jong issues 'clear warning' to South",
-        "when": "2026-10-22",
-        "place": "Pyongyang",
+        "id": "kim-sets-strict-terms-for-trump-meeting",
+        "title": "Kim sets strict terms for Trump meeting",
+        "when": "2026-10-23",
+        "place": "Pyongyang, North Korea",
         "lat": 39.02,
         "lon": 125.75,
-        "what": "Kim Jong Un's sister called her statement 'not a threat, but a clear warning' amid border tension, and one report says she put the military into firing positions.",
-        "via": "hardline leadership signalling",
-        "aspect": "security",
+        "what": "Reuters reports Kim Jong Un is open to meeting Trump only on strict conditions, while Pyongyang stays silent on the offer and a summit this year looks unlikely.",
+        "via": "stalled diplomacy, rejected offer",
+        "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "Tension along Korean border fuels concern as Kim Jong Un's sister issues \"not a threat, but a clear warning\"",
-            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMEN5SkxRY3J2VWs0TWJmbFQ2T2F4VnQ2OEhPSWtUOElpRTdBT05oNTF1dGFFYS1mQ3dab3JJdWVCZVFZeEVyU2RhT0ZSSm91eldVN2NlSnhoSDJvbEpXV2hNSlF4WTJXVFJBOWI2aDRwdEl0bnRRX1JmZzhVaHBCZGRMVzhwZk9TNjE0WDJjN25UYTg?oc=5",
-            "publisher": "CBS News"
+            "title": "Trump-Kim summit increasingly unlikely as North Korea remains silent - Reuters",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPY0M0WFNUVzV4UDBsMENlUWUxTEdwMG1DaE42VFR3eENHM2c2SUltRE9BUXE5V2ZOdVpCLW95QmFQZlNDMUNhaHB1X0d0QjRPd3pkTVM5Q3N5dGh0R3JFLThKNkY0ck1uZVhibEpJTjRxRmJoNXUydkxlSjd6ZEttV3V0VUlyMGhlX1IxTFQ2SDhhd3BXRjIyREEwOWNyV253Zk9QU0VlVWEtNkFobEFCY3dOOHhtOXdSXzByVmR0TmHSAcABQVVfeXFMT2NDNFhTVFc1eFAwbDBDZVFlMUxHcDBtQ2hONlRUd3hDRzNnNklJbURPQVFxOVdmTnVaQi1veUJhUGZTQzFDYWhwdV9HdEI0T3d6ZE1TOUNzeXRodEdyRS04SjZGNHJNbmVYYmxKSU40cUZiaDV1MnZMZUo3emRLbVd1dFVJcjBoZV9SMUxUNkg4YXdwV0YyMkRBMDljcldud2ZPUFNFZVVhLTZBaGxBQmN3Tjh4bTl3Ul8wclZkdE5h?oc=5",
+            "publisher": "Hromadske"
           },
           {
-            "title": "Kim Jong-Un's sister puts military into 'firing positions' as tyrant brother 'feared dead'",
-            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9TbVA1VW4tdkJyOXNudndCaDlHUDIzak0wdFpUSGZaNDQ2Yy1tMi1JVy1lcXFZR0pELU5yMGR2NTA2SXlDSnZHQXBvRlhuQjJUNk9hbFpmUGJpOVZBOXF2ZUtsRkl6Z1pWYmR4ZVNGSFVIbGNic3RB?oc=5",
-            "publisher": "AOL.com"
+            "title": "Kim Jong Un has set strict conditions for a meeting with Trump, according to Reuters",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbkhiTE1PaUx6VThLUFFpc0EzcGhDUWtBSHJleWEwMWhabjVmN3M0S0N1bkw3VTFhZUhTZHF4RVJ6a2s0U2Ezay1SbHhHWURINU90aFdDNnRwSHJsaHlyZ0RTSUt1NGVLYlc0Q2d1em4zaWRkMUhDQ1RLSTMtRmxSZ29LOVFFYW1zVncwYTlKSjhaUjNQZkRr?oc=5",
+            "publisher": "UA.NEWS"
+          },
+          {
+            "title": "Kim Jong Un open to meeting Trump but on strict terms — Reuters",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYnVGTEJWdEsyNThfQlIwaGRPb1E4a2laZm5Qd3RSc05mYUZ1TU90WnhmN2xuODNrSUVDRjFUMGtNMExnOGplS0VydVdiZHZ4Z3ZPR3NpOXNhVGFhWWc5TldHOHFTTHdSUVhBZ09NZlFobUphRm9mb3U1WUthNW96eFV3YXZRblNYTTNVTXJid0RLZw?oc=5",
+            "publisher": "RBC-Ukraine"
+          },
+          {
+            "title": "Trump said he plans to meet Kim Jong-un, North Korea keeps him waiting, says report",
+            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTjNGMTVZcV9ZekpvOUJtNG9Ib1g1YjdHcm5rNzVnSlVfT0M4ZklYYkpBUk5Jd2NtazlaNUFvc1IyR0RQcUMtUmRiNm1zTlhiNDFIbzVBZS1iWEtzTmtSRGc3VmxLWXpCcDliY1g3Z2xnMzk2cHllcnF3LTNaTkkyLTVCOHZpcmU4WG1nMmdydXcxRnJHYWpnRHVrWmV1SmdxcHVUbndPRHRoaW94Wm5JRE94OHc3VWFTN1JBakZwQ2xoOHo0dkHSAcsBQVVfeXFMTVRQNWNqeWV1NmpaM210cmxfeDN2TFdNQ1NTMU1pZHNtQ1dNMHplaFZFaUhUVmhlT1hhOUVIMmFmMk5pLTlER01GN2tOazd0bXVpU0EyWExKUHFLVV93cGN6Z28yQlQ0NkxtczVBVjFCQldJS1hSVGdQUlpXSEhDOUU4QjBKcUZjNzhZdXNxQXI5akVpSHRFcGlXN2toNkhJa0ZhRGIwYkFUWGNBQjNMazVUQ2t1Wk41MXVwR2s3Vm5xQmIxVzg1YkVUZEk?oc=5",
+            "publisher": "Firstpost"
+          },
+          {
+            "title": "Korea, US officials say Trump meets Kim unlikely this year amid Pyongyang silence - CHOSUNBIZ",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcEoxR2RLWjQwOEpBd2V5bXRtZDBROE9NYlFKcmVFdG5RejlUVHlrdEV2SV9NN3Q0SFI5RExCSUljeFNZS3V6UzNNWEp3X2JhdThtZWhwQjBTeUl4SmF4SF9rbFRFTlAtQm5LOWFxQlBsQV9HMHZnXzgwcGlrMHEzSUJVZGRrM05hTll2bGFJZVhKWG82cjJGM1RyelbSAZwBQVVfeXFMUHBKMUdkS1o0MDhKQXdleW10bWQwUThPTWJRSnJlRXRuUXo5VFR5a3RFdklfTTd0NEhSOURMQklJY3hTWUt1elMzTVhKd19iYXU4bWVocEIwU3lJeEpheEhfa2xURU5QLUJuSzlhcUJQbEFfRzB2Z184MHBpazBxM0lCVWRkazNOYU5ZdmxhSWVYSlhvNnIyRjNUcnpW?oc=5",
+            "publisher": "Chosunbiz"
+          },
+          {
+            "title": "Another historic Trump-Kim meeting unlikely this year: US, South Korean officials",
+            "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOYlJwOEk3R21DeXUzb1pGWmFCMkFCOUEyZWZ0VE5fbWpHZk9tZ25VQUd3WUJpRmE1Q1RfTmJrZk5xZ2hqNkF6MTNCNUNoNjlONXJ0T0tKUTRXaERwRDMtbGdoUk9qenFFNGItX1hFMHNIMUlyQTY3bGlEYVJuaHRhaWg3VTlXOXpZR2lLR01idDdzbVVtdHRtWWdDNDBtQWpBdTZoV1RlbG5iVE1fcFpBOU9yRUx3SVdpUmFTai1pRmdGSUtDSXlrZW9peXJUaFBOVGVJ0gHTAUFVX3lxTE5iUnA4STdHbUN5dTNvWkZaYUIyQUI5QTJlZnRUTl9takdmT21nblVBR3dZQmlGYTVDVF9OYmtmTnFnaGo2QXoxM0I1Q2g2OU41cnRPS0pRNFdoRHBEMy1sZ2hST2p6cUU0Yi1fWEUwc0gxSXJBNjdsaURhUm5odGFpaDdVOVc5ellHaUtHTWJ0N3NtVW10dG1ZZ0M0MG1BakF1NmhXVGVsbmJUTV9wWkE5T3JFTHdJV2lSYVNqLWlGZ0ZJS0NJeWtlb2l5clRoUE5UZUk?oc=5",
+            "publisher": "South China Morning Post"
           }
         ]
       },
       {
-        "id": "north-korea-to-resume-border-propaganda-broadcasts",
-        "title": "North Korea to resume border propaganda broadcasts",
+        "id": "north-korea-gains-leverage-from-russia-and-china",
+        "title": "North Korea gains leverage from Russia and China",
+        "when": "2026-10-23",
+        "place": "Pyongyang, North Korea",
+        "lat": 39.02,
+        "lon": 125.75,
+        "what": "Analysts say North Korea is emboldened by its Russia alliance and ties with China, reducing its need to bargain with Washington as an arms race builds on the peninsula.",
+        "via": "Russian backing, less need for talks",
+        "aspect": "security",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Trump-Kim summit hopes fade as North Korea finds new leverage with Russia, China",
+            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSU45T21pb1puZlRDeW9PaGpaaEliTlkxdUcxRmN4N09fcmlGMkp0dUZHVzVPLXV0alN4a05nLWc4b2Y0dWNSQl9UdlRBYmpYRHYwX1BQbThOajJ4WnZZTjZwb25PYXByeVFmOHd1UkZPenVkb1hyYzBPOVhDWTlscDg2d29XOEtRQnNiOS0talltLWxrZFp1dFpXYlU5VnhCOTZlY2oxcDFtelBaQ3V3SGg3VHlYRlo1MVg5VzZ3NzNUcndNVHhhSUtRanFLejTSAdQBQVVfeXFMT2IteVdwNEVSa0dxbFBrQUNqQUdSSHpLOW91ejVERE1DMmtNNWVkQTVEZkF6RGZVcU9DcDhxM203aTJpOEhoX0htUW5sRF9QVmIyRjAyM3JGYVdSdU9SSVU3bUJTSnY4dm93OVIyZExzU1REYnFVbkNhQVVwdWRVczVHRUlDZlRjN2N3Y3NMOGdhbklzU0xHT1ZBQmdoNzNjQjdYcEdJOUpJX2VQOTBQOG92VV9INUQzX3RXN3FCWU9yNnQxeWJPQmxEcTVGMnZ3TmI5MFA?oc=5",
+            "publisher": "Malay Mail"
+          },
+          {
+            "title": "Arms Race Intensifies in Korea as the North Is Emboldened by Russia Alliance",
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPeHZVeDNxRFNkaEpKV1l0eV9JanpvRjl0UVlrV3FWQ09LaUhUM1NVLTB4TGJVZ3F6Mmx2V0t0ZkFLT0lYRmlrZWZQR2NyeF8yRWE5elRaNzFETmotdzhPR2Nmbk5TWXRQWWl1MUhKdUpSN0U3cGotM2xSYVZObFRFY0k0UVI1UQ?oc=5",
+            "publisher": "The New York Times"
+          }
+        ]
+      },
+      {
+        "id": "nearly-1-million-land-mines-planted-along-dmz",
+        "title": "Nearly 1 million land mines planted along DMZ",
+        "when": "2026-10-23",
+        "place": "Korean DMZ",
+        "lat": 38,
+        "lon": 127,
+        "what": "South Korea says North Korea has planted nearly 1 million land mines along the demilitarized zone, adding to the border tension around the missile launches.",
+        "via": "border militarization",
+        "aspect": "security",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "North Korea Plants Nearly 1 Million Land Mines Along DMZ, South Korea Says: 11 outlets compared",
+            "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSmcwX2tneFRUTjFpQnBGdUVxRVVHZ1FhOXhtcnVxVG9ROTJ6YVhYQ19CMEZwbS1uVzcxQkRuZkt4NWNremxpQTFkOFZTREFZMUtsNE1xTm5yVF9YaUVSX0IwZmR3THRuNElRU0tKU0xxb3BtUF9iRHVERWR6bFpPclFWTEdrYzk4MWlMU05HM1RVU2F4bzRuRE5RN0xURlBTaXlscWZrb05zZ0VZUGRWbGx0RnNlQzJZazI5UXV4NHpudW9aSW5JRWpzOVNnNVd0ZVZSQV90aEY2Xzc4VXRYaQ?oc=5",
+            "publisher": "NewsCord"
+          }
+        ]
+      },
+      {
+        "id": "north-korea-prepares-to-restart-propaganda-loudspeakers",
+        "title": "North Korea prepares to restart propaganda loudspeakers",
         "when": "2026-10-22",
         "place": "Korean border",
-        "lat": 37.96,
-        "lon": 126.68,
-        "what": "Pyongyang says it will restart propaganda loudspeaker broadcasts into South Korea, a sign that ties with Seoul are souring.",
+        "lat": 38,
+        "lon": 127,
+        "what": "North Korea is preparing to restart propaganda loudspeakers along the border as relations with South Korea sour.",
         "via": "worsening inter-Korean ties",
         "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "North Korea plans to resume propaganda broadcasts along border with South Korea",
-            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUVlxNzM2bHM2ako0T2ZZdHlxSy1LUnJIWTFXYlY4eUpCaHpKdkZRbFQ4WnB2VXJ6QWxIdUZGSVJISGFYZDUyaE1DN1FLVEV3OVB5V0RYRTI1MjlRQnpOcmNQUXlid213OEF4QW00YlRTSVNhY2dJcktPUWNOaXZZRUpTYlNoRXBYRU9NcVo2V19KeE5xQUVrdHM0dWYxZGRtdmVNdHJWa3Zzblc5eExmLWlkbVIxUQ?oc=5",
-            "publisher": "Sky News"
-          },
-          {
-            "title": "North Korea says it will resume propaganda broadcasts across border into South Korea",
-            "url": "https://www.npr.org/2026/10/22/g-s1-149306/north-korea-propaganda-broadcasts",
-            "publisher": "NPR World"
-          },
-          {
             "title": "North Korea prepares to restart propaganda loudspeakers as ties sour with South",
             "url": "https://www.theguardian.com/world/2026/oct/22/north-korea-to-restart-propaganda-loudspeakers-south-korea",
             "publisher": "The Guardian World"
-          },
-          {
-            "title": "This Time, the Korean Loudspeaker Standoff Is Different",
-            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNV82c282RFRjcVk0N2JJSlVNOU5xZ2tmaWtOSHJMSUdyODRRS0FhOGxmVTYzaG1qOFRBSFVQM0l0bHdaaENIUEVLXzlwcEhNNE5BOE82NVhhRXhkdFJHSlg0OFFELTBBd3h5UXVwZEVtbDNPdzdDWkpLUU14UV9SNDl2SXdveHozdmJSekJpSUg?oc=5",
-            "publisher": "The Diplomat – Asia-Pacific Current Affairs Magazine"
-          }
-        ]
-      },
-      {
-        "id": "us-experts-doubt-trump-kim-summit-over-demands",
-        "title": "US experts doubt Trump-Kim summit over demands",
-        "when": "2026-10-22",
-        "place": "Washington",
-        "lat": 38.9,
-        "lon": -77.04,
-        "what": "US experts put the chance of a summit on the sidelines of November's APEC meeting at under 10 percent, citing North Korea's demands.",
-        "via": "stalled diplomacy, hardened demands",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Trump-Kim summit unlikely because of North Korea's demands: U.S. experts",
-            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN2xhNk9Kcy1Zck9PLWZ1V1pMblU2dTdybUZaallOd0c0WGtwUURUX25YYVBhMmhGNkhkVjBEblRZanY5MUQ2R0ZBdmtKQTlFSFlFb2ZGVmZ0ZFI3d2RGejV3cVoyNkI4QmdfeVNubllhNE1Icm12Z0FpaHAyaU1fb1J5Sm5NWEtGQm1YVzRtLWNERnpyaFlEcG9aTkF3OHdKUmhUOVN1eU5VZlVXLURCSDA2QzEwU0Jv?oc=5",
-            "publisher": "Korea JoongAng Daily"
-          },
-          {
-            "title": "U.S. Experts: \"Less Than 10% Chance of U.S.-North Korea Summit on Sidelines of November APEC Summit\"",
-            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9FcEtyR3dTbEdzNHRqVWtWY0ZMUkx5LUhSSXU3YlNENFpQcDdTSDEyM2x4bi12VFB6b0tlY3Z4ZWRKN1NnMWJRRjBCMEFabjdpY095OEN2alJPeGd4U094bGFqQW9sNlhaU1BlWTI0MmNyb2VMYy1z?oc=5",
-            "publisher": "아시아경제"
-          },
-          {
-            "title": "US Experts: Less Than 10% Chance of North Korea-US Summit on Margins of China APEC Next Month",
-            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE56ckcwWjhSU2J6YWFHeXZ4OWp3THo3cEhjQzMyRHllVFhkb0FoX1FiWFhEZGx6eEk5OWJ1NlczMDd3bjlkMW83RE9vUEp1d2ZCSGd2UkhzcmhfbHhHcjZQc2pnRFdsaWFkOUVMeGhR?oc=5",
-            "publisher": "news.sbs.co.kr"
-          }
-        ]
-      },
-      {
-        "id": "new-china-north-korea-cross-border-bridge",
-        "title": "New China-North Korea cross-border bridge",
-        "when": "ongoing",
-        "place": "Sinuiju",
-        "lat": 40.1,
-        "lon": 124.4,
-        "what": "A new bridge links China and North Korea, part of a wider China-Russia lifeline that backs Pyongyang's position.",
-        "via": "Chinese economic backing",
-        "aspect": "trade",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "What to make of China, North Korea's new cross-border bridge",
-            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPR21jdGduZjhpNWlNdVNEdERFNE9QV0gtdDJsQnFQUWhrWkdtRDFCQVJIS0hiMnV4QkRhM2xWNUNZY3BJVVNkMUxrSVF1QU9tbGltSkcxVHNKcnhCT1NHdVpHRF96eHRwTEZvemJMSTBVY3UxejNxSUNDaVl6MkpPcXY3a1lJUFVBMi1MYkhLaHQxcTF0Wmx0eHRldVRRd9IBowFBVV95cUxNR1QtalFuU1MxSXhiRnIwNHRmSENhTVNqWlpENmRHd2pSSkdqaEFxTnZLcXBLMkFVMlBPQ3NibnlOQmNxY1FQc3AyQnpqSlFjMW11ZkhnLUk1QllUdkdraGQ1ODJqanlxZUdKVzNEMk04N2JlRkltYzhQaG5KYVQzeXZxLXBNRVg1Y29uVE1mSDFxSkV3YlJUUnA5enNOZ202U1ln?oc=5",
-            "publisher": "upi"
-          },
-          {
-            "title": "Building lifelines: North Korea’s China-Russia tightrope",
-            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPU2xwTGdtMHN6eVZrYjcxd1F0OENOOFMyblJGbUc3T2FZdncyZEtCb2R2aTEwOHBkc2VHejdXdlI2dG1fclA5UzlmTXF1TmdEZXVhWW1vS05vbWtVYjRUOWZBby1RT2FlV2t6RG8xMHp0Z2dpM2Z2bXZEYTNxS0hjazNkUFdITTRtZXIwNVBGVC01TmM?oc=5",
-            "publisher": "ThinkChina"
           }
         ]
       }
@@ -3220,18 +3290,18 @@
     ]
   },
   "italy-election-2027": {
-    "at": "2026-10-23T00:58:06.112Z",
+    "at": "2026-10-23T13:00:04.052Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "italy-passes-new-electoral-law",
-        "title": "Italy passes new electoral law",
+        "id": "new-italian-electoral-law-passed",
+        "title": "New Italian electoral law passed",
         "when": "2026-10-21",
         "place": "Rome",
         "lat": 41.9,
         "lon": 12.5,
-        "what": "Italy's parliament passed a new electoral law as Meloni seeks to tighten her grip on power ahead of the 2027 vote.",
-        "via": "new election rules",
+        "what": "Italy passed a new electoral law as Meloni seeks to tighten her grip on power, changing the rules for the 2027 vote.",
+        "via": "changed voting rules",
         "aspect": "politics",
         "flow": "into",
         "sources": [
@@ -3243,43 +3313,91 @@
         ]
       },
       {
-        "id": "milan-protests-and-riots",
-        "title": "Milan protests and riots",
-        "when": "2026-10-21",
-        "place": "Milan",
-        "lat": 45.46,
-        "lon": 9.19,
-        "what": "Riots in Milan put Meloni's law and order credentials to the test, and the government sent 500 troops to the city.",
-        "via": "law and order pressure",
-        "aspect": "security",
+        "id": "trucker-blockades-in-southern-italy",
+        "title": "Trucker blockades in southern Italy",
+        "when": "2026-10-22",
+        "place": "Southern Italy",
+        "lat": 40.8,
+        "lon": 16.5,
+        "what": "Trucker blockades in southern Italy ramped up pressure on Meloni, though she said protests eased and only a few groups kept causing disruption.",
+        "via": "pressure on government",
+        "aspect": "trade",
         "flow": "into",
         "sources": [
+          {
+            "title": "Trucker blockades in southern Italy ramp up pressure on Meloni",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQc01rcWt3akdaUVFYWGdmZ2JEdkxSeWdpTktMRVE2VV90MFV2VWV4TXZDMFpZb0swZDBPbXg1dlI0VC13RTN2cG5mZXI5elZVT25HSVFjVk1XTTZNTm9zNXF6UHVnVi1UMGZxMi04M1g4ZzBfWVBTOGZRbjAtdHdvd2VLcDA5QmUxRzJCWTV1ZGdFQkRNdmFpU1UwUmlMMG5femlobGhRUnA3THREa1pJ?oc=5",
+            "publisher": "POLITICO.eu"
+          },
+          {
+            "title": "Italian truckers ease protests, though few groups continue to cause disruptions, Meloni says",
+            "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQUEd5Z3QwU0Nhd3BRZS1RdFJOZU9CcHM0NThYazBXaDF6X1dKcVo4RVhIMVFJTkFvb3NsVTJaSnhSdXdYTXhzemVteldkMUlQUnp2YTdjbWdvRzd3V3hEYjMtU3d1MTJpR1JMUkJJVEF5NGFNaXktU0c4Q0lpUmNENTlZTDVnaWVZNXdoVGdCN1kwZ1h3LWtLbmFTTkZaWEIzTFVZdTBFTVh1WFVVSEw3c1RpV2VSYjYxQnV5bXZzMlpQdEF4LUJVLUdwNjRCNXlpRF9HRUtHdGZfalVLYzI1VllR?oc=5",
+            "publisher": "AP News"
+          }
+        ]
+      },
+      {
+        "id": "cost-of-living-protests-hit-major-cities",
+        "title": "Cost-of-living protests hit major cities",
+        "when": "2026-10-23",
+        "place": "Bologna",
+        "lat": 44.49,
+        "lon": 11.34,
+        "what": "Rising living costs triggered unrest across major Italian cities, with police using a water cannon on protesters in Bologna.",
+        "via": "voter anger over prices",
+        "aspect": "living",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Italy Protests: Viral Footage Shows Woman Hit by Powerful Water Cannon in Bologna as Rising Living Costs Trigger Unrest Across Major Cities | Watch Viral Video",
+            "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNT3dfTlRsdG96NDFCWnQtMXJELWpyNENIZF9LREJneHdaYThoNHhqLUpmd29CcU5ndGNBRXZKaGRrd01SX3A4RUdVUl9KdFR0YVhwM3lnWG5wWUtlaUtUZTR2eVd3Q1ZaUE0yRVZtamhxbG0wdEZ4R1AyU204ak4xenNNdUZNdVo4SHZRd2ZlSnVOTkdjWi1zZUExNXpOUkJoMEV1dktoaFhUWTNpU19OdXA2N28wLW5qV0tqZExEX2UxcjFiMURWdWo1MV9KSlNVR1dob0RyQzRhdVlfTFBVUHdjd0dacDMwV1RUZzhDZ2ZDSmI1SmdBVl9FSFdOU2hvSXFsQXQ3Yl9wb1JGMldyeGJoSGh2blVsdWJrZmdZeG9nbDJkalhMTzN3R1TSAbICQVVfeXFMT0NlTjFOWXJRWGtOLWNqeTBDOUs0N1BYbjdmUFJuTlN4WEYyWFNrOFRQWWRBY0x5UzFkejV1RS0zWlhqWFlWZnp6TDdteUxNam9mMWNGRXRsaDV6S0s1Y05VeFpNUnJHQkk1YnljeG9OcUloNnRoZDBvWXJKYzVicklRblV3aGp5T0ZpYnRZa2NXMXhWRUZVX3ZUdS1tVHdiZGRNVW5vVzI2VUtpSy03amt6Qk1oN3d3WXItakM5bl9BRUtCWlVZZnNRd3h4aXBsbk95RDJ5Qk41bV83VXJDMVBBX0lfUUcxZWJPWmRZcFFsbEQ0Qk9rNlM2ai0yR0ZyQ1lBcE9PMW9lTUxRb1liWGkxUTJiLW5EcTFkMlhHYVpQdEl0YXV0SlBoMXBtRUZZdHV3?oc=5",
+            "publisher": "The Sunday Guardian"
+          },
+          {
+            "title": "Water Cannon Sends Woman Flying as Protests Explode Across Italy | WATCH VIDEOS",
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORWJ5ZWlhUmpGRkNyTjRrTTE0ZkxtVGRvM1BUVkhBVjJjdnk5YUY5U0s4YzV4SUdvWm9xRXN3NmF2c2FDTE9TVFlFV2Z4QmxBWFg2V2d6eTBET3paNTN5OHljdGswWHhzLW1RMmNHaWlxVXE4X1c5RFlKS1YwNzF4QnQwYXhoZkx0UTAtY05Ua0h4aGZGOFMzcHBkRGJUbVU2ckIxOW1kNTlSUFV6czRoeWhhbl9JTmF6aFhrVmpoNW40eFnSAcgBQVVfeXFMT0ZFWmZ0UFJmcHM4TnpadGx1QkdRVW90M0w1VldLS2NmZ3Q3cEVESi1pQ2ktRWtyV2t2M1BQWG53S3J6QXdNdUlManZFbXVrTF8xbzI4TVlXNHhCcEpOSm8xQkxpVFFMM3Y5Z2xicU02NTNpTWkteUdrbTY5NWhFcnRvc0NtWDFUTy11aERGZzJkZ0VId2M5UzgyelhoemlFODBiQzZQNjJwWWtaYk5ZbmxqSzRlQlhtR1ZlSVVGM21aMzJGejJZdW4?oc=5",
+            "publisher": "Times Now"
+          },
           {
             "title": "What do Italy’s rioters want?",
             "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5rVHpVRmhYZUJaR190SWE1elA5QndKNkI1XzQyQzhUdTVmZjZ2QnNEeUpUSEc1VEFOY2xIcEJ6WXA1OWdQdzlGOTA1UlBmdXBKOXBIc1N1UUpYekNVdUhTOWdQdTBidlRO?oc=5",
             "publisher": "The Spectator"
-          },
+          }
+        ]
+      },
+      {
+        "id": "milan-riots-and-500-troops-deployed",
+        "title": "Milan riots and 500 troops deployed",
+        "when": "2026-10-21",
+        "place": "Milan",
+        "lat": 45.46,
+        "lon": 9.19,
+        "what": "After riots in Milan, the government sent 500 troops to the city, turning street unrest into a national security issue.",
+        "via": "public order concerns",
+        "aspect": "security",
+        "flow": "both",
+        "sources": [
           {
             "title": "Italian Government Deploys 500 Troops to Milan After Protests",
             "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQa2tZZmhUMWRCVkp3NTZJaWhEeXRTbWVEWWZMclBaS21CdHBwQmNOR2VOWUI1MHQ5eXpnNlFnbUxzMmM4eU9uRzVUUlRzVDBwaHN4ZEZLOWEwamR3OHg4Vzc5ZWlkOEVhalZGZXVNMFNEcUZHalZHT2tESlBTcGVUcXZISnNja2YxNmthNTlMR2RWZWN3OXRMekdyX3E4WVNTeENYdGJRXzdsZ3pYZTh6QQ?oc=5",
             "publisher": "Democracy Now!"
           },
           {
-            "title": "Milan riots test Giorgia Meloni’s law and order credentials",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR2IySFNiQ0IyLXBGS0xHdXhhTEpTaXZ0TTloWE1jZ3daTkpWaURuTkp3cFc4ZXo3bXFSU25Ic3FjcTNuTnRhYm9YdC1lQzdvckMxV2JVcGc5S0hJVm85YmtuTE5MVHJYVTVHUEotZm5kQThQY0RMMTFqY3YxdUtKMENhTjY?oc=5",
-            "publisher": "Financial Times"
+            "title": "Troops in Milan, Death Penalty in Burkina Faso, US & Israel’s post-election Iran plans",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOa1ZCTFNWb3dpNXpqQmNlanlmMGo0eU8xdElpemJrTUZnY2pvanVMaTFsaERWX1R5cE54SjRPY041VHpPZlRON2dsQjFLN0hwZkRTWUhZRkxkaUlGUUFXZlV0aXVWbmVwQ04yVzR1RFVOaVRaeVBxVmtWUmFFREpkM1ZnYWk3d2hNa05tNzl6b0hBNDgxWEdFZ0hDVncxenliWW9Uc2ZYSnZpcXgtVlFWZmxTRTZDMjZfdXhCeDlRTdIBwAFBVV95cUxQdHctMGk0emtEYzA4cnhWeDFpY0Z3YkN2QjI5clp3MTZIOW9nOVA0VHliczBUdmY4V0I0dGUxVTB2a2VXWXBZWmNiazNXUEJlQW9meGp0RlVTRUlnbzhHQnFDV3BZS2NOb1JrNGVaT1ZSNVNuVG9iRWlDN2kzYzdyekJnSGRuRVNxV2VtSWRTQVJja0VXZ3c2MFc4c0FicTJrWjUxM2JwR3dvR25FbWFieG00TWRuWGRDRmFsOGg0Yk4?oc=5",
+            "publisher": "GZERO Media"
           }
         ]
       },
       {
-        "id": "tougher-penalties-for-protest-damage",
-        "title": "Tougher penalties for protest damage",
+        "id": "meloni-announces-tougher-anti-protest-measures",
+        "title": "Meloni announces tougher anti-protest measures",
         "when": "2026-10-21",
         "place": "Rome",
         "lat": 41.9,
         "lon": 12.5,
-        "what": "After the Milan riots Meloni announced a €20,000 fine for damaging public property and pushed for prison sentences of up to five years.",
-        "via": "tough-on-crime stance",
+        "what": "Meloni's government approved tougher penalties for violent protest, including a €20,000 fine for damaging public property and a plan for five-year jail terms.",
+        "via": "law-and-order campaign stance",
         "aspect": "politics",
         "flow": "both",
         "sources": [
@@ -3289,71 +3407,19 @@
             "publisher": "India Today"
           },
           {
-            "title": "Watch: Italy’s Meloni approves tougher measures to crack down on protests after Milan riots",
-            "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTkN0MS1SMmJ1WUpuSFB5RmJHdkdLY1o4QmxjSkZLbjlWUXBlak5jZ1ZOaEVyZTNzMTNYSUdlVjZFZ0pOb0ZkajdnOHYzWnBVTml3MmktTDhhZ05sSTNra0JNQ0RWRWtsRG1iVkdJXzl1cHpsZUoybXNaOGhmUmRIUmM3UlJBRXJtQmx5YmRHaTNZS3BVRGp0THBjbWNJVjB2aGdsVkE5SGZ3M3dCTnVBYkFCVzg0UzZucUFsUWsyZU5oaFFQT2VvVnY5TVV3YlNVSlUtUkpfNjlzWHFudTJaWGVR?oc=5",
-            "publisher": "The Hindu"
+            "title": "What are Italy’s new measures against violent protests?",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcmkwV1hxVXdaLWU5NGItaUF2NktKeG1vLXYwTVF3VEs2SG05SkxNT1JVLWVGZUVCd3BZeHF2X21FNzV4aVF2dE1yOVJRSmhLb19sMFRTLU5SSVJBQTJoSEZnLWVRdXg3WXZZN3Z4bmdUSnlMOWZmb2MwZmxHSGhVRy1aRXBXNExBZDZjaEJpbnBNSDZkVmZmSjJ3MNIBoAFBVV95cUxPdFRvM2RuSDdiTlhfbVpCdDhzNGxJeFdrZmoxdkliU2lSTGQ0VVk5bXAwUllMWmpYbWtlaTVmVnpUcE93NWtXSlJWWEFLMkFNRV8wM0xHN0RqSGJNLXU0VkIwWV90UVppcU5LemNXTUsxM0FyV2NPblpwbzhndUlkcUtqN1FEZVBUc2lyUVJyRnVremF1WUpHd0VYWlhvSmRs?oc=5",
+            "publisher": "Al Jazeera"
           },
           {
-            "title": "Italy toughens the law after the riots: Meloni pushes for sentences of up to five years in prison",
-            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQV091blF5NWVjRnVmcVVKbG1DeEg4UGtVajlHU1p1dHVnR2k0clpqakpxV3BtTW1wX2FLMDViUENuV3pnaFpUYUZMc1Y0UDBZU2NSUGN1dms5d0R0OTlNUnBIUHdRM3d4M3AxYy1sdGFBM1MwMWhBYWVLU0Z6S3h6LThSQmNLcGRGSnN6RFgzUjdJNlNodlNCRHJuU2VCNzI0c1VUcFdTelJuQ05PeWI0aTA1MXN6VDhCVFExZEdJeXU1MjdsaHfSAcsBQVVfeXFMTlF1UUtDT2dENE5wdDhhLVh0YnF0aENldXNkeUVRQTZ3LW9uX04teTJYeDdPZ1lNejZWUExjS3hWSzFZbUxXM3cwUDYtc3FPQjBpZWM1VkJFU3o4QURJRHM3NW9WOU1OeWo5TFF1MGJGQlBKYmhqeGR1Qmd5eWo4am45dnRzTGZwVDRJTTNNZFNkN1NERTFnRUVJSXl4UXN4aTZ3V0RuQW1yRV9VelJQSVhDS0NEX1dWSi1xc05YalpYcEY5VmU5TmJlQ0E?oc=5",
-            "publisher": "Demócrata"
-          }
-        ]
-      },
-      {
-        "id": "southern-truckers-ease-protests-after-aid",
-        "title": "Southern truckers ease protests after aid",
-        "when": "2026-10-22",
-        "place": "Southern Italy",
-        "lat": 40,
-        "lon": 16,
-        "what": "Truckers in southern Italy eased their protests after the government approved aid for the sector.",
-        "via": "pacified transport workers",
-        "aspect": "jobs",
-        "flow": "into",
-        "sources": [
+            "title": "Italy Protests Turn Violent: Meloni Plans 5-Year Jail Term, €20,000 Fines After Milan Riots",
+            "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxObERjZDU4cG1VMHFPRDJsM3BvM3ZxUi11Q1RZbTVoVWdwY0c0alpndXpaN3NYZU5ISkdSRkJ2UnlEUGxDZFZsLXFjbnNxbno2akdaMDJFcDZpUTdTalNTTklwX3VvVDkyZTEyc0oxV3BrZW4xWW9ydzBQYUs0ejBkdFRySVpidFJiMmJPdEVwSjlRU0dSNTlaR0Z5OWhXbnRLU1dBNUpDbFNhUWZvQy1SRDhvUWJBWEh1WVowaVBlV0o3dTFlb2loTlZuMF9iS1FlWW9mVTVKY01qR1ZoS1MySms0dVpiV05xd3czai1rcVFuMFM5SEFPMTluS25BTzl30gGAAkFVX3lxTE5sRGNkNThwbVUwcU9EMmwzcG8zdnFSLXVDVFltNWhVZ3BjRzRqWmd1elo3c1hlTkhKR1JGQnZSeURQbENkVmwtcWNuc3FuejZqR1owMkVwNmlRN1NqU1NOSXBfdW9UOTJlMTJzSjFXcGtlbjFZb3J3MFBhSzR6MGR0VHJJWmJ0UmIyYk90RXBKOVFTR1I1OVpHRnk5aFdudEtTV0E1SkNsU2FRZm9DLVJEOG9RYkFYSHVZWjBpUGVXSjd1MWVvaWhOVm4wX2JLUWVZb2ZVNUpjTWpHVmhLUzJKazR1WmJXTnF3dzNqLWtxUW4wUzlIQU8xOW5LbkFPOXc?oc=5",
+            "publisher": "The Times of India"
+          },
           {
-            "title": "Southern Italy truckers ease protests as government approves aid",
-            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQTVNMlA2VlNGdEVPOUZ0bGhuc3JEQkNmSm1uMXJVSFRWaUhvMmVRMkxzY2x3bWNlZEEwVG9MX0ttNjh1Vk5ERUxsOWd2a0wwNXExR2FvVzB4QUE2NWZZeXVhVXl2dXE1aE00NDF1Y2ttRWlUdWRhZE5DQmVTcWxOS0NMMDJDQVZmbVo4SVgwSkRjSXZ6ZEdaVXpURDZ1aGFacjZ3cFlrdTZBZU1mR3NtTmxxYUhYeUJhbzJkaUJpaTRwUGp0Tzgw?oc=5",
-            "publisher": "Internazionale"
-          }
-        ]
-      },
-      {
-        "id": "meloni-to-avoid-running-with-far-right",
-        "title": "Meloni to avoid running with far right",
-        "when": "2026-10-21",
-        "place": "Rome",
-        "lat": 41.9,
-        "lon": 12.5,
-        "what": "A minister said Meloni will not run with Italy's far right in the 2027 election, shaping the alliances on the ballot.",
-        "via": "coalition positioning",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Meloni Won’t Run With Italy’s Far Right in 2027, Minister Says",
-            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNXNFa2R1Q1Z3QmN6dzdVaVZJREUtelB4emJibXlmWUdwSVFmMG16czRGS1dZazdCdnluV1otOFNHUEhxZzVBdV9YTlh4M0lJdVdOSGlFelpzV3I4U3RPQ1VsNHRubHB0cDBPcUJ2aGhPVXZPTTVQSExrbHJuNUpKNEJ2amR0RTAzYWFrV3hhVHFpbWtlWW1NVk9LTjhPaXVpVUNVbXhyUWRJaGJhMXNGdk1n?oc=5",
-            "publisher": "Bloomberg.com"
-          }
-        ]
-      },
-      {
-        "id": "italy-s-births-heading-for-record-low",
-        "title": "Italy's births heading for record low",
-        "when": "2026-10-21",
-        "place": "Italy",
-        "lat": 41.9,
-        "lon": 12.5,
-        "what": "Italy's births are set to sink to a record low in 2026, keeping demographic decline in the public debate.",
-        "via": "demographic worries",
-        "aspect": "living",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Italy's births set to sink to a record low in 2026",
-            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQa29wOGQ4ZGdwRkdyYkpWTFI2VDduSzZtejI0MXdhZENRdUZxeXpoamtCUFZwd3V0d01xOHpOT0h2RklFZllwYXRRUF94Uk1XaGw1M0VjR2NoOEdZejBXNUt6MWFDSGpwNHdCWXJjb1JMeGJMSHQ4VURSbV93bi1NVHhfRjR2aURyTW9wMjhsVWtTeUNha0xvUNIBmAFBVV95cUxQa29wOGQ4ZGdwRkdyYkpWTFI2VDduSzZtejI0MXdhZENRdUZxeXpoamtCUFZwd3V0d01xOHpOT0h2RklFZllwYXRRUF94Uk1XaGw1M0VjR2NoOEdZejBXNUt6MWFDSGpwNHdCWXJjb1JMeGJMSHQ4VURSbV93bi1NVHhfRjR2aURyTW9wMjhsVWtTeUNha0xvUA?oc=5",
-            "publisher": "NST Online"
+            "title": "Italy’s Meloni approves tougher measures to crack down on protests after Milan riots",
+            "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNYjV4TWhTNWhaeFB2YWgxYWthMXZ3ZG43Z2JSTi1WSGhTSFp4VVdaOTNWX0ZBSUVBSHlBT2NTU2Rwemxhc2FHdHBfOHdrVU9pcGcxZUxHazV4ZFZGcDk3RkZWWlQycDF5MjZRWFVHSURDMG9lZ2dDaFFmWnhwMFZlMVhjVU1oQjNDVFFKVGU2UWxsT2s1U1R6UHRBb2ludTZiRHhtUV95SjJ6aXVHZXF6UG8wQlB1NTZXOW51QXFJUzdWQVl6d3NSclBabWdaVEZEcXpB?oc=5",
+            "publisher": "Los Angeles Times"
           }
         ]
       }
