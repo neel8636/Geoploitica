@@ -624,26 +624,26 @@
     }
   },
   "israel-election-2026": {
-    "sum": "d9d9598d321e",
+    "sum": "25120f4ce30b",
     "quick": {
-      "happened": "Israel votes on 27 October for its 120-seat parliament, with neither Netanyahu's bloc nor his rivals close to the 61 seats needed.",
-      "matters": "The vote could decide whether the Iran war escalates or calms, which affects oil prices and freight costs far beyond the region.",
-      "next": "Voting is on 27 October. OPEC+ oil producers meet on 1 November, days later, with the Gulf war's direction still unclear."
+      "happened": "Israel elects its 120-seat parliament on 27 October. Polls show neither Netanyahu's bloc nor his opponents reaching the 61 seats needed.",
+      "matters": "The vote is a referendum on the Iran war, which has kept oil and shipping costs high for eight months.",
+      "next": "Israel votes on 27 October, then OPEC+ oil producers meet on 1 November while the Gulf war's direction is still unclear."
     },
     "connect": {
-      "title": "How Israel's 27 October vote connects to the Iran war and OPEC+ oil supply, in plain words",
+      "title": "How Israel's 27 October vote connects to the Iran war and OPEC+ oil decisions, in plain words",
       "paras": [
-        "Gulf producers ship oil through the Strait of Hormuz. When war threatens that route, oil and freight cost more for buyers everywhere.",
-        "US-Israel strikes on Iran began in late February 2026. Eight months on, Gulf exports run at 60-80% of normal and Brent is above $100, against $73 before the war. OPEC+ kept November targets unchanged on 4 October.",
-        "Israel votes on 27 October, and the campaign is a referendum on Netanyahu's war. His bloc polls at 51 seats, short of 61. The result shapes the war's path, and OPEC+ meets on 1 November."
+        "Much of the Gulf's oil leaves by ship through the Strait of Hormuz. When war threatens that route, oil and shipping cost more for everyone.",
+        "US-Israel strikes on Iran began in February and have kept costs high for eight months. Gulf exports run at 60-80% of normal, and Brent is above $100, against $73 before the war. OPEC+ held its November targets on 4 October.",
+        "Israel votes on 27 October. Netanyahu vows to topple Iran's government, and a Kan poll has his bloc at 51 seats, short of the 61 needed. The result helps decide whether the war escalates or calms, just before OPEC+ meets on 1 November."
       ]
     },
     "report": {
       "title": "What the report says, in plain words",
       "paras": [
-        "Israel votes on 27 October, the first election on its scheduled date since 1988. A Kan poll on 18 October gave Netanyahu's bloc 51 seats and the anti-Netanyahu bloc 52. Both are short of the 61 needed.",
-        "Gadi Eisenkot's Yashar leads Likud 23 to 21, a gap within normal polling error. Smotrich is gaining, and small parties could gain bargaining power. Netanyahu's bloc is ten seats short. A new far-right party polls below the threshold.",
-        "After voting on 27 October, results are certified and the president consults the parties. OPEC+ meets on 1 November. A deadlock could mean weeks of coalition talks, or even another election."
+        "Israel votes on 27 October. A Kan poll on 18 October gave Netanyahu's bloc 51 seats and his opponents 52. Neither reaches the 61 of 120 seats needed.",
+        "Eisenkot's Yashar leads Likud 23 seats to 21, a gap within normal polling error. Smotrich is gaining, and small parties gain power if both blocs fall short. Netanyahu loses most: his bloc is ten seats short.",
+        "Results are expected within about a week, then Israel's president picks someone to try to form a government. Talks could drag on or fail, which could mean another election. OPEC+ meets on 1 November."
       ]
     }
   },
@@ -788,6 +788,22 @@
         "An Ebola outbreak in DR Congo has reached eight provinces, UN News said on 22 October. It has also spread to Nigeria and Kenya, and the WHO calls it 'complex'. No case counts are given.",
         "Likely winners are makers of tests, gloves and gowns (our estimate) and countries that trace contacts fast. Losers are patients and families, health workers in DR Congo, airlines, and Entebbe airport's transit trade.",
         "Around 24 October, the 21-day watch on 3 October contacts ends. Expect more detail from Nigeria, Kenya and Uganda, and possibly new screening rules. Outbreaks are usually declared over only after 42 days with no new cases."
+      ]
+    }
+  },
+  "west-bank-lockdown-hebron-2026": {
+    "sum": "ec84008442b6",
+    "quick": {
+      "happened": "Israel sealed the occupied West Bank and began demolishing Palestinian buildings in Hebron after two Israeli soldiers were shot dead. Roadblocks are disrupting schools and medical care.",
+      "matters": "Limits on Palestinian movement and a risk of wider escalation could draw in neighbours such as Jordan. UN chief Guterres has voiced alarm.",
+      "next": "Israel votes on 27 October. Watch whether the lockdown stays in force until then and how it shapes the final days of the campaign."
+    },
+    "connect": {
+      "title": "How the West Bank lockdown connects to Israel's 27 October election, in plain words",
+      "paras": [
+        "Israel's government answers attacks on its soldiers with security measures. It can close roads, send in troops and tear down buildings. Voters often judge leaders by how tough and effective those steps look.",
+        "Israel elects its 120-seat Knesset (parliament) on 27 October 2026. A Kan poll on 18 October put Netanyahu's bloc at 51 seats and his opponents at 52. Neither side reaches the 61 needed to govern.",
+        "Two soldiers were shot dead, and the lockdown came days before the vote. It puts West Bank security into the closing campaign. In a race this close, how voters see the response could matter."
       ]
     }
   }

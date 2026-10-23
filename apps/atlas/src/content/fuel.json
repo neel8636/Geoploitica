@@ -3370,40 +3370,30 @@
     ]
   },
   "serbia-student-election-2026": {
-    "at": "2026-10-23T08:59:52.141Z",
+    "at": "2026-10-23T21:00:30.438Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "150-000-rally-at-final-student-led-event",
-        "title": "150,000 rally at final student-led event",
+        "id": "final-student-led-rally-fills-belgrade",
+        "title": "Final student-led rally fills Belgrade",
         "when": "2026-10-22",
         "place": "Belgrade",
         "lat": 44.82,
         "lon": 20.46,
-        "what": "Roughly 150,000 people filled Belgrade streets for the student movement's last big rally before the snap vote, a show of street strength it hopes to turn into votes.",
-        "via": "street pressure turning into votes",
+        "what": "Thousands of students gathered in Belgrade for the final student-led rally before the vote, with one report putting the crowd at 150,000.",
+        "via": "street mobilisation into votes",
         "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "In Belgrade, 150,000 people took to the streets for a rally ahead of the elections",
-            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQmZrTDJjNUtkLTZVZDRaa2xOUVg4ZFZHRGk0Vmd1cVBJS0JmdkRxY2lQQVdGQTlBeTJmOW1FdUlRY1l1RmREX1cyY0M0SFEwOEFQVWl3dXQ0NDJjbGRJdHNOT19qTlBUeVdWNF9yMHQtRzVRVG1MdVhlWmw5NVJCeA?oc=5",
-            "publisher": "UkrMedia News"
+            "title": "Drone Visuals Show Thousands Rallying In Serbia Ahead Of Key Election",
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWlRKaHJ3eXN3R3djZnN1QWlYYjNTRnZZTjQ2NmladjlGQUl3ZDFyb2lDTXRXNUF6Wk5xQ1VhR1ctenNjUTJnLWNZN1hfY2lzNk83SFoxNS1lMmdqWW5nd1R3UzNZclhKNkJING9aM2paaEtmVTBkV3ZWVlB4RUhzN1d0MkhhV2hhcVhoMzU1a0pkdVdtckpaX1BibHVlV0d6N1ZLUkZCeDE?oc=5",
+            "publisher": "NDTV"
           },
           {
-            "title": "Around 150,000 rally in Belgrade ahead of pivotal Serbian vote",
-            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSS1UMm16alVCcHlfMWdBWWcwNEF0dWxSNGJybUpaamNSSzJwZEhINGcxXzg2Y0dMRDM1eG5iREgxc2xiVnM3eUR2RG9ZZG8zbDhRWU5Nek1iTmFNaGc0RS1mR1hJVndVa1d0QlVJR1A3VU5IaExFekpVQlU2ZTZsa1VjT1kwa2hJNXhYeXhyOTliZ0N2ZFpMMXpGOU55VGVFMmVnUXhSMXY2d9IBrgFBVV95cUxPN3EySHRRNFo0bUJBa3ZicVM3Tm83OTdwNXE3VnJBbVZIVjhUd01jVUhucVd3V0VvajhNZDE1cEpseW8tX25uU3FRelcxMlh2VndTYno3TVVobkk0YU5vNkxGRUhaUU9wVkRTS2p1aW9LUFpsSGQ1T0xWTXhTSGRiaHUwWWZYenVaQUdYTndPTHdsR3RWcWpmZ1U1Y2J3YUh0M3VGMXlXT3lHNGQzMkE?oc=5",
-            "publisher": "Kuwait Times"
-          },
-          {
-            "title": "150,000 Rally in Belgrade as Serbia's Student Movement Makes Final Push Ahead of Elections",
-            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaGxGanFwY2lSalIwSF9JNzVpa1JkRmZPbGpyb0JQRnE3M0dlSERzb0loTWJ4ckYzcGQ4SFctTEZsUFhZUGk3RHR5bTlPUzdicXNURUhOc2FkZm9CcFlNWV9ySnpVQldOM0F6RDBwV3JGRFotT0FYV2s0T2M2NjBIcENGbExfOGs3YlVVaEd4bUV5a0d0Ui1DcWc4V1pyU3JGd0cyT2FFTHZkeWhPalhKNmlmTmhpU3NTQU45SFln?oc=5",
-            "publisher": "BGNES"
-          },
-          {
-            "title": "Serbia’s student movement stages mass rally ahead of snap election",
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOVp4OVBLQ3VXOG9fRnNsXzRtZlVvLWRmX1FhTW01N25wNmtDNGptaTZhZFR5OG5WcGJiVEd1TkpjSkVFYmxGYzdHZHBkbUtNV1hOc096UmlLUUlXRXh6UFZ3dUlpLWNaSWxYb2VrdmhGTXM5WHJ1YUFIR1dTR3ZFOUdRXy05WGM0YzhZcTdXWFRDaTBHd204Z1A4Wm45VnNnd0RCbWUxVjBrWEp6akRjRmFLMWxITUk?oc=5",
-            "publisher": "IntelliNews"
+            "title": "Serbia: 150,000 Rally in Student-Led Protest Ahead of Sunday’s Election",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPY3B2SGFEZWFFcXVGd0lNRzVlYnZ4bjlnYUFpMVZmNWtYdW5CWFNyQzhTbXZNdUtESU1kTy1DZlgydG0zb3ZoeVNXbmRLc2E0T2QySllSTjl4SFF0QktLNDhFVE5IcDhsV0VJWGF2elhmWUdyanBvbkUwNl9PVnBoWmFTVzJrcTVReDZtRWFvSjhfODUzRXdLb0sxclpldWUxTy1DN1kyMm5ka3RyeEp6eVdqQV96UzZ6bjE4?oc=5",
+            "publisher": "Democracy Now!"
           },
           {
             "title": "Serbia: Student protesters flood Belgrade ahead of snap elections",
@@ -3418,74 +3408,40 @@
         ]
       },
       {
-        "id": "tech-executives-back-student-led-list",
-        "title": "Tech executives back student-led list",
+        "id": "observers-warn-of-possible-election-violence",
+        "title": "Observers warn of possible election violence",
         "when": "2026-10-23",
         "place": "Serbia",
         "lat": 44.8,
         "lon": 20.46,
-        "what": "Technology company executives publicly endorsed the student-led electoral list, adding business-sector support to a movement that began on the streets.",
-        "via": "business backing for students",
-        "aspect": "politics",
+        "what": "Election observers warned of potential violence as Serbia prepares to go to the polls, raising tension around Sunday's vote.",
+        "via": "fear of unrest at polls",
+        "aspect": "security",
         "flow": "into",
         "sources": [
           {
-            "title": "Tech executives back student-led list in Serbia election",
-            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcGo5a2pwamMxTE5BTWtHQzFZTTExQUdhR2ZISWlQUzJYWFZERjVvamQtMzJzeXNSN1VVV2lVQlRKRC1FT25BWHFGekxpNUZVRVBkRWFXRDcxXzlFSmlVUzhaTC1PLWRqSjllZVVqeXFRX1dnbTlOajBXcVhidWxtclVVZG9RVmFwUUFmQmFFbGV3UnRELWNFZE8zMzB4VFF2QmRRRFg4dnZBQQ?oc=5",
-            "publisher": "IntelliNews"
+            "title": "Election Observers Warn of Potential Violence as Serbia Prepares to Head to the Polls",
+            "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNcmx1ZXJzM0pRN2QyM2Vqb0hZclNpeThDVmpuaWp2UEpvckJGRFF1eElhWWEtR3ZRZURXbmltNlN6OHRSRDBWbG1HT1FLWXJld3kydkowaXg1N0s4WmFZZlVhbXQ2STE0WUlqenFXSF9FV2FHQ3ZyOXRsaTkxNy1QaF9MdVNILXVRSkpmdnNvb2FIcHQ2cUc2R3NxTHhWZXhWRUROM2VFSmttelAxSmxydXJ1TU93RzBVbk1OT1hBcFdtSzdRQ0lEaWo3RE9GTkhfRDlaVWt3VHk?oc=5",
+            "publisher": "ASIS International"
           }
         ]
       },
       {
-        "id": "fraud-fears-hang-over-the-vote",
-        "title": "Fraud fears hang over the vote",
+        "id": "youth-movement-fears-a-rigged-vote",
+        "title": "Youth movement fears a rigged vote",
         "when": "2026-10-23",
         "place": "Serbia",
         "lat": 44.8,
         "lon": 20.46,
-        "what": "Radio Free Europe and the Financial Times report mounting fears of electoral fraud as Vučić faces his biggest election challenge yet.",
-        "via": "distrust in election fairness",
+        "what": "Many in Serbia's youth movement fear the election on Sunday will be rigged, which shapes distrust and turnout plans.",
+        "via": "distrust in vote fairness",
         "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "Serbia's Vucic Faces Biggest Election Challenge Yet Amid Fraud Fears",
-            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSWYwS1llT1lqdWlZRUl0Wm1ycTRtblZ3cGhNRHJUT3NwS2Y5Ujc0MDF5LWZqbktlSUZoZDNSdjR3NGdKQUFBaHlLMnNnOTRpemQ1QlREbkFmTWUzZ0hGYW5fN2tKOWVVM1B4eWNaaVRGR0x0TUdYZ1Z5Wk1iR0M4eF9oMDhHVkNaLTJKZjBlUXBrd9IBlAFBVV95cUxQOE9QVGJCenBMVjdrMk9QZDdaZjdQQlptWEdmdXRKSlplMzgyNEVPWUpZVmdCcGpwSndpNU42Wkk1alBRMjR0SVRyNGdJTlphYmZwNTlIUnhXSUVLWUVScmxSSGNVaU91dVlLWjUtMTM4QVdEbTFIejA5QnVVOVVKYnhtNjVfQVBoT0JRNTJyMVY5NEFZ?oc=5",
-            "publisher": "Radio Free Europe/Radio Liberty"
-          },
-          {
-            "title": "Serbia’s Vučić faces tough election as fraud fears mount",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWFpKM0NoLTFITnRlY1ZoWVF3Sk4ySFBmS3cwdlF1R2ZKWkViVUtEbUlQY25KM3hzSkNWaG1LSlhQekxyYzNKNTFGcVE2UlFVZWZIaGg3Z1dLWktxTnRLQzlVcGpzZ1Y3X3JSSjhSbGY0RVF0cnlBekl3dGdMSnBkOE9vRjI?oc=5",
-            "publisher": "Financial Times"
-          }
-        ]
-      },
-      {
-        "id": "analyst-expects-a-very-tight-result",
-        "title": "Analyst expects a very tight result",
-        "when": "2026-10-23",
-        "place": "Serbia",
-        "lat": 44.8,
-        "lon": 20.46,
-        "what": "An analyst told Euronews that the Serbian election results are expected to be very tight, with the race seen as the most uncertain in 14 years.",
-        "via": "close race raising stakes",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Video. Serbia election results expected to be ‘very tight’, analyst says",
-            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONU5PMW01WF9XaWs1QnRmZFJMSERWajduR1pIYlY1Sk1tUHRhRHU2ZUhEcWlycU50MzM2b0x2WG12c3BtRmpZNlFhcXhHcWdCSXVCakRobkJ0QWNjbFlKSklwSnNFWWFkSlMxY0twYUVrUlBkTm5FcWFwQ1ZqLUdTRmZWRDRFR05NbXk3VlNWT0ZfMDZVOE8ybERwSXhFOHl6MUV0X1JBdw?oc=5",
-            "publisher": "Euronews"
-          },
-          {
-            "title": "Serbia election results expected to be ‘very tight’, analyst says",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZWpmNER4ZUtvRGVSYWQ4VDNDOFd1UGROZXdHSVBBa1YtOXFRa1RWTzBZdVFndDAyMENBdXFQbDB0a1RaNUdrb0l6LUE5TkJ1bHExVXdlOVU4bmluMGhXb0Q1V2JIV2VKNXhWNDhycEN4U1ZYMW9pLUk1WklWYkM4aDl1V1k?oc=5",
-            "publisher": "Yahoo News Singapore"
-          },
-          {
-            "title": "Serbia Braces for Most Uncertain Elections in 14 Years",
-            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNM3lBZkcxMWl5cGlpQWZHRjlsbHF3MVR3SVRMRFZmQllBRjJIbGM1ampvMjE0S1NybXlTQ2VEOUJOdGZMR042UWtDWHBNSDg3TjIwTTk0eG9maWRzMlFSYXhnS3M0Wm14dDZaTnpRTmZoOXFRRG02T2kzV09qQkU0ZFlEaGpWdWxDeUhPUVBadVh3V0dGUlVJUTBTMA?oc=5",
-            "publisher": "Balkan Insight"
+            "title": "Many in Serbia’s Youth Movement Fear a Rigged Election on Sunday",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcnhCQnV1S0tpdGxSM3Q0emdNRVRLNG5CUXFoVXR3WjhITWh5RFEtb2hrcklLM2FDd21FSGxoYXRDb0ItOVZ5Ty11eUlTbEIyb3hHMUJGblFuNm90OXFQRGt4VGRfNEktVWNDazJnMDBNc3Z0MnJDYXJYVDFYd3RBcTNVb0lYeS1mQjJmNlBDaU45RjlBTjNRSg?oc=5",
+            "publisher": "Organized Crime and Corruption Reporting Project | OCCRP"
           }
         ]
       }
@@ -3530,6 +3486,60 @@
             "title": "DR Congo: Ebola responders under pressure as outbreak expands",
             "url": "https://news.un.org/feed/view/en/story/2026/10/1168647",
             "publisher": "UN News"
+          }
+        ]
+      }
+    ]
+  },
+  "west-bank-lockdown-hebron-2026": {
+    "at": "2026-10-23T21:00:30.438Z",
+    "by": "pipeline",
+    "items": [
+      {
+        "id": "two-israeli-soldiers-shot-dead-in-hebron",
+        "title": "Two Israeli soldiers shot dead in Hebron",
+        "when": "2026-10-23",
+        "place": "Hebron, West Bank",
+        "lat": 31.53,
+        "lon": 35.1,
+        "what": "Two Israeli soldiers were shot dead in Hebron, the attack that prompted the West Bank closure and the demolition of Palestinian buildings.",
+        "via": "retaliatory security response",
+        "aspect": "security",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Israel locks down occupied West Bank after Hebron shooting",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/israel-locks-down-occupied-west-bank-after-hebron-shooting?traffic_source=rss",
+            "publisher": "Al Jazeera"
+          },
+          {
+            "title": "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
+            "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss",
+            "publisher": "BBC World"
+          },
+          {
+            "title": "West Bank: Guterres alarmed as Israel imposes sweeping closures after deadly Hebron attack",
+            "url": "https://news.un.org/feed/view/en/story/2026/10/1168660",
+            "publisher": "UN News"
+          }
+        ]
+      },
+      {
+        "id": "two-men-behind-alleged-attack-killed-by-soldiers",
+        "title": "Two men behind alleged attack killed by soldiers",
+        "when": "2026-10-23",
+        "place": "Hebron, West Bank",
+        "lat": 31.53,
+        "lon": 35.1,
+        "what": "Israeli soldiers killed two men they said were behind the alleged attack, as the government ordered the West Bank closed.",
+        "via": "military escalation after attack",
+        "aspect": "security",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Israel orders closure of West Bank after soldiers kill 2 men behind an alleged attack",
+            "url": "https://www.npr.org/2026/10/23/nx-s1-6013333/netanyahu-closure-west-bank",
+            "publisher": "NPR World"
           }
         ]
       }

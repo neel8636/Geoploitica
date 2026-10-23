@@ -130,6 +130,84 @@
         "headlines": 3,
         "publishers": 3
       }
+    },
+    {
+      "id": "west-bank-lockdown-hebron-2026",
+      "title": "Israel locks down West Bank, demolishes Hebron buildings after attack",
+      "type": "security",
+      "date": "2026-10-23",
+      "status": "developing",
+      "region": "West Bank, Palestine",
+      "lat": 31.53,
+      "lon": 35.1,
+      "countries": [
+        "IL",
+        "PS",
+        "JO"
+      ],
+      "summary": "Israel imposed a sweeping closure on the occupied West Bank and began demolishing Palestinian buildings in Hebron after two Israeli soldiers were shot dead; roadblocks are disrupting schools and medical care. UN Secretary-General Guterres voiced alarm, and the curbs on Palestinian movement and the risk of further escalation could draw in neighbours such as Jordan.",
+      "severity": 3,
+      "keywords": [
+        "west bank",
+        "hebron",
+        "guterres",
+        "closure",
+        "lockdown",
+        "demolitions",
+        "roadblocks",
+        "israeli soldiers",
+        "palestinian workers",
+        "occupied west bank"
+      ],
+      "links": [
+        {
+          "to": "israel-election-2026",
+          "kind": "affects",
+          "why": "A security crackdown just days before the 27 October vote puts West Bank security and the government's response at the centre of the closing campaign.",
+          "via": "campaign security politics"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Israel locks down occupied West Bank after Hebron shooting",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/israel-locks-down-occupied-west-bank-after-hebron-shooting?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
+          "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC World",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "West Bank: Guterres alarmed as Israel imposes sweeping closures after deadly Hebron attack",
+          "url": "https://news.un.org/feed/view/en/story/2026/10/1168660",
+          "publisher": "UN News",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Israel orders closure of West Bank after soldiers kill 2 men behind an alleged attack",
+          "url": "https://www.npr.org/2026/10/23/nx-s1-6013333/netanyahu-closure-west-bank",
+          "publisher": "NPR World",
+          "date": "2026-10-23"
+        }
+      ],
+      "news": {
+        "q": "\"West Bank\" OR Hebron OR \"Hebron attack\" closure",
+        "edition": "IL"
+      },
+      "auto": {
+        "addedAt": "2026-10-23T21:00:30.438Z",
+        "reason": "Israeli government and military action, sweeping closures and demolitions after two soldiers were killed, drew an alarmed response from the UN Secretary-General and risk regional escalation.",
+        "channel": "Movement of Palestinian workers and people, UN and regional diplomatic pressure",
+        "reaches": [
+          "PS",
+          "JO"
+        ],
+        "headlines": 5,
+        "publishers": 4
+      }
     }
   ]
 }

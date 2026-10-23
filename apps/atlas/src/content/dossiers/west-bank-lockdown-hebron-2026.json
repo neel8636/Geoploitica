@@ -1,0 +1,691 @@
+{
+  "slug": "west-bank-lockdown-hebron-2026",
+  "title": "West Bank lockdown and Hebron demolitions",
+  "deck": "After two Israeli soldiers were shot dead near Hebron, Israel sealed the occupied West Bank and began demolishing Palestinian buildings, four days before an election that is already too close to call.",
+  "updated": "2026-10-23",
+  "status": "developing",
+  "region": "West Bank, Palestine; Israel; Jordan",
+  "tags": [
+    "West Bank",
+    "Hebron",
+    "closure",
+    "demolitions",
+    "Israeli election",
+    "Jordan",
+    "UN"
+  ],
+  "readingMinutes": {
+    "card": 1,
+    "brief": 5,
+    "deep": 18
+  },
+  "fuel": [
+    {
+      "aspect": "security",
+      "title": "Two soldiers shot dead at Hebron checkpoint",
+      "how": "The attack, and the killing of the two men Israel says were behind it, triggered the closure of the West Bank and the demolitions in Hebron.",
+      "sourceIndex": 1
+    },
+    {
+      "aspect": "politics",
+      "title": "Crackdown lands days before Israeli vote",
+      "how": "With the 27 October election close, West Bank security and the government's response move to the centre of the closing campaign."
+    },
+    {
+      "aspect": "living",
+      "title": "Roadblocks cut village from hospitals, schools",
+      "how": "Closures hit daily life first: residents of Madama describe being cut off from medical care, classrooms and their olive groves.",
+      "sourceIndex": 4
+    }
+  ],
+  "card": {
+    "headline": "Israel seals the West Bank and demolishes buildings in Hebron after two soldiers are killed",
+    "keyNumber": {
+      "value": "2",
+      "label": "Israeli soldiers shot dead at a checkpoint outside Hebron on 23 October; the two gunmen were killed",
+      "sourceIndex": 1
+    },
+    "impactMeter": 3,
+    "forYou": [
+      {
+        "role": "Palestinians in the West Bank",
+        "line": "Expect roadblocks and checkpoint delays that affect schools, hospitals and farm work; how long the closure lasts has not been announced."
+      },
+      {
+        "role": "Israeli voters and watchers",
+        "line": "The election is on 27 October. A security crisis four days before polling can shift the debate, though how much is unclear."
+      },
+      {
+        "role": "Diplomats and aid groups",
+        "line": "The UN is 'extremely alarmed'. Access for medical and aid movements is the first thing to watch."
+      },
+      {
+        "role": "Neighbours, especially Jordan",
+        "line": "Jordan has a peace treaty with Israel and a large Palestinian-origin population, so prolonged closures and demolitions add pressure."
+      },
+      {
+        "role": "Everyone else",
+        "line": "This is a fast-moving event. Treat details of the closure's scope as provisional."
+      }
+    ],
+    "ripple": [
+      {
+        "label": "First-order",
+        "effects": [
+          {
+            "text": "Two Israeli soldiers shot dead at a checkpoint outside Hebron; soldiers kill the two men they say were behind the attack",
+            "sector": "Security"
+          },
+          {
+            "text": "Israel orders a sweeping closure of the occupied West Bank, with roadblocks across the territory",
+            "sector": "Security"
+          },
+          {
+            "text": "Israeli forces begin demolishing Palestinian buildings in Hebron",
+            "sector": "Security"
+          },
+          {
+            "text": "Villages such as Madama are cut off from hospitals, schools and olive groves",
+            "sector": "Living"
+          }
+        ]
+      },
+      {
+        "label": "Second-order",
+        "effects": [
+          {
+            "text": "West Bank security and the government's response enter the closing days of Israel's election campaign",
+            "sector": "Politics"
+          },
+          {
+            "text": "UN Secretary-General Guterres voices alarm; diplomatic pressure on Israel builds",
+            "sector": "Diplomacy"
+          },
+          {
+            "text": "If the closure lasts, lost pay and a disrupted olive harvest would squeeze Palestinian household incomes (an estimate, not yet reported)",
+            "sector": "Living"
+          },
+          {
+            "text": "Higher risk of reprisal attacks and clashes around Hebron",
+            "sector": "Security"
+          }
+        ]
+      },
+      {
+        "label": "Third-order",
+        "effects": [
+          {
+            "text": "Pressure on Jordan grows as curbs on Palestinian movement continue and escalation risk rises",
+            "sector": "Regional"
+          },
+          {
+            "text": "Repeated closures and demolitions deepen Palestinian grievance and weaken the Palestinian Authority's standing (an estimate)",
+            "sector": "Politics"
+          },
+          {
+            "text": "Whoever forms Israel's next government inherits an unsettled West Bank as a first test",
+            "sector": "Politics"
+          }
+        ]
+      }
+    ]
+  },
+  "brief": {
+    "whatHappened": [
+      "On Friday 23 October 2026, two Palestinian gunmen attacked a checkpoint outside Hebron and shot dead two Israeli soldiers, according to BBC reporting. Israeli soldiers then killed two men whom the military said had launched the attack, NPR reports. At least five people were injured, some critically.",
+      "Israel then imposed a sweeping closure on the occupied West Bank. Israeli forces began demolishing Palestinian buildings in Hebron. Details of the closure, such as which crossings and roads are shut and for how long, were not clear in the early reporting.",
+      "UN Secretary-General Guterres said the UN was 'extremely alarmed' by intensifying violence in the West Bank. Al Jazeera reports that residents of the village of Madama are cut off from hospitals, schools and olive groves by Israeli roadblocks."
+    ],
+    "whyItMatters": [
+      "Security: the attack was deadly and the response is broad. A territory-wide closure and demolitions go beyond the immediate area of the shooting. Past episodes suggest such steps can feed the cycle of attack and reprisal, though this one may play out differently.",
+      "Politics: Israel votes on 27 October. A Kan poll on 18 October had Netanyahu's bloc at 51 seats and his opponents at 52, so neither side reaches the 61 needed. A crackdown days before the vote puts West Bank security at the centre of the final stretch.",
+      "Daily life: closures land first on ordinary people. Roadblocks are already disrupting schools and medical care in at least one village, and it is the olive harvest season. The longer the closure lasts, the greater the damage to health, education and incomes.",
+      "Region: curbs on Palestinian movement and a risk of escalation could draw in neighbours such as Jordan, which has a 1994 peace treaty with Israel and is sensitive to events in the West Bank."
+    ],
+    "winners": [
+      {
+        "who": "Parties campaigning on security in Israel",
+        "why": "A deadly attack just before the vote may help those who promise a tougher line. This is a possibility, not a measured effect."
+      },
+      {
+        "who": "Israeli security services",
+        "why": "A closure gives them wide freedom of action in the short term, though it also carries risks of backlash."
+      }
+    ],
+    "losers": [
+      {
+        "who": "Palestinian civilians in Hebron",
+        "why": "Buildings are being demolished and movement is restricted."
+      },
+      {
+        "who": "Residents of cut-off villages such as Madama",
+        "why": "Reported loss of access to hospitals, schools and farmland."
+      },
+      {
+        "who": "The Palestinian Authority",
+        "why": "It has little ability to protect residents or shape events, and closures weaken its standing (an estimate)."
+      },
+      {
+        "who": "Efforts to calm the region",
+        "why": "The UN has voiced alarm, and escalation could spread beyond the West Bank."
+      }
+    ],
+    "whatsNext": [
+      "27 October: Israel's Knesset election. The closure and the Hebron response will be part of the closing campaign.",
+      "In the coming days: whether the closure is eased, how long the demolitions continue, and whether more attacks or clashes follow.",
+      "After the vote: coalition talks, and how the next government handles the West Bank."
+    ],
+    "predict": {
+      "question": "Before you read the scenarios: what is the most likely path over the next two weeks?",
+      "options": [
+        "The closure eases within days and tension drops",
+        "The closure and demolitions drag on with scattered clashes",
+        "A wider escalation draws in neighbours such as Jordan",
+        "Mediation produces a quick de-escalation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Our base case, at about 40%, is that the sweeping closure is partly eased within days, as often happens after past closures, but tension stays high. A longer closure with rolling demolitions is close behind at about 35%. All probabilities here are author judgement."
+    },
+    "recap": [
+      {
+        "question": "What triggered the West Bank closure?",
+        "options": [
+          "A rocket attack from Gaza",
+          "Two Israeli soldiers shot dead near Hebron",
+          "A protest in Jerusalem"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "question": "When does Israel vote?",
+        "options": [
+          "27 October",
+          "5 November",
+          "18 October"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "question": "Which UN official voiced alarm?",
+        "options": [
+          "The UN Secretary-General, Guterres",
+          "The Security Council president",
+          "The UN refugee chief"
+        ],
+        "answerIndex": 0
+      }
+    ]
+  },
+  "deep": {
+    "timeline": [
+      {
+        "date": "1994-02-25",
+        "title": "Massacre at the Ibrahimi Mosque, Hebron",
+        "detail": "A settler killed about 29 Palestinian worshippers. Restrictions on Palestinians in the city followed. Hebron has been a flashpoint since."
+      },
+      {
+        "date": "1997-01-17",
+        "title": "Hebron Protocol divides the city",
+        "detail": "Hebron was split into a Palestinian-administered zone and a zone under Israeli security control, where Israeli settlers live among Palestinians. The arrangement still shapes security there."
+      },
+      {
+        "date": "2023-10-07",
+        "title": "Hamas attack on Israel and the start of the Gaza war",
+        "detail": "The war reshaped security policy across Israel and the occupied territories, and it remains the backdrop to the 2026 election."
+      },
+      {
+        "date": "2026-10-18",
+        "title": "Kan poll shows the election too close to call",
+        "detail": "Netanyahu's bloc is at 51 seats and his opponents at 52, with neither reaching 61. This is the context the crackdown lands in."
+      },
+      {
+        "date": "2026-10-23",
+        "title": "Two Israeli soldiers shot dead at a checkpoint outside Hebron",
+        "detail": "Two Palestinian gunmen attacked on Friday morning, according to BBC. At least five people were injured, some critically, according to NPR.",
+        "sourceIndex": 1,
+        "turning": true
+      },
+      {
+        "date": "2026-10-23",
+        "title": "Soldiers kill two men said to be behind the attack",
+        "detail": "The Israeli military said the two men had launched the attack. NPR calls it an 'alleged' attack; accounts rest largely on the military's version.",
+        "sourceIndex": 3
+      },
+      {
+        "date": "2026-10-23",
+        "title": "Israel imposes a sweeping closure on the West Bank",
+        "detail": "The government ordered the occupied territory sealed. The exact scope and expected duration were not clear in early reports.",
+        "sourceIndex": 0,
+        "turning": true
+      },
+      {
+        "date": "2026-10-23",
+        "title": "Demolitions of Palestinian buildings begin in Hebron",
+        "detail": "Israeli forces started pulling down buildings after the shooting. The number and kind of buildings were not clear in early reports.",
+        "sourceIndex": 1
+      },
+      {
+        "date": "2026-10-23",
+        "title": "Guterres 'extremely alarmed'",
+        "detail": "The UN said it was alarmed by intensifying violence in the West Bank as Israel moved to seal the territory.",
+        "sourceIndex": 2
+      },
+      {
+        "date": "2026-10-23",
+        "title": "Roadblocks cut off the village of Madama",
+        "detail": "Residents say they are cut off from hospitals, schools and olive groves.",
+        "sourceIndex": 4
+      },
+      {
+        "date": "2026-10-27",
+        "title": "Israeli Knesset election (scheduled)",
+        "detail": "The vote comes four days after the Hebron attack and the closure."
+      }
+    ],
+    "causes": [
+      {
+        "name": "Structural roots",
+        "when": "Decades",
+        "causes": [
+          {
+            "name": "Occupation and a divided Hebron",
+            "detail": "Since 1997 Hebron has been split into two zones, with Israeli settlers living in the Israeli-controlled part. Friction and security restrictions are built into daily life."
+          },
+          {
+            "name": "Cycle of attack and reprisal",
+            "detail": "Past attacks on Israelis have been followed by closures, raids and demolitions, which in turn deepen grievance. This is a pattern, not a certainty."
+          },
+          {
+            "name": "Weak Palestinian political structures",
+            "detail": "The Palestinian Authority has limited ability to control security or protect residents, a judgement not drawn from today's sources."
+          }
+        ]
+      },
+      {
+        "name": "Trigger",
+        "when": "Friday 23 October 2026",
+        "causes": [
+          {
+            "name": "Checkpoint shooting",
+            "detail": "Two Israeli soldiers were shot dead outside Hebron, and the two attackers were killed by soldiers."
+          }
+        ]
+      },
+      {
+        "name": "Accelerants",
+        "when": "October 2026",
+        "causes": [
+          {
+            "name": "Election four days away",
+            "detail": "Security is a central issue in a close race, which may harden the government's response. This is inference, not reported motive."
+          },
+          {
+            "name": "War context",
+            "detail": "The campaign is framed by Gaza and the Iran war, according to the linked election dossier, which keeps security tensions high."
+          },
+          {
+            "name": "Breadth of the response",
+            "detail": "A territory-wide closure plus demolitions affects far more people than the attackers, raising the odds of further anger."
+          }
+        ]
+      }
+    ],
+    "stakeholders": [
+      {
+        "name": "Israeli government",
+        "role": "Ordered the closure and demolitions",
+        "wants": "To show a firm response to the killing of two soldiers, and to deter further attacks",
+        "leverage": "Control of crossings, roadblocks and the military",
+        "likelyMove": "Keep the closure in place through the election, then ease it in stages (an estimate)"
+      },
+      {
+        "name": "Israeli military",
+        "role": "Enforces the closure; killed the two men said to be behind the attack",
+        "wants": "To prevent follow-up attacks and manage the closure",
+        "leverage": "Troops, checkpoints and demolition capacity",
+        "likelyMove": "Continue raids and demolitions around Hebron while the threat level stays high"
+      },
+      {
+        "name": "Palestinians in Hebron and across the West Bank",
+        "role": "Those living under the closure",
+        "wants": "Access to medical care, schools, work and farmland; an end to demolitions",
+        "leverage": "Little formal leverage; protest and the court of public opinion",
+        "likelyMove": "Seek exemptions for patients and students; some may turn to protest"
+      },
+      {
+        "name": "Palestinian Authority",
+        "role": "Governs parts of the West Bank",
+        "wants": "Relief for residents and some control over events",
+        "leverage": "Diplomatic appeals to the UN and Arab states",
+        "likelyMove": "Condemn the demolitions and appeal to international bodies"
+      },
+      {
+        "name": "Israeli opposition (including Gadi Eisenkot's bloc)",
+        "role": "Competing for the vote on 27 October",
+        "wants": "To avoid being outflanked on security while arguing the government has failed",
+        "leverage": "The final days of the campaign and the poll lead in some surveys",
+        "likelyMove": "Back the response against the attackers while questioning the government's wider record"
+      },
+      {
+        "name": "Jordan",
+        "role": "Neighbour with a 1994 peace treaty with Israel",
+        "wants": "Stability on its western border and an end to curbs on Palestinian movement",
+        "leverage": "Diplomatic channels and the treaty",
+        "likelyMove": "Condemn the demolitions and press the US and Israel for restraint (an estimate)"
+      },
+      {
+        "name": "United Nations",
+        "role": "Humanitarian and diplomatic voice",
+        "wants": "Protection of civilians and open access for aid and medical movements",
+        "leverage": "Public statements and Security Council procedures",
+        "likelyMove": "Further statements; demands for lifting of closures"
+      }
+    ],
+    "sectors": [
+      {
+        "sector": "Palestinian health care",
+        "direction": "down",
+        "size": 3,
+        "why": "Roadblocks are cutting residents off from hospitals; the longer the closure, the larger the harm."
+      },
+      {
+        "sector": "Palestinian schooling",
+        "direction": "down",
+        "size": 2,
+        "why": "Students and teachers face roadblocks, and schools are disrupted in cut-off villages."
+      },
+      {
+        "sector": "Palestinian farming (olive harvest)",
+        "direction": "down",
+        "size": 2,
+        "why": "Residents report being cut off from olive groves during the harvest season."
+      },
+      {
+        "sector": "Palestinian trade and work",
+        "direction": "down",
+        "size": 2,
+        "why": "A territory-wide closure normally restricts movement of goods and workers; the scale this time is not yet reported (an estimate)."
+      },
+      {
+        "sector": "Israeli security services",
+        "direction": "up",
+        "size": 1,
+        "why": "Higher operational tempo and deployment in the West Bank."
+      },
+      {
+        "sector": "Israeli election politics",
+        "direction": "mixed",
+        "size": 2,
+        "why": "Security rises up the agenda in a close race; who benefits is unclear."
+      }
+    ],
+    "dailyLife": [
+      {
+        "item": "Medical care",
+        "effect": "Roadblocks around Madama cut residents off from hospitals, according to Al Jazeera.",
+        "sourceIndex": 4
+      },
+      {
+        "item": "Schools",
+        "effect": "Students and teachers in cut-off villages cannot reliably reach classrooms.",
+        "sourceIndex": 4
+      },
+      {
+        "item": "Olive harvest",
+        "effect": "Families report being cut off from their groves in the middle of the harvest season.",
+        "sourceIndex": 4
+      },
+      {
+        "item": "Homes and buildings in Hebron",
+        "effect": "Israeli forces have begun demolishing Palestinian buildings; those affected have not been detailed in early reports.",
+        "sourceIndex": 1
+      },
+      {
+        "item": "Travel between West Bank towns",
+        "effect": "A territory-wide closure normally means long delays or shut crossings; expect uncertainty until the military publishes details.",
+        "sourceIndex": 0
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Closure eases within days",
+        "probability": 40,
+        "looksLike": "The sweeping closure is partly lifted after the election or once the immediate threat fades. Some demolitions continue in Hebron; schools and clinics reopen access.",
+        "signposts": [
+          "Military announces exemptions for patients and students",
+          "Checkpoints reopen on main roads",
+          "No further attacks for several days"
+        ],
+        "effectOnWorld": "Tension stays high but the crisis fades from the headlines; the UN keeps pressing on demolitions."
+      },
+      {
+        "name": "Extended closure and rolling demolitions",
+        "probability": 35,
+        "looksLike": "Closure stays in force for weeks. Demolitions spread beyond Hebron. Raids and clashes continue.",
+        "signposts": [
+          "More demolition orders announced",
+          "Further deadly incidents in the West Bank",
+          "Aid groups report shortages and denied access"
+        ],
+        "effectOnWorld": "Humanitarian pressure builds, and Jordan and Arab states grow louder in their criticism."
+      },
+      {
+        "name": "Wider escalation",
+        "probability": 15,
+        "looksLike": "Another major attack or mass clashes triggers a larger military operation; violence spreads beyond the West Bank and draws in neighbours.",
+        "signposts": [
+          "A mass-casualty attack",
+          "Large protests in Jordan",
+          "Armed groups outside the West Bank join in"
+        ],
+        "effectOnWorld": "Regional stability is at risk; Jordan comes under strain; diplomacy becomes urgent."
+      },
+      {
+        "name": "Mediated de-escalation",
+        "probability": 10,
+        "looksLike": "US, Jordan or Egypt broker quiet steps: closures lifted, demolitions paused, security coordination restored.",
+        "signposts": [
+          "Public calls from Washington for restraint",
+          "Contacts between the Palestinian Authority and Israeli officials"
+        ],
+        "effectOnWorld": "A short-term calming effect, though it leaves the underlying conflict unsettled."
+      }
+    ],
+    "predictions": [
+      {
+        "text": "The territory-wide closure will be at least partly eased (exemptions or reopened crossings) within two weeks. Probability about 65%.",
+        "horizon": "By 6 November 2026",
+        "resolves": "2026-11-06"
+      },
+      {
+        "text": "Israel's election will be held on 27 October as scheduled. Probability about 95%.",
+        "horizon": "27 October 2026",
+        "resolves": "2026-10-28"
+      },
+      {
+        "text": "Another deadly incident involving Israeli forces or Palestinians will take place in the West Bank within a month. Probability about 85%.",
+        "horizon": "By 23 November 2026",
+        "resolves": "2026-11-23"
+      },
+      {
+        "text": "Demolitions of Palestinian buildings will be reported in the West Bank outside Hebron within a month. Probability about 55%.",
+        "horizon": "By 23 November 2026",
+        "resolves": "2026-11-23"
+      },
+      {
+        "text": "Jordan's government will publicly criticise the closure or the demolitions. Probability about 65%.",
+        "horizon": "By 6 November 2026",
+        "resolves": "2026-11-06"
+      }
+    ],
+    "countermeasures": [
+      {
+        "audience": "businesses",
+        "actions": [
+          "Assume movement of goods and staff in and out of the West Bank may be delayed or blocked in the coming days.",
+          "Check contracts with partners and suppliers in the West Bank and adjust deadlines.",
+          "Review staff safety plans for Hebron and surrounding areas."
+        ]
+      },
+      {
+        "audience": "investors",
+        "actions": [
+          "Treat this as a regional political risk story rather than a market-moving event for now.",
+          "Watch for escalation signs involving Jordan or a wider military operation.",
+          "Track election results on 27 October for policy direction on security."
+        ]
+      },
+      {
+        "audience": "households",
+        "actions": [
+          "Palestinian families: plan medical appointments and school travel around closures, and keep documentation for exemptions.",
+          "Anyone with relatives in the West Bank: check road and checkpoint status with local contacts before travel.",
+          "Follow official advisories; closure details may change quickly."
+        ]
+      },
+      {
+        "audience": "policymakers",
+        "actions": [
+          "Press for exemptions that keep hospitals, schools and aid corridors open.",
+          "Seek transparent reporting on demolitions and their legal basis.",
+          "Use contacts with Jordan, Egypt and the US to prevent escalation."
+        ]
+      }
+    ],
+    "analogues": [
+      {
+        "event": "Hebron after the Ibrahimi Mosque massacre",
+        "year": "1994",
+        "whatFollowed": "Restrictions on Palestinian residents of Hebron, then the 1997 Hebron Protocol that split the city. Security measures in the city have shaped life there since."
+      },
+      {
+        "event": "Operation Defensive Shield",
+        "year": "2002",
+        "whatFollowed": "After a wave of attacks, Israel reoccupied West Bank cities in a large military operation, including in Hebron. Attacks fell but grievance and restrictions deepened."
+      },
+      {
+        "event": "Abduction and killing of three Israeli teenagers near Hebron",
+        "year": "2014",
+        "whatFollowed": "A large-scale West Bank operation followed, then escalation and a Gaza war in July 2014. This shows how a local attack can grow into a wider conflict."
+      }
+    ],
+    "watch": [
+      {
+        "date": "2026-10-27",
+        "title": "Israeli Knesset election",
+        "why": "Shows how voters weigh the crackdown, and starts coalition talks that set West Bank policy."
+      },
+      {
+        "title": "Lifting or easing of the closure",
+        "why": "The clearest sign of whether this is a short-term response or a longer clampdown."
+      },
+      {
+        "title": "Further demolitions",
+        "why": "Spread beyond Hebron would signal a wider policy rather than a response limited to the attack."
+      },
+      {
+        "title": "Access to hospitals and schools",
+        "why": "Reports from villages like Madama will show the human cost and whether exemptions work."
+      },
+      {
+        "title": "Jordan's reaction",
+        "why": "Public statements or protests in Jordan would show whether regional pressure is building."
+      },
+      {
+        "title": "UN and Security Council steps",
+        "why": "Follow-up to Guterres's statement could raise diplomatic costs for Israel."
+      },
+      {
+        "title": "New attacks or reprisals",
+        "why": "A further deadly incident would raise the risk of the 'wider escalation' scenario."
+      }
+    ]
+  },
+  "evidence": {
+    "sources": [
+      {
+        "title": "Israel locks down occupied West Bank after Hebron shooting",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/israel-locks-down-occupied-west-bank-after-hebron-shooting?traffic_source=rss",
+        "publisher": "Al Jazeera",
+        "date": "2026-10-23"
+      },
+      {
+        "title": "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
+        "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss",
+        "publisher": "BBC World",
+        "date": "2026-10-23"
+      },
+      {
+        "title": "West Bank: Guterres alarmed as Israel imposes sweeping closures after deadly Hebron attack",
+        "url": "https://news.un.org/feed/view/en/story/2026/10/1168660",
+        "publisher": "UN News",
+        "date": "2026-10-23"
+      },
+      {
+        "title": "Israel orders closure of West Bank after soldiers kill 2 men behind an alleged attack",
+        "url": "https://www.npr.org/2026/10/23/nx-s1-6013333/netanyahu-closure-west-bank",
+        "publisher": "NPR World",
+        "date": "2026-10-23"
+      },
+      {
+        "title": "Israeli roadblocks disrupt schools and medical care in West Bank village",
+        "url": "https://www.aljazeera.com/news/2026/10/23/israeli-roadblocks-disrupt-schools-and-medical-care-in-west-bank-village?traffic_source=rss",
+        "publisher": "Al Jazeera",
+        "date": "2026-10-23"
+      }
+    ],
+    "confidence": [
+      {
+        "claim": "Two Israeli soldiers were shot dead in an attack near Hebron on 23 October",
+        "level": "high",
+        "note": "Reported consistently by Al Jazeera, BBC, UN News and NPR."
+      },
+      {
+        "claim": "Details of the attack: gunmen's identities, how many were injured, who was hit",
+        "level": "medium",
+        "note": "BBC says two Palestinian gunmen at a checkpoint; NPR calls it an 'alleged' attack and says at least five were injured. The account of the two men's killing rests on the Israeli military's statement."
+      },
+      {
+        "claim": "Scope and duration of the West Bank closure and the scale of the Hebron demolitions",
+        "level": "low",
+        "note": "Early reports describe a 'sweeping' closure and demolitions but give no numbers or end date."
+      },
+      {
+        "claim": "Roadblocks disrupt schools and medical care in Madama",
+        "level": "medium",
+        "note": "Single source (Al Jazeera) based on residents' accounts."
+      },
+      {
+        "claim": "Election context: 27 October vote and Kan poll on 18 October",
+        "level": "medium",
+        "note": "Taken from the linked dossier israel-election-2026; no URL was supplied here, so it is not cited in the source list."
+      },
+      {
+        "claim": "Historical background (1994 massacre, 1997 Hebron Protocol, 2002 and 2014 operations)",
+        "level": "medium",
+        "note": "General knowledge, stated in broad terms without a cited URL; details such as casualty counts are approximate."
+      },
+      {
+        "claim": "Scenario and prediction probabilities",
+        "level": "low",
+        "note": "Author judgement, not sourced forecasts; to be graded as events resolve."
+      }
+    ],
+    "method": "Drafted on 23 October 2026 from four articles cited on the event (Al Jazeera, BBC, UN News, NPR), one further Al Jazeera report on Madama, and the connection to the Israeli election dossier. Early reports give limited detail, so the scale of the closure and demolitions, the Jordan angle and the effects on the election are estimates and are labelled as such. Historical analogues come from general knowledge and are kept broad. Probabilities are author judgement.",
+    "changeLog": [
+      {
+        "date": "2026-10-23",
+        "change": "First publication."
+      }
+    ]
+  },
+  "generated": {
+    "by": "Geopolitica draft script",
+    "at": "2026-10-23T21:04:45.555Z",
+    "model": "claude-sonnet-5-5",
+    "sources": 4,
+    "headlines": 5,
+    "reviewed": false,
+    "size": "deep"
+  }
+}
