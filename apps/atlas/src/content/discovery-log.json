@@ -1116,6 +1116,15 @@
   },
   "runs": [
     {
+      "at": "2026-10-23T04:59:33.225Z",
+      "screened": 0,
+      "accepted": [],
+      "rejected": [],
+      "existing": [],
+      "retired": [],
+      "skipped": "last screen 60 min ago"
+    },
+    {
       "at": "2026-10-23T03:59:38.111Z",
       "screened": 140,
       "accepted": [],
