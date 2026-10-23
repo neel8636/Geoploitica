@@ -279,6 +279,48 @@
   ],
   "ukraine-summit-diplomacy": [
     {
+      "at": "2026-10-23T23:00:39.410Z",
+      "text": "A Ukrainian negotiator says the Oleshky humanitarian ceasefire starts Tuesday, Oct. 27. The White House says Melania Trump brokered it, and Global News reports the US restored Starlink.",
+      "sources": [
+        {
+          "title": "White House Says Melania Trump Forged Localized Ceasefire in Russia-Ukraine War",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOenpNOURjdEl0ekdZZ2wxNjYwZmVCTjRTRURZeERyRHFNTmREZkFiTW1xd3JudjRVVEZ1WkdUOFBTb1N2VUhLNEVWMWtuNW1wOXBYbU1adXdweUI0Qm9LZ2FGQ3R2aUg2WGRRalV3WndFRzNUaWF5dWN2S3lRQVdnakNmWlNfQzVfV0JJVFc0SmxvZGd0aGQ2eFFDYlpockh1ckhDbnlqbGUyMWc?oc=5",
+          "publisher": "People.com"
+        },
+        {
+          "title": "Melania Trump helps forge ceasefire in Ukrainian city as US restores Starlink",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQ1hJaVByNFVTZks4ZFh3WFVWRVF3TDM4NmpNTEhWQV9EVTN3RUJyRnk4R2J3eUtXR05JdEhOeDZuNU9Vd2R0Q0ZEUE85dWlXVWY5SklQbW8tcm1FVmpDMEpVRmg3YlZlekZZQlo3RnNfMFhpUU9wUC15Q09Sb3Z0RVBoekhFWTFxLWRsZlEtZ3JJZV8wbHhSNHJKa2ZEdWh1MG1pMmxId1VSeURLT3R2bjhwV1lBdw?oc=5",
+          "publisher": "Global News"
+        },
+        {
+          "title": "Senior Ukrainian negotiator says local humanitarian ceasefire with Russia will start on Oct. 27",
+          "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPUXBnb2hxN1VXRVIwNGR4c0p3T2ZxVm8yTnFxSy0yZklIZUs1WjdQMWxWczljblpCSFZieU5GeGpaMlJLc1kxbkI4UGZxSlFETUdtNVJxVGxlbWhyQlFZMzlzcUdHQmdQUk0wc3g1NjlyaXIySjJCeGROLWlkOEVRazZjWk9GMi12cmY5WmpXd3VQenROR1JYYTZySmcxRDlnOWJFalNFdjJQSTRTa1VyaTVtYlZKZHJhUzJUbzZvYjduN3NJbVA0UlZHWmxvYzdqbXpMWkd3S3h6TEFJVzhPUmViNTJJUkNJM1NkMW1lUzhMRk50M1AtcEhjbnZwNElBdUc0Z2hQMUVLMjQtWDhaaVdIRjF1X2Z1NnNv?oc=5",
+          "publisher": "The Sun Chronicle"
+        },
+        {
+          "title": "Melania Trump brokered ceasefire at besieged Ukrainian town, White House says",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNY3g1ZWdGb1FvTHBDdVRKR093bHZmd2RPQjgxdWd2ZnIwblRXRWR3VDVPd1RBVVN4QzdMbDUyX29vZVpFLS1Ha0hvRWtPdHNYZ0ZkcWhZUTJVYkR3c3VQZnoxakJlMy16eHpuZ2FvRHFaTEdwd2lSay1wWTFqemhNR2JaTXVudVlVa19GTkpjNDRJb0xtS0lIN3BtaTBmOGJfb2tCcFMtNGFsaERNcXBMZ0xJRmFfa3hmdGdneEhR?oc=5",
+          "publisher": "The Washington Post"
+        },
+        {
+          "title": "Ukrainian negotiator says local humanitarian ceasefire with Russia will start Tuesday",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMkNRM3hJTVJkUGxjNjB3QmhSd2FSb2JHZkZtTjVNdzNWeHJ4QkpwdEd0cWttQjg0ZmVSQUtCV0JHTFRCeTd3NGJITy1ybDRTQzB4ZkhEdDEtRkRhcUZrWHdONWJZZFlBbGV5YmhkbDh5LTlaZm9jelQ3Y2FWOEcxUlhLZE5yX2c4dVhSZlYyVDUtVllza2ZLLTVXQ2RCN093aGJlRmc4RU9jcHZROVRv?oc=5",
+          "publisher": "AP News"
+        },
+        {
+          "title": "Russia, Ukraine agree to Melania Trump-brokered localised ceasefire",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/russia-ukraine-agree-to-melania-trump-brokered-localised-ceasefire?traffic_source=rss",
+          "publisher": "Al Jazeera"
+        }
+      ],
+      "headline": "A one-city ceasefire in Oleshky starts Tuesday to let aid in, while Putin pushes for a bigger summit on a Ukraine deal.",
+      "quick": {
+        "happened": "Russia and Ukraine agree to a local humanitarian ceasefire in Oleshky, which the White House says Melania Trump brokered.",
+        "matters": "Reuters reports the town faces a food crisis, so the pause is meant to let relief aid get in.",
+        "next": "The ceasefire starts Tuesday, Oct. 27, ahead of new US-led talks."
+      }
+    },
+    {
       "at": "2026-10-23T22:00:56.031Z",
       "text": "New since the last line: Reuters and Internazionale say the Oleshky ceasefire comes with a food crisis in the town, and Zelensky says trilateral talks with Russia and US negotiators begin in November.",
       "sources": [
@@ -495,38 +537,6 @@
         "happened": "Russia and Ukraine agree a local ceasefire in occupied Oleshky for civilian evacuations and aid, and the Kremlin confirms it is working with Ukraine on timing.",
         "matters": "The truce shows talks can produce small, concrete results, though Putin's summit proposal and the French aid debate show the wider fight over Ukraine support is far from settled.",
         "next": "The evacuation timing is still being worked out, and the headlines give no date for it or for any summit."
-      }
-    },
-    {
-      "at": "2026-10-23T15:00:07.880Z",
-      "text": "The White House says Melania Trump helped broker a localized ceasefire in Russian-occupied Oleshky for civilian evacuations and aid. Separately, reports say Russia hit Kyiv with cluster missiles hours after agreeing to peace talks.",
-      "sources": [
-        {
-          "title": "Russia Bombs Kyiv With Cluster Missiles Hours After Agreeing To Peace Talks",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeE13YTU0ZWZGNFQwWVpvRzJEOTJnTkJjY1hCdklxbHlpS1hMbXFkRVN1ZEdDMVdhNlBWeUEyMF9Hb2U2V1dzS3l4Ri1yTjRzZW5rSGZpRklIZW9DbUwtMW9VNHNBTzBNMnpERThkSUdTa0FvRFR5R2lrT1JjaDFjZFhycTNUbFdtZmE5WkgyRXdRNi1lSkxWaGVCY1hTNTNJYUpj?oc=5",
-          "publisher": "Latin Times"
-        },
-        {
-          "title": "Melania Trump brokers truce for Ukraine city 'on brink of disaster', White House says",
-          "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
-          "publisher": "BBC World"
-        },
-        {
-          "title": "Melania Trump Brokers Ceasefire For Humanitarian Aid In Oleshky",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMkNBSGtyeGFGUWRud2Mwd1NWcnZkckdmazNucFJaQTRwdk9sUFhUenRGRWxBaGNubThzUGRYbnlOWk0wTVViV2w3YWJRVnBtTHVDNnV6WFlXTnBpdllyZjdUWGNLdUdUNUpvT2k5SjdIVTJIcF9XS1NSanZHVER2WlJzcGkzem14RWFnekFHTXBLMVk0eHFJWFlpRnU0X3NEQUhQVHYzdlY5cDg?oc=5",
-          "publisher": "Newsradio 600 KOGO"
-        },
-        {
-          "title": "US Announces Russia-Ukraine Ceasefire Deal for Civilian Evacuations in Temporarily Occupied Oleshky",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPV3RocFlMOGhKM1hXRmMweHBQSWpUT2hCbVFMX29tN09zWGJUZTZBTFFKOWZ6REVlNjk1V3dUNU1LX1BiX01PNWdnbDc3QTVCd2hsYjJpQldiMEF5OVNuYU9uTFUtZzMwdDg0WVc5OE5pRmFXNUJySmtVYkVUaEViRk1ndzV3bGctMVVFN1FmVmRWcDQ3X19hRDk2YndZVGN1aDRJMWlFYmNSSXJfOXlFbmtKcXBHVjRUUUdkMmpNeWNBVlJlaWxoUF9oeXQ4QmJrcXdn?oc=5",
-          "publisher": "UNITED24 Media"
-        }
-      ],
-      "headline": "A local ceasefire is announced in occupied Oleshky while Putin pushes for a wider Ukraine deal through a summit with Trump and Xi.",
-      "quick": {
-        "happened": "The White House says Melania Trump helped broker a localized ceasefire in Russian-occupied Oleshky so civilians can be evacuated and aid can get in.",
-        "matters": "It shows small humanitarian deals can happen even as Putin seeks a bigger summit, and Ukraine aid is becoming a campaign issue in France.",
-        "next": "The Kremlin says Russia-Ukraine talks are planned for November in the UAE; whether the Oleshky ceasefire holds is not yet clear."
       }
     }
   ],
@@ -790,6 +800,28 @@
   ],
   "apec-shenzhen-2026": [
     {
+      "at": "2026-10-23T23:00:39.410Z",
+      "text": "Nothing material is new for this event. The latest headlines cover Trump easing some 50% tariffs on Canadian goods, with changes taking effect October 30, and do not mention Shenzhen, Xi or APEC.",
+      "sources": [
+        {
+          "title": "Trump revises 50% tariffs on certain Canadian products, changes take effect October 30",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQa0RWbVFRS01ZSU1wamlmZk0tdUZibEFfNkdrckMzQnpwUDRzTVB2bEdHMURtTF94c3dSSEJVYllOTUZUXzlSN3FNTk1VVlFCUzMzUENYRTlBV3FYZW4tUU95SkoyejgyZ3Y1dFB3VG1vUlhzcEljaURPODhld0lUNll1TXJmOFJGTWdKOHhJSHJoTjNuNTN1b2FqZ2dvVGJpQzM0WUVZNmdlMUpiM3lDVmlZQks3Sm53U1JFeXVidktQWmI5cVRLQw?oc=5",
+          "publisher": "RED FM Canada"
+        },
+        {
+          "title": "Trump ends tariffs on some Canadian products, aiming to help Senator Collins",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRWdrcmlzeVVGU0lLY2lmdVZHQ094Uk80eXhLb25UQkVoYjhXX3lXSERuOW1pVzNpRGEzQWMtMUVfVEp5bERnM2hqM0hFZFNrb1B5Y1QxRG9tMDUtTFNQSFFoMFZodXFPbmtDUUhpYXVIOXhNRTdkNU9RcDkzRW8xTkM0REpYZ0k3TlhDOGx6WEhYSUJIWG5WSE1Ia1FLWHVTVHN5UFhjVmhtb1J4TkpDTU90LVp4eWR0MnBxaA?oc=5",
+          "publisher": "Reuters"
+        }
+      ],
+      "headline": "Trump is set to join Xi at the APEC summit in Shenzhen on 18-19 November, where China will push for lower tariffs.",
+      "quick": {
+        "happened": "China hosts the APEC leaders' meeting in Shenzhen on 18-19 November, and Trump plans to attend after Xi's September visit to Washington.",
+        "matters": "Beijing wants tariff relief, so the outcome could affect trade costs, China's export growth and how other disputes with Beijing play out.",
+        "next": "Trump and Xi are expected in Shenzhen on 18-19 November, and Trump says he may also meet Kim Jong Un on the trip."
+      }
+    },
+    {
       "at": "2026-10-23T22:00:56.031Z",
       "text": "Nothing material is new for this event. The latest headlines cover Trump easing some tariffs on Canadian goods ahead of the midterms and do not mention the Shenzhen summit, Xi or Trump's travel plans.",
       "sources": [
@@ -942,36 +974,41 @@
         "matters": "Beijing will press for tariff relief there, and the Kremlin says a Trump, Xi and Putin summit on Ukraine could be held in China.",
         "next": "The summit runs 18-19 November in Shenzhen; Trump says he may also meet Kim, though US and South Korean officials see little chance, reports say."
       }
-    },
-    {
-      "at": "2026-10-23T06:59:40.541Z",
-      "text": "Reports say US and South Korean officials now see little chance of a Trump-Kim meeting this year, a doubt that goes beyond outside experts. Outlook India says North Korea has left US outreach unanswered.",
-      "sources": [
-        {
-          "title": "Trump-Kim Summit Slips Further From View As North Korea Leaves US Outreach Unanswered",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWHVkNVk5eG5lYmFCNjYxLXVXY21aZ1FsZW40LWp0WEZrcTVndXgwYUh0dzd2VWJ4MTFvbV9kOWJzQmRaekU4OU9Pc0dzNlRWb1I1Q3l4YW9feTlTLW9hMURCbmZvTGxnQWNQNHBwV0U4bEhXRk93OVoyQmJyUlpDaS1yVEE4Y05zSHM2QU03U1hlbWpuME1IUWlVYnFkYlM2NHBUSjl2NWhvQnNrZDY4NXdrYmxpTmVmVS1ZQkttZzQyYkF0UWRZ0gHUAUFVX3lxTE8yYnlPYlFOR00wa0VROHcyTUtVbUxpY245MVQzTTlXQ1dGWnVzTGNLVE1yTVRTWVVCMVdTODcyMTBmbzlYM0FkZFZ6bDd4cnl5c09nOUVWa0NZRjhRb052cHVJdU1CaklYUlE4enlockRqMFNfQjI3eDE0X2VNeWdCS19YYkJoT1lvN0dUOWp6eGVHR3lGdGFScTFYQjU5dWM0WEJ4azh2RnhRY0xfTk4yUGNNYmJNUVVQc3ZQQlAwWld5ZkJnbUhvZ1EtZWpzOUtPbkhN?oc=5",
-          "publisher": "Outlook India"
-        },
-        {
-          "title": "Could Trump Still Meet Kim Jong Un This Year as Hopes for a Summit Fade?",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOV3pmZkIySlhjbDJ4dWM5OGQ0MlBJMG52ai1Pbkw0bzB1T2FPeFBFMGViVEFmdWYxNHMxT2liOTFocjIyMnVhUDI0ZDl1SVZ0OUdwbXRqT2c2eVNnbEYxLVFBS20zbmVmR1FiZEttVGJFZkJ6cXdNdTZVT0tyNXhFdHpHSVdOcDlmaE82bVgxR2FWV3pHbzBxcDJWOURsVjN5ZDhJQVY5Nk4yRFpaRDE0?oc=5",
-          "publisher": "Modern Diplomacy"
-        },
-        {
-          "title": "Exclusive-US, South Korean officials see little chance of Trump-Kim meeting this year",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMXJ6OHFsUExZeml3eVk5cFBzUGhfVVFtYWw5N2xkT3JnQTl5MmlpQlpxaEswVHQ3Y0ZXb1lVVXo5MlgxejhaZk9ORkhfVXo1dFNUX28yQlZEOHFQazFNemx2bVh0LWdjZnZ2YkhGeUY1Tlp6LVBfOTZadUNBSTRDeEkyUm1nNDhUMFBsQkh6c3E5akdxaFRrTk5CbE9KMUo2NUZxLVBwNmZ5NlhDckJGUVd5dDRQUQ?oc=5",
-          "publisher": "WTVB"
-        }
-      ],
-      "headline": "Trump heads to Xi's APEC summit in Shenzhen on 18-19 November, and a Kim Jong Un meeting on the trip looks less likely.",
-      "quick": {
-        "happened": "China hosts APEC leaders in Shenzhen on 18-19 November and Trump plans to attend, while reports say officials see little chance of a Trump-Kim meeting.",
-        "matters": "Beijing wants US tariff relief, and the Kremlin says Trump, Xi and Putin could hold a trilateral summit in China on ending the Ukraine war.",
-        "next": "APEC leaders meet in Shenzhen on 18-19 November, and North Korea has not yet answered US outreach on a possible Kim meeting."
-      }
     }
   ],
   "us-midterms-2026": [
+    {
+      "at": "2026-10-23T23:00:39.410Z",
+      "text": "Trump lifts some tariffs on Canada, and The Guardian and The Telegraph report it is meant to help Senator Susan Collins in Maine. CNBC says other products are targeted in their place.",
+      "sources": [
+        {
+          "title": "Trump lifts some Canada tariffs ahead of midterms",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOU1SRVNSNVVLUUdQZW1VWFdOMkhPa19aMkdScU5WZ2I4bTR1Z1FWMWVNM21PbWE3d0RwbHhtQkppSGZWMlgyUjNDa0lLQkc5c1Fic2NvSEoySm1MOGxxUk95Qkg4a3lSbHo4VW1hbXFjakdTZ3pHQWJwZGNXc0hRTGJjbUtEV2FCVEQ5LUZudUt3UQ?oc=5",
+          "publisher": "Arab News"
+        },
+        {
+          "title": "Trump lifts 50pc tariffs on Canada in effort to swing key Senate race",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZFFZREdXanBERV83b2JELWRHYW42NzV5em1nNTRERU96b0NKY1poOTQzZEtpcGdldHB4cU1qOU0yYUdkOEp2em81eXJnVmk5WW9jeEwxYUdCeUVnTEZ0Q050T1FCaHVQakgyWFI4LThzRlA5aUVNaHIyU0diWmdrdm9LWk54cnY2YlhvTkkzX3ZaMHAxSVNLY0dsZFVobmdB?oc=5",
+          "publisher": "The Telegraph"
+        },
+        {
+          "title": "Trump drops some Canada tariffs in bid to boost embattled Susan Collins in Maine",
+          "url": "https://www.theguardian.com/us-news/2026/oct/23/susan-collins-maine-trump-tariffs-canada",
+          "publisher": "The Guardian World"
+        },
+        {
+          "title": "Trump dropping some Canada tariffs but 'replacing' them with other products",
+          "url": "https://www.cnbc.com/2026/10/23/trump-tariffs-canada-susan-collins.html",
+          "publisher": "CNBC World"
+        }
+      ],
+      "headline": "Trump lifts some Canada tariffs days before the vote, while polls point to Democratic House gains and a tight fight for the Senate.",
+      "quick": {
+        "happened": "Trump lifts some Canada tariffs; reports say the aim is to help Susan Collins in Maine. The Washington Post says the Cook Political Report sees significant Democratic House gains.",
+        "matters": "Tariffs and prices are central to the vote, and the result decides which party controls Congress for the rest of Trump's term.",
+        "next": "Americans vote on 3 November for all House seats, 35 Senate seats and 39 governorships."
+      }
+    },
     {
       "at": "2026-10-23T22:00:56.031Z",
       "text": "The Cook Political Report estimates Democrats are poised for significant House gains, reports say. The Canada tariff easing comes with other products being targeted, according to CNBC and the Toronto Star.",
@@ -1190,36 +1227,46 @@
         "matters": "House control shapes US Ukraine aid, and price rises since the Iran war began are the main issue for voters.",
         "next": "Americans vote on 3 November for all 435 House seats, 35 Senate seats and 39 governorships."
       }
-    },
-    {
-      "at": "2026-10-23T15:00:07.880Z",
-      "text": "The US Supreme Court sides with Republicans on rejecting student IDs in New Hampshire's midterms, The Guardian reports. Forbes says a Fox News poll has Talarico and Paxton tied, and Trump heads to a Florida rally.",
-      "sources": [
-        {
-          "title": "US supreme court sides with Republicans on rejecting student IDs in New Hampshire midterms",
-          "url": "https://www.theguardian.com/us-news/2026/oct/23/supreme-court-student-ids-new-hampshire-midterms",
-          "publisher": "The Guardian World"
-        },
-        {
-          "title": "Hottest 2026 Midterm Races—Talarico, Paxton Tied In Fox News Poll (Updated Daily)",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTHAteFJWQTViSG44TmYwZUxzVU1pN1dhRi1zWmt4SzViRDFKT2w2UkVDRUFTOWtzLVZ6RjlFem1wWXlYRldVMnQ3cVNVTi1ZX1BnLW50WVRDZGJHMkVBS21paUU5c0tTYndvd2Fyc0ZwN3VlZURIcmhlOVhCTWNMZzNJQzEtUU1sc0Q0c2Zpd0lnb3pqR2h6WlJobGtTMy11X0JNNmJZN3JVNWwxZFo0MHlDUHByemxuaFNReVo4NjFVQXBSYnRn?oc=5",
-          "publisher": "Forbes"
-        },
-        {
-          "title": "Trump to rally in Florida after stoking Ramaswamy ad furor – US politics live",
-          "url": "https://www.theguardian.com/us-news/live/2026/oct/23/trump-florida-midterms-ramaswamy-latest-updates",
-          "publisher": "The Guardian World"
-        }
-      ],
-      "headline": "Democrats lead the race for the House and the Senate is a toss-up, with voting on 3 November and courts weighing in on voting rules.",
-      "quick": {
-        "happened": "The US Supreme Court sided with Republicans on rejecting student IDs in New Hampshire, and a Fox News poll reportedly has Talarico and Paxton tied.",
-        "matters": "Higher gasoline, diesel and grocery prices drive the vote, and House control decides how much Ukraine aid Congress backs.",
-        "next": "Americans vote on 3 November for all House seats, 35 Senate seats and 39 governorships."
-      }
     }
   ],
   "france-debt-stress": [
+    {
+      "at": "2026-10-23T23:00:39.410Z",
+      "text": "Moody's confirms France's Aa3 rating and keeps the negative outlook, saying the rating assumes a deficit-reducing 2027 budget is adopted. Finance Minister Lescure says the call recognizes the economy's solidity.",
+      "sources": [
+        {
+          "title": "Moody's confirms France's Aa3 rating and maintains the negative outlook",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcThRV2tYdkpWTkdham9LQTJSRnhhN1F1UnlJSzNPaWt1QzV4aEprb0VUdkd5cDhBOV9NZWlSVjRubEpOOVpXcHdUd3ZvSGthVlN4V3pNbGE1N1lVZW5OY2J3SFF0THZBMWgyNElqQ0MtMzNRdVYzRHdQV05fNG1RUldOd09vcEdCOE0xdFQxUW9xeTVkc1QwLWhpdllQNkdSSlk0Tm0yczVuUzNs0gGyAUFVX3lxTFBFZzRXSjczSlBHbFB0eEhpdUtIR3MwUFctOFlvekZqdk1hWkxsNklYU3ZJUURxRlVUOGxvZ0xGQ1JjcDhXc2VEUDdUSWZuUjRvV3M3YkM2clNFdnZWZHN3WE5CdGVDOUZtYTEwMHFXN2VibDBkdEVuQmpfTXg1UGRMajhaenQ0WVdZeVhZLVNNVzlxaVlxTDBiRXpBakxEbjVwdHJaZkprWHdTOVMtNUFvTkE?oc=5",
+          "publisher": "Demócrata"
+        },
+        {
+          "title": "Moody's: France Aa3 rating assumes that a deficit-reducing budget for 2027 will be adopted",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPREF3NFY0ZmpaNGZOTDlCM3RucnMyaHJkTmtJSGF5NG12a2pCaGYwNnN5d3U3dl85S1lfMFdQVGI2UFFjZnhRZE9kZmJkQnF1Snptank5QzZqS0lBODFMNDJpNjlCNm1lTjFDVHZoTWN0SFY4TkRLODlqYmxzQVBvdVFmQ0hwVm5PcThaVDNFbTBmY253OVZyeGFORU1tTmfSAaQBQVVfeXFMTW9oNGxfU21tNkRlSENIZjJJUjJ3cXZneUg2UkpGUWdtZFVqeWZSQWJGQW1tTzhhdWY1TWxjeFloSlZfZnZwWTNDM2k3ZXFOMUNpYlJhV1pxR3RHLTFLTDlTaDdTd243NFpmZ3hoS21rcjJzZjVVTnFSY0lQQjNmbW9vNkhiZVFDVDl1aWJScExQVi1UMU9XemlFQ1dEWHBidnBOMnk?oc=5",
+          "publisher": "Forex Factory"
+        },
+        {
+          "title": "France Fin. Min. Lescure: The Moody's call recognizes the solidity of the French economy",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV3gzZzlvS0FKOHRLdVV2TlhDSVowaHBFQlN2SkZJV0ZFWXVQSERnME52SUk2WndGOXc2dUd0S3Y2RWZJQlQ1SHpPMXRqNm1jZGkxNVA2LXl2QkVRSFUzczJIang4V2ZISnFpWHRTZElVaUtqVnM5WXUzck5NenRXVHROZWdwZTRrT3p5QS1seTVRZUFvZzZYUW01NNIBmwFBVV95cUxNV3gzZzlvS0FKOHRLdVV2TlhDSVowaHBFQlN2SkZJV0ZFWXVQSERnME52SUk2WndGOXc2dUd0S3Y2RWZJQlQ1SHpPMXRqNm1jZGkxNVA2LXl2QkVRSFUzczJIang4V2ZISnFpWHRTZElVaUtqVnM5WXUzck5NenRXVHROZWdwZTRrT3p5QS1seTVRZUFvZzZYUW01NA?oc=5",
+          "publisher": "Forex Factory"
+        },
+        {
+          "title": "Moody's keeps France's credit rating at Aa3",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYU1LdktZVy1oOHd1WS0yTkZETnZvS3cwQWk1cm91bkNYc1FhdTVpQ1J0UXI5dzZ5U3UyOWctMHhBeGg1MUxTWTEzaTdLNjB1NEZjb0RXVWJlREd3TnF1NHBFTTFfb2hDeERVNGhqeVBaeFIySWlqM1l3azRPV1UzZE9mNHhTSWFQZHVjekFGS3hXZw?oc=5",
+          "publisher": "Breakingthenews.net"
+        },
+        {
+          "title": "Moody’s Held France’s Rating, But Kept The Warning Label",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPLUpoXzdJcVBkUXFfalFxYlpCbjhLM1UtdGRYRTFoYzBiZ2NKbFRobEpCcXJEWDFFaG44UThLNmpGVGs4aEUyTGpVQU9DNjd3SGZUMmVaWXptVGFaVnVlcnhxUE5NU1pxRDlUZmhyU2ZOZFRkOFVlaGstc180Q1J1RUwtbmJQa0RVX3c?oc=5",
+          "publisher": "Finimize"
+        }
+      ],
+      "headline": "Moody's keeps France's credit rating but warns it expects a 2027 budget that cuts the deficit, so the budget fight now matters more.",
+      "quick": {
+        "happened": "Moody's keeps France's rating at Aa3 and leaves the negative outlook in place, avoiding the downgrade many had expected.",
+        "matters": "A downgrade would raise France's borrowing costs and could spread to other euro zone countries; for now, euro zone bonds stabilise, The Financial Express reports.",
+        "next": "Moody's says the rating assumes France adopts a 2027 budget that reduces the deficit, so that budget is the next test."
+      }
+    },
     {
       "at": "2026-10-23T22:00:56.031Z",
       "text": "Moody's keeps France's credit rating unchanged and avoids a downgrade, WSJ and Bloomberg report. Euro zone bonds stabilise, The Financial Express reports, after a week of crisis. Earlier headlines had said a cut was widely expected.",
@@ -1427,33 +1474,6 @@
         "happened": "France's risk premium reaches euro-crisis levels, and reports say its 10-year yield is now above both Italy's and the US's.",
         "matters": "Higher French yields can spread to Italian borrowing costs, and ECB's Panetta says rising bond yields will restrain the economy.",
         "next": "Moody's reviews France's Aa3 negative rating on 23 October, while the ECB says intervention is not warranted."
-      }
-    },
-    {
-      "at": "2026-10-22T17:58:49.228Z",
-      "text": "ECB's Panetta says rising bond yields will restrain the economy. The WSJ reports US 10-year yields fall under 5% as French turmoil drives a flight to safety, and Reuters says France's risk premium hits euro-crisis levels.",
-      "sources": [
-        {
-          "title": "ECB’s Panetta Says Rising Bond Yields Will Restrain Economy",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQkpvQUx6Nm1yVG1hNVJhY25ZU0RYeUxYSFVxV1dVVWZZc0VTQnI4SzJkdjcxQXVEbDBrUmctUXRudEwwQzBqS0VvcWd6ZDlxaUZMbTIxSzlkdW1QRUE1TTZaemRabVpXNEdReDgyUjJYYW9WREx4ajBUeFd1anBXbzB3ZjZMRUdYbGZlaFA0Z2lnWWRBdVRScDJCOWt1dllZbDF0SmE4dEpPQUtuejFJ?oc=5",
-          "publisher": "Bloomberg.com"
-        },
-        {
-          "title": "U.S. 10-Year Treasury Yield Falls Under 5% as French Turmoil Fuels Flight for Safety",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaG1kb1dxekJabUk3czhacmlCWC1GV1N5WlkyaFZVekxHaUhsbUVIU0lLMXFHRk91ZnVBRUZCMkNWWmVMZGppbDJ1QXZTX05OdkJpNy1nVlQ0MzVyb3dONjNQcjVoU1ZsdDVwc1BuVnpUTk9TX1dMNnBJdVNtVHpkbjZCSDBrZTZlOEo5MFo5QV9WTnAxV2JySkVpWGh5alBYVTNBRlBJTUVYVjJ1Q2hwdDlyY2tJUmFJYjg4?oc=5",
-          "publisher": "WSJ"
-        },
-        {
-          "title": "French debt risk premium reaches euro zone sovereign crisis levels",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZG1tbk1Ea3kzamhBdWdPRmV3S3JKYkFUYVlaTmdWMDNZZk41WDVFU3FGM3JJSkpxanYxaUFsbjdWWDVnZHlaZWlBYVctc3ZtWklsZndxelk4NWU0aWpIVnhGOXFTbTRYX0R4VXBGUElvaXNGaWU3Z3hNWVpVVjlHZVN6Zm1xSEVPekdnb2VmVXlqeThrV0ZQU1E2c2V4QXdfSFQydjVlaW1vYTRXV2Y4bHNocW4tdw?oc=5",
-          "publisher": "Reuters"
-        }
-      ],
-      "headline": "French borrowing costs keep climbing ahead of Moody's review on 23 October, and the ECB's Panetta says higher yields will restrain the economy.",
-      "quick": {
-        "happened": "French borrowing costs have overtaken US ones, and Reuters says France's risk premium has reached euro sovereign crisis levels.",
-        "matters": "Euro zone bond yields are rising and, the WSJ reports, money is moving to safety, so the stress reaches beyond France.",
-        "next": "Moody's reviews France's Aa3 negative rating on 23 October."
       }
     }
   ],
@@ -1697,6 +1717,38 @@
   ],
   "us-canada-trade-war": [
     {
+      "at": "2026-10-23T23:00:39.410Z",
+      "text": "Reports say the changes take effect October 30, and Maine Public says the exemption covers Canadian products used by Maine farmers. Other outlets confirm some tariffs are removed and others added. Full product lists are still not named.",
+      "sources": [
+        {
+          "title": "Trump revises 50% tariffs on certain Canadian products, changes take effect October 30",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQa0RWbVFRS01ZSU1wamlmZk0tdUZibEFfNkdrckMzQnpwUDRzTVB2bEdHMURtTF94c3dSSEJVYllOTUZUXzlSN3FNTk1VVlFCUzMzUENYRTlBV3FYZW4tUU95SkoyejgyZ3Y1dFB3VG1vUlhzcEljaURPODhld0lUNll1TXJmOFJGTWdKOHhJSHJoTjNuNTN1b2FqZ2dvVGJpQzM0WUVZNmdlMUpiM3lDVmlZQks3Sm53U1JFeXVidktQWmI5cVRLQw?oc=5",
+          "publisher": "RED FM Canada"
+        },
+        {
+          "title": "Trump administration to exempt Canadian products used by Maine farmers from tariffs",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSVFPSXgtS0gzRzNiUUtEYVNscDdET3NHd0RPVFktY2Z5YXA5bEotZUh3Tnk0YkZYck54R3lDZ0dmTlJKT0JLbDFSTnVTWklPT3dvQkFHaHhWeDJUbGRlVWtLcWlwUmhiV1NsNEpXRFRyRTR4dGNVZjlYSE1zdnV0WW1BdHhDWW1zNlBCdHNMRmhXbjlaZDQxT21vTVRZNXdLZUJVQTB4NE1hTmVqeU9IcnEzNU11clhOUUNuaFc5Nkh4aThnWldTci05aw?oc=5",
+          "publisher": "Maine Public"
+        },
+        {
+          "title": "Trump removing some 50% tariffs on Canadian products, adding others",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZ1d2cnRJSjZhOTRNcjUtOFBqRjFNc2QyTHhXRExrUlVPbV9PT2k1SlpFMmQxbURqWTYxb3JLSWlRU1VrVXF2NmQyckkwRG9yb2I4azNlSVNwNnJnZUJDUVl0Yl80OHlNdEFfRXNWbWY3YXRoX0otbGpvUUs5MVJJNWJBOWw?oc=5",
+          "publisher": "Global News"
+        },
+        {
+          "title": "Trump tweaks Canada tariffs, removing certain goods while adding others",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdWNaejhRbU4wTGlxcFhxbG5MdUNqWDV6THIwMHV5Yk01dlNLU0gyNnU4b25tNkxZNzJNdV9Qa3hMWHhYdDROOXJJU2U0cUhKS2c4MnZobl91VUZuOTJyVzRSWFJzakpKclBYR3lOOWUyOGhVNktSNVpiVEtmdVBuYldqcWdPOXdfYzlPcGpLN3BMdVZmWnMySXY1SVk0YjBiNVdhUXlPOU9taU1CeUNubmFQRmMxQQ?oc=5",
+          "publisher": "Supply Chain Dive"
+        }
+      ],
+      "headline": "Trump lifts some 50% tariffs on Canadian goods and adds others, as the midterms near and Sen. Susan Collins faces a hard race in Maine.",
+      "quick": {
+        "happened": "Trump is removing 50% tariffs on some Canadian products and adding others, reports say, in a bid to help Sen. Susan Collins in Maine.",
+        "matters": "Tariff-driven consumer prices feed into the midterms, where the House tilts Democratic and the Senate is a toss-up.",
+        "next": "One outlet reports the changes take effect October 30; the full list of goods is still not named."
+      }
+    },
+    {
       "at": "2026-10-23T22:00:56.031Z",
       "text": "More outlets, including Reuters and CBS, report 50% tariffs are lifted on some Canadian goods to help Sen. Susan Collins in Maine. The Toronto Star says others are being imposed instead. The goods are still not named.",
       "sources": [
@@ -1903,33 +1955,6 @@
         "happened": "Carney says there is 'no merit' to US claims that Canada meddled in the midterms, and Trump faces a lawsuit over the 50% Canadian tariffs.",
         "matters": "Reports say tariffs are slowing US access to Canadian cheese, and Michigan residents tell reporters the trade war is hurting their towns.",
         "next": "No dates are given in the headlines; Canada's top negotiator says tariff-free trade is not returning."
-      }
-    },
-    {
-      "at": "2026-10-23T03:59:38.111Z",
-      "text": "Reports say Canada has not closed the door on a US trade deal before the midterms (CTV), and Canada and Turkey signed trade and defense deals. The US also alleges possible Canadian election interference, per Axios.",
-      "sources": [
-        {
-          "title": "EXCLUSIVE: Canada hasn’t yet closed door on U.S. trade deal ahead of midterms",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQakpNUWxuM1NuX2d4dkFOcWY0Q2YwRW13cGFwR29CZzYxTjZnYTVQTjZqVnhQSEFwZURzTU9pVHBEcFFQNE9wQmVkQVhnLXBmNjMwaFRxR2FWaUNzeVFIeG5qUmxXQ3IxdnNRb3JDN2lhdEJXdHh5dVA0NGtJQkN5VHpMampIY1Fad3ljZlctX2swWmlRczFmSkhWN21kNGJrd2hYYjdSUVdOYl9INVMweXY3eE5aRXV0amRhcHpuMHI0VzV0?oc=5",
-          "publisher": "CTV News"
-        },
-        {
-          "title": "Canada hit back at Trump tariffs. Now the U.S. alleges possible election interference.",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZ1VPaDMtckQ5cDF4QmN1R1hfM0FDVEJQd2ZWNWFWVXFiZWtRNXEzNHBYb21jMEhfRWJQeXVOcjhnSFhXTlZfc05IMFc2NGFEdmY3TkYxeU1iMjFpY1lDWVhVWnZJcXFUeVBwckVnSFNVeWgxMVJHRjd3cWVQcm5XSGh4Q3JoMm8?oc=5",
-          "publisher": "Axios"
-        },
-        {
-          "title": "Canada, Turkey forge trade, defense deals as Carney looks beyond US",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObkFMVk03Zk9VTEx0cE1faFNqVk5lclppOTd6bVo2T3liV1lBT1pJWEdoNktvM3pGRXNKdWFvMkJOTU5DR1pyZG5Wb3ZNZHNwSjJNbnJmTnFieUpOMFAxcHdTZnBsUFJhbFY2NVloRFROY2w0cHhIRmRXbTM5TVA2aGtGbFdaX3BsWjBRUnp5RDJydVZfNDNOQTRCT0s3eTN4aVM3amZ2ZGNZc3dqTlUwenBjaTBxeGl4Si1tc1plVmZWNkV5ZHc?oc=5",
-          "publisher": "eKathimerini.com"
-        }
-      ],
-      "headline": "The US is accusing Canada of election meddling while Canada keeps a deal open and looks for new trade partners like Turkey.",
-      "quick": {
-        "happened": "Canada and Turkey forged trade and defense deals, the US alleges possible Canadian election interference, and reports say Canada has not closed the door on a US deal.",
-        "matters": "The tariff fight is spilling into US election politics and pushing Canada to seek other trade partners, which can shift prices and supply chains elsewhere.",
-        "next": "Yearly USMCA reviews begin, with comments due 12 Jan, and the midterms are the next political test for the dispute."
       }
     }
   ],
@@ -2339,6 +2364,28 @@
   ],
   "alberta-independence-vote": [
     {
+      "at": "2026-10-23T23:00:39.410Z",
+      "text": "The Globe and Mail reports separatist leaders Jeffrey Rath and Mitch Sylvestre were quietly fired six weeks ago. Nenshi says petition laws will have to change to avoid another referendum.",
+      "sources": [
+        {
+          "title": "Alberta separatist leaders Jeffrey Rath and Mitch Sylvestre quietly fired six weeks ago",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdXdIS3BzTGZoSFRXc3BzdlRMQVROUUcyd1NERWJlT2xOZlhMUExmZExLaUpmcDJfUGFaQ19UcjQ4TmxORmtNMGN1U3VOWHM2Q0FWVlRRUk95czJQeHdacVJMLWI3TVR2S1M2cDN5MTBYaWI5QzRPWHVjd3hTdGxEaEdfVjR2em40OFVpdlg2X1ZnbEVJejk0ZkF6Um0zdTAtQS13YzZOMnphUkQyOC1HZnYwSFdiQ2JUdGhwaA?oc=5",
+          "publisher": "The Globe and Mail"
+        },
+        {
+          "title": "Nenshi said laws around petitions will have to change to avoid another referendum",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaGF2WVdtMm14X0otb2RsSktuMmN0YURJbVpLU0Z1MHJMYzE5dU9lMnpVSmVzZ0Jpa0psR0RVRjRhU1V6bEhXQU1QdUJ3OE54bU10dExkTnhwQnZQcHB0S0xxcXZEQ1FBLTlYNk93YS1wWDBPaDdLNklxTkpTRTAwbTMwU19nVHZBelBxeFYxdWtjVmw0ZkN6dDVvRWF2cTRPa2hpc0xxZDBjZWV1Y3BqMmt3?oc=5",
+          "publisher": "Calgary Herald"
+        }
+      ],
+      "headline": "Alberta's separatist push loses steam after the vote, and talk turns to petition rules and provincial control over immigration.",
+      "quick": {
+        "happened": "Albertans voted on 19 October to stay in Canada, about 77% on unofficial results, and reports say two separatist leaders were fired weeks earlier.",
+        "matters": "A major oil-producing province stays in Canada while high energy prices and US tariffs strain its ties with Ottawa.",
+        "next": "Nenshi says petition laws will have to change to avoid another referendum, and CP24 reports provinces are pushing for more control over immigration; no dates are given."
+      }
+    },
+    {
       "at": "2026-10-23T22:00:56.031Z",
       "text": "The Globe and Mail reports a rural Alberta district backed separation by a slim majority despite the provincial result. Separately, the government plans over a dozen new bills when MLAs return Tuesday.",
       "sources": [
@@ -2530,38 +2577,6 @@
         "happened": "Albertans rejected independence on 19 October, and the count on the other referendum questions continues, slowed by hand-counts and fewer staff.",
         "matters": "Alberta's oil economy is tied to the Gulf price spike, so how the province and Ottawa get along affects Canada's energy politics.",
         "next": "Elections Alberta is still counting ballots, and Forever Canadian plans a permanent office; the headlines give no date for final results."
-      }
-    },
-    {
-      "at": "2026-10-23T01:59:25.592Z",
-      "text": "The referendum count is still unfinished. CityNews Edmonton reports the delay comes from hand-counts and fewer staff. Voters also said no to abolishing the Senate, and teachers ask how the questions will affect schools.",
-      "sources": [
-        {
-          "title": "Alberta referendum count delayed due to hand-counts, less staff",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOGpGWjhrM2t2U1dRMS1sSDF4SWtzZ0xTckhXMWFFSFVzS1duaE1FZk5RVjlZLWhZcDVtVEdTbVVFU3RhdldSSUl0SV9fLWV3ek9jSnVzNGhTajA4RG5CcGFIRHZtUTlidERtVnlBb0hwa0d0Qjh5OHppUVBHOElEVklEaFlkNnpsMmY5MkRVZGZ3Wm1wS3ZsSVBpYlMzaDg2T2RRVGxtRGpDTEQ1ZlE?oc=5",
-          "publisher": "CityNews Edmonton"
-        },
-        {
-          "title": "Alberta Senator reacts to Albertans saying 'no' to abolishing the Senate",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdEVCSjdJOXpwRnZob1NJRzI4RW5OSXk0dW9jaGhka3BmUlFZOGh3VVAwNFh4aUdobl9tX2JIZmNiWHl5Z0RLampLQ3pyV05tM0VQNXl3RmxkZFl0dW5oNjE1cDQ1Zy03REJ2TllUbmVTWjFwZEJqLUxjY2owbDkyaXZySmF5RURvMVZtcVp6aGNOY1BFWThGTzFiOGhmdWRDbHZtMC1MRHB2LWs1dVBxUTBrR3Y0TF9x?oc=5",
-          "publisher": "CityNews Edmonton"
-        },
-        {
-          "title": "Alberta teachers seek clarity on referendum’s impact on schools",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOM1R0RFN3eWtlSlNZWXhiQnN6aGh1dlRVUkhiOHpqMnBjbjBQMEx4WEdGTmxuTFZrVno0alI4STRydlVpdWIteHJuNEhNTnlLX29ic2tsdnNoV0wtUWtKMFVpMUZvNVFnQllYbXVLTlhEcjdia2c0aU9OajIxSzV5VDNaYmNidjcyWG4tN3BmYTRWRzdyOWFNcUNCR1Jsa0tVNXFVSjVlU3ZiSzNDbS16WQ?oc=5",
-          "publisher": "CTV News"
-        },
-        {
-          "title": "Elections Alberta still counting referendum ballots",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbGZ4T2c1eW1XR1hPd1ZsUUJEcXpOZnplWkJBQk45OEZOVWI5QXRRbmp2SlhPSnZmRklBQnV3WGJ0N2VXUEU2UEJqVUE2YVVsRWFTeTk1ZFFyX2tVM1lZa3VaZ2oxX3Z4QklRUWpicE1WTnpHSFBMQUw2cC1fSWVvVUU2MVR4M0hIY0RQdGF6cWRXZ2x4SFFrTzdack8yNmt4MWc?oc=5",
-          "publisher": "CTV News"
-        }
-      ],
-      "headline": "Alberta has voted to stay in Canada, but the ballot count is still unfinished and several other referendum questions are still being sorted out.",
-      "quick": {
-        "happened": "Albertans rejected separation on 19 October, and Elections Alberta is still counting ballots, with CityNews Edmonton reporting hand-counts and fewer staff as the cause of the delay.",
-        "matters": "The result keeps Alberta's oil-rich economy inside Canada, but the vote also stirred disputes over immigration, schools and who is to blame for Question 10.",
-        "next": "No date is given for the final count; teachers are waiting for clarity on how the referendum questions will affect schools."
       }
     }
   ],
@@ -3291,6 +3306,33 @@
   ],
   "spain-strike-and-snap-election": [
     {
+      "at": "2026-10-23T23:00:39.410Z",
+      "text": "SafeAbroad reports a national general strike across Spain on November 11, with transport disruption expected, extending the earlier Murcia call. Another outlet says unions in Portugal and Spain are preparing an Iberian general strike. The nationwide scope rests on one outlet so far.",
+      "sources": [
+        {
+          "title": "Workers will participate in a national general strike across Spain on November 11; transportation disruptions are expected.",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNUDJKMjhxSGZuN2VxeFRlbEYtTDhMa0doZkJ6WDA0aER5N3RYREgyZEhGdUNXMG03NjdrR1dodFFpNHNKQTRtQ3I3ekc1ZVhwNnpfODlSN09NR1VrTHhVUXBYbGZFN0FsbFFzN2ZueWhjbG1VckdfUDdRRW9VYTEwRHlxY2piTXloWERQWGRscVBtQW1PRkx5ck1nb1BiSnU3TlVhRktkZy1KZEtUMDRQZ294NU9raFVoaFRpcUF0YVF0eDNTT0VHZzFSSnNpNnVOVjF0eHdCeFI0TkhlbE05MmVJZkJKWDJQQ21ITQ?oc=5",
+          "publisher": "SafeAbroad"
+        },
+        {
+          "title": "Unions and housing groups call on Murcia’s workers to down tools on November 11",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPNFB0SmlWMENzWXhvblpJbjgzWUJwa1NvR2k1SVNIS2prTFdHWkxkVllYMDVTU3lHc0ZfV1lhMW5wZXc5MW5Hb3RDaXd1RkUzX1dsN2F5QXdlc2MzWEEweHZZb2Nrdm9KOHl3T0xKVWdUaWpXTVl4SVI4bmMwa1dnODQtdDJpQ0dNWGFVbXVXc2lnUTBfdnNreWR6Y29PMUVhY3dwR3NZWTl3aHlDalM3SFJMQ2R0RUJZV1VsV2w3bVh6VTNFbFMybGhjeFBHc1hHUl9oRmpkVzhqTzFI?oc=5",
+          "publisher": "Spanish News Today"
+        },
+        {
+          "title": "Unions in Portugal and Spain prepare Iberian general strike",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNa0c3YTFqQUJuQ3RYRG1ObDkxSmExMDFEWWFmUjVsejlnT2VUREh5TXJIV2dlSmszSElZZmxtNWtkellnUm1nckExWFVGcTQ4OVIyREpPM25ibDVDSEQyeXktYWJ1UGJTcnhYam1wbXZqcUFiS1lWZF85Mm1sYi14YTVxbmRfQWlzb2hDOFI5ZE1oQTh0a1dtZTl3cGhTeDdOQXJlWXgxajByUFIzWGRLMF9MYnhJdw?oc=5",
+          "publisher": "The Portugal News"
+        }
+      ],
+      "headline": "Unions plan a Spain-wide strike on November 11, reports say, adding pressure on a government already facing a snap election over housing and pensions.",
+      "quick": {
+        "happened": "Reports say workers will join a national general strike on November 11, after a Murcia union and housing group called for that date.",
+        "matters": "Housing and wage pressure also drives unrest in France, and the election timing adds deadline pressure to EU budget talks for 2028-2034.",
+        "next": "The strike is reported for November 11, though a Spain-wide date is not yet confirmed. The snap election follows about two weeks later."
+      }
+    },
+    {
       "at": "2026-10-23T19:00:17.610Z",
       "text": "A union and housing group call in Murcia urges workers to strike on November 11, the first specific date in the headlines. It is a local call, and a Spain-wide date is still unconfirmed.",
       "sources": [
@@ -3453,42 +3495,6 @@
         "matters": "Housing and wage pressure also drives unrest in France, and Spain's vote adds deadline pressure to EU budget talks for 2028-2034.",
         "next": "A strike is planned for November, with exact dates unconfirmed, and one outlet's reporting points to the election on 29 November."
       }
-    },
-    {
-      "at": "2026-10-21T18:33:18.285Z",
-      "text": "Sánchez hits back at Milei, calling himself 'leftie and proud' and warning that a Feijóo and Abascal win would copy Milei's model. Spain's Foreign Ministry slams the visit as interference, and Abascal backs Milei by video call. One outlet reports housing protests spreading.",
-      "sources": [
-        {
-          "title": "Milei, Sánchez trade barbs as Spanish PM says he's ‘leftie and proud\"",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRU5kMWlsQzA0bmQ0eURNYTlHRFRQckNhZDFiQlpySmE4eV9rNjNRbmtjTjRKM1R4NTZRbTVkMUt6ellrT3VsaFNVYzJ0NFJ6YXRqZ3RfYW9TWFdXN2FQM3c4eHhDbUFaLTMza1ZCcEVxUXZ1TmlqQWpHTVZWYmE3Q1MxX0VLX0Z0YnF4Q2VuYUtBemk5YnJVX3VCLVk3Q2Z5YTRUR3pwTmY4Zw?oc=5",
-          "publisher": "Euronews.com"
-        },
-        {
-          "title": "Sánchez warns that a victory of Feijóo and Abascal would replicate in Spain the model of Milei in Argentina",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZTQxRmVZQkZpUHgwUmE4a3VXR2RnMmVpRUxzUm5ka0NldmhlclY1OS1JRUpqdFVwdnBBckRhc3AtS1RFQWV0N0ROdGk4aDZmWlRlZkNzaWVBbWNHdUxzd2dNanNTcDQwRVY5R3dValBibDRuS2d5aVhNWVJpbnJhM0JLdjNNLXdVeXdLd295dlNSUFExV1JISy1tSjY5Nl82TnpFYm5nOTRhOFBBc1hfVi1WdndLX2QtQ2gzMEFLYllOMXo2UkZoY25JeUlBUjh1VTVRalBUdkhfcDRBZmfSAeMBQVVfeXFMUFpjWDJQbVRWamFjSUUzM2owaERocnNucWUyMzBvRVFOU0U2djdsVmh4bkNtOVIwY0lLMHUzd0VqN2pmdk5wc0R0dEVzMEh3cDNBanZ3ODM0RU5RZ25JOTNnMGlhbk05ZW5xeXRnbVFBdFBvSXhSSkcxU2pPNU10TG9VaktFa3dCdTBsX3lKNUFLOTF0dXNnYnVMeG02Y2NaTURLbEtoVlBXTG8zNUo1TnpyQ0FsVnJLSUk2U0xOOXZaa1E1eFpOZ0VVN2NFekVQS2dnTkNBZ2ZmNmZ3UGtqVG1wMkk?oc=5",
-          "publisher": "Demócrata"
-        },
-        {
-          "title": "Housing protests sweep across Spain as pressure mounts after defeat of government decrees",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPR0F5LWtyaXRCNXB3eUJiaWJ5X2NZbWdmd1FfOHZIUVFXYUVaVVBMaGY0a0lEb2dxUjgtd3dib2NyX2ozRXg1LWNlc29FMnVhYjR6b3VEeWJFOWJkU2xSNDVnNGo3WWY5MU1qeTRkQ2l6SU05bUNIMlFtNzVLUHpDWTRJcHNDS1FCaE1abFFXMkNrRXBDZWdCWHc1Z21BZ3cxYkFCVllmNEpaRFpqNFZPNTRwUXp5V0tZLUNlR3FsdS0?oc=5",
-          "publisher": "Spanien Press"
-        },
-        {
-          "title": "Abascal supports via video call Milei's attacks on Sánchez during his visit to Spain",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaDhvZUtSVDl0S1drR2tBN1c0aC1fTXhUMnBLTUR6RFBCV0s5MEtBSXRjdHFETHFEcUFVaWpmSDAzYWx4dHhHNzNpTkpodHVEaE4tcm9WWHIxSmJWYUhOSTBiN1daY1FCSk54WE9oLUFYX0czNDd0LWx0WVBEN0ZmZlZiOUVIZzNTNWZMSVNZdll3YmdUbFQtSnpmWXU2QWNsbWluOHRlQnZVR2FVOGNPU1VsSmE3MTVaWmdfZVVxY9IBxAFBVV95cUxPWjBOWjl2LWtqVmVXVFFoN0I1ME5tQTRTYTFrcHRaSXAxOEpHT2F2YXVZdmdjMzA5TWF6ekFjT3lhdnpvSXllblhDczBla2JkX0FOZ0xheUtGZDNGbmc1bTJ2bkxmRFh6QmVleGJxZDZrbXkyNU9KQk1UMjlxRmVVZlNSN1BISDRNWGR2NXZwbjBMcXYyLVhvMW1EeFhpZ2hwV3pSbHFWX0pDc190ZDY4WU52SXZzSXhZU3ViNnZTenFOeHZ6?oc=5",
-          "publisher": "Demócrata"
-        },
-        {
-          "title": "Foreign Affairs lashes out at Milei for his visit to Spain and accuses him of aggravating polarization against Sánchez.",
-          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOWG1JTWNzT3YtaE5vcGlibW96QWJnN1VrYXJBMmgyVTYwOHR6WUFnZlNwNVhCS0Y1amU1S09RLXZHRklQaXdQZ09oZ2plTVk2UE1nanU4OGxIeWxPUk8yR1VRc09MR0o1a3hNSUFXM1QwLXF3NWo2WUpyOUk0a1Z2Y0hmNWluNDZ1MnE0UFhCb0NCeHVXeENGdlBZTVlVT1Yzc20wNnRITU5TQldQTkJmVEUzX1FoX2p2NkEwUnY2d01FY3paSF85M3lPV1BnX25Mb1NIZ3dpc2ZKdjd4eElxVUNBVUFoTlFRWWFkTHlyempyYkJsN2JPMURZOG5Da0FXSDJ6QlhZMA?oc=5",
-          "publisher": "El Constitucional"
-        },
-        {
-          "title": "Spain slams 'interference' after Milei's comments on PM",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOV2I1Z0JWRDlKejVBaW1GbTNRQXNOZW14Ti1kaDRwZk9pREZHTWIyMnRVcWhlbTNLNTFvVUtQemJsNlJCR2wtTWJ1bjU3bVg2aXFDTTZmdFdDYWk0WWxXSmllRDl0REpWelkzZEVjUVBJLUZqMUVVckpnN3R4MmJiTVU2Vkw4c0F2LTc2RjQ4MlY0dFFBS3JXTWd5VzNqZjhaZTVqNVJMY9IBrAFBVV95cUxNSHJWNTUwMUhtYVNDaDRqMnNKVUhLOVBuUzlwaEhYd0RSVzVmWEw5RWxNT1V1UmRGTXF0TlM1eGlVZzVBSnl0Tm9wQ2s3N1JxOVJCamFzUG1ZMjRtTWhGbVpsS2d5R19yMUhGUm9oWHg4Mlh0blI1VFhqRkZja3VnZ1JWbWxrM0JzNGV1akNEdnpOQUd5LXFwcEI5dVlzSEtMS1lJd1B0eGlmZDln?oc=5",
-          "publisher": "Buenos Aires Times"
-        }
-      ]
     }
   ],
   "belgium-cost-of-living-clashes": [
@@ -4737,6 +4743,38 @@
   ],
   "israel-election-2026": [
     {
+      "at": "2026-10-23T23:00:39.410Z",
+      "text": "The Washington Post reports two Israeli soldiers were killed in the West Bank attack and Netanyahu vows an operation there, while DW says home demolitions are ordered. Final polls still show neither bloc with a majority.",
+      "sources": [
+        {
+          "title": "Netanyahu vows West Bank military operation after attack kills two Israeli soldiers",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSmJyQXhhU1ZfQUJvRVp4cENkNzhMZFl3ajF2UjByeFJGMzdmY2VUdEI1ekRFV1EzZE5KNERXOVFYSTFzckZXYUN4QXc5ZC1CUFl5cGEzOTZ3WnpGa2tLV3NKYW9lZkFGMkFzUl9tekZnM213ZXJOdnJwaTBLMlhlRU5wZEFvYWN6OG9fSDRZMzM0dEw5SFZZX0oza0poNDlCNzhuTlBXSE96UlEyWWtpNkRGZjcySWV6VGx0NndLWkM0c0E?oc=5",
+          "publisher": "The Washington Post"
+        },
+        {
+          "title": "Israel orders home demolitions after soldiers killed in West Bank",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSll6WW94RUZKc1J2QUpCaUlFV1NmUU5YYk1DN0Jvb3NONzNlRkkzMkJtbnRkbVFEdkxLUkVxT1FVTkRoak5iTWNldFdoSXVXNE9tVVZDVkEzVS1qZGRXZzlSa3Jra3V5SEZHSmdUbWg5b05kWDd6ZDlEXzV2dzdtWHV0am5CRGZpTWh4d1ZoT3VUNDFQa0lIQ0ZGMVN4alXSAZ8BQVVfeXFMTVVGekM3aWJhYnJuRWk5NHJXX2ROYlA4Y0o3b0RGbFg1eXB0ZVZwakdiczJGOEQxaElfNXdkUHlLQXlOUkVpc2Y3NEt6SGVLQXZhUWk1MFpieUNMZ3h4N2hYbUFTV2ZlQVhnNzhrYll0YmVEVkhPQ0U4b21ybkRibUo3VS0wSks4NUdyRWxyNjZoSU9uRmpnZmpWMzAzeVNR?oc=5",
+          "publisher": "DW.com"
+        },
+        {
+          "title": "Final Israel election polls put Eisenkot's Yashar ahead of Likud, but neither bloc wins a majority",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5EbTNoR191aHQ4YnM1YXRZVUxZeDlfT1NhRG5LVU50dFZyQzA1QXhNRFd4T1BPZHNNMHZrYmh5TFBnOVJtWmoxYVNuak1vVlk2Rlc3ZXRn?oc=5",
+          "publisher": "Ynetnews"
+        },
+        {
+          "title": "Final polls before election show both blocs short of majority, small parties out of Knesset",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOU3F3ZW1vd0RWRmJQX1F6ckNQakV6QnhjeGFKTEZmT2tWUVVxLWkzMlBFV0hoMWpQS3VZSVVHRGM3ZW1UdDVnakV5dmxGNDlsTnc4MjhBY1ljQnRkUTFTOHJfNUYzNlVLUXVfSUk2ZUhiSDNQalZ3M09CbjRiaUNmeXhCMU4wTmxlYXlEclVkVWlfNzNGNThuTjYwUmUzeVhOX1BRY2Nfbm1fWGdHUmE2b1RsTjNXdGZqQzJOYndISTdubE5JVmNmbVJadFUtUXdobUE?oc=5",
+          "publisher": "The Times of Israel"
+        }
+      ],
+      "headline": "Israel votes on 27 October with neither camp near a majority, and a deadly West Bank attack has pushed security to the center of the final days.",
+      "quick": {
+        "happened": "Final polls put Eisenkot's Yashar ahead of Likud, with neither bloc at a majority. The Washington Post reports two soldiers were killed in the West Bank and Netanyahu vows an operation.",
+        "matters": "A close, split result could leave Israel without a clear government, and the Gaza and Iran war choices tied to Netanyahu are on the ballot.",
+        "next": "Israelis vote on 27 October 2026 for all 120 Knesset seats, and coalition talks would follow if neither camp reaches 61."
+      }
+    },
+    {
       "at": "2026-10-23T22:00:56.031Z",
       "text": "Foreign Policy reports Netanyahu has ordered a large-scale operation in Hebron, and Xinhua says Israel has placed the city under closure after the deadly attack. Final polls still show neither bloc with a majority.",
       "sources": [
@@ -4944,46 +4982,26 @@
         "matters": "The vote is a referendum on the Iran war, which has Gulf oil exports running at 60-80% of normal, so the result reaches energy markets.",
         "next": "Israel holds its election on 27 October; a Jerusalem Post poll has the opposition ahead of Netanyahu's bloc 54-48."
       }
-    },
-    {
-      "at": "2026-10-23T10:59:49.636Z",
-      "text": "Netanyahu orders a full West Bank closure after the attack, several outlets report. A Jerusalem Post poll puts the opposition ahead of his bloc 54-48, and the paper reports Benny Gantz has quit the race.",
-      "sources": [
-        {
-          "title": "Netanyahu orders West Bank closure as attack wounds Israelis before election",
-          "url": "https://www.france24.com/en/video/20261023-netanyahu-orders-west-bank-closure-as-attack-wounds-israelis-before-election",
-          "publisher": "France 24"
-        },
-        {
-          "title": "Israel election poll: Opposition leads Benjamin Netanyahu bloc 54-48",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBSbjVKLXJvR2hVbnVKMFktTlE4eFBScjJzbEIwRWJzLXBBbEpGSjM5bkV0VnJyaDczRVJqY0NmUjUtdHM0MWYwOE9DZGNybTBOdU9tMEE2ckdIU0UtdnM5VDNsYmtYVS12?oc=5",
-          "publisher": "The Jerusalem Post"
-        },
-        {
-          "title": "Netanyahu orders full shutdown of West Bank after Hamas shooting wounds five Israelis at checkpoint",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSmJyQXhhU1ZfQUJvRVp4cENkNzhMZFl3ajF2UjByeFJGMzdmY2VUdEI1ekRFV1EzZE5KNERXOVFYSTFzckZXYUN4QXc5ZC1CUFl5cGEzOTZ3WnpGa2tLV3NKYW9lZkFGMkFzUl9tekZnM213ZXJOdnJwaTBLMlhlRU5wZEFvYWN6OG9fSDRZMzM0dEw5SFZZX0oza0poNDlCNzhuTlBXSE96UlEyWWtpNkRGZjcySWV6VGx0NndLWkM0c0E?oc=5",
-          "publisher": "The Washington Post"
-        },
-        {
-          "title": "Israel orders ‘full lockdown’ of West Bank after military kills 2 accused of attack",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN3dwb0R4Z1VVa2VJenltT3B4WWEzS0xsc2Q5SmY0eEEwNy1FN2J6RlZDZE1DaUhzOTdKeHNuckEtMkJvYk0yS2VfRmtBQmhuT3VpcU5CMDFPWlBIYWRDU25XaU51SHJ5cVF2NHkxNGdLb3AtVkpuaHhOR2ZpQjk3aWd2Ni1NY04zM1dLNUxYVlctdWZnUE1RR1N5Q1dsUzF3em1pWjlqUUxpQS1p?oc=5",
-          "publisher": "NBC News"
-        },
-        {
-          "title": "Benny Gantz quits Knesset race, highlighting the collapse of Israel's political center",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9BWG04RlF2T2FjZDVyaElvUE1Ia3hEMXhBRUx1Nnh2TjZWeG92eGVFblBINGNEWi0zc1ZGTVhCZDY5SjVkbFNaSEt0MjB0WjFzLThFLTlzNA?oc=5",
-          "publisher": "The Jerusalem Post"
-        }
-      ],
-      "headline": "Israel votes on 27 October with polls showing neither Netanyahu's bloc nor the opposition reaching 61 seats, and the Iran war and Gaza at stake.",
-      "quick": {
-        "happened": "Days before the vote, Netanyahu closes the West Bank after an attack, and reports say Benny Gantz has quit the race.",
-        "matters": "It is a referendum on Netanyahu's handling of Gaza and the Iran war, which ties into Gulf energy supply and OPEC+ quotas.",
-        "next": "Israelis vote on 27 October for all 120 Knesset seats, and a bloc needs 61 for a majority."
-      }
     }
   ],
   "boj-october-decision-2026": [
+    {
+      "at": "2026-10-23T23:00:39.410Z",
+      "text": "Nothing material is new since the last line. BBH says strong inflation supports BoJ hikes and expects USD/JPY to stay rangebound.",
+      "sources": [
+        {
+          "title": "Japanese Yen: USD Expected to Remain Rangebound as Strong CPI Supports BoJ Hikes - BBH",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVmx5cGhNbGktSlBlTTA3WE9KOG9md2xYQ0R1RlZoV0s3bVRQUjVSSWlfeWVmVU5SWERWT0xPMF9IeWFsYjFFOU9ta3BVQm5TYnJUeGZVSW1vMV9JSi11LUN6WnoxcFVJZlRuTm8xb05jTnNhT09zU3RSX1k5WHBxSnJ2VzZZcHpTRXlBRHhJclNyWGtxdnJkcEFVWjE2QWxzNG9kWHhobFl3bTN6OXByQjByLVJUenFYUWJXcEVOYjljREduZklHbWkzcHZiZUtscFBF?oc=5",
+          "publisher": "www.tmgm.com"
+        }
+      ],
+      "headline": "The Bank of Japan decides on rates on 30 October, with inflation above 2% and a hike to 1.5% possible as early as December.",
+      "quick": {
+        "happened": "Japan's core inflation rose to 2.1% in September, the highest this year, strengthening the case for further Bank of Japan rate hikes.",
+        "matters": "Higher Japanese rates and oil-driven inflation can pull Japanese money back home, which feeds into French bond stress and the Moody's review.",
+        "next": "The Bank of Japan ends its two-day meeting on 30 October; markets expect a hold, with guidance toward 1.5% possible as early as December."
+      }
+    },
     {
       "at": "2026-10-23T17:00:19.409Z",
       "text": "Japan's core inflation rises to 2.1% in September, the highest this year, while the yen pares gains as bond yields fall. A BOJ stress test reportedly finds banks can withstand an AI crash and a global rate spike.",
@@ -5181,33 +5199,6 @@
         "happened": "Japan's core inflation rose to 2.1% in September, its highest this year and the first reading above 2% in nine months.",
         "matters": "Higher Japanese rates and a firmer yen can pull Japanese money home, which adds pressure on French bonds and shifts energy-driven inflation worries.",
         "next": "The Bank of Japan ends its two-day meeting on 30 October, where markets expect a hold, with a possible hike in December."
-      }
-    },
-    {
-      "at": "2026-10-23T00:58:06.112Z",
-      "text": "Nothing material is new since the last update. Fresh reports repeat the 2.1% core inflation reading and a firmer yen.",
-      "sources": [
-        {
-          "title": "Japan core inflation in September surges to its highest this year at 2.1%",
-          "url": "https://www.cnbc.com/2026/10/23/japan-inflation-september-highest-in-2026.html",
-          "publisher": "CNBC World"
-        },
-        {
-          "title": "Japanese Yen gathers strength as CPI inflation exceeds target, backing BoJ rate hikes",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOVJDdW8xcXQ2Yi0tWTVTakF5YWlLSml6STdEaEoxc3FJY28yYl85RjRDWWh1MDZJYU4tX1VjT09PU05jT05sb3p2WUVobjZ0czJVQ3ZJYXdMWUo5WnVrX0pEUFE0Z0RLN3lOOVEyVHpzOVhRLWFaR2U2bndsUVZOd3FhTk9ZXzlPdlRkWjM1V1B1cU02cDdYSFVhSUhpQUpXeF9XUVJYZ0hlSmF5MTBBSGRCMlZFOTVRY0pqdGFqcEVzNnZuNHc?oc=5",
-          "publisher": "FXStreet"
-        },
-        {
-          "title": "Japan Core Inflation Tops 2% for First Time in Nine Months, Bolstering Case for Another BOJ Rate Hike",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9hem5PSW41ckF5V2ZYb21Wems1alY4cFRXSVF3OWVDZXpPeXhuaHdBSlpBTVJuOUh3eW14dUJjVWVzWXRMMnlIRTdSV1V3MDV1TFVQeHBKTWQ5SGg4QWdBeGxSQk1fSUp3R2ZOVVdjUDg2OFhJa2c?oc=5",
-          "publisher": "BigGo Finance"
-        }
-      ],
-      "headline": "Japan's core inflation tops the Bank of Japan's 2% target, raising the odds of another rate hike soon; the bank meets 30 October.",
-      "quick": {
-        "happened": "Japan's September core inflation hits 2.1%, the highest this year and above the 2% target, and the yen firms, reports say.",
-        "matters": "Higher Japanese rates can pull Japanese money back home, which the site links to French bond stress and the Moody's review.",
-        "next": "The Bank of Japan decides on 30 October; markets expect a hold but watch for hints of a hike as early as December."
       }
     }
   ],
@@ -5503,6 +5494,38 @@
   ],
   "north-korea-missile-tests-2026": [
     {
+      "at": "2026-10-23T23:00:39.410Z",
+      "text": "Kim calls for a 'military revolution' and stronger army units, reports say. Reports also say US and South Korean officials see little chance of a Trump-Kim meeting this year, and Seoul's spy agency dismisses rumors of Kim's death.",
+      "sources": [
+        {
+          "title": "North Korea’s Kim calls for ‘military revolution’ as he urges stronger army units",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNHpsc2ZIRzNWY0ZHeHBvWjk5dkZJZWtxRE9UVnZxbVUzMDZ4ZTJLZzZVekxnTnpQUHcxdXRONXFOWVB6OV9TYWg3VV9rVHFjekIwTjZIM2dmQ2pib05JbkZxNF84dEZFODFocUt4WGhDQ0JVa0dvQUdzQmVEYVZSVWlIWkRjc0dkNVV5THlkUlhiLXBidS16TVRxeHdHenlNaWFDaG94NVZCMi12VU13T1VYWG15N1NOWGZNV2JwQQ?oc=5",
+          "publisher": "The Straits Times"
+        },
+        {
+          "title": "National Intelligence Service Dismisses Kim Jong-un Death Rumors",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRXdxYTYtb21haU1seW9KU3E2YXlBT1E0V3EwUUtUekxWOFRPZHpUQ3lWNDlHTUxDUUZfYktjR1lveXlGVGNMaVN0ejJMNG45U1FTeGRQUTl6X2s0UEhiRTh5aVR1ZDhVTnlwaGozQVVYdkZHR21qQU5SRnFMUkgtaXpRUnhyRnpaeUZSNg?oc=5",
+          "publisher": "조선일보"
+        },
+        {
+          "title": "US, South Korean officials estimate little chance of Trump-Kim meeting this year",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVi10ODBJbzZ4OU5jMTlXVDNWSXJOd1pNWmNlRFZFSmNFNVkxTFB6NWYzb0JTZTB6S19OQTF1cWVDaXdXMHNIcTJxZGtQb2Jwcy1yQWtmdkxMWWlCai05WlRZTk04QXF6VjRfRUk2MjJtY2FxdmJDMDRvdXZXMGxJVmI0Z3doc2FGUlRhR3VUd2xnMXI4M1VvSE5kYXFuY2RvU3BfMmhRYnF6X1ZJOTlMUWhlSzQtakNIZGc?oc=5",
+          "publisher": "The Business Times"
+        },
+        {
+          "title": "South's spy agency reportedly assesses that social media rumors of Kim Jong-un's death are false",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNS1NCVjA4cmJyZ3FKU3BzU0JPWFctWVhiZDZLbkYtbURBSEt4N2QxWjBvVFFnZG9lOUpod3RjTkN5NTU0TFpOTDA1T3hXcFN6V2ZJdnhlRHN1b0Y2RDkzb1MwNnliMTlQWEp5VUFOMzhuQ29VaEhWRURhS05ZZlM0Z0dMRXUwV1VIanpaUXVzck55cXJMZFMxZWVObk1oUFVVLU9laXRuZTlqbEJqQko1QnFOZVdTQ0kxRjZtRVpjeXN1WHBYNjJyMml0VjRGaE4wNzZHZW1UV3d1UkU?oc=5",
+          "publisher": "Korea JoongAng Daily"
+        }
+      ],
+      "headline": "North Korea keeps building up its military while hopes for a Trump-Kim meeting this year fade, just ahead of Trump's Asia trip.",
+      "quick": {
+        "happened": "After its 14 October submarine-launched missile tests, North Korea's Kim calls for a 'military revolution' and stronger army units, reports say.",
+        "matters": "The US Army activates an air defense battalion in Guam to guard against missiles from China and North Korea, per the Washington Times.",
+        "next": "Trump goes to the APEC summit in Shenzhen on 18-19 Nov, but officials see little chance of a Trump-Kim meeting this year."
+      }
+    },
+    {
       "at": "2026-10-23T17:00:19.409Z",
       "text": "South Korea invites the North to military talks over the border and says the North has planted a million landmines along it since 2024. Reports say Kim has set strict conditions for meeting Trump.",
       "sources": [
@@ -5704,33 +5727,6 @@
         "happened": "North Korea fired submarine-launched cruise missiles on 14 October, and reports say it is now fortifying the border while Kim Yo Jong threatens South Korean troops.",
         "matters": "Pyongyang is raising the price for talks as Trump says he may meet Kim, and the border tension adds risk for South Korea.",
         "next": "Trump's Asia trip reaches the APEC summit in Shenzhen on 18-19 November, where US experts say a meeting with Kim is under 10% likely."
-      }
-    },
-    {
-      "at": "2026-10-22T17:58:49.228Z",
-      "text": "Reports say Pyongyang is fortifying the border, and one outlet says Kim Yo Jong threatens to \"mercilessly eliminate\" South Korean troops. Another says North Korea plans to resume propaganda broadcasts. Nothing else material is new.",
-      "sources": [
-        {
-          "title": "North and South Korea tensions rise as Pyongyang fortifies border",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOc0RJcm9jb0ZqZ0dPa1BEZ3ZZRV9qMTg4OHRTNVRUeHREMG9fLTAyaWpGTjRrQlhYWGlMNEZhemhWUWN6WGNON3Q1bTdFODFtam5rQU5VcnExcFA5VWV4Q3hHSy0td1Z2RTZpSFpiVl9UMWV4c3BtLTF6cEQ0OF9hNkJVRVo?oc=5",
-          "publisher": "ABC News & Headlines – Australian Broadcasting Corporation"
-        },
-        {
-          "title": "Kim Jong Un’s sister threatens to ‘mercilessly eliminate’ South Korean troops as tensions explode",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdlE1ZDlqakUwN1pmcVdxZEloUVYxMFM4Q3JFWmtDVDBMd294bGstbUh5MjNMLWx1R2h4aC1PdG5mTnRQM1FDRWhnS0ZwWU1IN3BMek53UWttNDNELUFjNzc1Z0I0Q2h2LUlOMm5Vdm1zUDlWb2pPaTcyejg0WDNGb2ppLWd0YU5CNXV4RC1rcjYxZGJvX3FqOFBmQU1tYVFGSnZLUjZzN005b3lnaWFxX2kyNFlxZ0lwaVFXSVRuWmM5c1Q1V1E?oc=5",
-          "publisher": "London Business News"
-        },
-        {
-          "title": "North Korea plans to resume propaganda broadcasts along border with South Korea",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUVlxNzM2bHM2ako0T2ZZdHlxSy1LUnJIWTFXYlY4eUpCaHpKdkZRbFQ4WnB2VXJ6QWxIdUZGSVJISGFYZDUyaE1DN1FLVEV3OVB5V0RYRTI1MjlRQnpOcmNQUXlid213OEF4QW00YlRTSVNhY2dJcktPUWNOaXZZRUpTYlNoRXBYRU9NcVo2V19KeE5xQUVrdHM0dWYxZGRtdmVNdHJWa3Zzblc5eExmLWlkbVIxUQ?oc=5",
-          "publisher": "Sky News"
-        }
-      ],
-      "headline": "North Korea is fortifying its border and threatening Seoul while its missile tests continue, which could shape talk of a Trump-Kim meeting.",
-      "quick": {
-        "happened": "North Korea fired submarine-launched cruise missiles on 14 October, and now Kim Yo Jong warns of new border measures as loudspeaker standoff returns.",
-        "matters": "Rising tension on the Korean border raises the price of any talks, and a Trump-Kim meeting is tied to the same pressure.",
-        "next": "Kim Yo Jong says loudspeakers will be ready within days, and Trump heads to the APEC summit in Shenzhen on 18-19 November."
       }
     }
   ],
@@ -6200,6 +6196,38 @@
   ],
   "opec-plus-november-output-hold": [
     {
+      "at": "2026-10-23T23:00:39.410Z",
+      "text": "Brent is quoted at $114 to above $117 a barrel, with The Guardian citing fears of renewed US strikes on Iran. EnergyNow reports analysts raising oil forecasts again, expecting a slow recovery in energy flows.",
+      "sources": [
+        {
+          "title": "Analysts Hike Oil Forecasts Again as Energy Flows Face Slow Recovery",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMzg3aWlBQnBmc1Ayd3JhamhRbHNFOGJiTGxhanBHUjdvUl8yTTNKNHZ3WGx4a0lqSHpTQTJUeHowdG5rOW1aVjJVNzA5UFIxYl9UQUx0X2FSUVV2X3pYRndCdERWRGo4T09KQ0FXMFNnRTVabkU3dnZQeFkzQm1PbVh6SlhtTUhHS1BxdlFGYzZxMmpidkFVWEJqT2Jxelk?oc=5",
+          "publisher": "EnergyNow"
+        },
+        {
+          "title": "Brent crude tops $115 a barrel as Iran war rages on",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNa2Q4UHhvWTFPVjZxcGp1QkdycUVNVjRxZ1FqY1pOM2pXT0E3OG5jNndrelhjRmlXNVl0NUQzOWZOREVtLW1UU3k5RHByVktEN3Nkcnp6cm5BbjZxMjRXcHB5WU1JNFpQMHBIRzlPSkZFMk9tdHFvUmtpN2RwNXJhMzVLVjhJTGhjbWI1OTJ0bktyLTk0Vm9EeGx5VGlfOUNUbEE?oc=5",
+          "publisher": "New Age BD"
+        },
+        {
+          "title": "Oil price rises above $117 a barrel amid fears US will renew strikes on Iran",
+          "url": "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran",
+          "publisher": "The Guardian World"
+        },
+        {
+          "title": "Brent Crude Hits $114 While Saudi Arabia Cannot Ship Its Oil",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5yemROVDVvSUlKR3RUd3dRVHUyd3J2aXBKM01NSEVGSW5VMldnZThhRnQ2MVZFaHU4bFZHQkhNU2l6eGdaVE54Rm9pQmh0UHpqTHZMejB6UnpuY290bHBKeFZn?oc=5",
+          "publisher": "https://houseofsaud.com/"
+        }
+      ],
+      "headline": "OPEC+ holds its oil targets steady while Brent trades well above $100 and Gulf shipping stays disrupted, keeping fuel costs high for many countries.",
+      "quick": {
+        "happened": "OPEC+ keeps November output targets unchanged while Gulf exports stay limited, and Brent is quoted between $114 and $117 a barrel.",
+        "matters": "Oil near these levels raises costs for fuel and shipping worldwide, and reports say analysts expect energy flows to recover slowly.",
+        "next": "The core OPEC+ producers meet again on 1 November, and the capacity review needed to set 2027 quotas remains delayed."
+      }
+    },
+    {
       "at": "2026-10-23T19:00:17.610Z",
       "text": "Brent rises above $117 a barrel, The Guardian reports, as fears grow that the US will renew strikes on Iran. Euronews reports an oil spill on UAE beaches as tanker attacks multiply near Hormuz.",
       "sources": [
@@ -6401,43 +6429,6 @@
         "happened": "Brent tops $113 after Trump hints at action on Iran, and the US tells some diplomats to leave Saudi Arabia amid Houthi attacks.",
         "matters": "Gulf exports through Hormuz run at 60-80% of normal, so higher crude prices feed into inflation, including the 3.8% the ECB is dealing with.",
         "next": "The core OPEC+ producers meet again on 1 November, and the freeze on November targets stands until then."
-      }
-    },
-    {
-      "at": "2026-10-22T14:46:52.665Z",
-      "text": "Brent tops $112 after Trump says there are no negotiations with Iran and something will happen 'fairly soon'. Iran says seven tankers were damaged in Hormuz, and Kuwait raises output above 2 mb/d. The quota freeze is unchanged.",
-      "sources": [
-        {
-          "title": "Brent crude tops $112 after Trump says no negotiations with Iran, something will happen 'fairly soon'",
-          "url": "https://www.cnbc.com/2026/10/22/oil-prices-today-wti-brent-saudi-arabia.html",
-          "publisher": "CNBC World"
-        },
-        {
-          "title": "Kuwait Raises Oil Output Above 2 Mmbbl/d Amid Iran War",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWndEQUpjdkh5V1F0T3NWRUUzTUJOS2Vqcy1hOWtVVFdLdWlOVmlWdUp6Y2s3NE5kc3pzN2ZmQWozdHo5OHFBTU02c1hwaE5kc1lNMTFzMkkxZXdOaGVZOWxwcnRIX2pYUDFMTUpoSEpiYXpUWU0zUDh6X3ZUak5GcWFjXzZJOGdjbHk2c0dB?oc=5",
-          "publisher": "Egypt Oil & Gas"
-        },
-        {
-          "title": "Iran Says Seven Oil Tankers Burn Or Are Damaged In Strait Of Hormuz: 6 outlets compared",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZ3RiZ041NFljNEJDa1ppNjc4cFdLRThhNG1PQldDRFBuMzdzci1XTUxOcHFMcGVSYlVYN3prOExQSF9rX0hDeEJveTJuWGo0ZVYzZEdnY0ZTQVlaaDg5QkE3OThCbVhBd0tkR2lfQ1VLb0h4MVRxbXE4Y3dHQWdOaUlLaV9DSjdxSHh4Z081LUtQa203cFhKc1VyTGZTV3ZULUhWMnM3bVlhaXU1dHJpR0lrTlVTelRuRUJFVDZR?oc=5",
-          "publisher": "NewsCord"
-        },
-        {
-          "title": "Iran claims 7 oil tankers damaged in Hormuz, warns strikes on bases if US facilitates passage",
-          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPcTZOWElEdk42S09ESjlxSUdEa0d0bW9wUUIwbVRWMnd0WTRQbWU2clFyeWt2cTc1WEVHaDd1d2FmckJ6eERuaVNCVk1FajcwYjYzUUNtMjg2ZE5lODc0RG5rdDNuUm9GTllTWW4wTC1yZ2JIY29lcjM3YlhGTzNtNF9UanMzZDJjU3lXYl9oM096amo2UVo5SS0tYjVzV3J3UGk3b3JBdDFqd21pbEdCZUhRWUZNWEhuMFVBRnhjN3lldGR6dXFUWlg2bTd1RjZSdVNYX1JxLS1ETml2MmZhQ0xIdVBYcGllcWtPYzZJS0ZRZkc2N1plaTlsRjFybk4yZUHSAYcCQVVfeXFMT3Y0YkN3aHpKc2NUcjk4YjFYUDVxVy1rUF9SMTFOcGZRandYS3Z3NHF5a1lNQ2c4WFFUN0VJSU9fbWd3RThlenp0ZEFuWmQxY3hTYm5NdlNrNkRVd2NCVzg2YlNGV3JTaTFYY2JHZkc0TF9DSE1xaHREVFhidEVza1gwaTR5MHlKWXAwc2QtYVBNaDVweGdDM1JCX3B2Vm9MUE9GUlhoREdfenlwbEc1ZjB0ek91LXNoY2dsdXZ0TU9WdXFkX2xCUUlGTGt3MkFVdDF1N0JTMU1Lb0RqUFlQb0VKZ3MtS1RvTDd5QS1CWU52TUh6LWR4RUFYU3ZNNXlFUGh0NGFMVzg?oc=5",
-          "publisher": "The Times of India"
-        },
-        {
-          "title": "Oil prices jump to five-month high as attacks threaten global supply",
-          "url": "https://www.theguardian.com/business/2026/oct/22/oil-prices-jump-five-month-high-threats-supply",
-          "publisher": "The Guardian World"
-        }
-      ],
-      "headline": "Oil jumps past $112 as Hormuz attacks and Trump's Iran remarks raise fears of renewed war, while OPEC+ holds its output targets.",
-      "quick": {
-        "happened": "Brent tops $112 after Trump says no negotiations with Iran, while Iran says seven oil tankers were damaged in the Strait of Hormuz.",
-        "matters": "Higher crude prices feed into fuel costs and inflation worldwide, and Hormuz export limits keep Gulf supply below normal.",
-        "next": "OPEC+ core producers next meet on 1 November, with quotas for November already held unchanged."
       }
     }
   ],
@@ -6823,6 +6814,43 @@
   ],
   "ebola-drc-nigeria-kenya-2026": [
     {
+      "at": "2026-10-23T23:00:39.410Z",
+      "text": "Kenya reports a second Ebola death, a 65-year-old woman and close relative of the first patient, with cases at nine, per Hindustan Times. A vaccine trial begins in DR Congo, and Uganda reinstates traveller screening.",
+      "sources": [
+        {
+          "title": "Kenya Ebola death toll rises to two as 65-year-old woman dies in hospital",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbGZiT0lucGZneWxKMl9FR2U1aWtTWjdnNUN1RzIzUWF6WVAtUk1QaFpmSTJuNEktdWxNODJtYklmbHJxTDFuaFBHdkFBcnBBU1AzYkFDLVBiVEVkbEFncG8yZ3c2T0U5ZWRSOWZiVVo2N2txdnZvcmVyT1BPREYzQjdIa21uU0JQcVZsTTJubE9IRUpXSWxmMkZtSVYxbnZJakR0dmJtTGR0dw?oc=5",
+          "publisher": "People Daily"
+        },
+        {
+          "title": "Ebola vaccine trial begins in DR Congo",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4xNUFuc2lSWUl0RDkxT3hPLWhsNkRWQW9iWDhmTS04MDdUcWY4MWVGZVc2bFVRdzV1NDBhdTZaVmY3YnZPNEhSeVVEUGxaX0ZobjdSX0o1SnctbXBPcExRWWN2S2p6Ul9zWHdSYmpIajJhU3M5Wk8zVF9B?oc=5",
+          "publisher": "Yahoo News Singapore"
+        },
+        {
+          "title": "Uganda reinstates traveller screening after Bundibugyo Ebola virus case in Nigeria",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNV1paN2xPUG1RUTNMcHBrWEhLQ254aGN6SGhtUmVBUXpROU40UlhJNlZrTFo4YUc1S0sxWVp5YXkweEtXSDJWSERNS1hyRFdrVFQ1TzZYNGkwOFk4RHFIY1NJbWNxRXB1ZllFMzRQTjg1SzUtM0E3T1lLTHhXUXBOUU9hMTNLOUpoOG5TdS12S1llVGVLQmd6TzVOcVl1UnRGNFlheHBVdU4xMEdkTnBfanpucWx0QQ?oc=5",
+          "publisher": "People Daily"
+        },
+        {
+          "title": "Kenya announces 2nd Ebola death, a close relative of the first patient",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOSWd4dDBCeGE3RmkxSEJncmhYZHBQenk2OHB2VU85OENnQ1BGNmU0TlZpNUVCLUJfWnd4ZE9TOUlCNXlFM3RLQlB6SkQ4QjhVQ1lubjhLVFdYSDBROWRQVnhISlZoYnRGMWdSdzVxQWhPdmg0dlREdVgtZnM5OTVzZ29mZDlmZU9RbVBEU2YzdFJiRVIyc1RodzZsdkR6WU5aMExKdncxUUdwdTRQYWlFdzhDTlRhRTJHX2N6c0MyQmozelFmMnozVkdhbDhvSDh2b19OM3JLN25OMFNvQl9tS3ZyMGxaOEtCa09ldjN2N0lIaEVpWGFF?oc=5",
+          "publisher": "The Spec"
+        },
+        {
+          "title": "Kenya confirms second Ebola death as cases rise to nine | World News",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNM3BuZUZHcUlad0tacWZhSVBrUVAtY2dpX2Nzcm5jZ2xiSXFTZy1FTHk3b0FtTHd1Qm1IUm1CUzI2d1N4R2xna2FzWE5YeHhVYmxKNWpQNUdGLW9Cd01CT0FBLS1WemI2bllzRWxVM2I1UXZIa1VRTU9TMzA3LXBDYnFKUEJ0c0h0WURLa1BjMGJqNEN0b0tvMkwwbWRWbHZaNGtxOVhlclZrY3V2Y21oMTdZb29SOUp1S2fSAb8BQVVfeXFMTnNoZ2JpR1BITzVuekxhcjlwcGw2NWtxWVFLVlZnQmJybGhBT05BcnhTTFFBeUFnRk5OVlJ3REhSajFPM0c0WWF2UWlvSnBDQ3p2R3hWdWlWMEtlRnVZSVUzeEIxYzlDYzlQdkVMSE5xUHZyY01qUlV6N0EzNWhyelplemtvYS1OSEhZdGs1cHZzX2ZrQUMtUlZVMWhrcHJaTGZMRU13Qmk5ZEI3VjFaVE1sQmZKejBMajBHcFRpTWc?oc=5",
+          "publisher": "Hindustan Times"
+        }
+      ],
+      "headline": "Kenya's second Ebola death and a new vaccine trial in DR Congo show the outbreak is growing even as testing and screening step up.",
+      "quick": {
+        "happened": "Kenya reports a second Ebola death, a 65-year-old woman and close relative of the first patient, and Hindustan Times puts Kenya's cases at nine.",
+        "matters": "Genetic tests link Nigeria's case to Kenya's first case, so one chain of spread now reaches several countries and travel checks.",
+        "next": "A vaccine trial has begun in DR Congo, and Uganda has brought back traveller screening after the Nigeria case."
+      }
+    },
+    {
       "at": "2026-10-23T22:00:56.031Z",
       "text": "Nigeria's health minister says genomic sequencing links Nigeria's Ebola case to the virus found in Kenya's index case, according to Reuters, TheCable and Channels Television.",
       "sources": [
@@ -7049,33 +7077,6 @@
         "happened": "Ebola from DR Congo has reached Nigeria and Kenya; the Nigerian patient is a Swiss diplomat's wife who did not travel to Congo, reports say.",
         "matters": "The WHO calls the outbreak complex, and new US travel rules and screening could affect people flying in and out of the region.",
         "next": "Investigators keep examining a possible Entebbe airport link, and one report says models show Kenya could see 21 cases a day by October 28."
-      }
-    },
-    {
-      "at": "2026-10-23T09:59:54.200Z",
-      "text": "The WHO calls the outbreak 'complex' after its spread to Nigeria, and officials say the Nigerian and Kenyan patients may have crossed paths at Uganda's airport. UN News reports responders in DR Congo are under pressure.",
-      "sources": [
-        {
-          "title": "Africa faces 'complex' Ebola outbreak after spread to Nigeria: WHO",
-          "url": "https://www.france24.com/en/africa-faces-complex-ebola-outbreak-after-spread-to-nigeria-who",
-          "publisher": "France 24"
-        },
-        {
-          "title": "Nigeria and Kenya Ebola patients may have crossed paths at Uganda airport, officials say",
-          "url": "https://www.bbc.co.uk/news/articles/cmwy4wlzqz3zo?at_medium=RSS&at_campaign=rss",
-          "publisher": "BBC World"
-        },
-        {
-          "title": "DR Congo: Ebola responders under pressure as outbreak expands",
-          "url": "https://news.un.org/feed/view/en/story/2026/10/1168647",
-          "publisher": "UN News"
-        }
-      ],
-      "headline": "Ebola has spread from DR Congo to Nigeria and Kenya, and the WHO calls it complex, which puts airport checks under pressure.",
-      "quick": {
-        "happened": "Ebola has spread from DR Congo to Nigeria and Kenya, and the WHO calls the outbreak 'complex'.",
-        "matters": "Officials say the two patients may have met at Uganda's airport, which raises the risk of more spread through air travel.",
-        "next": "Airport screening and travel rules in several states face pressure, and responders in DR Congo are already stretched, per UN News."
       }
     }
   ],
