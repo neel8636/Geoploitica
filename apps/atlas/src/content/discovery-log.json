@@ -2236,6 +2236,15 @@
   },
   "runs": [
     {
+      "at": "2026-10-24T14:54:09.376Z",
+      "screened": 0,
+      "accepted": [],
+      "rejected": [],
+      "existing": [],
+      "retired": [],
+      "skipped": "last screen 53 min ago"
+    },
+    {
       "at": "2026-10-24T14:01:26.501Z",
       "screened": 140,
       "accepted": [],
@@ -3636,129 +3645,6 @@
       "existing": [],
       "retired": [],
       "skipped": "only 6 new uncovered headlines"
-    },
-    {
-      "at": "2026-10-22T23:59:35.316Z",
-      "screened": 140,
-      "accepted": [],
-      "rejected": [
-        {
-          "title": "Trump says Musk restored Ukraine's Starlink access",
-          "reason": "Passed the test but not the evidence check: only 1 headline, only 1 outlet.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "Magnitude 7 earthquake kills 16 in Tibet",
-          "reason": "A natural disaster in a remote region with no stated effect on states or flows across borders.",
-          "headlines": 4,
-          "publishers": 4
-        },
-        {
-          "title": "ICC wins Sakharov Prize",
-          "reason": "A prize award decides nothing, even though the ICC is under US sanctions.",
-          "headlines": 3,
-          "publishers": 2
-        },
-        {
-          "title": "Ecuador opposition leader Luisa Gonzalez arrested",
-          "reason": "A domestic campaign-finance case with no cross-border channel.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "US judge blocks federal non-citizen voter operations",
-          "reason": "A domestic court ruling with no cross-border ripple.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "Italian trucker protests halt mozzarella production",
-          "reason": "The impact is a €3m loss to producers, which is too small, and no cross-border channel is named.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "IEA chief warns energy is a geopolitical weapon",
-          "reason": "A warning from an official, which is commentary and decides nothing.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "Libya–Turkiye maritime deal explainers",
-          "reason": "Explainers with no new dated development.",
-          "headlines": 2,
-          "publishers": 1
-        },
-        {
-          "title": "10-year Treasury yield falls below 5%",
-          "reason": "Market movement with no named policy decision.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "Ebola outbreak spreads to three African countries",
-          "reason": "A health warning with no reported state or border measures yet, so the ripple is too weak.",
-          "headlines": 2,
-          "publishers": 2
-        },
-        {
-          "title": "Albania's student protests grow",
-          "reason": "A domestic protest with no ripple outside the country.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "El Salvador launches operation in Haiti to free hostages",
-          "reason": "A small hostage-rescue operation involving four people, with limited scale.",
-          "headlines": 3,
-          "publishers": 3
-        },
-        {
-          "title": "Merz says Germany is targeted by Russian espionage",
-          "reason": "A single spy arrest and a routine statement that decides nothing.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "PHP security flaw takes websites down",
-          "reason": "A technology and security story with no state or policy angle.",
-          "headlines": 6,
-          "publishers": 4
-        }
-      ],
-      "existing": [
-        {
-          "title": "Russia agrees to new peace talks as strikes hit Ukraine; US citizen freed",
-          "reason": "This is the ongoing Russia–Ukraine–US summit diplomacy already on the map.",
-          "headlines": 2,
-          "publishers": 2,
-          "event": "ukraine-summit-diplomacy"
-        },
-        {
-          "title": "Lyon and Marseille ban Saturday protests",
-          "reason": "The bans are part of France's ongoing autumn unrest.",
-          "headlines": 1,
-          "publishers": 1,
-          "event": "france-unrest-2026"
-        },
-        {
-          "title": "Trump's economic approval hits record low before midterms",
-          "reason": "This is polling context for the US midterms event already on the map.",
-          "headlines": 1,
-          "publishers": 1,
-          "event": "us-midterms-2026"
-        },
-        {
-          "title": "Ethiopians flee fighting into Kenya",
-          "reason": "Cross-border flight from regional fighting in the Horn of Africa belongs to the existing Ethiopia–Eritrea war-fears event.",
-          "headlines": 1,
-          "publishers": 1,
-          "event": "ethiopia-eritrea-war-fears"
-        }
-      ],
-      "retired": [],
-      "skipped": ""
     }
   ]
 }
