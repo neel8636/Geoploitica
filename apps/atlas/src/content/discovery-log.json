@@ -1888,6 +1888,15 @@
   },
   "runs": [
     {
+      "at": "2026-10-24T03:00:42.509Z",
+      "screened": 0,
+      "accepted": [],
+      "rejected": [],
+      "existing": [],
+      "retired": [],
+      "skipped": "last screen 180 min ago"
+    },
+    {
       "at": "2026-10-24T01:29:50.255Z",
       "screened": 0,
       "accepted": [],
@@ -3267,104 +3276,6 @@
       "existing": [],
       "retired": [],
       "skipped": "last screen 3 min ago"
-    },
-    {
-      "at": "2026-10-22T13:59:19.892Z",
-      "screened": 140,
-      "accepted": [],
-      "rejected": [
-        {
-          "title": "El Salvador launches military operation in Haiti to free kidnapped technicians",
-          "reason": "Passed the test but not the evidence check: connects to nothing on the map and is not big enough to stand alone.",
-          "headlines": 3,
-          "publishers": 3
-        },
-        {
-          "title": "Ireland votes to drop UN approval for overseas peacekeeping missions",
-          "reason": "Passed the test but not the evidence check: only 1 headline, only 1 outlet, connects to nothing on the map and is not big enough to stand alone.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "Turkiye-Libya maritime deal explainer",
-          "reason": "An explainer that reports no new decision or event.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "PHP flaw triggers global cyber-security scramble",
-          "reason": "A technology and company story with no state actor driving it, and officials say there is no sign of government systems being hacked.",
-          "headlines": 8,
-          "publishers": 7
-        },
-        {
-          "title": "Nigeria confirms first Ebola case, patient had been in Uganda",
-          "reason": "A single imported case with no reported travel restrictions or state policy response, so the cross-border ripple is not established.",
-          "headlines": 2,
-          "publishers": 2
-        },
-        {
-          "title": "Ex-prosecutor charged with treason in Mexico over US drug raid",
-          "reason": "A thin headline that is mainly a legal case, with no clear policy or cross-border effect shown.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "Trump denies ordering Starlink slowdown in Ukraine",
-          "reason": "A denial of an unclear allegation, with no decision or confirmed state action.",
-          "headlines": 2,
-          "publishers": 1
-        },
-        {
-          "title": "Serbian student protesters rally in Belgrade before snap elections",
-          "reason": "A domestic protest with no clear channel to other countries.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "Trump's green card curbs test Indian tech workers",
-          "reason": "A feature piece rather than a new decision.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "Market and company news: wealth fund loss, China stocks, Bank of Korea, Meta fine",
-          "reason": "Market and company news with no state or policy decision that moves money or goods across borders.",
-          "headlines": 7,
-          "publishers": 3
-        },
-        {
-          "title": "France reports first human Shamonda virus case",
-          "reason": "A single case that officials say poses no public health risk.",
-          "headlines": 3,
-          "publishers": 3
-        }
-      ],
-      "existing": [
-        {
-          "title": "Trump's economy approval hits record low before midterms",
-          "reason": "A poll on the run-up to the US midterms, which the map already tracks.",
-          "headlines": 1,
-          "publishers": 1,
-          "event": "us-midterms-2026"
-        },
-        {
-          "title": "Sudan war escalates, UN warns of regional crisis as peace talks resume",
-          "reason": "This is the same Sudan war and humanitarian emergency already on the map.",
-          "headlines": 2,
-          "publishers": 2,
-          "event": "sudan-darfur-kordofan-famine-alert"
-        },
-        {
-          "title": "Russia frees American Stephen Hubbard as Trump envoy meets Putin",
-          "reason": "The release came during the Trump-Putin envoy contacts that the Ukraine summit event already covers.",
-          "headlines": 2,
-          "publishers": 2,
-          "event": "ukraine-summit-diplomacy"
-        }
-      ],
-      "retired": [],
-      "skipped": ""
     }
   ]
 }
