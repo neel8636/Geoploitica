@@ -208,6 +208,78 @@
         "headlines": 5,
         "publishers": 4
       }
+    },
+    {
+      "id": "rubio-cia-cuba-appeal-2026",
+      "title": "Rubio urges Cubans to partner with CIA for political change",
+      "type": "diplomacy",
+      "date": "2026-10-24",
+      "status": "developing",
+      "region": "Cuba",
+      "lat": 23.13,
+      "lon": -82.38,
+      "countries": [
+        "US",
+        "CU"
+      ],
+      "summary": "US Secretary of State Marco Rubio publicly called on Cubans seeking change to form a 'discrete partnership' with the CIA, telling them 'now is the time' to act. The open appeal for regime change sharpens US pressure on Havana and could affect sanctions policy and migration flows toward the United States.",
+      "severity": 3,
+      "keywords": [
+        "rubio",
+        "cuba",
+        "cia",
+        "havana",
+        "discrete partnership",
+        "cubans",
+        "regime change",
+        "now is the time",
+        "cuban government",
+        "sanctions"
+      ],
+      "links": [
+        {
+          "to": "venezuela-oil-reopening",
+          "kind": "shares_driver",
+          "why": "Both reflect a US push to reshape Latin American governments it opposes, following the capture of Maduro and the US-backed interim rule in Venezuela.",
+          "via": "US regional pressure on adversaries",
+          "driver": "us-attention-backing"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Rubio calls on Cubans seeking change to form 'discrete partnership' with CIA",
+          "url": "https://www.euronews.com/2026/10/24/rubio-calls-on-cubans-seeking-change-to-form-discrete-partnership-with-cia",
+          "publisher": "Euronews",
+          "date": "2026-10-24"
+        },
+        {
+          "title": "Marco Rubio urges Cubans to collaborate with CIA to topple gov’t",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/10-24-rubi0-cuba-cia?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "date": "2026-10-24"
+        },
+        {
+          "title": "Rubio tells Cubans ‘now is the time’ to act to see political change",
+          "url": "https://www.theguardian.com/us-news/2026/oct/23/marco-rubio-cuba-trump",
+          "publisher": "The Guardian World",
+          "date": "2026-10-24"
+        }
+      ],
+      "news": {
+        "q": "Rubio Cuba CIA OR Cuba \"Rubio\" OR Havana CIA",
+        "edition": "US"
+      },
+      "auto": {
+        "addedAt": "2026-10-24T08:01:12.124Z",
+        "reason": "The US Secretary of State openly calls for regime change in Cuba, which escalates US policy toward Havana and could affect sanctions and migration to the US.",
+        "channel": "US sanctions and pressure on Cuba, possible migrant flows",
+        "reaches": [
+          "US",
+          "CU"
+        ],
+        "headlines": 3,
+        "publishers": 3
+      }
     }
   ]
 }
