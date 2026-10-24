@@ -1888,6 +1888,15 @@
   },
   "runs": [
     {
+      "at": "2026-10-24T01:29:50.255Z",
+      "screened": 0,
+      "accepted": [],
+      "rejected": [],
+      "existing": [],
+      "retired": [],
+      "skipped": "last screen 89 min ago"
+    },
+    {
       "at": "2026-10-24T01:00:50.642Z",
       "screened": 0,
       "accepted": [],
@@ -3352,152 +3361,6 @@
           "headlines": 2,
           "publishers": 2,
           "event": "ukraine-summit-diplomacy"
-        }
-      ],
-      "retired": [],
-      "skipped": ""
-    },
-    {
-      "at": "2026-10-22T13:56:47.109Z",
-      "screened": 140,
-      "accepted": [],
-      "rejected": [
-        {
-          "title": "Nigeria confirms first Ebola case, linked to Uganda trip",
-          "reason": "Passed the test but not the evidence check: only 2 headlines, connects to nothing on the map and is not big enough to stand alone.",
-          "headlines": 2,
-          "publishers": 2
-        },
-        {
-          "title": "El Salvador launches military operation in Haiti to free kidnapped technicians",
-          "reason": "Passed the test but not the evidence check: connects to nothing on the map and is not big enough to stand alone.",
-          "headlines": 3,
-          "publishers": 3
-        },
-        {
-          "title": "Starlink slowdown in Ukraine and Trump's denial",
-          "reason": "Passed the test but not the evidence check: only 2 headlines, only 1 outlet.",
-          "headlines": 2,
-          "publishers": 1
-        },
-        {
-          "title": "Mexican ex-prosecutor charged with treason over US drug raid",
-          "reason": "Passed the test but not the evidence check: only 1 headline, only 1 outlet.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "Ireland votes to drop UN approval for overseas peacekeeping",
-          "reason": "Passed the test but not the evidence check: only 1 headline, only 1 outlet, connects to nothing on the map and is not big enough to stand alone.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "Serbian student protesters rally ahead of snap elections",
-          "reason": "Passed the test but not the evidence check: only 1 headline, only 1 outlet, connects to nothing on the map and is not big enough to stand alone.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "PHP security flaw takes websites offline worldwide",
-          "reason": "A technology vulnerability with no state or policy driver, even though some government services were hit.",
-          "headlines": 8,
-          "publishers": 7
-        },
-        {
-          "title": "France reports first human Shamonda virus case",
-          "reason": "Officials say there is no public health risk and no cross-border effect.",
-          "headlines": 3,
-          "publishers": 3
-        },
-        {
-          "title": "Turkiye-Libya maritime deal explainer",
-          "reason": "An explainer rather than a dated development.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "Meta fined $25bn in New Mexico",
-          "reason": "A company court penalty with no cross-border state effect.",
-          "headlines": 3,
-          "publishers": 3
-        },
-        {
-          "title": "Bulgarian presidential campaign focuses on Black Sea security",
-          "reason": "Campaign coverage that reports no decision or event.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "Fighting on the outskirts of Taiz, Yemen",
-          "reason": "A local clash with no clear cross-border channel.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "India frees Cockroach movement leaders",
-          "reason": "A domestic court matter with no cross-border ripple.",
-          "headlines": 2,
-          "publishers": 2
-        },
-        {
-          "title": "Trump green card curbs and Indian tech workers",
-          "reason": "A human-interest feature on an existing policy rather than a new dated decision.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "Market and central bank news: China stocks, wealth funds, Bank of Korea",
-          "reason": "Market moves and a routine rate hold with no new policy shift.",
-          "headlines": 4,
-          "publishers": 1
-        },
-        {
-          "title": "UN warns of record El Niño",
-          "reason": "A forecast and appeal, not a decision or a development that has happened.",
-          "headlines": 2,
-          "publishers": 2
-        },
-        {
-          "title": "Raids on far-right group's offices at European Parliament",
-          "reason": "An investigation with no clear state-level cross-border effect.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "Israeli raids and detentions in Syria and the West Bank",
-          "reason": "Routine local incidents that decide nothing new.",
-          "headlines": 3,
-          "publishers": 3
-        },
-        {
-          "title": "Russia arrests German man as Ukraine 'mercenary'",
-          "reason": "A single detention case with limited scale.",
-          "headlines": 1,
-          "publishers": 1
-        }
-      ],
-      "existing": [
-        {
-          "title": "Russia frees American Stephen Hubbard as Trump envoy meets Putin",
-          "reason": "The release came during a US envoy's meeting with Putin and belongs to the ongoing US-Russia diplomacy.",
-          "headlines": 2,
-          "publishers": 2,
-          "event": "ukraine-summit-diplomacy"
-        },
-        {
-          "title": "Sudan war escalates, UN warns of regional crisis",
-          "reason": "This is the same Sudan humanitarian and war escalation already on the map.",
-          "headlines": 2,
-          "publishers": 2,
-          "event": "sudan-darfur-kordofan-famine-alert"
-        },
-        {
-          "title": "Trump economy approval hits record low before midterms",
-          "reason": "The poll result feeds the already mapped midterm race.",
-          "headlines": 1,
-          "publishers": 1,
-          "event": "us-midterms-2026"
         }
       ],
       "retired": [],
