@@ -3377,116 +3377,91 @@
     ]
   },
   "ebola-drc-nigeria-kenya-2026": {
-    "at": "2026-10-23T22:00:56.031Z",
+    "at": "2026-10-24T10:01:11.646Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "sequencing-links-nigeria-case-to-kenya-strain",
-        "title": "Sequencing links Nigeria case to Kenya strain",
-        "when": "2026-10-23",
-        "place": "Abuja, Nigeria",
-        "lat": 9.06,
-        "lon": 7.49,
-        "what": "Nigeria's health minister said genomic sequencing shows the Nigerian Ebola case is genetically related to the virus found in Kenya's index case.",
-        "via": "confirmed cross-border transmission chain",
+        "id": "second-ebola-death-in-kenya",
+        "title": "Second Ebola death in Kenya",
+        "when": "2026-10-24",
+        "place": "Kenya",
+        "lat": -1.29,
+        "lon": 36.82,
+        "what": "A 65-year-old woman, a close relative of the first patient, died of Ebola in Kenya, the country's second death from the outbreak.",
+        "via": "rising local case toll",
         "aspect": "displacement",
         "flow": "into",
         "sources": [
           {
-            "title": "Genomic Sequencing Links Nigeria’s Case To Kenyan Strain — Pate",
-            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUVlBeVN5S3F6WEloczhLR29QTmdZcDdBTUpNR1VLTjFQSUFBRHQxTGd5QkhzdnBMT3AtMHNXbjJXb1l3MXY1Y05PZmY3M08zcVlfcGlzT0N0TjlqOG9lTkZKZUxwSWVxZzR0OVdPdllQaGNOMXVUTHpGVS1SNTF4MGlFRUtEQngtZS1yc3o1d2c1Y19VQVZVWU5FRl9JcGZK?oc=5",
-            "publisher": "Channels Television"
+            "title": "Woman, 65, becomes second patient to die of Ebola in Kenya",
+            "url": "https://www.bbc.co.uk/news/articles/c6x2355448eyo?at_medium=RSS&at_campaign=rss",
+            "publisher": "BBC World"
           },
           {
-            "title": "Nigeria Ebola case linked to virus found in Kenya index case, health minister says",
-            "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQ0hvLXFNbGZpRUpBaFFuYlN1RTRTTnN6bGFBdF85WS1DMzVPT2lGSFBuZTQxTXRGaEx6cXZ1anc3SjdIVVk1NGlKUTE5aTJqdWtvd051RXB4THdSdnVFRE1zcjVIVWZfVm1xc3NKaVlmbGQwV1hWWmRGbEpFUWFhYmxDZGR3U1FBNmJ4QzBkcXNobWFFOVlpMXNNQU9vTXFWLTBtc0tUWkRoTE1sU3RVSWstQjVOX0RtRGV6OTdNQmliVTAtdkF1QTZCb0hNM19UZDBsLVpmV19pdkl2THc2cQ?oc=5",
-            "publisher": "Reuters"
+            "title": "Kenya confirms second death from Ebola",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBHclZJZW8wZVNjRmZURlF5YXc4Zk9DSkI4YVdZYkUyYjBuU2k5RXBiYXJYUXh4SmdLY2ZuRzhqanhESkR4ZlR5anBjaFBrbmE5SG1qb1FwOXZkNTZnSnRnRTYxZE1PdTltdWhFdGZtdHE3Z0hqc2lmMQ?oc=5",
+            "publisher": "The Independent Uganda"
           },
           {
-            "title": "Ebola virus in Nigeria genetically related to Kenya’s index case, says Ali Pate",
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYko5bkExSzVCLVlDUXR3LUcwUk9xR3lKSS02T2VPMXpoUGtIYnphdUxHTFFTY3lrVlk4MnVrVk93T1NyYUxJUG9GcTI4VmtMQXNBVWxnUDJteG9GT3hockJScGw5X2Y3b3d0R3EtRE5mWVFlWERNYjdpYmQ5cERGcW93MTRQaDlfZ2VFTVpNLUNxakV6R1VsUHdIb0sxb2RBczJlag?oc=5",
-            "publisher": "TheCable"
+            "title": "Kenya Announces 2nd Ebola Death, A Close Relative Of The First Patient",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVUdXdXhxQ3BXZk9WYjNwc3JaYUw5a2ZVckF4ZUgzMzdKNkVxSHJpbVl1QUZ6Z0FyWmRLc285b01KRVZ6SS1XY0tkZjhPSGxrSkxzVWhiSXl3X2xYRkhwTDNWYW8wOVN2Y3ZULWhkb003VWxMbXRENGxwcl84anItTUhpd2JOVnpFc1dBZjgtQnB6MG02al9RTmJLR0tYYXU3cG1TMTcyZHA1dw?oc=5",
+            "publisher": "NDTV"
+          },
+          {
+            "title": "Kenya’s second Ebola patient dies as confirmed cases reach nine",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOellNMkczWTFvc0hKV2xZRVUzcWdlSHBCY2pVRHlPY2lCWFlFaUNWX0p0UzlZNW53MHlfeERtRW5TU3NJOGRnXzVXTmhXXy1jdjgyanlrTGJvNUg5aGRnNnJ6d1kwRDlxQmZGcXpPR25EbUdYTXVMazVVUUVIdDFxZW84emZWYVRpX0xGTXFpR0NlTTFacXlwckpoRQ?oc=5",
+            "publisher": "TV47 Digital"
+          },
+          {
+            "title": "Kenya Records Second Ebola Death, a Close Relative of First Case",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSDEzV1NQZUY3aExBWFNzVWdLUm1sbnc4aUptQ3gxa2ltNWptTV9Qc0NLWHdHRUl3aGFXSlNMYUxYRjVRS3VpbEJwN0NJNFNmdXpFcEROSEZIb1hqLUU3b1otYzNOMWpZaUVLcGU0c1BGd093YkdYRndXdVFUTk9BVDZqcVQweHhSRm5EZ1o4WE16akRTVGlad1dSQ2hvT1dJb05wekh5VEd1OFR4V1BxZ2tySWM?oc=5",
+            "publisher": "Bloomberg"
+          },
+          {
+            "title": "Kenya records second Ebola death as 65-year-old woman succumbs",
+            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLXNrb1g3SnZsODktdTBxLWd3X1FxOFBpQVVEc0RCc3hwNWRtWjFaWnFqMFZEUzRvMXZscWZ0ZXVUNW5MN3VSaW9za3JCeEh3UUJtWmcyc1UwNEJmZGo0U09vZ1ktZUVVejFKVjhLbFVBWEFCSENLak93aXI3Y1RqZg?oc=5",
+            "publisher": "The Star, Kenya"
           }
         ]
       },
       {
-        "id": "kenya-reports-second-ebola-death",
-        "title": "Kenya reports second Ebola death",
-        "when": "2026-10-23",
-        "place": "Nairobi, Kenya",
-        "lat": -1.29,
-        "lon": 36.82,
-        "what": "Kenya announced a second Ebola death, a close relative of the first patient, while seven patients remain in isolation.",
-        "via": "growing family cluster in Kenya",
-        "aspect": "displacement",
+        "id": "nigeria-s-first-case-matches-kenyan-strain",
+        "title": "Nigeria's first case matches Kenyan strain",
+        "when": "2026-10-24",
+        "place": "Nigeria",
+        "lat": 9.06,
+        "lon": 7.49,
+        "what": "Nigeria's first Ebola case is described as highly similar to the Kenyan one, and Health Minister Pate links the two as officials probe the infection's origin.",
+        "via": "cross-border transmission link",
+        "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "Kenya reports second Ebola death, a close relative of first patient",
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPc05kZFItSHlGeWdYeFZqc19UTXlwdGF5UFRVR1BXYUd4R0F0SlJxT2FVcUM2WGJMVUVMa0k5d281dUd5WVM1VjF4TWZJZEJZckl6d3VJbnh6MGRLVXc4OXRud2I1WENKZ1hUS1g5WGdlOHFWdVJDV0FGN2p3Ml8wdmdITEo1QjVrbEJjcHduakVwWW15MVAwVmZweWFxOGdQZ3RIcjVTT1hNSnRXR284S3Z0d2hScm8?oc=5",
-            "publisher": "South China Morning Post"
+            "title": "Nigeria investigates origin of Ebola infection after Kenya strain discovery",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdXR1UXBEbUw1dzFPZHVfbWtKclNMMzZtdW5UZUsxQWhhT0JyczU3X0RSUXhXMVN2WkxEazdRQlNabFluR3NQTnI3QUpBZEVpTHo1RFFuQnpnbnQyRktETmh6cjRfQkpMcXRrd0l0LUtMdmZEYU9qQlpaRHJoaG9qMjRUaTBCNnVHOU5nQ0lXdUh6ZEY2SzFBSjVlMnhleGRDRkFELVgxQ1Q1VXRp?oc=5",
+            "publisher": "TV47 Digital"
           },
           {
-            "title": "Kenya reports second Ebola death",
-            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRlp4ZV9manpYYlVZTThTNlloOWZtUmlaTUdBTE96S0JUazRlYVkxZ1pxb3JIMHlNQ0pCdkNDQUx0bnZCQkp2SUluM2Zrak80cE9nTDhIS25TR19zSWFrN3J4Sy0xMFRkcGY2UTFudk5RdHJkUTVLa19ObzFkTWdVWHFB?oc=5",
-            "publisher": "Jamaica Observer"
-          },
-          {
-            "title": "Kenya announces 2nd Ebola death, a close relative of the first patient",
-            "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNLWpIcmoxUC1obWtZWHhqUGtNeUw1cGdZT0U4aF94cjkzS21XV05DVWJUTE82VEdaenlrQ2ptREVKekp5NFQ2S1BmLWZJMVVkZUd6SWN3OUxnTDd6WFdNMzV6MzE2d1d1R3ZseXNBaTNjYmQ5dFFjZUtHcHhXVXdlR0lhZGFLOGZ6Qnl6amFlZDhveEdodnZ0ZXJDelI5cmh3X1liYnZmZmtxeV9yOE85OTgzYnhtU05WMW03STVWaEhUbE9GY1pkaGtVc0FLQXNmaTY5N2g4U1RmUlhnckQwYndnajlIMUFqcWFYWjRTWVVTUUkxTWlmY3pJbTlOS0V1YkMxX1U5RQ?oc=5",
-            "publisher": "Bozeman Daily Chronicle"
-          },
-          {
-            "title": "Kenya announces 2nd Ebola death, a close relative of the first patient | National News | 2news.com",
-            "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPNHVneHdPeE53ZUhpQjdKQTdsRkhtT0MwY0lkTTB4LWV4UkZrNUJTY29sLW0xaG1VQ0hoeXJiMkNrakJBZnlPX254NDRRM3VPWWZnU3Vrd3JaRHEyQmZXTlRaWk54VkFmVlJBNWpwZlNSUHg3alhVeWR6N29WUU1OazB6TVFhTWYybDVNQkh1VDE5S2RTOVRHVm5pVVdRcXdVM2Z6d2FlemtNWEdhdFlWQzM0QTl0cnpOVDM4WW1KNnZoZlNSc1poTlBkcGl5YnhtMjh3R2JFbTIxcjl2bldxMEFQdU1YX2Vi?oc=5",
-            "publisher": "KTVN"
-          },
-          {
-            "title": "Ebola: Kenya records second death as 65-year-old woman succumbs",
-            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcnFaMmU3eWpSSS1OSHRHdEtvYmc4MTM4UFo1cllRaW13N2tDUnM5Z3lfOGJyRDlKcVBPMWJtaGxZd192Z0tlbFdia2REMGs5TUw2bExUUmpLdDBmejhaTmlKY21lTzc1dnV5Wi1tb1AwY1AzbHFDb1Y2NXZSanBVMl9EWWs2QkNqZmcxcURncXBXZFJLWV8zREtDY2ZFLWVGLUlwY0VqZG0?oc=5",
-            "publisher": "Daily Nation"
-          },
-          {
-            "title": "Kenya reports second death from Ebola",
-            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBYR3NmZkdvVTZqdDRtbm1Wd0Y2dWI4UHVPWU1GQXJaZUt4Q2c5YU1vRUQ4SjlaWVJGYm9heFhvbk9kQUhFTEdwRTJGUFF4TTJnQ0FZS1hPMUhhZ1ZQeHJZVTdSUE0tWUdIN1J2bWduQXk5ZFBHclVkQVFQV1A?oc=5",
-            "publisher": "Cyprus Mail"
-          },
-          {
-            "title": "Kenya records second Ebola death",
-            "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1KaE9oNC1hMXZ6N1FEU05HS0ZEVU9BZWp2bU82aTQ5UlV4S0JjN3pqZlBzQW81cE04R2t4UVhhUzFGaHdXRVhlR3N1OUQxZGY3UFdHMEloYjhyUE9ybElmZFplQ2FZZw?oc=5",
-            "publisher": "KBC Digital"
-          },
-          {
-            "title": "Second Ebola patient dies in Kenya as seven patients remain in isolation",
-            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQa24wbWtMdzRiaDllMVpBc0xIak5tdmJ2SXNVVmkzOXNPa0t5dUFHZ2ZqSnAwajNEWUpNWEczZ3pnM2JXRlJ4T1dTaTNqUVVhT0dabnE0bkstUWJBZnI4dUkyNUtYcG9UQXpaSFVmRFZPLXd4TEdWdjZlTXB4V0FPQ2VnYWxuY2NyQ2JCdDlINEI3enQ0Qk9ndFBGVnNVNW9SdEl2TVhqRGMyWHFOUTdiOGlHcU5sQQ?oc=5",
-            "publisher": "The Eastleigh Voice"
-          },
-          {
-            "title": "Ministry of Health announces second Ebola death in Kenya",
-            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYXZUUkhpeW5Vd05QcXA1RHhQSzdVbGdTaU40R0ZlWHRIVDZDVkVfMWpSZThDYlc5T3RzNFlGWVlPbFZqbHJjVmxuZFZ1SERUeVBLekdIblZFT3gydkxmR3A3OHFRWU8xemxGSURIQWxVOVBiWVhCT0k3TmJNZU5IdFhiY08wbXVtUFZWNU5DX0pVRTd2STZLZ1NMV0s?oc=5",
+            "title": "Nigeria's first Ebola case 'highly similar' to Kenyan one",
+            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPa2dZOGRqT3otOXVTMzNsSkFyNy1zNy0tY1VNMDc2LS1kWVNhYk90a2s0SEdYNE1OR3lUTWpHYjFvT1dWWmN2V1JyUnQxSW5CWEpBU3hEX0lyd2laVnhKeFZDRkNoaWFTbWdyQ21LR05oWXBJbDRqMGJWUTVBX2tERk5nUUE0MWlWSXJta2w4SVlTVlBqQkVfcWZR?oc=5",
             "publisher": "Citizen Digital"
           },
           {
-            "title": "Kenya records second Ebola death as third patient dies",
-            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbTJLS1dtd29ZOF80U09RUFhLWW82cm04THZfNGVUNHE1c18zZnpVTGVkNENic3ZtTlA3M0c4aGlxa2pQVDFEZkl4b0FmV3ZRQUdGc0pzUG1hZDBXdUhhOUZ1Vm5ybWg0Y0N5bUZ1M0VSOFQ0a1FtbmQwLXVTRlh4S3pad01lamFTYWZMMkFOUDd3d0lDUHhJ?oc=5",
-            "publisher": "The Standard"
-          },
-          {
-            "title": "Kenya says has reported second death from Ebola",
-            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTVRldkNRNHFhRkNESEhDZU1QNGN6WUxrMWxJZ0NaZnFreGotVDc1MVh5am1BX2N0RUd4ZXpUVERPYWpNX19nZkNYOFppY29GZklVNDhic2NZWE03ZnBFYXQwandudk1xel9hZHkzdjFfV09KNnUwXzJBaW5LdDhVMXQwS0I2X3FrSXF3UTFpWTVnanZ3elhscWc5WE9JeTljZE0xMlpMcUl3dlN6dUp0aVFoRmxlZklD?oc=5",
-            "publisher": "TradingView"
+            "title": "Ebola: Nigeria’s case linked to Kenya – Pate",
+            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5xX0RjU1NjaVRQY0FvWVFBQkgxalFvQTJaTDNfTFdhT0p6NFFTeFh0djY3cU1KbjQ4UXVzNG1KY1hiT3NFV0I5dUZCZ1Z5bG1ZT3BRcG02SzJlWjNlSjF2TmdFU1RoS2lVUU05ckdzN2F5RmxJVlJCeFFwZTg?oc=5",
+            "publisher": "Punch Newspapers"
           }
         ]
       },
       {
-        "id": "probe-into-uganda-airport-contact-of-patients",
-        "title": "Probe into Uganda airport contact of patients",
+        "id": "probe-into-possible-kenya-nigeria-patient-contact",
+        "title": "Probe into possible Kenya-Nigeria patient contact",
         "when": "2026-10-23",
-        "place": "Entebbe, Uganda",
-        "lat": 0.05,
-        "lon": 32.46,
-        "what": "Authorities are investigating whether the first Kenyan and Nigerian Ebola patients crossed paths at Uganda's airport, and the source of the Nigerian infection remains unclear.",
-        "via": "air travel exposure risk",
+        "place": "Uganda",
+        "lat": 1.37,
+        "lon": 32.29,
+        "what": "Authorities are investigating whether the first Ebola patients in Kenya and Nigeria crossed paths, as Uganda reports no active cases but faces fresh scrutiny.",
+        "via": "possible shared travel route",
         "aspect": "trade",
         "flow": "into",
         "sources": [
@@ -3499,25 +3474,35 @@
             "title": "Authorities investigating whether first Kenya and Nigeria Ebola cases crossed paths",
             "url": "https://www.npr.org/2026/10/23/g-s1-149515/africa-ebola-outbreak",
             "publisher": "NPR World"
-          }
-        ]
-      },
-      {
-        "id": "uganda-faces-scrutiny-despite-no-active-cases",
-        "title": "Uganda faces scrutiny despite no active cases",
-        "when": "2026-10-23",
-        "place": "Kampala, Uganda",
-        "lat": 0.35,
-        "lon": 32.58,
-        "what": "Uganda says it has no active Ebola cases, but infections in Kenya and Nigeria are prompting fresh scrutiny of its screening and travel links.",
-        "via": "pressure on screening and travel rules",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
+          },
           {
             "title": "Uganda says it has no active Ebola cases, but infections in Kenya and Nigeria are prompting fresh scrutiny",
             "url": "https://www.dw.com/en/uganda-says-it-has-no-active-ebola-cases-but-infections-in-kenya-and-nigeria-are-prompting-fresh-scrutiny/a-79741580?maca=en-rss-en-world-4025-rdf",
             "publisher": "Deutsche Welle"
+          }
+        ]
+      },
+      {
+        "id": "hundreds-of-ebola-contacts-traced",
+        "title": "Hundreds of Ebola contacts traced",
+        "when": "2026-10-24",
+        "place": "Kenya and Nigeria",
+        "lat": 4,
+        "lon": 22,
+        "what": "Kenya tracked 135 contacts of its Ebola cases, while Nigeria is following 44 contacts of its single case, testing public trust.",
+        "via": "exposed contacts at risk",
+        "aspect": "displacement",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "One Case, 44 Contacts: Nigeria’s Ebola Response Faces A Test Of Trust",
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLVhZc01lTUxHY0dUMmFZQ3phUmpvU0RoM3U5T1hJYkxjeGFqbzdTOGxyNlNuTVBfVEJHZGI3OEh2SkYzMDVETUtSSTc0X2U2a0FIekVENVRKN3NydkE4RzFJM3dYWEtRd01wbk1SQWNJd3R6aDY5NUtIX0NyOENxamdTUnR2Qk1IZzE1TXlEQk1TRWZOeXFEbm92Z01adnpENWhyX3N3NVU?oc=5",
+            "publisher": "Channels Television"
+          },
+          {
+            "title": "Ebola hunt: How Kenya tracked 135 contacts",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdDVQWUlvbjJ2RDRHektGYVdvV1B3XzBxdWZnOFczZlNUTU1hZHM0ZEp1clJCSkpRaUN5Zjh4Q2VJU0RGN2JZdFBORWtQem9yelMxdVBINUprZUwwYUVnMGJCNGVWT1ZiNW11S0RCSjFMUkYzakdCY0lIUW5HQ1JVYmxrZHA2V1NxUDltTA?oc=5",
+            "publisher": "The Star, Kenya"
           }
         ]
       }
