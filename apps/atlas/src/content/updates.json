@@ -1,6 +1,38 @@
 {
   "france-unrest-2026": [
     {
+      "at": "2026-10-24T14:01:26.501Z",
+      "text": "The Paris march starts at Porte d'Italie after a last-minute route change, and marches run in other cities. In Orleans, Anadolu reports thousands protest a National Rally congress and a curfew for minors is imposed.",
+      "sources": [
+        {
+          "title": "Paris: Protest starts at Porte d'Italie, after last-minute change to the route",
+          "url": "https://www.france24.com/en/paris-protest-starts-at-porte-d-italie-after-last-minute-change-to-the-route",
+          "publisher": "France 24"
+        },
+        {
+          "title": "Thousands march in Paris and other French cities as protests take place across Europe – Europe live",
+          "url": "https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news",
+          "publisher": "The Guardian World"
+        },
+        {
+          "title": "Thousands protest far-right National Rally congress in France as Orleans imposes curfew for minors",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZHFDWjdQYW90T01hc0RwSEw2cHhxWHRBYXVTckNSYV9nMEozandhcDdTRDFYNWZmNjVuaUJWV3VUMExYRGxETlJKM1F5QW5vNW1yaFB3QnJYV2xoYzNHWUZMOG56b1dwQUpEVnNsNE9Sb2hBU1YyOGFEX2FaelNDSnJUNDRvWEJFdmx3YTl5cHZjeHdMeW9RN3BXcDhCeXNEVXotVFREVFk4ZTFFWG10ZXBoSFN1dlp0WS1QVzF0ZmgwbTlUWWNKNmcwV2ZiOEdvZ3JUSQ?oc=5",
+          "publisher": "Anadolu Ajansı"
+        },
+        {
+          "title": "France: Anti-far-right protest in Orleans",
+          "url": "https://www.france24.com/en/france-anti-far-right-protest-in-orleans",
+          "publisher": "France 24"
+        }
+      ],
+      "headline": "Thousands march across France over school and living costs under heavy policing, adding pressure ahead of the presidential election in April 2027.",
+      "quick": {
+        "happened": "Thousands march in Paris and other French cities over schools and living costs, and police use tear gas as thousands of officers are deployed.",
+        "matters": "The same household-budget squeeze is behind unrest in Italy and Belgium, and political risk in France adds to worries about its bonds.",
+        "next": "The presidential election in April 2027 is the next big test; the headlines give no date for further marches."
+      }
+    },
+    {
       "at": "2026-10-24T13:01:31.697Z",
       "text": "Authorities deploy up to 70,000 police nationwide, and Firstpost reports 135 arrests and seized weapons. Police fire tear gas as protests begin, and Paris shuts major museums including the Louvre.",
       "sources": [
@@ -252,43 +284,6 @@
         "happened": "France deploys 70,000 police and Paris shuts major museums as hundreds of protests are expected across the country on Saturday.",
         "matters": "Investors worry about French markets, and the unrest feeds into the 2027 presidential election race and similar protests in Italy and Belgium.",
         "next": "Saturday's protests are the next test, with shops boarding up and police out in force; the headlines give no later date."
-      }
-    },
-    {
-      "at": "2026-10-24T06:01:03.252Z",
-      "text": "France deploys 70,000 police for Saturday's new protests, and Paris shuts major museums ahead of hundreds of expected demonstrations. Reports say students are urging further protests. India advises citizens in France to avoid protest sites.",
-      "sources": [
-        {
-          "title": "France to deploy 70,000 police on Saturday to prevent civil unrest",
-          "url": "https://www.theguardian.com/world/2026/oct/23/france-police-demonstrations-civil-unrest",
-          "publisher": "The Guardian World"
-        },
-        {
-          "title": "French police deploy in big numbers and Paris shuts major museums ahead of new protests",
-          "url": "https://www.france24.com/en/france/20261024-french-police-deploy-in-big-numbers-and-paris-shuts-major-museums-ahead-of-new-protests",
-          "publisher": "France 24"
-        },
-        {
-          "title": "Live: Hundreds of protests expected in France amid high tensions and heavy police presence",
-          "url": "https://www.france24.com/en/france/20261024-live-hundreds-of-protests-expected-in-france-amid-high-tensions-and-heavy-police-presence",
-          "publisher": "France 24"
-        },
-        {
-          "title": "Unrest In Europe: India Advises Citizens In France, Italy, Belgium To Stay Alert And Avoid Protest Sites",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQYkNQekFnOTZRb1djY3RIQ0FhU2g1b0kzeTBweGp2bk9jZjdaQmFSQnZyWENNeVNzTHFlTURlOXJRME9sX2NMbk94Wks5ZWg1TGo5RlJTUm5BVjhVbVFQbFBhR0xwUkhiYXJuY1BFMFhkTW13TG9LQzNTVVE3a0ZCdmNGaVpGX0RnT0NfNWpRN0VTQmFEUVFxVG9idFB2YzBTSkJyYTN1dTFMR3NPY1k1ZkRJemFQZDljT3ZyNXpmWFZtZElIbktlRlhITnpFVmtUUjJIQVhnT2x6ZDFkZkNmaTluRmdmalXSAewBQVVfeXFMUEt6akVnZVNCb1NqdXo4SkNIVm5WbjhxNXkxMExhMUdlM0hmN29RVkVyakZWU1lseWFaZnY3VjA1VllhcFYxWmhLT0o5ZDh1NW1oV2ZBQ2Z5RGhSamZVaGNUUERXVExwSVBieFB2S0Q5VnlBQ0tKWlQtMksyQ1I1UXZZWEJhdkxoTjRfcGpWcXp4VUh2SHpmSmN4NWFhbS1kVzYwdkFMMGR6Q1hPMXM2X3k1RWpiNmhEQjJQNDV6eFVSMkdrQndwYXVzd2t3aWZhbzRjNmVnSmh2WFpmTTYtNlVvc1dsYndPQzBtaV8?oc=5",
-          "publisher": "ETV Bharat"
-        },
-        {
-          "title": "France to deploy 70,000 police as students urge further protests",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRDQ5cVY2TzdzY011bjBuMVFFZ1VYRVRYbVJrOHVTMFZveWJ2aXcyYi1EUEYzd2ZRZHU0aWg3c3U2MjNrMmVXaGJ2MHFnT3pBNnNkN2hXUW1uSlJRMFk2U3RrOUtWdERLYlJUUUZWSUdmWWJNcVRUeHFVVFFBU1lVRFh0TWlqNzg?oc=5",
-          "publisher": "AFP.com"
-        }
-      ],
-      "headline": "France puts 70,000 police on the streets for Saturday's protests, a week after the riots, as Paris closes major museums.",
-      "quick": {
-        "happened": "France deploys 70,000 police for Saturday, with hundreds of protests expected and Paris museums shut, a week after nationwide riots.",
-        "matters": "India has told its citizens in France, Italy and Belgium to avoid protest sites, a sign the unrest is worrying people beyond France.",
-        "next": "Protests are expected across France today, 24 October, with police out in force and students calling for more."
       }
     }
   ],
@@ -2426,6 +2421,38 @@
   ],
   "alberta-independence-vote": [
     {
+      "at": "2026-10-24T14:01:26.501Z",
+      "text": "Premier Smith says she can win the next election without separatist support, and Global News reports she gave separatists an ultimatum while they vow to stay in the UCP. CBC reports counting was delayed by days after the tabulator ban.",
+      "sources": [
+        {
+          "title": "Q&A: Premier Danielle Smith says she doesn’t need Alberta separatists’ support",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQU15MzZub0JXcG44TExzX1d0M3djX3FCVEFaOEVfT0czUkE1OWpSSk1rSDVaenFvY3FPRGpmSmd4NEx1ekRTNzgwVGxOR01CY0Q0aEoyYTdqdlg4dFZQSG9GZkpGYUNQUlpURDE1Y2M2Vk93UndHbWV3OFpyaU5WMjBYNy1fazA0STd4dUlDTWxsbndQZ2o3bnYwdjJ2UDBBdjNCN2JB?oc=5",
+          "publisher": "CBC"
+        },
+        {
+          "title": "Referendum ballot counting delayed by days in first provincial vote after tabulator ban",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMHNQVm1MeVZpT3d5QktPRjA2Q1d2aUtPV0pEYVlIc2c0WnlLQnl2bjlUSEYxdWsyRlBMTzZQOTdseWpZOUk0TkV1ZFhtWllTakFfbm04YkxXdEZjcGxCdDZXZ0NxTmhzVHk5ckp5d2kzQklzZ040elZldm00VUFFLUhOb0dhNThIalBibUYtTEVfdWk1UGtJeWlPc0stUQ?oc=5",
+          "publisher": "CBC"
+        },
+        {
+          "title": "Danielle Smith says she can win next Alberta election without separatist support",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiU2ZBNThMcUg4VElKT2paZ0pQLS1UMElPZGs3UkxsVWhCdVFMOG10bE1uempXbmlwZzFhYko1YmIycERfYnBRTDVpMTRFOU9sUVUxOWxlWEgzZw?oc=5",
+          "publisher": "CBC"
+        },
+        {
+          "title": "Separatists vow to remain in Alberta UCP as Danielle Smith gives ultimatum",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQS2E4QUlYX2VUTjNvbmxPUFo5WWNWQ3BzbGtlYzJsSVRENk5ESnZ5dE5vaE83TXpKQ2xrU0dqTlRPQkY5M21FM1hya0Fqbl8tRnpuR1hpbVpsdENpV09qY2xGWUpfT2syT0ZTdUdxbzJpVkRiay13SVhDZ1dhNGVPOHgzRnYxa0xhd1Joc1pnaDVzMm13SzJsM1BKbjdKQTUtbjNjT1V3eUtubGhsUnFPNmZn?oc=5",
+          "publisher": "Global News"
+        }
+      ],
+      "headline": "Alberta has voted to stay in Canada, and Premier Smith now has to manage separatists inside her own party.",
+      "quick": {
+        "happened": "Albertans voted to stay in Canada on 19 October; results are still unofficial, and CBC reports counting took days after a tabulator ban.",
+        "matters": "Alberta's oil economy gains from the Gulf-driven price spike, so its place in Canada affects energy supply and Canadian politics.",
+        "next": "Smith says she can win the next election without separatists, who vow to stay in the UCP; no date is given."
+      }
+    },
+    {
       "at": "2026-10-24T11:01:25.093Z",
       "text": "The Globe and Mail says the vote has softened the rhetoric but lasting calm is not guaranteed, and the New York Times calls Smith's future unclear. Other outlets turn to provincial control of immigration and changes to petition rules.",
       "sources": [
@@ -2618,36 +2645,36 @@
         "matters": "The result keeps Canada's main oil-producing province inside the country as oil prices and US tariffs strain relations with Ottawa.",
         "next": "MLAs return on Tuesday, when the government is set to introduce over a dozen bills on topics including insurance, child care and health care."
       }
-    },
-    {
-      "at": "2026-10-23T15:56:01.305Z",
-      "text": "Treaty 7 chiefs call for action to repair referendum divisions, and advocates say newcomers' contributions deserve attention. Yahoo News Canada publishes maps of how Alberta, Edmonton and Calgary voted.",
-      "sources": [
-        {
-          "title": "Treaty 7 chiefs call for action to repair referendum divisions",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPM0lvN1VMVUxqSnJmSFhQZS1kRWxndjFnN3BWZGVUWUtXZ0Y2aGdKaW13c1NxeU9ESkxiQTl2dzllekQwUjRDc3ZHMkptSGR2SnNlRDEwT1JDaThXZmh5X1A2Z3F6RGUwZi1yU2RLaTFRUXFYcWRFYmMwYUpldkl1SWFpUGh2aE83TVNRcHZ5dXZJb3B0YURoYVR6RQ?oc=5",
-          "publisher": "CochraneNow"
-        },
-        {
-          "title": "Advocates flag contributions, not costs, of newcomers in Alberta referendum aftermath",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE80dzFsVGxWM1RsZ3h3MEZYWGJleE8tTFFmSmZhVEFKbFlncDlEX0NtMXd0QktzLUdPZTJFbHNYZDVxdVlrdzlzcENMdUZ6VFZaczktMXEtQkFDM3B4N1FaaldGZ2tFUzg0eXB3TnpSeWhVT1U?oc=5",
-          "publisher": "Global News"
-        },
-        {
-          "title": "Alberta Referendum maps: See how Alberta, Edmonton and Calgary voted",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTkNTb1N2WWVWSWlpeVh3bmphTml5c05zWFlxeUtfS0pZaVhqMTNXN2ttd3kwRkt5c3lNWU5TdDZPX3M2VV9kdURxNnBhN3dqVHZ0b1Yza2t1SnVNcm9zbVFmQ0FPa2Q4eUlkVnpxd0IzYlFXQzk1dUdVUUpocUlsbXFn?oc=5",
-          "publisher": "Yahoo News Canada"
-        }
-      ],
-      "headline": "Alberta's vote to stay in Canada is settled, but leaders now press to heal the divisions it exposed between rural areas, cities and communities.",
-      "quick": {
-        "happened": "Albertans voted to stay in Canada on 19 October, with about 77% on unofficial results. Reports say rural areas backed separation more than cities.",
-        "matters": "A clear result eases fears of a split in a major oil province as US tariffs and the Gulf-driven price spike strain ties with Ottawa.",
-        "next": "Forever Canadian plans a permanent office, and Treaty 7 chiefs are calling for action to repair divisions left by the referendum."
-      }
     }
   ],
   "sudan-darfur-kordofan-famine-alert": [
+    {
+      "at": "2026-10-24T14:01:26.501Z",
+      "text": "Amnesty reports unlawful killings, detention and torture in El Fasher a year after the RSF took it, and says its population is down to seven percent of last year's high. Reports say a COMESA summit recommends labeling the RSF a rebel militia.",
+      "sources": [
+        {
+          "title": "El Fasher civilians suffer unlawful killings, detention and torture one year after city’s capture by the RSF: Amnesty",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQOHpsX080eUR6aDNvaEVGSW1DeFhzVUNvWVhxTGJSSDJ4ZXVPd1lYZ2ZieFpWYlhfNjVfMVhyM2NWeVVpNTdOUHNLdC1yZmQxdGhoc1lmQ1FMTWI1czBlZkMxUDZ5Sm9TS0JzUzBYdmdTaWxsOC15dXMwYnRuaWpSZW1DY2VoQkhSTkNvSkhHMHhHVnczMDl0c3NTNENpczNZaDlVUzZKbFJ2TzBPcVJCcUZyX0JzN2EwWlFuT1kzUWpuMERGclRPTktwRUxzOVNFVnBMdTU4SXRWMFAxY1pSakp6QU94YjYtblM4dzVmelZoWEtja0ZtX3NXdnV1eXYyekl0TjM0cw?oc=5",
+          "publisher": "Maktoob"
+        },
+        {
+          "title": "'Everybody is terrorised': El-Fasher population drops to just seven percent of last year's high, Amnesty says",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOa3dmVUhDSEZBOHdyQmxWbFVZRHNSdkgyVlBuWWtiWldCMEQ0WjJWN1ZJQVhoby1JbUd2d1Vib0JHZ1R6bXI2dm1uVU81ZVE0dEt5Nm9XbUVwOEM0bXZTLXpjNzVOOEFidXVuMXhuc1c0N0o3dDU3ajM1dkxkUG1nTllITUFldk04bUNzay1MazVpUnA4VjhrQkFwU3o1T0dTdzYtWnpmbDJfY1lRRHdHLVZqYVV1UEJRZW9fOHhoX19ydGN4?oc=5",
+          "publisher": "Middle East Eye"
+        },
+        {
+          "title": "Sudanese F M: COMESA Summit Recommendations Designate RSF as a Rebel Militia",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQUFrMEVMMkF6amdKLVhGZU9rNUlwcV9ja0pWVjdMd3U5TElrRW1TUXZVTEdvYWRfZDRhakstV01jQUNMcGoxR3BmckIybUJFY3lRZFI0dGM5UW53ZnQycm40aGtrVGY2ZW1OSFFrS1FvNm1CVktjZjh0bUhweVdEeW10Z25yclhCbHNieENmaVZHaWEzSE5VcWRaLW1RN2VYMEtV?oc=5",
+          "publisher": "Sudan Horizon"
+        }
+      ],
+      "headline": "Famine is spreading across Darfur and Kordofan as war and drought deepen hunger, and new reports detail abuses in El Fasher.",
+      "quick": {
+        "happened": "An IPC alert of 12 October says famine risk is rising in Darfur and Kordofan, with child malnutrition at 38% and 30.8% in two camps.",
+        "matters": "Drought covers over half of Sudan's cropland and the aid plan was 57% unfunded on 8 October, while fuel and shipping costs strain deliveries.",
+        "next": "No date is given; watch whether aid convoys, which came under fire on 2 and 3 October, can reach famine areas and how donors respond to the funding gap."
+      }
+    },
     {
       "at": "2026-10-24T06:01:03.252Z",
       "text": "The UN warns drone strikes killed at least 306 people in Sudan in October. Reports say a market strike in Abyei killed at least 220, which Sudan denies, and the BBC says RSF fighters deliberately targeted El-Fasher hospitals.",
@@ -2856,46 +2883,31 @@
         "matters": "Child malnutrition in two South Darfur camps is above the 30% famine threshold, and 8.58 million people are displaced nationwide.",
         "next": "The headlines give no date; the 2026 aid plan was still 57% unfunded on 8 October, and convoys have come under fire."
       }
-    },
-    {
-      "at": "2026-10-23T07:59:48.761Z",
-      "text": "New since the last line: a BBC investigation finds RSF fighters deliberately targeted hospitals in el-Fasher, and the army reportedly recaptures a strategic base in Blue Nile near the Ethiopian border. The Red Cross warns drone attacks are killing hundreds.",
-      "sources": [
-        {
-          "title": "Hospitals deliberately targeted by Sudan's RSF fighters, BBC finds",
-          "url": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss",
-          "publisher": "BBC World"
-        },
-        {
-          "title": "Daily_Brief: #Sudanese army recaptures strategic base near #Ethiopian border from RSF-SPLM-N alliance",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE91Rk8wMTZCZkozQ0tLdk1LOW4tZVNIc05lOWxDMVB3WjdUaGRqX2lHSF9xQUM1ZWpKRk5UOGtwclhoN1BkNzQxbUtjbUl2T1hpbkE?oc=5",
-          "publisher": "Addis Standard"
-        },
-        {
-          "title": "Red Cross warns Sudan drone attacks killing hundreds as homes, markets, displacement camps come under fire",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPYjJkZGh5RDVaeHZLUjFNVFZjOVQxY0lpOEt4bU1Vam1GN2k4NklPMTRseFlNczRRQnVGX2xiTnVoZ3A5XzBNVl83SUFxQnQ5SkV0Tzl1RDR5STZVcndIa3JsRi1EZWpLSTdFSFdhVjlTbWxNelFNLU1GeE9scTBBcUV2TnlJN1lOeFJ1QVhpbHprNXFCVTA5TU1jUHFfUGFTdnF6X3RxOHI0QldBVTFFRUtobEttcUpxdEprV2FiakRXVThYbTZXT3Fya3JNNVE0UWRYTl95UTBhUzVzWF83c05POWVva3dDVjBR?oc=5",
-          "publisher": "The Eastleigh Voice"
-        },
-        {
-          "title": "Sudan’s RSF fighters deliberately targeted atleast 43 hospitals during el-Fasher siege: Report",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQaTlOY2tKeDB0Y1dQaHZ6am9lUjNVdjczMDdraDZwWENzX3JtUmJMb2FEal9DMnRvaFJ3dElMTUJEVEt5R0FHcGhFdFNhQlFVZVZaZHdaVUlOelpIeTI5c3ZGbzNPRTZnTVhCVHJsUTcyV1I1VnlXWi1vbGxJbjVTVllLMFpDMU93T19mZ1prdTFzX1p3QXRuSUdNeGNJQUZuRjRUdEswelpKQ1VrbFhfRjRaa25fTGlDVFdqbG16SzhXdjJ6WU40OUZZbWN1TTViNDczTGFNbzRjUkJNbkR5aEs2RGEzNlFzRVdub05ZcVBJUdIB9wFBVV95cUxOSjA4bnJBMG41b0JNbUlPVUw4UWxqbFlNSjNqbUgzaG5TTDlBOGN3X2JGbFJmLXBhelFYWmtuVEVEcUk2QTZRcldBTVl0MTlCZ2ZFT0lNc3FTNHg4NG9xbFpQYlJlbzlVTGdiMGdlMTJIV2pPazgyUVBnMFUwMmJEdDRuajh0ckFDbDhNVHV5Z0pBVU5MTVJLTDB2WHhVcDM3ckFJSHlaeEJuUFg1RENhaDQ1SUVJWFJWS3UxbXJuSDdMZ01hUWxUbU1xb1I4a3NJb1M0Z2lQQnRJbXIxWkxFV0hIQ3BXa1FEWnJJN1VVaUtPRjNOM0Z3?oc=5",
-          "publisher": "The Times of India"
-        },
-        {
-          "title": "Sudanese army recaptures strategic military base in Blue Nile region - War in Sudan - World",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTEFIaV9yLXloODU1clprWWhodWlVNGFBcHEtdk4xMkhGX2E3Y3J5LS1qaFBCM2xvdFFQNkd3dkw2YXNtcVYyWk40ellYaDBsSmltcE44SjdaUGIyazF2OGo2R3g3ZW9qY3hWUF9ocm5yaUZvSWN4REo0NExZcjBaSmVjNXNwZ08wajhtMzBPcXlVNmNkR2o1TGlFSUFiUk11cU1JM1BSdnoyOE8zdlBsX2twd3BRLU5Xd2V0SDI5RG5wWGtVQ0RQcQ?oc=5",
-          "publisher": "Ahram Online"
-        }
-      ],
-      "headline": "Famine risk keeps rising in Darfur and Kordofan as attacks on hospitals and civilians continue and the fighting pushes into new areas.",
-      "quick": {
-        "happened": "An IPC alert says famine is spreading in Darfur and Kordofan, while the BBC finds RSF fighters deliberately targeted hospitals in el-Fasher.",
-        "matters": "War, drought and aid cuts together leave millions without food, and attacks on hospitals and drone strikes on camps and markets leave families with little care or shelter.",
-        "next": "The headlines give no date. Watch whether aid reaches Darfur and Kordofan and whether the army's airstrikes and base recaptures widen the fighting."
-      }
     }
   ],
   "china-q3-growth": [
+    {
+      "at": "2026-10-24T14:01:26.501Z",
+      "text": "New: China-Europe freight train trips on the eastern corridor hit a record high, per CGTN. Bloomberg says Beijing barely eased austerity just before shifting to stimulus mode.",
+      "sources": [
+        {
+          "title": "China-Europe freight train trips on eastern corridor hit record high",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeEdBYVJSS094NTZsdHdRRk4xUjNzOWpJRkg1dU9kV3V2SmtOY2U4WGhWa1Y1eUFPbHZZWWY1RWRweWhkSVdoRHh4YW40WkpXTFpUUzAyUWlSbWNUV28tZURyR09JQ1p4ZzJjSHh4ZDNUOGp1aWp6THlSNkFIZzJ2WHlCM1NjaEdfX3ZiaTRURVJxeFFaQUJ2V2hXeVMtd2k5Vnpial9jblIzYTJuSUFSdXJDQlRIWFloNTJuRnhIbjNXX1hJRlZUWnhjakZsdw?oc=5",
+          "publisher": "CGTN"
+        },
+        {
+          "title": "China Barely Eased Austerity Just Before Shift to Stimulus Mode",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMzNVNE5TMkFBWS1ReFFlbEgwZGJTMmY2YmJibmZpWE9EVmI0R2dMV0hkZkNBcVJNMnU0Mml5R055bkE3emxEb01SbTYyMjYxdFA2S0tjcEhEdkxLVjlMQl9ELXFQa3l6Skx3U3dZMmxXMGswc0NJYTQ2QzlWXzNHNjhwV0xTNHBzN1VaeGpXRUZ2WGpiT1NHYndhUW1vTEx2MzFLVXJtQkM5OU5oV1lQZHM2RzE?oc=5",
+          "publisher": "Bloomberg"
+        }
+      ],
+      "headline": "China's economy grows 4.5% on strong exports while demand at home stays weak, and record freight train trips link it to Europe.",
+      "quick": {
+        "happened": "China's economy grows 4.5% in the third quarter, helped by strong exports, while domestic demand stays weak.",
+        "matters": "Strong exports to Europe, including steel, arrive just as EU importers face new carbon and deforestation rules.",
+        "next": "The headlines give no date; watch how the EU carbon and deforestation rules affect Chinese steel and other exports."
+      }
+    },
     {
       "at": "2026-10-24T09:01:22.378Z",
       "text": "New: China's GDP for the first three quarters grows 4.6%, per IOL. Braemar says steel exports stay strong despite Middle East disruptions. Reports say credit card defaults are rising among older borrowers.",
@@ -3078,33 +3090,6 @@
         "happened": "China's economy grew 4.5% in the third quarter, beating expectations as exports surged while domestic demand stayed weak.",
         "matters": "Strong exports into Europe arrive as EU importers face new carbon and deforestation rules, including on steel.",
         "next": "ING's week-ahead note lists China's Fifth Plenum, though the headline gives no date; reports say a shift to stimulus mode is coming."
-      }
-    },
-    {
-      "at": "2026-10-23T06:59:40.541Z",
-      "text": "Reports say Beijing is tightening rules on outbound capital (SCMP), and Chery's executive expects overseas-built vehicles to top 50% of its exports (Reuters). VT Markets says the GDP gain masks weak demand, with targeted fiscal support favoured over broad stimulus.",
-      "sources": [
-        {
-          "title": "China's Chery expects overseas-manufactured vehicles to top 50% of exports, exec says",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZHk5ZHpHczUxaXlFNzU2WEpmd0RwZWlmcUlPSlIzTTMtZElTcV9OR3U1OUYyblNndl9DZzFSekswOE85SS1Qb2VIeng4WkVXN1hRX3VpMlI3TC1SZ1BzMUpOY05kR2VmUWFLdU5TTHFKQ0Q5NjZPZkNuek9STzR1TEJyZC10dUF1eW5qeU5CanFlb3lnRUl2cVJreWdPQ2hadTRPOVNNazU1T0tZa0haTmtrX212OUVLVTNQQUxSSUwyalVmNk14NllPUzRoSHhfR3ZNdDBDX01GUQ?oc=5",
-          "publisher": "Reuters"
-        },
-        {
-          "title": "Beijing tightens rules on outbound capital to better shield Chinese assets",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdWkwZU1pRkt0TUthY295VENFMlh1NDRUTktvMkFJUldwU2VKRGFJanFZMDEyc25qNXNwcnkydzNLWTRlV0pyLVEyei1JUnRBa1BLOWdlNFE3M1JydHBmUnBQam9rSjBINU4zdjZTUUxQMk5VV3JFV3AzREUtREVaWHdpVS1tdHluMDdQZ0lVeG1KTTZ2Tm9UMjl4anFLQ29OQTFYelpybnpEaTR3NVJTaFlEWGc0R3dOSzVwaEdLVlduWDJUNWfSAcYBQVVfeXFMTVNTWkNkb1lUa3pEOTNmVVZxZS1ySlQ5ZmxNMVBkRks1WFhzQjJXQVdnNkFQRkxyRFJoR3VETE1ueHg4enpqS0hvbE8zRktZV2NHSWhEWnkxTzJfeG15U2xWTzg2dTFiMG1GMFZMYjBkYlpiWUc5YU5ZMjhoMmVXZkUyTk5SMUpieDdXX3RJcnpwLU5PbWhPWmo0aU9vdmh5RkJEM21QZDNPYko5QjhHNkFMb3dkR1IwRDdOM21SbmdvX01vM21n?oc=5",
-          "publisher": "South China Morning Post"
-        },
-        {
-          "title": "China Q3 GDP Uptick Masks Weak Demand as Targeted Fiscal Support Favoured Over Broad Stimulus",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPeHJYMVVob2o4YjRscGJZc1FBRDBMejZ4dmktN1ZpMGg1TWNzWDNJNjhLM2xsTkloRkFfWmlfMm5IVVlGeXUwY2lpTG1GX1IwMXVENnpsNDlMV1ZGcjNtN0VvQ3hnd0VCZTc4N3FJY3p1a2IwaGVISFpZNTh3WnBlcFc3NjJiQ0ZLWHRRb3Ayb1A2eUVPdGI3QVJhdm1lMkVENWRoUTl0ZVlKbG0wOHFEb2lMN0hPQTZZVzRGUHBvdDhzeWRiYmVoMEZZOUNzbG5ZRWhOTmV3?oc=5",
-          "publisher": "VT Markets"
-        }
-      ],
-      "headline": "China's growth beat forecasts on exports while spending at home stays weak, and that pushes more Chinese goods toward Europe.",
-      "quick": {
-        "happened": "China's economy grew 4.5% in the third quarter on strong exports, while domestic demand stayed weak, and VT Markets says targeted support is favoured over broad stimulus.",
-        "matters": "Strong Chinese exports, including CBAM-exposed steel, head into Europe just as EU importers face new carbon and deforestation rules.",
-        "next": "China's Fifth Plenum is listed among coming events in ING's week-ahead note, though the headlines give no firm date."
       }
     }
   ],
@@ -3729,6 +3714,38 @@
   ],
   "brazil-runoff-2026": [
     {
+      "at": "2026-10-24T14:01:26.501Z",
+      "text": "Both candidates hold final rallies, and Il Sole 24 ORE reports they court evangelical voters. Newsweek reports Bolsonaro's lead has shrunk, with Trump staying on the sidelines. Lula also pushes online outreach, per Reuters.",
+      "sources": [
+        {
+          "title": "Lula, Bolsonaro hold final rallies ahead of Brazil election",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5VdDU5RUgxTHdTOGhCWEFFSE81NE9Ha2pIME5ORnBxMENSUEpQNzZIR09jUGVCUDNkWUFRQWNtcXBXcWh3TWhuRDRaRzZCejFlSUpMcU8tVkpzaE9weV9YdHJUTktONHVLdWtoTEtyLWQ0M3VvTVNFMXdWdWVNVlU?oc=5",
+          "publisher": "Yahoo News Singapore"
+        },
+        {
+          "title": "Brazil: Lula and Bolsonaro court the evangelical vote",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZlhNcXo5SFcydG5scXFzYjZvcTMwZ3RwbXBTZmRoYWpnVEt2OTVSTGNPZG5hQ2xsQUQ3UEI3dUFQYUhvX0VOQ0MxRGNrdFVHZVZKVFFBMXZ4ck5oLVZnUzhMOExUMkhicjFNUHVkcjljdExSNndpc1hIcG9OdXJ2VEdJdGtiUXJ4aU44U2ZkaFhFY21pc2J0enhB?oc=5",
+          "publisher": "Il Sole 24 ORE"
+        },
+        {
+          "title": "With his first smartphone, Lula seeks to catch up to Brazil's online generation",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQTR2TkpZcDQzTkVTUGxOTlJDZFJReU9TaGpsZ2p4N1VneEVPbm51aHY2cUJLbjhORTU2NnVxMTFoWFUyVVNCQmRRcmpGVW54ZHpPZFBSZ0JfWFY1QnZ3SklldVlqYVZfczF2T2lEcU5BMlBEZFdSQ0J0aWFrX2owS053eEloM3RUTGNhbFZLd2hSQkVoaTVGUUN1U1dSRVhaM0Z2c2FZUGltLWU2ZFJLOWY2S0lhMW9qX2Z2Z1Zicw?oc=5",
+          "publisher": "Reuters"
+        },
+        {
+          "title": "Bolsonaro Lead Over Lula Shrinks as Trump Stays on Brazil Election Sideline",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNY0RDSUZUOGU1dlE2MENjVzFOT2QyaFlEZGp5Q3Bacmw3UmxsN3dmMllFN2JUTWFNMHdSZHphYVpZUnJFc0dfYXpsR01rYVI2YTk1ZDJmWDJSTzdFQ1RoZG9IMzFqX3c2QmN1dU1wZXdkSk5mbFFRSy0yaG01Umw4d2lscGFhY0RabVdFcW5za2J4aUxIZXdUczVaeEpudmNya3IweVpQZTNINmRLd0E?oc=5",
+          "publisher": "Newsweek"
+        }
+      ],
+      "headline": "Brazil votes Sunday in a run-off too close to call, and the winner will shape its stance on EU forest import rules.",
+      "quick": {
+        "happened": "Lula and Flávio Bolsonaro hold final rallies before Sunday's run-off, with final-week polls putting Bolsonaro ahead by 1-2 points, within the margin of error.",
+        "matters": "The winner will shape Brazil's stance on the EU deforestation rules (EUDR), which affect what the EU imports.",
+        "next": "Brazilians vote in the run-off on 25 October."
+      }
+    },
+    {
       "at": "2026-10-24T11:39:21.360Z",
       "text": "Neymar backs Flávio Bolsonaro, per Dhaka Tribune. Outlets still split on the final debate's tone: Modern Ghana and Anadolu report clashes on living costs and corruption, while AFP reports a calmer tone. Lula voters make a final push.",
       "sources": [
@@ -3960,33 +3977,6 @@
         "happened": "Lula and Flávio Bolsonaro held their final debate on 23 October, two days before Sunday's run-off, as a court ordered transport for Indigenous voters.",
         "matters": "Mongabay reports environmental officials fear renewed harassment if Bolsonaro wins, which could affect Brazil's stance on forest rules tied to EU imports.",
         "next": "Brazilians vote in the presidential run-off on 25 October."
-      }
-    },
-    {
-      "at": "2026-10-23T19:55:06.924Z",
-      "text": "Brazil readies high-security logistics for Sunday's run-off, reports say. Mongabay says environmental officials fear renewed harassment if Flávio Bolsonaro wins, and The Globe and Mail notes some Lula strongholds flipped to him.",
-      "sources": [
-        {
-          "title": "Environmental officials fear new wave of harassment if Flavio Bolsonaro wins in Brazil",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPanlzaHlLd2JXVTJFNEpuS2l5aGxBcjJfNUpmbi0xSXF2cUdGRUtkdzVCczB0Qk10VE1NSEctNjJOMUZ5bHVQMFBMdERHOHZmVEt2X3l4elRLRlRUX2l0NGNfdUZqSjhOd2FrY2tSVV93SHhpMmZiczBnSjhaR0hmTFdtR0FORXl3UG9Yb1hVRkUtTTlfeUpYN0dpUDZVZjg4VGRFNFhHclFzOUR6QkV4MkxrMUkyLXFvdHEzYzZB0gHDAUFVX3lxTFBBalpsc2ljMWtJRkhVZmhNbVZlOTgyNlN2LUduS2JySU5fbHVPSEpYQ2JiMDVWM25tVV9fY3BweHVtbVBYSmNCdkY5LXFyODhrWmxySnYydXljOE5QamVHUDBQa2ZUN1F5MEFRYUszR2t4UXdEN2N5bC1iUkZ0czNRYlhiZzJzX0hKUnBNR0ZadnhDbjV5SWNZUHFXcWFGTlVCVlhxbmdwNktpZm5CNnVqcDBGWlFJRDlxcUhuZF9qR25jdw?oc=5",
-          "publisher": "news - Mongabay"
-        },
-        {
-          "title": "Some of Lula’s strongholds flipped for Flávio Bolsonaro. On Sunday, we’ll see where Brazil falls",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZERDOUZTd2VRT1V6R1JpRWFfbl80MHBTdHhvX2dMeFZoWm51eVM2X2VkTk5tTWV2UVB0dnpjaWMzbDZjNUw1NzYteVUwb0o1NHFPaEJIUHB1d1hCMlZ3ZDBBZ1lYYVprQVNwM0FjXzJPVUttRndvUFpVZ3FQWm1xZi1QVWZKdTM1bUJRQVBtVWpQUUZpdm1aWHNCbGtBWTUwck1seVRKYlo?oc=5",
-          "publisher": "The Globe and Mail"
-        },
-        {
-          "title": "Brazil Prepares High-Security Logistics For Runoff Vote",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZmJpbmQxRzZIZm9KRFpwNHE4WWJFeThMdm4xVmVwVDFiclE0dWlFeW4wZmVFWVc0RUZlLVNieVYxZkRUYnhidVpqczA1SDlIOFpxNTE5a2lTTDhUYjBOaVA1QWJvV0JyclVXckw5WTNpTVRmY2lnMzdLMFRTX21vSlQzcmZHYVJqSkpWckY4UEM?oc=5",
-          "publisher": "teleSUR English"
-        }
-      ],
-      "headline": "Brazil votes Sunday in a tight run-off, and the result could change how the country treats its forests and its trade with the EU.",
-      "quick": {
-        "happened": "Brazil prepares for Sunday's run-off between Flávio Bolsonaro and Lula, with security logistics in place and some Lula strongholds having flipped to Bolsonaro, The Globe and Mail says.",
-        "matters": "Mongabay reports environmental officials fear new harassment if Bolsonaro wins, which could affect Brazil's forest policy and its stance on EU import rules.",
-        "next": "Brazil holds the presidential run-off on 25 October."
       }
     }
   ],
@@ -4893,6 +4883,33 @@
   ],
   "israel-election-2026": [
     {
+      "at": "2026-10-24T14:01:26.501Z",
+      "text": "Netanyahu says he plans a major West Bank operation after a deadly attack, and Israel places Hebron under closure. Separately, reports say Arab-Israeli parties are ready for an opposition alliance to bring him down.",
+      "sources": [
+        {
+          "title": "Netanyahu orders West Bank operation",
+          "url": "https://www.france24.com/en/netanyahu-orders-west-bank-operation",
+          "publisher": "France 24"
+        },
+        {
+          "title": "Netanyahu says plans major West Bank operation as Israel places Hebron under closure after deadly attack",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZVVzbDY3MGF5T1R5NWcybnZPUGFVQnZMWEdxZlN1NnEzTXMtUjdURnJfMlJvQkNuQ3M3QncxOWRVVlhGRWxyNnBEMmowS1FkS3o0VmZuQWpqSHdWck43Z0txcjM0S1NYUkFWRGN5eHNLU0pGeWJMSUx5THJVcG1CTmNEWjN1aU5OVmJoVGFyUFIzai1Oa1lOYWkxYTUzVG51clhZRmJtOUtNVjdQTHpjWTJJWXVtTzhCNjRnSG9teXV4T29SMWl3UExsYw?oc=5",
+          "publisher": "Macau Business"
+        },
+        {
+          "title": "To bring down Netanyahu, Arab-Israeli parties ready for opposition alliance",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNUJPS2VhZ29qcFdrUDhIVS1xSXZsWVJnRmZMamVtQ0ZoTjdxUDQ0NUpaaG9CMTM0bVdTUkxzcEM3SFE2bXZBYmxSQ3pjbXZrQmNCWk5jdjNSQTJDbjlqSXlMMVMyZzBhTlhhUm05V2J2dTFxaldoME9LbHV2QkRDZ2dSRUhEa0hKMGZfRG8yVWtxWVp3UHBSa3BMb3JMMnVrbXBsd0FJQVVhdUxOY2U4c05ZcW1sLWdXQ0ozdWtn?oc=5",
+          "publisher": "アラブニュース"
+        }
+      ],
+      "headline": "Israel votes on 27 October with neither side near a majority, as Netanyahu announces a West Bank operation days before the vote.",
+      "quick": {
+        "happened": "Netanyahu says he plans a major West Bank operation after a deadly attack, and Israel closes off Hebron, while polls show neither bloc reaching 61 seats.",
+        "matters": "The vote is a referendum on the Iran war, and a wider Iran war would keep Gulf oil exports, now at 60-80% of normal, under strain.",
+        "next": "Israel votes on 27 October for all 120 Knesset seats, with neither camp on track to reach 61 in the latest Kan poll."
+      }
+    },
+    {
       "at": "2026-10-24T13:01:31.697Z",
       "text": "The Guardian reports Israeli soldiers raze a neighbourhood in Hebron, driving families from their homes. Axios reports Trump advisers see an opportunity beyond Netanyahu, days before the vote.",
       "sources": [
@@ -5074,33 +5091,6 @@
         "happened": "The campaign turns ugly days before the 27 October vote, and a Kan poll on 18 October left neither camp near 61 seats.",
         "matters": "The vote judges Netanyahu's handling of Gaza and the Iran war, which has cut Gulf energy exports to 60-80% of normal.",
         "next": "Israelis vote on 27 October; with neither bloc near 61 seats in the poll, coalition bargaining would follow."
-      }
-    },
-    {
-      "at": "2026-10-24T05:00:54.107Z",
-      "text": "Netanyahu says an end to US military aid is 'only a matter of time', and he orders a West Bank closure after Israeli soldiers and Palestinian gunmen are killed in exchanges. Reports say overseas Israelis are mobilising to vote.",
-      "sources": [
-        {
-          "title": "Netanyahu says end to US military aid to Israel ‘only a matter of time’",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdXdfSlJVY0xSdXh0Nl9vLVp0RVhCWDJGajZZZnR3YXFXaWJKZ0RKbHdWZGRlbzdmNlg4a2Z2VW8wY01HaDMtamJFWTY5SHhzTWxRZ1JZdzB2QzhaOThSRHJLNVltQ25USGcxZ3l2UTdBRG5SZllSRWlVcUkyRHZ3YXFabW4teGI4SElZQTFlOVJwS2s3T3BZM1pMcm5VSm8tbV9JZHlhOWllQmpQN044VWRaYTFXQQ?oc=5",
-          "publisher": "Anadolu Ajansı"
-        },
-        {
-          "title": "Netanyahu orders West Bank closure as Israeli soldiers, Palestinian gunmen killed in exchanges",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1OZWtjSnpFMTJpcGExeGxMdTVURVJUZWdUOXVEYXBnLVdpOGdmWk5XdnRTeXB6OUpaTVVZMUUzenFrME9jdngwZWwxeF81TmF5eUtGQ2xBWll1N29XM0JFcS16MUlCN3hPTEptTUZkb1I5eG5RN3M1TEVB?oc=5",
-          "publisher": "CBC"
-        },
-        {
-          "title": "Overseas Israelis mobilise for 'change' in election that could end Netanyahu era",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOT01Pamd5YVVQZy1MbVI3RUR4Rm1HSGVIN0xScFk5NVk3UTFWY1ViWUFSSTJyR3R5REI3S0JRSWVnLUtzVkFYRFh6UFB4NHEycUNkcHU1a2tldnhCZEpfc1oya1ZBYmlNbEpUVHF6OFNEQ0FsYVhjeTdRWjJEYVhRQnhaTlFQaFdaLXRMekNsZF9YdmFxU3hOdGdXb045MmE3ZHVJMURzdHpnb3ZibHV6TGRFejM5a2JqaDB3X0luT2s0OTZFLXJSTDk5R28?oc=5",
-          "publisher": "The National"
-        }
-      ],
-      "headline": "Israel votes on 27 October with neither Netanyahu's camp nor his rivals close to a majority, so talks to form a government may drag on.",
-      "quick": {
-        "happened": "Israel's campaign ends with final polls showing Netanyahu's bloc at 50 seats and the opposition at 52, both short of the 61 needed.",
-        "matters": "The vote is seen as a verdict on Netanyahu's handling of Gaza and the Iran war, which affects Gulf energy supply and regional stability.",
-        "next": "Israelis vote on 27 October for all 120 Knesset seats, and the parties then try to build a coalition."
       }
     }
   ],
@@ -5631,6 +5621,38 @@
   ],
   "north-korea-missile-tests-2026": [
     {
+      "at": "2026-10-24T14:01:26.501Z",
+      "text": "Nothing material is new since the last line. Reports say Kim's Dandong visit is to inaugurate the new bridge, and one outlet quotes him honoring Chinese troops who supported North Korea.",
+      "sources": [
+        {
+          "title": "Kim Jong-un Meets Chinese Official Wang Huning in Dandong",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSVNnOW4xVjNaYnZpRTRscW1KNFV5M2NHbnBlay1BaUxDV2lMbjZsU1BSeFhabjJhNkQ4WTROTTc3OFJGbEUxNTFvS2E5dmFKeXJCenBuS1lCMkNYcHcyV1dDQzlEcDRaMGtBc1VyWGlUNDIxQUxESGJFVGt0OVNpbzVFU0M0cEhF?oc=5",
+          "publisher": "조선일보"
+        },
+        {
+          "title": "North Korean leader Kim Jong Un visits China to inaugurate a new cross-border bridge",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNREhOSU5GcG8wdU8tdjdxV25FdFk4cW9ybHNtNG5nc0I4MVRjbVlHbE02UFZVdUg2OE9tUVFSUFA4T2JsYThSczQ2bVZuMXc4WDA3c1ZPMUpSR2JLcjNiMmtjUWVPSlFoSE9fcHNHVXMxZFhJTzJvRnZhMkdyLTRvanRVRnE4OGQwT2tpRV81S3JQNkF4TXZiYnRqM3A2RFVTUFpIN3dUelRILU5GdHRPVGVaSTE2bjN1bTh6NzFRNm5fVVBpZVlIQWJyMmVNaUg5ZUY3QVVoTzZqN2lBeVRhQzBmcWhxcE4wMVdnREZmX0tLSlJtaGdrLQ?oc=5",
+          "publisher": "The Killeen Daily Herald"
+        },
+        {
+          "title": "North Korean leader Kim Jong Un visits China to inaugurate a new cross-border bridge | World News | 2news.com",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPX2ZvbjdDcFVsRjItV0dnQWEwOGhqQ0hWOTRzYzlsUVlDc245cnNzeHpZLW8tLUs0aHczVl9oUDAyMS1OR1pkX01lX2Z5MVJUQmh6OXU4dU01Tm1ZZkYwb1ZSakNIbXNuMzF5M3pnS042bWQ5VFhocms2RHlXVVVSUW0yWTdyajg5TDFqeURkTjZTeHlJRTA3NzgwaXN4OXNxbVNOR2taVkFKeFR2UjJPQUp1elpiZnYta1JCV0FGVm1xY2hodXpXcFhkbW9udXFvNHF3Q20yNjI3ZW1QVktqMHhjbFU2VTY1Zy1KUGZtUmhNTk5kVmx1NA?oc=5",
+          "publisher": "KTVN"
+        },
+        {
+          "title": "[Breaking] Kim Jong Un: \"Honoring Chinese troops who supported North Korea at every historic turning point... with gratitude and respect\" - The Asia Business Daily",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE15Y3BUbG1Nc1ZLcGRUOHl6ZzQ4LXZwVkdIMlIzYmo4Sl9ncFVVdlUyZUpLcF9xbzUxZG4yWjR2azZXZV9uVDkyVmRyUjMybUk2YTZ0OFZPLWRTcE1VTU5MLXRQSWo?oc=5",
+          "publisher": "아시아경제"
+        }
+      ],
+      "headline": "Kim Jong Un makes a rare trip to China over a new bridge, which could pave the way for a Trump meeting next month.",
+      "quick": {
+        "happened": "Kim Jong Un crosses the new Yalu River bridge into Dandong, his first China trip in over a year, reports say to inaugurate the bridge.",
+        "matters": "The trip fuels summit talk and shows North Korea leaning on Beijing, as it also deepens ties with Moscow, one outlet notes.",
+        "next": "Trump says he 'may' meet Kim during his November Asia trip, which includes the APEC summit in Shenzhen on 18-19 November."
+      }
+    },
+    {
       "at": "2026-10-24T13:01:31.697Z",
       "text": "Kim Jong Un crosses a newly opened Yalu River bridge into Dandong, his first known trip abroad in a year. Reports say he met Wang Huning, adding to the earlier Li Qiang report, and the visit fuels summit speculation.",
       "sources": [
@@ -5892,38 +5914,6 @@
         "happened": "North Korea fired submarine-launched cruise missiles on 14 October, capping a month of launches, and Kim now calls for the world's strongest armed forces.",
         "matters": "Reports say the US Army is activating an air defense battalion in Guam, and the tests raise the price for any Trump-Kim talks.",
         "next": "Trump heads to the APEC summit in Shenzhen on 18-19 November; US and South Korean officials see little chance of a Trump-Kim meeting this year."
-      }
-    },
-    {
-      "at": "2026-10-24T01:00:50.642Z",
-      "text": "Reports say the US Army activates an air defense battalion in Guam over North Korean and Chinese missile threats. Kim's 'military revolution' call and the fading Trump-Kim summit odds were already covered in the previous line.",
-      "sources": [
-        {
-          "title": "US Army activates air defense battalion in Guam amid N. Korean, Chinese missile threats: report",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNZnlNOXR1MEtTTkl3YlZJbEN6THpBMWk1OW1NSjdmUklnVjZNM3hzRlpsN1o3WjNVdFgwbHkyTHB2R05OeXhvbjBZMGFCRHc5enhJeGZrMjJ5NXp1NnBMVDFpR2V6c2xxdEZIMklhaTBRWlYtR0xwbjdmUzlzaUpITEVyM2ZyTmcwanVBQjFPR3BBQ3ppeTBWY0dzbmYwWVBoVGRDNFpmbG1kYjZPdjZ3MVN3X3RISkdueld0ellkN3NvTXRyZVRLbXBoR1NyeS0yRlRKZy1MUlUtSXYwZ21TdFVFb1V0aHlWaURJONIB8gFBVV95cUxPT2dtYnREN1FZNWpCUTVaaG1kNmY5SmdDZ2E0bW9lcTU5dDQ3MnMydmVJQUh5eFhxUEQ1bE9vcER0emh2WHhFNTJYb2g1N3I4SHc1ekVHei1HLWtITHUwTXloNk1tTlRmY1Flb2VGenlBOE1yS05QSU9oZVh3MjhMMUM4WlZFLTlTWkFJbkN6SmRaYUJTYVY2dVZ5VFhibmNiZlJpTG9XS2pDZ1BFSTdPU3pSQTRqdFVzMVR4WXNMTDZXaUFoVVAwTXRGZmhlYkFiVGJBSkN6T3IzVU9UTHR0c25FODVmR3pkai1BV3FleHg1dw?oc=5",
-          "publisher": "The Korea Times"
-        },
-        {
-          "title": "Army activates air defense battalion in Guam to guard against missiles from China, North Korea",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVE8wNGw5cndmSS1OVnd3NzVzNnpOcmw0OURMS1h0QUtCeWRlZUNiVGhJcElGdTI2RGg3NFAyX3BLc0x2MHUtc1hSUTcwNy1WVnI4cEl3czdPM1otN2JpNTYzd0VwV1doMWxwbllvUGQxUG9MWEthU0QwQ0gzYkJNejVvNW9KOXVaU0FmcGc4SXBncFVKQUNhYzVmQlZYNG1TUjQ2ckx1cFBWMWRSYlVKUldNdmljWkJaM0E?oc=5",
-          "publisher": "Washington Times"
-        },
-        {
-          "title": "North Korea's Kim calls for 'military revolution' as he urges stronger army units",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNkpnNU5LamJzRFVPSFE3ajg0dGJOUUNVeVkzV3ZlVjJGblR3Ukt3cV82ZVRZYTJENENmZ1hMU1hMU1BYTUFHNG4ycE5OQXlTVGlNdFFnVHM0M0VLOGcxYmltZExGaF92TUJpbU84bDEybTAxTGtCSy1SYWNrXzRCS3hCWGxzWnA0ZHo2Q0xkWmJlNDlXeHYyZHdNckxIRWNzbU1GOVZYaW9IY21QSjkzbUtyV0FUVnRvZFROSHpMYkl5aDI00gHEAUFVX3lxTFA2Smc1TktqYnNEVU9IUTdqODR0Yk5RQ1V5WTNXdmVWMkZuVHdSS3dxXzZlVFlhMkQ0Q2ZnWExTWExTUFhNQUc0bjJwTk5BeVNUaU10UWdUczQzRUs4ZzFiaW1kTEZoX3ZNQmltTzhsMTJtMDFMa0JLLVJhY2tfNEJLeEJYbHNacDRkejZDTGRaYmU0OVd4djJkd01yTEhFY3NtTUY5Vlhpb0hjbVBKOTNtS3JXQVRWdG9kVE5IekxiSXloMjQ?oc=5",
-          "publisher": "NST Online"
-        },
-        {
-          "title": "US, South Korean officials estimate little chance of Trump-Kim meeting this year",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVi10ODBJbzZ4OU5jMTlXVDNWSXJOd1pNWmNlRFZFSmNFNVkxTFB6NWYzb0JTZTB6S19OQTF1cWVDaXdXMHNIcTJxZGtQb2Jwcy1yQWtmdkxMWWlCai05WlRZTk04QXF6VjRfRUk2MjJtY2FxdmJDMDRvdXZXMGxJVmI0Z3doc2FGUlRhR3VUd2xnMXI4M1VvSE5kYXFuY2RvU3BfMmhRYnF6X1ZJOTlMUWhlSzQtakNIZGc?oc=5",
-          "publisher": "The Business Times"
-        }
-      ],
-      "headline": "The US moves air defenses to Guam as North Korea builds up its missiles, and talk of a Trump-Kim meeting fades.",
-      "quick": {
-        "happened": "Reports say the US Army activates an air defense battalion in Guam, as Kim Jong Un calls for a 'military revolution' and stronger army units.",
-        "matters": "North Korea's growing mix of missiles complicates South Korea's defense and pushes the US to add protection for its Pacific bases.",
-        "next": "Trump said he 'may' meet Kim on his November Asia trip, but US and South Korean officials see little chance of a meeting this year."
       }
     }
   ],
@@ -7436,6 +7426,28 @@
     }
   ],
   "west-bank-lockdown-hebron-2026": [
+    {
+      "at": "2026-10-24T14:01:26.501Z",
+      "text": "Israeli forces displace about 1,200 Palestinians in Hebron, and reports say soldiers raze a neighbourhood, driving families from their homes. This is new since the earlier line on the operation and closure.",
+      "sources": [
+        {
+          "title": "Israeli forces displace 1,200 Palestinians in Hebron after deadly attack on soldiers",
+          "url": "https://www.france24.com/en/middle-east/20261024-israeli-forces-displace-1-200-palestinians-in-hebron-after-deadly-attack-on-soldiers",
+          "publisher": "France 24"
+        },
+        {
+          "title": "Israeli soldiers raze neighbourhood in Hebron, driving families from homes",
+          "url": "https://www.theguardian.com/world/2026/oct/24/israel-soldiers-raze-west-bank-neighbourhood-hebron-families-from-homes",
+          "publisher": "The Guardian World"
+        }
+      ],
+      "headline": "Israel's operation in Hebron has pushed about 1,200 Palestinians from their homes, deepening a West Bank crisis that could shape Israel's coming vote.",
+      "quick": {
+        "happened": "Israel closed the West Bank after two soldiers were killed, and forces now displace about 1,200 Palestinians in Hebron, where reports say a neighbourhood is razed.",
+        "matters": "The closure and displacement raise the risk of wider escalation, and the UN human rights office calls the full closure collective punishment.",
+        "next": "Israel votes on 27 October with Netanyahu's bloc short of a majority, so security politics around the operation may weigh on the campaign."
+      }
+    },
     {
       "at": "2026-10-24T11:01:25.093Z",
       "text": "Netanyahu orders a major West Bank operation, and the UN human rights office calls the full closure collective punishment. Reports say Israel raids towns and detains dozens of Palestinians.",
