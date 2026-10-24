@@ -284,6 +284,33 @@
   ],
   "ukraine-summit-diplomacy": [
     {
+      "at": "2026-10-24T01:00:50.642Z",
+      "text": "Reports say Russia and Ukraine also agree on civilian evacuations from Oleshky and will hold peace talks next month. Separately, Ukraine is partnering with Nokia and ICEYE to find a Starlink alternative.",
+      "sources": [
+        {
+          "title": "Melania Trump Announces Oleshky Truce as Ukraine and Russia Agree to Civilian Evacuations",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9HbHg4bzZKaXRGeGd1a3JMRHdHZGkxZzRGQlE2c21EbTlVWl9oVjVsTy1uV0pkRUMzSDVxSnA2Z09CQmRfN1RBMW9rVQ?oc=5",
+          "publisher": "Kyiv Post"
+        },
+        {
+          "title": "Russia, Ukraine agree on ceasefire in embattled town, to hold peace talks next month",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPS0pkb3lHdzFYT01uRHhEb2pWaVd5R2c0d2RVcnBmMHg0NU81a0M3U1F3RXpWb2stR0lwNVFaSkloUGN4aGw5RHJlUnItaldZei14aVZNWnB6V2JaQjZKeGI5X0dWUHBDRUNzWVZ5Y3l4TEF3aWZoSTNYTGM2b1hPenVWNVctT1N5c3BwV2QzcXQ5dUVNUUE5SFlOR2paRDZXaE1DS3RVaXAtWWIwVll0MUNtYkJZSWJKYlVpRk1QTnh1Zw?oc=5",
+          "publisher": "The Straits Times"
+        },
+        {
+          "title": "In hunt for Starlink alternative, Ukraine partners with Nokia and satellite maker ICEYE",
+          "url": "https://www.cnbc.com/2026/10/23/ukraine-partners-with-nokia-and-iceye-for-starlink-alternative.html",
+          "publisher": "CNBC World"
+        }
+      ],
+      "headline": "Putin wants a Ukraine summit with Trump and Xi, while reports say Russia and Ukraine will hold peace talks next month.",
+      "quick": {
+        "happened": "Putin proposed a summit with Trump and Xi on a Ukraine deal but refuses to meet Zelensky, while a local ceasefire is set for Oleshky.",
+        "matters": "Ukraine aid is a campaign issue in France before the April 2027 election, and it competes with the Iran war for US attention and money.",
+        "next": "A Ukrainian negotiator says the Oleshky ceasefire starts Oct. 27, and reports say Russia and Ukraine hold peace talks next month."
+      }
+    },
+    {
       "at": "2026-10-23T23:00:39.410Z",
       "text": "A Ukrainian negotiator says the Oleshky humanitarian ceasefire starts Tuesday, Oct. 27. The White House says Melania Trump brokered it, and Global News reports the US restored Starlink.",
       "sources": [
@@ -515,33 +542,6 @@
         "happened": "Russia and Ukraine agreed to a temporary local ceasefire in Oleshky, a town hit by a food crisis; the White House says Melania Trump helped broker it.",
         "matters": "It shows both sides can still agree on narrow humanitarian steps, even as talks on a wider Ukraine deal remain stuck.",
         "next": "The headlines give no date; the timing of evacuations and aid is still being worked out."
-      }
-    },
-    {
-      "at": "2026-10-23T15:56:01.305Z",
-      "text": "The Kremlin confirms the Oleshky ceasefire and says it is working with Ukraine on timing for evacuations. Trump says Melania's focus is saving children. Reports say residents face food shortages.",
-      "sources": [
-        {
-          "title": "Kremlin confirms Oleshky ceasefire, says working with Ukraine on evacuation timing",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbzYwX3FHSlpsZHNRQ1dOalFPdmVHR3JicGEwMk04VnpRcVREZnRIN0w0V2NVc2tIVC1FdVFLY1hLQzNya20ycmZZN2ctNTZEMS1hQVY4VTV3OWlTSzh1dUJYME1UNjB3YnkxeHJCZVV3MmNhQVhXMmdSOEh5UXFHaVFIMy1xMlBRZ3ZuN2VobXFXWUgwN0cwQmR5aWV2anVXTTBTNlozVmlKRlBrWGww?oc=5",
-          "publisher": "WHBL News"
-        },
-        {
-          "title": "Melania's focus is ‘to save children,’ Trump says after Oleshky truce deal",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOM2RuNkdEcGlxV18xdVZRZ0luRmU5UFJTcTJqWmJXVmxNc2Q5bFp1eVpjUENjWUNpNEtxeVdZdGY1TXBaTGRnS3R5WWpCMGJPMEFIQ3dMNU16aENGTDI5aklxUnZTY3l5Vk1mcFhTYU9tOEI2azBCWTI3Qk9feVVNZDZQLU0yYkdtLVRwb1BuUFpPODRLTEZ1V0dSS2VoZXl0V1NDSWFTemk0QVdsczR0VWx3?oc=5",
-          "publisher": "Anadolu Ajansı"
-        },
-        {
-          "title": "Melania Trump announces Russia-Ukraine ceasefire in Oleshky as residents face food shortages",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUm5iQ3JSaUt0bWlIcDlfWnNVbVFBQmJMVzFGeEh5UnRHbGhtSzhkTy1pdW5YSXpUeGxic2xmMFdMQnNpNHpLcmRaUk5fS1RYUWdHTWpPS213Zk44eUZvWWxBLW1xbTI1cjdVaXg0cUVtLTRIbXFweTR3d1U5eUFoekpiZHp4Q3Mwa1dkMVdkV2t5c2tpRm5jaUdwSGdWcGZSY1cwRzY5Z3pHSDJ6VGFZS0ZLWWh2TzlKNTBYZnZ6RW1yOTJ6NHBKdVFnR3BxUmtSVF9jQtIB2gFBVV95cUxOX1U0LW9vdWR0TmpZcG93b1JTTXh2bm4tZlExR0ZpM3dCM0xxa3h0OVIyTDZEczN6S29QODZ6a2hQMHZjbUJLXzNJRl9HeWd5WjZCTVc2d0tUNjVvWE11Y0pWTWZXYUg5R1NfOTlfdF9oRkh1MHZLTGFGVnVnVkpQbndKcGFSeGtQRUhQTWN5Mko4ZW53TklRQW5lQkdNeVA4VENNLXV3WWFpZWwxYUxuM2RncXMwanF0SkNlWmNkMzl4aHNJY0VySUlWUEJVM181d3VObVllNUVPZw?oc=5",
-          "publisher": "Firstpost"
-        }
-      ],
-      "headline": "Russia and Ukraine agree a local ceasefire in Oleshky for evacuations, while Putin's push for a bigger summit with Trump and Xi continues.",
-      "quick": {
-        "happened": "Russia and Ukraine agree a local ceasefire in occupied Oleshky for civilian evacuations and aid, and the Kremlin confirms it is working with Ukraine on timing.",
-        "matters": "The truce shows talks can produce small, concrete results, though Putin's summit proposal and the French aid debate show the wider fight over Ukraine support is far from settled.",
-        "next": "The evacuation timing is still being worked out, and the headlines give no date for it or for any summit."
       }
     }
   ],
@@ -815,6 +815,23 @@
   ],
   "apec-shenzhen-2026": [
     {
+      "at": "2026-10-24T01:00:50.642Z",
+      "text": "Nothing material is new for this event. The latest headlines cover Trump easing some 50% tariffs on Canadian goods, and none mention Shenzhen, Xi or APEC.",
+      "sources": [
+        {
+          "title": "Trump is exempting some Canadian goods from 50% tariffs while adding new ones",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONjBQSGpJS1M4MzNuMzhfSWwzODE5b2dERVFtUlZESXpPVVpUMVFNSk9PQzFLTU96OV9tbGhvZWdOQ0tBdDJkMi03dnJ0MWkyZ2JWdjJoZjBYdTRaak1ITVNseDlteGJ6VDdXcWk1cnFfMjFyeVFHbDZWU0Fzai1zUQ?oc=5",
+          "publisher": "Quartz"
+        }
+      ],
+      "headline": "Trump plans to meet Xi at the APEC summit in Shenzhen on 18-19 November, where China will push for lower US tariffs.",
+      "quick": {
+        "happened": "China hosts the APEC leaders' meeting in Shenzhen on 18-19 November, and Trump plans to attend, following Xi's state visit to Washington in September.",
+        "matters": "Beijing sets the agenda and wants tariff relief, so the outcome could affect trade, Chinese growth and talks on North Korea and Ukraine.",
+        "next": "Leaders gather in Shenzhen on 18-19 November, and Trump says he may also meet Kim Jong Un on the trip."
+      }
+    },
+    {
       "at": "2026-10-23T23:00:39.410Z",
       "text": "Nothing material is new for this event. The latest headlines cover Trump easing some 50% tariffs on Canadian goods, with changes taking effect October 30, and do not mention Shenzhen, Xi or APEC.",
       "sources": [
@@ -961,33 +978,6 @@
         "happened": "Reports say US and South Korean officials see little chance of a Trump-Kim meeting this year, as North Korea leaves Trump's outreach unanswered.",
         "matters": "Beijing hopes the summit brings US tariff relief, and whether Trump meets Kim bears on North Korea's recent missile tests.",
         "next": "Trump is due at the APEC leaders' meeting in Shenzhen on 18-19 November."
-      }
-    },
-    {
-      "at": "2026-10-23T08:59:52.141Z",
-      "text": "Reports say the Kremlin sees China as a possible venue for a Trump, Xi and Putin summit on ending the Ukraine war. Trump's outreach to Kim ahead of APEC still gets no reply from Pyongyang, reports say.",
-      "sources": [
-        {
-          "title": "Trump, Xi, Putin Could Hold Trilateral Summit in China to End Ukraine War, Kremlin Says",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQW9VcW9Ld1RJb29Mdi05NW5iS3dnbWgxMWk1VkEwX0cweTUzdldLbzlmMUNNNXdnRGNRUHlVTzdYOW9Mbl96M0VOUUU0S05kN1NlZFlPVmtRS2hvUm5YLXJkRVF5Qll3Ym9zYkRlSURrWGtPUTd2VHZBMERzRzUyMTZPdHpkMHd3ZWF2V05VY2MtN192WWZwU0NrN3h0Rmo2ZHViYzNUUG1admZ3OERsNmlGV3VnbmVZUlFNTGJ6ZkpxbVJ1X0RV?oc=5",
-          "publisher": "Vision Times"
-        },
-        {
-          "title": "Trump said he plans to meet Kim Jong-un, North Korea keeps him waiting, says report",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTjNGMTVZcV9ZekpvOUJtNG9Ib1g1YjdHcm5rNzVnSlVfT0M4ZklYYkpBUk5Jd2NtazlaNUFvc1IyR0RQcUMtUmRiNm1zTlhiNDFIbzVBZS1iWEtzTmtSRGc3VmxLWXpCcDliY1g3Z2xnMzk2cHllcnF3LTNaTkkyLTVCOHZpcmU4WG1nMmdydXcxRnJHYWpnRHVrWmV1SmdxcHVUbndPRHRoaW94Wm5JRE94OHc3VWFTN1JBakZwQ2xoOHo0dkHSAcsBQVVfeXFMTVRQNWNqeWV1NmpaM210cmxfeDN2TFdNQ1NTMU1pZHNtQ1dNMHplaFZFaUhUVmhlT1hhOUVIMmFmMk5pLTlER01GN2tOazd0bXVpU0EyWExKUHFLVV93cGN6Z28yQlQ0NkxtczVBVjFCQldJS1hSVGdQUlpXSEhDOUU4QjBKcUZjNzhZdXNxQXI5akVpSHRFcGlXN2toNkhJa0ZhRGIwYkFUWGNBQjNMazVUQ2t1Wk41MXVwR2s3Vm5xQmIxVzg1YkVUZEk?oc=5",
-          "publisher": "Firstpost"
-        },
-        {
-          "title": "Ahead of APEC summit, Trump comes knocking on Kim's door",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1JWTh1bGRtd000QWd6c3JQelU4OXBTbmdfeTBRaDJqSk1NeWlTRnpVU0VTdnZaSVJBYWtBMUhDd183MFhlS0lsWTRYUTN1UGxQV0pzZUdNNThGVDNwREg2YktUX01lbkdKWFRvblRvR2x0TkZVWl9qd0liZw?oc=5",
-          "publisher": "AFP.com"
-        }
-      ],
-      "headline": "Trump plans to attend China's Shenzhen summit on 18-19 November, where Beijing wants tariff relief, and a Kim meeting looks unlikely.",
-      "quick": {
-        "happened": "Trump plans to attend China's APEC leaders' meeting in Shenzhen, and reports say North Korea has not answered his outreach to Kim Jong Un.",
-        "matters": "Beijing will press for tariff relief there, and the Kremlin says a Trump, Xi and Putin summit on Ukraine could be held in China.",
-        "next": "The summit runs 18-19 November in Shenzhen; Trump says he may also meet Kim, though US and South Korean officials see little chance, reports say."
       }
     }
   ],
@@ -1732,6 +1722,33 @@
   ],
   "us-canada-trade-war": [
     {
+      "at": "2026-10-24T01:00:50.642Z",
+      "text": "Nothing material is new. Coverage ties the exemptions to Senator Susan Collins's close Maine race, and CBC looks at how the tariff swaps hit some Canadian businesses.",
+      "sources": [
+        {
+          "title": "How new Trump tariff swaps are impacting some Canadian businesses | Hanomansing Live",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9rRklBU2VKM28yYzdpU3FvSmkyQjRkSmJIa0MydndPbHZDbUxrWWZleFNfbm5CMlotcjhWNzZNdW11djlLclEtZGctSHpMNmhaTjQxNHZJSjNPdw?oc=5",
+          "publisher": "CBC"
+        },
+        {
+          "title": "Trump ends tariffs on some Canadian products, as Senator Collins faces close race",
+          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxONE90SEx5WXE5MGxjUU9wT0NTM29ieWZfLW9ZbDdXMVJCT0RCaWU0VkVGREJQeV92ZG10QWVWVlhSWE8wcVZNTl8wNE5uWkxNZmY3NUhBblA2bzFBbUNtUWNOWHNlMWVmdGowY3Q3ZzdVQW9SSlpSQVFILU1ld0N0YVkxZTRROFQ5QmZPOGJXX0kyMzM1bV91MnljLUpCTDFJUmFHRUkxR3ZMX1l1dGY3TXlXS3ZkdF9McGdDb0JOLXhaNjN6SUpPTlZpZTFTcGlaSWhBMHpybGpjZ3VPNmsya2YzWjBXTGZSdFk5dWliWUlGRWhfM3BkSTRrUjM5NldBb2tOWl96bFJOTlhY?oc=5",
+          "publisher": "The Lufkin Daily News"
+        },
+        {
+          "title": "White House lifts tariffs on some Canadian goods as midterm elections loom",
+          "url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC Business"
+        }
+      ],
+      "headline": "The US drops 50% tariffs on some Canadian goods and adds others, a swap tied to the close Maine Senate race.",
+      "quick": {
+        "happened": "The White House exempts some Canadian goods from the 50% tariffs while adding new ones, with outlets linking the move to Senator Collins's race.",
+        "matters": "The swap changes costs for Canadian exporters and US buyers, and it ties trade policy to the midterm fight over the Senate.",
+        "next": "Watch for the full lists of removed and added tariffs; comments in the USMCA yearly reviews are due 12 Jan."
+      }
+    },
+    {
       "at": "2026-10-23T23:00:39.410Z",
       "text": "Reports say the changes take effect October 30, and Maine Public says the exemption covers Canadian products used by Maine farmers. Other outlets confirm some tariffs are removed and others added. Full product lists are still not named.",
       "sources": [
@@ -1943,33 +1960,6 @@
         "happened": "Trump says a deal with Canada is close but that he holds 'all the cards', per CTV News. Carney rejects US claims of election interference.",
         "matters": "Tariffs are hurting people on both sides: a New Jersey cheese importer is pushing back, and Michigan voters are asking for an end to trade wars.",
         "next": "No date is set for a deal. Canada's top negotiator says tariff-free trade is not returning, and Trump faces a lawsuit over the 50% tariffs."
-      }
-    },
-    {
-      "at": "2026-10-23T10:59:49.636Z",
-      "text": "Carney says in Turkey there is 'no merit' to claims that Canada meddled in the US midterms, per The Globe and Mail. Carney's top negotiator says tariff-free trade is not returning, and Trump faces a lawsuit over the 50% tariffs.",
-      "sources": [
-        {
-          "title": "Carney in Turkey says ‘no merit’ to claims of Canada meddling in U.S. midterms",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1BUjVnYWM5Yk5IZExjbTBNUWd2VzFENmVES0xCY1JrR2N5a1pmWGpHcXgxbWdEQWFNU1FVOGtmczhyQzFnUDAwb0EzQWZodWN1aWZEN3dvY1ZlT3IzTmRNRkhtQm1kN0FSNVNxX0tnZEVBeENU?oc=5",
-          "publisher": "The Globe and Mail"
-        },
-        {
-          "title": "Tariff-free Canada-U.S. trade not returning, Carney’s top negotiator says",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPTnBjdldFMHpTRmZUN1FLSTVPLTRXV05RT3dMSk1LbXE5TlZLT0VMUHNXZFU3OTE4b3lTSm50QndvdXdLX2VCTEJGVDV3dHdJbzBUWUdTOFlpU1pzZWdZMFFzUlJPQU8xLVpnUGhUUS1VSUxJSnBEVWU5RnlQWndwdVoxR2Q5MVBlTVltN1pjVkVXSXhNa1p5dlBEOG9HMVotMzlJU29ldWJHWnZJVnI5YUdsMU1LbHZBbXVzUEFoaUVsLWl5c1dPSjg5STN3TWdMN2g1R3dPUzhvUjI4OEt4T2dNT1RzUnZabEpPNlJ6WnloOWpB?oc=5",
-          "publisher": "Toronto Star"
-        },
-        {
-          "title": "Donald Trump faces lawsuit over 50% Canadian tariffs",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1vbDlPNGRQVERaYldoUlVQeXZJQWV3SksyN0RXcHlHX2tPb3BmMUJLRnBFdEhOSHNFQ0NOVTRWejhwLWxQY0poalN6TTRHZ2drbnVCbHNMTW9Fek81V1owYzg5ejMxZ9IBa0FVX3lxTE51Y2NORXAyajgwMjFpTFBNN2FUNmtiaUQtNnBoMlh2YTRiVlkwTFN5b002aS1fSGF1SmlrR0RzVG4wTFdhc3B3eWFyT3JVUng0dGE5Wl9ySElZV3lrRUZoTFZXb1FlblFHTTd3?oc=5",
-          "publisher": "FOX 10 Phoenix"
-        }
-      ],
-      "headline": "Canada rejects US claims of election meddling while the tariff fight drags on, and a lawsuit now challenges the 50% duties.",
-      "quick": {
-        "happened": "Carney says there is 'no merit' to US claims that Canada meddled in the midterms, and Trump faces a lawsuit over the 50% Canadian tariffs.",
-        "matters": "Reports say tariffs are slowing US access to Canadian cheese, and Michigan residents tell reporters the trade war is hurting their towns.",
-        "next": "No dates are given in the headlines; Canada's top negotiator says tariff-free trade is not returning."
       }
     }
   ],
@@ -2406,6 +2396,38 @@
   ],
   "alberta-independence-vote": [
     {
+      "at": "2026-10-24T01:00:50.642Z",
+      "text": "Separatist leaders Rath and Sylvestre deny being kicked out of the Alberta Prosperity Project, per CTV. Elections Alberta says 20 First Nations members could not vote due to supply, and chiefs and the Opposition urge the government to drop its appeal over the quashed separation petition.",
+      "sources": [
+        {
+          "title": "20 First Nations members unable to cast ballots due to supply: Elections Alberta",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaG81RHVaQ2ZYQmhpWnllaDZjMUt6NUN0eUg4dy1Pd2xISGV2QWxjVWtFMndBNnNvMS1kaERuUWFQdUdxaDZwQ1dlc21qMnRwbkUtNnJJeFNEMWhFSlBQamkxeHVtWk5UakhZYXBPV0RMVC1VVDJ2RDNsTkl5Sll1SWQySGQ0NThkcnVLQy0tWmxvVTJESFhvbGVnNUIwWTl5dmlZZFpWbHpWTl83NTEtdTZrT2dRUV9DUXp0T3djYzRYYkE?oc=5",
+          "publisher": "CityNews Calgary"
+        },
+        {
+          "title": "Separatist leaders deny being kicked out of Alberta Prosperity Project",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUW9KMmdoR3lWTEg1QWEwVHhNaGxxWnN3cVgzcjRzd2k1a05OX3FVdFd0YzVpQnpWTF9STHZIcUlRZ2RtYmpNWURpd3RaYWszYktEellxY3M0UWhKcnRuWTdtMHo1amFvV1Uwa0U5Qzd6aWZoUnpnLURYNXlxdHBtMUVzR2xPT05BeUVibjE0WXF1c2VESHpKYnNyMGI2ODhIMzU3aTdBUVZpaVdHRU9hMTE4MHBubW5pVkdxSw?oc=5",
+          "publisher": "CTV News"
+        },
+        {
+          "title": "Chiefs, Opposition call for Alberta government to drop appeal of decision that quashed separation petition",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUjhxRlpYdW9fbXRFNE54UkdjS1gwMVJpbjkxdUpPV2dUTkdnWHRwUmFRaS1KWlhCRHRwdkRJWngyVHdmNUxBTnlGcDhfblItYVJzSXdhZjRSWkUzdjZkdmVrVFFwT2VTRk9oazhTLUlhZ1BJeFVJYW15b1BZamlmR3lwZGdxSzZvQndpN09OY0lLX1NiSUxUeHpXUmNqVEhENGFEMTZR?oc=5",
+          "publisher": "CBC"
+        },
+        {
+          "title": "Jeffrey Rath, Mitch Sylvestre said to be fired from Alberta Prosperity Project weeks ago",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdXdIS3BzTGZoSFRXc3BzdlRMQVROUUcyd1NERWJlT2xOZlhMUExmZExLaUpmcDJfUGFaQ19UcjQ4TmxORmtNMGN1U3VOWHM2Q0FWVlRRUk95czJQeHdacVJMLWI3TVR2S1M2cDN5MTBYaWI5QzRPWHVjd3hTdGxEaEdfVjR2em40OFVpdlg2X1ZnbEVJejk0ZkF6Um0zdTAtQS13YzZOMnphUkQyOC1HZnYwSFdiQ2JUdGhwaA?oc=5",
+          "publisher": "The Globe and Mail"
+        }
+      ],
+      "headline": "Albertans chose to stay in Canada, but disputes over the petition, the ballots and the separatist group keep the issue alive.",
+      "quick": {
+        "happened": "About 77% of Albertans voted on 19 October to stay in Canada on unofficial results, and Prime Minister Carney hailed the outcome.",
+        "matters": "Alberta's oil economy gains from the Gulf-driven price spike while US tariffs sharpen grievances with Ottawa, and reports say other provinces now want more control over immigration.",
+        "next": "No date is set; Nenshi says petition laws must change to avoid another referendum, while chiefs and the Opposition want the appeal dropped."
+      }
+    },
+    {
       "at": "2026-10-23T23:00:39.410Z",
       "text": "The Globe and Mail reports separatist leaders Jeffrey Rath and Mitch Sylvestre were quietly fired six weeks ago. Nenshi says petition laws will have to change to avoid another referendum.",
       "sources": [
@@ -2592,33 +2614,6 @@
         "happened": "On 19 October Albertans rejected a path to independence, with about 77% voting to stay in Canada on unofficial results.",
         "matters": "Alberta's oil economy gains from the Gulf-driven price spike while US tariffs sharpen grievances with Ottawa, so the result shows how energy shocks affect national unity.",
         "next": "No date is set, but Forever Canadian plans a permanent office and teachers are waiting for clarity on how the referendum affects schools."
-      }
-    },
-    {
-      "at": "2026-10-23T03:59:38.111Z",
-      "text": "New since the last line: the Globe and Mail reports mixed results on the other questions, with an urban-rural divide. Forever Canadian plans a permanent office, and Elections Alberta may avoid sanctions for missing a referendum deadline.",
-      "sources": [
-        {
-          "title": "Forever Canadian Plans Permanent Office After Alberta Referendum",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZlVqS0s2Y2tkQ3ZKMzIwZ1dLaDRUVXJIMWFTQmZPRVZlQ1AwMll0TmJzbnNNNVRPV3l3TmVZMTV1Q0V6V3F5S2FpWThWOHRoY21Zb29TV3JCYkdjckdweGoxNlBCRDRuZW0wSDN6UDJ1dVVxdTgySGNNU1gwSHFrY18yYW9RaWZz?oc=5",
-          "publisher": "Energi.Media"
-        },
-        {
-          "title": "Mixed results on Alberta referendum questions highlight urban-rural divide",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQREE1YmdvcWdXeU44NGpwd1NHaHBFZzd5M0p1ZUtOaFI1OVJOVjBYQ0RvMmtGS1daRlZwbW1aS1RhTzUxYUxIdGd0SUpqSTZOYzJzWVNrNi1oNEY0eEJuQnRhS3F2dE5Rc3hQUTlrQWJxa1V1ZklpRW1YU3RGYWhJckZRejd5STJrbmV3bzVMYWFXQ1FmdWd5d2RiM1dJUjlGNmtBVi1QdHRhQVEwcFBreWdBamR3X2E3?oc=5",
-          "publisher": "The Globe and Mail"
-        },
-        {
-          "title": "Elections Alberta may avoid sanctions for missing referendum deadline",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYWs1ZWEtazVHWEFBUWdkVTVHelNpYmRrMjlQSEFUSlBTMW95Zmtid3lEN3Y4eVYtdEFsaWs1aGZZLTBNUFQwamREUW44OVJYem1WVDhyZFlQa2NwYVZaQjNqRHFxaGJaMzg3WVJZZU1nbmU4NWJEb3VhSk5mWGVZSGpsbDY0UTkzdHpScmUtTkl1V0hPczhyN2VqV2NtbTZLa3VtR296VGxVTHp3UTlLSmU4dVVfQWp4a0Rz?oc=5",
-          "publisher": "CTV News"
-        }
-      ],
-      "headline": "Alberta has voted to stay in Canada, but results on other referendum questions are mixed and the count is still not finished.",
-      "quick": {
-        "happened": "Albertans rejected independence on 19 October, and the count on the other referendum questions continues, slowed by hand-counts and fewer staff.",
-        "matters": "Alberta's oil economy is tied to the Gulf price spike, so how the province and Ottawa get along affects Canada's energy politics.",
-        "next": "Elections Alberta is still counting ballots, and Forever Canadian plans a permanent office; the headlines give no date for final results."
       }
     }
   ],
@@ -4315,6 +4310,33 @@
   ],
   "venezuela-oil-reopening": [
     {
+      "at": "2026-10-24T01:00:50.642Z",
+      "text": "Eni advances a Venezuelan heavy oil project and eyes year-end approval, Reuters reports. Sources say a power outage shut Venezuela's largest refinery, and Goldman Sachs sees output rising but a return to pre-2018 levels as unlikely.",
+      "sources": [
+        {
+          "title": "Eni advances Venezuelan heavy oil project, eyes year-end approval",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdUNJY1VxN2drVnZqVUtkVzAtUXpnSXRkUm85VnYyMV9ESTNKcmt4Q1NNM0xXLTg2cm42ZFBwN1JweDFOME5yQVQ3WHFSUnBsS014VWpEZkFScUsySVljVVRveTBSZ2RTVE1rajkwNDEtZkY1Rm10ZzhKOGlRNTNqc0dvZGV2dWotaG1rc1l2dkNRUmh4WFNkZlp0YnhVa29kUnRTUk1PcWlnSllFc1Q0X01pRkpzMFE?oc=5",
+          "publisher": "Reuters"
+        },
+        {
+          "title": "Power Outage Forces Venezuela’s Largest Refinery to Shut Down, Sources Say",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRm9qYWtSbnJCaTYta0hjQlJSUk1Pd05CaDFRMW9WS3VJMGMzbWRtZ0VPVkZCY25rZjhwcUI1YTc3dURCYWFiSDZ0ME9CWG4yaTRlQTJpT2h3YjQ4aGc1cnIzbFpocVN1d2xldzZ5eFpHbjRUNDlmTFlBdGNwZndqM2FROTY3Vy10dEhTV1hQUEtNdWZBeHl5SnVueUhoRWNGLW1MZnNB?oc=5",
+          "publisher": "EnergyNow.com"
+        },
+        {
+          "title": "Goldman Sachs Sees Venezuela Crude Output Rising, But Return to Pre-2018 Levels Unlikely",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObDl2UDcxTkFMaUtraE1faS1YZW9iS3lyV3JNa1cyMG5pTW5tS0UyZ0NfS2hWYzBIaXBhSy1PTDNnYS1NWWxuaTJHSDRPNDBiVWd3ckxKbDNtZUxsYnlhX29sRXAzVzRqVHVOQlJHOVVxeWtiY0JsUGR2MlFOb1RNN1lOQzg5V1UzcWtmRXdVWDY3enczb3U2VjA3N1BsMW1tMEU4S2l0WkNWYW5zYmtwamV5Z2FxZzNB?oc=5",
+          "publisher": "EnergyNow"
+        }
+      ],
+      "headline": "Venezuela's oil output is rising under US-backed rule, but a refinery blackout and doubts about a full recovery show the rebound is shaky.",
+      "quick": {
+        "happened": "Rodríguez says 61 signed deals should bring nearly $76 billion of oil investment over five years, and Eni and Chevron are advancing projects.",
+        "matters": "More Venezuelan heavy crude could ease supply worries from the Gulf energy shock and the pump prices that matter in US midterm politics.",
+        "next": "Eni aims to win approval for its heavy oil project by year-end, while the headlines give no date for the largest refinery's return."
+      }
+    },
+    {
       "at": "2026-10-23T22:00:56.031Z",
       "text": "Chevron's CEO says a $7 billion Venezuela investment will be funded from existing operations' revenue. UAE and Qatari firms debut through a BP-led gas deal, and SLB sees activity accelerating.",
       "sources": [
@@ -4497,27 +4519,6 @@
         "matters": "Venezuelan heavy crude links to the Gulf energy shock and to promised pump-price relief, which could shape US midterm politics.",
         "next": "No date is set in the headlines, but 44 more deals worth about $12 billion are in talks."
       }
-    },
-    {
-      "at": "2026-10-21T19:59:56.101Z",
-      "text": "New since the last line: reports say US Energy Secretary Wright expects Venezuelan output to more than double in a few years and that China will have no claim to Venezuelan oil revenue. Venezuela also reportedly wants oil firms to supply their own power for projects.",
-      "sources": [
-        {
-          "title": "China Won’t Have Claim to Venezuela Oil Revenue, Wright Says",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQV0txdjFOSDFvRWh3S1UzcGRWVm1jVmVORE1DTTZxZENpUlU5ZENSWWVySHZPLWp3NjJzNVJVZzFmZTkyd3NrV2Z3QlhCSzhJUlR4UG5IS3h2Y0V0NjVFcVhHVVZUa2dLVUt6aF9VS2FyTWpyR1pVMU45SEFEQWZRbUMtSWhzeDhNRTQydUd2TlctYVU?oc=5",
-          "publisher": "EnergyNow.com"
-        },
-        {
-          "title": "US Energy Secretary Says Venezuela Oil Output to More Than Double in Next Few Years",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWmUtRk1fT0NkMERCNklHQVVkZC12T1pUYXQyaHg5ZXJnSmxkMll4OElzLUFKZXdOMHprR3hWOGtQbDV5X1paRjRrdlhVdlJ0TXNvM3BzNGhmT3otbURBN0JyYUVVQUFsTmdZZXY1RVRhR1BBMkpBalVWTEpvQl9YNjQ4TF9DU3BtN0pvcmJ1TzNpZnRBYnhPNG1hckxwUGpUaTdqaDZRaXdjQ0kwc2w1WHEwRGw?oc=5",
-          "publisher": "EnergyNow.com"
-        },
-        {
-          "title": "Venezuela Wants Oil Firms to Supply Their Own Power for Projects",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYzV0RVhpWmM5X3FKMUVGNGdHMjZzVENKLUlaWnROTTBSR2pfeWh5a0t2QzNCVllwb3dvSnozLTZIQ0VuU3dKcVV4Y3ExRzI4S1NPQ1dCTzNvWDcxN01EVEM0S3h2ell5SmtVRzFTMmY4Y3NfOUhoeVRPcUZLeHZzUng1aXctYk82Z3d4bjRuamRrZHdVTDNsM3Z2dw?oc=5",
-          "publisher": "EnergyNow.com"
-        }
-      ]
     }
   ],
   "ethiopia-eritrea-war-fears": [
@@ -5561,6 +5562,38 @@
   ],
   "north-korea-missile-tests-2026": [
     {
+      "at": "2026-10-24T01:00:50.642Z",
+      "text": "Reports say the US Army activates an air defense battalion in Guam over North Korean and Chinese missile threats. Kim's 'military revolution' call and the fading Trump-Kim summit odds were already covered in the previous line.",
+      "sources": [
+        {
+          "title": "US Army activates air defense battalion in Guam amid N. Korean, Chinese missile threats: report",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNZnlNOXR1MEtTTkl3YlZJbEN6THpBMWk1OW1NSjdmUklnVjZNM3hzRlpsN1o3WjNVdFgwbHkyTHB2R05OeXhvbjBZMGFCRHc5enhJeGZrMjJ5NXp1NnBMVDFpR2V6c2xxdEZIMklhaTBRWlYtR0xwbjdmUzlzaUpITEVyM2ZyTmcwanVBQjFPR3BBQ3ppeTBWY0dzbmYwWVBoVGRDNFpmbG1kYjZPdjZ3MVN3X3RISkdueld0ellkN3NvTXRyZVRLbXBoR1NyeS0yRlRKZy1MUlUtSXYwZ21TdFVFb1V0aHlWaURJONIB8gFBVV95cUxPT2dtYnREN1FZNWpCUTVaaG1kNmY5SmdDZ2E0bW9lcTU5dDQ3MnMydmVJQUh5eFhxUEQ1bE9vcER0emh2WHhFNTJYb2g1N3I4SHc1ekVHei1HLWtITHUwTXloNk1tTlRmY1Flb2VGenlBOE1yS05QSU9oZVh3MjhMMUM4WlZFLTlTWkFJbkN6SmRaYUJTYVY2dVZ5VFhibmNiZlJpTG9XS2pDZ1BFSTdPU3pSQTRqdFVzMVR4WXNMTDZXaUFoVVAwTXRGZmhlYkFiVGJBSkN6T3IzVU9UTHR0c25FODVmR3pkai1BV3FleHg1dw?oc=5",
+          "publisher": "The Korea Times"
+        },
+        {
+          "title": "Army activates air defense battalion in Guam to guard against missiles from China, North Korea",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVE8wNGw5cndmSS1OVnd3NzVzNnpOcmw0OURMS1h0QUtCeWRlZUNiVGhJcElGdTI2RGg3NFAyX3BLc0x2MHUtc1hSUTcwNy1WVnI4cEl3czdPM1otN2JpNTYzd0VwV1doMWxwbllvUGQxUG9MWEthU0QwQ0gzYkJNejVvNW9KOXVaU0FmcGc4SXBncFVKQUNhYzVmQlZYNG1TUjQ2ckx1cFBWMWRSYlVKUldNdmljWkJaM0E?oc=5",
+          "publisher": "Washington Times"
+        },
+        {
+          "title": "North Korea's Kim calls for 'military revolution' as he urges stronger army units",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNkpnNU5LamJzRFVPSFE3ajg0dGJOUUNVeVkzV3ZlVjJGblR3Ukt3cV82ZVRZYTJENENmZ1hMU1hMU1BYTUFHNG4ycE5OQXlTVGlNdFFnVHM0M0VLOGcxYmltZExGaF92TUJpbU84bDEybTAxTGtCSy1SYWNrXzRCS3hCWGxzWnA0ZHo2Q0xkWmJlNDlXeHYyZHdNckxIRWNzbU1GOVZYaW9IY21QSjkzbUtyV0FUVnRvZFROSHpMYkl5aDI00gHEAUFVX3lxTFA2Smc1TktqYnNEVU9IUTdqODR0Yk5RQ1V5WTNXdmVWMkZuVHdSS3dxXzZlVFlhMkQ0Q2ZnWExTWExTUFhNQUc0bjJwTk5BeVNUaU10UWdUczQzRUs4ZzFiaW1kTEZoX3ZNQmltTzhsMTJtMDFMa0JLLVJhY2tfNEJLeEJYbHNacDRkejZDTGRaYmU0OVd4djJkd01yTEhFY3NtTUY5Vlhpb0hjbVBKOTNtS3JXQVRWdG9kVE5IekxiSXloMjQ?oc=5",
+          "publisher": "NST Online"
+        },
+        {
+          "title": "US, South Korean officials estimate little chance of Trump-Kim meeting this year",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVi10ODBJbzZ4OU5jMTlXVDNWSXJOd1pNWmNlRFZFSmNFNVkxTFB6NWYzb0JTZTB6S19OQTF1cWVDaXdXMHNIcTJxZGtQb2Jwcy1yQWtmdkxMWWlCai05WlRZTk04QXF6VjRfRUk2MjJtY2FxdmJDMDRvdXZXMGxJVmI0Z3doc2FGUlRhR3VUd2xnMXI4M1VvSE5kYXFuY2RvU3BfMmhRYnF6X1ZJOTlMUWhlSzQtakNIZGc?oc=5",
+          "publisher": "The Business Times"
+        }
+      ],
+      "headline": "The US moves air defenses to Guam as North Korea builds up its missiles, and talk of a Trump-Kim meeting fades.",
+      "quick": {
+        "happened": "Reports say the US Army activates an air defense battalion in Guam, as Kim Jong Un calls for a 'military revolution' and stronger army units.",
+        "matters": "North Korea's growing mix of missiles complicates South Korea's defense and pushes the US to add protection for its Pacific bases.",
+        "next": "Trump said he 'may' meet Kim on his November Asia trip, but US and South Korean officials see little chance of a meeting this year."
+      }
+    },
+    {
       "at": "2026-10-23T23:00:39.410Z",
       "text": "Kim calls for a 'military revolution' and stronger army units, reports say. Reports also say US and South Korean officials see little chance of a Trump-Kim meeting this year, and Seoul's spy agency dismisses rumors of Kim's death.",
       "sources": [
@@ -5767,33 +5800,6 @@
         "happened": "North Korea fired submarine-launched cruise missiles on 14 October, and reports say it is now fortifying the border as Kim's sister issues a warning.",
         "matters": "Missile tests and border tension raise the price for any talks, which Trump may weigh during his November Asia trip.",
         "next": "Trump heads to the APEC summit in Shenzhen on 18-19 November, where he said he 'may' meet Kim; US experts put the odds under 10%."
-      }
-    },
-    {
-      "at": "2026-10-22T20:59:09.077Z",
-      "text": "Two outlets report US experts put the chance of a Trump-Kim summit on the sidelines of November's APEC meeting at under 10%, while Daily NK says signs point to Kim preparing for one.",
-      "sources": [
-        {
-          "title": "Signs point to Kim Jong Un preparing for a Trump-Kim summit",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0yOVFQR2ZYOGdLS3g5bm1wWERfbTRfdGxtYU9HdXMzTFk4S2dETFVQeHItLVdrOWV4aklZc3diZGU5aEowOVlzYzMxSjJaa0VhNzlxODRnSWRMMzhIWWQ2UjY5SENmT2p6MnU3RWd2VTJaRHhYODZZTmVTWWtMQQ?oc=5",
-          "publisher": "데일리NK"
-        },
-        {
-          "title": "U.S. Experts: \"Less Than 10% Chance of U.S.-North Korea Summit on Sidelines of November APEC Summit\"",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9FcEtyR3dTbEdzNHRqVWtWY0ZMUkx5LUhSSXU3YlNENFpQcDdTSDEyM2x4bi12VFB6b0tlY3Z4ZWRKN1NnMWJRRjBCMEFabjdpY095OEN2alJPeGd4U094bGFqQW9sNlhaU1BlWTI0MmNyb2VMYy1z?oc=5",
-          "publisher": "아시아경제"
-        },
-        {
-          "title": "US Experts: Less Than 10% Chance of North Korea-US Summit on Margins of China APEC Next Month",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE56ckcwWjhSU2J6YWFHeXZ4OWp3THo3cEhjQzMyRHllVFhkb0FoX1FiWFhEZGx6eEk5OWJ1NlczMDd3bjlkMW83RE9vUEp1d2ZCSGd2UkhzcmhfbHhHcjZQc2pnRFdsaWFkOUVMeGhR?oc=5",
-          "publisher": "news.sbs.co.kr"
-        }
-      ],
-      "headline": "North Korea keeps up missile tests and border threats while US experts see little chance of a Trump-Kim meeting at the November APEC summit.",
-      "quick": {
-        "happened": "North Korea fired submarine-launched cruise missiles on 14 October, and reports say it is now fortifying the border while Kim Yo Jong threatens South Korean troops.",
-        "matters": "Pyongyang is raising the price for talks as Trump says he may meet Kim, and the border tension adds risk for South Korea.",
-        "next": "Trump's Asia trip reaches the APEC summit in Shenzhen on 18-19 November, where US experts say a meeting with Kim is under 10% likely."
       }
     }
   ],
@@ -6881,6 +6887,53 @@
   ],
   "ebola-drc-nigeria-kenya-2026": [
     {
+      "at": "2026-10-24T01:00:50.642Z",
+      "text": "Nigeria's health minister says genomic sequencing links Nigeria's case to the Kenyan index case's strain. Kenya says there is no evidence of community spread.",
+      "sources": [
+        {
+          "title": "WHO announces start of Ebola vaccine clinical trial in DR Congo",
+          "url": "https://www.aljazeera.com/news/2026/10/24/who-announces-start-of-ebola-vaccine-clinical-trial-in-dr-congo?traffic_source=rss",
+          "publisher": "Al Jazeera"
+        },
+        {
+          "title": "Genomic Sequencing Links Nigeria’s Case To Kenyan Strain — Pate",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUVlBeVN5S3F6WEloczhLR29QTmdZcDdBTUpNR1VLTjFQSUFBRHQxTGd5QkhzdnBMT3AtMHNXbjJXb1l3MXY1Y05PZmY3M08zcVlfcGlzT0N0TjlqOG9lTkZKZUxwSWVxZzR0OVdPdllQaGNOMXVUTHpGVS1SNTF4MGlFRUtEQngtZS1yc3o1d2c1Y19VQVZVWU5FRl9JcGZK?oc=5",
+          "publisher": "Channels Television"
+        },
+        {
+          "title": "Ebola: Nigeria case highly similar to Kenya infection – Minister",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbUNHbVNTRm4zczN4bUFfRTY4dWdaZTBPa0Q0dEJrWGNOYjlVbmljMVdiUV81ZTAycmZRa05Pdlo3OU90dFVuMDFVT25nUmVINC00ZDdVN2NZcHBCOW5fd0xTUGxIbjNOUEc3ZERPaVBjY3FRbGhPQUdEaVVCRkczVUVydnYyWEt4X0VpeHRaakhIN08yYnUxSEFmVWRfaXhnNWFOVTRVSVNQNTZrcXhybW5IUWIwdndyM25fZDU5c2E?oc=5",
+          "publisher": "Premium Times Nigeria"
+        },
+        {
+          "title": "Kenya announces second Ebola death, says ‘no evidence’ of community spread",
+          "url": "https://www.aljazeera.com/news/2026/10/23/kenya-announces-second-ebola-death-says-no-evidence-of-community-spread?traffic_source=rss",
+          "publisher": "Al Jazeera"
+        },
+        {
+          "title": "Uganda reinstates traveller screening after Bundibugyo Ebola virus case in Nigeria",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNV1paN2xPUG1RUTNMcHBrWEhLQ254aGN6SGhtUmVBUXpROU40UlhJNlZrTFo4YUc1S0sxWVp5YXkweEtXSDJWSERNS1hyRFdrVFQ1TzZYNGkwOFk4RHFIY1NJbWNxRXB1ZllFMzRQTjg1SzUtM0E3T1lLTHhXUXBOUU9hMTNLOUpoOG5TdS12S1llVGVLQmd6TzVOcVl1UnRGNFlheHBVdU4xMEdkTnBfanpucWx0QQ?oc=5",
+          "publisher": "People Daily"
+        },
+        {
+          "title": "Nigeria Ebola case linked to virus found in Kenya index case, health minister says",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQ0hvLXFNbGZpRUpBaFFuYlN1RTRTTnN6bGFBdF85WS1DMzVPT2lGSFBuZTQxTXRGaEx6cXZ1anc3SjdIVVk1NGlKUTE5aTJqdWtvd051RXB4THdSdnVFRE1zcjVIVWZfVm1xc3NKaVlmbGQwV1hWWmRGbEpFUWFhYmxDZGR3U1FBNmJ4QzBkcXNobWFFOVlpMXNNQU9vTXFWLTBtc0tUWkRoTE1sU3RVSWstQjVOX0RtRGV6OTdNQmliVTAtdkF1QTZCb0hNM19UZDBsLVpmV19pdkl2THc2cQ?oc=5",
+          "publisher": "Reuters"
+        },
+        {
+          "title": "Ebola virus in Nigeria genetically related to Kenya’s index case, says Ali Pate",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYko5bkExSzVCLVlDUXR3LUcwUk9xR3lKSS02T2VPMXpoUGtIYnphdUxHTFFTY3lrVlk4MnVrVk93T1NyYUxJUG9GcTI4VmtMQXNBVWxnUDJteG9GT3hockJScGw5X2Y3b3d0R3EtRE5mWVFlWERNYjdpYmQ5cERGcW93MTRQaDlfZ2VFTVpNLUNxakV6R1VsUHdIb0sxb2RBczJlag?oc=5",
+          "publisher": "TheCable"
+        }
+      ],
+      "headline": "Ebola has reached Nigeria and Kenya, and gene tests tie the two cases together, so travel checks are tightening.",
+      "quick": {
+        "happened": "Kenya confirms a second Ebola death, and Nigeria's health minister says its case is genetically linked to Kenya's first patient.",
+        "matters": "The link suggests the virus moved between countries, which puts airport screening and travel rules under pressure in several states.",
+        "next": "A WHO vaccine trial has begun in DR Congo, and Uganda has reinstated traveller screening; no dates are given for what follows."
+      }
+    },
+    {
       "at": "2026-10-23T23:00:39.410Z",
       "text": "Kenya reports a second Ebola death, a 65-year-old woman and close relative of the first patient, with cases at nine, per Hindustan Times. A vaccine trial begins in DR Congo, and Uganda reinstates traveller screening.",
       "sources": [
@@ -7107,43 +7160,6 @@
         "happened": "Switzerland says the Nigerian patient returned from Uganda, not DR Congo, and authorities are checking whether she and the Kenyan patient crossed paths. Congo's outbreak has reached an eighth province.",
         "matters": "If the two cases met at an airport, travelers can carry Ebola between countries, which puts screening and travel rules under pressure far from Congo.",
         "next": "Authorities continue investigating the link between the Kenyan and Nigerian cases, and Busia in Uganda is stepping up Ebola screening."
-      }
-    },
-    {
-      "at": "2026-10-23T10:59:49.636Z",
-      "text": "BBC reports the Nigerian patient is a Swiss diplomat's wife, and the Swiss government says she did not travel to DR Congo. The US tightens Ebola travel rules, and one outlet reports models showing Kenya could see 21 cases a day by October 28.",
-      "sources": [
-        {
-          "title": "Nigeria Ebola patient did not travel to Congo, Swiss government says",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONFdHWmpaQjhpLVhrckNDTFVWVHB1dXFZLW9WT0pPYVVuRWQza0Z6MnNfUWpEbDNkdW15eGI4UmVHQ3BaWTJiY3JUSXdQZE81YTA3X0Iycl9DVDhaODBsbGFCYkt6WE5MMXdENFNXWDVfQ1RMbFNLUXBmNjU0TklSdHNrU2VYdW9tU2NwOVlEU0RtN1pLYnFoRA?oc=5",
-          "publisher": "DD News"
-        },
-        {
-          "title": "Woman with Ebola in Nigeria confirmed as wife of Swiss diplomat",
-          "url": "https://www.bbc.co.uk/news/articles/cmwy4wlzqz3zo?at_medium=RSS&at_campaign=rss",
-          "publisher": "BBC World"
-        },
-        {
-          "title": "US Introduces New Ebola Travel Rules For Kenyans Flying Abroad",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNWZURnFEcFZMZHl0cFoxWDN5SzltNFVDYXZwUzYtMnJDNXBUNkFqdl9Jdk9YUVd6allxbS0tT2tzZDBHSTV2NnI2LXdFZEZxQTNhSS1DdS1nMEc2TnZSc1N2QUM0UU5KZ2pnNE5pY1E5NnNOUlV5TFdxWGt3Y0xnb2QyNG96ZFpzc1lEUDc3T214bnN3ZExQODZ4NnFWaVJySVE?oc=5",
-          "publisher": "The Kenya Times"
-        },
-        {
-          "title": "U.S. to tighten Ebola screening with new air passenger declarations",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUlNXSkpEcktiSlB4czYxR2lZeklwU2o3RmxwaHN3WHFHYV9KbXVHR3hicnhMNlNxZ09IaUZ1Q3pSdU5MVE0xWWl4T2ZKRnNrM0FnSHEzT2RkUUQ3WGdPWjF2b2o3M09TaEdLN3BKOVJRN3BKQ1paV05TdG5UYVlmZVdOX2txS2VQSzlDSDc0M2w3VXpxc25EQ2lPOVFOVGxRZVhFd0swbUNSR1JTWFdWYg?oc=5",
-          "publisher": "NBC News"
-        },
-        {
-          "title": "Kenya could see 21 new Ebola cases a day by October 28, models show",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVjdxaHFLVlVBUTZBbl9LVGZqdmVSVndwYnZESzBNcElFbTlpa21aVDRQYUNWam5nNVlpcV9rM0NzZmEyanBuMVBSS0tFRHRMZjdBTjZnYUw3dUVqUkg1eXczOWJ2VXZMRzJJTnEtUVFhbEp6TGdLSW9vQ0ZXVWVUZXpxMTZXWlVVLXVta1o4MGxoSmo4QTF3S09idEV6S2VkaDdZSGp6bW1QTmtBdmc?oc=5",
-          "publisher": "Daily Nation"
-        }
-      ],
-      "headline": "Ebola has reached Nigeria and Kenya, and the US is tightening travel rules while investigators work out how the cases connect.",
-      "quick": {
-        "happened": "Ebola from DR Congo has reached Nigeria and Kenya; the Nigerian patient is a Swiss diplomat's wife who did not travel to Congo, reports say.",
-        "matters": "The WHO calls the outbreak complex, and new US travel rules and screening could affect people flying in and out of the region.",
-        "next": "Investigators keep examining a possible Entebbe airport link, and one report says models show Kenya could see 21 cases a day by October 28."
       }
     }
   ],
