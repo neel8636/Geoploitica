@@ -2112,6 +2112,15 @@
   },
   "runs": [
     {
+      "at": "2026-10-24T11:39:21.360Z",
+      "screened": 0,
+      "accepted": [],
+      "rejected": [],
+      "existing": [],
+      "retired": [],
+      "skipped": "last screen 38 min ago"
+    },
+    {
       "at": "2026-10-24T11:01:25.093Z",
       "screened": 140,
       "accepted": [],
@@ -3515,117 +3524,6 @@
       "existing": [],
       "retired": [],
       "skipped": "last screen 60 min ago"
-    },
-    {
-      "at": "2026-10-22T20:59:09.077Z",
-      "screened": 140,
-      "accepted": [
-        {
-          "id": "serbia-student-election-2026",
-          "title": "Serbia's student movement challenges Vučić at snap election",
-          "reason": "A nationwide student movement is contesting 12 years of state power in a snap national election, and the result shapes Serbia's EU accession path and its ties with Russia.",
-          "channel": "EU accession and enlargement decisions, Russia energy and political alignment",
-          "reaches": [
-            "DE",
-            "RU"
-          ],
-          "headlines": 4,
-          "publishers": 3
-        }
-      ],
-      "rejected": [
-        {
-          "title": "WHO warns Ebola outbreak now spans three African countries",
-          "reason": "Passed the test but not the evidence check: only 2 headlines.",
-          "headlines": 2,
-          "publishers": 2
-        },
-        {
-          "title": "OpenAI nears $30bn round led by UAE investors",
-          "reason": "This is company funding news without a clear state or policy decision.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "Libya-Turkiye maritime deal explained",
-          "reason": "The headlines are explainers and controversy pieces, not a dated new decision.",
-          "headlines": 2,
-          "publishers": 1
-        },
-        {
-          "title": "ICC wins EU human rights prize",
-          "reason": "A symbolic award that decides nothing and moves no money, goods or people.",
-          "headlines": 2,
-          "publishers": 2
-        },
-        {
-          "title": "Italy and Spain lift border controls over Ceuta tension",
-          "reason": "The headlines give too little to show a real flow of people or policy shift; the second is a feature on Ceuta politics.",
-          "headlines": 2,
-          "publishers": 2
-        },
-        {
-          "title": "El Salvador launches operation in Haiti to free hostages",
-          "reason": "A small-scale rescue over four kidnapped technicians with limited wider ripple.",
-          "headlines": 3,
-          "publishers": 3
-        },
-        {
-          "title": "Israel frees settler attack suspects",
-          "reason": "No clear cross-border channel is shown; this is a local security and legal matter.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "7.0 earthquake hits Tibet",
-          "reason": "A natural disaster with no reported effect abroad.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "UK government advises stockpiling food and water",
-          "reason": "It is domestic advice with no stated cross-border channel.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "UK relaxes City accountability rules",
-          "reason": "Domestic financial regulation with no clear effect abroad.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "Trump green card curbs test Indian tech workers",
-          "reason": "This is a feature piece, not a dated decision.",
-          "headlines": 1,
-          "publishers": 1
-        }
-      ],
-      "existing": [
-        {
-          "title": "Russia frees American Stephen Hubbard as Trump envoy meets Putin",
-          "reason": "The release is part of the US-Russia contacts already tracked in the Putin-Trump summit diplomacy event.",
-          "headlines": 2,
-          "publishers": 2,
-          "event": "ukraine-summit-diplomacy"
-        },
-        {
-          "title": "Trump's economic approval hits a record low before the midterms",
-          "reason": "The poll belongs to the existing US midterms event.",
-          "headlines": 1,
-          "publishers": 1,
-          "event": "us-midterms-2026"
-        },
-        {
-          "title": "Lyon and Marseille ban all protests on Saturday",
-          "reason": "The protest bans are part of France's ongoing autumn of unrest.",
-          "headlines": 1,
-          "publishers": 1,
-          "event": "france-unrest-2026"
-        }
-      ],
-      "retired": [],
-      "skipped": ""
     }
   ]
 }
