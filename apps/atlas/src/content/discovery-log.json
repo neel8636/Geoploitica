@@ -1,5 +1,5 @@
 {
-  "screenedAt": "2026-10-23T21:00:30.438Z",
+  "screenedAt": "2026-10-24T00:00:48.972Z",
   "judged": {
     "1eccdfad4d8e": {
       "at": "2026-10-22T14:03:49.910Z",
@@ -910,11 +910,11 @@
       "verdict": "no story"
     },
     "c7a012896dca": {
-      "at": "2026-10-23T21:00:30.438Z",
+      "at": "2026-10-24T00:00:48.972Z",
       "verdict": "existing"
     },
     "895da49a496a": {
-      "at": "2026-10-23T21:00:30.438Z",
+      "at": "2026-10-24T00:00:48.972Z",
       "verdict": "reject"
     },
     "bbae1fcdf5c4": {
@@ -1234,7 +1234,7 @@
       "verdict": "existing"
     },
     "516f4db7f1a8": {
-      "at": "2026-10-23T09:59:54.200Z",
+      "at": "2026-10-24T00:00:48.972Z",
       "verdict": "existing"
     },
     "ba57adb7a991": {
@@ -1258,7 +1258,7 @@
       "verdict": "reject"
     },
     "6819bcf1aa6a": {
-      "at": "2026-10-23T09:59:54.200Z",
+      "at": "2026-10-24T00:00:48.972Z",
       "verdict": "reject"
     },
     "77fd204f109f": {
@@ -1378,7 +1378,7 @@
       "verdict": "no story"
     },
     "537af07b2733": {
-      "at": "2026-10-23T21:00:30.438Z",
+      "at": "2026-10-24T00:00:48.972Z",
       "verdict": "existing"
     },
     "fba667d0691d": {
@@ -1394,7 +1394,7 @@
       "verdict": "existing"
     },
     "7384e5e9f05b": {
-      "at": "2026-10-23T21:00:30.438Z",
+      "at": "2026-10-24T00:00:48.972Z",
       "verdict": "reject"
     },
     "d14103109644": {
@@ -1534,11 +1534,11 @@
       "verdict": "existing"
     },
     "62d900103eb4": {
-      "at": "2026-10-23T21:00:30.438Z",
+      "at": "2026-10-24T00:00:48.972Z",
       "verdict": "existing"
     },
     "8e12c9667319": {
-      "at": "2026-10-23T21:00:30.438Z",
+      "at": "2026-10-24T00:00:48.972Z",
       "verdict": "existing"
     },
     "0bf52164d348": {
@@ -1546,7 +1546,7 @@
       "verdict": "reject"
     },
     "21ad1bb958f4": {
-      "at": "2026-10-23T21:00:30.438Z",
+      "at": "2026-10-24T00:00:48.972Z",
       "verdict": "reject"
     },
     "a01736f45916": {
@@ -1718,7 +1718,7 @@
       "verdict": "no story"
     },
     "acfcf8af563a": {
-      "at": "2026-10-23T21:00:30.438Z",
+      "at": "2026-10-24T00:00:48.972Z",
       "verdict": "reject"
     },
     "c866fa75eca1": {
@@ -1730,11 +1730,11 @@
       "verdict": "accept"
     },
     "c6d55a62db35": {
-      "at": "2026-10-23T21:00:30.438Z",
+      "at": "2026-10-24T00:00:48.972Z",
       "verdict": "reject"
     },
     "f41ec80e62ec": {
-      "at": "2026-10-23T21:00:30.438Z",
+      "at": "2026-10-24T00:00:48.972Z",
       "verdict": "existing"
     },
     "716545f9f226": {
@@ -1820,9 +1820,175 @@
     "578ad13009fd": {
       "at": "2026-10-23T21:00:30.438Z",
       "verdict": "no story"
+    },
+    "a732864d1bbe": {
+      "at": "2026-10-24T00:00:48.972Z",
+      "verdict": "existing"
+    },
+    "ddaecd5b03b5": {
+      "at": "2026-10-24T00:00:48.972Z",
+      "verdict": "existing"
+    },
+    "45be3b75813e": {
+      "at": "2026-10-24T00:00:48.972Z",
+      "verdict": "reject"
+    },
+    "78d52ae701fb": {
+      "at": "2026-10-24T00:00:48.972Z",
+      "verdict": "reject"
+    },
+    "6caec2d7043b": {
+      "at": "2026-10-24T00:00:48.972Z",
+      "verdict": "reject"
+    },
+    "7f7e2339ee67": {
+      "at": "2026-10-24T00:00:48.972Z",
+      "verdict": "reject"
+    },
+    "ca911044cec0": {
+      "at": "2026-10-24T00:00:48.972Z",
+      "verdict": "no story"
+    },
+    "c2ef0309d085": {
+      "at": "2026-10-24T00:00:48.972Z",
+      "verdict": "no story"
+    },
+    "e05d97da1501": {
+      "at": "2026-10-24T00:00:48.972Z",
+      "verdict": "no story"
+    },
+    "d3bdc00e0d8c": {
+      "at": "2026-10-24T00:00:48.972Z",
+      "verdict": "no story"
+    },
+    "cafbc3aa04ad": {
+      "at": "2026-10-24T00:00:48.972Z",
+      "verdict": "no story"
+    },
+    "20b828179cc1": {
+      "at": "2026-10-24T00:00:48.972Z",
+      "verdict": "no story"
+    },
+    "83fa48f0c0db": {
+      "at": "2026-10-24T00:00:48.972Z",
+      "verdict": "no story"
+    },
+    "e06bc4b8a930": {
+      "at": "2026-10-24T00:00:48.972Z",
+      "verdict": "no story"
+    },
+    "1b073fbeb2e1": {
+      "at": "2026-10-24T00:00:48.972Z",
+      "verdict": "no story"
+    },
+    "70e09eec323a": {
+      "at": "2026-10-24T00:00:48.972Z",
+      "verdict": "no story"
     }
   },
   "runs": [
+    {
+      "at": "2026-10-24T00:00:48.972Z",
+      "screened": 140,
+      "accepted": [],
+      "rejected": [
+        {
+          "title": "Romania blames Russia after drone sinks ship in Black Sea",
+          "reason": "Passed the test but not the evidence check: only 1 headline, only 1 outlet.",
+          "headlines": 1,
+          "publishers": 1
+        },
+        {
+          "title": "Gunmen kill seven at church funeral in Jordan",
+          "reason": "A security incident with no clear state-level or cross-border channel yet.",
+          "headlines": 3,
+          "publishers": 3
+        },
+        {
+          "title": "Israel's growing presence in the Balkans",
+          "reason": "An explainer, not a dated development.",
+          "headlines": 1,
+          "publishers": 1
+        },
+        {
+          "title": "US designates helium as critical material",
+          "reason": "A designation with no clear decision or flow abroad yet, and the Europe angle is thin.",
+          "headlines": 1,
+          "publishers": 1
+        },
+        {
+          "title": "Ukraine says Starlink still restricted",
+          "reason": "A dispute over a company's service limits with no decision or dated action.",
+          "headlines": 1,
+          "publishers": 1
+        },
+        {
+          "title": "Typhoon Champi hits Taiwan",
+          "reason": "A weather event with no effect abroad.",
+          "headlines": 2,
+          "publishers": 2
+        },
+        {
+          "title": "Argentina drops Milei crypto probe",
+          "reason": "A domestic legal matter with no cross-border channel.",
+          "headlines": 1,
+          "publishers": 1
+        }
+      ],
+      "existing": [
+        {
+          "title": "White House lifts tariffs on some Canadian goods",
+          "reason": "A tariff adjustment in the ongoing US-Canada trade war already on the map.",
+          "headlines": 1,
+          "publishers": 1,
+          "event": "us-canada-trade-war"
+        },
+        {
+          "title": "Trump threatens another 'Epic Fury' strike on Iran",
+          "reason": "A new threat of US strikes within the Iran war and Gulf energy shock already on the map.",
+          "headlines": 1,
+          "publishers": 1,
+          "event": "gulf-war-energy-shock"
+        },
+        {
+          "title": "Military reinforcements move to the Mideast",
+          "reason": "Part of the Gulf war build-up.",
+          "headlines": 1,
+          "publishers": 1,
+          "event": "gulf-war-energy-shock"
+        },
+        {
+          "title": "French bond stress and euro crisis signals",
+          "reason": "Covers the French bond stress already tracked on the map.",
+          "headlines": 2,
+          "publishers": 1,
+          "event": "france-debt-stress"
+        },
+        {
+          "title": "Russia agrees to new peace talks as Ukraine is struck",
+          "reason": "Part of the Ukraine summit diplomacy.",
+          "headlines": 1,
+          "publishers": 1,
+          "event": "ukraine-summit-diplomacy"
+        },
+        {
+          "title": "EU states wrangle over the long-term budget",
+          "reason": "The EU budget negotiations are already on the map.",
+          "headlines": 1,
+          "publishers": 1,
+          "event": "eu-budget-2028-2034"
+        },
+        {
+          "title": "Trump administration sues over possible Democratic win in Alaska",
+          "reason": "Part of the US midterm contest.",
+          "headlines": 1,
+          "publishers": 1,
+          "event": "us-midterms-2026"
+        }
+      ],
+      "retired": [],
+      "skipped": ""
+    },
     {
       "at": "2026-10-23T23:04:48.927Z",
       "screened": 0,
