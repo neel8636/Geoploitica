@@ -2056,6 +2056,15 @@
   },
   "runs": [
     {
+      "at": "2026-10-24T09:01:22.378Z",
+      "screened": 0,
+      "accepted": [],
+      "rejected": [],
+      "existing": [],
+      "retired": [],
+      "skipped": "only 5 new uncovered headlines"
+    },
+    {
       "at": "2026-10-24T08:01:12.124Z",
       "screened": 140,
       "accepted": [
@@ -3457,102 +3466,6 @@
       "existing": [],
       "retired": [],
       "skipped": "last screen 60 min ago"
-    },
-    {
-      "at": "2026-10-22T17:58:49.228Z",
-      "screened": 140,
-      "accepted": [],
-      "rejected": [
-        {
-          "title": "Italy and Spain lift border controls after Ceuta tension",
-          "reason": "Passed the test but not the evidence check: only 2 headlines.",
-          "headlines": 2,
-          "publishers": 2
-        },
-        {
-          "title": "DR Congo Ebola outbreak expands as responders strain",
-          "reason": "Passed the test but not the evidence check: only 1 headline, only 1 outlet.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "Germany arrests suspected Russian spy, Merz cites intensive espionage",
-          "reason": "A spy arrest and a general statement from Merz decide nothing and show no concrete cross-border effect yet.",
-          "headlines": 2,
-          "publishers": 2
-        },
-        {
-          "title": "Albanian lawmakers scuffle as protests continue",
-          "reason": "This is a domestic political dispute with no clear effect outside Albania.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "Serbia's student movement ahead of snap elections",
-          "reason": "These are background and profile pieces plus a rally, with no dated decision and no clear cross-border channel.",
-          "headlines": 3,
-          "publishers": 3
-        },
-        {
-          "title": "Musk-Ukraine Starlink clash drives demand for alternatives",
-          "reason": "This is company-centred news with no stated government decision or concrete cross-border change.",
-          "headlines": 2,
-          "publishers": 1
-        },
-        {
-          "title": "ICC wins EU human rights award",
-          "reason": "An award is symbolic and decides nothing on state policy or cross-border flows.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "Hegseth authorizes DHS 'heat ray' test at US-Mexico border",
-          "reason": "This is a domestic equipment test with no clear effect on another country's decisions.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "Trump floats renaming the Atlantic Ocean",
-          "reason": "It is a rhetorical remark that decides nothing.",
-          "headlines": 2,
-          "publishers": 2
-        },
-        {
-          "title": "Guterres urges linking street protests and global turmoil",
-          "reason": "This is commentary, not a development.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "Foreigner beaten to death by mob in South Africa",
-          "reason": "This is a local violent crime with no state action or reported effect abroad.",
-          "headlines": 2,
-          "publishers": 2
-        },
-        {
-          "title": "Trump ordered to give deposition in BBC lawsuit",
-          "reason": "This is a court case with no policy or cross-border effect.",
-          "headlines": 2,
-          "publishers": 2
-        },
-        {
-          "title": "Syrian officers killed in raid on ISIL cell near Damascus",
-          "reason": "This is a small security incident with no reported effect beyond Syria.",
-          "headlines": 1,
-          "publishers": 1
-        }
-      ],
-      "existing": [
-        {
-          "title": "Russia frees American Stephen Hubbard as Trump envoy meets Putin",
-          "reason": "The release came during a US envoy's meeting with Putin and belongs to the ongoing US-Russia summit diplomacy.",
-          "headlines": 2,
-          "publishers": 2,
-          "event": "ukraine-summit-diplomacy"
-        }
-      ],
-      "retired": [],
-      "skipped": ""
     }
   ]
 }

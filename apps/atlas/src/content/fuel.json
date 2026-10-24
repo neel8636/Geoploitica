@@ -88,87 +88,49 @@
     ]
   },
   "alberta-independence-vote": {
-    "at": "2026-10-23T19:00:17.610Z",
+    "at": "2026-10-24T09:01:22.378Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "forever-canadian-rally-held-in-edmonton",
-        "title": "Forever Canadian rally held in Edmonton",
+        "id": "court-quashes-separation-petition-province-appeals",
+        "title": "Court quashes separation petition, province appeals",
         "when": "ongoing",
-        "place": "Edmonton, Alberta",
-        "lat": 53.55,
-        "lon": -113.49,
-        "what": "A Forever Canadian rally took place in Edmonton ahead of the non-binding referendum on Alberta sovereignty, giving visible organised backing to the stay-in-Canada side.",
-        "via": "pro-Canada voter mobilisation",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Forever Canadian Rally, ahead of a non-binding referendum on Alberta sovereignty, in Edmonton",
-            "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPNTlhREh1dVVra3NYSkg4ZkdsaVdZSlpuN01CT3NQRThBMXQ5aHNDNVJSOVIzTGdWRXBqU1NfTVFkNGdULXdJMHhHVkktTmdkbm5CYmJNOEd3T1B4Yk9xVFk2UTJpbHFWYUpzOHQ3bkF1bE5wWDJ4dnQxa2VYNmZySjNIR2pXQm1IVmZyZ1JMdlFKSk9Vd0NtNVRmWVl4NkU0dGlXcjJocDAzT1ROVl90cEdwOEdFQWZjeV9LZWl3Z0lBWllMLU5sUm1EaDVlcmtTVUlzVlVxUk4wd0RlSWI5ZGprV0RCSVhHZzZ6anhYRm1qVzVqSmxUMElyT1c3TlJqMklGTGtLLWlDVlJIQ3BxZG9IRTV0RjBr?oc=5",
-            "publisher": "The Lufkin Daily News"
-          }
-        ]
-      },
-      {
-        "id": "referendum-proposals-target-migrant-workers-rights",
-        "title": "Referendum proposals target migrant workers' rights",
-        "when": "2026-10-22",
         "place": "Alberta",
         "lat": 53.53,
         "lon": -113.49,
-        "what": "Alberta proposals to restrict services and rights by immigration status, after the province welcomed migrant workers, raised worker shortage concerns and widened the referendum beyond separation.",
-        "via": "immigration-policy tension on ballot",
-        "aspect": "jobs",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Alberta welcomed migrant workers. Now, it wants to restrict their rights",
-            "url": "https://www.theguardian.com/world/2026/oct/22/canada-alberta-migrant-workers",
-            "publisher": "The Guardian World"
-          },
-          {
-            "title": "Alberta referendum proposals on immigration-based service restrictions raise worker shortage concerns",
-            "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNYktYSmNHLW9haS03Mkw1Sk90RU9TSENfaHhFYjdrQ3F2WmY1YkRHNS1SeUhzZUdpWlFLMDdMd05NZGVkSEdvVTN4UTFnRjNOZXpBVm9ncUZkdTZ6MWdTNTdNTVRoVndKUVBaZDRxNVdPbDJMNkZtbmJfTUpjcHVrTEI0OGNBWkFCZlRfU2JMY2ZlZktZQnhNLTkzbnNOZW5ldE1DbHluUTNkNzdKOUxtSjBCQkhsMWRaNUVXTERudWI4UnJ3cktHUVZ5b0VMT3lGRGlXcm1WWkdaSjNyUXNFTWtB?oc=5",
-            "publisher": "RED FM Canada"
-          }
-        ]
-      },
-      {
-        "id": "ottawa-unveils-6-2bn-manufacturer-shield-plan",
-        "title": "Ottawa unveils $6.2bn manufacturer shield plan",
-        "when": "2026-10-22",
-        "place": "Ottawa, Ontario",
-        "lat": 45.42,
-        "lon": -75.7,
-        "what": "Canada announced a $6.2bn plan to protect manufacturers as Trump trade tariffs bite, a federal response to the tariff pressure that sharpens grievances with Ottawa.",
-        "via": "federal tariff relief",
-        "aspect": "trade",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Canada unveils $6.2bn plan to shield manufacturers as Trump trade tariffs bite",
-            "url": "https://www.euronews.com/2026/10/22/canada-unveils-62bn-plan-to-shield-manufacturers-as-trump-trade-tariffs-bite",
-            "publisher": "Euronews"
-          }
-        ]
-      },
-      {
-        "id": "jasper-voters-reject-all-nine-proposals",
-        "title": "Jasper voters reject all nine proposals",
-        "when": "2026-10-23",
-        "place": "Jasper, Alberta",
-        "lat": 52.87,
-        "lon": -118.08,
-        "what": "Voters in Jasper rejected all nine Alberta referendum proposals, adding a local no vote to the province-wide tally.",
-        "via": "local no votes",
+        "what": "A court decision quashed the separation petition, the Alberta government appealed, and chiefs and the Opposition are urging it to drop the appeal.",
+        "via": "legal fight over petition",
         "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "Jasper voters reject all nine Alberta referendum proposals",
-            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUmlHOVc1eUFzQ0VPNHFTNnMxR2V2SnBCcTJpZ0xtbUcyRE9abGJWellyTklFY29nVzZ0NGpCSkFaSHRRRzlvYVJtcHhFNE9Rck9LQmNHS1JfcnIwLV9RMWlYQU5RQS10eGxhWDBkeURyTXpBaUdwWWp3Ym5vS2JLbmhQdVJTeUo3MkxDS19UaVVRd0hiWm9nV3BLTnhXRlU?oc=5",
-            "publisher": "Jasper Local"
+            "title": "Chiefs, Opposition call for Alberta government to drop appeal of decision that quashed separation petition",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUjhxRlpYdW9fbXRFNE54UkdjS1gwMVJpbjkxdUpPV2dUTkdnWHRwUmFRaS1KWlhCRHRwdkRJWngyVHdmNUxBTnlGcDhfblItYVJzSXdhZjRSWkUzdjZkdmVrVFFwT2VTRk9oazhTLUlhZ1BJeFVJYW15b1BZamlmR3lwZGdxSzZvQndpN09OY0lLX1NiSUxUeHpXUmNqVEhENGFEMTZR?oc=5",
+            "publisher": "CBC"
+          }
+        ]
+      },
+      {
+        "id": "separatist-leaders-pushed-out-of-alberta-prosperity-project",
+        "title": "Separatist leaders pushed out of Alberta Prosperity Project",
+        "when": "2026-10-23",
+        "place": "Alberta",
+        "lat": 53.53,
+        "lon": -113.49,
+        "what": "Jeffrey Rath and Mitch Sylvestre are reported to have been fired from the Alberta Prosperity Project weeks ago, which they deny.",
+        "via": "split in separatist leadership",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Separatist leaders deny being kicked out of Alberta Prosperity Project",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUW9KMmdoR3lWTEg1QWEwVHhNaGxxWnN3cVgzcjRzd2k1a05OX3FVdFd0YzVpQnpWTF9STHZIcUlRZ2RtYmpNWURpd3RaYWszYktEellxY3M0UWhKcnRuWTdtMHo1amFvV1Uwa0U5Qzd6aWZoUnpnLURYNXlxdHBtMUVzR2xPT05BeUVibjE0WXF1c2VESHpKYnNyMGI2ODhIMzU3aTdBUVZpaVdHRU9hMTE4MHBubW5pVkdxSw?oc=5",
+            "publisher": "CTV News"
+          },
+          {
+            "title": "Jeffrey Rath, Mitch Sylvestre said to be fired from Alberta Prosperity Project weeks ago",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdXdIS3BzTGZoSFRXc3BzdlRMQVROUUcyd1NERWJlT2xOZlhMUExmZExLaUpmcDJfUGFaQ19UcjQ4TmxORmtNMGN1U3VOWHM2Q0FWVlRRUk95czJQeHdacVJMLWI3TVR2S1M2cDN5MTBYaWI5QzRPWHVjd3hTdGxEaEdfVjR2em40OFVpdlg2X1ZnbEVJejk0ZkF6Um0zdTAtQS13YzZOMnphUkQyOC1HZnYwSFdiQ2JUdGhwaA?oc=5",
+            "publisher": "The Globe and Mail"
           }
         ]
       }
@@ -3309,52 +3271,18 @@
     ]
   },
   "serbia-student-election-2026": {
-    "at": "2026-10-23T21:00:30.438Z",
+    "at": "2026-10-24T09:01:22.378Z",
     "by": "pipeline",
     "items": [
-      {
-        "id": "final-student-led-rally-fills-belgrade",
-        "title": "Final student-led rally fills Belgrade",
-        "when": "2026-10-22",
-        "place": "Belgrade",
-        "lat": 44.82,
-        "lon": 20.46,
-        "what": "Thousands of students gathered in Belgrade for the final student-led rally before the vote, with one report putting the crowd at 150,000.",
-        "via": "street mobilisation into votes",
-        "aspect": "politics",
-        "flow": "into",
-        "sources": [
-          {
-            "title": "Drone Visuals Show Thousands Rallying In Serbia Ahead Of Key Election",
-            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWlRKaHJ3eXN3R3djZnN1QWlYYjNTRnZZTjQ2NmladjlGQUl3ZDFyb2lDTXRXNUF6Wk5xQ1VhR1ctenNjUTJnLWNZN1hfY2lzNk83SFoxNS1lMmdqWW5nd1R3UzNZclhKNkJING9aM2paaEtmVTBkV3ZWVlB4RUhzN1d0MkhhV2hhcVhoMzU1a0pkdVdtckpaX1BibHVlV0d6N1ZLUkZCeDE?oc=5",
-            "publisher": "NDTV"
-          },
-          {
-            "title": "Serbia: 150,000 Rally in Student-Led Protest Ahead of Sunday’s Election",
-            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPY3B2SGFEZWFFcXVGd0lNRzVlYnZ4bjlnYUFpMVZmNWtYdW5CWFNyQzhTbXZNdUtESU1kTy1DZlgydG0zb3ZoeVNXbmRLc2E0T2QySllSTjl4SFF0QktLNDhFVE5IcDhsV0VJWGF2elhmWUdyanBvbkUwNl9PVnBoWmFTVzJrcTVReDZtRWFvSjhfODUzRXdLb0sxclpldWUxTy1DN1kyMm5ka3RyeEp6eVdqQV96UzZ6bjE4?oc=5",
-            "publisher": "Democracy Now!"
-          },
-          {
-            "title": "Serbia: Student protesters flood Belgrade ahead of snap elections",
-            "url": "https://www.euronews.com/video/2026/10/22/serbia-student-protesters-flood-belgrade-ahead-of-snap-elections",
-            "publisher": "Euronews"
-          },
-          {
-            "title": "Thousands gather at final student-led rally ahead of Serbia election",
-            "url": "https://www.aljazeera.com/news/2026/10/22/thousands-gather-at-final-student-led-rally-ahead-of-serbia-election?traffic_source=rss",
-            "publisher": "Al Jazeera"
-          }
-        ]
-      },
       {
         "id": "observers-warn-of-possible-election-violence",
         "title": "Observers warn of possible election violence",
         "when": "2026-10-23",
-        "place": "Serbia",
+        "place": "Belgrade",
         "lat": 44.8,
         "lon": 20.46,
-        "what": "Election observers warned of potential violence as Serbia prepares to go to the polls, raising tension around Sunday's vote.",
-        "via": "fear of unrest at polls",
+        "what": "Election observers warned that the vote could be marked by violence as Serbia prepares to go to the polls.",
+        "via": "fear of unrest",
         "aspect": "security",
         "flow": "into",
         "sources": [
@@ -3366,21 +3294,83 @@
         ]
       },
       {
-        "id": "youth-movement-fears-a-rigged-vote",
-        "title": "Youth movement fears a rigged vote",
+        "id": "neck-and-neck-race-tightens-pressure-on-vuc-ic",
+        "title": "Neck-and-neck race tightens pressure on Vučić",
         "when": "2026-10-23",
         "place": "Serbia",
         "lat": 44.8,
         "lon": 20.46,
-        "what": "Many in Serbia's youth movement fear the election on Sunday will be rigged, which shapes distrust and turnout plans.",
-        "via": "distrust in vote fairness",
+        "what": "Coverage describes the student movement and Vučić as level going into the vote, making the incumbent's win far less certain.",
+        "via": "tight race pressure",
         "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "Many in Serbia’s Youth Movement Fear a Rigged Election on Sunday",
-            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcnhCQnV1S0tpdGxSM3Q0emdNRVRLNG5CUXFoVXR3WjhITWh5RFEtb2hrcklLM2FDd21FSGxoYXRDb0ItOVZ5Ty11eUlTbEIyb3hHMUJGblFuNm90OXFQRGt4VGRfNEktVWNDazJnMDBNc3Z0MnJDYXJYVDFYd3RBcTNVb0lYeS1mQjJmNlBDaU45RjlBTjNRSg?oc=5",
-            "publisher": "Organized Crime and Corruption Reporting Project | OCCRP"
+            "title": "Serbia Faces Tight Election as Anti-Corruption Student Movement Challenges Incumbent Vučić",
+            "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOMy1YYkJteEFGM3J3QmlyZnFJUjJOUEtGazQ1Z3o2QUlzWngzQnplQ1djSEVQWFZqb0lkSnlVOGNqWHZCNW5JOGl5RUJYUTM3NE5nLXRHUWdTd3UzUVFJS25LQy0zUVJhQ2VPYUVmTlR2TzhVcTRWVC02TnJqdGpmWnN0MkhCbld5cDBhaFJablZCLUNoOUxPVWNZa2Rjb01TWEpMLVQ0RzRybzRKaHNLOEJnaVpEU2NMclVEdEF6X09oUmtzaEY3UkVCNjJXTnZMV0pPaXZ4bXgzRUE?oc=5",
+            "publisher": "Ratopati"
+          },
+          {
+            "title": "Student movement takes Serbia's Vučić to the wire in neck-and-neck election",
+            "url": "https://www.bbc.co.uk/news/articles/cm1dwz311476o?at_medium=RSS&at_campaign=rss",
+            "publisher": "BBC World"
+          }
+        ]
+      },
+      {
+        "id": "putin-s-long-running-backing-of-vuc-ic",
+        "title": "Putin's long-running backing of Vučić",
+        "when": "ongoing",
+        "place": "Moscow",
+        "lat": 55.75,
+        "lon": 37.62,
+        "what": "Russian President Putin has supported Vučić ahead of elections for more than a decade, tying the vote to Serbia's alignment with Russia.",
+        "via": "Russian political backing",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Putin Has Backed Serbia’s Aleksandar Vucic Ahead of Elections for More Than a Decade",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX1pZaGZwNDBtWldVbTFOSzBBcXFtei01SXZmSU9BQlluc1VXQmMtQUN0c19mN1ZqbHB4dGpvSzVqbXl5MDlTSVZnR1VjSW1JLWpNd1hvcnA5VE9MRmtIV1p1ZWlZY0dwaWRmbWxQbE05eXZDdXRNMW84dDhmcTFfRnVuVWpyX2ZlYWVvc2ZKN19zTTFxUkJ0Rw?oc=5",
+            "publisher": "BGNES"
+          }
+        ]
+      },
+      {
+        "id": "diaspora-voters-travel-across-canada-to-vote",
+        "title": "Diaspora voters travel across Canada to vote",
+        "when": "2026-10-23",
+        "place": "Vancouver",
+        "lat": 49.28,
+        "lon": -123.12,
+        "what": "Serbians in Vancouver are set to fly to Toronto to cast ballots in the parliamentary election, showing diaspora turnout effort.",
+        "via": "diaspora voter turnout",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Serbians set to fly from Vancouver to Toronto to vote in parliamentary election",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOa0llbVRJd0FMOXVJWm1MdFJjOFZldHIxUERVcjI5aHlxVVNQeWhfc01FcXlyLTctOTBmRlVncW9GQXMxNlNxQUFEMGtxRkpoQjlRblFUaFBMMjRMdzd6SnlUZzVqd1JFZ25sVWZueV9QR3ZINnltdU5zekxma3MzVE9JQ3VQNzhPQVphckpybUVpZw?oc=5",
+            "publisher": "CBC"
+          }
+        ]
+      },
+      {
+        "id": "vuc-ic-s-intervention-in-trump-tower-project",
+        "title": "Vučić's intervention in Trump Tower project",
+        "when": "2026-10-23",
+        "place": "Belgrade",
+        "lat": 44.8,
+        "lon": 20.46,
+        "what": "Vučić's controversial intervention in Belgrade's Trump Tower project adds to the criticism of his rule that the opposition movement is campaigning on.",
+        "via": "corruption allegations",
+        "aspect": "politics",
+        "flow": "into",
+        "sources": [
+          {
+            "title": "Vučić’s controversial intervention in Belgrade’s Trump Tower project",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaVNXanQ4alZubUNodlJLc045dXBpVFhhRnVTSExRUjNQYTVseC01SVVSSHA1MkFQOEw3SmVkcmsyWGduR09BMXVWcEFiQ0lESnVRcXdhRnNkS1haejdPOXVjcmUtaHcwbExGb0U3WmtBanZsc2ZPTUVKQ1BqaHRoMWk3U3lEeHhtY0lyRklBcHVURm5JVzMzVlJqS3Q1d1M1?oc=5",
+            "publisher": "European Interest"
           }
         ]
       }
@@ -3534,54 +3524,69 @@
     ]
   },
   "west-bank-lockdown-hebron-2026": {
-    "at": "2026-10-23T21:00:30.438Z",
+    "at": "2026-10-24T09:01:22.378Z",
     "by": "pipeline",
     "items": [
       {
-        "id": "two-israeli-soldiers-shot-dead-in-hebron",
-        "title": "Two Israeli soldiers shot dead in Hebron",
+        "id": "two-soldiers-shot-dead-near-hebron",
+        "title": "Two soldiers shot dead near Hebron",
         "when": "2026-10-23",
         "place": "Hebron, West Bank",
         "lat": 31.53,
         "lon": 35.1,
-        "what": "Two Israeli soldiers were shot dead in Hebron, the attack that prompted the West Bank closure and the demolition of Palestinian buildings.",
-        "via": "retaliatory security response",
+        "what": "Two Israeli soldiers were killed in a shooting attack near Hebron, and two gunmen were also killed, prompting Netanyahu to order a closure of the West Bank.",
+        "via": "deadly attack triggering closure",
         "aspect": "security",
         "flow": "into",
         "sources": [
+          {
+            "title": "Israeli military says 2 soldiers were killed in West Bank attack that also left 2 gunmen dead",
+            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUU10ZzZIODMwNWxTQWN0dm55NUVrYV94T2tlajc3OGlSR1luUlBlZUh5djZiclJWMkdmcHAtSWViYkJSZHJrU0N5TFBkdEZhdTJCRWxlNkFLQlJ6RTRUZTM3ZU1RR3hUUzg4bTh4dkptQ3RoakJSVWJzTmVtWHk0WU1iUGdPdk9nV0NWVGt1aGdWVmJ3bUc4UHVB?oc=5",
+            "publisher": "AP News"
+          },
+          {
+            "title": "Israel orders sweeping West Bank operation after military says 2 soldiers were killed in attack that left 2 gunmen dead",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN3dwb0R4Z1VVa2VJenltT3B4WWEzS0xsc2Q5SmY0eEEwNy1FN2J6RlZDZE1DaUhzOTdKeHNuckEtMkJvYk0yS2VfRmtBQmhuT3VpcU5CMDFPWlBIYWRDU25XaU51SHJ5cVF2NHkxNGdLb3AtVkpuaHhOR2ZpQjk3aWd2Ni1NY04zM1dLNUxYVlctdWZnUE1RR1N5Q1dsUzF3em1pWjlqUUxpQS1p?oc=5",
+            "publisher": "NBC News"
+          },
+          {
+            "title": "Netanyahu orders closure of West Bank after shooting kills 2 Israeli soldiers",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVjlHbEhIWm9pQ1h0b3UxOWVlaUhSQW9nNjd1RXpBQUdfZkoxTDV4Tm9PcU9ycHppTktJWXdKUWJ6a0lpQl9uSl9WRGVJejRCUW9RS2U1SWVLcE56LUlwUVg0WHdJOXVLQWE4WWVOa0c5SFBsYkF2dFoxbnVJNUwtbkJtcTdacG9hZHphZnRhNG9YWlFhZHlWNGJ5TVhENEExek90aUtIbUVLeWQ2a0ZXMmFlVQ?oc=5",
+            "publisher": "The Hill"
+          },
+          {
+            "title": "Israel orders closure of West Bank after two soldiers are killed",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRi1Lcy1sTjA1ZGljQ3Z0M3ZEM0RpaTJZYWlNdVVXbHduNmJBdEZ5b3YxT09rVW9QRDNrWFo4NnFmTDNzcXAyckQ4SDdkZkllTjlTMlY4Vm1UdHNxc2s5djFQVEMxVlJLQWViR0VUSHdOSmFUS0w2bzVuaXplQi05YVUtc0xtaF9sVUg4SmNnMzZHeUdnam9j?oc=5",
+            "publisher": "CNN"
+          },
           {
             "title": "Israel locks down occupied West Bank after Hebron shooting",
             "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/israel-locks-down-occupied-west-bank-after-hebron-shooting?traffic_source=rss",
             "publisher": "Al Jazeera"
           },
           {
-            "title": "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
-            "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss",
-            "publisher": "BBC World"
-          },
-          {
-            "title": "West Bank: Guterres alarmed as Israel imposes sweeping closures after deadly Hebron attack",
-            "url": "https://news.un.org/feed/view/en/story/2026/10/1168660",
-            "publisher": "UN News"
+            "title": "Israel kills two gunmen near Hebron, orders security lockdown across West Bank",
+            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMUtHUE45RWIzcGkwNFh3bWdERkp1VGpMUzJQMnJiSjJiLVlienYydU82aFpXZV9IWWY1QXBfMndmbERLVzJsV1hFTGk2RFJOX1JfLUpnX2xJSDJiRkNpeGRRN0Mtd3lGdlo1dHRBS2prMlpxMWtIbFlscjduMlZjVU4xam42U0JJVUR4VUJJRGVzcjFmMV9CWmhsRTJrZTgydTN6MElrNUF0M0JXNl95cXlCZmhITFZkaVF4OVA1RkY3RmJYeTRIdTB0cVV2NlU?oc=5",
+            "publisher": "Mid-Day"
           }
         ]
       },
       {
-        "id": "two-men-behind-alleged-attack-killed-by-soldiers",
-        "title": "Two men behind alleged attack killed by soldiers",
+        "id": "netanyahu-weighs-operation-ahead-of-elections",
+        "title": "Netanyahu weighs operation ahead of elections",
         "when": "2026-10-23",
-        "place": "Hebron, West Bank",
-        "lat": 31.53,
-        "lon": 35.1,
-        "what": "Israeli soldiers killed two men they said were behind the alleged attack, as the government ordered the West Bank closed.",
-        "via": "military escalation after attack",
-        "aspect": "security",
+        "place": "Jerusalem",
+        "lat": 31.77,
+        "lon": 35.21,
+        "what": "Netanyahu is considering a major West Bank operation with elections approaching, and one report quotes a view that politically it will not help anybody.",
+        "via": "election-season political pressure",
+        "aspect": "politics",
         "flow": "into",
         "sources": [
           {
-            "title": "Israel orders closure of West Bank after soldiers kill 2 men behind an alleged attack",
-            "url": "https://www.npr.org/2026/10/23/nx-s1-6013333/netanyahu-closure-west-bank",
-            "publisher": "NPR World"
+            "title": "Netanyahu weighs West Bank operation ahead of elections: ‘Politically, it will not help anybody’",
+            "url": "https://www.france24.com/en/tv-shows/spotlight/20261023-netanyahu-weighs-west-bank-operation-ahead-of-elections-politically-it-will-not-help-anybody",
+            "publisher": "France 24"
           }
         ]
       }
