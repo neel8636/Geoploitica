@@ -1960,6 +1960,15 @@
   },
   "runs": [
     {
+      "at": "2026-10-24T05:00:54.107Z",
+      "screened": 0,
+      "accepted": [],
+      "rejected": [],
+      "existing": [],
+      "retired": [],
+      "skipped": "only 4 new uncovered headlines"
+    },
+    {
       "at": "2026-10-24T04:00:59.454Z",
       "screened": 140,
       "accepted": [],
@@ -3337,110 +3346,6 @@
       "existing": [],
       "retired": [],
       "skipped": "last screen 43 min ago"
-    },
-    {
-      "at": "2026-10-22T14:03:49.910Z",
-      "screened": 140,
-      "accepted": [],
-      "rejected": [
-        {
-          "title": "PHP security flaw triggers global cyber scramble",
-          "reason": "This is a tech and company security story with no state or policy driver, and officials say there are no signs of government systems being hacked.",
-          "headlines": 8,
-          "publishers": 7
-        },
-        {
-          "title": "France reports first human Shamonda virus case",
-          "reason": "A single case with officials saying there is no public health risk has no cross-border ripple.",
-          "headlines": 3,
-          "publishers": 3
-        },
-        {
-          "title": "El Salvador launches military operation in Haiti to free hostages",
-          "reason": "It is a small rescue operation for four technicians with little wider effect on other countries' decisions or on trade or migration.",
-          "headlines": 3,
-          "publishers": 3
-        },
-        {
-          "title": "Nigeria confirms its first Ebola case",
-          "reason": "It is a single imported case with no reported state response or cross-border measures yet, so the ripple is too thin.",
-          "headlines": 2,
-          "publishers": 2
-        },
-        {
-          "title": "Turkiye-Libya maritime deal explainer",
-          "reason": "The headline is an explainer, not a reported development with a date or decision.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "Ireland votes to drop UN approval for overseas peacekeeping",
-          "reason": "It is a domestic policy change with no clear channel to other countries, and the headline does not show wider consequences.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "Mexican ex-prosecutor charged with treason over US drug raid",
-          "reason": "It is a domestic court case, and the headline shows no policy effect abroad.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "Trump denies ordering Starlink slowdown in Ukraine",
-          "reason": "It is a denial of an unverified claim, with no decision or confirmed action reported.",
-          "headlines": 2,
-          "publishers": 1
-        },
-        {
-          "title": "Serbian student protesters rally ahead of snap elections",
-          "reason": "It is a domestic protest with no stated cross-border channel.",
-          "headlines": 1,
-          "publishers": 1
-        },
-        {
-          "title": "Israeli actions in Syria and the West Bank",
-          "reason": "These are routine incidents, detentions and analysis pieces with no decision or clear cross-border channel.",
-          "headlines": 4,
-          "publishers": 3
-        },
-        {
-          "title": "India frees 'Cockroach' movement leaders",
-          "reason": "It is a domestic court matter in India with no effect abroad.",
-          "headlines": 2,
-          "publishers": 2
-        },
-        {
-          "title": "Asian and sovereign fund market moves",
-          "reason": "These are market and central-bank-hold stories with no new policy decision and no clear cross-border effect.",
-          "headlines": 4,
-          "publishers": 1
-        }
-      ],
-      "existing": [
-        {
-          "title": "Sudan's drone war and the UN's regional crisis warning",
-          "reason": "These headlines report the escalating Sudan war and renewed peace efforts, which belong to the Sudan crisis event already on the map.",
-          "headlines": 3,
-          "publishers": 3,
-          "event": "sudan-darfur-kordofan-famine-alert"
-        },
-        {
-          "title": "Russia frees American Stephen Hubbard as Trump envoy meets Putin",
-          "reason": "The release came during a Trump envoy's meeting with Putin, which is part of the US-Russia summit diplomacy already mapped.",
-          "headlines": 2,
-          "publishers": 2,
-          "event": "ukraine-summit-diplomacy"
-        },
-        {
-          "title": "Trump economic approval hits record low before midterms",
-          "reason": "This is polling that feeds the US midterms event already on the map.",
-          "headlines": 1,
-          "publishers": 1,
-          "event": "us-midterms-2026"
-        }
-      ],
-      "retired": [],
-      "skipped": ""
     }
   ]
 }
